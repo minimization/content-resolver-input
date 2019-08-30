@@ -1,0 +1,18 @@
+---
+document: feedback-pipeline-install
+version: 0
+data:
+    name: "base"
+    summary: "Testing minimal install"
+    pkgs:
+      - rootfiles
+      - fedora-repos-modular
+      - tar
+      - vim-minimal
+      - dnf
+      - dnf-yum
+      - sssd-client
+      - sudo
+      - glibc-langpack-en
+      - cracklib-dicts
+      - langpacks-en

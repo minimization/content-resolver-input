@@ -1,0 +1,8 @@
+---
+document: feedback-pipeline-install
+version: 0
+data:
+    name: httpd
+    summary: "httpd"
+    pkgs:
+      - httpd

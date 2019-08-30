@@ -1,0 +1,8 @@
+---
+document: feedback-pipeline-install
+version: 0
+data:
+    name: nginx
+    summary: "nginx"
+    pkgs:
+      - nginx
