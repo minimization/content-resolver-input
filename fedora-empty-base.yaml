@@ -1,0 +1,16 @@
+---
+document: feeback-pipeline-base
+version: 1
+data:
+  id: fedora-empty-base
+  name: Empty base
+  versions:
+    'rawhide':
+      source:
+        releasever: 32
+    '31':
+      source:
+        releasever: 31
+    '30':
+      source:
+        releasever: 30
