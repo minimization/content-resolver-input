@@ -1,0 +1,41 @@
+---
+document: feeback-pipeline-base
+version: 1
+data:
+  id: fedora-container-base
+  name: Fedora Container Base
+  versions:
+    '31':
+      packages:
+      - rootfiles
+      - fedora-repos-modular
+      - tar
+      - vim-minimal
+      - dnf
+      - dnf-yum
+      - sssd-client
+      - sudo
+      - glibc-minimal-langpack
+      - langpacks-en
+      options:
+      - no-docs
+      - no-weak-deps
+      source:
+        releasever: 31
+    '30':
+      packages:
+      - rootfiles
+      - fedora-repos-modular
+      - tar
+      - vim-minimal
+      - dnf
+      - dnf-yum
+      - sssd-client
+      - sudo
+      - glibc-minimal-langpack
+      - langpacks-en
+      options:
+      - no-docs
+      - no-weak-deps
+      source:
+        releasever: 30

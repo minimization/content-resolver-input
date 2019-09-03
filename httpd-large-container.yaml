@@ -1,0 +1,11 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: httpd-large-container
+  name: httpd with weak deps
+  packages:
+  - httpd
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
