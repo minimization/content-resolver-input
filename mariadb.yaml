@@ -1,0 +1,15 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: mariadb
+  name: MariaDB
+  packages:
+  - mariadb
+  - mariadb-server
+  options:
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide

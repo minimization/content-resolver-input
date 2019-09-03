@@ -2,13 +2,14 @@
 document: feeback-pipeline-use-case
 version: 1
 data:
-  id: httpd-container
-  name: httpd container
+  id: postgresql
+  name: PostgreSQL
   packages:
-  - httpd
+  - postgresql
+  - postgresql-server
   options:
   - no-docs
-  - no-weak-deps
   install_on:
   - fedora-container-base:30
   - fedora-container-base:31
+  - fedora-container-base:rawhide

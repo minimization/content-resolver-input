@@ -1,0 +1,14 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: nginx
+  name: Nginx
+  packages:
+  - nginx
+  options:
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide
