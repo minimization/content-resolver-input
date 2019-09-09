@@ -2,8 +2,8 @@
 document: feeback-pipeline-use-case
 version: 1
 data:
-  id: iot
-  name: IoT
+  id: iot-x86_64
+  name: IoT x86_64 server
   packages:
   - attr
   - audit
@@ -27,6 +27,7 @@ data:
   - dracut-config-generic
   - dracut-network
   - e2fsprogs
+  - efibootmgr
   - fedora-release-iot
   - firewalld
   - fwupd
@@ -37,6 +38,8 @@ data:
   - greenboot-reboot
   - greenboot-rpm-ostree-grub2
   - greenboot-status
+  - grub2
+  - grub2-efi-x64
   - gzip
   - hostname
   - initial-setup
@@ -44,6 +47,18 @@ data:
   - iptables
   - iputils
   - iwd
+  - iwl1000-firmware
+  - iwl100-firmware
+  - iwl105-firmware
+  - iwl135-firmware
+  - iwl2000-firmware
+  - iwl2030-firmware
+  - iwl3160-firmware
+  - iwl5000-firmware
+  - iwl5150-firmware
+  - iwl6000-firmware
+  - iwl6050-firmware
+  - iwl7260-firmware
   - kernel
   - kernel-tools
   - keyutils
@@ -51,6 +66,7 @@ data:
   - libgpiod-utils
   - libsss_sudo
   - lvm2
+  - microcode_ctl
   - NetworkManager
   - NetworkManager-wifi
   - NetworkManager-wwan
@@ -75,6 +91,7 @@ data:
   - setools-console
   - setup
   - shadow-utils
+  - shim-x64
   - skopeo
   - slirp4netns
   - sssd-client
