@@ -1,0 +1,19 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: nginx-container-noweak
+  name: Nginx Container (no weak deps)
+  packages:
+  - nginx
+  - gettext
+  - hostname
+  - nss_wrapper
+  - bind-utils
+  options:
+  - no-weak-deps
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide

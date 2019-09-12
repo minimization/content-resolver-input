@@ -1,0 +1,20 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: httpd-container
+  name: Apache HTTP Container
+  packages:
+  - httpd
+  - mod_ssl
+  - yum-utils
+  - gettext
+  - hostname
+  - nss_wrapper
+  - bind-utils
+  options:
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide

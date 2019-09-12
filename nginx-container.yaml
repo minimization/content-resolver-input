@@ -1,0 +1,18 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: nginx-container
+  name: Nginx Container
+  packages:
+  - nginx
+  - gettext
+  - hostname
+  - nss_wrapper
+  - bind-utils
+  options:
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide

@@ -1,0 +1,21 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: mariadb-container-noweak
+  name: MariaDB Container (no weak deps)
+  packages:
+  - mariadb-server
+  - rsyncs
+  - tar
+  - gettext
+  - hostname
+  - bind-utils
+  - policycoreutils
+  options:
+  - no-weak-deps
+  - no-docs
+  install_on:
+  - fedora-container-base:30
+  - fedora-container-base:31
+  - fedora-container-base:rawhide
