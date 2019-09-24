@@ -6,11 +6,11 @@ data:
   name: MariaDB Container
   packages:
   - mariadb-server
-  - rsyncs
+  - rsync
   - tar
   - gettext
-  - hostname
   - bind-utils
+  - hostname
   - policycoreutils
   options:
   - no-docs

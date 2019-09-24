@@ -6,7 +6,7 @@ data:
   name: MariaDB Container (no weak deps)
   packages:
   - mariadb-server
-  - rsyncs
+  - rsync
   - tar
   - gettext
   - hostname
