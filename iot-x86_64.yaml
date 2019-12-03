@@ -13,11 +13,11 @@ data:
   - bash-completion
   - bluez
   - bluez-libs
+  - bluez-mesh
   - chrony
   - clevis
   - clevis-dracut
   - clevis-luks
-  - cloud-utils-growpart
   - container-selinux
   - coreutils
   - criu
@@ -42,7 +42,7 @@ data:
   - grub2-efi-x64
   - gzip
   - hostname
-  - initial-setup
+  - ignition
   - iproute
   - iptables
   - iputils
