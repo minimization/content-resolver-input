@@ -13,6 +13,7 @@ data:
   - bash-completion
   - bluez
   - bluez-libs
+  - bluez-mesh
   - chrony
   - clevis
   - clevis-dracut
