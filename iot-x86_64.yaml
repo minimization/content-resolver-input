@@ -31,6 +31,8 @@ data:
   - fedora-release-iot
   - firewalld
   - fwupd
+  - fwupdate
+  - fwupdate-efi
   - glibc
   - gnupg2
   - greenboot
@@ -45,8 +47,8 @@ data:
   - initial-setup
   - iproute
   - iptables
+  - iptables-services
   - iputils
-  - iwd
   - iwl1000-firmware
   - iwl100-firmware
   - iwl105-firmware
@@ -105,7 +107,6 @@ data:
   - vim-minimal
   - which
   - wpan-tools
-  - wpa_supplicant
   - xz
   - zram
   options:
