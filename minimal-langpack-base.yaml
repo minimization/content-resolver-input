@@ -1,0 +1,17 @@
+---
+document: minimal-langpack-base
+version: 1
+data:
+  id: glibc minimal langpack
+  name: Empty base
+  versions:
+    'rawhide':
+      packages:
+      - glibc-minimal-langpack
+      source:
+        releasever: 32
+    '31':
+      packages:
+      - glibc-minimal-langpack
+      source:
+        releasever: 31
