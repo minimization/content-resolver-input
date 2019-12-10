@@ -39,20 +39,3 @@ data:
       - no-weak-deps
       source:
         releasever: 31
-    '30':
-      packages:
-      - rootfiles
-      - fedora-repos-modular
-      - tar
-      - vim-minimal
-      - dnf
-      - dnf-yum
-      - sssd-client
-      - sudo
-      - glibc-minimal-langpack
-      - langpacks-en
-      options:
-      - no-docs
-      - no-weak-deps
-      source:
-        releasever: 30

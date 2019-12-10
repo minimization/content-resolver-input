@@ -18,10 +18,8 @@ data:
   - no-weak-deps
   - no-docs
   install_on:
-  - fedora-container-base:30
   - fedora-container-base:31
   - fedora-container-base:rawhide
-  - fedora-empty-base:30
   - fedora-empty-base:31
   - fedora-empty-base:rawhide
   - minimal-langpack-base:31

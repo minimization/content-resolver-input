@@ -11,6 +11,3 @@ data:
     '31':
       source:
         releasever: 31
-    '30':
-      source:
-        releasever: 30
