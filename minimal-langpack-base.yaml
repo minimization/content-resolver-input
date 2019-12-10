@@ -1,9 +1,9 @@
 ---
-document: minimal-langpack-base
+document: feeback-pipeline-base
 version: 1
 data:
-  id: glibc minimal langpack
-  name: Empty base
+  id: minimal-langpack-base
+  name: Minimal Langpack Base
   versions:
     'rawhide':
       packages:
