@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: httpd-container
-  name: Apache HTTP Container
+  name: Apache httpd container
   packages:
   - httpd
   - mod_ssl

@@ -2,18 +2,10 @@
 document: feeback-pipeline-use-case
 version: 1
 data:
-  id: postgresql-container
-  name: PostgreSQL container
+  id: mariadb
+  name: MariaDB
   packages:
-  - postgresql-server
-  - postgresql-contrib
-  - rsync
-  - tar
-  - gettext
-  - bind-utils
-  - nss_wrapper
-  - findutils
-  - python2
+  - mariadb-server
   options:
   - no-docs
   install_on:

@@ -3,14 +3,14 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: mariadb-container-noweak
-  name: MariaDB Container (no weak deps)
+  name: MariaDB container (no weak deps)
   packages:
   - mariadb-server
   - rsync
   - tar
   - gettext
-  - hostname
   - bind-utils
+  - hostname
   - policycoreutils
   options:
   - no-weak-deps
