@@ -2,19 +2,12 @@
 document: feeback-pipeline-use-case
 version: 1
 data:
-  id: postgresql-container
-  name: PostgreSQL container
+  id: nginx-noweak
+  name: Nginx (no weak deps)
   packages:
-  - postgresql-server
-  - postgresql-contrib
-  - rsync
-  - tar
-  - gettext
-  - bind-utils
-  - nss_wrapper
-  - findutils
-  - python2
+  - nginx
   options:
+  - no-weak-deps
   - no-docs
   install_on:
   - fedora-container-base:31

@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: nginx-container-noweak
-  name: Nginx Container (no weak deps)
+  name: Nginx container (no weak deps)
   packages:
   - nginx
   - gettext

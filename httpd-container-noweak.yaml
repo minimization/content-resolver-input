@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: httpd-container-noweak
-  name: Apache HTTP Container (no weak deps)
+  name: Apache httpd container (no weak deps)
   packages:
   - httpd
   - mod_ssl

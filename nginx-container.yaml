@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: nginx-container
-  name: Nginx Container
+  name: Nginx container
   packages:
   - nginx
   - gettext

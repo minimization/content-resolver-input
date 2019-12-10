@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: mariadb-container
-  name: MariaDB Container
+  name: MariaDB container
   packages:
   - mariadb-server
   - rsync

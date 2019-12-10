@@ -3,7 +3,7 @@ document: feeback-pipeline-use-case
 version: 1
 data:
   id: postgresql-container-noweak
-  name: PostgreSQL Container (no weak deps)
+  name: PostgreSQL container (no weak deps)
   packages:
   - postgresql-server
   - postgresql-contrib
