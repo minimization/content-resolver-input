@@ -1,0 +1,19 @@
+---
+document: feeback-pipeline-use-case
+version: 1
+data:
+  id: freeipa-trust-controller
+  name: FreeIPA Trust Controller
+  packages:
+  - freeipa-server
+  - freeipa-server-dns
+  - freeipa-trust-ad
+  options:
+  - no-docs
+  install_on:
+  - fedora-container-base:31
+  - fedora-container-base:rawhide
+  - fedora-empty-base:31
+  - fedora-empty-base:rawhide
+  - minimal-langpack-base:31
+  - minimal-langpack-base:rawhide
