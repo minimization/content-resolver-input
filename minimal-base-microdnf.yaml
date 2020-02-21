@@ -3,7 +3,7 @@ document: feeback-pipeline-base
 version: 1
 data:
   id: minimal-base-microdnf
-  name: Minimal Base microdnf
+  name: Minimal Base with microdnf
   versions:
     'rawhide':
       packages:

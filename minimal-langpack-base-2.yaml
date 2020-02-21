@@ -2,12 +2,13 @@
 document: feeback-pipeline-base
 version: 1
 data:
-  id: minimal-langpack-base
-  name: Minimal Base
+  id: minimal-langpack-base-2
+  name: Minimal Base 2
   versions:
     'rawhide':
       packages:
       - glibc-minimal-langpack
+      - coreutils-single
       options:
       - no-docs
       - no-weak-deps
@@ -16,6 +17,7 @@ data:
     '31':
       packages:
       - glibc-minimal-langpack
+      - coreutils-single
       options:
       - no-docs
       - no-weak-deps
