@@ -2,7 +2,7 @@
 document: feeback-pipeline-base
 version: 1
 data:
-  id: minimal-base-dnf
+  id: minimal-base-2-dnf
   name: Minimal Base 2 with dnf
   versions:
     'rawhide':
