@@ -19,3 +19,5 @@ data:
   - fedora-empty-base:rawhide
   - minimal-langpack-base:31
   - minimal-langpack-base:rawhide
+  - minimal-langpack-base-2:31
+  - minimal-langpack-base-2:rawhide
