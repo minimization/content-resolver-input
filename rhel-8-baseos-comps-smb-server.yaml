@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-smb-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group smb-server for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - samba
+  - samba-client
+document: feedback-pipeline-use-case
+version: 1

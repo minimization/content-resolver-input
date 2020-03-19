@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-ha
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group ha for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - fence-agents-all
+  - omping
+  - pacemaker
+  - pcs
+document: feedback-pipeline-use-case
+version: 1

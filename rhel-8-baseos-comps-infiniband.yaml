@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-infiniband
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group infiniband for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - libibverbs
+  - libibverbs-utils
+  - librdmacm
+  - librdmacm-utils
+  - rdma-core
+document: feedback-pipeline-use-case
+version: 1

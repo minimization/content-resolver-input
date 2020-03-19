@@ -1,0 +1,24 @@
+---
+data:
+  description: Automatically generated.
+  id: brew-group-livecd-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'brewbuildsystem groups: livecd-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - appliance-tools-minimizer
+  - bash
+  - coreutils
+  - dbus-python
+  - dmraid
+  - dnf
+  - livecd-tools
+  - perl
+  - selinux-policy-targeted
+  - yum
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,77 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-cinnamon-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group cinnamon-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - NetworkManager-adsl
+  - NetworkManager-bluetooth
+  - NetworkManager-iodine-gnome
+  - NetworkManager-l2tp-gnome
+  - NetworkManager-libreswan-gnome
+  - NetworkManager-openconnect-gnome
+  - NetworkManager-openvpn-gnome
+  - NetworkManager-ppp
+  - NetworkManager-pptp-gnome
+  - NetworkManager-vpnc-gnome
+  - NetworkManager-wifi
+  - NetworkManager-wwan
+  - abrt-desktop
+  - abrt-java-connector
+  - alsa-plugins-pulseaudio
+  - blueberry
+  - cinnamon
+  - cinnamon-control-center
+  - cinnamon-screensaver
+  - dnfdragora-updater
+  - eom
+  - fedora-icon-theme
+  - firefox
+  - firewall-config
+  - gnome-calculator
+  - gnome-disk-utility
+  - gnome-screenshot
+  - gnome-system-monitor
+  - gnome-terminal
+  - gstreamer1-plugins-ugly-free
+  - gvfs-archive
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-smb
+  - hexchat
+  - imsettings-cinnamon
+  - initial-setup-gui
+  - metacity
+  - nemo-fileroller
+  - nemo-image-converter
+  - nemo-preview
+  - nm-connection-editor
+  - paper-icon-theme
+  - pidgin
+  - powerline
+  - redshift-gtk
+  - sane-backends-drivers-scanners
+  - setroubleshoot
+  - shotwell
+  - simple-scan
+  - slick-greeter
+  - slick-greeter-cinnamon
+  - system-config-printer
+  - thunderbird
+  - tmux
+  - tmux-powerline
+  - transmission
+  - vim-powerline
+  - xawtv
+  - xdg-user-dirs-gtk
+  - xed
+  - xfburn
+  - xreader
+document: feedback-pipeline-use-case
+version: 1

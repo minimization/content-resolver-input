@@ -1,0 +1,37 @@
+---
+data:
+  description: Automatically generated.
+  id: koji-group-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'kojibuildsystem groups: build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - bzip2
+  - coreutils
+  - cpio
+  - diffutils
+  - fedora-release
+  - findutils
+  - gawk
+  - glibc-minimal-langpack
+  - grep
+  - gzip
+  - info
+  - make
+  - patch
+  - redhat-rpm-config
+  - rpm-build
+  - sed
+  - shadow-utils
+  - tar
+  - unzip
+  - util-linux
+  - which
+  - xz
+document: feedback-pipeline-use-case
+version: 1

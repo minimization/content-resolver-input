@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-mysql
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group mysql for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - mariadb
+document: feedback-pipeline-use-case
+version: 1

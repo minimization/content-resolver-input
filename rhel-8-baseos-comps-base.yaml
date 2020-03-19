@@ -1,0 +1,43 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-base
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group base for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - acl
+  - at
+  - attr
+  - bc
+  - cpio
+  - crontabs
+  - cyrus-sasl-plain
+  - dbus
+  - ed
+  - file
+  - iptstate
+  - irqbalance
+  - kpatch
+  - logrotate
+  - lsof
+  - mcelog
+  - microcode_ctl
+  - net-tools
+  - pciutils
+  - psacct
+  - quota
+  - redhat-release
+  - redhat-release-eula
+  - sudo
+  - symlinks
+  - systemd-udev
+  - tar
+  - tree
+  - util-linux-user
+document: feedback-pipeline-use-case
+version: 1

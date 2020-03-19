@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-lxde-media
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group lxde-media for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - asunder
+  - brasero
+  - lxmusic
+  - pavucontrol
+  - pnmixer
+document: feedback-pipeline-use-case
+version: 1

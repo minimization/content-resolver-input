@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-rust-toolset-rhel8
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module rust-toolset:rhel8 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - rust-toolset
+  - rust
+document: feedback-pipeline-use-case
+version: 1

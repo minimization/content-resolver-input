@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-perl-FCGI-0.78
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module perl-FCGI:0.78 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - perl-FCGI
+document: feedback-pipeline-use-case
+version: 1

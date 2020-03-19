@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-multimedia
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group multimedia for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - PackageKit-gstreamer-plugin
+  - alsa-plugins-pulseaudio
+  - alsa-ucm
+  - alsa-utils
+  - gstreamer1-plugins-bad-free
+  - gstreamer1-plugins-good
+  - pulseaudio
+  - pulseaudio-module-x11
+  - pulseaudio-utils
+document: feedback-pipeline-use-case
+version: 1

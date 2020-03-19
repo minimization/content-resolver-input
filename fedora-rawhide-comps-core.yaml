@@ -1,0 +1,51 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-core
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group core for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - audit
+  - basesystem
+  - bash
+  - coreutils
+  - curl
+  - dhcp-client
+  - dnf
+  - e2fsprogs
+  - filesystem
+  - glibc
+  - hostname
+  - iproute
+  - iputils
+  - kbd
+  - less
+  - man-db
+  - ncurses
+  - openssh-clients
+  - openssh-server
+  - parted
+  - passwd
+  - plymouth
+  - policycoreutils
+  - procps-ng
+  - rootfiles
+  - rpm
+  - selinux-policy-targeted
+  - setup
+  - shadow-utils
+  - sssd-common
+  - sssd-kcm
+  - sudo
+  - systemd
+  - type="mandatory">grubby
+  - util-linux
+  - vim-minimal
+  - yum
+document: feedback-pipeline-use-case
+version: 1

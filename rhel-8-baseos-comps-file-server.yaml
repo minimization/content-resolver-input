@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-file-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group file-server for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cifs-utils
+  - gssproxy
+  - nfs-utils
+  - nfs4-acl-tools
+  - samba
+document: feedback-pipeline-use-case
+version: 1

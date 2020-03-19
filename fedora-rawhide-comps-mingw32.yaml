@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-mingw32
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group mingw32 for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - mingw32-binutils
+  - mingw32-crt
+  - mingw32-filesystem
+  - mingw32-gcc
+  - mingw32-headers
+document: feedback-pipeline-use-case
+version: 1

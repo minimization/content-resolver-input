@@ -1,0 +1,24 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-multimedia
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group multimedia for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - PackageKit-gstreamer-plugin
+  - alsa-plugins-pulseaudio
+  - alsa-ucm
+  - alsa-utils
+  - gstreamer1-plugins-bad-free
+  - gstreamer1-plugins-good
+  - gstreamer1-plugins-ugly-free
+  - pulseaudio
+  - pulseaudio-module-x11
+  - pulseaudio-utils
+document: feedback-pipeline-use-case
+version: 1

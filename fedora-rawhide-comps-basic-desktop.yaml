@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-basic-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group basic-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - adwaita-gtk2-theme
+  - adwaita-icon-theme
+  - awesome
+  - dwm
+  - fedora-icon-theme
+  - i3
+  - initial-setup-gui
+  - lightdm-gtk
+  - metacity
+  - openbox
+  - qtile
+  - ratpoison
+  - xmonad-basic
+document: feedback-pipeline-use-case
+version: 1

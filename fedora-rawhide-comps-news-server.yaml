@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-news-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group news-server for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - inn
+document: feedback-pipeline-use-case
+version: 1

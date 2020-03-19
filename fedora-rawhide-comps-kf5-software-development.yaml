@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-kf5-software-development
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group kf5-software-development for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cmake
+  - extra-cmake-modules
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,22 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-parfait-0.5
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module parfait:0.5 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - log4j12
+  - unit-api
+  - uom-se
+  - parfait
+  - si-units
+  - uom-parent
+  - uom-lib
+  - uom-systems
+document: feedback-pipeline-use-case
+version: 1

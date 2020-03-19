@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  id: koji-group-livemedia-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'kojibuildsystem groups: livemedia-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - coreutils
+  - glibc-all-langpacks
+  - lorax-lmc-novirt
+  - selinux-policy-targeted
+  - shadow-utils
+  - util-linux
+document: feedback-pipeline-use-case
+version: 1

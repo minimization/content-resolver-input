@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-deepin-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-deepin-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - deepin-desktop
+  - deepin-wm
+document: feedback-pipeline-use-case
+version: 1

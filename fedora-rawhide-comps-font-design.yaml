@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-font-design
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group font-design for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - fontforge
+  - xgridfit
+document: feedback-pipeline-use-case
+version: 1

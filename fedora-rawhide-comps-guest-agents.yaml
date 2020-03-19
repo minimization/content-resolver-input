@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-guest-agents
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group guest-agents for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - open-vm-tools
+  - qemu-guest-agent
+document: feedback-pipeline-use-case
+version: 1

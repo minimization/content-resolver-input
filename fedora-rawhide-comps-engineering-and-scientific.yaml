@@ -1,0 +1,28 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-engineering-and-scientific
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group engineering-and-scientific for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - R
+  - gnuplot
+  - gsl
+  - gsl-devel
+  - maxima
+  - octave
+  - python3-matplotlib
+  - python3-scipy
+  - speedcrunch
+  - texmaker
+  - transfig
+  - units
+  - wxMaxima
+  - xfig
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-server-product
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group server-product for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - chrony
+  - polkit
+  - realmd
+  - redhat-release
+  - redhat-release-eula
+  - timedatex
+document: feedback-pipeline-use-case
+version: 1

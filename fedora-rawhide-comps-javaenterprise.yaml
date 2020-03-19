@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-javaenterprise
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group javaenterprise for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - abrt-java-connector
+  - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-devel
+  - jboss-modules
+  - maven
+  - wildfly
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,55 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-lxde-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group lxde-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - adwaita-gtk2-theme
+  - adwaita-icon-theme
+  - clipit
+  - dnfdragora-updater
+  - fedora-icon-theme
+  - firewall-config
+  - galculator
+  - gigolo
+  - gnome-keyring-pam
+  - gpicview
+  - initial-setup-gui
+  - leafpad
+  - lxappearance
+  - lxappearance-obconf
+  - lxde-common
+  - lxdm
+  - lxinput
+  - lxlauncher
+  - lxmenu-data
+  - lxpanel
+  - lxpolkit
+  - lxrandr
+  - lxsession
+  - lxsession-edit
+  - lxtask
+  - lxterminal
+  - network-manager-applet
+  - nm-connection-editor
+  - notification-daemon
+  - obconf
+  - openbox
+  - openssh-askpass
+  - pcmanfm
+  - perl-File-MimeInfo
+  - upower
+  - xarchiver
+  - xcompmgr
+  - xdg-user-dirs-gtk
+  - xpad
+  - xscreensaver-base
+  - xscreensaver-extras
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-kde-telepathy
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group kde-telepathy for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - kaccounts-integration
+  - kaccounts-providers
+  - ktp-accounts-kcm
+  - ktp-approver
+  - ktp-auth-handler
+  - ktp-contact-list
+  - ktp-contact-runner
+  - ktp-desktop-applets
+  - ktp-filetransfer-handler
+  - ktp-kded-integration-module
+  - ktp-send-file
+  - ktp-text-ui
+  - signon-kwallet-extension
+document: feedback-pipeline-use-case
+version: 1

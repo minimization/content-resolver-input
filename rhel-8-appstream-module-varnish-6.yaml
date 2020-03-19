@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-varnish-6
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module varnish:6 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - varnish-modules
+  - varnish
+document: feedback-pipeline-use-case
+version: 1

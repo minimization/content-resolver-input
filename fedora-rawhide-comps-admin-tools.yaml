@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-admin-tools
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group admin-tools for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - abrt-desktop
+  - gnome-disk-utility
+  - setroubleshoot
+  - system-config-language
+document: feedback-pipeline-use-case
+version: 1

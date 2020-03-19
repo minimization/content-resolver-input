@@ -1,0 +1,29 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-virt-rhel
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module virt:rhel for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - nbdkit
+  - seabios
+  - libiscsi
+  - perl-Sys-Virt
+  - libguestfs-winsupport
+  - libvirt
+  - libvirt-dbus
+  - libguestfs
+  - supermin
+  - SLOF
+  - netcf
+  - qemu-kvm
+  - libvirt-python
+  - hivex
+  - sgabios
+document: feedback-pipeline-use-case
+version: 1

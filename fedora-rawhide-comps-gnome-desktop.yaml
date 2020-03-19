@@ -1,0 +1,29 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-gnome-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group gnome-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - dconf
+  - gdm
+  - gedit
+  - gnome-boxes
+  - gnome-control-center
+  - gnome-initial-setup
+  - gnome-session-wayland-session
+  - gnome-session-xsession
+  - gnome-settings-daemon
+  - gnome-shell
+  - gnome-software
+  - gnome-terminal
+  - nautilus
+  - polkit
+  - yelp
+document: feedback-pipeline-use-case
+version: 1

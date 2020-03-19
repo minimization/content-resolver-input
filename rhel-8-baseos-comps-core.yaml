@@ -1,0 +1,59 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-core
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group core for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - audit
+  - basesystem
+  - bash
+  - coreutils
+  - cronie
+  - curl
+  - dnf
+  - e2fsprogs
+  - filesystem
+  - firewalld
+  - glibc
+  - grubby
+  - hostname
+  - initscripts
+  - iproute
+  - iprutils
+  - iputils
+  - irqbalance
+  - kbd
+  - kexec-tools
+  - less
+  - man-db
+  - ncurses
+  - openssh-clients
+  - openssh-server
+  - parted
+  - passwd
+  - policycoreutils
+  - procps-ng
+  - rng-tools
+  - rootfiles
+  - rpm
+  - selinux-policy-targeted
+  - setup
+  - shadow-utils
+  - sssd-common
+  - sssd-kcm
+  - subscription-manager
+  - sudo
+  - systemd
+  - tuned
+  - util-linux
+  - vim-minimal
+  - xfsprogs
+  - yum
+document: feedback-pipeline-use-case
+version: 1

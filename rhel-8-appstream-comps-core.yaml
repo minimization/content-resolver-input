@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-core
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group core for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - dnf-plugin-spacewalk
+  - plymouth
+  - rhn-client-tools
+  - rhn-setup
+  - rhnlib
+  - rhnsd
+  - rsyslog
+document: feedback-pipeline-use-case
+version: 1

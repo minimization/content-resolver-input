@@ -1,0 +1,25 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-platform-devel
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group platform-devel for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - fontconfig-devel
+  - freetype-devel
+  - glib2-devel
+  - glibc-devel
+  - krb5-devel
+  - libpng-devel
+  - ncurses-devel
+  - openldap-devel
+  - openssl-devel
+  - pam-devel
+  - zlib-devel
+document: feedback-pipeline-use-case
+version: 1

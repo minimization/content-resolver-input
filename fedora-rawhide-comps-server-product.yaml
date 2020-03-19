@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-server-product
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group server-product for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - PackageKit
+  - chrony
+  - polkit
+  - realmd
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-compiz
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group compiz for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - ccsm
+  - compiz
+  - compiz-bcop
+  - compiz-manager
+  - compiz-plugins-experimental
+  - compiz-plugins-extra
+  - compiz-plugins-main
+  - compizconfig-python
+  - emerald
+  - emerald-themes
+  - fusion-icon
+  - libcompizconfig
+  - simple-ccsm
+document: feedback-pipeline-use-case
+version: 1

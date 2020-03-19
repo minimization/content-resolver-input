@@ -1,0 +1,22 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-llvm-toolset-rhel8
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module llvm-toolset:rhel8 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - libomp
+  - clang
+  - llvm
+  - lldb
+  - python-lit
+  - llvm-toolset
+  - lld
+  - compiler-rt
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,22 @@
+---
+data:
+  description: Automatically generated.
+  id: koji-group-srpm-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'kojibuildsystem groups: srpm-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - fedora-release
+  - fedpkg-minimal
+  - glibc-minimal-langpack
+  - gnupg2
+  - redhat-rpm-config
+  - rpm-build
+  - shadow-utils
+document: feedback-pipeline-use-case
+version: 1

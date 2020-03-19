@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-print-client
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group print-client for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cups
+  - cups-pk-helper
+  - enscript
+document: feedback-pipeline-use-case
+version: 1

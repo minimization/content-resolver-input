@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-kde
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-kde for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - kdelibs
+  - sddm
+document: feedback-pipeline-use-case
+version: 1

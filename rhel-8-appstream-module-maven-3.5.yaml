@@ -1,0 +1,45 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-maven-3.5
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module maven:3.5 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - maven-resolver
+  - plexus-cipher
+  - geronimo-annotation
+  - plexus-interpolation
+  - guava20
+  - hawtjni
+  - apache-commons-lang3
+  - maven-shared-utils
+  - apache-commons-codec
+  - plexus-sec-dispatcher
+  - cdi-api
+  - maven-wagon
+  - plexus-containers
+  - jansi-native
+  - glassfish-el
+  - httpcomponents-core
+  - aopalliance
+  - httpcomponents-client
+  - plexus-utils
+  - apache-commons-logging
+  - apache-commons-cli
+  - maven
+  - google-guice
+  - jsoup
+  - jboss-interceptors-1.2-api
+  - slf4j
+  - plexus-classworlds
+  - atinject
+  - jansi
+  - apache-commons-io
+  - sisu
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-java
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group java for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - java-1.8.0-openjdk
+document: feedback-pipeline-use-case
+version: 1

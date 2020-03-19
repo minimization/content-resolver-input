@@ -1,0 +1,43 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-xfce-apps
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group xfce-apps for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - catfish
+  - claws-mail
+  - claws-mail-plugins-archive
+  - claws-mail-plugins-att-remover
+  - claws-mail-plugins-attachwarner
+  - claws-mail-plugins-fetchinfo
+  - claws-mail-plugins-mailmbox
+  - claws-mail-plugins-newmail
+  - claws-mail-plugins-notification
+  - claws-mail-plugins-pgp
+  - claws-mail-plugins-rssyl
+  - claws-mail-plugins-smime
+  - claws-mail-plugins-spam-report
+  - claws-mail-plugins-tnef
+  - claws-mail-plugins-vcalendar
+  - evince
+  - firefox
+  - galculator
+  - geany
+  - gparted
+  - mousepad
+  - orage
+  - pidgin
+  - ristretto
+  - seahorse
+  - transmission
+  - xarchiver
+  - xfce4-clipman-plugin
+  - xfce4-dict-plugin
+document: feedback-pipeline-use-case
+version: 1

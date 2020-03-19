@@ -1,0 +1,91 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-standard
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group standard for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - abrt-cli
+  - acl
+  - at
+  - attr
+  - bash-completion
+  - bc
+  - bind-utils
+  - bridge-utils
+  - btrfs-progs
+  - bzip2
+  - cifs-utils
+  - cpio
+  - crontabs
+  - cryptsetup
+  - cyrus-sasl-plain
+  - dbus
+  - deltarpm
+  - dos2unix
+  - dosfstools
+  - ed
+  - ethtool
+  - file
+  - fpaste
+  - fprintd-pam
+  - gnupg2
+  - hunspell
+  - iptstate
+  - irqbalance
+  - jwhois
+  - logrotate
+  - lsof
+  - mailcap
+  - man-pages
+  - mcelog
+  - mdadm
+  - microcode_ctl
+  - mlocate
+  - mtr
+  - nano
+  - net-tools
+  - nfs-utils
+  - nmap-ncat
+  - ntfs-3g
+  - ntfsprogs
+  - opensc
+  - pam_afs_session
+  - passwdqc
+  - pciutils
+  - pinfo
+  - plymouth
+  - psacct
+  - quota
+  - realmd
+  - rng-tools
+  - rsync
+  - rsyslog
+  - smartmontools
+  - sos
+  - sssd
+  - sudo
+  - symlinks
+  - systemd-udev
+  - tar
+  - tcpdump
+  - telnet
+  - time
+  - traceroute
+  - tree
+  - unzip
+  - usbutils
+  - util-linux-user
+  - vconfig
+  - wget
+  - which
+  - wireless-tools
+  - words
+  - zip
+document: feedback-pipeline-use-case
+version: 1

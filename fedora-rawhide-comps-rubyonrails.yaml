@@ -1,0 +1,36 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-rubyonrails
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group rubyonrails for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - nodejs
+  - ruby-devel
+  - rubygem-abrt
+  - rubygem-bcrypt
+  - rubygem-bootsnap
+  - rubygem-byebug
+  - rubygem-capybara
+  - rubygem-coffee-rails
+  - rubygem-jbuilder
+  - rubygem-json
+  - rubygem-listen
+  - rubygem-mini_magick
+  - rubygem-puma
+  - rubygem-rails
+  - rubygem-sass-rails
+  - rubygem-selenium-webdriver
+  - rubygem-spring
+  - rubygem-spring-watcher-listen
+  - rubygem-sqlite3
+  - rubygem-turbolinks
+  - rubygem-uglifier
+  - rubygem-web-console
+document: feedback-pipeline-use-case
+version: 1

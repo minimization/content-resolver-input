@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-graphical-admin-tools
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group graphical-admin-tools for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages: []
+document: feedback-pipeline-use-case
+version: 1

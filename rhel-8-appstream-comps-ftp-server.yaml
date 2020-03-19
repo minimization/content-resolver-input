@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-ftp-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group ftp-server for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - vsftpd
+document: feedback-pipeline-use-case
+version: 1

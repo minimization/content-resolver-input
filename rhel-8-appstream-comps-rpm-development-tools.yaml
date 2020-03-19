@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-rpm-development-tools
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group rpm-development-tools for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - redhat-rpm-config
+  - rpm-build
+document: feedback-pipeline-use-case
+version: 1

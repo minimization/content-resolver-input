@@ -1,0 +1,29 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-sugar-apps
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group sugar-apps for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - sugar-calendario
+  - sugar-castle
+  - sugar-connect
+  - sugar-countries
+  - sugar-deducto
+  - sugar-distance
+  - sugar-flipsticks
+  - sugar-kuku
+  - sugar-labyrinth
+  - sugar-playgo
+  - sugar-pukllanapac
+  - sugar-ruler
+  - sugar-srilanka
+  - sugar-starchart
+  - sugar-view-slides
+document: feedback-pipeline-use-case
+version: 1

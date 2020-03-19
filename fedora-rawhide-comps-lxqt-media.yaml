@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-lxqt-media
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group lxqt-media for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - pavucontrol
+  - pnmixer
+document: feedback-pipeline-use-case
+version: 1

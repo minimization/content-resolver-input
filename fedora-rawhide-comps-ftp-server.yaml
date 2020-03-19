@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-ftp-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group ftp-server for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - vsftpd
+document: feedback-pipeline-use-case
+version: 1

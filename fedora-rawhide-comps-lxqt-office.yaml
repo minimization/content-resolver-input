@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-lxqt-office
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group lxqt-office for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - libreoffice-calc
+  - libreoffice-impress
+  - libreoffice-writer
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-electronic-lab
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group electronic-lab for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages: []
+document: feedback-pipeline-use-case
+version: 1

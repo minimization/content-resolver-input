@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-virtualization-client
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group virtualization-client for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - gnome-boxes
+  - virt-install
+  - virt-manager
+  - virt-viewer
+document: feedback-pipeline-use-case
+version: 1

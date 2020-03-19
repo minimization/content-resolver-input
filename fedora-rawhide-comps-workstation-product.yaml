@@ -1,0 +1,22 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-workstation-product
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group workstation-product for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - dnf
+  - linux-firmware
+  - microcode_ctl
+  - sudo
+  - systemd-udev
+  - tar
+  - xorg-x11-drv-libinput
+  - zram
+document: feedback-pipeline-use-case
+version: 1

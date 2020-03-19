@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-xfce-software-development
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group xfce-software-development for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - libxfce4ui-devel
+  - libxfce4util-devel
+document: feedback-pipeline-use-case
+version: 1

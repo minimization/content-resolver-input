@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-container-management
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group container-management for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - buildah
+  - containernetworking-plugins
+  - podman
+document: feedback-pipeline-use-case
+version: 1

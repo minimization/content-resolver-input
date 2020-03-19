@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-enlightenment-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group enlightenment-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - efl
+  - enlightenment
+  - terminology
+document: feedback-pipeline-use-case
+version: 1

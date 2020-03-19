@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-gnome-apps
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group gnome-apps for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - brasero
+  - brasero-nautilus
+  - rhythmbox
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,34 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-pantheon-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group pantheon-desktop for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cerbere
+  - contractor
+  - gala
+  - gnome-session
+  - pantheon-agent-geoclue2
+  - pantheon-agent-polkit
+  - pantheon-session-settings
+  - plank
+  - wingpanel
+  - wingpanel-applications-menu
+  - wingpanel-indicator-ayatana
+  - wingpanel-indicator-bluetooth
+  - wingpanel-indicator-datetime
+  - wingpanel-indicator-keyboard
+  - wingpanel-indicator-network
+  - wingpanel-indicator-nightlight
+  - wingpanel-indicator-notifications
+  - wingpanel-indicator-power
+  - wingpanel-indicator-session
+  - wingpanel-indicator-sound
+document: feedback-pipeline-use-case
+version: 1

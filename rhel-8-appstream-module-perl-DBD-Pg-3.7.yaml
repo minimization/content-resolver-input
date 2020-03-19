@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-perl-DBD-Pg-3.7
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module perl-DBD-Pg:3.7 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - perl-DBD-Pg
+document: feedback-pipeline-use-case
+version: 1

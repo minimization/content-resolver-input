@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-d-development
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group d-development for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - ldc
+  - ldc-druntime
+  - ldc-druntime-devel
+  - ldc-phobos-devel
+  - make
+  - pkgconf
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,24 @@
+---
+data:
+  description: Automatically generated.
+  id: brew-group-wrapper-rpm-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'brewbuildsystem groups: wrapper-rpm-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - coreutils
+  - redhat-ca-certificate
+  - redhat-release
+  - redhat-rpm-config
+  - rhpkg-simple
+  - rpm-build
+  - shadow-utils
+  - tar
+  - unzip
+document: feedback-pipeline-use-case
+version: 1

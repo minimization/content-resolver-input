@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-389-ds-1.4
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module 389-ds:1.4 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - 389-ds-base
+document: feedback-pipeline-use-case
+version: 1

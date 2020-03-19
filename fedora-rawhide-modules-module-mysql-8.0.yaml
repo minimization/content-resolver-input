@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-modules-module-mysql-8.0
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module mysql:8.0 for fedora-rawhide-modules
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - community-mysql
+document: feedback-pipeline-use-case
+version: 1

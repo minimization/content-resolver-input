@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-dotnet-core
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group dotnet-core for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - dotnet-sdk-2.1
+document: feedback-pipeline-use-case
+version: 1

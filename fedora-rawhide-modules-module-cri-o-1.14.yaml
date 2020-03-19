@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-modules-module-cri-o-1.14
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module cri-o:1.14 for fedora-rawhide-modules
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cri-o
+  - cri-tools
+document: feedback-pipeline-use-case
+version: 1

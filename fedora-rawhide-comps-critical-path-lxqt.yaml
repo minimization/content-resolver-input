@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-lxqt
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-lxqt for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - lxqt-session
+document: feedback-pipeline-use-case
+version: 1

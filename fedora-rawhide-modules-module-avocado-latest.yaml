@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-modules-module-avocado-latest
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module avocado:latest for fedora-rawhide-modules
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - python-avocado
+  - python-aexpect
+document: feedback-pipeline-use-case
+version: 1

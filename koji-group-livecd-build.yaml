@@ -1,0 +1,31 @@
+---
+data:
+  description: Automatically generated.
+  id: koji-group-livecd-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'kojibuildsystem groups: livecd-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - coreutils
+  - fedora-logos
+  - fedora-release
+  - livecd-tools
+  - policycoreutils
+  - python-dbus
+  - sed
+  - selinux-policy-targeted
+  - shadow-utils
+  - squashfs-tools
+  - sssd-client
+  - tar
+  - unzip
+  - util-linux
+  - which
+  - yum
+document: feedback-pipeline-use-case
+version: 1

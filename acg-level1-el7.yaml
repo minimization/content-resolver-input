@@ -1,0 +1,35 @@
+---
+data:
+  description: Automatically generated.
+  id: acg-level1-el7
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: ACG Level 1 Packages for RHEL 7
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - alsa-lib
+  - elfutils-libelf
+  - glibc
+  - glibc-utils
+  - gtk2
+  - krb5-libs
+  - libgcc
+  - libgfortran
+  - libgomp
+  - libstdc++
+  - libusb
+  - libvirt-client
+  - libxml2
+  - libxslt
+  - mesa-libGL
+  - mesa-libGLU
+  - motif
+  - nss_hesiod
+  - pam
+  - SDL
+  - tbb-devel
+document: feedback-pipeline-use-case
+version: 1

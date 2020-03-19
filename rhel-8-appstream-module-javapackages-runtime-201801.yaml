@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-javapackages-runtime-201801
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module javapackages-runtime:201801 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - javapackages-tools
+document: feedback-pipeline-use-case
+version: 1

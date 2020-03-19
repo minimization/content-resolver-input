@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-graphics
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group graphics for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages: []
+document: feedback-pipeline-use-case
+version: 1

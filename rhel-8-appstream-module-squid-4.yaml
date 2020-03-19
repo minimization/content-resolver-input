@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-squid-4
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module squid:4 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - libecap
+  - squid
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-redis-5
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module redis:5 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - redis
+document: feedback-pipeline-use-case
+version: 1

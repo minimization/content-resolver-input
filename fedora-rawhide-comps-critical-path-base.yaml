@@ -1,0 +1,30 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-base
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-base for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - NetworkManager
+  - anaconda
+  - bash
+  - dbus-broker
+  - dnf
+  - dracut
+  - gcc-c++
+  - initial-setup
+  - kernel
+  - livecd-tools
+  - mash
+  - pungi
+  - redhat-rpm-config
+  - rpm-build
+  - selinux-policy
+  - setup
+document: feedback-pipeline-use-case
+version: 1

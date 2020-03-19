@@ -1,0 +1,25 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-fedora-packager
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group fedora-packager for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bodhi-client
+  - curl
+  - fedora-easy-karma
+  - fedora-packager
+  - git
+  - koji
+  - make
+  - mock
+  - redhat-rpm-config
+  - rpm-build
+  - rpmdevtools
+document: feedback-pipeline-use-case
+version: 1

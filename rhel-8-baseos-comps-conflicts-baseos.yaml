@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-conflicts-baseos
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group conflicts-baseos for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - coreutils-single
+  - libcurl-minimal
+document: feedback-pipeline-use-case
+version: 1

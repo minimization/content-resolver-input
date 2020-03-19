@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-performance
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group performance for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - sysstat
+document: feedback-pipeline-use-case
+version: 1

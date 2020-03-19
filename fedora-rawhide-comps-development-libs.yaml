@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-development-libs
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group development-libs for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bzip2-devel
+  - glibc-devel
+  - ncurses-devel
+  - pam-devel
+  - readline-devel
+  - zlib-devel
+document: feedback-pipeline-use-case
+version: 1

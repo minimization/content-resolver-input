@@ -1,0 +1,44 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-workstation-product
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group workstation-product for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - adwaita-qt
+  - bind-utils
+  - evolution
+  - evolution-ews
+  - evolution-help
+  - git
+  - google-noto-emoji-fonts
+  - hunspell
+  - ibus-gtk2
+  - ibus-gtk3
+  - ibus-hangul
+  - ibus-kkc
+  - ibus-libpinyin
+  - ibus-libzhuyin
+  - ibus-m17n
+  - ibus-typing-booster
+  - nmap-ncat
+  - pidgin
+  - pinentry-gnome3
+  - pinfo
+  - plymouth
+  - qgnomeplatform
+  - qt5-qtbase
+  - qt5-qtbase-gui
+  - qt5-qtdeclarative
+  - qt5-qtxmlpatterns
+  - rhythmbox
+  - setroubleshoot
+  - telnet
+  - xorg-x11-drv-libinput
+document: feedback-pipeline-use-case
+version: 1

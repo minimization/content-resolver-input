@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  id: brew-group-appliance-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'brewbuildsystem groups: appliance-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - appliance-tools
+  - bash
+  - coreutils
+  - grub
+  - parted
+  - perl
+  - selinux-policy
+document: feedback-pipeline-use-case
+version: 1

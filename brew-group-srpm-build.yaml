@@ -1,0 +1,24 @@
+---
+data:
+  description: Automatically generated.
+  id: brew-group-srpm-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'brewbuildsystem groups: srpm-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - gnupg2
+  - module-build-macros
+  - redhat-ca-certificate
+  - redhat-release
+  - redhat-rpm-config
+  - rhpkg-simple
+  - rpm-build
+  - scl-utils-build
+  - shadow-utils
+document: feedback-pipeline-use-case
+version: 1

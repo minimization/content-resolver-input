@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-network-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group network-server for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages: []
+document: feedback-pipeline-use-case
+version: 1

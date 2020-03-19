@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-perl-web
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group perl-web for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - ImageMagick-perl
+  - mod_perl
+  - perl
+  - perl-App-cpanminus
+  - perl-CPAN
+  - perl-CPANPLUS
+  - perl-DBD-MySQL
+  - perl-DBD-SQLite
+  - perl-MongoDB
+document: feedback-pipeline-use-case
+version: 1

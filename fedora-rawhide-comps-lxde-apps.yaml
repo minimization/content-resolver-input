@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-lxde-apps
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group lxde-apps for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - midori
+  - pidgin
+  - sylpheed
+  - transmission
+document: feedback-pipeline-use-case
+version: 1

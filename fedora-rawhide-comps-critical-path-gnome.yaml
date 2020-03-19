@@ -1,0 +1,33 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-gnome
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-gnome for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - dconf
+  - gdm
+  - gnome-control-center
+  - gnome-session-xsession
+  - gnome-shell
+  - gnome-terminal
+  - gnome-themes-extra
+  - gvfs-fuse
+  - xorg-x11-drv-ati
+  - xorg-x11-drv-evdev
+  - xorg-x11-drv-fbdev
+  - xorg-x11-drv-intel
+  - xorg-x11-drv-libinput
+  - xorg-x11-drv-nouveau
+  - xorg-x11-drv-qxl
+  - xorg-x11-drv-vesa
+  - xorg-x11-server-Xorg
+  - xorg-x11-xauth
+  - xorg-x11-xinit
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-libreoffice-development
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group libreoffice-development for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages: []
+document: feedback-pipeline-use-case
+version: 1

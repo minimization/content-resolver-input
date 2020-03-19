@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-c-development
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group c-development for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - autoconf
+  - automake
+  - binutils
+  - bison
+  - flex
+  - gcc
+  - gcc-c++
+  - gdb
+  - glibc-devel
+  - libtool
+  - make
+  - pkgconf
+  - strace
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-baseos-comps-gnome-desktop
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group gnome-desktop for rhel-8-baseos
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - ModemManager
+  - NetworkManager-adsl
+  - avahi
+  - glib-networking
+  - polkit
+document: feedback-pipeline-use-case
+version: 1

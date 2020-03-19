@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-x86-baremetal-tools
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group x86-baremetal-tools for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - memtest86+
+  - syslinux
+document: feedback-pipeline-use-case
+version: 1

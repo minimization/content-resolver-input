@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-internet-browser
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group internet-browser for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - firefox
+document: feedback-pipeline-use-case
+version: 1

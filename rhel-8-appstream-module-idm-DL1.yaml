@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-module-idm-DL1
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Module idm:DL1 for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bind-dyndb-ldap
+  - custodia
+  - slapi-nis
+  - python-kdcproxy
+  - python-jwcrypto
+  - softhsm
+  - pyusb
+  - python-yubico
+  - opendnssec
+  - ipa-idoverride-memberof
+  - ipa-healthcheck
+  - ipa
+  - python-qrcode
+document: feedback-pipeline-use-case
+version: 1

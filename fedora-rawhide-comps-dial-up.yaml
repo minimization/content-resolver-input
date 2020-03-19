@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-dial-up
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group dial-up for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - ppp
+document: feedback-pipeline-use-case
+version: 1

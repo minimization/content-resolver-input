@@ -1,0 +1,31 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-gnome-games
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group gnome-games for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - five-or-more
+  - four-in-a-row
+  - gnome-chess
+  - gnome-klotski
+  - gnome-mahjongg
+  - gnome-mines
+  - gnome-nibbles
+  - gnome-robots
+  - gnome-sudoku
+  - gnome-taquin
+  - gnome-tetravex
+  - hitori
+  - iagno
+  - lightsoff
+  - quadrapassel
+  - swell-foop
+  - tali
+document: feedback-pipeline-use-case
+version: 1

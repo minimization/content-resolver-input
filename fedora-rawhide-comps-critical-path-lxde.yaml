@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-critical-path-lxde
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group critical-path-lxde for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - lxde-common
+document: feedback-pipeline-use-case
+version: 1

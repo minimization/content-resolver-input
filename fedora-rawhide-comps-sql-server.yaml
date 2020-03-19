@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  id: fedora-rawhide-comps-sql-server
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group sql-server for fedora-rawhide
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - postgresql
+document: feedback-pipeline-use-case
+version: 1

@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  id: rhel-8-appstream-comps-network-file-system-client
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: Comps group network-file-system-client for rhel-8-appstream
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - cgdcbxd
+  - targetcli
+document: feedback-pipeline-use-case
+version: 1

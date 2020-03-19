@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  id: brew-group-livemedia-build
+  install_on:
+  - fedora-base:rawhide
+  maintainer: bakery
+  name: 'brewbuildsystem groups: livemedia-build'
+  options:
+  - no-docs
+  - no-weak-deps
+  packages:
+  - bash
+  - coreutils
+  - glibc-all-langpacks
+  - lorax-lmc-novirt
+  - selinux-policy-targeted
+  - shadow-utils
+  - util-linux
+document: feedback-pipeline-use-case
+version: 1
