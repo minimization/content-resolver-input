@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-librealsense-rolling
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module librealsense:rolling for fedora-rawhide-modules
   options:

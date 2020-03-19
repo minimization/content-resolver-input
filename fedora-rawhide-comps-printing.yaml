@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-printing
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group printing for fedora-rawhide
   options:
@@ -13,5 +13,18 @@ data:
   - cups
   - cups-filters
   - ghostscript
+  - bluez-cups
+  - colord
+  - cups-pk-helper
+  - foomatic
+  - foomatic-db-ppds
+  - gutenprint
+  - gutenprint-cups
+  - hplip
+  - mpage
+  - nss-mdns
+  - paps
+  - samba-client
+  - system-config-printer-udev
 document: feedback-pipeline-use-case
 version: 1

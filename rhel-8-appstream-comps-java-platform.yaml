@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-java-platform
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group java-platform for rhel-8-appstream
   options:
@@ -11,5 +11,6 @@ data:
   - no-weak-deps
   packages:
   - java-1.8.0-openjdk
+  - icedtea-web
 document: feedback-pipeline-use-case
 version: 1

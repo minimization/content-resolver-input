@@ -3,18 +3,18 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-ruby-master
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module ruby:master for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - rubygem-mongo
-  - rubygem-pg
   - ruby
-  - rubygem-mysql2
+  - rubygem-pg
+  - rubygem-mongo
   - rubygem-bson
+  - rubygem-mysql2
   - rubygem-abrt
 document: feedback-pipeline-use-case
 version: 1

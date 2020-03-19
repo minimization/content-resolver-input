@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-enlightenment-desktop
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group enlightenment-desktop for fedora-rawhide
   options:

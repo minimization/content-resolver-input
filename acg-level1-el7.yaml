@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: acg-level1-el7
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: ACG Level 1 Packages for RHEL 7
   options:

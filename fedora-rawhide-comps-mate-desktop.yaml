@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-mate-desktop
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group mate-desktop for fedora-rawhide
   options:
@@ -128,5 +128,6 @@ data:
   - xdg-user-dirs-gtk
   - xfburn
   - yelp
+  - fedora-release-matecompiz
 document: feedback-pipeline-use-case
 version: 1

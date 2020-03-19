@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-nodejs-12
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module nodejs:12 for fedora-rawhide-modules
   options:
@@ -11,8 +11,8 @@ data:
   - no-weak-deps
   packages:
   - libuv
+  - nodejs
   - nghttp2
   - c-ares
-  - nodejs
 document: feedback-pipeline-use-case
 version: 1

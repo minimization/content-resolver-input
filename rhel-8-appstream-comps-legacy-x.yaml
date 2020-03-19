@@ -3,12 +3,18 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-legacy-x
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group legacy-x for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - libXmu
+  - libXp
+  - motif
+  - xorg-x11-fonts-ISO8859-1-100dpi
+  - xorg-x11-fonts-Type1
+  - xorg-x11-fonts-misc
 document: feedback-pipeline-use-case
 version: 1

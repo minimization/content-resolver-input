@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-dial-up
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group dial-up for rhel-8-baseos
   options:
@@ -11,5 +11,9 @@ data:
   - no-weak-deps
   packages:
   - ppp
+  - ModemManager
+  - NetworkManager-adsl
+  - lrzsz
+  - minicom
 document: feedback-pipeline-use-case
 version: 1

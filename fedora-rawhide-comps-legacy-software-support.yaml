@@ -3,12 +3,14 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-legacy-software-support
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group legacy-software-support for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - compat-libstdc++-296
+  - compat-libstdc++-33
 document: feedback-pipeline-use-case
 version: 1

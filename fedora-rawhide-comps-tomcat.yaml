@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-tomcat
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group tomcat for fedora-rawhide
   options:

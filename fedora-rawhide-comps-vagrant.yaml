@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-vagrant
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group vagrant for fedora-rawhide
   options:
@@ -11,5 +11,6 @@ data:
   - no-weak-deps
   packages:
   - vagrant
+  - vagrant-libvirt
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-nginx-mainline
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module nginx:mainline for fedora-rawhide-modules
   options:

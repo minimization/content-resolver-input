@@ -3,44 +3,44 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-maven-3.6
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module maven:3.6 for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - geronimo-annotation
-  - plexus-cipher
-  - maven-resolver
-  - plexus-interpolation
-  - apache-commons-lang3
-  - maven-shared-utils
-  - hawtjni
-  - apache-commons-codec
-  - guava
-  - maven-wagon
   - plexus-containers
-  - jansi-native
-  - cdi-api
-  - jsr-305
-  - plexus-sec-dispatcher
-  - aopalliance
-  - httpcomponents-core
-  - glassfish-el
-  - apache-commons-logging
-  - plexus-utils
-  - httpcomponents-client
-  - maven
-  - apache-commons-cli
-  - jsoup
-  - google-guice
   - jboss-interceptors-1.2-api
+  - maven-resolver
+  - hawtjni
   - sisu
+  - jsr-305
+  - apache-commons-logging
   - apache-commons-io
-  - jansi
-  - slf4j
+  - plexus-interpolation
+  - apache-commons-codec
+  - plexus-utils
+  - apache-commons-lang3
   - plexus-classworlds
+  - maven
+  - jansi-native
+  - httpcomponents-core
+  - guava
+  - apache-commons-cli
+  - plexus-sec-dispatcher
+  - glassfish-el
+  - aopalliance
+  - slf4j
+  - cdi-api
+  - jansi
+  - plexus-cipher
   - atinject
+  - maven-wagon
+  - jsoup
+  - maven-shared-utils
+  - geronimo-annotation
+  - google-guice
+  - httpcomponents-client
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-gimp-2.8
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module gimp:2.8 for rhel-8-appstream
   options:
@@ -11,8 +11,8 @@ data:
   - no-weak-deps
   packages:
   - pygobject2
-  - gimp
-  - python2-pycairo
   - pygtk2
+  - python2-pycairo
+  - gimp
 document: feedback-pipeline-use-case
 version: 1

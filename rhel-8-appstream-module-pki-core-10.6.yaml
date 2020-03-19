@@ -3,16 +3,16 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-pki-core-10.6
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module pki-core:10.6 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - ldapjdk
-  - tomcatjss
-  - pki-core
   - jss
+  - ldapjdk
+  - pki-core
+  - tomcatjss
 document: feedback-pipeline-use-case
 version: 1

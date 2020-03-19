@@ -3,12 +3,18 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-remote-system-management
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group remote-system-management for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - net-snmp
+  - net-snmp-utils
+  - openwsman-client
+  - sblim-cmpi-base
+  - tog-pegasus
+  - wsmancli
 document: feedback-pipeline-use-case
 version: 1

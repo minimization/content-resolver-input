@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-gnome-desktop
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group gnome-desktop for fedora-rawhide
   options:
@@ -25,5 +25,81 @@ data:
   - nautilus
   - polkit
   - yelp
+  - ModemManager
+  - NetworkManager-adsl
+  - NetworkManager-openconnect-gnome
+  - NetworkManager-openvpn-gnome
+  - NetworkManager-ppp
+  - NetworkManager-pptp-gnome
+  - NetworkManager-ssh-gnome
+  - NetworkManager-vpnc-gnome
+  - NetworkManager-wwan
+  - PackageKit-command-not-found
+  - PackageKit-gtk3-module
+  - adobe-source-code-pro-fonts
+  - at-spi2-atk
+  - at-spi2-core
+  - avahi
+  - baobab
+  - cheese
+  - chrome-gnome-shell
+  - eog
+  - evince
+  - evince-djvu
+  - evince-nautilus
+  - file-roller
+  - file-roller-nautilus
+  - fprintd-pam
+  - glib-networking
+  - gnome-backgrounds
+  - gnome-bluetooth
+  - gnome-calculator
+  - gnome-calendar
+  - gnome-characters
+  - gnome-classic-session
+  - gnome-clocks
+  - gnome-color-manager
+  - gnome-contacts
+  - gnome-disk-utility
+  - gnome-font-viewer
+  - gnome-getting-started-docs
+  - gnome-logs
+  - gnome-maps
+  - gnome-photos
+  - gnome-remote-desktop
+  - gnome-screenshot
+  - gnome-system-monitor
+  - gnome-terminal-nautilus
+  - gnome-themes-extra
+  - gnome-user-docs
+  - gnome-user-share
+  - gnome-weather
+  - gvfs-afc
+  - gvfs-afp
+  - gvfs-archive
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-smb
+  - libcanberra-gtk2
+  - libcanberra-gtk3
+  - libproxy-mozjs
+  - librsvg2
+  - libsane-hpaio
+  - mesa-libEGL
+  - mousetweaks
+  - nautilus-sendto
+  - orca
+  - rygel
+  - sane-backends-drivers-scanners
+  - simple-scan
+  - sushi
+  - totem
+  - tracker
+  - tracker-miners
+  - xdg-desktop-portal
+  - xdg-desktop-portal-gtk
+  - xdg-user-dirs-gtk
 document: feedback-pipeline-use-case
 version: 1

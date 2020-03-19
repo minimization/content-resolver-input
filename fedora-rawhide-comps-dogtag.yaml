@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-dogtag
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group dogtag for fedora-rawhide
   options:
@@ -11,5 +11,8 @@ data:
   - no-weak-deps
   packages:
   - pki-ca
+  - pki-console
+  - pki-kra
+  - pki-ocsp
 document: feedback-pipeline-use-case
 version: 1

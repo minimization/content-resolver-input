@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-ghc-8.8
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module ghc:8.8 for fedora-rawhide-modules
   options:

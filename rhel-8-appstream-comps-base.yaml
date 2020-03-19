@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-base
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group base for rhel-8-appstream
   options:
@@ -13,5 +13,14 @@ data:
   - rsyslog-gnutls
   - rsyslog-gssapi
   - rsyslog-relp
+  - fprintd-pam
+  - insights-client
+  - nmap-ncat
+  - pinfo
+  - plymouth
+  - rhnsd
+  - tcpdump
+  - vim-enhanced
+  - wget
 document: feedback-pipeline-use-case
 version: 1

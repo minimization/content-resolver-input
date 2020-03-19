@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-freeradius-3.0
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module freeradius:3.0 for rhel-8-appstream
   options:

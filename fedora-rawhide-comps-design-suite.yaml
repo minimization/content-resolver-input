@@ -3,12 +3,76 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-design-suite
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group design-suite for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - GraphicsMagick
+  - aajohan-comfortaa-fonts
+  - adobe-source-sans-pro-fonts
+  - astigmatic-grand-hotel-fonts
+  - audacity
+  - blender
+  - campivisivi-titillium-fonts
+  - colord-extra-profiles
+  - darktable
+  - dia
+  - entangle
+  - font-manager
+  - fontforge
+  - gimp
+  - google-roboto-condensed-fonts
+  - google-roboto-fonts
+  - google-roboto-slab-fonts
+  - gpick
+  - hugin
+  - inkscape
+  - julietaula-montserrat-fonts
+  - krita
+  - lato-fonts
+  - nautilus-image-converter
+  - open-sans-fonts
+  - optipng
+  - overpass-fonts
+  - pdfarranger
+  - phatch
+  - pitivi
+  - redhat-display-fonts
+  - redhat-text-fonts
+  - scribus
+  - shotwell
+  - shutter
+  - sparkleshare
+  - synfigstudio
+  - typetype-molot-fonts
+  - xournal
+  - YafaRay-blender
+  - blender-luxcorerender
+  - gimp-data-extras
+  - gimp-dbp
+  - gimp-dds-plugin
+  - gimp-elsamuko
+  - gimp-fourier-plugin
+  - gimp-gap
+  - gimp-help
+  - gimp-high-pass-filter
+  - gimp-layer-via-copy-cut
+  - gimp-lensfun
+  - gimp-lqr-plugin
+  - gimp-normalmap
+  - gimp-paint-studio
+  - gimp-resynthesizer
+  - gimp-save-for-web
+  - gimp-wavelet-denoise-plugin
+  - gimpfx-foundry
+  - gmic-gimp
+  - inkscape-psd
+  - inkscape-sozi
+  - inkscape-table
+  - sane-backends-drivers-scanners
+  - xsane-gimp
 document: feedback-pipeline-use-case
 version: 1

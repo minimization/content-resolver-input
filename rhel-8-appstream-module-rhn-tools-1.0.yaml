@@ -3,25 +3,25 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-rhn-tools-1.0
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module rhn-tools:1.0 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - osad
-  - spacewalk-remote-utils
-  - spacewalk-client-cert
   - rhn-custom-info
+  - spacewalk-remote-utils
+  - osad
   - spacewalk-koan
   - rhncfg
-  - spacewalk-abrt
-  - rhn-virtualization
   - spacewalk-oscap
-  - rhnpush
   - spacewalk-backend
+  - rhnpush
   - spacewalk-usix
+  - rhn-virtualization
+  - spacewalk-client-cert
+  - spacewalk-abrt
   - cobbler
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-perl-FCGI-0.78
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module perl-FCGI:0.78 for rhel-8-appstream
   options:

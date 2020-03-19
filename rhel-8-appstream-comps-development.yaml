@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group development for rhel-8-appstream
   options:
@@ -20,5 +20,21 @@ data:
   - libtool
   - redhat-rpm-config
   - rpm-build
+  - asciidoc
+  - byacc
+  - ctags
+  - diffstat
+  - git
+  - intltool
+  - jna
+  - ltrace
+  - patchutils
+  - perl-Fedora-VSP
+  - perl-generators
+  - pesign
+  - source-highlight
+  - systemtap
+  - valgrind
+  - valgrind-devel
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-core
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group core for rhel-8-baseos
   options:
@@ -55,5 +55,36 @@ data:
   - vim-minimal
   - xfsprogs
   - yum
+  - NetworkManager
+  - NetworkManager-team
+  - NetworkManager-tui
+  - authselect
+  - biosdevname
+  - dnf-plugins-core
+  - dracut-config-rescue
+  - iwl100-firmware
+  - iwl1000-firmware
+  - iwl105-firmware
+  - iwl135-firmware
+  - iwl2000-firmware
+  - iwl2030-firmware
+  - iwl3160-firmware
+  - iwl3945-firmware
+  - iwl4965-firmware
+  - iwl5000-firmware
+  - iwl5150-firmware
+  - iwl6000-firmware
+  - iwl6000g2a-firmware
+  - iwl6050-firmware
+  - iwl7260-firmware
+  - kernel-tools
+  - libsysfs
+  - linux-firmware
+  - lshw
+  - lsscsi
+  - microcode_ctl
+  - prefixdevname
+  - sg3_utils
+  - sg3_utils-libs
 document: feedback-pipeline-use-case
 version: 1

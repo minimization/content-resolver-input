@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-ocaml
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group ocaml for fedora-rawhide
   options:
@@ -15,5 +15,7 @@ data:
   - ocaml-ocamldoc
   - ocaml-runtime
   - ocaml-x11
+  - emacs-tuareg
+  - ocaml-camlp4-devel
 document: feedback-pipeline-use-case
 version: 1

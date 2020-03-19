@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-d-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group d-development for fedora-rawhide
   options:
@@ -16,5 +16,7 @@ data:
   - ldc-phobos-devel
   - make
   - pkgconf
+  - ctags
+  - indent
 document: feedback-pipeline-use-case
 version: 1

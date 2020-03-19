@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-critical-path-gnome
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group critical-path-gnome for fedora-rawhide
   options:
@@ -29,5 +29,11 @@ data:
   - xorg-x11-server-Xorg
   - xorg-x11-xauth
   - xorg-x11-xinit
+  - avahi
+  - gnome-bluetooth
+  - gnome-software
+  - libcanberra-gtk3
+  - nautilus
+  - pulseaudio-module-x11
 document: feedback-pipeline-use-case
 version: 1

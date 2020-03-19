@@ -3,12 +3,36 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-milkymist
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group milkymist for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - autoconf
+  - automake
+  - avr-binutils
+  - avr-gcc
+  - avr-gcc-c++
+  - avr-gdb
+  - avr-libc
+  - avr-libc-doc
+  - clang
+  - flterm
+  - gcc
+  - gd-devel
+  - gtkwave
+  - iverilog
+  - lemon
+  - libftdi-devel
+  - llvm
+  - openocd
+  - qemu
+  - re2c
+  - srecord
+  - tftp
+  - tftp-server
+  - vim-common
 document: feedback-pipeline-use-case
 version: 1

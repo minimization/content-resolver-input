@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-headless-management
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group headless-management for fedora-rawhide
   options:
@@ -13,5 +13,9 @@ data:
   - PackageKit
   - cockpit
   - openssh-server
+  - cockpit-networkmanager
+  - cockpit-packagekit
+  - cockpit-selinux
+  - cockpit-storaged
 document: feedback-pipeline-use-case
 version: 1

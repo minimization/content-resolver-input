@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-headless-management
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group headless-management for rhel-8-appstream
   options:
@@ -14,5 +14,6 @@ data:
   - cockpit-packagekit
   - cockpit-podman
   - cockpit-storaged
+  - sscg
 document: feedback-pipeline-use-case
 version: 1

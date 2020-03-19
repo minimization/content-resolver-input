@@ -3,15 +3,15 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-subversion-1.10
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module subversion:1.10 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - utf8proc
   - subversion
   - libserf
+  - utf8proc
 document: feedback-pipeline-use-case
 version: 1

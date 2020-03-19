@@ -3,12 +3,20 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-system-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group system-tools for rhel-8-baseos
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - chrony
+  - cifs-utils
+  - openldap-clients
+  - samba-client
+  - setserial
+  - tmux
+  - xdelta
+  - zsh
 document: feedback-pipeline-use-case
 version: 1

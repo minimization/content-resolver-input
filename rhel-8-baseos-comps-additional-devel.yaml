@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-additional-devel
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group additional-devel for rhel-8-baseos
   options:

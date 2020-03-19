@@ -3,12 +3,18 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-networkmanager-submodules
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group networkmanager-submodules for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - NetworkManager-bluetooth
+  - NetworkManager-wifi
+  - NetworkManager-wwan
+  - dhcp-client
+  - dnsmasq
+  - iptables
 document: feedback-pipeline-use-case
 version: 1

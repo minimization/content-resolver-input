@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-java-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group java-development for fedora-rawhide
   options:
@@ -13,5 +13,61 @@ data:
   - ant
   - ecj
   - java-1.8.0-openjdk-devel
+  - abrt-java-connector
+  - ant-antlr
+  - ant-apache-bcel
+  - ant-apache-log4j
+  - ant-apache-oro
+  - ant-apache-regexp
+  - ant-apache-resolver
+  - ant-commons-logging
+  - ant-javamail
+  - ant-jdepend
+  - ant-junit
+  - ant-swing
+  - apache-commons-beanutils
+  - apache-commons-codec
+  - apache-commons-collections
+  - apache-commons-compress
+  - apache-commons-configuration
+  - apache-commons-daemon
+  - apache-commons-dbcp
+  - apache-commons-digester
+  - apache-commons-discovery
+  - apache-commons-el
+  - apache-commons-exec
+  - apache-commons-fileupload
+  - apache-commons-io
+  - apache-commons-lang
+  - apache-commons-launcher
+  - apache-commons-logging
+  - apache-commons-math
+  - apache-commons-modeler
+  - apache-commons-net
+  - apache-commons-pool
+  - apache-commons-validator
+  - avalon-framework
+  - avalon-logkit
+  - bcel
+  - gnu-getopt
+  - jakarta-oro
+  - java-1.8.0-openjdk-demo
+  - java-1.8.0-openjdk-javadoc
+  - java-1.8.0-openjdk-src
+  - java_cup
+  - javamail
+  - jdepend
+  - jflex
+  - junit
+  - ldapjdk
+  - log4j
+  - maven
+  - mx4j
+  - regexp
+  - xalan-j2
+  - xalan-j2-xsltc
+  - xerces-j2
+  - xml-commons-apis
+  - xml-commons-resolver
 document: feedback-pipeline-use-case
 version: 1

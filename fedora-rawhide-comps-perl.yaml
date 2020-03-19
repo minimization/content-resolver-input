@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-perl
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group perl for fedora-rawhide
   options:
@@ -11,5 +11,8 @@ data:
   - no-weak-deps
   packages:
   - perl
+  - git-cpan-patch
+  - perl-CPAN-Uploader
+  - perltidy
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-mingw32
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group mingw32 for fedora-rawhide
   options:
@@ -15,5 +15,9 @@ data:
   - mingw32-filesystem
   - mingw32-gcc
   - mingw32-headers
+  - mingw32-crossreport
+  - mingw32-nsis
+  - wine
+  - mingw32-nsiswrapper
 document: feedback-pipeline-use-case
 version: 1

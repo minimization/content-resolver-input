@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-container-management
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group container-management for rhel-8-appstream
   options:

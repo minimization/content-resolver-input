@@ -3,12 +3,24 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-python-science
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group python-science for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - python3-matplotlib
+  - python3-notebook
+  - python3-numpy
+  - python3-pandas
+  - python3-pillow
+  - python3-scikit-image
+  - python3-scikit-learn
+  - python3-scipy
+  - python3-statsmodels
+  - python3-sympy
+  - python3-matplotlib-tk
+  - python3-pillow-tk
 document: feedback-pipeline-use-case
 version: 1

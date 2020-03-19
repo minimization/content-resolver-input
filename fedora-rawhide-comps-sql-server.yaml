@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-sql-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group sql-server for fedora-rawhide
   options:
@@ -11,5 +11,10 @@ data:
   - no-weak-deps
   packages:
   - postgresql
+  - libdbi-dbd-pgsql
+  - perl-DBD-Pg
+  - postgresql-server
+  - rhdb-utils
+  - unixODBC
 document: feedback-pipeline-use-case
 version: 1

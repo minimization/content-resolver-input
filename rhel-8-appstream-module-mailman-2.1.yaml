@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-mailman-2.1
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module mailman:2.1 for rhel-8-appstream
   options:

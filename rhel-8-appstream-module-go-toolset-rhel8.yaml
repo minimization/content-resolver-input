@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-go-toolset-rhel8
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module go-toolset:rhel8 for rhel-8-appstream
   options:

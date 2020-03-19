@@ -3,12 +3,26 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-authoring-and-publishing
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group authoring-and-publishing for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - docbook-slides
+  - docbook-style-dsssl
+  - docbook-style-xsl
+  - docbook-utils
+  - docbook-utils-pdf
+  - docbook5-schemas
+  - docbook5-style-xsl
+  - linuxdoc-tools
+  - tex-fonts-hebrew
+  - texlive
+  - texlive-cm-lgc
+  - texlive-kerkis
+  - xhtml1-dtds
+  - xmlto
 document: feedback-pipeline-use-case
 version: 1

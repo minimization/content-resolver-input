@@ -3,14 +3,14 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-mariadb-10.3
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module mariadb:10.3 for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - galera
   - mariadb
+  - galera
 document: feedback-pipeline-use-case
 version: 1

@@ -3,20 +3,20 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-perl-App-cpanminus-1.7044
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module perl-App-cpanminus:1.7044 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - perl-CPAN-Meta-Check
-  - perl-Test-Deep
-  - perl-Parse-PMFile
   - perl-File-pushd
-  - perl-App-cpanminus
   - perl-String-ShellQuote
-  - perl-CPAN-DistnameInfo
   - perl-Module-CPANfile
+  - perl-CPAN-Meta-Check
+  - perl-CPAN-DistnameInfo
+  - perl-Parse-PMFile
+  - perl-Test-Deep
+  - perl-App-cpanminus
 document: feedback-pipeline-use-case
 version: 1

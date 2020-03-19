@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: brew-group-srpm-build
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: 'brewbuildsystem groups: srpm-build'
   options:

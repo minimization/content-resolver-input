@@ -3,18 +3,18 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-ruby-2.6
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module ruby:2.6 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - rubygem-pg
   - rubygem-mongo
-  - rubygem-abrt
-  - rubygem-bson
-  - rubygem-mysql2
+  - rubygem-pg
   - ruby
+  - rubygem-abrt
+  - rubygem-mysql2
+  - rubygem-bson
 document: feedback-pipeline-use-case
 version: 1

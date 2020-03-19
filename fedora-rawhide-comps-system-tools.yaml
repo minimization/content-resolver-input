@@ -3,12 +3,36 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-system-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group system-tools for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - BackupPC
+  - NetworkManager-l2tp
+  - NetworkManager-libreswan
+  - NetworkManager-openconnect
+  - NetworkManager-openvpn
+  - NetworkManager-vpnc
+  - bonnie++
+  - chrony
+  - cifs-utils
+  - jigdo
+  - libreswan
+  - nmap
+  - ntfs-3g
+  - openconnect
+  - openldap-clients
+  - openvpn
+  - samba-client
+  - screen
+  - setserial
+  - tigervnc
+  - vpnc
+  - xdelta
+  - zisofs-tools
+  - zsh
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: brew-group-livecd-build
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: 'brewbuildsystem groups: livecd-build'
   options:

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-satellite-5-client-1.0
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module satellite-5-client:1.0 for rhel-8-appstream
   options:
@@ -11,8 +11,8 @@ data:
   - no-weak-deps
   packages:
   - dnf-plugin-spacewalk
-  - rhnlib
-  - rhn-client-tools
   - rhnsd
+  - rhn-client-tools
+  - rhnlib
 document: feedback-pipeline-use-case
 version: 1

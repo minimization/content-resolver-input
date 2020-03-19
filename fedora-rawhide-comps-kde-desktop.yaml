@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-kde-desktop
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group kde-desktop for fedora-rawhide
   options:
@@ -96,5 +96,6 @@ data:
   - sddm-kcm
   - spectacle
   - xorg-x11-drv-libinput
+  - qt-at-spi
 document: feedback-pipeline-use-case
 version: 1

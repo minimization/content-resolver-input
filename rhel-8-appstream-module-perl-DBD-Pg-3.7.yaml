@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-perl-DBD-Pg-3.7
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module perl-DBD-Pg:3.7 for rhel-8-appstream
   options:

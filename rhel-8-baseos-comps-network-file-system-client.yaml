@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-network-file-system-client
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group network-file-system-client for rhel-8-baseos
   options:

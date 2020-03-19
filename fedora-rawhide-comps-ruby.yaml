@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-ruby
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group ruby for fedora-rawhide
   options:
@@ -11,5 +11,7 @@ data:
   - no-weak-deps
   packages:
   - ruby
+  - ruby-devel
+  - rubygem-abrt
 document: feedback-pipeline-use-case
 version: 1

@@ -3,15 +3,15 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-nodejs-12
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module nodejs:12 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - nodejs
-  - nodejs-packaging
   - nodejs-nodemon
+  - nodejs-packaging
+  - nodejs
 document: feedback-pipeline-use-case
 version: 1

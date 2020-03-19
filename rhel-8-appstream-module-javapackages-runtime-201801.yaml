@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-javapackages-runtime-201801
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module javapackages-runtime:201801 for rhel-8-appstream
   options:

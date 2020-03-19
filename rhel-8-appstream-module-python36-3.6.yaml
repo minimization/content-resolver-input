@@ -3,24 +3,24 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-python36-3.6
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module python36:3.6 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - python-virtualenv
-  - python-sqlalchemy
-  - scipy
-  - python-wheel
   - python-docs
+  - python-nose
+  - python-distro
+  - python-virtualenv
+  - python-pymongo
+  - python-sqlalchemy
+  - python-pygments
+  - python-wheel
+  - python36
   - python-PyMySQL
   - python-docutils
-  - python-nose
-  - python-pymongo
-  - python-distro
-  - python36
-  - python-pygments
+  - scipy
 document: feedback-pipeline-use-case
 version: 1

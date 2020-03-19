@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-redis-5
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module redis:5 for rhel-8-appstream
   options:

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-ant-1.10
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module ant:1.10 for rhel-8-appstream
   options:

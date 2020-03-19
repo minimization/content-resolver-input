@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-debugging
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group debugging for rhel-8-appstream
   options:
@@ -13,5 +13,14 @@ data:
   - gdb
   - libreport-cli
   - systemtap-runtime
+  - abrt-addon-ccpp
+  - abrt-cli
+  - crash
+  - crash-gcore-command
+  - crash-ptdump-command
+  - crash-trace-command
+  - python3-abrt-addon
+  - valgrind
+  - valgrind-devel
 document: feedback-pipeline-use-case
 version: 1

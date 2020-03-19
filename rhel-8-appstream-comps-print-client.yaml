@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-print-client
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group print-client for rhel-8-appstream
   options:
@@ -13,5 +13,13 @@ data:
   - cups
   - cups-pk-helper
   - enscript
+  - colord
+  - gutenprint
+  - gutenprint-cups
+  - gutenprint-doc
+  - hpijs
+  - paps
+  - pnm2ppa
+  - system-config-printer-udev
 document: feedback-pipeline-use-case
 version: 1

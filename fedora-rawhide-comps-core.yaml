@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-core
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group core for fedora-rawhide
   options:
@@ -47,5 +47,11 @@ data:
   - util-linux
   - vim-minimal
   - yum
+  - NetworkManager
+  - dnf-plugins-core
+  - dracut-config-rescue
+  - firewalld
+  - lsvpd
+  - powerpc-utils
 document: feedback-pipeline-use-case
 version: 1

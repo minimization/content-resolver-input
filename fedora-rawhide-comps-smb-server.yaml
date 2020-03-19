@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-smb-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group smb-server for fedora-rawhide
   options:
@@ -12,5 +12,6 @@ data:
   packages:
   - samba
   - samba-client
+  - cifs-utils
 document: feedback-pipeline-use-case
 version: 1

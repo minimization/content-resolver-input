@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: brew-group-livemedia-build
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: 'brewbuildsystem groups: livemedia-build'
   options:

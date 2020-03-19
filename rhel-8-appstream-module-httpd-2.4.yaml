@@ -3,14 +3,14 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-httpd-2.4
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module httpd:2.4 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - mod_http2
   - httpd
+  - mod_http2
 document: feedback-pipeline-use-case
 version: 1

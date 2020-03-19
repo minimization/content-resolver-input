@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-dial-up
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group dial-up for fedora-rawhide
   options:
@@ -11,5 +11,15 @@ data:
   - no-weak-deps
   packages:
   - ppp
+  - ModemManager
+  - NetworkManager-adsl
+  - NetworkManager-ppp
+  - NetworkManager-wwan
+  - isdn4k-utils
+  - linux-atm
+  - lrzsz
+  - minicom
+  - rp-pppoe
+  - wvdial
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-multimedia
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group multimedia for fedora-rawhide
   options:
@@ -19,5 +19,6 @@ data:
   - pulseaudio
   - pulseaudio-module-x11
   - pulseaudio-utils
+  - gstreamer-plugins-espeak
 document: feedback-pipeline-use-case
 version: 1

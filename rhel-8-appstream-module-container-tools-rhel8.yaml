@@ -3,25 +3,25 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-container-tools-rhel8
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module container-tools:rhel8 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - runc
+  - cockpit-podman
+  - oci-systemd-hook
   - python-podman-api
-  - containernetworking-plugins
   - buildah
   - skopeo
-  - slirp4netns
-  - podman
-  - oci-systemd-hook
-  - cockpit-podman
-  - fuse-overlayfs
-  - toolbox
-  - oci-umount
   - container-selinux
+  - slirp4netns
+  - oci-umount
+  - fuse-overlayfs
+  - containernetworking-plugins
+  - toolbox
+  - runc
+  - podman
 document: feedback-pipeline-use-case
 version: 1

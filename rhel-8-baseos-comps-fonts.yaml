@@ -3,12 +3,15 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-fonts
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group fonts for rhel-8-baseos
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - dejavu-sans-fonts
+  - dejavu-sans-mono-fonts
+  - dejavu-serif-fonts
 document: feedback-pipeline-use-case
 version: 1

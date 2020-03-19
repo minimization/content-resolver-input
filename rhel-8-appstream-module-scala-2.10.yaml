@@ -3,17 +3,17 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-scala-2.10
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module scala:2.10 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - jansi-native
-  - scala
-  - jline
   - hawtjni
+  - jline
   - jansi
+  - scala
+  - jansi-native
 document: feedback-pipeline-use-case
 version: 1

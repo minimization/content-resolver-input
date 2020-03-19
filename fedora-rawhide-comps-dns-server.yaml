@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-dns-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group dns-server for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - bind-chroot
 document: feedback-pipeline-use-case
 version: 1

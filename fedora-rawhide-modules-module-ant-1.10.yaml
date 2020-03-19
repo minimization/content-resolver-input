@@ -3,36 +3,36 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-ant-1.10
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module ant:1.10 for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - ant
-  - junit5
-  - xml-commons-apis
-  - jakarta-oro
-  - log4j12
-  - apiguardian
-  - opentest4j
-  - junit
-  - apache-commons-logging
-  - univocity-parsers
-  - hamcrest
   - regexp
-  - apache-commons-net
   - xz-java
-  - xalan-j2
+  - opentest4j
+  - xml-commons-resolver
+  - junit5
+  - hamcrest
+  - log4j12
+  - javamail
+  - xml-commons-apis
+  - univocity-parsers
   - jsch
   - antlr
-  - bsf
+  - xalan-j2
   - bcel
-  - xerces-j2
-  - javamail
-  - xml-commons-resolver
-  - jdepend
   - jzlib
+  - junit
+  - apache-commons-logging
+  - jdepend
+  - bsf
+  - apache-commons-net
+  - jakarta-oro
+  - ant
+  - apiguardian
+  - xerces-j2
 document: feedback-pipeline-use-case
 version: 1

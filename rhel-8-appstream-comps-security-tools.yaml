@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-security-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group security-tools for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - scap-security-guide
 document: feedback-pipeline-use-case
 version: 1

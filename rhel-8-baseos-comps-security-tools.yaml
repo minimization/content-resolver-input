@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-security-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group security-tools for rhel-8-baseos
   options:

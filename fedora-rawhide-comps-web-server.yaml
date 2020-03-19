@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-web-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group web-server for fedora-rawhide
   options:
@@ -11,5 +11,13 @@ data:
   - no-weak-deps
   packages:
   - httpd
+  - httpd-manual
+  - mod_perl
+  - mod_ssl
+  - php
+  - php-ldap
+  - php-mysqlnd
+  - squid
+  - webalizer
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-kf5-software-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group kf5-software-development for fedora-rawhide
   options:
@@ -12,5 +12,9 @@ data:
   packages:
   - cmake
   - extra-cmake-modules
+  - qt5-qtdeclarative-devel
+  - qt5-qtquickcontrols
+  - qt5-qttools-devel
+  - qt5-qtwebkit-devel
 document: feedback-pipeline-use-case
 version: 1

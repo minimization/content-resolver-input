@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-cloud-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group cloud-server for fedora-rawhide
   options:
@@ -17,5 +17,9 @@ data:
   - rsync
   - syslinux-extlinux
   - tar
+  - console-login-helper-messages-issuegen
+  - console-login-helper-messages-motdgen
+  - console-login-helper-messages-profile
+  - fedora-release-cloud
 document: feedback-pipeline-use-case
 version: 1

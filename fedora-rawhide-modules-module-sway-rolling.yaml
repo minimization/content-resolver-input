@@ -3,23 +3,23 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-sway-rolling
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module sway:rolling for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - swaybg
-  - wayland-protocols
-  - slurp
-  - mako
   - grim
-  - rofi
-  - waybar
+  - swaybg
   - swaylock
+  - waybar
+  - slurp
+  - wayland-protocols
+  - mako
   - wlroots
   - sway
+  - rofi
   - swayidle
 document: feedback-pipeline-use-case
 version: 1

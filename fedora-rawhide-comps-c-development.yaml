@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-c-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group c-development for fedora-rawhide
   options:
@@ -23,5 +23,14 @@ data:
   - make
   - pkgconf
   - strace
+  - byacc
+  - ccache
+  - cscope
+  - ctags
+  - elfutils
+  - indent
+  - ltrace
+  - perf
+  - valgrind
 document: feedback-pipeline-use-case
 version: 1

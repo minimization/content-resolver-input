@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-haskell
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group haskell for fedora-rawhide
   options:
@@ -17,5 +17,6 @@ data:
   - haskell-platform
   - hlint
   - hscolour
+  - emacs-haskell-mode
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: brew-group-wrapper-rpm-build
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: 'brewbuildsystem groups: wrapper-rpm-build'
   options:

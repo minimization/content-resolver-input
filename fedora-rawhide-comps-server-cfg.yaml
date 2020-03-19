@@ -3,12 +3,14 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-server-cfg
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group server-cfg for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - cups-pk-helper
+  - system-config-httpd
 document: feedback-pipeline-use-case
 version: 1

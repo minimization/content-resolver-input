@@ -3,12 +3,17 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-mail-server
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group mail-server for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - cyrus-sasl
+  - dovecot
+  - sendmail
+  - sendmail-cf
+  - spamassassin
 document: feedback-pipeline-use-case
 version: 1

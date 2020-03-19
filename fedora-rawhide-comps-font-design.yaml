@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-font-design
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group font-design for fedora-rawhide
   options:
@@ -12,5 +12,18 @@ data:
   packages:
   - fontforge
   - xgridfit
+  - fontaine
+  - fontpackages-devel
+  - fonttools
+  - ghostscript
+  - gimp
+  - gimp-data-extras
+  - gimp-help
+  - gucharmap
+  - inkscape
+  - perl-Font-TTF
+  - poppler-utils
+  - texlive-lcdftypetools
+  - xgridfit-doc
 document: feedback-pipeline-use-case
 version: 1

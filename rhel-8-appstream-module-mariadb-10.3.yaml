@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-mariadb-10.3
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module mariadb:10.3 for rhel-8-appstream
   options:
@@ -11,8 +11,8 @@ data:
   - no-weak-deps
   packages:
   - Judy
-  - mariadb
   - galera
   - asio
+  - mariadb
 document: feedback-pipeline-use-case
 version: 1

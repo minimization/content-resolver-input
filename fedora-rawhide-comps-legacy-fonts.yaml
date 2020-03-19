@@ -3,12 +3,16 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-legacy-fonts
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group legacy-fonts for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - xorg-x11-fonts-100dpi
+  - xorg-x11-fonts-ISO8859-15-100dpi
+  - xorg-x11-fonts-Type1
+  - xorg-x11-fonts-misc
 document: feedback-pipeline-use-case
 version: 1

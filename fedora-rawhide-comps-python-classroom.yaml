@@ -3,12 +3,39 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-python-classroom
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group python-classroom for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - bash-completion
+  - bzip2
+  - curl
+  - gcc
+  - gcc-c++
+  - git
+  - grep
+  - less
+  - libxml2-devel
+  - libyaml-devel
+  - make
+  - pipenv
+  - pypy3-devel
+  - python3-devel
+  - python3-docs
+  - python3-idle
+  - python3-ipykernel
+  - python3-ipython
+  - python3-notebook
+  - python3-tox
+  - python3-virtualenv
+  - sed
+  - tar
+  - unzip
+  - valgrind
+  - mu
+  - thonny
 document: feedback-pipeline-use-case
 version: 1

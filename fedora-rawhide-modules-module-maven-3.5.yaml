@@ -3,41 +3,41 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-maven-3.5
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module maven:3.5 for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - jsoup
-  - google-guice
-  - jansi
-  - sisu
-  - apache-commons-io
-  - slf4j
-  - plexus-classworlds
-  - atinject
-  - plexus-containers
-  - maven-wagon
-  - jansi-native
-  - plexus-sec-dispatcher
-  - cdi-api
-  - httpcomponents-core
-  - aopalliance
-  - apache-commons-logging
-  - httpcomponents-client
-  - plexus-utils
-  - apache-commons-cli
-  - maven
-  - apache-commons-codec
-  - plexus-cipher
   - geronimo-annotation
-  - maven-resolver
-  - plexus-interpolation
-  - guava20
-  - hawtjni
+  - google-guice
+  - maven-wagon
+  - jsoup
   - maven-shared-utils
+  - httpcomponents-client
+  - plexus-sec-dispatcher
+  - jansi-native
+  - httpcomponents-core
+  - apache-commons-cli
+  - aopalliance
+  - cdi-api
+  - slf4j
+  - jansi
+  - atinject
+  - plexus-cipher
+  - plexus-utils
+  - apache-commons-codec
+  - plexus-classworlds
+  - maven
   - apache-commons-lang3
+  - hawtjni
+  - plexus-containers
+  - maven-resolver
+  - apache-commons-io
+  - apache-commons-logging
+  - plexus-interpolation
+  - sisu
+  - guava20
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-perl-DBI-1.641
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module perl-DBI:1.641 for rhel-8-appstream
   options:

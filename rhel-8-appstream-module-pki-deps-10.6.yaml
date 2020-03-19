@@ -3,45 +3,45 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-pki-deps-10.6
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module pki-deps:10.6 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - stax-ex
-  - fasterxml-oss-parent
-  - python-nss
   - xml-commons-apis
-  - xmlstreambuffer
-  - apache-commons-lang
-  - jackson-jaxrs-providers
   - slf4j
-  - javassist
-  - jackson-parent
-  - jackson-module-jaxb-annotations
-  - velocity
-  - jackson-bom
-  - jackson-core
-  - glassfish-jaxb-api
-  - glassfish-fastinfoset
-  - jackson-annotations
-  - glassfish-jaxb
-  - relaxngDatatype
-  - relaxngcc
-  - xsom
-  - xalan-j2
-  - xml-stylebook
-  - glassfish-jax-rs-api
-  - apache-commons-collections
-  - msv
   - xml-commons-resolver
-  - pki-servlet-engine
-  - bea-stax
-  - jackson-databind
   - resteasy
+  - bea-stax
   - jakarta-commons-httpclient
+  - stax-ex
+  - xalan-j2
+  - velocity
+  - msv
+  - xmlstreambuffer
+  - pki-servlet-engine
+  - apache-commons-collections
+  - relaxngDatatype
+  - apache-commons-lang
+  - glassfish-jaxb-api
+  - jackson-core
+  - jackson-databind
+  - jackson-annotations
+  - jackson-parent
+  - fasterxml-oss-parent
+  - xml-stylebook
+  - jackson-jaxrs-providers
+  - xsom
+  - jackson-module-jaxb-annotations
+  - jackson-bom
+  - glassfish-jaxb
+  - relaxngcc
   - xerces-j2
+  - glassfish-fastinfoset
+  - glassfish-jax-rs-api
+  - javassist
+  - python-nss
 document: feedback-pipeline-use-case
 version: 1

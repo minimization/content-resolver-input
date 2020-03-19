@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-standard
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group standard for fedora-rawhide
   options:
@@ -87,5 +87,6 @@ data:
   - wireless-tools
   - words
   - zip
+  - chrony
 document: feedback-pipeline-use-case
 version: 1

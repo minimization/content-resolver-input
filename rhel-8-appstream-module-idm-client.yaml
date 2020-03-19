@@ -3,22 +3,22 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-idm-client
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module idm:client for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - pyusb
   - python-yubico
-  - bind-dyndb-ldap
-  - opendnssec
-  - custodia
-  - slapi-nis
-  - ipa
   - python-qrcode
+  - slapi-nis
   - python-jwcrypto
   - softhsm
+  - ipa
+  - custodia
+  - opendnssec
+  - bind-dyndb-ldap
+  - pyusb
 document: feedback-pipeline-use-case
 version: 1

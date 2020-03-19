@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-smart-card
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group smart-card for rhel-8-baseos
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - pcsc-lite-ccid
 document: feedback-pipeline-use-case
 version: 1

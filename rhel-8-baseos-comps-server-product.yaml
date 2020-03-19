@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-server-product
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group server-product for rhel-8-baseos
   options:
@@ -16,5 +16,7 @@ data:
   - redhat-release
   - redhat-release-eula
   - timedatex
+  - NetworkManager-config-server
+  - NetworkManager-team
 document: feedback-pipeline-use-case
 version: 1

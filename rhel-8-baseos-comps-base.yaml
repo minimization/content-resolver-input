@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-base
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group base for rhel-8-baseos
   options:
@@ -39,5 +39,46 @@ data:
   - tar
   - tree
   - util-linux-user
+  - bash-completion
+  - blktrace
+  - bpftool
+  - bzip2
+  - chrony
+  - cockpit
+  - cryptsetup
+  - dnf-plugin-subscription-manager
+  - dos2unix
+  - dosfstools
+  - ethtool
+  - gnupg2
+  - kmod-kvdo
+  - ledmon
+  - libstoragemgmt
+  - lvm2
+  - mailcap
+  - man-pages
+  - mdadm
+  - mlocate
+  - mtr
+  - nano
+  - realmd
+  - rng-tools
+  - rsync
+  - smartmontools
+  - sos
+  - sssd
+  - strace
+  - subscription-manager-cockpit
+  - subscription-manager-plugin-container
+  - teamd
+  - time
+  - unzip
+  - usbutils
+  - vdo
+  - virt-what
+  - which
+  - words
+  - xfsdump
+  - zip
 document: feedback-pipeline-use-case
 version: 1

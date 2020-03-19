@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-pantheon-desktop
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group pantheon-desktop for fedora-rawhide
   options:
@@ -30,5 +30,35 @@ data:
   - wingpanel-indicator-power
   - wingpanel-indicator-session
   - wingpanel-indicator-sound
+  - elementary-calculator
+  - elementary-calendar
+  - elementary-camera
+  - elementary-code
+  - elementary-files
+  - elementary-icon-theme
+  - elementary-music
+  - elementary-photos
+  - elementary-print
+  - elementary-screenshot-tool
+  - elementary-sound-theme
+  - elementary-terminal
+  - elementary-theme
+  - elementary-videos
+  - elementary-wallpapers
+  - switchboard
+  - switchboard-plug-a11y
+  - switchboard-plug-about
+  - switchboard-plug-applications
+  - switchboard-plug-bluetooth
+  - switchboard-plug-display
+  - switchboard-plug-keyboard
+  - switchboard-plug-mouse-touchpad
+  - switchboard-plug-networking
+  - switchboard-plug-notifications
+  - switchboard-plug-onlineaccounts
+  - switchboard-plug-pantheon-shell
+  - switchboard-plug-printers
+  - switchboard-plug-sharing
+  - switchboard-plug-sound
 document: feedback-pipeline-use-case
 version: 1

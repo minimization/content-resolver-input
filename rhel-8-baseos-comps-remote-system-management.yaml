@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-remote-system-management
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group remote-system-management for rhel-8-baseos
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - cockpit
 document: feedback-pipeline-use-case
 version: 1

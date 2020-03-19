@@ -3,16 +3,16 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-modules-module-nodejs-13
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module nodejs:13 for fedora-rawhide-modules
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - libuv
   - nghttp2
-  - c-ares
   - nodejs
+  - c-ares
+  - libuv
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-server-product
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group server-product for fedora-rawhide
   options:
@@ -14,5 +14,8 @@ data:
   - chrony
   - polkit
   - realmd
+  - NetworkManager-team
+  - dhcp-client
+  - fedora-release-server
 document: feedback-pipeline-use-case
 version: 1

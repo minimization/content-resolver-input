@@ -3,12 +3,19 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-office-suite
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group office-suite for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - libreoffice-calc
+  - libreoffice-draw
+  - libreoffice-emailmerge
+  - libreoffice-graphicfilter
+  - libreoffice-impress
+  - libreoffice-math
+  - libreoffice-writer
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-large-systems
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group large-systems for rhel-8-baseos
   options:
@@ -12,5 +12,8 @@ data:
   packages:
   - numactl
   - numad
+  - hwloc
+  - libhugetlbfs
+  - libhugetlbfs-utils
 document: feedback-pipeline-use-case
 version: 1

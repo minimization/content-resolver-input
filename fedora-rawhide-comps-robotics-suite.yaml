@@ -3,12 +3,72 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-robotics-suite
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group robotics-suite for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - arduino
+  - fawkes
+  - fawkes-core
+  - fawkes-doc
+  - fawkes-firevision
+  - fawkes-firevision-tools
+  - fawkes-guis
+  - fawkes-lua
+  - fawkes-plugin-bblogger
+  - fawkes-plugin-bbsync
+  - fawkes-plugin-flite
+  - fawkes-plugin-joystick
+  - fawkes-plugin-katana
+  - fawkes-plugin-laser
+  - fawkes-plugin-laser-lines
+  - fawkes-plugin-luaagent
+  - fawkes-plugin-pantilt
+  - fawkes-plugin-player
+  - fawkes-plugin-refboxcomm
+  - fawkes-plugin-skiller
+  - fawkes-plugin-ttmainloop
+  - fawkes-plugin-webview
+  - fawkes-plugin-xmlrpc
+  - gazebo
+  - gazebo-doc
+  - gearbox
+  - git
+  - libphidget
+  - mrpt-apps
+  - mrpt-doc
+  - mrpt-libs
+  - opencv
+  - openni-primesense
+  - pcl
+  - player
+  - player-doc
+  - player-examples
+  - player-stage
+  - python3-bloom
+  - python3-catkin_lint
+  - python3-catkin_pkg
+  - python3-catkin_tools
+  - python3-player
+  - python3-rosdep
+  - python3-rosdistro
+  - python3-rosinstall
+  - python3-rosinstall_generator
+  - python3-rospkg
+  - python3-vcstools
+  - python3-wstool
+  - qtcreator
+  - rcsslogplayer
+  - rcssmonitor
+  - rcssserver
+  - rcssserver-gui
+  - rcssserver3d
+  - rcssserver3d-doc
+  - ruby-player
+  - stage
+  - urg
 document: feedback-pipeline-use-case
 version: 1

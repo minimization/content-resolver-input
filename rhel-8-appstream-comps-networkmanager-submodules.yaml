@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-networkmanager-submodules
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group networkmanager-submodules for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - dnsmasq
 document: feedback-pipeline-use-case
 version: 1

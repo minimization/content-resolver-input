@@ -3,12 +3,22 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-input-methods
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group input-methods for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - ibus-hangul
+  - ibus-kkc
+  - ibus-libpinyin
+  - ibus-libzhuyin
+  - ibus-m17n
+  - ibus-typing-booster
+  - gtk2-immodule-xim
+  - gtk3-immodule-xim
+  - ibus-gtk2
+  - ibus-gtk3
 document: feedback-pipeline-use-case
 version: 1

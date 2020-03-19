@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-development-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group development-tools for fedora-rawhide
   options:
@@ -11,5 +11,12 @@ data:
   - no-weak-deps
   packages:
   - gettext
+  - diffstat
+  - doxygen
+  - git
+  - patch
+  - patchutils
+  - subversion
+  - systemtap
 document: feedback-pipeline-use-case
 version: 1

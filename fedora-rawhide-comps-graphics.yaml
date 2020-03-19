@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-graphics
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group graphics for fedora-rawhide
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - xsane-gimp
 document: feedback-pipeline-use-case
 version: 1

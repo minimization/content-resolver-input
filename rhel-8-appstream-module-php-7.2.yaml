@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-php-7.2
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module php:7.2 for rhel-8-appstream
   options:
@@ -11,9 +11,9 @@ data:
   - no-weak-deps
   packages:
   - php
-  - php-pecl-zip
   - php-pecl-apcu
-  - php-pear
   - libzip
+  - php-pecl-zip
+  - php-pear
 document: feedback-pipeline-use-case
 version: 1

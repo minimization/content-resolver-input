@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-network-tools
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group network-tools for rhel-8-appstream
   options:
@@ -11,5 +11,8 @@ data:
   - no-weak-deps
   packages:
   - tcpdump
+  - libreswan
+  - nmap-ncat
+  - socat
 document: feedback-pipeline-use-case
 version: 1

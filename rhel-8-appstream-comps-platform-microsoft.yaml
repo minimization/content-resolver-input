@@ -3,12 +3,13 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-platform-microsoft
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group platform-microsoft for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - hyperv-daemons
 document: feedback-pipeline-use-case
 version: 1

@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-virtualization
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group virtualization for fedora-rawhide
   options:
@@ -11,5 +11,10 @@ data:
   - no-weak-deps
   packages:
   - virt-install
+  - libvirt-daemon-config-network
+  - libvirt-daemon-kvm
+  - qemu-kvm
+  - virt-manager
+  - virt-viewer
 document: feedback-pipeline-use-case
 version: 1

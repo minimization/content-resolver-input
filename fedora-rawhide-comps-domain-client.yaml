@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-domain-client
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group domain-client for fedora-rawhide
   options:
@@ -16,5 +16,8 @@ data:
   - samba-common-tools
   - samba-winbind
   - sssd
+  - libsss_autofs
+  - libsss_sudo
+  - sssd-nfs-idmap
 document: feedback-pipeline-use-case
 version: 1

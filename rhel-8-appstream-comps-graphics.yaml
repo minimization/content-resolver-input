@@ -3,12 +3,17 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-graphics
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group graphics for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - gutenprint-plugin
+  - libsane-hpaio
+  - sane-backends-drivers-scanners
+  - sane-frontends
+  - xsane-gimp
 document: feedback-pipeline-use-case
 version: 1

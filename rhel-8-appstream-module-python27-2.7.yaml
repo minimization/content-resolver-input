@@ -3,54 +3,54 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-python27-2.7
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module python27:2.7 for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
   packages:
-  - python-mock
   - python-pysocks
+  - python-coverage
+  - pytest
+  - python-pygments
+  - python-docutils
+  - pytz
+  - python-dns
+  - scipy
+  - python-markupsafe
+  - python-py
+  - python-chardet
   - python-setuptools_scm
   - python-PyMySQL
-  - python-ipaddress
-  - pytest
-  - python-lxml
-  - python2-rpm-macros
-  - python-pluggy
-  - python-pytest-mock
-  - PyYAML
-  - python-six
-  - python-markupsafe
-  - python2-pip
   - python2
-  - numpy
-  - scipy
-  - python-sqlalchemy
-  - python-urllib3
-  - python-funcsigs
-  - Cython
-  - python-wheel
-  - python-backports-ssl_match_hostname
-  - python-docs
-  - python2-setuptools
-  - python-jinja2
-  - python-virtualenv
+  - python-six
   - python-backports
-  - python-coverage
-  - python-dns
-  - python-pygments
-  - python-py
-  - python-idna
-  - python-docutils
-  - python-attrs
-  - python-chardet
   - python-nose
-  - python-requests
-  - pytz
-  - python-psycopg2
+  - python-sqlalchemy
+  - python2-pip
+  - python-attrs
+  - python2-rpm-macros
+  - python2-setuptools
+  - python-idna
+  - Cython
+  - python-pluggy
+  - python-backports-ssl_match_hostname
+  - python-wheel
+  - python-jinja2
   - babel
+  - python-urllib3
+  - python-mock
+  - numpy
+  - python-ipaddress
+  - python-pytest-mock
+  - python-psycopg2
+  - python-funcsigs
+  - python-virtualenv
+  - python-docs
+  - PyYAML
+  - python-lxml
+  - python-requests
   - python-pymongo
 document: feedback-pipeline-use-case
 version: 1

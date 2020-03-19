@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-inkscape-0.92.3
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module inkscape:0.92.3 for rhel-8-appstream
   options:

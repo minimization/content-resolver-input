@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-module-perl-DBD-MySQL-4.046
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Module perl-DBD-MySQL:4.046 for rhel-8-appstream
   options:

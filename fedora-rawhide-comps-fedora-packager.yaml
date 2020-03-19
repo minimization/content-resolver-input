@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-fedora-packager
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group fedora-packager for fedora-rawhide
   options:
@@ -21,5 +21,7 @@ data:
   - redhat-rpm-config
   - rpm-build
   - rpmdevtools
+  - bzr
+  - mercurial
 document: feedback-pipeline-use-case
 version: 1

@@ -3,12 +3,15 @@ data:
   description: Automatically generated.
   id: rhel-8-baseos-comps-hardware-monitoring
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group hardware-monitoring for rhel-8-baseos
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - mcelog
+  - rasdaemon
+  - smartmontools
 document: feedback-pipeline-use-case
 version: 1

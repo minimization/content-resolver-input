@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: fedora-rawhide-comps-kde-software-development
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group kde-software-development for fedora-rawhide
   options:
@@ -13,5 +13,23 @@ data:
   - cmake
   - kdelibs-devel
   - qt-devel
+  - PyQt4-devel
+  - cervisia
+  - dolphin-plugins
+  - kapptemplate
+  - kate
+  - kcachegrind
+  - kde-dev-scripts
+  - kdelibs-webkit-devel
+  - kdepimlibs-devel
+  - kdesdk-kioslaves
+  - kdesdk-thumbnailers
+  - kdevelop
+  - kompare
+  - kpartloader
+  - kuiviewer
+  - okteta
+  - poxml
+  - umbrello
 document: feedback-pipeline-use-case
 version: 1

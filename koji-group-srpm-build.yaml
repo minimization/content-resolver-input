@@ -3,7 +3,7 @@ data:
   description: Automatically generated.
   id: koji-group-srpm-build
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: 'kojibuildsystem groups: srpm-build'
   options:

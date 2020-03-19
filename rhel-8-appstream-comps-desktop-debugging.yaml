@@ -3,12 +3,17 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-desktop-debugging
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group desktop-debugging for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - abrt-desktop
+  - crash
+  - crash-gcore-command
+  - crash-ptdump-command
+  - crash-trace-command
 document: feedback-pipeline-use-case
 version: 1

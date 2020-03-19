@@ -3,12 +3,14 @@ data:
   description: Automatically generated.
   id: rhel-8-appstream-comps-infiniband
   install_on:
-  - fedora-base:rawhide
+  - eln:base
   maintainer: bakery
   name: Comps group infiniband for rhel-8-appstream
   options:
   - no-docs
   - no-weak-deps
-  packages: []
+  packages:
+  - mstflint
+  - qperf
 document: feedback-pipeline-use-case
 version: 1
