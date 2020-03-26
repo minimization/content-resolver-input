@@ -7,7 +7,7 @@
 # influence the result.
 # Environments can also act as base images when monitoring container sizes.
 
-document: feeback-pipeline-environment
+document: feedback-pipeline-environment
 version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
