@@ -1,0 +1,26 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group php for fedora-rawhide
+  packages:
+  - php
+  - php-bcmath
+  - php-devel
+  - php-gd
+  - php-imap
+  - php-mbstring
+  - php-mysqlnd
+  - php-pdo
+  - php-pear
+  - php-pecl-apcu-bc
+  - php-pecl-mcrypt
+  - php-pecl-mongodb
+  - php-pgsql
+  - php-process
+  - php-soap
+  - php-xml
+document: feedback-pipeline-workload
+version: 1

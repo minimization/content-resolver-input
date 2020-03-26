@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group platform-vmware for rhel-8-appstream
+  packages:
+  - open-vm-tools
+document: feedback-pipeline-workload
+version: 1

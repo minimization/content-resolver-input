@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group haskell for fedora-rawhide
+  packages:
+  - cabal-rpm
+  - darcs
+  - ghc
+  - ghc-rpm-macros
+  - haskell-platform
+  - hlint
+  - hscolour
+  - emacs-haskell-mode
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group platform-kvm for rhel-8-appstream
+  packages:
+  - qemu-guest-agent
+document: feedback-pipeline-workload
+version: 1

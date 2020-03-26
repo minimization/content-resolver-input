@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group x86-baremetal-tools for fedora-rawhide
+  packages:
+  - memtest86+
+  - syslinux
+document: feedback-pipeline-workload
+version: 1

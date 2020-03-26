@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group critical-path-deepin-desktop for fedora-rawhide
+  packages:
+  - deepin-desktop
+  - deepin-wm
+document: feedback-pipeline-workload
+version: 1

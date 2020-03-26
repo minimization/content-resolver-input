@@ -1,0 +1,36 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group gnome-software-development for fedora-rawhide
+  packages:
+  - atk-devel
+  - clutter-devel
+  - dbus-devel
+  - glib2-devel
+  - gstreamer1-devel
+  - gtk3-devel
+  - gtk3-devel-docs
+  - intltool
+  - pango-devel
+  - at-spi2-core-devel
+  - clutter-gtk-devel
+  - devhelp
+  - evolution-data-server-devel
+  - git
+  - glib2-doc
+  - gnome-common
+  - gnome-desktop3-devel
+  - gnome-devel-docs
+  - gobject-introspection
+  - gobject-introspection-devel
+  - gtk-doc
+  - libcanberra-devel
+  - libgda-devel
+  - libgnome-keyring-devel
+  - libnotify-devel
+  - webkit2gtk3-devel
+document: feedback-pipeline-workload
+version: 1

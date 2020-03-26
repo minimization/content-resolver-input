@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group development for rhel-8-baseos
+  packages:
+  - binutils
+  - glibc-devel
+  - make
+  - pkgconf
+  - pkgconf-m4
+  - pkgconf-pkg-config
+  - rpm-sign
+  - strace
+document: feedback-pipeline-workload
+version: 1

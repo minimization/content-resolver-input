@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module rhn-tools:1.0 for rhel-8-appstream
+  packages:
+  - rhn-custom-info
+  - spacewalk-remote-utils
+  - cobbler
+  - rhnpush
+  - spacewalk-koan
+  - rhncfg
+  - rhn-virtualization
+  - osad
+  - spacewalk-backend
+  - spacewalk-client-cert
+  - spacewalk-usix
+  - spacewalk-oscap
+  - spacewalk-abrt
+document: feedback-pipeline-workload
+version: 1

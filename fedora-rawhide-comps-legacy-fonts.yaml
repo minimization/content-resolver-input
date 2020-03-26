@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group legacy-fonts for fedora-rawhide
+  packages:
+  - xorg-x11-fonts-100dpi
+  - xorg-x11-fonts-ISO8859-15-100dpi
+  - xorg-x11-fonts-Type1
+  - xorg-x11-fonts-misc
+document: feedback-pipeline-workload
+version: 1

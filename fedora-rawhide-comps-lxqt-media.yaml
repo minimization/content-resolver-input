@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group lxqt-media for fedora-rawhide
+  packages:
+  - pavucontrol
+  - pnmixer
+document: feedback-pipeline-workload
+version: 1

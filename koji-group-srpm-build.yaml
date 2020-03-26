@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'kojibuildsystem groups: srpm-build'
+  packages:
+  - bash
+  - fedora-release
+  - fedpkg-minimal
+  - glibc-minimal-langpack
+  - gnupg2
+  - redhat-rpm-config
+  - rpm-build
+  - shadow-utils
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group lxqt-apps for fedora-rawhide
+  packages:
+  - transmission-qt
+document: feedback-pipeline-workload
+version: 1

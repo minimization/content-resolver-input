@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group web-server for fedora-rawhide
+  packages:
+  - httpd
+  - httpd-manual
+  - mod_perl
+  - mod_ssl
+  - php
+  - php-ldap
+  - php-mysqlnd
+  - squid
+  - webalizer
+document: feedback-pipeline-workload
+version: 1

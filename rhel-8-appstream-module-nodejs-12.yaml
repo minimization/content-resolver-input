@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module nodejs:12 for rhel-8-appstream
+  packages:
+  - nodejs-packaging
+  - nodejs-nodemon
+  - nodejs
+document: feedback-pipeline-workload
+version: 1

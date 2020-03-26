@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module parfait:0.5 for rhel-8-appstream
+  packages:
+  - uom-se
+  - uom-parent
+  - si-units
+  - uom-lib
+  - parfait
+  - unit-api
+  - uom-systems
+  - log4j12
+document: feedback-pipeline-workload
+version: 1

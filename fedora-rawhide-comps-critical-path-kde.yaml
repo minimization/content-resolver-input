@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group critical-path-kde for fedora-rawhide
+  packages:
+  - kdelibs
+  - sddm
+document: feedback-pipeline-workload
+version: 1

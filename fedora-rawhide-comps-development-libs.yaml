@@ -1,0 +1,41 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group development-libs for fedora-rawhide
+  packages:
+  - bzip2-devel
+  - glibc-devel
+  - ncurses-devel
+  - pam-devel
+  - readline-devel
+  - zlib-devel
+  - binutils-devel
+  - boost-devel
+  - cyrus-sasl-devel
+  - dbus-devel
+  - gmp-devel
+  - krb5-devel
+  - libacl-devel
+  - libattr-devel
+  - libcap-devel
+  - libcurl-devel
+  - libdb-devel
+  - libogg-devel
+  - libselinux-devel
+  - libuser-devel
+  - libvorbis-devel
+  - libxml2-devel
+  - lockdev-devel
+  - openldap-devel
+  - openssl-devel
+  - pciutils-devel
+  - pcsc-lite-devel
+  - perl-devel
+  - python3-devel
+  - rpm-devel
+  - slang-devel
+document: feedback-pipeline-workload
+version: 1

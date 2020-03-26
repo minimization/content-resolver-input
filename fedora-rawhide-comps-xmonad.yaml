@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group xmonad for fedora-rawhide
+  packages:
+  - xmobar
+  - xmonad
+document: feedback-pipeline-workload
+version: 1

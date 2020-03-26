@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group ostree-support for rhel-8-appstream
+  packages:
+  - nss-altfiles
+  - ostree-grub2
+  - rpm-ostree
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,41 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module maven:3.5 for rhel-8-appstream
+  packages:
+  - hawtjni
+  - slf4j
+  - glassfish-el
+  - jboss-interceptors-1.2-api
+  - apache-commons-logging
+  - maven-resolver
+  - maven-shared-utils
+  - aopalliance
+  - atinject
+  - cdi-api
+  - plexus-utils
+  - google-guice
+  - plexus-classworlds
+  - httpcomponents-core
+  - geronimo-annotation
+  - plexus-containers
+  - plexus-sec-dispatcher
+  - apache-commons-io
+  - guava20
+  - maven-wagon
+  - jansi-native
+  - sisu
+  - apache-commons-codec
+  - maven
+  - jansi
+  - apache-commons-lang3
+  - apache-commons-cli
+  - plexus-interpolation
+  - jsoup
+  - plexus-cipher
+  - httpcomponents-client
+document: feedback-pipeline-workload
+version: 1

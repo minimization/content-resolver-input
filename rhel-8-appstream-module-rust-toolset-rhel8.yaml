@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module rust-toolset:rhel8 for rhel-8-appstream
+  packages:
+  - rust
+  - rust-toolset
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,27 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'kojibuildsystem groups: livecd-build'
+  packages:
+  - bash
+  - coreutils
+  - fedora-logos
+  - fedora-release
+  - livecd-tools
+  - policycoreutils
+  - python-dbus
+  - sed
+  - selinux-policy-targeted
+  - shadow-utils
+  - squashfs-tools
+  - sssd-client
+  - tar
+  - unzip
+  - util-linux
+  - which
+  - yum
+document: feedback-pipeline-workload
+version: 1

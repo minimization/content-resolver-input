@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group enlightenment-desktop for fedora-rawhide
+  packages:
+  - efl
+  - enlightenment
+  - terminology
+document: feedback-pipeline-workload
+version: 1
