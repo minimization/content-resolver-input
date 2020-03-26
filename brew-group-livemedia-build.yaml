@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'brewbuildsystem groups: livemedia-build'
+  packages:
+  - bash
+  - coreutils
+  - glibc-all-langpacks
+  - lorax-lmc-novirt
+  - selinux-policy-targeted
+  - shadow-utils
+  - util-linux
+document: feedback-pipeline-workload
+version: 1

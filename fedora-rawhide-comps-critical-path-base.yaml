@@ -1,0 +1,26 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group critical-path-base for fedora-rawhide
+  packages:
+  - NetworkManager
+  - anaconda
+  - bash
+  - dbus-broker
+  - dnf
+  - dracut
+  - gcc-c++
+  - initial-setup
+  - kernel
+  - livecd-tools
+  - mash
+  - pungi
+  - redhat-rpm-config
+  - rpm-build
+  - selinux-policy
+  - setup
+document: feedback-pipeline-workload
+version: 1

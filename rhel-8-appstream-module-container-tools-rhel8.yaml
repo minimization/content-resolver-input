@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module container-tools:rhel8 for rhel-8-appstream
+  packages:
+  - oci-systemd-hook
+  - oci-umount
+  - slirp4netns
+  - buildah
+  - podman
+  - runc
+  - toolbox
+  - containernetworking-plugins
+  - cockpit-podman
+  - fuse-overlayfs
+  - python-podman-api
+  - skopeo
+  - container-selinux
+document: feedback-pipeline-workload
+version: 1

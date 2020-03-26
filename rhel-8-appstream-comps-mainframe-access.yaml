@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group mainframe-access for rhel-8-appstream
+  packages:
+  - x3270-x11
+document: feedback-pipeline-workload
+version: 1

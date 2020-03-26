@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module gimp:2.8 for rhel-8-appstream
+  packages:
+  - python2-pycairo
+  - gimp
+  - pygtk2
+  - pygobject2
+document: feedback-pipeline-workload
+version: 1

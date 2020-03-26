@@ -1,0 +1,38 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'brewbuildsystem groups: build'
+  packages:
+  - bash
+  - bzip2
+  - coreutils
+  - cpio
+  - diffutils
+  - findutils
+  - gawk
+  - gcc
+  - gcc-c++
+  - grep
+  - gzip
+  - info
+  - make
+  - module-build-macros
+  - patch
+  - redhat-ca-certificate
+  - redhat-release
+  - redhat-rpm-config
+  - rhpkg-simple
+  - rpm-build
+  - scl-utils-build
+  - sed
+  - shadow-utils
+  - tar
+  - unzip
+  - util-linux
+  - which
+  - xz
+document: feedback-pipeline-workload
+version: 1

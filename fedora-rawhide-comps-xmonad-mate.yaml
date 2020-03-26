@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group xmonad-mate for fedora-rawhide
+  packages:
+  - mate-control-center
+  - mate-panel
+  - mate-screensaver
+  - xmonad-mate
+document: feedback-pipeline-workload
+version: 1

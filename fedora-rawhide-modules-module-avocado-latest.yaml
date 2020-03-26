@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module avocado:latest for fedora-rawhide-modules
+  packages:
+  - python-avocado
+  - python-aexpect
+document: feedback-pipeline-workload
+version: 1

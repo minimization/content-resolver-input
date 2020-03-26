@@ -1,0 +1,48 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group anaconda-tools for fedora-rawhide
+  packages:
+  - authselect
+  - authselect-compat
+  - btrfs-progs
+  - chrony
+  - cryptsetup
+  - device-mapper-multipath
+  - dmraid
+  - dosfstools
+  - dracut-network
+  - e2fsprogs
+  - efibootmgr
+  - fcoe-utils
+  - firewalld
+  - gfs2-utils
+  - glibc-all-langpacks
+  - grub2-efi-ia32
+  - grub2-efi-ia32-cdboot
+  - grub2-efi-x64
+  - grub2-efi-x64-cdboot
+  - grub2-pc
+  - grub2-tools
+  - grub2-tools-efi
+  - grub2-tools-extra
+  - hfsplus-tools
+  - iscsi-initiator-utils
+  - kdump-anaconda-addon
+  - lvm2
+  - mactel-boot
+  - mdadm
+  - ntfsprogs
+  - realmd
+  - reiserfs-utils
+  - shim-ia32
+  - shim-x64
+  - syslinux-extlinux
+  - teamd
+  - xfsprogs
+  - zram
+document: feedback-pipeline-workload
+version: 1

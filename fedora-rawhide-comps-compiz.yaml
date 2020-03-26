@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group compiz for fedora-rawhide
+  packages:
+  - ccsm
+  - compiz
+  - compiz-bcop
+  - compiz-manager
+  - compiz-plugins-experimental
+  - compiz-plugins-extra
+  - compiz-plugins-main
+  - compizconfig-python
+  - emerald
+  - emerald-themes
+  - fusion-icon
+  - libcompizconfig
+  - simple-ccsm
+document: feedback-pipeline-workload
+version: 1

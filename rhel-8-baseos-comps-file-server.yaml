@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group file-server for rhel-8-baseos
+  packages:
+  - cifs-utils
+  - gssproxy
+  - nfs-utils
+  - nfs4-acl-tools
+  - samba
+document: feedback-pipeline-workload
+version: 1

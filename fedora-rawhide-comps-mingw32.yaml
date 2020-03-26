@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group mingw32 for fedora-rawhide
+  packages:
+  - mingw32-binutils
+  - mingw32-crt
+  - mingw32-filesystem
+  - mingw32-gcc
+  - mingw32-headers
+  - mingw32-crossreport
+  - mingw32-nsis
+  - wine
+  - mingw32-nsiswrapper
+document: feedback-pipeline-workload
+version: 1

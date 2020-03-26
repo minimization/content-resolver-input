@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group admin-tools for fedora-rawhide
+  packages:
+  - abrt-desktop
+  - gnome-disk-utility
+  - setroubleshoot
+  - system-config-language
+document: feedback-pipeline-workload
+version: 1

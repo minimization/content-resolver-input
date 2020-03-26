@@ -1,0 +1,34 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group system-tools for fedora-rawhide
+  packages:
+  - BackupPC
+  - NetworkManager-l2tp
+  - NetworkManager-libreswan
+  - NetworkManager-openconnect
+  - NetworkManager-openvpn
+  - NetworkManager-vpnc
+  - bonnie++
+  - chrony
+  - cifs-utils
+  - jigdo
+  - libreswan
+  - nmap
+  - ntfs-3g
+  - openconnect
+  - openldap-clients
+  - openvpn
+  - samba-client
+  - screen
+  - setserial
+  - tigervnc
+  - vpnc
+  - xdelta
+  - zisofs-tools
+  - zsh
+document: feedback-pipeline-workload
+version: 1

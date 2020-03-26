@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module libselinux-python:2.8 for rhel-8-appstream
+  packages:
+  - libselinux
+document: feedback-pipeline-workload
+version: 1

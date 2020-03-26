@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'brewbuildsystem groups: wrapper-rpm-build'
+  packages:
+  - bash
+  - coreutils
+  - redhat-ca-certificate
+  - redhat-release
+  - redhat-rpm-config
+  - rhpkg-simple
+  - rpm-build
+  - shadow-utils
+  - tar
+  - unzip
+document: feedback-pipeline-workload
+version: 1

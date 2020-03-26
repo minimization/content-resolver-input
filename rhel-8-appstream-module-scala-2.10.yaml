@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module scala:2.10 for rhel-8-appstream
+  packages:
+  - jline
+  - hawtjni
+  - jansi-native
+  - jansi
+  - scala
+document: feedback-pipeline-workload
+version: 1

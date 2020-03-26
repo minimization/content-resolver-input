@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group 3d-printing for fedora-rawhide
+  packages:
+  - admesh
+  - blender
+  - cura
+  - cura-lulzbot
+  - meshlab
+  - openscad
+  - openscad-MCAD
+  - printrun
+  - prusa-slicer
+  - slic3r
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'brewbuildsystem groups: appliance-build'
+  packages:
+  - appliance-tools
+  - bash
+  - coreutils
+  - grub
+  - parted
+  - perl
+  - selinux-policy
+document: feedback-pipeline-workload
+version: 1

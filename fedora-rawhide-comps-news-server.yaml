@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group news-server for fedora-rawhide
+  packages:
+  - inn
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group perl for fedora-rawhide
+  packages:
+  - perl
+  - git-cpan-patch
+  - perl-CPAN-Uploader
+  - perltidy
+document: feedback-pipeline-workload
+version: 1

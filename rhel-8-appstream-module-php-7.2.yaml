@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module php:7.2 for rhel-8-appstream
+  packages:
+  - php-pecl-zip
+  - php-pear
+  - php
+  - libzip
+  - php-pecl-apcu
+document: feedback-pipeline-workload
+version: 1

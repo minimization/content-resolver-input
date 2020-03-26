@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group ftp-server for fedora-rawhide
+  packages:
+  - vsftpd
+document: feedback-pipeline-workload
+version: 1
