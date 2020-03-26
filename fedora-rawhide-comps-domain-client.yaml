@@ -1,0 +1,19 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group domain-client for fedora-rawhide
+  packages:
+  - adcli
+  - freeipa-client
+  - oddjob-mkhomedir
+  - samba-common-tools
+  - samba-winbind
+  - sssd
+  - libsss_autofs
+  - libsss_sudo
+  - sssd-nfs-idmap
+document: feedback-pipeline-workload
+version: 1

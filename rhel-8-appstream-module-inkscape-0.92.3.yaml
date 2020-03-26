@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module inkscape:0.92.3 for rhel-8-appstream
+  packages:
+  - inkscape
+  - python-scour
+document: feedback-pipeline-workload
+version: 1

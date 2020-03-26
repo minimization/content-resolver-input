@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group java for fedora-rawhide
+  packages:
+  - java-1.8.0-openjdk
+  - abrt-java-connector
+  - icedtea-web
+document: feedback-pipeline-workload
+version: 1

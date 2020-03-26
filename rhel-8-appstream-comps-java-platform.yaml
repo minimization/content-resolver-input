@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group java-platform for rhel-8-appstream
+  packages:
+  - java-1.8.0-openjdk
+  - icedtea-web
+document: feedback-pipeline-workload
+version: 1

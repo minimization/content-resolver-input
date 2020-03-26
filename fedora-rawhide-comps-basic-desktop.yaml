@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group basic-desktop for fedora-rawhide
+  packages:
+  - adwaita-gtk2-theme
+  - adwaita-icon-theme
+  - awesome
+  - dwm
+  - fedora-icon-theme
+  - i3
+  - initial-setup-gui
+  - lightdm-gtk
+  - metacity
+  - openbox
+  - qtile
+  - ratpoison
+  - xmonad-basic
+document: feedback-pipeline-workload
+version: 1

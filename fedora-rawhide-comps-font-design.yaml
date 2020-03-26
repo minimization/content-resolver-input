@@ -1,0 +1,25 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group font-design for fedora-rawhide
+  packages:
+  - fontforge
+  - xgridfit
+  - fontaine
+  - fontpackages-devel
+  - fonttools
+  - ghostscript
+  - gimp
+  - gimp-data-extras
+  - gimp-help
+  - gucharmap
+  - inkscape
+  - perl-Font-TTF
+  - poppler-utils
+  - texlive-lcdftypetools
+  - xgridfit-doc
+document: feedback-pipeline-workload
+version: 1

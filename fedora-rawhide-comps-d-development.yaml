@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group d-development for fedora-rawhide
+  packages:
+  - ldc
+  - ldc-druntime
+  - ldc-druntime-devel
+  - ldc-phobos-devel
+  - make
+  - pkgconf
+  - ctags
+  - indent
+document: feedback-pipeline-workload
+version: 1

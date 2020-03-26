@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group remote-system-management for rhel-8-appstream
+  packages:
+  - net-snmp
+  - net-snmp-utils
+  - openwsman-client
+  - sblim-cmpi-base
+  - tog-pegasus
+  - wsmancli
+document: feedback-pipeline-workload
+version: 1

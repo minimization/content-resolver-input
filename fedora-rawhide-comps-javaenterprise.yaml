@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group javaenterprise for fedora-rawhide
+  packages:
+  - abrt-java-connector
+  - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-devel
+  - jboss-modules
+  - maven
+  - wildfly
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group ruby for fedora-rawhide
+  packages:
+  - ruby
+  - ruby-devel
+  - rubygem-abrt
+document: feedback-pipeline-workload
+version: 1

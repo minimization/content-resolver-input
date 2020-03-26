@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'brewbuildsystem groups: livecd-build'
+  packages:
+  - appliance-tools-minimizer
+  - bash
+  - coreutils
+  - dbus-python
+  - dmraid
+  - dnf
+  - livecd-tools
+  - perl
+  - selinux-policy-targeted
+  - yum
+document: feedback-pipeline-workload
+version: 1

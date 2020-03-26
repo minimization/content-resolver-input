@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group deepin-desktop-media for fedora-rawhide
+  packages:
+  - pavucontrol-qt
+document: feedback-pipeline-workload
+version: 1

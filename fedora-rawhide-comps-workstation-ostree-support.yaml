@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group workstation-ostree-support for fedora-rawhide
+  packages:
+  - docker
+  - nss-altfiles
+  - ostree-grub2
+  - rpm-ostree
+document: feedback-pipeline-workload
+version: 1

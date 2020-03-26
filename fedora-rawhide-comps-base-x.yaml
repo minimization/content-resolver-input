@@ -1,0 +1,31 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group base-x for fedora-rawhide
+  packages:
+  - glx-utils
+  - mesa-dri-drivers
+  - mesa-vulkan-drivers
+  - plymouth-system-theme
+  - xorg-x11-drv-armsoc
+  - xorg-x11-drv-ati
+  - xorg-x11-drv-evdev
+  - xorg-x11-drv-fbdev
+  - xorg-x11-drv-intel
+  - xorg-x11-drv-libinput
+  - xorg-x11-drv-nouveau
+  - xorg-x11-drv-omap
+  - xorg-x11-drv-openchrome
+  - xorg-x11-drv-qxl
+  - xorg-x11-drv-vesa
+  - xorg-x11-drv-vmware
+  - xorg-x11-drv-wacom
+  - xorg-x11-server-Xorg
+  - xorg-x11-utils
+  - xorg-x11-xauth
+  - xorg-x11-xinit
+document: feedback-pipeline-workload
+version: 1

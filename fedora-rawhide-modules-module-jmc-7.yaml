@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module jmc:7 for fedora-rawhide-modules
+  packages:
+  - directory-maven-plugin
+  - javamail
+  - jmc
+  - ee4j-parent
+  - owasp-java-encoder
+  - jaf
+  - jmc-core
+document: feedback-pipeline-workload
+version: 1

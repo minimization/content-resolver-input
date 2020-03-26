@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group dns-server for fedora-rawhide
+  packages:
+  - bind-chroot
+document: feedback-pipeline-workload
+version: 1

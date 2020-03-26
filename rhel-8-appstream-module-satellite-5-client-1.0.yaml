@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module satellite-5-client:1.0 for rhel-8-appstream
+  packages:
+  - rhnlib
+  - rhn-client-tools
+  - dnf-plugin-spacewalk
+  - rhnsd
+document: feedback-pipeline-workload
+version: 1

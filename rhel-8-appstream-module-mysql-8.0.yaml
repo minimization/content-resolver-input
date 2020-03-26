@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module mysql:8.0 for rhel-8-appstream
+  packages:
+  - mysql
+  - rapidjson
+  - mecab
+  - mecab-ipadic
+document: feedback-pipeline-workload
+version: 1

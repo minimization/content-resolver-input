@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module ruby:2.5 for rhel-8-appstream
+  packages:
+  - rubygem-pg
+  - rubygem-mysql2
+  - ruby
+  - rubygem-bson
+  - rubygem-mongo
+  - rubygem-bundler
+  - rubygem-abrt
+document: feedback-pipeline-workload
+version: 1

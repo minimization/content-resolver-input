@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group cloud-server for fedora-rawhide
+  packages:
+  - cloud-init
+  - cloud-utils-growpart
+  - dracut-config-generic
+  - grubby
+  - rsync
+  - syslinux-extlinux
+  - tar
+  - console-login-helper-messages-issuegen
+  - console-login-helper-messages-motdgen
+  - console-login-helper-messages-profile
+  - fedora-release-cloud
+document: feedback-pipeline-workload
+version: 1

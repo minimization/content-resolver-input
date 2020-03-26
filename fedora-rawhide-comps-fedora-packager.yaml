@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group fedora-packager for fedora-rawhide
+  packages:
+  - bodhi-client
+  - curl
+  - fedora-easy-karma
+  - fedora-packager
+  - git
+  - koji
+  - make
+  - mock
+  - redhat-rpm-config
+  - rpm-build
+  - rpmdevtools
+  - bzr
+  - mercurial
+document: feedback-pipeline-workload
+version: 1

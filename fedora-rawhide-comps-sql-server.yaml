@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group sql-server for fedora-rawhide
+  packages:
+  - postgresql
+  - libdbi-dbd-pgsql
+  - perl-DBD-Pg
+  - postgresql-server
+  - rhdb-utils
+  - unixODBC
+document: feedback-pipeline-workload
+version: 1

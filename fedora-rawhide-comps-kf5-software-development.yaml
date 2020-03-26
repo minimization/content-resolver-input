@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group kf5-software-development for fedora-rawhide
+  packages:
+  - cmake
+  - extra-cmake-modules
+  - qt5-qtdeclarative-devel
+  - qt5-qtquickcontrols
+  - qt5-qttools-devel
+  - qt5-qtwebkit-devel
+document: feedback-pipeline-workload
+version: 1

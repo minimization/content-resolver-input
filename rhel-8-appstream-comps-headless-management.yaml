@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group headless-management for rhel-8-appstream
+  packages:
+  - PackageKit
+  - cockpit-packagekit
+  - cockpit-podman
+  - cockpit-storaged
+  - sscg
+document: feedback-pipeline-workload
+version: 1

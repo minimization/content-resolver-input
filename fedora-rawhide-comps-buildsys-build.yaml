@@ -1,0 +1,33 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group buildsys-build for fedora-rawhide
+  packages:
+  - bash
+  - bzip2
+  - coreutils
+  - cpio
+  - diffutils
+  - fedora-release-common
+  - findutils
+  - gawk
+  - glibc-minimal-langpack
+  - grep
+  - gzip
+  - info
+  - make
+  - patch
+  - redhat-rpm-config
+  - rpm-build
+  - sed
+  - shadow-utils
+  - tar
+  - unzip
+  - util-linux
+  - which
+  - xz
+document: feedback-pipeline-workload
+version: 1

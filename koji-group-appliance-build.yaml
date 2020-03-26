@@ -1,0 +1,20 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: 'kojibuildsystem groups: appliance-build'
+  packages:
+  - appliance-tools
+  - bash
+  - coreutils
+  - grub
+  - parted
+  - perl
+  - policycoreutils
+  - selinux-policy
+  - shadow-utils
+  - sssd-client
+document: feedback-pipeline-workload
+version: 1

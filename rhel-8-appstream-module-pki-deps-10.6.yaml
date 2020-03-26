@@ -1,0 +1,43 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module pki-deps:10.6 for rhel-8-appstream
+  packages:
+  - bea-stax
+  - python-nss
+  - msv
+  - fasterxml-oss-parent
+  - pki-servlet-engine
+  - glassfish-fastinfoset
+  - jakarta-commons-httpclient
+  - jackson-parent
+  - jackson-databind
+  - javassist
+  - jackson-jaxrs-providers
+  - stax-ex
+  - xml-commons-resolver
+  - jackson-module-jaxb-annotations
+  - slf4j
+  - relaxngcc
+  - apache-commons-collections
+  - jackson-core
+  - glassfish-jaxb-api
+  - xml-commons-apis
+  - xml-stylebook
+  - jackson-annotations
+  - relaxngDatatype
+  - xalan-j2
+  - xerces-j2
+  - jackson-bom
+  - velocity
+  - resteasy
+  - glassfish-jaxb
+  - xsom
+  - apache-commons-lang
+  - glassfish-jax-rs-api
+  - xmlstreambuffer
+document: feedback-pipeline-workload
+version: 1

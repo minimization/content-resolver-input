@@ -1,0 +1,73 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group additional-devel for rhel-8-appstream
+  packages:
+  - SDL-devel
+  - alsa-lib-devel
+  - binutils-devel
+  - boost-devel
+  - compat-libgfortran-48
+  - cups-devel
+  - dbus-glib-devel
+  - evolution-data-server-devel
+  - gd-devel
+  - gnome-desktop3-devel
+  - gnutls-devel
+  - gpm-devel
+  - gstreamer1-devel
+  - gstreamer1-plugins-base-devel
+  - gvfs-devel
+  - hunspell-devel
+  - java-1.8.0-openjdk-devel
+  - libXau-devel
+  - libXaw-devel
+  - libXinerama-devel
+  - libXmu-devel
+  - libXpm-devel
+  - libXrandr-devel
+  - libcanberra-devel
+  - libdrm-devel
+  - libnotify-devel
+  - libpfm-devel
+  - libpmem-devel
+  - libpmemblk-devel
+  - libpmemlog-devel
+  - libpmemobj++-devel
+  - libpmemobj++-doc
+  - libpmemobj-devel
+  - libpmempool-devel
+  - libpq-devel
+  - librpmem-devel
+  - librsvg2-devel
+  - librsvg2-tools
+  - libsoup-devel
+  - libssh-devel
+  - libtiff-devel
+  - libva-devel
+  - libvmem-devel
+  - libvmmalloc-devel
+  - libxslt-devel
+  - mariadb-devel
+  - motif-devel
+  - mpfr-devel
+  - net-snmp-devel
+  - newt-devel
+  - openscap-devel
+  - papi-devel
+  - protobuf-c
+  - pulseaudio-libs-devel
+  - sane-backends-devel
+  - scl-utils
+  - scl-utils-build
+  - slang-devel
+  - startup-notification-devel
+  - tbb-devel
+  - tk-devel
+  - unixODBC-devel
+  - xorg-x11-proto-devel
+document: feedback-pipeline-workload
+version: 1

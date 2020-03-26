@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group virtualization-platform for rhel-8-appstream
+  packages:
+  - libvirt
+  - libvirt-client
+  - virt-who
+document: feedback-pipeline-workload
+version: 1

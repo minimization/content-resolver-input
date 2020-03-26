@@ -1,0 +1,14 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group dogtag for fedora-rawhide
+  packages:
+  - pki-ca
+  - pki-console
+  - pki-kra
+  - pki-ocsp
+document: feedback-pipeline-workload
+version: 1

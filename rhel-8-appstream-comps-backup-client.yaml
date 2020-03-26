@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group backup-client for rhel-8-appstream
+  packages:
+  - amanda-client
+document: feedback-pipeline-workload
+version: 1

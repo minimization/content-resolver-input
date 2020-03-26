@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module redis:5 for rhel-8-appstream
+  packages:
+  - redis
+document: feedback-pipeline-workload
+version: 1

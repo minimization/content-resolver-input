@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group headless-management for fedora-rawhide
+  packages:
+  - PackageKit
+  - cockpit
+  - openssh-server
+  - cockpit-networkmanager
+  - cockpit-packagekit
+  - cockpit-selinux
+  - cockpit-storaged
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,26 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group printing for fedora-rawhide
+  packages:
+  - cups
+  - cups-filters
+  - ghostscript
+  - bluez-cups
+  - colord
+  - cups-pk-helper
+  - foomatic
+  - foomatic-db-ppds
+  - gutenprint
+  - gutenprint-cups
+  - hplip
+  - mpage
+  - nss-mdns
+  - paps
+  - samba-client
+  - system-config-printer-udev
+document: feedback-pipeline-workload
+version: 1
