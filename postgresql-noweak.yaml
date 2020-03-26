@@ -6,7 +6,7 @@
 # They might want to monitor it for the install size, dependencies that get
 # pulled in, etc.
 
-document: feeback-pipeline-workload
+document: feedback-pipeline-workload
 version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
