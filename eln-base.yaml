@@ -1,0 +1,129 @@
+document:  feedback-pipeline-environment
+version: 1
+data:
+    name: ELN bootable base
+    description: An experimental bootable set for ELN.
+    maintainer: psabata
+    repositories:
+        - repository-fedora-rawhide
+    packages:
+        - b43-openfwwf
+        - bash
+        - btrfs-progs
+        - bzip2
+        - checkpolicy
+        - coreutils-single
+        - cpio
+        - dhcp-client
+        - diffutils
+        - dmraid
+        - dnf
+        - dosfstools
+        - e2fsprogs
+        - ebtables
+        - ethtool
+        - fcoe-utils
+        - fedora-release
+        - findutils
+        - fipscheck
+        - glibc-minimal-langpack
+        - gnupg2
+        - grep
+        - gzip
+        - hfsplus-tools
+        - initscripts
+        - iproute
+        - ipset
+        - iputils
+        - iscsi-initiator-utils
+        - kbd
+        - kernel-core
+        - kernel-cross-headers
+        - kernel-headers
+        - kernel-modules
+        - kernel-modules-extra
+        - kexec-tools
+        - linux-firmware
+        - lldpad
+        - mdadm
+        - nfs-utils
+        - passwd
+        - psmisc
+        - plymouth
+        - rootfiles
+        - rpm
+        - sed
+        - selinux-policy
+        - selinux-policy-minimum
+        - selinux-policy-mls
+        - selinux-policy-sandbox
+        - selinux-policy-targeted
+        - sg3_utils
+        - shadow-utils
+        - systemd
+        - sudo
+        - tar
+        - uboot-tools
+        - unzip
+        - util-linux
+        - which
+        - xfsprogs
+        - xz
+        - zstd
+    labels:
+        - eln
+    arch_packages:
+        aarch64:
+            - dbxtool
+            - efibootmgr
+            - efivar
+            - extlinux-bootloader
+            - grub2-common
+            - grub2-efi-aa64
+            - grub2-efi-aa64-modules
+            - grub2-tools
+            - grub2-tools-extra
+            - grub2-tools-minimal
+            - mokutil
+            - shim-aa64
+            - shim-unsigned-aarch64
+        armv7hl:
+            - kernel-lpae
+            - grub2-common
+            - grub2-tools-extra
+            - grub2-tools-minimal
+        ppc64le:
+            - grub2-common
+            - grub2-tools
+            - grub2-tools-extra
+            - grub2-tools-minimal
+            - powerpc-utils
+        s390x:
+            - s390utils-base
+            - s390utils-cmsfs-fuse
+        x86_64:
+            - dbxtool
+            - efibootmgr
+            - efivar
+            - grub2-common
+            - grub2-efi-ia32
+            - grub2-efi-ia32-cdboot
+            - grub2-efi-ia32-modules
+            - grub2-efi-x64
+            - grub2-efi-x64-cdboot
+            - grub2-efi-x64-modules
+            - grub2-pc
+            - grub2-pc-modules
+            - grub2-tools
+            - grub2-tools-efi
+            - grub2-tools-extra
+            - grub2-tools-minimal
+            - mactel-boot
+            - mokutil
+            - shim-ia32
+            - shim-unsigned-ia32
+            - shim-unsigned-x64
+            - shim-x64
+            - syslinux
+            - syslinux-extlinux
+            - syslinux-nonlinux
