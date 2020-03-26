@@ -4,7 +4,7 @@
 #
 # Views are, well, views combining various things together!
 
-document: feeback-pipeline-view
+document: feedback-pipeline-view
 version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
