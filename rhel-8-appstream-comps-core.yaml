@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group core for rhel-8-appstream
+  packages:
+  - dnf-plugin-spacewalk
+  - plymouth
+  - rhn-client-tools
+  - rhn-setup
+  - rhnlib
+  - rhnsd
+  - rsyslog
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group critical-path-lxqt for fedora-rawhide
+  packages:
+  - lxqt-session
+  - notification-daemon
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group guest-desktop-agents for fedora-rawhide
+  packages:
+  - hyperv-daemons
+  - open-vm-tools-desktop
+  - qemu-guest-agent
+  - spice-vdagent
+  - virtualbox-guest-additions
+document: feedback-pipeline-workload
+version: 1

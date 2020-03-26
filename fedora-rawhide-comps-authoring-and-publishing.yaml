@@ -1,0 +1,24 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group authoring-and-publishing for fedora-rawhide
+  packages:
+  - docbook-slides
+  - docbook-style-dsssl
+  - docbook-style-xsl
+  - docbook-utils
+  - docbook-utils-pdf
+  - docbook5-schemas
+  - docbook5-style-xsl
+  - linuxdoc-tools
+  - tex-fonts-hebrew
+  - texlive
+  - texlive-cm-lgc
+  - texlive-kerkis
+  - xhtml1-dtds
+  - xmlto
+document: feedback-pipeline-workload
+version: 1

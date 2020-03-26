@@ -1,0 +1,10 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group network-server for rhel-8-baseos
+  packages: []
+document: feedback-pipeline-workload
+version: 1

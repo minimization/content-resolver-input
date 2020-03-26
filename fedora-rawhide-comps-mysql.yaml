@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group mysql for fedora-rawhide
+  packages:
+  - mariadb
+  - libdbi-dbd-mysql
+  - mariadb-server
+  - mysql-connector-odbc
+  - perl-DBD-MySQL
+  - python3-mysql
+  - unixODBC
+document: feedback-pipeline-workload
+version: 1

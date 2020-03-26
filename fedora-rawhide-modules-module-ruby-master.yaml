@@ -1,0 +1,16 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module ruby:master for fedora-rawhide-modules
+  packages:
+  - rubygem-bson
+  - rubygem-mysql2
+  - ruby
+  - rubygem-mongo
+  - rubygem-abrt
+  - rubygem-pg
+document: feedback-pipeline-workload
+version: 1

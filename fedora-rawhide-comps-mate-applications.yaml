@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group mate-applications for fedora-rawhide
+  packages:
+  - caja-beesu
+  - caja-share
+  - firewall-applet
+  - mate-applet-softupd
+  - mate-menu
+  - mate-sensors-applet
+  - mate-utils
+  - multimedia-menus
+  - pidgin
+  - python3-caja
+  - tigervnc
+document: feedback-pipeline-workload
+version: 1

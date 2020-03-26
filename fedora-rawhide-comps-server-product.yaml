@@ -1,0 +1,17 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group server-product for fedora-rawhide
+  packages:
+  - PackageKit
+  - chrony
+  - polkit
+  - realmd
+  - NetworkManager-team
+  - dhcp-client
+  - fedora-release-server
+document: feedback-pipeline-workload
+version: 1

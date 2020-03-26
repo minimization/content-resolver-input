@@ -1,0 +1,21 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module sway:rolling for fedora-rawhide-modules
+  packages:
+  - sway
+  - rofi
+  - slurp
+  - mako
+  - swaybg
+  - swayidle
+  - wlroots
+  - wayland-protocols
+  - swaylock
+  - grim
+  - waybar
+document: feedback-pipeline-workload
+version: 1

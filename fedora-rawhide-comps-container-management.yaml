@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group container-management for fedora-rawhide
+  packages:
+  - podman
+document: feedback-pipeline-workload
+version: 1

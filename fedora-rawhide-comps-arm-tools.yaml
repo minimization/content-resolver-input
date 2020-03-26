@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group arm-tools for fedora-rawhide
+  packages:
+  - arm-image-installer
+  - cloud-utils-growpart
+  - uboot-images-armv7
+  - uboot-images-armv8
+  - zram
+document: feedback-pipeline-workload
+version: 1

@@ -1,0 +1,12 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group load-balancer for fedora-rawhide
+  packages:
+  - ipvsadm
+  - keepalived
+document: feedback-pipeline-workload
+version: 1

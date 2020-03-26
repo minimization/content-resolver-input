@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module perl-FCGI:0.78 for rhel-8-appstream
+  packages:
+  - perl-FCGI
+document: feedback-pipeline-workload
+version: 1

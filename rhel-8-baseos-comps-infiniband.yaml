@@ -1,0 +1,29 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group infiniband for rhel-8-baseos
+  packages:
+  - libibverbs
+  - libibverbs-utils
+  - librdmacm
+  - librdmacm-utils
+  - rdma-core
+  - ibacm
+  - infiniband-diags
+  - iwpmd
+  - libibmad
+  - libibumad
+  - libpsm2
+  - libpsm2-compat
+  - opa-address-resolution
+  - opa-basic-tools
+  - opa-fastfabric
+  - opa-libopamgt
+  - perftest
+  - srp_daemon
+  - glusterfs-rdma
+document: feedback-pipeline-workload
+version: 1

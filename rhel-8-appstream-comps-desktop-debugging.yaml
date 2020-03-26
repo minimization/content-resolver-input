@@ -1,0 +1,15 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group desktop-debugging for rhel-8-appstream
+  packages:
+  - abrt-desktop
+  - crash
+  - crash-gcore-command
+  - crash-ptdump-command
+  - crash-trace-command
+document: feedback-pipeline-workload
+version: 1

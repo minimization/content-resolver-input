@@ -1,0 +1,18 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group development-tools for fedora-rawhide
+  packages:
+  - gettext
+  - diffstat
+  - doxygen
+  - git
+  - patch
+  - patchutils
+  - subversion
+  - systemtap
+document: feedback-pipeline-workload
+version: 1

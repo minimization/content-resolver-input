@@ -1,0 +1,11 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Module mercurial:4.8 for rhel-8-appstream
+  packages:
+  - mercurial
+document: feedback-pipeline-workload
+version: 1

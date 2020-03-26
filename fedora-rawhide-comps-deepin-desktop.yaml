@@ -1,0 +1,23 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group deepin-desktop for fedora-rawhide
+  packages:
+  - chromium
+  - deepin-calculator
+  - deepin-calendar
+  - deepin-desktop
+  - deepin-editor
+  - deepin-file-manager
+  - deepin-image-viewer
+  - deepin-picker
+  - deepin-screenshot
+  - deepin-system-monitor
+  - dnfdragora-updater
+  - fedora-icon-theme
+  - firewall-config
+document: feedback-pipeline-workload
+version: 1

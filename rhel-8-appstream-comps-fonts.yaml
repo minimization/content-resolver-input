@@ -1,0 +1,43 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group fonts for rhel-8-appstream
+  packages:
+  - abattis-cantarell-fonts
+  - gnu-free-mono-fonts
+  - gnu-free-sans-fonts
+  - gnu-free-serif-fonts
+  - google-noto-sans-cjk-ttc-fonts
+  - google-noto-sans-lisu-fonts
+  - google-noto-sans-mandaic-fonts
+  - google-noto-sans-meetei-mayek-fonts
+  - google-noto-sans-sinhala-fonts
+  - google-noto-sans-tagalog-fonts
+  - google-noto-sans-tai-tham-fonts
+  - google-noto-sans-tai-viet-fonts
+  - google-noto-serif-cjk-ttc-fonts
+  - jomolhari-fonts
+  - julietaula-montserrat-fonts
+  - khmeros-base-fonts
+  - lohit-assamese-fonts
+  - lohit-bengali-fonts
+  - lohit-devanagari-fonts
+  - lohit-gujarati-fonts
+  - lohit-gurmukhi-fonts
+  - lohit-kannada-fonts
+  - lohit-odia-fonts
+  - lohit-tamil-fonts
+  - lohit-telugu-fonts
+  - paktype-naskh-basic-fonts
+  - paratype-pt-sans-fonts
+  - sil-abyssinica-fonts
+  - sil-nuosu-fonts
+  - sil-padauk-fonts
+  - smc-meera-fonts
+  - stix-fonts
+  - thai-scalable-waree-fonts
+document: feedback-pipeline-workload
+version: 1

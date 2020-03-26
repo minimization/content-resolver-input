@@ -1,0 +1,44 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group eclipse for fedora-rawhide
+  packages:
+  - eclipse-cdt
+  - eclipse-jdt
+  - eclipse-cdt-docker
+  - eclipse-dltk-mylyn
+  - eclipse-dltk-sh
+  - eclipse-egit
+  - eclipse-egit-github
+  - eclipse-egit-mylyn
+  - eclipse-linuxtools-changelog
+  - eclipse-linuxtools-docker
+  - eclipse-linuxtools-gcov
+  - eclipse-linuxtools-gprof
+  - eclipse-linuxtools-javadocs
+  - eclipse-linuxtools-libhover
+  - eclipse-linuxtools-perf
+  - eclipse-linuxtools-rpm-editor
+  - eclipse-linuxtools-systemtap
+  - eclipse-linuxtools-vagrant
+  - eclipse-linuxtools-valgrind
+  - eclipse-mpc
+  - eclipse-mylyn-context-cdt
+  - eclipse-mylyn-context-java
+  - eclipse-mylyn-context-pde
+  - eclipse-mylyn-tasks-bugzilla
+  - eclipse-mylyn-tasks-trac
+  - eclipse-mylyn-versions-cvs
+  - eclipse-mylyn-versions-git
+  - eclipse-mylyn-versions-subclipse
+  - eclipse-packagekit
+  - eclipse-pde
+  - eclipse-pydev
+  - eclipse-pydev-mylyn
+  - eclipse-subclipse
+  - eclipse-usage
+document: feedback-pipeline-workload
+version: 1

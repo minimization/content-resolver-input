@@ -1,0 +1,13 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - eln
+  maintainer: bakery
+  name: Comps group hardware-monitoring for rhel-8-baseos
+  packages:
+  - mcelog
+  - rasdaemon
+  - smartmontools
+document: feedback-pipeline-workload
+version: 1
