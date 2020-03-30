@@ -40,3 +40,8 @@ data:
   #
   # (mandatory field)
   repository: repository-fedora-rawhide
+
+  # Just to demonstrate stuff
+  unwanted_packages:
+  - emacs-filesystem
+  - dbus
