@@ -52,7 +52,7 @@ data:
   # (mandatory field)
   labels:
   - minimization
-  - eln
+  - eln-candidate
 
 
   ### OPTIONAL FIELDS ###

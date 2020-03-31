@@ -2,7 +2,7 @@
 data:
   description: Automatically generated.
   labels:
-  - eln
+  - eln-candidate
   maintainer: bakery
   name: Comps group dial-up for fedora-rawhide
   packages:
