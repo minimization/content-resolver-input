@@ -2,7 +2,7 @@
 data:
   description: Automatically generated.
   labels:
-  - eln
+  - eln-candidate
   maintainer: bakery
   name: Module nodejs:13 for fedora-rawhide-modules
   packages:
