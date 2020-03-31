@@ -3,6 +3,7 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
+  - eln
   maintainer: bakery
   name: Module postgresql:10 for rhel-8-appstream
   packages:
