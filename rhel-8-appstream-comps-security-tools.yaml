@@ -3,6 +3,7 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
+  - eln
   - adams-demo-label
   maintainer: bakery
   name: Comps group security-tools for rhel-8-appstream

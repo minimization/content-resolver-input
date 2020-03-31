@@ -3,6 +3,7 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
+  - eln
   maintainer: bakery
   name: Comps group container-management for rhel-8-appstream
   packages:
