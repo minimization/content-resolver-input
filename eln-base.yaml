@@ -72,6 +72,7 @@ data:
         - zstd
     labels:
         - eln-base
+        - eln
     arch_packages:
         aarch64:
             - dbxtool
