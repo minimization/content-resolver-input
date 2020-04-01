@@ -44,3 +44,11 @@ data:
   # Just to demonstrate stuff
   unwanted_packages:
   - xen
+  - xen-devel
+  - xen-hypervisor
+  - xen-libs
+  - xen-licenses
+  - xen-ocaml
+  - xen-ocaml-devel
+  - xen-runtime
+  - xen-doc
