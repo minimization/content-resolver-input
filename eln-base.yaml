@@ -12,7 +12,7 @@ data:
         - btrfs-progs
         - bzip2
         - checkpolicy
-        - coreutils-single
+        - coreutils
         - cpio
         - dhcp-client
         - diffutils
