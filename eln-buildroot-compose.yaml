@@ -1,0 +1,55 @@
+---
+# This configuration file defines a "View" in Feedback Pipeline.
+# https://tiny.distro.builders
+#
+# Views are, well, views combining various things together!
+
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  # id is the filename — that automatically prevents collisions for free!
+
+
+  ### MANDATORY FIELDS ###
+  
+  # Name is an identifier for humans
+  #
+  # (mandatory field)
+  name: ELN Buildroot Compose
+  
+  # A short description, perhaps hinting the purpose
+  #
+  # (mandatory field)
+  description: This compose should be able to install, and build the next RHEL release
+
+  # Who maintains it? This is just a freeform string
+  # for humans to read. In Fedora, a FAS nick is recommended.
+  #
+  # (mandatory field)
+  maintainer: bakery
+
+  # Labels connect things together.
+  # Workloads get installed in environments with the same label.
+  # They also get included in views with the same label.
+  # 
+  # (mandatory field)
+  labels:
+  - eln
+  - eln-buildroot
+
+  # Choose one repository that gets used as a source.
+  #
+  # (mandatory field)
+  repository: repository-fedora-rawhide
+
+  # Just to demonstrate stuff
+  unwanted_packages:
+  - xen
+  - xen-devel
+  - xen-hypervisor
+  - xen-libs
+  - xen-licenses
+  - xen-ocaml
+  - xen-ocaml-devel
+  - xen-runtime
+  - xen-doc
