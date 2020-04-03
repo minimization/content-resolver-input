@@ -1,9 +1,12 @@
-document:  feedback-pipeline-environment
+---
+document:  feedback-pipeline-workload
 version: 1
 data:
     name: ELN Buildroot Workload
     description: The packages that are not part of ELN, but needed to build it.
     maintainer: tdawson
+    labels:
+        - eln-buildroot
     repositories:
         - repository-fedora-rawhide
     packages:
@@ -3068,8 +3071,6 @@ data:
         - zopfli
         - zvbi-devel
         - zziplib-devel
-    labels:
-        - eln-buildroot
     arch_packages:
         aarch64:
             - brasero-devel
