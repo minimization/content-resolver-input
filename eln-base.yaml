@@ -71,6 +71,7 @@ data:
         - xz
         - zstd
     labels:
+        - eln-buildroot
         - eln-base
         - eln
     arch_packages:

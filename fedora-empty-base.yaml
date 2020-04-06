@@ -52,8 +52,8 @@ data:
   # (mandatory field)
   labels:
   - minimization
-  - eln-candidate
-
+  - eln
+  - eln-buildroot
 
   ### OPTIONAL FIELDS ###
 
