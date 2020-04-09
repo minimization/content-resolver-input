@@ -15,12 +15,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: ELN Buildroot Compose
+  name: ELN Buildroot Compose projection
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: This compose should be able to install, and build the next RHEL release
+  description: A projection of the ELN Buildroot Compose using Fedora Rawhide content
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
