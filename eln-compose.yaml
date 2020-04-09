@@ -15,12 +15,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: ELN Compose
+  name: ELN Compose projection
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: This compose should look like the next RHEL release
+  description: A projection of the ELN Compose resolved using Fedora Rawhide content
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
