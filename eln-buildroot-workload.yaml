@@ -116,7 +116,6 @@ data:
         - cfitsio-devel
         - chan-devel
         - CharLS-devel
-        - checksec
         - cheese-libs-devel
         - chmlib-devel
         - chrpath
@@ -211,7 +210,6 @@ data:
         - doxygen
         - doxygen-latex
         - drpm-devel
-        - dwarves
         - ebook-tools-devel
         - ed25519-java
         - editorconfig-devel
@@ -277,7 +275,6 @@ data:
         - freerdp-devel
         - freetds-devel
         - freexl-devel
-        - fstrm-devel
         - ftgl-devel
         - fuse-devel
         - fusesource-pom
@@ -291,7 +288,6 @@ data:
         - gcc-gnat
         - gcc-objc
         - gcc-objc++
-        - gcc-plugin-devel
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
         - gcc-x86_64-linux-gnu
@@ -660,7 +656,6 @@ data:
         - gssdp-devel
         - gstreamer1-plugins-bad-free-devel
         - gtest-devel
-        - gtk3-devel-docs
         - gtk-doc
         - gtkglext-devel
         - gtkmm30-devel
@@ -688,7 +683,6 @@ data:
         - HdrHistogram_c-devel
         - help2man
         - hevea
-        - hidapi-devel
         - hiredis-devel
         - hivex-devel
         - hsqldb-lib
@@ -899,7 +893,6 @@ data:
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
-        - libargon2-devel
         - libart_lgpl-devel
         - libasr-devel
         - libass-devel
@@ -919,7 +912,6 @@ data:
         - libbson-devel
         - libburn-devel
         - libcacard-devel
-        - libcbor-devel
         - libcdio-devel
         - libcdio-paranoia-devel
         - libcdr-devel
@@ -1058,7 +1050,6 @@ data:
         - libmwaw-devel
         - libmypaint-devel
         - libnauty-devel
-        - libnbd-devel
         - libndp-devel
         - libnet-devel
         - libnetfilter_conntrack-devel
@@ -1118,7 +1109,6 @@ data:
         - librx-devel
         - libsamplerate-devel
         - libsass-devel
-        - libseccomp-static
         - libsemanage-devel
         - libsemanage-static
         - libsepol-static
@@ -1155,7 +1145,6 @@ data:
         - libtheora-devel
         - libtidy-devel
         - libtiff-tools
-        - libtimezonemap-devel
         - libtirpc-devel
         - libtommath-devel
         - libtool-ltdl-devel
@@ -1276,7 +1265,6 @@ data:
         - mesa-libgbm-devel
         - mesa-libOSMesa-devel
         - meson
-        - metacity
         - metis-devel
         - mftrace
         - mingw32-gcc
@@ -1687,7 +1675,6 @@ data:
         - perl-Alien-Base-ModuleBuild
         - perl-Alien-Build
         - perl-Alien-cmake3
-        - perl-Alien-FFI
         - perl-Alien-Libxml2
         - perl-Alien-pkgconf
         - perl-AnyEvent
@@ -2605,7 +2592,6 @@ data:
         - python3-ldb-devel
         - python3-libfdt
         - python3-libmount
-        - python3-libnbd
         - python3-libvoikko
         - python3-lit
         - python3-mallard-ducktype
@@ -2618,7 +2604,6 @@ data:
         - python3-pexpect
         - python3-pip
         - python3-prettytable
-        - python3-pwntools
         - python3-pylint
         - python3-pytest-runner
         - python3-pywbem
@@ -2768,7 +2753,6 @@ data:
         - rubygem-jbuilder
         - rubygem-jquery-rails
         - rubygem-json
-        - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-launchy
         - rubygem-linked-list
@@ -2917,7 +2901,6 @@ data:
         - sonatype-oss-parent
         - sord-devel
         - soundtouch-devel
-        - source-highlight-devel
         - soxr-devel
         - spandsp-devel
         - spdlog-devel
@@ -3055,7 +3038,6 @@ data:
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
         - xpp3-minimal
-        - xxhash-devel
         - yajl-devel
         - yasm
         - yecht
@@ -3072,25 +3054,33 @@ data:
             - arm-trusted-firmware-armv8
             - bcc-devel
             - brasero-devel
+            - checksec
             - dbus-c++-devel
             - dietlibc-devel
             - discount
             - dpkg
+            - dwarves
             - efivar-devel
             - fedora-bookmarks
             - flashrom-devel
+            - fstrm-devel
+            - gcc-plugin-devel
             - gnome-bluetooth-libs-devel
             - gnu-efi
             - gnu-efi-devel
             - golang-shared
             - gperftools-devel
+            - gtk3-devel-docs
             - gtkmm24-devel
+            - hidapi-devel
             - infiniband-diags-devel
             - koji
             - lame-devel
             - libabigail
+            - libargon2-devel
             - libbpf-devel
             - libbpf-static
+            - libcbor-devel
             - libconfuse-devel
             - libdc1394-devel
             - libfprint-devel
@@ -3100,23 +3090,32 @@ data:
             - libiec61883-devel
             - libimobiledevice-devel
             - libmad-devel
+            - libnbd-devel
             - libpfm-static
             - libplist-devel
             - libraw1394-devel
+            - libseccomp-static
+            - libtimezonemap-devel
             - libunwind-devel
             - libusbmuxd-devel
             - libvpx-devel
             - libXfont2-devel
             - libxml++-devel
             - llvm6.0
+            - metacity
+            - perl-Alien-FFI
             - python3-koji
+            - python3-libnbd
             - python3-libpamtest
             - python3-mock
             - python3-pillow
+            - python3-pwntools
             - python3-qt5-devel
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
+            - rubygem-json_pure
+            - source-highlight-devel
             - spice-server-devel
             - tpm2-tss-devel
             - ucx-devel
@@ -3125,19 +3124,28 @@ data:
             - xen-devel
             - xorg-x11-drv-dummy
             - xorg-x11-drv-wacom-devel
+            - xxhash-devel
         ppc64le:
             - bcc-devel
             - brasero-devel
+            - checksec
             - dbus-c++-devel
+            - dwarves
             - fedora-bookmarks
             - flashrom-devel
+            - fstrm-devel
+            - gcc-plugin-devel
             - gnome-bluetooth-libs-devel
             - gperftools-devel
+            - gtk3-devel-docs
             - gtkmm24-devel
+            - hidapi-devel
             - infiniband-diags-devel
             - lame-devel
+            - libargon2-devel
             - libbpf-devel
             - libbpf-static
+            - libcbor-devel
             - libconfuse-devel
             - libdc1394-devel
             - libfprint-devel
@@ -3146,29 +3154,57 @@ data:
             - libiec61883-devel
             - libimobiledevice-devel
             - libmad-devel
+            - libnbd-devel
             - libpfm-static
             - libplist-devel
             - libraw1394-devel
             - librtas-devel
+            - libseccomp-static
             - libservicelog-devel
+            - libtimezonemap-devel
             - libunwind-devel
             - libusbmuxd-devel
             - libXfont2-devel
             - libxml++-devel
             - lm_sensors-devel
+            - metacity
+            - perl-Alien-FFI
+            - python3-libnbd
             - python3-libpamtest
+            - python3-pwntools
             - python3-qt5-devel
+            - rubygem-json_pure
+            - source-highlight-devel
             - ucx-devel
             - umockdev
             - xorg-x11-drv-dummy
             - xorg-x11-drv-wacom-devel
+            - xxhash-devel
         s390x:
+            - checksec
             - dietlibc-devel
+            - dwarves
+            - fstrm-devel
+            - gcc-plugin-devel
+            - gtk3-devel-docs
+            - hidapi-devel
+            - libargon2-devel
+            - libcbor-devel
             - libica-devel
+            - libnbd-devel
+            - libseccomp-static
+            - libtimezonemap-devel
             - lm_sensors-devel
             - media-player-info
+            - metacity
             - opensc
+            - perl-Alien-FFI
+            - python3-libnbd
+            - python3-pwntools
+            - rubygem-json_pure
             - s390utils-devel
+            - source-highlight-devel
+            - xxhash-devel
         x86_64:
             - bcc-devel
             - brasero-devel
@@ -3201,10 +3237,8 @@ data:
             - libfprint-devel
             - libftdi-devel
             - libgpod-devel
-            - libguestfs-devel
             - libiec61883-devel
             - libimobiledevice-devel
-            - libipt-devel
             - libmad-devel
             - libpfm-static
             - libplist-devel
