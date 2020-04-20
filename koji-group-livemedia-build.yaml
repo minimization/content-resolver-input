@@ -3,7 +3,6 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
-  - eln
   maintainer: bakery
   name: 'kojibuildsystem groups: livemedia-build'
   packages:
