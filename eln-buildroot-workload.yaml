@@ -108,6 +108,7 @@ data:
         - cairomm-devel
         - caja-devel
         - cal10n
+        - capstone-devel
         - cargo
         - catdoc
         - cdparanoia-devel
@@ -192,6 +193,7 @@ data:
         - desktop-backgrounds-compat
         - device-mapper-devel
         - device-mapper-event-devel
+        - device-mapper-multipath-devel
         - DevIL-devel
         - disruptor
         - djvulibre-devel
@@ -473,6 +475,7 @@ data:
         - glassfish-servlet-api
         - glew-devel
         - glib2-doc
+        - glib2-static
         - glibc-langpack-am
         - glibc-langpack-cs
         - glibc-langpack-de
@@ -961,6 +964,7 @@ data:
         - libfakekey-devel
         - libfastjson-devel
         - libfdisk-devel
+        - libfdt-devel
         - libfido2-devel
         - libfontenc-devel
         - libfonts
@@ -1159,6 +1163,7 @@ data:
         - libuninameslist-devel
         - libunistring-devel
         - libupnp-devel
+        - liburing-devel
         - libusbauth-configparser-devel
         - libusb-devel
         - libuser-devel
@@ -1189,6 +1194,7 @@ data:
         - libXdmcp-devel
         - libxfce4ui-devel
         - libxfce4util-devel
+        - libXfont2-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
         - libxklavier-devel
@@ -1577,6 +1583,7 @@ data:
         - pari-seadata
         - parted-devel
         - pcaudiolib-devel
+        - pcre-static
         - pcsc-lite-devel
         - pentaho-libxml
         - pentaho-reporting-flow-engine
@@ -2544,6 +2551,7 @@ data:
         - python-unversioned-command
         - qca-devel
         - qca-qt5-devel
+        - qemu-sanity-check-nodeps
         - qhull-devel
         - qjson-devel
         - qpdf
@@ -2749,6 +2757,7 @@ data:
         - rubygem-shoulda
         - rubygem-shoulda-context
         - rubygem-shoulda-matchers
+        - rubygem-simplecov
         - rubygem-simplecov-html
         - rubygem-sinatra
         - rubygem-slim
@@ -2907,6 +2916,7 @@ data:
         - uw-imap-devel
         - vala
         - varnish-devel
+        - virglrenderer-devel
         - vte291-devel
         - vtk-devel
         - vulkan-headers
@@ -2954,6 +2964,7 @@ data:
         - xorg-sgml-doctools
         - xorg-x11-apps
         - xorg-x11-server-devel
+        - xorg-x11-server-source
         - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
@@ -2975,16 +2986,13 @@ data:
             - arm-trusted-firmware-armv8
             - bcc-devel
             - brasero-devel
-            - capstone-devel
             - dbus-c++-devel
-            - device-mapper-multipath-devel
             - dietlibc-devel
             - discount
             - dpkg
             - efivar-devel
             - fedora-bookmarks
             - flashrom-devel
-            - glib2-static
             - gnome-bluetooth-libs-devel
             - gnu-efi
             - gnu-efi-devel
@@ -2999,7 +3007,6 @@ data:
             - libbpf-static
             - libconfuse-devel
             - libdc1394-devel
-            - libfdt-devel
             - libfprint-devel
             - libftdi-devel
             - libgpod-devel
@@ -3011,41 +3018,32 @@ data:
             - libplist-devel
             - libraw1394-devel
             - libunwind-devel
-            - liburing-devel
             - libusbmuxd-devel
             - libvpx-devel
-            - libXfont2-devel
             - libxml++-devel
             - llvm6.0
-            - pcre-static
             - python3-koji
             - python3-libpamtest
             - python3-mock
             - python3-pillow
             - python3-qt5-devel
-            - qemu-sanity-check-nodeps
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
-            - rubygem-simplecov
             - spice-server-devel
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
             - vboot-utils
-            - virglrenderer-devel
             - xen-devel
             - xorg-x11-drv-dummy
             - xorg-x11-drv-wacom-devel
         ppc64le:
             - bcc-devel
             - brasero-devel
-            - capstone-devel
             - dbus-c++-devel
-            - device-mapper-multipath-devel
             - fedora-bookmarks
             - flashrom-devel
-            - glib2-static
             - gnome-bluetooth-libs-devel
             - gperftools-devel
             - gtkmm24-devel
@@ -3055,7 +3053,6 @@ data:
             - libbpf-static
             - libconfuse-devel
             - libdc1394-devel
-            - libfdt-devel
             - libfprint-devel
             - libftdi-devel
             - libgpod-devel
@@ -3068,37 +3065,22 @@ data:
             - librtas-devel
             - libservicelog-devel
             - libunwind-devel
-            - liburing-devel
             - libusbmuxd-devel
-            - libXfont2-devel
             - libxml++-devel
             - lm_sensors-devel
-            - pcre-static
             - python3-libpamtest
             - python3-qt5-devel
-            - qemu-sanity-check-nodeps
-            - rubygem-simplecov
             - ucx-devel
             - umockdev
-            - virglrenderer-devel
             - xorg-x11-drv-dummy
             - xorg-x11-drv-wacom-devel
         s390x:
-            - capstone-devel
-            - device-mapper-multipath-devel
             - dietlibc-devel
-            - glib2-static
-            - libfdt-devel
             - libica-devel
-            - liburing-devel
             - lm_sensors-devel
             - media-player-info
             - opensc
-            - pcre-static
-            - qemu-sanity-check-nodeps
-            - rubygem-simplecov
             - s390utils-devel
-            - virglrenderer-devel
         x86_64:
             - bcc-devel
             - brasero-devel
@@ -3145,7 +3127,6 @@ data:
             - libunwind-devel
             - libusbmuxd-devel
             - libvpx-devel
-            - libXfont2-devel
             - libxml++-devel
             - libXvMC-devel
             - luajit-devel
