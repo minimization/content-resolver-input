@@ -278,6 +278,7 @@ data:
         - flite-devel
         - fltk-devel
         - fluidsynth-devel
+        - flute
         - fmt-devel
         - fontbox
         - fontforge
@@ -660,6 +661,7 @@ data:
         - golang-x-xerrors-devel
         - gom-devel
         - google-benchmark-devel
+        - google-carlito-fonts
         - google-gson
         - go-rpm-macros
         - gperf
@@ -918,6 +920,7 @@ data:
         - leptonica-devel
         - leveldb-devel
         - liba52-devel
+        - libabw-devel
         - libaccounts-glib-devel
         - libaccounts-qt5-devel
         - libaec-devel
@@ -939,6 +942,7 @@ data:
         - libatomic_ops-devel
         - libatomic_ops-static
         - libbabeltrace-devel
+        - libbase
         - libblockdev-btrfs-devel
         - libblockdev-crypto-devel
         - libblockdev-devel
@@ -963,9 +967,11 @@ data:
         - libcbor-devel
         - libcdio-devel
         - libcdio-paranoia-devel
+        - libcdr-devel
         - libcephfs-devel
         - libcgroup-devel
         - libchromaprint-devel
+        - libcmis-devel
         - libcmocka-devel
         - libcollection-devel
         - libconfig-devel
@@ -985,13 +991,17 @@ data:
         - libdnf-devel
         - libdvdnav-devel
         - libdvdread-devel
+        - libe-book-devel
         - libecap-devel
         - libecb-devel
         - libedit-devel
         - libell-devel
         - libEMF-devel
+        - libeot-devel
+        - libepubgen-devel
         - libesmtp-devel
         - libestr-devel
+        - libetonyek-devel
         - libevdev-devel
         - libev-devel
         - libevent-devel
@@ -1006,6 +1016,9 @@ data:
         - libfdt-devel
         - libfido2-devel
         - libfontenc-devel
+        - libfonts
+        - libformula
+        - libfreehand-devel
         - libgadu-devel
         - libgcab1-devel
         - libgdither-devel
@@ -1060,8 +1073,10 @@ data:
         - libkscreen-qt5-devel
         - libksysguard-devel
         - liblangtag-devel
+        - liblayout
         - libldb-devel
         - libldm-devel
+        - libloader
         - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
@@ -1088,8 +1103,10 @@ data:
         - libmpc-devel
         - libmpeg2-devel
         - libmspack-devel
+        - libmspub-devel
         - libmtp-devel
         - libmusicbrainz5-devel
+        - libmwaw-devel
         - libmypaint-devel
         - libnauty-devel
         - libnbd-devel
@@ -1106,16 +1123,20 @@ data:
         - libnozzle1-devel
         - libnsl2-devel
         - libntlm-devel
+        - libnumbertext-devel
         - liboath-devel
         - liboauth-devel
+        - libodfgen-devel
         - libofa-devel
         - libogg-devel
         - liboggz
         - libopendmarc-devel
+        - liborcus-devel
         - libosinfo-devel
         - libotf
         - libotf-devel
         - libp11-devel
+        - libpagemaker-devel
         - libpaper-devel
         - libpath_utils-devel
         - libpcap-devel
@@ -1133,8 +1154,10 @@ data:
         - libqalculate-devel
         - libqb-devel
         - libqmi-devel
+        - libqrcodegencpp-devel
         - libqtxdg-devel
         - libquvi-devel
+        - libqxp-devel
         - librabbitmq-devel
         - librados-devel
         - LibRaw-devel
@@ -1145,6 +1168,7 @@ data:
         - libreport-devel
         - libreport-gtk-devel
         - libreport-web-devel
+        - librepository
         - librevenge-devel
         - librx-devel
         - libsamplerate-devel
@@ -1154,6 +1178,7 @@ data:
         - libsemanage-static
         - libsepol-static
         - libserf-devel
+        - libserializer
         - libshout-devel
         - libsigc++20-devel
         - libsigsegv-devel
@@ -1174,6 +1199,7 @@ data:
         - libssh2-devel
         - libsss_autofs
         - libsss_nss_idmap-devel
+        - libstaroffice-devel
         - libstdc++-static
         - libstemmer-devel
         - libstoragemgmt-devel
@@ -1210,6 +1236,7 @@ data:
         - libvirt-gconfig-devel
         - libvirt-glib-devel
         - libvirt-gobject-devel
+        - libvisio-devel
         - libvisual-devel
         - libvncserver-devel
         - libvoikko-devel
@@ -1222,6 +1249,7 @@ data:
         - libwpd-devel
         - libwpe-devel
         - libwpg-devel
+        - libwps-devel
         - libwsman-devel
         - libXdmcp-devel
         - libxfce4ui-devel
@@ -1239,6 +1267,7 @@ data:
         - libytnef-devel
         - libyubikey-devel
         - libzip-devel
+        - libzmf-devel
         - lilv-devel
         - lilypond
         - linkchecker
@@ -1257,6 +1286,7 @@ data:
         - Lmod
         - lockdev-devel
         - log4j
+        - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
         - lua-filesystem
@@ -1344,6 +1374,7 @@ data:
         - mupdf
         - mutter-devel
         - mypaint-brushes-devel
+        - mythes-devel
         - nailgun
         - nas-devel
         - nasm
@@ -1626,6 +1657,8 @@ data:
         - pcre-static
         - pcsc-lite-devel
         - PEGTL-devel
+        - pentaho-libxml
+        - pentaho-reporting-flow-engine
         - perl-accessors
         - perl-Acme-Alien-DontPanic
         - perl-Algorithm-C3
@@ -2638,6 +2671,7 @@ data:
         - re2c
         - re2-devel
         - redhat-lsb-core
+        - redland-devel
         - reflections
         - regexp
         - reiserfs-utils
@@ -2842,6 +2876,7 @@ data:
         - rubygem-xpath
         - rubygem-yard
         - rubygem-ZenTest
+        - sac
         - samba-devel
         - samba-pidl
         - samba-winbind
@@ -2955,6 +2990,7 @@ data:
         - ttfautohint
         - twolame-devel
         - uchardet-devel
+        - ucpp
         - uglify-js
         - uglify-js1
         - uhttpmock-devel
@@ -3012,6 +3048,7 @@ data:
         - xfconf-devel
         - xmlgraphics-commons
         - xmlrpc-c-devel
+        - xmlsec1-nss-devel
         - xmlstarlet
         - xmlto
         - xmltoman
