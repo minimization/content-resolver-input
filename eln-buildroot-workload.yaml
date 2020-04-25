@@ -901,6 +901,7 @@ data:
         - lapack-static
         - lasi-devel
         - latex2html
+        - latexmk
         - lcms2-devel
         - lcov
         - ldb-tools
@@ -1385,10 +1386,12 @@ data:
         - nunit-devel
         - objectweb-pom
         - ocaml
+        - ocaml-bisect-ppx-devel
         - ocaml-calendar-devel
         - ocaml-camlidl-devel
         - ocaml-camomile-data
         - ocaml-camomile-devel
+        - ocaml-cmdliner-devel
         - ocaml-compiler-libs
         - ocaml-cppo
         - ocaml-csv-devel
@@ -1404,6 +1407,7 @@ data:
         - ocaml-labltk-devel
         - ocaml-libvirt-devel
         - ocaml-lwt-devel
+        - ocaml-migrate-parsetree-devel
         - ocaml-mlgmpidl-devel
         - ocaml-mmap-devel
         - ocaml-num-devel
@@ -1412,7 +1416,11 @@ data:
         - ocaml-ocamldoc
         - ocaml-ocplib-endian-devel
         - ocaml-ounit-devel
+        - ocaml-ppx-derivers-devel
+        - ocaml-ppx-tools-versioned-devel
+        - ocaml-react-devel
         - ocaml-result-devel
+        - ocaml-seq-devel
         - ocaml-xml-light-devel
         - ocaml-zarith-devel
         - octave-devel
@@ -2428,7 +2436,9 @@ data:
         - python3-semantic_version
         - python3-setuptools_scm
         - python3-sphinx
+        - python3-sphinx-latex
         - python3-sphinx_rtd_theme
+        - python3-sphinx-theme-alabaster
         - python3-talloc-devel
         - python3-tdb
         - python3-testscenarios
@@ -2741,6 +2751,8 @@ data:
         - suitesparse-devel
         - sundials-devel
         - SuperLU-devel
+        - superlu_dist-mpich-devel
+        - superlu_dist-openmpi-devel
         - supermin-devel
         - sysprof-devel
         - t1lib-devel
@@ -2760,10 +2772,14 @@ data:
         - texlive-acronym
         - texlive-collection-langeuropean
         - texlive-cyrillic
+        - texlive-etoc
+        - texlive-hanging
         - texlive-inconsolata
         - texlive-lh
         - texlive-lib-devel
+        - texlive-listofitems
         - texlive-newunicodechar
+        - texlive-stackengine
         - tidy
         - tinycdb-devel
         - tinyxml2-devel
@@ -2883,6 +2899,7 @@ data:
             - dpkg
             - dyninst-devel
             - efivar-devel
+            - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
@@ -2893,7 +2910,6 @@ data:
             - gtkmm24-devel
             - infiniband-diags-devel
             - koji
-            - latexmk
             - libabigail
             - libavc1394-devel
             - libconfuse-devel
@@ -2914,30 +2930,15 @@ data:
             - libxml++-devel
             - llvm6.0
             - ndctl-devel
-            - ocaml-bisect-ppx-devel
-            - ocaml-cmdliner-devel
-            - ocaml-migrate-parsetree-devel
-            - ocaml-ppx-derivers-devel
-            - ocaml-ppx-tools-versioned-devel
-            - ocaml-react-devel
-            - ocaml-seq-devel
             - python3-koji
             - python3-libpamtest
             - python3-mock
             - python3-pillow
             - python3-qt5-devel
-            - python3-sphinx-latex
-            - python3-sphinx-theme-alabaster
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
             - spice-server-devel
-            - superlu_dist-mpich-devel
-            - superlu_dist-openmpi-devel
-            - texlive-etoc
-            - texlive-hanging
-            - texlive-listofitems
-            - texlive-stackengine
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
@@ -2949,6 +2950,7 @@ data:
             - brasero-devel
             - dbus-c++-devel
             - dyninst-devel
+            - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
@@ -2997,6 +2999,7 @@ data:
             - dpkg
             - dyninst-devel
             - efivar-devel
+            - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
@@ -3009,7 +3012,6 @@ data:
             - infinipath-psm-devel
             - intel-mediasdk-devel
             - koji
-            - latexmk
             - libabigail
             - libatomic
             - libavc1394-devel
@@ -3037,13 +3039,6 @@ data:
             - libXvMC-devel
             - memkind-devel
             - mesa-libxatracker-devel
-            - ocaml-bisect-ppx-devel
-            - ocaml-cmdliner-devel
-            - ocaml-migrate-parsetree-devel
-            - ocaml-ppx-derivers-devel
-            - ocaml-ppx-tools-versioned-devel
-            - ocaml-react-devel
-            - ocaml-seq-devel
             - openni-devel
             - openni-primesense
             - procps-ng-devel
@@ -3052,20 +3047,12 @@ data:
             - python3-mock
             - python3-pillow
             - python3-qt5-devel
-            - python3-sphinx-latex
-            - python3-sphinx-theme-alabaster
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
             - qt-doc
             - spice-server-devel
-            - superlu_dist-mpich-devel
-            - superlu_dist-openmpi-devel
             - syslinux-perl
-            - texlive-etoc
-            - texlive-hanging
-            - texlive-listofitems
-            - texlive-stackengine
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
