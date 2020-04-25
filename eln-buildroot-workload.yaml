@@ -23,6 +23,7 @@ data:
         - afflib-devel
         - allegro-devel
         - amtk-devel
+        - annobin-annocheck
         - ant-antlr
         - ant-apache-xalan2
         - ant-contrib
@@ -115,6 +116,7 @@ data:
         - cdparanoia-devel
         - ceres-solver-devel
         - cfitsio-devel
+        - chan-devel
         - CharLS-devel
         - checksec
         - cheese-libs-devel
@@ -172,6 +174,7 @@ data:
         - coro-mock
         - corosync
         - corosynclib-devel
+        - cppcheck
         - cppunit-devel
         - cracklib-devel
         - crash-devel
@@ -195,6 +198,7 @@ data:
         - device-mapper-devel
         - device-mapper-event-devel
         - device-mapper-multipath-devel
+        - DevIL-devel
         - DevIL-ILUT-devel
         - disruptor
         - djvulibre-devel
@@ -205,6 +209,7 @@ data:
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
+        - docbook-utils-pdf
         - dom4j
         - dontpanic-devel
         - dotconf-devel
@@ -230,8 +235,10 @@ data:
         - erlang
         - esmtp
         - esound-devel
+        - espeak-devel
         - espeak-ng-devel
         - evince-devel
+        - evolution-devel
         - exec-maven-plugin
         - execstack
         - exempi-devel
@@ -491,6 +498,7 @@ data:
         - glibc-langpack-is
         - glibc-langpack-ja
         - glibc-langpack-km
+        - glibc-langpack-ko
         - glibc-langpack-pt
         - glibc-langpack-tr
         - glibc-langpack-zh
@@ -513,6 +521,7 @@ data:
         - gnuplot
         - gnuplot-wx
         - gobject-introspection-devel
+        - go-compilers-golang-compiler
         - golang-cloud-google-devel
         - golang-github-apache-arrow-devel
         - golang-github-aws-sdk-devel
@@ -678,6 +687,7 @@ data:
         - gtkspell3-devel
         - gtkspell-devel
         - gtk-vnc2-devel
+        - gts-devel
         - guava-testlib
         - guile22-devel
         - guile-devel
@@ -691,6 +701,7 @@ data:
         - hdf5-openmpi-devel
         - hdf-devel
         - hdf-static
+        - HdrHistogram_c-devel
         - help2man
         - herqq-devel
         - hidapi-devel
@@ -710,6 +721,8 @@ data:
         - hwloc-devel
         - hwloc-gui
         - hyphen-devel
+        - hypre-mpich-devel
+        - hypre-openmpi-devel
         - ibus-devel
         - icc-profiles-openicc
         - icon-naming-utils
@@ -878,6 +891,7 @@ data:
         - kmod-devel
         - krb5-server
         - kscreenlocker-devel
+        - ksh
         - kwin-devel
         - kyotocabinet-devel
         - kyua
@@ -885,6 +899,7 @@ data:
         - lame-devel
         - lapack-devel
         - lapack-static
+        - lasi-devel
         - latex2html
         - lcms2-devel
         - lcov
@@ -981,6 +996,7 @@ data:
         - libexif-devel
         - libexttextcat-devel
         - libfabric-devel
+        - libfakekey-devel
         - libfastjson-devel
         - libfdisk-devel
         - libfdt-devel
@@ -1034,6 +1050,7 @@ data:
         - libkcapi-fipscheck
         - libkkc-devel
         - libkml-devel
+        - libknet1-devel
         - libksba-devel
         - libkscreen-qt5-devel
         - libksysguard-devel
@@ -1044,6 +1061,7 @@ data:
         - libloader
         - liblockfile-devel
         - liblognorm-devel
+        - liblouis-devel
         - liblqr-1-devel
         - liblxqt-devel
         - liblzf-devel
@@ -1073,6 +1091,7 @@ data:
         - libmwaw-devel
         - libmypaint-devel
         - libnauty-devel
+        - libnbd-devel
         - libndp-devel
         - libnet-devel
         - libnetfilter_conntrack-devel
@@ -1083,6 +1102,7 @@ data:
         - libnghttp2-devel
         - libnice-devel
         - libnma-devel
+        - libnozzle1-devel
         - libnsl2-devel
         - libntlm-devel
         - libnumbertext-devel
@@ -1105,11 +1125,13 @@ data:
         - libpciaccess-devel
         - libpeas-devel
         - libphodav-devel
+        - libphonenumber-devel
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
         - libpkgconf-devel
         - libproxy-devel
+        - libpst-devel
         - libpwquality-devel
         - libqalculate-devel
         - libqb-devel
@@ -1125,12 +1147,15 @@ data:
         - librdkafka-devel
         - librelp-devel
         - librepo-devel
+        - libreport-devel
         - libreport-gtk-devel
+        - libreport-web-devel
         - librepository
         - librevenge-devel
         - librx-devel
         - libsamplerate-devel
         - libsass-devel
+        - libseccomp-static
         - libsemanage-devel
         - libsemanage-static
         - libsepol-static
@@ -1163,6 +1188,7 @@ data:
         - libsvm-devel
         - libsysfs-devel
         - libtalloc-devel
+        - libtar-devel
         - libtdb-devel
         - libtevent-devel
         - libtheora-devel
@@ -1186,6 +1212,7 @@ data:
         - libuv-devel
         - libv4l-devel
         - libvala-devel
+        - libvarlink-devel
         - libvdpau-devel
         - libvirt-daemon-qemu
         - libvirt-gconfig-devel
@@ -1219,6 +1246,7 @@ data:
         - libXres-devel
         - libXxf86vm-devel
         - libyaml-devel
+        - libytnef-devel
         - libyubikey-devel
         - libzip-devel
         - libzmf-devel
@@ -1307,6 +1335,7 @@ data:
         - mod_perl
         - mojo-parent
         - mongo-c-driver-devel
+        - mono-core
         - mono-devel
         - monodoc
         - monodoc-devel
@@ -1330,6 +1359,7 @@ data:
         - nas-devel
         - nasm
         - nautilus-devel
+        - nbd
         - ncompress
         - neon-devel
         - netcdf-cxx-devel
@@ -1355,18 +1385,42 @@ data:
         - nunit-devel
         - objectweb-pom
         - ocaml
+        - ocaml-calendar-devel
+        - ocaml-camlidl-devel
+        - ocaml-camomile-data
+        - ocaml-camomile-devel
+        - ocaml-compiler-libs
+        - ocaml-cppo
+        - ocaml-csv-devel
+        - ocaml-curses-devel
+        - ocaml-dune
+        - ocaml-dune-devel
+        - ocaml-extlib-devel
+        - ocaml-fileutils-devel
         - ocaml-findlib
         - ocaml-findlib-devel
         - ocaml-gettext-devel
         - ocaml-hivex-devel
+        - ocaml-labltk-devel
         - ocaml-libvirt-devel
+        - ocaml-lwt-devel
+        - ocaml-mlgmpidl-devel
+        - ocaml-mmap-devel
+        - ocaml-num-devel
+        - ocaml-ocamlbuild
+        - ocaml-ocamlbuild-devel
         - ocaml-ocamldoc
+        - ocaml-ocplib-endian-devel
         - ocaml-ounit-devel
+        - ocaml-result-devel
+        - ocaml-xml-light-devel
+        - ocaml-zarith-devel
         - octave-devel
         - ogdi-devel
         - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
+        - openchange-devel
         - opencl-headers
         - opencv-devel
         - OpenEXR-devel
@@ -1438,6 +1492,7 @@ data:
         - perl-bareword-filehandles
         - perl-base
         - perl-B-Compiling
+        - perl-B-COW
         - perl-BDB
         - perl-Benchmark
         - perl-Bencode
@@ -1865,6 +1920,7 @@ data:
         - perl-subs
         - perl-Sub-Uplevel
         - perl-SUPER
+        - perl-Switch
         - perl-Symbol
         - perl-Symbol-Util
         - perl-syntax
@@ -2045,6 +2101,7 @@ data:
         - php-doctrine-dbal
         - php-doctrine-doctrine-bundle
         - php-doctrine-doctrine-bundle2
+        - php-doctrine-doctrine-cache-bundle
         - php-doctrine-event-manager
         - php-doctrine-inflector
         - php-doctrine-instantiator
@@ -2068,6 +2125,7 @@ data:
         - php-hamcrest2
         - php-http-message-factory
         - php-intl
+        - php-jdorn-sql-formatter
         - php-json
         - php-jsonlint
         - php-justinrainbow-json-schema5
@@ -2152,13 +2210,17 @@ data:
         - php-phpunit-PHP-CodeCoverage
         - php-phpunit-php-code-coverage5
         - php-phpunit-php-code-coverage6
+        - php-phpunit-php-code-coverage7
+        - php-phpunit-php-code-coverage8
         - php-phpunit-php-file-iterator2
         - php-phpunit-php-file-iterator3
         - php-phpunit-PHP-Invoker
         - php-phpunit-php-invoker2
+        - php-phpunit-php-invoker3
         - php-phpunit-php-text-template2
         - php-phpunit-PHP-Timer
         - php-phpunit-php-timer2
+        - php-phpunit-php-timer3
         - php-phpunit-PHP-TokenStream
         - php-phpunit-php-token-stream2
         - php-phpunit-php-token-stream3
@@ -2177,10 +2239,12 @@ data:
         - php-psr-simple-cache
         - php-ralouphie-getallheaders
         - php-react-promise
+        - php-sebastian-code-unit
         - php-sebastian-code-unit-reverse-lookup
         - php-sebastian-code-unit-reverse-lookup2
         - php-sebastian-comparator2
         - php-sebastian-comparator3
+        - php-sebastian-comparator4
         - php-sebastian-diff2
         - php-sebastian-diff3
         - php-sebastian-diff4
@@ -2191,8 +2255,11 @@ data:
         - php-sebastian-exporter4
         - php-sebastian-global-state
         - php-sebastian-global-state2
+        - php-sebastian-global-state3
+        - php-sebastian-global-state4
         - php-sebastian-object-enumerator
         - php-sebastian-object-enumerator3
+        - php-sebastian-object-enumerator4
         - php-sebastian-object-reflector
         - php-sebastian-object-reflector2
         - php-sebastian-recursion-context
@@ -2200,6 +2267,9 @@ data:
         - php-sebastian-recursion-context4
         - php-sebastian-resource-operations
         - php-sebastian-resource-operations2
+        - php-sebastian-resource-operations3
+        - php-sebastian-type
+        - php-sebastian-type2
         - php-sebastian-version3
         - php-seld-phar-utils
         - php-sentry
@@ -2213,8 +2283,18 @@ data:
         - php-symfony3-process
         - php-symfony3-security
         - php-symfony3-yaml
+        - php-symfony4-cache
+        - php-symfony4-config
         - php-symfony4-console
+        - php-symfony4-dependency-injection
+        - php-symfony4-doctrine-bridge
+        - php-symfony4-framework-bundle
         - php-symfony4-process
+        - php-symfony4-property-info
+        - php-symfony4-proxy-manager-bridge
+        - php-symfony4-twig-bridge
+        - php-symfony4-validator
+        - php-symfony4-web-profiler-bundle
         - php-symfony4-yaml
         - php-symfony-common
         - php-symfony-console
@@ -2290,6 +2370,7 @@ data:
         - ptscotch-openmpi-devel
         - publican
         - pugixml-devel
+        - pulseaudio-qt-devel
         - pygobject2-devel
         - pygtk2-devel
         - pylint
@@ -2319,6 +2400,7 @@ data:
         - python3-ldb-devel
         - python3-libfdt
         - python3-libmount
+        - python3-libnbd
         - python3-libvoikko
         - python3-lit
         - python3-mallard-ducktype
@@ -2328,6 +2410,7 @@ data:
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-nototools
+        - python3-openpyxl
         - python3-parameterized
         - python3-pip
         - python3-prettytable
@@ -2359,6 +2442,7 @@ data:
         - qemu-sanity-check-nodeps
         - qhull-devel
         - qjson-devel
+        - qpdf
         - qpdf-devel
         - qpid-proton-c-devel
         - qrencode-devel
@@ -2379,7 +2463,9 @@ data:
         - qt-mobility-devel
         - qtsoap-devel
         - qtwebkit-devel
+        - quilt
         - quota-devel
+        - ragel
         - raptor2-devel
         - rarian-compat
         - rasqal-devel
@@ -2448,6 +2534,7 @@ data:
         - rubygem-curb
         - rubygem-daemons
         - rubygem-dalli
+        - rubygem-delorean
         - rubygem-diff-lcs
         - rubygem-docile
         - rubygem-domain_name
@@ -2509,6 +2596,7 @@ data:
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
+        - rubygem-open4
         - rubygem-org-ruby
         - rubygem-pdf-core
         - rubygem-pdf-inspector
@@ -2597,6 +2685,7 @@ data:
         - samba-winbind-clients
         - sanlock-devel
         - sassc
+        - satyr-devel
         - sbc-devel
         - sblim-cmpi-devel
         - sblim-indication_helper-devel
@@ -2611,6 +2700,7 @@ data:
         - sendmail
         - sendmail-milter-devel
         - serd-devel
+        - setools-console
         - SFML-devel
         - sg3_utils-devel
         - sharutils
@@ -2647,6 +2737,7 @@ data:
         - stax2-api
         - stunnel
         - subversion-perl
+        - suitesparse64-devel
         - suitesparse-devel
         - sundials-devel
         - SuperLU-devel
@@ -2724,8 +2815,10 @@ data:
         - weston
         - wildmidi-devel
         - wireshark-devel
+        - woff2-devel
         - woodstox-core
         - wordnet
+        - wpebackend-fdo-devel
         - wsdl4j
         - wxGTK3-devel
         - xapian-core-devel
@@ -2745,6 +2838,7 @@ data:
         - xerces-c-devel
         - xfconf-devel
         - xmlgraphics-commons
+        - xmlrpc-c-devel
         - xmlsec1-nss-devel
         - xmlstarlet
         - xmlto
@@ -2780,570 +2874,119 @@ data:
         - zziplib-devel
     arch_packages:
         aarch64:
-            - annobin-annocheck
-            - antlr3-java
-            - antlr3-tool
-            - antlr4
             - arm-trusted-firmware-armv8
             - bcc-devel
             - brasero-devel
-            - chan-devel
-            - coq
-            - cppcheck
-            - csdp-tools
             - dbus-c++-devel
-            - DevIL-devel
             - dietlibc-devel
             - discount
-            - docbook-utils-pdf
             - dpkg
             - dyninst-devel
             - efivar-devel
-            - espeak-devel
-            - evolution-devel
-            - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
-            - glibc-langpack-ko
             - gnome-bluetooth-libs-devel
-            - gnome-vfs2-devel
             - gnu-efi
             - gnu-efi-devel
-            - go-compilers-golang-compiler
             - golang-shared
             - gperftools-devel
             - gtkmm24-devel
-            - gtksourceview2-devel
-            - gtksourceview3-devel
-            - gts-devel
-            - HdrHistogram_c-devel
-            - hevea
-            - hypre-mpich-devel
-            - hypre-openmpi-devel
             - infiniband-diags-devel
             - koji
-            - ksh
-            - lasi-devel
             - latexmk
             - libabigail
-            - libart_lgpl-devel
             - libavc1394-devel
-            - libbonobo-devel
-            - libbonoboui-devel
             - libconfuse-devel
             - libdc1394-devel
             - libdv-devel
-            - libfakekey-devel
             - libffado-devel
             - libfprint-devel
             - libftdi-devel
-            - libgnomecanvas-devel
-            - libgnome-devel
-            - libgnome-keyring-devel
-            - libgnomeui-devel
             - libgpod-devel
             - libguestfs-devel
-            - libIDL-devel
             - libiec61883-devel
             - libimobiledevice-devel
-            - libknet1-devel
-            - liblouis-devel
-            - libnbd-devel
-            - libnozzle1-devel
             - libpfm-static
-            - libphonenumber-devel
             - libplist-devel
-            - libpst-devel
             - libraw1394-devel
-            - libreport-devel
-            - libreport-web-devel
-            - libseccomp-static
-            - libtar-devel
             - libunwind-devel
             - libusbmuxd-devel
-            - libvarlink-devel
             - libxml++-devel
-            - libytnef-devel
             - llvm6.0
-            - llvm9.0-devel
-            - mono-core
-            - nbd
             - ndctl-devel
-            - ocaml-alcotest-devel
-            - ocaml-astring-devel
-            - ocaml-base-devel
             - ocaml-bisect-ppx-devel
-            - ocaml-cairo-devel
-            - ocaml-calendar-devel
-            - ocaml-camlidl-devel
-            - ocaml-camlp5-devel
-            - ocaml-camomile-data
-            - ocaml-camomile-devel
             - ocaml-cmdliner-devel
-            - ocaml-compiler-libs
-            - ocaml-cppo
-            - ocaml-csv-devel
-            - ocaml-curses-devel
-            - ocaml-dune
-            - ocaml-dune-devel
-            - ocaml-extlib-devel
-            - ocaml-fileutils-devel
-            - ocaml-fmt-devel
-            - ocaml-fpath-devel
-            - ocaml-lablgtk3-devel
-            - ocaml-lablgtk3-sourceview3-devel
-            - ocaml-lablgtk-devel
-            - ocaml-labltk-devel
-            - ocaml-lwt-devel
-            - ocaml-markup-devel
-            - ocaml-menhir
             - ocaml-migrate-parsetree-devel
-            - ocaml-mlgmpidl-devel
-            - ocaml-mmap-devel
-            - ocaml-num-devel
-            - ocaml-ocamlbuild
-            - ocaml-ocamlbuild-devel
-            - ocaml-ocplib-endian-devel
-            - ocaml-odoc
-            - ocaml-parsexp-devel
             - ocaml-ppx-derivers-devel
             - ocaml-ppx-tools-versioned-devel
             - ocaml-react-devel
-            - ocaml-re-devel
-            - ocaml-result-devel
             - ocaml-seq-devel
-            - ocaml-sexplib0-devel
-            - ocaml-sexplib-devel
-            - ocaml-topkg-devel
-            - ocaml-tyxml-devel
-            - ocaml-uuidm-devel
-            - ocaml-uutf-devel
-            - ocaml-xml-light-devel
-            - ocaml-zarith-devel
-            - openchange-devel
-            - ORBit2-devel
-            - perl-Switch
-            - php-doctrine-doctrine-cache-bundle
-            - php-jdorn-sql-formatter
-            - php-phpunit-php-code-coverage7
-            - php-phpunit-php-code-coverage8
-            - php-phpunit-php-invoker3
-            - php-phpunit-php-timer3
-            - php-sebastian-comparator4
-            - php-sebastian-global-state3
-            - php-sebastian-global-state4
-            - php-sebastian-object-enumerator4
-            - php-sebastian-resource-operations3
-            - php-sebastian-type
-            - php-sebastian-type2
-            - php-symfony4-cache
-            - php-symfony4-config
-            - php-symfony4-dependency-injection
-            - php-symfony4-doctrine-bridge
-            - php-symfony4-framework-bundle
-            - php-symfony4-property-info
-            - php-symfony4-proxy-manager-bridge
-            - php-symfony4-twig-bridge
-            - php-symfony4-validator
-            - php-symfony4-web-profiler-bundle
-            - pulseaudio-qt-devel
-            - python3-antlr4-runtime
             - python3-koji
-            - python3-libnbd
             - python3-libpamtest
             - python3-mock
-            - python3-openpyxl
-            - python3-pexpect
             - python3-pillow
             - python3-qt5-devel
-            - python3-sphinxcontrib-bibtex
             - python3-sphinx-latex
             - python3-sphinx-theme-alabaster
-            - qpdf
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
-            - quilt
-            - ragel
-            - rubygem-delorean
-            - rubygem-open4
-            - satyr-devel
-            - setools-console
             - spice-server-devel
-            - suitesparse64-devel
             - superlu_dist-mpich-devel
             - superlu_dist-openmpi-devel
-            - texlive-comment
             - texlive-etoc
-            - texlive-gnu-freefont
             - texlive-hanging
             - texlive-listofitems
-            - texlive-moreverb
             - texlive-stackengine
-            - texlive-xindy
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
             - vboot-utils
-            - woff2-devel
-            - wpebackend-fdo-devel
             - xen-devel
-            - xmlrpc-c-devel
             - xorg-x11-drv-wacom-devel
         ppc64le:
-            - annobin-annocheck
-            - antlr3-java
-            - antlr3-tool
-            - antlr4
             - bcc-devel
             - brasero-devel
-            - chan-devel
-            - coq
-            - cppcheck
-            - csdp-tools
             - dbus-c++-devel
-            - DevIL-devel
-            - docbook-utils-pdf
             - dyninst-devel
-            - espeak-devel
-            - evolution-devel
-            - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
-            - glibc-langpack-ko
             - gnome-bluetooth-libs-devel
-            - gnome-vfs2-devel
-            - go-compilers-golang-compiler
             - gperftools-devel
             - gtkmm24-devel
-            - gtksourceview2-devel
-            - gtksourceview3-devel
-            - gts-devel
-            - HdrHistogram_c-devel
-            - hevea
-            - hypre-mpich-devel
-            - hypre-openmpi-devel
             - infiniband-diags-devel
-            - ksh
-            - lasi-devel
-            - latexmk
-            - libart_lgpl-devel
             - libavc1394-devel
-            - libbonobo-devel
-            - libbonoboui-devel
             - libconfuse-devel
             - libdc1394-devel
             - libdv-devel
-            - libfakekey-devel
             - libffado-devel
             - libfprint-devel
             - libftdi-devel
-            - libgnomecanvas-devel
-            - libgnome-devel
-            - libgnome-keyring-devel
-            - libgnomeui-devel
             - libgpod-devel
-            - libIDL-devel
             - libiec61883-devel
             - libimobiledevice-devel
-            - libknet1-devel
-            - liblouis-devel
-            - libnbd-devel
-            - libnozzle1-devel
             - libpfm-static
-            - libphonenumber-devel
             - libplist-devel
-            - libpst-devel
             - libraw1394-devel
-            - libreport-devel
-            - libreport-web-devel
             - librtas-devel
-            - libseccomp-static
             - libservicelog-devel
-            - libtar-devel
             - libunwind-devel
             - libusbmuxd-devel
-            - libvarlink-devel
             - libxml++-devel
-            - libytnef-devel
-            - llvm9.0-devel
             - lm_sensors-devel
-            - mono-core
-            - nbd
-            - ocaml-alcotest-devel
-            - ocaml-astring-devel
-            - ocaml-base-devel
-            - ocaml-bisect-ppx-devel
-            - ocaml-cairo-devel
-            - ocaml-calendar-devel
-            - ocaml-camlidl-devel
-            - ocaml-camlp5-devel
-            - ocaml-camomile-data
-            - ocaml-camomile-devel
-            - ocaml-cmdliner-devel
-            - ocaml-compiler-libs
-            - ocaml-cppo
-            - ocaml-csv-devel
-            - ocaml-curses-devel
-            - ocaml-dune
-            - ocaml-dune-devel
-            - ocaml-extlib-devel
-            - ocaml-fileutils-devel
-            - ocaml-fmt-devel
-            - ocaml-fpath-devel
-            - ocaml-lablgtk3-devel
-            - ocaml-lablgtk3-sourceview3-devel
-            - ocaml-lablgtk-devel
-            - ocaml-labltk-devel
-            - ocaml-lwt-devel
-            - ocaml-markup-devel
-            - ocaml-menhir
-            - ocaml-migrate-parsetree-devel
-            - ocaml-mlgmpidl-devel
-            - ocaml-mmap-devel
-            - ocaml-num-devel
-            - ocaml-ocamlbuild
-            - ocaml-ocamlbuild-devel
-            - ocaml-ocplib-endian-devel
-            - ocaml-odoc
-            - ocaml-parsexp-devel
-            - ocaml-ppx-derivers-devel
-            - ocaml-ppx-tools-versioned-devel
-            - ocaml-react-devel
-            - ocaml-re-devel
-            - ocaml-result-devel
-            - ocaml-seq-devel
-            - ocaml-sexplib0-devel
-            - ocaml-sexplib-devel
-            - ocaml-topkg-devel
-            - ocaml-tyxml-devel
-            - ocaml-uuidm-devel
-            - ocaml-uutf-devel
-            - ocaml-xml-light-devel
-            - ocaml-zarith-devel
-            - openchange-devel
-            - ORBit2-devel
-            - perl-Switch
-            - php-doctrine-doctrine-cache-bundle
-            - php-jdorn-sql-formatter
-            - php-phpunit-php-code-coverage7
-            - php-phpunit-php-code-coverage8
-            - php-phpunit-php-invoker3
-            - php-phpunit-php-timer3
-            - php-sebastian-comparator4
-            - php-sebastian-global-state3
-            - php-sebastian-global-state4
-            - php-sebastian-object-enumerator4
-            - php-sebastian-resource-operations3
-            - php-sebastian-type
-            - php-sebastian-type2
-            - php-symfony4-cache
-            - php-symfony4-config
-            - php-symfony4-dependency-injection
-            - php-symfony4-doctrine-bridge
-            - php-symfony4-framework-bundle
-            - php-symfony4-property-info
-            - php-symfony4-proxy-manager-bridge
-            - php-symfony4-twig-bridge
-            - php-symfony4-validator
-            - php-symfony4-web-profiler-bundle
-            - pulseaudio-qt-devel
-            - python3-antlr4-runtime
-            - python3-libnbd
             - python3-libpamtest
-            - python3-openpyxl
-            - python3-pexpect
             - python3-qt5-devel
-            - python3-sphinxcontrib-bibtex
-            - python3-sphinx-latex
-            - python3-sphinx-theme-alabaster
-            - qpdf
-            - quilt
-            - ragel
-            - rubygem-delorean
-            - rubygem-open4
-            - satyr-devel
-            - setools-console
-            - suitesparse64-devel
-            - superlu_dist-mpich-devel
-            - superlu_dist-openmpi-devel
-            - texlive-comment
-            - texlive-etoc
-            - texlive-gnu-freefont
-            - texlive-hanging
-            - texlive-listofitems
-            - texlive-moreverb
-            - texlive-stackengine
-            - texlive-xindy
             - ucx-devel
             - umockdev
-            - woff2-devel
-            - wpebackend-fdo-devel
-            - xmlrpc-c-devel
             - xorg-x11-drv-wacom-devel
         s390x:
-            - annobin-annocheck
-            - antlr3-java
-            - antlr3-tool
-            - antlr4
-            - chan-devel
-            - coq
-            - cppcheck
-            - csdp-tools
-            - DevIL-devel
             - dietlibc-devel
-            - docbook-utils-pdf
-            - espeak-devel
-            - evolution-devel
-            - glibc-langpack-ko
-            - gnome-vfs2-devel
-            - go-compilers-golang-compiler
-            - gtksourceview2-devel
-            - gtksourceview3-devel
-            - gts-devel
-            - HdrHistogram_c-devel
-            - hevea
-            - hypre-mpich-devel
-            - hypre-openmpi-devel
-            - ksh
-            - lasi-devel
-            - latexmk
-            - libart_lgpl-devel
-            - libbonobo-devel
-            - libbonoboui-devel
-            - libfakekey-devel
-            - libgnomecanvas-devel
-            - libgnome-devel
-            - libgnome-keyring-devel
-            - libgnomeui-devel
             - libica-devel
-            - libIDL-devel
-            - libknet1-devel
-            - liblouis-devel
-            - libnbd-devel
-            - libnozzle1-devel
-            - libphonenumber-devel
-            - libpst-devel
-            - libreport-devel
-            - libreport-web-devel
-            - libseccomp-static
-            - libtar-devel
-            - libvarlink-devel
-            - libytnef-devel
-            - llvm9.0-devel
             - lm_sensors-devel
             - media-player-info
-            - mono-core
-            - nbd
             - ndctl-devel
-            - ocaml-alcotest-devel
-            - ocaml-astring-devel
-            - ocaml-base-devel
-            - ocaml-bisect-ppx-devel
-            - ocaml-cairo-devel
-            - ocaml-calendar-devel
-            - ocaml-camlidl-devel
-            - ocaml-camlp5-devel
-            - ocaml-camomile-data
-            - ocaml-camomile-devel
-            - ocaml-cmdliner-devel
-            - ocaml-compiler-libs
-            - ocaml-cppo
-            - ocaml-csv-devel
-            - ocaml-curses-devel
-            - ocaml-dune
-            - ocaml-dune-devel
-            - ocaml-extlib-devel
-            - ocaml-fileutils-devel
-            - ocaml-fmt-devel
-            - ocaml-fpath-devel
-            - ocaml-lablgtk3-devel
-            - ocaml-lablgtk3-sourceview3-devel
-            - ocaml-lablgtk-devel
-            - ocaml-labltk-devel
-            - ocaml-lwt-devel
-            - ocaml-markup-devel
-            - ocaml-menhir
-            - ocaml-migrate-parsetree-devel
-            - ocaml-mlgmpidl-devel
-            - ocaml-mmap-devel
-            - ocaml-num-devel
-            - ocaml-ocamlbuild
-            - ocaml-ocamlbuild-devel
-            - ocaml-ocplib-endian-devel
-            - ocaml-odoc
-            - ocaml-parsexp-devel
-            - ocaml-ppx-derivers-devel
-            - ocaml-ppx-tools-versioned-devel
-            - ocaml-react-devel
-            - ocaml-re-devel
-            - ocaml-result-devel
-            - ocaml-seq-devel
-            - ocaml-sexplib0-devel
-            - ocaml-sexplib-devel
-            - ocaml-topkg-devel
-            - ocaml-tyxml-devel
-            - ocaml-uuidm-devel
-            - ocaml-uutf-devel
-            - ocaml-xml-light-devel
-            - ocaml-zarith-devel
-            - openchange-devel
             - opensc
-            - ORBit2-devel
-            - perl-Switch
-            - php-doctrine-doctrine-cache-bundle
-            - php-jdorn-sql-formatter
-            - php-phpunit-php-code-coverage7
-            - php-phpunit-php-code-coverage8
-            - php-phpunit-php-invoker3
-            - php-phpunit-php-timer3
-            - php-sebastian-comparator4
-            - php-sebastian-global-state3
-            - php-sebastian-global-state4
-            - php-sebastian-object-enumerator4
-            - php-sebastian-resource-operations3
-            - php-sebastian-type
-            - php-sebastian-type2
-            - php-symfony4-cache
-            - php-symfony4-config
-            - php-symfony4-dependency-injection
-            - php-symfony4-doctrine-bridge
-            - php-symfony4-framework-bundle
-            - php-symfony4-property-info
-            - php-symfony4-proxy-manager-bridge
-            - php-symfony4-twig-bridge
-            - php-symfony4-validator
-            - php-symfony4-web-profiler-bundle
-            - pulseaudio-qt-devel
-            - python3-antlr4-runtime
-            - python3-libnbd
-            - python3-openpyxl
-            - python3-pexpect
-            - python3-sphinxcontrib-bibtex
-            - python3-sphinx-latex
-            - python3-sphinx-theme-alabaster
-            - qpdf
-            - quilt
-            - ragel
-            - rubygem-delorean
-            - rubygem-open4
             - s390utils-devel
-            - satyr-devel
-            - setools-console
-            - suitesparse64-devel
-            - superlu_dist-mpich-devel
-            - superlu_dist-openmpi-devel
-            - texlive-comment
-            - texlive-etoc
-            - texlive-gnu-freefont
-            - texlive-hanging
-            - texlive-listofitems
-            - texlive-moreverb
-            - texlive-stackengine
-            - texlive-xindy
-            - woff2-devel
-            - wpebackend-fdo-devel
-            - xmlrpc-c-devel
         x86_64:
             - bcc-devel
             - brasero-devel
@@ -3366,6 +3009,7 @@ data:
             - infinipath-psm-devel
             - intel-mediasdk-devel
             - koji
+            - latexmk
             - libabigail
             - libatomic
             - libavc1394-devel
@@ -3377,6 +3021,7 @@ data:
             - libfprint-devel
             - libftdi-devel
             - libgpod-devel
+            - libguestfs-devel
             - libiec61883-devel
             - libimobiledevice-devel
             - libipt-devel
@@ -3392,6 +3037,13 @@ data:
             - libXvMC-devel
             - memkind-devel
             - mesa-libxatracker-devel
+            - ocaml-bisect-ppx-devel
+            - ocaml-cmdliner-devel
+            - ocaml-migrate-parsetree-devel
+            - ocaml-ppx-derivers-devel
+            - ocaml-ppx-tools-versioned-devel
+            - ocaml-react-devel
+            - ocaml-seq-devel
             - openni-devel
             - openni-primesense
             - procps-ng-devel
@@ -3400,12 +3052,20 @@ data:
             - python3-mock
             - python3-pillow
             - python3-qt5-devel
+            - python3-sphinx-latex
+            - python3-sphinx-theme-alabaster
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
             - qt-doc
             - spice-server-devel
+            - superlu_dist-mpich-devel
+            - superlu_dist-openmpi-devel
             - syslinux-perl
+            - texlive-etoc
+            - texlive-hanging
+            - texlive-listofitems
+            - texlive-stackengine
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
