@@ -189,7 +189,6 @@ data:
         - dbusmenu-qt5-devel
         - dbusmenu-qt-devel
         - dbus-python-devel
-        - dbus-x11
         - dcmtk-devel
         - dconf-devel
         - debootstrap
