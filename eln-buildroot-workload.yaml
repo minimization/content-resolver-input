@@ -216,7 +216,6 @@ data:
         - doxygen
         - doxygen-latex
         - drpm-devel
-        - dwarves
         - ebook-tools-devel
         - ed25519-java
         - editorconfig-devel
@@ -293,7 +292,6 @@ data:
         - game-music-emu-devel
         - gamin-devel
         - gavl-devel
-        - gcab
         - gcc-gfortran
         - gcc-gnat
         - gcc-objc
@@ -310,9 +308,7 @@ data:
         - gdcm-devel
         - gdk-pixbuf2-xlib-devel
         - gdlmm-devel
-        - gdm-devel
         - gdm-pam-extensions-devel
-        - gecode-devel
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
@@ -746,7 +742,6 @@ data:
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
-        - jacop
         - jakarta-oro
         - janino
         - jansson-devel
@@ -1006,7 +1001,6 @@ data:
         - libformula
         - libfreehand-devel
         - libgadu-devel
-        - libgcab1-devel
         - libgdither-devel
         - libgdl-devel
         - libgee-devel
@@ -1045,7 +1039,6 @@ data:
         - libisofs-devel
         - libitm-devel
         - libixion-devel
-        - libjcat-devel
         - libkate-devel
         - libkcapi-fipscheck
         - libkkc-devel
@@ -1059,7 +1052,6 @@ data:
         - libldb-devel
         - libldm-devel
         - libloader
-        - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
         - liblqr-1-devel
@@ -1264,7 +1256,6 @@ data:
         - llvm-test
         - lmdb
         - lmdb-devel
-        - Lmod
         - lockdev-devel
         - log4j
         - lpsolve-devel
@@ -1498,7 +1489,6 @@ data:
         - perl-B
         - perl-bareword-filehandles
         - perl-base
-        - perl-B-Compiling
         - perl-B-COW
         - perl-BDB
         - perl-Benchmark
@@ -1526,7 +1516,6 @@ data:
         - perl-Class-Load
         - perl-Class-Load-XS
         - perl-Class-Method-Modifiers
-        - perl-Class-Singleton
         - perl-Class-Struct
         - perl-Class-Tiny
         - perl-Class-XSAccessor
@@ -1987,7 +1976,6 @@ data:
         - perl-TestML
         - perl-Test-MockModule
         - perl-Test-MockObject
-        - perl-Test-MockRandom
         - perl-Test-Mojibake
         - perl-Test-Moose
         - perl-Test-Mouse
@@ -2057,7 +2045,6 @@ data:
         - perl-Unicode-Map8
         - perl-Unicode-String
         - perl-Unicode-UCD
-        - perl-Unicode-UTF8
         - perl-UNIVERSAL-can
         - perl-UNIVERSAL-isa
         - perl-UNIVERSAL-require
@@ -2838,7 +2825,6 @@ data:
         - wxGTK3-devel
         - xapian-core-devel
         - xapps-devel
-        - Xaw3d-devel
         - xcb-proto
         - xcb-util-cursor-devel
         - xcb-util-devel
@@ -2873,7 +2859,6 @@ data:
         - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
-        - xpp3-minimal
         - xxhash-devel
         - yajl-devel
         - yasm
@@ -2899,7 +2884,6 @@ data:
             - dyninst-devel
             - efivar-devel
             - fedora-bookmarks
-            - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
             - gnu-efi
@@ -2932,13 +2916,11 @@ data:
             - python3-koji
             - python3-libpamtest
             - python3-mock
-            - python3-pillow
             - python3-qt5-devel
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
             - spice-server-devel
-            - tpm2-tss-devel
             - ucx-devel
             - umockdev
             - vboot-utils
@@ -2950,7 +2932,6 @@ data:
             - dbus-c++-devel
             - dyninst-devel
             - fedora-bookmarks
-            - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
             - gperftools-devel
@@ -2999,7 +2980,6 @@ data:
             - dyninst-devel
             - efivar-devel
             - fedora-bookmarks
-            - flashrom-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
             - gnu-efi
@@ -3010,6 +2990,7 @@ data:
             - infiniband-diags-devel
             - infinipath-psm-devel
             - intel-mediasdk-devel
+            - kernel-debug-core
             - koji
             - libabigail
             - libatomic
@@ -3030,7 +3011,6 @@ data:
             - libplist-devel
             - libpsm2-devel
             - libraw1394-devel
-            - libsmbios-devel
             - libubsan
             - libunwind-devel
             - libusbmuxd-devel
@@ -3044,7 +3024,6 @@ data:
             - python3-koji
             - python3-libpamtest
             - python3-mock
-            - python3-pillow
             - python3-qt5-devel
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
@@ -3052,7 +3031,6 @@ data:
             - qt-doc
             - spice-server-devel
             - syslinux-perl
-            - tpm2-tss-devel
             - ucx-devel
             - umockdev
             - xen-devel
