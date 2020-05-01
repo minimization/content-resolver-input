@@ -50,7 +50,6 @@ data:
         - apr-devel
         - apr-util-bdb
         - apr-util-devel
-        - apr-util-openssl
         - aqute-bnd
         - armadillo-devel
         - arpack-devel
@@ -119,14 +118,12 @@ data:
         - chan-devel
         - CharLS-devel
         - checksec
-        - cheese-libs-devel
         - chmlib-devel
         - chrpath
         - cifs-utils-devel
         - cim-schema
         - cjkuni-uming-fonts
         - cjose-devel
-        - clamd
         - clang-devel
         - clisp-devel
         - cln-devel
@@ -216,7 +213,6 @@ data:
         - doxygen
         - doxygen-latex
         - drpm-devel
-        - dwarves
         - ebook-tools-devel
         - ed25519-java
         - editorconfig-devel
@@ -254,11 +250,7 @@ data:
         - fdupes
         - felix-framework
         - felix-gogo-parent
-        - felix-gogo-runtime
-        - felix-osgi-obr
-        - felix-osgi-obr-resolver
         - felix-parent
-        - felix-shell
         - ffcall-devel
         - fftw-devel
         - file-devel
@@ -291,7 +283,6 @@ data:
         - fwupd-devel
         - g2clib-devel
         - game-music-emu-devel
-        - gamin-devel
         - gavl-devel
         - gcab
         - gcc-gfortran
@@ -310,7 +301,6 @@ data:
         - gdcm-devel
         - gdk-pixbuf2-xlib-devel
         - gdlmm-devel
-        - gdm-devel
         - gdm-pam-extensions-devel
         - gecode-devel
         - gegl04-devel
@@ -514,13 +504,11 @@ data:
         - gnome-autoar-devel
         - gnome-common
         - gnome-doc-utils
-        - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
         - gnuplot
         - gnuplot-wx
         - gobject-introspection-devel
-        - go-compilers-golang-compiler
         - golang-cloud-google-devel
         - golang-github-apache-arrow-devel
         - golang-github-aws-sdk-devel
@@ -662,7 +650,6 @@ data:
         - gphoto2
         - gpsd-devel
         - grantlee-devel
-        - graphene-devel
         - GraphicsMagick
         - GraphicsMagick-c++-devel
         - graphviz-devel
@@ -670,12 +657,10 @@ data:
         - groff
         - gsl-devel
         - gsm-devel
-        - gsound-devel
         - gspell-devel
         - gssdp-devel
         - gstreamer1-plugins-bad-free-devel
         - gtest-devel
-        - gtk3-devel-docs
         - gtk+-devel
         - gtk-doc
         - gtkglext-devel
@@ -888,7 +873,6 @@ data:
         - kf5-syntax-highlighting-devel
         - kf5-threadweaver-devel
         - kmod-devel
-        - krb5-server
         - kscreenlocker-devel
         - ksh
         - kwin-devel
@@ -903,7 +887,6 @@ data:
         - latexmk
         - lcms2-devel
         - lcov
-        - ldb-tools
         - ldns-devel
         - lensfun-devel
         - leptonica-devel
@@ -919,7 +902,6 @@ data:
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
-        - libargon2-devel
         - libasr-devel
         - libass-devel
         - libassuan-devel
@@ -954,7 +936,6 @@ data:
         - libcdio-devel
         - libcdio-paranoia-devel
         - libcdr-devel
-        - libcephfs-devel
         - libcgroup-devel
         - libchromaprint-devel
         - libcmis-devel
@@ -1013,14 +994,12 @@ data:
         - libgeotiff-devel
         - libgexiv2-devel
         - libgit2-devel
-        - libgit2-glib
         - libglade2-devel
         - libgnat
         - libgnomekbd-devel
         - libgovirt-devel
         - libgphoto2-devel
         - libgrss-devel
-        - libgsasl-devel
         - libgs-devel
         - libgsf-devel
         - libgta-devel
@@ -1028,7 +1007,6 @@ data:
         - libgudev-devel
         - libgusb-devel
         - libgxps-devel
-        - libhandy-devel
         - libhangul-devel
         - libicns-utils
         - libid3tag-devel
@@ -1051,7 +1029,6 @@ data:
         - libkkc-devel
         - libkml-devel
         - libknet1-devel
-        - libksba-devel
         - libkscreen-qt5-devel
         - libksysguard-devel
         - liblangtag-devel
@@ -1091,7 +1068,6 @@ data:
         - libmwaw-devel
         - libmypaint-devel
         - libnauty-devel
-        - libnbd-devel
         - libndp-devel
         - libnet-devel
         - libnetfilter_conntrack-devel
@@ -1112,7 +1088,6 @@ data:
         - libofa-devel
         - libogg-devel
         - liboggz
-        - libopendmarc-devel
         - liborcus-devel
         - libosinfo-devel
         - libotf
@@ -1120,7 +1095,6 @@ data:
         - libp11-devel
         - libpagemaker-devel
         - libpaper-devel
-        - libpath_utils-devel
         - libpcap-devel
         - libpciaccess-devel
         - libpeas-devel
@@ -1159,7 +1133,6 @@ data:
         - libsemanage-devel
         - libsemanage-static
         - libsepol-static
-        - libserf-devel
         - libserializer
         - libshout-devel
         - libsigc++20-devel
@@ -1192,9 +1165,7 @@ data:
         - libtdb-devel
         - libtevent-devel
         - libtheora-devel
-        - libtidy-devel
         - libtiff-tools
-        - libtimezonemap-devel
         - libtirpc-devel
         - libtommath-devel
         - libtool-ltdl-devel
@@ -1262,7 +1233,6 @@ data:
         - llvm-googletest
         - llvm-static
         - llvm-test
-        - lmdb
         - lmdb-devel
         - Lmod
         - lockdev-devel
@@ -1320,10 +1290,8 @@ data:
         - mesa-libgbm-devel
         - mesa-libOSMesa-devel
         - meson
-        - metacity
         - metis-devel
         - mftrace
-        - mingw32-gcc
         - mingw64-gcc
         - miniz-devel
         - minizip-compat-devel
@@ -1352,7 +1320,6 @@ data:
         - munge-devel
         - munge-maven-plugin
         - mupdf
-        - mutter-devel
         - mypaint-brushes-devel
         - mythes-devel
         - nailgun
@@ -1378,7 +1345,6 @@ data:
         - nkf
         - nodejs-underscore
         - nototools
-        - npth-devel
         - nscd
         - nss_wrapper
         - ntfs-3g-devel
@@ -1842,7 +1808,6 @@ data:
         - perl-Params-ValidationCompiler
         - perl-PAR-Dist
         - perl-Parse-RecDescent
-        - perl-Parse-Yapp
         - perl-Path-Class
         - perl-Path-Tiny
         - perl-PDF-API2
@@ -2107,7 +2072,6 @@ data:
         - php-doctrine-datafixtures
         - php-doctrine-dbal
         - php-doctrine-doctrine-bundle
-        - php-doctrine-doctrine-bundle2
         - php-doctrine-doctrine-cache-bundle
         - php-doctrine-event-manager
         - php-doctrine-inflector
@@ -2117,9 +2081,7 @@ data:
         - php-doctrine-persistence
         - php-doctrine-reflection
         - php-egulias-email-validator
-        - php-egulias-email-validator2
         - php-fedora-autoloader-devel
-        - php-fig-link-util
         - php-gd
         - php-gmp
         - php-guzzlehttp-guzzle
@@ -2130,7 +2092,6 @@ data:
         - php-guzzlehttp-ringphp-tests
         - php-guzzlehttp-streams
         - php-hamcrest2
-        - php-http-message-factory
         - php-intl
         - php-jdorn-sql-formatter
         - php-json
@@ -2170,20 +2131,17 @@ data:
         - php-laminas-view
         - php-laminas-zendframework-bridge
         - php-ldap
-        - php-masterminds-html5
         - php-mbstring
         - php-mikey179-vfsstream
         - php-mock2
         - php-mockery
         - php-mock-integration2
         - php-mock-phpunit2
-        - php-mongodb
         - php-Monolog
         - php-mtdowling-jmespath-php
         - php-myclabs-deep-copy
         - php-nikic-php-parser3
         - php-nikic-php-parser4
-        - php-nyholm-psr7
         - php-ocramius-code-generator-utils
         - php-ocramius-generated-hydrator
         - php-ocramius-proxy-manager
@@ -2218,16 +2176,13 @@ data:
         - php-phpunit-php-code-coverage5
         - php-phpunit-php-code-coverage6
         - php-phpunit-php-code-coverage7
-        - php-phpunit-php-code-coverage8
         - php-phpunit-php-file-iterator2
         - php-phpunit-php-file-iterator3
         - php-phpunit-PHP-Invoker
         - php-phpunit-php-invoker2
-        - php-phpunit-php-invoker3
         - php-phpunit-php-text-template2
         - php-phpunit-PHP-Timer
         - php-phpunit-php-timer2
-        - php-phpunit-php-timer3
         - php-phpunit-PHP-TokenStream
         - php-phpunit-php-token-stream2
         - php-phpunit-php-token-stream3
@@ -2241,17 +2196,14 @@ data:
         - php-psr-http-client
         - php-psr-http-factory
         - php-psr-http-message
-        - php-psr-link
         - php-PsrLog
         - php-psr-simple-cache
         - php-ralouphie-getallheaders
         - php-react-promise
-        - php-sebastian-code-unit
         - php-sebastian-code-unit-reverse-lookup
         - php-sebastian-code-unit-reverse-lookup2
         - php-sebastian-comparator2
         - php-sebastian-comparator3
-        - php-sebastian-comparator4
         - php-sebastian-diff2
         - php-sebastian-diff3
         - php-sebastian-diff4
@@ -2263,10 +2215,8 @@ data:
         - php-sebastian-global-state
         - php-sebastian-global-state2
         - php-sebastian-global-state3
-        - php-sebastian-global-state4
         - php-sebastian-object-enumerator
         - php-sebastian-object-enumerator3
-        - php-sebastian-object-enumerator4
         - php-sebastian-object-reflector
         - php-sebastian-object-reflector2
         - php-sebastian-recursion-context
@@ -2274,9 +2224,7 @@ data:
         - php-sebastian-recursion-context4
         - php-sebastian-resource-operations
         - php-sebastian-resource-operations2
-        - php-sebastian-resource-operations3
         - php-sebastian-type
-        - php-sebastian-type2
         - php-sebastian-version3
         - php-seld-phar-utils
         - php-sentry
@@ -2321,7 +2269,6 @@ data:
         - php-true-punycode
         - php-twig
         - php-twig2
-        - php-twig3
         - phpunit6
         - phpunit7
         - phpunit8
@@ -2347,7 +2294,6 @@ data:
         - pngcrush
         - pngquant
         - po4a
-        - policycoreutils-devel
         - polkit-gnome
         - polkit-qt5-1-devel
         - polkit-qt-devel
@@ -2385,7 +2331,6 @@ data:
         - python2-rpm-macros
         - python2-setuptools
         - python3-anytree
-        - python3-astroid
         - python3-beautifulsoup4
         - python3-breathe
         - python3-coverage
@@ -2401,19 +2346,13 @@ data:
         - python3-freezegun
         - python3-gobject-devel
         - python3-hypothesis
-        - python3-iso8601
-        - python3-isort
         - python3-jinja2
-        - python3-ldb-devel
-        - python3-libfdt
         - python3-libmount
-        - python3-libnbd
         - python3-libvoikko
         - python3-lit
         - python3-mallard-ducktype
         - python3-marisa
         - python3-markdown
-        - python3-mccabe
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-nototools
@@ -2424,7 +2363,6 @@ data:
         - python3-pwntools
         - python3-pylint
         - python3-pyserial
-        - python3-pytest-runner
         - python3-pywbem
         - python3-pyxattr
         - python3-qt5
@@ -2432,18 +2370,14 @@ data:
         - python3-recommonmark
         - python3-rpm-macros
         - python3-scons
-        - python3-semantic_version
         - python3-setuptools_scm
         - python3-sphinx
         - python3-sphinx-latex
         - python3-sphinx_rtd_theme
         - python3-sphinx-theme-alabaster
         - python3-talloc-devel
-        - python3-tdb
         - python3-testscenarios
         - python3-testtools
-        - python3-tevent
-        - python3-toml
         - python-rpm-macros
         - python-unversioned-command
         - qca-devel
@@ -2488,11 +2422,9 @@ data:
         - reiserfs-utils
         - replacer
         - rest-devel
-        - rhash-devel
         - rhino
         - rmt
         - rpcgen
-        - rpcsvc-proto-devel
         - rpm-mpi-hooks
         - rpm-ostree-devel
         - rrdtool-devel
@@ -2555,7 +2487,6 @@ data:
         - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
-        - rubygem-expression_parser
         - rubygem-faraday
         - rubygem-ffi
         - rubygem-flexmock
@@ -2581,11 +2512,9 @@ data:
         - rubygem-kramdown
         - rubygem-launchy
         - rubygem-linked-list
-        - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
         - rubygem-mail
-        - rubygem-maruku
         - rubygem-memcache-client
         - rubygem-metaclass
         - rubygem-method_source
@@ -2601,7 +2530,6 @@ data:
         - rubygem-multi_json
         - rubygem-multipart-post
         - rubygem-multi_test
-        - rubygem-mustermann
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
@@ -2612,14 +2540,12 @@ data:
         - rubygem-pdf-reader
         - rubygem-pkg-config
         - rubygem-power_assert
-        - rubygem-prawn
         - rubygem-pry
         - rubygem-public_suffix
         - rubygem-puma
         - rubygem-racc
         - rubygem-rack
         - rubygem-rack-cache
-        - rubygem-rack-protection
         - rubygem-rack-test
         - rubygem-rails
         - rubygem-rails-controller-testing
@@ -2628,7 +2554,6 @@ data:
         - rubygem-rake
         - rubygem-rake-compiler
         - rubygem-rb-inotify
-        - rubygem-rdiscount
         - rubygem-rdoc
         - rubygem-redcarpet
         - rubygem-RedCloth
@@ -2683,7 +2608,6 @@ data:
         - rubygem-webmock
         - rubygem-websocket-driver
         - rubygem-websocket-extensions
-        - rubygem-wikicloth
         - rubygem-xpath
         - rubygem-yard
         - rubygem-ZenTest
@@ -2693,7 +2617,6 @@ data:
         - samba-winbind
         - samba-winbind-clients
         - sanlock-devel
-        - sassc
         - satyr-devel
         - sbc-devel
         - sblim-cmpi-devel
@@ -2759,7 +2682,6 @@ data:
         - taglib-devel
         - tclx-devel
         - tcsh
-        - tdb-tools
         - teamd-devel
         - teckit-devel
         - tepl-devel
@@ -2784,7 +2706,6 @@ data:
         - tinyxml2-devel
         - tinyxml-devel
         - tix-devel
-        - tokyocabinet-devel
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
@@ -2811,9 +2732,7 @@ data:
         - urw-base35-fonts-devel
         - usbredir-devel
         - userspace-rcu-devel
-        - utf8proc-devel
         - uuid-devel
-        - uw-imap-devel
         - vala
         - varnish-devel
         - virglrenderer-devel
@@ -2889,105 +2808,342 @@ data:
         - zziplib-devel
     arch_packages:
         aarch64:
+            - apr-util-openssl
             - arm-trusted-firmware-armv8
             - bcc-devel
             - brasero-devel
+            - cheese-libs-devel
+            - clamd
             - dbus-c++-devel
             - dietlibc-devel
             - discount
             - dpkg
+            - dwarves
             - dyninst-devel
             - efivar-devel
             - fedora-bookmarks
+            - felix-gogo-runtime
+            - felix-osgi-obr
+            - felix-osgi-obr-resolver
+            - felix-shell
             - flashrom-devel
+            - gamin-devel
+            - gdm-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
+            - gnome-settings-daemon-devel
             - gnu-efi
             - gnu-efi-devel
+            - go-compilers-golang-compiler
             - golang-shared
             - gperftools-devel
+            - graphene-devel
+            - gsound-devel
+            - gtk3-devel-docs
             - gtkmm24-devel
             - infiniband-diags-devel
             - koji
+            - krb5-server
+            - ldb-tools
             - libabigail
+            - libargon2-devel
             - libavc1394-devel
+            - libcephfs-devel
             - libconfuse-devel
             - libdc1394-devel
             - libdv-devel
             - libffado-devel
             - libfprint-devel
             - libftdi-devel
+            - libgit2-glib
             - libgpod-devel
+            - libgsasl-devel
             - libguestfs-devel
+            - libhandy-devel
             - libiec61883-devel
             - libimobiledevice-devel
+            - libksba-devel
+            - libnbd-devel
+            - libopendmarc-devel
+            - libpath_utils-devel
             - libpfm-static
             - libplist-devel
             - libraw1394-devel
+            - libserf-devel
+            - libtidy-devel
+            - libtimezonemap-devel
             - libunwind-devel
             - libusbmuxd-devel
             - libxml++-devel
             - llvm6.0
+            - lmdb
+            - metacity
+            - mingw32-gcc
+            - mutter-devel
             - ndctl-devel
+            - npth-devel
+            - perl-Parse-Yapp
+            - php-doctrine-doctrine-bundle2
+            - php-egulias-email-validator2
+            - php-fig-link-util
+            - php-masterminds-html5
+            - php-mongodb
+            - php-nyholm-psr7
+            - php-phpunit-php-code-coverage8
+            - php-phpunit-php-invoker3
+            - php-phpunit-php-timer3
+            - php-psr-link
+            - php-sebastian-code-unit
+            - php-sebastian-comparator4
+            - php-sebastian-global-state4
+            - php-sebastian-object-enumerator4
+            - php-sebastian-resource-operations3
+            - php-sebastian-type2
+            - php-twig3
+            - policycoreutils-devel
+            - python3-astroid
+            - python3-iso8601
+            - python3-isort
             - python3-koji
+            - python3-ldb-devel
+            - python3-libfdt
+            - python3-libnbd
             - python3-libpamtest
+            - python3-mccabe
             - python3-mock
             - python3-pillow
+            - python3-pytest-runner
             - python3-qt5-devel
+            - python3-semantic_version
+            - python3-tdb
+            - python3-tevent
+            - python3-toml
             - qt5-qtdeclarative-doc
             - qt5-qtwebengine-devel
             - qt5-qtxmlpatterns-doc
+            - rhash-devel
+            - rpcsvc-proto-devel
+            - rubygem-liquid
+            - rubygem-maruku
+            - rubygem-mustermann
+            - rubygem-prawn
+            - rubygem-rack-protection
+            - rubygem-rdiscount
+            - rubygem-wikicloth
+            - sassc
             - spice-server-devel
+            - tdb-tools
+            - tokyocabinet-devel
             - tpm2-tss-devel
             - ucx-devel
             - umockdev
+            - utf8proc-devel
+            - uw-imap-devel
             - vboot-utils
             - xen-devel
             - xorg-x11-drv-wacom-devel
         ppc64le:
+            - apr-util-openssl
             - bcc-devel
             - brasero-devel
+            - cheese-libs-devel
+            - clamd
             - dbus-c++-devel
+            - dwarves
             - dyninst-devel
             - fedora-bookmarks
+            - felix-gogo-runtime
+            - felix-osgi-obr
+            - felix-osgi-obr-resolver
+            - felix-shell
             - flashrom-devel
+            - gamin-devel
+            - gdm-devel
             - ghc-base-compat-devel
             - gnome-bluetooth-libs-devel
+            - gnome-settings-daemon-devel
+            - go-compilers-golang-compiler
             - gperftools-devel
+            - graphene-devel
+            - gsound-devel
+            - gtk3-devel-docs
             - gtkmm24-devel
             - infiniband-diags-devel
+            - krb5-server
+            - ldb-tools
+            - libargon2-devel
             - libavc1394-devel
+            - libcephfs-devel
             - libconfuse-devel
             - libdc1394-devel
             - libdv-devel
             - libffado-devel
             - libfprint-devel
             - libftdi-devel
+            - libgit2-glib
             - libgpod-devel
+            - libgsasl-devel
+            - libhandy-devel
             - libiec61883-devel
             - libimobiledevice-devel
+            - libksba-devel
+            - libnbd-devel
+            - libopendmarc-devel
+            - libpath_utils-devel
             - libpfm-static
             - libplist-devel
             - libraw1394-devel
             - librtas-devel
+            - libserf-devel
             - libservicelog-devel
+            - libtidy-devel
+            - libtimezonemap-devel
             - libunwind-devel
             - libusbmuxd-devel
             - libxml++-devel
+            - lmdb
             - lm_sensors-devel
+            - metacity
+            - mingw32-gcc
+            - mutter-devel
+            - npth-devel
+            - perl-Parse-Yapp
+            - php-doctrine-doctrine-bundle2
+            - php-egulias-email-validator2
+            - php-fig-link-util
+            - php-masterminds-html5
+            - php-mongodb
+            - php-nyholm-psr7
+            - php-phpunit-php-code-coverage8
+            - php-phpunit-php-invoker3
+            - php-phpunit-php-timer3
+            - php-psr-link
+            - php-sebastian-code-unit
+            - php-sebastian-comparator4
+            - php-sebastian-global-state4
+            - php-sebastian-object-enumerator4
+            - php-sebastian-resource-operations3
+            - php-sebastian-type2
+            - php-twig3
+            - policycoreutils-devel
+            - python3-astroid
+            - python3-iso8601
+            - python3-isort
+            - python3-ldb-devel
+            - python3-libfdt
+            - python3-libnbd
             - python3-libpamtest
+            - python3-mccabe
+            - python3-pytest-runner
             - python3-qt5-devel
+            - python3-semantic_version
+            - python3-tdb
+            - python3-tevent
+            - python3-toml
+            - rhash-devel
+            - rpcsvc-proto-devel
+            - rubygem-liquid
+            - rubygem-maruku
+            - rubygem-mustermann
+            - rubygem-prawn
+            - rubygem-rack-protection
+            - rubygem-rdiscount
+            - rubygem-wikicloth
+            - sassc
+            - tdb-tools
+            - tokyocabinet-devel
             - ucx-devel
             - umockdev
+            - utf8proc-devel
+            - uw-imap-devel
             - xorg-x11-drv-wacom-devel
         s390x:
+            - apr-util-openssl
+            - cheese-libs-devel
+            - clamd
             - dietlibc-devel
+            - dwarves
+            - felix-gogo-runtime
+            - felix-osgi-obr
+            - felix-osgi-obr-resolver
+            - felix-shell
+            - gamin-devel
+            - gdm-devel
+            - gnome-settings-daemon-devel
+            - go-compilers-golang-compiler
+            - graphene-devel
+            - gsound-devel
+            - gtk3-devel-docs
+            - krb5-server
+            - ldb-tools
+            - libargon2-devel
+            - libcephfs-devel
+            - libgit2-glib
+            - libgsasl-devel
+            - libhandy-devel
             - libica-devel
+            - libksba-devel
+            - libnbd-devel
+            - libopendmarc-devel
+            - libpath_utils-devel
+            - libserf-devel
+            - libtidy-devel
+            - libtimezonemap-devel
+            - lmdb
             - lm_sensors-devel
             - media-player-info
+            - metacity
+            - mingw32-gcc
+            - mutter-devel
             - ndctl-devel
+            - npth-devel
             - opensc
+            - perl-Parse-Yapp
+            - php-doctrine-doctrine-bundle2
+            - php-egulias-email-validator2
+            - php-fig-link-util
+            - php-masterminds-html5
+            - php-mongodb
+            - php-nyholm-psr7
+            - php-phpunit-php-code-coverage8
+            - php-phpunit-php-invoker3
+            - php-phpunit-php-timer3
+            - php-psr-link
+            - php-sebastian-code-unit
+            - php-sebastian-comparator4
+            - php-sebastian-global-state4
+            - php-sebastian-object-enumerator4
+            - php-sebastian-resource-operations3
+            - php-sebastian-type2
+            - php-twig3
+            - policycoreutils-devel
+            - python3-astroid
+            - python3-iso8601
+            - python3-isort
+            - python3-ldb-devel
+            - python3-libfdt
+            - python3-libnbd
+            - python3-mccabe
+            - python3-pytest-runner
+            - python3-semantic_version
+            - python3-tdb
+            - python3-tevent
+            - python3-toml
+            - rhash-devel
+            - rpcsvc-proto-devel
+            - rubygem-liquid
+            - rubygem-maruku
+            - rubygem-mustermann
+            - rubygem-prawn
+            - rubygem-rack-protection
+            - rubygem-rdiscount
+            - rubygem-wikicloth
             - s390utils-devel
+            - sassc
+            - tdb-tools
+            - tokyocabinet-devel
+            - utf8proc-devel
+            - uw-imap-devel
         x86_64:
             - bcc-devel
             - brasero-devel
@@ -3001,7 +3157,6 @@ data:
             - fedora-bookmarks
             - flashrom-devel
             - ghc-base-compat-devel
-            - gnome-bluetooth-libs-devel
             - gnu-efi
             - gnu-efi-devel
             - golang-shared
@@ -3010,7 +3165,6 @@ data:
             - infiniband-diags-devel
             - infinipath-psm-devel
             - intel-mediasdk-devel
-            - kernel-debug-core
             - koji
             - libabigail
             - libatomic
@@ -3023,7 +3177,6 @@ data:
             - libfprint-devel
             - libftdi-devel
             - libgpod-devel
-            - libguestfs-devel
             - libiec61883-devel
             - libimobiledevice-devel
             - libipt-devel
@@ -3058,4 +3211,3 @@ data:
             - umockdev
             - xen-devel
             - xmlsec1-openssl-devel
-            - xorg-x11-drv-wacom-devel
