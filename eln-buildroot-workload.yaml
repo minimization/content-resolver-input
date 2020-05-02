@@ -292,7 +292,6 @@ data:
         - gavl-devel
         - gcab
         - gcc-gfortran
-        - gcc-gnat
         - gcc-objc
         - gcc-objc++
         - gcc-plugin-devel
@@ -737,7 +736,6 @@ data:
         - irrlicht-devel
         - irrXML-devel
         - iscsi-initiator-utils-devel
-        - isl-devel
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
@@ -1006,7 +1004,6 @@ data:
         - libgexiv2-devel
         - libgit2-devel
         - libglade2-devel
-        - libgnat
         - libgnomekbd-devel
         - libgovirt-devel
         - libgphoto2-devel
@@ -2416,7 +2413,6 @@ data:
         - python3-testscenarios
         - python3-testtools
         - python3-toml
-        - python-rpm-macros
         - python-unversioned-command
         - qca-devel
         - qca-qt5-devel
