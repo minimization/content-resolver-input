@@ -15,7 +15,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: ELN Buildroot Compose projection
+  name: ELN Compose + Buildroot projection
   
   # A short description, perhaps hinting the purpose
   #
