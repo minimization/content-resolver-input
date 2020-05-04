@@ -43,6 +43,7 @@ data:
 
   # Just to demonstrate stuff
   unwanted_packages:
+  - R
   - xen
   - xen-devel
   - xen-hypervisor
