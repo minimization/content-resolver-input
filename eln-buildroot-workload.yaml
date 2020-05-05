@@ -304,7 +304,6 @@ data:
             - gavl-devel
             - gcab
             - gcc-gfortran
-            - gcc-gnat
             - gcc-objc
             - gcc-objc++
             - gcc-plugin-devel
@@ -752,7 +751,6 @@ data:
             - irrlicht-devel
             - irrXML-devel
             - iscsi-initiator-utils-devel
-            - isl-devel
             - isns-utils-devel
             - ivy-local
             - jack-audio-connection-kit-devel
@@ -1031,7 +1029,6 @@ data:
             - libgit2-devel
             - libgit2-glib
             - libglade2-devel
-            - libgnat
             - libgnomekbd-devel
             - libgovirt-devel
             - libgphoto2-devel
@@ -1043,7 +1040,6 @@ data:
             - libgta-devel
             - libgtop2-devel
             - libgudev-devel
-            - libguestfs-devel
             - libgusb-devel
             - libgxps-devel
             - libhandy-devel
@@ -1111,8 +1107,6 @@ data:
             - libmwaw-devel
             - libmypaint-devel
             - libnauty-devel
-            - libnbd-devel
-            - libndp-devel
             - libnet-devel
             - libnetfilter_conntrack-devel
             - libnfnetlink-devel
@@ -1225,7 +1219,6 @@ data:
             - libucil-devel
             - libudisks2-devel
             - libunicap-devel
-            - libuninameslist-devel
             - libunistring-devel
             - libunwind-devel
             - libupnp-devel
@@ -1385,7 +1378,6 @@ data:
             - nas-devel
             - nasm
             - nautilus-devel
-            - nbd
             - ncompress
             - neon-devel
             - netcdf-cxx-devel
@@ -2534,7 +2526,6 @@ data:
             - powermock-api-easymock
             - powermock-api-mockito
             - powermock-junit4
-            - ppp-devel
             - pps-tools-devel
             - proj-devel
             - protobuf-c-devel
@@ -2579,7 +2570,6 @@ data:
             - python3-ldb-devel
             - python3-libfdt
             - python3-libmount
-            - python3-libnbd
             - python3-libpamtest
             - python3-libvoikko
             - python3-lit
@@ -2833,7 +2823,6 @@ data:
             - rubygem-shoulda
             - rubygem-shoulda-context
             - rubygem-shoulda-matchers
-            - rubygem-simplecov
             - rubygem-simplecov-html
             - rubygem-sinatra
             - rubygem-slim
@@ -2919,7 +2908,6 @@ data:
             - sratom-devel
             - ssmtp
             - stax2-api
-            - stunnel
             - subversion-perl
             - suitesparse-devel
             - sundials-devel
@@ -2934,7 +2922,6 @@ data:
             - tclx-devel
             - tcsh
             - tdb-tools
-            - teamd-devel
             - teckit-devel
             - tepl-devel
             - tesseract-devel
@@ -3349,7 +3336,6 @@ data:
             - gavl-devel
             - gcab
             - gcc-gfortran
-            - gcc-gnat
             - gcc-objc
             - gcc-objc++
             - gcc-plugin-devel
@@ -3794,7 +3780,6 @@ data:
             - irrlicht-devel
             - irrXML-devel
             - iscsi-initiator-utils-devel
-            - isl-devel
             - isns-utils-devel
             - ivy-local
             - jack-audio-connection-kit-devel
@@ -4068,7 +4053,6 @@ data:
             - libgit2-devel
             - libgit2-glib
             - libglade2-devel
-            - libgnat
             - libgnomekbd-devel
             - libgovirt-devel
             - libgphoto2-devel
@@ -4079,7 +4063,6 @@ data:
             - libgta-devel
             - libgtop2-devel
             - libgudev-devel
-            - libguestfs-devel
             - libgusb-devel
             - libgxps-devel
             - libhandy-devel
@@ -4146,8 +4129,6 @@ data:
             - libmwaw-devel
             - libmypaint-devel
             - libnauty-devel
-            - libnbd-devel
-            - libndp-devel
             - libnet-devel
             - libnetfilter_conntrack-devel
             - libnfnetlink-devel
@@ -4256,7 +4237,6 @@ data:
             - libucil-devel
             - libudisks2-devel
             - libunicap-devel
-            - libuninameslist-devel
             - libunistring-devel
             - libunwind-devel
             - libupnp-devel
@@ -4415,7 +4395,6 @@ data:
             - nas-devel
             - nasm
             - nautilus-devel
-            - nbd
             - ncompress
             - neon-devel
             - netcdf-cxx-devel
@@ -5564,7 +5543,6 @@ data:
             - powermock-api-easymock
             - powermock-api-mockito
             - powermock-junit4
-            - ppp-devel
             - pps-tools-devel
             - proj-devel
             - protobuf-c-devel
@@ -5609,7 +5587,6 @@ data:
             - python3-ldb-devel
             - python3-libfdt
             - python3-libmount
-            - python3-libnbd
             - python3-libvoikko
             - python3-lit
             - python3-mallard-ducktype
@@ -5861,7 +5838,6 @@ data:
             - rubygem-shoulda
             - rubygem-shoulda-context
             - rubygem-shoulda-matchers
-            - rubygem-simplecov
             - rubygem-simplecov-html
             - rubygem-sinatra
             - rubygem-slim
@@ -5947,7 +5923,6 @@ data:
             - sratom-devel
             - ssmtp
             - stax2-api
-            - stunnel
             - subversion-perl
             - suitesparse-devel
             - sundials-devel
@@ -5962,7 +5937,6 @@ data:
             - tclx-devel
             - tcsh
             - tdb-tools
-            - teamd-devel
             - teckit-devel
             - tepl-devel
             - tesseract-devel
