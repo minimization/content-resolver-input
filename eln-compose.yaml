@@ -43,6 +43,8 @@ data:
 
   # Just to demonstrate stuff
   unwanted_packages:
+  - kernel-headers
+  - kernel-tools
   - xen
   - xen-devel
   - xen-hypervisor
