@@ -43,6 +43,10 @@ data:
 
   # Just to demonstrate stuff
   unwanted_packages:
+  - mono-core
+  - mono-devel
+  - monodoc
+  - monodoc-devel
   - xen
   - xen-devel
   - xen-hypervisor
