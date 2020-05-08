@@ -4103,6 +4103,7 @@ data:
             - libpipeline-devel
             - libpkgconf-devel
             - libplist-devel
+            - libprelude-devel
             - libproxy-devel
             - libpst-devel
             - libpwquality-devel
@@ -5502,7 +5503,6 @@ data:
             - pylint
             - python2-cairo-devel
             - python2-rpm-macros
-            - python2-setuptools
             - python3-anytree
             - python3-astroid
             - python3-beautifulsoup4
@@ -6786,7 +6786,6 @@ data:
             - kdelibs-devel
             - kde-settings
             - kernel
-            - kernel-debug-core
             - kf5-attica-devel
             - kf5-baloo-devel
             - kf5-frameworkintegration-devel
@@ -7114,6 +7113,7 @@ data:
             - libpipeline-devel
             - libpkgconf-devel
             - libplist-devel
+            - libprelude-devel
             - libproxy-devel
             - libpst-devel
             - libpwquality-devel
@@ -8520,7 +8520,6 @@ data:
             - pylint
             - python2-cairo-devel
             - python2-rpm-macros
-            - python2-setuptools
             - python3-anytree
             - python3-astroid
             - python3-beautifulsoup4
