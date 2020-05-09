@@ -2512,6 +2512,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python3-anytree
@@ -5501,6 +5502,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python3-anytree
@@ -8518,6 +8520,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python3-anytree
