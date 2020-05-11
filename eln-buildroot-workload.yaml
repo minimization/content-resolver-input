@@ -705,6 +705,7 @@ data:
             - imlib2-devel
             - infiniband-diags-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -3712,6 +3713,7 @@ data:
             - imake
             - imlib2-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -6717,6 +6719,7 @@ data:
             - imlib2-devel
             - infiniband-diags-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
