@@ -1509,6 +1509,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
@@ -4505,6 +4506,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
@@ -7526,6 +7528,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
