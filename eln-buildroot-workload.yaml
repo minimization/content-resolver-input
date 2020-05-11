@@ -129,7 +129,6 @@ data:
             - chrpath
             - cifs-utils-devel
             - cjkuni-uming-fonts
-            - cjose-devel
             - clamd
             - clang-devel
             - clisp-devel
@@ -685,7 +684,6 @@ data:
             - hunspell-it
             - hunspell-ko
             - hwloc-devel
-            - hwloc-gui
             - hyphen-devel
             - hypre-mpich-devel
             - hypre-openmpi-devel
@@ -705,7 +703,6 @@ data:
             - imlib2-devel
             - infiniband-diags-devel
             - invokebinder
-            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -769,7 +766,6 @@ data:
             - joda-convert
             - joda-time
             - joni
-            - jq-devel
             - jruby
             - jsch
             - js-coffee-script
@@ -967,7 +963,6 @@ data:
             - libewf-devel
             - libexif-devel
             - libexttextcat-devel
-            - libfabric-devel
             - libfakekey-devel
             - libfastjson-devel
             - libfdisk-devel
@@ -1002,7 +997,6 @@ data:
             - libgta-devel
             - libgtop2-devel
             - libgudev-devel
-            - libguestfs-devel
             - libgusb-devel
             - libgxps-devel
             - libhandy-devel
@@ -1070,7 +1064,6 @@ data:
             - libmwaw-devel
             - libmypaint-devel
             - libnauty-devel
-            - libnbd-devel
             - libndp-devel
             - libnet-devel
             - libnetfilter_conntrack-devel
@@ -1345,7 +1338,6 @@ data:
             - nas-devel
             - nasm
             - nautilus-devel
-            - nbd
             - ncompress
             - neon-devel
             - netcdf-cxx-devel
@@ -1575,7 +1567,6 @@ data:
             - options
             - optipng
             - opus-devel
-            - orangefs-devel
             - os-maven-plugin
             - ostree-devel
             - p7zip
@@ -2020,7 +2011,6 @@ data:
             - perl-Ref-Util
             - perl-Ref-Util-XS
             - perl-Regexp-Common
-            - perl-Regexp-Trie
             - perl-Return-MultiLevel
             - perl-Return-Type
             - perl-Role-Tiny
@@ -2474,7 +2464,6 @@ data:
             - plexus-interactivity-api
             - plotutils-devel
             - plymouth-devel
-            - pmix-devel
             - pngcrush
             - pngquant
             - po4a
@@ -2543,7 +2532,6 @@ data:
             - python3-ldb-devel
             - python3-libfdt
             - python3-libmount
-            - python3-libnbd
             - python3-libpamtest
             - python3-libvoikko
             - python3-lit
@@ -3145,7 +3133,6 @@ data:
             - chrpath
             - cifs-utils-devel
             - cjkuni-uming-fonts
-            - cjose-devel
             - clamd
             - clang-devel
             - clisp-devel
@@ -3695,7 +3682,6 @@ data:
             - hunspell-it
             - hunspell-ko
             - hwloc-devel
-            - hwloc-gui
             - hyphen-devel
             - hypre-mpich-devel
             - hypre-openmpi-devel
@@ -3714,7 +3700,6 @@ data:
             - imake
             - imlib2-devel
             - invokebinder
-            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -3778,7 +3763,6 @@ data:
             - joda-convert
             - joda-time
             - joni
-            - jq-devel
             - jruby
             - jsch
             - js-coffee-script
@@ -3974,7 +3958,6 @@ data:
             - libewf-devel
             - libexif-devel
             - libexttextcat-devel
-            - libfabric-devel
             - libfakekey-devel
             - libfastjson-devel
             - libfdisk-devel
@@ -4005,7 +3988,6 @@ data:
             - libgta-devel
             - libgtop2-devel
             - libgudev-devel
-            - libguestfs-devel
             - libgusb-devel
             - libgxps-devel
             - libhandy-devel
@@ -4072,7 +4054,6 @@ data:
             - libmwaw-devel
             - libmypaint-devel
             - libnauty-devel
-            - libnbd-devel
             - libndp-devel
             - libnet-devel
             - libnetfilter_conntrack-devel
@@ -4342,7 +4323,6 @@ data:
             - nas-devel
             - nasm
             - nautilus-devel
-            - nbd
             - ncompress
             - neon-devel
             - netcdf-cxx-devel
@@ -4572,7 +4552,6 @@ data:
             - options
             - optipng
             - opus-devel
-            - orangefs-devel
             - os-maven-plugin
             - ostree-devel
             - p7zip
@@ -5017,7 +4996,6 @@ data:
             - perl-Ref-Util
             - perl-Ref-Util-XS
             - perl-Regexp-Common
-            - perl-Regexp-Trie
             - perl-Return-MultiLevel
             - perl-Return-Type
             - perl-Role-Tiny
@@ -5471,7 +5449,6 @@ data:
             - plexus-interactivity-api
             - plotutils-devel
             - plymouth-devel
-            - pmix-devel
             - pngcrush
             - pngquant
             - po4a
@@ -5540,7 +5517,6 @@ data:
             - python3-ldb-devel
             - python3-libfdt
             - python3-libmount
-            - python3-libnbd
             - python3-libvoikko
             - python3-lit
             - python3-mallard-ducktype
@@ -6498,7 +6474,6 @@ data:
             - gjs-devel
             - gl2ps-devel
             - glade-devel
-            - glassfish-annotation-api
             - glassfish-hk2-maven-plugins
             - glassfish-jsp-api
             - glassfish-legal
@@ -6732,6 +6707,7 @@ data:
             - ivy-local
             - jack-audio-connection-kit-devel
             - jacop
+            - jakarta-annotations
             - jakarta-oro
             - janino
             - jansson-devel
