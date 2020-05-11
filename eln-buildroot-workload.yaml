@@ -9,7 +9,7 @@ data:
         - eln-buildroot
     repositories:
         - repository-fedora-rawhide
-    packages:
+    packages: []
     arch_packages:
         aarch64:
         ppc64le:
