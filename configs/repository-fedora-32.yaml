@@ -16,12 +16,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Fedora 31
+  name: Fedora 32
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Official Fedora 31 release
+  description: Official Fedora 32 release
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -39,7 +39,7 @@ data:
     # Fedora release.
     # 
     # (mandatory field)
-    fedora_release: "31"
+    fedora_release: "32"
     # List of architectures
     # 
     # (mandatory field)
