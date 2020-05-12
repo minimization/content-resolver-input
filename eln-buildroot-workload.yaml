@@ -484,7 +484,6 @@ data:
             - gjs-devel
             - gl2ps-devel
             - glade-devel
-            - glassfish-annotation-api
             - glassfish-hk2-maven-plugins
             - glassfish-jsp-api
             - glassfish-legal
@@ -705,6 +704,7 @@ data:
             - imlib2-devel
             - infiniband-diags-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -715,6 +715,7 @@ data:
             - ivy-local
             - jack-audio-connection-kit-devel
             - jacop
+            - jakarta-annotations
             - jakarta-oro
             - janino
             - jansson-devel
@@ -1110,6 +1111,7 @@ data:
             - libpipeline-devel
             - libpkgconf-devel
             - libplist-devel
+            - libprelude-devel
             - libproxy-devel
             - libpst-devel
             - libpwquality-devel
@@ -1507,6 +1509,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
@@ -2511,6 +2514,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python2-setuptools
@@ -2518,6 +2522,7 @@ data:
             - python3-astroid
             - python3-beautifulsoup4
             - python3-breathe
+            - python3-brotli
             - python3-coverage
             - python3-Cython
             - python3-dbusmock
@@ -2529,6 +2534,7 @@ data:
             - python3-flask
             - python3-fonttools
             - python3-freezegun
+            - python3-fs
             - python3-gobject-devel
             - python3-hypothesis
             - python3-iso8601
@@ -2547,6 +2553,7 @@ data:
             - python3-mccabe
             - python3-mpi4py-mpich
             - python3-mpi4py-openmpi
+            - python3-munkres
             - python3-nototools
             - python3-openpyxl
             - python3-parameterized
@@ -2563,6 +2570,7 @@ data:
             - python3-rdflib
             - python3-recommonmark
             - python3-rpm-macros
+            - python3-scipy
             - python3-scons
             - python3-semantic_version
             - python3-setuptools_scm
@@ -3488,7 +3496,6 @@ data:
             - gjs-devel
             - gl2ps-devel
             - glade-devel
-            - glassfish-annotation-api
             - glassfish-hk2-maven-plugins
             - glassfish-jsp-api
             - glassfish-legal
@@ -3706,6 +3713,7 @@ data:
             - imake
             - imlib2-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -3716,6 +3724,7 @@ data:
             - ivy-local
             - jack-audio-connection-kit-devel
             - jacop
+            - jakarta-annotations
             - jakarta-oro
             - janino
             - jansson-devel
@@ -4103,6 +4112,7 @@ data:
             - libpipeline-devel
             - libpkgconf-devel
             - libplist-devel
+            - libprelude-devel
             - libproxy-devel
             - libpst-devel
             - libpwquality-devel
@@ -4496,6 +4506,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
@@ -5500,6 +5511,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python2-setuptools
@@ -5507,6 +5519,7 @@ data:
             - python3-astroid
             - python3-beautifulsoup4
             - python3-breathe
+            - python3-brotli
             - python3-coverage
             - python3-Cython
             - python3-dbusmock
@@ -5518,6 +5531,7 @@ data:
             - python3-flask
             - python3-fonttools
             - python3-freezegun
+            - python3-fs
             - python3-gobject-devel
             - python3-hypothesis
             - python3-iso8601
@@ -5535,6 +5549,7 @@ data:
             - python3-mccabe
             - python3-mpi4py-mpich
             - python3-mpi4py-openmpi
+            - python3-munkres
             - python3-nototools
             - python3-openpyxl
             - python3-parameterized
@@ -5550,6 +5565,7 @@ data:
             - python3-rdflib
             - python3-recommonmark
             - python3-rpm-macros
+            - python3-scipy
             - python3-scons
             - python3-semantic_version
             - python3-setuptools_scm
@@ -6482,7 +6498,6 @@ data:
             - gjs-devel
             - gl2ps-devel
             - glade-devel
-            - glassfish-annotation-api
             - glassfish-hk2-maven-plugins
             - glassfish-jsp-api
             - glassfish-legal
@@ -6705,6 +6720,7 @@ data:
             - imlib2-devel
             - infiniband-diags-devel
             - invokebinder
+            - IPAddress
             - ipa-gothic-fonts
             - ipa-pgothic-fonts
             - irrlicht-devel
@@ -6715,6 +6731,7 @@ data:
             - ivy-local
             - jack-audio-connection-kit-devel
             - jacop
+            - jakarta-annotations
             - jakarta-oro
             - janino
             - jansson-devel
@@ -6786,7 +6803,6 @@ data:
             - kdelibs-devel
             - kde-settings
             - kernel
-            - kernel-debug-core
             - kf5-attica-devel
             - kf5-baloo-devel
             - kf5-frameworkintegration-devel
@@ -7114,6 +7130,7 @@ data:
             - libpipeline-devel
             - libpkgconf-devel
             - libplist-devel
+            - libprelude-devel
             - libproxy-devel
             - libpst-devel
             - libpwquality-devel
@@ -7511,6 +7528,7 @@ data:
             - nodejs-yamlish
             - nodeunit
             - nototools
+            - npm
             - npth-devel
             - nscd
             - nss_wrapper
@@ -8518,6 +8536,7 @@ data:
             - pygobject2-devel
             - pygtk2-devel
             - pylint
+            - python2.7
             - python2-cairo-devel
             - python2-rpm-macros
             - python2-setuptools
@@ -8525,6 +8544,7 @@ data:
             - python3-astroid
             - python3-beautifulsoup4
             - python3-breathe
+            - python3-brotli
             - python3-coverage
             - python3-Cython
             - python3-dbusmock
@@ -8536,6 +8556,7 @@ data:
             - python3-flask
             - python3-fonttools
             - python3-freezegun
+            - python3-fs
             - python3-gobject-devel
             - python3-hypothesis
             - python3-iso8601
@@ -8556,6 +8577,7 @@ data:
             - python3-mock
             - python3-mpi4py-mpich
             - python3-mpi4py-openmpi
+            - python3-munkres
             - python3-nototools
             - python3-openpyxl
             - python3-parameterized
@@ -8572,6 +8594,7 @@ data:
             - python3-rdflib
             - python3-recommonmark
             - python3-rpm-macros
+            - python3-scipy
             - python3-scons
             - python3-semantic_version
             - python3-setuptools_scm
