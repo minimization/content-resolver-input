@@ -1,6 +1,6 @@
 # Configs for Feedback Pipeline
 
-This repository contains all the [Configuration](https://tiny.distro.builders/configs_workloads.html) for [Feedback Pipeline](https://tiny.distro.builders).
+This repository contains all the configuration for [Feedback Pipeline](https://tiny.distro.builders).
 
 ## Locating the right file
 
