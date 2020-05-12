@@ -69,3 +69,9 @@ data:
   - xen-ocaml-devel
   - xen-runtime
   - xen-doc
+  - libsodium
+  - libssh2
+  - libtomcrypt
+  - python2-pycryptodomex
+  - python3-ecdsa
+  - python3-pycryptodomex
