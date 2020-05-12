@@ -1,65 +1,39 @@
 ---
-# This configuration file defines a "View" in Feedback Pipeline.
-# https://tiny.distro.builders
-#
-# Views are, well, views combining various things together!
-
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  # id is the filename — that automatically prevents collisions for free!
-
-
-  ### MANDATORY FIELDS ###
-  
-  # Name is an identifier for humans
-  #
-  # (mandatory field)
   name: ELN Compose projection
-  
-  # A short description, perhaps hinting the purpose
-  #
-  # (mandatory field)
   description: A projection of the ELN Compose resolved using Fedora Rawhide content
-
-  # Who maintains it? This is just a freeform string
-  # for humans to read. In Fedora, a FAS nick is recommended.
-  #
-  # (mandatory field)
   maintainer: bakery
-
-  # Labels connect things together.
-  # Workloads get installed in environments with the same label.
-  # They also get included in views with the same label.
-  # 
-  # (mandatory field)
   labels:
   - eln
-
-  # Choose one repository that gets used as a source.
-  #
-  # (mandatory field)
   repository: repository-fedora-rawhide
+  
 
-  # Just to demonstrate stuff
+  ###  Unwanted packages in ELN  ###
+  #
+  # When adding a package to the following list, please include your
+  # name and the reason of why are you listing it.
+
   unwanted_packages:
   
   # Josh Boyer: Drop R from ELN to see what the fallout is.
   - R
 
-  # Justin Forbes: These packages are subpackages of the ARK kernel in ELN,
-  # but separate packages in Fedora. We need to make sure that we are using the packages
-  # from the kernel packages in ELN.
+  # Justin Forbes: These packages are subpackages of the ARK kernel
+  # in ELN, but separate packages in Fedora. We need to make sure that 
+  # we are using the packages from the kernel packages in ELN.
   - kernel-headers
   - kernel-tools
   
-  # jwboyer: Mono hasn't been carried in RHEL and there are no plans to add it. Exclude it from ELN for now.
+  # Josh Boyer: Mono hasn't been carried in RHEL and there are
+  # no plans to add it. Exclude it from ELN for now.
   - mono-core
   - mono-devel
   - monodoc
   - monodoc-devel
   
-  # tdawson
+  # Troy Dawson
   - xen
   - xen-devel
   - xen-hypervisor
@@ -69,6 +43,13 @@ data:
   - xen-ocaml-devel
   - xen-runtime
   - xen-doc
+
+  # Simo Sorce: The packages added in this PR are unwanted either
+  # because they are bad cryptography implementation, unmaintained,
+  # or simply not certifiable or redundant (same functionality
+  # already present in multiple crypto packages already and we do
+  # not want to add more).
+  # More info in PR 15
   - libsodium
   - libssh2
   - libtomcrypt
