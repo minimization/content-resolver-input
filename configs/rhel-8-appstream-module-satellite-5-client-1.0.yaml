@@ -3,6 +3,7 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
+  - eln-prototype
   - eln
   maintainer: bakery
   name: Module satellite-5-client:1.0 for rhel-8-appstream

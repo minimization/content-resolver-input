@@ -2,11 +2,11 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: ELN Compose projection
-  description: A projection of the ELN Compose resolved using Fedora Rawhide content
+  name: Rawhide-based ELN Prototype
+  description: This is a prototype resolved against Rawhide repositories to help us figure out what to rebuild in ELN. You probably want to see the 'ELN Package Set' view.
   maintainer: bakery
   labels:
-  - eln
+  - eln-prototype
   repository: repository-fedora-rawhide
   
 

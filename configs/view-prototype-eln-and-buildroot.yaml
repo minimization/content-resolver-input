@@ -1,0 +1,59 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Rawhide-based ELN + Buildroot Prototype 
+  description: This is a prototype resolved against Rawhide repositories to help us figure out what to rebuild in ELN. You probably want to see the 'ELN Package Set + Buildroot' view.
+  maintainer: bakery
+  labels:
+  - eln-prototype
+  - eln-buildroot-prototype
+  repository: repository-fedora-rawhide
+  
+
+  ###  Unwanted packages in ELN  ###
+  #
+  # When adding a package to the following list, please include your
+  # name and the reason of why are you listing it.
+
+  unwanted_packages:
+  
+  # Josh Boyer: Drop R from ELN to see what the fallout is.
+  - R
+
+  # Justin Forbes: These packages are subpackages of the ARK kernel
+  # in ELN, but separate packages in Fedora. We need to make sure that 
+  # we are using the packages from the kernel packages in ELN.
+  - kernel-headers
+  - kernel-tools
+  
+  # Josh Boyer: Mono hasn't been carried in RHEL and there are
+  # no plans to add it. Exclude it from ELN for now.
+  - mono-core
+  - mono-devel
+  - monodoc
+  - monodoc-devel
+  
+  # Troy Dawson
+  - xen
+  - xen-devel
+  - xen-hypervisor
+  - xen-libs
+  - xen-licenses
+  - xen-ocaml
+  - xen-ocaml-devel
+  - xen-runtime
+  - xen-doc
+
+  # Simo Sorce: The packages added in this PR are unwanted either
+  # because they are bad cryptography implementation, unmaintained,
+  # or simply not certifiable or redundant (same functionality
+  # already present in multiple crypto packages already and we do
+  # not want to add more).
+  # More info in PR 15
+  - libsodium
+  - libssh2
+  - libtomcrypt
+  - python2-pycryptodomex
+  - python3-ecdsa
+  - python3-pycryptodomex

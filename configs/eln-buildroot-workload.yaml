@@ -6,6 +6,7 @@ data:
     description: The packages that are not part of ELN, but needed to build it.
     maintainer: tdawson
     labels:
+        - eln-buildroot-prototype
         - eln-buildroot
     repositories:
         - repository-fedora-rawhide

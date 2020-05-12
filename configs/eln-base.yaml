@@ -6,6 +6,7 @@ data:
     maintainer: psabata
     repositories:
         - repository-fedora-rawhide
+        - repository-fedora-eln
     packages:
         - b43-openfwwf
         - bash
@@ -71,9 +72,10 @@ data:
         - xz
         - zstd
     labels:
-        - eln-buildroot
-        - eln-base
+        - eln-prototype
+        - eln-buildroot-prototype
         - eln
+        - eln-buildroot
     arch_packages:
         aarch64:
             - dbxtool
