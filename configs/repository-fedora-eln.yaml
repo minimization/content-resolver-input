@@ -2,7 +2,7 @@
 document: feedback-pipeline-repository
 version: 1
 data:
-  name: Fedora ELN
+  name: Fedora ELN + Rawhide
   description: Fedora ELN + Fedora Rawhide repositories
   maintainer: asamalik
   source:
