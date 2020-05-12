@@ -18,12 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Empty
+  name: Empty installroot
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: This environment contains no pre-installed packages.
+  description: This environment contains no pre-installed packages. It's like doing 'dnf --installroot=./empty-dir/ ...' or using 'FROM scratch' in a containerfile
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -37,6 +37,7 @@ data:
   repositories:
   - repository-fedora-32
   - repository-fedora-rawhide
+  - repository-fedora-eln
 
   # Packages defining this environment.
   # This list includes packages for all
@@ -52,6 +53,8 @@ data:
   # (mandatory field)
   labels:
   - minimization
+  - eln-prototype
+  - eln-buildroot-prototype
   - eln
   - eln-buildroot
 

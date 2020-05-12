@@ -3,6 +3,7 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
+  - eln-prototype
   - eln
   maintainer: bakery
   name: Comps group java-platform for rhel-8-appstream
