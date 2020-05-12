@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-fedora-31
+  - repository-fedora-32
   - repository-fedora-rawhide
 
   # Packages defining this environment.
