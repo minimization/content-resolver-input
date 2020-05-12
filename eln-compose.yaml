@@ -44,6 +44,9 @@ data:
   # Just to demonstrate stuff
   unwanted_packages:
   
+  # Josh Boyer: Drop R from ELN to see what the fallout is.
+  - R
+
   # Justin Forbes: These packages are subpackages of the ARK kernel in ELN,
   # but separate packages in Fedora. We need to make sure that we are using the packages
   # from the kernel packages in ELN.
