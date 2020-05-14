@@ -3,7 +3,6 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
-  - eln-prototype
   - eln
   - adams-demo-label
   maintainer: bakery

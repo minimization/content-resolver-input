@@ -3,7 +3,6 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
-  - eln-prototype
   - eln
   maintainer: bakery
   name: Module ruby:2.6 for rhel-8-appstream
