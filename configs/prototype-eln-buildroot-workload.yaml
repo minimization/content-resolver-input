@@ -804,7 +804,6 @@ data:
         - jsoncpp-devel
         - Judy-devel
         - junit5
-        - jython
         - jzlib
         - kaccounts-integration-devel
         - kde-connect
@@ -1349,7 +1348,6 @@ data:
         - netcf-devel
         - netpbm-devel
         - netpbm-progs
-        - netty
         - NetworkManager-libnm-devel
         - neXtaw-devel
         - nghttp2
@@ -2396,7 +2394,6 @@ data:
         - python3-parameterized
         - python3-pip
         - python3-prettytable
-        - python3-pwntools
         - python3-pylint
         - python3-pyserial
         - python3-pytest-runner
