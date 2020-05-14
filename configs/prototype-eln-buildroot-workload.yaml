@@ -3,7 +3,7 @@ document:  feedback-pipeline-workload
 version: 1
 data:
     name: Rawhide-based ELN Prototype Buildroot Workload
-    description: The packages that are not part of ELN, but needed to build it.
+    description: This is a prototype buildroot resolved against Rawhide repositories to help us figure out what to rebuild in ELN. You probably want to see the eln-buildroot-workload.
     maintainer: tdawson
     labels:
         - prototype-eln-buildroot
