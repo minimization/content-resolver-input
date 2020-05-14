@@ -6,6 +6,6 @@ data:
   description: This is a prototype resolved against Rawhide repositories to help us figure out what to rebuild in ELN. You probably want to see the 'ELN Package Set + Buildroot' view.
   maintainer: bakery
   labels:
-  - eln-prototype
-  - eln-buildroot-prototype
+  - eln
+  - prototype-eln-buildroot
   repository: repository-fedora-rawhide
