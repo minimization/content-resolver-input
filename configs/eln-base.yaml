@@ -72,10 +72,9 @@ data:
         - xz
         - zstd
     labels:
-        - eln-prototype
-        - eln-buildroot-prototype
         - eln
         - eln-buildroot
+        - prototype-eln-buildroot
     arch_packages:
         aarch64:
             - dbxtool
