@@ -3,7 +3,6 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
-  - eln-prototype
   - eln
   maintainer: bakery
   name: Comps group development for rhel-8-baseos

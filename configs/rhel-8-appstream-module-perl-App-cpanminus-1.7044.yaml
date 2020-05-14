@@ -3,7 +3,6 @@ data:
   description: Automatically generated.
   labels:
   - eln-candidate
-  - eln-prototype
   - eln
   maintainer: bakery
   name: Module perl-App-cpanminus:1.7044 for rhel-8-appstream
