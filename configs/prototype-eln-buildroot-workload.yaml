@@ -855,7 +855,6 @@ data:
         - nodejs-clean-css
         - nodejs-cli-color
         - nodejs-clone
-        - nodejs-closure-compiler
         - nodejs-colors
         - nodejs-commander
         - nodejs-concat-map
@@ -2123,7 +2122,6 @@ data:
         - testng
         - texi2html
         - texinfo
-        - texinfo-tex
         - texlive-acronym
         - texlive-adjustbox
         - texlive-amscls
@@ -2134,10 +2132,8 @@ data:
         - texlive-base
         - texlive-changebar
         - texlive-cm-super
-        - texlive-collection-basic
         - texlive-collection-formatsextra
         - texlive-collection-latex
-        - texlive-collection-latexrecommended
         - texlive-collection-xetex
         - texlive-dvipng
         - texlive-dvips
@@ -2172,8 +2168,6 @@ data:
         - texlive-ucs
         - texlive-updmap-map
         - texlive-wasysym
-        - texlive-xetex
-        - texlive-xmltex
         - texlive-xtab
         - tidy
         - tinyxml2-devel
