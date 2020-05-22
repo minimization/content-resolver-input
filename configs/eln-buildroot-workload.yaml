@@ -341,7 +341,6 @@ data:
         - teamd-devel
         - tepl-devel
         - texinfo
-        - texinfo-tex
         - totem-pl-parser-devel
         - tracker-devel
         - uchardet-devel
