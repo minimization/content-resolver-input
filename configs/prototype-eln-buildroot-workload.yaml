@@ -82,7 +82,6 @@ data:
         - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
-        - bytelist
         - cairomm-devel
         - cal10n
         - cargo
@@ -100,7 +99,6 @@ data:
         - clutter-gtk-devel
         - codehaus-parent
         - codemodel
-        - coffee-script
         - cogl-devel
         - coin-or-Cbc-devel
         - coin-or-Cgl-devel
@@ -126,7 +124,6 @@ data:
         - compat-lua-devel
         - compat-wxGTK3-gtk2-devel
         - composer
-        - coro-mock
         - cppcheck
         - cppunit-devel
         - cracklib-devel
@@ -181,11 +178,9 @@ data:
         - fcode-utils
         - fdk-aac-free-devel
         - fdupes
-        - felix-framework
         - felix-gogo-parent
         - felix-gogo-runtime
         - felix-osgi-obr
-        - felix-osgi-obr-resolver
         - felix-parent
         - felix-shell
         - fftw-devel
@@ -376,7 +371,6 @@ data:
         - gjs-devel
         - gl2ps-devel
         - glade-devel
-        - glassfish-hk2-maven-plugins
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
@@ -465,12 +459,11 @@ data:
         - ImageMagick-perl
         - imake
         - imlib2-devel
-        - invokebinder
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
         - jacop
-        - jakarta-annotations
+        - jakarta-activation
         - jakarta-oro
         - janino
         - jansson-devel
@@ -495,14 +488,11 @@ data:
         - jboss-parent
         - jboss-servlet-3.0-api
         - jcip-annotations
-        - jcodings
         - jctools
         - jdepend
         - jdependency
         - jdom
         - jetty-servlet
-        - jffi
-        - jffi-native
         - jflex
         - jFormatString
         - jgit
@@ -511,18 +501,9 @@ data:
         - jmock-junit4
         - jmock-legacy
         - jna-contrib
-        - jnr-constants
-        - jnr-enxio
-        - jnr-ffi
-        - jnr-netdb
-        - jnr-posix
-        - jnr-unixsocket
-        - jnr-x86asm
         - joda-convert
         - joda-time
-        - joni
         - jq-devel
-        - jruby
         - jsch
         - js-coffee-script
         - js-jquery
@@ -785,7 +766,6 @@ data:
         - maven-invoker
         - maven-invoker-plugin
         - maven-local
-        - maven-osgi
         - maven-plugin-testing-harness
         - maven-resolver-transport-file
         - maven-resources-plugin
@@ -826,7 +806,6 @@ data:
         - munge-devel
         - munge-maven-plugin
         - mupdf
-        - nailgun
         - nasm
         - nautilus-devel
         - ncompress
@@ -853,7 +832,6 @@ data:
         - nodejs-chalk
         - nodejs-charm
         - nodejs-clean-css
-        - nodejs-cli-color
         - nodejs-clone
         - nodejs-colors
         - nodejs-commander
@@ -863,7 +841,6 @@ data:
         - nodejs-css
         - nodejs-css-parse
         - nodejs-css-stringify
-        - nodejs-d
         - nodejs-debug
         - nodejs-deep-eql
         - nodejs-deep-equal
@@ -872,13 +849,9 @@ data:
         - nodejs-devel
         - nodejs-diff
         - nodejs-difflet
-        - nodejs-difflib
         - nodejs-ejs
-        - nodejs-es5-ext
-        - nodejs-es6-iterator
         - nodejs-es-abstract
         - nodejs-escape-string-regexp
-        - nodejs-esprima
         - nodejs-es-to-primitive
         - nodejs-events-to-array
         - nodejs-expect-dot-js
@@ -897,7 +870,6 @@ data:
         - nodejs-has-flag
         - nodejs-hashish
         - nodejs-has-symbols
-        - nodejs-heap
         - nodejs-image-size
         - nodejs-inflight
         - nodejs-inherits
@@ -915,10 +887,8 @@ data:
         - nodejs-js-yaml
         - nodejs-less
         - nodejs-less-plugin-clean-css
-        - nodejs-lodash
         - nodejs-make-arrow-function
         - nodejs-make-generator-function
-        - nodejs-memoizee
         - nodejs-merge-descriptors
         - nodejs-mime
         - nodejs-mime-db
@@ -950,7 +920,6 @@ data:
         - nodejs-runforcover
         - nodejs-safe-buffer
         - nodejs-samsam
-        - nodejs-semver
         - nodejs-set-immediate-shim
         - nodejs-should
         - nodejs-should-equal
@@ -970,7 +939,6 @@ data:
         - nodejs-tap-parser
         - nodejs-through
         - nodejs-through2
-        - nodejs-timers-ext
         - nodejs-traverse
         - nodejs-type-detect
         - nodejs-underscore
@@ -1018,7 +986,6 @@ data:
         - opensp
         - opensp-devel
         - opentest4j
-        - options
         - opus-devel
         - ostree-devel
         - p7zip-plugins
@@ -1812,7 +1779,6 @@ data:
         - protobuf-c-devel
         - protobuf-compiler
         - protobuf-devel
-        - protobuf-java
         - protobuf-lite-devel
         - psl-make-dafsa
         - pstoedit-devel
@@ -2028,6 +1994,7 @@ data:
         - rubygem-rspec-expectations
         - rubygem-rspec-its
         - rubygem-rspec-rails
+        - rubygem-rspec-support
         - rubygem-ruby-rc4
         - rubygem-safe_yaml
         - rubygem-sass
@@ -2048,6 +2015,7 @@ data:
         - rubygem-sprockets
         - rubygem-sprockets-rails
         - rubygem-sqlite3
+        - rubygem-stringex
         - rubygem-temple
         - rubygem-test_construct
         - rubygem-test_declarative
@@ -2228,7 +2196,6 @@ data:
         - xorg-x11-xtrans-devel
         - xpp3-minimal
         - yajl-devel
-        - yecht
         - yelp-xsl-devel
         - ykclient-devel
         - zbar-devel
