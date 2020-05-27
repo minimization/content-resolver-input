@@ -19,6 +19,10 @@ data:
   
   # Josh Boyer: Drop R from ELN to see what the fallout is.
   - R
+  
+  # Enterprise doesn't support btrfs
+  - btrfs-progs
+  - btrfs-progs-devel
 
   # Justin Forbes: These packages are subpackages of the ARK kernel
   # in ELN, but separate packages in Fedora. We need to make sure that 
