@@ -196,7 +196,6 @@ data:
         - fontforge
         - fontforge-devel
         - fonts-rpm-macros
-        - fonttools
         - forge-parent
         - freeglut-devel
         - freexl-devel
@@ -884,7 +883,6 @@ data:
         - nodejs-is-symbol
         - nodejs-jade
         - nodejs-jsonify
-        - nodejs-js-yaml
         - nodejs-less
         - nodejs-less-plugin-clean-css
         - nodejs-make-arrow-function
@@ -916,7 +914,6 @@ data:
         - nodejs-resolve-from
         - nodejs-resumer
         - nodejs-rimraf
-        - nodejs-rollup
         - nodejs-runforcover
         - nodejs-safe-buffer
         - nodejs-samsam
@@ -936,7 +933,6 @@ data:
         - nodejs-supports-color
         - nodejs-tap
         - nodejs-tape
-        - nodejs-tap-parser
         - nodejs-through
         - nodejs-through2
         - nodejs-traverse
@@ -948,7 +944,6 @@ data:
         - nodejs-wrappy
         - nodejs-yamlish
         - nodeunit
-        - nototools
         - npm
         - npth-devel
         - nscd
@@ -976,7 +971,6 @@ data:
         - openal-soft-devel
         - openblas-devel
         - openchange-devel
-        - opencv-devel
         - OpenEXR-devel
         - openjade
         - openjpeg2-devel
@@ -1797,9 +1791,7 @@ data:
         - python3-extras
         - python3-fixtures
         - python3-flask
-        - python3-fonttools
         - python3-freezegun
-        - python3-fs
         - python3-gobject-devel
         - python3-hypothesis
         - python3-isort
@@ -1812,7 +1804,6 @@ data:
         - python3-mccabe
         - python3-mock
         - python3-munkres
-        - python3-nototools
         - python3-parameterized
         - python3-pip
         - python3-pylint
@@ -2230,3 +2221,13 @@ data:
             - tinyxml-devel
             - umockdev
             - xmlsec1-openssl-devel
+    wont-install:
+        - fonttools
+        - nototools
+        - nodejs-js-yaml
+        - nodejs-rollup
+        - nodejs-tap-parser
+        - opencv-devel
+        - python3-fonttools
+        - python3-fs
+        - python3-nototools
