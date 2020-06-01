@@ -86,13 +86,10 @@ data:
   - pcp-pmda-summary
   - pcp-pmda-systemd
   - pcp-pmda-trace
-  - pcp-pmda-unbound
   - pcp-pmda-vmware
   - pcp-pmda-weblog
   - pcp-pmda-zimbra
-  - pcp-pmda-zswap
   - pcp-selinux
-  - pcp-system-tools
   - pcp-testsuite
   - pcp-webapi
   - pcp-webapp-blinkenlights
@@ -106,6 +103,10 @@ data:
   - perl-PCP-MMV
   - perl-PCP-PMDA
   - powertop
+  wont-install:
   - python3-pcp
+  - pcp-pmda-unbound
+  - pcp-pmda-zswap
+  - pcp-system-tools
 document: feedback-pipeline-workload
 version: 1
