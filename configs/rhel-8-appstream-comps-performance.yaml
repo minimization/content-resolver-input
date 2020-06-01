@@ -14,11 +14,6 @@ data:
   - pcp-conf
   - pcp-devel
   - pcp-doc
-  - pcp-export-pcp2graphite
-  - pcp-export-pcp2influxdb
-  - pcp-export-pcp2json
-  - pcp-export-pcp2xml
-  - pcp-export-pcp2zabbix
   - pcp-export-zabbix-agent
   - pcp-gui
   - pcp-import-collectl2pcp
@@ -32,7 +27,6 @@ data:
   - pcp-pmda-activemq
   - pcp-pmda-apache
   - pcp-pmda-bash
-  - pcp-pmda-bcc
   - pcp-pmda-bind2
   - pcp-pmda-bonding
   - pcp-pmda-cifs
@@ -42,30 +36,21 @@ data:
   - pcp-pmda-docker
   - pcp-pmda-ds389
   - pcp-pmda-ds389log
-  - pcp-pmda-elasticsearch
   - pcp-pmda-gfs2
-  - pcp-pmda-gluster
   - pcp-pmda-gpfs
   - pcp-pmda-gpsd
-  - pcp-pmda-haproxy
   - pcp-pmda-infiniband
-  - pcp-pmda-json
   - pcp-pmda-kvm
-  - pcp-pmda-libvirt
-  - pcp-pmda-lio
-  - pcp-pmda-lmsensors
   - pcp-pmda-logger
   - pcp-pmda-lustre
   - pcp-pmda-lustrecomm
   - pcp-pmda-mailq
   - pcp-pmda-memcache
-  - pcp-pmda-mic
   - pcp-pmda-mounts
   - pcp-pmda-mysql
   - pcp-pmda-named
   - pcp-pmda-netfilter
   - pcp-pmda-news
-  - pcp-pmda-nfsclient
   - pcp-pmda-nginx
   - pcp-pmda-nvidia-gpu
   - pcp-pmda-oracle
@@ -90,14 +75,12 @@ data:
   - pcp-pmda-weblog
   - pcp-pmda-zimbra
   - pcp-selinux
-  - pcp-testsuite
   - pcp-webapi
   - pcp-webapp-blinkenlights
   - pcp-webapp-grafana
   - pcp-webapp-graphite
   - pcp-webapp-vector
   - pcp-webjs
-  - pcp-zeroconf
   - perl-PCP-LogImport
   - perl-PCP-LogSummary
   - perl-PCP-MMV
@@ -105,8 +88,25 @@ data:
   - powertop
   wont-install:
   - python3-pcp
+  - pcp-export-pcp2graphite
+  - pcp-export-pcp2influxdb
+  - pcp-export-pcp2json
+  - pcp-export-pcp2xml
+  - pcp-export-pcp2zabbix
+  - pcp-pmda-bcc
+  - pcp-pmda-elasticsearch
+  - pcp-pmda-gluster
+  - pcp-pmda-haproxy
+  - pcp-pmda-json
+  - pcp-pmda-libvirt
+  - pcp-pmda-lio
+  - pcp-pmda-lmsensors
+  - pcp-pmda-mic
+  - pcp-pmda-nfsclient
   - pcp-pmda-unbound
   - pcp-pmda-zswap
   - pcp-system-tools
+  - pcp-testsuite
+  - pcp-zeroconf
 document: feedback-pipeline-workload
 version: 1
