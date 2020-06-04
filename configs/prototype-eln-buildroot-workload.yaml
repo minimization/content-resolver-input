@@ -42,7 +42,6 @@ data:
         - apr-devel
         - apr-util-devel
         - aqute-bnd
-        - asio-devel
         - aspell-devel
         - aspell-en
         - assertj-core
@@ -69,8 +68,6 @@ data:
         - binutils-x86_64-linux-gnu
         - bluez-libs-devel
         - bnd-maven-plugin
-        - boost-python3
-        - boost-python3-devel
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -118,7 +115,11 @@ data:
         - coin-or-Vol-doc
         - colord-devel
         - colord-gtk-devel
+        - compat-golang-github-chzyer-readline-devel
+        - compat-golang-github-facebookgo-inject-devel
+        - compat-golang-github-robfig-cron-devel
         - compat-golang-github-russross-blackfriday-2-devel
+        - compat-golang-github-xorm-core-devel
         - compat-guile18-devel
         - compat-lua
         - compat-lua-devel
@@ -163,6 +164,7 @@ data:
         - enchant2-devel
         - enchant-devel
         - erlang
+        - esmtp
         - espeak-devel
         - espeak-ng-devel
         - evince-devel
@@ -196,6 +198,7 @@ data:
         - fontforge
         - fontforge-devel
         - fonts-rpm-macros
+        - fonttools
         - forge-parent
         - freeglut-devel
         - freexl-devel
@@ -399,8 +402,91 @@ data:
         - gnuplot-wx
         - gobject-introspection-devel
         - go-compilers-golang-compiler
+        - golang-github-apache-arrow-devel
+        - golang-github-aws-sdk-devel
+        - golang-github-benbjohnson-clock-devel
+        - golang-github-bradfitz-gomemcache-devel
+        - golang-github-burntsushi-toml-devel
+        - golang-github-cheekybits-genny-devel
         - golang-github-cpuguy83-md2man
+        - golang-github-crewjam-saml-devel
+        - golang-github-davecgh-spew-devel
+        - golang-github-denisenkom-mssqldb-devel
+        - golang-github-emirpasic-gods-devel
+        - golang-github-fatih-color-devel
+        - golang-github-gobwas-glob-devel
+        - golang-github-google-cmp-devel
+        - golang-github-google-renameio-devel
+        - golang-github-gorilla-websocket-devel
+        - golang-github-gosimple-slug-devel
+        - golang-github-hashicorp-hclog-devel
+        - golang-github-hashicorp-plugin-devel
+        - golang-github-hashicorp-version-devel
+        - golang-github-ianlancetaylor-demangle-devel
+        - golang-github-inconshreveable-log15-devel
+        - golang-github-jbenet-context-devel
+        - golang-github-jessevdk-flags-devel
+        - golang-github-jmespath-devel
+        - golang-github-jung-kurt-gofpdf-devel
+        - golang-github-kevinburke-ssh-config-devel
+        - golang-github-kisielk-gotool-devel
+        - golang-github-kr-pty-devel
+        - golang-github-lib-pq-devel
+        - golang-github-linkedin-goavro-devel
+        - golang-github-macaron-binding-devel
+        - golang-github-macaron-gzip-devel
+        - golang-github-macaron-session-devel
+        - golang-github-mattetti-filebuffer-devel
+        - golang-github-mattn-isatty-devel
+        - golang-github-mattn-sqlite3-devel
+        - golang-github-mitchellh-homedir-devel
+        - golang-github-opentracing-devel
+        - golang-github-patrickmn-cache-devel
+        - golang-github-pkg-errors-devel
+        - golang-github-pmezard-difflib-devel
+        - golang-github-prometheus-client-devel
+        - golang-github-prometheus-client-model-devel
+        - golang-github-prometheus-common-devel
+        - golang-github-protobuf-devel
+        - golang-github-rogpeppe-internal-devel
+        - golang-github-sergi-diff-devel
+        - golang-github-smartystreets-goconvey-devel
+        - golang-github-sql-driver-mysql-devel
+        - golang-github-src-d-gcfg-devel
+        - golang-github-stack-devel
+        - golang-github-stretchr-testify-devel
+        - golang-github-teris-io-shortid-devel
+        - golang-github-ua-parser-uap-devel
+        - golang-github-uber-jaeger-client-devel
+        - golang-github-unknwon-com-devel
+        - golang-github-urfave-cli-2-devel
         - golang-github-urfave-cli-devel
+        - golang-github-vividcortex-mysqlerr-devel
+        - golang-github-xanzy-ssh-agent-devel
+        - golang-github-yudai-gojsondiff-devel
+        - golang-google-grpc-devel
+        - golang-google-grpc-status-devel
+        - golang-gopkg-alecthomas-kingpin-2-devel
+        - golang-gopkg-check-1-devel
+        - golang-gopkg-errgo-2-devel
+        - golang-gopkg-ini-1-devel
+        - golang-gopkg-ldap-3-devel
+        - golang-gopkg-macaron-1-devel
+        - golang-gopkg-mail-2-devel
+        - golang-gopkg-redis-5-devel
+        - golang-gopkg-robfig-cron-3-devel
+        - golang-gopkg-square-jose-2-devel
+        - golang-gopkg-src-d-billy-4-devel
+        - golang-gopkg-src-d-git-fixtures-3-devel
+        - golang-gopkg-yaml-2-devel
+        - golang-x-crypto-devel
+        - golang-x-mod-devel
+        - golang-x-net-devel
+        - golang-x-oauth2-devel
+        - golang-xorm-devel
+        - golang-x-sync-devel
+        - golang-x-tools-devel
+        - golang-x-xerrors-devel
         - gom-devel
         - google-benchmark-devel
         - google-gson
@@ -462,7 +548,6 @@ data:
         - ivy-local
         - jack-audio-connection-kit-devel
         - jacop
-        - jakarta-activation
         - jakarta-oro
         - janino
         - jansson-devel
@@ -549,6 +634,7 @@ data:
         - libcue-devel
         - libdaemon-devel
         - libdazzle-devel
+        - libdbi-devel
         - libdhash-devel
         - libdmapsharing-devel
         - libdmx-devel
@@ -558,6 +644,7 @@ data:
         - libecb-devel
         - libedit-devel
         - libell-devel
+        - libesmtp-devel
         - libevdev-devel
         - libev-devel
         - libevent-devel
@@ -883,6 +970,7 @@ data:
         - nodejs-is-symbol
         - nodejs-jade
         - nodejs-jsonify
+        - nodejs-js-yaml
         - nodejs-less
         - nodejs-less-plugin-clean-css
         - nodejs-make-arrow-function
@@ -914,6 +1002,7 @@ data:
         - nodejs-resolve-from
         - nodejs-resumer
         - nodejs-rimraf
+        - nodejs-rollup
         - nodejs-runforcover
         - nodejs-safe-buffer
         - nodejs-samsam
@@ -933,6 +1022,7 @@ data:
         - nodejs-supports-color
         - nodejs-tap
         - nodejs-tape
+        - nodejs-tap-parser
         - nodejs-through
         - nodejs-through2
         - nodejs-traverse
@@ -944,6 +1034,7 @@ data:
         - nodejs-wrappy
         - nodejs-yamlish
         - nodeunit
+        - nototools
         - npm
         - npth-devel
         - nscd
@@ -971,6 +1062,7 @@ data:
         - openal-soft-devel
         - openblas-devel
         - openchange-devel
+        - opencv-devel
         - OpenEXR-devel
         - openjade
         - openjpeg2-devel
@@ -1015,30 +1107,20 @@ data:
         - perl-B-COW
         - perl-BDB
         - perl-Bencode
-        - perl-B-Hooks-EndOfScope
         - perl-B-Hooks-OP-Check
         - perl-B-Keywords
         - perl-boolean
-        - perl-Business-ISBN
-        - perl-Business-ISBN-Data
         - perl-B-Utils
         - perl-Canary-Stability
         - perl-Capture-Tiny
-        - perl-Carp-Clan
         - perl-CBOR-XS
         - perl-CGI
-        - perl-Class-Accessor
-        - perl-Class-Data-Inheritable
-        - perl-Class-Inspector
         - perl-Class-ISA
         - perl-Class-Iterator
         - perl-Class-Load
         - perl-Class-Load-XS
-        - perl-Class-Method-Modifiers
-        - perl-Class-Singleton
         - perl-Class-Tiny
         - perl-Class-XSAccessor
-        - perl-Clone
         - perl-Clone-Choose
         - perl-Clone-PP
         - perl-common-sense
@@ -1061,7 +1143,6 @@ data:
         - perl-Crypt-Blowfish
         - perl-Crypt-Blowfish_PP
         - perl-Crypt-CBC
-        - perl-Crypt-DES
         - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
         - perl-Crypt-Rijndael
@@ -1075,23 +1156,15 @@ data:
         - perl-Data-Serializer
         - perl-Data-Taxi
         - perl-Data-Visitor
-        - perl-Date-ISO8601
-        - perl-DateTime
+        - perl-Date-Simple
         - perl-DateTime-Calendar-Mayan
-        - perl-DateTime-Format-Builder
         - perl-DateTime-Format-HTTP
         - perl-DateTime-Format-IBeat
         - perl-DateTime-Format-Mail
         - perl-DateTime-Format-MySQL
-        - perl-DateTime-Format-Strptime
-        - perl-DateTime-Locale
-        - perl-DateTime-TimeZone
-        - perl-DateTime-TimeZone-SystemV
         - perl-DBD-CSV
         - perl-DBM-Deep
         - perl-Declare-Constraints-Simple
-        - perl-Devel-CallChecker
-        - perl-Devel-Caller
         - perl-Devel-CallParser
         - perl-Devel-CheckBin
         - perl-Devel-CheckCompiler
@@ -1100,36 +1173,27 @@ data:
         - perl-Devel-Declare
         - perl-Devel-EnforceEncapsulation
         - perl-Devel-FindPerl
-        - perl-Devel-GlobalDestruction
         - perl-Devel-Hide
         - perl-Devel-Leak
-        - perl-Devel-LexAlias
         - perl-Devel-OverloadInfo
         - perl-Devel-PartialDump
-        - perl-Devel-StackTrace
         - perl-Devel-Symdump
         - perl-Digest-BubbleBabble
         - perl-Digest-CRC
-        - perl-Digest-SHA1
         - perl-Dir-Self
-        - perl-Dist-CheckConflicts
-        - perl-DynaLoader-Functions
-        - perl-Encode-EUCJPASCII
         - perl-Env-ShellWords
         - perl-EV
-        - perl-Eval-Closure
         - perl-Event
         - perl-Exception-Base
-        - perl-Exception-Class
         - perl-Expect
         - perl-Exporter-Tidy
-        - perl-Exporter-Tiny
         - perl-ExtUtils-Config
         - perl-ExtUtils-CppGuess
         - perl-ExtUtils-Depends
         - perl-ExtUtils-HasCompiler
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
+        - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
         - perl-FFI-CheckLib
@@ -1142,17 +1206,13 @@ data:
         - perl-File-DesktopEntry
         - perl-File-Find-Object
         - perl-File-Find-Object-Rule
-        - perl-File-Find-Rule
         - perl-File-Find-Rule-Perl
         - perl-FileHandle-Fmode
         - perl-File-MimeInfo
         - perl-File-PathList
         - perl-File-ReadBackwards
         - perl-File-Remove
-        - perl-File-ShareDir
         - perl-File-ShareDir-Install
-        - perl-File-Slurp
-        - perl-File-Slurper
         - perl-File-Slurp-Tiny
         - perl-File-Type
         - perl-Font-TTF
@@ -1160,8 +1220,6 @@ data:
         - perl-Function-Parameters
         - perl-Future
         - perl-Future-IO
-        - perl-GD
-        - perl-GD-Barcode
         - perl-Getopt-ArgvFile
         - perl-Getopt-Long-Descriptive
         - perl-Glib
@@ -1190,11 +1248,9 @@ data:
         - perl-IO-All
         - perl-IO-Async
         - perl-IO-Pipely
-        - perl-IO-String
         - perl-IO-stringy
         - perl-IO-Tty
         - perl-IPC-Run
-        - perl-IPC-Run3
         - perl-JSON-Any
         - perl-JSON-Color
         - perl-JSON-MaybeXS
@@ -1202,17 +1258,16 @@ data:
         - perl-Lexical-SealRequireHints
         - perl-Lexical-Var
         - perl-libintl-perl
+        - perl-libxml-perl
         - perl-Lingua-EN-Inflect
+        - perl-Lingua-Translit
         - perl-Linux-Pid
-        - perl-List-MoreUtils
-        - perl-List-MoreUtils-XS
-        - perl-List-SomeUtils
         - perl-Locale-gettext
         - perl-Locale-US
         - perl-Log-Trace
         - perl-Math-Base-Convert
         - perl-MCE
-        - perl-MIME-Charset
+        - perl-Metrics-Any
         - perl-Mixin-Linewise
         - perl-MLDBM
         - perl-Mock-Config
@@ -1220,8 +1275,8 @@ data:
         - perl-Module-Build-Tiny
         - perl-Module-Build-XSUtil
         - perl-Module-CPANTS-Analyse
+        - perl-Module-Extract-Use
         - perl-Module-Find
-        - perl-Module-Implementation
         - perl-Module-Install
         - perl-Module-Install-AuthorRequires
         - perl-Module-Install-AuthorTests
@@ -1239,7 +1294,6 @@ data:
         - perl-Module-Path
         - perl-Module-Pluggable
         - perl-Module-Refresh
-        - perl-Module-Runtime
         - perl-Module-Runtime-Conflicts
         - perl-Module-ScanDeps
         - perl-Module-Signature
@@ -1269,31 +1323,21 @@ data:
         - perl-MouseX-Types
         - perlmulticore-devel
         - perl-multidimensional
-        - perl-namespace-autoclean
-        - perl-namespace-clean
         - perl-Net-DNS-Resolver-Mock
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
         - perl-Net-IDN-Encode
         - perl-Net-LibIDN
         - perl-Net-LibIDN2
-        - perl-Number-Compare
         - perl-Number-Format
         - perl-Object-Accessor
         - perl-Object-Deadly
         - perl-Package-Anon
         - perl-Package-DeprecationManager
-        - perl-Package-Stash
-        - perl-Package-Stash-XS
-        - perl-PadWalker
         - perl-Paper-Specs
         - perl-Parallel-ForkManager
-        - perl-Params-Classify
         - perl-Params-Coerce
-        - perl-Params-Validate
-        - perl-Params-ValidationCompiler
         - perl-PAR-Dist
-        - perl-Parse-RecDescent
         - perl-Path-Class
         - perl-Path-Tiny
         - perl-PDF-API2
@@ -1305,7 +1349,6 @@ data:
         - perl-Perl-Critic-More
         - perl-Perl-Critic-Pulp
         - perl-Perl-Destruct-Level
-        - perl-PerlIO-utf8_strict
         - perl-Perl-Metrics-Simple
         - perl-Perl-MinimumVersion
         - perl-Perl-PrereqScanner
@@ -1335,13 +1378,10 @@ data:
         - perl-Probe-Perl
         - perl-Readonly
         - perl-Readonly-XS
-        - perl-Ref-Util
-        - perl-Ref-Util-XS
-        - perl-Regexp-Common
         - perl-Regexp-Trie
         - perl-Return-MultiLevel
         - perl-Return-Type
-        - perl-Role-Tiny
+        - perl-Scalar-Properties
         - perl-Scope-Guard
         - perl-Scope-Upper
         - perl-Sereal
@@ -1352,7 +1392,6 @@ data:
         - perl-Shell-Guess
         - perl-Software-License-CCpack
         - perl-Sort-Versions
-        - perl-Specio
         - perl-Spiffy
         - perl-SQL-Statement
         - perl-Statistics-Basic
@@ -1363,8 +1402,6 @@ data:
         - perl-Struct-Dumb
         - perl-Sub-Exporter-ForMethods
         - perl-Sub-Exporter-Lexical
-        - perl-Sub-Exporter-Progressive
-        - perl-Sub-Identify
         - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
@@ -1421,6 +1458,7 @@ data:
         - perl-Test-LongString
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
+        - perl-Test-Metrics-Any
         - perl-Test-MinimumVersion
         - perl-TestML
         - perl-Test-MockModule
@@ -1443,6 +1481,7 @@ data:
         - perl-Test-Pod-No404s
         - perl-Test-Pod-Spelling-CommonMistakes
         - perl-Test-Portability-Files
+        - perl-Test-Prereq
         - perl-Test-Refcount
         - perl-Test-Regexp
         - perl-Test-Requires
@@ -1468,14 +1507,10 @@ data:
         - perl-Test-YAML-Valid
         - perl-Text-CharWidth
         - perl-Text-CSV_XS
-        - perl-Text-Soundex
-        - perl-Text-Unidecode
         - perl-Text-WrapI18N
-        - perltidy
         - perl-Tie-IxHash
         - perl-Tie-RefHash-Weak
         - perl-Tie-ToObject
-        - perl-Tk
         - perl-Tk-Pod
         - perl-Types-Path-Tiny
         - perl-Types-Serialiser
@@ -1483,7 +1518,6 @@ data:
         - perl-Type-Tiny
         - perl-Unicode-CheckUTF8
         - perl-Unicode-EastAsianWidth
-        - perl-Unicode-LineBreak
         - perl-Unicode-UTF8
         - perl-UNIVERSAL-isa
         - perl-UNIVERSAL-require
@@ -1491,12 +1525,12 @@ data:
         - perl-URI-Find
         - perl-utf8-all
         - perl-Validation-Class
-        - perl-Variable-Magic
         - perl-Want
+        - perl-XML-DOM
         - perl-XML-Dumper
-        - perl-XML-LibXML
-        - perl-XML-XPath
-        - perl-XString
+        - perl-XML-Filter-BufferText
+        - perl-XML-RegExp
+        - perl-XML-SAX-Writer
         - perl-XXX
         - perl-YAML-LibYAML
         - perl-YAML-PP
@@ -1711,6 +1745,7 @@ data:
         - php-symfony4-console
         - php-symfony4-dependency-injection
         - php-symfony4-doctrine-bridge
+        - php-symfony4-error-handler
         - php-symfony4-framework-bundle
         - php-symfony4-process
         - php-symfony4-property-info
@@ -1791,7 +1826,9 @@ data:
         - python3-extras
         - python3-fixtures
         - python3-flask
+        - python3-fonttools
         - python3-freezegun
+        - python3-fs
         - python3-gobject-devel
         - python3-hypothesis
         - python3-isort
@@ -1804,6 +1841,7 @@ data:
         - python3-mccabe
         - python3-mock
         - python3-munkres
+        - python3-nototools
         - python3-parameterized
         - python3-pip
         - python3-pylint
@@ -1987,6 +2025,7 @@ data:
         - rubygem-rspec-rails
         - rubygem-rspec-support
         - rubygem-ruby-rc4
+        - rubygem-rubyzip
         - rubygem-safe_yaml
         - rubygem-sass
         - rubygem-sassc
@@ -2069,6 +2108,7 @@ data:
         - spice-parent
         - spice-protocol
         - sratom-devel
+        - ssmtp
         - stax2-api
         - suitesparse-devel
         - sysprof-devel
@@ -2081,6 +2121,15 @@ data:
         - testng
         - texi2html
         - texinfo
+        - texlive-acronym
+        - texlive-etoc
+        - texlive-hanging
+        - texlive-latex-base-dev
+        - texlive-latex-graphics-dev
+        - texlive-lh
+        - texlive-lib-devel
+        - texlive-newunicodechar
+        - texlive-stackengine
         - tidy
         - tinyxml2-devel
         - tomcat-taglibs-parent
@@ -2221,13 +2270,3 @@ data:
             - tinyxml-devel
             - umockdev
             - xmlsec1-openssl-devel
-    wont-install:
-        - fonttools
-        - nototools
-        - nodejs-js-yaml
-        - nodejs-rollup
-        - nodejs-tap-parser
-        - opencv-devel
-        - python3-fonttools
-        - python3-fs
-        - python3-nototools
