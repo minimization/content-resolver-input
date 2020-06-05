@@ -9,7 +9,8 @@ data:
   packages:
   - asio
   - mariadb
-  - galera
   - Judy
+  wont-install:
+  - galera
 document: feedback-pipeline-workload
 version: 1
