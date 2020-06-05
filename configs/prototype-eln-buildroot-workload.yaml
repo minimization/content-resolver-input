@@ -970,7 +970,6 @@ data:
         - nodejs-is-symbol
         - nodejs-jade
         - nodejs-jsonify
-        - nodejs-js-yaml
         - nodejs-less
         - nodejs-less-plugin-clean-css
         - nodejs-make-arrow-function
@@ -1002,7 +1001,6 @@ data:
         - nodejs-resolve-from
         - nodejs-resumer
         - nodejs-rimraf
-        - nodejs-rollup
         - nodejs-runforcover
         - nodejs-safe-buffer
         - nodejs-samsam
@@ -1022,7 +1020,6 @@ data:
         - nodejs-supports-color
         - nodejs-tap
         - nodejs-tape
-        - nodejs-tap-parser
         - nodejs-through
         - nodejs-through2
         - nodejs-traverse
