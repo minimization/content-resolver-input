@@ -1551,6 +1551,7 @@ data:
         - php-doctrine-cache
         - php-doctrine-collections
         - php-doctrine-common
+        - php-doctrine-common3
         - php-doctrine-datafixtures
         - php-doctrine-dbal
         - php-doctrine-doctrine-bundle
@@ -1562,6 +1563,7 @@ data:
         - php-doctrine-lexer
         - php-doctrine-orm
         - php-doctrine-persistence
+        - php-doctrine-persistence2
         - php-doctrine-reflection
         - php-egulias-email-validator
         - php-egulias-email-validator2
