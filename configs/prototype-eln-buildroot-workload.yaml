@@ -667,7 +667,6 @@ data:
         - libgxps-devel
         - libhangul-devel
         - libicns-utils
-        - libidn2-devel
         - libidn-devel
         - libijs-devel
         - libimobiledevice-devel
