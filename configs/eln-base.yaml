@@ -1,12 +1,9 @@
-document:  feedback-pipeline-environment
+document:  feedback-pipeline-workload
 version: 1
 data:
     name: ELN bootable base
     description: An experimental bootable set for ELN.
     maintainer: psabata
-    repositories:
-        - repository-fedora-rawhide
-        - repository-fedora-eln
     packages:
         - b43-openfwwf
         - bash
@@ -73,8 +70,6 @@ data:
         - zstd
     labels:
         - eln
-        - eln-buildroot
-        - prototype-eln-buildroot
     arch_packages:
         aarch64:
             - dbxtool
