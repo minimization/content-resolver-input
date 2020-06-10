@@ -60,3 +60,9 @@ data:
   - python2-pycryptodomex
   - python3-ecdsa
   - python3-pycryptodomex
+
+  # Vít Ondruch: rubygems is subpackage of ruby package and therefore
+  # the independent version is not needed. rubypick is not needed and
+  # there is %bcond_without to disable it
+  - rubygems
+  - rubypick
