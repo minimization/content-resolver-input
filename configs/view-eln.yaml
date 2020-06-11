@@ -60,3 +60,11 @@ data:
   - python2-pycryptodomex
   - python3-ecdsa
   - python3-pycryptodomex
+
+  # Petr Viktorin:
+  # Python 2.7 not maintained upstream, and marked as deprecated()
+  # in Fedora.
+  - python2.7
+  # Python 3.6 is quickly becoming obsolete, and might presumably
+  # be pulled into a RHEL-like environment.
+  - python3.6
