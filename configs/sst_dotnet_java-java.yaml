@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenJDK
+  description: OpenJDK and the Java Platform
+  maintainer: sst_dotnet_java
+
+  packages:
+  - java-1.8.0-openjdk
+  - java-11-openjdk
+  - icedtea-web
+
+  labels:
+  - eln
