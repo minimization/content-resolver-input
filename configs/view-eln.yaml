@@ -61,6 +61,12 @@ data:
   - python3-ecdsa
   - python3-pycryptodomex
 
+  # Vít Ondruch: rubygems is subpackage of ruby package and therefore
+  # the independent version is not needed. rubypick is not needed and
+  # there is %bcond_without to disable it
+  - rubygems
+  - rubypick
+
   # Petr Viktorin:
   # Python 2.7 not maintained upstream, and marked as deprecated()
   # in Fedora.
@@ -68,3 +74,4 @@ data:
   # Python 3.6 is quickly becoming obsolete, and might presumably
   # be pulled into a RHEL-like environment.
   - python3.6
+
