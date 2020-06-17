@@ -4,6 +4,8 @@ data:
   name: .NET
   description: .NET and .NET Core SDK, tools and runtime
   maintainer: sst_dotnet_java
+  
+  packages: []
 
   arch_packages:
     x86_64:
