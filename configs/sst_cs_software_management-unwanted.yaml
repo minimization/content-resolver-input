@@ -1,0 +1,43 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - sst_cs_software_management
+  description: Packages that the Software Management subsystem does not want to distribute in RHEL 9
+  maintainer: sst_cs_software_management
+
+  unwanted_packages:
+  # drop drpm support from RHEL 9
+  - drpm
+
+  # drop drpm support from RHEL 9
+  - drpm-devel
+
+  # replace with a subscription-manager plugin
+  - librhsm
+
+  # replace with a subscription-manager plugin
+  - librhsm-devel
+
+  # we don't want to support LUA interpreter
+  - lua
+
+  # don't ship static libs
+  - lua-static
+
+  # don't ship static libs
+  - popt-static
+
+  # replaced with python3-libdnf
+  - python3-hawkey
+
+  # SysV init related, no longer needed because we have systemd
+  - rpm-plugin-prioreset
+
+  # ideally provide 'yum' in the dnf package to remove RHEL specific compatibility tweaks and get it closer to Fedora
+  - yum
+
+  # ideally rename back to 'dnf-utils' and provide 'yum-utils' to remove RHEL specific compatibility tweaks and get it closer to Fedora
+  - yum-utils
+
+  labels:
+  - eln
