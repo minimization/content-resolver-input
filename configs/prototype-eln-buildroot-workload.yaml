@@ -89,7 +89,6 @@ data:
         - chrpath
         - cifs-utils-devel
         - cjose-devel
-        - clang-devel
         - clucene-core-devel
         - clutter-devel
         - clutter-gst3-devel
@@ -585,8 +584,6 @@ data:
         - jmock-junit4
         - jmock-legacy
         - jna-contrib
-        - joda-convert
-        - joda-time
         - jq-devel
         - jsch
         - js-coffee-script
@@ -610,6 +607,7 @@ data:
         - libaesgm-devel
         - libao-devel
         - libappindicator-devel
+        - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
         - libargon2-devel
@@ -635,14 +633,13 @@ data:
         - libdaemon-devel
         - libdazzle-devel
         - libdbi-devel
+        - libdbusmenu-gtk3-devel
         - libdhash-devel
         - libdmapsharing-devel
         - libdmx-devel
-        - libdnf-devel
         - libdvdnav-devel
         - libdvdread-devel
         - libecb-devel
-        - libedit-devel
         - libell-devel
         - libesmtp-devel
         - libevdev-devel
@@ -744,7 +741,6 @@ data:
         - libqmi-devel
         - libquvi-devel
         - LibRaw-devel
-        - librepo-devel
         - libreport-gtk-devel
         - librevenge-devel
         - libsamplerate-devel
@@ -760,7 +756,6 @@ data:
         - libsmbclient-devel
         - libsndfile-devel
         - libsodium-devel
-        - libsolv-devel
         - libspectre-devel
         - libspf2-devel
         - libspiro-devel
@@ -818,9 +813,6 @@ data:
         - linux-atm-libs-devel
         - linuxdoc-tools
         - lldpad-devel
-        - llvm-devel
-        - llvm-static
-        - llvm-test
         - lmdb-devel
         - Lmod
         - lockdev-devel
@@ -1048,12 +1040,14 @@ data:
         - ocaml-dune-devel
         - ocaml-extlib-devel
         - ocaml-fileutils-devel
+        - ocaml-findlib
         - ocaml-findlib-devel
         - ocaml-gettext-devel
         - ocaml-libvirt-devel
         - ocaml-ocamldoc
         - ocaml-ounit-devel
         - ocaml-xml-light-devel
+        - ocaml-zarith-devel
         - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
@@ -1454,6 +1448,7 @@ data:
         - perl-Test-LongString
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
+        - perl-Test-MemoryGrowth
         - perl-Test-Metrics-Any
         - perl-Test-MinimumVersion
         - perl-TestML
@@ -1564,6 +1559,7 @@ data:
         - php-doctrine-persistence
         - php-doctrine-persistence2
         - php-doctrine-reflection
+        - php-doctrine-sql-formatter
         - php-egulias-email-validator
         - php-egulias-email-validator2
         - php-fedora-autoloader-devel
@@ -1800,6 +1796,7 @@ data:
         - potrace-devel
         - powermock-api-easymock
         - powermock-api-mockito
+        - powermock-core
         - powermock-junit4
         - ppp-devel
         - proj-devel
@@ -1833,6 +1830,7 @@ data:
         - python3-jinja2
         - python3-libmount
         - python3-libvoikko
+        - python3-magic
         - python3-mallard-ducktype
         - python3-marisa
         - python3-markdown
@@ -2071,7 +2069,6 @@ data:
         - samba-winbind
         - samba-winbind-clients
         - satyr-devel
-        - sbc-devel
         - sblim-cmpi-devel
         - sblim-indication_helper-devel
         - screen
@@ -2153,7 +2150,6 @@ data:
         - userspace-rcu-devel
         - vala
         - vte291-devel
-        - vulkan-loader-devel
         - wavpack-devel
         - web-assets-devel
         - webrtc-audio-processing-devel
@@ -2174,7 +2170,6 @@ data:
         - xemacs-nox
         - xmlrpc-c-devel
         - xmlto
-        - xmltoman
         - xmlto-tex
         - xmlunit-assertj
         - xmlunit-core
@@ -2189,6 +2184,7 @@ data:
         - yajl-devel
         - yelp-xsl-devel
         - ykclient-devel
+        - z3-devel
         - zbar-devel
         - zchunk
         - zchunk-devel
