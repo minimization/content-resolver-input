@@ -1137,6 +1137,14 @@ data:
             - libservicelog-devel
             - python3-libpamtest
         s390x:
+            - compat-lua-devel
+            - hwloc-devel
+            - libbson-devel
+            - libmongocrypt-devel
+            - lua-filesystem
+            - lua-json
+            - lua-lpeg
+            - lua-term
         x86_64:
             - efivar-devel
             - gnu-efi
