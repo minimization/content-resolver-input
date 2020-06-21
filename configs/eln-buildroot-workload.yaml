@@ -1138,22 +1138,14 @@ data:
             - python3-libpamtest
         s390x:
         x86_64:
-            - compat-lua-devel
             - efivar-devel
             - gnu-efi
-            - hwloc-devel
             - infiniband-diags-devel
             - lame-devel
-            - libbson-devel
             - libfprint-devel
             - libmad-devel
-            - libmongocrypt-devel
             - libraw1394-devel
             - libXfont2-devel
             - libXvMC-devel
-            - lua-filesystem
-            - lua-json
-            - lua-lpeg
-            - lua-term
             - mesa-libxatracker-devel
             - python3-libpamtest
