@@ -38,7 +38,7 @@ data:
   packages:
   - httpd
   - mod_ssl
-  - yum-utils
+  - dnf-utils
   - gettext
   - hostname
   - nss_wrapper
