@@ -4,6 +4,9 @@ data:
   name: JMC
   description: JDK Mission Control application and libraries
   maintainer: sst_dotnet_java
+
+  modules_enable:
+  - jmc:latest
   
   packages: []
 
