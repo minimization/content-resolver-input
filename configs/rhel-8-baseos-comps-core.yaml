@@ -51,7 +51,6 @@ data:
   - util-linux
   - vim-minimal
   - xfsprogs
-  - yum
   - NetworkManager
   - NetworkManager-team
   - NetworkManager-tui

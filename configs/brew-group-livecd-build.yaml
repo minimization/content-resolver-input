@@ -16,6 +16,5 @@ data:
   - livecd-tools
   - perl
   - selinux-policy-targeted
-  - yum
 document: feedback-pipeline-workload
 version: 1
