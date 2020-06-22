@@ -1119,21 +1119,13 @@ data:
         - zchunk-devel
     arch_packages:
         aarch64:
-            - compat-lua-devel
             - efivar-devel
             - gnu-efi
-            - hwloc-devel
             - infiniband-diags-devel
             - lame-devel
-            - libbson-devel
             - libfprint-devel
             - libmad-devel
-            - libmongocrypt-devel
             - libraw1394-devel
-            - lua-filesystem
-            - lua-json
-            - lua-lpeg
-            - lua-term
             - python3-libpamtest
         ppc64le:
             - infiniband-diags-devel
@@ -1145,6 +1137,14 @@ data:
             - libservicelog-devel
             - python3-libpamtest
         s390x:
+            - compat-lua-devel
+            - hwloc-devel
+            - libbson-devel
+            - libmongocrypt-devel
+            - lua-filesystem
+            - lua-json
+            - lua-lpeg
+            - lua-term
         x86_64:
             - efivar-devel
             - gnu-efi
