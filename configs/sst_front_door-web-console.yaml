@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Web Console (Cockpit)
+  description: Cockpit basic packages and supported applications
+  maintainer: sst_front_door
+  labels:
+    - cockpit
+    - web-console
+
+  packages:
+    # meta-package for the basic stuff (web server, bridge, core pages)
+    - cockpit
+    # recommended packages from cockpit metapackage
+    - cockpit-packagekit
+    - cockpit-storaged
+    - cockpit-pcp
+    # web console applications developed by Front Door SST
+    - cockpit-composer
+    # in container-tools stream in RHEL 8, but not in a module in Fedora
+    - cockpit-podman

@@ -1,0 +1,13 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages -- sst_front_door
+  description: Packages that should not be distributed in RHEL 9
+  maintainer: sst_front_door
+  labels:
+    - cockpit
+    - web-console
+
+  unwanted_packages:
+    # only needed for integration tests (buildroot), never ship this
+    - cockpit-tests
