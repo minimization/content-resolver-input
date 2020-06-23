@@ -179,11 +179,7 @@ data:
         - fcode-utils
         - fdk-aac-free-devel
         - fdupes
-        - felix-gogo-parent
-        - felix-gogo-runtime
-        - felix-osgi-obr
         - felix-parent
-        - felix-shell
         - fftw-devel
         - file-devel
         - findbugs
@@ -746,7 +742,6 @@ data:
         - libsamplerate-devel
         - libsass
         - libseccomp-static
-        - libsemanage-devel
         - libsemanage-static
         - libsepol-static
         - libsigc++20-devel
@@ -1786,7 +1781,6 @@ data:
         - plexus-interactivity-api
         - pngquant
         - po4a
-        - policycoreutils-devel
         - polkit-gnome
         - poppler-cpp-devel
         - poppler-data-devel
@@ -2075,7 +2069,6 @@ data:
         - screen
         - SDL2-devel
         - SDL_sound-devel
-        - selinux-policy-devel
         - sendmail
         - sendmail-milter-devel
         - serd-devel
@@ -2181,6 +2174,7 @@ data:
         - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
+        - xpp3
         - xpp3-minimal
         - yajl-devel
         - yelp-xsl-devel
