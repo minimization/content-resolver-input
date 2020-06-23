@@ -490,7 +490,6 @@ data:
         - librevenge-devel
         - libsamplerate-devel
         - libsass
-        - libsemanage-devel
         - libsemanage-static
         - libsepol-static
         - libsigc++20-devel
@@ -918,7 +917,6 @@ data:
         - plexus-component-factories-pom
         - plexus-components-pom
         - plexus-interactivity-api
-        - policycoreutils-devel
         - polkit-gnome
         - poppler-cpp-devel
         - poppler-data-devel
@@ -1064,7 +1062,6 @@ data:
         - screen
         - SDL2-devel
         - SDL_sound-devel
-        - selinux-policy-devel
         - sendmail
         - sg3_utils-devel
         - sharutils
