@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: JMC
+  description: JDK Mission Control application and libraries
+  maintainer: sst_dotnet_java
+
+  modules_enable:
+  - jmc:latest
+  
+  packages: []
+
+  arch_packages:
+    x86_64:
+    - jmc
+    - jmc-core
+  labels:
+  - eln
