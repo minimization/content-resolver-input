@@ -777,6 +777,7 @@ data:
         - libudisks2-devel
         - libuninameslist-devel
         - libunistring-devel
+        - libunwind-devel
         - libusbauth-configparser-devel
         - libusb-devel
         - libusbmuxd-devel
