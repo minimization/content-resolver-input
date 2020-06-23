@@ -1128,13 +1128,21 @@ data:
             - libraw1394-devel
             - python3-libpamtest
         ppc64le:
+            - compat-lua-devel
+            - hwloc-devel
             - infiniband-diags-devel
             - lame-devel
+            - libbson-devel
             - libfprint-devel
             - libmad-devel
+            - libmongocrypt-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog-devel
+            - lua-filesystem
+            - lua-json
+            - lua-lpeg
+            - lua-term
             - python3-libpamtest
         s390x:
         x86_64:
