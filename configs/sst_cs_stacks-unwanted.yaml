@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Core Services Stacks - Blocked packages
+  description: Core Services Stacks - Packages which should not be in ELN
+  maintainer: sst_cs_stacks
+
+  unwanted_packages:
+  - cvs
+
+  labels:
+  - eln
