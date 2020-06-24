@@ -25,11 +25,13 @@ data:
         - ant-testutil
         - apache-commons-beanutils
         - apache-commons-collections-testframework
+        - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
         - apache-commons-net
         - apache-commons-parent
         - apache-ivy
+        - apache-sshd
         - apiguardian
         - apr-devel
         - apr-util-devel
@@ -44,6 +46,7 @@ data:
         - autoconf-archive
         - autogen
         - autogen-libopts-devel
+        - autotrace
         - avahi-devel
         - avahi-glib-devel
         - avahi-gobject-devel
@@ -51,20 +54,26 @@ data:
         - babl-devel
         - bcel
         - beakerlib
+        - beust-jcommander
         - bind-devel
         - bind-lite-devel
         - bind-pkcs11-devel
         - bluez-libs-devel
         - bnd-maven-plugin
+        - bouncycastle
+        - bouncycastle-pg
+        - bouncycastle-pkix
         - brlapi-devel
         - bsdtar
         - btrfs-progs-devel
+        - buildnumber-maven-plugin
         - byaccj
         - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
         - cairomm-devel
         - cal10n
+        - cdparanoia-devel
         - cglib
         - cheese-libs-devel
         - chrpath
@@ -75,6 +84,7 @@ data:
         - cmake
         - cmake-rpm-macros
         - codehaus-parent
+        - codemodel
         - cogl-devel
         - colord-devel
         - colord-gtk-devel
@@ -88,6 +98,8 @@ data:
         - cscope
         - CUnit-devel
         - datefudge
+        - dblatex
+        - dbus-python-devel
         - dconf-devel
         - dejagnu
         - device-mapper-devel
@@ -102,8 +114,10 @@ data:
         - dontpanic-devel
         - dotconf-devel
         - double-conversion-devel
+        - doxygen
         - drpm-devel
         - easymock
+        - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland-devel
         - elinks
@@ -128,12 +142,20 @@ data:
         - felix-shell
         - fftw-devel
         - file-devel
+        - findbugs
+        - findbugs-bcel
         - flac-devel
         - flatpak-devel
         - flex-devel
+        - flite-devel
         - fluidsynth-devel
+        - fmt-devel
+        - fontforge
+        - fontforge-devel
         - fonts-rpm-macros
         - fonttools
+        - forge-parent
+        - freeglut-devel
         - fuse-devel
         - fusesource-pom
         - fwupd-devel
@@ -287,6 +309,7 @@ data:
         - glibc-static
         - glibmm24-devel
         - glm-devel
+        - gmock-devel
         - gnome-autoar-devel
         - gnome-common
         - gnome-doc-utils
@@ -295,6 +318,9 @@ data:
         - go-compilers-golang-compiler
         - golang-github-cpuguy83-md2man
         - golang-github-urfave-cli-devel
+        - gom-devel
+        - google-benchmark-devel
+        - google-gson
         - go-rpm-macros
         - gperf
         - gpgme-devel
@@ -339,8 +365,10 @@ data:
         - ima-evm-utils-devel
         - ImageMagick
         - ImageMagick-c++-devel
+        - ImageMagick-devel
         - ImageMagick-perl
         - imlib2-devel
+        - IPAddress
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
@@ -348,23 +376,34 @@ data:
         - janino
         - jansson-devel
         - jasper-devel
+        - java-11-openjdk-devel
+        - java-1.8.0-openjdk-javadoc
+        - java-1.8.0-openjdk-javadoc-zip
         - javacc
         - javacc-maven-plugin
         - java_cup
+        - javaewah
         - javamail
         - javapackages-local
         - javaparser
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
+        - jboss-el-2.2-api
+        - jboss-jsp-2.2-api
         - jboss-logmanager
         - jboss-modules
         - jboss-parent
+        - jboss-servlet-3.0-api
+        - jcip-annotations
         - jctools
         - jdepend
         - jdependency
         - jdom
+        - jetty-servlet
         - jflex
+        - jFormatString
+        - jgit
         - jimtcl-devel
         - jitterentropy-devel
         - jmock-junit4
@@ -379,6 +418,7 @@ data:
         - krb5-server
         - kyua
         - ladspa-devel
+        - latex2html
         - lcms2-devel
         - ldns-devel
         - liba52-devel
@@ -392,6 +432,7 @@ data:
         - libassuan-devel
         - libatf-c++-devel
         - libatf-sh-devel
+        - libbsd-devel
         - libburn-devel
         - libcbor-devel
         - libcdio-devel
@@ -402,8 +443,10 @@ data:
         - libconfuse-devel
         - libcroco-devel
         - libdaemon-devel
+        - libdazzle-devel
         - libdbusmenu-gtk3-devel
         - libdhash-devel
+        - libdmapsharing-devel
         - libdmx-devel
         - libdvdread-devel
         - libecb-devel
@@ -434,6 +477,7 @@ data:
         - libinput-devel
         - libiptcdata-devel
         - libisofs-devel
+        - libixion-devel
         - libkkc-devel
         - libknet1-devel
         - libksba-devel
@@ -445,6 +489,7 @@ data:
         - libmarkdown-devel
         - libmaxminddb-devel
         - libmbim-devel
+        - libmediaart-devel
         - libmemcached-devel
         - libmicrohttpd-devel
         - libmikmod-devel
@@ -478,6 +523,7 @@ data:
         - libpcap-devel
         - libpciaccess-devel
         - libpeas-devel
+        - libphonenumber-devel
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
@@ -497,6 +543,8 @@ data:
         - libslirp-devel
         - libsndfile-devel
         - libspectre-devel
+        - libspf2-devel
+        - libspiro-devel
         - libssh2-devel
         - libsss_autofs
         - libstemmer-devel
@@ -509,13 +557,17 @@ data:
         - libtirpc-devel
         - libtool-ltdl-devel
         - libudisks2-devel
+        - libuninameslist-devel
         - libunistring-devel
+        - libunwind-devel
         - libusbauth-configparser-devel
         - libusb-devel
         - libusbmuxd-devel
         - libutempter-devel
         - libv4l-devel
+        - libvala-devel
         - libvirt-glib-devel
+        - libvisual-devel
         - libvncserver-devel
         - libvoikko-devel
         - libvorbis-devel
@@ -534,12 +586,14 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libzip-devel
+        - lilypond
         - linuxdoc-tools
         - lockdev-devel
         - log4j
         - lua-devel
         - lua-lunit
         - lutok-devel
+        - lv2-devel
         - lvm2-devel
         - lynx
         - lzip
@@ -553,22 +607,29 @@ data:
         - maven-clean-plugin
         - maven-dependency-analyzer
         - maven-dependency-plugin
+        - maven-failsafe-plugin
         - maven-hawtjni-plugin
+        - maven-install-plugin
         - maven-invoker
         - maven-invoker-plugin
         - maven-local
         - maven-plugin-testing-harness
         - maven-resolver-transport-file
         - maven-resources-plugin
+        - maven-scm
         - maven-script-interpreter
         - maven-shade-plugin
         - maven-source-plugin
+        - maven-surefire-provider-junit
+        - maven-surefire-provider-junit5
+        - maven-surefire-provider-testng
         - maven-wagon-http-lightweight
         - mdds-devel
         - mecab-devel
         - memcached
         - mesa-libgbm-devel
         - meson
+        - mftrace
         - mobile-broadband-provider-info-devel
         - mocha
         - mockito
@@ -576,6 +637,7 @@ data:
         - ModemManager-glib-devel
         - mod_perl
         - mojo-parent
+        - mozjs60-devel
         - mozjs68-devel
         - mtdev-devel
         - mt-st
@@ -703,8 +765,11 @@ data:
         - openjpeg2-devel
         - openldap-servers
         - opensmtpd
+        - opensp
         - opentest4j
+        - opus-devel
         - ostree-devel
+        - p7zip-plugins
         - PackageKit-glib-devel
         - pakchois-devel
         - pam_wrapper
@@ -726,6 +791,7 @@ data:
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-CBOR-XS
+        - perl-CGI
         - perl-Class-Tiny
         - perl-Class-XSAccessor
         - perl-common-sense
@@ -760,10 +826,13 @@ data:
         - perl-ExtUtils-PkgConfig
         - perl-FFI-CheckLib
         - perl-FFI-Platypus
+        - perl-File-BaseDir
         - perl-File-BOM
         - perl-File-chdir
         - perl-File-Copy-Recursive
+        - perl-File-DesktopEntry
         - perl-File-Find-Rule-Perl
+        - perl-File-MimeInfo
         - perl-File-ReadBackwards
         - perl-File-Remove
         - perl-File-ShareDir-Install
@@ -783,6 +852,7 @@ data:
         - perl-Inline-Files
         - perl-Inline-Filters
         - perl-IO-All
+        - perl-IO-Pipely
         - perl-IO-stringy
         - perl-IO-Tty
         - perl-IPC-Run
@@ -792,6 +862,7 @@ data:
         - perl-libintl-perl
         - perl-Lingua-EN-Inflect
         - perl-Linux-Pid
+        - perl-Locale-gettext
         - perl-Mixin-Linewise
         - perl-Mock-Config
         - perl-Module-Build-Tiny
@@ -835,6 +906,8 @@ data:
         - perl-Pod-Eventual
         - perl-Pod-Markdown
         - perl-Pod-Spell
+        - perl-POE
+        - perl-POE-Test-Loops
         - perl-PPI
         - perl-PPIx-QuoteLike
         - perl-PPIx-Regexp
@@ -897,10 +970,14 @@ data:
         - perl-Test-Warn
         - perl-Test-Warnings
         - perl-Test-Without-Module
+        - perl-Text-CharWidth
+        - perl-Text-CSV_XS
+        - perl-Text-WrapI18N
         - perl-Tie-IxHash
         - perl-Types-Serialiser
         - perl-Unicode-EastAsianWidth
         - perl-Unicode-UTF8
+        - perl-UNIVERSAL-isa
         - perl-Unix-Process
         - perl-utf8-all
         - perl-XXX
@@ -917,6 +994,7 @@ data:
         - plexus-component-factories-pom
         - plexus-components-pom
         - plexus-interactivity-api
+        - po4a
         - polkit-gnome
         - poppler-cpp-devel
         - poppler-data-devel
@@ -927,18 +1005,49 @@ data:
         - potrace-devel
         - powermock-api-easymock
         - powermock-api-mockito
+        - powermock-core
         - powermock-junit4
         - ppp-devel
         - psl-make-dafsa
         - psutils
+        - pygobject2-devel
         - python2-cairo-devel
+        - python2-setuptools
+        - python3-astroid
+        - python3-breathe
         - python3-brotli
+        - python3-coverage
         - python3-Cython
+        - python3-dbusmock
+        - python3-extras
+        - python3-flask
         - python3-fonttools
+        - python3-freezegun
+        - python3-fs
+        - python3-gobject-devel
+        - python3-hypothesis
+        - python3-isort
+        - python3-jinja2
         - python3-libvoikko
+        - python3-mallard-ducktype
         - python3-marisa
+        - python3-markdown
+        - python3-mccabe
+        - python3-mock
+        - python3-munkres
+        - python3-pip
         - python3-pylint
+        - python3-pytest-runner
+        - python3-pywbem
+        - python3-rdflib
+        - python3-scons
+        - python3-setuptools_scm
+        - python3-sphinx
+        - python3-sphinx_rtd_theme
         - python3-talloc-devel
+        - python3-testscenarios
+        - python3-testtools
+        - python3-toml
         - qpdf-devel
         - qt5-devel
         - qt5-qtbase-doc
@@ -948,7 +1057,11 @@ data:
         - raptor2-devel
         - rasqal-devel
         - re2c
+        - re2-devel
+        - regexp
+        - replacer
         - rest-devel
+        - rhino
         - rmt
         - rpcgen
         - rpm-ostree-devel
@@ -957,6 +1070,7 @@ data:
         - rubygem-activemodel
         - rubygem-activerecord
         - rubygem-activesupport
+        - rubygem-addressable
         - rubygem-afm
         - rubygem-arel
         - rubygem-aruba
@@ -967,24 +1081,33 @@ data:
         - rubygem-builder
         - rubygem-byebug
         - rubygem-childprocess
+        - rubygem-chronic
         - rubygem-coderay
         - rubygem-coffee-script
         - rubygem-coffee-script-source
         - rubygem-concurrent-ruby
         - rubygem-connection_pool
         - rubygem-contracts
+        - rubygem-crack
         - rubygem-crass
         - rubygem-creole
+        - rubygem-curb
         - rubygem-daemons
         - rubygem-dalli
+        - rubygem-delorean
         - rubygem-diff-lcs
         - rubygem-docile
         - rubygem-erubi
+        - rubygem-ethon
+        - rubygem-excon
         - rubygem-execjs
         - rubygem-ffi
         - rubygem-flexmock
+        - rubygem-formatador
         - rubygem-haml
+        - rubygem-hashdiff
         - rubygem-hashery
+        - rubygem-httpclient
         - rubygem-i18n
         - rubygem-introspection
         - rubygem-json_pure
@@ -1003,6 +1126,7 @@ data:
         - rubygem-mocha
         - rubygem-mustermann
         - rubygem-nokogiri
+        - rubygem-open4
         - rubygem-pdf-core
         - rubygem-pdf-inspector
         - rubygem-pdf-reader
@@ -1010,6 +1134,7 @@ data:
         - rubygem-power_assert
         - rubygem-prawn
         - rubygem-pry
+        - rubygem-public_suffix
         - rubygem-puma
         - rubygem-racc
         - rubygem-rack
@@ -1036,8 +1161,10 @@ data:
         - rubygem-rspec-its
         - rubygem-rspec-support
         - rubygem-ruby-rc4
+        - rubygem-safe_yaml
         - rubygem-sassc
         - rubygem-session
+        - rubygem-shindo
         - rubygem-simplecov
         - rubygem-simplecov-html
         - rubygem-sinatra
@@ -1053,7 +1180,9 @@ data:
         - rubygem-tilt
         - rubygem-timecop
         - rubygem-ttfunk
+        - rubygem-typhoeus
         - rubygem-tzinfo
+        - rubygem-webmock
         - rubygem-yard
         - rubygem-ZenTest
         - sbc-devel
@@ -1063,27 +1192,53 @@ data:
         - SDL2-devel
         - SDL_sound-devel
         - sendmail
+        - sendmail-milter-devel
+        - serd-devel
         - sg3_utils-devel
         - sharutils
         - ShellCheck
+        - shrinkwrap-impl-base
+        - sisu-mojos
         - slf4j-ext
         - slf4j-sources
+        - snakeyaml
         - snappy-devel
         - socket_wrapper
         - sombok-devel
+        - sonatype-oss-parent
+        - sord-devel
+        - spdlog-devel
+        - spec-version-maven-plugin
         - speex-devel
         - speexdsp-devel
         - spice-gtk3-devel
+        - spice-parent
+        - spice-protocol
+        - sratom-devel
+        - stax2-api
+        - sysprof-devel
+        - t1utils
         - taglib-devel
         - tclx-devel
         - tcsh
         - teamd-devel
-        - tepl-devel
+        - testng
+        - texi2html
         - texinfo
+        - texlive-etoc
+        - texlive-hanging
+        - texlive-latex-base-dev
+        - texlive-latex-graphics-dev
+        - texlive-lh
+        - texlive-newunicodechar
+        - texlive-stackengine
         - tinyxml2-devel
+        - tomcat-taglibs-parent
+        - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tracker-devel
         - transfig
+        - trousers-devel
         - ttembed
         - ttfautohint
         - uchardet-devel
@@ -1092,13 +1247,21 @@ data:
         - uid_wrapper
         - unbound-devel
         - unicode-emoji
+        - univocity-output-tester
+        - univocity-parsers
         - upower-devel
         - urw-base35-fonts-devel
         - userspace-rcu-devel
+        - vala
         - vte291-devel
         - vulkan-loader-devel
         - web-assets-devel
+        - weld-parent
+        - woff2-devel
+        - woodstox-core
         - wordnet
+        - wsdl4j
+        - xcb-proto
         - xcb-util-devel
         - xcb-util-image-devel
         - xcb-util-renderutil-devel
@@ -1106,43 +1269,66 @@ data:
         - xmlto
         - xmltoman
         - xmlto-tex
+        - xmlunit-assertj
+        - xmlunit-core
+        - xmlunit-legacy
+        - xmlunit-matchers
         - xorg-sgml-doctools
         - xorg-x11-server-devel
         - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
+        - xpp3-minimal
         - yajl-devel
         - yelp-xsl-devel
         - zchunk-devel
     arch_packages:
         aarch64:
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
             - libfprint-devel
+            - libiec61883-devel
             - libmad-devel
             - libraw1394-devel
+            - libxml++-devel
             - python3-libpamtest
+            - python3-rpm-macros
         ppc64le:
+            - dbus-c++-devel
+            - efl-devel
+            - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
             - libfprint-devel
+            - libiec61883-devel
             - libmad-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog-devel
+            - libxml++-devel
             - python3-libpamtest
+            - python3-rpm-macros
         s390x:
         x86_64:
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
             - libfprint-devel
+            - libiec61883-devel
             - libmad-devel
             - libraw1394-devel
             - libXfont2-devel
+            - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
             - python3-libpamtest
+            - python3-rpm-macros
