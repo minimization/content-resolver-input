@@ -388,6 +388,7 @@ data:
         - glibmm24-devel
         - glm-devel
         - glpk-devel
+        - glslc
         - gmock-devel
         - gnome-autoar-devel
         - gnome-common
@@ -602,6 +603,7 @@ data:
         - libaec-devel
         - libaesgm-devel
         - libao-devel
+        - libaom-devel
         - libappindicator-devel
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
@@ -678,6 +680,7 @@ data:
         - libldb-devel
         - liblouis-devel
         - liblqr-1-devel
+        - liblrdf-devel
         - liblzf-devel
         - libmarkdown-devel
         - libmaxminddb-devel
@@ -686,6 +689,7 @@ data:
         - libmediaart-devel
         - libmemcached-devel
         - libmetalink-devel
+        - libmicrodns-devel
         - libmicrohttpd-devel
         - libmikmod-devel
         - libmng-devel
@@ -715,6 +719,7 @@ data:
         - liboauth-devel
         - libofa-devel
         - libogg-devel
+        - libopenmpt-devel
         - libosinfo-devel
         - libotf
         - libotf-devel
@@ -1825,7 +1830,6 @@ data:
         - python3-jinja2
         - python3-libmount
         - python3-libvoikko
-        - python3-magic
         - python3-mallard-ducktype
         - python3-marisa
         - python3-markdown
@@ -2097,6 +2101,7 @@ data:
         - spice-parent
         - spice-protocol
         - sratom-devel
+        - srt-devel
         - ssmtp
         - stax2-api
         - suitesparse-devel
@@ -2144,6 +2149,7 @@ data:
         - userspace-rcu-devel
         - vala
         - vte291-devel
+        - vulkan-loader-devel
         - wavpack-devel
         - web-assets-devel
         - webrtc-audio-processing-devel
