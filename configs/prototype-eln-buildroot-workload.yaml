@@ -875,6 +875,7 @@ data:
         - mozjs60-devel
         - mozjs68-devel
         - mp-devel
+        - mpg123-devel
         - mpich-devel
         - mtdev-devel
         - mt-st
@@ -1844,6 +1845,7 @@ data:
         - python3-pywbem
         - python3-pyxattr
         - python3-rdflib
+        - python3-rpm-macros
         - python3-scipy
         - python3-scons
         - python3-setuptools_scm
@@ -2100,6 +2102,7 @@ data:
         - spice-gtk3-devel
         - spice-parent
         - spice-protocol
+        - spirv-headers-devel
         - sratom-devel
         - srt-devel
         - ssmtp
@@ -2211,7 +2214,6 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-qt5-devel
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
         ppc64le:
@@ -2232,7 +2234,6 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-qt5-devel
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
         s390x:
@@ -2261,7 +2262,6 @@ data:
             - procps-ng-devel
             - python3-libpamtest
             - python3-qt5-devel
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
             - xmlsec1-openssl-devel
