@@ -12,6 +12,7 @@ data:
     repositories:
         - repository-fedora-eln
     packages:
+        - 389-ds-base-devel
         - accountsservice-devel
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
@@ -549,6 +550,7 @@ data:
         - libspiro-devel
         - libssh2-devel
         - libsss_autofs
+        - libsss_nss_idmap-devel
         - libstemmer-devel
         - libsysfs-devel
         - libtalloc-devel
