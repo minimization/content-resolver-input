@@ -1,0 +1,32 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - Apache httpd
+  description: Core Services Stacks - Apache HTTP Server
+  maintainer: sst_cs_stacks
+
+  packages:
+  - httpd
+  - httpd-tools
+  - httpd-filesystem
+  - mod_ssl
+  - mod_proxy_html
+  - mod_ldap
+  - mod_session
+  - httpd-devel
+  - httpd-manual
+  - mod_http2
+  - mod_md
+  - mod_fcgid
+  - mod_security
+  - mod_security_crs
+  - apr
+  - apr-devel
+  - apr-util
+  - apr-util-devel
+  - apr-util-ldap
+  - apr-util-mysql
+  - apr-util-openssl
+
+  labels:
+  - eln
