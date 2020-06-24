@@ -324,6 +324,7 @@ data:
         - go-rpm-macros
         - gperf
         - gpgme-devel
+        - gphoto2
         - graphene-devel
         - graphviz-devel
         - grilo-devel
@@ -461,6 +462,7 @@ data:
         - libgee-devel
         - libgexiv2-devel
         - libgovirt-devel
+        - libgphoto2-devel
         - libgs-devel
         - libgsf-devel
         - libgtop2-devel
@@ -1040,6 +1042,7 @@ data:
         - python3-pylint
         - python3-pytest-runner
         - python3-pywbem
+        - python3-pyxattr
         - python3-rdflib
         - python3-scons
         - python3-setuptools_scm
@@ -1206,6 +1209,7 @@ data:
         - slf4j-sources
         - snakeyaml
         - snappy-devel
+        - snappy-java
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
@@ -1233,6 +1237,7 @@ data:
         - texlive-latex-base-dev
         - texlive-latex-graphics-dev
         - texlive-lh
+        - texlive-lib-devel
         - texlive-newunicodechar
         - texlive-stackengine
         - tinyxml2-devel
@@ -1248,6 +1253,7 @@ data:
         - uglify-js
         - uglify-js1
         - uid_wrapper
+        - umockdev-devel
         - unbound-devel
         - unicode-emoji
         - univocity-output-tester
@@ -1301,6 +1307,7 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - umockdev
         ppc64le:
             - dbus-c++-devel
             - efl-devel
@@ -1316,6 +1323,7 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - umockdev
         s390x:
         x86_64:
             - dbus-c++-devel
@@ -1335,3 +1343,4 @@ data:
             - mesa-libxatracker-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - umockdev
