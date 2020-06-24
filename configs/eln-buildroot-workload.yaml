@@ -1052,6 +1052,8 @@ data:
         - qpdf-devel
         - qt5-devel
         - qt5-qtbase-doc
+        - qt5-qtbase-private-devel
+        - qt5-qtbase-static
         - qt5-qtwayland-devel
         - qt-devel
         - quota-devel
