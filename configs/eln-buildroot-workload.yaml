@@ -520,7 +520,6 @@ data:
         - libotf-devel
         - libpaper-devel
         - libpath_utils-devel
-        - libpcap-devel
         - libpciaccess-devel
         - libpeas-devel
         - libphonenumber-devel
@@ -541,6 +540,7 @@ data:
         - libsigc++20-devel
         - libsigsegv-devel
         - libslirp-devel
+        - libsmartcols-devel
         - libsndfile-devel
         - libspectre-devel
         - libspf2-devel
@@ -1028,6 +1028,7 @@ data:
         - python3-hypothesis
         - python3-isort
         - python3-jinja2
+        - python3-libmount
         - python3-libvoikko
         - python3-mallard-ducktype
         - python3-marisa
