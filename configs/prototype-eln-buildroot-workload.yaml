@@ -861,7 +861,6 @@ data:
         - mftrace
         - miniz-devel
         - mobile-broadband-provider-info-devel
-        - mocha
         - mockito
         - modello
         - ModemManager-glib-devel
@@ -957,7 +956,6 @@ data:
         - nodejs-is-object
         - nodejs-is-regex
         - nodejs-is-symbol
-        - nodejs-jade
         - nodejs-jsonify
         - nodejs-less
         - nodejs-less-plugin-clean-css
@@ -981,7 +979,6 @@ data:
         - nodejs-path-is-absolute
         - nodejs-process-nextick-args
         - nodejs-promise
-        - nodejs-promises-aplus-tests
         - nodejs-proxyquire
         - nodejs-readable-stream
         - nodejs-readdirp
@@ -2134,7 +2131,6 @@ data:
         - ttembed
         - ttfautohint
         - uchardet-devel
-        - uglify-js
         - uglify-js1
         - uhttpmock-devel
         - uid_wrapper
