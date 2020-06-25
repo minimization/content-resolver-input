@@ -39,8 +39,6 @@ data:
         - apache-sshd
         - apiguardian
         - apiviz
-        - apr-devel
-        - apr-util-devel
         - aqute-bnd
         - aspell-devel
         - aspell-en
@@ -519,7 +517,6 @@ data:
         - hiredis-devel
         - hsqldb-lib
         - httpcomponents-project
-        - httpd-devel
         - http-parser-devel
         - hunspell-cs
         - hunspell-de
@@ -777,7 +774,6 @@ data:
         - libudisks2-devel
         - libuninameslist-devel
         - libunistring-devel
-        - libunwind-devel
         - libusbauth-configparser-devel
         - libusb-devel
         - libusbmuxd-devel
