@@ -627,7 +627,6 @@ data:
         - meson
         - mftrace
         - mobile-broadband-provider-info-devel
-        - mocha
         - mockito
         - modello
         - ModemManager-glib-devel
@@ -693,7 +692,6 @@ data:
         - nodejs-inherits1
         - nodejs-isarray
         - nodejs-is-object
-        - nodejs-jade
         - nodejs-merge-descriptors
         - nodejs-minimatch
         - nodejs-mkdirp
@@ -704,7 +702,6 @@ data:
         - nodejs-path-is-absolute
         - nodejs-process-nextick-args
         - nodejs-promise
-        - nodejs-promises-aplus-tests
         - nodejs-proxyquire
         - nodejs-readable-stream
         - nodejs-readdirp
@@ -1244,7 +1241,6 @@ data:
         - ttembed
         - ttfautohint
         - uchardet-devel
-        - uglify-js
         - uglify-js1
         - uid_wrapper
         - umockdev-devel
