@@ -1107,6 +1107,7 @@ data:
         - rubygem-docile
         - rubygem-erubi
         - rubygem-ethon
+        - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
         - rubygem-ffi
