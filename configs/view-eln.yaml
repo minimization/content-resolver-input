@@ -75,6 +75,15 @@ data:
   # be pulled into a RHEL-like environment.
   - python3.6
 
+  # Miro Hrončok:
+  # The older Python version might accidentally be pulled in by not yet rebuilt packages
+  - python3.8
+  # Python Maint prefers the standard library venv module
+  - python3-virtualenv
+  # deprected() Python packages:
+  - python3-nose
+  - python3-pytest4
+
   # Radek Vykydal:
   # system-config-kickstart has been deprecated upstream, it has not
   # been ported to Python 3, and shouldn't have been included in RHEL 8.
