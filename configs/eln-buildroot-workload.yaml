@@ -34,8 +34,6 @@ data:
         - apache-ivy
         - apache-sshd
         - apiguardian
-        - apr-devel
-        - apr-util-devel
         - aqute-bnd
         - aspell-devel
         - aspell-en
@@ -106,7 +104,6 @@ data:
         - device-mapper-devel
         - device-mapper-event-devel
         - disruptor
-        - dleyna-core-devel
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
@@ -342,16 +339,13 @@ data:
         - guava-testlib
         - guile22-devel
         - guile-devel
-        - gupnp-av-devel
         - gupnp-devel
-        - gupnp-dlna-devel
         - gupnp-igd-devel
         - hamcrest
         - help2man
         - hidapi-devel
         - hsqldb-lib
         - httpcomponents-project
-        - httpd-devel
         - http-parser-devel
         - hunspell-cs
         - hunspell-de
@@ -370,7 +364,6 @@ data:
         - ImageMagick-devel
         - ImageMagick-perl
         - imlib2-devel
-        - IPAddress
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
@@ -563,7 +556,6 @@ data:
         - libudisks2-devel
         - libuninameslist-devel
         - libunistring-devel
-        - libunwind-devel
         - libusbauth-configparser-devel
         - libusb-devel
         - libusbmuxd-devel
@@ -1069,7 +1061,6 @@ data:
         - regexp
         - replacer
         - rest-devel
-        - rhino
         - rmt
         - rpcgen
         - rpm-ostree-devel
