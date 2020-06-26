@@ -1,0 +1,92 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted ELN packages
+  description: Various unwanted packages. See comments in the config for more detail.
+  maintainer: bakery
+  labels:
+    - eln
+
+  ###  Unwanted packages in ELN  ###
+  #
+  # Before using this list, please consider your own exclusion list
+  # such as "sst_cs_software_management-unwanted.yaml" as an example.
+  # This helps track ownership better, as you can set the maintainer
+  # field to represent you or your team.
+  #
+  # When adding a package to the following list, please include your
+  # name and the reason of why are you listing it.
+
+  unwanted_packages:
+  
+  # Josh Boyer: Drop R from ELN to see what the fallout is.
+  - R
+  
+  # Enterprise doesn't support btrfs
+  - btrfs-progs
+  - btrfs-progs-devel
+
+  # Justin Forbes: These packages are subpackages of the ARK kernel
+  # in ELN, but separate packages in Fedora. We need to make sure that 
+  # we are using the packages from the kernel packages in ELN.
+  - kernel-headers
+  - kernel-tools
+  
+  # Josh Boyer: Mono hasn't been carried in RHEL and there are
+  # no plans to add it. Exclude it from ELN for now.
+  - mono-core
+  - mono-devel
+  - monodoc
+  - monodoc-devel
+  
+  # Troy Dawson
+  - xen
+  - xen-devel
+  - xen-hypervisor
+  - xen-libs
+  - xen-licenses
+  - xen-ocaml
+  - xen-ocaml-devel
+  - xen-runtime
+  - xen-doc
+
+  # Simo Sorce: The packages added in this PR are unwanted either
+  # because they are bad cryptography implementation, unmaintained,
+  # or simply not certifiable or redundant (same functionality
+  # already present in multiple crypto packages already and we do
+  # not want to add more).
+  # More info in PR 15
+  - libsodium
+  - libssh2
+  - libtomcrypt
+  - python2-pycryptodomex
+  - python3-ecdsa
+  - python3-pycryptodomex
+
+  # Vít Ondruch: rubygems is subpackage of ruby package and therefore
+  # the independent version is not needed. rubypick is not needed and
+  # there is %bcond_without to disable it
+  - rubygems
+  - rubypick
+
+  # Petr Viktorin:
+  # Python 2.7 not maintained upstream, and marked as deprecated()
+  # in Fedora.
+  - python2.7
+  # Python 3.6 is quickly becoming obsolete, and might presumably
+  # be pulled into a RHEL-like environment.
+  - python3.6
+
+  # Miro Hrončok:
+  # The older Python version might accidentally be pulled in by not yet rebuilt packages
+  - python3.8
+  # Python Maint prefers the standard library venv module
+  - python3-virtualenv
+  # deprected() Python packages:
+  - python3-nose
+  - python3-pytest4
+
+  # Radek Vykydal:
+  # system-config-kickstart has been deprecated upstream, it has not
+  # been ported to Python 3, and shouldn't have been included in RHEL 8.
+  - system-config-kickstart

@@ -9,3 +9,12 @@ data:
   - eln
   - prototype-eln-buildroot
   repository: repository-fedora-rawhide
+
+
+  ###  Unwanted packages in ELN  ###
+  #
+  # The list has moved to the "view-eln-and-buildroot.yaml" file,
+  # because that way we can have just one file included into all the
+  # various ELN views.
+  #
+  # So please use "view-eln-and-buildroot.yaml" instead.
