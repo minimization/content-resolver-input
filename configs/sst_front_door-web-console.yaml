@@ -5,8 +5,7 @@ data:
   description: Cockpit basic packages and supported applications
   maintainer: sst_front_door
   labels:
-    - cockpit
-    - web-console
+    - eln
 
   packages:
     # meta-package for the basic stuff (web server, bridge, core pages)
