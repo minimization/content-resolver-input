@@ -541,6 +541,7 @@ data:
         - ivy-local
         - jack-audio-connection-kit-devel
         - jacop
+        - jakarta-annotations
         - jakarta-oro
         - janino
         - jansson-devel
