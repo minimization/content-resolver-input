@@ -541,7 +541,6 @@ data:
         - ivy-local
         - jack-audio-connection-kit-devel
         - jacop
-        - jakarta-annotations
         - jakarta-oro
         - janino
         - jansson-devel
@@ -557,7 +556,6 @@ data:
         - javapackages-local
         - javaparser
         - jaxen
-        - jbig2dec-devel
         - jbigkit-devel
         - jboss-el-2.2-api
         - jboss-jsp-2.2-api
@@ -594,7 +592,6 @@ data:
         - kyua
         - ladspa-devel
         - latex2html
-        - lcms2-devel
         - ldns-devel
         - leptonica-devel
         - liba52-devel
