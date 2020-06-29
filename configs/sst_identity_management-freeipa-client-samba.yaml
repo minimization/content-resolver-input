@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Client - Samba domain member
+  description: Samba domain member on FreeIPA client
+  maintainer: sst_identity_management
+
+  packages:
+  - freeipa-client
+  - freeipa-client-samba
+
+  labels:
+  - eln
