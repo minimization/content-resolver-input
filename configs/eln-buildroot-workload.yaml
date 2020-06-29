@@ -12,7 +12,6 @@ data:
     repositories:
         - repository-fedora-eln
     packages:
-        - 
     arch_packages:
         aarch64:
         ppc64le:
