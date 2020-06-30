@@ -887,7 +887,6 @@ data:
         - netpbm-progs
         - NetworkManager-libnm-devel
         - ninja-build
-        - nodejs-abbrev
         - nodejs-acorn
         - nodejs-ansi-regex
         - nodejs-ansi-styles
@@ -915,7 +914,6 @@ data:
         - nodejs-debug
         - nodejs-deep-eql
         - nodejs-deep-equal
-        - nodejs-defined
         - nodejs-define-properties
         - nodejs-devel
         - nodejs-diff
@@ -925,11 +923,9 @@ data:
         - nodejs-escape-string-regexp
         - nodejs-es-to-primitive
         - nodejs-events-to-array
-        - nodejs-expect-dot-js
         - nodejs-fill-keys
         - nodejs-for-each
         - nodejs-foreach
-        - nodejs-from
         - nodejs-function-bind
         - nodejs-glob
         - nodejs-graceful-fs
@@ -939,12 +935,10 @@ data:
         - nodejs-has-ansi
         - nodejs-has-color
         - nodejs-has-flag
-        - nodejs-hashish
         - nodejs-has-symbols
         - nodejs-image-size
         - nodejs-inflight
         - nodejs-inherits
-        - nodejs-inherits1
         - nodejs-is
         - nodejs-isarray
         - nodejs-is-callable
@@ -959,9 +953,6 @@ data:
         - nodejs-make-arrow-function
         - nodejs-make-generator-function
         - nodejs-merge-descriptors
-        - nodejs-mime
-        - nodejs-mime-db
-        - nodejs-mime-types
         - nodejs-minimatch
         - nodejs-minimist
         - nodejs-mkdirp
@@ -972,7 +963,6 @@ data:
         - nodejs-object-is
         - nodejs-object-keys
         - nodejs-once
-        - nodejs-optimist
         - nodejs-path-is-absolute
         - nodejs-process-nextick-args
         - nodejs-promise
@@ -980,7 +970,6 @@ data:
         - nodejs-readable-stream
         - nodejs-readdirp
         - nodejs-require-uncached
-        - nodejs-resolve
         - nodejs-resolve-from
         - nodejs-resumer
         - nodejs-rimraf
@@ -996,21 +985,17 @@ data:
         - nodejs-sinon
         - nodejs-slide
         - nodejs-source-map
-        - nodejs-sprintf-js
         - nodejs-string_decoder
         - nodejs-string-dot-prototype-dot-trim
         - nodejs-strip-ansi
         - nodejs-supports-color
         - nodejs-tap
         - nodejs-tape
-        - nodejs-through
         - nodejs-through2
         - nodejs-traverse
         - nodejs-type-detect
         - nodejs-underscore
-        - nodejs-underscore-dot-string
         - nodejs-util-deprecate
-        - nodejs-wordwrap
         - nodejs-wrappy
         - nodejs-yamlish
         - nodeunit
@@ -1153,7 +1138,6 @@ data:
         - perl-Devel-CheckLib
         - perl-Devel-Cycle
         - perl-Devel-Declare
-        - perl-Devel-EnforceEncapsulation
         - perl-Devel-FindPerl
         - perl-Devel-Hide
         - perl-Devel-Leak
@@ -1328,7 +1312,6 @@ data:
         - perl-Perl-Critic-Deprecated
         - perl-Perl-Critic-Itch
         - perl-Perl-Critic-Lax
-        - perl-Perl-Critic-More
         - perl-Perl-Critic-Pulp
         - perl-Perl-Destruct-Level
         - perl-Perl-Metrics-Simple
@@ -1663,7 +1646,7 @@ data:
         - php-phpunit-php-text-template2
         - php-phpunit-PHP-Timer
         - php-phpunit-php-timer2
-        - php-phpunit-php-timer3
+        - php-phpunit-php-timer5
         - php-phpunit-PHP-TokenStream
         - php-phpunit-php-token-stream2
         - php-phpunit-php-token-stream3
@@ -1942,7 +1925,6 @@ data:
         - rubygem-irb
         - rubygem-jbuilder
         - rubygem-jquery-rails
-        - rubygem-json
         - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-launchy
