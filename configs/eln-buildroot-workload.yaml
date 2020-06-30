@@ -74,6 +74,7 @@ data:
         - codemodel
         - cogl-devel
         - colord-devel
+        - colord-gtk-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-guile18-devel
         - compat-lua
@@ -409,6 +410,7 @@ data:
         - libixion-devel
         - libkkc-devel
         - libknet1-devel
+        - libksba-devel
         - liblangtag-devel
         - libldb-devel
         - liblouis-devel
@@ -469,6 +471,7 @@ data:
         - libtool-ltdl-devel
         - libuninameslist-devel
         - libunistring-devel
+        - libusb-devel
         - libusbmuxd-devel
         - libutempter-devel
         - libvala-devel
@@ -547,6 +550,7 @@ data:
         - ninja-build
         - nodejs-devel
         - npm
+        - npth-devel
         - nss_wrapper
         - ntfs-3g-devel
         - objenesis
@@ -661,6 +665,7 @@ data:
         - rubygem-coffee-script
         - rubygem-coffee-script-source
         - rubygem-concurrent-ruby
+        - rubygem-connection_pool
         - rubygem-contracts
         - rubygem-crack
         - rubygem-crass
@@ -680,11 +685,13 @@ data:
         - rubygem-haml
         - rubygem-hashdiff
         - rubygem-hashery
+        - rubygem-i18n
         - rubygem-introspection
         - rubygem-io-console
         - rubygem-irb
         - rubygem-json_pure
         - rubygem-liquid
+        - rubygem-listen
         - rubygem-loofah
         - rubygem-maruku
         - rubygem-memcache-client
@@ -716,6 +723,7 @@ data:
         - rubygem-rails-dom-testing
         - rubygem-rake
         - rubygem-rake-compiler
+        - rubygem-rb-inotify
         - rubygem-rdiscount
         - rubygem-rdoc
         - rubygem-redcarpet
@@ -744,6 +752,7 @@ data:
         - rubygem-sqlite3
         - rubygem-temple
         - rubygem-test_construct
+        - rubygem-test_declarative
         - rubygem-test-unit
         - rubygem-thin
         - rubygem-thor
@@ -752,6 +761,7 @@ data:
         - rubygem-timecop
         - rubygem-ttfunk
         - rubygem-typhoeus
+        - rubygem-tzinfo
         - rubygem-webmock
         - rubygem-yard
         - rubygem-ZenTest
