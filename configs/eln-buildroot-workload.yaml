@@ -69,6 +69,8 @@ data:
         - clutter-devel
         - clutter-gst3-devel
         - clutter-gtk-devel
+        - cmake
+        - cmake-rpm-macros
         - codemodel
         - cogl-devel
         - colord-devel
@@ -89,6 +91,7 @@ data:
         - docbook-style-dsssl
         - docbook-utils
         - dom4j
+        - dotconf-devel
         - double-conversion-devel
         - doxygen
         - drpm-devel
@@ -99,6 +102,7 @@ data:
         - emacs
         - enchant2-devel
         - enchant-devel
+        - espeak-ng-devel
         - evolution-devel
         - exec-maven-plugin
         - exempi-devel
@@ -115,6 +119,7 @@ data:
         - flac-devel
         - flatpak-devel
         - flex-devel
+        - flite-devel
         - fmt-devel
         - fontforge
         - fontforge-devel
@@ -238,14 +243,18 @@ data:
         - ghc-transformers-compat-prof
         - ghc-unbounded-delays-prof
         - ghc-unordered-containers-prof
+        - ghc-utf8-string-prof
         - ghc-uuid-types-prof
         - ghc-vector-prof
         - ghc-x509-prof
+        - ghc-x509-store-prof
         - ghc-x509-system-prof
         - ghc-x509-validation-prof
         - ghc-xml-prof
         - ghc-zip-archive-prof
+        - ghc-zlib-prof
         - giflib-devel
+        - glade-devel
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
@@ -263,6 +272,7 @@ data:
         - glibc-static
         - glm-devel
         - gmock-devel
+        - gnome-autoar-devel
         - gnome-common
         - gnome-doc-utils
         - gnome-settings-daemon-devel
@@ -282,6 +292,7 @@ data:
         - gsm-devel
         - gtest-devel
         - gtkspell3-devel
+        - gtk-vnc2-devel
         - guile22-devel
         - gupnp-devel
         - gupnp-igd-devel
@@ -350,6 +361,7 @@ data:
         - latex2html
         - ldns-devel
         - liba52-devel
+        - libao-devel
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
@@ -489,6 +501,7 @@ data:
         - lvm2-devel
         - m17n-db-extras
         - malaga
+        - marisa-devel
         - maven-antrun-plugin
         - maven-assembly-plugin
         - maven-clean-plugin
@@ -591,6 +604,7 @@ data:
         - python3-libmount
         - python3-libvoikko
         - python3-mallard-ducktype
+        - python3-marisa
         - python3-markdown
         - python3-mock
         - python3-munkres
@@ -624,10 +638,12 @@ data:
         - rpm-ostree-devel
         - rsh
         - rtl-sdr-devel
+        - ruby-devel
         - rubygem-actionpack
         - rubygem-actionview
         - rubygem-activemodel
         - rubygem-activerecord
+        - rubygem-activesupport
         - rubygem-addressable
         - rubygem-afm
         - rubygem-arel
@@ -637,6 +653,7 @@ data:
         - rubygem-bacon
         - rubygem-bcrypt
         - rubygem-builder
+        - rubygem-bundler
         - rubygem-byebug
         - rubygem-childprocess
         - rubygem-chronic
@@ -664,6 +681,8 @@ data:
         - rubygem-hashdiff
         - rubygem-hashery
         - rubygem-introspection
+        - rubygem-io-console
+        - rubygem-irb
         - rubygem-json_pure
         - rubygem-liquid
         - rubygem-loofah
@@ -698,6 +717,7 @@ data:
         - rubygem-rake
         - rubygem-rake-compiler
         - rubygem-rdiscount
+        - rubygem-rdoc
         - rubygem-redcarpet
         - rubygem-RedCloth
         - rubygem-ronn
@@ -714,6 +734,7 @@ data:
         - rubygem-ruby-rc4
         - rubygem-safe_yaml
         - rubygem-sassc
+        - rubygems-devel
         - rubygem-session
         - rubygem-shindo
         - rubygem-simplecov
@@ -758,6 +779,7 @@ data:
         - spec-version-maven-plugin
         - speex-devel
         - speexdsp-devel
+        - spice-gtk3-devel
         - spice-parent
         - spice-protocol
         - sratom-devel
@@ -805,6 +827,8 @@ data:
         - xmlunit-legacy
         - xmlunit-matchers
         - xorg-sgml-doctools
+        - xorg-x11-server-devel
+        - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
         - xpp3
@@ -816,14 +840,12 @@ data:
             - efivar-devel
             - gnu-efi
             - lame-devel
-            - libao-devel
             - libfprint-devel
             - libmad-devel
             - libraw1394-devel
             - python3-libpamtest
         ppc64le:
             - lame-devel
-            - libao-devel
             - libfprint-devel
             - libmad-devel
             - libraw1394-devel
@@ -835,7 +857,6 @@ data:
             - efivar-devel
             - gnu-efi
             - lame-devel
-            - libao-devel
             - libfprint-devel
             - libmad-devel
             - libraw1394-devel
