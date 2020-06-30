@@ -73,6 +73,7 @@ data:
         - cogl-devel
         - colord-devel
         - compat-golang-github-russross-blackfriday-2-devel
+        - compat-guile18-devel
         - compat-lua
         - cppunit-devel
         - cracklib-devel
@@ -595,6 +596,7 @@ data:
         - python3-munkres
         - python3-pywbem
         - python3-pyxattr
+        - python3-rdflib
         - python3-scons
         - python3-setuptools_scm
         - python3-sphinx
@@ -782,6 +784,7 @@ data:
         - univocity-output-tester
         - univocity-parsers
         - upower-devel
+        - userspace-rcu-devel
         - vala
         - vte291-devel
         - web-assets-devel
