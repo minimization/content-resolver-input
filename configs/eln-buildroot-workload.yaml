@@ -885,18 +885,24 @@ data:
         - zchunk-devel
     arch_packages:
         aarch64:
+            - brasero-devel
             - efivar-devel
             - gnu-efi
             - lame-devel
             - libfprint-devel
+            - libgpod-devel
             - libmad-devel
+            - libmtp-devel
             - libraw1394-devel
             - python3-libpamtest
             - umockdev
         ppc64le:
+            - brasero-devel
             - lame-devel
             - libfprint-devel
+            - libgpod-devel
             - libmad-devel
+            - libmtp-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog-devel
@@ -904,11 +910,14 @@ data:
             - umockdev
         s390x:
         x86_64:
+            - brasero-devel
             - efivar-devel
             - gnu-efi
             - lame-devel
             - libfprint-devel
+            - libgpod-devel
             - libmad-devel
+            - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
             - libXvMC-devel
