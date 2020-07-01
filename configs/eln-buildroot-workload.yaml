@@ -853,6 +853,7 @@ data:
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
+        - tracker-devel
         - trousers-devel
         - ttembed
         - ttfautohint
