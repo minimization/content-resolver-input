@@ -14,6 +14,8 @@ data:
     packages:
         - 389-ds-base-devel
         - accountsservice-devel
+        - adobe-mappings-cmap-devel
+        - adobe-mappings-pdf-devel
         - amtk-devel
         - ant-apache-xalan2
         - ant-contrib
@@ -36,6 +38,7 @@ data:
         - assertj-core
         - assimp-devel
         - atf-tests
+        - atkmm-devel
         - augeas-devel
         - autoconf-archive
         - autogen
@@ -134,6 +137,7 @@ data:
         - fuse-devel
         - fusesource-pom
         - fwupd-devel
+        - gamin-devel
         - gavl-devel
         - gc-devel
         - GConf2-devel
@@ -257,6 +261,7 @@ data:
         - ghc-xml-prof
         - ghc-zip-archive-prof
         - ghc-zlib-prof
+        - ghostscript-core
         - giflib-devel
         - gimp-devel
         - glade-devel
@@ -276,6 +281,7 @@ data:
         - glibc-langpack-pt
         - glibc-locale-source
         - glibc-static
+        - glibmm24-devel
         - glm-devel
         - gmock-devel
         - gnome-autoar-devel
@@ -295,9 +301,13 @@ data:
         - graphene-devel
         - graphviz-devel
         - grilo-devel
+        - groff
         - gsl-devel
         - gsm-devel
+        - gspell-devel
         - gtest-devel
+        - gtkmm30-devel
+        - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
         - guile22-devel
@@ -339,6 +349,7 @@ data:
         - javamail
         - javapackages-local
         - jaxen
+        - jbig2dec-devel
         - jbigkit-devel
         - jboss-el-2.2-api
         - jboss-jsp-2.2-api
@@ -363,6 +374,7 @@ data:
         - junit5
         - jzlib
         - kmod-devel
+        - krb5-server
         - kyua
         - ladspa-devel
         - latex2html
@@ -405,6 +417,7 @@ data:
         - libgit2-devel
         - libgovirt-devel
         - libgphoto2-devel
+        - libgs-devel
         - libgsf-devel
         - libgtop2-devel
         - libgudev-devel
@@ -453,6 +466,7 @@ data:
         - liboauth-devel
         - libogg-devel
         - libotf-devel
+        - libpaper-devel
         - libpath_utils-devel
         - libpciaccess-devel
         - libphonenumber-devel
@@ -591,6 +605,7 @@ data:
         - ostree-devel
         - PackageKit-glib-devel
         - pandoc
+        - pangomm-devel
         - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
@@ -609,6 +624,7 @@ data:
         - protobuf-compiler
         - protobuf-devel
         - psl-make-dafsa
+        - psutils
         - python2-setuptools
         - python3-breathe
         - python3-brotli
@@ -836,6 +852,7 @@ data:
         - univocity-output-tester
         - univocity-parsers
         - upower-devel
+        - urw-base35-fonts-devel
         - userspace-rcu-devel
         - vala
         - vte291-devel
