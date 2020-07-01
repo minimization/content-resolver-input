@@ -263,7 +263,6 @@ data:
         - ghc-data-default-prof
         - ghc-deepseq-devel
         - ghc-deepseq-prof
-        - ghc-Diff-prof
         - ghc-directory-devel
         - ghc-directory-prof
         - ghc-dlist-prof
@@ -305,7 +304,6 @@ data:
         - ghc-pandoc-types-prof
         - ghc-parsec-prof
         - ghc-pem-prof
-        - ghc-pretty-prof
         - ghc-primitive-prof
         - ghc-process-devel
         - ghc-process-prof
@@ -315,7 +313,6 @@ data:
         - ghc-random-prof
         - ghc-regex-base-prof
         - ghc-regex-pcre-prof
-        - ghc-regex-tdfa-prof
         - ghc-rpm-macros
         - ghc-rpm-macros-extra
         - ghc-safe-prof
@@ -2052,7 +2049,6 @@ data:
         - serd-devel
         - sg3_utils-devel
         - sharutils
-        - ShellCheck
         - shrinkwrap-impl-base
         - sisu-mojos
         - slf4j-ext
