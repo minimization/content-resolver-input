@@ -24,6 +24,7 @@ data:
         - antlr-tool
         - ant-testutil
         - apache-commons-beanutils
+        - apache-commons-collections-testframework
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
@@ -56,6 +57,7 @@ data:
         - bind-lite-devel
         - bind-pkcs11-devel
         - bluez-libs-devel
+        - bnd-maven-plugin
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -310,6 +312,7 @@ data:
         - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
+        - guava-testlib
         - guile22-devel
         - gupnp-devel
         - gupnp-igd-devel
@@ -348,6 +351,7 @@ data:
         - javaewah
         - javamail
         - javapackages-local
+        - javaparser
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -358,6 +362,7 @@ data:
         - jboss-parent
         - jboss-servlet-3.0-api
         - jcip-annotations
+        - jctools
         - jdepend
         - jdependency
         - jdom
