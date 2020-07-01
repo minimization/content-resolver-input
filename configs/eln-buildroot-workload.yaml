@@ -62,6 +62,7 @@ data:
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
+        - brlapi-devel
         - bsdtar
         - btrfs-progs-devel
         - buildnumber-maven-plugin
