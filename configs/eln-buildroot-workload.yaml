@@ -25,6 +25,7 @@ data:
         - ant-testutil
         - apache-commons-beanutils
         - apache-commons-collections-testframework
+        - apache-commons-daemon
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
@@ -105,6 +106,7 @@ data:
         - doxygen
         - drpm-devel
         - easymock
+        - ecj
         - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland-devel
