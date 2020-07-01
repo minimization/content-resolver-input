@@ -846,6 +846,7 @@ data:
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - trousers-devel
+        - ttembed
         - ttfautohint
         - umockdev-devel
         - unbound-devel
