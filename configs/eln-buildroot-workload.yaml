@@ -17,6 +17,7 @@ data:
         - amtk-devel
         - ant-apache-xalan2
         - ant-contrib
+        - anthy-devel
         - ant-junit
         - antlr-tool
         - ant-testutil
@@ -38,6 +39,7 @@ data:
         - augeas-devel
         - autoconf-archive
         - autogen
+        - autogen-libopts-devel
         - autotrace
         - avahi-devel
         - avahi-glib-devel
@@ -83,6 +85,7 @@ data:
         - cryptsetup-devel
         - cscope
         - CUnit-devel
+        - datefudge
         - dblatex
         - dconf-devel
         - dejagnu
@@ -255,11 +258,13 @@ data:
         - ghc-zip-archive-prof
         - ghc-zlib-prof
         - giflib-devel
+        - gimp-devel
         - glade-devel
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
         - glassfish-servlet-api
+        - glew-devel
         - glibc-langpack-am
         - glibc-langpack-ar
         - glibc-langpack-cs
@@ -286,6 +291,7 @@ data:
         - go-rpm-macros
         - gperf
         - gpgme-devel
+        - gphoto2
         - graphene-devel
         - graphviz-devel
         - grilo-devel
@@ -398,14 +404,18 @@ data:
         - libgexiv2-devel
         - libgit2-devel
         - libgovirt-devel
+        - libgphoto2-devel
+        - libgsf-devel
         - libgtop2-devel
         - libgudev-devel
         - libgusb-devel
+        - libgxps-devel
         - libidn-devel
         - libijs-devel
         - libimobiledevice-devel
         - libini_config-devel
         - libinput-devel
+        - libiptcdata-devel
         - libisofs-devel
         - libixion-devel
         - libkkc-devel
@@ -442,6 +452,7 @@ data:
         - libntlm-devel
         - liboauth-devel
         - libogg-devel
+        - libotf-devel
         - libpath_utils-devel
         - libpciaccess-devel
         - libphonenumber-devel
@@ -469,6 +480,7 @@ data:
         - libtdb-devel
         - libtirpc-devel
         - libtool-ltdl-devel
+        - libudisks2-devel
         - libuninameslist-devel
         - libunistring-devel
         - libusb-devel
@@ -499,10 +511,14 @@ data:
         - lockdev-devel
         - log4j
         - lua-devel
+        - lua-lunit
         - lutok-devel
         - lv2-devel
         - lvm2-devel
+        - lynx
+        - m17n-db-devel
         - m17n-db-extras
+        - m17n-lib-devel
         - malaga
         - marisa-devel
         - maven-antrun-plugin
@@ -796,6 +812,7 @@ data:
         - stax2-api
         - sysprof-devel
         - t1utils
+        - taglib-devel
         - tclx-devel
         - tcsh
         - teamd-devel
@@ -812,6 +829,9 @@ data:
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
+        - trousers-devel
+        - ttfautohint
+        - umockdev-devel
         - unbound-devel
         - univocity-output-tester
         - univocity-parsers
@@ -854,6 +874,7 @@ data:
             - libmad-devel
             - libraw1394-devel
             - python3-libpamtest
+            - umockdev
         ppc64le:
             - lame-devel
             - libfprint-devel
@@ -862,6 +883,7 @@ data:
             - librtas-devel
             - libservicelog-devel
             - python3-libpamtest
+            - umockdev
         s390x:
         x86_64:
             - efivar-devel
@@ -874,3 +896,4 @@ data:
             - libXvMC-devel
             - mesa-libxatracker-devel
             - python3-libpamtest
+            - umockdev
