@@ -918,6 +918,62 @@ data:
             - python3-libpamtest
             - umockdev
         s390x:
+            - codehaus-parent
+            - efl-devel
+            - felix-gogo-parent
+            - felix-gogo-runtime
+            - felix-osgi-obr
+            - felix-shell
+            - gtkmm24-devel
+            - jack-audio-connection-kit-devel
+            - kxml
+            - libappindicator-devel
+            - libmikmod-devel
+            - libmodplug-devel
+            - nodejs-balanced-match
+            - nodejs-brace-expansion
+            - nodejs-buffer-equal
+            - nodejs-bunker
+            - nodejs-caller-path
+            - nodejs-charm
+            - nodejs-concat-map
+            - nodejs-core-util-is
+            - nodejs-deep-equal
+            - nodejs-difflet
+            - nodejs-graceful-fs
+            - nodejs-has-ansi
+            - nodejs-inherits
+            - nodejs-isarray
+            - nodejs-is-object
+            - nodejs-minimatch
+            - nodejs-mkdirp
+            - nodejs-nopt
+            - nodejs-once
+            - nodejs-process-nextick-args
+            - nodejs-readable-stream
+            - nodejs-rimraf
+            - nodejs-runforcover
+            - nodejs-safe-buffer
+            - nodejs-samsam
+            - nodejs-set-immediate-shim
+            - nodejs-sinon
+            - nodejs-string_decoder
+            - nodejs-strip-ansi
+            - nodejs-supports-color
+            - nodejs-tap
+            - nodejs-through2
+            - nodejs-traverse
+            - nodejs-util-deprecate
+            - nodejs-wrappy
+            - nodejs-yamlish
+            - nodeunit
+            - physfs-devel
+            - python3-astroid
+            - python3-isort
+            - python3-mccabe
+            - python3-pytest-runner
+            - tinyxml2-devel
+            - xpp3-minimal
         x86_64:
             - brasero-devel
             - efivar-devel
