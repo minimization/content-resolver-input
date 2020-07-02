@@ -449,6 +449,7 @@ data:
         - libmbim-devel
         - libmediaart-devel
         - libmemcached-devel
+        - libmetalink-devel
         - libmicrohttpd-devel
         - libmng-devel
         - libmnl-devel
