@@ -336,6 +336,9 @@ data:
         - icon-naming-utils
         - ilmbase-devel
         - ima-evm-utils-devel
+        - ImageMagick
+        - ImageMagick-c++-devel
+        - ImageMagick-devel
         - imlib2-devel
         - isns-utils-devel
         - ivy-local
@@ -442,6 +445,7 @@ data:
         - liblangtag-devel
         - libldb-devel
         - liblouis-devel
+        - liblqr-1-devel
         - libmarkdown-devel
         - libmaxminddb-devel
         - libmbim-devel
@@ -480,6 +484,7 @@ data:
         - libpwquality-devel
         - libqb-devel
         - libqmi-devel
+        - LibRaw-devel
         - librevenge-devel
         - libsamplerate-devel
         - libsass
@@ -510,6 +515,7 @@ data:
         - libvoikko-devel
         - libvorbis-devel
         - libwacom-devel
+        - libwmf-devel
         - libwpd-devel
         - libwpe-devel
         - libwpg-devel
@@ -598,6 +604,7 @@ data:
         - ocaml-xml-light-devel
         - oniguruma-devel
         - openchange-devel
+        - OpenEXR-devel
         - openjpeg2-devel
         - opensmtpd
         - opensp
@@ -888,21 +895,15 @@ data:
     arch_packages:
         aarch64:
             - brasero-devel
-            - dbus-c++-devel
             - efivar-devel
-            - efl-devel
             - gnu-efi
-            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
-            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
-            - libxml++-devel
             - python3-libpamtest
-            - python3-rpm-macros
             - umockdev
         ppc64le:
             - brasero-devel
