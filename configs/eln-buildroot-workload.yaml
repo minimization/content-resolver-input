@@ -25,7 +25,6 @@ data:
         - ant-testutil
         - apache-commons-beanutils
         - apache-commons-collections-testframework
-        - apache-commons-daemon
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
@@ -35,6 +34,8 @@ data:
         - apache-sshd
         - apiguardian
         - aqute-bnd
+        - aqute-bndlib
+        - args4j
         - aspell-devel
         - aspell-en
         - assertj-core
@@ -58,7 +59,6 @@ data:
         - bind-lite-devel
         - bind-pkcs11-devel
         - bluez-libs-devel
-        - bnd-maven-plugin
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -80,7 +80,6 @@ data:
         - clutter-gtk-devel
         - cmake
         - cmake-rpm-macros
-        - codemodel
         - cogl-devel
         - colord-devel
         - colord-gtk-devel
@@ -97,7 +96,6 @@ data:
         - dconf-devel
         - dejagnu
         - device-mapper-devel
-        - disruptor
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
@@ -122,8 +120,10 @@ data:
         - exiv2-devel
         - expect
         - f32-backgrounds-kde
+        - fasterxml-oss-parent
         - fcode-utils
         - felix-parent
+        - felix-utils
         - fftw-devel
         - file-devel
         - findbugs
@@ -150,12 +150,9 @@ data:
         - gdlmm-devel
         - gdm-devel
         - geoclue2-devel
-        - geronimo-jaxrpc
         - geronimo-jms
         - geronimo-jpa
-        - geronimo-osgi-support
         - geronimo-parent-poms
-        - geronimo-saaj
         - ghc-aeson-pretty-prof
         - ghc-aeson-prof
         - ghc-ansi-terminal-prof
@@ -270,6 +267,8 @@ data:
         - giflib-devel
         - gimp-devel
         - glade-devel
+        - glassfish-jaxb-api
+        - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
@@ -315,7 +314,6 @@ data:
         - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
-        - guava-testlib
         - guile22-devel
         - gupnp-devel
         - gupnp-igd-devel
@@ -342,6 +340,13 @@ data:
         - imlib2-devel
         - isns-utils-devel
         - ivy-local
+        - jackson-annotations
+        - jackson-bom
+        - jackson-core
+        - jackson-databind
+        - jackson-parent
+        - jakarta-activation
+        - jakarta-commons-httpclient
         - jakarta-oro
         - jansson-devel
         - jasper-devel
@@ -354,18 +359,12 @@ data:
         - javaewah
         - javamail
         - javapackages-local
-        - javaparser
+        - javassist
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
-        - jboss-el-2.2-api
-        - jboss-jsp-2.2-api
-        - jboss-logmanager
-        - jboss-modules
         - jboss-parent
-        - jboss-servlet-3.0-api
         - jcip-annotations
-        - jctools
         - jdepend
         - jdependency
         - jdom
@@ -374,12 +373,11 @@ data:
         - jFormatString
         - jgit
         - jitterentropy-devel
-        - jmock-junit4
-        - jmock-legacy
         - jna-contrib
         - jsch
         - json-c-devel
         - junit5
+        - jvnet-parent
         - jzlib
         - kmod-devel
         - krb5-server
@@ -531,7 +529,6 @@ data:
         - libzip-devel
         - lilypond
         - lockdev-devel
-        - log4j
         - lua-devel
         - lua-lunit
         - lutok-devel
@@ -554,12 +551,14 @@ data:
         - maven-invoker
         - maven-invoker-plugin
         - maven-local
+        - maven-plugin-build-helper
+        - maven-plugin-bundle
         - maven-plugin-testing-harness
-        - maven-resolver-transport-file
         - maven-resources-plugin
         - maven-scm
         - maven-script-interpreter
         - maven-shade-plugin
+        - maven-shared-incremental
         - maven-source-plugin
         - maven-surefire-provider-junit
         - maven-surefire-provider-testng
@@ -576,6 +575,7 @@ data:
         - mojo-parent
         - mozjs60-devel
         - mpg123-devel
+        - msv-xsdlib
         - mtdev-devel
         - mt-st
         - mtx
@@ -610,16 +610,19 @@ data:
         - opensp
         - opentest4j
         - opus-devel
+        - osgi-annotation
+        - osgi-compendium
+        - osgi-core
         - ostree-devel
         - PackageKit-glib-devel
         - pandoc
         - pangomm-devel
-        - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
         - php-devel
         - pipewire0.2-devel
         - plexus-ant-factory
+        - plexus-compiler
         - plexus-component-api
         - plexus-component-factories-pom
         - plexus-components-pom
@@ -815,9 +818,7 @@ data:
         - sg3_utils-devel
         - sharutils
         - ShellCheck
-        - shrinkwrap-impl-base
         - sisu-mojos
-        - slf4j-ext
         - slf4j-sources
         - snakeyaml
         - snappy-devel
@@ -833,7 +834,6 @@ data:
         - spice-parent
         - spice-protocol
         - sratom-devel
-        - stax2-api
         - sysprof-devel
         - t1utils
         - taglib-devel
@@ -850,8 +850,6 @@ data:
         - texlive-lh
         - texlive-newunicodechar
         - texlive-stackengine
-        - tomcat-taglibs-parent
-        - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tracker-devel
         - trousers-devel
@@ -869,9 +867,7 @@ data:
         - web-assets-devel
         - weld-parent
         - woff2-devel
-        - woodstox-core
         - wordnet
-        - wsdl4j
         - xcb-proto
         - xcb-util-devel
         - xcb-util-image-devel
@@ -920,22 +916,16 @@ data:
         s390x:
         x86_64:
             - brasero-devel
-            - dbus-c++-devel
             - efivar-devel
-            - efl-devel
             - gnu-efi
-            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
-            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
-            - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
             - python3-libpamtest
-            - python3-rpm-macros
             - umockdev
