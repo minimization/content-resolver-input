@@ -956,7 +956,6 @@ data:
         - nodejs-minimist
         - nodejs-mkdirp
         - nodejs-module-not-found-error
-        - nodejs-nopt
         - nodejs-object-dot-assign
         - nodejs-object-inspect
         - nodejs-object-is
@@ -965,12 +964,10 @@ data:
         - nodejs-path-is-absolute
         - nodejs-process-nextick-args
         - nodejs-promise
-        - nodejs-proxyquire
         - nodejs-readable-stream
         - nodejs-readdirp
         - nodejs-require-uncached
         - nodejs-resolve-from
-        - nodejs-resumer
         - nodejs-rimraf
         - nodejs-runforcover
         - nodejs-safe-buffer
@@ -988,8 +985,6 @@ data:
         - nodejs-string-dot-prototype-dot-trim
         - nodejs-strip-ansi
         - nodejs-supports-color
-        - nodejs-tap
-        - nodejs-tape
         - nodejs-through2
         - nodejs-traverse
         - nodejs-type-detect
@@ -997,7 +992,6 @@ data:
         - nodejs-util-deprecate
         - nodejs-wrappy
         - nodejs-yamlish
-        - nodeunit
         - nototools
         - npm
         - npth-devel
