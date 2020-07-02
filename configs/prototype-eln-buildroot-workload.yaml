@@ -30,7 +30,6 @@ data:
         - ant-testutil
         - apache-commons-beanutils
         - apache-commons-collections-testframework
-        - apache-commons-daemon
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
@@ -39,8 +38,9 @@ data:
         - apache-ivy
         - apache-sshd
         - apiguardian
-        - apiviz
         - aqute-bnd
+        - aqute-bndlib
+        - args4j
         - aspell-devel
         - aspell-en
         - assertj-core
@@ -66,7 +66,6 @@ data:
         - bind-pkcs11-devel
         - binutils-x86_64-linux-gnu
         - bluez-libs-devel
-        - bnd-maven-plugin
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -93,7 +92,6 @@ data:
         - clutter-gst3-devel
         - clutter-gtk-devel
         - codehaus-parent
-        - codemodel
         - cogl-devel
         - coin-or-Cbc-devel
         - coin-or-Cgl-devel
@@ -138,7 +136,6 @@ data:
         - dejagnu
         - device-mapper-devel
         - device-mapper-event-devel
-        - disruptor
         - djvulibre-devel
         - dleyna-core-devel
         - docbook5-style-xsl
@@ -176,10 +173,12 @@ data:
         - extra-cmake-modules
         - f32-backgrounds-kde
         - fakechroot
+        - fasterxml-oss-parent
         - fcode-utils
         - fdk-aac-free-devel
         - fdupes
         - felix-parent
+        - felix-utils
         - fftw-devel
         - file-devel
         - findbugs
@@ -219,12 +218,9 @@ data:
         - gecode-devel
         - geoclue2-devel
         - geos-devel
-        - geronimo-jaxrpc
         - geronimo-jms
         - geronimo-jpa
-        - geronimo-osgi-support
         - geronimo-parent-poms
-        - geronimo-saaj
         - ghc-aeson-pretty-prof
         - ghc-aeson-prof
         - ghc-ansi-terminal-prof
@@ -365,6 +361,8 @@ data:
         - gjs-devel
         - gl2ps-devel
         - glade-devel
+        - glassfish-jaxb-api
+        - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
@@ -503,7 +501,6 @@ data:
         - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
-        - guava-testlib
         - guile22-devel
         - guile-devel
         - gupnp-av-devel
@@ -539,7 +536,14 @@ data:
         - isns-utils-devel
         - ivy-local
         - jack-audio-connection-kit-devel
+        - jackson-annotations
+        - jackson-bom
+        - jackson-core
+        - jackson-databind
+        - jackson-parent
         - jacop
+        - jakarta-activation
+        - jakarta-commons-httpclient
         - jakarta-oro
         - janino
         - jansson-devel
@@ -553,18 +557,12 @@ data:
         - javaewah
         - javamail
         - javapackages-local
-        - javaparser
+        - javassist
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
-        - jboss-el-2.2-api
-        - jboss-jsp-2.2-api
-        - jboss-logmanager
-        - jboss-modules
         - jboss-parent
-        - jboss-servlet-3.0-api
         - jcip-annotations
-        - jctools
         - jdepend
         - jdependency
         - jdom
@@ -574,8 +572,6 @@ data:
         - jgit
         - jimtcl-devel
         - jitterentropy-devel
-        - jmock-junit4
-        - jmock-legacy
         - jna-contrib
         - jq-devel
         - jsch
@@ -583,6 +579,7 @@ data:
         - js-jquery
         - json-c-devel
         - junit5
+        - jvnet-parent
         - jzlib
         - kf5-kconfig-core
         - kf5-rpm-macros
@@ -811,7 +808,6 @@ data:
         - lmdb-devel
         - Lmod
         - lockdev-devel
-        - log4j
         - lua-devel
         - lua-filesystem
         - lua-lunit
@@ -838,12 +834,14 @@ data:
         - maven-invoker
         - maven-invoker-plugin
         - maven-local
+        - maven-plugin-build-helper
+        - maven-plugin-bundle
         - maven-plugin-testing-harness
-        - maven-resolver-transport-file
         - maven-resources-plugin
         - maven-scm
         - maven-script-interpreter
         - maven-shade-plugin
+        - maven-shared-incremental
         - maven-source-plugin
         - maven-surefire-provider-junit
         - maven-surefire-provider-junit5
@@ -870,6 +868,7 @@ data:
         - mp-devel
         - mpg123-devel
         - mpich-devel
+        - msv-xsdlib
         - mtdev-devel
         - mt-st
         - mtx
@@ -1033,6 +1032,9 @@ data:
         - opensp-devel
         - opentest4j
         - opus-devel
+        - osgi-annotation
+        - osgi-compendium
+        - osgi-core
         - ostree-devel
         - p7zip-plugins
         - PackageKit-glib-devel
@@ -1040,7 +1042,6 @@ data:
         - pam_wrapper
         - pandoc
         - pangomm-devel
-        - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
         - perl-accessors
@@ -1747,6 +1748,7 @@ data:
         - pipewire0.2-devel
         - pipewire-devel
         - plexus-ant-factory
+        - plexus-compiler
         - plexus-component-api
         - plexus-component-factories-pom
         - plexus-components-pom
@@ -2045,9 +2047,7 @@ data:
         - serd-devel
         - sg3_utils-devel
         - sharutils
-        - shrinkwrap-impl-base
         - sisu-mojos
-        - slf4j-ext
         - slf4j-sources
         - snakeyaml
         - snappy-devel
@@ -2070,7 +2070,6 @@ data:
         - sratom-devel
         - srt-devel
         - ssmtp
-        - stax2-api
         - suitesparse-devel
         - sysprof-devel
         - t1utils
@@ -2093,8 +2092,6 @@ data:
         - texlive-stackengine
         - tidy
         - tinyxml2-devel
-        - tomcat-taglibs-parent
-        - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tracker-devel
         - transfig
@@ -2122,9 +2119,7 @@ data:
         - weld-parent
         - wildmidi-devel
         - woff2-devel
-        - woodstox-core
         - wordnet
-        - wsdl4j
         - xapian-core-devel
         - xcb-proto
         - xcb-util-devel
