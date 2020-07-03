@@ -630,6 +630,7 @@ data:
         - libdvdnav-devel
         - libdvdread-devel
         - libecb-devel
+        - libeconf-devel
         - libell-devel
         - libesmtp-devel
         - libevdev-devel
