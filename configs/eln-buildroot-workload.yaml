@@ -536,6 +536,7 @@ data:
         - lv2-devel
         - lvm2-devel
         - lynx
+        - lzip
         - m17n-db-devel
         - m17n-db-extras
         - m17n-lib-devel
@@ -607,6 +608,7 @@ data:
         - openchange-devel
         - OpenEXR-devel
         - openjpeg2-devel
+        - openldap-servers
         - opensmtpd
         - opensp
         - opentest4j
@@ -615,11 +617,99 @@ data:
         - osgi-compendium
         - osgi-core
         - ostree-devel
+        - p7zip-plugins
         - PackageKit-glib-devel
         - pandoc
         - pangomm-devel
         - pcaudiolib-devel
         - pcsc-lite-devel
+        - perl-B-COW
+        - perl-Canary-Stability
+        - perl-Capture-Tiny
+        - perl-Class-Tiny
+        - perl-Class-XSAccessor
+        - perl-Config-AutoConf
+        - perl-CPAN-Changes
+        - perl-Crypt-OpenSSL-Guess
+        - perl-DateTime-Format-HTTP
+        - perl-DateTime-Format-IBeat
+        - perl-DateTime-Format-Mail
+        - perl-Devel-CheckBin
+        - perl-Devel-CheckLib
+        - perl-Devel-Cycle
+        - perl-Devel-Hide
+        - perl-Devel-Symdump
+        - perl-Digest-CRC
+        - perl-Event
+        - perl-ExtUtils-Config
+        - perl-ExtUtils-Depends
+        - perl-ExtUtils-HasCompiler
+        - perl-ExtUtils-Helpers
+        - perl-ExtUtils-InstallPaths
+        - perl-ExtUtils-PkgConfig
+        - perl-File-Copy-Recursive
+        - perl-File-Remove
+        - perl-File-ShareDir-Install
+        - perl-Glib
+        - perl-Guard
+        - perl-HTTP-Daemon
+        - perl-Import-Into
+        - perl-IO-Pipely
+        - perl-IO-stringy
+        - perl-IO-Tty
+        - perl-IPC-Run
+        - perl-JSON-XS
+        - perl-Locale-gettext
+        - perl-Mock-Config
+        - perl-Module-Build-Tiny
+        - perl-Module-Install
+        - perl-Module-Install-AuthorTests
+        - perl-Module-Install-ExtraTests
+        - perl-Module-Pluggable
+        - perl-Module-ScanDeps
+        - perl-Moo
+        - perl-Net-DNS-Resolver-Mock
+        - perl-Net-DNS-Resolver-Programmable
+        - perl-Net-DNS-SEC
+        - perl-Net-IDN-Encode
+        - perl-Net-LibIDN
+        - perl-Object-Deadly
+        - perl-Parallel-ForkManager
+        - perl-PAR-Dist
+        - perl-Path-Tiny
+        - perl-Pod-Coverage
+        - perl-Pod-Coverage-TrustPod
+        - perl-Pod-Eventual
+        - perl-POE
+        - perl-POE-Test-Loops
+        - perl-Readonly
+        - perl-Scope-Guard
+        - perl-SGMLSpm
+        - perl-String-Escape
+        - perl-Sub-Name
+        - perl-Sub-Uplevel
+        - perl-SUPER
+        - perl-Test2-Plugin-NoWarnings
+        - perl-Test2-Tools-Explain
+        - perl-Test-CPAN-Meta
+        - perl-Test-CPAN-Meta-JSON
+        - perl-Test-Differences
+        - perl-Test-Exception
+        - perl-Test-Fatal
+        - perl-Test-File-ShareDir
+        - perl-Test-LeakTrace
+        - perl-Test-Manifest
+        - perl-Test-Memory-Cycle
+        - perl-Test-MockModule
+        - perl-Test-Pod-Coverage
+        - perl-Test-Regexp
+        - perl-Test-Taint
+        - perl-Test-Warn
+        - perl-Test-Warnings
+        - perl-Text-WrapI18N
+        - perl-Tie-IxHash
+        - perl-Types-Serialiser
+        - perl-YAML-LibYAML
         - php-devel
         - pipewire0.2-devel
         - plexus-ant-factory
@@ -825,6 +915,7 @@ data:
         - snappy-devel
         - snappy-java
         - socket_wrapper
+        - sombok-devel
         - sonatype-oss-parent
         - sord-devel
         - spdlog-devel
