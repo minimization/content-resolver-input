@@ -265,7 +265,6 @@ data:
         - ghc-zlib-prof
         - ghostscript-core
         - giflib-devel
-        - gimp-devel
         - glade-devel
         - glassfish-jaxb-api
         - glassfish-jax-rs-api
