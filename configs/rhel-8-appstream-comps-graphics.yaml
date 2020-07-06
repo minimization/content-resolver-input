@@ -11,6 +11,5 @@ data:
   - libsane-hpaio
   - sane-backends-drivers-scanners
   - sane-frontends
-  - xsane-gimp
 document: feedback-pipeline-workload
 version: 1
