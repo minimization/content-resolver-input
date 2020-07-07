@@ -85,6 +85,7 @@ data:
   # deprected() Python packages:
   - python3-nose
   - python3-pytest4
+  - python3-pytoml
 
   # Radek Vykydal:
   # system-config-kickstart has been deprecated upstream, it has not
