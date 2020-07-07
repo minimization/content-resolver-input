@@ -293,7 +293,6 @@ data:
         - gnome-autoar-devel
         - gnome-common
         - gnome-doc-utils
-        - gnome-settings-daemon-devel
         - gobject-introspection-devel
         - golang-github-cpuguy83-md2man
         - golang-github-urfave-cli-devel
@@ -414,7 +413,6 @@ data:
         - libconfuse-devel
         - libcroco-devel
         - libdaemon-devel
-        - libdazzle-devel
         - libdbusmenu-gtk3-devel
         - libdmapsharing-devel
         - libdmx-devel
@@ -526,7 +524,6 @@ data:
         - libwpg-devel
         - libwsman-devel
         - libXdmcp-devel
-        - libxkbcommon-x11-devel
         - libxkbfile-devel
         - libxklavier-devel
         - libxmlb-devel
@@ -940,7 +937,6 @@ data:
         - spice-protocol
         - sratom-devel
         - stax2-api
-        - sysprof-devel
         - t1utils
         - taglib-devel
         - tclx-devel
