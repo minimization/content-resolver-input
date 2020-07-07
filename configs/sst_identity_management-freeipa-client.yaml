@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Client - minimal
+  description: FreeIPA client
+  maintainer: sst_identity_management
+
+  packages:
+  - freeipa-client
+
+  labels:
+  - eln
