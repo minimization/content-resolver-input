@@ -33,11 +33,11 @@ data:
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
-        - apache-commons-net
         - apache-commons-parent
         - apache-ivy
         - apache-sshd
         - apiguardian
+        - apiviz
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -66,6 +66,7 @@ data:
         - bind-pkcs11-devel
         - binutils-x86_64-linux-gnu
         - bluez-libs-devel
+        - bnd-maven-plugin
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -79,7 +80,6 @@ data:
         - byte-buddy-maven-plugin
         - cairomm-devel
         - cal10n
-        - cargo
         - cdparanoia-devel
         - cglib
         - CharLS-devel
@@ -92,6 +92,7 @@ data:
         - clutter-gst3-devel
         - clutter-gtk-devel
         - codehaus-parent
+        - codemodel
         - cogl-devel
         - coin-or-Cbc-devel
         - coin-or-Cgl-devel
@@ -136,6 +137,7 @@ data:
         - dejagnu
         - device-mapper-devel
         - device-mapper-event-devel
+        - disruptor
         - djvulibre-devel
         - dleyna-core-devel
         - docbook5-style-xsl
@@ -149,7 +151,6 @@ data:
         - doxygen
         - drpm-devel
         - easymock
-        - ecj
         - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland-devel
@@ -218,9 +219,12 @@ data:
         - gecode-devel
         - geoclue2-devel
         - geos-devel
+        - geronimo-jaxrpc
         - geronimo-jms
         - geronimo-jpa
+        - geronimo-osgi-support
         - geronimo-parent-poms
+        - geronimo-saaj
         - ghc-aeson-pretty-prof
         - ghc-aeson-prof
         - ghc-ansi-terminal-prof
@@ -361,7 +365,6 @@ data:
         - gjs-devel
         - gl2ps-devel
         - glade-devel
-        - glassfish-jaxb-api
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -494,6 +497,7 @@ data:
         - gsm-devel
         - gspell-devel
         - gssdp-devel
+        - gssntlmssp-devel
         - gstreamer1-plugins-bad-free-devel
         - gtest-devel
         - gtk-doc
@@ -501,6 +505,7 @@ data:
         - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
+        - guava-testlib
         - guile22-devel
         - guile-devel
         - gupnp-av-devel
@@ -534,16 +539,13 @@ data:
         - imake
         - imlib2-devel
         - isns-utils-devel
+        - isorelax
+        - istack-commons-tools
         - ivy-local
         - jack-audio-connection-kit-devel
-        - jackson-annotations
         - jackson-bom
-        - jackson-core
-        - jackson-databind
         - jackson-parent
         - jacop
-        - jakarta-activation
-        - jakarta-commons-httpclient
         - jakarta-oro
         - janino
         - jansson-devel
@@ -557,12 +559,20 @@ data:
         - javaewah
         - javamail
         - javapackages-local
+        - javaparser
         - javassist
+        - jaxb-dtd-parser
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
+        - jboss-el-2.2-api
+        - jboss-jsp-2.2-api
+        - jboss-logmanager
+        - jboss-modules
         - jboss-parent
+        - jboss-servlet-3.0-api
         - jcip-annotations
+        - jctools
         - jdepend
         - jdependency
         - jdom
@@ -572,6 +582,8 @@ data:
         - jgit
         - jimtcl-devel
         - jitterentropy-devel
+        - jmock-junit4
+        - jmock-legacy
         - jna-contrib
         - jq-devel
         - jsch
@@ -584,10 +596,10 @@ data:
         - kf5-kconfig-core
         - kf5-rpm-macros
         - kmod-devel
-        - krb5-server
         - kyotocabinet-devel
         - kyua
         - ladspa-devel
+        - lasso-devel
         - latex2html
         - ldns-devel
         - leptonica-devel
@@ -670,7 +682,6 @@ data:
         - libknet1-devel
         - libksba-devel
         - liblangtag-devel
-        - libldb-devel
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
@@ -754,15 +765,11 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libssh2-devel
-        - libsss_autofs
         - libsss_nss_idmap-devel
         - libstdc++-static
         - libstemmer-devel
         - libsysfs-devel
-        - libtalloc-devel
         - libtar-devel
-        - libtdb-devel
-        - libtevent-devel
         - libtheora-devel
         - libtiff-tools
         - libtirpc-devel
@@ -809,6 +816,7 @@ data:
         - lmdb-devel
         - Lmod
         - lockdev-devel
+        - log4j
         - lua-devel
         - lua-filesystem
         - lua-lunit
@@ -838,6 +846,7 @@ data:
         - maven-plugin-build-helper
         - maven-plugin-bundle
         - maven-plugin-testing-harness
+        - maven-resolver-transport-file
         - maven-resources-plugin
         - maven-scm
         - maven-script-interpreter
@@ -869,6 +878,7 @@ data:
         - mp-devel
         - mpg123-devel
         - mpich-devel
+        - msv-msv
         - msv-xsdlib
         - mtdev-devel
         - mt-st
@@ -1043,6 +1053,7 @@ data:
         - pam_wrapper
         - pandoc
         - pangomm-devel
+        - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
         - perl-accessors
@@ -1797,7 +1808,6 @@ data:
         - python3-gobject-devel
         - python3-hypothesis
         - python3-isort
-        - python3-jinja2
         - python3-libmount
         - python3-libvoikko
         - python3-mallard-ducktype
@@ -1837,6 +1847,7 @@ data:
         - re2c
         - re2-devel
         - regexp
+        - relaxngcc
         - replacer
         - rest-devel
         - rmt
@@ -2035,7 +2046,6 @@ data:
         - rubygem-ZenTest
         - samba-devel
         - samba-pidl
-        - samba-winbind
         - samba-winbind-clients
         - satyr-devel
         - sblim-cmpi-devel
@@ -2048,7 +2058,9 @@ data:
         - serd-devel
         - sg3_utils-devel
         - sharutils
+        - shrinkwrap-impl-base
         - sisu-mojos
+        - slf4j-ext
         - slf4j-sources
         - snakeyaml
         - snappy-devel
@@ -2071,6 +2083,7 @@ data:
         - sratom-devel
         - srt-devel
         - ssmtp
+        - stax2-api
         - suitesparse-devel
         - sysprof-devel
         - t1utils
@@ -2093,6 +2106,8 @@ data:
         - texlive-stackengine
         - tidy
         - tinyxml2-devel
+        - tomcat-taglibs-parent
+        - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tracker-devel
         - transfig
@@ -2120,7 +2135,9 @@ data:
         - weld-parent
         - wildmidi-devel
         - woff2-devel
+        - woodstox-core
         - wordnet
+        - wsdl4j
         - xapian-core-devel
         - xcb-proto
         - xcb-util-devel
@@ -2131,6 +2148,8 @@ data:
         - xemacs-common
         - xemacs-nox
         - xmlrpc-c-devel
+        - xmlsec1-devel
+        - xmlsec1-openssl-devel
         - xmlto
         - xmlto-tex
         - xmlunit-assertj
@@ -2223,4 +2242,3 @@ data:
             - python3-qt5-devel
             - tinyxml-devel
             - umockdev
-            - xmlsec1-openssl-devel
