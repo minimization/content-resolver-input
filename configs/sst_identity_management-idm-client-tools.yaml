@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IdM Client Tools
+  description: General software for enrolling system with external Identity Management server
+  maintainer: sst_identity_management
+
+  packages:
+  - freeipa-healthcheck
+  - freeipa-client-epn
+  - sssd-tools
+  - realmd
+  - adcli
+  - krb5-workstation
+  - openldap-clients
+  - tlog
+  - gssproxy
+  - certmonger
+
+  labels:
+  - eln

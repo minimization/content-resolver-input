@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Server - Full
+  description: FreeIPA Server - all modules
+  maintainer: sst_identity_management
+
+  packages:
+  - freeipa-server
+  - freeipa-server-trust-ad
+  - freeipa-server-dns
+  - freeipa-healthcheck
+
+  labels:
+  - eln
