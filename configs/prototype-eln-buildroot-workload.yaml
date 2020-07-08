@@ -1836,7 +1836,6 @@ data:
         - python3-scons
         - python3-setuptools_scm
         - python3-sphinx
-        - python3-sphinx_rtd_theme
         - python3-talloc-devel
         - python3-testscenarios
         - python3-testtools
