@@ -1096,6 +1096,9 @@ data:
         - perl-Class-XSAccessor
         - perl-Clone-Choose
         - perl-Clone-PP
+        - perl-Color-ANSI-Util
+        - perl-Color-RGB-Util
+        - perl-ColorThemeBase-Static
         - perl-common-sense
         - perl-Compress-LZF
         - perl-Config-Any
@@ -1195,6 +1198,7 @@ data:
         - perl-Getopt-ArgvFile
         - perl-Getopt-Long-Descriptive
         - perl-Glib
+        - perl-Graphics-ColorNamesLite-WWW
         - perl-Graphics-TIFF
         - perl-Guard
         - perl-Hash-FieldHash
@@ -1260,6 +1264,7 @@ data:
         - perl-Module-Install-ReadmeMarkdownFromPod
         - perl-Module-Install-Repository
         - perl-Module-Install-TestBase
+        - perl-Module-Load-Util
         - perl-Module-Manifest
         - perl-Module-Package
         - perl-Module-Package-Au
@@ -1349,6 +1354,7 @@ data:
         - perl-Probe-Perl
         - perl-Readonly
         - perl-Readonly-XS
+        - perl-Regexp-Pattern-Perl
         - perl-Regexp-Trie
         - perl-Return-MultiLevel
         - perl-Return-Type
@@ -1454,6 +1460,7 @@ data:
         - perl-Test-Pod-Spelling-CommonMistakes
         - perl-Test-Portability-Files
         - perl-Test-Prereq
+        - perl-Test-RandomResult
         - perl-Test-Refcount
         - perl-Test-Regexp
         - perl-Test-Requires
@@ -2233,11 +2240,13 @@ data:
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
+            - libsvm-devel
             - libXfont2-devel
             - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
             - procps-ng-devel
+            - pugixml-devel
             - python3-libpamtest
             - python3-qt5-devel
             - tinyxml-devel
