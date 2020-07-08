@@ -16,6 +16,7 @@ data:
         - accountsservice-devel
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
+        - adwaita-icon-theme-devel
         - amtk-devel
         - ant-apache-xalan2
         - ant-contrib
@@ -114,6 +115,7 @@ data:
         - enchant2-devel
         - enchant-devel
         - espeak-ng-devel
+        - evince-devel
         - evolution-devel
         - exec-maven-plugin
         - exempi-devel
@@ -269,6 +271,7 @@ data:
         - ghc-zlib-prof
         - ghostscript-core
         - giflib-devel
+        - gimp-devel
         - gjs-devel
         - glade-devel
         - glassfish-jax-rs-api
@@ -312,6 +315,7 @@ data:
         - gsl-devel
         - gsm-devel
         - gspell-devel
+        - gssdp-devel
         - gtest-devel
         - gtkmm30-devel
         - gtksourceview4-devel
@@ -501,6 +505,7 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsndfile-devel
+        - libspectre-devel
         - libspf2-devel
         - libspiro-devel
         - libssh2-devel
