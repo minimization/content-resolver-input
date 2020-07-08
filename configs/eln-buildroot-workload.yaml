@@ -502,6 +502,7 @@ data:
         - libsass
         - libsepol-static
         - libsigc++20-devel
+        - libsigsegv-devel
         - libslirp-devel
         - libsmartcols-devel
         - libsndfile-devel
