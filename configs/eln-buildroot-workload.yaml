@@ -125,6 +125,7 @@ data:
         - f32-backgrounds-kde
         - fasterxml-oss-parent
         - fcode-utils
+        - fdk-aac-free-devel
         - felix-parent
         - felix-utils
         - fftw-devel
@@ -341,6 +342,7 @@ data:
         - gsm-devel
         - gspell-devel
         - gssdp-devel
+        - gstreamer1-plugins-bad-free-devel
         - gtest-devel
         - gtkmm30-devel
         - gtksourceview4-devel
@@ -426,6 +428,7 @@ data:
         - ldns-devel
         - liba52-devel
         - libao-devel
+        - libaom-devel
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
@@ -448,6 +451,7 @@ data:
         - libdbusmenu-gtk3-devel
         - libdmapsharing-devel
         - libdmx-devel
+        - libdvdnav-devel
         - libdvdread-devel
         - libell-devel
         - libevdev-devel
@@ -482,12 +486,14 @@ data:
         - liblangtag-devel
         - liblouis-devel
         - liblqr-1-devel
+        - liblrdf-devel
         - libmarkdown-devel
         - libmaxminddb-devel
         - libmbim-devel
         - libmediaart-devel
         - libmemcached-devel
         - libmetalink-devel
+        - libmicrodns-devel
         - libmicrohttpd-devel
         - libmng-devel
         - libmnl-devel
@@ -510,6 +516,7 @@ data:
         - libntlm-devel
         - liboauth-devel
         - libogg-devel
+        - libopenmpt-devel
         - libotf-devel
         - libpaper-devel
         - libpath_utils-devel
@@ -523,6 +530,7 @@ data:
         - libqmi-devel
         - LibRaw-devel
         - librevenge-devel
+        - librhsm-devel
         - libsamplerate-devel
         - libsass
         - libsepol-static
@@ -534,6 +542,7 @@ data:
         - libspectre-devel
         - libspf2-devel
         - libspiro-devel
+        - libsrtp-devel
         - libssh2-devel
         - libstemmer-devel
         - libsysfs-devel
@@ -963,6 +972,7 @@ data:
         - sombok-devel
         - sonatype-oss-parent
         - sord-devel
+        - soundtouch-devel
         - spdlog-devel
         - spec-version-maven-plugin
         - speex-devel
@@ -971,6 +981,7 @@ data:
         - spice-parent
         - spice-protocol
         - sratom-devel
+        - srt-devel
         - stax2-api
         - sysprof-devel
         - t1utils
@@ -995,6 +1006,7 @@ data:
         - trousers-devel
         - ttembed
         - ttfautohint
+        - uchardet-devel
         - umockdev-devel
         - unbound-devel
         - univocity-output-tester
@@ -1004,7 +1016,10 @@ data:
         - userspace-rcu-devel
         - vala
         - vte291-devel
+        - vulkan-loader-devel
+        - wavpack-devel
         - web-assets-devel
+        - webrtc-audio-processing-devel
         - weld-parent
         - woff2-devel
         - woodstox-core
