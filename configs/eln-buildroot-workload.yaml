@@ -163,6 +163,7 @@ data:
         - ghc-aeson-prof
         - ghc-ansi-terminal-prof
         - ghc-ansi-wl-pprint-prof
+        - ghc-array-prof
         - ghc-asn1-encoding-prof
         - ghc-asn1-parse-prof
         - ghc-asn1-types-prof
@@ -172,9 +173,14 @@ data:
         - ghc-base-compat-prof
         - ghc-basement-prof
         - ghc-base-orphans-prof
+        - ghc-base-prof
+        - ghc-binary-prof
         - ghc-blaze-builder-prof
         - ghc-blaze-html-prof
         - ghc-blaze-markup-prof
+        - ghc-bytestring-devel
+        - ghc-bytestring-prof
+        - ghc-Cabal-devel
         - ghc-call-stack-prof
         - ghc-case-insensitive-prof
         - ghc-cereal-prof
@@ -183,6 +189,7 @@ data:
         - ghc-cmdargs-prof
         - ghc-colour-prof
         - ghc-connection-prof
+        - ghc-containers-prof
         - ghc-cookie-prof
         - ghc-cryptonite-prof
         - ghc-data-default-class-prof
@@ -190,10 +197,15 @@ data:
         - ghc-data-default-instances-dlist-prof
         - ghc-data-default-instances-old-locale-prof
         - ghc-data-default-prof
+        - ghc-deepseq-devel
+        - ghc-deepseq-prof
         - ghc-Diff-prof
+        - ghc-directory-devel
+        - ghc-directory-prof
         - ghc-dlist-prof
         - ghc-doctemplates-prof
         - ghc-exceptions-prof
+        - ghc-filepath-prof
         - ghc-foundation-devel
         - ghc-Glob-prof
         - ghc-haddock-library-prof
@@ -219,13 +231,19 @@ data:
         - ghc-JuicyPixels-prof
         - ghc-memory-prof
         - ghc-mime-types-prof
+        - ghc-mtl-devel
+        - ghc-mtl-prof
         - ghc-network-uri-prof
         - ghc-old-locale-devel
         - ghc-old-locale-prof
         - ghc-optparse-applicative-prof
         - ghc-pandoc-types-prof
+        - ghc-parsec-prof
         - ghc-pem-prof
+        - ghc-pretty-prof
         - ghc-primitive-prof
+        - ghc-process-devel
+        - ghc-process-prof
         - ghc-QuickCheck-devel
         - ghc-quickcheck-io-prof
         - ghc-QuickCheck-prof
@@ -242,6 +260,7 @@ data:
         - ghc-skylighting-prof
         - ghc-socks-prof
         - ghc-split-prof
+        - ghc-stm-prof
         - ghc-streaming-commons-prof
         - ghc-syb-prof
         - ghc-tagged-prof
@@ -250,14 +269,20 @@ data:
         - ghc-tasty-hunit-devel
         - ghc-tasty-prof
         - ghc-tasty-quickcheck-devel
+        - ghc-template-haskell-prof
         - ghc-temporary-prof
         - ghc-texmath-prof
+        - ghc-text-prof
         - ghc-tf-random-prof
         - ghc-th-abstraction-prof
         - ghc-time-compat-prof
+        - ghc-time-devel
+        - ghc-time-prof
         - ghc-tls-prof
         - ghc-transformers-compat-prof
+        - ghc-transformers-prof
         - ghc-unbounded-delays-prof
+        - ghc-unix-prof
         - ghc-unordered-containers-prof
         - ghc-utf8-string-prof
         - ghc-uuid-types-prof
@@ -1033,23 +1058,16 @@ data:
         s390x:
         x86_64:
             - brasero-devel
-            - dbus-c++-devel
             - efivar-devel
-            - efl-devel
             - gnu-efi
-            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
-            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
-            - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
-            - perl-Path-Class
             - python3-libpamtest
-            - python3-rpm-macros
             - umockdev
