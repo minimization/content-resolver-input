@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Composer Web Console UI
+  description: Cockpit page for composer
+  maintainer: sst_front_door
+  labels:
+    - eln
+
+  packages:
+    - cockpit-composer
