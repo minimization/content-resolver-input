@@ -1238,6 +1238,7 @@ data:
         - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
         - perl-Linux-Pid
+        - perl-Locale-Codes
         - perl-Locale-gettext
         - perl-Locale-US
         - perl-Log-Trace
@@ -1340,6 +1341,7 @@ data:
         - perl-podlinkcheck
         - perl-Pod-Markdown
         - perl-Pod-MinimumVersion
+        - perl-Pod-Parser
         - perl-Pod-POM
         - perl-Pod-Readme
         - perl-Pod-Spell
