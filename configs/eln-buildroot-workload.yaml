@@ -1033,15 +1033,22 @@ data:
     arch_packages:
         aarch64:
             - brasero-devel
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
+            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
+            - libxml++-devel
+            - perl-Path-Class
             - python3-libpamtest
+            - python3-rpm-macros
             - umockdev
         ppc64le:
             - brasero-devel
