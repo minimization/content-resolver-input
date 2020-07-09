@@ -712,6 +712,7 @@ data:
         - perl-IO-Tty
         - perl-IPC-Run
         - perl-JSON-XS
+        - perl-Locale-Codes
         - perl-Locale-gettext
         - perl-Mock-Config
         - perl-Module-Build-Tiny
@@ -733,6 +734,7 @@ data:
         - perl-Pod-Coverage
         - perl-Pod-Coverage-TrustPod
         - perl-Pod-Eventual
+        - perl-Pod-Parser
         - perl-POE
         - perl-POE-Test-Loops
         - perl-Readonly
@@ -1077,16 +1079,23 @@ data:
         s390x:
         x86_64:
             - brasero-devel
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
+            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
+            - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
+            - perl-Path-Class
             - python3-libpamtest
+            - python3-rpm-macros
             - umockdev
