@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sst_ansible_automation_platform 
+  description: Ansible Automation 
+  maintainer: nhorman 
+  packages:
+  - podman
+  - buildah
+  - openssh-libs 
+
+  labels:
+  - eln
+
