@@ -586,7 +586,6 @@ data:
         - lua-devel
         - lua-lunit
         - lutok-devel
-        - lv2-devel
         - lvm2-devel
         - lynx
         - lzip
@@ -753,6 +752,7 @@ data:
         - perl-Test2-Tools-Explain
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
+        - perl-Test-Deep
         - perl-Test-Differences
         - perl-Test-Exception
         - perl-Test-Fatal
@@ -810,7 +810,6 @@ data:
         - python3-munkres
         - python3-pywbem
         - python3-pyxattr
-        - python3-rdflib
         - python3-scons
         - python3-setuptools_scm
         - python3-sphinx
@@ -972,7 +971,6 @@ data:
         - SDL_sound-devel
         - sendmail
         - sendmail-milter-devel
-        - serd-devel
         - sg3_utils-devel
         - sharutils
         - ShellCheck
@@ -986,7 +984,6 @@ data:
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
-        - sord-devel
         - soundtouch-devel
         - spdlog-devel
         - spec-version-maven-plugin
@@ -995,7 +992,6 @@ data:
         - spice-gtk3-devel
         - spice-parent
         - spice-protocol
-        - sratom-devel
         - srt-devel
         - stax2-api
         - sysprof-devel
@@ -1116,7 +1112,6 @@ data:
             - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
-            - perl-Path-Class
             - python3-libpamtest
             - python3-rpm-macros
             - umockdev
