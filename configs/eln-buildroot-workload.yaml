@@ -561,6 +561,7 @@ data:
         - libvoikko-devel
         - libvorbis-devel
         - libwacom-devel
+        - libwbclient-devel
         - libwmf-devel
         - libwpd-devel
         - libwpe-devel
@@ -951,6 +952,9 @@ data:
         - rubygem-webmock
         - rubygem-yard
         - rubygem-ZenTest
+        - samba-devel
+        - samba-pidl
+        - samba-winbind-clients
         - sblim-cmpi-devel
         - sblim-indication_helper-devel
         - screen
