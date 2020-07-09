@@ -136,6 +136,7 @@ data:
         - flatpak-devel
         - flex-devel
         - flite-devel
+        - fluidsynth-devel
         - fmt-devel
         - fontforge
         - fontforge-devel
@@ -377,6 +378,7 @@ data:
         - isorelax
         - istack-commons-tools
         - ivy-local
+        - jack-audio-connection-kit-devel
         - jackson-bom
         - jackson-parent
         - jakarta-oro
@@ -495,9 +497,11 @@ data:
         - libmetalink-devel
         - libmicrodns-devel
         - libmicrohttpd-devel
+        - libmikmod-devel
         - libmng-devel
         - libmnl-devel
         - libmodman-devel
+        - libmodplug-devel
         - libmodulemd1
         - libmodulemd-devel
         - libmpc-devel
@@ -657,6 +661,7 @@ data:
         - ocaml-ocamldoc
         - ocaml-xml-light-devel
         - oniguruma-devel
+        - openal-soft-devel
         - openchange-devel
         - OpenEXR-devel
         - openjpeg2-devel
@@ -766,6 +771,7 @@ data:
         - perl-Types-Serialiser
         - perl-YAML-LibYAML
         - php-devel
+        - physfs-devel
         - pipewire0.2-devel
         - plexus-ant-factory
         - plexus-compiler
@@ -775,6 +781,7 @@ data:
         - plexus-interactivity-api
         - po4a
         - polkit-gnome
+        - portaudio-devel
         - postgresql-server
         - potrace-devel
         - ppp-devel
@@ -813,6 +820,7 @@ data:
         - python3-testtools
         - python-unversioned-command
         - qpdf-devel
+        - qt5-devel
         - qt5-qtbase-doc
         - qt5-qtbase-private-devel
         - qt5-qtbase-static
@@ -961,6 +969,7 @@ data:
         - sblim-indication_helper-devel
         - screen
         - SDL2-devel
+        - SDL_sound-devel
         - sendmail
         - sendmail-milter-devel
         - serd-devel
@@ -1054,41 +1063,60 @@ data:
     arch_packages:
         aarch64:
             - brasero-devel
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
+            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
+            - libxml++-devel
             - python3-libpamtest
+            - python3-rpm-macros
             - umockdev
         ppc64le:
             - brasero-devel
+            - dbus-c++-devel
+            - efl-devel
+            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
+            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog-devel
+            - libxml++-devel
             - python3-libpamtest
+            - python3-rpm-macros
             - umockdev
         s390x:
         x86_64:
             - brasero-devel
+            - dbus-c++-devel
             - efivar-devel
+            - efl-devel
             - gnu-efi
+            - gtkmm24-devel
             - lame-devel
             - libfprint-devel
             - libgpod-devel
+            - libiec61883-devel
             - libmad-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
+            - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
+            - perl-Path-Class
             - python3-libpamtest
+            - python3-rpm-macros
             - umockdev
