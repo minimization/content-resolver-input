@@ -1416,6 +1416,7 @@ data:
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-CPAN-Meta-YAML
+        - perl-Test-Deep
         - perl-Test-Differences
         - perl-Test-Dir
         - perl-Test-DistManifest
