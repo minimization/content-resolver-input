@@ -1072,6 +1072,7 @@ data:
             - libmtp-devel
             - libraw1394-devel
             - libxml++-devel
+            - perl-Path-Class
             - python3-libpamtest
             - python3-rpm-macros
             - umockdev
