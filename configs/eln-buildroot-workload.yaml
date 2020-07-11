@@ -1090,6 +1090,7 @@ data:
             - librtas-devel
             - libservicelog-devel
             - libxml++-devel
+            - perl-Path-Class
             - python3-libpamtest
             - python3-rpm-macros
             - umockdev
