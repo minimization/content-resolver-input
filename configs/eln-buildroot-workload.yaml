@@ -1094,7 +1094,6 @@ data:
             - python3-rpm-macros
             - umockdev
         s390x:
-            - perl-Path-Class
         x86_64:
             - brasero-devel
             - dbus-c++-devel
