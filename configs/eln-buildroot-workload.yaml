@@ -58,6 +58,7 @@ data:
         - bind-devel
         - bind-lite-devel
         - bind-pkcs11-devel
+        - binutils-x86_64-linux-gnu
         - bluez-libs-devel
         - bnd-maven-plugin
         - bouncycastle
@@ -88,6 +89,7 @@ data:
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-guile18-devel
         - compat-lua
+        - cppcheck
         - cppunit-devel
         - cracklib-devel
         - cryptsetup-devel
@@ -102,6 +104,7 @@ data:
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
+        - docbook-utils-pdf
         - dom4j
         - dotconf-devel
         - double-conversion-devel
@@ -111,6 +114,7 @@ data:
         - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland-devel
+        - elinks
         - emacs
         - enchant2-devel
         - enchant-devel
@@ -320,6 +324,7 @@ data:
         - glibc-static
         - glibmm24-devel
         - glm-devel
+        - glslc
         - gmock-devel
         - gnome-autoar-devel
         - gnome-common
@@ -343,6 +348,7 @@ data:
         - gsm-devel
         - gspell-devel
         - gssdp-devel
+        - gssntlmssp-devel
         - gstreamer1-plugins-bad-free-devel
         - gtest-devel
         - gtkmm30-devel
@@ -351,6 +357,7 @@ data:
         - gtk-vnc2-devel
         - guava-testlib
         - guile22-devel
+        - guile-devel
         - gupnp-devel
         - gupnp-igd-devel
         - hamcrest
@@ -382,6 +389,7 @@ data:
         - jackson-bom
         - jackson-parent
         - jakarta-oro
+        - janino
         - jansson-devel
         - jasper-devel
         - java-11-openjdk-devel
@@ -426,6 +434,7 @@ data:
         - kmod-devel
         - kyua
         - ladspa-devel
+        - lasso-devel
         - latex2html
         - ldns-devel
         - liba52-devel
@@ -455,6 +464,7 @@ data:
         - libdmx-devel
         - libdvdnav-devel
         - libdvdread-devel
+        - libeconf-devel
         - libell-devel
         - libevdev-devel
         - libev-devel
@@ -504,6 +514,7 @@ data:
         - libmodplug-devel
         - libmodulemd1
         - libmodulemd-devel
+        - libmpcdec-devel
         - libmpc-devel
         - libmpeg2-devel
         - libmspack-devel
@@ -524,6 +535,7 @@ data:
         - libotf-devel
         - libpaper-devel
         - libpath_utils-devel
+        - libpcap-devel
         - libpciaccess-devel
         - libphonenumber-devel
         - libpipeline-devel
@@ -537,6 +549,7 @@ data:
         - librhsm-devel
         - libsamplerate-devel
         - libsass
+        - libsemanage-static
         - libsepol-static
         - libsigc++20-devel
         - libsigsegv-devel
@@ -581,6 +594,7 @@ data:
         - libyaml-devel
         - libzip-devel
         - lilypond
+        - linuxdoc-tools
         - lockdev-devel
         - log4j
         - lua-devel
@@ -616,6 +630,7 @@ data:
         - maven-shared-incremental
         - maven-source-plugin
         - maven-surefire-provider-junit
+        - maven-surefire-provider-junit5
         - maven-surefire-provider-testng
         - maven-wagon-http-lightweight
         - mdds-devel
@@ -648,6 +663,7 @@ data:
         - npth-devel
         - nss_wrapper
         - ntfs-3g-devel
+        - objectweb-pom
         - objenesis
         - ocaml
         - ocaml-calendar-devel
@@ -680,14 +696,19 @@ data:
         - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
+        - perl-Alien-Build
+        - perl-Alien-Libxml2
         - perl-B-COW
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-Class-Tiny
         - perl-Class-XSAccessor
+        - perl-common-sense
         - perl-Config-AutoConf
         - perl-CPAN-Changes
+        - perl-Crypt-CBC
         - perl-Crypt-OpenSSL-Guess
+        - perl-Date-Simple
         - perl-DateTime-Format-HTTP
         - perl-DateTime-Format-IBeat
         - perl-DateTime-Format-Mail
@@ -703,6 +724,7 @@ data:
         - perl-ExtUtils-HasCompiler
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
+        - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-PkgConfig
         - perl-File-Copy-Recursive
         - perl-File-Remove
@@ -716,8 +738,11 @@ data:
         - perl-IO-Tty
         - perl-IPC-Run
         - perl-JSON-XS
+        - perl-libintl-perl
+        - perl-Lingua-Translit
         - perl-Locale-Codes
         - perl-Locale-gettext
+        - perl-Mixin-Linewise
         - perl-Mock-Config
         - perl-Module-Build-Tiny
         - perl-Module-Install
@@ -731,45 +756,71 @@ data:
         - perl-Net-DNS-SEC
         - perl-Net-IDN-Encode
         - perl-Net-LibIDN
+        - perl-Net-LibIDN2
         - perl-Object-Deadly
         - perl-Parallel-ForkManager
         - perl-PAR-Dist
         - perl-Path-Tiny
+        - perl-Perl-Destruct-Level
         - perl-Pod-Coverage
         - perl-Pod-Coverage-TrustPod
         - perl-Pod-Eventual
         - perl-Pod-Parser
         - perl-POE
         - perl-POE-Test-Loops
+        - perl-prefork
         - perl-Readonly
+        - perl-Scalar-Properties
         - perl-Scope-Guard
         - perl-SGMLSpm
+        - perl-strictures
         - perl-String-Escape
         - perl-Sub-Name
+        - perl-Sub-Quote
         - perl-Sub-Uplevel
         - perl-SUPER
+        - perl-Taint-Runtime
+        - perl-Task-Weaken
+        - perl-Term-Size-Any
         - perl-Test2-Plugin-NoWarnings
+        - perl-Test2-Suite
         - perl-Test2-Tools-Explain
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
         - perl-Test-Differences
         - perl-Test-Exception
+        - perl-Test-FailWarnings
         - perl-Test-Fatal
+        - perl-Test-File
         - perl-Test-File-ShareDir
+        - perl-Test-Inter
         - perl-Test-LeakTrace
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
         - perl-Test-MockModule
+        - perl-Test-Needs
+        - perl-Test-Output
+        - perl-Test-Pod
         - perl-Test-Pod-Coverage
+        - perl-Test-Prereq
         - perl-Test-Regexp
+        - perl-Test-Requires
+        - perl-Test-RequiresInternet
         - perl-Test-Taint
         - perl-Test-Warn
         - perl-Test-Warnings
+        - perl-Test-Without-Module
+        - perl-Text-CharWidth
+        - perl-Text-CSV_XS
         - perl-Text-WrapI18N
         - perl-Tie-IxHash
         - perl-Types-Serialiser
+        - perl-Unicode-EastAsianWidth
+        - perl-Unicode-UTF8
+        - perl-utf8-all
         - perl-YAML-LibYAML
+        - perl-YAML-Tiny
         - php-devel
         - physfs-devel
         - pipewire0.2-devel
@@ -808,6 +859,7 @@ data:
         - python3-markdown
         - python3-mock
         - python3-munkres
+        - python3-pytest-runner
         - python3-pywbem
         - python3-pyxattr
         - python3-scons
@@ -855,6 +907,7 @@ data:
         - rubygem-builder
         - rubygem-bundler
         - rubygem-byebug
+        - rubygem-capybara
         - rubygem-childprocess
         - rubygem-chronic
         - rubygem-coderay
@@ -886,6 +939,7 @@ data:
         - rubygem-io-console
         - rubygem-irb
         - rubygem-json_pure
+        - rubygem-kramdown
         - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
@@ -993,6 +1047,7 @@ data:
         - spice-parent
         - spice-protocol
         - srt-devel
+        - ssmtp
         - stax2-api
         - sysprof-devel
         - t1utils
@@ -1041,6 +1096,9 @@ data:
         - xcb-util-image-devel
         - xcb-util-renderutil-devel
         - xdg-desktop-portal-devel
+        - xmlrpc-c-devel
+        - xmlsec1-devel
+        - xmlsec1-openssl-devel
         - xmlto
         - xmlto-tex
         - xmlunit-assertj
@@ -1056,6 +1114,7 @@ data:
         - yajl-devel
         - yelp-xsl-devel
         - zchunk-devel
+        - zvbi-devel
     arch_packages:
         aarch64:
             - brasero-devel
@@ -1074,6 +1133,7 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - tinyxml-devel
             - umockdev
         ppc64le:
             - brasero-devel
@@ -1092,6 +1152,7 @@ data:
             - libxml++-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - tinyxml-devel
             - umockdev
         s390x:
         x86_64:
@@ -1114,4 +1175,5 @@ data:
             - mesa-libxatracker-devel
             - python3-libpamtest
             - python3-rpm-macros
+            - tinyxml-devel
             - umockdev
