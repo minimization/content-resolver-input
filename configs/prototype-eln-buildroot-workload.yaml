@@ -1147,6 +1147,7 @@ data:
         - perl-Devel-CheckLib
         - perl-Devel-Cycle
         - perl-Devel-Declare
+        - perl-Devel-EnforceEncapsulation
         - perl-Devel-FindPerl
         - perl-Devel-Hide
         - perl-Devel-Leak
@@ -1324,6 +1325,7 @@ data:
         - perl-Perl-Critic-Deprecated
         - perl-Perl-Critic-Itch
         - perl-Perl-Critic-Lax
+        - perl-Perl-Critic-More
         - perl-Perl-Critic-Pulp
         - perl-Perl-Destruct-Level
         - perl-Perl-Metrics-Simple
