@@ -82,6 +82,7 @@ data:
         - clutter-gtk-devel
         - cmake
         - cmake-rpm-macros
+        - codehaus-parent
         - codemodel
         - cogl-devel
         - colord-devel
@@ -94,6 +95,7 @@ data:
         - cracklib-devel
         - cryptsetup-devel
         - cscope
+        - csnappy-devel
         - CUnit-devel
         - datefudge
         - dblatex
@@ -106,6 +108,7 @@ data:
         - docbook-utils
         - docbook-utils-pdf
         - dom4j
+        - dontpanic-devel
         - dotconf-devel
         - double-conversion-devel
         - doxygen
@@ -380,6 +383,7 @@ data:
         - ImageMagick
         - ImageMagick-c++-devel
         - ImageMagick-devel
+        - ImageMagick-perl
         - imlib2-devel
         - isns-utils-devel
         - isorelax
@@ -464,6 +468,7 @@ data:
         - libdmx-devel
         - libdvdnav-devel
         - libdvdread-devel
+        - libecb-devel
         - libeconf-devel
         - libell-devel
         - libevdev-devel
@@ -499,6 +504,7 @@ data:
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
+        - liblzf-devel
         - libmarkdown-devel
         - libmaxminddb-devel
         - libmbim-devel
@@ -539,6 +545,7 @@ data:
         - libpciaccess-devel
         - libphonenumber-devel
         - libpipeline-devel
+        - libpkgconf-devel
         - libplist-devel
         - libproxy-devel
         - libpwquality-devel
@@ -563,6 +570,7 @@ data:
         - libssh2-devel
         - libstemmer-devel
         - libsysfs-devel
+        - libtiff-tools
         - libtirpc-devel
         - libtool-ltdl-devel
         - libudisks2-devel
@@ -638,6 +646,7 @@ data:
         - mesa-libgbm-devel
         - meson
         - mftrace
+        - miniz-devel
         - mobile-broadband-provider-info-devel
         - mockito
         - modello
@@ -696,18 +705,38 @@ data:
         - paranamer
         - pcaudiolib-devel
         - pcsc-lite-devel
+        - perl-Acme-Alien-DontPanic
+        - perl-Alien-Base-ModuleBuild
         - perl-Alien-Build
+        - perl-Alien-cmake3
+        - perl-Alien-FFI
         - perl-Alien-Libxml2
+        - perl-Alien-pkgconf
+        - perl-Archive-Any-Lite
+        - perl-Archive-Extract
+        - perl-Array-Diff
         - perl-B-COW
+        - perl-B-Keywords
+        - perl-boolean
         - perl-Canary-Stability
         - perl-Capture-Tiny
+        - perl-CBOR-XS
         - perl-Class-Tiny
         - perl-Class-XSAccessor
         - perl-common-sense
+        - perl-Compress-LZF
         - perl-Config-AutoConf
+        - perl-Config-INI
+        - perl-Config-INI-Reader-Multiline
+        - perl-Config-Tiny
+        - perl-Convert-Bencode
         - perl-CPAN-Changes
+        - perl-Cpanel-JSON-XS
         - perl-Crypt-CBC
+        - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
+        - perl-Data-Binary
+        - perl-Data-Munge
         - perl-Date-Simple
         - perl-DateTime-Format-HTTP
         - perl-DateTime-Format-IBeat
@@ -718,39 +747,84 @@ data:
         - perl-Devel-Hide
         - perl-Devel-Symdump
         - perl-Digest-CRC
+        - perl-Env-ShellWords
         - perl-Event
         - perl-ExtUtils-Config
+        - perl-ExtUtils-CppGuess
         - perl-ExtUtils-Depends
         - perl-ExtUtils-HasCompiler
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
         - perl-ExtUtils-LibBuilder
+        - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
+        - perl-FFI-CheckLib
+        - perl-FFI-Platypus
+        - perl-File-BaseDir
+        - perl-File-BOM
+        - perl-File-chdir
         - perl-File-Copy-Recursive
+        - perl-File-DesktopEntry
+        - perl-File-Find-Object
+        - perl-File-Find-Rule-Perl
+        - perl-File-MimeInfo
+        - perl-File-ReadBackwards
         - perl-File-Remove
         - perl-File-ShareDir-Install
+        - perl-File-Type
+        - perl-Font-TTF
+        - perl-Getopt-ArgvFile
         - perl-Glib
+        - perl-Graphics-TIFF
         - perl-Guard
+        - perl-Hook-LexWrap
         - perl-HTTP-Daemon
+        - perl-Image-Size
         - perl-Import-Into
+        - perl-Inline
+        - perl-Inline-C
+        - perl-Inline-CPP
+        - perl-Inline-Files
+        - perl-Inline-Filters
+        - perl-IO-All
         - perl-IO-Pipely
         - perl-IO-stringy
         - perl-IO-Tty
         - perl-IPC-Run
+        - perl-JSON-Color
+        - perl-JSON-MaybeXS
         - perl-JSON-XS
         - perl-libintl-perl
+        - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
         - perl-Locale-Codes
         - perl-Locale-gettext
+        - perl-MCE
         - perl-Mixin-Linewise
         - perl-Mock-Config
+        - perl-Module-Build-Deprecated
         - perl-Module-Build-Tiny
+        - perl-Module-CPANTS-Analyse
+        - perl-Module-Extract-Use
+        - perl-Module-Find
         - perl-Module-Install
+        - perl-Module-Install-AuthorRequires
         - perl-Module-Install-AuthorTests
+        - perl-Module-Install-AutoLicense
         - perl-Module-Install-ExtraTests
+        - perl-Module-Install-GithubMeta
+        - perl-Module-Install-ManifestSkip
+        - perl-Module-Install-ReadmeFromPod
+        - perl-Module-Install-ReadmeMarkdownFromPod
+        - perl-Module-Install-Repository
+        - perl-Module-Manifest
+        - perl-Module-Package
+        - perl-Module-Package-Au
         - perl-Module-Pluggable
         - perl-Module-ScanDeps
+        - perl-Mojolicious
         - perl-Moo
+        - perlmulticore-devel
         - perl-Net-DNS-Resolver-Mock
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
@@ -758,23 +832,50 @@ data:
         - perl-Net-LibIDN
         - perl-Net-LibIDN2
         - perl-Object-Deadly
+        - perl-Paper-Specs
         - perl-Parallel-ForkManager
         - perl-PAR-Dist
+        - perl-Path-Class
         - perl-Path-Tiny
+        - perl-PDF-API2
+        - perl-Pegex
+        - perl-Perl-Critic
         - perl-Perl-Destruct-Level
+        - perl-Perl-MinimumVersion
+        - perl-Perl-PrereqScanner-NotQuiteLite
+        - perl-PkgConfig-LibPkgConf
+        - perl-pod2pdf
         - perl-Pod-Coverage
         - perl-Pod-Coverage-TrustPod
         - perl-Pod-Eventual
+        - perl-Pod-Markdown
         - perl-Pod-Parser
+        - perl-Pod-Spell
         - perl-POE
         - perl-POE-Test-Loops
+        - perl-PPI
+        - perl-PPIx-QuoteLike
+        - perl-PPIx-Regexp
+        - perl-PPIx-Utilities
         - perl-prefork
+        - perl-Probe-Perl
         - perl-Readonly
+        - perl-Regexp-Trie
+        - perl-Return-MultiLevel
         - perl-Scalar-Properties
         - perl-Scope-Guard
+        - perl-Scope-Upper
+        - perl-Sereal
+        - perl-Sereal-Decoder
+        - perl-Sereal-Encoder
         - perl-SGMLSpm
+        - perl-Shell-Config-Generate
+        - perl-Shell-Guess
+        - perl-Sort-Versions
         - perl-strictures
         - perl-String-Escape
+        - perl-String-Format
+        - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
         - perl-Sub-Uplevel
@@ -782,32 +883,52 @@ data:
         - perl-Taint-Runtime
         - perl-Task-Weaken
         - perl-Term-Size-Any
+        - perl-Term-Size-Perl
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
         - perl-Test2-Tools-Explain
+        - perl-Test-Alien
+        - perl-Test-CheckChanges
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
         - perl-Test-Differences
+        - perl-Test-DistManifest
         - perl-Test-Exception
+        - perl-Test-Exit
         - perl-Test-FailWarnings
         - perl-Test-Fatal
         - perl-Test-File
         - perl-Test-File-ShareDir
+        - perl-Test-HasVersion
+        - perl-Test-InDistDir
         - perl-Test-Inter
+        - perl-Test-Kwalitee
         - perl-Test-LeakTrace
+        - perl-Test-LongString
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
+        - perl-Test-MemoryGrowth
+        - perl-Test-MinimumVersion
+        - perl-TestML
         - perl-Test-MockModule
         - perl-Test-Needs
+        - perl-Test-Object
         - perl-Test-Output
+        - perl-Test-Perl-Critic
         - perl-Test-Pod
         - perl-Test-Pod-Coverage
+        - perl-Test-Portability-Files
         - perl-Test-Prereq
         - perl-Test-Regexp
         - perl-Test-Requires
         - perl-Test-RequiresInternet
+        - perl-Test-Script
+        - perl-Test-SubCalls
+        - perl-Test-Synopsis
         - perl-Test-Taint
+        - perl-Test-UseAllModules
+        - perl-Test-utf8
         - perl-Test-Warn
         - perl-Test-Warnings
         - perl-Test-Without-Module
@@ -818,8 +939,13 @@ data:
         - perl-Types-Serialiser
         - perl-Unicode-EastAsianWidth
         - perl-Unicode-UTF8
+        - perl-UNIVERSAL-isa
+        - perl-Unix-Process
         - perl-utf8-all
+        - perl-XXX
         - perl-YAML-LibYAML
+        - perl-YAML-PP
+        - perl-YAML-Syck
         - perl-YAML-Tiny
         - php-devel
         - physfs-devel
@@ -862,6 +988,7 @@ data:
         - python3-pytest-runner
         - python3-pywbem
         - python3-pyxattr
+        - python3-rpm-macros
         - python3-scons
         - python3-setuptools_scm
         - python3-sphinx
@@ -940,6 +1067,7 @@ data:
         - rubygem-irb
         - rubygem-json_pure
         - rubygem-kramdown
+        - rubygem-launchy
         - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
@@ -949,6 +1077,7 @@ data:
         - rubygem-method_source
         - rubygem-mime-types
         - rubygem-mime-types-data
+        - rubygem-mini_mime
         - rubygem-minitest
         - rubygem-minitest4
         - rubygem-minitest-around
@@ -990,9 +1119,11 @@ data:
         - rubygem-rspec-its
         - rubygem-rspec-support
         - rubygem-ruby-rc4
+        - rubygem-rubyzip
         - rubygem-safe_yaml
         - rubygem-sassc
         - rubygems-devel
+        - rubygem-selenium-webdriver
         - rubygem-session
         - rubygem-shindo
         - rubygem-simplecov
@@ -1000,6 +1131,7 @@ data:
         - rubygem-sinatra
         - rubygem-slim
         - rubygem-sqlite3
+        - rubygem-stringex
         - rubygem-temple
         - rubygem-test_construct
         - rubygem-test_declarative
@@ -1013,6 +1145,7 @@ data:
         - rubygem-typhoeus
         - rubygem-tzinfo
         - rubygem-webmock
+        - rubygem-xpath
         - rubygem-yard
         - rubygem-ZenTest
         - samba-devel
@@ -1046,6 +1179,7 @@ data:
         - spice-gtk3-devel
         - spice-parent
         - spice-protocol
+        - spirv-headers-devel
         - srt-devel
         - ssmtp
         - stax2-api
@@ -1058,6 +1192,7 @@ data:
         - testng
         - texi2html
         - texinfo
+        - texlive-acronym
         - texlive-etoc
         - texlive-hanging
         - texlive-latex-base-dev
@@ -1065,6 +1200,8 @@ data:
         - texlive-lh
         - texlive-newunicodechar
         - texlive-stackengine
+        - tidy
+        - tinyxml2-devel
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
@@ -1132,7 +1269,6 @@ data:
             - libraw1394-devel
             - libxml++-devel
             - python3-libpamtest
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
         ppc64le:
@@ -1151,7 +1287,6 @@ data:
             - libservicelog-devel
             - libxml++-devel
             - python3-libpamtest
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
         s390x:
@@ -1174,6 +1309,5 @@ data:
             - libXvMC-devel
             - mesa-libxatracker-devel
             - python3-libpamtest
-            - python3-rpm-macros
             - tinyxml-devel
             - umockdev
