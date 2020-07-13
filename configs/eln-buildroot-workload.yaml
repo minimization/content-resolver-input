@@ -1094,6 +1094,7 @@ data:
             - python3-rpm-macros
             - umockdev
         s390x:
+            - perl-Path-Class
         x86_64:
             - brasero-devel
             - dbus-c++-devel
@@ -1112,6 +1113,7 @@ data:
             - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
+            - perl-Path-Class
             - python3-libpamtest
             - python3-rpm-macros
             - umockdev
