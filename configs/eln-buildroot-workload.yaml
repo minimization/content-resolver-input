@@ -1291,6 +1291,11 @@ data:
             - tinyxml-devel
             - umockdev
         s390x:
+            - hwloc-devel
+            - libbson-devel
+            - libmongocrypt-devel
+            - perl-libxml-perl
+            - perl-XML-RegExp
         x86_64:
             - brasero-devel
             - dbus-c++-devel
