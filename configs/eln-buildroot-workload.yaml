@@ -119,6 +119,7 @@ data:
         - egl-wayland-devel
         - elinks
         - emacs
+        - emacs-common
         - enchant2-devel
         - enchant-devel
         - espeak-ng-devel
@@ -156,6 +157,8 @@ data:
         - fwupd-devel
         - gamin-devel
         - gavl-devel
+        - gcc-gfortran
+        - gcc-plugin-devel
         - gc-devel
         - GConf2-devel
         - gdbm-devel
@@ -568,6 +571,7 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libssh2-devel
+        - libstdc++-static
         - libstemmer-devel
         - libsysfs-devel
         - libtiff-tools
@@ -676,13 +680,19 @@ data:
         - objenesis
         - ocaml
         - ocaml-calendar-devel
+        - ocaml-camomile-data
+        - ocaml-camomile-devel
+        - ocaml-compiler-libs
         - ocaml-csv-devel
         - ocaml-curses-devel
+        - ocaml-dune-devel
         - ocaml-extlib-devel
         - ocaml-fileutils-devel
         - ocaml-findlib-devel
+        - ocaml-gettext-devel
         - ocaml-libvirt-devel
         - ocaml-ocamldoc
+        - ocaml-ounit-devel
         - ocaml-xml-light-devel
         - oniguruma-devel
         - openal-soft-devel
