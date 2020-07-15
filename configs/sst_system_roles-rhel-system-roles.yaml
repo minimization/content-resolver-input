@@ -6,7 +6,7 @@ data:
   maintainer: sst_system_roles
 
   packages:
-  - rhel-system-roles
+  - linux-system-roles
 
   labels:
   - eln
