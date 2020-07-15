@@ -122,6 +122,7 @@ data:
         - emacs-common
         - enchant2-devel
         - enchant-devel
+        - esmtp
         - espeak-ng-devel
         - evince-devel
         - evolution-devel
@@ -474,6 +475,7 @@ data:
         - libecb-devel
         - libeconf-devel
         - libell-devel
+        - libesmtp-devel
         - libevdev-devel
         - libev-devel
         - libevent-devel
@@ -655,6 +657,7 @@ data:
         - mockito
         - modello
         - ModemManager-glib-devel
+        - mod_perl
         - mojo-parent
         - mozjs60-devel
         - mozjs68-devel
@@ -731,6 +734,7 @@ data:
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-CBOR-XS
+        - perl-CGI
         - perl-Class-Tiny
         - perl-Class-XSAccessor
         - perl-common-sense
@@ -805,8 +809,10 @@ data:
         - perl-JSON-MaybeXS
         - perl-JSON-XS
         - perl-libintl-perl
+        - perl-libxml-perl
         - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
+        - perl-Linux-Pid
         - perl-Locale-Codes
         - perl-Locale-gettext
         - perl-MCE
@@ -952,6 +958,8 @@ data:
         - perl-UNIVERSAL-isa
         - perl-Unix-Process
         - perl-utf8-all
+        - perl-XML-DOM
+        - perl-XML-RegExp
         - perl-XXX
         - perl-YAML-LibYAML
         - perl-YAML-PP
