@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Desktop
+  description: GNOME Desktop core packages
+  maintainer: sst_desktop
+
+  packages:
+   - gdm
+   - gnome-session
+   - gnome-shell
+   - gnome-tweaks
+   - gnome-control-center
+   - tracker
+   - gnome-remote-desktop
+
+  labels:
+  - eln

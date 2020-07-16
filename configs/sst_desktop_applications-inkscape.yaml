@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Inkscape
+  description: A vector graphics editor for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+   - inkscape
+
+  labels:
+  - eln
