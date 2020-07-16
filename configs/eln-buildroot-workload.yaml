@@ -130,6 +130,7 @@ data:
         - exim
         - exiv2-devel
         - expect
+        - extra-cmake-modules
         - f32-backgrounds-kde
         - fasterxml-oss-parent
         - fcode-utils
@@ -437,6 +438,8 @@ data:
         - junit5
         - jvnet-parent
         - jzlib
+        - kf5-kconfig-core
+        - kf5-rpm-macros
         - kmod-devel
         - kyua
         - ladspa-devel
@@ -607,6 +610,7 @@ data:
         - libzip-devel
         - lilypond
         - linuxdoc-tools
+        - lmdb-devel
         - lockdev-devel
         - log4j
         - lua-devel
@@ -978,6 +982,7 @@ data:
         - ppp-devel
         - protobuf-compiler
         - protobuf-devel
+        - protobuf-lite-devel
         - psl-make-dafsa
         - psutils
         - python2-setuptools
