@@ -7,7 +7,9 @@ data:
   packages:
   - podman
   - buildah
-  - openssh-libs 
+  - openssh-libs
+  - python-poetry
+  - bindep
 
   labels:
   - eln
