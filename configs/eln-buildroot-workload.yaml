@@ -495,6 +495,7 @@ data:
         - libgudev-devel
         - libgusb-devel
         - libgxps-devel
+        - libhangul-devel
         - libidn-devel
         - libijs-devel
         - libimobiledevice-devel
@@ -550,6 +551,8 @@ data:
         - libpcap-devel
         - libpciaccess-devel
         - libphonenumber-devel
+        - libpinyin-devel
+        - libpinyin-tools
         - libpipeline-devel
         - libpkgconf-devel
         - libplist-devel
@@ -623,6 +626,7 @@ data:
         - m17n-db-extras
         - m17n-lib-devel
         - malaga
+        - mariadb-server
         - marisa-devel
         - maven-antrun-plugin
         - maven-assembly-plugin
@@ -975,6 +979,10 @@ data:
         - plexus-interactivity-api
         - po4a
         - polkit-gnome
+        - poppler-cpp-devel
+        - poppler-data-devel
+        - poppler-devel
+        - poppler-glib-devel
         - portaudio-devel
         - postgresql-server
         - potrace-devel
