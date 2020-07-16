@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libsmbios
+  description: Libsmbios C/C++ shared libraries
+  maintainer: sst_desktop
+
+  packages:
+   - libsmbios
+
+  labels:
+  - eln

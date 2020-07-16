@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: LibreOffice
+  description: Default office suite for Workstation
+  maintainer: sst_desktop
+
+  packages:
+   - libreoffice
+
+  labels:
+  - eln
