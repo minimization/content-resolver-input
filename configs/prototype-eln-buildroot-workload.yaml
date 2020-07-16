@@ -1513,7 +1513,6 @@ data:
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XXX
-        - perl-YAML-LibYAML
         - perl-YAML-PP
         - perl-YAML-Syck
         - perl-YAML-Tiny
@@ -2181,6 +2180,7 @@ data:
         - zvbi-devel
     arch_packages:
         aarch64:
+            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efivar-devel
@@ -2190,6 +2190,8 @@ data:
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
+            - libbpf-devel
+            - libbpf-static
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
@@ -2202,12 +2204,15 @@ data:
             - tinyxml-devel
             - umockdev
         ppc64le:
+            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efl-devel
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
+            - libbpf-devel
+            - libbpf-static
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
@@ -2223,6 +2228,7 @@ data:
             - umockdev
         s390x:
         x86_64:
+            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efivar-devel
@@ -2233,6 +2239,8 @@ data:
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
+            - libbpf-devel
+            - libbpf-static
             - libdnet-devel
             - libfprint-devel
             - libgpod-devel
