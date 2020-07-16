@@ -65,7 +65,6 @@ data:
         - bind-lite-devel
         - bind-pkcs11-devel
         - binutils-x86_64-linux-gnu
-        - bluez-libs-devel
         - bnd-maven-plugin
         - bouncycastle
         - bouncycastle-pg
@@ -394,7 +393,6 @@ data:
         - gnome-settings-daemon-devel
         - gnuplot
         - gnuplot-wx
-        - gobject-introspection-devel
         - go-compilers-golang-compiler
         - golang-github-apache-arrow-devel
         - golang-github-aws-sdk-devel
@@ -869,7 +867,6 @@ data:
         - mobile-broadband-provider-info-devel
         - mockito
         - modello
-        - ModemManager-glib-devel
         - mod_perl
         - mojo-parent
         - mongo-c-driver-devel
@@ -894,7 +891,6 @@ data:
         - neon-devel
         - netpbm-devel
         - netpbm-progs
-        - NetworkManager-libnm-devel
         - ninja-build
         - nodejs-acorn
         - nodejs-ansi-regex
@@ -2137,7 +2133,6 @@ data:
         - upower-devel
         - urw-base35-fonts-devel
         - userspace-rcu-devel
-        - vala
         - vte291-devel
         - vulkan-loader-devel
         - wavpack-devel
