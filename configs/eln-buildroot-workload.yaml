@@ -961,7 +961,6 @@ data:
         - perl-XML-DOM
         - perl-XML-RegExp
         - perl-XXX
-        - perl-YAML-LibYAML
         - perl-YAML-PP
         - perl-YAML-Syck
         - perl-YAML-Tiny
