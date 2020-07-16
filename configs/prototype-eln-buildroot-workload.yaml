@@ -1095,6 +1095,7 @@ data:
         - perl-Color-ANSI-Util
         - perl-Color-RGB-Util
         - perl-ColorThemeBase-Static
+        - perl-ColorThemeUtil-ANSI
         - perl-common-sense
         - perl-Compress-LZF
         - perl-Config-Any
@@ -1827,11 +1828,13 @@ data:
         - python3-nototools
         - python3-parameterized
         - python3-pip
+        - python3-progressbar2
         - python3-pylint
         - python3-pytest-runner
         - python3-pywbem
         - python3-pyxattr
         - python3-rdflib
+        - python3-requests-download
         - python3-rpm-macros
         - python3-scipy
         - python3-scons
