@@ -4,16 +4,23 @@ data:
   labels:
   - eln-candidate
   - eln
-  maintainer: bakery
+  maintainer: sst_platform_tools
   name: Comps group performance for rhel-8-appstream
   packages:
-  - sysstat
   - grafana
+  - grafana-pcp
   - iowatcher
   - pcp
   - pcp-conf
   - pcp-devel
   - pcp-doc
+  - pcp-export-pcp2elasticsearch
+  - pcp-export-pcp2graphite
+  - pcp-export-pcp2influxdb
+  - pcp-export-pcp2json
+  - pcp-export-pcp2spark
+  - pcp-export-pcp2xml
+  - pcp-export-pcp2zabbix
   - pcp-export-zabbix-agent
   - pcp-gui
   - pcp-import-collectl2pcp
@@ -23,40 +30,56 @@ data:
   - pcp-import-sar2pcp
   - pcp-libs
   - pcp-libs-devel
-  - pcp-manager
   - pcp-pmda-activemq
   - pcp-pmda-apache
   - pcp-pmda-bash
+  - pcp-pmda-bcc
   - pcp-pmda-bind2
   - pcp-pmda-bonding
+  - pcp-pmda-bpftrace
   - pcp-pmda-cifs
   - pcp-pmda-cisco
   - pcp-pmda-dbping
   - pcp-pmda-dm
-  - pcp-pmda-docker
   - pcp-pmda-ds389
   - pcp-pmda-ds389log
+  - pcp-pmda-elasticsearch
   - pcp-pmda-gfs2
+  - pcp-pmda-gluster
   - pcp-pmda-gpfs
   - pcp-pmda-gpsd
+  - pcp-pmda-haproxy
   - pcp-pmda-infiniband
-  - pcp-pmda-kvm
+  - pcp-pmda-json
+  - pcp-pmda-libvirt
+  - pcp-pmda-lio
+  - pcp-pmda-lmsensors
   - pcp-pmda-logger
   - pcp-pmda-lustre
   - pcp-pmda-lustrecomm
   - pcp-pmda-mailq
   - pcp-pmda-memcache
+  - pcp-pmda-mic
   - pcp-pmda-mounts
+  - pcp-pmda-mssql
   - pcp-pmda-mysql
   - pcp-pmda-named
+  - pcp-pmda-netcheck
   - pcp-pmda-netfilter
   - pcp-pmda-news
+  - pcp-pmda-nfsclient
   - pcp-pmda-nginx
+  - pcp-pmda-nutcracker
   - pcp-pmda-nvidia-gpu
+  - pcp-pmda-openmetrics
+  - pcp-pmda-openvswitch
   - pcp-pmda-oracle
   - pcp-pmda-pdns
   - pcp-pmda-perfevent
+  - pcp-pmda-podman
   - pcp-pmda-postfix
+  - pcp-pmda-postgresql
+  - pcp-pmda-rabbitmq
   - pcp-pmda-redis
   - pcp-pmda-roomtemp
   - pcp-pmda-rpm
@@ -67,45 +90,26 @@ data:
   - pcp-pmda-slurm
   - pcp-pmda-smart
   - pcp-pmda-snmp
+  - pcp-pmda-statsd
   - pcp-pmda-summary
   - pcp-pmda-systemd
   - pcp-pmda-trace
+  - pcp-pmda-unbound
   - pcp-pmda-vmware
   - pcp-pmda-weblog
   - pcp-pmda-zimbra
+  - pcp-pmda-zswap
   - pcp-selinux
-  - pcp-webapi
-  - pcp-webapp-blinkenlights
-  - pcp-webapp-grafana
-  - pcp-webapp-graphite
-  - pcp-webapp-vector
-  - pcp-webjs
+  - pcp-system-tools
   - perl-PCP-LogImport
   - perl-PCP-LogSummary
   - perl-PCP-MMV
   - perl-PCP-PMDA
   - powertop
-  wont-install:
   - python3-pcp
-  - pcp-export-pcp2graphite
-  - pcp-export-pcp2influxdb
-  - pcp-export-pcp2json
-  - pcp-export-pcp2xml
-  - pcp-export-pcp2zabbix
-  - pcp-pmda-bcc
-  - pcp-pmda-elasticsearch
-  - pcp-pmda-gluster
-  - pcp-pmda-haproxy
-  - pcp-pmda-json
-  - pcp-pmda-libvirt
-  - pcp-pmda-lio
-  - pcp-pmda-lmsensors
-  - pcp-pmda-mic
-  - pcp-pmda-nfsclient
-  - pcp-pmda-openmetrics
-  - pcp-pmda-unbound
-  - pcp-pmda-zswap
-  - pcp-system-tools
+  - sysstat
+  wont-install:
+  - pcp-pmda-docker
   - pcp-testsuite
   - pcp-zeroconf
 document: feedback-pipeline-workload
