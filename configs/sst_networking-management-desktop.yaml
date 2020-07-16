@@ -1,0 +1,45 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Desktop Network Management
+  description: >
+    The Network Management tools for the desktop environment, including
+    bluetooh, WIFI, IPSec VPN, Cellular network supports.
+  maintainer: sst_networking
+  packages:
+  # Core
+  - iproute2
+  - dhclient
+  - dnsmasq
+  - NetworkManager
+  - NetworkManager-tui
+
+  # Cellular Modem
+  - ModemManager
+  - ModemManager-glib
+  - ModemManager-vala
+  - NetworkManager-ppp
+  - NetworkManager-wwan
+  - mobile-broadband-provider-info
+  - usb_modeswitch
+  - usb_modeswitch-data
+
+  # VPN
+  - NetworkManager-libreswan
+  - NetworkManager-libreswan-gnome
+
+  # Wifi
+  - NetworkManager-wifi
+  - wpa_supplicant
+
+  # Bluetooh
+  - NetworkManager-bluetooth
+  - bluez
+  - bluez-libs
+
+  # GUI
+  - network-manager-applet
+  - nm-connection-editor
+
+  labels:
+  - eln
