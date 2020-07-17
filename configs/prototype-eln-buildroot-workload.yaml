@@ -38,6 +38,7 @@ data:
         - apache-sshd
         - apiguardian
         - apiviz
+        - appstream
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -58,6 +59,7 @@ data:
         - avahi-gobject-devel
         - b43-tools
         - babl-devel
+        - bcc-devel
         - bcel
         - beakerlib
         - beust-jcommander
@@ -616,6 +618,8 @@ data:
         - libassuan-devel
         - libatf-c++-devel
         - libatf-sh-devel
+        - libbpf-devel
+        - libbpf-static
         - libbs2b-devel
         - libbsd-devel
         - libbson-devel
@@ -2180,7 +2184,6 @@ data:
         - zvbi-devel
     arch_packages:
         aarch64:
-            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efivar-devel
@@ -2190,8 +2193,6 @@ data:
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
-            - libbpf-devel
-            - libbpf-static
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
@@ -2204,15 +2205,12 @@ data:
             - tinyxml-devel
             - umockdev
         ppc64le:
-            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efl-devel
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
-            - libbpf-devel
-            - libbpf-static
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
@@ -2228,7 +2226,6 @@ data:
             - umockdev
         s390x:
         x86_64:
-            - bcc-devel
             - brasero-devel
             - dbus-c++-devel
             - efivar-devel
@@ -2239,8 +2236,6 @@ data:
             - gtkmm24-devel
             - infiniband-diags-devel
             - lame-devel
-            - libbpf-devel
-            - libbpf-static
             - libdnet-devel
             - libfprint-devel
             - libgpod-devel
