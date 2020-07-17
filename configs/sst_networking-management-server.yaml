@@ -1,0 +1,52 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Server Network Management
+  description: >
+    The Network Management tools for the server environment, including Open
+    vSwitch, Team, ADSL, cloud, source routing supports, nmstate, IPSec VPN,
+    Cellular network supports.
+  maintainer: sst_networking
+  packages:
+  # Core
+  - iproute2
+  - dhclient
+  - dnsmasq
+  - NetworkManager
+  - NetworkManager-tui
+
+  # Open vSwitch
+  - NetworkManager-ovs
+  - nmstate-plugin-ovsdb
+
+  # Team
+  - NetworkManager-team
+  - teamd
+
+  # IPSec
+  - NetworkManager-libreswan
+
+  # ADSL
+  - NetworkManager-adsl
+
+  # Config files
+  - NetworkManager-config-connectivity-redhat
+  - NetworkManager-config-server
+
+  # Cellular Modem
+  - ModemManager
+  - ModemManager-glib
+  - ModemManager-vala
+  - NetworkManager-ppp
+  - NetworkManager-wwan
+  - mobile-broadband-provider-info
+  - usb_modeswitch
+  - usb_modeswitch-data
+
+  # Other
+  - NetworkManager-dispatcher-routing-rules
+  - NetworkManager-cloud-setup
+  - nmstate
+
+  labels:
+  - eln
