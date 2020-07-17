@@ -1281,6 +1281,46 @@ data:
     arch_packages:
         aarch64:
             - brasero-devel
+            - dbus-c++-devel
+            - efivar-devel
+            - efl-devel
+            - gnu-efi
+            - gtkmm24-devel
+            - lame-devel
+            - libfprint-devel
+            - libgpod-devel
+            - libiec61883-devel
+            - libmad-devel
+            - libmtp-devel
+            - libraw1394-devel
+            - libxml++-devel
+            - python3-libpamtest
+            - tinyxml-devel
+            - umockdev
+        ppc64le:
+            - brasero-devel
+            - dbus-c++-devel
+            - efl-devel
+            - gtkmm24-devel
+            - hwloc-devel
+            - lame-devel
+            - libbson-devel
+            - libfprint-devel
+            - libgpod-devel
+            - libiec61883-devel
+            - libmad-devel
+            - libmongocrypt-devel
+            - libmtp-devel
+            - libraw1394-devel
+            - librtas-devel
+            - libservicelog-devel
+            - libxml++-devel
+            - python3-libpamtest
+            - tinyxml-devel
+            - umockdev
+        s390x:
+        x86_64:
+            - brasero-devel
             - CharLS-devel
             - coin-or-Cbc-devel
             - coin-or-Cgl-devel
@@ -1306,9 +1346,6 @@ data:
             - efivar-devel
             - efl-devel
             - felix-gogo-parent
-            - felix-gogo-runtime
-            - felix-osgi-obr
-            - felix-shell
             - freexl-devel
             - geos-devel
             - gl2ps-devel
@@ -1332,7 +1369,6 @@ data:
             - golang-github-src-d-gcfg-devel
             - golang-github-stretchr-testify-devel
             - golang-github-xanzy-ssh-agent-devel
-            - golang-gopkg-alecthomas-kingpin-2-devel
             - golang-gopkg-check-1-devel
             - golang-gopkg-errgo-2-devel
             - golang-gopkg-src-d-billy-4-devel
@@ -1344,10 +1380,8 @@ data:
             - golang-x-xerrors-devel
             - gtkmm24-devel
             - gupnp-av-devel
-            - gupnp-dlna-devel
             - hiredis-devel
             - hwloc-devel
-            - kxml
             - lame-devel
             - leptonica-devel
             - libappindicator-devel
@@ -1362,9 +1396,12 @@ data:
             - libmtp-devel
             - libnauty-devel
             - libraw1394-devel
+            - libXfont2-devel
             - libxml++-devel
+            - libXvMC-devel
             - lv2-devel
             - mesa-libOSMesa-devel
+            - mesa-libxatracker-devel
             - mongo-c-driver-devel
             - mp-devel
             - mpich-devel
@@ -1374,42 +1411,25 @@ data:
             - nodejs-brace-expansion
             - nodejs-buffer-equal
             - nodejs-bunker
-            - nodejs-caller-path
             - nodejs-charm
-            - nodejs-clean-css
             - nodejs-concat-map
             - nodejs-core-util-is
             - nodejs-deep-equal
             - nodejs-difflet
-            - nodejs-escape-string-regexp
-            - nodejs-graceful-fs
-            - nodejs-graceful-readlink
-            - nodejs-has-ansi
             - nodejs-has-flag
             - nodejs-inherits
             - nodejs-isarray
-            - nodejs-is-object
-            - nodejs-minimatch
             - nodejs-mkdirp
-            - nodejs-once
             - nodejs-process-nextick-args
-            - nodejs-readable-stream
-            - nodejs-resolve-from
             - nodejs-rimraf
             - nodejs-runforcover
             - nodejs-safe-buffer
             - nodejs-samsam
-            - nodejs-set-immediate-shim
-            - nodejs-sinon
             - nodejs-slide
             - nodejs-source-map
             - nodejs-string_decoder
-            - nodejs-strip-ansi
-            - nodejs-supports-color
-            - nodejs-through2
             - nodejs-traverse
             - nodejs-util-deprecate
-            - nodejs-wrappy
             - nodejs-yamlish
             - openmpi-devel
             - perl-accessors
@@ -1431,7 +1451,6 @@ data:
             - perl-Clone-Choose
             - perl-Clone-PP
             - perl-Color-RGB-Util
-            - perl-Config-Any
             - perl-Config-General
             - perl-constant-boolean
             - perl-constant-defer
@@ -1451,7 +1470,6 @@ data:
             - perl-DBM-Deep
             - perl-Declare-Constraints-Simple
             - perl-Devel-CheckCompiler
-            - perl-Devel-Declare
             - perl-Devel-FindPerl
             - perl-Devel-Leak
             - perl-Devel-OverloadInfo
@@ -1460,7 +1478,6 @@ data:
             - perl-Exception-Base
             - perl-Exporter-Tidy
             - perl-File-Copy-Recursive-Reduced
-            - perl-File-Find-Object-Rule
             - perl-File-PathList
             - perl-File-Slurp-Tiny
             - perl-FreezeThaw
@@ -1477,7 +1494,6 @@ data:
             - perl-Image-Info
             - perl-Image-Xbm
             - perl-Image-Xpm
-            - perl-indirect
             - perl-IO-AIO
             - perl-JSON-Any
             - perl-Lexical-SealRequireHints
@@ -1488,7 +1504,6 @@ data:
             - perl-Metrics-Any
             - perl-MLDBM
             - perl-Module-Build-XSUtil
-            - perl-Module-Install-TestBase
             - perl-Module-Path
             - perl-Module-Refresh
             - perl-Module-Runtime-Conflicts
@@ -1496,7 +1511,6 @@ data:
             - perl-Moose
             - perl-Moose-Autobox
             - perl-MooseX-AttributeHelpers
-            - perl-MooseX-ConfigFromFile
             - perl-MooseX-Getopt
             - perl-MooseX-Role-Parameterized
             - perl-MooseX-Role-WithOverloading
@@ -1525,7 +1539,6 @@ data:
             - perl-Pod-POM
             - perl-Pod-Spell-CommonMistakes
             - perl-Readonly-XS
-            - perl-Regexp-Pattern-Perl
             - perl-Return-Type
             - perl-Spiffy
             - perl-SQL-Statement
@@ -1543,8 +1556,6 @@ data:
             - perl-Test-Assert
             - perl-Test-Assertions
             - perl-Test-AutoLoader
-            - perl-Test-Base
-            - perl-Test-CheckDeps
             - perl-Test-CheckManifest
             - perl-Test-CleanNamespaces
             - perl-Test-Compile
@@ -1620,13 +1631,8 @@ data:
             - php-fig-link-util
             - php-gd
             - php-gmp
-            - php-guzzlehttp-promises
-            - php-guzzlehttp-psr7
-            - php-guzzlehttp-ringphp
-            - php-guzzlehttp-ringphp-tests
             - php-guzzlehttp-streams
             - php-hamcrest2
-            - php-http-message-factory
             - php-intl
             - php-json
             - php-jsonlint
@@ -1634,10 +1640,8 @@ data:
             - php-laminas-cache
             - php-laminas-code
             - php-laminas-config
-            - php-laminas-console
             - php-laminas-crypt
             - php-laminas-db
-            - php-laminas-di
             - php-laminas-escaper
             - php-laminas-eventmanager
             - php-laminas-http
@@ -1645,7 +1649,6 @@ data:
             - php-laminas-i18n
             - php-laminas-inputfilter
             - php-laminas-json
-            - php-laminas-ldap
             - php-laminas-loader
             - php-laminas-mail
             - php-laminas-math
@@ -1667,7 +1670,6 @@ data:
             - php-myclabs-deep-copy
             - php-nikic-php-parser3
             - php-nikic-php-parser4
-            - php-ocramius-code-generator-utils
             - php-pdo
             - php-pecl-apcu-devel
             - php-pecl-igbinary
@@ -1821,46 +1823,3 @@ data:
             - umockdev
             - xemacs-nox
             - xpp3-minimal
-        ppc64le:
-            - brasero-devel
-            - dbus-c++-devel
-            - efl-devel
-            - gtkmm24-devel
-            - lame-devel
-            - libfprint-devel
-            - libgpod-devel
-            - libiec61883-devel
-            - libmad-devel
-            - libmtp-devel
-            - libraw1394-devel
-            - librtas-devel
-            - libservicelog-devel
-            - libxml++-devel
-            - python3-libpamtest
-            - tinyxml-devel
-            - umockdev
-        s390x:
-        x86_64:
-            - brasero-devel
-            - dbus-c++-devel
-            - efivar-devel
-            - efl-devel
-            - gnu-efi
-            - gtkmm24-devel
-            - hwloc-devel
-            - lame-devel
-            - libbson-devel
-            - libfprint-devel
-            - libgpod-devel
-            - libiec61883-devel
-            - libmad-devel
-            - libmongocrypt-devel
-            - libmtp-devel
-            - libraw1394-devel
-            - libXfont2-devel
-            - libxml++-devel
-            - libXvMC-devel
-            - mesa-libxatracker-devel
-            - python3-libpamtest
-            - tinyxml-devel
-            - umockdev
