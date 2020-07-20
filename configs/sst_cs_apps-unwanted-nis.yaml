@@ -5,7 +5,7 @@ data:
   description: Packages we do not want to ship for NIS (Network Information System)
   maintainer: sst_cs_apps
 
-  packages:
+  unwanted_packages:
   - nss_nis
   - yp-tools
   - ypbind
