@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MySQL client and server
+  description: Client tools and a server daemon for MySQL from Oracle
+  maintainer: sst_cs_apps
+
+  packages:
+  - mecab-ipadic
+  - mecab-ipadic-EUCJP
+  - mysql
+  - mysql-devel
+  - mysql-server
+  - mysql-test
+
+  labels:
+  - eln

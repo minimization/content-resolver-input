@@ -1,0 +1,76 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for Python2
+  description: Packages we do not want to ship for Python2
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  - python2-PyMySQL
+  - python2-numpy
+  - python2-numpy-doc
+  - python2-numpy-f2py
+  - python2-scipy
+  - mercurial-py2
+  - python2-psycopg2
+  - python2-psycopg2-debug
+  - python2-psycopg2-tests
+  - python2-bson
+  - python2-pymongo
+  - python2-pymongo-gridfs
+  - python2-babel
+  - python2-Cython
+  - python2-pytest
+  - python2-attrs
+  - python2-backports
+  - python2-backports-ssl_match_hostname
+  - python2-chardet
+  - python2-coverage
+  - python2-dns
+  - python2-docutils
+  - python2-funcsigs
+  - python2-iso8601
+  - python2-jinja2
+  - python2-lxml
+  - python2-markupsafe
+  - python2-mock
+  - python2-nose
+  - python2-nose
+  - python2-pluggy
+  - python2-py
+  - python2-pygments
+  - python2-pysocks
+  - python2-pytest-mock
+  - python2-requests
+  - python2-rpm-macros
+  - python2-scour
+  - python2-setuptools
+  - python2-setuptools_scm
+  - python2-six
+  - python2-sqlalchemy
+  - python2-urllib3
+  - python2-virtualenv
+  - python2-wheel
+  - python2-wheel-wheel
+  - python2
+  - python2
+  - python2-debug
+  - python2-devel
+  - python2-devel
+  - python2-for-tests
+  - python2-libs
+  - python2-libs
+  - python2-test
+  - python2-test
+  - python2-tkinter
+  - python2-tools
+  - python2-pip
+  - python2-pip-wheel
+  - python2-rpm-macros
+  - python2-setuptools
+  - python2-setuptools-wheel
+  - python2-pytz
+  - python2-pyyaml
+
+  labels:
+  - eln

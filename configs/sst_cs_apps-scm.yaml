@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SCM Git and Mercurial
+  description: Pupular source-management tools Git and Mercurial
+  maintainer: sst_cs_apps
+
+  packages:
+  - git
+  - git-daemon
+  - git-gui
+  - gitk
+  - mercurial
+
+  labels:
+  - eln

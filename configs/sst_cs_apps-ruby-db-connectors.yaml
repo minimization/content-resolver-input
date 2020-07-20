@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ruby DB connectors
+  description: Databases connectors for Ruby
+  maintainer: sst_cs_apps
+
+  packages:
+  - rubygem-bson
+  - rubygem-mongo
+  - rubygem-mysql2
+  - rubygem-pg
+
+  labels:
+  - eln

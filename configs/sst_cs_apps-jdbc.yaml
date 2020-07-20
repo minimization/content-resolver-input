@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: JDBC connectors
+  description: Java Connectors for MySQL, MariaDB and PostgreSQL databases
+  maintainer: sst_cs_apps
+
+  packages:
+  - mariadb-java-client
+  - postgresql-jdbc
+
+  labels:
+  - eln

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mutt mail client
+  description: A popular command-line e-mail client
+  maintainer: sst_cs_apps
+
+  packages:
+  - mutt
+
+  labels:
+  - eln
