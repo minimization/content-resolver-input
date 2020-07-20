@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for Ruby
+  description: Packages we do not want to ship for Ruby
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  - rubygem-bundler
+  - rubygem-bundler-doc
+  - rubygem-rspec-its
+  - rubygem-rspec-its-doc
+
+  labels:
+  - eln

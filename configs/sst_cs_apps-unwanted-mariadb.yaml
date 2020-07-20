@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for MariaDB
+  description: Packages we do not want to ship for MariaDB
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  - mariadb-connect-engine
+  - mariadb-cracklib-password-check
+  - mariadb-rocksdb-engine
+  - mariadb-sphinx-engine
+  - mariadb-tokudb-engine
+
+  labels:
+  - eln

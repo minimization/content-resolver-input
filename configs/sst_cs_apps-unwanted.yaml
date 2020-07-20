@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages from CS Apps SST
+  description: Packages we do not want to ship for CS Apps SST
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  - libuv
+  - js-uglify
+  - web-assets-devel
+
+  labels:
+  - eln

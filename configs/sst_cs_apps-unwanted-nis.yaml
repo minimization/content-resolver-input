@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for NIS
+  description: Packages we do not want to ship for NIS (Network Information System)
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  - nss_nis
+  - yp-tools
+  - ypbind
+  - ypserv
+
+  labels:
+  - eln

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ruby runtime
+  description: Ruby interpretter and the most basic libraries
+  maintainer: sst_cs_apps
+
+  packages:
+  - ruby
+  - rubygem-abrt
+
+  labels:
+  - eln

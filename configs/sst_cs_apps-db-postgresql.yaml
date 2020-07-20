@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL client and server
+  description: Client tools and a server daemon for PostgreSQL, with some plugins
+  maintainer: sst_cs_apps
+
+  packages:
+  - libpq
+  - libpq-devel
+  - postgresql
+  - postgresql-contrib
+  - postgresql-llvmjit
+  - postgresql-plperl
+  - postgresql-plpython3
+  - postgresql-pltcl
+  - postgresql-server
+  - postgresql-server-devel
+  - postgresql-static
+  - postgresql-test
+  - postgresql-upgrade
+  - postgresql-upgrade-devel
+  - pgaudit
+  - postgres-decoderbufs
+
+  labels:
+  - eln
