@@ -1,4 +1,4 @@
-document: feedback-pipeline-workload
+document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Unwanted packages for Python2
