@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SCTP support
+  description: >
+    Libs and tools necessary for proper SCTP support.
+  maintainer: sst_networking
+  packages:
+  - lksctp-tools
+  - lksctp-tools-doc
+  - lksctp-tools-devel
+  labels:
+  - eln
