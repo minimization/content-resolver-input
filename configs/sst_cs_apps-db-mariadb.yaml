@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MariaDB client and server
+  description: Client tools and a server daemon for MariaDB, with Galera repliechoion
+  maintainer: sst_cs_apps
+
+  packages:
+  - galera
+  - mariadb
+  - mariadb-backup
+  - mariadb-gssapi-server
+  - mariadb-oqgraph-engine
+  - mariadb-server
+  - mariadb-server-galera
+  - mariadb-devel
+  - mariadb-embedded-devel
+  - mariadb-embedded
+  - mariadb-server-utils
+  - mariadb-test
+  - mariadb-connector-c-devel
+  - mariadb-connector-c-test
+
+  labels:
+  - eln

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Autotools
+  description: Autoconf, automake and related tools used for building appliechoions
+  maintainer: sst_cs_apps
+
+  packages:
+  - autoconf
+  - automake
+  - libtool
+
+  labels:
+  - eln

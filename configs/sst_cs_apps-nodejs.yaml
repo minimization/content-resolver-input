@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Node.js runtime
+  description: Node.js (Javascript) runtime and NPM installer for appliechoion development
+  maintainer: sst_cs_apps
+
+  packages:
+  - nodejs
+  - nodejs-devel
+  - npm
+  - nodejs-nodemon
+
+  labels:
+  - eln
