@@ -5,7 +5,7 @@ data:
   description: Packages we do not want to ship for Python2
   maintainer: sst_cs_apps
 
-  packages:
+  unwanted_packages:
   - python2-PyMySQL
   - python2-numpy
   - python2-numpy-doc
