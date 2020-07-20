@@ -76,6 +76,7 @@ data:
         - cglib
         - cheese-libs-devel
         - chrpath
+        - clucene-core-devel
         - clutter-devel
         - clutter-gst3-devel
         - clutter-gtk-devel
@@ -481,6 +482,7 @@ data:
         - libev-devel
         - libevent-devel
         - libexif-devel
+        - libexttextcat-devel
         - libfontenc-devel
         - libgdither-devel
         - libgdl-devel
@@ -572,6 +574,7 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsndfile-devel
+        - libsodium-devel
         - libspectre-devel
         - libspf2-devel
         - libspiro-devel
@@ -1313,9 +1316,6 @@ data:
             - tinyxml-devel
             - umockdev
         s390x:
-            - hwloc-devel
-            - libbson-devel
-            - libmongocrypt-devel
         x86_64:
             - brasero-devel
             - dbus-c++-devel
@@ -1323,14 +1323,11 @@ data:
             - efl-devel
             - gnu-efi
             - gtkmm24-devel
-            - hwloc-devel
             - lame-devel
-            - libbson-devel
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
             - libmad-devel
-            - libmongocrypt-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
