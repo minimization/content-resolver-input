@@ -975,6 +975,7 @@ data:
         - php-devel
         - physfs-devel
         - pipewire0.2-devel
+        - pipewire-devel
         - plexus-ant-factory
         - plexus-compiler
         - plexus-component-api
@@ -1294,6 +1295,7 @@ data:
             - libmtp-devel
             - libraw1394-devel
             - libxml++-devel
+            - nasm
             - python3-libpamtest
             - tinyxml-devel
             - umockdev
@@ -1312,6 +1314,7 @@ data:
             - librtas-devel
             - libservicelog-devel
             - libxml++-devel
+            - nasm
             - python3-libpamtest
             - tinyxml-devel
             - umockdev
@@ -1334,6 +1337,7 @@ data:
             - libxml++-devel
             - libXvMC-devel
             - mesa-libxatracker-devel
+            - nasm
             - python3-libpamtest
             - tinyxml-devel
             - umockdev
