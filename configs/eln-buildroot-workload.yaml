@@ -1313,6 +1313,9 @@ data:
             - tinyxml-devel
             - umockdev
         s390x:
+            - hwloc-devel
+            - libbson-devel
+            - libmongocrypt-devel
         x86_64:
             - brasero-devel
             - dbus-c++-devel
@@ -1320,11 +1323,14 @@ data:
             - efl-devel
             - gnu-efi
             - gtkmm24-devel
+            - hwloc-devel
             - lame-devel
+            - libbson-devel
             - libfprint-devel
             - libgpod-devel
             - libiec61883-devel
             - libmad-devel
+            - libmongocrypt-devel
             - libmtp-devel
             - libraw1394-devel
             - libXfont2-devel
