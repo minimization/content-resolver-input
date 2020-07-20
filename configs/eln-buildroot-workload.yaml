@@ -657,6 +657,7 @@ data:
         - mecab-devel
         - mesa-libgbm-devel
         - meson
+        - metis-devel
         - mftrace
         - miniz-devel
         - mobile-broadband-provider-info-devel
@@ -979,10 +980,6 @@ data:
         - plexus-interactivity-api
         - po4a
         - polkit-gnome
-        - poppler-cpp-devel
-        - poppler-data-devel
-        - poppler-devel
-        - poppler-glib-devel
         - portaudio-devel
         - postgresql-server
         - potrace-devel
