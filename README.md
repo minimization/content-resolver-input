@@ -2,6 +2,8 @@
 
 This repository contains all the configuration for [Feedback Pipeline](https://tiny.distro.builders).
 
+See [config specs](https://github.com/minimization/content-resolver/tree/master/config_specs) for reference. 
+
 ## Locating the right file
 
 Instead of browsing this repository directly, it's easier to find the file you're looking for through [Feedback Pipeline](https://tiny.distro.builders) directly.
