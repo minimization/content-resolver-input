@@ -1,0 +1,20 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: ELN Package Set + Tests
+  description: You can think about it as Enterprise Linux Next. More info https://fedoraproject.org/wiki/ELN
+  maintainer: bakery
+  labels:
+  - eln
+  - eln-test
+  repository: repository-fedora-eln
+  
+
+  ###  Unwanted packages in ELN  ###
+  #
+  # The list has moved to the "unwanted-eln-packages.yml" file,
+  # because that way we can have just one file included into all the
+  # various ELN views.
+  #
+  # So please use "unwanted-eln-packages.yml" instead.
