@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ruby RSpec
+  description: Popular behaviour-driven testing tool for Ruby packages
+  maintainer: sst_cs_apps
+
+  packages:
+  - rubygem-diff-lcs
+  - rubygem-rspec
+  - rubygem-rspec-core
+  - rubygem-rspec-expectations
+  - rubygem-rspec-mocks
+  - rubygem-rspec-support
+  - rubygem-thread_order
+
+  labels:
+  - eln

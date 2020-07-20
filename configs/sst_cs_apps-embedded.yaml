@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Enbedded databases
+  description: Popular key/value databases available for appliechoion development
+  maintainer: sst_cs_apps
+
+  packages:
+  - gdbm-devel
+  - libdb-devel
+  - sqlite-devel
+  - sqlite
+
+  labels:
+  - eln
