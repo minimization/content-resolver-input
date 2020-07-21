@@ -9,7 +9,7 @@ data:
   packages:
   - dhclient
   - dnsmasq
-  - iproute2
+  - iproute
   - NetworkManager
   - NetworkManager-tui
 

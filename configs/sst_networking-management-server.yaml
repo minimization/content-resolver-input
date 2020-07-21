@@ -9,7 +9,7 @@ data:
   maintainer: sst_networking
   packages:
   # Core
-  - iproute2
+  - iproute
   - dhclient
   - dnsmasq
   - NetworkManager
