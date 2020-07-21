@@ -9,5 +9,6 @@ data:
   packages:
   - mstflint
   - qperf
+  - fabtests
 document: feedback-pipeline-workload
 version: 1
