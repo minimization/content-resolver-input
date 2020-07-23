@@ -1,0 +1,37 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  description: Archive default i18n metapackages.
+  labels:
+  - eln-candidate
+  - eln
+  maintainer: sst_i18n
+  name: Comps group input-methods for rhel-9-appstream
+  packages:
+  - gtk2-immodule-xim
+  - gtk3-immodule-xim
+  - ibus
+  - ibus-hangul
+  - ibus-kkc
+  - ibus-libpinyin
+  - ibus-libs
+  - ibus-libzhuyin
+  - ibus-m17n
+  - ibus-sayura
+  - ibus-table-chinese-array
+  - ibus-table-chinese-cangjie
+  - ibus-table-chinese-cantonese
+  - ibus-table-chinese-easy
+  - ibus-table-chinese-erbi
+  - ibus-table-chinese-quick
+  - ibus-table-chinese-scj
+  - ibus-table-chinese-stroke5
+  - ibus-table-chinese-wubi-haifeng
+  - ibus-table-chinese-wubi-jidian
+  - ibus-table-chinese-wu
+  - ibus-table-chinese-yong
+  - ibus-typing-booster
+  - ibus-gtk2
+  - ibus-gtk3
+  - ibus-wayland
