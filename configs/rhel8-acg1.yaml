@@ -1,11 +1,10 @@
 ---
+document: feedback-pipeline-workload
+version: 1
 data:
-  description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
-  labels:
-  - eln-candidate
-  - eln
-  maintainer: asamalik
   name: RHEL 8 ACG lvl 1
+  description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
+  maintainer: asamalik
   packages:
   - glibc
   - libstdc++
@@ -24,5 +23,5 @@ data:
   - pam
   - vulkan-loader
   - zlib
-document: feedback-pipeline-workload
-version: 1
+  labels:
+  - eln
