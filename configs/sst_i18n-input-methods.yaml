@@ -7,7 +7,7 @@ data:
   - eln-candidate
   - eln
   maintainer: sst_i18n
-  name: Comps group input-methods for rhel-9-appstream
+  name: IBus input methods
   packages:
   - gtk2-immodule-xim
   - gtk3-immodule-xim
@@ -15,7 +15,6 @@ data:
   - ibus-hangul
   - ibus-kkc
   - ibus-libpinyin
-  - ibus-libs
   - ibus-libzhuyin
   - ibus-m17n
   - ibus-sayura
