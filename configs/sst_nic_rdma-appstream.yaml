@@ -1,0 +1,33 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RDMA Stack Appstream Packages
+  description: RDMA Stack - Packages should be in ELN
+  maintainer: sst_nic_rdma
+
+  packages:
+  - libfabric-devel
+  - fabtests
+  - opensm-devel
+  - mstflint
+  - qperf
+  - openmpi
+  - openmpi-devel
+  - openmpi-java
+  - openmpi-java-devel
+  - python3-openmpi
+  - mpich
+  - mpich-autoload
+  - mpich-devel
+  - mpich-doc
+  - python3-mpich
+  - libvma
+  - libvma-utils
+  - libvma-devel
+  - ucx
+  - ucx-cma
+  - ucx-devel
+  - ucx-ib
+  - ucx-rdmacm
+  labels:
+  - eln
