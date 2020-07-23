@@ -1,11 +1,17 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted packages for Python2
-  description: Packages we do not want to ship for Python2
+  name: Unwanted Python 2 packages
+  description: Python 2 won't be shipped at all
   maintainer: sst_cs_apps
 
   unwanted_packages:
+  # Python 2.7 not maintained upstream, and marked as deprecated()
+  # in Fedora.
+  - python2.7
+
+  # Python 2 Packages from RHEL8
+  - python2
   - python2-PyMySQL
   - python2-numpy
   - python2-numpy-doc
@@ -52,8 +58,6 @@ data:
   - python2-virtualenv
   - python2-wheel
   - python2-wheel-wheel
-  - python2
-  - python2
   - python2-debug
   - python2-devel
   - python2-devel

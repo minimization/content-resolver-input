@@ -69,24 +69,6 @@ data:
   - rubygems
   - rubypick
 
-  # Petr Viktorin:
-  # Python 2.7 not maintained upstream, and marked as deprecated()
-  # in Fedora.
-  - python2.7
-  # Python 3.6 is quickly becoming obsolete, and might presumably
-  # be pulled into a RHEL-like environment.
-  - python3.6
-
-  # Miro Hrončok:
-  # The older Python version might accidentally be pulled in by not yet rebuilt packages
-  - python3.8
-  # Python Maint prefers the standard library venv module
-  - python3-virtualenv
-  # deprected() Python packages:
-  - python3-nose
-  - python3-pytest4
-  - python3-pytoml
-
   # Radek Vykydal:
   # system-config-kickstart has been deprecated upstream, it has not
   # been ported to Python 3, and shouldn't have been included in RHEL 8.
