@@ -19,7 +19,6 @@ data:
   - firewalld
   - glibc
   - grubby
-  - hostname
   - initscripts
   - iproute
   - iprutils
