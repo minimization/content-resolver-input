@@ -7,7 +7,6 @@ data:
   maintainer: bakery
   name: Comps group graphics for rhel-8-appstream
   packages:
-  - gutenprint-plugin
   - libsane-hpaio
   - sane-backends-drivers-scanners
   - sane-frontends
