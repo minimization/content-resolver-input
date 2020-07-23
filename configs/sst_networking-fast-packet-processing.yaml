@@ -11,6 +11,7 @@ data:
   - dpdk
   - dpdk-tools
   - dpdk-devel
+  - dpdk-doc
 
   labels:
   - eln
