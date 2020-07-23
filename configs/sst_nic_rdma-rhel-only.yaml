@@ -1,0 +1,43 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RDMA Stack RHEL Only
+  description: RDMA Stack RHEL Only - Packages should be in ELN
+  maintainer: sst_nic_rdma
+
+  package_placeholders:
+    mvapich2:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - environment-modules
+      - hwloc-libs
+      - python3
+      - perl-interpreter
+      buildrequires:
+      - perl-Digest-MD5
+      - hwloc-devel
+      - bison
+      - flex
+      - rpm-mpi-hooks
+    mvapich2-devel:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - mvapich2
+    mvapich2-doc:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - mvapich2
+    mpitests-mpich:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - mpich
+    mpitests-mvapich2:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - mvapich2
+    mpitests-openmpi:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires:
+      - openmpi
+  labels:
+  - eln
