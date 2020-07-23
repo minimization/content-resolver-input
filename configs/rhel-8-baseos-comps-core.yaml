@@ -72,7 +72,6 @@ data:
   - iwl6000g2a-firmware
   - iwl6050-firmware
   - iwl7260-firmware
-  - kernel-tools
   - libsysfs
   - linux-firmware
   - lshw
