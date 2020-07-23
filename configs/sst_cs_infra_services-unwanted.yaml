@@ -93,6 +93,7 @@ data:
   # tuned
   - tuned-profiles-compat
   - tuned-utils-systemtap
+  - tuned-profiles-nfv-host-bin
   # urw-base35-fonts
   - urw-base35-fonts-legacy
   # xsane
