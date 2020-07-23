@@ -10,8 +10,12 @@ data:
   # in Fedora.
   - python2.7
 
-  # Python 2 Packages from RHEL8
+  # Python 2 Packages from RHEL8 and Fedora 33 (rawhide)
   - mercurial-py2
+  - pygobject2
+  - pygobject2-codegen
+  - pygobject2-devel
+  - pygtk2
   - python2
   - python2-Cython
   - python2-PyMySQL
@@ -20,6 +24,8 @@ data:
   - python2-backports
   - python2-backports-ssl_match_hostname
   - python2-bson
+  - python2-cairo
+  - python2-cairo-devel
   - python2-chardet
   - python2-coverage
   - python2-debug
@@ -28,6 +34,8 @@ data:
   - python2-docutils
   - python2-for-tests
   - python2-funcsigs
+  - python2-genshi
+  - python2-httplib2
   - python2-iso8601
   - python2-jinja2
   - python2-libs
@@ -38,9 +46,13 @@ data:
   - python2-numpy
   - python2-numpy-doc
   - python2-numpy-f2py
+  - python2-oauth2
+  - python2-olefile
+  - python2-pillow
   - python2-pip
   - python2-pip-wheel
   - python2-pluggy
+  - python2-psutil
   - python2-psycopg2
   - python2-psycopg2-debug
   - python2-psycopg2-tests
