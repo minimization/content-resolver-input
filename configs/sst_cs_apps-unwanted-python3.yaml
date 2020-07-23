@@ -1,0 +1,25 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Python 3 packages
+  description: Packages we do not want to ship for Python 3
+  maintainer: sst_cs_apps
+
+  unwanted_packages:
+  # Python 3.6 is quickly becoming obsolete, and might presumably
+  # be pulled into a RHEL-like environment.
+  - python3.6
+
+  # The older Python version might accidentally be pulled in by not yet rebuilt packages
+  - python3.8
+
+  # Python Maint prefers the standard library venv module
+  - python3-virtualenv
+
+  # deprected() Python packages:
+  - python3-nose
+  - python3-pytest4
+  - python3-pytoml
+
+  labels:
+  - eln
