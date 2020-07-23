@@ -26,12 +26,6 @@ data:
   - btrfs-progs
   - btrfs-progs-devel
 
-  # Justin Forbes: These packages are subpackages of the ARK kernel
-  # in ELN, but separate packages in Fedora. We need to make sure that 
-  # we are using the packages from the kernel packages in ELN.
-  - kernel-headers
-  - kernel-tools
-  
   # Josh Boyer: Mono hasn't been carried in RHEL and there are
   # no plans to add it. Exclude it from ELN for now.
   - mono-core
