@@ -15,6 +15,7 @@ data:
         - 389-ds-base-devel
         - a2ps
         - aalib-devel
+        - aalib-libs
         - abrt-devel
         - abrt-gui-devel
         - accountsservice-devel
@@ -86,6 +87,7 @@ data:
         - avahi-gobject
         - avahi-gobject-devel
         - b43-tools
+        - babl
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
@@ -455,7 +457,6 @@ data:
         - gcc-aarch64-linux-gnu
         - gcc-arm-linux-gnu
         - gcc-gdb-plugin
-        - gcc-gfortran
         - gcc-gnat
         - gcc-objc
         - gcc-objc++
@@ -478,6 +479,7 @@ data:
         - gdm-pam-extensions-devel
         - gecode
         - gecode-devel
+        - gegl04
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
@@ -909,8 +911,10 @@ data:
         - ghostscript-tools-printing
         - ghostscript-x11
         - giflib-devel
+        - gimp
         - gimp-devel
         - gimp-devel-tools
+        - gimp-libs
         - gjs-devel
         - gl2ps
         - gl2ps-devel
@@ -1448,7 +1452,6 @@ data:
         - janino
         - jansson-devel
         - jasper-devel
-        - java-11-openjdk-devel
         - java-11-openjdk-javadoc
         - java-1.8.0-openjdk-javadoc
         - java-atk-wrapper
@@ -1520,6 +1523,8 @@ data:
         - jzlib
         - kde-settings
         - kernel
+        - kernel-tools
+        - kernel-tools-libs
         - keyrings-filesystem
         - kf5-attica
         - kf5-attica-devel
@@ -1626,6 +1631,7 @@ data:
         - latex2html
         - latexmk
         - lato-fonts
+        - lcms2-devel
         - lcov
         - ldb-tools
         - ldns-devel
@@ -1751,7 +1757,6 @@ data:
         - libewf-devel
         - libexif-devel
         - libexttextcat-devel
-        - libfabric-devel
         - libfastjson-devel
         - libfbclient2
         - libfbclient2-devel
@@ -1889,6 +1894,7 @@ data:
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
+        - libmypaint
         - libmypaint-devel
         - libnauty
         - libnauty-devel
@@ -2062,6 +2068,7 @@ data:
         - libwacom-devel
         - libwbclient-devel
         - libwinpr-devel
+        - libwmf
         - libwmf-devel
         - libwpd-devel
         - libwpe-devel
@@ -2106,17 +2113,14 @@ data:
         - llvm6.0-libs
         - lmdb
         - lmdb-devel
-        - Lmod
         - lockdev-devel
         - log4j
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
-        - lua-filesystem
         - luajit
         - luajit-devel
         - lua-lunit
-        - lua-term
         - lutok
         - lutok-devel
         - lv2
@@ -2241,8 +2245,6 @@ data:
         - mp-devel
         - mpg123-devel
         - mpi4py-common
-        - mpich
-        - mpich-devel
         - msv-msv
         - msv-xsdlib
         - mtdev-devel
@@ -2253,7 +2255,6 @@ data:
         - MUMPS-common
         - MUMPS-devel
         - munge-devel
-        - munge-libs
         - munge-maven-plugin
         - mupdf
         - mutter-devel
@@ -2377,6 +2378,7 @@ data:
         - openblas-openmp
         - openblas-openmp64
         - openblas-openmp64_
+        - openblas-serial
         - openblas-serial64
         - openblas-serial64_
         - openblas-threads64
@@ -2392,19 +2394,15 @@ data:
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
-        - openmpi
-        - openmpi-devel
         - openpgm
         - openpgm-devel
         - openslp-devel
-        - opensm-libs
         - opensp
         - opensp-devel
         - opentest4j
         - openwsman-server
         - optipng
         - opus-devel
-        - orangefs
         - orangefs-devel
         - osgi-annotation
         - osgi-compendium
@@ -3336,7 +3334,6 @@ data:
         - plotutils
         - plotutils-devel
         - plymouth-devel
-        - pmix
         - pmix-devel
         - pngcrush
         - pngquant
@@ -3387,9 +3384,11 @@ data:
         - pugixml-devel
         - py3c-devel
         - pybind11-devel
+        - pygobject2
         - pygobject2-codegen
         - pygobject2-devel
         - pygobject2-doc
+        - pygtk2
         - pygtk2-codegen
         - pygtk2-devel
         - pygtk2-doc
@@ -3402,6 +3401,7 @@ data:
         - pypy-devel
         - pypy-libs
         - python2-babel
+        - python2-cairo
         - python2-cairo-devel
         - python2-markupsafe
         - python2-pytz
@@ -3508,6 +3508,7 @@ data:
         - python3-jedi
         - python3-jupyter-client
         - python3-jupyter-core
+        - python3-jwt
         - python3-jwt+crypto
         - python3-kerberos
         - python3-kiwisolver
@@ -3541,7 +3542,6 @@ data:
         - python3-mock
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
-        - python3-mpich
         - python3-mpmath
         - python3-munkres
         - python3-nb2plots
@@ -3555,7 +3555,6 @@ data:
         - python3-numpydoc
         - python3-numpy-f2py
         - python3-oauthlib+signedtoken
-        - python3-openmpi
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
@@ -3848,7 +3847,6 @@ data:
         - rmt
         - rpcgen
         - rpcsvc-proto-devel
-        - rpm-mpi-hooks
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
@@ -4565,6 +4563,7 @@ data:
         - stringtemplate
         - stunnel
         - subversion-perl
+        - suitesparse
         - suitesparse64
         - suitesparse-devel
         - sundials
@@ -4585,7 +4584,6 @@ data:
         - taglib-devel
         - tclx
         - tclx-devel
-        - tcsh
         - teamd-devel
         - teckit-devel
         - tepl-devel
@@ -4878,7 +4876,6 @@ data:
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
-            - libfabric
             - libffado
             - libffado-devel
             - libfprint-devel
@@ -4906,7 +4903,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - vboot-utils
             - xen-devel
         ppc64le:
@@ -4930,7 +4926,6 @@ data:
             - libffado-devel
             - libfprint-devel
             - libiec61883-devel
-            - libquadmath-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog
@@ -4955,14 +4950,12 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - uuid
         s390x:
             - daxctl-devel
             - efi-filesystem
             - gperftools-libs
             - libdv
-            - libfabric
             - libftdi
             - libgpod
             - libimobiledevice
@@ -4975,7 +4968,6 @@ data:
             - memstrack
             - ndctl-devel
             - openbios
-            - opensc
             - pugixml
             - qemu-system-aarch64
             - qemu-system-aarch64-core
@@ -5004,7 +4996,6 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
-            - libatomic
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5034,6 +5025,5 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - vboot-utils
             - xen-devel
