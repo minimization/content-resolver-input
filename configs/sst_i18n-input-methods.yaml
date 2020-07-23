@@ -2,12 +2,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
+  name: IBus input methods
   description: Archive default i18n metapackages.
+  maintainer: sst_i18n
   labels:
   - eln-candidate
   - eln
-  maintainer: sst_i18n
-  name: IBus input methods
   packages:
   - gtk2-immodule-xim
   - gtk3-immodule-xim
