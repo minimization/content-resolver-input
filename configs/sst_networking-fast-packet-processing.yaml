@@ -12,6 +12,13 @@ data:
   - dpdk-tools
   - dpdk-devel
   - dpdk-doc
+  - tuned
+  - tuned-profiles-nfv
+  - tuned-profiles-nfv-guest
+  - tuned-profiles-nfv-host
+  - tuned-profiles-nfv-host-bin
+  - tuned-profiles-realtime
+  - tuned-profiles-cpu-partitioning
 
   labels:
   - eln
