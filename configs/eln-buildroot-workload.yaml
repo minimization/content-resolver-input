@@ -3627,7 +3627,6 @@ data:
         - python3-pytest-httpbin
         - python3-pytest-mock
         - python3-pytest-randomly
-        - python3-pytest-relaxed
         - python3-pytest-remotedata
         - python3-pytest-rerunfailures
         - python3-pytest-runner
