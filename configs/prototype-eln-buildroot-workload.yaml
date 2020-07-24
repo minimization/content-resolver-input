@@ -1702,6 +1702,8 @@ data:
         - libcdio-devel
         - libcdio-paranoia-devel
         - libcdr-devel
+        - libcephfs2
+        - libcephfs-devel
         - libcgroup-devel
         - libchromaprint
         - libchromaprint-devel
@@ -1901,7 +1903,6 @@ data:
         - libnbd
         - libnbd-devel
         - libndp-devel
-        - libnet
         - libnet-devel
         - libnetfilter_conntrack-devel
         - libnfnetlink-devel
@@ -1968,7 +1969,10 @@ data:
         - libqxp-devel
         - librabbitmq
         - librabbitmq-devel
+        - librados-devel
+        - libradospp-devel
         - LibRaw-devel
+        - librbd-devel
         - librdkafka
         - librdkafka-devel
         - libref_array-devel
@@ -2044,6 +2048,7 @@ data:
         - libunistring-devel
         - libupnp
         - libupnp-devel
+        - liburing-devel
         - libusb-devel
         - libusbmuxd-devel
         - libuser-devel
@@ -2190,6 +2195,7 @@ data:
         - meanwhile-devel
         - mecab-devel
         - memcached
+        - memstrack
         - mesa-libgbm-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
@@ -2219,6 +2225,7 @@ data:
         - miniz
         - miniz-devel
         - minizip-compat-devel
+        - mkpasswd
         - mobile-broadband-provider-info-devel
         - mockito
         - mod_dav_svn
@@ -2283,6 +2290,7 @@ data:
         - netty
         - neXtaw
         - neXtaw-devel
+        - nftables-devel
         - nghttp2
         - nilfs-utils
         - ninja-build
@@ -3393,7 +3401,6 @@ data:
         - pygtk2-devel
         - pygtk2-doc
         - pylint
-        - pyproject-rpm-macros
         - pypy
         - pypy3
         - pypy3-devel
@@ -3408,10 +3415,12 @@ data:
         - python2-rpm-macros
         - python2-setuptools
         - python3.5
+        - python3.6
         - python3.7
         - python3.8
         - python3-anytree
         - python3-apipkg
+        - python3-appdirs
         - python3-astroid
         - python3-async-generator
         - python3-atomicwrites
@@ -3442,12 +3451,10 @@ data:
         - python3-crypto
         - python3-cryptography-vectors
         - python3-cycler
-        - python3-Cython
         - python3-dbusmock
-        - python3-debug
         - python3-defusedxml
-        - python3-devel
         - python3-dill
+        - python3-distlib
         - python3-docs
         - python3-dulwich
         - python3-elementpath
@@ -3460,10 +3467,12 @@ data:
         - python3-fastcache
         - python3-fastimport
         - python3-fields
+        - python3-filelock
         - python3-fixtures
         - python3-flake8
         - python3-flaky
         - python3-flask
+        - python3-flexmock
         - python3-flit
         - python3-flit-core
         - python3-fluidity-sm
@@ -3486,8 +3495,6 @@ data:
         - python3-hyperframe
         - python3-hyperlink
         - python3-hypothesis
-        - python3-idle
-        - python3-imagesize
         - python3-incremental
         - python3-invoke
         - python3-ipykernel
@@ -3548,6 +3555,7 @@ data:
         - python3-nbconvert
         - python3-nbformat
         - python3-nbsphinx
+        - python3-nose
         - python3-nose2
         - python3-nototools
         - python3-numexpr
@@ -3630,8 +3638,6 @@ data:
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
-        - python3-rpm-generators
-        - python3-rpm-macros
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
@@ -3648,22 +3654,14 @@ data:
         - python3-setuptools_scm_git_archive
         - python3-should_dsl
         - python3-sip-devel
-        - python3-snowballstemmer
         - python3-sortedcontainers
         - python3-spec
-        - python3-sphinx
         - python3-sphinxcontrib-apidoc
-        - python3-sphinxcontrib-applehelp
         - python3-sphinxcontrib-bibtex
-        - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
-        - python3-sphinxcontrib-htmlhelp
         - python3-sphinxcontrib-httpdomain
-        - python3-sphinxcontrib-jsmath
         - python3-sphinxcontrib-log-cabinet
-        - python3-sphinxcontrib-qthelp
         - python3-sphinxcontrib-rsvgconverter
-        - python3-sphinxcontrib-serializinghtml
         - python3-sphinxcontrib-svg2pdfconverter-common
         - python3-sphinxcontrib-trio
         - python3-sphinxcontrib-websupport
@@ -3678,8 +3676,8 @@ data:
         - python3-sphinx_rtd_theme
         - python3-sphinxtesters
         - python3-sphinx-testing
-        - python3-sphinx-theme-alabaster
         - python3-sphinx-theme-py3doc-enhanced
+        - python3-sqlalchemy
         - python3-sure
         - python3-sympy
         - python3-tables
@@ -3687,7 +3685,6 @@ data:
         - python3-tempita
         - python3-tempora
         - python3-termcolor
-        - python3-test
         - python3-testpath
         - python3-testresources
         - python3-testscenarios
@@ -3696,8 +3693,6 @@ data:
         - python3-text-unidecode
         - python3-theano
         - python3-tidy
-        - python3-tkinter
-        - python3-toml
         - python3-tox
         - python3-tox-current-env
         - python3-tqdm
@@ -3707,6 +3702,7 @@ data:
         - python3-typed_ast
         - python3-u-msgpack-python
         - python3-unbound
+        - python3-virtualenv
         - python3-vtk
         - python3-vtk-qt
         - python3-wadllib
@@ -3733,9 +3729,9 @@ data:
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
-        - python-rpm-macros
         - python-sphinx-doc
         - python-systemd-doc
+        - python-wheel-wheel
         - qemu
         - qemu-sanity-check-nodeps
         - qemu-system-alpha
@@ -4564,6 +4560,7 @@ data:
         - subversion-perl
         - suitesparse
         - suitesparse64
+        - suitesparse64-devel
         - suitesparse-devel
         - sundials
         - sundials-devel
@@ -4693,7 +4690,9 @@ data:
         - tre
         - tre-common
         - tre-devel
+        - trousers
         - trousers-devel
+        - trousers-lib
         - ttembed
         - ttfautohint
         - ttfautohint-libs
@@ -4862,6 +4861,7 @@ data:
             - dotnet-sdk-3.1-source-built-artifacts
             - dotnet-targeting-pack-3.1
             - dotnet-templates-3.1
+            - dyninst-devel
             - edk2-ovmf
             - efivar-devel
             - efl
@@ -4900,6 +4900,7 @@ data:
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
+            - tpm2-tss-devel
             - tslib
             - tslib-devel
             - vboot-utils
@@ -4911,6 +4912,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - dyninst-devel
             - efi-filesystem
             - efl
             - efl-devel
@@ -4964,7 +4966,6 @@ data:
             - libXvMC
             - lm_sensors-devel
             - media-player-info
-            - memstrack
             - ndctl-devel
             - openbios
             - pugixml
@@ -4974,6 +4975,7 @@ data:
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - s390utils-devel
             - usbredir
         x86_64:
             - bullet
@@ -4982,9 +4984,12 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - dev86
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
+            - dyninst-devel
             - edk2-aarch64
+            - edk2-tools
             - efivar-devel
             - efl
             - efl-devel
@@ -4995,6 +5000,9 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
+            - infinipath-psm-devel
+            - intel-mediasdk
+            - intel-mediasdk-devel
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5002,15 +5010,24 @@ data:
             - libffado-devel
             - libfprint-devel
             - libiec61883-devel
+            - libipt-devel
+            - libpsm2-devel
             - libraw1394-devel
+            - libsmbios-devel
             - libubsan
+            - libvmaf-devel
+            - libxcrypt-compat
             - libxml++
             - libxml++-devel
             - mesa-libxatracker-devel
             - openbios
+            - opencl-filesystem
             - openni
             - openni-devel
             - openni-primesense
+            - perl-Crypt-PasswdMD5
+            - pocl
+            - pocl-devel
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5020,9 +5037,12 @@ data:
             - rlottie
             - rlottie-devel
             - spice-server-devel
+            - syslinux-perl
             - tinyxml
             - tinyxml-devel
+            - tpm2-tss-devel
             - tslib
             - tslib-devel
+            - uthash-devel
             - vboot-utils
             - xen-devel
