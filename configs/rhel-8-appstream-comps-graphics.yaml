@@ -9,6 +9,5 @@ data:
   packages:
   - libsane-hpaio
   - sane-backends-drivers-scanners
-  - sane-frontends
 document: feedback-pipeline-workload
 version: 1
