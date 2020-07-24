@@ -24,7 +24,6 @@ data:
   - lsof
   - mcelog
   - microcode_ctl
-  - net-tools
   - pciutils
   - psacct
   - quota

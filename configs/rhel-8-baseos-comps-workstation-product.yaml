@@ -37,7 +37,6 @@ data:
   - microcode_ctl
   - mlocate
   - mtr
-  - net-tools
   - nfs-utils
   - pciutils
   - polkit
