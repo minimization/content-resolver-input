@@ -3605,7 +3605,6 @@ data:
         - python3-pyqt4-sip
         - python3-pyrad
         - python3-pyserial
-        - python3-pytest4
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
