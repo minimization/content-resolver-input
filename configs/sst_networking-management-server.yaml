@@ -26,6 +26,9 @@ data:
   # IPSec
   - NetworkManager-libreswan
 
+  # MACSec / 802.1x
+  - wpa_supplicant
+
   # ADSL
   - NetworkManager-adsl
 
