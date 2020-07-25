@@ -86,6 +86,7 @@ data:
         - avahi-gobject
         - avahi-gobject-devel
         - b43-tools
+        - babl
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
@@ -175,8 +176,10 @@ data:
         - cjkuni-uming-fonts
         - cjose-devel
         - clamav-data
+        - clamav-devel
         - clamav-filesystem
         - clamav-lib
+        - clamav-update
         - clamd
         - classloader-leak-test-framework
         - clblast
@@ -233,7 +236,6 @@ data:
         - compat-golang-gopkg-fsnotify-1-devel
         - compat-lua
         - compat-lua-devel
-        - compat-lua-libs
         - compat-readline5-devel
         - compat-wxGTK3-gtk2
         - compat-wxGTK3-gtk2-devel
@@ -258,8 +260,7 @@ data:
         - csnappy-devel
         - CUnit
         - CUnit-devel
-        - cvs
-        - cvsps
+        - cups-filters-devel
         - datefudge
         - dblatex
         - dbusmenu-qt
@@ -302,6 +303,7 @@ data:
         - dontpanic-devel
         - dotconf-devel
         - double-conversion-devel
+        - dovecot-devel
         - doxygen
         - doxygen2man
         - doxygen-latex
@@ -456,7 +458,6 @@ data:
         - gcc-aarch64-linux-gnu
         - gcc-arm-linux-gnu
         - gcc-gdb-plugin
-        - gcc-gfortran
         - gcc-gnat
         - gcc-objc
         - gcc-objc++
@@ -468,6 +469,7 @@ data:
         - GConf2-devel
         - gdal-devel
         - gdal-libs
+        - gdb-minimal
         - gdcm
         - gdcm-applications
         - gdcm-devel
@@ -479,14 +481,13 @@ data:
         - gdm-pam-extensions-devel
         - gecode
         - gecode-devel
+        - gegl04
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
         - GeoIP
         - GeoIP-devel
         - GeoIP-GeoLite-data
-        - geolite2-city
-        - geolite2-country
         - geos
         - geos-devel
         - geronimo-jaxrpc
@@ -908,10 +909,11 @@ data:
         - ghostscript-tools-dvipdf
         - ghostscript-tools-fonts
         - ghostscript-tools-printing
-        - ghostscript-x11
         - giflib-devel
+        - gimp
         - gimp-devel
         - gimp-devel-tools
+        - gimp-libs
         - gjs-devel
         - gl2ps
         - gl2ps-devel
@@ -969,6 +971,7 @@ data:
         - golang-cloud-google-compute-devel
         - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
+        - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
         - golang-etcd-devel
         - golang-github-acobaugh-osrelease-devel
@@ -985,6 +988,10 @@ data:
         - golang-github-armon-radix-devel
         - golang-github-aws-sdk-2-devel
         - golang-github-aws-sdk-devel
+        - golang-github-azure-autorest-devel
+        - golang-github-azure-pipeline-devel
+        - golang-github-azure-sdk-devel
+        - golang-github-azure-storage-blob-devel
         - golang-github-beevik-etree-devel
         - golang-github-benbjohnson-clock-devel
         - golang-github-beorn7-perks-devel
@@ -996,6 +1003,7 @@ data:
         - golang-github-cactus-statsd-client-devel
         - golang-github-casbin-devel
         - golang-github-cenkalti-backoff-devel
+        - golang-github-census-instrumentation-opencensus-proto-devel
         - golang-github-cespare-xxhash-devel
         - golang-github-cheekybits-genny-devel
         - golang-github-chzyer-test-devel
@@ -1020,6 +1028,8 @@ data:
         - golang-github-dchest-uniuri-devel
         - golang-github-denisenkom-mssqldb-devel
         - golang-github-dgrijalva-jwt-devel
+        - golang-github-dimchansky-utfbom-devel
+        - golang-github-dnaeon-vcr-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
@@ -1033,9 +1043,11 @@ data:
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
         - golang-github-ghodss-yaml-devel
+        - golang-github-globalsign-mgo-devel
         - golang-github-glog-devel
         - golang-github-gobwas-glob-devel
         - golang-github-godbus-dbus-devel
+        - golang-github-gofrs-flock-devel
         - golang-github-gogo-protobuf-devel
         - golang-github-goji-param-devel
         - golang-github-googleapis-gax-devel
@@ -1048,6 +1060,7 @@ data:
         - golang-github-google-querystring-devel
         - golang-github-google-renameio-devel
         - golang-github-google-uuid-devel
+        - golang-github-gophercloud-devel
         - golang-github-gorilla-mux-devel
         - golang-github-gorilla-websocket-devel
         - golang-github-gosimple-slug-devel
@@ -1114,8 +1127,10 @@ data:
         - golang-github-macaron-inject-devel
         - golang-github-macaron-session-devel
         - golang-github-magiconair-properties-devel
+        - golang-github-masterminds-semver-devel
         - golang-github-mattetti-filebuffer-devel
         - golang-github-mattn-colorable-devel
+        - golang-github-mattn-ieproxy-devel
         - golang-github-mattn-isatty-devel
         - golang-github-mattn-runewidth-devel
         - golang-github-mattn-sqlite3-devel
@@ -1170,11 +1185,13 @@ data:
         - golang-github-russellhaering-goxmldsig-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
+        - golang-github-satori-uuid-devel
         - golang-github-schollz-progressbar-2-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
         - golang-github-shopify-sarama-devel
         - golang-github-shopify-toxiproxy-devel
+        - golang-github-shopspring-decimal-devel
         - golang-github-shurcool-sanitized-anchor-name-devel
         - golang-github-sirupsen-logrus-devel
         - golang-github-smartystreets-assertions-devel
@@ -1252,6 +1269,7 @@ data:
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
         - golang-gopkg-tomb-1-devel
+        - golang-gopkg-tomb-2-devel
         - golang-gopkg-validator-2-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
@@ -1362,6 +1380,7 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
+        - http-parser
         - http-parser-devel
         - hunspell-cs
         - hunspell-de
@@ -1416,6 +1435,7 @@ data:
         - ImageMagick-devel
         - ImageMagick-perl
         - imake
+        - imaptest
         - imlib2-devel
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
@@ -1510,6 +1530,8 @@ data:
         - jzlib
         - kde-settings
         - kernel
+        - kernel-tools
+        - kernel-tools-libs
         - keyrings-filesystem
         - kf5-attica
         - kf5-attica-devel
@@ -1617,6 +1639,7 @@ data:
         - latex2html
         - latexmk
         - lato-fonts
+        - lcms2-devel
         - lcov
         - ldb-tools
         - ldns-devel
@@ -1670,7 +1693,6 @@ data:
         - libblockdev-part-devel
         - libblockdev-swap-devel
         - libblockdev-utils-devel
-        - libbluray
         - libbluray-devel
         - libbpf-devel
         - libbpf-static
@@ -1738,6 +1760,7 @@ data:
         - libesmtp-devel
         - libestr-devel
         - libetonyek-devel
+        - libev
         - libevdev-devel
         - libev-devel
         - libevent-devel
@@ -1746,7 +1769,6 @@ data:
         - libewf-devel
         - libexif-devel
         - libexttextcat-devel
-        - libfabric-devel
         - libfastjson-devel
         - libfbclient2
         - libfbclient2-devel
@@ -1772,7 +1794,9 @@ data:
         - libgfapi-devel
         - libgfrpc-devel
         - libgfxdr-devel
+        - libgit2
         - libgit2-devel
+        - libgit2-glib
         - libglade2
         - libglade2-devel
         - libGLEW
@@ -1858,9 +1882,7 @@ data:
         - libmcrypt
         - libmcrypt-devel
         - libmediaart-devel
-        - libmemcached
         - libmemcached-devel
-        - libmemcached-libs
         - libmetalink-devel
         - libmicrodns-devel
         - libmicrohttpd
@@ -1884,13 +1906,13 @@ data:
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
+        - libmypaint
         - libmypaint-devel
         - libnauty
         - libnauty-devel
         - libnbd
         - libnbd-devel
         - libndp-devel
-        - libnet
         - libnet-devel
         - libnetfilter_conntrack-devel
         - libnfnetlink-devel
@@ -1925,6 +1947,7 @@ data:
         - libosinfo-devel
         - libotf
         - libotf-devel
+        - libotr-devel
         - libp11-devel
         - libpagemaker-devel
         - libpamtest
@@ -1986,7 +2009,6 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsmbclient-devel
-        - libsmi
         - libsmi-devel
         - libsndfile-devel
         - libsodium-devel
@@ -2016,7 +2038,6 @@ data:
         - libtar-devel
         - libtheora-devel
         - libtidy
-        - libtidy-devel
         - libtiff-tools
         - libtimezonemap-devel
         - libtirpc-devel
@@ -2060,6 +2081,7 @@ data:
         - libwacom-devel
         - libwbclient-devel
         - libwinpr-devel
+        - libwmf
         - libwmf-devel
         - libwpd-devel
         - libwpe-devel
@@ -2079,6 +2101,7 @@ data:
         - libXvMC-devel
         - libXxf86vm-devel
         - libyaml-devel
+        - libyang-devel
         - libytnef
         - libytnef-devel
         - libyubikey
@@ -2192,7 +2215,7 @@ data:
         - mdds-devel
         - meanwhile-devel
         - mecab-devel
-        - memcached
+        - memstrack
         - mesa-libgbm-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
@@ -2222,6 +2245,7 @@ data:
         - miniz
         - miniz-devel
         - minizip-compat-devel
+        - mkpasswd
         - mobile-broadband-provider-info-devel
         - mockito
         - mod_dav_svn
@@ -2248,8 +2272,6 @@ data:
         - mp-devel
         - mpg123-devel
         - mpi4py-common
-        - mpich
-        - mpich-devel
         - msv-msv
         - msv-xsdlib
         - mtdev-devel
@@ -2260,7 +2282,6 @@ data:
         - MUMPS-common
         - MUMPS-devel
         - munge-devel
-        - munge-libs
         - munge-maven-plugin
         - mupdf
         - mutter-devel
@@ -2290,6 +2311,7 @@ data:
         - netty
         - neXtaw
         - neXtaw-devel
+        - nftables-devel
         - nghttp2
         - nilfs-utils
         - ninja-build
@@ -2389,6 +2411,7 @@ data:
         - openblas-openmp
         - openblas-openmp64
         - openblas-openmp64_
+        - openblas-serial
         - openblas-serial64
         - openblas-serial64_
         - openblas-threads64
@@ -2404,19 +2427,15 @@ data:
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
-        - openmpi
-        - openmpi-devel
         - openpgm
         - openpgm-devel
         - openslp-devel
-        - opensm-libs
         - opensp
         - opensp-devel
         - opentest4j
         - openwsman-server
         - optipng
         - opus-devel
-        - orangefs
         - orangefs-devel
         - osgi-annotation
         - osgi-compendium
@@ -2503,16 +2522,19 @@ data:
         - perl-CGI
         - perl-CGI-Application
         - perl-CGI-PSGI
+        - perl-Class-Accessor-Chained
         - perl-Class-Accessor-Grouped
         - perl-Class-C3
         - perl-Class-C3-Componentised
         - perl-Class-DBI
         - perl-Class-DBI-Plugin
         - perl-Class-DBI-Plugin-DeepAbstractSearch
+        - perl-Class-Inner
         - perl-Class-ISA
         - perl-Class-Iterator
         - perl-Class-Load
         - perl-Class-Load-XS
+        - perl-Class-ReturnValue
         - perl-Class-Tiny
         - perl-Class-Trigger
         - perl-Class-Unload
@@ -2530,14 +2552,15 @@ data:
         - perl-Config-AutoConf
         - perl-Config-General
         - perl-Config-INI
+        - perl-Config-IniFiles
         - perl-Config-INI-Reader-Multiline
         - perl-Config-Simple
         - perl-Config-Tiny
-        - perl-constant-boolean
         - perl-constant-defer
         - perl-Const-Fast
         - perl-Context-Preserve
         - perl-Contextual-Return
+        - perl-Convert-Base64
         - perl-Convert-Bencode
         - perl-Convert-Bencode_XS
         - perl-Coro
@@ -2561,22 +2584,28 @@ data:
         - perl-Data-Dumper-Concise
         - perl-Data-Dump-Streamer
         - perl-Data-GUID
+        - perl-Data-ICal
+        - perl-Data-ICal-TimeZone
         - perl-Data-Munge
         - perl-Data-Perl
         - perl-Data-Section-Simple
         - perl-Data-Serializer
         - perl-Data-Taxi
         - perl-Data-UUID
-        - perl-Data-Visitor
         - perl-Date-Simple
         - perl-DateTime-Calendar-Mayan
+        - perl-DateTime-Event-ICal
+        - perl-DateTime-Event-Recurrence
         - perl-DateTime-Format-DateParse
         - perl-DateTime-Format-HTTP
         - perl-DateTime-Format-IBeat
+        - perl-DateTime-Format-ICal
+        - perl-DateTime-Format-ISO8601
         - perl-DateTime-Format-Mail
         - perl-DateTime-Format-MySQL
         - perl-DateTime-Format-Pg
         - perl-DateTime-Format-SQLite
+        - perl-DateTime-Set
         - perl-DBD-CSV
         - perl-DBIx-Class
         - perl-DBIx-ContextualFetch
@@ -2605,11 +2634,11 @@ data:
         - perl-Digest-MD4
         - perl-Digest-Perl-MD5
         - perl-Dir-Self
+        - perl-Encode-IMAPUTF7
         - perl-Env-Sanctify
         - perl-Env-ShellWords
         - perl-EV
         - perl-Event
-        - perl-Exception-Base
         - perl-Expect
         - perl-Exporter-Tidy
         - perl-ExtUtils-Config
@@ -2635,7 +2664,9 @@ data:
         - perl-File-Find-Rule-Perl
         - perl-FileHandle-Fmode
         - perl-File-Inplace
+        - perl-File-LibMagic
         - perl-File-MimeInfo
+        - perl-File-MMagic
         - perl-File-PathList
         - perl-File-ReadBackwards
         - perl-File-Remove
@@ -2660,7 +2691,6 @@ data:
         - perl-Hash-FieldHash
         - perl-Hash-Flatten
         - perl-Hash-Merge
-        - perl-Hash-Util-FieldHash-Compat
         - perl-Heap
         - perl-hivex
         - perl-Hook-LexWrap
@@ -2712,6 +2742,7 @@ data:
         - perl-Lingua-EN-Syllable
         - perl-Lingua-Translit
         - perl-Linux-Pid
+        - perl-List-Pairwise
         - perl-Locale-Codes
         - perl-Locale-gettext
         - perl-Locale-Maketext-Gettext
@@ -2722,8 +2753,11 @@ data:
         - perl-Log-Message
         - perl-Log-Message-Simple
         - perl-Log-Trace
+        - perl-Mail-IMAPTalk
+        - perl-Mail-JMAPTalk
         - perl-Math-Base36
         - perl-Math-Base-Convert
+        - perl-Math-Int64
         - perl-MCE
         - perl-Metrics-Any
         - perl-Mixin-Linewise
@@ -2764,10 +2798,6 @@ data:
         - perl-MooseX-AttributeHelpers
         - perl-MooseX-ConfigFromFile
         - perl-MooseX-Getopt
-        - perl-MooseX-GlobRef
-        - perl-MooseX-InsideOut
-        - perl-MooseX-MarkAsMethods
-        - perl-MooseX-NonMoose
         - perl-MooseX-Role-Parameterized
         - perl-MooseX-Role-WithOverloading
         - perl-MooseX-SimpleConfig
@@ -2786,6 +2816,9 @@ data:
         - perl-MouseX-Types
         - perlmulticore-devel
         - perl-multidimensional
+        - perl-Net-CalDAVTalk
+        - perl-Net-CardDAVTalk
+        - perl-Net-DAVTalk
         - perl-Net-DNS-Resolver-Mock
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
@@ -2794,6 +2827,7 @@ data:
         - perl-Net-LibIDN2
         - perl-Net-Patricia
         - perl-NKF
+        - perl-NNTPClient
         - perl-Number-Format
         - perl-Object-Accessor
         - perl-Object-Deadly
@@ -2874,6 +2908,7 @@ data:
         - perl-Sereal
         - perl-Sereal-Decoder
         - perl-Sereal-Encoder
+        - perl-Set-Infinite
         - perl-SGMLSpm
         - perl-Shell-Config-Generate
         - perl-Shell-Guess
@@ -2890,6 +2925,7 @@ data:
         - perl-SQL-Translator
         - perl-Statistics-Basic
         - perl-strictures
+        - perl-String-CRC32
         - perl-String-Escape
         - perl-String-Format
         - perl-String-RewritePrefix
@@ -2903,7 +2939,6 @@ data:
         - perl-Sub-Uplevel
         - perl-SUPER
         - perl-Switch
-        - perl-Symbol-Util
         - perl-syntax
         - perl-Syntax-Highlight-Engine-Kate
         - perl-Syntax-Keyword-Junction
@@ -2920,7 +2955,6 @@ data:
         - perl-Test2-Suite
         - perl-Test2-Tools-Explain
         - perl-Test-Apocalypse
-        - perl-Test-Assert
         - perl-Test-Assertions
         - perl-Test-AutoLoader
         - perl-Test-Base
@@ -2997,7 +3031,7 @@ data:
         - perl-Test-Taint
         - perl-Test-TrailingSpace
         - perl-Test-Trap
-        - perl-Test-Unit-Lite
+        - perl-Test-Unit
         - perl-Test-UseAllModules
         - perl-Test-utf8
         - perl-Test-Valgrind
@@ -3006,6 +3040,7 @@ data:
         - perl-Test-Warn
         - perl-Test-Warnings
         - perl-Test-Without-Module
+        - perl-Test-XML
         - perl-Test-YAML
         - perl-Test-YAML-Valid
         - perl-TeX-Hyphen
@@ -3015,14 +3050,16 @@ data:
         - perl-Text-CSV_XS
         - perl-Text-Haml
         - perl-Text-Iconv
+        - perl-Text-LevenshteinXS
         - perl-Text-RecordParser
         - perl-Text-Reform
         - perl-Text-Table
         - perl-Text-TabularDisplay
+        - perl-Text-VCardFast
+        - perl-Text-vFile-asData
         - perl-Text-WrapI18N
+        - perl-Tie-DataUUID
         - perl-Tie-IxHash
-        - perl-Tie-RefHash-Weak
-        - perl-Tie-ToObject
         - perl-Time-Piece-MySQL
         - perl-Tk-Pod
         - perl-Types-Path-Tiny
@@ -3046,10 +3083,14 @@ data:
         - perl-Want
         - perl-XML-DOM
         - perl-XML-Dumper
+        - perl-XML-Fast
         - perl-XML-Filter-BufferText
+        - perl-XML-Generator
         - perl-XML-Handler-YAWriter
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
+        - perl-XML-SemanticDiff
+        - perl-XML-Spice
         - perl-XML-TreeBuilder
         - perl-XML-Twig
         - perl-XML-XPathEngine
@@ -3351,7 +3392,6 @@ data:
         - plotutils
         - plotutils-devel
         - plymouth-devel
-        - pmix
         - pmix-devel
         - pngcrush
         - po4a
@@ -3401,14 +3441,15 @@ data:
         - pugixml-devel
         - py3c-devel
         - pybind11-devel
+        - pygobject2
         - pygobject2-codegen
         - pygobject2-devel
         - pygobject2-doc
+        - pygtk2
         - pygtk2-codegen
         - pygtk2-devel
         - pygtk2-doc
         - pylint
-        - pyproject-rpm-macros
         - pypy
         - pypy3
         - pypy3-devel
@@ -3416,16 +3457,19 @@ data:
         - pypy-devel
         - pypy-libs
         - python2-babel
+        - python2-cairo
         - python2-cairo-devel
         - python2-markupsafe
         - python2-pytz
         - python2-rpm-macros
         - python2-setuptools
         - python3.5
+        - python3.6
         - python3.7
         - python3.8
         - python3-anytree
         - python3-apipkg
+        - python3-appdirs
         - python3-astroid
         - python3-async-generator
         - python3-atomicwrites
@@ -3445,6 +3489,7 @@ data:
         - python3-certifi
         - python3-cheroot
         - python3-cherrypy
+        - python3-click
         - python3-CommonMark
         - python3-constantly
         - python3-contextlib2
@@ -3455,12 +3500,10 @@ data:
         - python3-crypto
         - python3-cryptography-vectors
         - python3-cycler
-        - python3-Cython
         - python3-dbusmock
-        - python3-debug
         - python3-defusedxml
-        - python3-devel
         - python3-dill
+        - python3-distlib
         - python3-docs
         - python3-dulwich
         - python3-elementpath
@@ -3473,9 +3516,12 @@ data:
         - python3-fastcache
         - python3-fastimport
         - python3-fields
+        - python3-filelock
         - python3-fixtures
         - python3-flake8
         - python3-flaky
+        - python3-flask
+        - python3-flexmock
         - python3-flit
         - python3-flit-core
         - python3-fluidity-sm
@@ -3486,22 +3532,18 @@ data:
         - python3-gdal
         - python3-genshi
         - python3-genty
-        - python3-gitlab
         - python3-gmpy2
         - python3-gobject-devel
         - python3-graphviz
-        - python3-greenlet-devel
+        - python3-greenlet
         - python3-h2
         - python3-hamcrest
         - python3-hpack
-        - python3-httmock
         - python3-httpbin
         - python3-httplib2
         - python3-hyperframe
         - python3-hyperlink
         - python3-hypothesis
-        - python3-idle
-        - python3-imagesize
         - python3-incremental
         - python3-invoke
         - python3-ipykernel
@@ -3512,6 +3554,7 @@ data:
         - python3-iso8601
         - python3-isodate
         - python3-isort
+        - python3-itsdangerous
         - python3-jaraco
         - python3-jaraco-classes
         - python3-jaraco-functools
@@ -3554,21 +3597,19 @@ data:
         - python3-mock
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
-        - python3-mpich
         - python3-mpmath
         - python3-munkres
         - python3-nb2plots
         - python3-nbconvert
         - python3-nbformat
         - python3-nbsphinx
+        - python3-nose
         - python3-nose2
-        - python3-ntlm-auth
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-numpy-f2py
         - python3-oauthlib+signedtoken
-        - python3-openmpi
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
@@ -3579,12 +3620,10 @@ data:
         - python3-parameterized
         - python3-paramiko
         - python3-parso
-        - python3-passlib
         - python3-paste
         - python3-path
         - python3-pathlib2
         - python3-pathspec
-        - python3-pbkdf2
         - python3-pickleshare
         - python3-pikepdf
         - python3-portend
@@ -3592,7 +3631,6 @@ data:
         - python3-prettytable
         - python3-priority
         - python3-process-tests
-        - python3-progressbar2
         - python3-prompt-toolkit
         - python3-pybind11
         - python3-pybtex
@@ -3614,7 +3652,6 @@ data:
         - python3-pyqt4-sip
         - python3-pyrad
         - python3-pyserial
-        - python3-pytest4
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
@@ -3643,14 +3680,10 @@ data:
         - python3-readthedocs-sphinx-ext
         - python3-recommonmark
         - python3-redis
-        - python3-requests-download
         - python3-requests-kerberos
-        - python3-requests_ntlm
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
-        - python3-rpm-generators
-        - python3-rpm-macros
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
@@ -3660,28 +3693,21 @@ data:
         - python3-scripttest
         - python3-scripttester
         - python3-selenium
+        - python3-semantic_version
         - python3-service-identity
         - python3-setuptools_git
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
         - python3-should_dsl
         - python3-sip-devel
-        - python3-snowballstemmer
         - python3-sortedcontainers
         - python3-spec
-        - python3-sphinx
         - python3-sphinxcontrib-apidoc
-        - python3-sphinxcontrib-applehelp
         - python3-sphinxcontrib-bibtex
-        - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
-        - python3-sphinxcontrib-htmlhelp
         - python3-sphinxcontrib-httpdomain
-        - python3-sphinxcontrib-jsmath
         - python3-sphinxcontrib-log-cabinet
-        - python3-sphinxcontrib-qthelp
         - python3-sphinxcontrib-rsvgconverter
-        - python3-sphinxcontrib-serializinghtml
         - python3-sphinxcontrib-svg2pdfconverter-common
         - python3-sphinxcontrib-trio
         - python3-sphinxcontrib-websupport
@@ -3692,14 +3718,12 @@ data:
         - python3-sphinx-last-updated-by-git
         - python3-sphinx-latex
         - python3-sphinx-math-dollar
-        - python3-sphinx-notfound-page
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
         - python3-sphinxtesters
         - python3-sphinx-testing
-        - python3-sphinx-theme-alabaster
         - python3-sphinx-theme-py3doc-enhanced
-        - python3-straight-plugin
+        - python3-sqlalchemy
         - python3-sure
         - python3-sympy
         - python3-tables
@@ -3707,7 +3731,6 @@ data:
         - python3-tempita
         - python3-tempora
         - python3-termcolor
-        - python3-test
         - python3-testpath
         - python3-testresources
         - python3-testscenarios
@@ -3716,7 +3739,6 @@ data:
         - python3-text-unidecode
         - python3-theano
         - python3-tidy
-        - python3-tkinter
         - python3-tox
         - python3-tox-current-env
         - python3-tqdm
@@ -3724,17 +3746,18 @@ data:
         - python3-trustme
         - python3-twisted
         - python3-typed_ast
+        - python3-typing-extensions
         - python3-u-msgpack-python
         - python3-unbound
-        - python3-utils
+        - python3-virtualenv
         - python3-vtk
         - python3-vtk-qt
         - python3-wadllib
         - python3-waitress
         - python3-webob
         - python3-webtest
+        - python3-werkzeug
         - python3-whoosh
-        - python3-winrm
         - python3-wrapt
         - python3-wurlitzer
         - python3-wxpython4
@@ -3742,19 +3765,20 @@ data:
         - python3-xlrd
         - python3-xlwt
         - python3-xmlschema
-        - python3-xmltodict
         - python3-xmp-toolkit
         - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
+        - python3-zope-event
+        - python3-zope-interface
         - python3-zope-testing
         - python-fields-doc
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
-        - python-rpm-macros
         - python-sphinx-doc
         - python-systemd-doc
+        - python-wheel-wheel
         - qemu
         - qemu-sanity-check-nodeps
         - qemu-system-alpha
@@ -3866,7 +3890,6 @@ data:
         - rmt
         - rpcgen
         - rpcsvc-proto-devel
-        - rpm-mpi-hooks
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
@@ -4528,14 +4551,13 @@ data:
         - SDL2-devel
         - SDL_sound
         - SDL_sound-devel
-        - sendmail
-        - sendmail-milter
         - sendmail-milter-devel
         - serd
         - serd-devel
         - SFML
         - SFML-devel
         - sg3_utils-devel
+        - shapelib-devel
         - sharutils
         - ShellCheck
         - shrinkwrap
@@ -4588,6 +4610,7 @@ data:
         - stringtemplate
         - stunnel
         - subversion-perl
+        - suitesparse
         - suitesparse64
         - suitesparse-devel
         - sundials
@@ -4608,7 +4631,6 @@ data:
         - taglib-devel
         - tclx
         - tclx-devel
-        - tcsh
         - teamd-devel
         - teckit-devel
         - tepl-devel
@@ -4704,7 +4726,6 @@ data:
         - texlive-turkmen
         - tex-preview
         - tidy
-        - tinycdb
         - tinycdb-devel
         - tinyxml2
         - tinyxml2-devel
@@ -4719,7 +4740,9 @@ data:
         - tre
         - tre-common
         - tre-devel
+        - trousers
         - trousers-devel
+        - trousers-lib
         - ttembed
         - ttfautohint
         - ttfautohint-libs
@@ -4748,7 +4771,6 @@ data:
         - userspace-rcu-devel
         - utf8proc-devel
         - uuid-devel
-        - uw-imap-devel
         - varnish-devel
         - virglrenderer-devel
         - volume_key-devel
@@ -4762,6 +4784,7 @@ data:
         - w3m
         - waf
         - wavpack-devel
+        - wdiff
         - web-assets-devel
         - web-assets-filesystem
         - webrtc-audio-processing-devel
@@ -4770,8 +4793,6 @@ data:
         - weston-libs
         - wildmidi-devel
         - wildmidi-libs
-        - wireshark
-        - wireshark-cli
         - wireshark-devel
         - woff2-devel
         - woodstox-core
@@ -4788,7 +4809,6 @@ data:
         - wxGTK3-webview
         - xapian-core
         - xapian-core-devel
-        - xapian-core-libs
         - Xaw3d
         - Xaw3d-devel
         - xcb-proto
@@ -4903,7 +4923,6 @@ data:
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
-            - libfabric
             - libffado
             - libffado-devel
             - libfprint-devel
@@ -4931,7 +4950,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - vboot-utils
             - xen-devel
         ppc64le:
@@ -4955,7 +4973,6 @@ data:
             - libffado-devel
             - libfprint-devel
             - libiec61883-devel
-            - libquadmath-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog
@@ -4980,15 +4997,14 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - uuid
         s390x:
             - daxctl-devel
             - efi-filesystem
             - gperftools-libs
-            - kernel-tools-libs
+            - libbluray
+            - libdmapsharing
             - libdv
-            - libfabric
             - libftdi
             - libgpod
             - libimobiledevice
@@ -4998,11 +5014,9 @@ data:
             - libXvMC
             - lm_sensors-devel
             - media-player-info
-            - memstrack
             - mesa-vulkan-drivers
             - ndctl-devel
             - openbios
-            - opensc
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5030,8 +5044,6 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
-            - infinipath-psm
-            - libatomic
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5042,6 +5054,7 @@ data:
             - libraw1394-devel
             - libubsan
             - libvmaf
+            - libxcrypt-compat
             - libxml++
             - libxml++-devel
             - mesa-libxatracker-devel
@@ -5062,6 +5075,5 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx
             - vboot-utils
             - xen-devel
