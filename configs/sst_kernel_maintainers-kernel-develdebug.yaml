@@ -1,0 +1,29 @@
+document:  feedback-pipeline-workload
+version: 1
+data:
+    name: kernel devel/debug
+    description: Kernel packages used for devel/debug
+    maintainer: sst_kernel_maintainers
+    packages:
+        - bpftool-debuginfo
+        - kernel-cross-headers
+        - kernel-headers
+        - kernel-debuginfo
+        - kernel-devel
+        - kernel-tools-libs-devel
+        - kernel-tools-debuginfo
+        - perf-debuginfo
+        - python3-perf-debuginfo
+    labels:
+        - eln
+    arch_packages:
+        aarch64:
+            - kernel-debuginfo-common-aarch64
+        ppc64le:
+            - kernel-debuginfo-common-ppc64le
+        s390x:
+            - kernel-debuginfo-common-s390x
+            - kernel-zfcpdump-debuginfo
+            - kernel-zfcpdump-devel
+        x86_64:
+            - kernel-debuginfo-common-x86_64

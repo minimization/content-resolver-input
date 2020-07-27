@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - sst_kernel_maintainers
+  description: Packages that kernel maintainers sst doesn't want to distribute in RHEL 9
+  maintainer: sst_kernel_maintainers
+
+  unwanted_packages:
+  - kernel-ipaclones-internal
+  - kernel-modules-internal
+  - kernel-selftests-internal
+  - kernel-zfcpdump-modules-internal
+
+  labels:
+  - eln
