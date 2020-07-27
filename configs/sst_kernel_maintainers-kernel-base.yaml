@@ -1,0 +1,28 @@
+document:  feedback-pipeline-workload
+version: 1
+data:
+    name: kernel base
+    description: Base set of kernel packages and tools to ship
+    maintainer: sst_kernel_maintainers
+    packages:
+        - bpftool
+        - kernel-abi-whitelists
+        - kernel-core
+        - kernel-cross-headers
+        - kernel-doc
+        - kernel-headers
+        - kernel-modules
+        - kernel-modules-extra
+        - kernel-tools
+        - kernel-tools-libs
+        - linux-firmware
+        - perf
+        - python3-perf
+    labels:
+        - eln
+    arch_packages:
+        s390x:
+            - kernel-zfcpdump
+            - kernel-zfcpdump-core
+            - kernel-zfcpdump-modules
+            - kernel-zfcpdump-modules-extra
