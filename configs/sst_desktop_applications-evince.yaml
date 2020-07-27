@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Evince
+  description: Default PDF viewer for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+   - evince
+
+  labels:
+  - eln

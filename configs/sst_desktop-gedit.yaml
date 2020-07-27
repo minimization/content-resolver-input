@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Gedit
+  description: Text editor for Workstation
+  maintainer: sst_desktop
+
+  packages:
+   - gedit
+
+  labels:
+  - eln

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Totem
+  description: Default video player in Workstation
+  maintainer: sst_desktop
+
+  packages:
+   - totem
+
+  labels:
+  - eln

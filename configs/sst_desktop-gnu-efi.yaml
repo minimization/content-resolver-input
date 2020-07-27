@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnu-efi
+  description: Development Libraries and headers for EFI
+  maintainer: sst_desktop
+
+  packages:
+   - gnu-efi
+
+  labels:
+  - eln

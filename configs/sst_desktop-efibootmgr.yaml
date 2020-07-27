@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: efibootmgr
+  description: EFI Boot Manager
+  maintainer: sst_desktop
+
+  packages:
+   - efibootmgr
+
+  labels:
+  - eln

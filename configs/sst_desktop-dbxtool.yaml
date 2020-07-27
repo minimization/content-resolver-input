@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dbxtool
+  description: Secure Boot DBX updater
+  maintainer: sst_desktop
+
+  packages:
+   - dbxtool
+
+  labels:
+  - eln

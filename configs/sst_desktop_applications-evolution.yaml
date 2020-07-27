@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Evolution
+  description: Personal information management application for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+   - evolution-ews
+   - evolution-mapi
+   - evolution
+
+  labels:
+  - eln
