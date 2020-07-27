@@ -1,0 +1,20 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Kdump support
+  description: Tools necessary to support vmcore dumping and analyzing
+  maintainer: sst_kernel_debug
+  packages:
+  - kexec-tools
+  - makedumpfile
+  - Kdump-anaconda-addon
+  - memstrack
+  - crash
+  - crash-trace-command
+  - crash-ptrace-command
+  - crash-gcore-command
+  - snappy
+  - snappy-devel
+  labels:
+  - eln
