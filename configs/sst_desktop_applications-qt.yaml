@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Qt Toolkit
+  description: Software toolkit for developing applications
+  maintainer: sst_desktop_applications
+
+  packages:
+   - qt5
+   - qgnomeplatform
+
+  labels:
+  - eln

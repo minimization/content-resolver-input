@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Orca
+  description: A screen reader for Workstation 
+  maintainer: sst_desktop
+
+  packages:
+   - orca
+
+  labels:
+  - eln

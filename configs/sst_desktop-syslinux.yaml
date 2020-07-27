@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: syslinux
+  description: Simple kernel loader which boots from a FAT filesystem
+  maintainer: sst_desktop
+
+  packages:
+   - syslinux
+
+  labels:
+  - eln

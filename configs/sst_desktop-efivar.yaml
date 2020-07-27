@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: efivar
+  description: Tools to manage UEFI variables
+  maintainer: sst_desktop
+
+  packages:
+   - efivar
+
+  labels:
+  - eln

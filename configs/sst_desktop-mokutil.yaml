@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mokutil
+  description: Tool to manage UEFI Secure Boot MoK Keys
+  maintainer: sst_desktop
+
+  packages:
+   - mokutil
+
+  labels:
+  - eln
