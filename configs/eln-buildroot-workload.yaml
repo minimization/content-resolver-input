@@ -22,7 +22,6 @@ data:
         - acpica-tools
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
-        - adobe-source-code-pro-fonts
         - adobe-source-sans-pro-fonts
         - adwaita-icon-theme-devel
         - afflib
@@ -284,14 +283,12 @@ data:
         - DevIL-ILUT-devel
         - dietlibc
         - dietlibc-devel
-        - discount
         - disruptor
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
         - dlm-lib
         - dmenu
-        - dmraid-devel
         - docbook2X
         - docbook5-schemas
         - docbook5-style-xsl
@@ -407,9 +404,7 @@ data:
         - file-devel
         - findbugs
         - findbugs-bcel
-        - firebird
         - firebird-devel
-        - firebird-utils
         - fish
         - flac-devel
         - flatpak-devel
@@ -421,7 +416,6 @@ data:
         - fluid-soundfont-lite-patches
         - fluidsynth-devel
         - fluidsynth-libs
-        - flute
         - fmt-devel
         - fontawesome-fonts-web
         - fontbox
@@ -448,7 +442,6 @@ data:
         - fuse-devel
         - fusesource-pom
         - fwupd-devel
-        - g2clib-devel
         - game-music-emu
         - game-music-emu-devel
         - gamin
@@ -458,7 +451,6 @@ data:
         - gcc-aarch64-linux-gnu
         - gcc-arm-linux-gnu
         - gcc-gdb-plugin
-        - gcc-gnat
         - gcc-objc
         - gcc-objc++
         - gcc-plugin-devel
@@ -918,7 +910,6 @@ data:
         - gl2ps
         - gl2ps-devel
         - glade-devel
-        - glade-libs
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -928,19 +919,7 @@ data:
         - glib
         - glib2-doc
         - glib2-static
-        - glibc-langpack-am
-        - glibc-langpack-ar
-        - glibc-langpack-cs
-        - glibc-langpack-de
-        - glibc-langpack-fa
-        - glibc-langpack-fr
-        - glibc-langpack-is
-        - glibc-langpack-ja
         - glibc-langpack-km
-        - glibc-langpack-ko
-        - glibc-langpack-pt
-        - glibc-langpack-tr
-        - glibc-langpack-zh
         - glibc-locale-source
         - glibc-static
         - glib-devel
@@ -1030,6 +1009,7 @@ data:
         - golang-github-dgrijalva-jwt-devel
         - golang-github-dimchansky-utfbom-devel
         - golang-github-dnaeon-vcr-devel
+        - golang-github-docker-units-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
@@ -1303,7 +1283,6 @@ data:
         - google-benchmark
         - google-benchmark-devel
         - google-gson
-        - google-roboto-slab-fonts
         - go-rpm-macros
         - gperf
         - gperftools-devel
@@ -1457,7 +1436,6 @@ data:
         - janino
         - jansson-devel
         - jasper-devel
-        - java-11-openjdk-devel
         - java-11-openjdk-javadoc
         - java-1.8.0-openjdk-javadoc
         - java-atk-wrapper
@@ -1530,8 +1508,6 @@ data:
         - jzlib
         - kde-settings
         - kernel
-        - kernel-tools
-        - kernel-tools-libs
         - keyrings-filesystem
         - kf5-attica
         - kf5-attica-devel
@@ -1638,7 +1614,6 @@ data:
         - lasso-devel
         - latex2html
         - latexmk
-        - lato-fonts
         - lcms2-devel
         - lcov
         - ldb-tools
@@ -1679,7 +1654,6 @@ data:
         - libatomic_ops-devel
         - libatomic_ops-static
         - libbabeltrace-devel
-        - libbase
         - libbasicobjects-devel
         - libblockdev-btrfs
         - libblockdev-btrfs-devel
@@ -1770,14 +1744,11 @@ data:
         - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
-        - libfbclient2
         - libfbclient2-devel
         - libfdisk-devel
         - libfdt-devel
         - libfido2-devel
         - libfontenc-devel
-        - libfonts
-        - libformula
         - libfreehand-devel
         - libftdi-devel
         - libgadu
@@ -1801,8 +1772,6 @@ data:
         - libglade2-devel
         - libGLEW
         - libglusterfs-devel
-        - libgnat
-        - libgnat-devel
         - libgnomekbd-devel
         - libgnt
         - libgnt-devel
@@ -1827,11 +1796,12 @@ data:
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
-        - libib-util
         - libicns
         - libicns-utils
         - libid3tag
         - libid3tag-devel
+        - libIDL
+        - libIDL-devel
         - libidn-devel
         - libijs-devel
         - libimobiledevice-devel
@@ -1861,9 +1831,7 @@ data:
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
-        - liblayout
         - libldm-devel
-        - libloader
         - liblockfile
         - liblockfile-devel
         - liblognorm
@@ -1990,7 +1958,6 @@ data:
         - libreport-devel
         - libreport-gtk-devel
         - libreport-web-devel
-        - librepository
         - librevenge-devel
         - libRmath
         - librx
@@ -2002,7 +1969,6 @@ data:
         - libsemanage-static
         - libsepol-static
         - libserf-devel
-        - libserializer
         - libshout-devel
         - libsigc++20-devel
         - libsigsegv-devel
@@ -2043,7 +2009,6 @@ data:
         - libtirpc-devel
         - libtomcrypt
         - libtomcrypt-devel
-        - libtommath
         - libtommath-devel
         - libtool-ltdl-devel
         - libucil
@@ -2153,7 +2118,6 @@ data:
         - lvm2-devel
         - lxpolkit
         - lynx
-        - lzip
         - m17n-db-devel
         - m17n-db-extras
         - m17n-lib-devel
@@ -2215,7 +2179,6 @@ data:
         - mdds-devel
         - meanwhile-devel
         - mecab-devel
-        - memstrack
         - mesa-libgbm-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
@@ -2317,13 +2280,8 @@ data:
         - ninja-build
         - nkf
         - nodejs-async
-        - nodejs-clean-css
-        - nodejs-clone
         - nodejs-docs
         - nodejs-full-i18n
-        - nodejs-image-size
-        - nodejs-less
-        - nodejs-less-plugin-clean-css
         - nodejs-source-map
         - nodejs-string
         - nodejs-underscore
@@ -2442,7 +2400,6 @@ data:
         - osgi-core
         - os-maven-plugin
         - ostree-devel
-        - overpass-fonts
         - p11-kit-server
         - p7zip
         - p7zip-plugins
@@ -2470,8 +2427,6 @@ data:
         - pcre-static
         - pcsc-lite-devel
         - PEGTL-devel
-        - pentaho-libxml
-        - pentaho-reporting-flow-engine
         - perl-accessors
         - perl-Acme-Alien-DontPanic
         - perl-Algorithm-C3
@@ -2994,7 +2949,6 @@ data:
         - perl-Test-Metrics-Any
         - perl-Test-MinimumVersion
         - perl-TestML
-        - perl-Test-MockModule
         - perl-Test-MockObject
         - perl-Test-MockRandom
         - perl-Test-Mojibake
@@ -3509,6 +3463,7 @@ data:
         - python3-elementpath
         - python3-entrypoints
         - python3-et_xmlfile
+        - python3-eventlet
         - python3-execnet
         - python3-extras
         - python3-factory-boy
@@ -3541,6 +3496,7 @@ data:
         - python3-hpack
         - python3-httpbin
         - python3-httplib2
+        - python3-httpretty
         - python3-hyperframe
         - python3-hyperlink
         - python3-hypothesis
@@ -3595,6 +3551,7 @@ data:
         - python3-mimeparse
         - python3-mistune
         - python3-mock
+        - python3-monotonic
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-mpmath
@@ -3628,7 +3585,6 @@ data:
         - python3-pikepdf
         - python3-portend
         - python3-pretend
-        - python3-prettytable
         - python3-priority
         - python3-process-tests
         - python3-prompt-toolkit
@@ -3651,7 +3607,6 @@ data:
         - python3-PyQt4-devel
         - python3-pyqt4-sip
         - python3-pyrad
-        - python3-pyserial
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
@@ -3700,7 +3655,6 @@ data:
         - python3-setuptools_scm_git_archive
         - python3-should_dsl
         - python3-sip-devel
-        - python3-sortedcontainers
         - python3-spec
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-bibtex
@@ -4525,7 +4479,6 @@ data:
         - rust-xml5ever-devel
         - rxvt-unicode
         - rygel
-        - sac
         - samba-dc-libs
         - samba-devel
         - samba-pidl
@@ -4570,7 +4523,6 @@ data:
         - slf4j-ext
         - slf4j-sources
         - snakeyaml
-        - snappy-devel
         - snappy-java
         - sni-qt
         - socket_wrapper
@@ -4735,14 +4687,13 @@ data:
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
+        - tpm2-tss-devel
         - tracker-devel
         - transfig
         - tre
         - tre-common
         - tre-devel
-        - trousers
         - trousers-devel
-        - trousers-lib
         - ttembed
         - ttfautohint
         - ttfautohint-libs
@@ -4915,7 +4866,6 @@ data:
             - efl
             - efl-devel
             - flashrom-devel
-            - gnu-efi
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
@@ -4995,6 +4945,7 @@ data:
             - rlottie-devel
             - tinyxml
             - tinyxml-devel
+            - tpm2-tss
             - tslib
             - tslib-devel
             - uuid
@@ -5023,6 +4974,7 @@ data:
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - tpm2-tss
             - usbredir
         x86_64:
             - bullet
@@ -5039,7 +4991,6 @@ data:
             - efl-devel
             - fftw-libs-quad
             - flashrom-devel
-            - gnu-efi
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
@@ -5054,7 +5005,6 @@ data:
             - libraw1394-devel
             - libubsan
             - libvmaf
-            - libxcrypt-compat
             - libxml++
             - libxml++-devel
             - mesa-libxatracker-devel
