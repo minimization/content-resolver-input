@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Default Fonts
-  description: Collections of packages providing the default fonts
+  name: Fonts
+  description: Collections of packages providing fonts
   maintainer: sst_i18n
 
   packages:
