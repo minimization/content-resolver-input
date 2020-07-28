@@ -1,0 +1,33 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Performance Tools
+  description: Performance Tools and Components
+  maintainer: sst_platform_tools
+
+  packages:
+  - dyninst
+  - dyninst-devel
+  - elfutils
+  - elfutils-debuginfod-client
+  - elfutils-debuginfod-client-devel
+  - elfutils-default-yama-scope
+  - elfutils-devel
+  - elfutils-libelf
+  - elfutils-libelf-devel
+  - elfutils-libs
+  - libpfm
+  - libpfm-devel
+  - papi
+  - papi-devel
+  - papi-libs
+  - systemtap
+  - systemtap-client
+  - systemtap-devel
+  - systemtap-runtime
+  - systemtap-sdt-devel
+  - valgrind
+  - valgrind-devel
+
+  labels:
+  - eln
