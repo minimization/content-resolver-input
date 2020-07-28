@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Debuggers
+  description: Debuggers and components
+  maintainer: sst_platform_tools
+
+  packages:
+  - gdb
+  - gdb-headless
+  - gdb-minimal
+  - libbabeltrace
+  - libbabeltrace-devel
+  - libipt
+  - libipt-devel
+
+  labels:
+  - eln
