@@ -1,0 +1,27 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Graphics Infrastructure - Blocked packages
+  description: Graphics Infrastructure - Packages which should not be in ELN
+  maintainer: sst_graphics_infrastructure
+  unwanted_packages:
+  # only used by mesa-demos, but that’s likely to change, see https://gitlab.freedesktop.org/mesa/demos/-/merge_requests/23
+  - glew
+  # HFS+ is not supported in RHEL - not currently packaged in RHEL 8, just adding in case dependencies try to pull it in
+  - hfsplus-tools
+  # Seems to only be used by hwloc in an optional plugin
+  - libXNVCtrl
+  # Not very used and the only consumer of xorg-sgml-doctools
+  - xorg-x11-docs
+  # Remove in favor of the modessting drivers for ati, intel and nouveau
+  - xorg-x11-drv-intel
+  - xorg-x11-drv-nouveau
+  - xorg-x11-drv-ati
+  # Remove as its provides quite a bad user experience and we can avoid to maintain vesa
+  - xorg-x11-drv-vesa
+  # Replaced by tools in libinput
+  - evemu
+  # Not maintained upstream, very ancient tool, and don't have resoures to maintain an extra GUI toolkit and window manager
+  - motif
+  labels:
+  - eln
