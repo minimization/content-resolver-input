@@ -1,0 +1,14 @@
+document:  feedback-pipeline-workload
+version: 1
+data:
+    name: kernel-rt devel/debug
+    description: Kernel RT packages used for devel/debug
+    maintainer: sst_kernel_rats
+    packages:
+        - kernel-rt-debuginfo
+        - kernel-rt-devel
+    labels:
+        - eln
+    arch_packages:
+        x86_64:
+            - kernel-rt-debuginfo-common-x86_64
