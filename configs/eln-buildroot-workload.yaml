@@ -137,6 +137,7 @@ data:
         - blosc
         - blosc-devel
         - bnd-maven-plugin
+        - bodhi-client
         - bouncycastle
         - bouncycastle-mail
         - bouncycastle-pg
@@ -193,6 +194,7 @@ data:
         - clutter-devel
         - clutter-gst3-devel
         - clutter-gtk-devel
+        - cmake-fedora
         - codehaus-parent
         - codemodel
         - cogl-devel
@@ -284,6 +286,7 @@ data:
         - dietlibc
         - dietlibc-devel
         - disruptor
+        - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
@@ -392,6 +395,9 @@ data:
         - fcode-utils
         - fdk-aac-free-devel
         - fedora-bookmarks
+        - fedora-packager
+        - fedora-packager-yubikey
+        - fedpkg
         - felix-parent
         - felix-utils
         - ffcall
@@ -1401,6 +1407,11 @@ data:
         - i3lock
         - i3status
         - ibus-devel
+        - ibus-table-code
+        - ibus-table-devel
+        - ibus-table-latin
+        - ibus-table-translit
+        - ibus-table-tv
         - icc-profiles-openicc
         - icon-naming-utils
         - icoutils
@@ -2073,7 +2084,6 @@ data:
         - libyubikey-devel
         - libzip-devel
         - libzmf-devel
-        - lilv
         - lilv-devel
         - lilypond
         - lilypond-c059-fonts
@@ -2210,6 +2220,8 @@ data:
         - minizip-compat-devel
         - mkpasswd
         - mobile-broadband-provider-info-devel
+        - mock
+        - mock-core-configs
         - mockito
         - mod_dav_svn
         - modello
@@ -3391,8 +3403,8 @@ data:
         - ptscotch-openmpi-devel
         - ptscotch-openmpi-devel-parmetis
         - publican
-        - pugixml
         - pugixml-devel
+        - pungi
         - py3c-devel
         - pybind11-devel
         - pygobject2
@@ -3421,45 +3433,68 @@ data:
         - python3.6
         - python3.7
         - python3.8
+        - python3-alembic
+        - python3-amqp
         - python3-anytree
         - python3-apipkg
         - python3-appdirs
+        - python3-arrow
         - python3-astroid
         - python3-async-generator
         - python3-atomicwrites
         - python3-Automat
         - python3-backcall
+        - python3-backoff
         - python3-bcrypt
         - python3-beaker
         - python3-betamax
+        - python3-billiard
         - python3-bind
         - python3-bleach
         - python3-blinker
+        - python3-bodhi
+        - python3-bodhi-client
+        - python3-boto3
+        - python3-botocore
         - python3-bottle
         - python3-Bottleneck
         - python3-breathe
         - python3-brotli
+        - python3-bugzilla
+        - python3-CacheControl+redis
         - python3-cairo-devel
+        - python3-case
+        - python3-cccolutils
+        - python3-celery
         - python3-certifi
+        - python3-chai
         - python3-cheroot
         - python3-cherrypy
         - python3-click
+        - python3-colander
         - python3-CommonMark
         - python3-constantly
         - python3-contextlib2
+        - python3-cornice
+        - python3-cornice-sphinx
         - python3-cov-core
         - python3-coverage
         - python3-cppy
         - python3-cpuinfo
+        - python3-createrepo_c
+        - python3-crochet
         - python3-crypto
         - python3-cryptography-vectors
         - python3-cycler
+        - python3-dateparser
         - python3-dbusmock
         - python3-defusedxml
         - python3-dill
         - python3-distlib
         - python3-docs
+        - python3-dogpile-cache
         - python3-dulwich
+        - python3-editor
         - python3-elementpath
         - python3-entrypoints
         - python3-et_xmlfile
@@ -3470,6 +3505,9 @@ data:
         - python3-faker
         - python3-fastcache
         - python3-fastimport
+        - python3-fedora
+        - python3-fedora-messaging
+        - python3-feedgen
         - python3-fields
         - python3-filelock
         - python3-fixtures
@@ -3487,6 +3525,8 @@ data:
         - python3-gdal
         - python3-genshi
         - python3-genty
+        - python3-gitdb
+        - python3-GitPython
         - python3-gmpy2
         - python3-gobject-devel
         - python3-graphviz
@@ -3497,6 +3537,7 @@ data:
         - python3-httpbin
         - python3-httplib2
         - python3-httpretty
+        - python3-hupper
         - python3-hyperframe
         - python3-hyperlink
         - python3-hypothesis
@@ -3518,12 +3559,18 @@ data:
         - python3-javapackages
         - python3-jdcal
         - python3-jedi
+        - python3-jmespath
         - python3-jupyter-client
         - python3-jupyter-core
         - python3-jwt+crypto
         - python3-kerberos
+        - python3-kitchen
         - python3-kiwisolver
+        - python3-kobo
+        - python3-kobo-rpmlib
         - python3-koji
+        - python3-koji-cli-plugins
+        - python3-kombu
         - python3-latexcodec
         - python3-launchpadlib
         - python3-lazr-restfulclient
@@ -3534,6 +3581,7 @@ data:
         - python3-lexicon
         - python3-libfdt
         - python3-libftdi
+        - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
@@ -3555,6 +3603,8 @@ data:
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-mpmath
+        - python3-multilib
+        - python3-munch
         - python3-munkres
         - python3-nb2plots
         - python3-nbconvert
@@ -3562,11 +3612,16 @@ data:
         - python3-nbsphinx
         - python3-nose
         - python3-nose2
+        - python3-nose-cover3
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-numpy-f2py
         - python3-oauthlib+signedtoken
+        - python3-openid
+        - python3-openidc-client
+        - python3-openid-cla
+        - python3-openid-teams
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
@@ -3578,16 +3633,22 @@ data:
         - python3-paramiko
         - python3-parso
         - python3-paste
+        - python3-paste-deploy
         - python3-path
         - python3-pathlib2
         - python3-pathspec
         - python3-pickleshare
+        - python3-pika
         - python3-pikepdf
+        - python3-plaster
+        - python3-plaster-pastedeploy
         - python3-portend
         - python3-pretend
         - python3-priority
         - python3-process-tests
         - python3-prompt-toolkit
+        - python3-pungi
+        - python3-py3dns
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
@@ -3600,6 +3661,7 @@ data:
         - python3-pygpu
         - python3-pygpu-devel
         - python3-pygraphviz
+        - python3-pylibravatar
         - python3-pylint
         - python3-pynacl
         - python3-pyOpenSSL
@@ -3607,6 +3669,10 @@ data:
         - python3-PyQt4-devel
         - python3-pyqt4-sip
         - python3-pyrad
+        - python3-pyramid
+        - python3-pyramid-fas-openid
+        - python3-pyramid-mako
+        - python3-pyroute2
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
@@ -3635,14 +3701,17 @@ data:
         - python3-readthedocs-sphinx-ext
         - python3-recommonmark
         - python3-redis
+        - python3-regex
         - python3-requests-kerberos
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
+        - python3-rpkg
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
+        - python3-s3transfer
         - python3-scipy
         - python3-scons
         - python3-scripttest
@@ -3654,7 +3723,9 @@ data:
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
         - python3-should_dsl
+        - python3-simplemediawiki
         - python3-sip-devel
+        - python3-smmap
         - python3-spec
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-bibtex
@@ -3678,6 +3749,7 @@ data:
         - python3-sphinx-testing
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
+        - python3-sqlalchemy_schemadisplay
         - python3-sure
         - python3-sympy
         - python3-tables
@@ -3697,12 +3769,16 @@ data:
         - python3-tox-current-env
         - python3-tqdm
         - python3-traitlets
+        - python3-translationstring
         - python3-trustme
         - python3-twisted
         - python3-typed_ast
         - python3-typing-extensions
+        - python3-tzlocal
         - python3-u-msgpack-python
         - python3-unbound
+        - python3-venusian
+        - python3-vine
         - python3-virtualenv
         - python3-vtk
         - python3-vtk-qt
@@ -3723,13 +3799,17 @@ data:
         - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
+        - python3-zope-component
+        - python3-zope-deprecation
         - python3-zope-event
         - python3-zope-interface
         - python3-zope-testing
+        - python-django-bash-completion
         - python-fields-doc
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
+        - python-multilib-conf
         - python-sphinx-doc
         - python-systemd-doc
         - python-wheel-wheel
@@ -3844,6 +3924,7 @@ data:
         - rmt
         - rpcgen
         - rpcsvc-proto-devel
+        - rpkg-common
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
@@ -4505,7 +4586,6 @@ data:
         - SDL_sound
         - SDL_sound-devel
         - sendmail-milter-devel
-        - serd
         - serd-devel
         - SFML
         - SFML-devel
@@ -4528,7 +4608,6 @@ data:
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
-        - sord
         - sord-devel
         - soundfont-utils
         - soundtouch-devel
@@ -4555,7 +4634,6 @@ data:
         - spirv-tools
         - spirv-tools-devel
         - spirv-tools-libs
-        - sratom
         - sratom-devel
         - srt-devel
         - stax2-api
@@ -4827,6 +4905,7 @@ data:
         - yelp-xsl-devel
         - ykclient
         - ykclient-devel
+        - ykpers
         - z3-devel
         - z3-libs
         - zbar
@@ -4887,6 +4966,7 @@ data:
             - ndctl-devel
             - netstandard-targeting-pack-2.1
             - openbios
+            - pugixml
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
@@ -4935,6 +5015,7 @@ data:
             - postgresql-contrib
             - postgresql-server
             - postgresql-server-devel
+            - pugixml
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-s390x
@@ -4968,6 +5049,7 @@ data:
             - mesa-vulkan-drivers
             - ndctl-devel
             - openbios
+            - pugixml
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5004,7 +5086,6 @@ data:
             - libiec61883-devel
             - libraw1394-devel
             - libubsan
-            - libvmaf
             - libxml++
             - libxml++-devel
             - mesa-libxatracker-devel
