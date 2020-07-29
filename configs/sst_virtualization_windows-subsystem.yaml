@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Windows virtio drivers and tools
+  description: Windows virtio drivers and tools to assist running Windows as a guest
+  maintainer: sst_virtualization_windows
+
+  packages:
+  - virtio-win
+
+  labels:
+  - eln
