@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Graphics development libraries
+  description: Libraries used for development of graphics applications
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - SDL
+    - SDL2
+
+  labels:
+    - eln
