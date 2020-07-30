@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: AIDE
+  description: Advanced Intrusion Detection Environment.
+  maintainer: sst_platform_security
+
+  packages:
+  - aide
+
+  labels:
+  - eln
