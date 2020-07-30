@@ -7,8 +7,6 @@ data:
 
   unwanted_packages:
   - tpm-quote-tools
-  - tpm2-abrmd
-  - tpm2-abrmd-selinux
 
   labels:
   - eln
