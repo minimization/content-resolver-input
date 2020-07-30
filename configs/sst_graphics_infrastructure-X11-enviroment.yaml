@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Traditional X11 environment
+  description: Libraries and sample applications historically provided with an X11 installation
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - libXaw
+    - mesa-libGLw
+
+  labels:
+    - eln
