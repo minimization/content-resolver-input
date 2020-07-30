@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Rsyslog
+  description: Popular logging daemon
+  maintainer: sst_platform_security
+
+  packages:
+  - rsyslog
+
+  labels:
+  - eln
