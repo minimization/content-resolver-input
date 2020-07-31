@@ -11,6 +11,9 @@ data:
   - tss2
   - tpm2-tss
   - tpm2-tools
+  # needed for gating tests
+  - tpm2-abrmd
+  - tpm2-abrmd-selinux
 
   labels:
   - eln
