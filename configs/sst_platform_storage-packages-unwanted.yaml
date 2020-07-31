@@ -1,0 +1,20 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Platform Storage packages
+  description: Unwanted Platform Storage and Components
+  maintainer: sst_platform_storage
+
+  unwanted_packages:
+  - cmirror-standalone
+  - cryptsetup-reencrypt
+  - libblockdev-vdo
+  - libblockdev-vdo-devel
+  - libhbaapi
+  - libhbalinux
+  - python-di
+  # - kernel-rt.0010.0055
+  # sst_platform_storage owns this, but there isn't a package in Fedora.
+
+  labels:
+  - eln
