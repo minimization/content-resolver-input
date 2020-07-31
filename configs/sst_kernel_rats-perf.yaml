@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+    name: realtime perf
+    description: Packages for testing realtime performance
+    maintainer: sst_kernel_rats
+    packages:
+      - realtime-tests
+      - rteval
+      - rteval-loads
+      - stress-ng
+    labels:
+      - eln
