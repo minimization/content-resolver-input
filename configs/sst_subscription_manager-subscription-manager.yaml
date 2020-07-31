@@ -1,0 +1,80 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Subscripiton Manager
+  description: Manages subscriptions and yum repositories.
+  maintainer: sst_subscription_manager
+
+  packages:
+    - subscription-manager-cockpit
+    - rhsm-icons
+
+  labels:     
+  - eln       
+
+
+  arch_packages:    
+    aarch64:
+    - dnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - rhsm-gtk
+    - subscription-manager
+    - subscription-manager-initial-setup-addon
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    - dnf-plugin-subscription-manager-debuginfo
+    - python3-subscription-manager-rhsm-debuginfo
+    - subscription-manager-debuginfo
+    - subscription-manager-debugsource
+
+    i686:
+    - dnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - rhsm-gtk
+    - subscription-manager
+    - subscription-manager-initial-setup-addon
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    - dnf-plugin-subscription-manager-debuginfo
+    - python3-subscription-manager-rhsm-debuginfo
+    - subscription-manager-debuginfo
+    - subscription-manager-debugsource
+
+    ppc64le:
+    - dnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - rhsm-gtk
+    - subscription-manager
+    - subscription-manager-initial-setup-addon
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    - dnf-plugin-subscription-manager-debuginfo
+    - python3-subscription-manager-rhsm-debuginfo
+    - subscription-manager-debuginfo
+    - subscription-manager-debugsource
+
+    s390x:
+    - dnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - rhsm-gtk
+    - subscription-manager
+    - subscription-manager-initial-setup-addon
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    - dnf-plugin-subscription-manager-debuginfo
+    - python3-subscription-manager-rhsm-debuginfo
+    - subscription-manager-debuginfo
+    - subscription-manager-debugsource
+
+    x86_64:
+    - dnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - rhsm-gtk
+    - subscription-manager
+    - subscription-manager-initial-setup-addon
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    - dnf-plugin-subscription-manager-debuginfo
+    - python3-subscription-manager-rhsm-debuginfo
+    - subscription-manager-debuginfo
+    - subscription-manager-debugsource
