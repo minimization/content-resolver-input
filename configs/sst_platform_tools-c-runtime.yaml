@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C Runtime
+  description: The minimum required C runtime.
+  maintainer: sst_platform_tools
+
+  packages:
+  - glibc
+  - glibc-common
+  - glibc-minimal-langpack
+
+  labels:
+  - eln
