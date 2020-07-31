@@ -25,9 +25,9 @@ data:
   - frr-contrib
   - frr-devel
   # GeoIP
-  - GeoIP-devel
   - GeoIP
   - GeoIP-data
+  - GeoIP-devel
   # gsm
   - gsm-tools
   # gutenprint
@@ -56,8 +56,6 @@ data:
   # ncurses
   - ncurses-compat-libs
   - ncurses-static
-  # net-tools
-  - net-tools
   # ppp
   - network-scripts-ppp
   # ntp
@@ -92,8 +90,8 @@ data:
   - timedatex
   # tuned
   - tuned-profiles-compat
-  - tuned-utils-systemtap
   - tuned-profiles-nfv-host-bin
+  - tuned-utils-systemtap
   # urw-base35-fonts
   - urw-base35-fonts-legacy
   # xsane
