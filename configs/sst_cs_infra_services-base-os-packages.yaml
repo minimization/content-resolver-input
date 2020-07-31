@@ -10,9 +10,11 @@ data:
   - filesystem
   - grep
   - lm_sensors
+  - lm_sensors-libs
   - lm_sensors-sensord
   - memtest86+
   - ncurses
+  - ncurses-base
   - ncurses-term
   - setup
 
