@@ -171,14 +171,10 @@ data:
         - capstone-devel
         - catch1-devel
         - cdparanoia-devel
-        - ceres-solver
-        - ceres-solver-devel
         - cfitsio
         - cfitsio-devel
         - cglib
         - chan-devel
-        - CharLS
-        - CharLS-devel
         - checksec
         - cheese-libs-devel
         - cifs-utils-devel
@@ -193,8 +189,6 @@ data:
         - classloader-leak-test-framework
         - clblast
         - clblast-devel
-        - cliquer-devel
-        - cliquer-libs
         - clisp
         - clisp-devel
         - cloog
@@ -207,29 +201,6 @@ data:
         - codehaus-parent
         - codemodel
         - cogl-devel
-        - coin-or-Cbc
-        - coin-or-Cbc-devel
-        - coin-or-Cgl
-        - coin-or-Cgl-devel
-        - coin-or-Cgl-doc
-        - coin-or-Clp
-        - coin-or-Clp-devel
-        - coin-or-Clp-doc
-        - coin-or-CoinUtils
-        - coin-or-CoinUtils-devel
-        - coin-or-CoinUtils-doc
-        - coin-or-Data-miplib3
-        - coin-or-Data-Netlib
-        - coin-or-DyLP
-        - coin-or-DyLP-devel
-        - coin-or-DyLP-doc
-        - coin-or-Osi
-        - coin-or-Osi-devel
-        - coin-or-Osi-doc
-        - coin-or-Sample
-        - coin-or-Vol
-        - coin-or-Vol-devel
-        - coin-or-Vol-doc
         - colm
         - colm-devel
         - colord-devel
@@ -283,8 +254,6 @@ data:
         - dbusmenu-qt5-devel
         - dbusmenu-qt-devel
         - dbus-python-devel
-        - dcmtk
-        - dcmtk-devel
         - dconf-devel
         - debian-keyring
         - debootstrap
@@ -469,7 +438,6 @@ data:
         - game-music-emu-devel
         - gamin
         - gamin-devel
-        - gavl-devel
         - gcab
         - gcc-aarch64-linux-gnu
         - gcc-arm-linux-gnu
@@ -481,19 +449,13 @@ data:
         - gcc-x86_64-linux-gnu
         - gc-devel
         - GConf2-devel
-        - gdal-devel
         - gdal-libs
-        - gdcm
-        - gdcm-applications
-        - gdcm-devel
         - gdk-pixbuf2-xlib
         - gdk-pixbuf2-xlib-devel
         - gdlmm
         - gdlmm-devel
         - gdm-devel
         - gdm-pam-extensions-devel
-        - gecode
-        - gecode-devel
         - gegl04
         - gegl04-devel
         - gegl04-tools
@@ -509,8 +471,6 @@ data:
         - geronimo-osgi-support
         - geronimo-parent-poms
         - geronimo-saaj
-        - gflags
-        - gflags-devel
         - ghc
         - ghc-aeson
         - ghc-aeson-devel
@@ -972,8 +932,6 @@ data:
         - glib-devel
         - glibmm24-devel
         - glm-devel
-        - glog
-        - glog-devel
         - glpk
         - glpk-devel
         - glslang
@@ -1452,7 +1410,6 @@ data:
         - jack-audio-connection-kit-devel
         - jackson-bom
         - jackson-parent
-        - jacop
         - jakarta-oro
         - janino
         - jansson-devel
@@ -1640,8 +1597,6 @@ data:
         - ldns-devel
         - lensfun
         - lensfun-devel
-        - leptonica
-        - leptonica-devel
         - leveldb
         - leveldb-devel
         - liba52-devel
@@ -1895,8 +1850,6 @@ data:
         - libmwaw-devel
         - libmypaint
         - libmypaint-devel
-        - libnauty
-        - libnauty-devel
         - libnbd
         - libnbd-devel
         - libndp-devel
@@ -2030,11 +1983,7 @@ data:
         - libtomcrypt-devel
         - libtommath-devel
         - libtool-ltdl-devel
-        - libucil
-        - libucil-devel
         - libudisks2-devel
-        - libunicap
-        - libunicap-devel
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
@@ -2253,19 +2202,13 @@ data:
         - mono-winforms
         - mozjs60-devel
         - mozjs68-devel
-        - mp
-        - mp-devel
         - mpg123-devel
-        - mpi4py-common
         - msv-msv
         - msv-xsdlib
         - mtdev-devel
         - mt-st
         - mtx
         - multilib-rpm-config
-        - MUMPS
-        - MUMPS-common
-        - MUMPS-devel
         - munge-devel
         - munge-maven-plugin
         - mupdf
@@ -2282,13 +2225,7 @@ data:
         - ncurses-compat-libs
         - neon-devel
         - netcdf
-        - netcdf-cxx
-        - netcdf-cxx-devel
         - netcdf-devel
-        - netcdf-mpich
-        - netcdf-mpich-devel
-        - netcdf-openmpi
-        - netcdf-openmpi-devel
         - netcf-devel
         - netpbm
         - netpbm-devel
@@ -2402,10 +2339,6 @@ data:
         - opencryptoki-devel
         - opencsd
         - opencsd-devel
-        - opencv
-        - opencv-contrib
-        - opencv-core
-        - opencv-devel
         - OpenEXR-devel
         - openjade
         - openjpeg2-devel
@@ -3442,7 +3375,6 @@ data:
         - pygtk2-codegen
         - pygtk2-devel
         - pygtk2-doc
-        - pylint
         - pypy
         - pypy3
         - pypy3-devel
@@ -3516,7 +3448,6 @@ data:
         - python3-dateparser
         - python3-dbusmock
         - python3-defusedxml
-        - python3-dill
         - python3-distlib
         - python3-docs
         - python3-dogpile-cache
@@ -3627,8 +3558,6 @@ data:
         - python3-mistune
         - python3-mock
         - python3-monotonic
-        - python3-mpi4py-mpich
-        - python3-mpi4py-openmpi
         - python3-mpmath
         - python3-multilib
         - python3-munch
@@ -3808,8 +3737,6 @@ data:
         - python3-venusian
         - python3-vine
         - python3-virtualenv
-        - python3-vtk
-        - python3-vtk-qt
         - python3-wadllib
         - python3-waitress
         - python3-webob
@@ -4601,11 +4528,6 @@ data:
         - sblim-indication_helper-devel
         - sblim-sfcc
         - sblim-sfcc-devel
-        - scalapack-common
-        - scalapack-mpich
-        - scalapack-mpich-devel
-        - scalapack-openmpi
-        - scalapack-openmpi-devel
         - scotch
         - scotch-devel
         - screen
@@ -4690,10 +4612,6 @@ data:
         - teamd-devel
         - teckit-devel
         - tepl-devel
-        - tesseract
-        - tesseract-devel
-        - tesseract-langpack-eng
-        - tesseract-tessdata-doc
         - testng
         - texi2html
         - texinfo
@@ -4832,10 +4750,6 @@ data:
         - virglrenderer-devel
         - volume_key-devel
         - vte291-devel
-        - vtk
-        - vtk-devel
-        - vtk-java
-        - vtk-qt
         - vulkan-loader-devel
         - w3m
         - waf
@@ -4976,8 +4890,6 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - libavc1394-devel
-            - libdc1394
-            - libdc1394-devel
             - libffado
             - libffado-devel
             - libfprint-devel
@@ -5023,8 +4935,6 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - libavc1394-devel
-            - libdc1394
-            - libdc1394-devel
             - libffado
             - libffado-devel
             - libfprint-devel
@@ -5056,31 +4966,117 @@ data:
             - tslib-devel
             - uuid
         s390x:
+            - ceres-solver
+            - ceres-solver-devel
+            - CharLS
+            - CharLS-devel
+            - cliquer-devel
+            - cliquer-libs
+            - coin-or-Cbc
+            - coin-or-Cbc-devel
+            - coin-or-Cgl
+            - coin-or-Cgl-devel
+            - coin-or-Cgl-doc
+            - coin-or-Clp
+            - coin-or-Clp-devel
+            - coin-or-Clp-doc
+            - coin-or-CoinUtils
+            - coin-or-CoinUtils-devel
+            - coin-or-CoinUtils-doc
+            - coin-or-Data-miplib3
+            - coin-or-Data-Netlib
+            - coin-or-DyLP
+            - coin-or-DyLP-devel
+            - coin-or-DyLP-doc
+            - coin-or-Osi
+            - coin-or-Osi-devel
+            - coin-or-Osi-doc
+            - coin-or-Sample
+            - coin-or-Vol
+            - coin-or-Vol-devel
+            - coin-or-Vol-doc
             - daxctl-devel
+            - dcmtk
+            - dcmtk-devel
             - efi-filesystem
+            - gavl-devel
+            - gdal-devel
+            - gdcm
+            - gdcm-applications
+            - gdcm-devel
+            - gecode
+            - gecode-devel
+            - gflags
+            - gflags-devel
+            - glog
+            - glog-devel
             - gperftools-libs
+            - jacop
+            - leptonica
+            - leptonica-devel
             - libbluray
             - libdmapsharing
             - libdv
             - libftdi
             - libgpod
             - libimobiledevice
+            - libnauty
+            - libnauty-devel
             - libplist
+            - libucil
+            - libucil-devel
+            - libunicap
+            - libunicap-devel
             - libusbmuxd
             - libXvMC
             - lm_sensors-devel
             - media-player-info
             - mesa-vulkan-drivers
+            - mp
+            - mp-devel
+            - mpi4py-common
+            - MUMPS
+            - MUMPS-common
+            - MUMPS-devel
             - ndctl-devel
+            - netcdf-cxx
+            - netcdf-cxx-devel
+            - netcdf-mpich
+            - netcdf-mpich-devel
+            - netcdf-openmpi
+            - netcdf-openmpi-devel
             - openbios
+            - opencv
+            - opencv-contrib
+            - opencv-core
+            - opencv-devel
             - pugixml
+            - pylint
+            - python3-dill
+            - python3-mpi4py-mpich
+            - python3-mpi4py-openmpi
+            - python3-vtk
+            - python3-vtk-qt
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - scalapack-common
+            - scalapack-mpich
+            - scalapack-mpich-devel
+            - scalapack-openmpi
+            - scalapack-openmpi-devel
+            - tesseract
+            - tesseract-devel
+            - tesseract-langpack-eng
+            - tesseract-tessdata-doc
             - usbredir
+            - vtk
+            - vtk-devel
+            - vtk-java
+            - vtk-qt
         x86_64:
             - bullet
             - bullet-devel
@@ -5104,8 +5100,6 @@ data:
             - kernel-debug-modules
             - kernel-debug-modules-extra
             - libavc1394-devel
-            - libdc1394
-            - libdc1394-devel
             - libffado
             - libffado-devel
             - libfprint-devel
@@ -5115,9 +5109,6 @@ data:
             - libxml++-devel
             - mesa-libxatracker-devel
             - openbios
-            - openni
-            - openni-devel
-            - openni-primesense
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
