@@ -3,7 +3,7 @@ version: 1
 data:
   name: Platform Tools Unwanted Packages
   description: Packages that Platform Tool maintains in RHEL 8 but won't in RHEL 9
-  maintainer: Dodji Seketeli, Nick Clifton
+  maintainer: sst_platform_tools
   labels:
   - eln
 
@@ -25,3 +25,10 @@ data:
   - nasm-rdoff
   - yasm
   - yasm-devel
+  # The X11 build may require mcpp. We should try hard to remove this
+  # dependency because if we can then we can remove mcpp entirely
+  # because nothing else should use it.
+  - mcpp
+  - mcpp-doc
+  - libmcpp
+  - libmcpp-devel
