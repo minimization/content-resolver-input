@@ -81,3 +81,8 @@ data:
   # pulled in as test dependencies of anaconda, they shouldn't be needed
   - python3-nose-testconfig
   - python3-rpmfluff
+
+  # Vendula Poncova: python3-ordered-set and python3-ntplib were pulled in
+  # as dependencies of anaconda and pykickstart, they shouldn't be needed
+  - python3-ordered-set
+  - python3-ntplib
