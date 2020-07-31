@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: opae
+  description: User libraries for Intel FPGA's
+  maintainer: sst_kernel_rats
+
+  packages: []
+
+  labels:
+  - eln
+
+  arch_packages:
+    x86_64:
+    - opae
