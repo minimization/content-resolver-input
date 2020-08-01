@@ -1,0 +1,34 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Filesystems
+  description: Filesystems needed packages
+  maintainer: sst_filesystems
+
+  packages:
+    - blktrace
+    - e2fsprogs
+    - fio
+    - xfsdump
+    - xfsprogs
+
+  arch_packages:
+    # gfs2 packages are not supported on aarch64.
+    # aarch64:
+    # - gfs2-utils
+    # - pcp-pmda-gfs2
+
+    ppc64le:
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+    s390x:
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+    x86_64:
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+  labels:
+  - eln
