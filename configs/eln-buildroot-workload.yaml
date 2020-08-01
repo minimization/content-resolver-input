@@ -30,7 +30,6 @@ data:
         - allegro
         - allegro-devel
         - amtk-devel
-        - annobin-annocheck
         - ant-antlr
         - ant-apache-xalan2
         - ant-contrib
@@ -244,7 +243,6 @@ data:
         - csnappy-devel
         - CUnit
         - CUnit-devel
-        - cups-filters-devel
         - cvs
         - cvsps
         - datefudge
@@ -905,9 +903,6 @@ data:
         - ghc-zlib-devel
         - ghc-zlib-prof
         - ghostscript-core
-        - ghostscript-tools-dvipdf
-        - ghostscript-tools-fonts
-        - ghostscript-tools-printing
         - giflib-devel
         - gimp
         - gimp-devel
@@ -1297,9 +1292,7 @@ data:
         - GraphicsMagick-c++
         - GraphicsMagick-c++-devel
         - GraphicsMagick-devel
-        - graphviz-devel
         - graphviz-devil
-        - graphviz-gd
         - grilo-devel
         - groff
         - groff-perl
@@ -1710,7 +1703,6 @@ data:
         - libev
         - libevdev-devel
         - libev-devel
-        - libevent-devel
         - libev-source
         - libewf
         - libewf-devel
@@ -1757,7 +1749,6 @@ data:
         - libgrss-devel
         - libgsasl
         - libgsasl-devel
-        - libgs-devel
         - libgsf-devel
         - libgta
         - libgta-devel
@@ -1820,7 +1811,6 @@ data:
         - libmalaga
         - libmarkdown
         - libmarkdown-devel
-        - libmaxminddb-devel
         - libmbim-devel
         - libmcrypt
         - libmcrypt-devel
@@ -3340,7 +3330,6 @@ data:
         - powermock-javaagent
         - powermock-junit4
         - powermock-reflect
-        - ppp-devel
         - pps-tools-devel
         - procps-ng-devel
         - proj
@@ -3852,8 +3841,6 @@ data:
         - quota-devel
         - ragel
         - raptor2-devel
-        - rarian
-        - rarian-compat
         - rasqal-devel
         - rb_libtorrent
         - rb_libtorrent-devel
@@ -4534,7 +4521,6 @@ data:
         - SDL2-devel
         - SDL_sound
         - SDL_sound-devel
-        - sendmail-milter-devel
         - serd-devel
         - SFML
         - SFML-devel
@@ -4738,7 +4724,6 @@ data:
         - upower-devel
         - uriparser
         - uriparser-devel
-        - urw-base35-fonts-devel
         - usbguard-devel
         - usbguard-selinux
         - usbredir-devel
@@ -4946,7 +4931,6 @@ data:
             - libxml++
             - libxml++-devel
             - libXvMC
-            - lm_sensors-devel
             - mesa-vulkan-drivers
             - postgresql-contrib
             - postgresql-server
@@ -5029,7 +5013,6 @@ data:
             - libunicap-devel
             - libusbmuxd
             - libXvMC
-            - lm_sensors-devel
             - media-player-info
             - mesa-vulkan-drivers
             - mp
