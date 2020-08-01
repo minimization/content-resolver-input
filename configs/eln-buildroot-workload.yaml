@@ -2348,8 +2348,6 @@ data:
         - opus-devel
         - orangefs-devel
         - osgi-annotation
-        - osgi-compendium
-        - osgi-core
         - os-maven-plugin
         - ostree-devel
         - p11-kit-server
@@ -5091,10 +5089,16 @@ data:
             - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
+            - libvirt-daemon-config-network
             - libxml++
             - libxml++-devel
             - mesa-libxatracker-devel
+            - nbdkit
+            - nbdkit-basic-filters
+            - nbdkit-basic-plugins
+            - nbdkit-server
             - openbios
+            - perl-Sys-Virt
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5103,6 +5107,7 @@ data:
             - qemu-system-s390x-core
             - rlottie
             - rlottie-devel
+            - SLOF
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
