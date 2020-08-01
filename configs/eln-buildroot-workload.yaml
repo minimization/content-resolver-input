@@ -1845,6 +1845,9 @@ data:
         - libndp-devel
         - libnet-devel
         - libnetfilter_conntrack-devel
+        - libnetfilter_cthelper-devel
+        - libnetfilter_cttimeout-devel
+        - libnetfilter_queue-devel
         - libnfnetlink-devel
         - libnfs-devel
         - libnfsidmap-devel
