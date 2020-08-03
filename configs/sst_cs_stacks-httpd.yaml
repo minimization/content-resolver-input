@@ -5,6 +5,9 @@ data:
   description: Core Services Stacks - Apache HTTP Server
   maintainer: sst_cs_stacks
 
+  modules_enable:
+  - httpd:2.4
+
   packages:
   - httpd
   - httpd-tools
