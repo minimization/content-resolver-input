@@ -12,10 +12,12 @@ data:
     repositories:
         - repository-fedora-eln
     packages:
-        - ed
-        - mkpasswd
     arch_packages:
         aarch64:
+            - ed
+            - mkpasswd
         ppc64le:
         s390x:
+            - ed
+            - mkpasswd
         x86_64:
