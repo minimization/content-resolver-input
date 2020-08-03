@@ -5,6 +5,9 @@ data:
   description: path manager daemon for multipath TCP - package should be in ELN
   maintainer: sst_networking
 
+  # this field is mandatory
+  packages: []
+
   package_placeholders:
     mptcpd:
       description: This package is not yet in Fedora, it's going to be added soon.
