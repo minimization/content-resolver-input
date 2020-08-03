@@ -1,7 +1,7 @@
 document:  feedback-pipeline-workload
 version: 1
 data:
-    tame: kernel-rt base
+    name: kernel-rt base
     description: Base set of kernel-rt packages and tools to ship
     maintainer: sst_kernel_rats
     packages:
