@@ -247,7 +247,6 @@ data:
         - console-setup
         - corosync
         - corosynclib-devel
-        - cppcheck
         - cppunit
         - cppunit-devel
         - cracklib-devel
@@ -2316,7 +2315,6 @@ data:
         - ocaml-extlib-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
-        - ocaml-findlib
         - ocaml-findlib-devel
         - ocaml-gettext
         - ocaml-gettext-devel
@@ -2341,8 +2339,6 @@ data:
         - ocaml-ounit-devel
         - ocaml-ppx-derivers
         - ocaml-ppx-derivers-devel
-        - ocaml-ppx-tools-versioned
-        - ocaml-ppx-tools-versioned-devel
         - ocaml-react
         - ocaml-react-devel
         - ocaml-result
@@ -2375,7 +2371,6 @@ data:
         - opencl-headers
         - opencv
         - opencv-contrib
-        - opencv-core
         - opencv-devel
         - OpenEXR-devel
         - openjade
