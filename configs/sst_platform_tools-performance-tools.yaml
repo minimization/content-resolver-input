@@ -8,7 +8,10 @@ data:
   packages:
   - dyninst
   - dyninst-devel
+  - dyninst-doc
+  - dyninst-testsuite
   - elfutils
+  - elfutils-debuginfod
   - elfutils-debuginfod-client
   - elfutils-debuginfod-client-devel
   - elfutils-default-yama-scope
@@ -21,11 +24,19 @@ data:
   - papi
   - papi-devel
   - papi-libs
+  - papi-testsuite
   - systemtap
   - systemtap-client
   - systemtap-devel
+  - systemtap-exporter
   - systemtap-runtime
+  - systemtap-runtime-java
+  - systemtap-runtime-python3
+  - systemtap-runtime-virtguest
+  - systemtap-runtime-virthost
   - systemtap-sdt-devel
+  - systemtap-server
+  - systemtap-testsuite
   - valgrind
   - valgrind-devel
 
