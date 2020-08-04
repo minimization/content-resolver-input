@@ -1,0 +1,19 @@
+document:  feedback-pipeline-workload
+version: 1
+data:
+    name: kernel-rt base
+    description: Base set of kernel-rt packages and tools to ship
+    maintainer: sst_kernel_rats
+    packages:
+        - kernel-rt-core
+        - kernel-rt-modules
+        - kernel-rt-modules-extra
+        - kernel-rt-kvm
+        - tuned-profiles-realtime
+        - tuned-profiles-nfv
+        - tuned-profiles-nfv
+        - tuned-profiles-nfv-guest
+        - tuned-profiles-nfv-host
+        - tuned-profiles-nfv-host-bin
+    labels:
+        - eln

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: USBGuard
+  description: Enforcing USB security policy
+  maintainer: sst_platform_security
+
+  packages:
+  - usbguard
+  - usbguard-notifier
+
+  labels:
+  - eln

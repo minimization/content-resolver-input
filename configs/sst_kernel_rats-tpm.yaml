@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: TPM packages
+  description: Packages providing TPM1.2 and TPM2.0 support
+  maintainer: sst_kernel_rats
+
+  packages:
+  - trousers
+  - tpm-tools
+  - tss2
+  - tpm2-tss
+  - tpm2-tools
+  # needed for gating tests
+  - tpm2-abrmd
+  - tpm2-abrmd-selinux
+
+  labels:
+  - eln

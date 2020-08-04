@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: X11 Server
+  description:  Provide the server side for the X window system
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - xorg-x11-server
+    - xorg-x11-drivers
+
+  labels:
+    - eln

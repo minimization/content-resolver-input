@@ -1,0 +1,38 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GCC
+  description: Collection of packages providing the C, C++, and Fortran compilers.
+  maintainer: sst_platform_tools
+
+  packages:
+  - gcc
+  - gcc-c++
+  - cpp
+  - gcc-gdb-plugin
+  - gcc-gfortran
+  - gcc-offload-nvptx
+  - gcc-plugin-devel
+  - libasan
+  - libatomic
+  - libgcc
+  - libgfortran
+  - libgomp
+  - libgomp-offload-nvptx
+  - libitm
+  - libitm-devel
+  - liblsan
+  - libquadmath
+  - libquadmath-devel
+  - libstdc++
+  - libstdc++-devel
+  - libstdc++-docs
+  - libstdc++-static
+  - libtsan
+  - libubsan
+  - libmpc
+  - dwz
+  - chrpath
+
+  labels:
+  - eln
