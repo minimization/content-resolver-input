@@ -53,10 +53,7 @@ data:
         - apiguardian
         - apiviz
         - appstream
-        - apr-devel
         - apr-util-bdb
-        - apr-util-devel
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -284,7 +281,6 @@ data:
         - CUnit-devel
         - cvs
         - cvsps
-        - cyrus-sasl-devel
         - dain-snappy
         - datefudge
         - dblatex
@@ -405,7 +401,6 @@ data:
         - exim
         - exiv2
         - exiv2-devel
-        - expat-devel
         - expect
         - extra-cmake-modules
         - f32-backgrounds-base
@@ -1354,7 +1349,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - httpd-devel
         - http-parser-devel
         - hunspell-cs
         - hunspell-devel
@@ -1946,7 +1940,6 @@ data:
         - librx-devel
         - libsamplerate
         - libsamplerate-devel
-        - libsane-airscan
         - libsass
         - libsass-devel
         - libseccomp-devel
@@ -2303,6 +2296,7 @@ data:
         - mono-web
         - mono-winforms
         - motif-devel
+        - mozjs60
         - mozjs60-devel
         - mozjs68-devel
         - mp
@@ -2446,7 +2440,6 @@ data:
         - openjade
         - openjpeg2-devel
         - openjpeg2-tools
-        - openldap-devel
         - openldap-servers
         - openpgm
         - openpgm-devel
