@@ -2541,7 +2541,6 @@ data:
         - perl-Alien-cmake3
         - perl-Alien-FFI
         - perl-Alien-Libxml2
-        - perl-Alien-pkgconf
         - perl-AnyEvent
         - perl-AnyEvent-AIO
         - perl-AnyEvent-BDB
