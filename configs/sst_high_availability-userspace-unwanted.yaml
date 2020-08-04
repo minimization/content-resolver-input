@@ -1,0 +1,18 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted High Availability packages
+  description: Unwanted High Availability Components
+  maintainer: sst_high_availability
+
+  unwanted_packages:
+  - clufter-bin
+  - clufter-cli
+  - clufter-common
+  - clufter-lib-ccs
+  - clufter-lib-general
+  - clufter-lib-pcs
+  - jing-trang
+
+  labels:
+  - eln

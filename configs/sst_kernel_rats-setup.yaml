@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+    name: realtime setup
+    description: Package that creates realtime group and limits
+    maintainer: sst_kernel_rats
+    packages:
+        - realtime-setup
+    labels:
+        - eln

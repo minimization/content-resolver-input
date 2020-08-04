@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Middleware SST Unwanted Packages
+  description: Packages that Middleware maintainers do not wish to maintain in RHEL 9
+  maintainer: sst_middleware
+  labels:
+  - eln
+
+  unwanted_packages:
+  # Tomcat was removed in RHEL 8 and should continue to be removed in RHEL 9
+  - tomcat

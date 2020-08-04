@@ -24,6 +24,8 @@ data:
   - python-requests-kerberos
   - mod_nss
   - mod_revocator
+  - pam_radius
+  - freeradius-client
 
   # Not supported in RHEL (https://bugzilla.redhat.com/show_bug.cgi?id=910464)
   - samba-dc

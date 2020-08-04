@@ -1,0 +1,35 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CoreOS
+  description: >
+    OS compontents for CoreOS based systems.
+    This should be distributed via ostrees.
+  maintainer: sst_coreos
+
+  packages:
+   # These packages are built and releases as part of
+   # Openshift.
+   - afterburn
+   - afterburn-dracut
+   - coreos-installer
+   - cri-o
+   - ignition
+   - runc
+   - ssh-key-dir
+   - zincati
+
+   # These packages are inherited from the base
+   - cloud-utils-growpart
+   - console-login-helper-messages-issuegen
+   - console-login-helper-messages-motdgen
+   - console-login-helper-messages-profile
+   - ostree
+   - podman
+   - rpm-ostree
+   - skopeo
+   - systemd-containerd
+   - toolbox
+
+  labels:
+  - eln

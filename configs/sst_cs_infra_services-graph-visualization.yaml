@@ -1,18 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Accessibility tools
-  description: Tools which enhance accessibility for impaired people
+  name: Graph visualization
+  description: Graph visualization software
   maintainer: sst_cs_infra_services
 
   packages:
-  - brltty
-  - brltty-at-spi2
-  - brltty-docs
-  - brltty-dracut
-  - brltty-espeak-ng
-  - brltty-xw
-  - espeak-ng
+  - graphviz
 
   labels:
   - eln

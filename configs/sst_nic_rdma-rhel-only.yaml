@@ -5,6 +5,9 @@ data:
   description: RDMA Stack RHEL Only - Packages should be in ELN
   maintainer: sst_nic_rdma
 
+  # this field is mandatory
+  packages: []
+
   package_placeholders:
     mvapich2:
       description: This package is not in Fedora (yet), but we want to see it here.
