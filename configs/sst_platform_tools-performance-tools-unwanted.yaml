@@ -16,6 +16,7 @@ data:
   - oprofile
   - rr
   - valgrind-openmpi
+  - valgrind-tools-devel
 
   labels:
   - eln
