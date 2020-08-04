@@ -77,4 +77,3 @@ data:
   #Jaroslav Kysela:
   # It's sound font loader for (really) old Creative hardware. The recent hardware does not require it.
   -fxload
-  
