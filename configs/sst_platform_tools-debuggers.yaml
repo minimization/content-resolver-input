@@ -7,8 +7,9 @@ data:
 
   packages:
   - gdb
+  - gdb-doc
   - gdb-headless
-  - gdb-minimal
+  - gdb-server
   - libbabeltrace
   - libbabeltrace-devel
   - libipt
