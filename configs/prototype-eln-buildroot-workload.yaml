@@ -1480,8 +1480,6 @@ data:
         - jetty-server
         - jetty-servlet
         - jetty-util
-        - jffi
-        - jffi-native
         - jflex
         - jFormatString
         - jfsutils
@@ -1494,11 +1492,6 @@ data:
         - jmock-legacy
         - jmock-testjar
         - jna-contrib
-        - jnr-constants
-        - jnr-ffi
-        - jnr-netdb
-        - jnr-posix
-        - jnr-x86asm
         - jq-devel
         - jsch
         - js-coffee-script
@@ -1512,7 +1505,6 @@ data:
         - Judy-devel
         - junit5
         - jvnet-parent
-        - jython
         - jzlib
         - kde-settings
         - kernel
@@ -2294,8 +2286,6 @@ data:
         - objectweb-pom
         - objenesis
         - ocaml
-        - ocaml-bisect-ppx
-        - ocaml-bisect-ppx-devel
         - ocaml-calendar
         - ocaml-calendar-devel
         - ocaml-camomile
@@ -2315,7 +2305,6 @@ data:
         - ocaml-extlib-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
-        - ocaml-findlib-devel
         - ocaml-gettext
         - ocaml-gettext-devel
         - ocaml-hivex
@@ -2326,8 +2315,6 @@ data:
         - ocaml-libvirt-devel
         - ocaml-lwt
         - ocaml-lwt-devel
-        - ocaml-migrate-parsetree
-        - ocaml-migrate-parsetree-devel
         - ocaml-mmap
         - ocaml-mmap-devel
         - ocaml-ocamlbuild

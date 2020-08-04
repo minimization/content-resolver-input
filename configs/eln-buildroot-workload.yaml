@@ -2429,7 +2429,6 @@ data:
         - ocaml-dune-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
-        - ocaml-findlib-devel
         - ocaml-gettext
         - ocaml-gettext-devel
         - ocaml-hivex
