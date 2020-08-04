@@ -2106,7 +2106,6 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
-        - libytnef
         - libytnef-devel
         - libyubikey
         - libyubikey-devel
