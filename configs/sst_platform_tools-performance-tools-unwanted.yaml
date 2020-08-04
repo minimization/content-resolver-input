@@ -13,6 +13,9 @@ data:
   - libdwarf-devel
   - libdwarf-static
   - libpfm-static
+  - oprofile
+  - rr
+  - valgrind-openmpi
 
   labels:
   - eln
