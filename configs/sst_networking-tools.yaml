@@ -28,5 +28,8 @@ data:
   - wireshark
   - wireshark-cli
 
+  unwanted_packages:
+  - bridge-utils
+
   labels:
   - eln
