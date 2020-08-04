@@ -16,8 +16,6 @@ data:
         - a2ps
         - aalib-devel
         - aalib-libs
-        - abrt-devel
-        - abrt-gui-devel
         - accountsservice-devel
         - acpica-tools
         - adobe-mappings-cmap-devel
@@ -26,33 +24,39 @@ data:
         - adwaita-icon-theme-devel
         - afflib
         - afflib-devel
+        - alex
         - allegro
         - allegro-devel
+        - alsa-lib-devel
         - amtk-devel
-        - annobin-annocheck
-        - ant-antlr
+        - ant
         - ant-apache-xalan2
         - ant-contrib
         - anthy
         - anthy-devel
         - ant-junit
-        - antlr32-java
-        - antlr32-maven-plugin
-        - antlr32-tool
+        - ant-lib
         - antlr-tool
         - ant-testutil
+        - aopalliance
         - apache-commons-beanutils
         - apache-commons-collections-testframework
+        - apache-commons-compress
         - apache-commons-exec
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
         - apache-commons-parent
         - apache-ivy
+        - apache-parent
+        - apache-resource-bundles
         - apache-sshd
         - apiguardian
         - apiviz
         - appstream
+        - apr-devel
         - apr-util-bdb
+        - apr-util-devel
+        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -62,17 +66,24 @@ data:
         - arpack-devel
         - arts
         - arts-devel
+        - asciidoc
         - asio-devel
         - aspell-devel
         - aspell-en
         - assertj-core
-        - assimp-devel
         - atf-tests
+        - atinject
+        - atk-devel
         - atkmm-devel
+        - atlas
+        - atlas-devel
         - atril
         - atril-libs
+        - at-spi2-atk-devel
+        - at-spi2-core-devel
         - audiofile
         - audiofile-devel
+        - audit-libs-devel
         - augeas
         - augeas-devel
         - autoconf213
@@ -81,6 +92,7 @@ data:
         - autogen-libopts-devel
         - automoc
         - autotrace
+        - avahi
         - avahi-devel
         - avahi-glib-devel
         - avahi-gobject
@@ -90,6 +102,7 @@ data:
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
+        - bash-completion
         - batik
         - batik-css
         - batik-util
@@ -129,10 +142,17 @@ data:
         - binutils-tile-linux-gnu
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
-        - bison-devel
         - blas
         - blas64_
         - blas-devel
+        - blas-static
+        - blis
+        - blis-devel
+        - blis-openmp
+        - blis-openmp64
+        - blis-serial64
+        - blis-threads
+        - blis-threads64
         - blosc
         - blosc-devel
         - bnd-maven-plugin
@@ -141,17 +161,20 @@ data:
         - bouncycastle-mail
         - bouncycastle-pg
         - bouncycastle-pkix
-        - brasero-devel
         - breeze-icon-theme
         - breezy
         - brlapi-devel
         - bsdtar
+        - bsf
+        - bsh
         - btrfs-progs-devel
         - buildnumber-maven-plugin
         - byaccj
         - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
+        - cairo-devel
+        - cairo-gobject-devel
         - cairomm-devel
         - caja
         - caja-core-extensions
@@ -159,6 +182,9 @@ data:
         - caja-schemas
         - cal10n
         - capstone-devel
+        - c-ares-devel
+        - catch1-devel
+        - cdi-api
         - cdparanoia-devel
         - ceres-solver
         - ceres-solver-devel
@@ -168,9 +194,10 @@ data:
         - chan-devel
         - CharLS
         - CharLS-devel
+        - check
+        - check-devel
         - checksec
         - cheese-libs-devel
-        - chrpath
         - cifs-utils-devel
         - cjkuni-uming-fonts
         - cjose-devel
@@ -224,16 +251,14 @@ data:
         - colm-devel
         - colord-devel
         - colord-gtk-devel
+        - compat-golang-github-cespare-xxhash-2-devel
         - compat-golang-github-chzyer-logex-devel
         - compat-golang-github-chzyer-readline-devel
         - compat-golang-github-coreos-etcd-devel
-        - compat-golang-github-facebookgo-inject-devel
-        - compat-golang-github-facebookgo-structtag-devel
+        - compat-golang-github-cpuguy83-md2man-2-devel
+        - compat-golang-github-godbus-dbus-5-devel
         - compat-golang-github-nats-io-devel
-        - compat-golang-github-robfig-cron-devel
         - compat-golang-github-russross-blackfriday-2-devel
-        - compat-golang-github-xorm-core-devel
-        - compat-golang-gopkg-fsnotify-1-devel
         - compat-lua
         - compat-lua-devel
         - compat-readline5-devel
@@ -243,9 +268,7 @@ data:
         - compat-wxGTK3-gtk2-media
         - compface
         - compface-devel
-        - composer
         - console-setup
-        - corosync
         - corosynclib-devel
         - cppunit
         - cppunit-devel
@@ -259,11 +282,14 @@ data:
         - csnappy-devel
         - CUnit
         - CUnit-devel
-        - cups-filters-devel
         - cvs
         - cvsps
+        - cyrus-sasl-devel
+        - dain-snappy
         - datefudge
         - dblatex
+        - dbus-devel
+        - dbus-glib-devel
         - dbusmenu-qt
         - dbusmenu-qt5
         - dbusmenu-qt5-devel
@@ -276,23 +302,17 @@ data:
         - debootstrap
         - dejagnu
         - deltarpm
-        - device-mapper-devel
-        - device-mapper-event-devel
         - device-mapper-multipath-devel
-        - DevIL
         - DevIL-devel
-        - DevIL-ILUT
-        - DevIL-ILUT-devel
         - dietlibc
         - dietlibc-devel
-        - discount
+        - diffstat
         - disruptor
         - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
         - dleyna-core-devel
         - dlm-devel
-        - dlm-lib
         - dmenu
         - dmraid-devel
         - docbook2X
@@ -300,12 +320,13 @@ data:
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
-        - docbook-utils-pdf
         - dom4j
         - dontpanic
         - dontpanic-devel
+        - dos2unix
         - dotconf-devel
         - double-conversion-devel
+        - dovecot
         - dovecot-devel
         - doxygen
         - doxygen2man
@@ -313,15 +334,13 @@ data:
         - dpkg
         - drpm-devel
         - dwarves
+        - e2fsprogs-devel
         - easymock
         - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland
         - egl-wayland-devel
         - eigen3-devel
-        - elfutils-debuginfod-client-devel
-        - elfutils-devel-static
-        - elfutils-libelf-devel-static
         - elinks
         - emacs
         - emacs-common
@@ -378,6 +397,7 @@ data:
         - espeak-ng-devel
         - evince-devel
         - evince-djvu
+        - evolution-data-server-devel
         - evolution-devel
         - exec-maven-plugin
         - execstack
@@ -385,13 +405,13 @@ data:
         - exim
         - exiv2
         - exiv2-devel
+        - expat-devel
         - expect
         - extra-cmake-modules
         - f32-backgrounds-base
         - f32-backgrounds-kde
         - fakechroot
         - fakechroot-libs
-        - farstream02-devel
         - fasterxml-oss-parent
         - fcgi
         - fcgi-devel
@@ -417,7 +437,12 @@ data:
         - fish
         - flac-devel
         - flatpak-devel
-        - flex-devel
+        - flexiblas
+        - flexiblas-devel
+        - flexiblas-netlib
+        - flexiblas-netlib64
+        - flexiblas-openblas-openmp
+        - flexiblas-openblas-openmp64
         - flite
         - flite-devel
         - fltk-devel
@@ -436,7 +461,6 @@ data:
         - fonttools
         - fop
         - forge-parent
-        - freeglut
         - freeglut-devel
         - freerdp-devel
         - freetds
@@ -444,13 +468,14 @@ data:
         - freetds-libs
         - freexl
         - freexl-devel
+        - fribidi-devel
         - fstrm-devel
         - ftgl
         - ftgl-devel
+        - fuse3-devel
         - fuse-devel
         - fusesource-pom
         - fwupd-devel
-        - g2clib-devel
         - game-music-emu
         - game-music-emu-devel
         - gamin
@@ -459,21 +484,22 @@ data:
         - gcab
         - gcc-aarch64-linux-gnu
         - gcc-arm-linux-gnu
-        - gcc-gdb-plugin
         - gcc-gnat
         - gcc-objc
         - gcc-objc++
-        - gcc-plugin-devel
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
         - gcc-x86_64-linux-gnu
         - gc-devel
         - GConf2-devel
+        - gcr-devel
         - gdal-devel
         - gdal-libs
         - gdcm
         - gdcm-applications
         - gdcm-devel
+        - gd-devel
+        - gdk-pixbuf2-devel
         - gdk-pixbuf2-xlib
         - gdk-pixbuf2-xlib-devel
         - gdlmm
@@ -486,6 +512,7 @@ data:
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
+        - geocode-glib-devel
         - GeoIP
         - GeoIP-devel
         - GeoIP-GeoLite-data
@@ -497,6 +524,8 @@ data:
         - geronimo-osgi-support
         - geronimo-parent-poms
         - geronimo-saaj
+        - gettext-common-devel
+        - gettext-devel
         - gflags
         - gflags-devel
         - ghc
@@ -531,10 +560,16 @@ data:
         - ghc-attoparsec-devel
         - ghc-attoparsec-prof
         - ghc-base
+        - ghc-base16-bytestring
+        - ghc-base16-bytestring-devel
+        - ghc-base16-bytestring-prof
         - ghc-base64-bytestring
         - ghc-base64-bytestring-devel
         - ghc-base64-bytestring-prof
         - ghc-base-compat
+        - ghc-base-compat-batteries
+        - ghc-base-compat-batteries-devel
+        - ghc-base-compat-batteries-prof
         - ghc-base-compat-devel
         - ghc-base-compat-prof
         - ghc-base-devel
@@ -548,6 +583,9 @@ data:
         - ghc-binary
         - ghc-binary-devel
         - ghc-binary-prof
+        - ghc-bitarray
+        - ghc-bitarray-devel
+        - ghc-bitarray-prof
         - ghc-blaze-builder
         - ghc-blaze-builder-devel
         - ghc-blaze-builder-prof
@@ -615,9 +653,6 @@ data:
         - ghc-deepseq-devel
         - ghc-deepseq-prof
         - ghc-devel
-        - ghc-Diff
-        - ghc-Diff-devel
-        - ghc-Diff-prof
         - ghc-digest
         - ghc-digest-devel
         - ghc-digest-prof
@@ -627,9 +662,15 @@ data:
         - ghc-dlist
         - ghc-dlist-devel
         - ghc-dlist-prof
+        - ghc-doclayout
+        - ghc-doclayout-devel
+        - ghc-doclayout-prof
         - ghc-doctemplates
         - ghc-doctemplates-devel
         - ghc-doctemplates-prof
+        - ghc-errors
+        - ghc-errors-devel
+        - ghc-errors-prof
         - ghc-exceptions
         - ghc-exceptions-devel
         - ghc-exceptions-prof
@@ -684,6 +725,9 @@ data:
         - ghc-hspec-expectations
         - ghc-hspec-expectations-devel
         - ghc-hspec-expectations-prof
+        - ghc-HsYAML
+        - ghc-HsYAML-devel
+        - ghc-HsYAML-prof
         - ghc-HTTP
         - ghc-http-client
         - ghc-http-client-devel
@@ -773,9 +817,6 @@ data:
         - ghc-regex-pcre
         - ghc-regex-pcre-devel
         - ghc-regex-pcre-prof
-        - ghc-regex-tdfa
-        - ghc-regex-tdfa-devel
-        - ghc-regex-tdfa-prof
         - ghc-rpm-macros
         - ghc-rpm-macros-extra
         - ghc-safe
@@ -784,6 +825,8 @@ data:
         - ghc-scientific
         - ghc-scientific-devel
         - ghc-scientific-prof
+        - ghc-semigroups
+        - ghc-semigroups-devel
         - ghc-setenv
         - ghc-setenv-devel
         - ghc-setenv-prof
@@ -839,6 +882,9 @@ data:
         - ghc-texmath-devel
         - ghc-texmath-prof
         - ghc-text
+        - ghc-text-conversions
+        - ghc-text-conversions-devel
+        - ghc-text-conversions-prof
         - ghc-text-devel
         - ghc-text-prof
         - ghc-tf-random
@@ -865,6 +911,9 @@ data:
         - ghc-unbounded-delays
         - ghc-unbounded-delays-devel
         - ghc-unbounded-delays-prof
+        - ghc-unicode-transforms
+        - ghc-unicode-transforms-devel
+        - ghc-unicode-transforms-prof
         - ghc-unix
         - ghc-unix-devel
         - ghc-unix-prof
@@ -907,9 +956,6 @@ data:
         - ghc-zlib-devel
         - ghc-zlib-prof
         - ghostscript-core
-        - ghostscript-tools-dvipdf
-        - ghostscript-tools-fonts
-        - ghostscript-tools-printing
         - giflib-devel
         - gimp
         - gimp-devel
@@ -919,6 +965,7 @@ data:
         - gl2ps
         - gl2ps-devel
         - glade-devel
+        - glassfish-el-api
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -930,9 +977,9 @@ data:
         - glib2-static
         - glibc-langpack-km
         - glibc-locale-source
-        - glibc-static
         - glib-devel
         - glibmm24-devel
+        - gl-manpages
         - glm-devel
         - glog
         - glog-devel
@@ -941,14 +988,15 @@ data:
         - glslang
         - glslang-devel
         - glslc
-        - glyphicons-halflings-fonts
         - gmock
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
         - gnome-common
+        - gnome-desktop3-devel
         - gnome-doc-utils
         - gnome-doc-utils-stylesheets
+        - gnome-online-accounts-devel
         - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
@@ -957,18 +1005,16 @@ data:
         - go-filesystem
         - golang-bitbucket-ww-goautoneg-devel
         - golang-cloud-google-compute-devel
-        - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
         - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
         - golang-etcd-devel
-        - golang-github-acobaugh-osrelease-devel
         - golang-github-afex-hystrix-devel
         - golang-github-alcortesm-tgz-devel
         - golang-github-alecthomas-template-devel
         - golang-github-alecthomas-units-devel
         - golang-github-andygrunwald-gerrit-devel
-        - golang-github-apache-arrow-devel
+        - golang-github-antihax-optional-devel
         - golang-github-apache-thrift-devel
         - golang-github-armon-circbuf-devel
         - golang-github-armon-consul-api-devel
@@ -980,12 +1026,8 @@ data:
         - golang-github-azure-pipeline-devel
         - golang-github-azure-sdk-devel
         - golang-github-azure-storage-blob-devel
-        - golang-github-beevik-etree-devel
-        - golang-github-benbjohnson-clock-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
-        - golang-github-bradfitz-gomemcache-devel
-        - golang-github-briandowns-spinner-devel
         - golang-github-burntsushi-toml-devel
         - golang-github-burntsushi-toml-test
         - golang-github-cactus-statsd-client-devel
@@ -993,7 +1035,6 @@ data:
         - golang-github-cenkalti-backoff-devel
         - golang-github-census-instrumentation-opencensus-proto-devel
         - golang-github-cespare-xxhash-devel
-        - golang-github-cheekybits-genny-devel
         - golang-github-chzyer-test-devel
         - golang-github-circonus-labs-apiclient-devel
         - golang-github-circonus-labs-circonusllhist-devel
@@ -1001,20 +1042,14 @@ data:
         - golang-github-clbanning-x2j-devel
         - golang-github-codahale-hdrhistogram-devel
         - golang-github-coreos-pkg-capnslog-devel
-        - golang-github-coreos-pkg-devel
         - golang-github-coreos-semver-devel
         - golang-github-coreos-systemd-devel
         - golang-github-cpuguy83-md2man
         - golang-github-cpuguy83-md2man-devel
         - golang-github-creack-pty-devel
-        - golang-github-crewjam-httperr-devel
-        - golang-github-crewjam-saml-devel
-        - golang-github-crossdock-devel
         - golang-github-datadog-devel
         - golang-github-datadog-zstd-devel
         - golang-github-davecgh-spew-devel
-        - golang-github-dchest-uniuri-devel
-        - golang-github-denisenkom-mssqldb-devel
         - golang-github-dgrijalva-jwt-devel
         - golang-github-dimchansky-utfbom-devel
         - golang-github-dnaeon-vcr-devel
@@ -1024,8 +1059,6 @@ data:
         - golang-github-eapache-xerial-snappy-devel
         - golang-github-edsrzf-mmap-devel
         - golang-github-emirpasic-gods-devel
-        - golang-github-facebookarchive-inject-devel
-        - golang-github-facebookarchive-structtag-devel
         - golang-github-fatih-color-devel
         - golang-github-franela-goblin-devel
         - golang-github-franela-goreq-devel
@@ -1037,12 +1070,10 @@ data:
         - golang-github-godbus-dbus-devel
         - golang-github-gofrs-flock-devel
         - golang-github-gogo-protobuf-devel
-        - golang-github-goji-param-devel
         - golang-github-googleapis-gax-devel
         - golang-github-google-btree-devel
         - golang-github-google-cmp-devel
         - golang-github-google-devel
-        - golang-github-google-flatbuffers-devel
         - golang-github-google-martian-devel
         - golang-github-google-pprof-devel
         - golang-github-google-querystring-devel
@@ -1051,12 +1082,10 @@ data:
         - golang-github-gophercloud-devel
         - golang-github-gorilla-mux-devel
         - golang-github-gorilla-websocket-devel
-        - golang-github-gosimple-slug-devel
         - golang-github-groupcache-devel
         - golang-github-grpc-ecosystem-gateway-devel
         - golang-github-grpc-ecosystem-middleware-devel
         - golang-github-grpc-ecosystem-prometheus-devel
-        - golang-github-harrymichal-version-devel
         - golang-github-hashicorp-cleanhttp-devel
         - golang-github-hashicorp-consul-devel
         - golang-github-hashicorp-errwrap-devel
@@ -1069,66 +1098,48 @@ data:
         - golang-github-hashicorp-memberlist-devel
         - golang-github-hashicorp-msgpack-devel
         - golang-github-hashicorp-multierror-devel
-        - golang-github-hashicorp-plugin-devel
         - golang-github-hashicorp-retryablehttp-devel
         - golang-github-hashicorp-rootcerts-devel
         - golang-github-hashicorp-serf-devel
         - golang-github-hashicorp-sockaddr-devel
         - golang-github-hashicorp-syslog-devel
         - golang-github-hashicorp-uuid-devel
-        - golang-github-hashicorp-version-devel
-        - golang-github-hashicorp-yamux-devel
-        - golang-github-hpcloud-tail-devel
         - golang-github-hudl-fargo-devel
         - golang-github-ianlancetaylor-demangle-devel
-        - golang-github-inconshreveable-log15-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
         - golang-github-jessevdk-flags-devel
         - golang-github-jmespath-devel
         - golang-github-jonboulle-clockwork-devel
+        - golang-github-jpillora-backoff-devel
         - golang-github-json-iterator-devel
         - golang-github-jtolds-gls-devel
         - golang-github-julienschmidt-httprouter-devel
-        - golang-github-jung-kurt-gofpdf-devel
         - golang-github-k0kubun-ansi-devel
         - golang-github-kevinburke-ssh-config-devel
         - golang-github-kisielk-gotool-devel
         - golang-github-kit-devel
-        - golang-github-klauspost-compress-devel
-        - golang-github-klauspost-cpuid-devel
         - golang-github-knetic-govaluate-devel
         - golang-github-kr-fs-devel
-        - golang-github-kr-logfmt-devel
         - golang-github-kr-pretty-devel
         - golang-github-kr-pty-devel
         - golang-github-kr-text-devel
         - golang-github-lib-pq-devel
         - golang-github-lightstep-tracer-common-devel
         - golang-github-lightstep-tracer-devel
-        - golang-github-linkedin-goavro-devel
         - golang-github-logfmt-devel
-        - golang-github-m3db-prometheus-client-devel
-        - golang-github-m3db-prometheus-client-model-devel
-        - golang-github-macaron-binding-devel
-        - golang-github-macaron-gzip-devel
-        - golang-github-macaron-inject-devel
-        - golang-github-macaron-session-devel
         - golang-github-magiconair-properties-devel
         - golang-github-masterminds-semver-devel
-        - golang-github-mattetti-filebuffer-devel
         - golang-github-mattn-colorable-devel
         - golang-github-mattn-ieproxy-devel
         - golang-github-mattn-isatty-devel
         - golang-github-mattn-runewidth-devel
-        - golang-github-mattn-sqlite3-devel
         - golang-github-matttproud-protobuf-extensions-devel
         - golang-github-miekg-dns-devel
         - golang-github-mitchellh-cli-devel
         - golang-github-mitchellh-colorstring-devel
         - golang-github-mitchellh-homedir-devel
         - golang-github-mitchellh-mapstructure-devel
-        - golang-github-mitchellh-testing-interface-devel
         - golang-github-mitchellh-wordwrap-devel
         - golang-github-mock-devel
         - golang-github-modern-concurrent-devel
@@ -1139,10 +1150,7 @@ data:
         - golang-github-nats-io-nkeys-devel
         - golang-github-nats-io-nuid-devel
         - golang-github-nats-io-server-devel
-        - golang-github-oklog-run-devel
         - golang-github-olekukonko-tablewriter-devel
-        - golang-github-oneofone-xxhash-devel
-        - golang-github-onsi-ginkgo-devel
         - golang-github-onsi-gomega-devel
         - golang-github-opentracing-basictracer-devel
         - golang-github-opentracing-contrib-observer-devel
@@ -1150,7 +1158,6 @@ data:
         - golang-github-openzipkin-contrib-zipkin-opentracing-devel
         - golang-github-openzipkin-zipkin-devel
         - golang-github-op-logging-devel
-        - golang-github-patrickmn-cache-devel
         - golang-github-pborman-uuid-devel
         - golang-github-pelletier-buffruneio-devel
         - golang-github-pelletier-toml-devel
@@ -1166,17 +1173,16 @@ data:
         - golang-github-prometheus-common-devel
         - golang-github-prometheus-procfs-devel
         - golang-github-protobuf-devel
-        - golang-github-rainycape-unidecode-devel
         - golang-github-rcrowley-metrics-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
-        - golang-github-russellhaering-goxmldsig-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
         - golang-github-satori-uuid-devel
         - golang-github-schollz-progressbar-2-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
+        - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
         - golang-github-shopify-toxiproxy-devel
         - golang-github-shopspring-decimal-devel
@@ -1187,14 +1193,12 @@ data:
         - golang-github-snappy-devel
         - golang-github-soheilhy-cmux-devel
         - golang-github-sony-gobreaker-devel
-        - golang-github-spaolacci-murmur3-devel
         - golang-github-spf13-afero-devel
         - golang-github-spf13-cast-devel
         - golang-github-spf13-cobra-devel
         - golang-github-spf13-jwalterweatherman-devel
         - golang-github-spf13-pflag-devel
         - golang-github-spf13-viper-devel
-        - golang-github-sql-driver-mysql-devel
         - golang-github-src-d-gcfg-devel
         - golang-github-stack-devel
         - golang-github-stathat-devel
@@ -1203,31 +1207,18 @@ data:
         - golang-github-stretchr-objx-devel
         - golang-github-stretchr-testify-devel
         - golang-github-subosito-gotenv-devel
-        - golang-github-teris-io-shortid-devel
         - golang-github-tmc-grpc-websocket-proxy-devel
         - golang-github-tv42-httpunix-devel
-        - golang-github-ua-parser-uap-devel
-        - golang-github-uber-jaeger-client-devel
-        - golang-github-uber-jaeger-lib-devel
-        - golang-github-uber-tally-devel
-        - golang-github-unknwon-com-devel
-        - golang-github-urfave-cli-2-devel
         - golang-github-urfave-cli-devel
         - golang-github-urfave-negroni-devel
         - golang-github-vividcortex-gohistogram-devel
-        - golang-github-vividcortex-mysqlerr-devel
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
         - golang-github-xiang90-probing-devel
         - golang-github-xo-dburl-devel
         - golang-github-xordataexchange-crypt-devel
-        - golang-github-xorm-sqlfiddle-devel
-        - golang-github-yudai-gojsondiff-devel
-        - golang-github-yudai-golcs-devel
         - golang-github-yuin-goldmark-devel
-        - golang-github-zenazn-goji-devel
-        - golang-github-ziutek-mymysql-devel
         - golang-google-api-devel
         - golang-google-appengine-devel
         - golang-google-genproto-devel
@@ -1235,33 +1226,23 @@ data:
         - golang-google-grpc-status-devel
         - golang-google-protobuf-devel
         - golang-gopkg-alecthomas-kingpin-2-devel
-        - golang-gopkg-asn1-ber-1-devel
-        - golang-gopkg-bufio-1-devel
         - golang-gopkg-check-1-devel
         - golang-gopkg-cheggaaa-pb-1-devel
         - golang-gopkg-errgo-2-devel
         - golang-gopkg-gcfg-1-devel
         - golang-gopkg-ini-1-devel
-        - golang-gopkg-ldap-3-devel
         - golang-gopkg-logex-1-devel
-        - golang-gopkg-macaron-1-devel
-        - golang-gopkg-mail-2-devel
         - golang-gopkg-readline-1-devel
-        - golang-gopkg-redis-2-devel
-        - golang-gopkg-redis-5-devel
-        - golang-gopkg-resty-1-devel
-        - golang-gopkg-robfig-cron-3-devel
         - golang-gopkg-russross-blackfriday-2-devel
-        - golang-gopkg-square-jose-2-devel
         - golang-gopkg-src-d-billy-4-devel
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
         - golang-gopkg-tomb-1-devel
         - golang-gopkg-tomb-2-devel
-        - golang-gopkg-validator-2-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
         - golang-gopkg-yaml-2-devel
+        - golang-gopkg-yaml-3-devel
         - golang-honnef-tools-devel
         - golang-mvdan-xurls-devel
         - golang-opencensus-devel
@@ -1277,9 +1258,6 @@ data:
         - golang-x-net-devel
         - golang-x-net-http-devel
         - golang-x-oauth2-devel
-        - golang-xorm-builder-devel
-        - golang-xorm-core-devel
-        - golang-xorm-devel
         - golang-x-sync-devel
         - golang-x-sys-devel
         - golang-x-text-devel
@@ -1291,34 +1269,42 @@ data:
         - google-benchmark
         - google-benchmark-devel
         - google-gson
+        - google-guice
+        - google-noto-emoji-fonts
         - go-rpm-macros
         - gperf
         - gperftools-devel
+        - gperftools-libs
         - gpgme-devel
         - gpgmepp-devel
         - gphoto2
+        - gpm
+        - gpm-devel
         - graphene-devel
         - GraphicsMagick
         - GraphicsMagick-c++
         - GraphicsMagick-c++-devel
         - GraphicsMagick-devel
-        - graphviz-devel
-        - graphviz-devil
-        - graphviz-gd
+        - graphite2-devel
         - grilo-devel
         - groff
         - groff-perl
+        - gsettings-desktop-schemas-devel
         - gsl-devel
         - gsm-devel
         - gsound-devel
         - gspell-devel
         - gssdp-devel
         - gssntlmssp-devel
+        - gstreamer1-devel
         - gstreamer1-plugins-bad-free-devel
+        - gstreamer1-plugins-base-devel
         - gstreamer1-plugins-good-qt
         - gtest
         - gtest-devel
         - gtk+
+        - gtk2-devel
+        - gtk3-devel
         - gtk3-devel-docs
         - gtk+-devel
         - gtk-doc
@@ -1328,9 +1314,9 @@ data:
         - gtk-sharp2-gapi
         - gtksourceview4-devel
         - gtkspell3-devel
-        - gtkspell-devel
         - gtk-vnc2-devel
         - gts-devel
+        - guava
         - guava-testlib
         - guice-servlet
         - guile22-devel
@@ -1341,6 +1327,10 @@ data:
         - gupnp-igd-devel
         - gvnc-devel
         - hamcrest
+        - hamcrest2
+        - hamcrest-core
+        - harfbuzz-devel
+        - hawtjni
         - hdf5
         - hdf5-devel
         - hdf5-mpich
@@ -1357,43 +1347,17 @@ data:
         - hidapi-devel
         - hiredis
         - hiredis-devel
+        - hivex
         - hivex-devel
         - hscolour
         - hscolour-common
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - http-parser
+        - httpd-devel
         - http-parser-devel
         - hunspell-cs
-        - hunspell-de
-        - hunspell-en
-        - hunspell-en-GB
-        - hunspell-es
-        - hunspell-es-AR
-        - hunspell-es-BO
-        - hunspell-es-CL
-        - hunspell-es-CO
-        - hunspell-es-CR
-        - hunspell-es-CU
-        - hunspell-es-DO
-        - hunspell-es-EC
-        - hunspell-es-ES
-        - hunspell-es-GT
-        - hunspell-es-HN
-        - hunspell-es-MX
-        - hunspell-es-NI
-        - hunspell-es-PA
-        - hunspell-es-PE
-        - hunspell-es-PR
-        - hunspell-es-PY
-        - hunspell-es-SV
-        - hunspell-es-US
-        - hunspell-es-UY
-        - hunspell-es-VE
-        - hunspell-fr
-        - hunspell-it
-        - hunspell-ko
+        - hunspell-devel
         - hwloc-devel
         - hwloc-gui
         - hyphen-devel
@@ -1411,10 +1375,8 @@ data:
         - ibus-table-translit
         - ibus-table-tv
         - icc-profiles-openicc
-        - icon-naming-utils
         - icoutils
         - icu
-        - icu4j
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1425,27 +1387,30 @@ data:
         - imake
         - imaptest
         - imlib2-devel
+        - intltool
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
-        - irrlicht
-        - irrlicht-devel
-        - irrXML-devel
+        - iptables-devel
         - iscsi-initiator-utils-devel
         - isl-devel
         - isns-utils-devel
+        - iso-codes-devel
         - isorelax
         - istack-commons-tools
+        - itstool
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
         - jackson-bom
         - jackson-parent
         - jacop
+        - jakarta-annotations
         - jakarta-oro
         - janino
         - jansson-devel
         - jasper-devel
         - java-11-openjdk-javadoc
+        - java-1.8.0-openjdk-devel
         - java-1.8.0-openjdk-javadoc
         - java-atk-wrapper
         - javacc
@@ -1462,17 +1427,19 @@ data:
         - jbig2dec-devel
         - jbigkit-devel
         - jboss-el-2.2-api
+        - jboss-interceptors-1.2-api
         - jboss-jsp-2.2-api
         - jboss-logmanager
         - jboss-modules
         - jboss-parent
         - jboss-servlet-3.0-api
         - jcip-annotations
+        - jcl-over-slf4j
         - jctools
         - jdepend
         - jdependency
         - jdom
-        - jemalloc-devel
+        - jdom2
         - jetring
         - jetty-http
         - jetty-io
@@ -1486,31 +1453,39 @@ data:
         - jgit
         - jimtcl
         - jimtcl-devel
-        - jitterentropy-devel
         - jmock
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
         - jna-contrib
         - jq-devel
+        - js-backbone
         - jsch
         - js-coffee-script
         - js-jquery
         - js-jquery1
         - js-jquery2
+        - js-marked
         - json-c-devel
         - jsoncpp-devel
-        - js-uglify-1
+        - json-glib-devel
+        - jsoup
+        - jsr-305
+        - js-uglify
         - js-underscore
+        - jtidy
         - Judy-devel
+        - junit
         - junit5
         - jvnet-parent
         - jzlib
+        - kde-filesystem
         - kde-settings
         - kernel
         - keyrings-filesystem
         - kf5-attica
         - kf5-attica-devel
+        - kf5-filesystem
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
@@ -1626,10 +1601,9 @@ data:
         - liba52-devel
         - libabigail
         - libabw-devel
+        - libacl-devel
         - libaec
         - libaec-devel
-        - libaesgm
-        - libaesgm-devel
         - libao-devel
         - libaom-devel
         - libappindicator
@@ -1652,7 +1626,7 @@ data:
         - libatomic_ops
         - libatomic_ops-devel
         - libatomic_ops-static
-        - libbabeltrace-devel
+        - libattr-devel
         - libbasicobjects-devel
         - libblockdev-btrfs-devel
         - libblockdev-crypto-devel
@@ -1666,7 +1640,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray-devel
-        - libbpf-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1678,6 +1651,10 @@ data:
         - libburn-devel
         - libbytesize-devel
         - libcacard-devel
+        - libcanberra-devel
+        - libcanberra-gtk2
+        - libcap-devel
+        - libcap-ng-devel
         - libcbor-devel
         - libc-client
         - libcdio-devel
@@ -1685,7 +1662,8 @@ data:
         - libcdr-devel
         - libcephfs2
         - libcephfs-devel
-        - libcgroup-devel
+        - libcerf
+        - libcerf-devel
         - libchromaprint
         - libchromaprint-devel
         - libclc
@@ -1697,11 +1675,11 @@ data:
         - libconfig-devel
         - libconfuse
         - libconfuse-devel
-        - libcroco-devel
         - libcue-devel
         - libdaemon-devel
         - libdap
         - libdap-devel
+        - libdatrie-devel
         - libdazzle
         - libdazzle-devel
         - libdbi-devel
@@ -1711,22 +1689,23 @@ data:
         - libdbusmenu-gtk3-devel
         - libdhash-devel
         - libdmapsharing-devel
+        - libdmx
         - libdmx-devel
         - libdnet
         - libdnet-devel
+        - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
         - libdvdread-devel
         - libdwarves1
         - libe-book-devel
-        - libecap-devel
         - libecb-devel
         - libeconf-devel
-        - libell
         - libell-devel
         - libEMF
         - libEMF-devel
         - libeot-devel
+        - libepoxy-devel
         - libepubgen-devel
         - libesmtp
         - libesmtp-devel
@@ -1734,7 +1713,6 @@ data:
         - libetonyek-devel
         - libevdev-devel
         - libev-devel
-        - libevent-devel
         - libev-source
         - libewf
         - libewf-devel
@@ -1748,8 +1726,9 @@ data:
         - libfontenc-devel
         - libfreehand-devel
         - libftdi-devel
-        - libgadu-devel
         - libgcab1-devel
+        - libgcrypt-devel
+        - libgdata-devel
         - libgdiplus
         - libgdiplus-devel
         - libgdither-devel
@@ -1766,41 +1745,46 @@ data:
         - libgit2-glib
         - libglade2
         - libglade2-devel
-        - libGLEW
         - libglusterfs-devel
+        - libglvnd-core-devel
+        - libglvnd-devel
         - libgnat
         - libgnat-devel
         - libgnomekbd-devel
-        - libgnt
-        - libgnt-devel
-        - libgovirt-devel
+        - libgpg-error-devel
         - libgphoto2-devel
-        - libgpod-devel
         - libgpuarray
         - libgrss-devel
         - libgsasl
         - libgsasl-devel
-        - libgs-devel
         - libgsf-devel
         - libgta
         - libgta-devel
         - libgtop2-devel
         - libgudev-devel
+        - libguestfs
         - libguestfs-devel
         - libguestfs-tools-c
         - libguestfs-xfs
         - libgusb-devel
+        - libgweather-devel
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
+        - libical-devel
+        - libical-glib-devel
+        - libICE-devel
         - libicns
         - libicns-utils
         - libid3tag
         - libid3tag-devel
         - libIDL
         - libIDL-devel
+        - libidn
         - libidn-devel
+        - libieee1284-devel
         - libijs-devel
+        - libimagequant-devel
         - libimobiledevice-devel
         - libindicator
         - libindicator-devel
@@ -1811,23 +1795,23 @@ data:
         - libiodbc-devel
         - libiptcdata-devel
         - libiscsi-devel
+        - libisoburn
         - libisofs-devel
-        - libitm
-        - libitm-devel
         - libixion
         - libixion-devel
         - libjcat-devel
+        - libjose-devel
+        - libjpeg-turbo-devel
         - libkate
         - libkate-devel
         - libkkc-devel
         - libkml
         - libkml-devel
-        - libknet1
-        - libknet1-crypto-nss-plugin
         - libknet1-devel
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
+        - libldm
         - libldm-devel
         - liblockfile
         - liblockfile-devel
@@ -1836,16 +1820,15 @@ data:
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
+        - libluksmeta
+        - libluksmeta-devel
         - liblzf
         - liblzf-devel
         - libmad-devel
         - libmalaga
         - libmarkdown
         - libmarkdown-devel
-        - libmaxminddb-devel
         - libmbim-devel
-        - libmcrypt
-        - libmcrypt-devel
         - libmediaart-devel
         - libmemcached-devel
         - libmetalink-devel
@@ -1864,10 +1847,10 @@ data:
         - libmongocrypt-devel
         - libmpcdec
         - libmpcdec-devel
-        - libmpc-devel
         - libmpeg2-devel
         - libmspack-devel
         - libmspub-devel
+        - libmtp
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
@@ -1875,19 +1858,22 @@ data:
         - libmypaint-devel
         - libnauty
         - libnauty-devel
-        - libnbd
         - libnbd-devel
         - libndp-devel
         - libnet-devel
         - libnetfilter_conntrack-devel
+        - libnetfilter_cthelper-devel
+        - libnetfilter_cttimeout-devel
+        - libnetfilter_queue-devel
         - libnfnetlink-devel
         - libnfs-devel
         - libnfsidmap-devel
         - libnftnl-devel
         - libnghttp2-devel
         - libnice-devel
+        - libnl3-devel
         - libnma-devel
-        - libnozzle1
+        - libnotify-devel
         - libnozzle1-devel
         - libnsl2-devel
         - libntlm
@@ -1913,9 +1899,7 @@ data:
         - libotf
         - libotf-devel
         - libotr-devel
-        - libp11-devel
         - libpagemaker-devel
-        - libpamtest
         - libpaper-devel
         - libpath_utils-devel
         - libpcap-devel
@@ -1927,11 +1911,11 @@ data:
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
-        - libpkgconf-devel
         - libplist-devel
         - libprelude
         - libprelude-devel
         - libproxy-devel
+        - libpsl-devel
         - libpst-devel
         - libpst-libs
         - libpwquality-devel
@@ -1947,25 +1931,30 @@ data:
         - librabbitmq-devel
         - librados-devel
         - libradospp-devel
+        - libraqm-devel
         - LibRaw-devel
         - librbd-devel
         - librdkafka
         - librdkafka-devel
         - libref_array-devel
+        - librelp
         - librelp-devel
-        - libreport-devel
-        - libreport-gtk-devel
-        - libreport-web-devel
         - librevenge-devel
         - libRmath
+        - librsvg2-devel
         - librx
         - librx-devel
+        - libsamplerate
         - libsamplerate-devel
+        - libsane-airscan
         - libsass
         - libsass-devel
+        - libseccomp-devel
         - libseccomp-static
+        - libsecret-devel
         - libsemanage-static
         - libsepol-static
+        - libserf
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
@@ -1973,9 +1962,12 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsmbclient-devel
+        - libSM-devel
         - libsmi-devel
         - libsndfile-devel
+        - libsodium
         - libsodium-devel
+        - libsoup-devel
         - libspatialite
         - libspatialite-devel
         - libspectre-devel
@@ -1988,11 +1980,11 @@ data:
         - libsrtp-devel
         - libss-devel
         - libssh2-devel
+        - libssh-devel
         - libsss_certmap-devel
         - libsss_idmap-devel
         - libsss_nss_idmap-devel
         - libstaroffice-devel
-        - libstdc++-static
         - libstemmer-devel
         - libstoragemgmt-devel
         - libsvm
@@ -2000,6 +1992,7 @@ data:
         - libsysfs-devel
         - libsysprof-ui
         - libtar-devel
+        - libthai-devel
         - libtheora-devel
         - libtidy
         - libtidy-devel
@@ -2018,20 +2011,25 @@ data:
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
+        - libunwind-devel
         - libupnp
         - libupnp-devel
-        - liburing-devel
         - libusb-devel
         - libusbmuxd-devel
+        - libusbx-devel
         - libuser-devel
         - libutempter-devel
         - libv4l-devel
+        - libva
+        - libva-devel
         - libvala-devel
         - libvarlink-devel
         - libvdpau
         - libvdpau-devel
         - libvdpau-trace
+        - libvirt-daemon-config-network
         - libvirt-daemon-qemu
+        - libvirt-devel
         - libvirt-gconfig-devel
         - libvirt-glib-devel
         - libvirt-gobject-devel
@@ -2044,6 +2042,7 @@ data:
         - libvpx-devel
         - libwacom-devel
         - libwbclient-devel
+        - libwebp-devel
         - libwinpr-devel
         - libwmf
         - libwmf-devel
@@ -2052,23 +2051,42 @@ data:
         - libwpg-devel
         - libwps-devel
         - libwsman-devel
-        - libxcrypt-static
+        - libXaw-devel
+        - libXcomposite-devel
+        - libXcursor-devel
+        - libXdamage-devel
         - libXdmcp-devel
+        - libXext-devel
+        - libXfixes-devel
         - libXfont2-devel
+        - libXi-devel
+        - libXinerama-devel
+        - libxkbcommon-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
         - libxklavier-devel
         - libxmlb-devel
+        - libXmu-devel
         - libXNVCtrl
         - libXNVCtrl-devel
+        - libXp-devel
+        - libXpm-devel
+        - libXrandr-devel
         - libXres-devel
+        - libXScrnSaver-devel
+        - libxshmfence-devel
+        - libxslt-devel
+        - libXt-devel
+        - libXtst-devel
+        - libXv-devel
         - libXvMC-devel
+        - libXxf86dga
+        - libXxf86dga-devel
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
         - libytnef-devel
         - libyubikey-devel
-        - libzip-devel
         - libzmf-devel
         - lilv-devel
         - lilypond
@@ -2081,38 +2099,48 @@ data:
         - lilypond-texgyre-schola-fonts
         - linkchecker
         - linux-atm-libs-devel
+        - linuxconsoletools
         - linuxdoc-tools
         - lirc-core
         - lirc-devel
         - lirc-libs
         - lklug-fonts
         - lldpad-devel
-        - llvm6.0
-        - llvm6.0-libs
+        - llvm7.0
+        - llvm7.0-libs
         - lmdb
         - lmdb-devel
         - lockdev-devel
         - log4j
+        - log4j12
+        - lorax
+        - lorax-templates-generic
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
         - luajit
         - luajit-devel
         - lua-lunit
+        - luksmeta
         - lutok
         - lutok-devel
         - lv2
         - lv2-devel
-        - lvm2-devel
         - lynx
+        - lz4-devel
+        - lzo-devel
+        - lzo-minilzo
         - m17n-db-devel
         - m17n-db-extras
         - m17n-lib-devel
         - m17n-lib-tools
         - mac-robber
+        - mailx
         - malaga
         - malaga-suomi-voikko
+        - mallard-rng
         - man2html-core
+        - man-pages
         - mariadb-cracklib-password-check
         - marisa-devel
         - mate-common
@@ -2135,38 +2163,95 @@ data:
         - mathjax-vector-fonts
         - mathjax-winchrome-fonts
         - mathjax-winie6-fonts
+        - maven
         - maven-antrun-plugin
+        - maven-archiver
+        - maven-artifact
+        - maven-artifact-manager
+        - maven-artifact-resolver
+        - maven-artifact-transfer
         - maven-assembly-plugin
         - maven-clean-plugin
+        - maven-common-artifact-filters
         - maven-compiler-plugin
         - maven-dependency-analyzer
         - maven-dependency-plugin
+        - maven-dependency-tree
+        - maven-doxia-core
+        - maven-doxia-logging-api
+        - maven-doxia-module-apt
+        - maven-doxia-module-fml
+        - maven-doxia-module-xdoc
+        - maven-doxia-module-xhtml
+        - maven-doxia-module-xhtml5
+        - maven-doxia-sink-api
+        - maven-doxia-sitetools
+        - maven-enforcer-api
+        - maven-enforcer-plugin
+        - maven-enforcer-rules
         - maven-failsafe-plugin
+        - maven-file-management
+        - maven-filtering
         - maven-hawtjni-plugin
         - maven-install-plugin
         - maven-invoker
         - maven-invoker-plugin
+        - maven-jar-plugin
         - maven-javadoc-plugin
+        - maven-lib
         - maven-local
+        - maven-mapping
+        - maven-model
+        - maven-parent
+        - maven-plugin-annotations
         - maven-plugin-build-helper
         - maven-plugin-bundle
+        - maven-plugin-plugin
+        - maven-plugin-registry
         - maven-plugin-testing-harness
+        - maven-plugin-tools-annotations
+        - maven-plugin-tools-api
+        - maven-plugin-tools-generators
+        - maven-plugin-tools-java
+        - maven-profile
+        - maven-project
+        - maven-remote-resources-plugin
+        - maven-reporting-api
+        - maven-reporting-impl
+        - maven-resolver-api
+        - maven-resolver-connector-basic
+        - maven-resolver-impl
+        - maven-resolver-spi
         - maven-resolver-transport-file
+        - maven-resolver-transport-wagon
+        - maven-resolver-util
         - maven-resources-plugin
         - maven-scm
         - maven-script-interpreter
+        - maven-settings
         - maven-shade-plugin
         - maven-shared-incremental
+        - maven-shared-io
+        - maven-shared-utils
         - maven-source-plugin
+        - maven-surefire
         - maven-surefire-plugin
         - maven-surefire-provider-junit
         - maven-surefire-provider-junit5
         - maven-surefire-provider-testng
+        - maven-verifier
+        - maven-wagon-file
+        - maven-wagon-http
         - maven-wagon-http-lightweight
+        - maven-wagon-http-shared
+        - maven-wagon-provider-api
         - mdds-devel
-        - meanwhile-devel
         - mecab-devel
+        - media-player-info
+        - mesa-libEGL-devel
         - mesa-libgbm-devel
+        - mesa-libGL-devel
+        - mesa-libGLU-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
         - meson
@@ -2194,7 +2279,7 @@ data:
         - mingw-filesystem-base
         - miniz
         - miniz-devel
-        - minizip-compat-devel
+        - mlocate
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
@@ -2217,6 +2302,7 @@ data:
         - mono-wcf
         - mono-web
         - mono-winforms
+        - motif-devel
         - mozjs60-devel
         - mozjs68-devel
         - mp
@@ -2226,8 +2312,6 @@ data:
         - msv-msv
         - msv-xsdlib
         - mtdev-devel
-        - mt-st
-        - mtx
         - multilib-rpm-config
         - MUMPS
         - MUMPS-common
@@ -2244,6 +2328,10 @@ data:
         - nasm
         - nautilus-devel
         - nbd
+        - nbdkit
+        - nbdkit-basic-filters
+        - nbdkit-basic-plugins
+        - nbdkit-server
         - ncompress
         - ncurses-compat-libs
         - neon-devel
@@ -2258,51 +2346,52 @@ data:
         - netcf-devel
         - netpbm-devel
         - netpbm-progs
-        - netty
+        - net-snmp-devel
+        - net-snmp-utils
+        - newt-devel
         - neXtaw
         - neXtaw-devel
         - nftables-devel
         - nghttp2
+        - nginx-filesystem
         - nilfs-utils
         - ninja-build
         - nkf
-        - nodejs-clean-css
-        - nodejs-clone
+        - nodejs-async
         - nodejs-docs
         - nodejs-full-i18n
-        - nodejs-image-size
-        - nodejs-less
-        - nodejs-less-plugin-clean-css
         - nodejs-source-map
+        - nodejs-string
         - nodejs-underscore
+        - nodejs-window-size
+        - nodejs-wordwrap
+        - nodejs-yargs
         - nototools
         - npth-devel
         - nscd
+        - nspr-devel
+        - nss-devel
         - nss-mdns
+        - nss-softokn-devel
+        - nss-softokn-freebl-devel
+        - nss-util-devel
         - nss_wrapper
         - ntfs-3g-devel
+        - ntfs-3g-system-compression
+        - numactl-devel
         - nunit
         - nunit-devel
+        - objectweb-asm
         - objectweb-pom
         - objenesis
         - ocaml
-        - ocaml-calendar
-        - ocaml-calendar-devel
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
-        - ocaml-cmdliner
-        - ocaml-cmdliner-devel
         - ocaml-compiler-libs
         - ocaml-cppo
-        - ocaml-csv
-        - ocaml-csv-devel
-        - ocaml-curses
-        - ocaml-curses-devel
         - ocaml-dune
         - ocaml-dune-devel
-        - ocaml-extlib
-        - ocaml-extlib-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
         - ocaml-gettext
@@ -2324,19 +2413,11 @@ data:
         - ocaml-ocplib-endian-devel
         - ocaml-ounit
         - ocaml-ounit-devel
-        - ocaml-ppx-derivers
-        - ocaml-ppx-derivers-devel
-        - ocaml-react
-        - ocaml-react-devel
         - ocaml-result
         - ocaml-result-devel
         - ocaml-runtime
         - ocaml-seq
         - ocaml-seq-devel
-        - ocaml-xml-light
-        - ocaml-xml-light-devel
-        - ocaml-zarith
-        - ocaml-zarith-devel
         - ocl-icd
         - ocl-icd-devel
         - octave
@@ -2356,6 +2437,8 @@ data:
         - openblas-threads64_
         - openchange-devel
         - opencl-headers
+        - opencryptoki-devel
+        - opencsd-devel
         - opencv
         - opencv-contrib
         - opencv-devel
@@ -2363,21 +2446,21 @@ data:
         - openjade
         - openjpeg2-devel
         - openjpeg2-tools
+        - openldap-devel
         - openldap-servers
         - openpgm
         - openpgm-devel
-        - openslp-devel
         - opensp
         - opensp-devel
         - opentest4j
+        - openwsman-client
         - openwsman-server
         - optipng
         - opus-devel
         - orangefs-devel
+        - orc-compiler
+        - orc-devel
         - osgi-annotation
-        - osgi-compendium
-        - osgi-core
-        - os-maven-plugin
         - ostree-devel
         - p11-kit-server
         - p7zip
@@ -2388,9 +2471,11 @@ data:
         - pacemaker-schemas
         - PackageKit-glib-devel
         - pakchois-devel
+        - pam-devel
         - pam_wrapper
         - pandoc
         - pandoc-common
+        - pango-devel
         - pangomm-devel
         - parallel
         - paranamer
@@ -2402,7 +2487,10 @@ data:
         - pari-gp
         - pari-seadata
         - parted-devel
+        - patchutils
+        - pbzip2
         - pcaudiolib-devel
+        - pciutils-devel
         - pcre-static
         - pcsc-lite-devel
         - PEGTL-devel
@@ -2416,7 +2504,6 @@ data:
         - perl-Alien-cmake3
         - perl-Alien-FFI
         - perl-Alien-Libxml2
-        - perl-Alien-pkgconf
         - perl-AnyEvent
         - perl-AnyEvent-AIO
         - perl-AnyEvent-BDB
@@ -2587,6 +2674,7 @@ data:
         - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
+        - perl-Fedora-VSP
         - perl-FFI-CheckLib
         - perl-FFI-Platypus
         - perl-File-BaseDir
@@ -2616,6 +2704,7 @@ data:
         - perl-Function-Parameters
         - perl-Future
         - perl-Future-IO
+        - perl-generators
         - perl-Getopt-ArgvFile
         - perl-Getopt-Long-Descriptive
         - perl-Glib
@@ -2883,6 +2972,7 @@ data:
         - perl-syntax
         - perl-Syntax-Highlight-Engine-Kate
         - perl-Syntax-Keyword-Junction
+        - perl-Sys-Virt
         - perl-Taint-Runtime
         - perl-TAP-Formatter-HTML
         - perl-TAP-Harness-Archive
@@ -2936,7 +3026,6 @@ data:
         - perl-Test-Metrics-Any
         - perl-Test-MinimumVersion
         - perl-TestML
-        - perl-Test-MockModule
         - perl-Test-MockObject
         - perl-Test-MockRandom
         - perl-Test-Mojibake
@@ -3035,6 +3124,7 @@ data:
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
+        - perl-XML-Simple
         - perl-XML-Spice
         - perl-XML-TreeBuilder
         - perl-XML-Twig
@@ -3049,301 +3139,61 @@ data:
         - phonon-qt5
         - phonon-qt5-backend-gstreamer
         - phonon-qt5-devel
-        - php-alcaeus-mongo-php-adapter
-        - php-andrewsville-php-token-reflection
-        - php-aws-php-sns-message-validator
-        - php-aws-sdk3
-        - php-bcmath
-        - php-cache-integration-tests
-        - php-cache-tag-interop
-        - php-composer-ca-bundle
-        - php-composer-semver
-        - php-composer-spdx-licenses
-        - php-composer-xdebug-handler
-        - php-container-interop
-        - php-deepend-Mockery
+        - php
+        - php-cli
+        - php-common
         - php-devel
-        - php-doctrine-annotations
-        - php-doctrine-cache
-        - php-doctrine-collections
-        - php-doctrine-common
-        - php-doctrine-common3
-        - php-doctrine-datafixtures
-        - php-doctrine-dbal
-        - php-doctrine-doctrine-bundle
-        - php-doctrine-doctrine-bundle2
-        - php-doctrine-doctrine-cache-bundle
-        - php-doctrine-event-manager
-        - php-doctrine-inflector
-        - php-doctrine-instantiator
-        - php-doctrine-lexer
-        - php-doctrine-orm
-        - php-doctrine-persistence
-        - php-doctrine-persistence2
-        - php-doctrine-reflection
-        - php-doctrine-sql-formatter
-        - php-egulias-email-validator
-        - php-egulias-email-validator2
-        - php-fedora-autoloader-devel
-        - php-fig-link-util
         - php-fpm
-        - php-gd
-        - php-gmp
-        - php-guzzlehttp-guzzle6
-        - php-guzzlehttp-promises
-        - php-guzzlehttp-psr7
-        - php-hamcrest
-        - php-hamcrest2
-        - php-http-message-factory
-        - php-imap
-        - php-intl
-        - php-jdorn-sql-formatter
         - php-json
-        - php-jsonlint
-        - php-justinrainbow-json-schema5
-        - php-laminas-authentication
-        - php-laminas-cache
-        - php-laminas-code
-        - php-laminas-config
-        - php-laminas-console
-        - php-laminas-crypt
-        - php-laminas-db
-        - php-laminas-di
-        - php-laminas-escaper
-        - php-laminas-eventmanager
-        - php-laminas-feed
-        - php-laminas-filter
-        - php-laminas-http
-        - php-laminas-hydrator
-        - php-laminas-i18n
-        - php-laminas-inputfilter
-        - php-laminas-json
-        - php-laminas-ldap
-        - php-laminas-loader
-        - php-laminas-log
-        - php-laminas-mail
-        - php-laminas-math
-        - php-laminas-mime
-        - php-laminas-modulemanager
-        - php-laminas-router
-        - php-laminas-serializer
-        - php-laminas-servicemanager
-        - php-laminas-session
-        - php-laminas-stdlib
-        - php-laminas-uri
-        - php-laminas-validator
-        - php-laminas-view
-        - php-laminas-zendframework-bridge
-        - php-ldap
-        - php-masterminds-html5
         - php-mbstring
-        - php-mikey179-vfsstream
-        - php-mock2
-        - php-mockery
-        - php-mock-integration2
-        - php-mock-phpunit2
-        - php-mongodb
-        - php-Monolog
-        - php-mtdowling-jmespath-php
-        - php-myclabs-deep-copy
-        - php-nikic-php-parser3
-        - php-nyholm-psr7
-        - php-ocramius-code-generator-utils
-        - php-ocramius-generated-hydrator
-        - php-ocramius-proxy-manager
         - php-opcache
-        - php-paragonie-random-compat
         - php-pdo
-        - php-pecl-apcu-devel
-        - php-pecl-igbinary
-        - php-pecl-mcrypt
-        - php-pecl-mongodb
-        - php-pecl-pcov
-        - php-pecl-xdebug
-        - php-phar-io-manifest
-        - php-phar-io-version
-        - php-phpdocumentor-reflection1
-        - php-phpdocumentor-reflection-common
-        - php-phpdocumentor-reflection-common2
-        - php-phpdocumentor-reflection-docblock
-        - php-phpdocumentor-reflection-docblock2
-        - php-phpdocumentor-reflection-docblock4
-        - php-phpdocumentor-reflection-docblock5
-        - php-phpdocumentor-type-resolver
-        - php-phpdocumentor-type-resolver1
-        - php-phpspec
-        - php-phpspec-php-diff
-        - php-phpspec-prophecy
-        - php-phpunit-comparator
-        - php-phpunit-dbunit3
-        - php-phpunit-diff
-        - php-phpunit-environment
-        - php-phpunit-exporter
-        - php-phpunit-File-Iterator
-        - php-phpunit-mock-objects5
-        - php-phpunit-PHP-CodeCoverage
-        - php-phpunit-php-code-coverage5
-        - php-phpunit-php-code-coverage6
-        - php-phpunit-php-code-coverage7
-        - php-phpunit-php-code-coverage8
-        - php-phpunit-php-file-iterator2
-        - php-phpunit-php-file-iterator3
-        - php-phpunit-PHP-Invoker
-        - php-phpunit-php-invoker2
-        - php-phpunit-php-invoker3
-        - php-phpunit-php-text-template2
-        - php-phpunit-PHP-Timer
-        - php-phpunit-php-timer2
-        - php-phpunit-php-timer5
-        - php-phpunit-php-token-stream2
-        - php-phpunit-php-token-stream3
-        - php-phpunit-php-token-stream4
-        - php-phpunit-PHPUnit
-        - php-phpunit-PHPUnit-MockObject
-        - php-phpunit-Text-Template
-        - php-phpunit-Version
-        - php-psr-cache
-        - php-psr-container
-        - php-psr-event-dispatcher
-        - php-psr-http-client
-        - php-psr-http-factory
-        - php-psr-http-message
-        - php-psr-link
-        - php-PsrLog
-        - php-psr-simple-cache
-        - php-ralouphie-getallheaders
-        - php-sebastian-code-unit
-        - php-sebastian-code-unit-reverse-lookup
-        - php-sebastian-code-unit-reverse-lookup2
-        - php-sebastian-comparator2
-        - php-sebastian-comparator3
-        - php-sebastian-comparator4
-        - php-sebastian-diff2
-        - php-sebastian-diff3
-        - php-sebastian-diff4
-        - php-sebastian-environment3
-        - php-sebastian-environment4
-        - php-sebastian-environment5
-        - php-sebastian-exporter3
-        - php-sebastian-exporter4
-        - php-sebastian-global-state
-        - php-sebastian-global-state2
-        - php-sebastian-global-state3
-        - php-sebastian-global-state4
-        - php-sebastian-object-enumerator
-        - php-sebastian-object-enumerator3
-        - php-sebastian-object-enumerator4
-        - php-sebastian-object-reflector
-        - php-sebastian-object-reflector2
-        - php-sebastian-recursion-context
-        - php-sebastian-recursion-context3
-        - php-sebastian-recursion-context4
-        - php-sebastian-resource-operations
-        - php-sebastian-resource-operations2
-        - php-sebastian-resource-operations3
-        - php-sebastian-type
-        - php-sebastian-type2
-        - php-sebastian-version3
-        - php-seld-phar-utils
-        - php-sentry
-        - php-soap
         - php-sodium
-        - php-swiftmailer
-        - php-symfony3-common
-        - php-symfony3-debug
-        - php-symfony3-event-dispatcher
-        - php-symfony3-http-foundation
-        - php-symfony3-http-kernel
-        - php-symfony3-inflector
-        - php-symfony3-phpunit-bridge
-        - php-symfony3-property-access
-        - php-symfony3-security
-        - php-symfony4-cache
-        - php-symfony4-common
-        - php-symfony4-config
-        - php-symfony4-console
-        - php-symfony4-debug
-        - php-symfony4-dependency-injection
-        - php-symfony4-doctrine-bridge
-        - php-symfony4-error-handler
-        - php-symfony4-event-dispatcher
-        - php-symfony4-filesystem
-        - php-symfony4-finder
-        - php-symfony4-framework-bundle
-        - php-symfony4-http-foundation
-        - php-symfony4-http-kernel
-        - php-symfony4-inflector
-        - php-symfony4-mime
-        - php-symfony4-process
-        - php-symfony4-property-info
-        - php-symfony4-proxy-manager-bridge
-        - php-symfony4-routing
-        - php-symfony4-translation
-        - php-symfony4-twig-bridge
-        - php-symfony4-twig-bundle
-        - php-symfony4-validator
-        - php-symfony4-var-dumper
-        - php-symfony4-var-exporter
-        - php-symfony4-web-profiler-bundle
-        - php-symfony4-yaml
-        - php-symfony-browser-kit
-        - php-symfony-class-loader
-        - php-symfony-common
-        - php-symfony-config
-        - php-symfony-console
-        - php-symfony-contracts
-        - php-symfony-css-selector
-        - php-symfony-debug
-        - php-symfony-dependency-injection
-        - php-symfony-dom-crawler
-        - php-symfony-event-dispatcher
-        - php-symfony-expression-language
-        - php-symfony-filesystem
-        - php-symfony-finder
-        - php-symfony-http-foundation
-        - php-symfony-http-kernel
-        - php-symfony-polyfill
-        - php-symfony-process
-        - php-symfony-security-acl
-        - php-symfony-var-dumper
-        - php-symfony-yaml
-        - php-theseer-autoload
-        - php-theseer-directoryscanner
-        - php-theseer-tokenizer
-        - php-tidy
-        - php-true-punycode
-        - php-twig2
-        - php-twig3
-        - phpunit6
-        - phpunit7
-        - phpunit8
-        - phpunit9
-        - php-webmozart-assert
-        - php-zetacomponents-base
-        - php-zetacomponents-console-tools
-        - php-zetacomponents-unit-test
+        - php-xml
         - physfs
         - physfs-devel
+        - pinentry
+        - pinentry-gnome3
         - pinentry-gtk
         - pipewire0.2-devel
         - pipewire-devel
+        - pixman-devel
         - plexus-ant-factory
+        - plexus-archiver
+        - plexus-build-api
+        - plexus-cipher
+        - plexus-classworlds
         - plexus-compiler
         - plexus-component-api
         - plexus-component-factories-pom
         - plexus-components-pom
+        - plexus-containers
+        - plexus-containers-component-annotations
+        - plexus-containers-component-metadata
+        - plexus-containers-container-default
+        - plexus-i18n
         - plexus-interactivity-api
+        - plexus-interpolation
+        - plexus-io
+        - plexus-languages
+        - plexus-pom
+        - plexus-resources
+        - plexus-sec-dispatcher
+        - plexus-utils
+        - plexus-velocity
         - plotutils
         - plotutils-devel
         - plymouth-devel
+        - plymouth-graphics-libs
         - pmix-devel
         - pngcrush
         - pngquant
         - po4a
+        - polkit-devel
+        - polkit-docs
         - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
-        - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -3359,7 +3209,6 @@ data:
         - powermock-javaagent
         - powermock-junit4
         - powermock-reflect
-        - ppp-devel
         - pps-tools-devel
         - procps-ng-devel
         - proj
@@ -3384,6 +3233,8 @@ data:
         - ptscotch-openmpi-devel-parmetis
         - publican
         - pugixml-devel
+        - pulseaudio-libs-devel
+        - pulseaudio-utils
         - pungi
         - py3c-devel
         - pybind11-devel
@@ -3419,6 +3270,7 @@ data:
         - python3-apipkg
         - python3-appdirs
         - python3-arrow
+        - python3-asgiref
         - python3-astroid
         - python3-async-generator
         - python3-atomicwrites
@@ -3427,6 +3279,7 @@ data:
         - python3-backoff
         - python3-bcrypt
         - python3-beaker
+        - python3-beautifulsoup4
         - python3-betamax
         - python3-billiard
         - python3-bind
@@ -3440,8 +3293,8 @@ data:
         - python3-Bottleneck
         - python3-breathe
         - python3-brotli
+        - python3-bson
         - python3-bugzilla
-        - python3-CacheControl+filecache
         - python3-CacheControl+redis
         - python3-cairo-devel
         - python3-case
@@ -3472,6 +3325,7 @@ data:
         - python3-defusedxml
         - python3-dill
         - python3-distlib
+        - python3-django
         - python3-docs
         - python3-dogpile-cache
         - python3-dulwich
@@ -3503,6 +3357,7 @@ data:
         - python3-freezegun
         - python3-fs
         - python3-funcsigs
+        - python3-future
         - python3-gdal
         - python3-genshi
         - python3-genty
@@ -3521,14 +3376,15 @@ data:
         - python3-hupper
         - python3-hyperframe
         - python3-hyperlink
-        - python3-hypothesis
         - python3-incremental
         - python3-invoke
         - python3-ipykernel
         - python3-ipython
         - python3-ipython-doc
         - python3-ipython_genutils
+        - python3-ipython+notebook
         - python3-ipython-sphinx
+        - python3-ipywidgets
         - python3-iso8601
         - python3-isodate
         - python3-isort
@@ -3545,7 +3401,6 @@ data:
         - python3-jupyter-core
         - python3-jwt
         - python3-jwt+crypto
-        - python3-kerberos
         - python3-kitchen
         - python3-kiwisolver
         - python3-kobo
@@ -3566,7 +3421,6 @@ data:
         - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
-        - python3-libpamtest
         - python3-libvoikko
         - python3-m2r
         - python3-mallard-ducktype
@@ -3580,7 +3434,6 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
-        - python3-mock
         - python3-monotonic
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
@@ -3595,6 +3448,7 @@ data:
         - python3-nose
         - python3-nose2
         - python3-nose-cover3
+        - python3-notebook
         - python3-nototools
         - python3-numexpr
         - python3-numpy-doc
@@ -3629,12 +3483,14 @@ data:
         - python3-pretend
         - python3-priority
         - python3-process-tests
+        - python3-prometheus_client
         - python3-prompt-toolkit
         - python3-pungi
         - python3-py3dns
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
+        - python3-pycdlib
         - python3-pycmd
         - python3-pycodestyle
         - python3-pydot
@@ -3646,6 +3502,7 @@ data:
         - python3-pygraphviz
         - python3-pylibravatar
         - python3-pylint
+        - python3-pymongo
         - python3-pynacl
         - python3-pyOpenSSL
         - python3-PyQt4
@@ -3656,6 +3513,7 @@ data:
         - python3-pyramid-fas-openid
         - python3-pyramid-mako
         - python3-pyroute2
+        - python3-pysendfile
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
@@ -3676,16 +3534,16 @@ data:
         - python3-pytest-virtualenv
         - python3-pytest-xdist
         - python3-pytoml
-        - python3-pywbem
         - python3-pyxattr
         - python3-qt5-devel
         - python3-raven
+        - python3-raven+flask
         - python3-rdflib
         - python3-readthedocs-sphinx-ext
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-kerberos
+        - python3-requests-gssapi
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
@@ -3700,16 +3558,17 @@ data:
         - python3-scripttest
         - python3-scripttester
         - python3-selenium
-        - python3-semantic_version
+        - python3-send2trash
         - python3-service-identity
         - python3-setuptools_git
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
         - python3-should_dsl
+        - python3-simplejson
         - python3-simplemediawiki
         - python3-sip-devel
         - python3-smmap
-        - python3-sortedcontainers
+        - python3-soupsieve
         - python3-spec
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-bibtex
@@ -3734,6 +3593,7 @@ data:
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sqlalchemy_schemadisplay
+        - python3-sqlparse
         - python3-sure
         - python3-sympy
         - python3-tables
@@ -3741,6 +3601,7 @@ data:
         - python3-tempita
         - python3-tempora
         - python3-termcolor
+        - python3-terminado
         - python3-testpath
         - python3-testresources
         - python3-testscenarios
@@ -3749,6 +3610,7 @@ data:
         - python3-text-unidecode
         - python3-theano
         - python3-tidy
+        - python3-tornado
         - python3-tox
         - python3-tox-current-env
         - python3-tqdm
@@ -3756,7 +3618,9 @@ data:
         - python3-translationstring
         - python3-trustme
         - python3-twisted
+        - python3-twisted+tls
         - python3-typed_ast
+        - python3-typing-extensions
         - python3-tzlocal
         - python3-u-msgpack-python
         - python3-unbound
@@ -3771,6 +3635,7 @@ data:
         - python3-webtest
         - python3-werkzeug
         - python3-whoosh
+        - python3-widgetsnbextension
         - python3-wrapt
         - python3-wurlitzer
         - python3-wxpython4
@@ -3796,7 +3661,9 @@ data:
         - python-sphinx-doc
         - python-systemd-doc
         - python-wheel-wheel
+        - qdox
         - qemu
+        - qemu-kvm-core
         - qemu-sanity-check-nodeps
         - qemu-system-alpha
         - qemu-system-alpha-core
@@ -3845,19 +3712,42 @@ data:
         - qrupdate-devel
         - qscintilla-qt5
         - qscintilla-qt5-devel
+        - qt
         - qt3
         - qt3-devel
+        - qt5-designer
+        - qt5-doctools
+        - qt5-linguist
+        - qt5-qtbase-devel
         - qt5-qtbase-doc
         - qt5-qtbase-private-devel
         - qt5-qtbase-static
+        - qt5-qtconnectivity-devel
+        - qt5-qtdeclarative-devel
         - qt5-qtdeclarative-static
+        - qt5-qtlocation-devel
+        - qt5-qtmultimedia-devel
+        - qt5-qtscript
+        - qt5-qtscript-devel
+        - qt5-qtsensors-devel
+        - qt5-qtserialport-devel
         - qt5-qtspeech
         - qt5-qtspeech-devel
         - qt5-qtspeech-speechd
+        - qt5-qtsvg-devel
+        - qt5-qttools
+        - qt5-qttools-devel
+        - qt5-qttools-libs-designercomponents
         - qt5-qttools-static
         - qt5-qtwayland-devel
+        - qt5-qtwebchannel-devel
         - qt5-qtwebkit
         - qt5-qtwebkit-devel
+        - qt5-qtwebsockets-devel
+        - qt5-qtx11extras-devel
+        - qt5-qtxmlpatterns-devel
+        - qt5-rpm-macros
+        - qt-common
         - qt-devel
         - qt-mobility
         - qt-mobility-bearer
@@ -3875,12 +3765,11 @@ data:
         - qt-mobility-systeminfo
         - qtwebkit
         - qtwebkit-devel
+        - qt-x11
         - quilt
         - quota-devel
         - ragel
         - raptor2-devel
-        - rarian
-        - rarian-compat
         - rasqal-devel
         - rb_libtorrent
         - rb_libtorrent-devel
@@ -3890,9 +3779,11 @@ data:
         - re2
         - re2c
         - re2-devel
+        - readline-devel
         - recode
         - redhat-lsb-core
         - redhat-lsb-submod-security
+        - redis
         - redland-devel
         - reflections
         - regexp
@@ -3910,8 +3801,6 @@ data:
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
-        - rsh
-        - rtl-sdr-devel
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
@@ -3982,7 +3871,6 @@ data:
         - rubygem-hashery
         - rubygem-hiredis
         - rubygem-hpricot
-        - rubygem-hrx
         - rubygem-httpclient
         - rubygem-http-cookie
         - rubygem-http_parser.rb
@@ -3996,7 +3884,6 @@ data:
         - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-launchy
-        - rubygem-linked-list
         - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
@@ -4105,6 +3992,11 @@ data:
         - rubygem-xpath
         - rubygem-yard
         - rubygem-ZenTest
+        - rust-addr2line-devel
+        - rust-adler32+default-devel
+        - rust-adler32-devel
+        - rust-adler32+std-devel
+        - rust-ahash-devel
         - rust-aho-corasick+default-devel
         - rust-aho-corasick-devel
         - rust-aho-corasick+std-devel
@@ -4116,32 +4008,91 @@ data:
         - rust-approx+default-devel
         - rust-approx-devel
         - rust-approx+std-devel
+        - rust-arrayvec+array-sizes-33-128-devel
+        - rust-arrayvec+default-devel
         - rust-arrayvec-devel
+        - rust-arrayvec+std-devel
         - rust-atty+default-devel
         - rust-atty-devel
         - rust-autocfg+default-devel
         - rust-autocfg-devel
+        - rust-backtrace+default-devel
+        - rust-backtrace-devel
+        - rust-backtrace+gimli-symbolize-devel
+        - rust-backtrace+std-devel
+        - rust-base64-0.10+default-devel
+        - rust-base64-0.10-devel
         - rust-bencher+default-devel
         - rust-bencher-devel
+        - rust-bincode0.8+default-devel
+        - rust-bincode0.8-devel
         - rust-bincode+default-devel
         - rust-bincode-devel
+        - rust-bindgen+default-devel
+        - rust-bindgen-devel
+        - rust-bindgen+logging-devel
+        - rust-bindgen+which-rustfmt-devel
         - rust-bitflags+default-devel
         - rust-bitflags-devel
+        - rust-bit-set+default-devel
+        - rust-bit-set-devel
+        - rust-bit-set+std-devel
+        - rust-bit-vec-devel
+        - rust-bit-vec+std-devel
         - rust-bstr+default-devel
         - rust-bstr-devel
         - rust-bstr+serde1-devel
         - rust-bstr+serde1-nostd-devel
         - rust-bstr+std-devel
         - rust-bstr+unicode-devel
+        - rust-build_const+default-devel
+        - rust-build_const-devel
+        - rust-build_const+std-devel
         - rust-byteorder+default-devel
         - rust-byteorder-devel
         - rust-byteorder+std-devel
+        - rust-bytes0.4+default-devel
+        - rust-bytes0.4-devel
+        - rust-caps+default-devel
+        - rust-caps-devel
         - rust-cast+default-devel
         - rust-cast-devel
         - rust-cast+std-devel
+        - rust-cc+default-devel
+        - rust-cc-devel
+        - rust-cexpr+default-devel
+        - rust-cexpr-devel
         - rust-cfg-if+default-devel
         - rust-cfg-if-devel
+        - rust-chrono+clock-devel
+        - rust-chrono+default-devel
+        - rust-chrono-devel
+        - rust-chrono+std-devel
+        - rust-clang-sys+clang_6_0-devel
+        - rust-clang-sys+default-devel
+        - rust-clang-sys-devel
+        - rust-clang-sys+gte_clang_3_6-devel
+        - rust-clang-sys+gte_clang_3_7-devel
+        - rust-clang-sys+gte_clang_3_8-devel
+        - rust-clang-sys+gte_clang_3_9-devel
+        - rust-clang-sys+gte_clang_4_0-devel
+        - rust-clang-sys+gte_clang_5_0-devel
+        - rust-clang-sys+gte_clang_6_0-devel
+        - rust-clap+color-devel
+        - rust-clap+default-devel
         - rust-clap-devel
+        - rust-clap+suggestions-devel
+        - rust-const-random+default-devel
+        - rust-const-random-devel
+        - rust-const-random-macro+default-devel
+        - rust-const-random-macro-devel
+        - rust-cpp_demangle-devel
+        - rust-crc32fast+default-devel
+        - rust-crc32fast-devel
+        - rust-crc32fast+std-devel
+        - rust-crc+default-devel
+        - rust-crc-devel
+        - rust-crc+std-devel
         - rust-criterion+default-devel
         - rust-criterion-devel
         - rust-criterion-plot+default-devel
@@ -4161,6 +4112,12 @@ data:
         - rust-csv-core-devel
         - rust-csv+default-devel
         - rust-csv-devel
+        - rust-dbus+default-devel
+        - rust-dbus-devel
+        - rust-devicemapper+default-devel
+        - rust-devicemapper-devel
+        - rust-diff+default-devel
+        - rust-diff-devel
         - rust-dirs+default-devel
         - rust-dirs-devel
         - rust-dirs-sys+default-devel
@@ -4169,13 +4126,41 @@ data:
         - rust-dissimilar-devel
         - rust-doc-comment+default-devel
         - rust-doc-comment-devel
+        - rust-either+default-devel
         - rust-either-devel
+        - rust-either+use_std-devel
+        - rust-env_logger0.5+default-devel
+        - rust-env_logger0.5-devel
+        - rust-env_logger0.5+regex-devel
+        - rust-env_logger0.6-devel
+        - rust-env_logger+default-devel
         - rust-env_logger-devel
         - rust-env_logger+regex-devel
+        - rust-errno+default-devel
+        - rust-errno-devel
+        - rust-error-chain+default-devel
+        - rust-error-chain-devel
+        - rust-error-chain+example_generated-devel
+        - rust-failure_derive+default-devel
+        - rust-failure_derive-devel
+        - rust-failure-devel
+        - rust-failure+std-devel
+        - rust-fallible-iterator-devel
+        - rust-fallible-iterator+std-devel
+        - rust-flate2+default-devel
+        - rust-flate2-devel
+        - rust-flate2+rust_backend-devel
+        - rust-fnv+default-devel
+        - rust-fnv-devel
+        - rust-fnv+std-devel
         - rust-fs_extra+default-devel
         - rust-fs_extra-devel
         - rust-futf+default-devel
         - rust-futf-devel
+        - rust-futures0.1+default-devel
+        - rust-futures0.1-devel
+        - rust-futures0.1+use_std-devel
+        - rust-futures0.1+with-deprecated-devel
         - rust-futures-channel+alloc-devel
         - rust-futures-channel-devel
         - rust-futures-channel+sink-devel
@@ -4183,6 +4168,9 @@ data:
         - rust-futures-core+alloc-devel
         - rust-futures-core-devel
         - rust-futures-core+std-devel
+        - rust-futures-cpupool+default-devel
+        - rust-futures-cpupool-devel
+        - rust-futures-cpupool+with-deprecated-devel
         - rust-futures-devel
         - rust-futures-executor-devel
         - rust-futures-executor+std-devel
@@ -4203,19 +4191,31 @@ data:
         - rust-futures-util+io-devel
         - rust-futures-util+sink-devel
         - rust-futures-util+std-devel
+        - rust-fxhash+default-devel
+        - rust-fxhash-devel
         - rust-getopts+default-devel
         - rust-getopts-devel
         - rust-getrandom+default-devel
         - rust-getrandom-devel
         - rust-getrandom+std-devel
+        - rust-gimli-devel
+        - rust-gimli+endian-reader-devel
+        - rust-gimli+read-devel
+        - rust-gimli+std-devel
         - rust-glob+default-devel
         - rust-glob-devel
+        - rust-hashbrown-devel
+        - rust-hashbrown+raw-devel
         - rust-html5ever+default-devel
         - rust-html5ever-devel
         - rust-humantime1+default-devel
         - rust-humantime1-devel
         - rust-idna0.1+default-devel
         - rust-idna0.1-devel
+        - rust-indexmap+default-devel
+        - rust-indexmap-devel
+        - rust-iovec+default-devel
+        - rust-iovec-devel
         - rust-itertools0.8+default-devel
         - rust-itertools0.8-devel
         - rust-itertools0.8+use_std-devel
@@ -4227,18 +4227,44 @@ data:
         - rust-itoa+default-devel
         - rust-itoa-devel
         - rust-itoa+std-devel
+        - rust-lazycell+default-devel
+        - rust-lazycell-devel
         - rust-lazy_static+default-devel
         - rust-lazy_static-devel
+        - rust-lexical-core+correct-devel
+        - rust-lexical-core+default-devel
+        - rust-lexical-core-devel
+        - rust-lexical-core+std-devel
+        - rust-lexical-core+table-devel
         - rust-libc+default-devel
         - rust-libc-devel
+        - rust-libc+extra_traits-devel
+        - rust-libcryptsetup-rs+default-devel
+        - rust-libcryptsetup-rs-devel
+        - rust-libcryptsetup-rs-sys+default-devel
+        - rust-libcryptsetup-rs-sys-devel
         - rust-libc+std-devel
+        - rust-libdbus-sys+default-devel
+        - rust-libdbus-sys-devel
+        - rust-libloading+default-devel
+        - rust-libloading-devel
+        - rust-libmount+default-devel
+        - rust-libmount-devel
         - rust-liboverdrop+default-devel
         - rust-liboverdrop-devel
+        - rust-libudev+default-devel
+        - rust-libudev-devel
+        - rust-libudev-sys+default-devel
+        - rust-libudev-sys-devel
         - rust-lipsum+default-devel
         - rust-lipsum-devel
+        - rust-lock_api+default-devel
+        - rust-lock_api-devel
         - rust-log+default-devel
         - rust-log-devel
         - rust-log+std-devel
+        - rust-loopdev+default-devel
+        - rust-loopdev-devel
         - rust-mac+default-devel
         - rust-mac-devel
         - rust-markup5ever+default-devel
@@ -4255,19 +4281,57 @@ data:
         - rust-memchr+use_std-devel
         - rust-memoffset+default-devel
         - rust-memoffset-devel
+        - rust-miniz_oxide+default-devel
+        - rust-miniz_oxide-devel
+        - rust-mio0.6+default-devel
+        - rust-mio0.6-devel
+        - rust-mio0.6+with-deprecated-devel
+        - rust-mio-uds+default-devel
+        - rust-mio-uds-devel
+        - rust-net2+default-devel
+        - rust-net2-devel
+        - rust-net2+duration-devel
         - rust-new_debug_unreachable+default-devel
         - rust-new_debug_unreachable-devel
+        - rust-nix0.14+default-devel
+        - rust-nix0.14-devel
+        - rust-nix+default-devel
+        - rust-nix-devel
+        - rust-nom+alloc-devel
+        - rust-nom-devel
+        - rust-nom+std-devel
         - rust-num-complex-devel
         - rust-num-complex+std-devel
         - rust-num_cpus+default-devel
         - rust-num_cpus-devel
+        - rust-num-integer-devel
+        - rust-num-integer+std-devel
+        - rust-num-iter-devel
+        - rust-num-traits0.1+default-devel
+        - rust-num-traits0.1-devel
         - rust-num-traits+default-devel
         - rust-num-traits-devel
         - rust-num-traits+i128-devel
         - rust-num-traits+std-devel
+        - rust-object+coff-devel
+        - rust-object+compression-devel
+        - rust-object-devel
+        - rust-object+elf-devel
+        - rust-object+macho-devel
+        - rust-object+pe-devel
+        - rust-object+read_core-devel
+        - rust-object+read-devel
+        - rust-object+std-devel
+        - rust-object+unaligned-devel
         - rust-once_cell-devel
         - rust-once_cell+std-devel
         - rust-packaging
+        - rust-parking_lot_core+default-devel
+        - rust-parking_lot_core-devel
+        - rust-parking_lot+default-devel
+        - rust-parking_lot-devel
+        - rust-peeking_take_while+default-devel
+        - rust-peeking_take_while-devel
         - rust-percent-encoding1+default-devel
         - rust-percent-encoding1-devel
         - rust-permutohedron+default-devel
@@ -4288,6 +4352,8 @@ data:
         - rust-pin-project-internal-devel
         - rust-pin-utils+default-devel
         - rust-pin-utils-devel
+        - rust-pkg-config+default-devel
+        - rust-pkg-config-devel
         - rust-ppv-lite86-devel
         - rust-ppv-lite86+simd-devel
         - rust-ppv-lite86+std-devel
@@ -4304,7 +4370,14 @@ data:
         - rust-proc-macro-hack-devel
         - rust-proc-macro-nested+default-devel
         - rust-proc-macro-nested-devel
+        - rust-proptest+break-dead-code-devel
+        - rust-proptest+default-devel
+        - rust-proptest-devel
+        - rust-proptest+fork-devel
+        - rust-proptest+std-devel
+        - rust-proptest+timeout-devel
         - rust-pulldown-cmark-devel
+        - rust-quickcheck0.6-devel
         - rust-quickcheck+default-devel
         - rust-quickcheck-devel
         - rust-quickcheck+regex-devel
@@ -4322,6 +4395,7 @@ data:
         - rust-rand0.6+alloc-devel
         - rust-rand0.6+default-devel
         - rust-rand0.6-devel
+        - rust-rand0.6+i128_support-devel
         - rust-rand0.6+std-devel
         - rust-rand+alloc-devel
         - rust-rand_chacha0.1+default-devel
@@ -4402,6 +4476,11 @@ data:
         - rust-regex+unicode-segment-devel
         - rust-remove_dir_all+default-devel
         - rust-remove_dir_all-devel
+        - rust-rustc-demangle+default-devel
+        - rust-rustc-demangle-devel
+        - rust-rustc-hash+default-devel
+        - rust-rustc-hash-devel
+        - rust-rustc-hash+std-devel
         - rust-rustc-serialize+default-devel
         - rust-rustc-serialize-devel
         - rust-rustc-test+default-devel
@@ -4412,11 +4491,15 @@ data:
         - rust-rust-ini-devel
         - rust-rustversion+default-devel
         - rust-rustversion-devel
+        - rust-rusty-fork-devel
+        - rust-rusty-fork+timeout-devel
         - rust-ryu+default-devel
         - rust-ryu-devel
         - rust-same-file+default-devel
         - rust-same-file-devel
         - rust-scopeguard-devel
+        - rust-seahash+default-devel
+        - rust-seahash-devel
         - rust-semver+default-devel
         - rust-semver-devel
         - rust-semver-parser0.7+default-devel
@@ -4437,11 +4520,20 @@ data:
         - rust-serde+std-devel
         - rust-serde_test+default-devel
         - rust-serde_test-devel
+        - rust-shlex+default-devel
+        - rust-shlex-devel
         - rust-siphasher+default-devel
         - rust-siphasher-devel
         - rust-siphasher+std-devel
         - rust-slab+default-devel
         - rust-slab-devel
+        - rust-smallvec+default-devel
+        - rust-smallvec-devel
+        - rust-stable_deref_trait+alloc-devel
+        - rust-stable_deref_trait-devel
+        - rust-stable_deref_trait+std-devel
+        - rust-static_assertions+default-devel
+        - rust-static_assertions-devel
         - rust-string_cache_codegen+default-devel
         - rust-string_cache_codegen-devel
         - rust-string_cache+default-devel
@@ -4471,6 +4563,9 @@ data:
         - rust-syn+parsing-devel
         - rust-syn+printing-devel
         - rust-syn+proc-macro-devel
+        - rust-synstructure+default-devel
+        - rust-synstructure-devel
+        - rust-synstructure+proc-macro-devel
         - rust-syn+visit-devel
         - rust-syn+visit-mut-devel
         - rust-tempdir+default-devel
@@ -4491,13 +4586,57 @@ data:
         - rust-thiserror-impl-devel
         - rust-thread_local+default-devel
         - rust-thread_local-devel
+        - rust-threadpool+default-devel
+        - rust-threadpool-devel
         - rust-time0.1+default-devel
         - rust-time0.1-devel
+        - rust-timerfd+default-devel
+        - rust-timerfd-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
         - rust-tinyvec+alloc-devel
         - rust-tinyvec+default-devel
         - rust-tinyvec-devel
+        - rust-tokio0.1+codec-devel
+        - rust-tokio0.1+default-devel
+        - rust-tokio0.1-devel
+        - rust-tokio0.1+fs-devel
+        - rust-tokio0.1+io-devel
+        - rust-tokio0.1+reactor-devel
+        - rust-tokio0.1+rt-full-devel
+        - rust-tokio0.1+sync-devel
+        - rust-tokio0.1+tcp-devel
+        - rust-tokio0.1+timer-devel
+        - rust-tokio0.1+udp-devel
+        - rust-tokio0.1+uds-devel
+        - rust-tokio-codec+default-devel
+        - rust-tokio-codec-devel
+        - rust-tokio-current-thread+default-devel
+        - rust-tokio-current-thread-devel
+        - rust-tokio-executor+default-devel
+        - rust-tokio-executor-devel
+        - rust-tokio-fs+default-devel
+        - rust-tokio-fs-devel
+        - rust-tokio-io+default-devel
+        - rust-tokio-io-devel
+        - rust-tokio-io-pool+default-devel
+        - rust-tokio-io-pool-devel
+        - rust-tokio-mock-task+default-devel
+        - rust-tokio-mock-task-devel
+        - rust-tokio-reactor+default-devel
+        - rust-tokio-reactor-devel
+        - rust-tokio-sync+default-devel
+        - rust-tokio-sync-devel
+        - rust-tokio-tcp+default-devel
+        - rust-tokio-tcp-devel
+        - rust-tokio-threadpool+default-devel
+        - rust-tokio-threadpool-devel
+        - rust-tokio-timer+default-devel
+        - rust-tokio-timer-devel
+        - rust-tokio-udp+default-devel
+        - rust-tokio-udp-devel
+        - rust-tokio-uds+default-devel
+        - rust-tokio-uds-devel
         - rust-toml0.4+default-devel
         - rust-toml0.4-devel
         - rust-toml+default-devel
@@ -4529,14 +4668,25 @@ data:
         - rust-url1-devel
         - rust-utf-8+default-devel
         - rust-utf-8-devel
+        - rust-uuid0.7+default-devel
+        - rust-uuid0.7-devel
+        - rust-uuid0.7+serde-devel
+        - rust-uuid0.7+std-devel
+        - rust-uuid0.7+v4-devel
         - rust-vec_map+default-devel
         - rust-vec_map-devel
         - rust-version_check+default-devel
         - rust-version_check-devel
         - rust-version-sync+default-devel
         - rust-version-sync-devel
+        - rust-void+default-devel
+        - rust-void-devel
+        - rust-void+std-devel
+        - rust-wait-timeout+default-devel
+        - rust-wait-timeout-devel
         - rust-walkdir+default-devel
         - rust-walkdir-devel
+        - rust-which-devel
         - rust-xml5ever+default-devel
         - rust-xml5ever-devel
         - rxvt-unicode
@@ -4545,16 +4695,14 @@ data:
         - samba-devel
         - samba-pidl
         - samba-winbind-clients
+        - sane-backends-devel
         - sanlock-devel
-        - sanlock-lib
         - sassc
         - satyr-devel
-        - sbc
         - sbc-devel
-        - sblim-cmpi-devel
-        - sblim-indication_helper-devel
         - sblim-sfcc
         - sblim-sfcc-devel
+        - scala
         - scalapack-common
         - scalapack-mpich
         - scalapack-mpich-devel
@@ -4564,21 +4712,23 @@ data:
         - scotch-devel
         - screen
         - SDL2-devel
+        - SDL-devel
         - SDL_sound
         - SDL_sound-devel
-        - sendmail-milter-devel
         - serd-devel
         - SFML
         - SFML-devel
         - sg3_utils-devel
         - shapelib-devel
         - sharutils
-        - ShellCheck
         - shrinkwrap
         - shrinkwrap-impl-base
         - shrinkwrap-spi
         - sip
+        - sisu-inject
         - sisu-mojos
+        - sisu-plexus
+        - slang-devel
         - sleuthkit
         - sleuthkit-libs
         - slf4j-ext
@@ -4613,12 +4763,15 @@ data:
         - spirv-headers-devel
         - spirv-tools
         - spirv-tools-devel
-        - spirv-tools-libs
         - sratom-devel
         - srt-devel
+        - startup-notification-devel
         - stax2-api
-        - stringtemplate
         - stunnel
+        - subunit
+        - subunit-devel
+        - subversion
+        - subversion-libs
         - subversion-perl
         - suitesparse
         - suitesparse64
@@ -4632,7 +4785,10 @@ data:
         - superlu_dist-mpich-devel
         - superlu_dist-openmpi
         - superlu_dist-openmpi-devel
+        - supermin
         - supermin-devel
+        - swig
+        - symlinks
         - sysprof
         - sysprof-cli
         - sysprof-devel
@@ -4653,14 +4809,29 @@ data:
         - texi2html
         - texinfo
         - texinfo-tex
+        - texlive
         - texlive-acronym
+        - texlive-adjustbox
+        - texlive-ae
+        - texlive-aleph
+        - texlive-amscls
+        - texlive-antomega
+        - texlive-anyfontsize
+        - texlive-anysize
+        - texlive-appendix
+        - texlive-arabxetex
         - texlive-armtex
+        - texlive-arphic
+        - texlive-attachfile2
+        - texlive-avantgar
+        - texlive-awesomebox
         - texlive-babel-albanian
         - texlive-babel-bosnian
         - texlive-babel-breton
         - texlive-babel-croatian
         - texlive-babel-danish
         - texlive-babel-dutch
+        - texlive-babel-english
         - texlive-babel-estonian
         - texlive-babel-finnish
         - texlive-babel-friulan
@@ -4682,20 +4853,89 @@ data:
         - texlive-babel-swedish
         - texlive-babel-turkish
         - texlive-babel-welsh
+        - texlive-beamer
+        - texlive-beton
+        - texlive-bibtex
+        - texlive-bibtopic
+        - texlive-bidi-atbegshi
+        - texlive-bidicontour
+        - texlive-bidipagegrid
+        - texlive-bidipresentation
+        - texlive-bidishadowtext
+        - texlive-bigfoot
+        - texlive-bookman
+        - texlive-breqn
+        - texlive-businesscard-qrcode
         - texlive-cancel
+        - texlive-capt-of
+        - texlive-changebar
+        - texlive-charter
+        - texlive-cite
+        - texlive-cjk
+        - texlive-cjk-ko
+        - texlive-cmap
+        - texlive-cmextra
+        - texlive-cm-super
+        - texlive-cns
+        - texlive-collectbox
+        - texlive-collection-basic
+        - texlive-collection-fontsrecommended
+        - texlive-collection-formatsextra
         - texlive-collection-langeuropean
+        - texlive-collection-latex
+        - texlive-collection-latexrecommended
+        - texlive-collection-xetex
+        - texlive-colorprofiles
+        - texlive-courier
+        - texlive-cqubeamer
+        - texlive-crop
+        - texlive-ctable
+        - texlive-cyrillic
+        - texlive-dvipng
+        - texlive-dvisvgm
+        - texlive-ec
         - texlive-ecclesiastic
+        - texlive-edmac
+        - texlive-eepic
+        - texlive-enctex
+        - texlive-environ
+        - texlive-eplain
+        - texlive-epsf
+        - texlive-epstopdf
         - texlive-etoc
+        - texlive-euler
+        - texlive-euro
+        - texlive-euro-ce
+        - texlive-eurosym
+        - texlive-everypage
+        - texlive-extsizes
+        - texlive-fancybox
+        - texlive-fancyref
         - texlive-finbib
+        - texlive-finstrut
+        - texlive-fix2col
+        - texlive-fixlatvian
+        - texlive-fncychap
+        - texlive-fontbook
+        - texlive-font-change-xetex
+        - texlive-fonts-tlwg
+        - texlive-fontwrap
+        - texlive-footnotehyper
+        - texlive-fpl
+        - texlive-framed
+        - texlive-garuda-c90
         - texlive-gloss-occitan
         - texlive-gnu-freefont
+        - texlive-gsftopk
         - texlive-hanging
+        - texlive-helvetic
         - texlive-hrlatex
         - texlive-hulipsum
         - texlive-hyphen-croatian
         - texlive-hyphen-danish
         - texlive-hyphen-dutch
         - texlive-hyphen-estonian
+        - texlive-hyphenex
         - texlive-hyphen-finnish
         - texlive-hyphen-friulan
         - texlive-hyphen-hungarian
@@ -4716,41 +4956,181 @@ data:
         - texlive-hyphen-turkish
         - texlive-hyphen-uppersorbian
         - texlive-hyphen-welsh
+        - texlive-ifoddpage
+        - texlive-import
         - texlive-inconsolata
+        - texlive-interchar
+        - texlive-jadetex
+        - texlive-jknapltx
+        - texlive-knuth-local
+        - texlive-kotex-plain
+        - texlive-kotex-utf
+        - texlive-l3experimental
+        - texlive-lambda
+        - texlive-latex2man
+        - texlive-latexbug
+        - texlive-lettrine
         - texlive-lh
         - texlive-lib-devel
+        - texlive-linegoal
+        - texlive-lineno
         - texlive-listofitems
         - texlive-lithuanian
+        - texlive-lollipop
         - texlive-lshort-dutch-doc
         - texlive-lshort-estonian-doc
         - texlive-lshort-finnish-doc
         - texlive-lshort-slovenian-doc
         - texlive-lshort-turkish-doc
+        - texlive-ltabptch
+        - texlive-ltxmisc
+        - texlive-luahbtex
+        - texlive-luatex85
+        - texlive-luatexko
+        - texlive-lwarp
+        - texlive-makeindex
+        - texlive-mathpazo
+        - texlive-mathspec
+        - texlive-mathtools
+        - texlive-mdwtools
+        - texlive-metafont
+        - texlive-metalogo
+        - texlive-mflogo
+        - texlive-mfnfss
+        - texlive-mfware
+        - texlive-microtype
+        - texlive-minitoc
+        - texlive-mltex
+        - texlive-mnsymbol
+        - texlive-modes
+        - texlive-multirow
+        - texlive-mxedruli
+        - texlive-na-position
+        - texlive-ncctools
+        - texlive-ncntrsbk
+        - texlive-needspace
         - texlive-nevelok
+        - texlive-newfloat
         - texlive-newunicodechar
+        - texlive-norasi-c90
+        - texlive-notoccite
+        - texlive-ntgclass
+        - texlive-obsolete
+        - texlive-omega
+        - texlive-omegaware
         - texlive-optional
+        - texlive-otibet
+        - texlive-overpic
+        - texlive-palatino
+        - texlive-parskip
+        - texlive-passivetex
+        - texlive-pdflscape
+        - texlive-pdfpages
+        - texlive-philokalia
+        - texlive-preprint
+        - texlive-psfrag
+        - texlive-psizzl
+        - texlive-pslatex
+        - texlive-pspicture
+        - texlive-ptext
+        - texlive-pxfonts
+        - texlive-quran
+        - texlive-quran-de
+        - texlive-rcs
+        - texlive-realscripts
         - texlive-relsize
+        - texlive-rsfs
+        - texlive-sansmath
+        - texlive-sansmathaccent
+        - texlive-scheme-basic
+        - texlive-section
+        - texlive-sectsty
+        - texlive-seminar
+        - texlive-sepnum
         - texlive-sfmath
+        - texlive-simple-resume-cv
+        - texlive-simple-thesis-dissertation
         - texlive-stackengine
+        - texlive-startex
+        - texlive-subfigure
+        - texlive-svn-prov
         - texlive-swebib
+        - texlive-t2
+        - texlive-tabu
+        - texlive-tabulary
+        - texlive-tetragonos
+        - texlive-tex
+        - texlive-tex4ht
+        - texlive-tex-gyre
+        - texlive-tex-gyre-math
+        - texlive-texlive-common-doc
+        - texlive-texlive-docindex
+        - texlive-texlive-en
+        - texlive-texlive-msg-translations
         - texlive-texlive-scripts-extra
+        - texlive-texsis
+        - texlive-textcase
+        - texlive-threeparttable
+        - texlive-times
+        - texlive-tocloft
+        - texlive-translator
+        - texlive-transparent
+        - texlive-trimspaces
         - texlive-turkmen
+        - texlive-txfonts
+        - texlive-type1cm
+        - texlive-typehtml
+        - texlive-ucharclasses
+        - texlive-ucs
+        - texlive-uhc
+        - texlive-ulem
+        - texlive-unicode-bidi
+        - texlive-unisugar
+        - texlive-updmap-map
+        - texlive-upquote
+        - texlive-utopia
+        - texlive-wadalab
+        - texlive-was
+        - texlive-wasy
+        - texlive-wasysym
+        - texlive-wasy-type1
+        - texlive-wrapfig
+        - texlive-xdvi
+        - texlive-xebaposter
+        - texlive-xechangebar
+        - texlive-xecjk
+        - texlive-xecolor
+        - texlive-xecyr
+        - texlive-xeindex
+        - texlive-xesearch
+        - texlive-xespotcolor
+        - texlive-xetexfontinfo
+        - texlive-xetex-itrans
+        - texlive-xetexko
+        - texlive-xetex-pstricks
+        - texlive-xetex-tibetan
+        - texlive-xevlna
+        - texlive-xltxtra
+        - texlive-xmltex
+        - texlive-xmltexconfig
+        - texlive-xtab
+        - texlive-zapfchan
         - tex-preview
         - tidy
         - tinycdb-devel
-        - tinyxml2
-        - tinyxml2-devel
         - tix-devel
         - tokyocabinet-devel
         - tomcat-native
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
+        - tpm2-tss-devel
         - tracker-devel
         - transfig
         - tre
         - tre-common
         - tre-devel
+        - tree
         - trousers-devel
         - ttembed
         - ttfautohint
@@ -4761,7 +5141,7 @@ data:
         - uchardet-devel
         - ucpp
         - ucpp-libs
-        - uglify-js1
+        - uglify-js
         - uhttpmock
         - uhttpmock-devel
         - uid_wrapper
@@ -4774,13 +5154,17 @@ data:
         - upower-devel
         - uriparser
         - uriparser-devel
-        - urw-base35-fonts-devel
+        - usbguard-devel
+        - usbguard-selinux
         - usbredir-devel
+        - usbutils
         - userspace-rcu-devel
+        - utf8proc
         - utf8proc-devel
+        - util-linux-user
         - uuid-devel
         - uw-imap-devel
-        - varnish-devel
+        - vino
         - virglrenderer-devel
         - volume_key-devel
         - vte291-devel
@@ -4788,14 +5172,17 @@ data:
         - vtk-devel
         - vtk-java
         - vtk-qt
-        - vulkan-headers
         - vulkan-loader-devel
         - w3m
         - waf
         - wavpack-devel
+        - wayland-devel
+        - wayland-protocols-devel
         - wdiff
         - web-assets-devel
         - web-assets-filesystem
+        - webkit2gtk3-devel
+        - webkit2gtk3-jsc-devel
         - webrtc-audio-processing-devel
         - weld-parent
         - weston
@@ -4820,6 +5207,7 @@ data:
         - xapian-core-devel
         - Xaw3d
         - Xaw3d-devel
+        - xbean
         - xcb-proto
         - xcb-util-cursor
         - xcb-util-cursor-devel
@@ -4831,12 +5219,15 @@ data:
         - xcb-util-xrm
         - xcb-util-xrm-devel
         - xdg-desktop-portal-devel
+        - xdg-user-dirs
         - xemacs
         - xemacs-common
         - xemacs-nox
         - xemacs-packages-base
         - xerces-c
         - xerces-c-devel
+        - xfsprogs-devel
+        - xkeyboard-config-devel
         - xmlgraphics-commons
         - xmlrpc-c-c++
         - xmlrpc-c-client++
@@ -4847,7 +5238,6 @@ data:
         - xmlstarlet
         - xmlto
         - xmltoman
-        - xmlto-tex
         - xmlunit
         - xmlunit-assertj
         - xmlunit-core
@@ -4864,37 +5254,40 @@ data:
         - xmvn-mojo
         - xmvn-resolve
         - xmvn-subst
-        - xorg-sgml-doctools
         - xorg-x11-apps
-        - xorg-x11-drv-dummy
         - xorg-x11-drv-wacom-devel
         - xorg-x11-fonts-ISO8859-1-75dpi
         - xorg-x11-server-devel
         - xorg-x11-server-source
         - xorg-x11-server-Xvfb
         - xorg-x11-util-macros
+        - xorg-x11-utils
         - xorg-x11-xtrans-devel
+        - xorriso
         - xpp3
         - xpp3-minimal
         - xstream
         - xxhash-devel
+        - xz-java
+        - xz-lzma-compat
         - yajl-devel
         - yasm
         - yelp-devel
+        - yelp-tools
         - yelp-xsl-devel
         - ykclient-devel
         - ykpers
-        - z3-devel
-        - z3-libs
         - zbar
         - zbar-devel
         - zchunk
         - zchunk-devel
+        - zerofree
         - zeromq
         - zeromq-devel
         - zopfli
         - zram-generator
         - zram-generator-defaults
+        - zsh
         - zvbi
         - zvbi-devel
         - zziplib-devel
@@ -4904,7 +5297,7 @@ data:
             - aspnetcore-targeting-pack-3.1
             - bullet
             - bullet-devel
-            - daxctl-devel
+            - compat-golang-gopkg-fsnotify-1-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -4918,14 +5311,16 @@ data:
             - dotnet-sdk-3.1-source-built-artifacts
             - dotnet-targeting-pack-3.1
             - dotnet-templates-3.1
-            - dyninst-devel
             - edk2-ovmf
             - efivar-devel
             - efl
             - efl-devel
             - flashrom-devel
+            - gfs2-utils
             - gnu-efi-compat
             - gnu-efi-devel
+            - golang-github-hpcloud-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - libavc1394-devel
@@ -4933,15 +5328,15 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
-            - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
+            - libsysfs
             - libxml++
             - libxml++-devel
+            - libXScrnSaver
             - libXvMC
             - mesa-libxatracker
             - mesa-libxatracker-devel
-            - ndctl-devel
             - netstandard-targeting-pack-2.1
             - openbios
             - pugixml
@@ -4953,10 +5348,13 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
+            - seabios-bin
+            - seavgabios-bin
+            - sgabios-bin
+            - SLOF
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
-            - tpm2-tss-devel
             - tslib
             - tslib-devel
             - vboot-utils
@@ -4964,16 +5362,17 @@ data:
         ppc64le:
             - bullet
             - bullet-devel
+            - compat-golang-gopkg-fsnotify-1-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
-            - dyninst-devel
             - efi-filesystem
             - efl
             - efl-devel
             - flashrom-devel
-            - gperftools-libs
+            - golang-github-hpcloud-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - libavc1394-devel
@@ -4981,16 +5380,18 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
-            - libfprint-devel
             - libiec61883-devel
+            - libpq-devel
             - libraw1394-devel
             - librtas-devel
             - libservicelog
             - libservicelog-devel
+            - libsysfs
             - libxml++
             - libxml++-devel
+            - libXScrnSaver
             - libXvMC
-            - lm_sensors-devel
+            - postgresql
             - postgresql-contrib
             - postgresql-server
             - postgresql-server-devel
@@ -5003,27 +5404,30 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
+            - seabios-bin
+            - sgabios-bin
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
             - uuid
         s390x:
-            - daxctl-devel
+            - bluez-obexd
             - efi-filesystem
-            - gperftools-libs
+            - gnome-bluetooth
+            - gnome-bluetooth-libs
             - libdv
             - libftdi
-            - libgpod
+            - libica
+            - libica-devel
             - libimobiledevice
-            - libmad
             - libplist
             - libusbmuxd
+            - libXScrnSaver
             - libXvMC
-            - lm_sensors-devel
-            - media-player-info
-            - ndctl-devel
+            - mozilla-filesystem
             - openbios
+            - pigz
             - pugixml
             - qemu-system-aarch64
             - qemu-system-aarch64-core
@@ -5032,10 +5436,15 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - s390utils-devel
+            - seabios-bin
+            - seavgabios-bin
+            - sgabios-bin
+            - SLOF
             - usbredir
         x86_64:
             - bullet
             - bullet-devel
+            - compat-golang-gopkg-fsnotify-1-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -5043,7 +5452,6 @@ data:
             - dev86
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
-            - dyninst-devel
             - edk2-aarch64
             - edk2-tools
             - efivar-devel
@@ -5053,26 +5461,33 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - golang-github-hpcloud-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - infinipath-psm-devel
             - intel-mediasdk
             - intel-mediasdk-devel
+            - jemalloc
+            - jemalloc-devel
+            - kernel-debug-core
+            - kernel-debug-modules
+            - kernel-debug-modules-extra
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
             - libffado
             - libffado-devel
-            - libfprint-devel
             - libiec61883-devel
-            - libipt-devel
             - libpsm2-devel
             - libraw1394-devel
             - libsmbios-devel
-            - libubsan
+            - libsysfs
             - libvmaf-devel
             - libxml++
             - libxml++-devel
+            - memkind
+            - memkind-devel
             - mesa-libxatracker-devel
             - openbios
             - opencl-filesystem
@@ -5090,11 +5505,11 @@ data:
             - qemu-system-s390x-core
             - rlottie
             - rlottie-devel
+            - SLOF
             - spice-server-devel
             - syslinux-perl
             - tinyxml
             - tinyxml-devel
-            - tpm2-tss-devel
             - tslib
             - tslib-devel
             - uthash-devel
