@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: .NET and OpenJDK Unwanted Packages
+  description: Packages that .NET and OpenJDK maintainers do not wish to maintain in RHEL 9
+  maintainer: sst_dotnet_java
+  labels:
+  - eln
+
+  unwanted_packages:
+  # No Eclipse planned for RHEL 9, so seems little point in maintaining ecj, plus current deps don't need it
+  - ecj
