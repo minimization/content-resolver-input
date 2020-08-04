@@ -53,9 +53,6 @@ data:
         - apiguardian
         - apiviz
         - appstream
-        - apr-devel
-        - apr-util-devel
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -287,7 +284,6 @@ data:
         - CUnit-devel
         - cvs
         - cvsps
-        - cyrus-sasl-devel
         - dain-snappy
         - datefudge
         - dblatex
@@ -410,7 +406,6 @@ data:
         - exim
         - exiv2
         - exiv2-devel
-        - expat-devel
         - expect
         - extra-cmake-modules
         - f32-backgrounds-base
@@ -1364,7 +1359,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - httpd-devel
         - http-parser-devel
         - hunspell-cs
         - hunspell-devel
@@ -2111,6 +2105,7 @@ data:
         - libyubikey
         - libyubikey-devel
         - libzmf-devel
+        - lilv
         - lilv-devel
         - lilypond
         - lilypond-c059-fonts
@@ -2483,7 +2478,6 @@ data:
         - openjade
         - openjpeg2-devel
         - openjpeg2-tools
-        - openldap-devel
         - openldap-servers
         - openpgm
         - openpgm-devel
@@ -4757,6 +4751,7 @@ data:
         - SDL-devel
         - SDL_sound
         - SDL_sound-devel
+        - serd
         - serd-devel
         - SFML
         - SFML-devel
@@ -4781,6 +4776,7 @@ data:
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
+        - sord
         - sord-devel
         - soundfont-utils
         - soundtouch-devel
@@ -4806,6 +4802,7 @@ data:
         - spirv-headers-devel
         - spirv-tools
         - spirv-tools-devel
+        - sratom
         - sratom-devel
         - srt-devel
         - startup-notification-devel
