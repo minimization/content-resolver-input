@@ -89,7 +89,6 @@ data:
         - autogen-libopts-devel
         - automoc
         - autotrace
-        - avahi
         - avahi-devel
         - avahi-glib-devel
         - avahi-gobject
@@ -163,7 +162,6 @@ data:
         - breeze-icon-theme
         - breezy
         - brlapi-devel
-        - bsdtar
         - bsf
         - bsh
         - btrfs-progs
@@ -299,7 +297,6 @@ data:
         - dconf-devel
         - debian-keyring
         - debootstrap
-        - dejagnu
         - deltarpm
         - device-mapper-multipath-devel
         - DevIL
@@ -406,7 +403,6 @@ data:
         - exim
         - exiv2
         - exiv2-devel
-        - expect
         - extra-cmake-modules
         - f32-backgrounds-base
         - f32-backgrounds-kde
@@ -496,6 +492,7 @@ data:
         - gcr-devel
         - gdal-devel
         - gdal-libs
+        - gdb-minimal
         - gdcm
         - gdcm-applications
         - gdcm-devel
@@ -1858,7 +1855,6 @@ data:
         - libmemcached-devel
         - libmetalink-devel
         - libmicrodns-devel
-        - libmicrohttpd
         - libmicrohttpd-devel
         - libmikmod
         - libmikmod-devel
@@ -2052,7 +2048,6 @@ data:
         - libvdpau-devel
         - libvdpau-trace
         - libverto-libev
-        - libvirt-daemon-config-network
         - libvirt-daemon-qemu
         - libvirt-devel
         - libvirt-gconfig-devel
@@ -2277,6 +2272,7 @@ data:
         - maven-surefire-provider-junit5
         - maven-surefire-provider-testng
         - maven-verifier
+        - maven-verifier-plugin
         - maven-wagon-file
         - maven-wagon-http
         - maven-wagon-http-lightweight
