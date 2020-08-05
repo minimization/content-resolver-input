@@ -14,7 +14,20 @@ data:
   - golang-shared
   - golang-src
   - golang-tests
-  - delve
 
   labels:
   - eln
+
+  package_placeholders:
+    delve:
+      description: This package is not in Fedora (yet), but we want to see it here.
+      requires: []
+      buildrequires:
+      - golang
+      - git
+      - lsof
+    go-toolset:
+      description: Meta-package for go-toolset
+      requires:
+        - golang
+      buildrequires: []
