@@ -259,6 +259,7 @@ data:
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-lua
         - compat-lua-devel
+        - compat-lua-libs
         - compat-readline5-devel
         - compat-wxGTK3-gtk2
         - compat-wxGTK3-gtk2-devel
@@ -318,6 +319,7 @@ data:
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
+        - docbook-utils-pdf
         - dom4j
         - dontpanic
         - dontpanic-devel
@@ -331,7 +333,6 @@ data:
         - doxygen-latex
         - dpkg
         - drpm-devel
-        - dwarves
         - e2fsprogs-devel
         - easymock
         - ed25519-java
@@ -505,7 +506,6 @@ data:
         - gdm-devel
         - gdm-pam-extensions-devel
         - gecode
-        - gecode-devel
         - gegl04
         - gegl04-devel
         - gegl04-tools
@@ -996,6 +996,7 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
+        - gnome-color-manager
         - gnome-common
         - gnome-desktop3-devel
         - gnome-doc-utils
@@ -1658,7 +1659,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
-        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1717,7 +1717,6 @@ data:
         - libdv-devel
         - libdvdnav-devel
         - libdvdread-devel
-        - libdwarves1
         - libe-book-devel
         - libecb-devel
         - libeconf-devel
@@ -1837,12 +1836,10 @@ data:
         - libldm-devel
         - liblockfile
         - liblockfile-devel
-        - liblognorm
         - liblognorm-devel
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
-        - libluksmeta
         - libluksmeta-devel
         - liblzf
         - liblzf-devel
@@ -1955,10 +1952,8 @@ data:
         - librabbitmq-devel
         - libraqm-devel
         - LibRaw-devel
-        - librdkafka
         - librdkafka-devel
         - libref_array-devel
-        - librelp
         - librelp-devel
         - librevenge-devel
         - libRmath
@@ -2152,7 +2147,6 @@ data:
         - lua-lunit
         - lua-socket
         - lua-term
-        - luksmeta
         - lutok
         - lutok-devel
         - lv2
@@ -2338,8 +2332,6 @@ data:
         - mono-web
         - mono-winforms
         - motif-devel
-        - mozjs60
-        - mozjs60-devel
         - mozjs68-devel
         - mp
         - mp-devel
@@ -2425,6 +2417,8 @@ data:
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
+        - ocaml-cmdliner
+        - ocaml-cmdliner-devel
         - ocaml-compiler-libs
         - ocaml-cppo
         - ocaml-dune
@@ -2450,11 +2444,17 @@ data:
         - ocaml-ocplib-endian-devel
         - ocaml-ounit
         - ocaml-ounit-devel
+        - ocaml-ppx-derivers
+        - ocaml-ppx-derivers-devel
+        - ocaml-react
+        - ocaml-react-devel
         - ocaml-result
         - ocaml-result-devel
         - ocaml-runtime
         - ocaml-seq
         - ocaml-seq-devel
+        - ocaml-zarith
+        - ocaml-zarith-devel
         - ocl-icd
         - ocl-icd-devel
         - octave
@@ -3358,6 +3358,7 @@ data:
         - python3-crochet
         - python3-crypto
         - python3-cryptography-vectors
+        - python3-curio
         - python3-cycler
         - python3-dateparser
         - python3-dbusmock
@@ -3501,6 +3502,7 @@ data:
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
+        - python3-outcome
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandas-datareader
@@ -3607,6 +3609,7 @@ data:
         - python3-simplemediawiki
         - python3-sip-devel
         - python3-smmap
+        - python3-sniffio
         - python3-soupsieve
         - python3-spec
         - python3-sphinxcontrib-apidoc
@@ -3655,6 +3658,7 @@ data:
         - python3-tqdm
         - python3-traitlets
         - python3-translationstring
+        - python3-trio
         - python3-trustme
         - python3-twisted
         - python3-twisted+tls
@@ -3744,7 +3748,6 @@ data:
         - qjson-devel
         - qpdf
         - qpdf-devel
-        - qpid-proton-c
         - qpid-proton-c-devel
         - qrencode-devel
         - qrupdate
@@ -3755,10 +3758,8 @@ data:
         - qt3
         - qt3-devel
         - qt5-designer
-        - qt5-devel
         - qt5-doctools
         - qt5-linguist
-        - qt5-qt3d-devel
         - qt5-qtbase-devel
         - qt5-qtbase-doc
         - qt5-qtbase-private-devel
@@ -3911,7 +3912,6 @@ data:
         - rubygem-hashery
         - rubygem-hiredis
         - rubygem-hpricot
-        - rubygem-hrx
         - rubygem-httpclient
         - rubygem-http-cookie
         - rubygem-http_parser.rb
@@ -3925,7 +3925,6 @@ data:
         - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-launchy
-        - rubygem-linked-list
         - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
@@ -5527,6 +5526,8 @@ data:
         - tex-preview
         - tidy
         - tinycdb-devel
+        - tinyxml2
+        - tinyxml2-devel
         - tix-devel
         - tokyocabinet-devel
         - tomcat-native
@@ -5564,7 +5565,6 @@ data:
         - uriparser
         - uriparser-devel
         - usbguard-devel
-        - usbguard-selinux
         - usbredir-devel
         - usbutils
         - userspace-rcu-devel
@@ -5688,6 +5688,8 @@ data:
         - ykclient
         - ykclient-devel
         - ykpers
+        - z3-devel
+        - z3-libs
         - zbar
         - zbar-devel
         - zchunk
