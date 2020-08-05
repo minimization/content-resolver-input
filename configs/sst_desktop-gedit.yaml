@@ -7,6 +7,7 @@ data:
 
   packages:
    - gedit
+   - gedit-plugins
 
   labels:
   - eln

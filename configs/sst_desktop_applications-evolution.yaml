@@ -6,9 +6,11 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
+   - evolution
+   - evolution-bogofilter
    - evolution-ews
    - evolution-mapi
-   - evolution
+   - evolution-spamassassin
 
   labels:
   - eln
