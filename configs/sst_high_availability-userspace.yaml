@@ -51,6 +51,7 @@ data:
     - fence-agents-ipdu
     - fence-agents-ipmilan
     - fence-agents-kdump
+    - fence-agents-lpar
     - fence-agents-mpath
     - fence-agents-redfish
     - fence-agents-rhevm
@@ -157,6 +158,7 @@ data:
     - fence-agents-vmware-rest
     - fence-agents-vmware-soap
     - fence-agents-wti
+    - fence-agents-zvm
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
