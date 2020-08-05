@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Eye of GNOME
-  description: Default image viewer for Workstation
+  name: Seahorse
+  description: A password and encryption key manager for Workstation
   maintainer: sst_desktop
 
   packages:
-   - eog
+   - seahorse
 
   labels:
   - eln

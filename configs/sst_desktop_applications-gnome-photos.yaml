@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Photos
+  description: Application for managing photos on Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+   - gnome-photos
+
+  labels:
+  - eln
