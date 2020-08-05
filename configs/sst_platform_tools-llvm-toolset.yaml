@@ -32,3 +32,13 @@ data:
 
   labels:
   - eln
+
+  package_placeholders:
+    llvm-toolset:
+      description: Meta-package for llvm-toolset
+      requires:
+        - clang
+        - lldb
+        - llvm
+        - lld
+      buildrequires: []
