@@ -6,13 +6,21 @@ data:
   maintainer: sst_desktop
 
   packages:
+   - fprintd
    - gdm
+   - gnome-backgrounds
+   - gnome-control-center
+   - gnome-color-manager
+   - gnome-common
+   - gnome-devel-docs
+   - gnome-online-miners
+   - gnome-remote-desktop
    - gnome-session
    - gnome-shell
    - gnome-tweaks
-   - gnome-control-center
+   - polkit-gnome
    - tracker
-   - gnome-remote-desktop
+   - xdg-user-dirs-gtk
 
   labels:
   - eln
