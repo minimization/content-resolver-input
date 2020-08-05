@@ -1,14 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: BPF development tools
-  description: Tools needed for BPF developments
+  name: CPU microcode tools
+  description: Tools to update CPU microcode
   maintainer: sst_kernel_tps
 
   packages:
-  - bpftool
-  - libbpf
-  - dwarves
+  - microcode_ctl
 
   labels:
   - eln
