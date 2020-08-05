@@ -17,3 +17,11 @@ data:
 
   labels:
   - eln
+
+  package_placeholders:
+    rust-toolset:
+      description: Meta-package for rust-toolset
+      requires:
+        - rust
+        - cargo
+      buildrequires: []
