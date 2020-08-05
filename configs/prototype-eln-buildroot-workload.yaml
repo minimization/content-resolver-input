@@ -313,6 +313,7 @@ data:
         - docbook5-style-xsl
         - docbook-style-dsssl
         - docbook-utils
+        - docbook-utils-pdf
         - dom4j
         - dontpanic
         - dontpanic-devel
@@ -988,6 +989,7 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
+        - gnome-color-manager
         - gnome-common
         - gnome-desktop3-devel
         - gnome-doc-utils
@@ -1481,6 +1483,7 @@ data:
         - kde-filesystem
         - kde-settings
         - kernel
+        - kernel-srpm-macros
         - keyrings-filesystem
         - kf5-attica
         - kf5-attica-devel
@@ -1906,6 +1909,7 @@ data:
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
+        - libpkgconf-devel
         - libplist-devel
         - libprelude
         - libprelude-devel
@@ -2380,6 +2384,8 @@ data:
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
+        - ocaml-cmdliner
+        - ocaml-cmdliner-devel
         - ocaml-compiler-libs
         - ocaml-cppo
         - ocaml-dune
@@ -2405,11 +2411,17 @@ data:
         - ocaml-ocplib-endian-devel
         - ocaml-ounit
         - ocaml-ounit-devel
+        - ocaml-ppx-derivers
+        - ocaml-ppx-derivers-devel
+        - ocaml-react
+        - ocaml-react-devel
         - ocaml-result
         - ocaml-result-devel
         - ocaml-runtime
         - ocaml-seq
         - ocaml-seq-devel
+        - ocaml-zarith
+        - ocaml-zarith-devel
         - ocl-icd
         - ocl-icd-devel
         - octave
@@ -5471,6 +5483,8 @@ data:
         - tex-preview
         - tidy
         - tinycdb-devel
+        - tinyxml2
+        - tinyxml2-devel
         - tix-devel
         - tokyocabinet-devel
         - tomcat-native
@@ -5629,6 +5643,8 @@ data:
         - yelp-xsl-devel
         - ykclient-devel
         - ykpers
+        - z3-devel
+        - z3-libs
         - zbar
         - zbar-devel
         - zchunk
