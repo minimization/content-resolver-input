@@ -7,14 +7,12 @@ data:
   maintainer: sst_kernel_debug
   packages:
   - kexec-tools
-  - makedumpfile
-  - Kdump-anaconda-addon
+  - kdump-anaconda-addon
   - memstrack
   - crash
   - crash-trace-command
-  - crash-ptrace-command
   - crash-gcore-command
+  - crash-ptdump-command
   - snappy
-  - snappy-devel
   labels:
   - eln
