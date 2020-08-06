@@ -27,5 +27,9 @@ data:
   - libgovirt
   - libgovirt-devel
 
+  - celt051
+  - celt051-devel
+  - xorg-x11-drv-qxl
+
   labels:
   - eln
