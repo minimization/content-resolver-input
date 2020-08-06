@@ -72,6 +72,7 @@ data:
     - haproxy
     - ipvsadm
     - keepalived
+    - libknet1
     - libknet1-compress-bzip2-plugin
     - libknet1-compress-lz4-plugin
     - libknet1-compress-lzma-plugin
@@ -80,7 +81,11 @@ data:
     - libknet1-compress-zlib-plugin
     - libknet1-crypto-openssl-plugin
     - libknet1-crypto-plugins-all
+    - libknet1-devel
     - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
     - pacemaker-cts
     - pacemaker-doc
     - pacemaker-libs-devel
@@ -88,6 +93,7 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
+    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
@@ -96,6 +102,7 @@ data:
     - python3-gflags
     - python3-google-api-client
     - python3-httplib2
+    - python3-jwt
     - python3-oauth2client
     - python3-pexpect
     - python3-ptyprocess
@@ -168,6 +175,7 @@ data:
     - haproxy
     - ipvsadm
     - keepalived
+    - libknet1
     - libknet1-compress-bzip2-plugin
     - libknet1-compress-lz4-plugin
     - libknet1-compress-lzma-plugin
@@ -176,7 +184,11 @@ data:
     - libknet1-compress-zlib-plugin
     - libknet1-crypto-openssl-plugin
     - libknet1-crypto-plugins-all
+    - libknet1-devel
     - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
     - pacemaker-cts
     - pacemaker-doc
     - pacemaker-libs-devel
@@ -184,6 +196,7 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
+    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
@@ -192,6 +205,7 @@ data:
     - python3-gflags
     - python3-google-api-client
     - python3-httplib2
+    - python3-jwt
     - python3-oauth2client
     - python3-pexpect
     - python3-ptyprocess
@@ -263,6 +277,7 @@ data:
     - haproxy
     - ipvsadm
     - keepalived
+    - libknet1
     - libknet1-compress-bzip2-plugin
     - libknet1-compress-lz4-plugin
     - libknet1-compress-lzma-plugin
@@ -271,7 +286,11 @@ data:
     - libknet1-compress-zlib-plugin
     - libknet1-crypto-openssl-plugin
     - libknet1-crypto-plugins-all
+    - libknet1-devel
     - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
     - pacemaker-cts
     - pacemaker-doc
     - pacemaker-libs-devel
@@ -279,6 +298,7 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
+    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
@@ -287,6 +307,7 @@ data:
     - python3-gflags
     - python3-google-api-client
     - python3-httplib2
+    - python3-jwt
     - python3-oauth2client
     - python3-pexpect
     - python3-ptyprocess
