@@ -1,0 +1,15 @@
+Document: bluefield-smartnic-workload
+version: 1
+data:
+name: Bluefileld                   
+  description: Packages required for Mellanox Bluefield SmartNIC
+  maintainer: sst_arch_hw          
+  packages: []
+
+labels:
+- eln
+
+aach64: 
+- mlxbf-bootcl
+- bfscripts
+- RSHIM
