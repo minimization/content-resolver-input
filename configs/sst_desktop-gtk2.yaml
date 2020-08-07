@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: GTK 3 toolkit
+  name: GTK 2 toolkit
   description: Software toolkit for developing applications
   maintainer: sst_desktop
 
   packages:
-   - gtk3
+   - gtk2
 
   labels:
   - eln
