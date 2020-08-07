@@ -2298,8 +2298,6 @@ data:
         - mono-web
         - mono-winforms
         - motif-devel
-        - mozjs60
-        - mozjs60-devel
         - mozjs68-devel
         - mp
         - mp-devel
@@ -3322,6 +3320,7 @@ data:
         - python3-crochet
         - python3-crypto
         - python3-cryptography-vectors
+        - python3-curio
         - python3-cycler
         - python3-dateparser
         - python3-dbusmock
@@ -3465,6 +3464,7 @@ data:
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
+        - python3-outcome
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandas-datareader
@@ -3571,6 +3571,7 @@ data:
         - python3-simplemediawiki
         - python3-sip-devel
         - python3-smmap
+        - python3-sniffio
         - python3-soupsieve
         - python3-spec
         - python3-sphinxcontrib-apidoc
@@ -3619,6 +3620,7 @@ data:
         - python3-tqdm
         - python3-traitlets
         - python3-translationstring
+        - python3-trio
         - python3-trustme
         - python3-twisted
         - python3-twisted+tls
