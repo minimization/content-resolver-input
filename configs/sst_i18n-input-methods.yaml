@@ -17,7 +17,6 @@ data:
   - ibus-libpinyin
   - ibus-libzhuyin
   - ibus-m17n
-  - ibus-sayura
   - ibus-table-chinese-array
   - ibus-table-chinese-cangjie
   - ibus-table-chinese-cantonese

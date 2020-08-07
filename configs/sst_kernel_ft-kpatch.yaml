@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kpatch
+  description: Dynamic kernel patch manager
+  maintainer: sst_kernel_ft
+
+  packages:
+  - kpatch
+
+  labels:      # <-- Please leave
+  - eln        #     this unchanged.
+
+#  # (Only include the following section if you have arch-specific packages.)
+#  arch_packages:
+#    x86_64:                    # <-- Architecture
+#    - arch-specific-package1   # <-- The list of binary RPM packages
+#    - arch-specific-package1   #     goes here.
