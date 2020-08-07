@@ -1,0 +1,66 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Desktop - Blocked packages
+  description: Desktop - Packages which should not be in ELN
+  maintainer: sst_desktop
+  unwanted_packages:
+  # Future candidates:
+  # - libgnomekbd
+  # quvi is disabled as a dependency of Totem in RHEL
+  - libquvi-scripts
+  - libquvi
+  - lua-expat
+  - lua-filesystem
+  - lua-json
+  - lua-lpeg
+  - lua-lunit
+  - lua-posix
+  - lua-socket
+  # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
+  - libgpod
+  - media-player-info
+  - libmtp
+  - rhythmbox
+  # Support for file access for iPhones/iPads dropped from RHEL 9
+  - libimobiledevice
+  - libplist
+  - libusbmuxd
+  - usbmuxd
+  # Replaced by fwupd
+  - fwupdate
+  # DLNA support dropped from RHEL 9
+  - gssdp
+  - gupnp-av
+  - gupnp-dlna
+  - gupnp-igd
+  - gupnp
+  - dleyna-connector-dbus
+  - dleyna-core
+  - dleyna-renderer
+  - dleyna-server
+  # Replaced by gnome-session-kiosk-session
+  - metacity
+  # Mouse a11y is now provided by gnome-shell
+  - mousetweaks
+  - gnome-themes-standard
+  # Old mozjs releases, the whole system should use only one mozjs - version 68 currently
+  - mozjs52
+  - mozjs60
+  # Old or deprecated or unwanted or unused stuff
+  - clutter-gtk
+  - clutter-gst3
+  - clutter
+  - cogl
+  - libIDL
+  - redhat-menus
+  - gnome-menus
+  - dbus-c++
+  - libcroco
+  - enca
+  - libchamplain
+  - libbluray
+  - libdmapsharing
+  - libaec
+  labels:
+  - eln
