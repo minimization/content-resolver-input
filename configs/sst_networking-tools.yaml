@@ -22,7 +22,6 @@ data:
   - nmap-ncat
   - plotnetcfg
   - python3-scapy
-  - socat
   - tcpdump
   - traceroute
   - wireshark
