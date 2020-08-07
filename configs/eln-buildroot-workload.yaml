@@ -30,12 +30,16 @@ data:
         - alsa-lib-devel
         - amtk-devel
         - ant
+        - ant-antlr
         - ant-apache-xalan2
         - ant-contrib
         - anthy
         - anthy-devel
         - ant-junit
         - ant-lib
+        - antlr32-java
+        - antlr32-maven-plugin
+        - antlr32-tool
         - antlr-tool
         - ant-testutil
         - aopalliance
@@ -506,6 +510,7 @@ data:
         - gdm-devel
         - gdm-pam-extensions-devel
         - gecode
+        - gecode-devel
         - gegl04
         - gegl04-devel
         - gegl04-tools
@@ -1389,6 +1394,7 @@ data:
         - icc-profiles-openicc
         - icoutils
         - icu
+        - icu4j
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1473,13 +1479,14 @@ data:
         - jmock-legacy
         - jmock-testjar
         - jna-contrib
+        - jnr-constants
+        - jnr-posix
+        - jnr-x86asm
         - jq-devel
         - js-backbone
         - jsch
         - js-coffee-script
         - js-jquery
-        - js-jquery1
-        - js-jquery2
         - js-marked
         - json-c-devel
         - jsoncpp-devel
@@ -1659,6 +1666,7 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
+        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -2377,6 +2385,7 @@ data:
         - netpbm-progs
         - net-snmp-devel
         - net-snmp-utils
+        - netty
         - newt-devel
         - neXtaw
         - neXtaw-devel
@@ -2498,6 +2507,7 @@ data:
         - orc-compiler
         - orc-devel
         - osgi-annotation
+        - os-maven-plugin
         - ostree-devel
         - p11-kit-server
         - p7zip
@@ -5176,6 +5186,7 @@ data:
         - srt-devel
         - startup-notification-devel
         - stax2-api
+        - stringtemplate
         - stunnel
         - subunit
         - subunit-devel
