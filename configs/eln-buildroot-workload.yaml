@@ -88,7 +88,6 @@ data:
         - augeas
         - augeas-devel
         - autoconf213
-        - autoconf-archive
         - autogen
         - autogen-libopts-devel
         - automoc
@@ -98,7 +97,6 @@ data:
         - avahi-gobject
         - avahi-gobject-devel
         - b43-tools
-        - babl
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
@@ -193,7 +191,6 @@ data:
         - cfitsio
         - cfitsio-devel
         - cglib
-        - chan-devel
         - CharLS
         - CharLS-devel
         - check
@@ -315,6 +312,7 @@ data:
         - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
+        - dleyna-core-devel
         - dlm-devel
         - dmenu
         - dmraid-devel
@@ -511,7 +509,7 @@ data:
         - gdm-pam-extensions-devel
         - gecode
         - gecode-devel
-        - gegl04
+        - gedit-devel
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
@@ -529,6 +527,7 @@ data:
         - geronimo-saaj
         - gettext-common-devel
         - gettext-devel
+        - gfbgraph-devel
         - gflags
         - gflags-devel
         - ghc
@@ -1001,8 +1000,6 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
-        - gnome-color-manager
-        - gnome-common
         - gnome-desktop3-devel
         - gnome-doc-utils
         - gnome-doc-utils-stylesheets
@@ -1334,13 +1331,12 @@ data:
         - gts-devel
         - guava
         - guava-testlib
+        - gucharmap-devel
         - guice-servlet
         - guile22-devel
         - guile-devel
-        - gupnp-av
         - gupnp-av-devel
         - gupnp-devel
-        - gupnp-dlna
         - gupnp-dlna-devel
         - gupnp-igd-devel
         - gvnc-devel
@@ -1358,7 +1354,6 @@ data:
         - hdf-devel
         - hdf-libs
         - hdf-static
-        - HdrHistogram_c-devel
         - help2man
         - hexedit
         - hidapi
@@ -1418,7 +1413,6 @@ data:
         - iso-codes-devel
         - isorelax
         - istack-commons-tools
-        - itstool
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1706,7 +1700,6 @@ data:
         - libdap
         - libdap-devel
         - libdatrie-devel
-        - libdazzle
         - libdazzle-devel
         - libdbi
         - libdbi-devel
@@ -1768,9 +1761,8 @@ data:
         - libgfapi-devel
         - libgfrpc-devel
         - libgfxdr-devel
-        - libgit2
         - libgit2-devel
-        - libgit2-glib
+        - libgit2-glib-devel
         - libglade2
         - libglade2-devel
         - libglusterfs-devel
@@ -1829,7 +1821,6 @@ data:
         - libixion
         - libixion-devel
         - libjcat-devel
-        - libjose-devel
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
@@ -1848,7 +1839,6 @@ data:
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
-        - libluksmeta-devel
         - liblzf
         - liblzf-devel
         - libmad-devel
@@ -1926,6 +1916,7 @@ data:
         - libotf-devel
         - libotr-devel
         - libpagemaker-devel
+        - libpamtest
         - libpaper-devel
         - libpath_utils-devel
         - libpcap-devel
@@ -2112,6 +2103,7 @@ data:
         - libytnef-devel
         - libyubikey
         - libyubikey-devel
+        - libzapojit-devel
         - libzmf-devel
         - lilv
         - lilv-devel
@@ -2172,7 +2164,6 @@ data:
         - mailx
         - malaga
         - malaga-suomi-voikko
-        - mallard-rng
         - man2html-core
         - man-pages
         - mariadb-cracklib-password-check
@@ -2476,14 +2467,12 @@ data:
         - openblas-openmp
         - openblas-openmp64
         - openblas-openmp64_
-        - openblas-serial
         - openblas-serial64
         - openblas-serial64_
         - openblas-threads64
         - openblas-threads64_
         - openchange-devel
         - opencl-headers
-        - opencryptoki-devel
         - opencsd
         - opencsd-devel
         - opencv
@@ -3201,8 +3190,6 @@ data:
         - php-xml
         - physfs
         - physfs-devel
-        - pinentry
-        - pinentry-gnome3
         - pinentry-gtk
         - pipewire0.2-devel
         - pipewire-devel
@@ -3240,7 +3227,6 @@ data:
         - po4a
         - polkit-devel
         - polkit-docs
-        - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
         - poly2tri-devel
@@ -3471,6 +3457,7 @@ data:
         - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
+        - python3-libpamtest
         - python3-libvoikko
         - python3-m2r
         - python3-mallard-ducktype
@@ -5150,6 +5137,7 @@ data:
         - slf4j-ext
         - slf4j-sources
         - snakeyaml
+        - snappy-devel
         - snappy-java
         - sni-qt
         - socket_wrapper
@@ -5193,7 +5181,6 @@ data:
         - subversion
         - subversion-libs
         - subversion-perl
-        - suitesparse
         - suitesparse64
         - suitesparse-devel
         - sundials
@@ -5570,6 +5557,7 @@ data:
         - umockdev-devel
         - unbound-devel
         - unicode-emoji
+        - unicode-ucd-unihan
         - univocity-output-tester
         - univocity-parsers
         - upower-devel
@@ -5600,7 +5588,6 @@ data:
         - wayland-protocols-devel
         - wdiff
         - web-assets-devel
-        - web-assets-filesystem
         - webkit2gtk3-devel
         - webkit2gtk3-jsc-devel
         - webrtc-audio-processing-devel
@@ -5639,7 +5626,6 @@ data:
         - xcb-util-xrm
         - xcb-util-xrm-devel
         - xdg-desktop-portal-devel
-        - xdg-user-dirs
         - xemacs
         - xemacs-common
         - xemacs-filesystem
@@ -5694,7 +5680,6 @@ data:
         - yajl-devel
         - yasm
         - yelp-devel
-        - yelp-tools
         - yelp-xsl-devel
         - ykclient
         - ykclient-devel
@@ -5749,6 +5734,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
             - libsysfs
@@ -5799,6 +5785,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libpq-devel
             - libraw1394-devel
@@ -5886,6 +5873,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
             - libsysfs
