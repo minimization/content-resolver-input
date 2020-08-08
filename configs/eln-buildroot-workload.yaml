@@ -3581,7 +3581,6 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-gssapi
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
