@@ -14,6 +14,7 @@ data:
   - rust-doc
   - rust-std-static
   - rustfmt
+  - rust-srpm-macros
 
   labels:
   - eln
