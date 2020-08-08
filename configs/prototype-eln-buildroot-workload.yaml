@@ -30,12 +30,16 @@ data:
         - alsa-lib-devel
         - amtk-devel
         - ant
+        - ant-antlr
         - ant-apache-xalan2
         - ant-contrib
         - anthy
         - anthy-devel
         - ant-junit
         - ant-lib
+        - antlr32-java
+        - antlr32-maven-plugin
+        - antlr32-tool
         - antlr-tool
         - ant-testutil
         - aopalliance
@@ -1374,6 +1378,7 @@ data:
         - icc-profiles-openicc
         - icoutils
         - icu
+        - icu4j
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1454,6 +1459,9 @@ data:
         - jmock-legacy
         - jmock-testjar
         - jna-contrib
+        - jnr-constants
+        - jnr-posix
+        - jnr-x86asm
         - jq-devel
         - js-backbone
         - jsch
@@ -2333,6 +2341,7 @@ data:
         - netpbm-progs
         - net-snmp-devel
         - net-snmp-utils
+        - netty
         - newt-devel
         - neXtaw
         - neXtaw-devel
@@ -2451,6 +2460,7 @@ data:
         - orc-compiler
         - orc-devel
         - osgi-annotation
+        - os-maven-plugin
         - ostree-devel
         - p11-kit-server
         - p7zip
@@ -3533,7 +3543,6 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-gssapi
         - python3-requests-unixsocket
         - python3-responses
         - python3-rjsmin
@@ -5122,6 +5131,7 @@ data:
         - srt-devel
         - startup-notification-devel
         - stax2-api
+        - stringtemplate
         - stunnel
         - subunit
         - subunit-devel
