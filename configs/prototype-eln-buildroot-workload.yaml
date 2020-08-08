@@ -974,8 +974,6 @@ data:
         - glib
         - glib2-doc
         - glib2-static
-        - glibc-langpack-km
-        - glibc-locale-source
         - glib-devel
         - glibmm24-devel
         - gl-manpages
@@ -1467,8 +1465,6 @@ data:
         - jsch
         - js-coffee-script
         - js-jquery
-        - js-jquery1
-        - js-jquery2
         - js-marked
         - json-c-devel
         - jsoncpp-devel
@@ -5100,6 +5096,7 @@ data:
         - snappy-devel
         - snappy-java
         - sni-qt
+        - socat
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
@@ -5787,8 +5784,6 @@ data:
             - gnome-bluetooth-libs
             - libdv
             - libftdi
-            - libica
-            - libica-devel
             - libimobiledevice
             - libplist
             - libusbmuxd
