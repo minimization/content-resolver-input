@@ -983,8 +983,6 @@ data:
         - glib
         - glib2-doc
         - glib2-static
-        - glibc-langpack-km
-        - glibc-locale-source
         - glib-devel
         - glibmm24-devel
         - gl-manpages
@@ -5139,6 +5137,7 @@ data:
         - snappy-devel
         - snappy-java
         - sni-qt
+        - socat
         - socket_wrapper
         - sombok-devel
         - sonatype-oss-parent
