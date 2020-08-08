@@ -29,6 +29,7 @@ data:
   - lldb
   - lldb-devel
   - python3-lldb
+  - python-lit
 
   labels:
   - eln
