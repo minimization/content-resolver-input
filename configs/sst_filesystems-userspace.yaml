@@ -6,9 +6,36 @@ data:
   maintainer: sst_filesystems
 
   packages:
+    - autofs
     - blktrace
+    - cachefilesd
+    - cifs-utils
+    - cifs-utils-devel
     - e2fsprogs
     - fio
+    - fuse
+    - fuse-common
+    - fuse-devel
+    - fuse-libs
+    - fuse3
+    - fuse3-devel
+    - fuse3-libs
+    - keyutils
+    - keyutils-libs
+    - keyutils-libs-devel
+    - libnfsidmap
+    - libnfsidmap-devel
+    - libtirpc
+    - libtirpc-devel
+    - nfs-utils
+    - nfs-utils-coreos
+    - nfs4-acl-tools
+    - pam_cifscreds
+    - rpcbind
+    - rpcgen
+    - rpcsvc-proto
+    - rpcsvc-proto-devel
+    - system-storage-manager
     - xfsdump
     - xfsprogs
 
