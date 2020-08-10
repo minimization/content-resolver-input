@@ -10,6 +10,7 @@ data:
   - rubygem-bundler-doc
   - rubygem-rspec-its
   - rubygem-rspec-its-doc
+  - rubypick
 
   labels:
   - eln
