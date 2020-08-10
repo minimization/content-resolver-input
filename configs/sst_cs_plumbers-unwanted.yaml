@@ -1,0 +1,45 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Core Services Plumbers - Blocked packages
+  description: Core Services Plumbers - Packages which should not be in ELN
+  maintainer: sst_cs_plumbers
+
+  unwanted_packages:
+  - redhat-lsb
+  - redhat-lsb-core
+  - redhat-lsb-cxx
+  - redhat-lsb-desktop
+  - redhat-lsb-languages
+  - redhat-lsb-printing
+  - redhat-lsb-submod-multimedia
+  - redhat-lsb-submod-security
+  - redhat-lsb-supplemental
+  - redhat-lsb-trialuse
+  - rtkit
+  - ed
+  - emacs-terminal
+  - tftp
+  - tftp-server
+  - elinks
+  - libnice
+  - libnice-devel
+  - libnice-gstreamer1
+  - libtar
+  - libtar-devel
+  - python3-bottle
+  - vorbis-tools
+  - atlas-corei2
+  - atlas-corei2-devel
+  - atlas-corei2-static
+  - atlas-z10
+  - atlas-z10-devel
+  - atlas-z10-static
+  - atlas-z196
+  - atlas-z196-devel
+  - atlas-z196-static
+  - systemd-tests
+  - network-scripts
+
+  labels:
+  - eln
