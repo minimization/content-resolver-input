@@ -112,8 +112,9 @@ data:
     - python3-blivet
     - python3-blockdev
     - python3-libstoragemgmt
+    - python3-pywbem
     - sg3_utils
-    - udisks
+    - udisks2
     - udisks2-iscsi
     - udisks2-lsm
     - udisks2-lvm2
