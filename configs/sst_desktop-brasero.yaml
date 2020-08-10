@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - brasero
+  - brasero
+  - brasero-nautilus
 
   labels:
   - eln

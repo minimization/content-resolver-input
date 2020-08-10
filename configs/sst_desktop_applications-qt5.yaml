@@ -6,12 +6,13 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - qt5
-   - qt5-doc
-   - qt5-qtcanvas3d
-   - qt5-qtserialbus
-   - qt5-qttranslations
-   - qgnomeplatform
+  - adwaita-qt
+  - qt5
+  - qt5-doc
+  - qt5-qtcanvas3d
+  - qt5-qtserialbus
+  - qt5-qttranslations
+  - qgnomeplatform
 
   labels:
   - eln

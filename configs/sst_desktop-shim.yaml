@@ -11,7 +11,7 @@ data:
   - eln
 
   arch_packages:
-    aarch64:
-    - shim-unsigned-aarch64
-    x86_64:
-    - shim-unsigned-x64
+   aarch64:
+   - shim-unsigned-aarch64
+   x86_64:
+   - shim-unsigned-x64

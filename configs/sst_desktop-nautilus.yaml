@@ -6,10 +6,10 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - sushi
-   - nautilus
-   - nautilus-sendto
-   - file-roller
+  - sushi
+  - nautilus
+  - nautilus-sendto
+  - file-roller
 
   labels:
   - eln

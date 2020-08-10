@@ -6,7 +6,22 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - plymouth
+  - plymouth
+  - plymouth-core-libs
+  - plymouth-graphics-libs
+  - plymouth-plugin-fade-throbber
+  - plymouth-plugin-label
+  - plymouth-plugin-script
+  - plymouth-plugin-space-flares
+  - plymouth-plugin-two-step
+  - plymouth-scripts
+  - plymouth-system-theme
+  - plymouth-theme-charge
+  - plymouth-theme-fade-in
+  - plymouth-theme-script
+  - plymouth-theme-solar
+  - plymouth-theme-spinfinity
+  - plymouth-theme-spinner
 
   labels:
   - eln

@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - totem
+  - totem
+  - totem-nautilus
 
   labels:
   - eln

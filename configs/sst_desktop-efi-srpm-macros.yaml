@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - efi-srpm-macros
+  - efi-srpm-macros
 
   labels:
   - eln

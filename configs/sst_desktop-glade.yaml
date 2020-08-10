@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - glade
+  - glade
 
   labels:
   - eln
