@@ -1274,7 +1274,6 @@ data:
         - go-rpm-macros
         - gperf
         - gperftools-devel
-        - gperftools-libs
         - gpgme-devel
         - gpgmepp-devel
         - gphoto2
@@ -2343,7 +2342,6 @@ data:
         - neXtaw-devel
         - nftables-devel
         - nghttp2
-        - nginx-filesystem
         - nilfs-utils
         - ninja-build
         - nkf
@@ -5737,6 +5735,7 @@ data:
             - flashrom-devel
             - golang-github-hpcloud-tail-devel
             - golang-github-onsi-ginkgo-devel
+            - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
             - libavc1394-devel
@@ -5782,6 +5781,7 @@ data:
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - gperftools-libs
             - libdv
             - libftdi
             - libimobiledevice
