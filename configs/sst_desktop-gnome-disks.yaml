@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gnome-disk-utility
+  - gnome-disk-utility
 
   labels:
   - eln

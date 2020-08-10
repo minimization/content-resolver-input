@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Orca
-  description: A screen reader for Workstation 
+  name: Yelp
+  description: Default help application in Workstation
   maintainer: sst_desktop
 
   packages:
-   - orca
+  - yelp
 
   labels:
   - eln
