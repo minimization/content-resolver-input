@@ -6,12 +6,21 @@ data:
   maintainer: sst_cs_apps
 
   unwanted_packages:
-  # Python 3.6 is quickly becoming obsolete, and might presumably
-  # be pulled into a RHEL-like environment.
+  # The "other" Python versions might accidentally be pulled in by not yet rebuilt packages
+  # They are also Recommended by tox and hence pulled in as weak dependencies
+  - python3.5
   - python3.6
-
-  # The older Python version might accidentally be pulled in by not yet rebuilt packages
+  - python3.7
   - python3.8
+  - pypy
+  - pypy-devel
+  - pypy-libs
+  - pypy2
+  - pypy2-devel
+  - pypy2-libs
+  - pypy3
+  - pypy3-devel
+  - pypy3-libs
 
   # Python Maint prefers the standard library venv module
   - python3-virtualenv
