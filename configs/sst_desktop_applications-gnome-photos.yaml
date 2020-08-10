@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - gnome-photos
+  - gnome-photos
+  - gnome-photos-tests
 
   labels:
   - eln

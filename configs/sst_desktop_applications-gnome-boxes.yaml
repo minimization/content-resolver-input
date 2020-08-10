@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - gnome-boxes
+  - gnome-boxes
 
   labels:
   - eln

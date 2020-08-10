@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gnome-font-viewer
+  - gnome-font-viewer
 
   labels:
   - eln

@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gnu-efi
+  - gnu-efi
 
   labels:
   - eln

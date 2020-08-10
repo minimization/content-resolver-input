@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - evince
+  - evince
+  - evince-nautilus
 
   labels:
   - eln

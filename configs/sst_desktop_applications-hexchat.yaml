@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Yelp
-  description: Default help application in Workstation
+  name: Hexchat
+  description: A graphical IRC client application for Workstation
   maintainer: sst_desktop_applications
 
   packages:
-   - yelp
+  - hexchat
 
   labels:
   - eln

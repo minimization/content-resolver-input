@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gtk2
+  - gtk2
+  - gtk-doc
 
   labels:
   - eln
