@@ -6,8 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gnome-software
-   - fwupd
+  - gnome-software
+  - fwupd
 
   labels:
   - eln

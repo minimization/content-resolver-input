@@ -6,7 +6,13 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - firefox
+  - firefox
 
   labels:
   - eln
+
+  package_placeholders:
+    redhat-bookmarks:
+      description: This package contains the default bookmarks for Red Hat Enterprise Linux
+      requires: []
+      buildrequires: []

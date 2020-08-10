@@ -6,7 +6,10 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - tigervnc
+  - tigervnc
+  - tigervnc-selinux
+  - tigervnc-server
+  - tigervnc-server-module
 
   labels:
   - eln
