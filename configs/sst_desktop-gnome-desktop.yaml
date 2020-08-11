@@ -6,6 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
+  # Because of gnome-common
+  - autoconf-archive
   - fprintd
   - fprintd-pam
   - freerdp
@@ -16,7 +18,7 @@ data:
   - glib2-static
   - glib2-tests
   - gnome-backgrounds
-  - gnome-backgrounds-extra
+  - gnome-backgrounds-extras
   - gnome-control-center
   - gnome-color-manager
   - gnome-common
@@ -30,10 +32,8 @@ data:
   - gnome-shell-extension-drive-menu
   - gnome-shell-extension-native-window-placement
   - gnome-shell-extension-screenshot-window-sizer
-  - gnome-shell-extension-systemMonitor
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
-  - gunome-shell-extension-user-theme
   - gnome-tweaks
   - polkit-gnome
   - tracker
@@ -61,5 +61,13 @@ data:
       buildrequires: []
     redhat-backgrounds:
       description: Red Hat-related desktop backgrounds
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-systemMonitor:
+      description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-user-theme:
+      description: Support for custom themes in GNOME Shell
       requires: []
       buildrequires: []
