@@ -7,6 +7,7 @@ data:
 
   packages:
   - syslinux
+  - syslinux-tftpboot
 
   labels:
   - eln
