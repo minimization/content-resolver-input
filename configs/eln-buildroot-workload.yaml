@@ -265,6 +265,7 @@ data:
         - console-setup
         - corosync
         - corosynclib-devel
+        - cppcheck
         - cppunit
         - cppunit-devel
         - cracklib-devel
@@ -449,7 +450,6 @@ data:
         - ftgl
         - ftgl-devel
         - fuse3-devel
-        - fuse3-libs
         - fuse-devel
         - fusesource-pom
         - fwupd-devel
@@ -626,6 +626,9 @@ data:
         - ghc-deepseq-devel
         - ghc-deepseq-prof
         - ghc-devel
+        - ghc-Diff
+        - ghc-Diff-devel
+        - ghc-Diff-prof
         - ghc-digest
         - ghc-digest-devel
         - ghc-digest-prof
@@ -790,6 +793,9 @@ data:
         - ghc-regex-pcre
         - ghc-regex-pcre-devel
         - ghc-regex-pcre-prof
+        - ghc-regex-tdfa
+        - ghc-regex-tdfa-devel
+        - ghc-regex-tdfa-prof
         - ghc-rpm-macros
         - ghc-rpm-macros-extra
         - ghc-safe
@@ -978,6 +984,7 @@ data:
         - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
         - golang-etcd-devel
+        - golang-github-acobaugh-osrelease-devel
         - golang-github-afex-hystrix-devel
         - golang-github-alcortesm-tgz-devel
         - golang-github-alecthomas-template-devel
@@ -997,6 +1004,7 @@ data:
         - golang-github-azure-storage-blob-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
+        - golang-github-briandowns-spinner-devel
         - golang-github-burntsushi-toml-devel
         - golang-github-burntsushi-toml-test
         - golang-github-cactus-statsd-client-devel
@@ -1022,6 +1030,7 @@ data:
         - golang-github-dgrijalva-jwt-devel
         - golang-github-dimchansky-utfbom-devel
         - golang-github-dnaeon-vcr-devel
+        - golang-github-docker-units-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
@@ -1055,6 +1064,7 @@ data:
         - golang-github-grpc-ecosystem-gateway-devel
         - golang-github-grpc-ecosystem-middleware-devel
         - golang-github-grpc-ecosystem-prometheus-devel
+        - golang-github-harrymichal-version-devel
         - golang-github-hashicorp-cleanhttp-devel
         - golang-github-hashicorp-consul-devel
         - golang-github-hashicorp-errwrap-devel
@@ -1316,8 +1326,6 @@ data:
         - httpcomponents-project
         - http-parser-devel
         - hunspell-devel
-        - hunspell-en
-        - hunspell-en-GB
         - hwloc-devel
         - hwloc-gui
         - hyphen-devel
@@ -1406,6 +1414,8 @@ data:
         - jetty-server
         - jetty-servlet
         - jetty-util
+        - jffi
+        - jffi-native
         - jflex
         - jFormatString
         - jgit
@@ -1417,6 +1427,8 @@ data:
         - jmock-testjar
         - jna-contrib
         - jnr-constants
+        - jnr-ffi
+        - jnr-netdb
         - jnr-posix
         - jnr-x86asm
         - jq-devel
@@ -1436,6 +1448,7 @@ data:
         - junit
         - junit5
         - jvnet-parent
+        - jython
         - jzlib
         - kde-filesystem
         - kde-settings
@@ -1888,6 +1901,7 @@ data:
         - libsamplerate-devel
         - libsass
         - libsass-devel
+        - libseccomp-static
         - libsemanage-static
         - libsepol-static
         - libserf
@@ -2301,6 +2315,7 @@ data:
         - objenesis
         - ocaml
         - ocaml-compiler-libs
+        - ocaml-findlib
         - ocaml-labltk
         - ocaml-labltk-devel
         - ocaml-ocamlbuild
@@ -2332,6 +2347,7 @@ data:
         - opencsd-devel
         - opencv
         - opencv-contrib
+        - opencv-core
         - opencv-devel
         - OpenEXR-devel
         - openjpeg2-devel
@@ -2392,6 +2408,7 @@ data:
         - perl-Alien-cmake3
         - perl-Alien-FFI
         - perl-Alien-Libxml2
+        - perl-Alien-pkgconf
         - perl-AnyEvent
         - perl-AnyEvent-AIO
         - perl-AnyEvent-BDB
@@ -3280,7 +3297,6 @@ data:
         - python3-path
         - python3-pathlib2
         - python3-pathspec
-        - python3-pbr
         - python3-pexpect
         - python3-pickleshare
         - python3-pika
@@ -3295,7 +3311,6 @@ data:
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
-        - python3-psutil
         - python3-ptyprocess
         - python3-pungi
         - python3-py3dns
@@ -3788,6 +3803,7 @@ data:
         - SFML-devel
         - shapelib-devel
         - sharutils
+        - ShellCheck
         - shrinkwrap
         - shrinkwrap-impl-base
         - shrinkwrap-spi
