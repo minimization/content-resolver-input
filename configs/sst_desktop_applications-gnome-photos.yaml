@@ -8,6 +8,7 @@ data:
   packages:
   - gnome-photos
   - gnome-photos-tests
+  - exiv2
 
   labels:
   - eln
