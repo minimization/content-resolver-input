@@ -69,6 +69,7 @@ data:
         - aspell-devel
         - aspell-en
         - assertj-core
+        - assimp-devel
         - atf-tests
         - atinject
         - atkmm-devel
@@ -270,7 +271,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - cryptsetup
         - cryptsetup-devel
         - cscope
         - csnappy
@@ -295,6 +295,8 @@ data:
         - device-mapper-multipath-devel
         - DevIL
         - DevIL-devel
+        - DevIL-ILUT
+        - DevIL-ILUT-devel
         - diffstat
         - disruptor
         - distribution-gpg-keys
@@ -304,6 +306,7 @@ data:
         - dlm-devel
         - dlm-lib
         - dmraid-devel
+        - dnf-utils
         - docbook2X
         - docbook5-schemas
         - docbook5-style-xsl
@@ -1346,6 +1349,9 @@ data:
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
         - iptables-devel
+        - irrlicht
+        - irrlicht-devel
+        - irrXML-devel
         - iscsi-initiator-utils-devel
         - isl-devel
         - isns-utils-devel
@@ -1555,6 +1561,8 @@ data:
         - libacl-devel
         - libaec
         - libaec-devel
+        - libaesgm
+        - libaesgm-devel
         - libao-devel
         - libaom-devel
         - libappindicator
@@ -1742,6 +1750,7 @@ data:
         - libixion
         - libixion-devel
         - libjcat-devel
+        - libjose-devel
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
@@ -1773,7 +1782,6 @@ data:
         - libmicrohttpd-devel
         - libmikmod
         - libmikmod-devel
-        - libmng
         - libmng-devel
         - libmnl-devel
         - libmodman-devel
@@ -2201,6 +2209,7 @@ data:
         - mingw-filesystem-base
         - miniz
         - miniz-devel
+        - minizip-compat-devel
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
@@ -2318,6 +2327,7 @@ data:
         - openblas-threads64_
         - openchange-devel
         - opencl-headers
+        - opencryptoki-devel
         - opencsd
         - opencsd-devel
         - opencv
@@ -2998,6 +3008,7 @@ data:
         - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
+        - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -3245,6 +3256,7 @@ data:
         - python3-nose-cover3
         - python3-notebook
         - python3-nototools
+        - python3-ntplib
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
@@ -3432,6 +3444,7 @@ data:
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
+        - python3-wcwidth
         - python3-webencodings
         - python3-webob
         - python3-webtest
@@ -3471,14 +3484,12 @@ data:
         - qrupdate-devel
         - qscintilla-qt5
         - qscintilla-qt5-devel
-        - qt
         - qt3
         - qt3-devel
         - qt5-designer
         - qt5-doctools
         - qt5-linguist
         - qt5-qtbase-devel
-        - qt5-qtbase-doc
         - qt5-qtbase-private-devel
         - qt5-qtbase-static
         - qt5-qtconnectivity-devel
@@ -3486,18 +3497,15 @@ data:
         - qt5-qtdeclarative-static
         - qt5-qtlocation-devel
         - qt5-qtmultimedia-devel
-        - qt5-qtscript
         - qt5-qtscript-devel
         - qt5-qtsensors-devel
         - qt5-qtserialport-devel
         - qt5-qtspeech
         - qt5-qtspeech-devel
         - qt5-qtsvg-devel
-        - qt5-qttools
         - qt5-qttools-devel
         - qt5-qttools-libs-designercomponents
         - qt5-qttools-static
-        - qt5-qtwayland
         - qt5-qtwayland-devel
         - qt5-qtwebchannel-devel
         - qt5-qtwebkit
@@ -3506,7 +3514,6 @@ data:
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
         - qt5-rpm-macros
-        - qt-common
         - qt-devel
         - qt-mobility
         - qt-mobility-bearer
@@ -3524,7 +3531,6 @@ data:
         - qt-mobility-systeminfo
         - qtwebkit
         - qtwebkit-devel
-        - qt-x11
         - quilt
         - quota-devel
         - ragel
