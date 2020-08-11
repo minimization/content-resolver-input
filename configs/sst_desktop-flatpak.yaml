@@ -8,8 +8,6 @@ data:
   packages:
   - flatpak
   - flatpak-builder
-  - flatpak-runtime-container
-  - flatpak-sdk-container
   - flatpak-selinux
 
   labels:
