@@ -13,8 +13,14 @@ data:
   - gnome-shell-extension-horizontal-workspaces
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-launch-new-instance
-  - gnome-shell-extension-top-icons
   - gnome-shell-extension-window-list
 
   labels:
   - eln
+
+  package_placeholders:
+    # Only gnome-shell-extension-topicons-plus is available in Fedora
+    gnome-shell-extension-top-icons:
+      description: This GNOME Shell extension moves legacy tray icons into the top bar
+      requires: []
+      buildrequires: []
