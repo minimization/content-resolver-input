@@ -83,7 +83,6 @@ data:
         - augeas
         - augeas-devel
         - autoconf213
-        - autoconf-archive
         - autogen
         - autogen-libopts-devel
         - automoc
@@ -447,7 +446,6 @@ data:
         - fwupd-devel
         - game-music-emu
         - game-music-emu-devel
-        - gamin
         - gamin-devel
         - gavl-devel
         - gcab
@@ -943,8 +941,6 @@ data:
         - glassfish-servlet-api
         - glew-devel
         - glib
-        - glib2-doc
-        - glib2-static
         - glibc-static
         - glib-devel
         - glibmm24-devel
@@ -961,7 +957,6 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
-        - gnome-common
         - gnome-doc-utils
         - gnome-doc-utils-stylesheets
         - gnome-settings-daemon-devel
@@ -1352,7 +1347,6 @@ data:
         - isns-utils-devel
         - isorelax
         - istack-commons-tools
-        - itstool
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1836,6 +1830,7 @@ data:
         - libotf-devel
         - libotr-devel
         - libpagemaker-devel
+        - libpamtest
         - libpaper-devel
         - libpath_utils-devel
         - libpcap-devel
@@ -1962,6 +1957,7 @@ data:
         - libvirt-gobject-devel
         - libvisio-devel
         - libvisual-devel
+        - libvncserver-devel
         - libvoikko-devel
         - libvorbis-devel
         - libvpx-devel
@@ -2044,7 +2040,6 @@ data:
         - lv2-devel
         - lvm2-devel
         - lz4-devel
-        - lzip
         - lzo-devel
         - lzo-minilzo
         - m17n-db-devel
@@ -2052,7 +2047,6 @@ data:
         - m17n-lib-devel
         - m17n-lib-tools
         - malaga
-        - mallard-rng
         - man2html-core
         - marisa-devel
         - mate-common
@@ -2953,6 +2947,7 @@ data:
         - php-devel
         - physfs
         - physfs-devel
+        - pipewire0.2-devel
         - pipewire-devel
         - plexus-ant-factory
         - plexus-archiver
@@ -2986,7 +2981,6 @@ data:
         - po4a
         - polkit-devel
         - polkit-docs
-        - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
         - poppler-cpp-devel
@@ -3204,6 +3198,7 @@ data:
         - python3-libftdi
         - python3-libmodulemd
         - python3-libmount
+        - python3-libpamtest
         - python3-libstoragemgmt
         - python3-libstoragemgmt-clibs
         - python3-lockfile
@@ -4156,7 +4151,6 @@ data:
         - xcb-util-xrm
         - xcb-util-xrm-devel
         - xdg-desktop-portal-devel
-        - xdg-user-dirs
         - xemacs
         - xemacs-common
         - xemacs-nox
@@ -4210,7 +4204,6 @@ data:
         - yajl-devel
         - yasm
         - yelp-devel
-        - yelp-tools
         - yelp-xsl-devel
         - ykclient-devel
         - z3-devel
@@ -4269,6 +4262,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libitm
             - libitm-devel
@@ -4355,6 +4349,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libmicrohttpd
             - libpfm
@@ -4385,7 +4380,6 @@ data:
             - postgresql-server-devel
             - pugixml
             - python3-kmod
-            - python3-libxml2
             - python3-rtslib
             - qemu-system-x86
             - qemu-system-x86-core
@@ -4407,6 +4401,7 @@ data:
             - valgrind
             - valgrind-devel
         s390x:
+            - autoconf-archive
             - avahi
             - bluez-obexd
             - bsdtar
@@ -4421,15 +4416,19 @@ data:
             - elfutils-debuginfod-client-devel
             - elfutils-devel
             - expect
+            - gamin
             - gcc-gfortran
             - gcc-plugin-devel
             - ghostscript-tools-dvipdf
             - ghostscript-tools-fonts
             - ghostscript-tools-printing
+            - glib2-doc
+            - glib2-static
             - gmp-c++
             - gmp-devel
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - gnome-common
             - gnutls-c++
             - gnutls-devel
             - golang
@@ -4442,6 +4441,7 @@ data:
             - HdrHistogram_c
             - ibacm
             - infiniband-diags
+            - itstool
             - libdv
             - libevent-devel
             - libftdi
@@ -4463,6 +4463,7 @@ data:
             - libtasn1-tools
             - libusbmuxd
             - libvarlink
+            - libvncserver
             - lldb
             - lldb-devel
             - llvm-googletest
@@ -4470,6 +4471,7 @@ data:
             - llvm-test
             - lm_sensors-devel
             - lm_sensors-libs
+            - mallard-rng
             - mozilla-filesystem
             - mpfr-devel
             - nettle-devel
@@ -4481,6 +4483,7 @@ data:
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
             - pigz
+            - polkit-gnome
             - ppp-devel
             - pugixml
             - python3-kmod
@@ -4506,6 +4509,8 @@ data:
             - usbredir
             - valgrind
             - valgrind-devel
+            - xdg-user-dirs
+            - yelp-tools
         x86_64:
             - bullet
             - bullet-devel
@@ -4539,6 +4544,7 @@ data:
             - libdc1394-devel
             - libffado
             - libffado-devel
+            - libfprint-devel
             - libiec61883-devel
             - libipt-devel
             - libpmem-devel
