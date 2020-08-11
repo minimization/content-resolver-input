@@ -1337,6 +1337,7 @@ data:
         - ImageMagick-perl
         - imake
         - imaptest
+        - imlib2
         - imlib2-devel
         - intltool
         - ipa-gothic-fonts
@@ -2301,6 +2302,8 @@ data:
         - openblas-serial64_
         - openblas-threads64
         - openblas-threads64_
+        - openbox
+        - openbox-libs
         - openchange-devel
         - opencl-headers
         - opencsd-devel
@@ -3199,6 +3202,7 @@ data:
         - python3-libmodulemd
         - python3-libmount
         - python3-libpamtest
+        - python3-librepo
         - python3-libstoragemgmt
         - python3-libstoragemgmt-clibs
         - python3-lockfile
@@ -3514,6 +3518,8 @@ data:
         - quota-devel
         - ragel
         - raptor2-devel
+        - rarian
+        - rarian-compat
         - rasqal-devel
         - R-core
         - R-core-devel
@@ -4095,6 +4101,7 @@ data:
         - uriparser-devel
         - usbguard-devel
         - usbredir-devel
+        - usermode
         - userspace-rcu-devel
         - utf8proc
         - utf8proc-devel
@@ -4487,6 +4494,7 @@ data:
             - ppp-devel
             - pugixml
             - python3-kmod
+            - python3-libxml2
             - python3-lit
             - python3-lldb
             - python3-rtslib
