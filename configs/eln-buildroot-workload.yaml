@@ -3346,7 +3346,6 @@ data:
         - python3-pytest-virtualenv
         - python3-pytest-xdist
         - python3-pytoml
-        - python3-pywbem
         - python3-pyxattr
         - python3-qt5-devel
         - python3-raven
