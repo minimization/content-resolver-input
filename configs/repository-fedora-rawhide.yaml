@@ -39,7 +39,7 @@ data:
     # Fedora release.
     # 
     # (mandatory field)
-    fedora_release: "33"
+    fedora_release: rawhide
     # List of architectures
     # 
     # (mandatory field)
