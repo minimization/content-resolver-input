@@ -5,61 +5,60 @@ data:
   description: Packages for testing realtime performance
   maintainer: sst_kernel_rats
   packages:
-    - stress-ng
+  - stress-ng
   labels:
-    - eln
+  - eln
 
   package_placeholders:
     rt-tests:
       description: This package is not in Fedora (yet), but we want it here.
       requires:
-        - bash
-        - bc
+      - bash
+      - bc
       buildrequires:
-        - gcc
-        - make
-        - numactl-devel
-        - python3-devel
+      - gcc
+      - make
+      - numactl-devel
+      - python3-devel
     rteval:
       description: This package is not in Fedora (yet), but we want it here.
       requires:
-        - platform-python
-        - python3schedutils
-        - python3-ethtool
-        - python3-lxml
-        - python3-dmidecode
-        - rteval-loads
-        - rteval-common
-        - systat
-        - xz
-        - bzip2
-        - kernelheaders
-        - sos
-        - tar
-        - numactl
-        - gcc
-        - flex
-        - bison
-        - bc
-        - make
-        - openssl
-        - openssl-devel
+      - python3-schedutils
+      - python3-ethtool
+      - python3-lxml
+      - python3-dmidecode
+      - rteval-loads
+      - rteval-common
+      - systat
+      - xz
+      - bzip2
+      - kernel-headers
+      - sos
+      - tar
+      - numactl
+      - gcc
+      - flex
+      - bison
+      - bc
+      - make
+      - openssl
+      - openssl-devel
       buildrequires:
-        - python3-devel
+      - python3-devel
     rteval-loads:
       description: This package is not in Fedora (yet), but we want it here.
       requires:
-        - gcc
-        - binutils
-        - make
-        - kernel-headers
+      - gcc
+      - binutils
+      - make
+      - kernel-headers
       buildrequires:
-        - gcc
-        - glibc-devel
-        - kernel-headers
-        - keyutils-libs-devel
-        - libaio-devel
-        - libattr-devel
-        - libcap-devel
-        - lksctp-tools-devel
-        - zlib-devel
+      - gcc
+      - glibc-devel
+      - kernel-headers
+      - keyutils-libs-devel
+      - libaio-devel
+      - libattr-devel
+      - libcap-devel
+      - lksctp-tools-devel
+      - zlib-devel
