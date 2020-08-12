@@ -6,10 +6,17 @@ data:
   maintainer: sst_desktop
 
   packages:
-  - sushi
+  - file-roller
+  - gvfs
+  - gvfs-client
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-smb
   - nautilus
   - nautilus-sendto
-  - file-roller
+  - sushi
 
   labels:
   - eln

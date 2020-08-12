@@ -8,6 +8,7 @@ data:
   packages:
   - adwaita-gtk2-theme
   - gtk2
+  - gtk2-immodules
   - gtk-doc
 
   labels:
