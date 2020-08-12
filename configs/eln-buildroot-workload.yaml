@@ -1347,6 +1347,7 @@ data:
         - ImageMagick-perl
         - imake
         - imaptest
+        - imlib2
         - imlib2-devel
         - intltool
         - ipa-gothic-fonts
@@ -2333,6 +2334,8 @@ data:
         - openblas-serial64_
         - openblas-threads64
         - openblas-threads64_
+        - openbox
+        - openbox-libs
         - openchange-devel
         - opencl-headers
         - opencryptoki-devel
@@ -3531,6 +3534,8 @@ data:
         - ragel
         - rapidjson-devel
         - raptor2-devel
+        - rarian
+        - rarian-compat
         - rasqal-devel
         - R-core
         - R-core-devel
