@@ -8,7 +8,10 @@ data:
   packages:
   - java-1.8.0-openjdk
   - java-11-openjdk
-  - icedtea-web
+  # With Nashorn gone in newer JDKs, we need a JS engine
+  - rhino
+  # Core tool for JDK support work
+  - byteman
 
   labels:
   - eln
