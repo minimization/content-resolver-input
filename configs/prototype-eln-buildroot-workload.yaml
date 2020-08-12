@@ -210,7 +210,6 @@ data:
         - clutter-gtk-devel
         - cmake-fedora
         - codehaus-parent
-        - codemodel
         - cogl-devel
         - coin-or-Cbc
         - coin-or-Cbc-devel
@@ -925,6 +924,7 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
+        - glassfish-jaxb-codemodel
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -2118,7 +2118,6 @@ data:
         - maven-resolver-connector-basic
         - maven-resolver-impl
         - maven-resolver-spi
-        - maven-resolver-transport-file
         - maven-resolver-transport-wagon
         - maven-resolver-util
         - maven-resources-plugin
@@ -2979,7 +2978,6 @@ data:
         - portaudio-devel
         - postgresql-test-rpm-macros
         - potrace-devel
-        - powermock-api-easymock
         - powermock-api-mockito
         - powermock-api-support
         - powermock-core
@@ -4433,6 +4431,8 @@ data:
             - libevent-devel
             - libftdi
             - libgs-devel
+            - libica
+            - libica-devel
             - libidn2-devel
             - libimobiledevice
             - libisoburn
