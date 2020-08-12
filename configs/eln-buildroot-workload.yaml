@@ -305,7 +305,6 @@ data:
         - dlm-devel
         - dlm-lib
         - dmraid-devel
-        - dnf-utils
         - docbook2X
         - docbook5-schemas
         - docbook5-style-xsl
