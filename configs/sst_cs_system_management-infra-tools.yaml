@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Infrastructure tools from CS System management SST
+  description: Packages for sysadmins/servers (e.g. mailserver) from CS System management SST
+  maintainer: sst_cs_system_management
+
+  packages:
+  - console-setup
+  - expect
+  - expect-devel
+  - fetchmail
+  - hwdata
+  - kbd
+  - kbd-misc
+  - kbd-legacy
+  - m4
+  - mrtg
+  - openslp-devel
+  - openslp
+  - openslp-server
+  - info
+  - dovecot-pgsql
+  - dovecot-pigeonhole
+  - dovecot-mysql
+  - dovecot
+  - dovecot-devel
+
+  labels:
+  - eln
