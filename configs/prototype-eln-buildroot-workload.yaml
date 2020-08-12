@@ -267,7 +267,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - cryptsetup
         - cryptsetup-devel
         - cscope
         - csnappy
@@ -1738,6 +1737,7 @@ data:
         - libixion
         - libixion-devel
         - libjcat-devel
+        - libjose-devel
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
@@ -1755,6 +1755,7 @@ data:
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
+        - libluksmeta-devel
         - liblzf
         - liblzf-devel
         - libmad-devel
@@ -2306,6 +2307,7 @@ data:
         - openbox-libs
         - openchange-devel
         - opencl-headers
+        - opencryptoki-devel
         - opencsd-devel
         - opencv
         - opencv-contrib
@@ -3160,7 +3162,6 @@ data:
         - python3-hyperlink
         - python3-hypothesis
         - python3-incremental
-        - python3-iniconfig
         - python3-invoke
         - python3-ipykernel
         - python3-ipython
@@ -3422,6 +3423,7 @@ data:
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
+        - python3-wcwidth
         - python3-webencodings
         - python3-webob
         - python3-webtest
