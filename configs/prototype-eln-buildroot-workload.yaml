@@ -91,7 +91,6 @@ data:
         - avahi-glib-devel
         - avahi-gobject
         - avahi-gobject-devel
-        - b43-tools
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
@@ -257,7 +256,6 @@ data:
         - compat-wxGTK3-gtk2-media
         - compface
         - compface-devel
-        - console-setup
         - corosync
         - corosynclib-devel
         - cppcheck
@@ -309,8 +307,6 @@ data:
         - dos2unix
         - dotconf-devel
         - double-conversion-devel
-        - dovecot
-        - dovecot-devel
         - doxygen
         - doxygen2man
         - doxygen-latex
@@ -406,14 +402,10 @@ data:
         - fish
         - flac-devel
         - flatpak-devel
-        - flexiblas
         - flexiblas-devel
-        - flexiblas-netlib
         - flexiblas-netlib64
-        - flexiblas-openblas-openmp
         - flexiblas-openblas-openmp64
         - flite-devel
-        - fltk
         - fltk-devel
         - fluid-soundfont-common
         - fluid-soundfont-lite-patches
@@ -1431,13 +1423,13 @@ data:
         - jvnet-parent
         - jython
         - jzlib
-        - kde-filesystem
         - kde-settings
         - kernel
+        - kernel-core
+        - kernel-modules
         - kernel-tools-libs
         - kf5-attica
         - kf5-attica-devel
-        - kf5-filesystem
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
@@ -1629,8 +1621,6 @@ data:
         - libconfuse-devel
         - libcue-devel
         - libdaemon-devel
-        - libdap
-        - libdap-devel
         - libdazzle-devel
         - libdbi-devel
         - libdbusmenu-devel
@@ -1707,6 +1697,8 @@ data:
         - libgtop2-devel
         - libgudev-devel
         - libgusb-devel
+        - libgxim
+        - libgxim-devel
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
@@ -1732,7 +1724,6 @@ data:
         - libiodbc-devel
         - libiptcdata-devel
         - libiscsi-devel
-        - libisoburn
         - libisofs-devel
         - libixion
         - libixion-devel
@@ -1741,6 +1732,7 @@ data:
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
+        - libkcapi-fipscheck
         - libkkc-devel
         - libkml
         - libkml-devel
@@ -1783,7 +1775,6 @@ data:
         - libmpeg2-devel
         - libmspack-devel
         - libmspub-devel
-        - libmtp
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
@@ -1892,7 +1883,6 @@ data:
         - libSM-devel
         - libsmi-devel
         - libsndfile-devel
-        - libsodium
         - libsodium-devel
         - libspatialite
         - libspatialite-devel
@@ -1927,11 +1917,7 @@ data:
         - libtirpc-devel
         - libtommath-devel
         - libtool-ltdl-devel
-        - libucil
-        - libucil-devel
         - libudisks2-devel
-        - libunicap
-        - libunicap-devel
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
@@ -1942,6 +1928,7 @@ data:
         - libusb-devel
         - libusbmuxd-devel
         - libusbx-devel
+        - libuser
         - libuser-devel
         - libutempter-devel
         - libuuid-devel
@@ -1977,6 +1964,8 @@ data:
         - libXaw-devel
         - libxcrypt-static
         - libXdmcp-devel
+        - libxfce4util
+        - libxfce4util-devel
         - libXfont2-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
@@ -2020,7 +2009,6 @@ data:
         - lirc-devel
         - lirc-libs
         - lklug-fonts
-        - lldpad-devel
         - llvm7.0
         - llvm7.0-libs
         - lmdb
@@ -2249,8 +2237,6 @@ data:
         - netcf-devel
         - netpbm-devel
         - netpbm-progs
-        - net-snmp-devel
-        - net-snmp-utils
         - netty
         - newt-devel
         - neXtaw
@@ -2296,7 +2282,6 @@ data:
         - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
-        - openblas-openmp
         - openblas-openmp64
         - openblas-openmp64_
         - openblas-serial64
@@ -2356,10 +2341,10 @@ data:
         - pari-gp
         - pari-seadata
         - parted-devel
+        - passwd
         - patchutils
         - pbzip2
         - pcaudiolib-devel
-        - pciutils-devel
         - pcre-static
         - pcsc-lite-devel
         - PEGTL-devel
@@ -2410,7 +2395,6 @@ data:
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-CBOR-XS
-        - perl-CGI
         - perl-CGI-Application
         - perl-CGI-PSGI
         - perl-Class-Accessor-Chained
@@ -2933,7 +2917,6 @@ data:
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
-        - perl-XML-Simple
         - perl-XML-Spice
         - perl-XML-TreeBuilder
         - perl-XML-Twig
@@ -3019,12 +3002,6 @@ data:
         - pstoedit-devel
         - psutils
         - psutils-perl
-        - ptscotch-mpich
-        - ptscotch-mpich-devel
-        - ptscotch-mpich-devel-parmetis
-        - ptscotch-openmpi
-        - ptscotch-openmpi-devel
-        - ptscotch-openmpi-devel-parmetis
         - publican
         - pugixml-devel
         - pulseaudio-libs-devel
@@ -3199,7 +3176,6 @@ data:
         - python3-ldb-devel
         - python3-lesscpy
         - python3-lexicon
-        - python3-libfdt
         - python3-libftdi
         - python3-libmodulemd
         - python3-libmount
@@ -3552,6 +3528,7 @@ data:
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
+        - rsh
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
@@ -3762,8 +3739,6 @@ data:
         - scalapack-mpich-devel
         - scalapack-openmpi
         - scalapack-openmpi-devel
-        - scotch
-        - scotch-devel
         - screen
         - SDL2-devel
         - SDL-devel
@@ -3835,8 +3810,6 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
-        - SuperLU
-        - SuperLU-devel
         - superlu_dist-mpich
         - superlu_dist-mpich-devel
         - superlu_dist-openmpi
@@ -4167,6 +4140,9 @@ data:
         - xemacs-packages-base
         - xerces-c
         - xerces-c-devel
+        - xfconf
+        - xfconf-devel
+        - xfsdump
         - xfsprogs-devel
         - xmlgraphics-commons
         - xmlrpc-c-c++
@@ -4204,7 +4180,6 @@ data:
         - xorg-x11-util-macros
         - xorg-x11-utils
         - xorg-x11-xtrans-devel
-        - xorriso
         - xpp3
         - xpp3-minimal
         - xstream
@@ -4243,6 +4218,7 @@ data:
             - dbus-c++-ecore
             - dbus-c++-glib
             - dejagnu
+            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - dyninst
@@ -4252,8 +4228,6 @@ data:
             - efl
             - efl-devel
             - elfutils-debuginfod-client-devel
-            - elfutils-devel
-            - expect
             - flashrom-devel
             - gcc-gfortran
             - gcc-plugin-devel
@@ -4267,6 +4241,8 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
+            - kde-filesystem
+            - kf5-filesystem
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -4274,6 +4250,7 @@ data:
             - libffado-devel
             - libfprint-devel
             - libiec61883-devel
+            - libisoburn
             - libitm
             - libitm-devel
             - libmicrohttpd
@@ -4288,6 +4265,8 @@ data:
             - libxml++
             - libxml++-devel
             - mpfr-devel
+            - mt-st
+            - mtx
             - papi
             - papi-devel
             - papi-libs
@@ -4296,6 +4275,7 @@ data:
             - perl-Digest-SHA1
             - perl-File-Slurp
             - perl-XML-Catalog
+            - perl-XML-Simple
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
             - pugixml
@@ -4321,8 +4301,8 @@ data:
             - ucx-devel
             - valgrind
             - valgrind-devel
-            - vboot-utils
             - xen-devel
+            - xorriso
         ppc64le:
             - avahi
             - bsdtar
@@ -4336,14 +4316,13 @@ data:
             - dbus-c++-ecore
             - dbus-c++-glib
             - dejagnu
+            - device-mapper-multipath
             - dyninst
             - dyninst-devel
             - efi-filesystem
             - efl
             - efl-devel
             - elfutils-debuginfod-client-devel
-            - elfutils-devel
-            - expect
             - flashrom-devel
             - golang
             - golang-bin
@@ -4368,8 +4347,6 @@ data:
             - libraw1394-devel
             - librsvg2-tools
             - librtas-devel
-            - libservicelog
-            - libservicelog-devel
             - libsysfs
             - libvarlink
             - libxml++
@@ -4424,8 +4401,6 @@ data:
             - DevIL
             - efi-filesystem
             - elfutils-debuginfod-client-devel
-            - elfutils-devel
-            - expect
             - gamin
             - gcc-gfortran
             - gcc-plugin-devel
@@ -4452,12 +4427,15 @@ data:
             - ibacm
             - infiniband-diags
             - itstool
+            - kde-filesystem
+            - kf5-filesystem
             - libdv
             - libevent-devel
             - libftdi
             - libgs-devel
             - libidn2-devel
             - libimobiledevice
+            - libisoburn
             - libitm
             - libitm-devel
             - libmad
@@ -4484,12 +4462,15 @@ data:
             - mallard-rng
             - mozilla-filesystem
             - mpfr-devel
+            - mt-st
+            - mtx
             - nettle-devel
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
             - perl-File-Slurp
             - perl-XML-Catalog
+            - perl-XML-Simple
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
             - pigz
@@ -4521,6 +4502,7 @@ data:
             - valgrind
             - valgrind-devel
             - xdg-user-dirs
+            - xorriso
             - yelp-tools
         x86_64:
             - bullet
@@ -4531,6 +4513,7 @@ data:
             - dbus-c++-ecore
             - dbus-c++-glib
             - dev86
+            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-tools
@@ -4585,5 +4568,4 @@ data:
             - tslib-devel
             - ucx-devel
             - uthash-devel
-            - vboot-utils
             - xen-devel
