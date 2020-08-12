@@ -5,7 +5,21 @@ data:
   description: Tools necessary to support Kernel ABI.
   maintainer: sst_kernel_tps
   packages:
-  - ksc
   - kabi-dw
   labels:
   - eln
+
+package_placeholders:
+  ksc:
+    description: A kernel module source code checker to find usage of non whitelist symbols.
+    requires:
+      - kernel-abi-whitelists
+      - kmod
+      - binutils
+      - kernel-devel
+      - python3-magic
+      - python3-requests
+    buildrequires:
+      - python3-devel
+      - python3-setuptools
+    limit_arches: []
