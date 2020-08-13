@@ -35,7 +35,6 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-fedora-32
   - repository-fedora-rawhide
   - repository-fedora-eln
 
