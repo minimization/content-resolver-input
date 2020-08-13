@@ -12,3 +12,5 @@ data:
   - ecj
   # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
   - java-latest-openjdk
+  # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
+  - icedtea-web
