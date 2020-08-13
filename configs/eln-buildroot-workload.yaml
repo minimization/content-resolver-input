@@ -1434,7 +1434,6 @@ data:
         - jython
         - jzlib
         - kde-settings
-        - kernel
         - kf5-attica
         - kf5-attica-devel
         - kf5-karchive
@@ -2311,7 +2310,6 @@ data:
         - openchange-devel
         - opencl-headers
         - opencryptoki-devel
-        - opencsd
         - opencsd-devel
         - opencv
         - opencv-contrib
@@ -3440,7 +3438,6 @@ data:
         - python-sphinx-doc
         - python-wheel-wheel
         - qdox
-        - qemu-sanity-check-nodeps
         - qhull-devel
         - qjson
         - qjson-devel
