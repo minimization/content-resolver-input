@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Toolchain compatibility packages
+  description: >
+    Collection of packages providing compatibility packages related to
+    the GNU Toolchain.
+  maintainer: sst_platform_tools
+
+  packages:
+  # RHEL 8 bumped SONAME of libgfortran.so.  Support RHEL 7 apps.
+  - compat-libgfortran-48
+
+  labels:
+  - eln

@@ -8,7 +8,6 @@ data:
   packages:
   - adwaita-qt
   - qgnomeplatform
-  - qt5
   - qt5-doc
   - qt5-rpm-macros
   - qt5-srpm-macros

@@ -4,6 +4,8 @@ data:
     name: Hesiod
     description: Compat packages for the Hesiod system
     maintainer: sst_identity_management
+    
+    packages: []
 
     labels:
         - eln
