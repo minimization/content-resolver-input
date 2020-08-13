@@ -64,7 +64,6 @@ data:
         - arpack-devel
         - arts
         - arts-devel
-        - asciidoc
         - asio-devel
         - aspell-devel
         - aspell-en
@@ -91,7 +90,6 @@ data:
         - avahi-glib-devel
         - avahi-gobject
         - avahi-gobject-devel
-        - b43-tools
         - babl-devel
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
@@ -260,7 +258,6 @@ data:
         - compat-wxGTK3-gtk2-media
         - compface
         - compface-devel
-        - console-setup
         - corosync
         - corosynclib-devel
         - cppcheck
@@ -281,7 +278,6 @@ data:
         - dain-snappy
         - datefudge
         - daxctl-devel
-        - dblatex
         - dbus-glib-devel
         - dbusmenu-qt5
         - dbusmenu-qt5-devel
@@ -304,22 +300,17 @@ data:
         - dleyna-core-devel
         - dlm-devel
         - dlm-lib
+        - dmraid
         - dmraid-devel
+        - dmraid-events
         - docbook2X
-        - docbook5-schemas
-        - docbook5-style-xsl
-        - docbook-utils-pdf
         - dom4j
         - dontpanic
         - dontpanic-devel
         - dos2unix
         - dotconf-devel
         - double-conversion-devel
-        - dovecot
-        - dovecot-devel
-        - doxygen
         - doxygen2man
-        - doxygen-latex
         - dpkg
         - drpm-devel
         - e2fsprogs-devel
@@ -419,7 +410,6 @@ data:
         - flexiblas-openblas-openmp
         - flexiblas-openblas-openmp64
         - flite-devel
-        - fltk
         - fltk-devel
         - fluid-soundfont-common
         - fluid-soundfont-lite-patches
@@ -436,6 +426,9 @@ data:
         - fop
         - forge-parent
         - freeglut-devel
+        - freeipa-client-common
+        - freeipa-common
+        - freeipa-server-common
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -1258,7 +1251,6 @@ data:
         - GraphicsMagick-devel
         - graphviz-devil
         - grilo-devel
-        - groff
         - groff-perl
         - gsl-devel
         - gsm-devel
@@ -1308,7 +1300,6 @@ data:
         - hdf-libs
         - hdf-static
         - HdrHistogram_c-devel
-        - help2man
         - hidapi
         - hidapi-devel
         - hiredis
@@ -1444,12 +1435,10 @@ data:
         - jvnet-parent
         - jython
         - jzlib
-        - kde-filesystem
         - kde-settings
         - kernel
         - kf5-attica
         - kf5-attica-devel
-        - kf5-filesystem
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
@@ -1550,8 +1539,6 @@ data:
         - lasi
         - lasi-devel
         - lasso-devel
-        - latex2html
-        - latexmk
         - lcms2-devel
         - lcov
         - ldb-tools
@@ -1612,6 +1599,7 @@ data:
         - libbpf-static
         - libbs2b
         - libbs2b-devel
+        - libbsd
         - libbsd-devel
         - libbson
         - libbson-devel
@@ -1645,8 +1633,6 @@ data:
         - libcue
         - libcue-devel
         - libdaemon-devel
-        - libdap
-        - libdap-devel
         - libdazzle-devel
         - libdbi
         - libdbi-devel
@@ -1727,6 +1713,8 @@ data:
         - libgtop2-devel
         - libgudev-devel
         - libgusb-devel
+        - libgxim
+        - libgxim-devel
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
@@ -1752,7 +1740,6 @@ data:
         - libiodbc-devel
         - libiptcdata-devel
         - libiscsi-devel
-        - libisoburn
         - libisofs-devel
         - libixion
         - libixion-devel
@@ -1761,6 +1748,7 @@ data:
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
+        - libkcapi-fipscheck
         - libkkc-devel
         - libkml
         - libkml-devel
@@ -1803,7 +1791,6 @@ data:
         - libmpeg2-devel
         - libmspack-devel
         - libmspub-devel
-        - libmtp
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
@@ -1891,8 +1878,6 @@ data:
         - librevenge-devel
         - libRmath
         - librsvg2-devel
-        - librx
-        - librx-devel
         - libsamplerate
         - libsamplerate-devel
         - libsass
@@ -1911,7 +1896,6 @@ data:
         - libSM-devel
         - libsmi-devel
         - libsndfile-devel
-        - libsodium
         - libsodium-devel
         - libspatialite
         - libspatialite-devel
@@ -1946,11 +1930,7 @@ data:
         - libtirpc-devel
         - libtommath-devel
         - libtool-ltdl-devel
-        - libucil
-        - libucil-devel
         - libudisks2-devel
-        - libunicap
-        - libunicap-devel
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
@@ -1995,6 +1975,8 @@ data:
         - libwsman-devel
         - libXaw-devel
         - libXdmcp-devel
+        - libxfce4util
+        - libxfce4util-devel
         - libXfont2-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
@@ -2037,12 +2019,10 @@ data:
         - linux-atm-libs
         - linux-atm-libs-devel
         - linuxconsoletools
-        - linuxdoc-tools
         - lirc-core
         - lirc-devel
         - lirc-libs
         - lklug-fonts
-        - lldpad-devel
         - llvm7.0
         - llvm7.0-libs
         - lmdb
@@ -2276,11 +2256,7 @@ data:
         - netcdf-openmpi
         - netcdf-openmpi-devel
         - netcf-devel
-        - netpbm
         - netpbm-devel
-        - netpbm-progs
-        - net-snmp-devel
-        - net-snmp-utils
         - netty
         - newt-devel
         - neXtaw
@@ -2351,7 +2327,6 @@ data:
         - openmpi-devel
         - openpgm
         - openpgm-devel
-        - opensp-devel
         - opentest4j
         - openwsman-client
         - openwsman-server
@@ -2389,7 +2364,6 @@ data:
         - patchutils
         - pbzip2
         - pcaudiolib-devel
-        - pciutils-devel
         - pcre-static
         - pcsc-lite-devel
         - PEGTL-devel
@@ -2440,7 +2414,6 @@ data:
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-CBOR-XS
-        - perl-CGI
         - perl-CGI-Application
         - perl-CGI-PSGI
         - perl-Class-Accessor-Chained
@@ -2629,7 +2602,6 @@ data:
         - perl-JSON-XS
         - perl-Lexical-SealRequireHints
         - perl-Lexical-Var
-        - perl-libintl-perl
         - perl-libxml-perl
         - perl-Lingua-EN-Fathom
         - perl-Lingua-EN-Inflect
@@ -2944,7 +2916,6 @@ data:
         - perl-Type-Tie
         - perl-Type-Tiny
         - perl-Unicode-CheckUTF8
-        - perl-Unicode-EastAsianWidth
         - perl-Unicode-Map8
         - perl-Unicode-String
         - perl-Unicode-UTF8
@@ -2965,7 +2936,6 @@ data:
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
-        - perl-XML-Simple
         - perl-XML-Spice
         - perl-XML-TreeBuilder
         - perl-XML-Twig
@@ -3050,12 +3020,6 @@ data:
         - pstoedit-devel
         - psutils
         - psutils-perl
-        - ptscotch-mpich
-        - ptscotch-mpich-devel
-        - ptscotch-mpich-devel-parmetis
-        - ptscotch-openmpi
-        - ptscotch-openmpi-devel
-        - ptscotch-openmpi-devel-parmetis
         - publican
         - pugixml-devel
         - pulseaudio-libs-devel
@@ -3230,7 +3194,6 @@ data:
         - python3-ldb-devel
         - python3-lesscpy
         - python3-lexicon
-        - python3-libfdt
         - python3-libftdi
         - python3-libmodulemd
         - python3-libmount
@@ -3564,6 +3527,7 @@ data:
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
+        - rsh
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
@@ -3776,8 +3740,6 @@ data:
         - scalapack-mpich-devel
         - scalapack-openmpi
         - scalapack-openmpi-devel
-        - scotch
-        - scotch-devel
         - screen
         - SDL2-devel
         - SDL-devel
@@ -3787,6 +3749,7 @@ data:
         - serd-devel
         - SFML
         - SFML-devel
+        - sgpio
         - shapelib-devel
         - sharutils
         - ShellCheck
@@ -3852,8 +3815,6 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
-        - SuperLU
-        - SuperLU-devel
         - superlu_dist-mpich
         - superlu_dist-mpich-devel
         - superlu_dist-openmpi
@@ -3877,20 +3838,8 @@ data:
         - tesseract-langpack-eng
         - tesseract-tessdata-doc
         - testng
-        - texi2html
-        - texinfo
-        - texinfo-tex
-        - texlive
         - texlive-acronym
-        - texlive-adjustbox
-        - texlive-aleph
-        - texlive-antomega
-        - texlive-anyfontsize
-        - texlive-appendix
-        - texlive-arabxetex
         - texlive-armtex
-        - texlive-arphic
-        - texlive-awesomebox
         - texlive-babel-albanian
         - texlive-babel-bosnian
         - texlive-babel-breton
@@ -3918,49 +3867,12 @@ data:
         - texlive-babel-swedish
         - texlive-babel-turkish
         - texlive-babel-welsh
-        - texlive-bibtopic
-        - texlive-bidi-atbegshi
-        - texlive-bidicontour
-        - texlive-bidipagegrid
-        - texlive-bidipresentation
-        - texlive-bidishadowtext
-        - texlive-bigfoot
-        - texlive-businesscard-qrcode
         - texlive-cancel
-        - texlive-capt-of
-        - texlive-changebar
-        - texlive-cjk
-        - texlive-cjk-ko
-        - texlive-cns
-        - texlive-collectbox
-        - texlive-collection-formatsextra
         - texlive-collection-langeuropean
-        - texlive-collection-xetex
-        - texlive-cqubeamer
-        - texlive-cyrillic
-        - texlive-dvisvgm
         - texlive-ecclesiastic
-        - texlive-edmac
-        - texlive-eepic
-        - texlive-environ
-        - texlive-eplain
-        - texlive-epsf
-        - texlive-epstopdf
-        - texlive-etoc
-        - texlive-everypage
         - texlive-finbib
-        - texlive-fixlatvian
-        - texlive-fncychap
-        - texlive-fontbook
-        - texlive-font-change-xetex
-        - texlive-fonts-tlwg
-        - texlive-fontwrap
-        - texlive-framed
-        - texlive-garuda-c90
         - texlive-gloss-occitan
         - texlive-gnu-freefont
-        - texlive-gsftopk
-        - texlive-hanging
         - texlive-hrlatex
         - texlive-hulipsum
         - texlive-hyphen-croatian
@@ -3987,100 +3899,20 @@ data:
         - texlive-hyphen-turkish
         - texlive-hyphen-uppersorbian
         - texlive-hyphen-welsh
-        - texlive-ifoddpage
-        - texlive-import
         - texlive-inconsolata
-        - texlive-interchar
-        - texlive-jadetex
-        - texlive-kotex-plain
-        - texlive-kotex-utf
-        - texlive-lambda
-        - texlive-latex2man
-        - texlive-lettrine
         - texlive-lh
-        - texlive-lib-devel
-        - texlive-linegoal
-        - texlive-listofitems
         - texlive-lithuanian
-        - texlive-lollipop
         - texlive-lshort-dutch-doc
         - texlive-lshort-estonian-doc
         - texlive-lshort-finnish-doc
         - texlive-lshort-slovenian-doc
         - texlive-lshort-turkish-doc
-        - texlive-luatex85
-        - texlive-luatexko
-        - texlive-mltex
-        - texlive-multirow
-        - texlive-mxedruli
-        - texlive-na-position
-        - texlive-ncctools
-        - texlive-needspace
         - texlive-nevelok
-        - texlive-newunicodechar
-        - texlive-norasi-c90
-        - texlive-obsolete
-        - texlive-omega
-        - texlive-omegaware
         - texlive-optional
-        - texlive-otibet
-        - texlive-overpic
-        - texlive-passivetex
-        - texlive-philokalia
-        - texlive-preprint
-        - texlive-psizzl
-        - texlive-ptext
-        - texlive-quran
-        - texlive-quran-de
         - texlive-relsize
-        - texlive-scheme-basic
-        - texlive-sectsty
         - texlive-sfmath
-        - texlive-simple-resume-cv
-        - texlive-simple-thesis-dissertation
-        - texlive-stackengine
-        - texlive-startex
-        - texlive-subfigure
-        - texlive-svn-prov
         - texlive-swebib
-        - texlive-t2
-        - texlive-tabu
-        - texlive-tabulary
-        - texlive-tetragonos
-        - texlive-tex4ht
-        - texlive-texlive-scripts-extra
-        - texlive-texsis
-        - texlive-threeparttable
-        - texlive-tocloft
-        - texlive-trimspaces
         - texlive-turkmen
-        - texlive-type1cm
-        - texlive-ucharclasses
-        - texlive-uhc
-        - texlive-ulem
-        - texlive-unicode-bidi
-        - texlive-unisugar
-        - texlive-upquote
-        - texlive-wadalab
-        - texlive-was
-        - texlive-wrapfig
-        - texlive-xebaposter
-        - texlive-xechangebar
-        - texlive-xecjk
-        - texlive-xecolor
-        - texlive-xecyr
-        - texlive-xeindex
-        - texlive-xesearch
-        - texlive-xespotcolor
-        - texlive-xetexfontinfo
-        - texlive-xetex-itrans
-        - texlive-xetexko
-        - texlive-xetex-pstricks
-        - texlive-xetex-tibetan
-        - texlive-xevlna
-        - texlive-xmltex
-        - texlive-xmltexconfig
-        - texlive-xtab
         - tidy
         - tinycdb-devel
         - tinyxml2
@@ -4184,6 +4016,9 @@ data:
         - xemacs-packages-base
         - xerces-c
         - xerces-c-devel
+        - xfconf
+        - xfconf-devel
+        - xfsdump
         - xfsprogs-devel
         - xmlgraphics-commons
         - xmlrpc-c-c++
@@ -4193,8 +4028,6 @@ data:
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
         - xmlstarlet
-        - xmlto
-        - xmltoman
         - xmlunit
         - xmlunit-assertj
         - xmlunit-core
@@ -4221,7 +4054,6 @@ data:
         - xorg-x11-util-macros
         - xorg-x11-utils
         - xorg-x11-xtrans-devel
-        - xorriso
         - xpp3
         - xpp3-minimal
         - xstream
@@ -4256,6 +4088,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-ovmf
@@ -4273,6 +4106,8 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
+            - kde-filesystem
+            - kf5-filesystem
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -4280,6 +4115,7 @@ data:
             - libffado-devel
             - libfprint-devel
             - libiec61883-devel
+            - libisoburn
             - libitm
             - libitm-devel
             - libmpc-devel
@@ -4292,11 +4128,14 @@ data:
             - libxml++-devel
             - mesa-vulkan-drivers
             - mpfr-devel
+            - mt-st
+            - mtx
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
             - perl-File-Slurp
             - perl-XML-Catalog
+            - perl-XML-Simple
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
             - pugixml
@@ -4315,8 +4154,8 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - vboot-utils
             - xen-devel
+            - xorriso
         ppc64le:
             - bullet
             - bullet-devel
@@ -4325,6 +4164,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - device-mapper-multipath
             - efi-filesystem
             - efl
             - efl-devel
@@ -4346,9 +4186,6 @@ data:
             - libpq-devel
             - libraw1394-devel
             - librsvg2-tools
-            - librtas-devel
-            - libservicelog
-            - libservicelog-devel
             - libsysfs
             - libvarlink
             - libxml++
@@ -4393,8 +4230,6 @@ data:
             - dejagnu
             - efi-filesystem
             - elfutils-debuginfod-client-devel
-            - elfutils-devel
-            - expect
             - gamin
             - gcc-gfortran
             - gcc-plugin-devel
@@ -4421,12 +4256,15 @@ data:
             - ibacm
             - infiniband-diags
             - itstool
+            - kde-filesystem
+            - kf5-filesystem
             - libdv
             - libevent-devel
             - libftdi
             - libgs-devel
             - libidn2-devel
             - libimobiledevice
+            - libisoburn
             - libitm
             - libitm-devel
             - libmad
@@ -4454,12 +4292,15 @@ data:
             - mesa-vulkan-drivers
             - mozilla-filesystem
             - mpfr-devel
+            - mt-st
+            - mtx
             - nettle-devel
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
             - perl-File-Slurp
             - perl-XML-Catalog
+            - perl-XML-Simple
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
             - pigz
@@ -4489,6 +4330,7 @@ data:
             - valgrind
             - valgrind-devel
             - xdg-user-dirs
+            - xorriso
             - yelp-tools
         x86_64:
             - bullet
@@ -4497,6 +4339,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - efivar-devel
@@ -4508,6 +4351,7 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
+            - hfsplus-tools
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -4529,5 +4373,4 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - vboot-utils
             - xen-devel
