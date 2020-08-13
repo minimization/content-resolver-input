@@ -29,7 +29,6 @@ data:
         - amtk-devel
         - ant
         - ant-antlr
-        - ant-apache-xalan2
         - ant-contrib
         - anthy
         - anthy-devel
@@ -70,6 +69,7 @@ data:
         - aspell-devel
         - aspell-en
         - assertj-core
+        - assimp-devel
         - atf-tests
         - atinject
         - atkmm-devel
@@ -158,7 +158,6 @@ data:
         - bsf
         - bsh
         - btrfs-progs-devel
-        - buildnumber-maven-plugin
         - byaccj
         - byte-buddy
         - byte-buddy-agent
@@ -287,6 +286,8 @@ data:
         - device-mapper-event-devel
         - device-mapper-multipath-devel
         - DevIL-devel
+        - DevIL-ILUT
+        - DevIL-ILUT-devel
         - diffstat
         - disruptor
         - distribution-gpg-keys
@@ -1334,6 +1335,9 @@ data:
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
         - iptables-devel
+        - irrlicht
+        - irrlicht-devel
+        - irrXML-devel
         - iscsi-initiator-utils-devel
         - isl-devel
         - isns-utils-devel
@@ -1547,6 +1551,8 @@ data:
         - libacl-devel
         - libaec
         - libaec-devel
+        - libaesgm
+        - libaesgm-devel
         - libao-devel
         - libaom-devel
         - libappindicator
@@ -1719,7 +1725,6 @@ data:
         - libindicator-devel
         - libindicator-gtk3-devel
         - libini_config-devel
-        - libinput-devel
         - libiodbc
         - libiodbc-devel
         - libiptcdata-devel
@@ -2121,7 +2126,6 @@ data:
         - maven-resolver-transport-wagon
         - maven-resolver-util
         - maven-resources-plugin
-        - maven-scm
         - maven-script-interpreter
         - maven-settings
         - maven-shade-plugin
@@ -2144,7 +2148,6 @@ data:
         - mdds-devel
         - mecab-devel
         - media-player-info
-        - mesa-libEGL-devel
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -2175,6 +2178,7 @@ data:
         - mingw-filesystem-base
         - miniz
         - miniz-devel
+        - minizip-compat-devel
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
@@ -2970,6 +2974,7 @@ data:
         - polkit-docs
         - polkit-qt5-1
         - polkit-qt5-1-devel
+        - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -3437,33 +3442,18 @@ data:
         - qrupdate-devel
         - qscintilla-qt5
         - qscintilla-qt5-devel
-        - qt
         - qt3
         - qt3-devel
-        - qt5-designer
-        - qt5-doctools
-        - qt5-linguist
-        - qt5-qtbase-devel
-        - qt5-qtbase-doc
         - qt5-qtbase-private-devel
-        - qt5-qtbase-static
         - qt5-qtconnectivity-devel
-        - qt5-qtdeclarative-devel
-        - qt5-qtdeclarative-static
         - qt5-qtlocation-devel
         - qt5-qtmultimedia-devel
-        - qt5-qtscript
         - qt5-qtscript-devel
         - qt5-qtsensors-devel
         - qt5-qtserialport-devel
         - qt5-qtspeech
         - qt5-qtspeech-devel
         - qt5-qtsvg-devel
-        - qt5-qttools
-        - qt5-qttools-devel
-        - qt5-qttools-libs-designercomponents
-        - qt5-qttools-static
-        - qt5-qtwayland
         - qt5-qtwayland-devel
         - qt5-qtwebchannel-devel
         - qt5-qtwebkit
@@ -3471,8 +3461,6 @@ data:
         - qt5-qtwebsockets-devel
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
-        - qt5-rpm-macros
-        - qt-common
         - qt-devel
         - qt-mobility
         - qt-mobility-bearer
@@ -3490,7 +3478,6 @@ data:
         - qt-mobility-systeminfo
         - qtwebkit
         - qtwebkit-devel
-        - qt-x11
         - quilt
         - quota-devel
         - ragel
@@ -4441,7 +4428,6 @@ data:
             - libmad
             - libmaxminddb-devel
             - libmicrohttpd
-            - libmng
             - libmpc-devel
             - libpfm
             - libpfm-devel
