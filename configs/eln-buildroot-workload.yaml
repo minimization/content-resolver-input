@@ -29,7 +29,6 @@ data:
         - amtk-devel
         - ant
         - ant-antlr
-        - ant-apache-xalan2
         - ant-contrib
         - anthy
         - anthy-devel
@@ -160,7 +159,6 @@ data:
         - bsh
         - btrfs-progs
         - btrfs-progs-devel
-        - buildnumber-maven-plugin
         - byaccj
         - byte-buddy
         - byte-buddy-agent
@@ -2143,7 +2141,6 @@ data:
         - maven-resolver-transport-wagon
         - maven-resolver-util
         - maven-resources-plugin
-        - maven-scm
         - maven-script-interpreter
         - maven-settings
         - maven-shade-plugin
@@ -4326,7 +4323,6 @@ data:
             - tcl-devel
             - tk-devel
             - urw-base35-fonts-devel
-            - usbredir
             - valgrind
             - valgrind-devel
             - xdg-user-dirs
