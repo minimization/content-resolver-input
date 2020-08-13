@@ -4478,7 +4478,6 @@ data:
             - ppp-devel
             - pugixml
             - python3-kmod
-            - python3-libxml2
             - python3-lit
             - python3-lldb
             - python3-rtslib
