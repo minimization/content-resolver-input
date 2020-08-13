@@ -8,9 +8,6 @@ data:
   labels:
   - eln
 
-  arch_packages:
-    x86_64:
-    - rt-setup
   package_placeholders:
     rt-setup:
       description: This package is not in Fedora (yet), but we want it here.
@@ -26,3 +23,5 @@ data:
       - gcc
       - systemd
       - annobin
+      limit_arches:
+      - x86_64
