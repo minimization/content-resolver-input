@@ -925,7 +925,6 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
-        - glassfish-jaxb-codemodel
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -1367,7 +1366,12 @@ data:
         - javapackages-local
         - javaparser
         - javassist
+        - jaxb-api
+        - jaxb-codemodel
         - jaxb-dtd-parser
+        - jaxb-impl
+        - jaxb-runtime
+        - jaxb-txw2
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -1399,6 +1403,7 @@ data:
         - jimtcl
         - jimtcl-devel
         - jmock
+        - jmock-imposters
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
@@ -3430,6 +3435,9 @@ data:
         - python-sphinx-doc
         - python-wheel-wheel
         - qdox
+        - qemu-char-baum
+        - qemu-device-usb-redirect
+        - qemu-device-usb-smartcard
         - qemu-sanity-check-nodeps
         - qhull-devel
         - qjson
@@ -3651,6 +3659,8 @@ data:
         - rubygem-redcarpet
         - rubygem-RedCloth
         - rubygem-redis
+        - rubygem-regexp_parser
+        - rubygem-regexp_property_values
         - rubygem-ronn
         - rubygem-rouge
         - rubygem-rr
@@ -4266,6 +4276,7 @@ data:
             - pugixml
             - python3-kmod
             - python3-rtslib
+            - qemu-device-display-qxl
             - qemu-system-x86
             - qemu-system-x86-core
             - rlottie
@@ -4543,6 +4554,7 @@ data:
             - perl-Crypt-PasswdMD5
             - pocl
             - pocl-devel
+            - qemu-device-display-qxl
             - rlottie
             - rlottie-devel
             - spice-server-devel
