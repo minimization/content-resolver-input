@@ -54,7 +54,10 @@ data:
         - apiguardian
         - apiviz
         - appstream
+        - apr-devel
         - apr-util-bdb
+        - apr-util-devel
+        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -101,6 +104,7 @@ data:
         - bcc-devel
         - bcel
         - beakerlib
+        - bea-stax-api
         - beust-jcommander
         - bind-devel
         - bind-lite-devel
@@ -271,6 +275,7 @@ data:
         - CUnit-devel
         - cvs
         - cvsps
+        - cyrus-sasl-devel
         - dain-snappy
         - datefudge
         - daxctl-devel
@@ -373,6 +378,7 @@ data:
         - exempi-devel
         - exim
         - exiv2-devel
+        - expat-devel
         - extra-cmake-modules
         - f32-backgrounds-base
         - f32-backgrounds-kde
@@ -925,7 +931,12 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
+        - glassfish-fastinfoset
+        - glassfish-jaxb-api
         - glassfish-jaxb-codemodel
+        - glassfish-jaxb-core
+        - glassfish-jaxb-runtime
+        - glassfish-jaxb-txw2
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -1231,6 +1242,7 @@ data:
         - google-noto-emoji-fonts
         - go-rpm-macros
         - gperftools-devel
+        - gperftools-libs
         - gpgme-devel
         - gpgmepp-devel
         - gphoto2
@@ -1301,6 +1313,7 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
+        - httpd-devel
         - http-parser-devel
         - hunspell-devel
         - hwloc-devel
@@ -1342,6 +1355,7 @@ data:
         - isl-devel
         - isns-utils-devel
         - isorelax
+        - istack-commons-runtime
         - istack-commons-tools
         - ivy-local
         - jack-audio-connection-kit
@@ -1660,7 +1674,6 @@ data:
         - libev-source
         - libexif-devel
         - libexttextcat-devel
-        - libfabric-devel
         - libfastjson-devel
         - libfbclient2-devel
         - libfdisk-devel
@@ -2207,7 +2220,6 @@ data:
         - mp-devel
         - mpg123-devel
         - mpi4py-common
-        - mpich-devel
         - msv-msv
         - msv-xsdlib
         - mtdev-devel
@@ -2246,6 +2258,7 @@ data:
         - neXtaw-devel
         - nftables-devel
         - nghttp2
+        - nginx-filesystem
         - ninja-build
         - nkf
         - nodejs-async
@@ -2287,6 +2300,7 @@ data:
         - openblas-devel
         - openblas-openmp64
         - openblas-openmp64_
+        - openblas-serial
         - openblas-serial64
         - openblas-serial64_
         - openblas-threads64
@@ -2304,11 +2318,10 @@ data:
         - OpenEXR-devel
         - openjpeg2-devel
         - openjpeg2-tools
+        - openldap-devel
         - openldap-servers
-        - openmpi-devel
         - openpgm
         - openpgm-devel
-        - opensm-devel
         - opensp-devel
         - opentest4j
         - openwsman-client
@@ -2508,6 +2521,7 @@ data:
         - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
+        - perl-Fedora-VSP
         - perl-FFI-CheckLib
         - perl-FFI-Platypus
         - perl-File-BaseDir
@@ -2537,6 +2551,7 @@ data:
         - perl-Function-Parameters
         - perl-Future
         - perl-Future-IO
+        - perl-generators
         - perl-Getopt-ArgvFile
         - perl-Getopt-Long-Descriptive
         - perl-Glib
@@ -3501,6 +3516,7 @@ data:
         - reflections
         - regexp
         - relaxngcc
+        - relaxngDatatype
         - replacer
         - rest-devel
         - rgb
@@ -3510,7 +3526,6 @@ data:
         - rpcgen
         - rpcsvc-proto-devel
         - rpkg-common
-        - rpm-mpi-hooks
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
@@ -3784,6 +3799,7 @@ data:
         - srt-devel
         - startup-notification-devel
         - stax2-api
+        - stax-ex
         - stringtemplate
         - stunnel
         - subunit
@@ -4138,6 +4154,7 @@ data:
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
         - xmlstarlet
+        - xmlstreambuffer
         - xmlto
         - xmltoman
         - xmlunit
@@ -4168,6 +4185,7 @@ data:
         - xorg-x11-xtrans-devel
         - xpp3
         - xpp3-minimal
+        - xsom
         - xstream
         - xxhash-devel
         - xz-java
@@ -4215,7 +4233,6 @@ data:
             - efl-devel
             - elfutils-debuginfod-client-devel
             - flashrom-devel
-            - gcc-gfortran
             - gcc-plugin-devel
             - gnu-efi-compat
             - gnu-efi-devel
@@ -4284,7 +4301,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx-devel
             - valgrind
             - valgrind-devel
             - xen-devel
@@ -4315,7 +4331,6 @@ data:
             - golang-github-hpcloud-tail-devel
             - golang-github-onsi-ginkgo-devel
             - golang-src
-            - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
@@ -4369,7 +4384,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx-devel
             - uuid
             - valgrind
             - valgrind-devel
@@ -4405,7 +4419,6 @@ data:
             - golang
             - golang-bin
             - golang-src
-            - gperftools-libs
             - graphviz-devel
             - graphviz-devil
             - graphviz-gd
@@ -4417,6 +4430,7 @@ data:
             - kf5-filesystem
             - libdv
             - libevent-devel
+            - libfabric-devel
             - libftdi
             - libgs-devel
             - libica
@@ -4449,9 +4463,12 @@ data:
             - mallard-rng
             - mozilla-filesystem
             - mpfr-devel
+            - mpich-devel
             - mt-st
             - mtx
             - nettle-devel
+            - openmpi-devel
+            - opensm-devel
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
@@ -4471,6 +4488,7 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - rdma-core-devel
+            - rpm-mpi-hooks
             - rrdtool-perl
             - s390utils-devel
             - seabios-bin
@@ -4484,7 +4502,6 @@ data:
             - tcl-devel
             - tk-devel
             - urw-base35-fonts-devel
-            - usbredir
             - valgrind
             - valgrind-devel
             - xdg-user-dirs
@@ -4552,6 +4569,5 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - ucx-devel
             - uthash-devel
             - xen-devel
