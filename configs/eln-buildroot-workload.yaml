@@ -80,10 +80,12 @@ data:
         - audit-libs-devel
         - augeas
         - augeas-devel
+        - auto-common
         - autoconf213
         - autogen
         - autogen-libopts-devel
         - automoc
+        - auto-service
         - autotrace
         - avahi-devel
         - avahi-glib-devel
@@ -932,7 +934,6 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
-        - glassfish-jaxb-codemodel
         - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
@@ -1357,6 +1358,7 @@ data:
         - jacop
         - jakarta-annotations
         - jakarta-oro
+        - jakarta-xml-ws
         - janino
         - jansson-devel
         - jasper-devel
@@ -1372,8 +1374,14 @@ data:
         - javamail
         - javapackages-local
         - javaparser
+        - javapoet
         - javassist
+        - jaxb-api
+        - jaxb-codemodel
         - jaxb-dtd-parser
+        - jaxb-impl
+        - jaxb-runtime
+        - jaxb-txw2
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -1405,6 +1413,7 @@ data:
         - jimtcl
         - jimtcl-devel
         - jmock
+        - jmock-imposters
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
@@ -1434,6 +1443,7 @@ data:
         - jython
         - jzlib
         - kde-settings
+        - kernel
         - kf5-attica
         - kf5-attica-devel
         - kf5-karchive
@@ -2994,12 +3004,6 @@ data:
         - portaudio-devel
         - postgresql-test-rpm-macros
         - potrace-devel
-        - powermock-api-mockito
-        - powermock-api-support
-        - powermock-core
-        - powermock-javaagent
-        - powermock-junit4
-        - powermock-reflect
         - pps-tools-devel
         - procps-ng-devel
         - proj
@@ -3247,7 +3251,6 @@ data:
         - python3-paste-deploy
         - python3-pastel
         - python3-path
-        - python3-pathlib2
         - python3-pathspec
         - python3-pexpect
         - python3-pickleshare
@@ -3438,6 +3441,7 @@ data:
         - python-sphinx-doc
         - python-wheel-wheel
         - qdox
+        - qemu-sanity-check-nodeps
         - qhull-devel
         - qjson
         - qjson-devel
@@ -3660,6 +3664,8 @@ data:
         - rubygem-redcarpet
         - rubygem-RedCloth
         - rubygem-redis
+        - rubygem-regexp_parser
+        - rubygem-regexp_property_values
         - rubygem-ronn
         - rubygem-rouge
         - rubygem-rr
@@ -4049,8 +4055,6 @@ data:
         - xorg-x11-utils
         - xorg-x11-xtrans-devel
         - xpp3
-        - xpp3-minimal
-        - xstream
         - xxhash-devel
         - xz-java
         - xz-lzma-compat
