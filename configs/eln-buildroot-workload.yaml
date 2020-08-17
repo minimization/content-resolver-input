@@ -408,11 +408,8 @@ data:
         - fish
         - flac-devel
         - flatpak-devel
-        - flexiblas
         - flexiblas-devel
-        - flexiblas-netlib
         - flexiblas-netlib64
-        - flexiblas-openblas-openmp
         - flexiblas-openblas-openmp64
         - flite-devel
         - fltk-devel
@@ -2315,11 +2312,11 @@ data:
         - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
-        - openblas-openmp
         - openblas-openmp64
         - openblas-openmp64_
         - openblas-serial64
         - openblas-serial64_
+        - openblas-threads
         - openblas-threads64
         - openblas-threads64_
         - openbox
