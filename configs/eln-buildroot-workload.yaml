@@ -1424,6 +1424,7 @@ data:
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
+        - jna
         - jna-contrib
         - jnr-constants
         - jnr-ffi
@@ -2347,6 +2348,8 @@ data:
         - orc-compiler
         - orc-devel
         - osgi-annotation
+        - osgi-compendium
+        - osgi-core
         - os-maven-plugin
         - ostree-devel
         - p7zip
