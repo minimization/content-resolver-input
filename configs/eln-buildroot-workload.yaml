@@ -2356,6 +2356,7 @@ data:
         - pacemaker-libs-devel
         - pacemaker-schemas
         - PackageKit-glib-devel
+        - PackageKit-gtk3-module
         - pakchois-devel
         - pam-devel
         - pam_wrapper
