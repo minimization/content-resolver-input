@@ -1,9 +1,9 @@
-document: feedback-pipeline-workload
+document: feedback-pipeline-unwanted
 version: 1
 data:
   maintainer: sst_platform_security
   name: Unwanted security/cryptography packages
-  description: Unwanted packages implementing cryptogtraphy
+  description: Unwanted packages implementing cryptography
   
   # Simo Sorce: The packages are unwanted either because they are
   # bad cryptography implementation, unmaintained, or simply not
@@ -12,7 +12,7 @@ data:
   # more).
   # More info in the original PR 15
 
-  packages:
+  unwanted_packages:
   - libsodium
   - libssh2
   - libtomcrypt
