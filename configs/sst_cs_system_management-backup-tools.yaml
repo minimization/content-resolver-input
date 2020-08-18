@@ -26,13 +26,13 @@ data:
   - libisoburn-doc
 
   arch_packages:
-  #rear not yet supported on s390x and arm
+    #rear not yet supported on s390x and arm
 
-  x86_64:
-  - rear
+    x86_64:
+    - rear
 
-  ppc64le:
-  - rear
+    ppc64le:
+    - rear
 
   labels:
   - eln
