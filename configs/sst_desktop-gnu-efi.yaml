@@ -5,8 +5,15 @@ data:
   description: Development Libraries and headers for EFI
   maintainer: sst_desktop
 
-  packages:
-  - gnu-efi
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    armv7hl:
+      - gnu-efi
+    aarch64:
+      - gnu-efi
+    x86_64:
+      - gnu-efi

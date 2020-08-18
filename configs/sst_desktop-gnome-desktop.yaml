@@ -42,6 +42,20 @@ data:
   labels:
   - eln
 
+  arch_packages:
+    armv7hl:
+      - fprintd
+      - fprintd-pam
+    aarch64:
+      - fprintd
+      - fprintd-pam
+    ppc64le:
+      - fprintd
+      - fprintd-pam
+    x86_64:
+      - fprintd
+      - fprintd-pam
+
   package_placeholders:
     redhat-logos:
       description: Red Hat-related icons and pictures
