@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Orca
-  description: A screen reader for Workstation 
+  name: GNOME Disks
+  description: Default application for managing disks in Workstation
   maintainer: sst_desktop
 
   packages:
-   - orca
+  - gnome-disk-utility
 
   labels:
   - eln

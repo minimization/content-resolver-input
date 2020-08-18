@@ -6,10 +6,9 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - flatpak
-   - flatpak-builder
-   - flatpak-runtime-container
-   - flatpak-sdk-container
+  - flatpak
+  - flatpak-builder
+  - flatpak-selinux
 
   labels:
   - eln

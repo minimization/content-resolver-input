@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - inkscape
+  - inkscape
+  - inkscape-view
 
   labels:
   - eln

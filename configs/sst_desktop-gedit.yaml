@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gedit
+  - gedit
+  - gedit-plugins
 
   labels:
   - eln

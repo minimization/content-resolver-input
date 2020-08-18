@@ -11,3 +11,4 @@ data:
   unwanted_packages:
   - iptstate
   - bridge-utils
+  - ebtables-legacy

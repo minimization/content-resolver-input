@@ -6,7 +6,20 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - tigervnc
+  - tigervnc
+  - tigervnc-server
+  - tigervnc-server-module
 
   labels:
   - eln
+
+  package_placeholders:
+    tigervnc-selinux:
+      description: SELinux module for TigerVNC
+      requires:
+        - libselinux-utils
+        - selinux-policy
+        - policycoreutils
+        - libselinux-utils
+      buildrequires:
+        - selinux-policy-devel

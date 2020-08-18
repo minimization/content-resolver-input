@@ -3,10 +3,11 @@ version: 1
 data:
   name: GNOME Terminal
   description: Default terminal application in Workstation
-  maintainer: sst_desktop
+  maintainer: sst_desktop_applications
 
   packages:
-   - gnome-terminal
+  - gnome-terminal
+  - gnome-terminal-nautilus
 
   labels:
   - eln

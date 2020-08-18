@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gnome-initial-setup
+  - gnome-initial-setup
 
   labels:
   - eln

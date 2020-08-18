@@ -10,6 +10,8 @@ data:
   - bpftrace
   - perf
   - strace
+  - trace-cmd
+  - kernelshark
 
   labels:
   - eln

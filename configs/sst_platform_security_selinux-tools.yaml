@@ -14,6 +14,7 @@ data:
   - setools-gui
   - selinux-policy-devel
   - udica
+  - setroubleshoot
 
   labels:
   - eln

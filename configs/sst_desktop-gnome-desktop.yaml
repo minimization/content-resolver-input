@@ -6,13 +6,82 @@ data:
   maintainer: sst_desktop
 
   packages:
-   - gdm
-   - gnome-session
-   - gnome-shell
-   - gnome-tweaks
-   - gnome-control-center
-   - tracker
-   - gnome-remote-desktop
+  # Because of gnome-common
+  - autoconf-archive
+  - fprintd
+  - fprintd-pam
+  - freerdp
+  - gdm
+  - glib2
+  - glib2-doc
+  - glib2-fam
+  - glib2-static
+  - glib2-tests
+  - gnome-backgrounds
+  - gnome-backgrounds-extras
+  - gnome-control-center
+  - gnome-color-manager
+  - gnome-common
+  - gnome-devel-docs
+  - gnome-online-miners
+  - gnome-remote-desktop
+  - gnome-session
+  - gnome-shell
+  - gnome-shell-extension-auto-move-windows
+  - gnome-shell-extension-dash-to-dock
+  - gnome-shell-extension-drive-menu
+  - gnome-shell-extension-native-window-placement
+  - gnome-shell-extension-screenshot-window-sizer
+  - gnome-shell-extension-windowsNavigator
+  - gnome-shell-extension-workspace-indicator
+  - gnome-tweaks
+  - polkit-gnome
+  - tracker
+  - xdg-user-dirs-gtk
 
   labels:
   - eln
+
+  arch_packages:
+    armv7hl:
+      - fprintd
+      - fprintd-pam
+    aarch64:
+      - fprintd
+      - fprintd-pam
+    ppc64le:
+      - fprintd
+      - fprintd-pam
+    x86_64:
+      - fprintd
+      - fprintd-pam
+
+  package_placeholders:
+    redhat-logos:
+      description: Red Hat-related icons and pictures
+      requires:
+        - coreutils
+      buildrequires:
+        - syslinux-perl
+        - netpbm-progs
+        - hardlink
+    redhat-logos-httpd:
+      description: Red Hat-related icons and pictures used by httpd
+      requires: []
+      buildrequires: []
+    redhat-logos-ipa:
+      description: Red Hat-related icons and pictures used by IPA
+      requires: []
+      buildrequires: []
+    redhat-backgrounds:
+      description: Red Hat-related desktop backgrounds
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-systemMonitor:
+      description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-user-theme:
+      description: Support for custom themes in GNOME Shell
+      requires: []
+      buildrequires: []

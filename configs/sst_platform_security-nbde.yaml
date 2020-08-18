@@ -7,6 +7,10 @@ data:
 
   packages:
   - clevis
+  - clevis-dracut
+  - clevis-luks
+  - clevis-systemd
+  - clevis-udisks2
   - tang
 
   labels:
