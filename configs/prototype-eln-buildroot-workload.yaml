@@ -106,7 +106,6 @@ data:
         - bcc-devel
         - bcel
         - beakerlib
-        - bea-stax-api
         - beust-jcommander
         - bind-devel
         - bind-lite-devel
@@ -479,8 +478,6 @@ data:
         - geos
         - geos-devel
         - geronimo-jaxrpc
-        - geronimo-jms
-        - geronimo-jpa
         - geronimo-osgi-support
         - geronimo-parent-poms
         - geronimo-saaj
@@ -933,17 +930,9 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
-        - glassfish-fastinfoset
-        - glassfish-jaxb-api
-        - glassfish-jaxb-codemodel
-        - glassfish-jaxb-core
-        - glassfish-jaxb-runtime
-        - glassfish-jaxb-txw2
-        - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
-        - glassfish-servlet-api
         - glew-devel
         - glib
         - glibc-static
@@ -1366,7 +1355,11 @@ data:
         - jackson-parent
         - jacop
         - jakarta-annotations
+        - jakarta-messaging
         - jakarta-oro
+        - jakarta-persistence
+        - jakarta-servlet
+        - jakarta-ws-rs
         - jakarta-xml-ws
         - janino
         - jansson-devel
@@ -1385,7 +1378,10 @@ data:
         - javaparser
         - javapoet
         - javassist
+        - jaxb-codemodel
         - jaxb-dtd-parser
+        - jaxb-runtime
+        - jaxb-txw2
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -1417,6 +1413,7 @@ data:
         - jimtcl
         - jimtcl-devel
         - jmock
+        - jmock-imposters
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
@@ -1723,6 +1720,7 @@ data:
         - libgxim
         - libgxim-devel
         - libgxps-devel
+        - libhandy1
         - libhandy-devel
         - libhangul-devel
         - libICE-devel
@@ -2220,11 +2218,12 @@ data:
         - mono-winforms
         - motif-devel
         - mozjs68-devel
+        - mozjs78
+        - mozjs78-devel
         - mp
         - mp-devel
         - mpg123-devel
         - mpi4py-common
-        - msv-msv
         - msv-xsdlib
         - mtdev-devel
         - multilib-rpm-config
@@ -3230,7 +3229,6 @@ data:
         - python3-nose-cover3
         - python3-notebook
         - python3-nototools
-        - python3-ntplib
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
@@ -3512,7 +3510,6 @@ data:
         - redland-devel
         - reflections
         - regexp
-        - relaxngcc
         - relaxngDatatype
         - replacer
         - rest-devel
@@ -3798,8 +3795,6 @@ data:
         - sratom-devel
         - srt-devel
         - startup-notification-devel
-        - stax2-api
-        - stax-ex
         - stringtemplate
         - stunnel
         - subunit
@@ -4109,7 +4104,6 @@ data:
         - wildmidi-libs
         - wireshark-devel
         - woff2-devel
-        - woodstox-core
         - wordnet
         - wpebackend-fdo-devel
         - wsdl4j
@@ -4154,7 +4148,6 @@ data:
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
         - xmlstarlet
-        - xmlstreambuffer
         - xmlto
         - xmltoman
         - xmlunit
@@ -4184,7 +4177,6 @@ data:
         - xorg-x11-utils
         - xorg-x11-xtrans-devel
         - xpp3
-        - xsom
         - xxhash-devel
         - xz-java
         - xz-lzma-compat
