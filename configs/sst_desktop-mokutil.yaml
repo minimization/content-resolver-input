@@ -5,8 +5,13 @@ data:
   description: Tool to manage UEFI Secure Boot MoK Keys
   maintainer: sst_desktop
 
-  packages:
-  - mokutil
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    aarch64:
+      - mokutil
+    x86_64:
+      - mokutil
