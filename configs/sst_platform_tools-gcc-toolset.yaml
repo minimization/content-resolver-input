@@ -34,5 +34,25 @@ data:
   - dwz
   - chrpath
 
+  package_placeholders:
+    gcc-libraries:
+      description: This package might be needed to support applications built with the GCC Toolset.
+      requires:
+      - binutils
+      - glibc-devel
+      - libgcc
+      - libgomp
+      buildrequires:
+      - gcc
+      - gcc-c++
+      - gcc-gfortran
+      - binutils
+      - glibc-devel
+      - libgcc
+      - libgomp
+      - gmp-devel
+      - mpfr-devel
+      - libmpc-devel
+
   labels:
   - eln
