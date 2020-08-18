@@ -5,9 +5,12 @@ data:
   description: Simple kernel loader which boots from a FAT filesystem
   maintainer: sst_desktop
 
-  packages:
-  - syslinux
-  - syslinux-tftpboot
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    x86_64:
+      - syslinux
+      - syslinux-tftpboot
