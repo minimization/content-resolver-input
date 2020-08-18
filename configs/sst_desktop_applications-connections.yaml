@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Yelp
-  description: Default help application in Workstation
+  name: Connections
+  description: Application for managing remote connections in Workstation
   maintainer: sst_desktop_applications
 
   packages:
-   - yelp
+  - connections
 
   labels:
   - eln

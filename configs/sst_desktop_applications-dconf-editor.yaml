@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-   - dconf-editor
+  - dconf-editor
 
   labels:
   - eln

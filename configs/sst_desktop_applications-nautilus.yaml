@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Nautilus
+  description: Default file manager in Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - file-roller
+  - gvfs
+  - gvfs-client
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-gphoto2
+  - gvfs-mtp
+  - gvfs-smb
+  - nautilus
+  - nautilus-sendto
+  - sushi
+
+  labels:
+  - eln

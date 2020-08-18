@@ -14,6 +14,15 @@ data:
   - rust-doc
   - rust-std-static
   - rustfmt
+  - rust-srpm-macros
 
   labels:
   - eln
+
+  package_placeholders:
+    rust-toolset:
+      description: Meta-package for rust-toolset
+      requires:
+        - rust
+        - cargo
+      buildrequires: []

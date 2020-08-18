@@ -5,8 +5,15 @@ data:
   description: Tools to manage UEFI variables
   maintainer: sst_desktop
 
-  packages:
-   - efivar
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    armv7hl:
+      - efivar
+    aarch64:
+      - efivar
+    x86_64:
+      - efivar

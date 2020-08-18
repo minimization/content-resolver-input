@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+    name: Hesiod
+    description: Compat packages for the Hesiod system
+    maintainer: sst_identity_management
+    
+    packages: []
+
+    labels:
+        - eln
+
+    package_placeholders:
+        compat-hesiod:
+            description: The Hesiod naming service
+            requires: []
+            buildrequires:
+                - autoconf
+                - automake
+                - libtool
+                - libidn-devel

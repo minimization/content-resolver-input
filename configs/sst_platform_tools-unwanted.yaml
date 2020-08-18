@@ -32,3 +32,7 @@ data:
   - mcpp-doc
   - libmcpp
   - libmcpp-devel
+  # Remove the temporary compat package for libpthread_nonshared.a.
+  - compat-libpthread-nonshared
+  # Remove nscd in favour of sssd.
+  - nscd

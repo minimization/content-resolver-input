@@ -5,8 +5,15 @@ data:
   description: EFI Boot Manager
   maintainer: sst_desktop
 
-  packages:
-   - efibootmgr
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    armv7hl:
+      - efibootmgr
+    aarch64:
+      - efibootmgr
+    x86_64:
+      - efibootmgr

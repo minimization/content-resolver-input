@@ -8,7 +8,54 @@ data:
   packages:
   - java-1.8.0-openjdk
   - java-11-openjdk
-  - icedtea-web
+  # With Nashorn gone in newer JDKs, we need a JS engine
+  - rhino
+  # Core tool for JDK support work
+  - byteman
 
   labels:
   - eln
+
+  package_placeholders:
+    java-17-openjdk:
+      description: Future long-term supported release of OpenJDK
+      requires:
+        - fontconfig
+        - xorg-x11-fonts-Type1
+        - ca-certificates
+        - javapackages-filesystem
+        - tzdata-java
+        - copy-jdk-configs
+        - cups-libs
+      buildrequires:
+        - autoconf
+        - automake
+        - alsa-lib-devel
+        - binutils
+        - cups-devel
+        - desktop-file-utils
+        - elfutils-devel
+        - fontconfig-devel
+        - giflib-devel
+        - gcc-c++
+        - gdb
+        - lcms2-devel
+        - libpng-devel
+        - libjpeg-devel
+        - libX11-devel
+        - libXi-devel
+        - libXinerama-devel
+        - libXrandr-devel
+        - libXt-devel
+        - libXtst-devel
+        - libxslt
+        - nss-devel
+        - pkgconfig
+        - xorg-x11-proto-devel
+        - zip
+        - javapackages-filesystem
+        - java-latest-openjdk-devel
+        - libffi-devel
+        - tzdata-java
+        - gcc
+        - systemtap-sdt-devel

@@ -44,19 +44,6 @@ data:
   - xen-runtime
   - xen-doc
 
-  # Simo Sorce: The packages added in this PR are unwanted either
-  # because they are bad cryptography implementation, unmaintained,
-  # or simply not certifiable or redundant (same functionality
-  # already present in multiple crypto packages already and we do
-  # not want to add more).
-  # More info in PR 15
-  - libsodium
-  - libssh2
-  - libtomcrypt
-  - python2-pycryptodomex
-  - python3-ecdsa
-  - python3-pycryptodomex
-
   # Vít Ondruch: rubygems is subpackage of ruby package and therefore
   # the independent version is not needed. rubypick is not needed and
   # there is %bcond_without to disable it
@@ -71,10 +58,9 @@ data:
 
   # John Feeney:
   # old firewire packages
-  -libdv
-  -libiec61883
+  - libdv
+  - libiec61883
   
   #Jaroslav Kysela:
   # It's sound font loader for (really) old Creative hardware. The recent hardware does not require it.
-  -fxload
-  
+  - fxload

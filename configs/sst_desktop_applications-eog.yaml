@@ -3,10 +3,10 @@ version: 1
 data:
   name: Eye of GNOME
   description: Default image viewer for Workstation
-  maintainer: sst_desktop
+  maintainer: sst_desktop_applications
 
   packages:
-   - eog
+  - eog
 
   labels:
   - eln

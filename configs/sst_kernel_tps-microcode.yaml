@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CPU microcode tools
+  description: Tools to update CPU microcode
+  maintainer: sst_kernel_tps
+
+  packages:
+  - microcode_ctl
+
+  labels:
+  - eln

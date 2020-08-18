@@ -11,12 +11,12 @@ data:
   - eln
 
   arch_packages:
-    aarch64:
-    - grub2-efi-aa64
-    - grub2-efi-aa64-cdboot
-    ppc64le:
-    - grub2-ppc64le
-    x86_64:
-    - grub2-efi-x64
-    - grub2-efi-x64-cdboot
-    - grub2-pc
+   aarch64:
+   - grub2-efi-aa64
+   - grub2-efi-aa64-cdboot
+   ppc64le:
+   - grub2-ppc64le
+   x86_64:
+   - grub2-efi-x64
+   - grub2-efi-x64-cdboot
+   - grub2-pc

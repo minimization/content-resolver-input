@@ -5,8 +5,15 @@ data:
   description: Signing utility for UEFI binaries
   maintainer: sst_desktop
 
-  packages:
-   - pesign
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    armv7hl:
+      - pesign
+    aarch64:
+      - pesign
+    x86_64:
+      - pesign

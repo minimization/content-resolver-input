@@ -1,13 +1,15 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Qt Toolkit
+  name: GTK 2 toolkit
   description: Software toolkit for developing applications
-  maintainer: sst_desktop_applications
+  maintainer: sst_desktop
 
   packages:
-   - qt5
-   - qgnomeplatform
+  - adwaita-gtk2-theme
+  - gtk2
+  - gtk2-immodules
+  - gtk-doc
 
   labels:
   - eln

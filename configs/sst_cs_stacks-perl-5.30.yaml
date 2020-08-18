@@ -149,5 +149,7 @@ data:
   - perl-URI
   - perl-utils
   - perl-version
+  modules_disable:
+  - perl:5.32
   modules_enable:
   - perl:5.30

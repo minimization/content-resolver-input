@@ -8,6 +8,7 @@ data:
   packages:
   - bpftool
   - libbpf
+  - dwarves
 
   labels:
   - eln

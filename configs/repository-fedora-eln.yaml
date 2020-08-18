@@ -7,12 +7,11 @@ data:
   maintainer: asamalik
   source:
     # This is a combination of Fedora Rawhide and the ELN repository
-    fedora_release: "33"
+    fedora_release: rawhide
     additional_repository: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Everything/$basearch/os/
     architectures:
     - armv7hl
     - aarch64
-    - i686
     - ppc64le
     - s390x
     - x86_64
