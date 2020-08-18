@@ -12,6 +12,7 @@ data:
   - autocorr-cs
   - autocorr-da
   - autocorr-de
+  - autocorr-en
   - autocorr-es
   - autocorr-fa
   - autocorr-fi
@@ -158,7 +159,6 @@ data:
   - libreoffice-wiki-publisher
   - libreoffice-xsltfilter
   - libreofficekit
-  - autocorr-en
   - libreoffice-base
   - libreoffice-calc
   - libreoffice-core

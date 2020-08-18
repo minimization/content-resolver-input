@@ -1,11 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: CRIU support
-  description: Tool necessary to support checkpoint/restore.
+  name: SMC tools
+  description: Tools to use the SMC (Shared Memory Communication) protocol
   maintainer: sst_kernel_tps
+
   packages:
-  - criu
-  - crit
+  - smc-tools
+
   labels:
   - eln

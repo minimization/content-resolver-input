@@ -5,8 +5,13 @@ data:
   description: Secure Boot DBX updater
   maintainer: sst_desktop
 
-  packages:
-  - dbxtool
+  packages: []
 
   labels:
   - eln
+
+  arch_packages:
+    aarch64:
+      - dbxtool
+    x86_64:
+      - dbxtool
