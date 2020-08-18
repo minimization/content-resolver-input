@@ -43,8 +43,6 @@ data:
     - iscsi-initiator-utils-iscsiuio
     - isns-utils
     - isns-utils-libs
-    - libopeniscsiusr
-    - libopeniscsiusr-devel
     - python3-iscsi-initiator-utils
 
       # fcoe offload
