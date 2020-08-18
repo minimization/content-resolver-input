@@ -38,7 +38,6 @@ data:
         - antlr32-maven-plugin
         - antlr32-tool
         - antlr-tool
-        - ant-testutil
         - aopalliance
         - apache-commons-beanutils
         - apache-commons-collections-testframework
@@ -52,7 +51,6 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - apiguardian
-        - apiviz
         - appstream
         - apr-devel
         - apr-util-devel
@@ -1607,7 +1605,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
-        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1864,6 +1861,7 @@ data:
         - libpipeline-devel
         - libpkgconf-devel
         - libplist-devel
+        - libportal-devel
         - libprelude
         - libprelude-devel
         - libproxy-devel
@@ -2242,6 +2240,7 @@ data:
         - MUMPS
         - MUMPS-common
         - MUMPS-devel
+        - MUMPS-srpm-macros
         - munge-devel
         - munge-maven-plugin
         - mupdf
@@ -2970,6 +2969,7 @@ data:
         - physfs-devel
         - pipewire0.2-devel
         - pipewire-devel
+        - pipewire-doc
         - plexus-ant-factory
         - plexus-archiver
         - plexus-build-api
