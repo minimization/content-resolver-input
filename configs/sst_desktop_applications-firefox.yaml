@@ -15,8 +15,6 @@ data:
       - firefox
     ppc64le:
       - firefox
-    s390x:
-      - firefox
     x86_64:
       - firefox
 
