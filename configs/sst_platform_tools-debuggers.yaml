@@ -8,8 +8,8 @@ data:
   packages:
   - gdb
   - gdb-doc
+  - gdb-gdbserver
   - gdb-headless
-  - gdb-server
   - libbabeltrace
   - libbabeltrace-devel
   - libipt
