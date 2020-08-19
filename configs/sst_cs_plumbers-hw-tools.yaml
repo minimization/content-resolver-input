@@ -7,11 +7,18 @@ data:
 
   packages:
   - biosdevname
-  - prefixdevname
   - ledmon
   - numad
   - sgpio
   - libatasmart
+
+  package_placeholders:
+    prefixdevname:
+      description: This package is rhel-only NIC naming tool
+      buildrequires:
+      - rust-toolset
+      - git
+      - systemd-devel
 
   labels:
   - eln
