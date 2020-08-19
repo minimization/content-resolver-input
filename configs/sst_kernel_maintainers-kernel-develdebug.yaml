@@ -27,3 +27,13 @@ data:
             - kernel-zfcpdump-devel
         x86_64:
             - kernel-debuginfo-common-x86_64
+    package_placeholders:
+        kernel-zfcpdump-debuginfo:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+        kernel-zfcpdump-devel:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+

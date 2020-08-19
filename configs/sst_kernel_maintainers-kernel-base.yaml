@@ -26,3 +26,25 @@ data:
             - kernel-zfcpdump-core
             - kernel-zfcpdump-modules
             - kernel-zfcpdump-modules-extra
+    package_placeholders:
+        kernel-abi-whitelists:
+            description: Fedora doesn't build KABI whitelists
+        kernel-doc:
+            description: Fedora doesn't build doc
+        kernel-zfcpdump:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+        kernel-zfcpdump-core:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+        kernel-zfcpdump-modules:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+        kernel-zfcpdump-modules-extra:
+            description: Fedora doesn't build zfcpdump
+            limit_arches:
+            - s390x
+
