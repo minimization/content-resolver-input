@@ -43,8 +43,6 @@ data:
     - iscsi-initiator-utils-iscsiuio
     - isns-utils
     - isns-utils-libs
-    - libopeniscsiusr
-    - libopeniscsiusr-devel
     - python3-iscsi-initiator-utils
 
       # fcoe offload
@@ -92,7 +90,6 @@ data:
     - libblockdev-nvdimm
     - libblockdev-part
     - libblockdev-plugins-all
-    - libblockdev-s390 (s390x)
     - libblockdev-swap
     - libblockdev-tools
     - libblockdev-utils
@@ -126,39 +123,11 @@ data:
     # - peripety
     #
 
+  placeholder_packages:
+    pmreorder:
+      description: This package is only available in RHEL.
+
   arch_packages:
-    aarch64:
-      - daxio
-      - libpmem
-      - libpmem-debug
-      - libpmem-devel
-      - libpmemblk
-      - libpmemblk-debug
-      - libpmemblk-devel
-      - libpmemlog
-      - libpmemlog-debug
-      - libpmemlog-devel
-      - libpmemobj
-      - libpmemobj++-devel
-      - libpmemobj++-doc
-      - libpmemobj-debug
-      - libpmemobj-devel
-      - libpmempool
-      - libpmempool-debug
-      - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
-      - pmdk-convert
-      - pmempool
-      - pmreorder
-      - rpmemd
     ppc64le:
       - daxio
       - libpmem
@@ -171,8 +140,6 @@ data:
       - libpmemlog-debug
       - libpmemlog-devel
       - libpmemobj
-      - libpmemobj++-devel
-      - libpmemobj++-doc
       - libpmemobj-debug
       - libpmemobj-devel
       - libpmempool
@@ -181,15 +148,7 @@ data:
       - librpmem
       - librpmem-debug
       - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
-      - pmdk-convert
       - pmempool
-      - pmreorder
       - rpmemd
     x86_64:
       - daxio
@@ -213,16 +172,12 @@ data:
       - librpmem
       - librpmem-debug
       - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
       - pmdk-convert
       - pmempool
-      - pmreorder
       - rpmemd
+
+    - s390x:
+      - libblockdev-s390
 
   labels:
   - eln

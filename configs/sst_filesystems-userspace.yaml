@@ -33,7 +33,6 @@ data:
     - pam_cifscreds
     - rpcbind
     - rpcgen
-    - rpcsvc-proto
     - rpcsvc-proto-devel
     - system-storage-manager
     - xfsdump
