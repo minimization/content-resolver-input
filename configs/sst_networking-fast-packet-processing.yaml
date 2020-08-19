@@ -8,9 +8,6 @@ data:
   maintainer: sst_networking
   packages:
   - driverctl
-  - dpdk
-  - dpdk-tools
-  - dpdk-devel
   - dpdk-doc
   - tuned
   - tuned-profiles-nfv
@@ -18,6 +15,20 @@ data:
   - tuned-profiles-nfv-host
   - tuned-profiles-realtime
   - tuned-profiles-cpu-partitioning
+
+  arch_packages:
+    aarch64:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
+    ppc64le:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
+    x86_64:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
 
   labels:
   - eln
