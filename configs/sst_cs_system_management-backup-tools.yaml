@@ -24,7 +24,15 @@ data:
   - xorriso
   - libisoburn
   - libisoburn-doc
-  - rear
+
+  arch_packages:
+    #rear not yet supported on s390x and arm
+
+    x86_64:
+    - rear
+
+    ppc64le:
+    - rear
 
   labels:
   - eln
