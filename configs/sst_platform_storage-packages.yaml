@@ -176,7 +176,7 @@ data:
       - pmempool
       - rpmemd
 
-    - s390x:
+    s390x:
       - libblockdev-s390
 
   labels:
