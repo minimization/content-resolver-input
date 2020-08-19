@@ -15,8 +15,6 @@ data:
       - thunderbird
     ppc64le:
       - thunderbird
-    s390x:
-      - thunderbird
     x86_64:
       - thunderbird
 
