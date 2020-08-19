@@ -33,7 +33,6 @@ data:
   - NetworkManager-adsl
 
   # Config files
-  - NetworkManager-config-connectivity-redhat
   - NetworkManager-config-server
 
   # Cellular Modem
@@ -55,6 +54,14 @@ data:
   # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since usb_modeswitch 2.6.0, the
   # package depends on /usr/bin/tclsh (tcl). We no longer want to maintain jimtcl for RHEL9.
   - jimtcl
+
+  package_placeholders:
+    NetworkManager-config-connectivity-redhat:
+      description: This corresponds to Fedora's "NetworkManager-config-connectivity-fedora" and contains only configuration.
+      # since this is a subpackage of NetworkManager, the dependencies are implicitly already covered.
+      requires: []
+      buildrequires: []
+      limit_arches: []  # empty means all arches
 
   labels:
   - eln
