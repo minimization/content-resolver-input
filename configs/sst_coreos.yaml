@@ -13,7 +13,6 @@ data:
    - afterburn
    - afterburn-dracut
    - coreos-installer
-   - cri-o
    - ignition
    - runc
    - ssh-key-dir
@@ -28,7 +27,7 @@ data:
    - podman
    - rpm-ostree
    - skopeo
-   - systemd-containerd
+   - systemd-container
    - toolbox
 
   labels:
