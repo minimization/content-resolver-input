@@ -18,7 +18,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Empty ELN installroot
+  name: Empty installroot
   
   # A short description, perhaps hinting the purpose
   #
@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-fedora-eln
+  - repository-fedora-rawhide
 
   # Packages defining this environment.
   # This list includes packages for all
@@ -50,8 +50,7 @@ data:
   # 
   # (mandatory field)
   labels:
-  - eln
-  - eln-buildroot
+  - minimization
 
   ### OPTIONAL FIELDS ###
 
