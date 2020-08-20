@@ -5180,7 +5180,6 @@ data:
             - gtkmm24-devel
             - HdrHistogram_c
             - libavc1394-devel
-            - libbabeltrace-devel
             - libdc1394
             - libdc1394-devel
             - libffado
@@ -5193,7 +5192,6 @@ data:
             - libraw1394-devel
             - libstdc++-static
             - libsysfs
-            - libuuid-devel
             - libvarlink
             - libxml++
             - libxml++-devel
@@ -5251,7 +5249,6 @@ data:
             - gtkmm24-devel
             - HdrHistogram_c
             - libavc1394-devel
-            - libbabeltrace-devel
             - libdc1394
             - libdc1394-devel
             - libffado
@@ -5261,7 +5258,6 @@ data:
             - libpq-devel
             - libraw1394-devel
             - libsysfs
-            - libuuid-devel
             - libvarlink
             - libxml++
             - libxml++-devel
@@ -5301,19 +5297,14 @@ data:
             - uuid
         s390x:
             - autoconf-archive
-            - avahi
             - bluez-obexd
-            - bsdtar
             - cdparanoia-devel
             - ceres-solver
             - ceres-solver-devel
             - chan
             - chrpath
-            - crash
-            - dejagnu
             - efi-filesystem
             - eigen3-devel
-            - elfutils-debuginfod-client-devel
             - gamin
             - gcc-gfortran
             - gcc-plugin-devel
@@ -5340,7 +5331,6 @@ data:
             - leptonica
             - leptonica-devel
             - libassuan-devel
-            - libbabeltrace-devel
             - libburn-devel
             - libcdio-devel
             - libdv
@@ -5355,13 +5345,10 @@ data:
             - libitm-devel
             - libmad
             - libmpc-devel
-            - libpfm
-            - libpfm-devel
             - libplist
             - libsmi-devel
             - libstdc++-static
             - libusbmuxd
-            - libuuid-devel
             - libvarlink
             - libvncserver
             - lldb
@@ -5408,16 +5395,10 @@ data:
             - sgpio
             - SLOF
             - sparsehash-devel
-            - systemtap
-            - systemtap-client
-            - systemtap-devel
-            - systemtap-runtime
             - tesseract
             - tesseract-devel
             - tesseract-langpack-eng
             - tesseract-tessdata-doc
-            - valgrind
-            - valgrind-devel
             - xdg-user-dirs
             - yelp-tools
         x86_64:
