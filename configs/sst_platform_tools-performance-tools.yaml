@@ -18,10 +18,7 @@ data:
   - elfutils-libs
   - libpfm
   - libpfm-devel
-  - papi
-  - papi-devel
-  - papi-libs
-  - papi-testsuite
+  # See papi below
   - systemtap
   - systemtap-client
   - systemtap-devel
@@ -40,25 +37,41 @@ data:
   labels:
   - eln
 
-  # dyninst isn't supported on s390x
+  # dyninst and papi aren't supported on s390x
   arch_packages:
     aarch64:
     - dyninst
     - dyninst-devel
     - dyninst-doc
     - dyninst-testsuite
+    - papi
+    - papi-devel
+    - papi-libs
+    - papi-testsuite
     i686:
     - dyninst
     - dyninst-devel
     - dyninst-doc
     - dyninst-testsuite
+    - papi
+    - papi-devel
+    - papi-libs
+    - papi-testsuite
     ppc64le:
     - dyninst
     - dyninst-devel
     - dyninst-doc
     - dyninst-testsuite
+    - papi
+    - papi-devel
+    - papi-libs
+    - papi-testsuite
     x86_64:
     - dyninst
     - dyninst-devel
     - dyninst-doc
     - dyninst-testsuite
+    - papi
+    - papi-devel
+    - papi-libs
+    - papi-testsuite

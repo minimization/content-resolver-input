@@ -12,8 +12,16 @@ data:
   - gdb-headless
   - libbabeltrace
   - libbabeltrace-devel
-  - libipt
-  - libipt-devel
+  # See libipt below
 
   labels:
   - eln
+
+  # libipt is Intel only
+  arch_packages:
+    i686:
+    - libipt
+    - libipt-devel
+    x86_64:
+    - libipt
+    - libipt-devel
