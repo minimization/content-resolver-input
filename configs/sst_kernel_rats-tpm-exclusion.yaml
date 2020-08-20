@@ -6,6 +6,8 @@ data:
   maintainer: sst_kernel_rats
 
   unwanted_packages:
+  - trousers
+  - tpm-tools
   - tpm-quote-tools
 
   labels:
