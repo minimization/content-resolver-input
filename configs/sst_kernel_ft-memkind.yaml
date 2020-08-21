@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: memkind
+  description: User Extensible Heap Manager
+  maintainer: sst_kernel_ft
+
+  packages: []
+
+  labels:      # <-- Please leave
+  - eln        #     this unchanged.
+
+
+  # (Only include the following section if you have arch-specific packages.)
+  #   arch_packages:
+  #      x86_64:                    # <-- Architecture
+  #        - arch-specific-package1   # <-- The list of binary RPM packages
+  #        - arch-specific-package1   #     goes here.
+  #
+  arch_packages:
+      x86_64:
+          - memkind
+          - memkind-devel
+          - memkind-debuginfo
+          - memkind-debugsource
