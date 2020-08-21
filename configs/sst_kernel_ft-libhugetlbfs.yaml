@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libhugetlbfs
+  description: User library to provide easy access to static huge pages
+  maintainer: sst_kernel_ft
+
+  packages:
+  - libhugetlbfs
+  - libhugetlbfs-devel
+  - libhugetlbfs-tests
+  - libhugetlbfs-utils
+  - libhugetlbfs-debuginfo
+  - libhugetlbfs-debugsource
+  - libhugetlbfs-tests-debuginfo
+  - libhugetlbfs-utils-debuginfo
+
+  labels:      # <-- Please leave
+  - eln        #     this unchanged.
+
