@@ -6,6 +6,8 @@ data:
     Collection of packages providing compatibility packages related to
     the GNU Toolchain.
   maintainer: sst_platform_tools
+  
+  packages: []
 
   package_placeholders:
     # RHEL 8 bumped SONAME of libgfortran.so.  Support RHEL 7 apps.
