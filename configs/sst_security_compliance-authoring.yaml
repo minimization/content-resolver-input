@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenSCAP OVAL Development support
   description: Utilities to make SCAP authoring and debugging an easier task.
-  maintainer: sst_platform_security
+  maintainer: sst_security_compliance
 
   packages:
   - oval-graph

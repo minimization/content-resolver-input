@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenSCAP library
   description: OpenSCAP library and bindings
-  maintainer: sst_platform_security
+  maintainer: sst_security_compliance
 
   packages:
   - openscap

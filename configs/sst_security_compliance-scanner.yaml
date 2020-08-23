@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenSCAP scanner
   description: OpenSCAP scanner, an open source SCAP scanning utility
-  maintainer: sst_platform_security
+  maintainer: sst_security_compliance
 
   packages:
   - openscap
