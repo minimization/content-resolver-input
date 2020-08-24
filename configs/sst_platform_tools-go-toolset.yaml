@@ -10,11 +10,13 @@ data:
   - golang-bin
   - golang-docs
   - golang-misc
-  - golang-race
-  - golang-shared
   - golang-src
   - golang-tests
   - go-srpm-macros
+
+  arch_packages:
+    x86_64:
+      - golang-race
 
   labels:
   - eln
