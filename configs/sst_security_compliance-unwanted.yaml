@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Packages -- Security Compliance
   description: Packages that Security Compliance won't distribute
-  maintainer: sst_platform_security
+  maintainer: sst_security_compliance
   labels:
     - eln
 

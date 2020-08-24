@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenSCAP SCE
   description: OpenSCAP Script Check Engine addon.
-  maintainer: sst_platform_security
+  maintainer: sst_security_compliance
 
   packages:
   - openscap
