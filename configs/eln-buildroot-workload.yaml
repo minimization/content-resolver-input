@@ -254,6 +254,7 @@ data:
         - compface
         - compface-devel
         - corosync
+        - corosynclib
         - corosynclib-devel
         - cppcheck
         - cppunit
@@ -941,6 +942,8 @@ data:
         - glslang
         - glslang-devel
         - glslc
+        - glusterfs
+        - glusterfs-fuse
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -1943,6 +1946,7 @@ data:
         - libvdpau-devel
         - libvdpau-trace
         - libverto-libev
+        - libvirt-daemon-driver-storage-sheepdog
         - libvirt-daemon-qemu
         - libvirt-devel
         - libvirt-gconfig-devel
@@ -1964,6 +1968,7 @@ data:
         - libwpe-devel
         - libwpg-devel
         - libwps-devel
+        - libwsman1
         - libwsman-devel
         - libXaw-devel
         - libxcrypt-static
@@ -4816,6 +4821,7 @@ data:
         - sg3_utils-devel
         - shapelib-devel
         - sharutils
+        - sheepdog
         - ShellCheck
         - shrinkwrap
         - shrinkwrap-impl-base
@@ -5154,9 +5160,6 @@ data:
             - gfs2-utils
             - gnu-efi-compat
             - gnu-efi-devel
-            - golang
-            - golang-bin
-            - golang-src
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
@@ -5219,9 +5222,6 @@ data:
             - efl
             - efl-devel
             - flashrom-devel
-            - golang
-            - golang-bin
-            - golang-src
             - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
@@ -5237,6 +5237,7 @@ data:
             - libraw1394-devel
             - libsysfs
             - libvarlink
+            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - lsscsi
@@ -5273,6 +5274,7 @@ data:
             - tslib
             - tslib-devel
             - uuid
+            - zfs-fuse
         s390x:
             - autoconf-archive
             - bluez-obexd
@@ -5292,9 +5294,6 @@ data:
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - gnome-common
-            - golang
-            - golang-bin
-            - golang-src
             - gperftools-libs
             - gpgme-devel
             - gpgmepp-devel
@@ -5323,11 +5322,6 @@ data:
             - libusbmuxd
             - libvarlink
             - libvncserver
-            - lldb
-            - lldb-devel
-            - llvm-googletest
-            - llvm-static
-            - llvm-test
             - mallard-rng
             - mesa-vulkan-drivers
             - metis
@@ -5348,8 +5342,6 @@ data:
             - polkit-gnome
             - pugixml
             - python3-kmod
-            - python3-lit
-            - python3-lldb
             - python3-rtslib
             - qemu-system-aarch64
             - qemu-system-aarch64-core
@@ -5401,6 +5393,7 @@ data:
             - libiec61883-devel
             - libraw1394-devel
             - libsysfs
+            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - lsscsi
@@ -5425,3 +5418,4 @@ data:
             - tslib
             - tslib-devel
             - xen-devel
+            - zfs-fuse
