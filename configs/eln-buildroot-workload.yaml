@@ -1227,7 +1227,6 @@ data:
         - google-noto-emoji-fonts
         - go-rpm-macros
         - gperftools-devel
-        - gperftools-libs
         - gphoto2
         - gpm
         - gpm-devel
@@ -2211,6 +2210,7 @@ data:
         - mono-web
         - mono-winforms
         - motif-devel
+        - mozjs68
         - mozjs68-devel
         - mp
         - mp-devel
@@ -5136,13 +5136,9 @@ data:
         - zziplib-devel
     arch_packages:
         aarch64:
-            - apr-devel
-            - apr-util-devel
-            - apr-util-openssl
             - bullet
             - bullet-devel
             - chan
-            - cyrus-sasl-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -5154,11 +5150,7 @@ data:
             - efivar-devel
             - efl
             - efl-devel
-            - expat-devel
             - flashrom-devel
-            - freeipa-client-common
-            - freeipa-common
-            - freeipa-server-common
             - gfs2-utils
             - gnu-efi-compat
             - gnu-efi-devel
@@ -5168,8 +5160,6 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
-            - httpd-devel
-            - jemalloc
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5178,23 +5168,17 @@ data:
             - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
-            - libserf
             - libsysfs
             - libvarlink
             - libxml++
             - libxml++-devel
             - lsscsi
             - mesa-vulkan-drivers
-            - mod_dav_svn
-            - nginx-filesystem
             - openbios
-            - openldap-devel
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
-            - perl-Fedora-VSP
             - perl-File-Slurp
-            - perl-generators
             - perl-XML-Catalog
             - perl-XML-TokeParser
             - perl-YAML-LibYAML
@@ -5217,15 +5201,10 @@ data:
             - sgpio
             - SLOF
             - spice-server-devel
-            - subversion
-            - subversion-libs
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - utf8proc
-            - varnish
-            - varnish-devel
             - xen-devel
         ppc64le:
             - bullet
@@ -5243,6 +5222,7 @@ data:
             - golang
             - golang-bin
             - golang-src
+            - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
             - HdrHistogram_c
@@ -5261,7 +5241,6 @@ data:
             - libxml++-devel
             - lsscsi
             - mesa-vulkan-drivers
-            - mozjs68
             - pcp-libs-devel
             - perl-Crypt-DES
             - perl-Digest-SHA1
@@ -5316,6 +5295,7 @@ data:
             - golang
             - golang-bin
             - golang-src
+            - gperftools-libs
             - gpgme-devel
             - gpgmepp-devel
             - HdrHistogram_c
@@ -5353,7 +5333,6 @@ data:
             - metis
             - metis-devel
             - mozilla-filesystem
-            - mozjs68
             - mpich-devel
             - oniguruma-devel
             - openbios
@@ -5394,12 +5373,8 @@ data:
             - xdg-user-dirs
             - yelp-tools
         x86_64:
-            - apr-devel
-            - apr-util-devel
-            - apr-util-openssl
             - bullet
             - bullet-devel
-            - cyrus-sasl-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -5411,18 +5386,12 @@ data:
             - efivar-devel
             - efl
             - efl-devel
-            - expat-devel
             - fftw-libs-quad
             - flashrom-devel
-            - freeipa-client-common
-            - freeipa-common
-            - freeipa-server-common
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
-            - httpd-devel
-            - jemalloc
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5431,20 +5400,14 @@ data:
             - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
-            - libserf
             - libsysfs
             - libxml++
             - libxml++-devel
             - lsscsi
-            - mod_dav_svn
-            - nginx-filesystem
             - openbios
-            - openldap-devel
             - openni
             - openni-devel
             - openni-primesense
-            - perl-Fedora-VSP
-            - perl-generators
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5455,15 +5418,10 @@ data:
             - rlottie-devel
             - SLOF
             - spice-server-devel
-            - subversion
-            - subversion-libs
             - syslinux-extlinux
             - syslinux-extlinux-nonlinux
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - utf8proc
-            - varnish
-            - varnish-devel
             - xen-devel
