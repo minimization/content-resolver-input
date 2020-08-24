@@ -10,3 +10,24 @@ data:
 
   labels:
   - eln
+
+  package_placeholders:
+    pki-servlet-engine:
+      description: This package provides a Tomcat-like servlet engine in RHEL 8+
+      requires:
+       - ant
+       - java-headless
+       - java-devel
+       - jpackage-utils
+       - procps
+       - shadow-utils
+       - chkconfig
+       - systemd-units
+       - coreutils
+      buildrequires:
+       - ant
+       - findutils
+       - java-devel
+       - jpackage-utils
+       - maven-local
+       - systemd-unnits
