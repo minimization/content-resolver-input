@@ -93,7 +93,6 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
@@ -196,7 +195,6 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
@@ -298,7 +296,6 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
     - python3-azure-sdk
     - python3-boto3
     - python3-botocore
