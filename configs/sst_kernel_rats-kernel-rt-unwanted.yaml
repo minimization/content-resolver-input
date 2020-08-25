@@ -8,6 +8,7 @@ data:
   unwanted_packages:
   - kernel-rt-modules-internal
   - kernel-rt-selftests-internal
+  - bpftool
 
   labels:
   - eln
