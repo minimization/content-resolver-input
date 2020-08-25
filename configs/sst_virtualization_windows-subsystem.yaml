@@ -42,3 +42,11 @@ data:
 
   labels:
   - eln
+
+  package_placeholders:
+    virtio-win-prewhql:
+      description: This package is not in Fedora (yet), but we want it here
+      limit_arches:
+      - x86_64
+      - aarch64
+      buildrequires: []   # same dependencies as mingw
