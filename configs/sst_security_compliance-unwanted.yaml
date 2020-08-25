@@ -16,3 +16,9 @@ data:
     # expect to need them moving forward
     - openscap-daemon
     - openscap-container
+
+    # these (stray) packages are maintained by Security Compliance only formally
+    # and should not be included without prior discussion
+    - libtnc
+    - tncfhh
+    - petera
