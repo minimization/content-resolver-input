@@ -15,7 +15,6 @@ data:
   - gvfs-mtp
   - gvfs-smb
   - nautilus
-  - nautilus-sendto
   - sushi
 
   labels:
