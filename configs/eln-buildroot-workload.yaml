@@ -192,6 +192,7 @@ data:
         - clamav-lib
         - clamav-update
         - clamd
+        - clang10-libs
         - classloader-leak-test-framework
         - clblast
         - clblast-devel
@@ -318,8 +319,6 @@ data:
         - eglexternalplatform-devel
         - egl-wayland
         - egl-wayland-devel
-        - enca
-        - enca-devel
         - epstool
         - erlang
         - erlang-asn1
@@ -473,8 +472,6 @@ data:
         - geos
         - geos-devel
         - geronimo-jaxrpc
-        - geronimo-jms
-        - geronimo-jpa
         - geronimo-osgi-support
         - geronimo-parent-poms
         - geronimo-saaj
@@ -925,11 +922,9 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
-        - glassfish-jax-rs-api
         - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
-        - glassfish-servlet-api
         - glew-devel
         - glib
         - glibc-static
@@ -1005,6 +1000,7 @@ data:
         - golang-github-datadog-devel
         - golang-github-datadog-zstd-devel
         - golang-github-davecgh-spew-devel
+        - golang-github-davecgh-xdr-devel
         - golang-github-dgrijalva-jwt-devel
         - golang-github-dimchansky-utfbom-devel
         - golang-github-dnaeon-vcr-devel
@@ -1169,6 +1165,8 @@ data:
         - golang-github-urfave-cli-devel
         - golang-github-urfave-negroni-devel
         - golang-github-vividcortex-gohistogram-devel
+        - golang-github-vmware-govmomi-devel
+        - golang-github-vmware-vmw-guestinfo-devel
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
@@ -1307,10 +1305,6 @@ data:
         - hwloc-devel
         - hwloc-gui
         - hyphen-devel
-        - hypre-mpich
-        - hypre-mpich-devel
-        - hypre-openmpi
-        - hypre-openmpi-devel
         - i3
         - ibus-devel
         - ibus-table-code
@@ -1353,7 +1347,12 @@ data:
         - jackson-parent
         - jacop
         - jakarta-annotations
+        - jakarta-el-api
+        - jakarta-messaging
         - jakarta-oro
+        - jakarta-persistence
+        - jakarta-servlet
+        - jakarta-ws-rs
         - jakarta-xml-ws
         - janino
         - jansson-devel
@@ -1374,8 +1373,12 @@ data:
         - javassist
         - jaxb-codemodel
         - jaxb-dtd-parser
+        - jaxb-fi
+        - jaxb-relaxng-datatype
         - jaxb-runtime
+        - jaxb-stax-ex
         - jaxb-txw2
+        - jaxb-xsom
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -1593,6 +1596,7 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
+        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1626,7 +1630,6 @@ data:
         - libconfuse
         - libconfuse-devel
         - libcue
-        - libcue-devel
         - libdaemon-devel
         - libdazzle-devel
         - libdbi
@@ -1670,6 +1673,7 @@ data:
         - libfdisk-devel
         - libfdt-devel
         - libfido2-devel
+        - libfl-static
         - libfontenc-devel
         - libfreehand-devel
         - libftdi-devel
@@ -1698,7 +1702,6 @@ data:
         - libgphoto2-devel
         - libgpuarray
         - libgrss
-        - libgrss-devel
         - libgsasl
         - libgsasl-devel
         - libgsf-devel
@@ -1713,6 +1716,7 @@ data:
         - libgxim
         - libgxim-devel
         - libgxps-devel
+        - libhandy1-devel
         - libhandy-devel
         - libhangul-devel
         - libICE-devel
@@ -1898,8 +1902,6 @@ data:
         - libspectre-devel
         - libspf2
         - libspf2-devel
-        - libsphinxclient
-        - libsphinxclient-devel
         - libspiro
         - libspiro-devel
         - libsrtp-devel
@@ -1969,7 +1971,6 @@ data:
         - libwpg-devel
         - libwps-devel
         - libwsman1
-        - libwsman-devel
         - libXaw-devel
         - libxcrypt-static
         - libXdmcp-devel
@@ -2021,6 +2022,10 @@ data:
         - lirc-devel
         - lirc-libs
         - lklug-fonts
+        - llvm10
+        - llvm10-devel
+        - llvm10-libs
+        - llvm10-static
         - llvm7.0
         - llvm7.0-libs
         - lmdb
@@ -2217,6 +2222,7 @@ data:
         - motif-devel
         - mozjs68
         - mozjs68-devel
+        - mozjs78-devel
         - mp
         - mp-devel
         - mpg123-devel
@@ -2230,7 +2236,6 @@ data:
         - MUMPS-srpm-macros
         - munge-devel
         - munge-maven-plugin
-        - mupdf
         - mutter-devel
         - mypaint-brushes-devel
         - mythes-devel
@@ -2367,8 +2372,6 @@ data:
         - openpgm
         - openpgm-devel
         - opentest4j
-        - openwsman-client
-        - openwsman-server
         - optipng
         - opus-devel
         - orangefs-devel
@@ -2386,7 +2389,6 @@ data:
         - pacemaker-libs-devel
         - pacemaker-schemas
         - PackageKit-glib-devel
-        - PackageKit-gtk3-module
         - pakchois-devel
         - pam-devel
         - pam_wrapper
@@ -2663,6 +2665,7 @@ data:
         - perl-Log-Trace
         - perl-Mail-IMAPTalk
         - perl-Mail-JMAPTalk
+        - perl-match-simple
         - perl-Math-Base-Convert
         - perl-Math-Int64
         - perl-MCE
@@ -2830,6 +2833,7 @@ data:
         - perl-Struct-Dumb
         - perl-Sub-Exporter-ForMethods
         - perl-Sub-Exporter-Lexical
+        - perl-Sub-Infix
         - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
@@ -3409,7 +3413,6 @@ data:
         - python3-sphinx-gallery
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
-        - python3-sphinx-latex
         - python3-sphinx-math-dollar
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
@@ -3574,8 +3577,6 @@ data:
         - ragel
         - rapidjson-devel
         - raptor2-devel
-        - rarian
-        - rarian-compat
         - rasqal-devel
         - rb_libtorrent
         - rb_libtorrent-devel
@@ -3609,8 +3610,10 @@ data:
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
+        - rubygem-actionmailbox
         - rubygem-actionmailer
         - rubygem-actionpack
+        - rubygem-actiontext
         - rubygem-actionview
         - rubygem-activejob
         - rubygem-activemodel
@@ -3620,7 +3623,7 @@ data:
         - rubygem-addressable
         - rubygem-afm
         - rubygem-ammeter
-        - rubygem-arel
+        - rubygem-ansi
         - rubygem-aruba
         - rubygem-Ascii85
         - rubygem-asciidoctor
@@ -3702,11 +3705,11 @@ data:
         - rubygem-mimemagic
         - rubygem-mime-types
         - rubygem-mime-types-data
-        - rubygem-mini_magick
         - rubygem-mini_mime
         - rubygem-minitest
         - rubygem-minitest4
         - rubygem-minitest-around
+        - rubygem-minitest-reporters
         - rubygem-mocha
         - rubygem-msgpack
         - rubygem-multi_json
@@ -3756,12 +3759,12 @@ data:
         - rubygem-rspec-collection_matchers
         - rubygem-rspec-its
         - rubygem-rspec-rails
+        - rubygem-ruby-progressbar
         - rubygem-ruby-rc4
         - rubygem-rubyzip
         - rubygem-safe_yaml
         - rubygem-sass
         - rubygem-sassc
-        - rubygem-sass-rails
         - rubygems-devel
         - rubygem-selenium-webdriver
         - rubygem-session
@@ -3799,6 +3802,7 @@ data:
         - rubygem-websocket-extensions
         - rubygem-xpath
         - rubygem-yard
+        - rubygem-zeitwerk
         - rubygem-ZenTest
         - rubypick
         - rust-actix+default-devel
@@ -3990,8 +3994,8 @@ data:
         - rust-digest+dev-devel
         - rust-digest-devel
         - rust-digest+std-devel
-        - rust-dirs+default-devel
-        - rust-dirs-devel
+        - rust-dirs2+default-devel
+        - rust-dirs2-devel
         - rust-dirs-sys+default-devel
         - rust-dirs-sys-devel
         - rust-dissimilar+default-devel
@@ -4858,7 +4862,6 @@ data:
         - speech-tools-libs-static
         - speex-devel
         - speexdsp-devel
-        - sphinx
         - spice-glib-devel
         - spice-gtk3-devel
         - spice-gtk3-vala
@@ -4872,6 +4875,7 @@ data:
         - sratom-devel
         - srt-devel
         - startup-notification-devel
+        - stax2-api
         - stringtemplate
         - stunnel
         - subunit
@@ -4881,10 +4885,6 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
-        - superlu_dist-mpich
-        - superlu_dist-mpich-devel
-        - superlu_dist-openmpi
-        - superlu_dist-openmpi-devel
         - supermin
         - supermin-devel
         - swig
@@ -5043,8 +5043,8 @@ data:
         - weston-libs
         - wildmidi-devel
         - wildmidi-libs
-        - wireshark-devel
         - woff2-devel
+        - woodstox-core
         - wordnet
         - wpebackend-fdo-devel
         - wsdl4j
@@ -5089,6 +5089,7 @@ data:
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
         - xmlstarlet
+        - xmlstreambuffer
         - xmlunit
         - xmlunit-assertj
         - xmlunit-core
