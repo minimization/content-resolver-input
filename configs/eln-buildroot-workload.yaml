@@ -3739,7 +3739,6 @@ data:
         - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
         - rubygem-rails-html-sanitizer
-        - rubygem-railties
         - rubygem-rake-compiler
         - rubygem-rb-inotify
         - rubygem-rdiscount
