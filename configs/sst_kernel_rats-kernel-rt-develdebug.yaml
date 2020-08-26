@@ -17,7 +17,6 @@ data:
           - kernel-rt-debug-kvm
           - kernel-rt-debuginfo
           - kernel-rt-debug-debuginfo
-          - kernel-rt-debuginfo-common-x86_64
 
     package_placeholders:
       kernel-rt-debug:
