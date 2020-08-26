@@ -1,67 +1,27 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Desktop - Blocked packages
-  description: Desktop - Packages which should not be in ELN
-  maintainer: sst_desktop
+  name: Desktop Applications - Blocked packages
+  description: Desktop Applications - Packages which should not be in ELN
+  maintainer: sst_desktop_applications
   unwanted_packages:
-  # Future candidates:
-  # - libgnomekbd
-  # quvi is disabled as a dependency of Totem in RHEL
-  - libquvi-scripts
-  - libquvi
-  - lua-expat
-  - lua-filesystem
-  - lua-json
-  - lua-lpeg
-  - lua-lunit
-  - lua-posix
-  - lua-socket
-  # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
-  - libgpod
-  - media-player-info
-  - libmtp
-  - rhythmbox
-  # Support for file access for iPhones/iPads dropped from RHEL 9
-  - libimobiledevice
-  - libplist
-  - libusbmuxd
-  - usbmuxd
-  # Replaced by fwupd
-  - fwupdate
-  # DLNA support dropped from RHEL 9
-  - gssdp
-  - gupnp-av
-  - gupnp-dlna
-  - gupnp-igd
-  - gupnp
-  - dleyna-connector-dbus
-  - dleyna-core
-  - dleyna-renderer
-  - dleyna-server
-  # Replaced by gnome-session-kiosk-session
-  - metacity
-  # Mouse a11y is now provided by gnome-shell
-  - mousetweaks
-  - gnome-themes-standard
-  # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
-  - mozjs52
-  - mozjs60
-  - mozjs68
+  # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
+  - libappindicator
+  - libdbusmenu
+  - libindicator
+  # Replaced by GNOME Connections
+  - vinagre
+  # buggy; glib improved to make dconf work on NFS
+  - gamin
+  # Replaced by GNOME Remove Desktop
+  - vino
+  # GNOME Shell has its own polkit dialog implementation
+  # https://src.fedoraproject.org/rpms/gnome-shell/c/cd9369de85703b98ededeee30f9a421bbb7ebc30?branch=master
+  - polkit-gnome
   # Old or deprecated or unwanted or unused stuff
-  - clutter-gtk
-  - clutter-gst3
-  - clutter
-  - cogl
-  - libIDL
-  - redhat-menus
-  - gnome-menus
-  - dbus-c++
-  - libcroco
-  - enca
-  - libchamplain
-  - libbluray
-  - libdmapsharing
-  - libaec
+  - qrencode
+  - rarian
+  - yajl
+  - GConf2
   labels:
   - eln
