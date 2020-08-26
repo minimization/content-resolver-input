@@ -44,9 +44,10 @@ data:
   # Mouse a11y is now provided by gnome-shell
   - mousetweaks
   - gnome-themes-standard
-  # Old mozjs releases, the whole system should use only one mozjs - version 68 currently
+  # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
   - mozjs52
   - mozjs60
+  - mozjs68
   # Old or deprecated or unwanted or unused stuff
   - clutter-gtk
   - clutter-gst3
