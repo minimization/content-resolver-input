@@ -13,7 +13,7 @@ data:
   - vinagre
   # buggy; glib improved to make dconf work on NFS
   - gamin
-  # Replaced by GNOME Remove Desktop
+  # Replaced by GNOME Remote Desktop
   - vino
   # GNOME Shell has its own polkit dialog implementation
   # https://src.fedoraproject.org/rpms/gnome-shell/c/cd9369de85703b98ededeee30f9a421bbb7ebc30?branch=master
