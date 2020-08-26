@@ -57,6 +57,8 @@ data:
           - dwarves
           - openssl
           - openssl-devel
+        limit_arches:
+          - x86_64
 
       kernel-rt-core:
         description: This package is not in Fedora (yet), but we want it here.
@@ -101,6 +103,8 @@ data:
           - dwarves
           - openssl
           - openssl-devel
+        limit_arches:
+          - x86_64
 
       kernel-rt-modules:
         description: This package is not in Fedora (yet), but we want it here.
@@ -145,6 +149,8 @@ data:
           - dwarves
           - openssl
           - openssl-devel
+        limit_arches:
+          - x86_64
 
       kernel-rt-modules-extra:
         description: This package is not in Fedora (yet), but we want it here.
@@ -189,7 +195,9 @@ data:
           - dwarves
           - openssl
           - openssl-devel
-      
+        limit_arches:
+          - x86_64
+
       kernel-rt-kvm:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
@@ -233,3 +241,5 @@ data:
           - dwarves
           - openssl
           - openssl-devel
+        limit_arches:
+          - x86_64
