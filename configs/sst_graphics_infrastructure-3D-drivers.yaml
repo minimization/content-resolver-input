@@ -6,7 +6,10 @@ data:
   maintainer: sst_graphics_infrastructure
 
   packages:
-    - mesa
+    - mesa-libGL
+    - mesa-dri-drivers
+    - mesa-vulkan-drivers
+    - mesa-libEGL
     - libglvnd
     - vulkan-validation-layers
     - vulkan-headers
