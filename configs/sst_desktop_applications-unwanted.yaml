@@ -23,5 +23,7 @@ data:
   - rarian
   - yajl
   - GConf2
+  - qtwebkit
+  - qt5-qtwebkit
   labels:
   - eln
