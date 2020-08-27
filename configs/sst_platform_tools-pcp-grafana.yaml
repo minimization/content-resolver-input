@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Collection of packages providing Performance Co-Pilot and Grafana
+  name: Performance Co-Pilot and Grafana
   description: Performance Co-Pilot and Grafana
   maintainer: sst_platform_tools
 
