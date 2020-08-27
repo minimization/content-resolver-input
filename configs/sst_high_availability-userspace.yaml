@@ -7,6 +7,16 @@ data:
 
   packages: []
 
+  package_placeholders:
+    fence-agents-aliyun:
+      description: This package is only provided in RHEL
+    python3-gflags:
+      description: This package is only provided in RHEL
+    resource-agents-aliyun:
+      description: This package is only provided in RHEL
+    resource-agents-gcp:
+      description: This package is only provided in RHEL
+
   arch_packages:
     # No packages from HA currently support aarch64.
     # aarch64:
@@ -21,7 +31,6 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
     - fence-agents-amt-ws
     - fence-agents-apc
@@ -98,7 +107,6 @@ data:
     - python3-botocore
     - python3-clufter
     - python3-fasteners
-    - python3-gflags
     - python3-google-api-client
     - python3-httplib2
     - python3-jwt
@@ -108,8 +116,6 @@ data:
     - python3-s3transfer
     - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
@@ -123,7 +129,6 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
     - fence-agents-amt-ws
     - fence-agents-apc
@@ -200,7 +205,6 @@ data:
     - python3-botocore
     - python3-clufter
     - python3-fasteners
-    - python3-gflags
     - python3-google-api-client
     - python3-httplib2
     - python3-jwt
@@ -210,8 +214,6 @@ data:
     - python3-s3transfer
     - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
@@ -225,7 +227,6 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
     - fence-agents-amt-ws
     - fence-agents-apc
@@ -301,7 +302,6 @@ data:
     - python3-botocore
     - python3-clufter
     - python3-fasteners
-    - python3-gflags
     - python3-google-api-client
     - python3-httplib2
     - python3-jwt
@@ -311,8 +311,6 @@ data:
     - python3-s3transfer
     - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
