@@ -8,6 +8,8 @@ data:
   packages:
     - libXaw
     - mesa-libGLw
+    - mesa-libGLU
+    - xrestop
 
   labels:
     - eln
