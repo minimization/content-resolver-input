@@ -300,6 +300,13 @@ data:
 
       kernel-rt-debuginfo-common-x86_64:
         description: files used by kernel-rt-debuginfo
+        requires:
+          - bash
+          - systemd-udev
+          - coreutils
+          - dracut
+          - linux-firmware
+          - systemd
         limit_arches:
           - x86_64
 
