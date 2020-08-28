@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ceph OS packages
+  description: Subpackages from ceph we want to include in the OS
+  maintainer: jwboyer
+
+  packages:
+  - librados-devel
+  - librados2
+  - librbd-devel
+  - librbd1
+
+  labels:
+  - eln
+
