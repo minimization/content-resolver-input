@@ -11,18 +11,30 @@ data:
   - babel
   - babeltrace
   - celt051
+  - cloud-init
+  - cloud-utils-growpart
   - clufter
   - corosync
+  - dbxtool
   - dhcp-client
   - ding-libs
+  - dpdk
+  - driverctl
+  - dwz
+  - emacs
+  - efivar
+  - fence-agents
+  - fence-virt
   - libkcapi-fipscheck
   - gperftools
   - genisoimage
+  - git
   - haproxy
   - hivex
   - hostname
   - icu
   - ipa-client
+  - ipmitool
   - ipxe-bootimgs
   - ipxe-roms
   - ipxe-roms-qemu
@@ -40,6 +52,7 @@ data:
   - libguestfs
   - libiscsi
   - librabbitmq
+  - libreswan
   - libwayland-client
   - libwayland-egl
   - libwayland-server
@@ -56,15 +69,22 @@ data:
   - ovn
   - pacemaker
   - pcs
+  - podman
   - pskctool
   - python3-libvirt
   - python3-mod_wsgi
+  - qemu-kvm
+  - qt5
   - redis
   - resource-agents
+  - ruby
+  - runc
+  - samba
   - scipy
   - scrub
   - setools
   - sg3_utils
+  - skopeo
   - socat
   - spice-server
   - sshpass
@@ -74,9 +94,11 @@ data:
   - sysfsutils
   - targetcli
   - tftp
+  - unbound
   - usbredir
   - volume_key
   - yajl
+  - zip
 
   labels:
   - eln
