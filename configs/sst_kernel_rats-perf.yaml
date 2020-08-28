@@ -12,6 +12,8 @@ data:
   - rteval-loads
   labels:
   - eln
+  limit_arches:
+    - x86_64
 
   package_placeholders:
     rt-tests:
@@ -73,10 +75,6 @@ data:
       limit_arches:
         - x86_64
     rteval-common:
-      description: This package is not in Fedora (yet), but we want it here.
-      limit_arches:
-        - x86_64
-    stressng:
       description: This package is not in Fedora (yet), but we want it here.
       limit_arches:
         - x86_64
