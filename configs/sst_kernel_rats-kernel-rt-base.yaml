@@ -12,6 +12,8 @@ data:
         - tuned-profiles-nfv-host-bin
     labels:
         - eln
+    limit_arches:
+      - x86_64
 
     package_placeholders:
       kernel-rt:
