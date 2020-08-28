@@ -1,0 +1,82 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Openstack
+  description: Package dependencies needed by Openstack
+  maintainer: sst_openstack
+
+  packages:
+  - augeas
+  - autogen
+  - babel
+  - babeltrace
+  - celt051
+  - clufter
+  - corosync
+  - dhcp-client
+  - ding-libs
+  - libkcapi-fipscheck
+  - gperftools
+  - genisoimage
+  - haproxy
+  - hivex
+  - hostname
+  - icu
+  - ipa-client
+  - ipxe-bootimgs
+  - ipxe-roms
+  - ipxe-roms-qemu
+  - isns-utils
+  - jasper
+  - jbigkit
+  - keepalived
+  - kronosnet
+  - leveldb
+  - libcacard
+  - libcgroup
+  - libcroco
+  - liberation-fonts
+  - libev
+  - libguestfs
+  - libiscsi
+  - librabbitmq
+  - libwayland-client
+  - libwayland-egl
+  - libwayland-server
+  - lsscsi
+  - mesa-filesystem
+  - mesa-dri-drivers
+  - mosjz78
+  - netcf
+  - nvme-cli
+  - nvmetcli
+  - oathtool
+  - OpenIPMI
+  - openvswitch
+  - ovn
+  - pacemaker
+  - pcs
+  - pskctool
+  - python3-libvirt
+  - python3-mod_wsgi
+  - redis
+  - resource-agents
+  - scipy
+  - scrub
+  - setools
+  - sg3_utils
+  - socat
+  - spice-server
+  - sshpass
+  - sssd
+  - stunnel
+  - supermin
+  - sysfsutils
+  - targetcli
+  - tftp
+  - usbredir
+  - volume_key
+  - yajl
+
+  labels:
+  - eln
