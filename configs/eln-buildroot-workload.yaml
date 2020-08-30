@@ -133,6 +133,7 @@ data:
         - binutils-tile-linux-gnu
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
+        - black
         - blas
         - blas64_
         - blas-devel
@@ -319,6 +320,8 @@ data:
         - eglexternalplatform-devel
         - egl-wayland
         - egl-wayland-devel
+        - enca
+        - enca-devel
         - epstool
         - erlang
         - erlang-asn1
@@ -471,10 +474,6 @@ data:
         - GeoIP-GeoLite-data
         - geos
         - geos-devel
-        - geronimo-jaxrpc
-        - geronimo-osgi-support
-        - geronimo-parent-poms
-        - geronimo-saaj
         - gettext-common-devel
         - gettext-devel
         - gfbgraph-devel
@@ -922,7 +921,6 @@ data:
         - gl2ps-devel
         - glade-devel
         - glassfish-el-api
-        - glassfish-jsp-api
         - glassfish-legal
         - glassfish-master-pom
         - glew-devel
@@ -1305,6 +1303,10 @@ data:
         - hwloc-devel
         - hwloc-gui
         - hyphen-devel
+        - hypre-mpich
+        - hypre-mpich-devel
+        - hypre-openmpi
+        - hypre-openmpi-devel
         - i3
         - ibus-devel
         - ibus-table-code
@@ -1338,8 +1340,6 @@ data:
         - isl-devel
         - isns-utils-devel
         - isorelax
-        - istack-commons-runtime
-        - istack-commons-tools
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1347,12 +1347,16 @@ data:
         - jackson-parent
         - jacop
         - jakarta-annotations
+        - jakarta-el
         - jakarta-el-api
         - jakarta-messaging
         - jakarta-oro
         - jakarta-persistence
+        - jakarta-saaj
+        - jakarta-server-pages-api
         - jakarta-servlet
         - jakarta-ws-rs
+        - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
         - jansson-devel
@@ -1374,6 +1378,8 @@ data:
         - jaxb-codemodel
         - jaxb-dtd-parser
         - jaxb-fi
+        - jaxb-istack-commons-runtime
+        - jaxb-istack-commons-tools
         - jaxb-relaxng-datatype
         - jaxb-runtime
         - jaxb-stax-ex
@@ -1630,6 +1636,7 @@ data:
         - libconfuse
         - libconfuse-devel
         - libcue
+        - libcue-devel
         - libdaemon-devel
         - libdazzle-devel
         - libdbi
@@ -1702,6 +1709,7 @@ data:
         - libgphoto2-devel
         - libgpuarray
         - libgrss
+        - libgrss-devel
         - libgsasl
         - libgsasl-devel
         - libgsf-devel
@@ -2045,7 +2053,7 @@ data:
         - luajit-devel
         - lua-json
         - lua-lpeg
-        - lua-lunit
+        - lua-lunitx
         - lua-socket
         - lua-term
         - lutok
@@ -3085,6 +3093,8 @@ data:
         - python2-pytz
         - python2-rpm-macros
         - python2-setuptools
+        - python3-aiohttp
+        - python3-aiohttp-cors
         - python3-alembic
         - python3-amqp
         - python3-apipkg
@@ -3093,6 +3103,7 @@ data:
         - python3-asgiref
         - python3-astroid
         - python3-async-generator
+        - python3-async-timeout
         - python3-atomicwrites
         - python3-Automat
         - python3-backcall
@@ -3214,6 +3225,7 @@ data:
         - python3-itsdangerous
         - python3-jaraco
         - python3-jaraco-classes
+        - python3-jaraco-envs
         - python3-jaraco-functools
         - python3-jaraco-packaging
         - python3-javapackages
@@ -3263,9 +3275,11 @@ data:
         - python3-mpi4py-openmpi
         - python3-mpmath
         - python3-msgpack
+        - python3-multidict
         - python3-multilib
         - python3-munch
         - python3-munkres
+        - python3-mypy_extensions
         - python3-nb2plots
         - python3-nbconvert
         - python3-nbformat
@@ -3341,6 +3355,7 @@ data:
         - python3-pyramid-mako
         - python3-pyroute2
         - python3-pysendfile
+        - python3-pytest-aiohttp
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
@@ -3411,8 +3426,10 @@ data:
         - python3-sphinx-copybutton
         - python3-sphinx-epytext
         - python3-sphinx-gallery
+        - python3-sphinx-hoverxref
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
+        - python3-sphinx-latex
         - python3-sphinx-math-dollar
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
@@ -3470,6 +3487,7 @@ data:
         - python3-wx-siplib
         - python3-xmlschema
         - python3-xmp-toolkit
+        - python3-yarl
         - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
@@ -3850,8 +3868,6 @@ data:
         - rust-backtrace-devel
         - rust-backtrace+gimli-symbolize-devel
         - rust-backtrace+std-devel
-        - rust-base64-0.10+default-devel
-        - rust-base64-0.10-devel
         - rust-base64+default-devel
         - rust-base64-devel
         - rust-base64+std-devel
@@ -3995,6 +4011,8 @@ data:
         - rust-digest+std-devel
         - rust-dirs2+default-devel
         - rust-dirs2-devel
+        - rust-dirs+default-devel
+        - rust-dirs-devel
         - rust-dirs-sys+default-devel
         - rust-dirs-sys-devel
         - rust-dissimilar+default-devel
@@ -4156,6 +4174,8 @@ data:
         - rust-intervaltree+std-devel
         - rust-iovec+default-devel
         - rust-iovec-devel
+        - rust-ipnet+default-devel
+        - rust-ipnet-devel
         - rust-ipnetwork+default-devel
         - rust-ipnetwork-devel
         - rust-itertools0.8+default-devel
@@ -4349,6 +4369,7 @@ data:
         - rust-proc-macro-error-attr-devel
         - rust-proc-macro-error+default-devel
         - rust-proc-macro-error-devel
+        - rust-proc-macro-error+syn-error-devel
         - rust-proc-macro-hack+default-devel
         - rust-proc-macro-hack-devel
         - rust-proc-macro-nested+default-devel
@@ -4558,6 +4579,8 @@ data:
         - rust-stable_deref_trait+alloc-devel
         - rust-stable_deref_trait-devel
         - rust-stable_deref_trait+std-devel
+        - rust-static_assertions+default-devel
+        - rust-static_assertions-devel
         - rust-string_cache_codegen+default-devel
         - rust-string_cache_codegen-devel
         - rust-string_cache+default-devel
@@ -4589,8 +4612,6 @@ data:
         - rust-syn+extra-traits-devel
         - rust-syn+fold-devel
         - rust-syn+full-devel
-        - rust-syn-mid+default-devel
-        - rust-syn-mid-devel
         - rust-syn+parsing-devel
         - rust-syn+printing-devel
         - rust-syn+proc-macro-devel
@@ -4718,6 +4739,19 @@ data:
         - rust-tower-util+call-all-devel
         - rust-tower-util+default-devel
         - rust-tower-util-devel
+        - rust-tracing-attributes+default-devel
+        - rust-tracing+attributes-devel
+        - rust-tracing-attributes-devel
+        - rust-tracing-core-devel
+        - rust-tracing-core+std-devel
+        - rust-tracing+default-devel
+        - rust-tracing-devel
+        - rust-tracing-futures+default-devel
+        - rust-tracing-futures-devel
+        - rust-tracing-futures+std-devel
+        - rust-tracing-futures+std-future-devel
+        - rust-tracing+log-devel
+        - rust-tracing+std-devel
         - rust-trust-dns-proto-devel
         - rust-trust-dns-proto+tokio-runtime-devel
         - rust-trust-dns-resolver-devel
@@ -4884,6 +4918,10 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
+        - superlu_dist-mpich
+        - superlu_dist-mpich-devel
+        - superlu_dist-openmpi
+        - superlu_dist-openmpi-devel
         - supermin
         - supermin-devel
         - swig
