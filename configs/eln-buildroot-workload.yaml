@@ -919,9 +919,6 @@ data:
         - gl2ps
         - gl2ps-devel
         - glade-devel
-        - glassfish-el-api
-        - glassfish-legal
-        - glassfish-master-pom
         - glew-devel
         - glib
         - glibc-static
