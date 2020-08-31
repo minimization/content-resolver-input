@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: samba_storage OS packages
+  description: Packages from samba_storgae we want to include in the OS
+  maintainer: jwboyer
+
+  packages:
+  - libedit
+  - librados-devel
+  - librados2
+  - librbd-devel
+  - librbd1
+  - pinentry
+  - plotutils
+
+  labels:
+  - eln
+
