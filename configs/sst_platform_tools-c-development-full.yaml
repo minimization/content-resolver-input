@@ -14,7 +14,7 @@ data:
   - glibc-devel
   # Noarch header packages.
   - glibc-headers-s390
-  - glibc-headers-x86_64
+  - glibc-headers-x86
   # Full development includes additional packages:
   - glibc-utils
   - glibc-static
