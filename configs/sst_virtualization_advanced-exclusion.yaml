@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Advanced Virtualization Exclusion List
+  description: Advanced Virtualization packages not required in RHEL-9
+  maintainer: sst_virtualization_advanced
+
+  unwanted_packages:
+  -
+
+  labels:
+  - eln

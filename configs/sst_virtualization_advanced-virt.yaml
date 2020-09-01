@@ -1,0 +1,46 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Advanced Virtualization on RHEL - for Red Hat Layered Products
+  description: Userspace agents and tools that enable advanced virtualization capabilities on RHEL
+  maintainer: sst_virtualization_advanced
+
+  modules_enable:
+  - virt:8.4
+
+  packages:
+  - hivex
+  - kata-agent
+  - kata-osbuilder
+  - kata-runtime
+  - kata-shim
+  - libguestfs
+  - libguestfs-winsupport
+  - libiscsi
+  - libnbd
+  - libssh2
+  - libtpms
+  - libvirt
+  - libvirt-dbus
+  - libvirt-python
+  - nbdkit
+  - netcf
+  - perl-Sys-Virt
+  - python-pyvmomi
+  - qemu-kvm
+  - seabios
+  - sgabios
+  - SLOF
+  - supermin
+  - swtpm
+  - virglrenderer
+  - virt-v2v
+
+  labels:
+  - eln
+
+  arch_packages:
+    aarch64:
+    -
+    ppc64le:
+    -
