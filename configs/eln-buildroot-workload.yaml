@@ -297,7 +297,6 @@ data:
         - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
-        - dleyna-core-devel
         - dlm-devel
         - dlm-lib
         - dmraid
@@ -919,12 +918,8 @@ data:
         - gl2ps
         - gl2ps-devel
         - glade-devel
-        - glassfish-el-api
-        - glassfish-legal
-        - glassfish-master-pom
         - glew-devel
         - glib
-        - glibc-static
         - glib-devel
         - glibmm24-devel
         - gl-manpages
@@ -1265,9 +1260,7 @@ data:
         - guice-servlet
         - guile22-devel
         - guile-devel
-        - gupnp-av-devel
         - gupnp-devel
-        - gupnp-dlna-devel
         - gupnp-igd-devel
         - gvnc-devel
         - hamcrest
@@ -1347,6 +1340,7 @@ data:
         - jakarta-annotations
         - jakarta-el
         - jakarta-el-api
+        - jakarta-interceptors
         - jakarta-messaging
         - jakarta-oro
         - jakarta-persistence
@@ -1387,7 +1381,6 @@ data:
         - jbig2dec-devel
         - jbigkit-devel
         - jboss-el-2.2-api
-        - jboss-interceptors-1.2-api
         - jboss-jsp-2.2-api
         - jboss-logmanager
         - jboss-modules
@@ -1976,7 +1969,6 @@ data:
         - libwps-devel
         - libwsman1
         - libXaw-devel
-        - libxcrypt-static
         - libXdmcp-devel
         - libxfce4util
         - libxfce4util-devel
@@ -2135,6 +2127,7 @@ data:
         - maven-plugin-plugin
         - maven-plugin-registry
         - maven-plugin-testing-harness
+        - maven-plugin-testing-tools
         - maven-plugin-tools-annotations
         - maven-plugin-tools-api
         - maven-plugin-tools-generators
@@ -3007,14 +3000,12 @@ data:
         - pipewire0.2-devel
         - pipewire-devel
         - pipewire-doc
-        - plexus-ant-factory
         - plexus-archiver
         - plexus-build-api
         - plexus-cipher
         - plexus-classworlds
         - plexus-compiler
         - plexus-component-api
-        - plexus-component-factories-pom
         - plexus-components-pom
         - plexus-containers
         - plexus-containers-component-annotations
@@ -4200,8 +4191,6 @@ data:
         - rust-libsystemd-devel
         - rust-linked-hash-map+default-devel
         - rust-linked-hash-map-devel
-        - rust-lipsum+default-devel
-        - rust-lipsum-devel
         - rust-lock_api+default-devel
         - rust-lock_api-devel
         - rust-log+default-devel
@@ -4627,8 +4616,8 @@ data:
         - rust-term-devel
         - rust-testing_logger+default-devel
         - rust-testing_logger-devel
-        - rust-textwrap+default-devel
-        - rust-textwrap-devel
+        - rust-textwrap0.11+default-devel
+        - rust-textwrap0.11-devel
         - rust-thiserror+default-devel
         - rust-thiserror-devel
         - rust-thiserror-impl+default-devel
@@ -4799,8 +4788,8 @@ data:
         - rust-vec_map-devel
         - rust-version_check+default-devel
         - rust-version_check-devel
-        - rust-version-sync+default-devel
-        - rust-version-sync-devel
+        - rust-version-sync0.8+default-devel
+        - rust-version-sync0.8-devel
         - rust-vmw_backdoor+default-devel
         - rust-vmw_backdoor-devel
         - rust-void+default-devel
