@@ -4,7 +4,7 @@ data:
     name: kernel-rt base
     description: Base set of kernel-rt packages and tools to ship
     maintainer: sst_kernel_rats
-    packages:
+    packages: []
     labels:
         - eln
 
@@ -244,32 +244,24 @@ data:
         requires:
           - bash
           - man
-        limit_arches:
-          - noarch
 
       tuned-profiles-nfv:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
-        limit_arches:
-          - noarch
 
       tuned-profiles-nfv-guest:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
-        limit_arches:
-          - noarch
 
       tuned-profiles-nfv-host:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
-        limit_arches:
-          - noarch
 
       tuned-profiles-nfv-host-bin:
         description: This package is not in Fedora (yet), but we want it here.
