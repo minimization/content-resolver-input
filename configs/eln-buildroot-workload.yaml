@@ -920,7 +920,6 @@ data:
         - glade-devel
         - glew-devel
         - glib
-        - glibc-static
         - glib-devel
         - glibmm24-devel
         - gl-manpages
@@ -1970,7 +1969,6 @@ data:
         - libwps-devel
         - libwsman1
         - libXaw-devel
-        - libxcrypt-static
         - libXdmcp-devel
         - libxfce4util
         - libxfce4util-devel
