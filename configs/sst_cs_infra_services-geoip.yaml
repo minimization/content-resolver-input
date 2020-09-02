@@ -6,7 +6,6 @@ data:
   maintainer: sst_cs_infra_services
 
   packages:
-  - geoipupdate
   - geolite2-city
   - geolite2-country
   - libmaxminddb
