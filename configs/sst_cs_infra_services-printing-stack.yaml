@@ -30,6 +30,10 @@ data:
   - pnm2ppa
   # fonts
   - urw-base35-fonts
+  # service discovery, registering and sharing
+  - avahi
+  # resolving .local addresses
+  - nss-mdns
 
 
   labels:
