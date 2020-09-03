@@ -244,24 +244,32 @@ data:
         requires:
           - bash
           - man
+        limit_arches:
+          - x86_64
 
       tuned-profiles-nfv:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
+        limit_arches:
+          - x86_64
 
       tuned-profiles-nfv-guest:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
+        limit_arches:
+          - x86_64
 
       tuned-profiles-nfv-host:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
           - man
+        limit_arches:
+          - x86_64
 
       tuned-profiles-nfv-host-bin:
         description: This package is not in Fedora (yet), but we want it here.

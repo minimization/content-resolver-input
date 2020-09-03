@@ -12,8 +12,10 @@ data:
   - rteval-loads
   labels:
   - eln
-  limit_arches:
-    - x86_64
+
+  arch_packages:
+    x86_64:
+      - stress-ng
 
   package_placeholders:
     rt-tests:
@@ -54,7 +56,7 @@ data:
       buildrequires:
         - python3-devel
       limit_arches:
-        - noarch
+        - x86_64
     rteval-loads:
       description: This package is not in Fedora (yet), but we want it here.
       requires:

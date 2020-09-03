@@ -7,16 +7,6 @@ data:
     packages: []
     labels:
         - eln
-    arch_packages:
-        x86_64:
-          - kernel-rt-debuginfo-common-x86_64
-          - kernel-rt-debug
-          - kernel-rt-debug-core
-          - kernel-rt-debug-modules
-          - kernel-rt-debug-modules-extra
-          - kernel-rt-debug-kvm
-          - kernel-rt-debuginfo
-          - kernel-rt-debug-debuginfo
 
     package_placeholders:
       kernel-rt-debug:
@@ -311,6 +301,52 @@ data:
           - x86_64
 
       kernel-rt-devel:
+        description: This package is not in Fedora (yet), but we want it here.
+        requires:
+          - bash
+          - systemd-udev
+          - coreutils
+          - dracut
+          - linux-firmware
+          - systemd
+        buildrequires:
+          - kmod
+          - patch
+          - bash
+          - coreutils
+          - tar
+          - git
+          - which
+          - bzip2
+          - xz
+          - findutils
+          - gzip
+          - m4
+          - perl-interpreter
+          - perl-Carp
+          - perl-devel
+          - perl-generators
+          - make
+          - diffutils
+          - gawk
+          - gcc
+          - binutils
+          - redhat-rpm-config
+          - hmaccalc
+          - python3-devel
+          - net-tools
+          - hostname
+          - bc
+          - bison
+          - flex
+          - elfutils-devel
+          - dwarves
+          - openssl
+          - openssl-devel
+        limit_arches:
+          - x86_64
+
+      kernel-rt-debug-devel:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
