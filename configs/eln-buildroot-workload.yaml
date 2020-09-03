@@ -1006,7 +1006,6 @@ data:
         - golang-github-glog-devel
         - golang-github-gobwas-glob-devel
         - golang-github-godbus-dbus-devel
-        - golang-github-gofrs-flock-devel
         - golang-github-gogo-protobuf-devel
         - golang-github-googleapis-gax-devel
         - golang-github-google-btree-devel
@@ -1259,7 +1258,6 @@ data:
         - gvnc-devel
         - hamcrest
         - hamcrest2
-        - hamcrest-core
         - hawtjni
         - hdf5
         - hdf5-devel
@@ -1356,7 +1354,6 @@ data:
         - java-comment-preprocessor
         - java_cup
         - javaewah
-        - javamail
         - javapackages-local
         - javaparser
         - javapoet
@@ -1428,7 +1425,6 @@ data:
         - js-underscore
         - jtidy
         - Judy-devel
-        - junit
         - junit5
         - jvnet-parent
         - jython
@@ -5232,6 +5228,9 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
+            - hamcrest-core
+            - javamail
+            - junit
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5280,6 +5279,9 @@ data:
             - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
+            - hamcrest-core
+            - javamail
+            - junit
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5336,9 +5338,12 @@ data:
             - gperftools-libs
             - gpgme-devel
             - gpgmepp-devel
+            - hamcrest-core
             - ibacm
             - infiniband-diags
             - itstool
+            - javamail
+            - junit
             - lensfun
             - lensfun-devel
             - leptonica
