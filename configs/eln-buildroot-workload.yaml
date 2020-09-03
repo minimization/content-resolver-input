@@ -254,8 +254,6 @@ data:
         - compat-wxGTK3-gtk2-media
         - compface
         - compface-devel
-        - corosync
-        - corosynclib
         - corosynclib-devel
         - cppcheck
         - cppunit
@@ -274,7 +272,6 @@ data:
         - cvsps
         - dain-snappy
         - datefudge
-        - daxctl-devel
         - dbus-glib-devel
         - dbusmenu-qt5
         - dbusmenu-qt5-devel
@@ -283,8 +280,6 @@ data:
         - dcmtk-devel
         - dconf-devel
         - debootstrap
-        - device-mapper-devel
-        - device-mapper-event-devel
         - device-mapper-multipath-devel
         - DevIL
         - DevIL-devel
@@ -298,7 +293,6 @@ data:
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
-        - dlm-lib
         - dmraid
         - dmraid-devel
         - dmraid-events
@@ -1012,7 +1006,6 @@ data:
         - golang-github-glog-devel
         - golang-github-gobwas-glob-devel
         - golang-github-godbus-dbus-devel
-        - golang-github-gofrs-flock-devel
         - golang-github-gogo-protobuf-devel
         - golang-github-googleapis-gax-devel
         - golang-github-google-btree-devel
@@ -1265,7 +1258,6 @@ data:
         - gvnc-devel
         - hamcrest
         - hamcrest2
-        - hamcrest-core
         - hawtjni
         - hdf5
         - hdf5-devel
@@ -1362,7 +1354,6 @@ data:
         - java-comment-preprocessor
         - java_cup
         - javaewah
-        - javamail
         - javapackages-local
         - javaparser
         - javapoet
@@ -1434,7 +1425,6 @@ data:
         - js-underscore
         - jtidy
         - Judy-devel
-        - junit
         - junit5
         - jvnet-parent
         - jython
@@ -1597,7 +1587,6 @@ data:
         - libbpf-static
         - libbs2b
         - libbs2b-devel
-        - libbsd
         - libbsd-devel
         - libbson
         - libbson-devel
@@ -1748,8 +1737,6 @@ data:
         - libkkc-devel
         - libkml
         - libkml-devel
-        - libknet1
-        - libknet1-crypto-nss-plugin
         - libknet1-devel
         - libksba-devel
         - liblangtag-devel
@@ -1811,7 +1798,6 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
-        - libnozzle1
         - libnozzle1-devel
         - libnsl2-devel
         - libntlm
@@ -1910,7 +1896,6 @@ data:
         - libsss_nss_idmap-devel
         - libstaroffice-devel
         - libstemmer-devel
-        - libstoragemgmt
         - libstoragemgmt-devel
         - libsvm
         - libsvm-devel
@@ -1968,6 +1953,7 @@ data:
         - libwpg-devel
         - libwps-devel
         - libwsman1
+        - libwsman-devel
         - libXaw-devel
         - libXdmcp-devel
         - libxfce4util
@@ -2018,6 +2004,7 @@ data:
         - lirc-devel
         - lirc-libs
         - lklug-fonts
+        - lldpad-devel
         - llvm10
         - llvm10-devel
         - llvm10-libs
@@ -2042,13 +2029,14 @@ data:
         - lua-json
         - lua-lpeg
         - lua-lunitx
+        - lua-rpm-macros
         - lua-socket
+        - lua-srpm-macros
         - lua-term
         - lutok
         - lutok-devel
         - lv2
         - lv2-devel
-        - lvm2-devel
         - lxpolkit
         - lz4-devel
         - lzo-devel
@@ -2247,7 +2235,6 @@ data:
         - nbdkit-server
         - ncompress
         - ncurses-compat-libs
-        - ndctl-devel
         - neon-devel
         - netcdf
         - netcdf-cxx
@@ -2367,6 +2354,8 @@ data:
         - openpgm
         - openpgm-devel
         - opentest4j
+        - openwsman-client
+        - openwsman-server
         - optipng
         - opus-devel
         - orangefs-devel
@@ -2408,10 +2397,12 @@ data:
         - PEGTL-devel
         - perl-accessors
         - perl-Acme-Alien-DontPanic
+        - perl-Acme-Alien-DontPanic2
         - perl-Algorithm-C3
         - perl-aliased
         - perl-Alien-Base-ModuleBuild
         - perl-Alien-Build
+        - perl-Alien-Build-MB
         - perl-Alien-Build-Plugin-Decode-Mojo
         - perl-Alien-cmake3
         - perl-Alien-FFI
@@ -3193,7 +3184,6 @@ data:
         - python3-hupper
         - python3-hyperframe
         - python3-hyperlink
-        - python3-hypothesis
         - python3-incremental
         - python3-invoke
         - python3-ipykernel
@@ -3238,8 +3228,6 @@ data:
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
-        - python3-libstoragemgmt
-        - python3-libstoragemgmt-clibs
         - python3-lockfile
         - python3-m2r
         - python3-mallard-ducktype
@@ -3253,7 +3241,6 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
-        - python3-mock
         - python3-monotonic
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
@@ -3383,7 +3370,6 @@ data:
         - python3-scripttester
         - python3-secretstorage
         - python3-selenium
-        - python3-semantic_version
         - python3-send2trash
         - python3-service-identity
         - python3-setuptools_git
@@ -3458,7 +3444,6 @@ data:
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
-        - python3-wcwidth
         - python3-webencodings
         - python3-webob
         - python3-webtest
@@ -3839,7 +3824,10 @@ data:
         - rust-approx+std-devel
         - rust-arc-swap+default-devel
         - rust-arc-swap-devel
+        - rust-arrayvec+array-sizes-33-128-devel
+        - rust-arrayvec+default-devel
         - rust-arrayvec-devel
+        - rust-arrayvec+std-devel
         - rust-assert-json-diff+default-devel
         - rust-assert-json-diff-devel
         - rust-async-trait+default-devel
@@ -3852,6 +3840,8 @@ data:
         - rust-backtrace-devel
         - rust-backtrace+gimli-symbolize-devel
         - rust-backtrace+std-devel
+        - rust-base64-0.10+default-devel
+        - rust-base64-0.10-devel
         - rust-base64+default-devel
         - rust-base64-devel
         - rust-base64+std-devel
@@ -3861,6 +3851,10 @@ data:
         - rust-bincode0.8-devel
         - rust-bincode+default-devel
         - rust-bincode-devel
+        - rust-bindgen+default-devel
+        - rust-bindgen-devel
+        - rust-bindgen+logging-devel
+        - rust-bindgen+which-rustfmt-devel
         - rust-bitflags+default-devel
         - rust-bitflags-devel
         - rust-bit-set+default-devel
@@ -3908,6 +3902,8 @@ data:
         - rust-cast+std-devel
         - rust-cc+default-devel
         - rust-cc-devel
+        - rust-cexpr+default-devel
+        - rust-cexpr-devel
         - rust-cfg-if+default-devel
         - rust-cfg-if-devel
         - rust-chrono+clock-devel
@@ -3915,6 +3911,16 @@ data:
         - rust-chrono-devel
         - rust-chrono+serde-devel
         - rust-chrono+std-devel
+        - rust-clang-sys+clang_6_0-devel
+        - rust-clang-sys+default-devel
+        - rust-clang-sys-devel
+        - rust-clang-sys+gte_clang_3_6-devel
+        - rust-clang-sys+gte_clang_3_7-devel
+        - rust-clang-sys+gte_clang_3_8-devel
+        - rust-clang-sys+gte_clang_3_9-devel
+        - rust-clang-sys+gte_clang_4_0-devel
+        - rust-clang-sys+gte_clang_5_0-devel
+        - rust-clang-sys+gte_clang_6_0-devel
         - rust-clap+color-devel
         - rust-clap+default-devel
         - rust-clap-devel
@@ -3963,6 +3969,8 @@ data:
         - rust-csv-core-devel
         - rust-csv+default-devel
         - rust-csv-devel
+        - rust-dbus+default-devel
+        - rust-dbus-devel
         - rust-derive_more+add_assign-devel
         - rust-derive_more+add-devel
         - rust-derive_more+as_mut-devel
@@ -3986,6 +3994,10 @@ data:
         - rust-derive_more+not-devel
         - rust-derive_more+sum-devel
         - rust-derive_more+try_into-devel
+        - rust-devicemapper+default-devel
+        - rust-devicemapper-devel
+        - rust-diff+default-devel
+        - rust-diff-devel
         - rust-difference+default-devel
         - rust-difference-devel
         - rust-digest+alloc-devel
@@ -4005,11 +4017,14 @@ data:
         - rust-doc-comment-devel
         - rust-dtoa+default-devel
         - rust-dtoa-devel
+        - rust-either+default-devel
         - rust-either-devel
+        - rust-either+use_std-devel
         - rust-encoding_rs+default-devel
         - rust-encoding_rs-devel
         - rust-enum-as-inner+default-devel
         - rust-enum-as-inner-devel
+        - rust-env_logger0.5+default-devel
         - rust-env_logger0.5-devel
         - rust-env_logger0.5+regex-devel
         - rust-env_logger0.6-devel
@@ -4023,7 +4038,9 @@ data:
         - rust-err-derive+std-devel
         - rust-errno+default-devel
         - rust-errno-devel
+        - rust-error-chain+default-devel
         - rust-error-chain-devel
+        - rust-error-chain+example_generated-devel
         - rust-extend+default-devel
         - rust-extend-devel
         - rust-fail+default-devel
@@ -4173,22 +4190,41 @@ data:
         - rust-itoa+default-devel
         - rust-itoa-devel
         - rust-itoa+std-devel
+        - rust-lazycell+default-devel
+        - rust-lazycell-devel
         - rust-lazy_static+default-devel
         - rust-lazy_static-devel
+        - rust-lexical-core+correct-devel
+        - rust-lexical-core+default-devel
+        - rust-lexical-core-devel
+        - rust-lexical-core+std-devel
+        - rust-lexical-core+table-devel
         - rust-libc+default-devel
         - rust-libc-devel
         - rust-libc+extra_traits-devel
+        - rust-libcryptsetup-rs+default-devel
+        - rust-libcryptsetup-rs-devel
+        - rust-libcryptsetup-rs-sys+default-devel
+        - rust-libcryptsetup-rs-sys-devel
         - rust-libc+std-devel
+        - rust-libdbus-sys+default-devel
+        - rust-libdbus-sys-devel
         - rust-libflate+default-devel
         - rust-libflate-devel
         - rust-libflate_lz77+default-devel
         - rust-libflate_lz77-devel
         - rust-libloading+default-devel
         - rust-libloading-devel
+        - rust-libmount+default-devel
+        - rust-libmount-devel
         - rust-liboverdrop+default-devel
         - rust-liboverdrop-devel
         - rust-libsystemd+default-devel
         - rust-libsystemd-devel
+        - rust-libudev+default-devel
+        - rust-libudev-devel
+        - rust-libudev-sys+default-devel
+        - rust-libudev-sys-devel
         - rust-linked-hash-map+default-devel
         - rust-linked-hash-map-devel
         - rust-lock_api+default-devel
@@ -4196,6 +4232,8 @@ data:
         - rust-log+default-devel
         - rust-log-devel
         - rust-log+std-devel
+        - rust-loopdev+default-devel
+        - rust-loopdev-devel
         - rust-lru-cache+default-devel
         - rust-lru-cache-devel
         - rust-lzma-sys+default-devel
@@ -4250,8 +4288,13 @@ data:
         - rust-net2+duration-devel
         - rust-new_debug_unreachable+default-devel
         - rust-new_debug_unreachable-devel
+        - rust-nix0.14+default-devel
+        - rust-nix0.14-devel
         - rust-nix+default-devel
         - rust-nix-devel
+        - rust-nom+alloc-devel
+        - rust-nom-devel
+        - rust-nom+std-devel
         - rust-num-complex-devel
         - rust-num-complex+std-devel
         - rust-num_cpus+default-devel
@@ -4299,6 +4342,8 @@ data:
         - rust-parking_lot_core-devel
         - rust-parking_lot+default-devel
         - rust-parking_lot-devel
+        - rust-peeking_take_while+default-devel
+        - rust-peeking_take_while-devel
         - rust-percent-encoding1+default-devel
         - rust-percent-encoding1-devel
         - rust-percent-encoding+default-devel
@@ -4528,6 +4573,8 @@ data:
         - rust-sha2+default-devel
         - rust-sha2-devel
         - rust-sha2+std-devel
+        - rust-shlex+default-devel
+        - rust-shlex-devel
         - rust-signal-hook+default-devel
         - rust-signal-hook-devel
         - rust-signal-hook-registry+default-devel
@@ -4628,6 +4675,8 @@ data:
         - rust-threadpool-devel
         - rust-time0.1+default-devel
         - rust-time0.1-devel
+        - rust-timerfd+default-devel
+        - rust-timerfd-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
         - rust-tinyvec+alloc-devel
@@ -4779,6 +4828,11 @@ data:
         - rust-users+mock-devel
         - rust-utf-8+default-devel
         - rust-utf-8-devel
+        - rust-uuid0.7+default-devel
+        - rust-uuid0.7-devel
+        - rust-uuid0.7+serde-devel
+        - rust-uuid0.7+std-devel
+        - rust-uuid0.7+v4-devel
         - rust-uuid+default-devel
         - rust-uuid-devel
         - rust-uuid+serde-devel
@@ -4801,6 +4855,7 @@ data:
         - rust-walkdir-devel
         - rust-want+default-devel
         - rust-want-devel
+        - rust-which-devel
         - rust-xml5ever+default-devel
         - rust-xml5ever-devel
         - rust-xml-rs+default-devel
@@ -4813,7 +4868,6 @@ data:
         - samba-winbind-clients
         - sane-backends-devel
         - sanlock-devel
-        - sanlock-lib
         - sassc
         - satyr-devel
         - sbc
@@ -5059,6 +5113,7 @@ data:
         - weston-libs
         - wildmidi-devel
         - wildmidi-libs
+        - wireshark-devel
         - woff2-devel
         - woodstox-core
         - wordnet
@@ -5161,7 +5216,6 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
-            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-ovmf
@@ -5174,6 +5228,9 @@ data:
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
+            - hamcrest-core
+            - javamail
+            - junit
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5185,7 +5242,6 @@ data:
             - libsysfs
             - libxml++
             - libxml++-devel
-            - lsscsi
             - mesa-libxatracker
             - mesa-libxatracker-devel
             - openbios
@@ -5200,7 +5256,6 @@ data:
             - rlottie-devel
             - seabios-bin
             - seavgabios-bin
-            - sg3_utils-libs
             - sgabios-bin
             - sgpio
             - SLOF
@@ -5217,7 +5272,6 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
-            - device-mapper-multipath
             - efi-filesystem
             - efl
             - efl-devel
@@ -5225,6 +5279,9 @@ data:
             - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
+            - hamcrest-core
+            - javamail
+            - junit
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5238,7 +5295,6 @@ data:
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
-            - lsscsi
             - postgresql
             - postgresql-contrib
             - postgresql-server
@@ -5253,7 +5309,6 @@ data:
             - rlottie
             - rlottie-devel
             - seabios-bin
-            - sg3_utils-libs
             - sgabios-bin
             - sgpio
             - tinyxml
@@ -5283,9 +5338,12 @@ data:
             - gperftools-libs
             - gpgme-devel
             - gpgmepp-devel
+            - hamcrest-core
             - ibacm
             - infiniband-diags
             - itstool
+            - javamail
+            - junit
             - lensfun
             - lensfun-devel
             - leptonica
@@ -5345,7 +5403,6 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
-            - device-mapper-multipath
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-aarch64
@@ -5370,7 +5427,6 @@ data:
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
-            - lsscsi
             - mesa-libxatracker-devel
             - openbios
             - openni
