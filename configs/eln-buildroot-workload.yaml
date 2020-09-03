@@ -20,6 +20,7 @@ data:
         - acpica-tools
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
+        - adobe-source-code-pro-fonts
         - adobe-source-sans-pro-fonts
         - adwaita-icon-theme-devel
         - afflib
@@ -1211,6 +1212,7 @@ data:
         - google-gson
         - google-guice
         - google-noto-emoji-fonts
+        - google-roboto-slab-fonts
         - go-rpm-macros
         - gperftools-devel
         - gphoto2
@@ -1533,6 +1535,7 @@ data:
         - lasi
         - lasi-devel
         - lasso-devel
+        - lato-fonts
         - lcms2-devel
         - lcov
         - ldb-tools
@@ -2366,6 +2369,7 @@ data:
         - osgi-core
         - os-maven-plugin
         - ostree-devel
+        - overpass-fonts
         - p7zip
         - p7zip-plugins
         - pacemaker-cluster-libs
