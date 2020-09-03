@@ -6,10 +6,6 @@ data:
   maintainer: sst_kernel_rats
   packages:
   - stress-ng
-  - rt-tests
-  - rteval
-  - rteval-common
-  - rteval-loads
   labels:
   - eln
 
