@@ -1968,6 +1968,7 @@ data:
         - libwpg-devel
         - libwps-devel
         - libwsman1
+        - libwsman-devel
         - libXaw-devel
         - libXdmcp-devel
         - libxfce4util
@@ -2042,7 +2043,9 @@ data:
         - lua-json
         - lua-lpeg
         - lua-lunitx
+        - lua-rpm-macros
         - lua-socket
+        - lua-srpm-macros
         - lua-term
         - lutok
         - lutok-devel
@@ -2367,6 +2370,8 @@ data:
         - openpgm
         - openpgm-devel
         - opentest4j
+        - openwsman-client
+        - openwsman-server
         - optipng
         - opus-devel
         - orangefs-devel
@@ -2408,10 +2413,12 @@ data:
         - PEGTL-devel
         - perl-accessors
         - perl-Acme-Alien-DontPanic
+        - perl-Acme-Alien-DontPanic2
         - perl-Algorithm-C3
         - perl-aliased
         - perl-Alien-Base-ModuleBuild
         - perl-Alien-Build
+        - perl-Alien-Build-MB
         - perl-Alien-Build-Plugin-Decode-Mojo
         - perl-Alien-cmake3
         - perl-Alien-FFI
@@ -5059,6 +5066,7 @@ data:
         - weston-libs
         - wildmidi-devel
         - wildmidi-libs
+        - wireshark-devel
         - woff2-devel
         - woodstox-core
         - wordnet
