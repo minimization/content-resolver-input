@@ -6,7 +6,10 @@ data:
   maintainer: sst_virtualization
 
   unwanted_packages:
-  -
+  - libunwind
+  - fakechroot
+  - fakeroot
+  - ocaml-camlp4
 
   labels:
   - eln

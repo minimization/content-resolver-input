@@ -13,8 +13,6 @@ data:
   - augeas
   - dtc
   - edk2
-  - fakechroot
-  - fakeroot
   - fuse-sshfs
   - gperftools
   - gtk-vnc
@@ -30,7 +28,6 @@ data:
   - libmspack
   - libnbd
   - libosinfo
-  - libunwind
   - libvirt
   - libvirt-dbus
   - libvirt-glib
@@ -49,7 +46,6 @@ data:
   - netcf
   - ocaml
   - ocaml-calendar
-  - ocaml-camlp4
   - ocaml-cppo
   - ocaml-csv
   - ocaml-curses
@@ -83,7 +79,6 @@ data:
   - virt-p2v
   - virt-rhel-module
   - virt-top
-  - virt-v2v
   - virt-what
   - xorg-x11-drv-qxl
 
@@ -91,7 +86,5 @@ data:
   - eln
 
   arch_packages:
-    aarch64:
-    -
-    ppc64le:
-    -
+    x86_64:
+    - virt-v2v
