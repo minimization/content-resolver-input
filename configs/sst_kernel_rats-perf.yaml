@@ -35,7 +35,7 @@ data:
         - python3-dmidecode
         - rteval-loads
         - rteval-common
-        - systat
+        - sysstat
         - xz
         - bzip2
         - kernel-headers
