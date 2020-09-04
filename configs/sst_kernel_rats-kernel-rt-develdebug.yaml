@@ -242,7 +242,12 @@ data:
       kernel-rt-debuginfo:
         description: This package is not in Fedora (yet), but we want it here.
         requires:
-          - kernel-rt-debuginfo-common-x86_64
+          # asamalik: I'm removing this package as it's a placeholder
+          #           and the current logic won't see it and fail the whole workload.
+          #           This won't affect anything as the kernel-rt-debuginfo-common-x86_64
+          #           is present in this workload anyway (listed below), so it'll still be
+          #           on the output.
+          # - kernel-rt-debuginfo-common-x86_64
           - bash
           - systemd-udev
           - coreutils
