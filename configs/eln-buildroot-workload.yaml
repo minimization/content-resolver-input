@@ -1659,7 +1659,6 @@ data:
         - libfdisk-devel
         - libfdt-devel
         - libfido2-devel
-        - libfl-static
         - libfontenc-devel
         - libfreehand-devel
         - libftdi-devel
