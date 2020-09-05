@@ -1583,7 +1583,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
-        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1884,6 +1883,8 @@ data:
         - libspectre-devel
         - libspf2
         - libspf2-devel
+        - libsphinxclient
+        - libsphinxclient-devel
         - libspiro
         - libspiro-devel
         - libsrtp-devel
@@ -2185,6 +2186,7 @@ data:
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
+        - mock-filesystem
         - mockito
         - modello
         - mod_perl
@@ -2321,6 +2323,8 @@ data:
         - ocaml-runtime
         - ocaml-seq
         - ocaml-seq-devel
+        - ocaml-topkg
+        - ocaml-topkg-devel
         - ocaml-zarith
         - ocaml-zarith-devel
         - ocl-icd-devel
@@ -3342,6 +3346,7 @@ data:
         - python3-pytest-runner
         - python3-pytest-shutil
         - python3-pytest-timeout
+        - python3-pytest-venv
         - python3-pytest-virtualenv
         - python3-pytest-xdist
         - python3-pytoml
@@ -4930,6 +4935,7 @@ data:
         - speech-tools-libs-static
         - speex-devel
         - speexdsp-devel
+        - sphinx
         - spice-glib-devel
         - spice-gtk3-devel
         - spice-gtk3-vala
