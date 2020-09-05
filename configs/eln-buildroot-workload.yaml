@@ -1320,6 +1320,7 @@ data:
         - irrlicht-devel
         - irrXML-devel
         - iscsi-initiator-utils-devel
+        - isl
         - isl-devel
         - isns-utils-devel
         - isorelax
@@ -1633,12 +1634,14 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
+        - libe-book
         - libe-book-devel
         - libecb-devel
         - libeconf-devel
         - libell-devel
         - libEMF
         - libEMF-devel
+        - libeot
         - libeot-devel
         - libepubgen-devel
         - libesmtp
