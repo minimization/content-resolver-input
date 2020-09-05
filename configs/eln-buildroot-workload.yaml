@@ -2034,7 +2034,6 @@ data:
         - lua-lunitx
         - lua-rpm-macros
         - lua-socket
-        - lua-srpm-macros
         - lua-term
         - lutok
         - lutok-devel
