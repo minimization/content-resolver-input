@@ -16,9 +16,6 @@ data:
   - libstdc++
   - libstdc++-devel
   - libgcc
-  # Noarch header packages.
-  - glibc-headers-s390
-  - glibc-headers-x86
   # We support only the C/POSIX/C.UTF-8 locales.
   - glibc-minimal-langpack
 
