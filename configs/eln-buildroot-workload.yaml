@@ -1432,18 +1432,12 @@ data:
         - jzlib
         - kde-settings
         - kernel
-        - kf5-attica
-        - kf5-attica-devel
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
         - kf5-kauth-devel
-        - kf5-kbookmarks
-        - kf5-kbookmarks-devel
         - kf5-kcodecs
         - kf5-kcodecs-devel
-        - kf5-kcompletion
-        - kf5-kcompletion-devel
         - kf5-kconfig
         - kf5-kconfig-core
         - kf5-kconfig-devel
@@ -1456,55 +1450,20 @@ data:
         - kf5-kcrash-devel
         - kf5-kdbusaddons
         - kf5-kdbusaddons-devel
-        - kf5-kded
-        - kf5-kded-devel
-        - kf5-kdelibs4support
-        - kf5-kdelibs4support-devel
-        - kf5-kdelibs4support-libs
-        - kf5-kdesignerplugin
         - kf5-kdoctools
         - kf5-kdoctools-devel
-        - kf5-kemoticons
-        - kf5-kemoticons-devel
-        - kf5-kglobalaccel
-        - kf5-kglobalaccel-devel
-        - kf5-kglobalaccel-libs
         - kf5-kguiaddons
         - kf5-kguiaddons-devel
         - kf5-ki18n
         - kf5-ki18n-devel
         - kf5-kiconthemes
         - kf5-kiconthemes-devel
-        - kf5-kinit
-        - kf5-kinit-devel
-        - kf5-kio
-        - kf5-kio-core
-        - kf5-kio-core-libs
-        - kf5-kio-devel
-        - kf5-kio-doc
-        - kf5-kio-file-widgets
-        - kf5-kio-gui
-        - kf5-kio-ntlm
-        - kf5-kio-widgets
-        - kf5-kio-widgets-libs
-        - kf5-kitemmodels
-        - kf5-kitemmodels-devel
         - kf5-kitemviews
         - kf5-kitemviews-devel
-        - kf5-kjobwidgets
-        - kf5-kjobwidgets-devel
         - kf5-knotifications
         - kf5-knotifications-devel
-        - kf5-kparts
-        - kf5-kparts-devel
-        - kf5-kplotting
-        - kf5-kplotting-devel
         - kf5-kservice
         - kf5-kservice-devel
-        - kf5-ktextwidgets
-        - kf5-ktextwidgets-devel
-        - kf5-kunitconversion
-        - kf5-kunitconversion-devel
         - kf5-kwallet
         - kf5-kwallet-devel
         - kf5-kwallet-libs
@@ -1512,15 +1471,7 @@ data:
         - kf5-kwidgetsaddons-devel
         - kf5-kwindowsystem
         - kf5-kwindowsystem-devel
-        - kf5-kxmlgui
-        - kf5-kxmlgui-devel
         - kf5-rpm-macros
-        - kf5-solid
-        - kf5-solid-devel
-        - kf5-sonnet
-        - kf5-sonnet-core
-        - kf5-sonnet-devel
-        - kf5-sonnet-ui
         - kmod-devel
         - koji
         - kyotocabinet-devel
@@ -1584,6 +1535,7 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
+        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -1634,8 +1586,6 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
-        - libe-book
-        - libe-book-devel
         - libecb-devel
         - libeconf-devel
         - libell-devel
@@ -1886,8 +1836,6 @@ data:
         - libspectre-devel
         - libspf2
         - libspf2-devel
-        - libsphinxclient
-        - libsphinxclient-devel
         - libspiro
         - libspiro-devel
         - libsrtp-devel
@@ -1916,8 +1864,6 @@ data:
         - libuninameslist-devel
         - libunistring-devel
         - libunwind-devel
-        - libupnp
-        - libupnp-devel
         - libusb-devel
         - libusbmuxd-devel
         - libusbx-devel
@@ -2154,7 +2100,6 @@ data:
         - maven-wagon-provider-api
         - mdds-devel
         - mecab-devel
-        - media-player-info
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -3911,6 +3856,8 @@ data:
         - rust-cexpr-devel
         - rust-cfg-if+default-devel
         - rust-cfg-if-devel
+        - rust-charset+default-devel
+        - rust-charset-devel
         - rust-chrono+clock-devel
         - rust-chrono+default-devel
         - rust-chrono-devel
@@ -4245,6 +4192,8 @@ data:
         - rust-lzma-sys-devel
         - rust-mac+default-devel
         - rust-mac-devel
+        - rust-mailparse+default-devel
+        - rust-mailparse-devel
         - rust-maplit+default-devel
         - rust-maplit-devel
         - rust-markup5ever+default-devel
@@ -4427,6 +4376,8 @@ data:
         - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
         - rust-quote-devel
+        - rust-quoted_printable+default-devel
+        - rust-quoted_printable-devel
         - rust-quote+proc-macro-devel
         - rust-rand0.4+default-devel
         - rust-rand0.4-devel
@@ -4575,6 +4526,8 @@ data:
         - rust-serde_urlencoded-devel
         - rust-serde-xml-rs+default-devel
         - rust-serde-xml-rs-devel
+        - rust-serde_yaml+default-devel
+        - rust-serde_yaml-devel
         - rust-sha2+default-devel
         - rust-sha2-devel
         - rust-sha2+std-devel
@@ -4820,6 +4773,8 @@ data:
         - rust-unicode-xid0.1-devel
         - rust-unicode-xid+default-devel
         - rust-unicode-xid-devel
+        - rust-unindent+default-devel
+        - rust-unindent-devel
         - rust-url1+default-devel
         - rust-url1-devel
         - rust-url+default-devel
@@ -4867,6 +4822,8 @@ data:
         - rust-xml-rs-devel
         - rust-xz2+default-devel
         - rust-xz2-devel
+        - rust-yaml-rust+default-devel
+        - rust-yaml-rust-devel
         - samba-dc-libs
         - samba-devel
         - samba-pidl
@@ -4936,7 +4893,6 @@ data:
         - speech-tools-libs-static
         - speex-devel
         - speexdsp-devel
-        - sphinx
         - spice-glib-devel
         - spice-gtk3-devel
         - spice-gtk3-vala
