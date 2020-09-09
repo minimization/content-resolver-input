@@ -33,8 +33,6 @@ data:
         - python3-ethtool
         - python3-lxml
         - python3-dmidecode
-        - rteval-loads
-        - rteval-common
         - sysstat
         - xz
         - bzip2
@@ -49,6 +47,10 @@ data:
         - make
         - openssl
         - openssl-devel
+#   commented out due to content resolver not liking requires in the
+#   placeholder section
+#        - rteval-loads
+#        - rteval-common
       buildrequires:
         - python3-devel
       limit_arches:
