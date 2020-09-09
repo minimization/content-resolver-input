@@ -292,6 +292,7 @@ data:
         - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
+        - dleyna-core-devel
         - dlm-devel
         - dmraid
         - dmraid-devel
@@ -1251,7 +1252,9 @@ data:
         - guice-servlet
         - guile22-devel
         - guile-devel
+        - gupnp-av-devel
         - gupnp-devel
+        - gupnp-dlna-devel
         - gupnp-igd-devel
         - gvnc-devel
         - hamcrest
@@ -1623,7 +1626,6 @@ data:
         - libdbusmenu-gtk2-devel
         - libdbusmenu-gtk3-devel
         - libdhash-devel
-        - libdmapsharing
         - libdmapsharing-devel
         - libdmx-devel
         - libdnet
