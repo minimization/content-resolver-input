@@ -13,3 +13,4 @@ data:
   arch_packages:
     x86_64:
     - opae
+    - opae-devel

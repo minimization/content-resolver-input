@@ -28,6 +28,8 @@ data:
   - GeoIP
   - GeoIP-data
   - GeoIP-devel
+  # geoipupdate
+  - geoipupdate
   # gsm
   - gsm-tools
   # gutenprint
