@@ -4,14 +4,13 @@ data:
   name: realtime perf
   description: Packages for testing realtime performance
   maintainer: sst_kernel_rats
-  packages:
-  - stress-ng
-  - rt-tests
-  - rteval
-  - rteval-common
-  - rteval-loads
+
   labels:
   - eln
+
+  arch_packages:
+    x86_64:
+      - stress-ng
 
   package_placeholders:
     rt-tests:
@@ -33,9 +32,7 @@ data:
         - python3-ethtool
         - python3-lxml
         - python3-dmidecode
-        - rteval-loads
-        - rteval-common
-        - systat
+        - sysstat
         - xz
         - bzip2
         - kernel-headers
@@ -49,10 +46,14 @@ data:
         - make
         - openssl
         - openssl-devel
+#   commented out due to content resolver not liking requires in the
+#   placeholder section
+#        - rteval-loads
+#        - rteval-common
       buildrequires:
         - python3-devel
       limit_arches:
-        - noarch
+        - x86_64
     rteval-loads:
       description: This package is not in Fedora (yet), but we want it here.
       requires:
@@ -73,10 +74,6 @@ data:
       limit_arches:
         - x86_64
     rteval-common:
-      description: This package is not in Fedora (yet), but we want it here.
-      limit_arches:
-        - x86_64
-    stressng:
       description: This package is not in Fedora (yet), but we want it here.
       limit_arches:
         - x86_64

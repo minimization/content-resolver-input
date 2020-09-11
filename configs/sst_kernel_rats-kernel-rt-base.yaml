@@ -4,12 +4,7 @@ data:
     name: kernel-rt base
     description: Base set of kernel-rt packages and tools to ship
     maintainer: sst_kernel_rats
-    packages:
-        - tuned-profiles-realtime
-        - tuned-profiles-nfv
-        - tuned-profiles-nfv-guest
-        - tuned-profiles-nfv-host
-        - tuned-profiles-nfv-host-bin
+    packages: []
     labels:
         - eln
 
@@ -241,5 +236,46 @@ data:
           - dwarves
           - openssl
           - openssl-devel
+        limit_arches:
+          - x86_64
+
+      tuned-profiles-realtime:
+        description: This package is not in Fedora (yet), but we want it here.
+        requires:
+          - bash
+          - man
+        limit_arches:
+          - x86_64
+
+      tuned-profiles-nfv:
+        description: This package is not in Fedora (yet), but we want it here.
+        requires:
+          - bash
+          - man
+        limit_arches:
+          - x86_64
+
+      tuned-profiles-nfv-guest:
+        description: This package is not in Fedora (yet), but we want it here.
+        requires:
+          - bash
+          - man
+        limit_arches:
+          - x86_64
+
+      tuned-profiles-nfv-host:
+        description: This package is not in Fedora (yet), but we want it here.
+        requires:
+          - bash
+          - man
+        limit_arches:
+          - x86_64
+
+      tuned-profiles-nfv-host-bin:
+        description: This package is not in Fedora (yet), but we want it here.
+        buildrequires:
+          - gcc
+          - make
+          - glibc
         limit_arches:
           - x86_64

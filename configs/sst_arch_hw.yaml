@@ -1,0 +1,31 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: arch hw packages
+  description: Packages for hardware enablement
+  maintainer: sst_arch_hw
+
+  packages:
+  - libocxl
+  - qclib
+  - mdadm
+  - nvme-cli
+  - acpica-tools
+  - bluez
+  - alsa-firmware
+  - alsa-sof-firmware
+  - alsa-lib
+  - alsa-plugins
+  - alsa-tools
+  - alsa-utils
+  - speexdsp
+  - dptfxtract
+  - hwloc
+  - mcelog
+  - pigz
+  - ethtool
+  - tboot
+
+  labels:
+  - eln
+
