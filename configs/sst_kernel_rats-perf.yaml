@@ -4,8 +4,7 @@ data:
   name: realtime perf
   description: Packages for testing realtime performance
   maintainer: sst_kernel_rats
-  packages:
-  - stress-ng
+
   labels:
   - eln
 
