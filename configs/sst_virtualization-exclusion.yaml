@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Virtualization Exclusion List
+  description: Virtualization packages not required in RHEL-9
+  maintainer: sst_virtualization
+
+  unwanted_packages:
+  - libunwind
+  - fakechroot
+  - fakeroot
+  - ocaml-camlp4
+
+  labels:
+  - eln
