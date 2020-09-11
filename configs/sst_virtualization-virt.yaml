@@ -1,0 +1,87 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Virtualization on RHEL - KVM Userspace
+  description: Userspace agents and tools that enable virtualization capabilities on RHEL
+  maintainer: sst_virtualization
+
+  modules_enable:
+  - virt:rhel
+
+  packages:
+  - amtterm
+  - augeas
+  - dtc
+  - edk2
+  - fuse-sshfs
+  - gperftools
+  - gtk-vnc
+  - hexedit
+  - hivex
+  - icoutils
+  - ipxe
+  - libguestfs
+  - libguestfs-winsupport
+  - libiscsi
+  - libnbd
+  - libosinfo
+  - libvirt
+  - libvirt-dbus
+  - libvirt-glib
+  - libvirt-python
+  - libvirt-snmp
+  - mdevctl
+  - mingw-binutils
+  - mingw-crt
+  - mingw-filesystem
+  - mingw-gcc
+  - mingw-headers
+  - mingw-pkg-config
+  - mingw-srvany
+  - mingw-w64-tools
+  - nbdkit
+  - netcf
+  - ocaml
+  - ocaml-calendar
+  - ocaml-cppo
+  - ocaml-csv
+  - ocaml-curses
+  - ocaml-extlib
+  - ocaml-fileutils
+  - ocaml-findlib
+  - ocaml-gettext
+  - ocaml-labltk
+  - ocaml-libvirt
+  - ocaml-ocamlbuild
+  - ocaml-srpm-macros
+  - ocaml-xml-light
+  - osinfo-db
+  - osinfo-db-tools
+  - OVMF
+  - perl-Sys-Virt
+  - phodav
+  - po4a
+  - python-augeas
+  - qemu-guest-agent
+  - qemu-kvm
+  - rhevm-guest-agent
+  - seabios
+  - sgabios
+  - SLOF
+  - spice-html5
+  - spice-xpi
+  - supermin
+  - vhostmd
+  - virt-manager
+  - virt-p2v
+  - virt-rhel-module
+  - virt-top
+  - virt-what
+  - xorg-x11-drv-qxl
+
+  labels:
+  - eln
+
+  arch_packages:
+    x86_64:
+    - virt-v2v
