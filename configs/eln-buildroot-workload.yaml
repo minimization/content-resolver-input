@@ -242,7 +242,8 @@ data:
         - compat-golang-github-coreos-etcd-devel
         - compat-golang-github-cpuguy83-md2man-2-devel
         - compat-golang-github-godbus-dbus-5-devel
-        - compat-golang-github-nats-io-devel
+        - compat-golang-github-google-32-devel
+        - compat-golang-github-google-martian-3-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-lua
         - compat-lua-devel
@@ -943,6 +944,7 @@ data:
         - go-filesystem
         - golang-bitbucket-ww-goautoneg-devel
         - golang-cloud-google-compute-devel
+        - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
         - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
@@ -952,13 +954,14 @@ data:
         - golang-github-alcortesm-tgz-devel
         - golang-github-alecthomas-template-devel
         - golang-github-alecthomas-units-devel
-        - golang-github-andygrunwald-gerrit-devel
+        - golang-github-andybalholm-cascadia-devel
         - golang-github-antihax-optional-devel
         - golang-github-apache-thrift-devel
         - golang-github-armon-circbuf-devel
-        - golang-github-armon-consul-api-devel
         - golang-github-armon-metrics-devel
         - golang-github-armon-radix-devel
+        - golang-github-aryann-difflib-devel
+        - golang-github-aws-lambda-devel
         - golang-github-aws-sdk-2-devel
         - golang-github-aws-sdk-devel
         - golang-github-azure-autorest-devel
@@ -967,10 +970,12 @@ data:
         - golang-github-azure-storage-blob-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
+        - golang-github-bketelsen-crypt-devel
         - golang-github-briandowns-spinner-devel
         - golang-github-burntsushi-toml-devel
         - golang-github-burntsushi-toml-test
         - golang-github-cactus-statsd-client-devel
+        - golang-github-casbin-2-devel
         - golang-github-casbin-devel
         - golang-github-cenkalti-backoff-devel
         - golang-github-census-instrumentation-opencensus-proto-devel
@@ -980,6 +985,7 @@ data:
         - golang-github-circonus-labs-circonusllhist-devel
         - golang-github-circonus-labs-gometrics-devel
         - golang-github-clbanning-x2j-devel
+        - golang-github-cncf-udpa-devel
         - golang-github-codahale-hdrhistogram-devel
         - golang-github-coreos-pkg-capnslog-devel
         - golang-github-coreos-semver-devel
@@ -1001,6 +1007,8 @@ data:
         - golang-github-eapache-xerial-snappy-devel
         - golang-github-edsrzf-mmap-devel
         - golang-github-emirpasic-gods-devel
+        - golang-github-envoyproxy-control-plane-devel
+        - golang-github-envoyproxy-protoc-gen-validate-devel
         - golang-github-fatih-color-devel
         - golang-github-franela-goblin-devel
         - golang-github-franela-goreq-devel
@@ -1022,7 +1030,10 @@ data:
         - golang-github-google-uuid-devel
         - golang-github-gophercloud-devel
         - golang-github-gorilla-mux-devel
+        - golang-github-gorilla-securecookie-devel
+        - golang-github-gorilla-sessions-devel
         - golang-github-gorilla-websocket-devel
+        - golang-github-graph-gophers-graphql-devel
         - golang-github-groupcache-devel
         - golang-github-grpc-ecosystem-gateway-devel
         - golang-github-grpc-ecosystem-middleware-devel
@@ -1047,9 +1058,16 @@ data:
         - golang-github-hashicorp-syslog-devel
         - golang-github-hashicorp-uuid-devel
         - golang-github-hudl-fargo-devel
+        - golang-github-iancoleman-strcase-devel
         - golang-github-ianlancetaylor-demangle-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
+        - golang-github-jcmturner-aescts-devel
+        - golang-github-jcmturner-dnsutils-devel
+        - golang-github-jcmturner-gofork-devel
+        - golang-github-jcmturner-goidentity-devel
+        - golang-github-jcmturner-gokrb5-devel
+        - golang-github-jcmturner-rpc-devel
         - golang-github-jessevdk-flags-devel
         - golang-github-jmespath-devel
         - golang-github-jonboulle-clockwork-devel
@@ -1070,6 +1088,7 @@ data:
         - golang-github-lightstep-tracer-common-devel
         - golang-github-lightstep-tracer-devel
         - golang-github-logfmt-devel
+        - golang-github-lyft-protoc-gen-star-devel
         - golang-github-magiconair-properties-devel
         - golang-github-masterminds-semver-devel
         - golang-github-mattn-colorable-devel
@@ -1115,6 +1134,7 @@ data:
         - golang-github-prometheus-common-devel
         - golang-github-prometheus-procfs-devel
         - golang-github-protobuf-devel
+        - golang-github-puerkitobio-goquery-devel
         - golang-github-rcrowley-metrics-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
@@ -1128,6 +1148,8 @@ data:
         - golang-github-shopify-sarama-devel
         - golang-github-shopify-toxiproxy-devel
         - golang-github-shopspring-decimal-devel
+        - golang-github-shurcool-githubv4-devel
+        - golang-github-shurcool-graphql-devel
         - golang-github-shurcool-sanitized-anchor-name-devel
         - golang-github-sirupsen-logrus-devel
         - golang-github-smartystreets-assertions-devel
@@ -1151,6 +1173,7 @@ data:
         - golang-github-subosito-gotenv-devel
         - golang-github-tmc-grpc-websocket-proxy-devel
         - golang-github-tv42-httpunix-devel
+        - golang-github-urfave-cli-2-devel
         - golang-github-urfave-cli-devel
         - golang-github-urfave-negroni-devel
         - golang-github-vividcortex-gohistogram-devel
@@ -1160,8 +1183,8 @@ data:
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
         - golang-github-xiang90-probing-devel
+        - golang-github-xlzd-gotp-devel
         - golang-github-xo-dburl-devel
-        - golang-github-xordataexchange-crypt-devel
         - golang-github-yuin-goldmark-devel
         - golang-google-api-devel
         - golang-google-appengine-devel
@@ -4194,6 +4217,8 @@ data:
         - rust-idna-devel
         - rust-indexmap+default-devel
         - rust-indexmap-devel
+        - rust-instant+default-devel
+        - rust-instant-devel
         - rust-intervaltree+default-devel
         - rust-intervaltree-devel
         - rust-intervaltree+std-devel
