@@ -1615,7 +1615,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
-        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
