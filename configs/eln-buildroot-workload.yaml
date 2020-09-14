@@ -192,7 +192,6 @@ data:
         - clamav-lib
         - clamav-update
         - clamd
-        - clang10-libs
         - classloader-leak-test-framework
         - clblast
         - clblast-devel
@@ -294,7 +293,6 @@ data:
         - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
-        - dleyna-core-devel
         - dlm-devel
         - dmraid
         - dmraid-devel
@@ -1282,9 +1280,7 @@ data:
         - guice-servlet
         - guile22-devel
         - guile-devel
-        - gupnp-av-devel
         - gupnp-devel
-        - gupnp-dlna-devel
         - gupnp-igd-devel
         - gvnc-devel
         - hamcrest
@@ -1657,6 +1653,7 @@ data:
         - libdbusmenu-gtk2-devel
         - libdbusmenu-gtk3-devel
         - libdhash-devel
+        - libdmapsharing
         - libdmapsharing-devel
         - libdmx-devel
         - libdnet
@@ -1947,7 +1944,6 @@ data:
         - libtimezonemap-devel
         - libtommath-devel
         - libtool-ltdl-devel
-        - libtracker-sparql3
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
@@ -2046,7 +2042,6 @@ data:
         - lldpad-devel
         - llvm10
         - llvm10-devel
-        - llvm10-libs
         - llvm10-static
         - llvm7.0
         - llvm7.0-libs
@@ -5381,6 +5376,7 @@ data:
             - cdparanoia-devel
             - ceres-solver
             - ceres-solver-devel
+            - clang10-libs
             - efi-filesystem
             - eigen3-devel
             - gamin
