@@ -1361,7 +1361,6 @@ data:
         - jakarta-el
         - jakarta-el-api
         - jakarta-interceptors
-        - jakarta-messaging
         - jakarta-oro
         - jakarta-persistence
         - jakarta-saaj
@@ -1577,8 +1576,6 @@ data:
         - libaesgm-devel
         - libao-devel
         - libaom-devel
-        - libappindicator
-        - libappindicator-devel
         - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
@@ -1611,6 +1608,7 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbluray
+        - libbluray-devel
         - libbpf-static
         - libbs2b
         - libbs2b-devel
@@ -2050,7 +2048,6 @@ data:
         - Lmod
         - lockdev-devel
         - log4j
-        - log4j12
         - lorax
         - lorax-templates-generic
         - lpsolve-devel
@@ -2070,7 +2067,6 @@ data:
         - lutok-devel
         - lv2
         - lv2-devel
-        - lxpolkit
         - lz4-devel
         - lzo-devel
         - lzo-minilzo
@@ -4760,8 +4756,6 @@ data:
         - rust-tokio-io+default-devel
         - rust-tokio-io-devel
         - rust-tokio+io-driver-devel
-        - rust-tokio-io-pool+default-devel
-        - rust-tokio-io-pool-devel
         - rust-tokio+io-std-devel
         - rust-tokio+io-util-devel
         - rust-tokio-macros+default-devel
@@ -5376,7 +5370,6 @@ data:
             - cdparanoia-devel
             - ceres-solver
             - ceres-solver-devel
-            - clang10-libs
             - efi-filesystem
             - eigen3-devel
             - gamin
