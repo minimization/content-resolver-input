@@ -20,13 +20,16 @@ data:
   arch_packages:
       x86_64:
           - rasdaemon
-          - rasdaemon-debuginfo
-          - rasdaemon-debugsource
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource
       aarch64:
           - rasdaemon
-          - rasdaemon-debuginfo
-          - rasdaemon-debugsource
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource
       ppc64le:
           - rasdaemon
-          - rasdaemon-debuginfo
-          - rasdaemon-debugsource
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource
