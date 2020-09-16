@@ -3,10 +3,10 @@ version: 1
 data:
   name: arch-portfolio
   description: Packages for architecture support
-  maintainer: jwboyer
+  maintainer: sst_arch_portfolio
 
   packages:
-  - openssl-ibmpkcs
+  - openssl-ibmpkcs11
 
   arch_packages:
     ppc64le:
