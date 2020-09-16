@@ -21,5 +21,6 @@ data:
       x86_64:
           - memkind
           - memkind-devel
-          - memkind-debuginfo
-          - memkind-debugsource
+          # asamalik: debuginfo packages are special and are not in the repos.
+          #- memkind-debuginfo
+          #- memkind-debugsource
