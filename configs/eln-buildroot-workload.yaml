@@ -418,6 +418,9 @@ data:
         - fop
         - forge-parent
         - freeglut-devel
+        - freeipa-client-common
+        - freeipa-common
+        - freeipa-server-common
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -2716,7 +2719,6 @@ data:
         - perl-Module-Package
         - perl-Module-Package-Au
         - perl-Module-Path
-        - perl-Module-Pluggable
         - perl-Module-Refresh
         - perl-Module-Runtime-Conflicts
         - perl-Module-ScanDeps
@@ -3025,7 +3027,6 @@ data:
         - pipewire0.2-devel
         - pipewire-devel
         - pipewire-doc
-        - pipewire-gstreamer
         - plexus-archiver
         - plexus-build-api
         - plexus-cipher
@@ -3316,7 +3317,6 @@ data:
         - python3-pastel
         - python3-path
         - python3-pathspec
-        - python3-pexpect
         - python3-pickleshare
         - python3-pika
         - python3-pikepdf
@@ -3330,7 +3330,6 @@ data:
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
-        - python3-ptyprocess
         - python3-pungi
         - python3-py3dns
         - python3-pybind11
@@ -5365,11 +5364,26 @@ data:
             - uuid
             - zfs-fuse
         s390x:
+            - anaconda
+            - anaconda-core
+            - anaconda-gui
+            - anaconda-install-env-deps
+            - anaconda-tui
+            - anaconda-user-help
+            - anaconda-widgets
             - autoconf-archive
+            - blivet-data
             - bluez-obexd
             - cdparanoia-devel
             - ceres-solver
             - ceres-solver-devel
+            - corosync
+            - corosynclib
+            - daxctl-devel
+            - device-mapper-devel
+            - device-mapper-event-devel
+            - device-mapper-multipath
+            - dlm-lib
             - efi-filesystem
             - eigen3-devel
             - gamin
@@ -5388,14 +5402,27 @@ data:
             - hamcrest-core
             - ibacm
             - infiniband-diags
+            - isomd5sum
             - itstool
             - javamail
             - junit
+            - keybinder3
+            - kpartx
+            - langtable
             - lensfun
             - lensfun-devel
             - leptonica
             - leptonica-devel
             - libassuan-devel
+            - libblockdev-dm
+            - libblockdev-kbd
+            - libblockdev-lvm
+            - libblockdev-mpath
+            - libblockdev-nvdimm
+            - libblockdev-plugins-all
+            - libblockdev-s390
+            - libblockdev-vdo
+            - libbsd
             - libburn-devel
             - libcdio-devel
             - libdv
@@ -5406,22 +5433,63 @@ data:
             - libieee1284-devel
             - libimobiledevice
             - libisofs-devel
+            - libknet1
+            - libknet1-crypto-nss-plugin
             - libmad
+            - libnozzle1
             - libplist
+            - libreport-anaconda
+            - libreport-cli
+            - libreport-plugin-bugzilla
             - libsmi-devel
+            - libstoragemgmt
+            - libtimezonemap
             - libusbmuxd
+            - libuser
             - libvncserver
+            - lsscsi
+            - lvm2-devel
             - mallard-rng
             - metis
             - metis-devel
             - mozilla-filesystem
             - mpich-devel
+            - ndctl
+            - ndctl-devel
+            - ndctl-libs
             - oniguruma-devel
             - openbios
             - openmpi-devel
+            - passwd
             - pigz
             - polkit-gnome
             - pugixml
+            - python3-blivet
+            - python3-blockdev
+            - python3-bytesize
+            - python3-cpio
+            - python3-dasbus
+            - python3-dbus-signature-pyparsing
+            - python3-hs-dbus-signature
+            - python3-hypothesis
+            - python3-into-dbus-python
+            - python3-justbases
+            - python3-kickstart
+            - python3-langtable
+            - python3-librepo
+            - python3-libstoragemgmt
+            - python3-libstoragemgmt-clibs
+            - python3-meh
+            - python3-meh-gui
+            - python3-mock
+            - python3-pid
+            - python3-productmd
+            - python3-pyparted
+            - python3-requests-file
+            - python3-requests-ftp
+            - python3-semantic_version
+            - python3-simpleline
+            - python3-wcwidth
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
@@ -5430,6 +5498,13 @@ data:
             - qemu-system-x86-core
             - rdma-core-devel
             - rpm-mpi-hooks
+            - s390utils
+            - s390utils-cpuplugd
+            - s390utils-iucvterm
+            - s390utils-mon_statd
+            - s390utils-osasnmpd
+            - s390utils-ziomon
+            - sanlock-lib
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
@@ -5440,6 +5515,9 @@ data:
             - tesseract-devel
             - tesseract-langpack-eng
             - tesseract-tessdata-doc
+            - tmux
+            - udisks2-iscsi
+            - usermode
             - xdg-user-dirs
             - xorg-x11-drv-dummy
             - yelp-tools
