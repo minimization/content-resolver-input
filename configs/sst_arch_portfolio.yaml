@@ -28,7 +28,6 @@ data:
     - openssl-ibmca
     - s390utils
     - s390utils-base
-    - s390utils-cmsfs
     - s390utils-cmsfs-fuse
     - s390utils-cpacfstatsd
     - s390utils-cpuplugd
