@@ -8,8 +8,6 @@ data:
   packages:
   # Because of gnome-common
   - autoconf-archive
-  - fprintd
-  - fprintd-pam
   - freerdp
   - gdm
   - glib2
