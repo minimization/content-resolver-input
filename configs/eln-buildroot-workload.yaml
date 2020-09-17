@@ -2319,6 +2319,8 @@ data:
         - ocaml-cmdliner-devel
         - ocaml-compiler-libs
         - ocaml-cppo
+        - ocaml-csexp
+        - ocaml-csexp-devel
         - ocaml-dune
         - ocaml-dune-devel
         - ocaml-fileutils
@@ -2993,6 +2995,7 @@ data:
         - perl-UNIVERSAL-isa
         - perl-UNIVERSAL-require
         - perl-Unix-Process
+        - perl-URI-cpan
         - perl-URI-Find
         - perl-utf8-all
         - perl-Validation-Class
@@ -3024,7 +3027,6 @@ data:
         - php-devel
         - physfs
         - physfs-devel
-        - pipewire0.2-devel
         - pipewire-devel
         - pipewire-doc
         - plexus-archiver
