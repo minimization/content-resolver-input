@@ -1757,7 +1757,6 @@ data:
         - libindicator-devel
         - libindicator-gtk3-devel
         - libini_config-devel
-        - libinput-devel
         - libiodbc
         - libiodbc-devel
         - libiptcdata-devel
