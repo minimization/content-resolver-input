@@ -67,6 +67,7 @@ data:
         - aspell-devel
         - aspell-en
         - assertj-core
+        - assimp
         - assimp-devel
         - atf-tests
         - atinject
@@ -1340,7 +1341,6 @@ data:
         - ImageMagick-perl
         - imake
         - imaptest
-        - imlib2
         - imlib2-devel
         - intltool
         - ipa-gothic-fonts
@@ -1348,6 +1348,7 @@ data:
         - iptables-devel
         - irrlicht
         - irrlicht-devel
+        - irrXML
         - irrXML-devel
         - iscsi-initiator-utils-devel
         - isl
@@ -1711,6 +1712,7 @@ data:
         - libgit2-glib-devel
         - libglade2
         - libglade2-devel
+        - libGLEW
         - libglusterfs-devel
         - libgnat
         - libgnat-devel
@@ -2216,6 +2218,7 @@ data:
         - mingw-filesystem-base
         - miniz
         - miniz-devel
+        - minizip-compat
         - minizip-compat-devel
         - mobile-broadband-provider-info-devel
         - mock
@@ -2377,8 +2380,6 @@ data:
         - openblas-threads
         - openblas-threads64
         - openblas-threads64_
-        - openbox
-        - openbox-libs
         - openchange-devel
         - opencryptoki-devel
         - opencsd-devel
@@ -3060,6 +3061,7 @@ data:
         - polkit-docs
         - polkit-qt5-1
         - polkit-qt5-1-devel
+        - poly2tri
         - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
@@ -4987,6 +4989,7 @@ data:
         - spirv-headers-devel
         - spirv-tools
         - spirv-tools-devel
+        - spirv-tools-libs
         - sratom
         - sratom-devel
         - srt-devel
@@ -5149,6 +5152,7 @@ data:
         - vtk-devel
         - vtk-java
         - vtk-qt
+        - vulkan-headers
         - vulkan-loader-devel
         - w3m
         - waf
@@ -5292,6 +5296,7 @@ data:
             - libxml++-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
+            - mesa-vulkan-drivers
             - openbios
             - pugixml
             - qemu-system-ppc
@@ -5343,6 +5348,7 @@ data:
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
+            - mesa-vulkan-drivers
             - postgresql
             - postgresql-contrib
             - postgresql-server
@@ -5367,14 +5373,7 @@ data:
             - zfs-fuse
         s390x:
             - anaconda
-            - anaconda-core
-            - anaconda-gui
             - anaconda-install-env-deps
-            - anaconda-tui
-            - anaconda-user-help
-            - anaconda-widgets
-            - autoconf-archive
-            - blivet-data
             - bluez-obexd
             - cdparanoia-devel
             - ceres-solver
@@ -5388,16 +5387,12 @@ data:
             - dlm-lib
             - efi-filesystem
             - eigen3-devel
-            - gamin
             - gflags
             - gflags-devel
-            - glib2-doc
-            - glib2-static
             - glog
             - glog-devel
             - gnome-bluetooth
             - gnome-bluetooth-libs
-            - gnome-common
             - gperftools-libs
             - gpgme-devel
             - gpgmepp-devel
@@ -5405,12 +5400,9 @@ data:
             - ibacm
             - infiniband-diags
             - isomd5sum
-            - itstool
             - javamail
             - junit
-            - keybinder3
             - kpartx
-            - langtable
             - lensfun
             - lensfun-devel
             - leptonica
@@ -5440,18 +5432,12 @@ data:
             - libmad
             - libnozzle1
             - libplist
-            - libreport-anaconda
-            - libreport-cli
-            - libreport-plugin-bugzilla
             - libsmi-devel
             - libstoragemgmt
-            - libtimezonemap
             - libusbmuxd
-            - libuser
-            - libvncserver
             - lsscsi
             - lvm2-devel
-            - mallard-rng
+            - mesa-vulkan-drivers
             - metis
             - metis-devel
             - mozilla-filesystem
@@ -5462,35 +5448,18 @@ data:
             - oniguruma-devel
             - openbios
             - openmpi-devel
-            - passwd
             - pigz
-            - polkit-gnome
             - pugixml
-            - python3-blivet
-            - python3-blockdev
-            - python3-bytesize
             - python3-cpio
-            - python3-dasbus
             - python3-dbus-signature-pyparsing
             - python3-hs-dbus-signature
             - python3-hypothesis
             - python3-into-dbus-python
             - python3-justbases
-            - python3-kickstart
-            - python3-langtable
-            - python3-librepo
             - python3-libstoragemgmt
             - python3-libstoragemgmt-clibs
-            - python3-meh
-            - python3-meh-gui
             - python3-mock
-            - python3-pid
-            - python3-productmd
-            - python3-pyparted
-            - python3-requests-file
-            - python3-requests-ftp
             - python3-semantic_version
-            - python3-simpleline
             - python3-wcwidth
             - qemu-system-aarch64
             - qemu-system-aarch64-core
@@ -5519,10 +5488,7 @@ data:
             - tesseract-tessdata-doc
             - tmux
             - udisks2-iscsi
-            - usermode
-            - xdg-user-dirs
             - xorg-x11-drv-dummy
-            - yelp-tools
         x86_64:
             - bullet
             - bullet-devel
