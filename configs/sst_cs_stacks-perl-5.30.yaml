@@ -17,6 +17,7 @@ data:
   - perl-Carp
   - perl-Compress-Bzip2
   - perl-Compress-Raw-Bzip2
+  - perl-Compress-Raw-Lzma
   - perl-Compress-Raw-Zlib
   - perl-Config-Perl-V
   - perl-constant
@@ -70,6 +71,7 @@ data:
   - perl-interpreter
   - perl-IO
   - perl-IO-Compress
+  - perl-IO-Compress-Lzma
   - perl-IO-Socket-IP
   - perl-IO-Zlib
   - perl-IPC-Cmd
@@ -98,8 +100,6 @@ data:
   - perl-Module-Metadata
   - perl-MRO-Compat
   - perl-Net-Ping
-  - perl-Object-HashBase
-  - perl-Object-HashBase-tools
   - perl-open
   - perl-Package-Generator
   - perl-Params-Check
