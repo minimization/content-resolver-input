@@ -17,11 +17,9 @@ data:
   - corosync
   - dbxtool
   - dhcp-client
-  - dpdk
   - driverctl
   - dwz
   - emacs
-  - efivar
   - fence-agents
   - fence-virt
   - libkcapi-fipscheck
@@ -93,7 +91,6 @@ data:
   - sg3_utils
   - skopeo
   - socat
-  - spice-server
   - sshpass
   - sssd
   - stunnel
@@ -106,6 +103,18 @@ data:
   - volume_key
   - yajl
   - zip
+
+  arch_packages:
+    x86_64:
+    - efivar
+    - dpdk
+    - spice-server
+    aarch64:
+    - dpdk
+    - efivar
+    - spice-server
+    ppc64le:
+    - dpdk
 
   labels:
   - eln
