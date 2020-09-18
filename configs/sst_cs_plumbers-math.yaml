@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Math:
+  description: Various math related libraries
+  maintainer: sst_cs_plumbers
+
+  packages:
+  - atlas
+  - atlas-devel
+    s390x:
+    - atlas-z14
+    - atlas-z14-devel
+    - atlas-z15
+    - atlas-z15-devel
+
+  labels:
+  - eln
