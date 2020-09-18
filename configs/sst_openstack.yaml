@@ -41,8 +41,10 @@ data:
   - jasper
   - jbigkit
   - keepalived
-  - kronosnet
   - leveldb
+  - libknet1
+  - libnozzle1
+  - libknet1-plugins-all
   - libcacard
   - libcgroup
   - libcroco
