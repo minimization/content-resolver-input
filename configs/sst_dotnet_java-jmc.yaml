@@ -14,5 +14,7 @@ data:
     x86_64:
     - jmc
     - jmc-core
+    - eclipse-pde
+    - tycho
   labels:
   - eln
