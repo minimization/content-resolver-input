@@ -17,7 +17,6 @@ data:
   - corosync
   - dbxtool
   - dhcp-client
-  - ding-libs
   - dpdk
   - driverctl
   - dwz
@@ -56,6 +55,12 @@ data:
   - libwayland-client
   - libwayland-egl
   - libwayland-server
+  - libbasicobjects
+  - libcollection
+  - libdhash
+  - libini_config
+  - libpath_utils
+  - libref_array
   - lsscsi
   - mesa-filesystem
   - mesa-dri-drivers
