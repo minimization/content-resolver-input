@@ -3,7 +3,7 @@ version: 1
 data:
   name: Basic smart card enablement
   description: Tools needed to supply smart card enablement
-  maintainer: sst_platform_security
+  maintainer: sst_security_crypto
 
   packages:
   - opensc
