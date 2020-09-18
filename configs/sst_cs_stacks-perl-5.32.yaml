@@ -8,7 +8,9 @@ data:
   - eln
   packages:
   - perl
+  - perl-Algorithm-Diff
   - perl-Archive-Tar
+  - perl-Archive-Zip
   - perl-Attribute-Handlers
   - perl-autodie
   - perl-AutoLoader
@@ -21,16 +23,21 @@ data:
   - perl-blib
   - perl-Carp
   - perl-Class-Struct
+  - perl-Compress-Bzip2
   - perl-Compress-Raw-Bzip2
+  - perl-Compress-Raw-Lzma
   - perl-Compress-Raw-Zlib
   - perl-Config-Extensions
   - perl-Config-Perl-V
   - perl-constant
   - perl-CPAN
+  - perl-CPAN-DistnameInfo
   - perl-CPAN-Meta
   - perl-CPAN-Meta-Requirements
   - perl-CPAN-Meta-YAML
   - perl-Data-Dumper
+  - perl-Data-OptList
+  - perl-Data-Section
   - perl-DBM_Filter
   - perl-DB_File
   - perl-debugger
@@ -39,6 +46,7 @@ data:
   - perl-Devel-Peek
   - perl-Devel-PPPort
   - perl-Devel-SelfStubber
+  - perl-Devel-Size
   - perl-diagnostics
   - perl-Digest
   - perl-Digest-MD5
@@ -49,6 +57,7 @@ data:
   - perl-DynaLoader
   - perl-Encode
   - perl-Encode-devel
+  - perl-Encode-Locale
   - perl-encoding
   - perl-encoding-warnings
   - perl-English
@@ -67,6 +76,7 @@ data:
   - perl-ExtUtils-MM-Utils
   - perl-ExtUtils-ParseXS
   - perl-Fcntl
+  - perl-Fedora-VSP
   - perl-fields
   - perl-File-Basename
   - perl-File-Compare
@@ -74,9 +84,11 @@ data:
   - perl-File-DosGlob
   - perl-File-Fetch
   - perl-File-Find
+  - perl-File-HomeDir
   - perl-File-Path
   - perl-File-stat
   - perl-File-Temp
+  - perl-File-Which
   - perl-FileCache
   - perl-FileHandle
   - perl-filetest
@@ -89,18 +101,23 @@ data:
   - perl-Getopt-Std
   - perl-Hash-Util
   - perl-Hash-Util-FieldHash
+  - perl-homedir
   - perl-HTTP-Tiny
   - perl-I18N-Collate
   - perl-I18N-Langinfo
   - perl-I18N-LangTags
   - perl-if
+  - perl-Importer
+  - perl-inc-latest
   - perl-interpreter
   - perl-IO
   - perl-IO-Compress
+  - perl-IO-Compress-Lzma
   - perl-IO-Socket-IP
   - perl-IO-Zlib
   - perl-IPC-Cmd
   - perl-IPC-Open3
+  - perl-IPC-System-Simple
   - perl-IPC-SysV
   - perl-JSON-PP
   - perl-less
@@ -108,6 +125,7 @@ data:
   - perl-libnet
   - perl-libnetcfg
   - perl-libs
+  - perl-local-lib
   - perl-locale
   - perl-Locale-Maketext
   - perl-Locale-Maketext-Simple
@@ -119,6 +137,7 @@ data:
   - perl-Memoize
   - perl-meta-notation
   - perl-MIME-Base64
+  - perl-Module-Build
   - perl-Module-CoreList
   - perl-Module-CoreList-tools
   - perl-Module-Load
@@ -126,16 +145,21 @@ data:
   - perl-Module-Loaded
   - perl-Module-Metadata
   - perl-mro
+  - perl-MRO-Compat
   - perl-NDBM_File
   - perl-Net
   - perl-Net-Ping
   - perl-NEXT
+  - perl-Object-HashBase
+  - perl-Object-HashBase-tools
   - perl-ODBM_File
   - perl-Opcode
   - perl-open
   - perl-overload
   - perl-overloading
+  - perl-Package-Generator
   - perl-Params-Check
+  - perl-Params-Util
   - perl-parent
   - perl-PathTools
   - perl-Perl-OSType
@@ -158,8 +182,11 @@ data:
   - perl-SelfLoader
   - perl-sigtrap
   - perl-Socket
+  - perl-Software-License
   - perl-sort
   - perl-Storable
+  - perl-Sub-Exporter
+  - perl-Sub-Install
   - perl-subs
   - perl-Symbol
   - perl-Sys-Hostname
@@ -168,13 +195,21 @@ data:
   - perl-Term-Cap
   - perl-Term-Complete
   - perl-Term-ReadLine
+  - perl-Term-Size-Any
+  - perl-Term-Size-Perl
+  - perl-Term-Table
+  - perl-TermReadKey
   - perl-Test
   - perl-Test-Harness
   - perl-Test-Simple
+  - perl-tests
   - perl-Text-Abbrev
   - perl-Text-Balanced
+  - perl-Text-Diff
+  - perl-Text-Glob
   - perl-Text-ParseWords
   - perl-Text-Tabs+Wrap
+  - perl-Text-Template
   - perl-Thread
   - perl-Thread-Queue
   - perl-Thread-Semaphore
@@ -191,6 +226,7 @@ data:
   - perl-Unicode-Collate
   - perl-Unicode-Normalize
   - perl-Unicode-UCD
+  - perl-URI
   - perl-User-pwent
   - perl-utils
   - perl-vars
