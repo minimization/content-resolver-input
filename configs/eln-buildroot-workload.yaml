@@ -5436,8 +5436,6 @@ data:
             - gpgme-devel
             - gpgmepp-devel
             - hamcrest-core
-            - ibacm
-            - infiniband-diags
             - isomd5sum
             - javamail
             - junit
@@ -5500,7 +5498,6 @@ data:
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
-            - rdma-core-devel
             - rpm-mpi-hooks
             - s390utils
             - s390utils-cpuplugd
