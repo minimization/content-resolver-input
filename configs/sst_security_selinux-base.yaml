@@ -3,7 +3,7 @@ version: 1
 data:
   name: SELinux - Base
   description: A base set for SELinux policy management
-  maintainer: sst_platform_security
+  maintainer: sst_security_selinux
 
   packages:
   - libsepol
