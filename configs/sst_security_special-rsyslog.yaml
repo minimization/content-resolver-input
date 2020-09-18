@@ -3,7 +3,7 @@ version: 1
 data:
   name: Rsyslog
   description: Popular logging daemon
-  maintainer: sst_platform_security
+  maintainer: sst_security_special
 
   packages:
   - rsyslog
