@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - sst_kernel_debug
+  description: Packages not shipping in RHEL 9
+  maintainer: sst_kernel_debug
+
+  unwanted_packages:
+  - netdump-server
+
+  labels:
+  - eln
