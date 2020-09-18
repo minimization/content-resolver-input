@@ -8,6 +8,7 @@ data:
   packages:
   - atlas
   - atlas-devel
+  arch_packages:
     s390x:
     - atlas-z14
     - atlas-z14-devel
