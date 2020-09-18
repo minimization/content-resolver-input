@@ -2807,7 +2807,6 @@ data:
         - perl-podlinkcheck
         - perl-Pod-Markdown
         - perl-Pod-MinimumVersion
-        - perl-Pod-Parser
         - perl-Pod-POM
         - perl-Pod-Readme
         - perl-Pod-Spell
@@ -2870,8 +2869,6 @@ data:
         - perl-Task-Perl-Critic
         - perl-Task-Weaken
         - perl-Template-Toolkit
-        - perl-Term-Size-Any
-        - perl-Term-Size-Perl
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
         - perl-Test2-Tools-Explain
