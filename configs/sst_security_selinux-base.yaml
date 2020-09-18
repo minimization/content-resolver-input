@@ -12,10 +12,12 @@ data:
   - libsemanage
   - policycoreutils
   - policycoreutils-python-utils
+  - policycoreutils-restorecond
   - mcstrans
   - selinux-policy-targeted
   - selinux-policy-mls
   - selinux-policy-sandbox
+  - selinux-policy-doc
 
   labels:
   - eln

@@ -6,10 +6,12 @@ data:
   maintainer: sst_security_selinux
 
   packages:
+  - libsepol-static
   - libsepol-devel
   - libselinux-devel
-  - libsemanage-devel
   - python3-libselinux
+  - libselinux-ruby
+  - libsemanage-devel
   - python3-libsemanage
   - python3-policycoreutils
 

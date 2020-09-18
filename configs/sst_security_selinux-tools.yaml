@@ -8,13 +8,16 @@ data:
   packages:
   - policycoreutils-devel
   - policycoreutils-gui
+  - policycoreutils-sandbox
   - checkpolicy
+  - setools
   - setools-console
   - setools-console-analyses
   - setools-gui
   - selinux-policy-devel
   - udica
   - setroubleshoot
+  - netlabel_tools
 
   labels:
   - eln
