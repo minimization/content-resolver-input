@@ -10,9 +10,6 @@ data:
   - kdump-anaconda-addon
   - memstrack
   - crash
-  - crash-trace-command
-  - crash-gcore-command
-  - crash-ptdump-command
   - snappy
   labels:
   - eln
