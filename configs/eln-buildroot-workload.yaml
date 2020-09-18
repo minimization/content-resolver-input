@@ -1789,6 +1789,7 @@ data:
         - libmalaga
         - libmarkdown
         - libmarkdown-devel
+        - libmatchbox-devel
         - libmbim-devel
         - libmediaart-devel
         - libmemcached-devel
@@ -1903,7 +1904,6 @@ data:
         - libsass-devel
         - libseccomp-static
         - libsemanage-static
-        - libsepol-static
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
