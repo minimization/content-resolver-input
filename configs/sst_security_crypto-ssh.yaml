@@ -3,7 +3,7 @@ version: 1
 data:
   name: SSH Client and Server
   description: SSH tools needed to access systems remotely
-  maintainer: sst_platform_security
+  maintainer: sst_security_crypto
 
   packages:
   - openssh-clients
