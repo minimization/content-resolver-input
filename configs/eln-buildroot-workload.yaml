@@ -3141,10 +3141,13 @@ data:
         - python3-cherrypy
         - python3-cleo
         - python3-click
+        - python3-cliff
         - python3-clikit
+        - python3-cmd2
         - python3-colander
         - python3-CommonMark
         - python3-constantly
+        - python3-convertdate
         - python3-cornice
         - python3-cornice-sphinx
         - python3-cov-core
@@ -3156,8 +3159,11 @@ data:
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
+        - python3-d2to1
         - python3-dateparser
         - python3-dbusmock
+        - python3-ddt
+        - python3-debtcollector
         - python3-defusedxml
         - python3-dill
         - python3-distlib
@@ -3168,6 +3174,7 @@ data:
         - python3-editor
         - python3-elementpath
         - python3-entrypoints
+        - python3-ephem
         - python3-et_xmlfile
         - python3-eventlet
         - python3-execnet
@@ -3192,6 +3199,7 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
+        - python3-funcsigs
         - python3-future
         - python3-gdal
         - python3-genshi
@@ -3205,6 +3213,7 @@ data:
         - python3-greenlet
         - python3-greenlet-devel
         - python3-h2
+        - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
@@ -3236,7 +3245,10 @@ data:
         - python3-jeepney
         - python3-jupyter-client
         - python3-jupyter-core
+        - python3-kerberos
         - python3-keyring
+        - python3-keystoneauth1
+        - python3-keystoneclient
         - python3-kitchen
         - python3-kiwisolver
         - python3-kobo
@@ -3268,6 +3280,7 @@ data:
         - python3-mimeparse
         - python3-mistune
         - python3-monotonic
+        - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-mpmath
@@ -3286,6 +3299,7 @@ data:
         - python3-nose-cover3
         - python3-notebook
         - python3-nototools
+        - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
@@ -3297,6 +3311,13 @@ data:
         - python3-openpyxl
         - python3-openstackdocstheme
         - python3-orderedset
+        - python3-oslo-config
+        - python3-oslo-i18n
+        - python3-oslo-serialization
+        - python3-oslo-sphinx
+        - python3-oslotest
+        - python3-oslo-utils
+        - python3-os-service-types
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
@@ -3338,8 +3359,10 @@ data:
         - python3-pylev
         - python3-pylibravatar
         - python3-pylint
+        - python3-pymeeus
         - python3-pymongo
         - python3-pynacl
+        - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
@@ -3379,10 +3402,13 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
+        - python3-requests-kerberos
+        - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
         - python3-retrying
+        - python3-rfc3986
         - python3-rjsmin
         - python3-rpkg
         - python3-rst-linker
@@ -3433,6 +3459,9 @@ data:
         - python3-sqlalchemy
         - python3-sqlalchemy_schemadisplay
         - python3-sqlparse
+        - python3-stestr
+        - python3-stevedore
+        - python3-subunit
         - python3-sure
         - python3-sympy
         - python3-tables
@@ -3442,6 +3471,8 @@ data:
         - python3-termcolor
         - python3-terminado
         - python3-testpath
+        - python3-testrepository
+        - python3-testresources
         - python3-testscenarios
         - python3-testtools
         - python3-texext
@@ -3464,6 +3495,7 @@ data:
         - python3-venusian
         - python3-vine
         - python3-virtualenv
+        - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
@@ -3490,6 +3522,8 @@ data:
         - python-jupyter-filesystem
         - python-ldb-devel-common
         - python-multilib-conf
+        - python-oslo-i18n-lang
+        - python-oslo-utils-lang
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
@@ -5129,8 +5163,6 @@ data:
         - web-assets-devel
         - webrtc-audio-processing-devel
         - weld-parent
-        - weston
-        - weston-libs
         - wildmidi-devel
         - wildmidi-libs
         - wireshark-devel
@@ -5277,6 +5309,7 @@ data:
             - mesa-vulkan-drivers
             - ncurses-compat-libs
             - openbios
+            - openwsman-python3
             - pacemaker-cluster-libs
             - pacemaker-libs
             - pacemaker-libs-devel
@@ -5294,11 +5327,14 @@ data:
             - python3-botocore
             - python3-cachetools
             - python3-certifi
+            - python3-colorama
             - python3-contextlib2
             - python3-fasteners
+            - python3-google-api-client
             - python3-google-api-core
             - python3-googleapis-common-protos
             - python3-google-auth
+            - python3-google-auth-httplib2
             - python3-grpcio
             - python3-grpcio-gcp
             - python3-httplib2
