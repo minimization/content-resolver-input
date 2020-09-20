@@ -5014,6 +5014,8 @@ data:
         - supermin-devel
         - swig
         - symlinks
+        - sysprof
+        - sysprof-cli
         - t1lib
         - t1lib-devel
         - t1utils
