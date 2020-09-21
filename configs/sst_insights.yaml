@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: insights
-  description: Packages for edge usecases
+  description: Insights
   maintainer: sst_insights
 
   packages: []
