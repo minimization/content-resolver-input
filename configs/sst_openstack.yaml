@@ -17,12 +17,9 @@ data:
   - corosync
   - dbxtool
   - dhcp-client
-  - ding-libs
-  - dpdk
   - driverctl
   - dwz
   - emacs
-  - efivar
   - fence-agents
   - fence-virt
   - libkcapi-fipscheck
@@ -42,8 +39,10 @@ data:
   - jasper
   - jbigkit
   - keepalived
-  - kronosnet
   - leveldb
+  - libknet1
+  - libnozzle1
+  - libknet1-plugins-all
   - libcacard
   - libcgroup
   - libcroco
@@ -56,10 +55,16 @@ data:
   - libwayland-client
   - libwayland-egl
   - libwayland-server
+  - libbasicobjects
+  - libcollection
+  - libdhash
+  - libini_config
+  - libpath_utils
+  - libref_array
   - lsscsi
   - mesa-filesystem
   - mesa-dri-drivers
-  - mosjz78
+  - mozjs78
   - netcf
   - nvme-cli
   - nvmetcli
@@ -80,13 +85,12 @@ data:
   - ruby
   - runc
   - samba
-  - scipy
+  - python3-scipy
   - scrub
   - setools
   - sg3_utils
   - skopeo
   - socat
-  - spice-server
   - sshpass
   - sssd
   - stunnel
@@ -99,6 +103,18 @@ data:
   - volume_key
   - yajl
   - zip
+
+  arch_packages:
+    x86_64:
+    - efivar
+    - dpdk
+    - spice-server
+    aarch64:
+    - dpdk
+    - efivar
+    - spice-server
+    ppc64le:
+    - dpdk
 
   labels:
   - eln
