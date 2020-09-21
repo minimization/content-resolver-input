@@ -2288,13 +2288,7 @@ data:
         - nilfs-utils
         - ninja-build
         - nkf
-        - nodejs-async
-        - nodejs-source-map
-        - nodejs-string
         - nodejs-underscore
-        - nodejs-window-size
-        - nodejs-wordwrap
-        - nodejs-yargs
         - nototools
         - npth-devel
         - nscd
@@ -5189,6 +5183,8 @@ data:
         - web-assets-devel
         - webrtc-audio-processing-devel
         - weld-parent
+        - weston
+        - weston-libs
         - wildmidi-devel
         - wildmidi-libs
         - wireshark-devel
