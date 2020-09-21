@@ -3,7 +3,7 @@ version: 1
 data:
   name: NBDE
   description: Network-Bound Disc Encryption
-  maintainer: sst_platform_security
+  maintainer: sst_security_special
 
   packages:
   - clevis
