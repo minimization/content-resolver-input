@@ -3,7 +3,7 @@ version: 1
 data:
   name: Application Whitelisting
   description: Packages providing application whitelisting functionality
-  maintainer: sst_platform_security
+  maintainer: sst_security_special
 
   packages:
   - fapolicyd
