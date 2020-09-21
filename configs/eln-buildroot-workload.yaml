@@ -1620,7 +1620,6 @@ data:
         - libconfig-devel
         - libconfuse
         - libconfuse-devel
-        - libcue
         - libcue-devel
         - libdaemon-devel
         - libdazzle-devel
@@ -1696,7 +1695,6 @@ data:
         - libgnt-devel
         - libgphoto2-devel
         - libgpuarray
-        - libgrss
         - libgrss-devel
         - libgsasl
         - libgsasl-devel
@@ -5066,9 +5064,7 @@ data:
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tpm2-tss-devel
-        - tracker3
         - tracker3-devel
-        - tracker3-miners
         - tracker-devel
         - transfig
         - tre
