@@ -8,7 +8,6 @@ data:
   packages:
   - greenboot
   - greenboot-reboot
-  - greenboot-rpm-ostree-grub2
   - greenboot-status
   - ignition
   - ostree
@@ -17,10 +16,13 @@ data:
   arch_packages:
     x86_64:
     - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
     ppc64le:
     - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
     aarch64:
     - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
 
   labels:
   - eln
