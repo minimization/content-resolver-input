@@ -1936,6 +1936,7 @@ data:
         - libsvm
         - libsvm-devel
         - libsysfs-devel
+        - libsysprof-ui
         - libtar-devel
         - libtheora-devel
         - libtidy
@@ -4333,6 +4334,18 @@ data:
         - rust-net2+default-devel
         - rust-net2-devel
         - rust-net2+duration-devel
+        - rust-netlink-packet-core+default-devel
+        - rust-netlink-packet-core-devel
+        - rust-netlink-packet-route+default-devel
+        - rust-netlink-packet-route-devel
+        - rust-netlink-packet-utils+default-devel
+        - rust-netlink-packet-utils-devel
+        - rust-netlink-proto+default-devel
+        - rust-netlink-proto-devel
+        - rust-netlink-sys+default-devel
+        - rust-netlink-sys-devel
+        - rust-netlink-sys+mio_socket-devel
+        - rust-netlink-sys+tokio_socket-devel
         - rust-new_debug_unreachable+default-devel
         - rust-new_debug_unreachable-devel
         - rust-nix0.14+default-devel
@@ -4389,6 +4402,8 @@ data:
         - rust-parking_lot_core-devel
         - rust-parking_lot+default-devel
         - rust-parking_lot-devel
+        - rust-paste+default-devel
+        - rust-paste-devel
         - rust-peeking_take_while+default-devel
         - rust-peeking_take_while-devel
         - rust-percent-encoding1+default-devel
@@ -4571,6 +4586,8 @@ data:
         - rust-resolv-conf+system-devel
         - rust-rle-decode-fast+default-devel
         - rust-rle-decode-fast-devel
+        - rust-rtnetlink+default-devel
+        - rust-rtnetlink-devel
         - rust-rustc-demangle+default-devel
         - rust-rustc-demangle-devel
         - rust-rustc-hash+default-devel
@@ -4800,6 +4817,8 @@ data:
         - rust-tokio-uds+default-devel
         - rust-tokio+uds-devel
         - rust-tokio-uds-devel
+        - rust-tokio-util0.2+codec-devel
+        - rust-tokio-util0.2-devel
         - rust-tokio-util+codec-devel
         - rust-tokio-util+compat-devel
         - rust-tokio-util+default-devel
@@ -4866,6 +4885,8 @@ data:
         - rust-unicode-xid-devel
         - rust-unindent+default-devel
         - rust-unindent-devel
+        - rust-unix_socket+default-devel
+        - rust-unix_socket-devel
         - rust-url1+default-devel
         - rust-url1-devel
         - rust-url+default-devel
@@ -4889,6 +4910,8 @@ data:
         - rust-uuid+serde-devel
         - rust-uuid+std-devel
         - rust-uuid+v4-devel
+        - rust-varlink+default-devel
+        - rust-varlink-devel
         - rust-vec_map+default-devel
         - rust-vec_map-devel
         - rust-version_check+default-devel
@@ -5016,6 +5039,7 @@ data:
         - symlinks
         - sysprof
         - sysprof-cli
+        - sysprof-devel
         - t1lib
         - t1lib-devel
         - t1utils
