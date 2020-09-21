@@ -9,7 +9,7 @@ data:
   packages:
   # Core
   - iproute
-  - dhclient
+  - dhcp-client
   - dnsmasq
   - NetworkManager
   - NetworkManager-tui

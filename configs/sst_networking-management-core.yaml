@@ -7,7 +7,7 @@ data:
     NetworkManager and related tools.
   maintainer: sst_networking
   packages:
-  - dhclient
+  - dhcp-client
   - dnsmasq
   - iproute
   - NetworkManager
