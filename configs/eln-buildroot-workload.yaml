@@ -29,30 +29,25 @@ data:
         - allegro-devel
         - alsa-lib-devel
         - amtk-devel
-        - ant
-        - ant-antlr
         - ant-contrib
         - anthy
         - anthy-devel
-        - ant-junit
-        - ant-lib
         - antlr32-java
         - antlr32-maven-plugin
         - antlr32-tool
-        - antlr-tool
-        - aopalliance
+        - antlr3-java
+        - antlr3-tool
+        - antlr4
+        - antlr4-maven-plugin
+        - antlr4-runtime
         - apache-commons-beanutils
         - apache-commons-collections-testframework
-        - apache-commons-compress
-        - apache-commons-exec
-        - apache-commons-jxpath
         - apache-commons-logging-javadoc
         - apache-commons-parent
         - apache-ivy
         - apache-parent
         - apache-resource-bundles
         - apache-sshd
-        - apiguardian
         - appstream
         - aqute-bnd
         - aqute-bndlib
@@ -66,11 +61,9 @@ data:
         - asio-devel
         - aspell-devel
         - aspell-en
-        - assertj-core
         - assimp
         - assimp-devel
         - atf-tests
-        - atinject
         - atkmm-devel
         - atlas
         - atlas-devel
@@ -88,6 +81,7 @@ data:
         - automoc
         - auto-service
         - autotrace
+        - auto-value
         - avahi-devel
         - avahi-glib-devel
         - avahi-gobject
@@ -96,13 +90,9 @@ data:
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
         - batik
-        - batik-css
-        - batik-util
         - bcache-tools
         - bcc-devel
-        - bcel
         - beakerlib
-        - beust-jcommander
         - bind-devel
         - bind-lite-devel
         - bind-pkcs11-devel
@@ -158,12 +148,11 @@ data:
         - breeze-icon-theme
         - breezy
         - brlapi-devel
-        - bsf
         - bsh
         - btrfs-progs
         - btrfs-progs-devel
+        - buildnumber-maven-plugin
         - byaccj
-        - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
         - cairomm-devel
@@ -175,7 +164,7 @@ data:
         - capstone-devel
         - c-ares-devel
         - catch1-devel
-        - cdi-api
+        - cbi-plugins
         - cfitsio
         - cfitsio-devel
         - cglib
@@ -271,7 +260,6 @@ data:
         - cvs
         - cvsps
         - cyrus-sasl-scram
-        - dain-snappy
         - datefudge
         - dbus-glib-devel
         - dbusmenu-qt5
@@ -309,6 +297,10 @@ data:
         - drpm-devel
         - e2fsprogs-devel
         - easymock
+        - eclipse-egit
+        - eclipse-emf-runtime
+        - eclipse-jgit
+        - eclipse-license2
         - ed25519-java
         - eglexternalplatform-devel
         - egl-wayland
@@ -381,6 +373,7 @@ data:
         - fedora-bookmarks
         - fedora-packager
         - fedpkg
+        - felix-gogo-parent
         - felix-parent
         - felix-utils
         - ffcall
@@ -1239,7 +1232,6 @@ data:
         - google-benchmark
         - google-benchmark-devel
         - google-gson
-        - google-guice
         - google-noto-emoji-fonts
         - go-rpm-macros
         - gperftools-devel
@@ -1279,7 +1271,6 @@ data:
         - gtk-vnc2-devel
         - gts
         - gts-devel
-        - guava
         - guava-testlib
         - gucharmap-devel
         - guice-servlet
@@ -1332,7 +1323,6 @@ data:
         - icc-profiles-openicc
         - icoutils
         - icu
-        - icu4j
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1361,16 +1351,11 @@ data:
         - jack-audio-connection-kit-devel
         - jackson-bom
         - jackson-parent
+        - jacoco
+        - jacoco-maven-plugin
         - jacop
-        - jakarta-annotations
-        - jakarta-el
-        - jakarta-el-api
-        - jakarta-interceptors
-        - jakarta-oro
         - jakarta-persistence
         - jakarta-saaj
-        - jakarta-server-pages-api
-        - jakarta-servlet
         - jakarta-ws-rs
         - jakarta-xml-rpc
         - jakarta-xml-ws
@@ -1386,7 +1371,6 @@ data:
         - java-comment-preprocessor
         - java_cup
         - javaewah
-        - javapackages-local
         - javaparser
         - javapoet
         - javassist
@@ -1412,17 +1396,10 @@ data:
         - jcip-annotations
         - jcl-over-slf4j
         - jctools
-        - jdepend
         - jdependency
         - jdom
         - jdom2
         - jemalloc-devel
-        - jetty-http
-        - jetty-io
-        - jetty-security
-        - jetty-server
-        - jetty-servlet
-        - jetty-util
         - jffi
         - jffi-native
         - jflex
@@ -1446,22 +1423,19 @@ data:
         - jnr-x86asm
         - jq-devel
         - js-backbone
-        - jsch
         - js-coffee-script
         - js-jquery
         - js-marked
         - json-c-devel
         - jsoncpp-devel
+        - jsonp
         - jsoup
-        - jsr-305
         - js-uglify
         - js-underscore
         - jtidy
         - Judy-devel
-        - junit5
         - jvnet-parent
         - jython
-        - jzlib
         - kde-settings
         - kernel
         - kf5-attica
@@ -2100,15 +2074,11 @@ data:
         - mathjax-winie6-fonts
         - maven
         - maven-antrun-plugin
-        - maven-archiver
         - maven-artifact
         - maven-artifact-manager
         - maven-artifact-resolver
         - maven-artifact-transfer
         - maven-assembly-plugin
-        - maven-clean-plugin
-        - maven-common-artifact-filters
-        - maven-compiler-plugin
         - maven-dependency-analyzer
         - maven-dependency-plugin
         - maven-dependency-tree
@@ -2125,20 +2095,14 @@ data:
         - maven-enforcer-plugin
         - maven-enforcer-rules
         - maven-failsafe-plugin
-        - maven-file-management
-        - maven-filtering
         - maven-hawtjni-plugin
         - maven-install-plugin
         - maven-invoker
         - maven-invoker-plugin
-        - maven-jar-plugin
         - maven-javadoc-plugin
-        - maven-lib
-        - maven-local
         - maven-mapping
         - maven-model
         - maven-parent
-        - maven-plugin-annotations
         - maven-plugin-build-helper
         - maven-plugin-bundle
         - maven-plugin-plugin
@@ -2154,32 +2118,18 @@ data:
         - maven-remote-resources-plugin
         - maven-reporting-api
         - maven-reporting-impl
-        - maven-resolver-api
         - maven-resolver-connector-basic
-        - maven-resolver-impl
-        - maven-resolver-spi
         - maven-resolver-transport-wagon
-        - maven-resolver-util
-        - maven-resources-plugin
+        - maven-scm
         - maven-script-interpreter
         - maven-settings
         - maven-shade-plugin
-        - maven-shared-incremental
-        - maven-shared-io
-        - maven-shared-utils
-        - maven-source-plugin
-        - maven-surefire
-        - maven-surefire-plugin
-        - maven-surefire-provider-junit
         - maven-surefire-provider-junit5
-        - maven-surefire-provider-testng
-        - maven-verifier
         - maven-verifier-plugin
         - maven-wagon-file
         - maven-wagon-http
         - maven-wagon-http-lightweight
         - maven-wagon-http-shared
-        - maven-wagon-provider-api
         - mdds-devel
         - meanwhile
         - meanwhile-devel
@@ -2222,6 +2172,8 @@ data:
         - mockito
         - modello
         - mod_perl
+        - mojo-executor
+        - mojo-executor-maven-plugin
         - mojo-parent
         - mongo-c-driver
         - mongo-c-driver-devel
@@ -2299,7 +2251,6 @@ data:
         - numactl-devel
         - nunit
         - nunit-devel
-        - objectweb-asm
         - objectweb-pom
         - objenesis
         - ocaml
@@ -2383,7 +2334,6 @@ data:
         - openldap-servers
         - openpgm
         - openpgm-devel
-        - opentest4j
         - openwsman-client
         - openwsman-server
         - optipng
@@ -3018,26 +2968,15 @@ data:
         - physfs-devel
         - pipewire-devel
         - pipewire-doc
-        - plexus-archiver
-        - plexus-build-api
-        - plexus-cipher
-        - plexus-classworlds
-        - plexus-compiler
         - plexus-component-api
         - plexus-components-pom
         - plexus-containers
-        - plexus-containers-component-annotations
         - plexus-containers-component-metadata
         - plexus-containers-container-default
         - plexus-i18n
         - plexus-interactivity-api
-        - plexus-interpolation
-        - plexus-io
-        - plexus-languages
         - plexus-pom
         - plexus-resources
-        - plexus-sec-dispatcher
-        - plexus-utils
         - plexus-velocity
         - plotutils-devel
         - plymouth-devel
@@ -3234,7 +3173,6 @@ data:
         - python3-jaraco-envs
         - python3-jaraco-functools
         - python3-jaraco-packaging
-        - python3-javapackages
         - python3-jdcal
         - python3-jedi
         - python3-jeepney
@@ -3522,7 +3460,6 @@ data:
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
-        - qdox
         - qemu
         - qemu-kvm-core
         - qemu-system-alpha
@@ -3629,7 +3566,6 @@ data:
         - redis
         - redland-devel
         - reflections
-        - regexp
         - reiserfs-utils
         - relaxngDatatype
         - relaxngDatatype-javadoc
@@ -4968,9 +4904,7 @@ data:
         - shrinkwrap-impl-base
         - shrinkwrap-spi
         - sip
-        - sisu-inject
         - sisu-mojos
-        - sisu-plexus
         - slang-devel
         - sleuthkit
         - sleuthkit-libs
@@ -5015,6 +4949,8 @@ data:
         - startup-notification-devel
         - stax2-api
         - stringtemplate
+        - stringtemplate4
+        - string-template-maven-plugin
         - stunnel
         - subunit
         - subunit-devel
@@ -5138,6 +5074,7 @@ data:
         - tre
         - tre-common
         - tre-devel
+        - treelayout
         - trousers-devel
         - ttembed
         - ttfautohint
@@ -5157,7 +5094,6 @@ data:
         - unicode-emoji
         - unicode-ucd-unihan
         - univocity-output-tester
-        - univocity-parsers
         - upower-devel
         - uriparser
         - uriparser-devel
@@ -5226,7 +5162,7 @@ data:
         - xfconf
         - xfconf-devel
         - xfsprogs-devel
-        - xmlgraphics-commons
+        - xml-maven-plugin
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
@@ -5242,15 +5178,8 @@ data:
         - xmlunit-matchers
         - xmms-devel
         - xmms-libs
-        - xmvn-api
-        - xmvn-connector-aether
         - xmvn-connector-ivy
-        - xmvn-core
-        - xmvn-install
-        - xmvn-minimal
-        - xmvn-mojo
-        - xmvn-resolve
-        - xmvn-subst
+        - xmvn-parent-pom
         - xorg-x11-apps
         - xorg-x11-drv-wacom-devel
         - xorg-x11-fonts-ISO8859-1-75dpi
@@ -5261,7 +5190,6 @@ data:
         - xorg-x11-xtrans-devel
         - xpp3
         - xxhash-devel
-        - xz-java
         - xz-lzma-compat
         - yajl-devel
         - yasm
@@ -5284,30 +5212,102 @@ data:
         - zziplib-devel
     arch_packages:
         aarch64:
+            - ant
+            - ant-antlr
+            - ant-apache-bcel
+            - ant-apache-bsf
+            - ant-apache-oro
+            - ant-apache-regexp
+            - ant-apache-resolver
+            - ant-apache-xalan2
+            - ant-commons-logging
+            - ant-commons-net
+            - ant-javamail
+            - ant-jdepend
+            - ant-jmf
+            - ant-jsch
+            - ant-junit
+            - ant-junit5
+            - ant-lib
+            - antlr-tool
+            - ant-swing
+            - ant-testutil
+            - ant-xz
+            - aopalliance
+            - apache-commons-compress
+            - apache-commons-exec
+            - apache-commons-jxpath
+            - apiguardian
+            - assertj-core
+            - atinject
+            - batik-css
+            - batik-util
+            - bcel
+            - beust-jcommander
+            - bsf
             - bullet
             - bullet-devel
+            - byte-buddy
+            - cdi-api
             - corosynclib-devel
+            - dain-snappy
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - decentxml
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
+            - eclipse-ecf-core
+            - eclipse-emf-core
+            - eclipse-equinox-osgi
+            - eclipse-jdt
+            - eclipse-pde
+            - eclipse-platform
+            - eclipse-swt
             - edk2-ovmf
             - efivar-devel
             - efl
             - efl-devel
             - esmtp
+            - felix-gogo-command
+            - felix-gogo-runtime
+            - felix-gogo-shell
+            - felix-scr
             - flashrom-devel
             - gfs2-utils
             - gnu-efi-compat
             - gnu-efi-devel
+            - google-guice
             - grpc
             - gtkmm24
             - gtkmm24-devel
+            - guava
             - hamcrest-core
+            - icu4j
+            - jakarta-annotations
+            - jakarta-el
+            - jakarta-el-api
+            - jakarta-interceptors
+            - jakarta-oro
+            - jakarta-server-pages
+            - jakarta-server-pages-api
+            - jakarta-servlet
             - javamail
+            - javapackages-local
+            - jdepend
+            - jetty-continuation
+            - jetty-http
+            - jetty-io
+            - jetty-security
+            - jetty-server
+            - jetty-servlet
+            - jetty-util
+            - jsch
+            - jsr-305
             - junit
+            - junit5
+            - jzlib
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5326,11 +5326,44 @@ data:
             - libxml++
             - libxml++-devel
             - libxslt-devel
+            - lucene
+            - lucene-analysis
+            - lucene-analyzers-smartcn
+            - lucene-queries
+            - lucene-queryparser
+            - lucene-sandbox
+            - maven-archiver
+            - maven-clean-plugin
+            - maven-common-artifact-filters
+            - maven-compiler-plugin
+            - maven-file-management
+            - maven-filtering
+            - maven-jar-plugin
+            - maven-lib
+            - maven-local
+            - maven-plugin-annotations
+            - maven-resolver-api
+            - maven-resolver-impl
+            - maven-resolver-spi
+            - maven-resolver-util
+            - maven-resources-plugin
+            - maven-shared-incremental
+            - maven-shared-io
+            - maven-shared-utils
+            - maven-source-plugin
+            - maven-surefire
+            - maven-surefire-plugin
+            - maven-surefire-provider-junit
+            - maven-surefire-provider-testng
+            - maven-verifier
+            - maven-wagon-provider-api
             - mesa-libxatracker
             - mesa-libxatracker-devel
             - mesa-vulkan-drivers
             - ncurses-compat-libs
+            - objectweb-asm
             - openbios
+            - opentest4j
             - openwsman-python3
             - pacemaker-cluster-libs
             - pacemaker-libs
@@ -5339,6 +5372,17 @@ data:
             - perl-Convert-BinHex
             - perl-IO-SessionData
             - perl-MIME-tools
+            - plexus-archiver
+            - plexus-build-api
+            - plexus-cipher
+            - plexus-classworlds
+            - plexus-compiler
+            - plexus-containers-component-annotations
+            - plexus-interpolation
+            - plexus-io
+            - plexus-languages
+            - plexus-sec-dispatcher
+            - plexus-utils
             - pugixml
             - python3-adal
             - python3-aiodns
@@ -5361,6 +5405,7 @@ data:
             - python3-grpcio-gcp
             - python3-httplib2
             - python3-isodate
+            - python3-javapackages
             - python3-jmespath
             - python3-jwt
             - python3-jwt+crypto
@@ -5383,6 +5428,7 @@ data:
             - python3-uritemplate
             - python3-wrapt
             - python3-yarl
+            - qdox
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
@@ -5391,6 +5437,7 @@ data:
             - qemu-system-x86-core
             - redhat-lsb-core
             - redhat-lsb-submod-security
+            - regexp
             - rlottie
             - rlottie-devel
             - rubygem-backports
@@ -5407,35 +5454,123 @@ data:
             - rubygem-sinatra
             - rubygem-thin
             - rubygem-tilt
+            - sat4j
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
             - sgpio
+            - sisu-inject
+            - sisu-plexus
             - SLOF
             - spax
             - spice-server-devel
+            - takari-polyglot-common
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
+            - tycho
+            - univocity-parsers
             - util-linux-user
             - xen-devel
+            - xmlgraphics-commons
+            - xmvn-api
+            - xmvn-connector-aether
+            - xmvn-core
+            - xmvn-install
+            - xmvn-minimal
+            - xmvn-mojo
+            - xmvn-resolve
+            - xmvn-subst
+            - xz-java
         ppc64le:
+            - ant
+            - ant-antlr
+            - ant-apache-bcel
+            - ant-apache-bsf
+            - ant-apache-oro
+            - ant-apache-regexp
+            - ant-apache-resolver
+            - ant-apache-xalan2
+            - ant-commons-logging
+            - ant-commons-net
+            - ant-javamail
+            - ant-jdepend
+            - ant-jmf
+            - ant-jsch
+            - ant-junit
+            - ant-junit5
+            - ant-lib
+            - antlr-tool
+            - ant-swing
+            - ant-testutil
+            - ant-xz
+            - aopalliance
+            - apache-commons-compress
+            - apache-commons-exec
+            - apache-commons-jxpath
+            - apiguardian
+            - assertj-core
+            - atinject
+            - batik-css
+            - batik-util
+            - bcel
+            - beust-jcommander
+            - bsf
             - bullet
             - bullet-devel
+            - byte-buddy
+            - cdi-api
+            - dain-snappy
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - decentxml
+            - eclipse-ecf-core
+            - eclipse-emf-core
+            - eclipse-equinox-osgi
+            - eclipse-jdt
+            - eclipse-pde
+            - eclipse-platform
+            - eclipse-swt
             - efi-filesystem
             - efl
             - efl-devel
+            - felix-gogo-command
+            - felix-gogo-runtime
+            - felix-gogo-shell
+            - felix-scr
             - flashrom-devel
+            - google-guice
             - gtkmm24
             - gtkmm24-devel
+            - guava
             - hamcrest-core
+            - icu4j
+            - jakarta-annotations
+            - jakarta-el
+            - jakarta-el-api
+            - jakarta-interceptors
+            - jakarta-oro
+            - jakarta-server-pages
+            - jakarta-server-pages-api
+            - jakarta-servlet
             - javamail
+            - javapackages-local
+            - jdepend
+            - jetty-continuation
+            - jetty-http
+            - jetty-io
+            - jetty-security
+            - jetty-server
+            - jetty-servlet
+            - jetty-util
+            - jsch
+            - jsr-305
             - junit
+            - junit5
+            - jzlib
             - libavc1394-devel
             - libdc1394
             - libdc1394-devel
@@ -5449,54 +5584,189 @@ data:
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
+            - lucene
+            - lucene-analysis
+            - lucene-analyzers-smartcn
+            - lucene-queries
+            - lucene-queryparser
+            - lucene-sandbox
+            - maven-archiver
+            - maven-clean-plugin
+            - maven-common-artifact-filters
+            - maven-compiler-plugin
+            - maven-file-management
+            - maven-filtering
+            - maven-jar-plugin
+            - maven-lib
+            - maven-local
+            - maven-plugin-annotations
+            - maven-resolver-api
+            - maven-resolver-impl
+            - maven-resolver-spi
+            - maven-resolver-util
+            - maven-resources-plugin
+            - maven-shared-incremental
+            - maven-shared-io
+            - maven-shared-utils
+            - maven-source-plugin
+            - maven-surefire
+            - maven-surefire-plugin
+            - maven-surefire-provider-junit
+            - maven-surefire-provider-testng
+            - maven-verifier
+            - maven-wagon-provider-api
             - mesa-vulkan-drivers
+            - objectweb-asm
+            - opentest4j
+            - plexus-archiver
+            - plexus-build-api
+            - plexus-cipher
+            - plexus-classworlds
+            - plexus-compiler
+            - plexus-containers-component-annotations
+            - plexus-interpolation
+            - plexus-io
+            - plexus-languages
+            - plexus-sec-dispatcher
+            - plexus-utils
             - postgresql
             - postgresql-contrib
             - postgresql-server
             - postgresql-server-devel
             - pugixml
+            - python3-javapackages
+            - qdox
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-s390x
             - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - regexp
             - rlottie
             - rlottie-devel
+            - sat4j
             - seabios-bin
             - sgabios-bin
             - sgpio
+            - sisu-inject
+            - sisu-plexus
+            - takari-polyglot-common
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
+            - tycho
+            - univocity-parsers
             - uuid
+            - xmlgraphics-commons
+            - xmvn-api
+            - xmvn-connector-aether
+            - xmvn-core
+            - xmvn-install
+            - xmvn-minimal
+            - xmvn-mojo
+            - xmvn-resolve
+            - xmvn-subst
+            - xz-java
             - zfs-fuse
         s390x:
             - anaconda
             - anaconda-install-env-deps
+            - ant
+            - ant-antlr
+            - ant-apache-bcel
+            - ant-apache-bsf
+            - ant-apache-oro
+            - ant-apache-regexp
+            - ant-apache-resolver
+            - ant-apache-xalan2
+            - ant-commons-logging
+            - ant-commons-net
+            - ant-javamail
+            - ant-jdepend
+            - ant-jmf
+            - ant-jsch
+            - ant-junit
+            - ant-junit5
+            - ant-lib
+            - antlr-tool
+            - ant-swing
+            - ant-testutil
+            - ant-xz
+            - aopalliance
+            - apache-commons-compress
+            - apache-commons-exec
+            - apache-commons-jxpath
+            - apiguardian
+            - assertj-core
+            - atinject
+            - batik-css
+            - batik-util
+            - bcel
+            - beust-jcommander
             - bluez-obexd
+            - bsf
+            - byte-buddy
+            - cdi-api
             - cdparanoia-devel
             - ceres-solver
             - ceres-solver-devel
+            - dain-snappy
             - daxctl-devel
+            - decentxml
             - device-mapper-devel
             - device-mapper-event-devel
             - dlm-lib
+            - eclipse-ecf-core
+            - eclipse-emf-core
+            - eclipse-equinox-osgi
+            - eclipse-jdt
+            - eclipse-pde
+            - eclipse-platform
+            - eclipse-swt
             - efi-filesystem
             - eigen3-devel
+            - felix-gogo-command
+            - felix-gogo-runtime
+            - felix-gogo-shell
+            - felix-scr
             - gflags
             - gflags-devel
             - glog
             - glog-devel
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - google-guice
             - gpgme-devel
             - gpgmepp-devel
+            - guava
             - hamcrest-core
+            - icu4j
             - isomd5sum
+            - jakarta-annotations
+            - jakarta-el
+            - jakarta-el-api
+            - jakarta-interceptors
+            - jakarta-oro
+            - jakarta-server-pages
+            - jakarta-server-pages-api
+            - jakarta-servlet
             - javamail
+            - javapackages-local
+            - jdepend
+            - jetty-continuation
+            - jetty-http
+            - jetty-io
+            - jetty-security
+            - jetty-server
+            - jetty-servlet
+            - jetty-util
+            - jsch
+            - jsr-305
             - junit
+            - junit5
+            - jzlib
             - lensfun
             - lensfun-devel
             - leptonica
@@ -5526,7 +5796,38 @@ data:
             - libstoragemgmt
             - libusbmuxd
             - lsscsi
+            - lucene
+            - lucene-analysis
+            - lucene-analyzers-smartcn
+            - lucene-queries
+            - lucene-queryparser
+            - lucene-sandbox
             - lvm2-devel
+            - maven-archiver
+            - maven-clean-plugin
+            - maven-common-artifact-filters
+            - maven-compiler-plugin
+            - maven-file-management
+            - maven-filtering
+            - maven-jar-plugin
+            - maven-lib
+            - maven-local
+            - maven-plugin-annotations
+            - maven-resolver-api
+            - maven-resolver-impl
+            - maven-resolver-spi
+            - maven-resolver-util
+            - maven-resources-plugin
+            - maven-shared-incremental
+            - maven-shared-io
+            - maven-shared-utils
+            - maven-source-plugin
+            - maven-surefire
+            - maven-surefire-plugin
+            - maven-surefire-provider-junit
+            - maven-surefire-provider-testng
+            - maven-verifier
+            - maven-wagon-provider-api
             - mesa-vulkan-drivers
             - metis
             - metis-devel
@@ -5535,27 +5836,43 @@ data:
             - ndctl
             - ndctl-devel
             - ndctl-libs
+            - objectweb-asm
             - oniguruma-devel
             - openbios
             - openmpi-devel
+            - opentest4j
             - pigz
+            - plexus-archiver
+            - plexus-build-api
+            - plexus-cipher
+            - plexus-classworlds
+            - plexus-compiler
+            - plexus-containers-component-annotations
+            - plexus-interpolation
+            - plexus-io
+            - plexus-languages
+            - plexus-sec-dispatcher
+            - plexus-utils
             - pugixml
             - python3-cpio
             - python3-dbus-signature-pyparsing
             - python3-hs-dbus-signature
             - python3-hypothesis
             - python3-into-dbus-python
+            - python3-javapackages
             - python3-justbases
             - python3-libstoragemgmt
             - python3-libstoragemgmt-clibs
             - python3-semantic_version
             - python3-wcwidth
+            - qdox
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - regexp
             - rpm-mpi-hooks
             - s390utils
             - s390utils-cpuplugd
@@ -5564,19 +5881,35 @@ data:
             - s390utils-osasnmpd
             - s390utils-ziomon
             - sanlock-lib
+            - sat4j
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
             - sgpio
+            - sisu-inject
+            - sisu-plexus
             - SLOF
             - sparsehash-devel
+            - takari-polyglot-common
             - tesseract
             - tesseract-devel
             - tesseract-langpack-eng
             - tesseract-tessdata-doc
             - tmux
+            - tycho
             - udisks2-iscsi
+            - univocity-parsers
+            - xmlgraphics-commons
+            - xmvn-api
+            - xmvn-connector-aether
+            - xmvn-core
+            - xmvn-install
+            - xmvn-minimal
+            - xmvn-mojo
+            - xmvn-resolve
+            - xmvn-subst
             - xorg-x11-drv-dummy
+            - xz-java
         x86_64:
             - bullet
             - bullet-devel
