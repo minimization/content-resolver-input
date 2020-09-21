@@ -11,6 +11,12 @@ data:
   - clevis-luks
   - clevis-systemd
   - clevis-udisks2
+  - http-parser
+  - http-parser-devel
+  - libjose
+  - libjose-devel
+  - libluksmeta
+  - libluksmeta-devel
   - tang
 
   labels:
