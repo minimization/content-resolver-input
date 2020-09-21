@@ -7,12 +7,31 @@ data:
 
   packages:
   - libedit
-  - librados-devel
-  - librados2
-  - librbd-devel
-  - librbd1
   - pinentry
   - plotutils
+
+  arch_packages:
+    x86_64:
+    - librados-devel
+    - librados2
+    - librbd-devel
+    - librbd1
+    ppc64le:
+    - librados-devel
+    - librados2
+    - librbd-devel
+    - librbd1
+    aarch64:
+    - librados-devel
+    - librados2
+    - librbd-devel
+    - librbd1
+    s390x:
+    - librados-devel
+    - librados2
+    - librbd-devel
+    - librbd1
+
 
   labels:
   - eln
