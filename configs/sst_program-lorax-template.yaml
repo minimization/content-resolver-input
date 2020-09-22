@@ -61,9 +61,9 @@ data:
   - openssh-clients
   - tigervnc-server-minimal
   - net-tools
-  - nmap-cat
+  - nmap-ncat
   - prefixdevname
-  - pci-utils
+  - pciutils
   - usbutils
   - ipmitool
   - mt-st
@@ -100,7 +100,6 @@ data:
   - gdb-gdbserver
   - libreport-plugin-bugzilla
   - libreport-plugin-reportuploader
-  - libreport-rhel-anaconda-bugzilla
   - python3-pyatspi
   - vim-minimal
   - strace
