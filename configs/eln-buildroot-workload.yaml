@@ -5082,6 +5082,7 @@ data:
         - unicode-emoji
         - unicode-ucd-unihan
         - univocity-output-tester
+        - unixODBC-devel
         - upower-devel
         - uriparser
         - uriparser-devel
