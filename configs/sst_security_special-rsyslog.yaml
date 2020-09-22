@@ -23,6 +23,8 @@ data:
   - rsyslog-pgsql
   - rsyslog-relp
   - rsyslog-snmp
+  - librdkafka-devel
+  - liblognorm-doc
 
   labels:
   - eln
