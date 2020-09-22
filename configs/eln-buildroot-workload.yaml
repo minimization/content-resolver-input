@@ -163,7 +163,6 @@ data:
         - cal10n
         - capstone-devel
         - c-ares-devel
-        - catch1-devel
         - cbi-plugins
         - cfitsio
         - cfitsio-devel
@@ -251,7 +250,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - cryptsetup-devel
         - cscope
         - csnappy
         - csnappy-devel
@@ -1304,7 +1302,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - http-parser-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1360,7 +1357,6 @@ data:
         - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
-        - jansson-devel
         - jasper-devel
         - java-11-openjdk-javadoc
         - java-1.8.0-openjdk-devel
@@ -1601,8 +1597,6 @@ data:
         - libcacard-devel
         - libcanberra-devel
         - libcanberra-gtk2
-        - libcap-devel
-        - libcap-ng-devel
         - libcbor-devel
         - libc-client
         - libcdio-paranoia-devel
@@ -1736,7 +1730,6 @@ data:
         - libixion
         - libixion-devel
         - libjcat-devel
-        - libjose-devel
         - libjpeg-turbo-devel
         - libkate
         - libkate-devel
@@ -1754,7 +1747,6 @@ data:
         - liblouis-devel
         - liblqr-1-devel
         - liblrdf-devel
-        - libluksmeta-devel
         - liblzf
         - liblzf-devel
         - libmad-devel
@@ -1864,7 +1856,6 @@ data:
         - librabbitmq-devel
         - libraqm-devel
         - LibRaw-devel
-        - librdkafka-devel
         - libref_array-devel
         - librelp-devel
         - librevenge-devel
@@ -2368,7 +2359,6 @@ data:
         - pcaudiolib-devel
         - pcre-static
         - pcsc-lite-devel
-        - PEGTL-devel
         - perl-accessors
         - perl-Acme-Alien-DontPanic
         - perl-Acme-Alien-DontPanic2
