@@ -250,7 +250,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - cscope
         - csnappy
         - csnappy-devel
         - CUnit
@@ -1405,6 +1404,7 @@ data:
         - jimtcl
         - jimtcl-devel
         - jing
+        - jitterentropy-devel
         - jmock
         - jmock-imposters
         - jmock-junit4
@@ -1821,6 +1821,7 @@ data:
         - libosinfo-devel
         - libotf-devel
         - libotr-devel
+        - libp11-devel
         - libpagemaker-devel
         - libpamtest
         - libpaper-devel
@@ -3568,6 +3569,7 @@ data:
         - rrdtool-devel
         - R-rpm-macros
         - rsh
+        - rtl-sdr-devel
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
@@ -5306,7 +5308,6 @@ data:
             - libnozzle1-devel
             - libqb-devel
             - libraw1394-devel
-            - libsysfs
             - libtool-ltdl-devel
             - libwsman1
             - libxml++
@@ -5566,7 +5567,6 @@ data:
             - libiec61883-devel
             - libpq-devel
             - libraw1394-devel
-            - libsysfs
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
@@ -5923,7 +5923,6 @@ data:
             - libfprint-devel
             - libiec61883-devel
             - libraw1394-devel
-            - libsysfs
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
