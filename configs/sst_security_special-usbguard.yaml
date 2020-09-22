@@ -6,9 +6,13 @@ data:
   maintainer: sst_security_special
 
   packages:
+  - catch1-devel
   - usbguard
+  - usbguard-dbus
   - usbguard-notifier
+  - usbguard-tools
   - usbguard-selinux
+  - PEGTL
 
   labels:
   - eln
