@@ -5,8 +5,9 @@ data:
   description: Tools to update CPU microcode
   maintainer: sst_kernel_tps
 
-  packages:
-  - microcode_ctl
+  arch_packages:
+    x86_64:
+    - microcode_ctl
 
   labels:
   - eln
