@@ -10,6 +10,7 @@ data:
   - unixODBC-devel
   - unixODBC
   - postgresql-odbc
+  - pyodbc
 
   labels:
   - eln
