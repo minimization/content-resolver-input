@@ -1900,6 +1900,7 @@ data:
         - libsvm
         - libsvm-devel
         - libsysfs-devel
+        - libsysprof
         - libsysprof-ui
         - libtar-devel
         - libtheora-devel
@@ -4957,8 +4958,6 @@ data:
         - supermin-devel
         - swig
         - symlinks
-        - sysprof
-        - sysprof-cli
         - sysprof-devel
         - t1lib
         - t1lib-devel
