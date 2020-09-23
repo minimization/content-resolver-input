@@ -1685,6 +1685,7 @@ data:
         - libhandy1-devel
         - libhandy-devel
         - libhangul-devel
+        - libhbaapi-devel
         - libICE-devel
         - libicns
         - libicns-utils
@@ -2828,6 +2829,7 @@ data:
         - perl-Tie-IxHash
         - perl-Tie-RefHash-Weak
         - perl-Tie-ToObject
+        - perl-Tk
         - perl-Tk-Pod
         - perl-Types-Path-Tiny
         - perl-Types-Serialiser
@@ -4871,6 +4873,7 @@ data:
         - texlive-babel-welsh
         - texlive-cancel
         - texlive-collection-langeuropean
+        - texlive-context
         - texlive-ecclesiastic
         - texlive-finbib
         - texlive-gloss-occitan
@@ -5133,6 +5136,7 @@ data:
             - felix-gogo-runtime
             - felix-gogo-shell
             - felix-scr
+            - firefox
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
@@ -5169,6 +5173,7 @@ data:
             - libavc1394-devel
             - libavif
             - libavif-devel
+            - libbsd
             - libdav1d
             - libdav1d-devel
             - libdc1394
@@ -5177,6 +5182,7 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libhbaapi
             - libiec61883-devel
             - libknet1-devel
             - libnozzle1-devel
@@ -5546,6 +5552,7 @@ data:
             - libavc1394-devel
             - libavif
             - libavif-devel
+            - libbsd
             - libdav1d
             - libdav1d-devel
             - libdc1394
@@ -5553,6 +5560,7 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libhbaapi
             - libiec61883-devel
             - libpq-devel
             - libraw1394-devel
@@ -5754,8 +5762,6 @@ data:
             - xz-java
             - zfs-fuse
         s390x:
-            - anaconda
-            - anaconda-install-env-deps
             - ant
             - ant-antlr
             - ant-apache-bcel
@@ -5796,11 +5802,7 @@ data:
             - ceres-solver
             - ceres-solver-devel
             - dain-snappy
-            - daxctl-devel
             - decentxml
-            - device-mapper-devel
-            - device-mapper-event-devel
-            - dlm-lib
             - eclipse-ecf-core
             - eclipse-emf-core
             - eclipse-equinox-osgi
@@ -5826,7 +5828,6 @@ data:
             - guava
             - hamcrest-core
             - icu4j
-            - isomd5sum
             - jakarta-annotations
             - jakarta-el
             - jakarta-el-api
@@ -5855,14 +5856,6 @@ data:
             - leptonica
             - leptonica-devel
             - libassuan-devel
-            - libblockdev-dm
-            - libblockdev-kbd
-            - libblockdev-lvm
-            - libblockdev-mpath
-            - libblockdev-nvdimm
-            - libblockdev-plugins-all
-            - libblockdev-s390
-            - libblockdev-vdo
             - libbsd
             - libburn-devel
             - libcdio-devel
@@ -5876,16 +5869,13 @@ data:
             - libmad
             - libplist
             - libsmi-devel
-            - libstoragemgmt
             - libusbmuxd
-            - lsscsi
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
             - lucene-queries
             - lucene-queryparser
             - lucene-sandbox
-            - lvm2-devel
             - maven-archiver
             - maven-clean-plugin
             - maven-common-artifact-filters
@@ -5916,9 +5906,6 @@ data:
             - metis-devel
             - mozilla-filesystem
             - mpich-devel
-            - ndctl
-            - ndctl-devel
-            - ndctl-libs
             - objectweb-asm
             - oniguruma-devel
             - openmpi-devel
@@ -5939,29 +5926,12 @@ data:
             - plexus-sec-dispatcher
             - plexus-utils
             - pugixml
-            - python3-cpio
-            - python3-dbus-signature-pyparsing
-            - python3-hs-dbus-signature
-            - python3-hypothesis
-            - python3-into-dbus-python
             - python3-javapackages
-            - python3-justbases
-            - python3-libstoragemgmt
-            - python3-libstoragemgmt-clibs
-            - python3-semantic_version
-            - python3-wcwidth
             - qdox
             - qemu-system-x86
             - qemu-system-x86-core
             - regexp
             - rpm-mpi-hooks
-            - s390utils
-            - s390utils-cpuplugd
-            - s390utils-iucvterm
-            - s390utils-mon_statd
-            - s390utils-osasnmpd
-            - s390utils-ziomon
-            - sanlock-lib
             - sat4j
             - seabios-bin
             - seavgabios-bin
@@ -5975,9 +5945,7 @@ data:
             - tesseract-devel
             - tesseract-langpack-eng
             - tesseract-tessdata-doc
-            - tmux
             - tycho
-            - udisks2-iscsi
             - univocity-parsers
             - xmlgraphics-commons
             - xmvn-api
@@ -6020,6 +5988,7 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libhbaapi
             - libiec61883-devel
             - libraw1394-devel
             - libxml++
