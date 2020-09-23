@@ -5,9 +5,6 @@ data:
   description: Userspace agents and tools that enable virtualization capabilities on RHEL
   maintainer: sst_virtualization
 
-  modules_enable:
-  - virt:rhel
-
   packages:
   - amtterm
   - augeas
