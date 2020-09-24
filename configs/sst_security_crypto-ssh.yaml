@@ -9,6 +9,8 @@ data:
   - openssh-clients
   - openssh-server
   - openssh
+  - openssh-keycat
+  - pam_ssh_agent_auth
 
   labels:
   - eln
