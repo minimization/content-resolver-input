@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PHP scripting language
+  description: Core Services Stacks - PHP
+  maintainer: sst_cs_stacks
+
+  packages:
+  - php
+  - php-pear
+  - php-pecl-apcu
+  - php-pecl-rrd
+  - php-pecl-xdebug
+  - php-pecl-zip
+
+  labels:
+  - eln
