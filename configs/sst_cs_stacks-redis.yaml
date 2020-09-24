@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Redis persistent key-value database
+  description: Core Services Stacks - Redis
+  maintainer: sst_cs_stacks
+
+  packages:
+  - redis
+
+  labels:
+  - eln
