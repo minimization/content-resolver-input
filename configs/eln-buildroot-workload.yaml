@@ -47,6 +47,7 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - appstream
+        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -241,6 +242,7 @@ data:
         - compat-wxGTK3-gtk2-media
         - compface
         - compface-devel
+        - composer
         - cppcheck
         - cppunit
         - cppunit-devel
@@ -914,6 +916,7 @@ data:
         - glslang
         - glslang-devel
         - glslc
+        - glyphicons-halflings-fonts
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -1288,6 +1291,7 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
+        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1618,6 +1622,7 @@ data:
         - libdvdnav-devel
         - libe-book
         - libe-book-devel
+        - libecap-devel
         - libecb-devel
         - libeconf-devel
         - libell-devel
@@ -1733,6 +1738,8 @@ data:
         - libmarkdown-devel
         - libmatchbox-devel
         - libmbim-devel
+        - libmcrypt
+        - libmcrypt-devel
         - libmediaart-devel
         - libmemcached-devel
         - libmetalink-devel
@@ -1959,6 +1966,7 @@ data:
         - libyubikey
         - libyubikey-devel
         - libzapojit-devel
+        - libzip-devel
         - libzmf-devel
         - lilv
         - lilv-devel
@@ -2869,10 +2877,284 @@ data:
         - phonon-qt4-devel
         - phonon-qt5
         - phonon-qt5-devel
-        - php
-        - php-cli
-        - php-common
+        - php-andrewsville-php-token-reflection
+        - php-aws-php-sns-message-validator
+        - php-aws-sdk3
+        - php-bcmath
+        - php-brick-varexporter
+        - php-cache-integration-tests
+        - php-cache-tag-interop
+        - php-composer-ca-bundle
+        - php-composer-semver
+        - php-composer-spdx-licenses
+        - php-composer-xdebug-handler
+        - php-container-interop
+        - php-deepend-Mockery
         - php-devel
+        - php-doctrine-annotations
+        - php-doctrine-cache
+        - php-doctrine-collections
+        - php-doctrine-common
+        - php-doctrine-common3
+        - php-doctrine-datafixtures
+        - php-doctrine-dbal
+        - php-doctrine-doctrine-bundle
+        - php-doctrine-doctrine-bundle2
+        - php-doctrine-doctrine-cache-bundle
+        - php-doctrine-event-manager
+        - php-doctrine-inflector
+        - php-doctrine-instantiator
+        - php-doctrine-lexer
+        - php-doctrine-orm
+        - php-doctrine-persistence
+        - php-doctrine-persistence2
+        - php-doctrine-reflection
+        - php-doctrine-sql-formatter
+        - php-egulias-email-validator
+        - php-egulias-email-validator2
+        - php-fedora-autoloader-devel
+        - php-fig-link-util
+        - php-gd
+        - php-gmp
+        - php-guzzlehttp-guzzle6
+        - php-guzzlehttp-promises
+        - php-guzzlehttp-psr7
+        - php-hamcrest
+        - php-hamcrest2
+        - php-http-interop-http-middleware
+        - php-http-message-factory
+        - php-intl
+        - php-jdorn-sql-formatter
+        - php-json
+        - php-jsonlint
+        - php-justinrainbow-json-schema5
+        - php-laminas-authentication
+        - php-laminas-cache
+        - php-laminas-code
+        - php-laminas-config
+        - php-laminas-config3
+        - php-laminas-console
+        - php-laminas-crypt
+        - php-laminas-db
+        - php-laminas-di
+        - php-laminas-diactoros
+        - php-laminas-escaper
+        - php-laminas-eventmanager
+        - php-laminas-feed
+        - php-laminas-filter
+        - php-laminas-http
+        - php-laminas-hydrator
+        - php-laminas-i18n
+        - php-laminas-inputfilter
+        - php-laminas-json
+        - php-laminas-ldap
+        - php-laminas-loader
+        - php-laminas-log
+        - php-laminas-mail
+        - php-laminas-math
+        - php-laminas-mime
+        - php-laminas-modulemanager
+        - php-laminas-mvc
+        - php-laminas-psr7bridge
+        - php-laminas-router
+        - php-laminas-serializer
+        - php-laminas-servicemanager
+        - php-laminas-session
+        - php-laminas-stdlib
+        - php-laminas-stratigility
+        - php-laminas-uri
+        - php-laminas-validator
+        - php-laminas-view
+        - php-laminas-zendframework-bridge
+        - php-ldap
+        - php-masterminds-html5
+        - php-mbstring
+        - php-mikey179-vfsstream
+        - php-mock2
+        - php-mockery
+        - php-mock-integration2
+        - php-mock-phpunit2
+        - php-mongodb
+        - php-Monolog
+        - php-mtdowling-jmespath-php
+        - php-myclabs-deep-copy
+        - php-nikic-php-parser3
+        - php-nikic-php-parser4
+        - php-nyholm-psr7
+        - php-ocramius-code-generator-utils
+        - php-ocramius-generated-hydrator
+        - php-ocramius-proxy-manager
+        - php-paragonie-random-compat
+        - php-pdo
+        - php-pecl-apcu-devel
+        - php-pecl-igbinary
+        - php-pecl-mcrypt
+        - php-pecl-mongodb
+        - php-phar-io-manifest
+        - php-phar-io-manifest2
+        - php-phar-io-version
+        - php-phar-io-version3
+        - php-phpdocumentor-reflection1
+        - php-phpdocumentor-reflection-common
+        - php-phpdocumentor-reflection-common2
+        - php-phpdocumentor-reflection-docblock
+        - php-phpdocumentor-reflection-docblock2
+        - php-phpdocumentor-reflection-docblock5
+        - php-phpdocumentor-type-resolver
+        - php-phpdocumentor-type-resolver1
+        - php-phpspec
+        - php-phpspec-php-diff
+        - php-phpspec-prophecy
+        - php-phpunit-comparator
+        - php-phpunit-diff
+        - php-phpunit-environment
+        - php-phpunit-exporter
+        - php-phpunit-File-Iterator
+        - php-phpunit-mock-objects5
+        - php-phpunit-PHP-CodeCoverage
+        - php-phpunit-php-code-coverage5
+        - php-phpunit-php-code-coverage6
+        - php-phpunit-php-code-coverage7
+        - php-phpunit-php-code-coverage9
+        - php-phpunit-php-file-iterator2
+        - php-phpunit-php-file-iterator3
+        - php-phpunit-PHP-Invoker
+        - php-phpunit-php-invoker2
+        - php-phpunit-php-invoker3
+        - php-phpunit-php-text-template2
+        - php-phpunit-PHP-Timer
+        - php-phpunit-php-timer2
+        - php-phpunit-php-timer5
+        - php-phpunit-php-token-stream2
+        - php-phpunit-php-token-stream3
+        - php-phpunit-PHPUnit
+        - php-phpunit-PHPUnit-MockObject
+        - php-phpunit-Text-Template
+        - php-phpunit-Version
+        - php-psr-cache
+        - php-psr-container
+        - php-psr-http-client
+        - php-psr-http-factory
+        - php-psr-http-message
+        - php-psr-link
+        - php-PsrLog
+        - php-psr-simple-cache
+        - php-ralouphie-getallheaders
+        - php-sebastian-cli-parser
+        - php-sebastian-code-unit
+        - php-sebastian-code-unit-reverse-lookup
+        - php-sebastian-code-unit-reverse-lookup2
+        - php-sebastian-comparator2
+        - php-sebastian-comparator3
+        - php-sebastian-comparator4
+        - php-sebastian-complexity
+        - php-sebastian-diff2
+        - php-sebastian-diff3
+        - php-sebastian-diff4
+        - php-sebastian-environment3
+        - php-sebastian-environment4
+        - php-sebastian-environment5
+        - php-sebastian-exporter3
+        - php-sebastian-exporter4
+        - php-sebastian-global-state
+        - php-sebastian-global-state2
+        - php-sebastian-global-state3
+        - php-sebastian-global-state5
+        - php-sebastian-lines-of-code
+        - php-sebastian-object-enumerator
+        - php-sebastian-object-enumerator3
+        - php-sebastian-object-enumerator4
+        - php-sebastian-object-reflector
+        - php-sebastian-object-reflector2
+        - php-sebastian-recursion-context
+        - php-sebastian-recursion-context3
+        - php-sebastian-recursion-context4
+        - php-sebastian-resource-operations
+        - php-sebastian-resource-operations2
+        - php-sebastian-resource-operations3
+        - php-sebastian-type
+        - php-sebastian-type2
+        - php-sebastian-version3
+        - php-seld-phar-utils
+        - php-sentry
+        - php-soap
+        - php-sodium
+        - php-swiftmailer
+        - php-symfony3-common
+        - php-symfony3-debug
+        - php-symfony3-event-dispatcher
+        - php-symfony3-http-foundation
+        - php-symfony3-http-kernel
+        - php-symfony3-inflector
+        - php-symfony3-phpunit-bridge
+        - php-symfony3-property-access
+        - php-symfony3-security
+        - php-symfony4-cache
+        - php-symfony4-common
+        - php-symfony4-config
+        - php-symfony4-console
+        - php-symfony4-debug
+        - php-symfony4-dependency-injection
+        - php-symfony4-doctrine-bridge
+        - php-symfony4-error-handler
+        - php-symfony4-event-dispatcher
+        - php-symfony4-filesystem
+        - php-symfony4-finder
+        - php-symfony4-framework-bundle
+        - php-symfony4-http-foundation
+        - php-symfony4-http-kernel
+        - php-symfony4-inflector
+        - php-symfony4-mime
+        - php-symfony4-process
+        - php-symfony4-property-info
+        - php-symfony4-proxy-manager-bridge
+        - php-symfony4-routing
+        - php-symfony4-translation
+        - php-symfony4-twig-bridge
+        - php-symfony4-twig-bundle
+        - php-symfony4-validator
+        - php-symfony4-var-dumper
+        - php-symfony4-var-exporter
+        - php-symfony4-web-profiler-bundle
+        - php-symfony4-yaml
+        - php-symfony-browser-kit
+        - php-symfony-class-loader
+        - php-symfony-common
+        - php-symfony-config
+        - php-symfony-console
+        - php-symfony-contracts
+        - php-symfony-css-selector
+        - php-symfony-debug
+        - php-symfony-dependency-injection
+        - php-symfony-dom-crawler
+        - php-symfony-event-dispatcher
+        - php-symfony-expression-language
+        - php-symfony-filesystem
+        - php-symfony-finder
+        - php-symfony-http-foundation
+        - php-symfony-http-kernel
+        - php-symfony-polyfill
+        - php-symfony-process
+        - php-symfony-security-acl
+        - php-symfony-var-dumper
+        - php-symfony-yaml
+        - php-theseer-autoload
+        - php-theseer-directoryscanner
+        - php-theseer-tokenizer
+        - php-tidy
+        - php-true-punycode
+        - php-twig2
+        - php-twig3
+        - phpunit6
+        - phpunit7
+        - phpunit8
+        - phpunit9
+        - php-webimpress-http-middleware-compatibility
+        - php-webimpress-safe-writer
+        - php-webmozart-assert
+        - php-zetacomponents-base
+        - php-zetacomponents-console-tools
+        - php-zetacomponents-unit-test
         - physfs
         - physfs-devel
         - pipewire-devel
@@ -3430,7 +3712,6 @@ data:
         - re2c
         - re2-devel
         - readline-devel
-        - redis
         - redland-devel
         - reflections
         - relaxngDatatype
@@ -5134,7 +5415,6 @@ data:
             - felix-gogo-runtime
             - felix-gogo-shell
             - felix-scr
-            - firefox
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
