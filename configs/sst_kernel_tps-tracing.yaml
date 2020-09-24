@@ -7,11 +7,20 @@ data:
 
   packages:
   - bcc
-  - bpftrace
   - perf
   - strace
   - trace-cmd
   - kernelshark
+
+  arch_packages:
+    aarch64:
+      - bpftrace
+    ppc64le:
+      - bpftrace
+    s390x:
+      - bpftrace
+    x86_64:
+      - bpftrace
 
   labels:
   - eln
