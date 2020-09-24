@@ -412,6 +412,7 @@ data:
         - freetds
         - freetds-devel
         - freetds-libs
+        - freetype-demos
         - freexl
         - freexl-devel
         - fstrm
@@ -1943,11 +1944,11 @@ data:
         - libXp-devel
         - libXpm-devel
         - libXres-devel
-        - libXScrnSaver
         - libXScrnSaver-devel
         - libxshmfence-devel
         - libXt-devel
         - libXv-devel
+        - libXvMC-devel
         - libXxf86dga
         - libXxf86dga-devel
         - libXxf86vm-devel
@@ -1973,7 +1974,6 @@ data:
         - linux-atm-libs
         - linux-atm-libs-devel
         - linuxconsoletools
-        - lklug-fonts
         - lldpad-devel
         - llvm10
         - llvm10-devel
@@ -2101,7 +2101,6 @@ data:
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
         - meson
-        - metacity
         - mftrace
         - mingw32-binutils
         - mingw32-cpp
@@ -3441,7 +3440,6 @@ data:
         - rgb
         - rhash-devel
         - R-java-devel
-        - rmt
         - rpkg-common
         - rpm-ostree-devel
         - rrdtool-devel
@@ -5192,7 +5190,9 @@ data:
             - libwsman1
             - libxml++
             - libxml++-devel
+            - libXScrnSaver
             - libxslt-devel
+            - libXvMC
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -5566,6 +5566,8 @@ data:
             - libraw1394-devel
             - libxml++
             - libxml++-devel
+            - libXScrnSaver
+            - libXvMC
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -5870,6 +5872,8 @@ data:
             - libplist
             - libsmi-devel
             - libusbmuxd
+            - libXScrnSaver
+            - libXvMC
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -5913,7 +5917,6 @@ data:
             - perl-Expect
             - perl-File-Slurp-Tiny
             - perl-Perl-Version
-            - pigz
             - plexus-archiver
             - plexus-build-api
             - plexus-cipher
