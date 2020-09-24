@@ -256,7 +256,6 @@ data:
         - CUnit-devel
         - cvs
         - cvsps
-        - cyrus-sasl-scram
         - datefudge
         - dbus-glib-devel
         - dbusmenu-qt5
@@ -2890,7 +2889,6 @@ data:
         - php-composer-xdebug-handler
         - php-container-interop
         - php-deepend-Mockery
-        - php-devel
         - php-doctrine-annotations
         - php-doctrine-cache
         - php-doctrine-collections
@@ -2925,7 +2923,6 @@ data:
         - php-http-message-factory
         - php-intl
         - php-jdorn-sql-formatter
-        - php-json
         - php-jsonlint
         - php-justinrainbow-json-schema5
         - php-laminas-authentication
@@ -2968,7 +2965,6 @@ data:
         - php-laminas-zendframework-bridge
         - php-ldap
         - php-masterminds-html5
-        - php-mbstring
         - php-mikey179-vfsstream
         - php-mock2
         - php-mockery
@@ -5108,7 +5104,6 @@ data:
         - superlu_dist-mpich-devel
         - superlu_dist-openmpi
         - superlu_dist-openmpi-devel
-        - swig
         - symlinks
         - sysprof-devel
         - t1lib
