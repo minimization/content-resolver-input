@@ -62,7 +62,6 @@ data:
   - tigervnc-server-minimal
   - net-tools
   - nmap-ncat
-  - prefixdevname
   - pciutils
   - usbutils
   - ipmitool
