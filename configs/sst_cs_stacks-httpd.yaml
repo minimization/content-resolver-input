@@ -22,6 +22,7 @@ data:
   - mod_md
   - mod_fcgid
   - mod_security
+  - mod_security-mlogc
   - mod_security_crs
   - apr
   - apr-devel
@@ -30,6 +31,9 @@ data:
   - apr-util-ldap
   - apr-util-mysql
   - apr-util-openssl
+  - apr-util-sqlite
+  - apr-util-pgsql
+  - apr-util-odbc
 
   labels:
   - eln
