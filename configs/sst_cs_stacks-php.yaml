@@ -7,6 +7,16 @@ data:
 
   packages:
   - php
+  - php-cli
+  - php-common
+  - php-devel
+  - php-fpm
+  - php-json
+  - php-mbstring
+  - php-pear
+  - php-pecl-zip
+  - php-process
+  - php-xml
   - php-pear
   - php-pecl-apcu
   - php-pecl-rrd
