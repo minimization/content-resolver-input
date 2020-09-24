@@ -62,7 +62,8 @@ data:
   - tigervnc-server-minimal
   - net-tools
   - nmap-ncat
-  - prefixdevname
+  # asamalik: this package is not in Fedora
+  # - prefixdevname
   - pciutils
   - usbutils
   - ipmitool
