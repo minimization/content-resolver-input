@@ -49,7 +49,6 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - appstream
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -1302,7 +1301,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1633,7 +1631,6 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
-        - libe-book
         - libe-book-devel
         - libecap-devel
         - libecb-devel
@@ -1641,7 +1638,6 @@ data:
         - libell-devel
         - libEMF
         - libEMF-devel
-        - libeot
         - libeot-devel
         - libepubgen-devel
         - libesmtp-devel
@@ -1666,7 +1662,6 @@ data:
         - libgadu
         - libgadu-devel
         - libgcab1-devel
-        - libgcrypt-devel
         - libgdiplus
         - libgdiplus-devel
         - libgdither-devel
@@ -1848,7 +1843,6 @@ data:
         - libproxy-devel
         - libpst-devel
         - libpurple
-        - libpwquality-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1895,7 +1889,6 @@ data:
         - libsrtp-devel
         - libss-devel
         - libssh2-devel
-        - libssh-devel
         - libsss_certmap-devel
         - libsss_idmap-devel
         - libsss_nss_idmap-devel
@@ -3060,7 +3053,6 @@ data:
         - php-ocramius-proxy-manager
         - php-paragonie-random-compat
         - php-pdo
-        - php-pecl-apcu-devel
         - php-pecl-igbinary
         - php-pecl-mcrypt
         - php-pecl-mongodb
@@ -3927,6 +3919,7 @@ data:
         - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
         - rubygem-rails-html-sanitizer
+        - rubygem-railties
         - rubygem-rake-compiler
         - rubygem-rb-inotify
         - rubygem-rdiscount
@@ -5180,7 +5173,6 @@ data:
         - stunnel
         - subunit
         - subunit-devel
-        - subversion-perl
         - suitesparse64
         - suitesparse-devel
         - sundials
