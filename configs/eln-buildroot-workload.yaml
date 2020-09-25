@@ -6383,7 +6383,6 @@ data:
             - libcdio-devel
             - libdv
             - libdvdread-devel
-            - libfabric-devel
             - libftdi
             - libieee1284-devel
             - libimobiledevice
@@ -6429,10 +6428,8 @@ data:
             - metis
             - metis-devel
             - mozilla-filesystem
-            - mpich-devel
             - objectweb-asm
             - oniguruma-devel
-            - openmpi-devel
             - opentest4j
             - plexus-archiver
             - plexus-build-api
@@ -6451,7 +6448,6 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - regexp
-            - rpm-mpi-hooks
             - sat4j
             - seabios-bin
             - seavgabios-bin
