@@ -9,7 +9,6 @@ data:
   - libfabric-devel
   - fabtests
   - opensm-devel
-  - mstflint
   - qperf
   - openmpi
   - openmpi-devel
@@ -21,13 +20,5 @@ data:
   - mpich-devel
   - mpich-doc
   - python3-mpich
-  - libvma
-  - libvma-utils
-  - libvma-devel
-  - ucx
-  - ucx-cma
-  - ucx-devel
-  - ucx-ib
-  - ucx-rdmacm
   labels:
   - eln
