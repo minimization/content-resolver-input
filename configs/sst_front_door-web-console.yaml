@@ -14,3 +14,6 @@ data:
     - cockpit-packagekit
     - cockpit-storaged
     - cockpit-pcp
+    - cockpit-doc
+    # extensions maintained by Cockpit team
+    - cockpit-machines
