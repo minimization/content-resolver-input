@@ -14,6 +14,8 @@ data:
   - subversion-tools
   - python3-subversion
   - subversion-devel
+  - subversion-gnome
+  - subversion-perl
   
   labels:
   - eln
