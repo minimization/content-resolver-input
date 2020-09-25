@@ -12,6 +12,7 @@ data:
   - pcre2
   - pcre
   - quota
+  - sscg
 
   labels:
   - eln
