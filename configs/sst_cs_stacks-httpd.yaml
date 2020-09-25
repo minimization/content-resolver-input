@@ -23,7 +23,7 @@ data:
   - mod_md
   - mod_fcgid
   - mod_security
-  - mod_security-mlogc
+  - mlogc
   - mod_security_crs
   - apr
   - apr-devel
