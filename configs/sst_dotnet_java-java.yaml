@@ -7,11 +7,29 @@ data:
 
   packages:
   - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-accessibility
+  - java-1.8.0-openjdk-demo
+  - java-1.8.0-openjdk-devel
+  - java-1.8.0-openjdk-headless
+  - java-1.8.0-openjdk-javadoc
+  - java-1.8.0-openjdk-javadoc-zip
+  - java-1.8.0-openjdk-src
   - java-11-openjdk
+  - java-11-openjdk-demo
+  - java-11-openjdk-devel
+  - java-11-openjdk-headless
+  - java-11-openjdk-javadoc
+  - java-11-openjdk-javadoc-zip
+  - java-11-openjdk-jmods
+  - java-11-openjdk-src
+  - java-11-openjdk-static-libs
+  - copy-jdk-configs
   # With Nashorn gone in newer JDKs, we need a JS engine
   - rhino
   # Core tool for JDK support work
   - byteman
+  - byteman-bmunit
+  - byteman-javadoc
 
   labels:
   - eln
