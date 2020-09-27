@@ -2193,6 +2193,7 @@ data:
         - MUMPS-srpm-macros
         - munge-devel
         - munge-maven-plugin
+        - mupdf
         - mutter-devel
         - mypaint-brushes-devel
         - mysql-connector-python3
@@ -3869,6 +3870,7 @@ data:
         - rubygem-http-cookie
         - rubygem-http_parser.rb
         - rubygem-i18n
+        - rubygem-image_processing
         - rubygem-introspection
         - rubygem-io-console
         - rubygem-irb
@@ -3890,6 +3892,7 @@ data:
         - rubygem-mimemagic
         - rubygem-mime-types
         - rubygem-mime-types-data
+        - rubygem-mini_magick
         - rubygem-mini_mime
         - rubygem-minitest
         - rubygem-minitest4
@@ -4143,7 +4146,6 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
-        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque+default-devel
         - rust-crossbeam-deque-devel
         - rust-crossbeam-epoch+default-devel
