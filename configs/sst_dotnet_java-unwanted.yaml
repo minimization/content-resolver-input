@@ -12,3 +12,30 @@ data:
   - java-latest-openjdk
   # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
   - icedtea-web
+  # Debug packages should be built but not shipped to customers
+  - java-1.8.0-openjdk-slowdebug
+  - java-1.8.0-openjdk-accessibility-slowdebug
+  - java-1.8.0-openjdk-demo-slowdebug
+  - java-1.8.0-openjdk-devel-slowdebug
+  - java-1.8.0-openjdk-headless-slowdebug
+  - java-1.8.0-openjdk-src-slowdebug
+  - java-1.8.0-openjdk-fastdebug
+  - java-1.8.0-openjdk-accessibility-fastdebug
+  - java-1.8.0-openjdk-demo-fastdebug
+  - java-1.8.0-openjdk-devel-fastdebug
+  - java-1.8.0-openjdk-headless-fastdebug
+  - java-1.8.0-openjdk-src-fastdebug
+  - java-11-openjdk-slowdebug
+  - java-11-openjdk-demo-slowdebug
+  - java-11-openjdk-devel-slowdebug
+  - java-11-openjdk-headless-slowdebug
+  - java-11-openjdk-jmods-slowdebug
+  - java-11-openjdk-src-slowdebug
+  - java-11-openjdk-static-libs-slowdebug
+  - java-11-openjdk-fastdebug
+  - java-11-openjdk-demo-fastdebug
+  - java-11-openjdk-devel-fastdebug
+  - java-11-openjdk-headless-fastdebug
+  - java-11-openjdk-jmods-fastdebug
+  - java-11-openjdk-src-fastdebug
+  - java-11-openjdk-static-libs-fastdebug
