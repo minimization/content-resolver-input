@@ -90,7 +90,6 @@ data:
         - baekmuk-ttf-batang-fonts
         - baekmuk-ttf-fonts-common
         - batik
-        - bcache-tools
         - bcc-devel
         - beakerlib
         - bind-devel
@@ -135,7 +134,6 @@ data:
         - blis-serial64
         - blis-threads
         - blis-threads64
-        - blivet-gui-runtime
         - blosc
         - blosc-devel
         - bnd-maven-plugin
@@ -181,8 +179,6 @@ data:
         - clamav-update
         - clamd
         - classloader-leak-test-framework
-        - clblast
-        - clblast-devel
         - cliquer-devel
         - cliquer-libs
         - clisp
@@ -254,6 +250,7 @@ data:
         - csnappy-devel
         - CUnit
         - CUnit-devel
+        - custodia
         - cvs
         - cvsps
         - datefudge
@@ -359,8 +356,6 @@ data:
         - f33-backgrounds-kde
         - fakechroot
         - fakechroot-libs
-        - farstream02
-        - farstream02-devel
         - fasterxml-oss-parent
         - fcgi
         - fcgi-devel
@@ -439,7 +434,6 @@ data:
         - GConf2-devel
         - gdal-devel
         - gdal-libs
-        - gdb-minimal
         - gdcm
         - gdcm-applications
         - gdcm-devel
@@ -918,8 +912,6 @@ data:
         - glslang
         - glslang-devel
         - glslc
-        - glusterfs
-        - glusterfs-fuse
         - glyphicons-halflings-fonts
         - gmock
         - gmock-devel
@@ -1238,7 +1230,6 @@ data:
         - GraphicsMagick-c++
         - GraphicsMagick-c++-devel
         - GraphicsMagick-devel
-        - graphviz-devil
         - grilo-devel
         - groff-perl
         - gsl-devel
@@ -1260,9 +1251,7 @@ data:
         - gtk-sharp2-devel
         - gtk-sharp2-gapi
         - gtksourceview4-devel
-        - gtkspell
         - gtkspell3-devel
-        - gtkspell-devel
         - gtk-vnc2-devel
         - gts
         - gts-devel
@@ -1327,8 +1316,11 @@ data:
         - imaptest
         - imlib2-devel
         - intltool
+        - ipa-client-common
+        - ipa-common
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
+        - ipa-server-common
         - iptables-devel
         - irrlicht
         - irrlicht-devel
@@ -1652,8 +1644,6 @@ data:
         - libfontenc-devel
         - libfreehand-devel
         - libftdi-devel
-        - libgadu
-        - libgadu-devel
         - libgcab1-devel
         - libgdiplus
         - libgdiplus-devel
@@ -1675,10 +1665,7 @@ data:
         - libgnat
         - libgnat-devel
         - libgnomekbd-devel
-        - libgnt
-        - libgnt-devel
         - libgphoto2-devel
-        - libgpuarray
         - libgrss-devel
         - libgsasl
         - libgsasl-devel
@@ -1722,6 +1709,7 @@ data:
         - libixion-devel
         - libjcat-devel
         - libjpeg-turbo-devel
+        - libjpeg-turbo-utils
         - libkate
         - libkate-devel
         - libkcapi-fipscheck
@@ -1787,7 +1775,6 @@ data:
         - libnftnl-devel
         - libnghttp2-devel
         - libnice-devel
-        - libnice-gstreamer1
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
@@ -1835,7 +1822,6 @@ data:
         - libprelude-devel
         - libproxy-devel
         - libpst-devel
-        - libpurple
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1920,8 +1906,6 @@ data:
         - libvdpau
         - libvdpau-devel
         - libvdpau-trace
-        - libverto-libev
-        - libvirt-daemon-driver-storage-sheepdog
         - libvirt-devel
         - libvirt-gconfig-devel
         - libvirt-glib-devel
@@ -2111,8 +2095,6 @@ data:
         - maven-wagon-http-lightweight
         - maven-wagon-http-shared
         - mdds-devel
-        - meanwhile
-        - meanwhile-devel
         - mecab-devel
         - media-player-info
         - mesa-libgbm-devel
@@ -2287,7 +2269,6 @@ data:
         - ocaml-topkg-devel
         - ocaml-zarith
         - ocaml-zarith-devel
-        - ocl-icd-devel
         - octave
         - octave-devel
         - ogdi
@@ -2375,12 +2356,12 @@ data:
         - perl-Archive-Extract
         - perl-Archive-Extract-bz2-IO-Uncompress-Bunzip2
         - perl-Archive-Extract-gz-Compress-Zlib
-        - perl-Archive-Extract-lzma-IO-Uncompress-UnLzma
+        - perl-Archive-Extract-lzma-unlzma
         - perl-Archive-Extract-tar-Archive-Tar
         - perl-Archive-Extract-tbz-Archive-Tar-IO-Uncompress-Bunzip2
         - perl-Archive-Extract-tgz-Archive-Tar-Compress-Zlib
-        - perl-Archive-Extract-txz-Archive-Tar-IO-Uncompress-UnXz
-        - perl-Archive-Extract-xz-IO-Uncompress-UnXz
+        - perl-Archive-Extract-txz-tar-unxz
+        - perl-Archive-Extract-xz-unxz
         - perl-Archive-Extract-Z-Compress-Zlib
         - perl-Archive-Extract-zip-Archive-Zip
         - perl-Array-Diff
@@ -2943,7 +2924,6 @@ data:
         - php-andrewsville-php-token-reflection
         - php-aws-php-sns-message-validator
         - php-aws-sdk3
-        - php-bcmath
         - php-brick-varexporter
         - php-cache-integration-tests
         - php-cache-tag-interop
@@ -2976,8 +2956,6 @@ data:
         - php-egulias-email-validator2
         - php-fedora-autoloader-devel
         - php-fig-link-util
-        - php-gd
-        - php-gmp
         - php-guzzlehttp-guzzle6
         - php-guzzlehttp-promises
         - php-guzzlehttp-psr7
@@ -2985,7 +2963,6 @@ data:
         - php-hamcrest2
         - php-http-interop-http-middleware
         - php-http-message-factory
-        - php-intl
         - php-jdorn-sql-formatter
         - php-jsonlint
         - php-justinrainbow-json-schema5
@@ -3027,7 +3004,6 @@ data:
         - php-laminas-validator
         - php-laminas-view
         - php-laminas-zendframework-bridge
-        - php-ldap
         - php-masterminds-html5
         - php-mikey179-vfsstream
         - php-mock2
@@ -3045,7 +3021,6 @@ data:
         - php-ocramius-generated-hydrator
         - php-ocramius-proxy-manager
         - php-paragonie-random-compat
-        - php-pdo
         - php-pecl-igbinary
         - php-pecl-mcrypt
         - php-pecl-mongodb
@@ -3136,17 +3111,24 @@ data:
         - php-sebastian-version3
         - php-seld-phar-utils
         - php-sentry
-        - php-soap
         - php-sodium
         - php-swiftmailer
+        - php-symfony3-cache
+        - php-symfony3-class-loader
         - php-symfony3-common
+        - php-symfony3-config
         - php-symfony3-debug
+        - php-symfony3-dependency-injection
         - php-symfony3-event-dispatcher
+        - php-symfony3-filesystem
+        - php-symfony3-finder
+        - php-symfony3-framework-bundle
         - php-symfony3-http-foundation
         - php-symfony3-http-kernel
         - php-symfony3-inflector
         - php-symfony3-phpunit-bridge
         - php-symfony3-property-access
+        - php-symfony3-routing
         - php-symfony3-security
         - php-symfony4-cache
         - php-symfony4-common
@@ -3365,7 +3347,6 @@ data:
         - python3-extras
         - python3-factory-boy
         - python3-faker
-        - python3-fastcache
         - python3-fastimport
         - python3-fedora
         - python3-fedora-messaging
@@ -3391,7 +3372,6 @@ data:
         - python3-gevent
         - python3-gitdb
         - python3-GitPython
-        - python3-gmpy2
         - python3-gobject-devel
         - python3-graphviz
         - python3-greenlet
@@ -3466,7 +3446,6 @@ data:
         - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
-        - python3-mpmath
         - python3-msgpack
         - python3-multilib
         - python3-munch
@@ -3530,14 +3509,10 @@ data:
         - python3-pybtex
         - python3-pybtex-docutils
         - python3-pycdlib
-        - python3-pycmd
         - python3-pycodestyle
         - python3-pydot
         - python3-pyflakes
-        - python3-pyglet
         - python3-pygments-pytest
-        - python3-pygpu
-        - python3-pygpu-devel
         - python3-pygraphviz
         - python3-pylev
         - python3-pylibravatar
@@ -3559,7 +3534,6 @@ data:
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
-        - python3-pytest-doctestplus
         - python3-pytest-expect
         - python3-pytest-fixture-config
         - python3-pytest-flake8
@@ -3633,7 +3607,6 @@ data:
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
         - python3-sphinx-latex
-        - python3-sphinx-math-dollar
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
         - python3-sphinxtesters
@@ -3646,7 +3619,6 @@ data:
         - python3-stevedore
         - python3-subunit
         - python3-sure
-        - python3-sympy
         - python3-tables
         - python3-talloc-devel
         - python3-tempita
@@ -3660,7 +3632,6 @@ data:
         - python3-testtools
         - python3-texext
         - python3-text-unidecode
-        - python3-theano
         - python3-thrift
         - python3-tidy
         - python3-tomlkit
@@ -3688,7 +3659,6 @@ data:
         - python3-werkzeug
         - python3-whoosh
         - python3-widgetsnbextension
-        - python3-wurlitzer
         - python3-wxpython4
         - python3-wx-siplib
         - python3-xmlschema
@@ -3976,7 +3946,6 @@ data:
         - rubygem-yard
         - rubygem-zeitwerk
         - rubygem-ZenTest
-        - rubypick
         - rust-actix+default-devel
         - rust-actix_derive+default-devel
         - rust-actix_derive-devel
@@ -4138,6 +4107,7 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
+        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque+default-devel
         - rust-crossbeam-deque-devel
         - rust-crossbeam-epoch+default-devel
@@ -5404,6 +5374,7 @@ data:
         - yelp-xsl-devel
         - ykclient
         - ykclient-devel
+        - yum-utils
         - z3-devel
         - z3-libs
         - zbar
@@ -5457,6 +5428,8 @@ data:
             - byte-buddy
             - cargo-c
             - cdi-api
+            - clblast
+            - clblast-devel
             - corosynclib-devel
             - dain-snappy
             - dbus-c++
@@ -5478,6 +5451,8 @@ data:
             - efl
             - efl-devel
             - esmtp
+            - farstream02
+            - farstream02-devel
             - felix-gogo-command
             - felix-gogo-runtime
             - felix-gogo-shell
@@ -5489,6 +5464,8 @@ data:
             - grpc
             - gtkmm24
             - gtkmm24-devel
+            - gtkspell
+            - gtkspell-devel
             - guava
             - hamcrest-core
             - icu4j
@@ -5527,10 +5504,17 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libgadu
+            - libgadu-devel
+            - libgnt
+            - libgnt-devel
+            - libgpuarray
             - libhbaapi
             - libiec61883-devel
             - libknet1-devel
+            - libnice-gstreamer1
             - libnozzle1-devel
+            - libpurple
             - libqb-devel
             - libraw1394-devel
             - libtool-ltdl-devel
@@ -5571,11 +5555,13 @@ data:
             - maven-surefire-provider-testng
             - maven-verifier
             - maven-wagon-provider-api
+            - meanwhile
+            - meanwhile-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
-            - mesa-vulkan-drivers
             - ncurses-compat-libs
             - objectweb-asm
+            - ocl-icd-devel
             - opentest4j
             - openwsman-python3
             - pacemaker-cluster-libs
@@ -5608,7 +5594,9 @@ data:
             - python3-certifi
             - python3-colorama
             - python3-contextlib2
+            - python3-fastcache
             - python3-fasteners
+            - python3-gmpy2
             - python3-google-api-client
             - python3-google-api-core
             - python3-googleapis-common-protos
@@ -5622,6 +5610,7 @@ data:
             - python3-jmespath
             - python3-jwt
             - python3-jwt+crypto
+            - python3-mpmath
             - python3-msal
             - python3-msrest
             - python3-msrestazure
@@ -5631,15 +5620,24 @@ data:
             - python3-opencensus-context
             - python3-outcome
             - python3-pycares
+            - python3-pycmd
+            - python3-pyglet
+            - python3-pygpu
+            - python3-pygpu-devel
             - python3-pyOpenSSL
+            - python3-pytest-doctestplus
             - python3-rsa
             - python3-s3transfer
             - python3-sniffio
+            - python3-sphinx-math-dollar
+            - python3-sympy
+            - python3-theano
             - python3-tornado
             - python3-trio
             - python3-uamqp
             - python3-uritemplate
             - python3-wrapt
+            - python3-wurlitzer
             - python3-yarl
             - qdox
             - qemu-system-x86
@@ -5927,6 +5925,8 @@ data:
             - byte-buddy
             - cargo-c
             - cdi-api
+            - clblast
+            - clblast-devel
             - dain-snappy
             - dbus-c++
             - dbus-c++-devel
@@ -5943,6 +5943,8 @@ data:
             - efi-filesystem
             - efl
             - efl-devel
+            - farstream02
+            - farstream02-devel
             - felix-gogo-command
             - felix-gogo-runtime
             - felix-gogo-shell
@@ -5951,6 +5953,8 @@ data:
             - google-guice
             - gtkmm24
             - gtkmm24-devel
+            - gtkspell
+            - gtkspell-devel
             - guava
             - hamcrest-core
             - icu4j
@@ -5988,11 +5992,17 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libgadu
+            - libgadu-devel
+            - libgnt
+            - libgnt-devel
+            - libgpuarray
             - libhbaapi
             - libiec61883-devel
+            - libnice-gstreamer1
             - libpq-devel
+            - libpurple
             - libraw1394-devel
-            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - libXScrnSaver
@@ -6028,8 +6038,10 @@ data:
             - maven-surefire-provider-testng
             - maven-verifier
             - maven-wagon-provider-api
-            - mesa-vulkan-drivers
+            - meanwhile
+            - meanwhile-devel
             - objectweb-asm
+            - ocl-icd-devel
             - opentest4j
             - plexus-archiver
             - plexus-build-api
@@ -6047,7 +6059,19 @@ data:
             - postgresql-server
             - postgresql-server-devel
             - pugixml
+            - python3-fastcache
+            - python3-gmpy2
             - python3-javapackages
+            - python3-mpmath
+            - python3-pycmd
+            - python3-pyglet
+            - python3-pygpu
+            - python3-pygpu-devel
+            - python3-pytest-doctestplus
+            - python3-sphinx-math-dollar
+            - python3-sympy
+            - python3-theano
+            - python3-wurlitzer
             - qdox
             - qemu-system-x86
             - qemu-system-x86-core
@@ -6417,7 +6441,6 @@ data:
             - maven-surefire-provider-testng
             - maven-verifier
             - maven-wagon-provider-api
-            - mesa-vulkan-drivers
             - metis
             - metis-devel
             - mozilla-filesystem
@@ -6471,6 +6494,8 @@ data:
             - bullet
             - bullet-devel
             - cargo-c
+            - clblast
+            - clblast-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -6480,12 +6505,16 @@ data:
             - efivar-devel
             - efl
             - efl-devel
+            - farstream02
+            - farstream02-devel
             - fftw-libs-quad
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
             - gtkmm24-devel
+            - gtkspell
+            - gtkspell-devel
             - libavc1394-devel
             - libavif
             - libavif-devel
@@ -6496,16 +6525,37 @@ data:
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libgadu
+            - libgadu-devel
+            - libgnt
+            - libgnt-devel
+            - libgpuarray
             - libhbaapi
             - libiec61883-devel
+            - libnice-gstreamer1
+            - libpurple
             - libraw1394-devel
-            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
+            - meanwhile
+            - meanwhile-devel
             - mesa-libxatracker-devel
+            - ocl-icd-devel
             - openni
             - openni-devel
             - openni-primesense
+            - python3-fastcache
+            - python3-gmpy2
+            - python3-mpmath
+            - python3-pycmd
+            - python3-pyglet
+            - python3-pygpu
+            - python3-pygpu-devel
+            - python3-pytest-doctestplus
+            - python3-sphinx-math-dollar
+            - python3-sympy
+            - python3-theano
+            - python3-wurlitzer
             - rav1e-devel
             - rav1e-libs
             - rlottie
