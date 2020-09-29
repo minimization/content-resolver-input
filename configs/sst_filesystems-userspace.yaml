@@ -34,7 +34,6 @@ data:
     - rpcbind
     - rpcgen
     - rpcsvc-proto-devel
-    - system-storage-manager
     - xfsdump
     - xfsprogs
 
