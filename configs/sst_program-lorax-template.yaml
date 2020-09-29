@@ -117,8 +117,6 @@ data:
   - hexedit
   - sg3_utils
   - perl-interpreter
-  - libmlx4
-  - rdma-core
 
   arch_packages:
     x86_64:
@@ -155,6 +153,8 @@ data:
     - iwl6000g2b-firmware
     - iwl6050-firmware
     - iwl7260-firmware
+    - libibverbs
+    - rdma-core
     ppc64le:
     - powerpc-utils
     - lsvpd
@@ -167,6 +167,8 @@ data:
     - xorg-x11-server-Xorg
     - tigervnc-server-module
     - linux-firmware
+    - libibverbs
+    - rdma-core
     aarch64:
     - efibootmgr
     - grub2-efi-aa64-cdboot
@@ -177,11 +179,15 @@ data:
     - tigervnc-server-module
     - dmidecode
     - linux-firmware
+    - libibverbs
+    - rdma-core
     s390x:
     - lsscsi
     - s390utils-base
     - s390utils-cmsfs-fuse
     - s390utils-hmcdrvfs
+    - libibverbs
+    - rdma-core
 
   labels:
   - eln
