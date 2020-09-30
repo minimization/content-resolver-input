@@ -8,7 +8,6 @@ data:
   packages:
   - audit
   - audit-libs
-  - audit-devel
   - audit-libs-devel
   - python3-audit
   - audispd-plugins
