@@ -17,7 +17,7 @@ data:
     - vulkan-loader
     - mesa-demos
     - glslang
-    - spirv-headers
+    - spirv-headers-devel
 
   labels:
     - eln
