@@ -249,7 +249,6 @@ data:
         - csnappy-devel
         - CUnit
         - CUnit-devel
-        - custodia
         - cvs
         - cvsps
         - datefudge
@@ -910,7 +909,6 @@ data:
         - glpk-devel
         - glslang-devel
         - glslc
-        - glyphicons-halflings-fonts
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -1413,18 +1411,12 @@ data:
         - jvnet-parent
         - jython
         - kde-settings
-        - kf5-attica
-        - kf5-attica-devel
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
         - kf5-kauth-devel
-        - kf5-kbookmarks
-        - kf5-kbookmarks-devel
         - kf5-kcodecs
         - kf5-kcodecs-devel
-        - kf5-kcompletion
-        - kf5-kcompletion-devel
         - kf5-kconfig
         - kf5-kconfig-core
         - kf5-kconfig-devel
@@ -1437,55 +1429,20 @@ data:
         - kf5-kcrash-devel
         - kf5-kdbusaddons
         - kf5-kdbusaddons-devel
-        - kf5-kded
-        - kf5-kded-devel
-        - kf5-kdelibs4support
-        - kf5-kdelibs4support-devel
-        - kf5-kdelibs4support-libs
-        - kf5-kdesignerplugin
         - kf5-kdoctools
         - kf5-kdoctools-devel
-        - kf5-kemoticons
-        - kf5-kemoticons-devel
-        - kf5-kglobalaccel
-        - kf5-kglobalaccel-devel
-        - kf5-kglobalaccel-libs
         - kf5-kguiaddons
         - kf5-kguiaddons-devel
         - kf5-ki18n
         - kf5-ki18n-devel
         - kf5-kiconthemes
         - kf5-kiconthemes-devel
-        - kf5-kinit
-        - kf5-kinit-devel
-        - kf5-kio
-        - kf5-kio-core
-        - kf5-kio-core-libs
-        - kf5-kio-devel
-        - kf5-kio-doc
-        - kf5-kio-file-widgets
-        - kf5-kio-gui
-        - kf5-kio-ntlm
-        - kf5-kio-widgets
-        - kf5-kio-widgets-libs
-        - kf5-kitemmodels
-        - kf5-kitemmodels-devel
         - kf5-kitemviews
         - kf5-kitemviews-devel
-        - kf5-kjobwidgets
-        - kf5-kjobwidgets-devel
         - kf5-knotifications
         - kf5-knotifications-devel
-        - kf5-kparts
-        - kf5-kparts-devel
-        - kf5-kplotting
-        - kf5-kplotting-devel
         - kf5-kservice
         - kf5-kservice-devel
-        - kf5-ktextwidgets
-        - kf5-ktextwidgets-devel
-        - kf5-kunitconversion
-        - kf5-kunitconversion-devel
         - kf5-kwallet
         - kf5-kwallet-devel
         - kf5-kwallet-libs
@@ -1493,15 +1450,7 @@ data:
         - kf5-kwidgetsaddons-devel
         - kf5-kwindowsystem
         - kf5-kwindowsystem-devel
-        - kf5-kxmlgui
-        - kf5-kxmlgui-devel
         - kf5-rpm-macros
-        - kf5-solid
-        - kf5-solid-devel
-        - kf5-sonnet
-        - kf5-sonnet-core
-        - kf5-sonnet-devel
-        - kf5-sonnet-ui
         - kmod-devel
         - koji
         - kyotocabinet-devel
@@ -1525,6 +1474,7 @@ data:
         - libabigail
         - libabw-devel
         - libacl-devel
+        - libadwaita-qt5-devel
         - libaec
         - libaec-devel
         - libaesgm
@@ -1611,8 +1561,6 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
-        - libe-book
-        - libe-book-devel
         - libecap-devel
         - libecb-devel
         - libeconf-devel
@@ -1823,9 +1771,6 @@ data:
         - libqhull_r
         - libqmi-devel
         - libqrcodegencpp-devel
-        - libquvi
-        - libquvi-devel
-        - libquvi-scripts
         - libqxp-devel
         - librabbitmq
         - librabbitmq-devel
@@ -1887,8 +1832,6 @@ data:
         - libuninameslist-devel
         - libunistring-devel
         - libunwind-devel
-        - libupnp
-        - libupnp-devel
         - libusb-devel
         - libusbmuxd-devel
         - libusbx-devel
@@ -1987,7 +1930,6 @@ data:
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
-        - lua-expat
         - lua-filesystem
         - luajit
         - luajit-devel
@@ -1995,7 +1937,6 @@ data:
         - lua-lpeg
         - lua-lunitx
         - lua-rpm-macros
-        - lua-socket
         - lua-term
         - lutok
         - lutok-devel
@@ -2092,7 +2033,6 @@ data:
         - maven-wagon-http-shared
         - mdds-devel
         - mecab-devel
-        - media-player-info
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -3114,8 +3054,10 @@ data:
         - php-symfony3-class-loader
         - php-symfony3-common
         - php-symfony3-config
+        - php-symfony3-console
         - php-symfony3-debug
         - php-symfony3-dependency-injection
+        - php-symfony3-doctrine-bridge
         - php-symfony3-event-dispatcher
         - php-symfony3-filesystem
         - php-symfony3-finder
@@ -3127,6 +3069,7 @@ data:
         - php-symfony3-property-access
         - php-symfony3-routing
         - php-symfony3-security
+        - php-symfony3-yaml
         - php-symfony4-cache
         - php-symfony4-common
         - php-symfony4-config
@@ -3270,6 +3213,7 @@ data:
         - python3-amqp
         - python3-apipkg
         - python3-appdirs
+        - python3-argon2-cffi
         - python3-arrow
         - python3-asgiref
         - python3-astroid
@@ -3305,6 +3249,8 @@ data:
         - python3-cherrypy
         - python3-cleo
         - python3-click
+        - python3-click-didyoumean
+        - python3-click-repl
         - python3-cliff
         - python3-clikit
         - python3-cmd2
@@ -3976,6 +3922,8 @@ data:
         - rust-approx+std-devel
         - rust-arc-swap+default-devel
         - rust-arc-swap-devel
+        - rust-argparse+default-devel
+        - rust-argparse-devel
         - rust-arrayvec+array-sizes-33-128-devel
         - rust-arrayvec+default-devel
         - rust-arrayvec-devel
@@ -4104,7 +4052,6 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
-        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque+default-devel
         - rust-crossbeam-deque-devel
         - rust-crossbeam-epoch+default-devel
@@ -4493,6 +4440,10 @@ data:
         - rust-once_cell+std-devel
         - rust-opaque-debug+default-devel
         - rust-opaque-debug-devel
+        - rust-openat+default-devel
+        - rust-openat-devel
+        - rust-openat-ext+default-devel
+        - rust-openat-ext-devel
         - rust-openssh-keys+default-devel
         - rust-openssh-keys-devel
         - rust-openssl+default-devel
@@ -4603,7 +4554,6 @@ data:
         - rust-rand0.6+alloc-devel
         - rust-rand0.6+default-devel
         - rust-rand0.6-devel
-        - rust-rand0.6+i128_support-devel
         - rust-rand0.6+std-devel
         - rust-rand+alloc-devel
         - rust-rand_chacha0.1+default-devel
@@ -4779,8 +4729,6 @@ data:
         - rust-smallvec-devel
         - rust-socket2+default-devel
         - rust-socket2-devel
-        - rust-spin+default-devel
-        - rust-spin-devel
         - rust-spmc+default-devel
         - rust-spmc-devel
         - rust-stable_deref_trait+alloc-devel
@@ -5239,6 +5187,7 @@ data:
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
         - tpm2-tss-devel
+        - trace-cmd-devel
         - tracker3-devel
         - tracker-devel
         - transfig
