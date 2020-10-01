@@ -8,8 +8,6 @@ data:
   packages:
   - libfabric-devel
   - fabtests
-  - opensm-devel
-  - qperf
   - openmpi
   - openmpi-devel
   - openmpi-java
@@ -22,3 +20,17 @@ data:
   - python3-mpich
   labels:
   - eln
+  arch_packages:
+    # not armv7hl
+    aarch64:
+      - opensm-devel
+      - qperf
+    ppc64le:
+      - opensm-devel
+      - qperf
+    s390x:
+      - opensm-devel
+      - qperf
+    x86_64:
+      - opensm-devel
+      - qperf
