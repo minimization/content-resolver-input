@@ -71,7 +71,6 @@ data:
         - atril-libs
         - audiofile
         - audiofile-devel
-        - audit-libs-devel
         - augeas
         - augeas-devel
         - auto-common
@@ -909,7 +908,6 @@ data:
         - glm-devel
         - glpk
         - glpk-devel
-        - glslang
         - glslang-devel
         - glslc
         - glyphicons-halflings-fonts
@@ -1316,11 +1314,8 @@ data:
         - imaptest
         - imlib2-devel
         - intltool
-        - ipa-client-common
-        - ipa-common
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
-        - ipa-server-common
         - iptables-devel
         - irrlicht
         - irrlicht-devel
@@ -1616,6 +1611,7 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
+        - libe-book
         - libe-book-devel
         - libecap-devel
         - libecb-devel
@@ -1623,6 +1619,7 @@ data:
         - libell-devel
         - libEMF
         - libEMF-devel
+        - libeot
         - libeot-devel
         - libepubgen-devel
         - libesmtp-devel
@@ -1660,7 +1657,6 @@ data:
         - libgit2-glib-devel
         - libglade2
         - libglade2-devel
-        - libGLEW
         - libglusterfs-devel
         - libgnat
         - libgnat-devel
@@ -2954,6 +2950,7 @@ data:
         - php-doctrine-sql-formatter
         - php-egulias-email-validator
         - php-egulias-email-validator2
+        - php-fedora-autoloader
         - php-fedora-autoloader-devel
         - php-fig-link-util
         - php-guzzlehttp-guzzle6
@@ -3239,6 +3236,7 @@ data:
         - protobuf-c-devel
         - protobuf-compiler
         - protobuf-devel
+        - protobuf-lite
         - protobuf-lite-devel
         - psl-make-dafsa
         - pstoedit
@@ -3732,7 +3730,6 @@ data:
         - quilt
         - quota-devel
         - ragel
-        - rapidjson-devel
         - raptor2-devel
         - rasqal-devel
         - rb_libtorrent
@@ -5059,7 +5056,6 @@ data:
         - sanlock-devel
         - sassc
         - satyr-devel
-        - sbc
         - sbc-devel
         - sblim-sfcc
         - sblim-sfcc-devel
@@ -5122,10 +5118,8 @@ data:
         - spice-gtk3-vala
         - spice-parent
         - spice-protocol
-        - spirv-headers-devel
         - spirv-tools
         - spirv-tools-devel
-        - spirv-tools-libs
         - sratom
         - sratom-devel
         - srt-devel
@@ -5288,8 +5282,6 @@ data:
         - vtk-devel
         - vtk-java
         - vtk-qt
-        - vulkan-headers
-        - vulkan-loader-devel
         - w3m
         - waf
         - wavpack-devel
@@ -6404,7 +6396,6 @@ data:
             - libieee1284-devel
             - libimobiledevice
             - libisofs-devel
-            - libmad
             - libplist
             - libsmi-devel
             - libusbmuxd
