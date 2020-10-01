@@ -1,0 +1,57 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Intel QAT Userspace
+  description: Userspace libraries and tools for Intel QAT hardware crypto device
+  maintainer: sst_kernel_tps
+
+# packages:
+#  - do not exist in fedora yet
+
+  labels:
+  - eln
+
+  package_placeholders:
+
+    qatlib:
+      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/qatlib
+#     requires:
+#     - glibc
+#     buildrequires:
+#     - systemd
+#     - gcc
+#     - make
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    qatlib-devel:
+      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/qatlib
+#     requires:
+#     - glibc
+#     buildrequires:
+#     - systemd
+#     - gcc
+#     - make
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    qatengine:
+      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/QAT_Engine
+#     requires:
+#     - glibc
+#     buildrequires:
+#     - gcc
+#     - make
+#     - pkg-config
+#     - openssl
+#     - openssl-devel
+#     - qatlib
+#     - qatlib-devel
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
