@@ -116,7 +116,6 @@ data:
     - udisks2-iscsi
     - udisks2-lsm
     - udisks2-lvm2
-    - udisks2-zram
 
     # Unsure packages
     # - mtx
