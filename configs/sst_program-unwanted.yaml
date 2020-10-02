@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Progam level unwanted packages
+  description: Unwanted packages
+  maintainer: jwboyer
+
+  unwanted_packages:
+    - etcd
+    - compat-golang-github-coreos-etcd-devel
+    - golang-etcd-devel
+    - golang-etcd-etcdserver-api-3rpc-devel
+
+  labels:
+  - eln
+
