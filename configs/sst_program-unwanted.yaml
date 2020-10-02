@@ -10,6 +10,7 @@ data:
     - compat-golang-github-coreos-etcd-devel
     - golang-etcd-devel
     - golang-etcd-etcdserver-api-3rpc-devel
+    - screen
 
   labels:
   - eln
