@@ -270,12 +270,3 @@ data:
           - man
         limit_arches:
           - x86_64
-
-      tuned-profiles-nfv-host-bin:
-        description: This package is not in Fedora (yet), but we want it here.
-        buildrequires:
-          - gcc
-          - make
-          - glibc
-        limit_arches:
-          - x86_64
