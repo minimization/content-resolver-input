@@ -1512,6 +1512,7 @@ data:
         - libblockdev-part-devel
         - libblockdev-swap-devel
         - libblockdev-utils-devel
+        - libblockdev-vdo
         - libbluray
         - libbluray-devel
         - libbpf-static
@@ -1707,6 +1708,7 @@ data:
         - libmypaint-devel
         - libnauty
         - libnauty-devel
+        - libnbd
         - libnbd-devel
         - libndp-devel
         - libnet-devel
@@ -5803,7 +5805,6 @@ data:
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
-            - sgpio
             - sisu-inject
             - sisu-plexus
             - spax
@@ -6219,7 +6220,6 @@ data:
             - sat4j
             - seabios-bin
             - sgabios-bin
-            - sgpio
             - sisu-inject
             - sisu-plexus
             - takari-polyglot-common
@@ -6408,7 +6408,6 @@ data:
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
-            - sgpio
             - sisu-inject
             - sisu-plexus
             - sparsehash-devel
