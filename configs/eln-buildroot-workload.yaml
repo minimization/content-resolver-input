@@ -61,8 +61,6 @@ data:
         - asio-devel
         - aspell-devel
         - aspell-en
-        - assimp
-        - assimp-devel
         - atf-tests
         - atkmm-devel
         - atlas
@@ -263,8 +261,6 @@ data:
         - device-mapper-multipath-devel
         - DevIL
         - DevIL-devel
-        - DevIL-ILUT
-        - DevIL-ILUT-devel
         - dietlibc
         - dietlibc-devel
         - diffstat
@@ -1315,10 +1311,6 @@ data:
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
         - iptables-devel
-        - irrlicht
-        - irrlicht-devel
-        - irrXML
-        - irrXML-devel
         - iscsi-initiator-utils-devel
         - isl
         - isl-devel
@@ -1474,11 +1466,8 @@ data:
         - libabigail
         - libabw-devel
         - libacl-devel
-        - libadwaita-qt5-devel
         - libaec
         - libaec-devel
-        - libaesgm
-        - libaesgm-devel
         - libao-devel
         - libaom-devel
         - libappindicator-gtk3-devel
@@ -1574,7 +1563,6 @@ data:
         - libesmtp-devel
         - libestr-devel
         - libetonyek-devel
-        - libev
         - libevdev-devel
         - libev-devel
         - libev-source
@@ -1646,6 +1634,7 @@ data:
         - libindicator-devel
         - libindicator-gtk3-devel
         - libini_config-devel
+        - libinput-devel
         - libiodbc
         - libiodbc-devel
         - libiptcdata-devel
@@ -1688,6 +1677,7 @@ data:
         - libmicrohttpd-devel
         - libmikmod
         - libmikmod-devel
+        - libmng
         - libmng-devel
         - libmnl-devel
         - libmodman-devel
@@ -1847,6 +1837,7 @@ data:
         - libvdpau
         - libvdpau-devel
         - libvdpau-trace
+        - libverto-libevent
         - libvirt-devel
         - libvirt-gconfig-devel
         - libvirt-glib-devel
@@ -1924,7 +1915,6 @@ data:
         - llvm7.0-libs
         - lmdb
         - lmdb-devel
-        - Lmod
         - lockdev-devel
         - log4j
         - lorax
@@ -1932,14 +1922,10 @@ data:
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
-        - lua-filesystem
         - luajit
         - luajit-devel
-        - lua-json
-        - lua-lpeg
         - lua-lunitx
         - lua-rpm-macros
-        - lua-term
         - lutok
         - lutok-devel
         - lv2
@@ -2035,6 +2021,7 @@ data:
         - maven-wagon-http-shared
         - mdds-devel
         - mecab-devel
+        - mesa-libEGL-devel
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -2062,8 +2049,6 @@ data:
         - mingw-filesystem-base
         - miniz
         - miniz-devel
-        - minizip-compat
-        - minizip-compat-devel
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
@@ -3162,8 +3147,6 @@ data:
         - polkit-docs
         - polkit-qt5-1
         - polkit-qt5-1-devel
-        - poly2tri
-        - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -3639,18 +3622,33 @@ data:
         - qscintilla-qt5
         - qscintilla-qt5-devel
         - qstat
+        - qt
         - qt3
         - qt3-devel
+        - qt5-designer
+        - qt5-doctools
+        - qt5-linguist
+        - qt5-qtbase-devel
+        - qt5-qtbase-doc
         - qt5-qtbase-private-devel
+        - qt5-qtbase-static
         - qt5-qtconnectivity-devel
+        - qt5-qtdeclarative-devel
+        - qt5-qtdeclarative-static
         - qt5-qtlocation-devel
         - qt5-qtmultimedia-devel
+        - qt5-qtscript
         - qt5-qtscript-devel
         - qt5-qtsensors-devel
         - qt5-qtserialport-devel
         - qt5-qtspeech
         - qt5-qtspeech-devel
         - qt5-qtsvg-devel
+        - qt5-qttools
+        - qt5-qttools-devel
+        - qt5-qttools-libs-designercomponents
+        - qt5-qttools-static
+        - qt5-qtwayland
         - qt5-qtwayland-devel
         - qt5-qtwebchannel-devel
         - qt5-qtwebkit
@@ -3658,6 +3656,8 @@ data:
         - qt5-qtwebsockets-devel
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
+        - qt5-rpm-macros
+        - qt-common
         - qt-devel
         - qt-mobility
         - qt-mobility-bearer
@@ -3675,6 +3675,7 @@ data:
         - qt-mobility-systeminfo
         - qtwebkit
         - qtwebkit-devel
+        - qt-x11
         - quilt
         - quota-devel
         - ragel
@@ -5232,6 +5233,7 @@ data:
         - vtk-devel
         - vtk-java
         - vtk-qt
+        - vulkan-loader-devel
         - w3m
         - waf
         - wavpack-devel
