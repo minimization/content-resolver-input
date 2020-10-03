@@ -224,7 +224,9 @@ data:
         - compat-golang-github-godbus-dbus-5-devel
         - compat-golang-github-google-32-devel
         - compat-golang-github-google-martian-3-devel
+        - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
+        - compat-golang-mvdan-xurls-2-devel
         - compat-lua
         - compat-lua-devel
         - compat-lua-libs
@@ -985,6 +987,7 @@ data:
         - golang-github-envoyproxy-control-plane-devel
         - golang-github-envoyproxy-protoc-gen-validate-devel
         - golang-github-fatih-color-devel
+        - golang-github-fortytw2-leaktest-devel
         - golang-github-franela-goblin-devel
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
@@ -1054,6 +1057,8 @@ data:
         - golang-github-kevinburke-ssh-config-devel
         - golang-github-kisielk-gotool-devel
         - golang-github-kit-devel
+        - golang-github-klauspost-compress-devel
+        - golang-github-klauspost-cpuid-devel
         - golang-github-knetic-govaluate-devel
         - golang-github-kr-fs-devel
         - golang-github-kr-pretty-devel
@@ -1116,12 +1121,11 @@ data:
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
         - golang-github-satori-uuid-devel
-        - golang-github-schollz-progressbar-2-devel
+        - golang-github-schollz-progressbar-3-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
         - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
-        - golang-github-shopify-toxiproxy-devel
         - golang-github-shopspring-decimal-devel
         - golang-github-shurcool-githubv4-devel
         - golang-github-shurcool-graphql-devel
@@ -1173,19 +1177,24 @@ data:
         - golang-gopkg-errgo-2-devel
         - golang-gopkg-gcfg-1-devel
         - golang-gopkg-ini-1-devel
+        - golang-gopkg-jcmturner-aescts-1-devel
+        - golang-gopkg-jcmturner-dnsutils-1-devel
+        - golang-gopkg-jcmturner-goidentity-3-devel
+        - golang-gopkg-jcmturner-gokrb5-7-devel
+        - golang-gopkg-jcmturner-rpc-1-devel
         - golang-gopkg-logex-1-devel
         - golang-gopkg-readline-1-devel
         - golang-gopkg-russross-blackfriday-2-devel
         - golang-gopkg-src-d-billy-4-devel
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
-        - golang-gopkg-tomb-1-devel
         - golang-gopkg-tomb-2-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
         - golang-gopkg-yaml-2-devel
         - golang-gopkg-yaml-3-devel
         - golang-honnef-tools-devel
+        - golang-mvdan-gofumpt-devel
         - golang-mvdan-xurls-devel
         - golang-opencensus-devel
         - golang-rsc-binaryregexp-devel
@@ -1501,7 +1510,6 @@ data:
         - libblockdev-part-devel
         - libblockdev-swap-devel
         - libblockdev-utils-devel
-        - libblockdev-vdo
         - libbluray
         - libbluray-devel
         - libbpf-static
@@ -1837,7 +1845,6 @@ data:
         - libvdpau
         - libvdpau-devel
         - libvdpau-trace
-        - libverto-libevent
         - libvirt-devel
         - libvirt-gconfig-devel
         - libvirt-glib-devel
