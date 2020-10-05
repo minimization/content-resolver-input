@@ -6,6 +6,13 @@ data:
   maintainer: jwboyer
 
   unwanted_packages:
+    - bodhi-client
+    - bodhi-composer
+    - bodhi-docs
+    - bodhi-server
+    - python3-bodhi
+    - python3-bodhi-client
+    - python3-bodhi-messages
     - btrfs-progs
     - btrfs-progs-devel
     - erlang
