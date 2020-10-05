@@ -1,0 +1,47 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Progam level unwanted packages
+  description: Unwanted packages
+  maintainer: jwboyer
+
+  unwanted_packages:
+    - btrfs-progs
+    - btrfs-progs-devel
+    - erlang
+    - etcd
+    - compat-golang-github-coreos-etcd-devel
+    - golang-etcd-devel
+    - golang-etcd-etcdserver-api-3rpc-devel
+    - ghc
+    - ImageMagick
+    - ImageMagick-c++
+    - ImageMagick-c++-devel
+    - ImageMagick-devel
+    - ImageMagick-libs
+    - ImageMagick-perl
+    - imake
+    - mono-core
+    - mono-data
+    - mono-data-sqlite
+    - mono-devel
+    - mono-extras
+    - mono-mvc
+    - mono-wcf
+    - mono-web
+    - mono-winforms
+    - monodoc
+    - monodoc-devel
+    - R-core
+    - R-core-devel
+    - R-devel
+    - R-java-devel
+    - R-rpm-macros
+    - redhat-lsb-core
+    - redhat-lsb-submod-security
+    - reiserfs-utils
+    - screen
+
+  labels:
+  - eln
+
