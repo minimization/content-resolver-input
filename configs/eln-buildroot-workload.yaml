@@ -1824,7 +1824,6 @@ data:
         - libva-devel
         - libvala-devel
         - libvarlink-devel
-        - libvdpau
         - libvdpau-devel
         - libvdpau-trace
         - libvirt-devel
