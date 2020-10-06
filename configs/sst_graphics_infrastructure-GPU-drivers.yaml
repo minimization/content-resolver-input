@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: 3D drivers
-  description: Contains the user space APIs and 3D drivers for all GPUs supported in RHEL
+  name: GPU drivers
+  description: Contains the user space APIs and drivers for the GPUs supported in RHEL
   maintainer: sst_graphics_infrastructure
 
   packages:
@@ -18,6 +18,8 @@ data:
     - mesa-demos
     - glslang
     - spirv-headers-devel
+    # Video decoding hw accel (currently only used by the NVIDIA driver)
+    - libvdpau
 
   labels:
     - eln
