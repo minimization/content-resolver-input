@@ -8,6 +8,7 @@ data:
   unwanted_packages:
   - fakechroot
   - fakeroot
+  - gperftools
   - libvirt-snmp
   - libunwind
   - ocaml-camlp4
