@@ -9,7 +9,6 @@ data:
   - amtterm
   - augeas
   - dtc
-  - edk2
   - fuse-sshfs
   - gtk-vnc
   - hexedit
@@ -67,5 +66,8 @@ data:
     x86_64:
     - virt-v2v
     - virt-p2v
+    - edk2-ovmf
     ppc64le:
     - SLOF
+    aarch64:
+    - edk2-aarch64
