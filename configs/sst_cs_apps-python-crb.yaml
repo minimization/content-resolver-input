@@ -18,6 +18,8 @@ data:
   - python3-sphinx
   - python3-wheel
   - python3-pytest
+  - py3c-devel
+  - py3c-doc
 
   labels:
   - eln
