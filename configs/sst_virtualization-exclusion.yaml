@@ -14,6 +14,7 @@ data:
   - ocaml-camlp4
   - OVMF
   - perl-Sys-Virt
+  - rhevm-guest-agent
   - spice-xpi
   - virt-rhel-module
 
