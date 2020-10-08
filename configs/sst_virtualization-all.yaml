@@ -41,7 +41,7 @@ data:
   - ocaml-xml-light
   - osinfo-db
   - osinfo-db-tools
-  - phodav
+  - libphodav
   - po4a
   - python-augeas
   - python3-libvirt
