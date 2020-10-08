@@ -10,20 +10,18 @@ data:
   - augeas
   - dtc
   - fuse-sshfs
-  - gtk-vnc
+  - gtk-vnc2
   - hexedit
   - hivex
   - icoutils
   - ipxe-roms-qemu
   - libguestfs
-  - libguestfs-winsupport
   - libiscsi
   - libnbd
   - libosinfo
   - libvirt
   - libvirt-dbus
   - libvirt-glib
-  - libvirt-python
   - mdevctl
   - nbdkit
   - netcf
@@ -43,31 +41,40 @@ data:
   - ocaml-xml-light
   - osinfo-db
   - osinfo-db-tools
-  - phodav
+  - libphodav
   - po4a
   - python-augeas
+  - python3-libvirt
   - qemu-guest-agent
   - qemu-kvm
-  - rhevm-guest-agent
   - seabios
   - sgabios
   - spice-html5
   - supermin
   - vhostmd
-  - virt-manager
+  - virt-install
   - virt-top
   - virt-what
-  - xorg-x11-drv-qxl
 
   labels:
   - eln
 
   arch_packages:
     x86_64:
+    - edk2-ovmf
     - virt-v2v
     - virt-p2v
-    - edk2-ovmf
+    - xorg-x11-drv-qxl
     ppc64le:
     - SLOF
+    - xorg-x11-drv-qxl
     aarch64:
     - edk2-aarch64
+    - xorg-x11-drv-qxl
+
+    libguestfs-winsupport:
+      description: Add support for Windows guests to virt-v2v and virt-p2v
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
