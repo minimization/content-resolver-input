@@ -63,7 +63,6 @@ data:
         - atril-libs
         - audiofile
         - audiofile-devel
-        - augeas
         - augeas-devel
         - auto-common
         - autoconf213
@@ -137,7 +136,6 @@ data:
         - breezy
         - brlapi-devel
         - bsh
-        - btrfs-progs
         - btrfs-progs-devel
         - buildnumber-maven-plugin
         - byaccj
@@ -1570,7 +1568,6 @@ data:
         - libmypaint-devel
         - libnauty
         - libnauty-devel
-        - libnbd
         - libnbd-devel
         - libndp-devel
         - libnet-devel
@@ -1879,8 +1876,6 @@ data:
         - mftrace
         - mingw32-binutils
         - mingw32-cpp
-        - mingw32-crt
-        - mingw32-filesystem
         - mingw32-gcc
         - mingw32-gcc-c++
         - mingw32-headers
@@ -1894,7 +1889,6 @@ data:
         - mingw64-headers
         - mingw64-winpthreads
         - mingw-binutils-generic
-        - mingw-filesystem-base
         - miniz
         - miniz-devel
         - mobile-broadband-provider-info-devel
@@ -1971,16 +1965,10 @@ data:
         - nunit-devel
         - objectweb-pom
         - objenesis
-        - ocaml
-        - ocaml-compiler-libs
-        - ocaml-findlib
         - ocaml-findlib-devel
-        - ocaml-labltk
         - ocaml-labltk-devel
-        - ocaml-ocamlbuild
         - ocaml-ocamlbuild-devel
         - ocaml-ocamldoc
-        - ocaml-runtime
         - ocaml-zarith
         - ocaml-zarith-devel
         - octave
@@ -2221,7 +2209,6 @@ data:
         - perl-Linux-Pid
         - perl-List-Pairwise
         - perl-Locale-Codes
-        - perl-Locale-gettext
         - perl-Locale-Maketext-Gettext
         - perl-Locale-Maketext-Lexicon
         - perl-Locale-Msgfmt
@@ -2388,14 +2375,12 @@ data:
         - perl-Test-Warnings
         - perl-Test-Without-Module
         - perl-Test-XML
-        - perl-Text-CharWidth
         - perl-Text-CSV_XS
         - perl-Text-Haml
         - perl-Text-Iconv
         - perl-Text-LevenshteinXS
         - perl-Text-VCardFast
         - perl-Text-vFile-asData
-        - perl-Text-WrapI18N
         - perl-Tie-DataUUID
         - perl-Tie-IxHash
         - perl-Tk
@@ -2425,7 +2410,6 @@ data:
         - perl-XXX
         - perl-YAML-PP
         - perl-YAML-Syck
-        - perl-YAML-Tiny
         - phonon-qt4
         - phonon-qt4-devel
         - phonon-qt5
@@ -2448,7 +2432,6 @@ data:
         - plymouth-devel
         - pmix-devel
         - pngcrush
-        - po4a
         - polkit-devel
         - polkit-docs
         - polkit-qt5-1
@@ -4474,7 +4457,6 @@ data:
         - yasm
         - yelp-devel
         - yelp-xsl-devel
-        - yum-utils
         - z3-devel
         - z3-libs
         - zchunk-devel
@@ -4653,6 +4635,9 @@ data:
             - meanwhile-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
             - ncurses-compat-libs
             - objectweb-asm
             - ocl-icd-devel
@@ -4662,9 +4647,6 @@ data:
             - pacemaker-libs
             - pacemaker-libs-devel
             - pacemaker-schemas
-            - perl-Convert-BinHex
-            - perl-IO-SessionData
-            - perl-MIME-tools
             - plexus-archiver
             - plexus-build-api
             - plexus-cipher
@@ -4953,9 +4935,6 @@ data:
             - rust-y4m+default-devel
             - rust-y4m-devel
             - sat4j
-            - seabios-bin
-            - seavgabios-bin
-            - sgabios-bin
             - sisu-inject
             - sisu-plexus
             - spax
@@ -5131,6 +5110,9 @@ data:
             - maven-wagon-provider-api
             - meanwhile
             - meanwhile-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
             - objectweb-asm
             - ocl-icd-devel
             - opentest4j
@@ -5367,8 +5349,6 @@ data:
             - rust-y4m+default-devel
             - rust-y4m-devel
             - sat4j
-            - seabios-bin
-            - sgabios-bin
             - sisu-inject
             - sisu-plexus
             - takari-polyglot-common
@@ -5531,6 +5511,9 @@ data:
             - maven-wagon-provider-api
             - metis
             - metis-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
             - mozilla-filesystem
             - objectweb-asm
             - oniguruma-devel
@@ -5553,9 +5536,6 @@ data:
             - qemu-system-x86-core
             - regexp
             - sat4j
-            - seabios-bin
-            - seavgabios-bin
-            - sgabios-bin
             - sisu-inject
             - sisu-plexus
             - sparsehash-devel
