@@ -6,10 +6,16 @@ data:
   maintainer: sst_virtualization
 
   unwanted_packages:
-  - libunwind
   - fakechroot
   - fakeroot
+  - gperftools
+  - libvirt-snmp
+  - libunwind
   - ocaml-camlp4
+  - OVMF
+  - perl-Sys-Virt
+  - spice-xpi
+  - virt-rhel-module
 
   labels:
   - eln

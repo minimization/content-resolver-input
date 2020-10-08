@@ -9,14 +9,12 @@ data:
   - amtterm
   - augeas
   - dtc
-  - edk2
   - fuse-sshfs
-  - gperftools
   - gtk-vnc
   - hexedit
   - hivex
   - icoutils
-  - ipxe
+  - ipxe-roms-qemu
   - libguestfs
   - libguestfs-winsupport
   - libiscsi
@@ -26,16 +24,7 @@ data:
   - libvirt-dbus
   - libvirt-glib
   - libvirt-python
-  - libvirt-snmp
   - mdevctl
-  - mingw-binutils
-  - mingw-crt
-  - mingw-filesystem
-  - mingw-gcc
-  - mingw-headers
-  - mingw-pkg-config
-  - mingw-srvany
-  - mingw-w64-tools
   - nbdkit
   - netcf
   - ocaml
@@ -54,8 +43,6 @@ data:
   - ocaml-xml-light
   - osinfo-db
   - osinfo-db-tools
-  - OVMF
-  - perl-Sys-Virt
   - phodav
   - po4a
   - python-augeas
@@ -64,14 +51,10 @@ data:
   - rhevm-guest-agent
   - seabios
   - sgabios
-  - SLOF
   - spice-html5
-  - spice-xpi
   - supermin
   - vhostmd
   - virt-manager
-  - virt-p2v
-  - virt-rhel-module
   - virt-top
   - virt-what
   - xorg-x11-drv-qxl
@@ -82,3 +65,9 @@ data:
   arch_packages:
     x86_64:
     - virt-v2v
+    - virt-p2v
+    - edk2-ovmf
+    ppc64le:
+    - SLOF
+    aarch64:
+    - edk2-aarch64
