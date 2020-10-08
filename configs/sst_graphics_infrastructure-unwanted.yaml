@@ -31,5 +31,7 @@ data:
   - celt051
   # Ancient build system, with low upstream maintenance.
   - imake
+  # Only used by optional plugin of hwloc, removed for RHEL.
+  - libXNVCtrl
   labels:
   - eln
