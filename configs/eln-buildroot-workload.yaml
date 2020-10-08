@@ -319,7 +319,6 @@ data:
         - fluidsynth-devel
         - fluidsynth-libs
         - fmt-devel
-        - fontawesome-fonts-web
         - fontbox
         - fontforge
         - fontforge-devel
@@ -2482,7 +2481,6 @@ data:
         - pugixml-devel
         - pulseaudio-libs-devel
         - pungi
-        - py3c-devel
         - pybind11-devel
         - pygobject2
         - pygobject2-codegen
@@ -2836,7 +2834,6 @@ data:
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
         - python3-sphinx-removed-in
-        - python3-sphinx_rtd_theme
         - python3-sphinxtesters
         - python3-sphinx-testing
         - python3-sphinx-theme-py3doc-enhanced
