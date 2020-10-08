@@ -250,6 +250,7 @@ data:
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
+        - dnf-plugin-subscription-manager
         - docbook2X
         - dom4j
         - dontpanic
