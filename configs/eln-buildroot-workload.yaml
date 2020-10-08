@@ -20,6 +20,8 @@ data:
         - adobe-mappings-pdf-devel
         - adobe-source-sans-pro-fonts
         - adwaita-icon-theme-devel
+        - afflib
+        - afflib-devel
         - alex
         - alsa-lib-devel
         - amtk-devel
@@ -241,7 +243,10 @@ data:
         - dcmtk
         - dcmtk-devel
         - dconf-devel
+        - debootstrap
         - device-mapper-multipath-devel
+        - dietlibc
+        - dietlibc-devel
         - diffstat
         - disruptor
         - distribution-gpg-keys
@@ -816,6 +821,8 @@ data:
         - glpk-devel
         - glslang-devel
         - glslc
+        - glusterfs
+        - glusterfs-fuse
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -1185,10 +1192,12 @@ data:
         - hdf-devel
         - hdf-libs
         - hdf-static
+        - hfsplus-tools
         - hidapi
         - hidapi-devel
         - hiredis
         - hiredis-devel
+        - hivex-devel
         - hscolour
         - hscolour-common
         - hsqldb-lib
@@ -1276,6 +1285,7 @@ data:
         - jffi-native
         - jflex
         - jFormatString
+        - jfsutils
         - jgit
         - jimtcl
         - jimtcl-devel
@@ -1454,6 +1464,8 @@ data:
         - libev
         - libevdev-devel
         - libev-devel
+        - libewf
+        - libewf-devel
         - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
@@ -1491,6 +1503,7 @@ data:
         - libgta-devel
         - libgtop2-devel
         - libgudev-devel
+        - libguestfs-devel
         - libgusb-devel
         - libgxim
         - libgxim-devel
@@ -1528,6 +1541,7 @@ data:
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
+        - libldm-devel
         - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
@@ -1698,6 +1712,8 @@ data:
         - libvarlink-devel
         - libvdpau-devel
         - libvdpau-trace
+        - libvirt-daemon-driver-storage-sheepdog
+        - libvirt-daemon-qemu
         - libvirt-devel
         - libvirt-gconfig-devel
         - libvirt-glib-devel
@@ -1775,6 +1791,7 @@ data:
         - lua-json
         - lua-lpeg
         - lua-lunitx
+        - lua-rpm-macros
         - lua-term
         - lutok
         - lutok-devel
@@ -1785,6 +1802,7 @@ data:
         - m17n-db-extras
         - m17n-lib-devel
         - m17n-lib-tools
+        - mac-robber
         - malaga
         - marisa-devel
         - mate-common
@@ -1938,6 +1956,7 @@ data:
         - nasm
         - nautilus-devel
         - nbd
+        - nbdkit-python-plugin
         - ncompress
         - neon-devel
         - netcdf
@@ -1953,22 +1972,68 @@ data:
         - newt-devel
         - nftables-devel
         - nghttp2
+        - nilfs-utils
         - ninja-build
         - nkf
         - nodejs-underscore
         - npth-devel
         - nscd
         - nss_wrapper
+        - ntfs-3g-devel
         - ntp
         - numactl-devel
         - nunit
         - nunit-devel
         - objectweb-pom
         - objenesis
+        - ocaml-bisect-ppx
+        - ocaml-bisect-ppx-devel
+        - ocaml-calendar-devel
+        - ocaml-camomile
+        - ocaml-camomile-devel
+        - ocaml-cmdliner
+        - ocaml-cmdliner-devel
+        - ocaml-csexp
+        - ocaml-csexp-devel
+        - ocaml-csv-devel
+        - ocaml-curses-devel
+        - ocaml-dune
+        - ocaml-dune-devel
+        - ocaml-extlib-devel
+        - ocaml-fileutils-devel
         - ocaml-findlib-devel
+        - ocaml-gettext-devel
+        - ocaml-hivex
+        - ocaml-hivex-devel
         - ocaml-labltk-devel
+        - ocaml-libguestfs
+        - ocaml-libguestfs-devel
+        - ocaml-libvirt-devel
+        - ocaml-lwt
+        - ocaml-lwt-devel
+        - ocaml-migrate-parsetree
+        - ocaml-migrate-parsetree-devel
+        - ocaml-mmap
+        - ocaml-mmap-devel
         - ocaml-ocamlbuild-devel
         - ocaml-ocamldoc
+        - ocaml-ocplib-endian
+        - ocaml-ocplib-endian-devel
+        - ocaml-ounit
+        - ocaml-ounit-devel
+        - ocaml-ppx-derivers
+        - ocaml-ppx-derivers-devel
+        - ocaml-ppx-tools-versioned
+        - ocaml-ppx-tools-versioned-devel
+        - ocaml-react
+        - ocaml-react-devel
+        - ocaml-result
+        - ocaml-result-devel
+        - ocaml-seq
+        - ocaml-seq-devel
+        - ocaml-topkg
+        - ocaml-topkg-devel
+        - ocaml-xml-light-devel
         - ocaml-zarith
         - ocaml-zarith-devel
         - octave
@@ -2135,6 +2200,7 @@ data:
         - perl-Env-Sanctify
         - perl-Env-ShellWords
         - perl-Event
+        - perl-Expect
         - perl-ExtUtils-Config
         - perl-ExtUtils-CppGuess
         - perl-ExtUtils-Depends
@@ -2170,6 +2236,7 @@ data:
         - perl-Graphics-TIFF
         - perl-GTop
         - perl-Guard
+        - perl-hivex
         - perl-Hook-LexWrap
         - perl-HTML-Formatter
         - perl-HTML-FormatText-WithLinks
@@ -2319,6 +2386,8 @@ data:
         - perl-SUPER
         - perl-Switch
         - perl-Syntax-Highlight-Engine-Kate
+        - perl-Sys-Guestfs
+        - perl-Sys-Virt
         - perl-Taint-Runtime
         - perl-Task-Weaken
         - perl-Template-Toolkit
@@ -2640,6 +2709,7 @@ data:
         - python3-libftdi
         - python3-libmodulemd
         - python3-libmount
+        - python3-libnbd
         - python3-libpamtest
         - python3-lockfile
         - python3-m2r
@@ -2888,6 +2958,44 @@ data:
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
+        - qemu
+        - qemu-system-alpha
+        - qemu-system-alpha-core
+        - qemu-system-arm
+        - qemu-system-arm-core
+        - qemu-system-avr
+        - qemu-system-avr-core
+        - qemu-system-cris
+        - qemu-system-cris-core
+        - qemu-system-lm32
+        - qemu-system-lm32-core
+        - qemu-system-m68k
+        - qemu-system-m68k-core
+        - qemu-system-microblaze
+        - qemu-system-microblaze-core
+        - qemu-system-mips
+        - qemu-system-mips-core
+        - qemu-system-moxie
+        - qemu-system-moxie-core
+        - qemu-system-nios2
+        - qemu-system-nios2-core
+        - qemu-system-or1k
+        - qemu-system-or1k-core
+        - qemu-system-riscv
+        - qemu-system-riscv-core
+        - qemu-system-rx
+        - qemu-system-rx-core
+        - qemu-system-sh4
+        - qemu-system-sh4-core
+        - qemu-system-sparc
+        - qemu-system-sparc-core
+        - qemu-system-tricore
+        - qemu-system-tricore-core
+        - qemu-system-unicore32
+        - qemu-system-unicore32-core
+        - qemu-system-xtensa
+        - qemu-system-xtensa-core
+        - qemu-user
         - qhull-devel
         - qjson
         - qjson-devel
@@ -2951,6 +3059,7 @@ data:
         - readline-devel
         - redland-devel
         - reflections
+        - reiserfs-utils
         - relaxngDatatype
         - relaxngDatatype-javadoc
         - replacer
@@ -4275,6 +4384,7 @@ data:
         - sg3_utils-devel
         - shapelib-devel
         - sharutils
+        - sheepdog
         - ShellCheck
         - shrinkwrap
         - shrinkwrap-impl-base
@@ -4282,11 +4392,14 @@ data:
         - sip
         - sisu-mojos
         - slang-devel
+        - sleuthkit
+        - sleuthkit-libs
         - slf4j-ext
         - slf4j-sources
         - snakeyaml
         - snappy-devel
         - snappy-java
+        - socat
         - socket_wrapper
         - sombok-devel
         - soundtouch-devel
@@ -4318,6 +4431,7 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
+        - supermin-devel
         - symlinks
         - sysprof-devel
         - t1lib
@@ -4529,6 +4643,7 @@ data:
             - efl
             - efl-devel
             - esmtp
+            - extlinux-bootloader
             - farstream02
             - farstream02-devel
             - felix-gogo-command
@@ -4540,6 +4655,7 @@ data:
             - gnu-efi-devel
             - google-guice
             - grpc
+            - grubby-deprecated
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4585,6 +4701,7 @@ data:
             - libgnt
             - libgnt-devel
             - libgpuarray
+            - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
             - libknet1-devel
@@ -4641,6 +4758,7 @@ data:
             - ncurses-compat-libs
             - objectweb-asm
             - ocl-icd-devel
+            - openbios
             - opentest4j
             - openwsman-python3
             - pacemaker-cluster-libs
@@ -4716,6 +4834,10 @@ data:
             - python3-wurlitzer
             - python3-yarl
             - qdox
+            - qemu-system-ppc
+            - qemu-system-ppc-core
+            - qemu-system-s390x
+            - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
             - rav1e-devel
@@ -4937,6 +5059,7 @@ data:
             - sat4j
             - sisu-inject
             - sisu-plexus
+            - SLOF
             - spax
             - spice-server-devel
             - takari-polyglot-common
@@ -5067,12 +5190,14 @@ data:
             - libgnt
             - libgnt-devel
             - libgpuarray
+            - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
             - libnice-gstreamer1
             - libpq-devel
             - libpurple
             - libraw1394-devel
+            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - libXScrnSaver
@@ -5146,6 +5271,10 @@ data:
             - python3-theano
             - python3-wurlitzer
             - qdox
+            - qemu-system-aarch64
+            - qemu-system-aarch64-core
+            - qemu-system-s390x
+            - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
             - rav1e-devel
@@ -5369,6 +5498,7 @@ data:
             - xmvn-resolve
             - xmvn-subst
             - xz-java
+            - zfs-fuse
         s390x:
             - ant
             - ant-antlr
@@ -5470,6 +5600,7 @@ data:
             - libdv
             - libdvdread-devel
             - libftdi
+            - libguestfs-tools-c
             - libieee1284-devel
             - libimobiledevice
             - libisofs-devel
@@ -5517,6 +5648,7 @@ data:
             - mozilla-filesystem
             - objectweb-asm
             - oniguruma-devel
+            - openbios
             - opentest4j
             - plexus-archiver
             - plexus-build-api
@@ -5532,12 +5664,17 @@ data:
             - pugixml
             - python3-javapackages
             - qdox
+            - qemu-system-aarch64
+            - qemu-system-aarch64-core
+            - qemu-system-ppc
+            - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
             - regexp
             - sat4j
             - sisu-inject
             - sisu-plexus
+            - SLOF
             - sparsehash-devel
             - takari-polyglot-common
             - tesseract
@@ -5569,6 +5706,7 @@ data:
             - dbus-c++-glib
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
+            - edk2-aarch64
             - efivar-devel
             - efl
             - efl-devel
@@ -5600,12 +5738,14 @@ data:
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
+            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - meanwhile
             - meanwhile-devel
             - mesa-libxatracker-devel
             - ocl-icd-devel
+            - openbios
             - openni
             - openni-devel
             - openni-primesense
@@ -5621,6 +5761,12 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
+            - qemu-system-aarch64
+            - qemu-system-aarch64-core
+            - qemu-system-ppc
+            - qemu-system-ppc-core
+            - qemu-system-s390x
+            - qemu-system-s390x-core
             - rav1e-devel
             - rav1e-libs
             - rlottie
@@ -5820,9 +5966,11 @@ data:
             - rust-xattr+unsupported-devel
             - rust-y4m+default-devel
             - rust-y4m-devel
+            - SLOF
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
             - xen-devel
+            - zfs-fuse
