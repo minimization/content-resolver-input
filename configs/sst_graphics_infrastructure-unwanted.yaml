@@ -23,15 +23,21 @@ data:
   - evemu
   # Not maintained upstream, very ancient tool, and don't have resoures to maintain an extra GUI toolkit and window manager
   - motif
-  # BR for raw-thumbnailer and tumbler, neither of which should be in EL9.
-  - libopenraw
-  # BR for rubygem-clutter-gstreamer. Said rubygem shouldn't be in EL9.
+  # BR for rubygem-clutter-gstreamer. Said rubygem shouldn't be in EL9. Also, superseeded by clutter-gst3.
   - clutter-gst2
-  # Virtually unused even in Fedora, might have been used by spice once upon a time.
+  # Virtually unused even in Fedora, might have been used by spice once upon a time. Also, superseeded by opus.
   - celt051
   # Ancient build system, with low upstream maintenance.
   - imake
   # Only used by optional plugin of hwloc, removed for RHEL.
   - libXNVCtrl
+  # Only used for some old games and emulators
+  - SFML
+  # Only used by some multimedia apps we don't ship
+  - libmpcdec
+  # Seems unused
+  - libsamplerate
+  # It should go
+  - libxml++
   labels:
   - eln
