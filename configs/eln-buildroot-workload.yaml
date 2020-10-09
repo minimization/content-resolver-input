@@ -266,7 +266,6 @@ data:
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
-        - dnf-plugin-subscription-manager
         - docbook2X
         - dom4j
         - dontpanic
@@ -282,8 +281,6 @@ data:
         - eglexternalplatform-devel
         - egl-wayland
         - egl-wayland-devel
-        - enca
-        - enca-devel
         - epstool
         - espeak-ng-devel
         - evince-devel
@@ -376,6 +373,9 @@ data:
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
+        - GeoIP
+        - GeoIP-devel
+        - GeoIP-GeoLite-data
         - geos
         - geos-devel
         - gettext-common-devel
@@ -1245,7 +1245,6 @@ data:
         - isl
         - isl-devel
         - isns-utils-devel
-        - isorelax
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1306,7 +1305,6 @@ data:
         - jfsutils
         - jimtcl
         - jimtcl-devel
-        - jing
         - jitterentropy-devel
         - jmock
         - jmock-imposters
@@ -1454,8 +1452,6 @@ data:
         - libconfig-devel
         - libconfuse
         - libconfuse-devel
-        - libcue
-        - libcue-devel
         - libdaemon-devel
         - libdazzle-devel
         - libdbi
@@ -1517,8 +1513,6 @@ data:
         - libglusterfs-devel
         - libgnomekbd-devel
         - libgphoto2-devel
-        - libgrss
-        - libgrss-devel
         - libgsasl
         - libgsasl-devel
         - libgsf-devel
@@ -1987,7 +1981,6 @@ data:
         - mp-devel
         - mpg123-devel
         - mpi4py-common
-        - msv-xsdlib
         - mtdev-devel
         - multilib-rpm-config
         - MUMPS
@@ -2875,7 +2868,6 @@ data:
         - python3-pyramid-fas-openid
         - python3-pyramid-mako
         - python3-pyroute2
-        - python3-pysendfile
         - python3-pytest-aiohttp
         - python3-pytest-asyncio
         - python3-pytest-benchmark
@@ -3117,6 +3109,8 @@ data:
         - ragel
         - raptor2-devel
         - rasqal-devel
+        - rb_libtorrent
+        - rb_libtorrent-devel
         - R-core
         - R-core-devel
         - R-devel
@@ -3128,8 +3122,6 @@ data:
         - reflections
         - regexp
         - reiserfs-utils
-        - relaxngDatatype
-        - relaxngDatatype-javadoc
         - replacer
         - rest-devel
         - rgb
@@ -3641,9 +3633,9 @@ data:
         - rust-generic-array-devel
         - rust-getopts+default-devel
         - rust-getopts-devel
-        - rust-getrandom+default-devel
-        - rust-getrandom-devel
-        - rust-getrandom+std-devel
+        - rust-getrandom0.1+default-devel
+        - rust-getrandom0.1-devel
+        - rust-getrandom0.1+std-devel
         - rust-gimli-devel
         - rust-gimli+endian-reader-devel
         - rust-gimli+read-devel
@@ -4643,7 +4635,6 @@ data:
         - xorg-x11-server-source
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
-        - xpp3
         - xxhash-devel
         - xz-java
         - xz-lzma-compat
@@ -4688,7 +4679,6 @@ data:
             - gnu-efi-devel
             - gperftools-libs
             - grpc
-            - grubby-deprecated
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
