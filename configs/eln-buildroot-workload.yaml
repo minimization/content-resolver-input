@@ -1336,7 +1336,9 @@ data:
         - junit5
         - jython
         - jzlib
+        - kde-filesystem
         - kde-settings
+        - kf5-filesystem
         - kf5-karchive
         - kf5-karchive-devel
         - kf5-kauth
@@ -5053,7 +5055,6 @@ data:
             - libhbaapi
             - libiec61883-devel
             - libnice-gstreamer1
-            - libpq-devel
             - libpurple
             - libraw1394-devel
             - libvirt-daemon-driver-storage-zfs
@@ -5067,10 +5068,6 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ocl-icd-devel
-            - postgresql
-            - postgresql-contrib
-            - postgresql-server
-            - postgresql-server-devel
             - pugixml
             - python3-fastcache
             - python3-gmpy2
@@ -5293,7 +5290,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - uuid
             - zfs-fuse
         s390x:
             - bluez-obexd
