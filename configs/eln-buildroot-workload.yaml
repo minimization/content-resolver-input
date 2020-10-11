@@ -3579,10 +3579,10 @@ data:
         - rust-fnv+default-devel
         - rust-fnv-devel
         - rust-fnv+std-devel
-        - rust-foreign-types+default-devel
-        - rust-foreign-types-devel
-        - rust-foreign-types-shared+default-devel
-        - rust-foreign-types-shared-devel
+        - rust-foreign-types0.3+default-devel
+        - rust-foreign-types0.3-devel
+        - rust-foreign-types-shared0.1+default-devel
+        - rust-foreign-types-shared0.1-devel
         - rust-futf+default-devel
         - rust-futf-devel
         - rust-futures0.1+default-devel
