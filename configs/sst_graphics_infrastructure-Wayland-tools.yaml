@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Wayland tools
+  description: Contains tools used in a Wayland environment
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - wayland-utils
+    - waypipe
+
+  labels:
+    - eln
