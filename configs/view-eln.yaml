@@ -29,6 +29,17 @@ data:
   #  - another-one
 
   # SRPMs (components) to be flagged as unwanted
-  #unwanted_source_packages:
-  #- pkg-name
-  #- pkg-other-name
+  unwanted_source_packages:
+  - ImageMagick
+  - btrfs-progs
+  - clufter
+  - libsodium
+  - libssh2
+  - mercurial
+  - nagios-plugins
+  - spice
+  - spice-gtk3
+  - spice-html5
+  - spice-vdagent
+  - tomcat
+  - xen
