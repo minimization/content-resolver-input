@@ -10,6 +10,7 @@ data:
     - bodhi-composer
     - bodhi-docs
     - bodhi-server
+    - cmake-fedora
     - python3-bodhi
     - python3-bodhi-client
     - python3-bodhi-messages
@@ -20,6 +21,10 @@ data:
     - compat-golang-github-coreos-etcd-devel
     - golang-etcd-devel
     - golang-etcd-etcdserver-api-3rpc-devel
+    - fedora-packager
+    - fedora-packager-yubikey
+    - fedpkg
+    - fedpkg-stage
     - ghc
     - ImageMagick
     - ImageMagick-c++
@@ -28,6 +33,18 @@ data:
     - ImageMagick-libs
     - ImageMagick-perl
     - imake
+    - koji
+    - koji-builder
+    - koji-builder-plugins
+    - koji-hub
+    - koji-utils
+    - koji-vm
+    - koji-web
+    - python3-koji
+    - python3-koji-cli-plugins
+    - python3-koji-hub
+    - python3-koji-hub-plugins
+    - python3-koji-web
     - mono-core
     - mono-data
     - mono-data-sqlite
