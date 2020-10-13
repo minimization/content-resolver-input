@@ -30,6 +30,8 @@ data:
 
   # SRPMs (components) to be flagged as unwanted
   unwanted_source_packages:
+  
+  # jwboyer:
   - ImageMagick
   - btrfs-progs
   - clufter
