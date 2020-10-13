@@ -373,9 +373,6 @@ data:
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
-        - GeoIP
-        - GeoIP-devel
-        - GeoIP-GeoLite-data
         - geos
         - geos-devel
         - gettext-common-devel
@@ -1766,6 +1763,8 @@ data:
         - libXNVCtrl-devel
         - libXp-devel
         - libXpm-devel
+        - libXpresent
+        - libXpresent-devel
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
@@ -2369,6 +2368,7 @@ data:
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
         - perl-Net-IDN-Encode
+        - perl-Net-LDAP-Server
         - perl-Net-LibIDN
         - perl-Net-LibIDN2
         - perl-NKF
@@ -3111,8 +3111,6 @@ data:
         - ragel
         - raptor2-devel
         - rasqal-devel
-        - rb_libtorrent
-        - rb_libtorrent-devel
         - R-core
         - R-core-devel
         - R-devel
@@ -3157,6 +3155,7 @@ data:
         - rubygem-asciidoctor
         - rubygem-bacon
         - rubygem-bcrypt
+        - rubygem-bootsnap
         - rubygem-builder
         - rubygem-bundler
         - rubygem-byebug
@@ -3187,7 +3186,6 @@ data:
         - rubygem-em-http-request
         - rubygem-em-socksify
         - rubygem-erubi
-        - rubygem-erubis
         - rubygem-excon
         - rubygem-execjs
         - rubygem-faraday
@@ -3209,6 +3207,7 @@ data:
         - rubygem-io-console
         - rubygem-irb
         - rubygem-jbuilder
+        - rubygem-jquery-rails
         - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
@@ -3231,6 +3230,7 @@ data:
         - rubygem-minitest-around
         - rubygem-minitest-reporters
         - rubygem-mocha
+        - rubygem-msgpack
         - rubygem-multi_json
         - rubygem-multipart-post
         - rubygem-multi_test
@@ -3248,6 +3248,7 @@ data:
         - rubygem-public_suffix
         - rubygem-puma
         - rubygem-racc
+        - rubygem-rack-cache
         - rubygem-rails
         - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
@@ -3300,6 +3301,8 @@ data:
         - rubygem-thor
         - rubygem-timecop
         - rubygem-ttfunk
+        - rubygem-turbolinks
+        - rubygem-turbolinks-source
         - rubygem-typhoeus
         - rubygem-tzinfo
         - rubygem-uglifier
