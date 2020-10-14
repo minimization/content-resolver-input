@@ -843,7 +843,6 @@ data:
         - golang-cloud-google-compute-devel
         - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
-        - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
         - golang-etcd-devel
         - golang-github-acobaugh-osrelease-devel
@@ -861,10 +860,6 @@ data:
         - golang-github-aws-lambda-devel
         - golang-github-aws-sdk-2-devel
         - golang-github-aws-sdk-devel
-        - golang-github-azure-autorest-devel
-        - golang-github-azure-pipeline-devel
-        - golang-github-azure-sdk-devel
-        - golang-github-azure-storage-blob-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
         - golang-github-bketelsen-crypt-devel
@@ -893,10 +888,7 @@ data:
         - golang-github-datadog-devel
         - golang-github-datadog-zstd-devel
         - golang-github-davecgh-spew-devel
-        - golang-github-davecgh-xdr-devel
         - golang-github-dgrijalva-jwt-devel
-        - golang-github-dimchansky-utfbom-devel
-        - golang-github-dnaeon-vcr-devel
         - golang-github-docker-units-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
@@ -911,9 +903,7 @@ data:
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
         - golang-github-ghodss-yaml-devel
-        - golang-github-globalsign-mgo-devel
         - golang-github-glog-devel
-        - golang-github-gobwas-glob-devel
         - golang-github-godbus-dbus-devel
         - golang-github-gogo-protobuf-devel
         - golang-github-googleapis-gax-devel
@@ -925,7 +915,6 @@ data:
         - golang-github-google-querystring-devel
         - golang-github-google-renameio-devel
         - golang-github-google-uuid-devel
-        - golang-github-gophercloud-devel
         - golang-github-gorilla-mux-devel
         - golang-github-gorilla-securecookie-devel
         - golang-github-gorilla-sessions-devel
@@ -989,9 +978,7 @@ data:
         - golang-github-logfmt-devel
         - golang-github-lyft-protoc-gen-star-devel
         - golang-github-magiconair-properties-devel
-        - golang-github-masterminds-semver-devel
         - golang-github-mattn-colorable-devel
-        - golang-github-mattn-ieproxy-devel
         - golang-github-mattn-isatty-devel
         - golang-github-mattn-runewidth-devel
         - golang-github-matttproud-protobuf-extensions-devel
@@ -1039,7 +1026,6 @@ data:
         - golang-github-rogpeppe-internal-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
-        - golang-github-satori-uuid-devel
         - golang-github-schollz-progressbar-2-devel
         - golang-github-schollz-progressbar-3-devel
         - golang-github-sean-seed-devel
@@ -1047,7 +1033,6 @@ data:
         - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
         - golang-github-shopify-toxiproxy-devel
-        - golang-github-shopspring-decimal-devel
         - golang-github-shurcool-githubv4-devel
         - golang-github-shurcool-graphql-devel
         - golang-github-shurcool-sanitized-anchor-name-devel
@@ -1077,8 +1062,6 @@ data:
         - golang-github-urfave-cli-devel
         - golang-github-urfave-negroni-devel
         - golang-github-vividcortex-gohistogram-devel
-        - golang-github-vmware-govmomi-devel
-        - golang-github-vmware-vmw-guestinfo-devel
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
@@ -1110,7 +1093,6 @@ data:
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
         - golang-gopkg-tomb-1-devel
-        - golang-gopkg-tomb-2-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
         - golang-gopkg-yaml-2-devel
@@ -1711,6 +1693,8 @@ data:
         - libtidy
         - libtiff-tools
         - libtimezonemap-devel
+        - libtomcrypt
+        - libtomcrypt-devel
         - libtommath-devel
         - libudisks2-devel
         - libuninameslist
@@ -1799,8 +1783,6 @@ data:
         - Lmod
         - lockdev-devel
         - log4j
-        - lorax
-        - lorax-templates-generic
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
@@ -2136,7 +2118,6 @@ data:
         - pari-seadata
         - parted-devel
         - patchutils
-        - pbzip2
         - pcaudiolib-devel
         - pcre-static
         - pcsc-lite-devel
@@ -2666,6 +2647,7 @@ data:
         - python3-cpuinfo
         - python3-createrepo_c
         - python3-crochet
+        - python3-crypto
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
@@ -2729,6 +2711,7 @@ data:
         - python3-hupper
         - python3-hyperframe
         - python3-hyperlink
+        - python3-impacket
         - python3-incremental
         - python3-invoke
         - python3-ipykernel
@@ -2764,6 +2747,7 @@ data:
         - python3-kombu
         - python3-latexcodec
         - python3-lazy-object-proxy
+        - python3-ldap3
         - python3-ldb-devel
         - python3-lesscpy
         - python3-lexicon
@@ -2849,8 +2833,8 @@ data:
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
-        - python3-pycdlib
         - python3-pycodestyle
+        - python3-pycryptodomex
         - python3-pydot
         - python3-pyflakes
         - python3-pygments-pytest
@@ -3674,6 +3658,8 @@ data:
         - rust-httparse+std-devel
         - rust-http-body+default-devel
         - rust-http-body-devel
+        - rust-httpdate+default-devel
+        - rust-httpdate-devel
         - rust-http+default-devel
         - rust-http-devel
         - rust-humansize+default-devel
@@ -4232,9 +4218,9 @@ data:
         - rust-timerfd-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
-        - rust-tinyvec+alloc-devel
-        - rust-tinyvec+default-devel
-        - rust-tinyvec-devel
+        - rust-tinyvec0.3+alloc-devel
+        - rust-tinyvec0.3+default-devel
+        - rust-tinyvec0.3-devel
         - rust-tokio0.1+codec-devel
         - rust-tokio0.1+default-devel
         - rust-tokio0.1-devel
@@ -4643,7 +4629,6 @@ data:
         - xorg-x11-xtrans-devel
         - xxhash-devel
         - xz-java
-        - xz-lzma-compat
         - yajl-devel
         - yasm
         - yelp-devel
