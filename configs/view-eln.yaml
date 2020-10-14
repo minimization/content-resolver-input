@@ -33,12 +33,19 @@ data:
   
   # jwboyer:
   - ImageMagick
+  - bodhi
   - btrfs-progs
   - clufter
+  - fedora-packager
+  - fedpkg
+  - koji
   - libsodium
   - libssh2
   - mercurial
+  - mono
   - nagios-plugins
+  - pungi
+  - reiserfs-utils
   - spice
   - spice-gtk3
   - spice-html5
