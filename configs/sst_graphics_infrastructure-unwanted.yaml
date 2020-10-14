@@ -22,7 +22,7 @@ data:
   # Replaced by tools in libinput
   - evemu
   # Not maintained upstream, very ancient tool, and don't have resoures to maintain an extra GUI toolkit and window manager
-  - motif
+  # - motif asamalik: it's ACG 1, so we need to keep it now
   # BR for rubygem-clutter-gstreamer. Said rubygem shouldn't be in EL9. Also, superseeded by clutter-gst3.
   - clutter-gst2
   # Virtually unused even in Fedora, might have been used by spice once upon a time. Also, superseeded by opus.
