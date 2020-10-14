@@ -58,6 +58,9 @@ data:
     - psmisc
     - strace
     - sudo
+    # asamalik: adding ELN packages
+    - fedora-release-eln
+    - fedora-repos-eln
 
 
   appstream:
