@@ -6,6 +6,7 @@ data:
   maintainer: jwboyer
 
   packages:
+  - lorax
   - anaconda
   - anaconda-widgets
   - kexec-tools-anaconda-addon
