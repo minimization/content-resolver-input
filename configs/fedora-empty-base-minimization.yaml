@@ -51,6 +51,7 @@ data:
   # (mandatory field)
   labels:
   - minimization
+  - fedora
 
   ### OPTIONAL FIELDS ###
 
