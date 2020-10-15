@@ -8,6 +8,8 @@ data:
   unwanted_packages:
   - rhel-tools-container
   - sos-collector
+  - redhat-support-lib-python
+  - redhat-support-tool
 
   labels:
   - eln
