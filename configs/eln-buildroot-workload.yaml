@@ -231,6 +231,7 @@ data:
         - compat-wxGTK3-gtk2-devel
         - compat-wxGTK3-gtk2-gl
         - compat-wxGTK3-gtk2-media
+        - corosynclib-devel
         - cppcheck
         - cppunit
         - cppunit-devel
@@ -331,10 +332,7 @@ data:
         - fonttools
         - fop
         - forge-parent
-        - fping
         - freeglut-devel
-        - freeradius-client
-        - freeradius-client-devel
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -1125,6 +1123,7 @@ data:
         - google-noto-emoji-fonts
         - go-rpm-macros
         - gperftools-devel
+        - gperftools-libs
         - gphoto2
         - gpm
         - gpm-devel
@@ -1532,6 +1531,7 @@ data:
         - libkkc-devel
         - libkml
         - libkml-devel
+        - libknet1-devel
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
@@ -1591,6 +1591,7 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
+        - libnozzle1-devel
         - libnsl2-devel
         - libntlm
         - libntlm-devel
@@ -1629,6 +1630,7 @@ data:
         - libportal-devel
         - libproxy-devel
         - libpst-devel
+        - libqb-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1690,6 +1692,7 @@ data:
         - libtomcrypt
         - libtomcrypt-devel
         - libtommath-devel
+        - libtool-ltdl-devel
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
@@ -1729,6 +1732,7 @@ data:
         - libwpe-devel
         - libwpg-devel
         - libwps-devel
+        - libwsman1
         - libXaw-devel
         - libXdmcp-devel
         - libXfont2-devel
@@ -1746,6 +1750,7 @@ data:
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
+        - libxslt-devel
         - libXt-devel
         - libXv-devel
         - libXvMC-devel
@@ -1968,7 +1973,6 @@ data:
         - munge-maven-plugin
         - mutter-devel
         - mypaint-brushes-devel
-        - mysql-connector-python3
         - mythes-devel
         - nasm
         - nautilus-devel
@@ -1997,7 +2001,6 @@ data:
         - nscd
         - nss_wrapper
         - ntfs-3g-devel
-        - ntp
         - numactl-devel
         - nunit
         - nunit-devel
@@ -2094,6 +2097,10 @@ data:
         - ostree-devel
         - p7zip
         - p7zip-plugins
+        - pacemaker-cluster-libs
+        - pacemaker-libs
+        - pacemaker-libs-devel
+        - pacemaker-schemas
         - PackageKit-glib-devel
         - pakchois-devel
         - pam-devel
@@ -2176,7 +2183,6 @@ data:
         - perl-Crypt-CBC
         - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
-        - perl-Crypt-X509
         - perl-CSS
         - perl-CSS-Tiny
         - perl-Curses
@@ -2549,6 +2555,7 @@ data:
         - python2-rpm-macros
         - python2-setuptools
         - python2-six
+        - python3-aiohttp
         - python3-aiohttp-cors
         - python3-alembic
         - python3-amqp
@@ -2558,6 +2565,8 @@ data:
         - python3-arrow
         - python3-asgiref
         - python3-astroid
+        - python3-async-generator
+        - python3-async-timeout
         - python3-atomicwrites
         - python3-Automat
         - python3-backcall
@@ -2566,12 +2575,12 @@ data:
         - python3-beautifulsoup4
         - python3-betamax
         - python3-billiard
-        - python3-bitarray
         - python3-bleach
         - python3-blinker
         - python3-bodhi
         - python3-bodhi-client
-        - python3-boto
+        - python3-boto3
+        - python3-botocore
         - python3-bottle
         - python3-Bottleneck
         - python3-breathe
@@ -2585,6 +2594,7 @@ data:
         - python3-case
         - python3-cccolutils
         - python3-celery
+        - python3-certifi
         - python3-chai
         - python3-cheroot
         - python3-cherrypy
@@ -2592,12 +2602,12 @@ data:
         - python3-click
         - python3-click-didyoumean
         - python3-click-repl
-        - python3-cliff
         - python3-clikit
-        - python3-cmd2
         - python3-colander
+        - python3-colorama
         - python3-CommonMark
         - python3-constantly
+        - python3-contextlib2
         - python3-convertdate
         - python3-cornice
         - python3-cornice-sphinx
@@ -2611,11 +2621,8 @@ data:
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
-        - python3-d2to1
         - python3-dateparser
         - python3-dbusmock
-        - python3-ddt
-        - python3-debtcollector
         - python3-defusedxml
         - python3-dill
         - python3-distlib
@@ -2649,24 +2656,21 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
-        - python3-funcsigs
         - python3-future
         - python3-gdal
         - python3-genshi
         - python3-genty
-        - python3-gevent
         - python3-gitdb
         - python3-GitPython
         - python3-gobject-devel
         - python3-graphviz
         - python3-greenlet
-        - python3-greenlet-devel
         - python3-h2
-        - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
         - python3-httpbin
+        - python3-httplib2
         - python3-httpretty
         - python3-hupper
         - python3-hyperframe
@@ -2682,6 +2686,7 @@ data:
         - python3-ipython-sphinx
         - python3-ipywidgets
         - python3-iso8601
+        - python3-isodate
         - python3-isort
         - python3-itsdangerous
         - python3-jaraco
@@ -2692,12 +2697,11 @@ data:
         - python3-javapackages
         - python3-jedi
         - python3-jeepney
+        - python3-jmespath
         - python3-jupyter-client
         - python3-jupyter-core
-        - python3-kerberos
+        - python3-jwt
         - python3-keyring
-        - python3-keystoneauth1
-        - python3-keystoneclient
         - python3-kitchen
         - python3-kiwisolver
         - python3-kobo
@@ -2730,14 +2734,13 @@ data:
         - python3-mimeparse
         - python3-mistune
         - python3-monotonic
-        - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-msgpack
+        - python3-multidict
         - python3-multilib
         - python3-munch
         - python3-munkres
-        - python3-mypy
         - python3-mypy_extensions
         - python3-nb2plots
         - python3-nbconvert
@@ -2747,24 +2750,16 @@ data:
         - python3-nose2
         - python3-nose-cover3
         - python3-notebook
-        - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
-        - python3-opencensus-proto
         - python3-openid
         - python3-openidc-client
         - python3-openid-cla
         - python3-openid-teams
         - python3-openstackdocstheme
         - python3-orderedset
-        - python3-oslo-config
-        - python3-oslo-i18n
-        - python3-oslo-serialization
-        - python3-oslo-sphinx
-        - python3-oslotest
-        - python3-oslo-utils
-        - python3-os-service-types
+        - python3-outcome
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
@@ -2805,7 +2800,7 @@ data:
         - python3-pymeeus
         - python3-pymongo
         - python3-pynacl
-        - python3-pyperclip
+        - python3-pyOpenSSL
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
@@ -2843,19 +2838,16 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-kerberos
-        - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
-        - python3-retrying
-        - python3-rfc3986
         - python3-rjsmin
         - python3-rpkg
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
+        - python3-s3transfer
         - python3-scons
         - python3-scripttest
         - python3-scripttester
@@ -2872,9 +2864,9 @@ data:
         - python3-simplemediawiki
         - python3-sip-devel
         - python3-smmap
+        - python3-sniffio
         - python3-soupsieve
         - python3-spec
-        - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-bibtex
         - python3-sphinxcontrib-github-alt
@@ -2897,7 +2889,6 @@ data:
         - python3-sqlalchemy
         - python3-sqlalchemy_schemadisplay
         - python3-sqlparse
-        - python3-stestr
         - python3-stevedore
         - python3-subunit
         - python3-sure
@@ -2909,19 +2900,19 @@ data:
         - python3-terminado
         - python3-testpath
         - python3-testrepository
-        - python3-testresources
         - python3-testscenarios
         - python3-testtools
         - python3-texext
         - python3-text-unidecode
-        - python3-thrift
         - python3-tidy
         - python3-tomlkit
+        - python3-tornado
         - python3-tox
         - python3-tox-current-env
         - python3-tqdm
         - python3-traitlets
         - python3-translationstring
+        - python3-trio
         - python3-trustme
         - python3-twisted
         - python3-typed_ast
@@ -2931,7 +2922,6 @@ data:
         - python3-venusian
         - python3-vine
         - python3-virtualenv
-        - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
@@ -2941,10 +2931,12 @@ data:
         - python3-werkzeug
         - python3-whoosh
         - python3-widgetsnbextension
+        - python3-wrapt
         - python3-wxpython4
         - python3-wx-siplib
         - python3-xmlschema
         - python3-xmp-toolkit
+        - python3-yarl
         - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
@@ -2957,10 +2949,7 @@ data:
         - python-jupyter-filesystem
         - python-ldb-devel-common
         - python-multilib-conf
-        - python-oslo-i18n-lang
-        - python-oslo-utils-lang
         - python-sphinx-doc
-        - python-typeshed
         - python-wheel-wheel
         - qdox
         - qemu
@@ -3012,7 +3001,6 @@ data:
         - qrupdate-devel
         - qscintilla-qt5
         - qscintilla-qt5-devel
-        - qstat
         - qt
         - qt3
         - qt3-devel
@@ -3097,6 +3085,7 @@ data:
         - rubygem-aruba
         - rubygem-Ascii85
         - rubygem-asciidoctor
+        - rubygem-backports
         - rubygem-bacon
         - rubygem-bcrypt
         - rubygem-bootsnap
@@ -3122,6 +3111,7 @@ data:
         - rubygem-cucumber-tag_expressions
         - rubygem-cucumber-wire
         - rubygem-curb
+        - rubygem-daemons
         - rubygem-dalli
         - rubygem-delorean
         - rubygem-docile
@@ -3130,10 +3120,13 @@ data:
         - rubygem-em-http-request
         - rubygem-em-socksify
         - rubygem-erubi
+        - rubygem-ethon
+        - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
         - rubygem-faraday
         - rubygem-fattr
+        - rubygem-ffi
         - rubygem-flexmock
         - rubygem-formatador
         - rubygem-gherkin
@@ -3152,6 +3145,7 @@ data:
         - rubygem-irb
         - rubygem-jbuilder
         - rubygem-jquery-rails
+        - rubygem-json
         - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
@@ -3179,9 +3173,11 @@ data:
         - rubygem-multipart-post
         - rubygem-multi_test
         - rubygem-mustache
+        - rubygem-mustermann
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
+        - rubygem-open4
         - rubygem-pdf-core
         - rubygem-pdf-inspector
         - rubygem-pdf-reader
@@ -3192,7 +3188,10 @@ data:
         - rubygem-public_suffix
         - rubygem-puma
         - rubygem-racc
+        - rubygem-rack
         - rubygem-rack-cache
+        - rubygem-rack-protection
+        - rubygem-rack-test
         - rubygem-rails
         - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
@@ -3232,6 +3231,7 @@ data:
         - rubygem-shoulda-matchers
         - rubygem-simplecov
         - rubygem-simplecov-html
+        - rubygem-sinatra
         - rubygem-slim
         - rubygem-spring
         - rubygem-sprockets
@@ -3242,7 +3242,9 @@ data:
         - rubygem-test_construct
         - rubygem-test_declarative
         - rubygem-test-unit
+        - rubygem-thin
         - rubygem-thor
+        - rubygem-tilt
         - rubygem-timecop
         - rubygem-ttfunk
         - rubygem-turbolinks
@@ -4463,7 +4465,6 @@ data:
         - texlive-lh
         - texlive-relsize
         - texlive-sfmath
-        - thrift
         - tidy
         - tinycdb-devel
         - tinyxml2
@@ -4607,7 +4608,6 @@ data:
             - cargo-c
             - clblast
             - clblast-devel
-            - corosynclib-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -4625,8 +4625,6 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - gperftools-libs
-            - grpc
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4649,18 +4647,12 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
-            - libknet1-devel
             - libnice-gstreamer1
-            - libnozzle1-devel
             - libpurple
-            - libqb-devel
             - libraw1394-devel
-            - libtool-ltdl-devel
-            - libwsman1
             - libxml++
             - libxml++-devel
             - libXScrnSaver
-            - libxslt-devel
             - libXvMC
             - meanwhile
             - meanwhile-devel
@@ -4672,67 +4664,19 @@ data:
             - ncurses-compat-libs
             - ocl-icd-devel
             - openbios
-            - openwsman-python3
-            - pacemaker-cluster-libs
-            - pacemaker-libs
-            - pacemaker-libs-devel
-            - pacemaker-schemas
             - pugixml
-            - python3-adal
-            - python3-aiodns
-            - python3-aiohttp
-            - python3-async-generator
-            - python3-async-timeout
-            - python3-boto3
-            - python3-botocore
-            - python3-cachetools
-            - python3-certifi
-            - python3-colorama
-            - python3-contextlib2
             - python3-fastcache
-            - python3-fasteners
             - python3-gmpy2
-            - python3-google-api-client
-            - python3-google-api-core
-            - python3-googleapis-common-protos
-            - python3-google-auth
-            - python3-google-auth-httplib2
-            - python3-grpcio
-            - python3-grpcio-gcp
-            - python3-httplib2
-            - python3-isodate
-            - python3-jmespath
-            - python3-jwt
-            - python3-jwt+crypto
             - python3-mpmath
-            - python3-msal
-            - python3-msrest
-            - python3-msrestazure
-            - python3-multidict
-            - python3-oauth2client
-            - python3-opencensus
-            - python3-opencensus-context
-            - python3-outcome
-            - python3-pycares
             - python3-pycmd
             - python3-pyglet
             - python3-pygpu
             - python3-pygpu-devel
-            - python3-pyOpenSSL
             - python3-pytest-doctestplus
-            - python3-rsa
-            - python3-s3transfer
-            - python3-sniffio
             - python3-sphinx-math-dollar
             - python3-sympy
             - python3-theano
-            - python3-tornado
-            - python3-trio
-            - python3-uamqp
-            - python3-uritemplate
-            - python3-wrapt
             - python3-wurlitzer
-            - python3-yarl
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
@@ -4745,20 +4689,6 @@ data:
             - redhat-lsb-submod-security
             - rlottie
             - rlottie-devel
-            - rubygem-backports
-            - rubygem-daemons
-            - rubygem-ethon
-            - rubygem-eventmachine
-            - rubygem-ffi
-            - rubygem-json
-            - rubygem-mustermann
-            - rubygem-open4
-            - rubygem-rack
-            - rubygem-rack-protection
-            - rubygem-rack-test
-            - rubygem-sinatra
-            - rubygem-thin
-            - rubygem-tilt
             - rust-aom-sys+default-devel
             - rust-aom-sys-devel
             - rust-arg_enum_proc_macro+default-devel
