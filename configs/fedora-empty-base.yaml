@@ -54,6 +54,7 @@ data:
   labels:
   - eln
   - eln-buildroot
+  - eln-analyze-only
 
   ### OPTIONAL FIELDS ###
 
