@@ -296,6 +296,8 @@ data:
         - fdk-aac-free-devel
         - fedora-bookmarks
         - fedora-packager
+        - fedora-release
+        - fedora-release-identity-basic
         - fedpkg
         - felix-parent
         - felix-utils
@@ -2501,6 +2503,7 @@ data:
         - pngcrush
         - polkit-devel
         - polkit-docs
+        - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
         - poppler-cpp-devel
