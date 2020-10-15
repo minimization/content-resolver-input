@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Minimal install using @core group without weak dependencies
+  description: Minimal install without Recommends dependencies
+  maintainer: sst_security_readiness
+
+  groups:
+  - core
+
+  labels:
+  - fedora
+  - eln-analyze-only
