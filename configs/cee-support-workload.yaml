@@ -6,10 +6,9 @@ data:
   maintainer: sst_cee_supportability
 
   packages:
-  - redhat-support-lib-python
-  - redhat-support-tool
   - sos
   - support-tools-container
+  - rig
 
   labels:
   - eln
