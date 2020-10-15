@@ -33,7 +33,6 @@ data:
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
-  - polkit-gnome
   - tracker
   - xdg-user-dirs-gtk
 
