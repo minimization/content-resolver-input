@@ -15,7 +15,6 @@ data:
         - 389-ds-base-devel
         - a2ps
         - accountsservice-devel
-        - acpica-tools
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
         - adobe-source-sans-pro-fonts
@@ -1647,7 +1646,6 @@ data:
         - librhsm-devel
         - libRmath
         - librsvg2-devel
-        - libsamplerate
         - libsamplerate-devel
         - libsass
         - libsass-devel
