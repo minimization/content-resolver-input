@@ -6,8 +6,6 @@ data:
   maintainer: sst_arch_hw
 
   packages:
-  - libocxl
-  - qclib
   - mdadm
   - nvme-cli
   - acpica-tools
@@ -27,12 +25,24 @@ data:
   - alsa-tools
   - alsa-utils
   - speexdsp
-  - dptfxtract
   - hwloc
-  - mcelog
   - pigz
   - ethtool
-  - tboot
+
+  arch_packages:
+    ppc64le:
+    - libocxl
+    s390x:
+    - qclib
+    x86_64:
+    - mcelog
+    - tboot
+
+  package_placeholders:
+    dptfxtract:
+      description: dptfxtract utility
+      requires:
+      - glibc
 
   labels:
   - eln
