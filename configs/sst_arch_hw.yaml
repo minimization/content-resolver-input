@@ -15,7 +15,15 @@ data:
   - alsa-firmware
   - alsa-sof-firmware
   - alsa-lib
-  - alsa-plugins
+  - alsa-plugins-arcamav
+  - alsa-plugins-maemo
+  - alsa-plugins-oss
+  - alsa-plugins-pulseaudio
+  - alsa-plugins-samplerate
+  - alsa-plugins-speex
+  - alsa-plugins-upmix
+  - alsa-plugins-usbstream
+  - alsa-plugins-vdownmix
   - alsa-tools
   - alsa-utils
   - speexdsp
