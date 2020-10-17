@@ -25,7 +25,7 @@ data:
   # Python Maint prefers the standard library venv module
   - python3-virtualenv
 
-  # deprected() Python packages:
+  # deprecated() Python packages:
   - python3-nose
   - python3-pytest4
   - python3-pytoml
