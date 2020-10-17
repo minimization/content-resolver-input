@@ -30,5 +30,21 @@ data:
   - python3-pytest4
   - python3-pytoml
 
+  # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
+  - python-jupyter-filesystem
+  - python3-ipykernel
+  - python3-ipython
+  - python3-ipywidgets
+  - python3-jupyter-client
+  - python3-jupyter-core
+  - python3-matplotlib
+  - python3-nb2plots
+  - python3-nbconvert
+  - python3-nbsphinx
+  - python3-notebook
+  - python3-numpydoc
+  - python3-pandas
+  - python3-sympy
+
   labels:
   - eln
