@@ -7,12 +7,19 @@ data:
 
   packages:
   - trousers
+  - trousers-lib
+  - trousers-devel
   - tpm-tools
+  - tpm-tools-pkcs11
+  - tpm-tools-devel
   - tss2
+  - tss2-devel
   - tpm2-tss
+  - tpm2-tss-devel
   - tpm2-tools
   # needed for gating tests
   - tpm2-abrmd
+  - tpm2-abrmd-devel
   - tpm2-abrmd-selinux
 
   labels:
