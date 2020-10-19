@@ -2313,6 +2313,7 @@ data:
         - perl-Module-Manifest-Skip
         - perl-Module-Package
         - perl-Module-Package-Au
+        - perl-Module-Pluggable
         - perl-Module-Refresh
         - perl-Module-Runtime-Conflicts
         - perl-Module-ScanDeps
