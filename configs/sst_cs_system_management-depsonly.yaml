@@ -10,7 +10,6 @@ data:
   - cdparanoia-libs
   - cdparanoia-devel
   - cdparanoia
-  - cdrdao
   - libusal-devel
   - libusal
   - genisoimage
@@ -57,6 +56,17 @@ data:
   - sparsehash-devel
   - tesseract
   - tesseract-devel
+
+arch_packages:
+    #cdrdao not supported on s390x
+    aarch64:
+    - cdrdao
+    i686:
+    - cdrdao
+    x86_64:
+    - cdrdao
+    ppc64le:
+    - cdrdao
 
   labels:
   - eln
