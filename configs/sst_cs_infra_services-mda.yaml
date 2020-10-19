@@ -8,7 +8,6 @@ data:
   packages:
   - cyrus-imapd
   - cyrus-imapd-utils
-  - cyrus-imapd-vzic
   - procmail
 
   labels:
