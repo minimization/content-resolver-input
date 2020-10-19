@@ -173,6 +173,11 @@ data:
         - cheese-libs-devel
         - cjkuni-uming-fonts
         - cjose-devel
+        - clamav-data
+        - clamav-devel
+        - clamav-filesystem
+        - clamav-lib
+        - clamav-update
         - classloader-leak-test-framework
         - cliquer-devel
         - cliquer-libs
@@ -1210,6 +1215,7 @@ data:
         - ImageMagick-devel
         - ImageMagick-perl
         - imake
+        - imaptest
         - intltool
         - ipa-gothic-fonts
         - ipa-pgothic-fonts
@@ -1627,6 +1633,8 @@ data:
         - libpkgconf-devel
         - libplist-devel
         - libportal-devel
+        - libprelude
+        - libprelude-devel
         - libproxy-devel
         - libpst-devel
         - libqb-devel
@@ -2158,9 +2166,12 @@ data:
         - perl-CBOR-XS
         - perl-CGI-Application
         - perl-CGI-PSGI
+        - perl-Class-Accessor-Chained
+        - perl-Class-Inner
         - perl-Class-ISA
         - perl-Class-Load
         - perl-Class-Load-XS
+        - perl-Class-ReturnValue
         - perl-Class-Tiny
         - perl-Class-XSAccessor
         - perl-Color-ANSI-Util
@@ -2172,9 +2183,11 @@ data:
         - perl-Compress-LZF
         - perl-Config-AutoConf
         - perl-Config-INI
+        - perl-Config-IniFiles
         - perl-Config-INI-Reader-Multiline
         - perl-Config-Simple
         - perl-Config-Tiny
+        - perl-Convert-Base64
         - perl-Convert-Bencode
         - perl-CPAN-Changes
         - perl-Cpanel-JSON-XS
@@ -2186,16 +2199,23 @@ data:
         - perl-Curses
         - perl-Data-Binary
         - perl-Data-Dumper-Names
+        - perl-Data-ICal
+        - perl-Data-ICal-TimeZone
         - perl-Data-Munge
         - perl-Data-Section-Simple
         - perl-Data-UUID
         - perl-Date-Simple
         - perl-DateTime-Calendar-Mayan
+        - perl-DateTime-Event-ICal
+        - perl-DateTime-Event-Recurrence
         - perl-DateTime-Format-DateParse
         - perl-DateTime-Format-HTTP
         - perl-DateTime-Format-IBeat
+        - perl-DateTime-Format-ICal
+        - perl-DateTime-Format-ISO8601
         - perl-DateTime-Format-Mail
         - perl-DateTime-Format-MySQL
+        - perl-DateTime-Set
         - perl-DBM-Deep
         - perl-Declare-Constraints-Simple
         - perl-Devel-CheckBin
@@ -2207,6 +2227,7 @@ data:
         - perl-Devel-PartialDump
         - perl-Devel-Symdump
         - perl-Digest-CRC
+        - perl-Encode-IMAPUTF7
         - perl-Env-Sanctify
         - perl-Env-ShellWords
         - perl-Event
@@ -2232,7 +2253,9 @@ data:
         - perl-File-Find-Object-Rule
         - perl-File-Find-Rule-Perl
         - perl-File-Inplace
+        - perl-File-LibMagic
         - perl-File-MimeInfo
+        - perl-File-MMagic
         - perl-File-ReadBackwards
         - perl-File-Remove
         - perl-File-ShareDir-Install
@@ -2284,12 +2307,16 @@ data:
         - perl-Lingua-EN-Syllable
         - perl-Lingua-Translit
         - perl-Linux-Pid
+        - perl-List-Pairwise
         - perl-Locale-Codes
         - perl-Locale-Maketext-Gettext
         - perl-Locale-Maketext-Lexicon
         - perl-Locale-Msgfmt
         - perl-Locale-PO
         - perl-Locale-US
+        - perl-Mail-IMAPTalk
+        - perl-Mail-JMAPTalk
+        - perl-Math-Int64
         - perl-MCE
         - perl-Mixin-Linewise
         - perl-Mock-Config
@@ -2322,13 +2349,18 @@ data:
         - perl-Moo
         - perl-Moose
         - perlmulticore-devel
+        - perl-Net-CalDAVTalk
+        - perl-Net-CardDAVTalk
+        - perl-Net-DAVTalk
         - perl-Net-DNS-Resolver-Mock
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
         - perl-Net-IDN-Encode
+        - perl-Net-LDAP-Server
         - perl-Net-LibIDN
         - perl-Net-LibIDN2
         - perl-NKF
+        - perl-NNTPClient
         - perl-Object-Deadly
         - perl-Package-DeprecationManager
         - perl-Paper-Specs
@@ -2372,11 +2404,13 @@ data:
         - perl-Sereal
         - perl-Sereal-Decoder
         - perl-Sereal-Encoder
+        - perl-Set-Infinite
         - perl-Shell-Config-Generate
         - perl-Shell-Guess
         - perl-Sort-Versions
         - perl-Spellunker
         - perl-strictures
+        - perl-String-CRC32
         - perl-String-Escape
         - perl-String-Format
         - perl-String-Similarity
@@ -2439,6 +2473,7 @@ data:
         - perl-Test-Synopsis
         - perl-Test-Taint
         - perl-Test-TrailingSpace
+        - perl-Test-Unit
         - perl-Test-UseAllModules
         - perl-Test-utf8
         - perl-Test-Valgrind
@@ -2449,6 +2484,10 @@ data:
         - perl-Text-CSV_XS
         - perl-Text-Haml
         - perl-Text-Iconv
+        - perl-Text-LevenshteinXS
+        - perl-Text-VCardFast
+        - perl-Text-vFile-asData
+        - perl-Tie-DataUUID
         - perl-Tie-IxHash
         - perl-Tk
         - perl-Types-Serialiser
@@ -2456,17 +2495,21 @@ data:
         - perl-Unicode-String
         - perl-Unicode-UTF8
         - perl-UNIVERSAL-isa
+        - perl-UNIVERSAL-require
         - perl-Unix-Process
         - perl-URI-cpan
         - perl-utf8-all
         - perl-XML-DOM
         - perl-XML-Dumper
+        - perl-XML-Fast
         - perl-XML-Filter-BufferText
+        - perl-XML-Generator
         - perl-XML-Handler-YAWriter
         - perl-XML-Parser-Lite
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
+        - perl-XML-Spice
         - perl-XML-TreeBuilder
         - perl-XML-Twig
         - perl-XML-XPathEngine
@@ -4487,6 +4530,7 @@ data:
         - SFML
         - SFML-devel
         - sg3_utils-devel
+        - shapelib-devel
         - sharutils
         - sheepdog
         - ShellCheck
@@ -4629,6 +4673,8 @@ data:
         - wxGTK3-i18n
         - wxGTK3-media
         - wxGTK3-webview
+        - xapian-core
+        - xapian-core-devel
         - Xaw3d-devel
         - xbean
         - xcb-proto
