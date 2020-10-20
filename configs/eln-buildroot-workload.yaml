@@ -1303,7 +1303,6 @@ data:
         - js-coffee-script
         - js-jquery
         - js-marked
-        - json-c-devel
         - jsoncpp-devel
         - jsoup
         - jsr-305
@@ -4609,7 +4608,6 @@ data:
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
-        - tpm2-tss-devel
         - trace-cmd-devel
         - tracker3-devel
         - tracker-devel
@@ -4617,7 +4615,6 @@ data:
         - tre
         - tre-common
         - tre-devel
-        - trousers-devel
         - ttembed
         - ttfautohint
         - ttfautohint-libs
