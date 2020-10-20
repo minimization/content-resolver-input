@@ -1748,7 +1748,6 @@ data:
         - libXNVCtrl-devel
         - libXp-devel
         - libXpm-devel
-        - libXpresent
         - libXpresent-devel
         - libXres-devel
         - libXScrnSaver-devel
@@ -1764,7 +1763,6 @@ data:
         - libzapojit-devel
         - libzip-devel
         - libzmf-devel
-        - lilv
         - lilypond
         - lilypond-c059-fonts
         - lilypond-emmentaler-fonts
@@ -1799,7 +1797,6 @@ data:
         - lua-term
         - lutok
         - lutok-devel
-        - lv2
         - lv2-devel
         - lz4-devel
         - lzo-devel
@@ -4536,7 +4533,6 @@ data:
         - SDL-devel
         - SDL_sound
         - SDL_sound-devel
-        - serd
         - serd-devel
         - SFML
         - SFML-devel
@@ -4563,7 +4559,6 @@ data:
         - socat
         - socket_wrapper
         - sombok-devel
-        - sord
         - sord-devel
         - soundtouch-devel
         - source-highlight-devel
@@ -4581,7 +4576,6 @@ data:
         - spice-protocol
         - spirv-tools
         - spirv-tools-devel
-        - sratom
         - sratom-devel
         - srt-devel
         - startup-notification-devel
