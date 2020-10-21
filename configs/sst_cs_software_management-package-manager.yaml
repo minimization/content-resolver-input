@@ -14,6 +14,7 @@ data:
   - rpm
   - rpm-plugin-selinux
   - rpm-plugin-systemd-inhibit
+  - scl-utils
   - yum
   - yum-utils
 
