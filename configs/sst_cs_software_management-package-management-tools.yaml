@@ -7,6 +7,7 @@ data:
 
   packages:
   - createrepo_c
+  - kernel-rpm-macros
   - redhat-rpm-config
   - rpm-build
   - rpmdevtools
