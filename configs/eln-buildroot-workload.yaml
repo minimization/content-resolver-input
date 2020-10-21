@@ -163,6 +163,9 @@ data:
         - capstone-devel
         - c-ares-devel
         - cdi-api
+        - cdparanoia-devel
+        - ceres-solver
+        - ceres-solver-devel
         - cfitsio
         - cfitsio-devel
         - cglib
@@ -281,6 +284,7 @@ data:
         - eglexternalplatform-devel
         - egl-wayland
         - egl-wayland-devel
+        - eigen3-devel
         - epstool
         - espeak-ng-devel
         - evince-devel
@@ -377,6 +381,8 @@ data:
         - gettext-common-devel
         - gettext-devel
         - gfbgraph-devel
+        - gflags
+        - gflags-devel
         - ghc
         - ghc-aeson
         - ghc-aeson-devel
@@ -820,6 +826,8 @@ data:
         - glibmm24-devel
         - gl-manpages
         - glm-devel
+        - glog
+        - glog-devel
         - glpk
         - glpk-devel
         - glslang-devel
@@ -1128,6 +1136,8 @@ data:
         - go-rpm-macros
         - gperftools-devel
         - gperftools-libs
+        - gpgme-devel
+        - gpgmepp-devel
         - gphoto2
         - gpm
         - gpm-devel
@@ -1369,6 +1379,10 @@ data:
         - lasso-devel
         - lcms2-devel
         - ldns-devel
+        - lensfun
+        - lensfun-devel
+        - leptonica
+        - leptonica-devel
         - leveldb
         - leveldb-devel
         - liba52-devel
@@ -1384,6 +1398,7 @@ data:
         - libappstream-glib-devel
         - libarchive-devel
         - libargon2-devel
+        - libassuan-devel
         - libasyncns-devel
         - libatasmart-devel
         - libatf-c
@@ -1413,11 +1428,13 @@ data:
         - libbson-devel
         - libbtrfs
         - libbtrfsutil
+        - libburn-devel
         - libbytesize-devel
         - libcacard-devel
         - libcanberra-devel
         - libcanberra-gtk2
         - libcbor-devel
+        - libcdio-devel
         - libcdio-paranoia-devel
         - libcdr-devel
         - libcerf
@@ -1446,6 +1463,7 @@ data:
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
+        - libdvdread-devel
         - libecap-devel
         - libecb-devel
         - libeconf-devel
@@ -1515,6 +1533,7 @@ data:
         - libIDL-devel
         - libidn
         - libidn-devel
+        - libieee1284-devel
         - libijs-devel
         - libimagequant-devel
         - libimobiledevice-devel
@@ -1526,6 +1545,7 @@ data:
         - libiodbc-devel
         - libiptcdata-devel
         - libiscsi-devel
+        - libisofs-devel
         - libixion
         - libjcat-devel
         - libjpeg-turbo-devel
@@ -1664,6 +1684,7 @@ data:
         - libsmartcols-devel
         - libsmbclient-devel
         - libSM-devel
+        - libsmi-devel
         - libsndfile-devel
         - libsodium-devel
         - libspatialite
@@ -1918,6 +1939,8 @@ data:
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
         - meson
+        - metis
+        - metis-devel
         - mftrace
         - mingw32-binutils
         - mingw32-cpp
@@ -2064,6 +2087,7 @@ data:
         - octave-devel
         - ogdi
         - ogdi-devel
+        - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
         - openblas-openmp64
@@ -4562,6 +4586,7 @@ data:
         - sord-devel
         - soundtouch-devel
         - source-highlight-devel
+        - sparsehash-devel
         - spdlog
         - spdlog-devel
         - spec-version-maven-plugin
@@ -4603,6 +4628,10 @@ data:
         - teamd-devel
         - teckit-devel
         - tepl-devel
+        - tesseract
+        - tesseract-devel
+        - tesseract-langpack-eng
+        - tesseract-tessdata-doc
         - testng
         - texlive-acronym
         - texlive-gnu-freefont
@@ -4875,46 +4904,22 @@ data:
             - zfs-fuse
         s390x:
             - bluez-obexd
-            - cdparanoia-devel
-            - ceres-solver
-            - ceres-solver-devel
             - efi-filesystem
-            - eigen3-devel
-            - gflags
-            - gflags-devel
-            - glog
-            - glog-devel
             - gnome-bluetooth
             - gnome-bluetooth-libs
-            - gpgme-devel
-            - gpgmepp-devel
-            - lensfun
-            - lensfun-devel
-            - leptonica
-            - leptonica-devel
-            - libassuan-devel
             - libbsd
-            - libburn-devel
-            - libcdio-devel
             - libdv
-            - libdvdread-devel
             - libftdi
             - libguestfs-tools-c
-            - libieee1284-devel
             - libimobiledevice
-            - libisofs-devel
             - libplist
-            - libsmi-devel
             - libusbmuxd
             - libXScrnSaver
             - libXvMC
-            - metis
-            - metis-devel
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
             - mozilla-filesystem
-            - oniguruma-devel
             - openbios
             - pugixml
             - qemu-system-aarch64
@@ -4924,11 +4929,6 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - SLOF
-            - sparsehash-devel
-            - tesseract
-            - tesseract-devel
-            - tesseract-langpack-eng
-            - tesseract-tessdata-doc
             - xorg-x11-drv-dummy
         x86_64:
             - clblast
