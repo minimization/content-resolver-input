@@ -2099,7 +2099,6 @@ data:
         - openblas-threads64_
         - openchange-devel
         - opencryptoki-devel
-        - opencsd-devel
         - opencv
         - opencv-contrib
         - opencv-core
@@ -3442,8 +3441,6 @@ data:
         - rust-cfg-if0.1-devel
         - rust-cfg-if+default-devel
         - rust-cfg-if-devel
-        - rust-charset+default-devel
-        - rust-charset-devel
         - rust-chrono+clock-devel
         - rust-chrono+default-devel
         - rust-chrono-devel
@@ -3693,8 +3690,8 @@ data:
         - rust-heck-devel
         - rust-hex+default-devel
         - rust-hex-devel
-        - rust-hex-literal+default-devel
-        - rust-hex-literal-devel
+        - rust-hex-literal0.2+default-devel
+        - rust-hex-literal0.2-devel
         - rust-hex-literal-impl+default-devel
         - rust-hex-literal-impl-devel
         - rust-hex+std-devel
@@ -3823,8 +3820,6 @@ data:
         - rust-lzw+raii_no_panic-devel
         - rust-mac+default-devel
         - rust-mac-devel
-        - rust-mailparse+default-devel
-        - rust-mailparse-devel
         - rust-maplit+default-devel
         - rust-maplit-devel
         - rust-markup5ever+default-devel
@@ -4054,8 +4049,6 @@ data:
         - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
         - rust-quote-devel
-        - rust-quoted_printable+default-devel
-        - rust-quoted_printable-devel
         - rust-quote+proc-macro-devel
         - rust-rand0.4+default-devel
         - rust-rand0.4-devel
