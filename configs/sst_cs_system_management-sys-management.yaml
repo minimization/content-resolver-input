@@ -61,7 +61,6 @@ data:
   - librabbitmq-devel
   - librabbitmq
   - librabbitmq-tools
-  - opal-firmware
   - opencryptoki-devel
   - opencryptoki-icsftok
   - opencryptoki-swtok
@@ -73,8 +72,6 @@ data:
   - openhpi-devel
   - patch
   - patchutils
-  - rhel-system-roles-sap
-  - setserial
   - symlinks
   - teckit
   - teckit-devel
@@ -123,5 +120,24 @@ data:
   - netpbm-devel
   - python3-jmespath
 
+  arch_packages:
+    #setserial not supported on s390x
+    aarch64:
+    - setserial
+    i686:
+    - setserial
+    x86_64:
+    - setserial
+    ppc64le:
+    - setserial
+
+
+  package_placeholders:
+    rhel-system-roles-sap:
+      description: system roles for SAP
+      requires: []
+      limit_arches:
+        - x86_64
+        - ppc64le
   labels:
   - eln
