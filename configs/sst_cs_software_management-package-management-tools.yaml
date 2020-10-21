@@ -12,6 +12,7 @@ data:
   - rpmdevtools
   - rpmlint
   - rpm-sign
+  - scl-utils-build
 
   labels:
   - eln
