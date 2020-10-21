@@ -9,12 +9,13 @@ data:
   - dnf
   - dnf-automatic
   - dnf-plugins-core
-  - dnf-utils
   - python3-dnf-plugin-post-transaction-actions
   - python3-dnf-plugin-versionlock
   - rpm
   - rpm-plugin-selinux
   - rpm-plugin-systemd-inhibit
+  - yum
+  - yum-utils
 
   labels:
   - eln

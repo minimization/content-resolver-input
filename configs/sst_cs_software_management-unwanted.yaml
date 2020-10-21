@@ -33,11 +33,5 @@ data:
   # SysV init related, no longer needed because we have systemd
   - rpm-plugin-prioreset
 
-  # ideally provide 'yum' in the dnf package to remove RHEL specific compatibility tweaks and get it closer to Fedora
-  - yum
-
-  # ideally rename back to 'dnf-utils' and provide 'yum-utils' to remove RHEL specific compatibility tweaks and get it closer to Fedora
-  - yum-utils
-
   labels:
   - eln
