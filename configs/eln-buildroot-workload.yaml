@@ -4764,7 +4764,6 @@ data:
         - yasm
         - yelp-devel
         - yelp-xsl-devel
-        - yum-utils
         - z3-devel
         - z3-libs
         - zchunk-devel
