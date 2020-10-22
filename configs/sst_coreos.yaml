@@ -17,6 +17,7 @@ data:
    - runc
    - ssh-key-dir
    - zincati
+   - rust-bootupd
 
    # These packages are inherited from the base
    - cloud-utils-growpart
