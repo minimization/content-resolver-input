@@ -18,12 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Minimal Base 2
+  name: Minimal Base 2 (distroless)
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Minimal Base 2
+  description: Base image without a package manager
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
