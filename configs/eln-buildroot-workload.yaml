@@ -261,6 +261,7 @@ data:
         - dcmtk-devel
         - dconf-devel
         - debootstrap
+        - dev86
         - device-mapper-multipath-devel
         - dietlibc
         - dietlibc-devel
@@ -1461,7 +1462,6 @@ data:
         - libdmx-devel
         - libdnet
         - libdnet-devel
-        - libdnf-plugin-subscription-manager
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
@@ -1786,7 +1786,6 @@ data:
         - libzapojit-devel
         - libzip-devel
         - libzmf-devel
-        - lilv
         - lilypond
         - lilypond-c059-fonts
         - lilypond-emmentaler-fonts
@@ -1821,8 +1820,6 @@ data:
         - lua-term
         - lutok
         - lutok-devel
-        - lv2
-        - lv2-devel
         - lz4-devel
         - lzo-devel
         - lzo-minilzo
@@ -4184,9 +4181,6 @@ data:
         - SDL-devel
         - SDL_sound
         - SDL_sound-devel
-        - selinux-policy-minimum
-        - serd
-        - serd-devel
         - SFML
         - SFML-devel
         - sg3_utils-devel
@@ -4212,8 +4206,6 @@ data:
         - socat
         - socket_wrapper
         - sombok-devel
-        - sord
-        - sord-devel
         - soundtouch-devel
         - source-highlight-devel
         - sparsehash-devel
@@ -4231,8 +4223,6 @@ data:
         - spice-protocol
         - spirv-tools
         - spirv-tools-devel
-        - sratom
-        - sratom-devel
         - srt-devel
         - startup-notification-devel
         - stax2-api
