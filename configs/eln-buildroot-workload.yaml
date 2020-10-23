@@ -4184,6 +4184,7 @@ data:
         - SDL-devel
         - SDL_sound
         - SDL_sound-devel
+        - selinux-policy-minimum
         - serd
         - serd-devel
         - SFML
