@@ -8,6 +8,8 @@ data:
   packages:
   - libpq
   - libpq-devel
+  - libecpg
+  - libecpg-devel
   - postgresql
   - postgresql-contrib
   - postgresql-llvmjit
