@@ -41,6 +41,7 @@ data:
         - apache-commons-compress
         - apache-commons-exec
         - apache-commons-jxpath
+        - apache-commons-lang
         - apache-commons-logging-javadoc
         - apache-commons-parent
         - apache-ivy
@@ -1299,7 +1300,6 @@ data:
         - jmock-junit4
         - jmock-legacy
         - jmock-testjar
-        - jna
         - jna-contrib
         - jnr-constants
         - jnr-ffi
