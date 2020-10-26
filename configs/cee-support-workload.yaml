@@ -13,5 +13,5 @@ data:
   - eln
 
   package_placeholders:
-    package-name: container-tools
-      description: This package ships in RHEL as a support tool, but does not in Fedora. 
+    package-name: support-tools-container
+      description: This package ships in RHEL as a support tool, but does not ship in Fedora. 
