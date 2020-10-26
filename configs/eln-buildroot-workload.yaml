@@ -1448,8 +1448,6 @@ data:
         - libcmocka-devel
         - libcollection-devel
         - libconfig-devel
-        - libconfuse
-        - libconfuse-devel
         - libdaemon-devel
         - libdazzle-devel
         - libdbi
@@ -1492,7 +1490,6 @@ data:
         - libfido2-devel
         - libfontenc-devel
         - libfreehand-devel
-        - libftdi-devel
         - libgcab1-devel
         - libgdiplus
         - libgdiplus-devel
@@ -2775,7 +2772,6 @@ data:
         - python3-ldb-devel
         - python3-lesscpy
         - python3-lexicon
-        - python3-libftdi
         - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
@@ -4406,6 +4402,7 @@ data:
             - extlinux-bootloader
             - farstream02
             - farstream02-devel
+            - flashrom
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
@@ -4413,12 +4410,16 @@ data:
             - gtkspell-devel
             - libavc1394-devel
             - libbsd
+            - libconfuse
+            - libconfuse-devel
             - libdc1394
             - libdc1394-devel
             - libesmtp
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libftdi
+            - libftdi-devel
             - libgnt
             - libgnt-devel
             - libgpuarray
@@ -4444,6 +4445,7 @@ data:
             - pugixml
             - python3-fastcache
             - python3-gmpy2
+            - python3-libftdi
             - python3-mpmath
             - python3-pycmd
             - python3-pyglet
@@ -4473,16 +4475,21 @@ data:
             - efi-filesystem
             - farstream02
             - farstream02-devel
+            - flashrom
             - flashrom-devel
             - gtkspell
             - gtkspell-devel
             - libavc1394-devel
             - libbsd
+            - libconfuse
+            - libconfuse-devel
             - libdc1394
             - libdc1394-devel
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libftdi
+            - libftdi-devel
             - libgnt
             - libgnt-devel
             - libgpuarray
@@ -4505,6 +4512,7 @@ data:
             - pugixml
             - python3-fastcache
             - python3-gmpy2
+            - python3-libftdi
             - python3-mpmath
             - python3-pycmd
             - python3-pyglet
@@ -4529,7 +4537,6 @@ data:
             - gnome-bluetooth-libs
             - libbsd
             - libdv
-            - libftdi
             - libguestfs-tools-c
             - libimobiledevice
             - libplist
@@ -4560,17 +4567,22 @@ data:
             - farstream02
             - farstream02-devel
             - fftw-libs-quad
+            - flashrom
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkspell
             - gtkspell-devel
             - libavc1394-devel
+            - libconfuse
+            - libconfuse-devel
             - libdc1394
             - libdc1394-devel
             - libffado
             - libffado-devel
             - libfprint-devel
+            - libftdi
+            - libftdi-devel
             - libgnt
             - libgnt-devel
             - libgpuarray
@@ -4591,6 +4603,7 @@ data:
             - openni-primesense
             - python3-fastcache
             - python3-gmpy2
+            - python3-libftdi
             - python3-mpmath
             - python3-pycmd
             - python3-pyglet
