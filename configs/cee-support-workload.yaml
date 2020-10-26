@@ -7,8 +7,11 @@ data:
 
   packages:
   - sos
-  - support-tools-container
   - rig
 
   labels:
   - eln
+
+  package_placeholders:
+    package-name: container-tools
+      description: This package ships in RHEL as a support tool, but does not in Fedora. 
