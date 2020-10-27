@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: thermald
+  description: Thermal Management daemon
+  maintainer: sst_desktop
+
+  packages: []
+
+  labels:
+  - eln
+
+  arch_packages:
+   x86_64:
+   - thermald
