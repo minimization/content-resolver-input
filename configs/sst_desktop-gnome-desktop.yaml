@@ -33,6 +33,8 @@ data:
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
+  - low-memory-monitor
+  - power-profiles-daemon
   - tracker
   - uresourced
   - xdg-user-dirs-gtk
