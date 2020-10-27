@@ -34,6 +34,7 @@ data:
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
   - tracker
+  - uresourced
   - xdg-user-dirs-gtk
 
   labels:
