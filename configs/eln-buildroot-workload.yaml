@@ -261,7 +261,6 @@ data:
         - dcmtk-devel
         - dconf-devel
         - debootstrap
-        - dev86
         - device-mapper-multipath-devel
         - dietlibc
         - dietlibc-devel
@@ -4299,6 +4298,7 @@ data:
         - utf8proc
         - utf8proc-devel
         - uuid-devel
+        - virglrenderer
         - virglrenderer-devel
         - volume_key-devel
         - vte291-devel
@@ -4394,6 +4394,7 @@ data:
         aarch64:
             - clblast
             - clblast-devel
+            - dev86
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-ovmf
@@ -4469,6 +4470,8 @@ data:
             - spice-server-devel
             - util-linux-user
             - xen-devel
+            - xen-libs
+            - xen-licenses
         ppc64le:
             - clblast
             - clblast-devel
@@ -4560,6 +4563,7 @@ data:
         x86_64:
             - clblast
             - clblast-devel
+            - dev86
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-aarch64
@@ -4625,4 +4629,6 @@ data:
             - tinyxml
             - tinyxml-devel
             - xen-devel
+            - xen-libs
+            - xen-licenses
             - zfs-fuse
