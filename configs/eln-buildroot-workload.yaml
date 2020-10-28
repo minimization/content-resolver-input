@@ -339,10 +339,7 @@ data:
         - fonttools
         - fop
         - forge-parent
-        - fping
         - freeglut-devel
-        - freeradius-client
-        - freeradius-client-devel
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -2011,7 +2008,6 @@ data:
         - nscd
         - nss_wrapper
         - ntfs-3g-devel
-        - ntp
         - numactl-devel
         - nunit
         - nunit-devel
@@ -2195,7 +2191,6 @@ data:
         - perl-Crypt-CBC
         - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
-        - perl-Crypt-X509
         - perl-CSS
         - perl-CSS-Tiny
         - perl-Curses
@@ -3061,7 +3056,6 @@ data:
         - qrupdate-devel
         - qscintilla-qt5
         - qscintilla-qt5-devel
-        - qstat
         - qt
         - qt3
         - qt3-devel
