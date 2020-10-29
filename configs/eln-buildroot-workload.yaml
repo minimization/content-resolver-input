@@ -1516,6 +1516,7 @@ data:
         - libhandy1-devel
         - libhandy-devel
         - libhangul-devel
+        - libhbaapi-devel
         - libICE-devel
         - libicns
         - libicns-utils
@@ -4792,6 +4793,7 @@ data:
             - libgnt-devel
             - libgpuarray
             - libguestfs-tools-c
+            - libhbaapi
             - libiec61883-devel
             - libknet1-devel
             - libnice-gstreamer1
@@ -5049,6 +5051,7 @@ data:
             - libgnt-devel
             - libgpuarray
             - libguestfs-tools-c
+            - libhbaapi
             - libiec61883-devel
             - libnice-gstreamer1
             - libpurple
@@ -5327,6 +5330,7 @@ data:
             - libgnt
             - libgnt-devel
             - libgpuarray
+            - libhbaapi
             - libiec61883-devel
             - libnice-gstreamer1
             - libpurple
