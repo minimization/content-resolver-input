@@ -238,6 +238,7 @@ data:
         - compat-wxGTK3-gtk2-devel
         - compat-wxGTK3-gtk2-gl
         - compat-wxGTK3-gtk2-media
+        - corosynclib-devel
         - cppcheck
         - cppunit
         - cppunit-devel
@@ -1544,6 +1545,7 @@ data:
         - libkkc-devel
         - libkml
         - libkml-devel
+        - libknet1-devel
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
@@ -1603,6 +1605,7 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
+        - libnozzle1-devel
         - libnsl2-devel
         - libntlm
         - libntlm-devel
@@ -1641,6 +1644,7 @@ data:
         - libprelude-devel
         - libproxy-devel
         - libpst-devel
+        - libqb-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1701,6 +1705,7 @@ data:
         - libtomcrypt
         - libtomcrypt-devel
         - libtommath-devel
+        - libtool-ltdl-devel
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
@@ -1756,6 +1761,7 @@ data:
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
+        - libxslt-devel
         - libXt-devel
         - libXv-devel
         - libXvMC-devel
@@ -2105,6 +2111,7 @@ data:
         - ostree-devel
         - p7zip
         - p7zip-plugins
+        - pacemaker-libs-devel
         - PackageKit-glib-devel
         - pakchois-devel
         - pam-devel
@@ -2642,6 +2649,7 @@ data:
         - python3-clikit
         - python3-cmd2
         - python3-colander
+        - python3-colorama
         - python3-CommonMark
         - python3-constantly
         - python3-convertdate
@@ -4752,7 +4760,6 @@ data:
             - cargo-c
             - clblast
             - clblast-devel
-            - corosynclib-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -4795,17 +4802,12 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
-            - libknet1-devel
             - libnice-gstreamer1
-            - libnozzle1-devel
             - libpurple
-            - libqb-devel
             - libraw1394-devel
-            - libtool-ltdl-devel
             - libxml++
             - libxml++-devel
             - libXScrnSaver
-            - libxslt-devel
             - libXvMC
             - meanwhile
             - meanwhile-devel
@@ -4816,9 +4818,7 @@ data:
             - mingw-filesystem-base
             - ocl-icd-devel
             - openbios
-            - pacemaker-libs-devel
             - pugixml
-            - python3-colorama
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
