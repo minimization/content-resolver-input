@@ -45,9 +45,6 @@ data:
         - apache-resource-bundles
         - apiguardian
         - appstream
-        - apr-devel
-        - apr-util-devel
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - args4j
@@ -225,7 +222,6 @@ data:
         - compat-wxGTK3-gtk2-devel
         - compat-wxGTK3-gtk2-gl
         - compat-wxGTK3-gtk2-media
-        - corosynclib-devel
         - cppcheck
         - cppunit
         - cppunit-devel
@@ -1184,7 +1180,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1263,6 +1258,7 @@ data:
         - jdependency
         - jdom
         - jdom2
+        - jemalloc-devel
         - jflex
         - jFormatString
         - jfsutils
@@ -1515,7 +1511,6 @@ data:
         - libkkc-devel
         - libkml
         - libkml-devel
-        - libknet1-devel
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
@@ -1575,7 +1570,6 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
-        - libnozzle1-devel
         - libnsl2-devel
         - libntlm
         - libntlm-devel
@@ -1614,7 +1608,6 @@ data:
         - libprelude-devel
         - libproxy-devel
         - libpst-devel
-        - libqb-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1634,7 +1627,6 @@ data:
         - libsass
         - libsass-devel
         - libsemanage-static
-        - libserf
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
@@ -1675,7 +1667,6 @@ data:
         - libtomcrypt
         - libtomcrypt-devel
         - libtommath-devel
-        - libtool-ltdl-devel
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
@@ -1731,7 +1722,6 @@ data:
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
-        - libxslt-devel
         - libXt-devel
         - libXv-devel
         - libXvMC-devel
@@ -1921,7 +1911,6 @@ data:
         - mock-core-configs
         - mock-filesystem
         - mockito
-        - mod_dav_svn
         - modello
         - mod_perl
         - mojo-parent
@@ -2063,7 +2052,6 @@ data:
         - OpenEXR-devel
         - openjpeg2-devel
         - openjpeg2-tools
-        - openldap-devel
         - openldap-servers
         - openpgm
         - openpgm-devel
@@ -2191,7 +2179,6 @@ data:
         - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
-        - perl-Fedora-VSP
         - perl-FFI-CheckLib
         - perl-FFI-Platypus
         - perl-File-BaseDir
@@ -2211,7 +2198,6 @@ data:
         - perl-File-Type
         - perl-Font-AFM
         - perl-Font-TTF
-        - perl-generators
         - perl-Getopt-ArgvFile
         - perl-Glib
         - perl-Graphics-ColorNamesLite-WWW
@@ -2343,8 +2329,6 @@ data:
         - perl-Sys-Virt
         - perl-Taint-Runtime
         - perl-Task-Weaken
-        - perl-Term-Size-Any
-        - perl-Term-Size-Perl
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
         - perl-Test2-Tools-Explain
@@ -2555,7 +2539,6 @@ data:
         - python3-clikit
         - python3-cmd2
         - python3-colander
-        - python3-colorama
         - python3-CommonMark
         - python3-constantly
         - python3-convertdate
@@ -4503,9 +4486,6 @@ data:
         - stax2-api
         - subunit
         - subunit-devel
-        - subversion
-        - subversion-libs
-        - subversion-perl
         - suitesparse64
         - suitesparse-devel
         - sundials
@@ -4574,7 +4554,6 @@ data:
         - usbguard-devel
         - usbredir-devel
         - userspace-rcu-devel
-        - utf8proc
         - utf8proc-devel
         - uuid-devel
         - volume_key-devel
@@ -4670,6 +4649,7 @@ data:
             - bullet-devel
             - clblast
             - clblast-devel
+            - corosynclib-devel
             - dbus-c++
             - dbus-c++-devel
             - dbus-c++-ecore
@@ -4708,12 +4688,17 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
+            - libknet1-devel
             - libnice-gstreamer1
+            - libnozzle1-devel
             - libpurple
+            - libqb-devel
             - libraw1394-devel
+            - libtool-ltdl-devel
             - libxml++
             - libxml++-devel
             - libXScrnSaver
+            - libxslt-devel
             - libXvMC
             - meanwhile
             - meanwhile-devel
@@ -4725,6 +4710,7 @@ data:
             - ocl-icd-devel
             - openbios
             - pugixml
+            - python3-colorama
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
