@@ -60,11 +60,14 @@ data:
         - assertj-core
         - atf-tests
         - atinject
+        - atk-devel
         - atkmm-devel
         - atlas
         - atlas-devel
         - atril
         - atril-libs
+        - at-spi2-atk-devel
+        - at-spi2-core-devel
         - audiofile
         - audiofile-devel
         - augeas-devel
@@ -139,6 +142,7 @@ data:
         - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
+        - cairo-gobject-devel
         - cairomm-devel
         - caja
         - caja-core-extensions
@@ -268,9 +272,12 @@ data:
         - egl-wayland
         - egl-wayland-devel
         - eigen3-devel
+        - enchant2-devel
+        - enchant-devel
         - epstool
         - espeak-ng-devel
         - evince-devel
+        - evolution-data-server-devel
         - exec-maven-plugin
         - execstack
         - exempi-devel
@@ -341,12 +348,14 @@ data:
         - gcc-x86_64-linux-gnu
         - gc-devel
         - GConf2-devel
+        - gcr-devel
         - gdal-devel
         - gdal-libs
         - gdcm
         - gdcm-applications
         - gdcm-devel
         - gd-devel
+        - gdk-pixbuf2-devel
         - gdk-pixbuf2-xlib
         - gdk-pixbuf2-xlib-devel
         - gdlmm
@@ -357,6 +366,7 @@ data:
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
+        - geocode-glib-devel
         - geos
         - geos-devel
         - gettext-common-devel
@@ -819,8 +829,10 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
+        - gnome-desktop3-devel
         - gnome-doc-utils
         - gnome-doc-utils-stylesheets
+        - gnome-online-accounts-devel
         - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
@@ -878,6 +890,7 @@ data:
         - golang-github-davecgh-spew-devel
         - golang-github-dgrijalva-jwt-devel
         - golang-github-docker-units-devel
+        - golang-github-dpotapov-spnego-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
@@ -891,6 +904,9 @@ data:
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
         - golang-github-ghodss-yaml-devel
+        - golang-github-git-lfs-netrc-devel
+        - golang-github-git-lfs-ntlm-devel
+        - golang-github-git-lfs-wildmatch-devel
         - golang-github-glog-devel
         - golang-github-godbus-dbus-devel
         - golang-github-gogo-protobuf-devel
@@ -986,6 +1002,7 @@ data:
         - golang-github-nats-io-nuid-devel
         - golang-github-nats-io-server-devel
         - golang-github-olekukonko-tablewriter-devel
+        - golang-github-olekukonko-ts-devel
         - golang-github-onsi-gomega-devel
         - golang-github-opentracing-basictracer-devel
         - golang-github-opentracing-contrib-observer-devel
@@ -1012,6 +1029,7 @@ data:
         - golang-github-rcrowley-metrics-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
+        - golang-github-rubyist-tracerx-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
         - golang-github-schollz-progressbar-2-devel
@@ -1037,6 +1055,7 @@ data:
         - golang-github-spf13-pflag-devel
         - golang-github-spf13-viper-devel
         - golang-github-src-d-gcfg-devel
+        - golang-github-ssgelm-cookiejarparser-devel
         - golang-github-stack-devel
         - golang-github-stathat-devel
         - golang-github-streadway-amqp-devel
@@ -1053,6 +1072,9 @@ data:
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
+        - golang-github-xeipuuv-gojsonpointer-devel
+        - golang-github-xeipuuv-gojsonreference-devel
+        - golang-github-xeipuuv-gojsonschema-devel
         - golang-github-xiang90-probing-devel
         - golang-github-xlzd-gotp-devel
         - golang-github-xo-dburl-devel
@@ -1071,8 +1093,11 @@ data:
         - golang-gopkg-ini-1-devel
         - golang-gopkg-jcmturner-aescts-1-devel
         - golang-gopkg-jcmturner-dnsutils-1-devel
+        - golang-gopkg-jcmturner-goidentity-2-devel
         - golang-gopkg-jcmturner-goidentity-3-devel
+        - golang-gopkg-jcmturner-gokrb5-5-devel
         - golang-gopkg-jcmturner-gokrb5-7-devel
+        - golang-gopkg-jcmturner-rpc-0-devel
         - golang-gopkg-jcmturner-rpc-1-devel
         - golang-gopkg-logex-1-devel
         - golang-gopkg-readline-1-devel
@@ -1126,9 +1151,11 @@ data:
         - GraphicsMagick-devel
         - grilo-devel
         - groff-perl
+        - gsettings-desktop-schemas-devel
         - gsl-devel
         - gsm-devel
         - gsound-devel
+        - gspell-devel
         - gssdp-devel
         - gssntlmssp-devel
         - gstreamer1-devel
@@ -1138,6 +1165,7 @@ data:
         - gtest-devel
         - gtk+
         - gtk2-devel
+        - gtk3-devel
         - gtk3-devel-docs
         - gtk+-devel
         - gtkmm30-devel
@@ -1172,6 +1200,7 @@ data:
         - hfsplus-tools
         - hidapi
         - hidapi-devel
+        - highlight
         - hiredis
         - hiredis-devel
         - hivex-devel
@@ -1206,6 +1235,7 @@ data:
         - isl
         - isl-devel
         - isns-utils-devel
+        - iso-codes-devel
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1278,6 +1308,7 @@ data:
         - js-jquery
         - js-marked
         - jsoncpp-devel
+        - json-glib-devel
         - jsoup
         - jsr-305
         - js-uglify
@@ -1434,6 +1465,7 @@ data:
         - libEMF-devel
         - libeot
         - libeot-devel
+        - libepoxy-devel
         - libepubgen-devel
         - libesmtp-devel
         - libestr-devel
@@ -1452,6 +1484,8 @@ data:
         - libfontenc-devel
         - libfreehand-devel
         - libgcab1-devel
+        - libgcrypt-devel
+        - libgdata-devel
         - libgdiplus
         - libgdiplus-devel
         - libgdither-devel
@@ -1479,6 +1513,7 @@ data:
         - libgudev-devel
         - libguestfs-devel
         - libgusb-devel
+        - libgweather-devel
         - libgxim
         - libgxim-devel
         - libgxps-devel
@@ -1486,6 +1521,8 @@ data:
         - libhandy-devel
         - libhangul-devel
         - libhbaapi-devel
+        - libical-devel
+        - libical-glib-devel
         - libICE-devel
         - libIDL
         - libIDL-devel
@@ -1529,7 +1566,6 @@ data:
         - libmatchbox-devel
         - libmbim-devel
         - libmediaart-devel
-        - libmemcached-devel
         - libmetalink-devel
         - libmicrodns-devel
         - libmicrohttpd-devel
@@ -1607,7 +1643,8 @@ data:
         - libprelude
         - libprelude-devel
         - libproxy-devel
-        - libpst-devel
+        - libpsl-devel
+        - libpwquality-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1626,6 +1663,7 @@ data:
         - libsamplerate-devel
         - libsass
         - libsass-devel
+        - libseccomp-devel
         - libsemanage-static
         - libserf-devel
         - libshout-devel
@@ -1638,6 +1676,7 @@ data:
         - libsmi-devel
         - libsndfile-devel
         - libsodium-devel
+        - libsoup-devel
         - libspatialite
         - libspatialite-devel
         - libspectre-devel
@@ -1648,6 +1687,7 @@ data:
         - libsrtp-devel
         - libss-devel
         - libssh2-devel
+        - libssh-devel
         - libsss_certmap-devel
         - libsss_idmap-devel
         - libsss_nss_idmap-devel
@@ -1707,8 +1747,14 @@ data:
         - libwpg-devel
         - libwps-devel
         - libXaw-devel
+        - libXcomposite-devel
+        - libXcursor-devel
+        - libXdamage-devel
         - libXdmcp-devel
+        - libXfixes-devel
         - libXfont2-devel
+        - libXi-devel
+        - libXinerama-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
         - libxklavier-devel
@@ -1719,10 +1765,12 @@ data:
         - libXp-devel
         - libXpm-devel
         - libXpresent-devel
+        - libXrandr-devel
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
         - libXt-devel
+        - libXtst-devel
         - libXv-devel
         - libXvMC-devel
         - libXxf86dga-devel
@@ -1880,6 +1928,8 @@ data:
         - maven-wagon-provider-api
         - mdds-devel
         - mecab-devel
+        - mercurial-lang
+        - mercurial-py2
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -1971,6 +2021,11 @@ data:
         - nodejs-underscore
         - npth-devel
         - nscd
+        - nspr-devel
+        - nss-devel
+        - nss-softokn-devel
+        - nss-softokn-freebl-devel
+        - nss-util-devel
         - nss_wrapper
         - ntfs-3g-devel
         - numactl-devel
@@ -2043,7 +2098,6 @@ data:
         - openblas-threads
         - openblas-threads64
         - openblas-threads64_
-        - openchange-devel
         - opencryptoki-devel
         - opencv
         - opencv-contrib
@@ -4420,7 +4474,6 @@ data:
         - rust-yaml-rust-devel
         - samba-dc-libs
         - samba-devel
-        - samba-pidl
         - samba-winbind-clients
         - sane-backends-devel
         - sanlock-devel
@@ -4565,8 +4618,12 @@ data:
         - w3m
         - waf
         - wavpack-devel
+        - wayland-devel
+        - wayland-protocols-devel
         - wdiff
         - web-assets-devel
+        - webkit2gtk3-devel
+        - webkit2gtk3-jsc-devel
         - webrtc-audio-processing-devel
         - weld-parent
         - woff2-devel
@@ -4600,6 +4657,7 @@ data:
         - xerces-c
         - xerces-c-devel
         - xfsprogs-devel
+        - xkeyboard-config-devel
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
@@ -4654,6 +4712,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - dbus-devel
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-ovmf
@@ -4684,11 +4743,13 @@ data:
             - libftdi-devel
             - libgnt
             - libgnt-devel
+            - libgpg-error-devel
             - libgpuarray
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
             - libknet1-devel
+            - libmspack
             - libnice-gstreamer1
             - libnozzle1-devel
             - libpurple
@@ -4775,6 +4836,7 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
+            - libmspack
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
@@ -4825,6 +4887,7 @@ data:
             - libdv
             - libguestfs-tools-c
             - libimobiledevice
+            - libmspack
             - libplist
             - libusbmuxd
             - libXScrnSaver
@@ -4832,7 +4895,6 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
-            - mozilla-filesystem
             - openbios
             - pugixml
             - qemu-system-aarch64
