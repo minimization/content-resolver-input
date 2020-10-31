@@ -4724,6 +4724,7 @@ data:
             - mingw-filesystem-base
             - ocl-icd-devel
             - openbios
+            - pacemaker-libs-devel
             - pugixml
             - python3-colorama
             - python3-fastcache
