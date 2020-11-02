@@ -1921,6 +1921,7 @@ data:
         - mingw-binutils-generic
         - miniz
         - miniz-devel
+        - minizip
         - mobile-broadband-provider-info-devel
         - mock
         - mock-core-configs
@@ -2618,13 +2619,16 @@ data:
         - python3-graphviz
         - python3-greenlet
         - python3-greenlet-devel
+        - python3-h11
         - python3-h2
         - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
         - python3-httpbin
+        - python3-httpcore
         - python3-httpretty
+        - python3-httpx
         - python3-hupper
         - python3-hyperframe
         - python3-hyperlink
@@ -2807,6 +2811,7 @@ data:
         - python3-responses
         - python3-retrying
         - python3-rfc3986
+        - python3-rfc3986+idna2008
         - python3-rjsmin
         - python3-rpkg
         - python3-rst-linker
