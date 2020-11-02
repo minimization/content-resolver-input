@@ -7,8 +7,11 @@ data:
   unwanted_packages:
   # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
   - libappindicator
+  - libappindicator-gtk3
   - libdbusmenu
+  - libdbusmenu-gtk3
   - libindicator
+  - libindicator-gtk3
   # Replaced by GNOME Connections
   - vinagre
   # buggy; glib improved to make dconf work on NFS
