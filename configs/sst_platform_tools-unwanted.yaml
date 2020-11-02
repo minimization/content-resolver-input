@@ -36,3 +36,6 @@ data:
   - compat-libpthread-nonshared
   # Remove nscd in favour of sssd.
   - nscd
+  # Remove jsoncpp and rhash which are not used by cmake.
+  - jsoncpp
+  - rhash
