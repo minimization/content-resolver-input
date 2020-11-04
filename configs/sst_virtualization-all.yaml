@@ -23,6 +23,8 @@ data:
   - libvirt-dbus
   - libvirt-glib
   - mdevctl
+  - meson
+  - ninja-build
   - nbdkit
   - netcf
   - ocaml
@@ -41,7 +43,6 @@ data:
   - ocaml-xml-light
   - osinfo-db
   - osinfo-db-tools
-  - libphodav
   - po4a
   - python-augeas
   - python3-libvirt
@@ -49,7 +50,6 @@ data:
   - qemu-kvm
   - seabios
   - sgabios
-  - spice-html5
   - supermin
   - vhostmd
   - virt-install
@@ -75,6 +75,12 @@ data:
     libguestfs-winsupport:
       description: Add support for Windows guests to virt-v2v and virt-p2v
       requires: []
-      buildrequires: []
+      buildrequires:
+        - mingw-gcc
+        - mingw-binutils
+        - mingw-filesystem
+        - mingw-headers
+        - mingw-crt
+        - mingw-srvany
       limit_arches:
       - x86_64
