@@ -44,11 +44,8 @@ data:
         - mingw64-win-iconv
         - mingw-binutils-generic
         - mingw-filesystem-base
-        - mingw-binutils
-        - mingw-crt
-        - mingw-filesystem
-        - mingw-gcc
-        - mingw-headers
         - mingw-pkg-config
-        - mingw-srvany
         - mingw-w64-tools
+        - mingw-pcre
+        - mingw-zlib
+        - mingw-libffi
