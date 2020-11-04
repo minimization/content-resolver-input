@@ -54,6 +54,7 @@ data:
         - arpack-devel
         - arts
         - arts-devel
+        - asciidoc
         - asio-devel
         - aspell-devel
         - aspell-en
@@ -235,6 +236,7 @@ data:
         - CUnit-devel
         - dain-snappy
         - datefudge
+        - dblatex
         - dbus-glib-devel
         - dbusmenu-qt5
         - dbusmenu-qt5-devel
@@ -253,12 +255,16 @@ data:
         - djvulibre-libs
         - dlm-devel
         - docbook2X
+        - docbook5-schemas
+        - docbook5-style-xsl
+        - docbook-utils-pdf
         - dom4j
         - dontpanic
         - dontpanic-devel
         - dos2unix
         - dotconf-devel
         - double-conversion-devel
+        - doxygen
         - doxygen2man
         - dpkg
         - drpm-devel
@@ -1138,6 +1144,7 @@ data:
         - GraphicsMagick-c++-devel
         - GraphicsMagick-devel
         - grilo-devel
+        - groff
         - groff-perl
         - gsl-devel
         - gsm-devel
@@ -1182,6 +1189,7 @@ data:
         - hdf-devel
         - hdf-libs
         - hdf-static
+        - help2man
         - hfsplus-tools
         - hidapi
         - hidapi-devel
@@ -1355,6 +1363,8 @@ data:
         - lapack-devel
         - lapack-static
         - lasso-devel
+        - latex2html
+        - latexmk
         - lcms2-devel
         - ldns-devel
         - lensfun
@@ -1636,6 +1646,8 @@ data:
         - librhsm-devel
         - libRmath
         - librsvg2-devel
+        - librx
+        - librx-devel
         - libsamplerate-devel
         - libsass
         - libsass-devel
@@ -1755,6 +1767,7 @@ data:
         - lilypond-texgyre-schola-fonts
         - linkchecker
         - linuxconsoletools
+        - linuxdoc-tools
         - lldpad-devel
         - llvm10
         - llvm10-devel
@@ -1978,6 +1991,8 @@ data:
         - netcdf-openmpi
         - netcdf-openmpi-devel
         - netcf-devel
+        - netpbm
+        - netpbm-progs
         - newt-devel
         - nftables-devel
         - nghttp2
@@ -2071,6 +2086,7 @@ data:
         - openldap-servers
         - openpgm
         - openpgm-devel
+        - opensp-devel
         - opentest4j
         - opus-devel
         - orangefs-devel
@@ -2239,6 +2255,7 @@ data:
         - perl-JSON-Color
         - perl-JSON-MaybeXS
         - perl-JSON-XS
+        - perl-libintl-perl
         - perl-libxml-perl
         - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
@@ -2406,6 +2423,7 @@ data:
         - perl-Tie-IxHash
         - perl-Tk
         - perl-Types-Serialiser
+        - perl-Unicode-EastAsianWidth
         - perl-Unicode-Map8
         - perl-Unicode-String
         - perl-Unicode-UTF8
@@ -4527,11 +4545,141 @@ data:
         - tesseract-langpack-eng
         - tesseract-tessdata-doc
         - testng
+        - texi2html
+        - texinfo
+        - texinfo-tex
+        - texlive
         - texlive-acronym
+        - texlive-adjustbox
+        - texlive-aleph
+        - texlive-antomega
+        - texlive-anyfontsize
+        - texlive-appendix
+        - texlive-arabxetex
+        - texlive-arphic
+        - texlive-awesomebox
+        - texlive-bibtopic
+        - texlive-bidi-atbegshi
+        - texlive-bidicontour
+        - texlive-bidipagegrid
+        - texlive-bidipresentation
+        - texlive-bidishadowtext
+        - texlive-bigfoot
+        - texlive-businesscard-qrcode
+        - texlive-capt-of
+        - texlive-changebar
+        - texlive-cjk
+        - texlive-cjk-ko
+        - texlive-cns
+        - texlive-collectbox
+        - texlive-collection-formatsextra
+        - texlive-collection-xetex
+        - texlive-cqubeamer
+        - texlive-cyrillic
+        - texlive-dvisvgm
+        - texlive-edmac
+        - texlive-eepic
+        - texlive-environ
+        - texlive-eplain
+        - texlive-epsf
+        - texlive-epstopdf
+        - texlive-etoc
+        - texlive-everypage
+        - texlive-fixlatvian
+        - texlive-fncychap
+        - texlive-fontbook
+        - texlive-font-change-xetex
+        - texlive-fonts-tlwg
+        - texlive-fontwrap
+        - texlive-framed
+        - texlive-garuda-c90
         - texlive-gnu-freefont
+        - texlive-gsftopk
+        - texlive-hanging
+        - texlive-ifoddpage
+        - texlive-import
+        - texlive-interchar
+        - texlive-jadetex
+        - texlive-kotex-plain
+        - texlive-kotex-utf
+        - texlive-lambda
+        - texlive-latex2man
+        - texlive-lettrine
         - texlive-lh
+        - texlive-lib-devel
+        - texlive-linegoal
+        - texlive-listofitems
+        - texlive-lollipop
+        - texlive-luatex85
+        - texlive-luatexko
+        - texlive-metapost
+        - texlive-mltex
+        - texlive-multirow
+        - texlive-mxedruli
+        - texlive-na-position
+        - texlive-ncctools
+        - texlive-needspace
+        - texlive-newunicodechar
+        - texlive-norasi-c90
+        - texlive-obsolete
+        - texlive-omega
+        - texlive-omegaware
+        - texlive-otibet
+        - texlive-overpic
+        - texlive-passivetex
+        - texlive-philokalia
+        - texlive-preprint
+        - texlive-psizzl
+        - texlive-ptext
+        - texlive-quran
+        - texlive-quran-de
         - texlive-relsize
+        - texlive-scheme-basic
+        - texlive-sectsty
         - texlive-sfmath
+        - texlive-simple-resume-cv
+        - texlive-simple-thesis-dissertation
+        - texlive-stackengine
+        - texlive-startex
+        - texlive-stmaryrd
+        - texlive-subfigure
+        - texlive-svn-prov
+        - texlive-t2
+        - texlive-tabu
+        - texlive-tabulary
+        - texlive-tetragonos
+        - texlive-tex4ht
+        - texlive-texlive-scripts-extra
+        - texlive-texsis
+        - texlive-tocloft
+        - texlive-trimspaces
+        - texlive-type1cm
+        - texlive-ucharclasses
+        - texlive-uhc
+        - texlive-ulem
+        - texlive-unicode-bidi
+        - texlive-unisugar
+        - texlive-upquote
+        - texlive-wadalab
+        - texlive-was
+        - texlive-wrapfig
+        - texlive-xebaposter
+        - texlive-xechangebar
+        - texlive-xecjk
+        - texlive-xecolor
+        - texlive-xecyr
+        - texlive-xeindex
+        - texlive-xesearch
+        - texlive-xespotcolor
+        - texlive-xetexfontinfo
+        - texlive-xetex-itrans
+        - texlive-xetexko
+        - texlive-xetex-pstricks
+        - texlive-xetex-tibetan
+        - texlive-xevlna
+        - texlive-xmltex
+        - texlive-xmltexconfig
+        - texlive-xtab
         - thrift
         - tidy
         - tinycdb-devel
@@ -4628,6 +4776,8 @@ data:
         - xmlsec1-openssl-devel
         - xmlstarlet
         - xmlstreambuffer
+        - xmlto
+        - xmltoman
         - xmlunit-assertj
         - xmlunit-core
         - xmlunit-legacy
