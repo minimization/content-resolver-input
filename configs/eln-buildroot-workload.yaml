@@ -3532,8 +3532,6 @@ data:
         - rust-freetype-devel
         - rust-freetype-sys+default-devel
         - rust-freetype-sys-devel
-        - rust-fs2+default-devel
-        - rust-fs2-devel
         - rust-futf+default-devel
         - rust-futf-devel
         - rust-futures0.1+default-devel
@@ -4621,7 +4619,6 @@ data:
         - texlive-needspace
         - texlive-newunicodechar
         - texlive-norasi-c90
-        - texlive-obsolete
         - texlive-omega
         - texlive-omegaware
         - texlive-otibet
