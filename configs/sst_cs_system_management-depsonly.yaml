@@ -68,5 +68,5 @@ arch_packages:
     ppc64le:
     - cdrdao
 
-  labels:
+labels:
   - eln
