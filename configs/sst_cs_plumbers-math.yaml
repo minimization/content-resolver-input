@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Math:
+  name: Math
   description: Various math related libraries
   maintainer: sst_cs_plumbers
 
