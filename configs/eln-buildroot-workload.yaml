@@ -62,8 +62,6 @@ data:
         - atf-tests
         - atinject
         - atkmm-devel
-        - atlas
-        - atlas-devel
         - atril
         - atril-libs
         - audiofile
