@@ -423,6 +423,9 @@ data:
         - ghc-binary
         - ghc-binary-devel
         - ghc-binary-prof
+        - ghc-bitarray
+        - ghc-bitarray-devel
+        - ghc-bitarray-prof
         - ghc-blaze-builder
         - ghc-blaze-builder-devel
         - ghc-blaze-builder-prof
@@ -754,6 +757,9 @@ data:
         - ghc-unbounded-delays
         - ghc-unbounded-delays-devel
         - ghc-unbounded-delays-prof
+        - ghc-unicode-transforms
+        - ghc-unicode-transforms-devel
+        - ghc-unicode-transforms-prof
         - ghc-unix
         - ghc-unix-devel
         - ghc-unix-prof
@@ -797,7 +803,6 @@ data:
         - ghc-zlib-prof
         - ghostscript-core
         - giflib-devel
-        - gimp
         - gimp-devel
         - gimp-devel-tools
         - gimp-libs
@@ -1515,7 +1520,6 @@ data:
         - libieee1284-devel
         - libijs-devel
         - libimagequant-devel
-        - libimobiledevice-devel
         - libindicator
         - libindicator-devel
         - libindicator-gtk3-devel
@@ -3571,7 +3575,6 @@ data:
         - rust-futures-util+async-await-devel
         - rust-futures-util+async-await-macro-devel
         - rust-futures-util+channel-devel
-        - rust-futures-util+default-devel
         - rust-futures-util-devel
         - rust-futures-util+io-devel
         - rust-futures-util+sink-devel
@@ -3709,8 +3712,6 @@ data:
         - rust-libflate-devel
         - rust-libflate_lz77+default-devel
         - rust-libflate_lz77-devel
-        - rust-libloading+default-devel
-        - rust-libloading-devel
         - rust-libmount+default-devel
         - rust-libmount-devel
         - rust-liboverdrop+default-devel
@@ -3935,8 +3936,6 @@ data:
         - rust-ppv-lite86+std-devel
         - rust-precomputed-hash+default-devel
         - rust-precomputed-hash-devel
-        - rust-pretty_env_logger+default-devel
-        - rust-pretty_env_logger-devel
         - rust-proc-macro2-0.4+default-devel
         - rust-proc-macro2-0.4-devel
         - rust-proc-macro2-0.4+proc-macro-devel
@@ -4176,8 +4175,6 @@ data:
         - rust-smallvec-devel
         - rust-socket2+default-devel
         - rust-socket2-devel
-        - rust-spmc+default-devel
-        - rust-spmc-devel
         - rust-stable_deref_trait+alloc-devel
         - rust-stable_deref_trait-devel
         - rust-stable_deref_trait+std-devel
@@ -4308,9 +4305,6 @@ data:
         - rust-tokio-tcp+default-devel
         - rust-tokio+tcp-devel
         - rust-tokio-tcp-devel
-        - rust-tokio-test+default-devel
-        - rust-tokio-test-devel
-        - rust-tokio+test-util-devel
         - rust-tokio-threadpool+default-devel
         - rust-tokio-threadpool-devel
         - rust-tokio+time-devel
@@ -4336,15 +4330,8 @@ data:
         - rust-toml0.4-devel
         - rust-toml+default-devel
         - rust-toml-devel
-        - rust-tower-layer+default-devel
-        - rust-tower-layer-devel
         - rust-tower-service+default-devel
         - rust-tower-service-devel
-        - rust-tower-test+default-devel
-        - rust-tower-test-devel
-        - rust-tower-util+call-all-devel
-        - rust-tower-util+default-devel
-        - rust-tower-util-devel
         - rust-tracing-attributes+default-devel
         - rust-tracing+attributes-devel
         - rust-tracing-attributes-devel
@@ -4832,6 +4819,8 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - golang-github-nxadm-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4853,6 +4842,7 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
+            - libimobiledevice-devel
             - libknet1-devel
             - libnice-gstreamer1
             - libnozzle1-devel
@@ -4920,6 +4910,8 @@ data:
             - farstream02-devel
             - flashrom
             - flashrom-devel
+            - golang-github-nxadm-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4941,6 +4933,7 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
+            - libimobiledevice-devel
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
@@ -4990,7 +4983,6 @@ data:
             - libbsd
             - libdv
             - libguestfs-tools-c
-            - libimobiledevice
             - libplist
             - libusbmuxd
             - libXScrnSaver
@@ -5020,6 +5012,7 @@ data:
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-aarch64
+            - edk2-tools
             - efivar-devel
             - efl
             - efl-devel
@@ -5030,6 +5023,8 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - golang-github-nxadm-tail-devel
+            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -5049,10 +5044,12 @@ data:
             - libgpuarray
             - libhbaapi
             - libiec61883-devel
+            - libimobiledevice-devel
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
             - libvirt-daemon-driver-storage-zfs
+            - libvmaf-devel
             - libxml++
             - libxml++-devel
             - meanwhile
@@ -5063,6 +5060,8 @@ data:
             - openni
             - openni-devel
             - openni-primesense
+            - pocl
+            - pocl-devel
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
@@ -5090,4 +5089,5 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
+            - uthash-devel
             - zfs-fuse
