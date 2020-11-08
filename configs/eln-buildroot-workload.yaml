@@ -1539,6 +1539,7 @@ data:
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
+        - libldb-devel
         - libldm-devel
         - liblockfile-devel
         - liblognorm-devel
@@ -1686,7 +1687,10 @@ data:
         - libsysfs-devel
         - libsysprof
         - libsysprof-ui
+        - libtalloc-devel
         - libtar-devel
+        - libtdb-devel
+        - libtevent-devel
         - libtheora-devel
         - libtidy
         - libtiff-tools
