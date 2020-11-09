@@ -1239,6 +1239,7 @@ data:
         - jakarta-el
         - jakarta-el-api
         - jakarta-interceptors
+        - jakarta-mail
         - jakarta-oro
         - jakarta-persistence
         - jakarta-saaj
@@ -1252,7 +1253,6 @@ data:
         - javacc
         - javacc-maven-plugin
         - java_cup
-        - javamail
         - javapackages-local
         - javaparser
         - javapoet
@@ -2609,7 +2609,6 @@ data:
         - python3-elementpath
         - python3-entrypoints
         - python3-ephem
-        - python3-eventlet
         - python3-execnet
         - python3-extras
         - python3-factory-boy
@@ -2713,7 +2712,6 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
-        - python3-monotonic
         - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
@@ -2759,6 +2757,7 @@ data:
         - python3-pastel
         - python3-path
         - python3-pathspec
+        - python3-patiencediff
         - python3-pickleshare
         - python3-pika
         - python3-pikepdf
@@ -3298,9 +3297,9 @@ data:
         - rust-backtrace+std-devel
         - rust-base64-0.10+default-devel
         - rust-base64-0.10-devel
-        - rust-base64+default-devel
-        - rust-base64-devel
-        - rust-base64+std-devel
+        - rust-base64_0.12+default-devel
+        - rust-base64_0.12-devel
+        - rust-base64_0.12+std-devel
         - rust-bencher+default-devel
         - rust-bencher-devel
         - rust-bincode0.8+default-devel
@@ -3600,9 +3599,7 @@ data:
         - rust-gif+raii_no_panic-devel
         - rust-gif+std-devel
         - rust-gimli-devel
-        - rust-gimli+endian-reader-devel
         - rust-gimli+read-devel
-        - rust-gimli+std-devel
         - rust-glob+default-devel
         - rust-glob-devel
         - rust-gptman-devel
@@ -3775,7 +3772,9 @@ data:
         - rust-mime_guess+rev-mappings-devel
         - rust-miniz_oxide0.3+default-devel
         - rust-miniz_oxide0.3-devel
+        - rust-miniz_oxide+default-devel
         - rust-miniz_oxide-devel
+        - rust-miniz_oxide+no_extern_crate_alloc-devel
         - rust-mio0.6+default-devel
         - rust-mio0.6-devel
         - rust-mio0.6+with-deprecated-devel
@@ -3836,15 +3835,13 @@ data:
         - rust-num-traits-devel
         - rust-num-traits+i128-devel
         - rust-num-traits+std-devel
+        - rust-object+archive-devel
         - rust-object+coff-devel
-        - rust-object+compression-devel
         - rust-object-devel
         - rust-object+elf-devel
         - rust-object+macho-devel
         - rust-object+pe-devel
         - rust-object+read_core-devel
-        - rust-object+read-devel
-        - rust-object+std-devel
         - rust-object+unaligned-devel
         - rust-once_cell+default-devel
         - rust-once_cell-devel
