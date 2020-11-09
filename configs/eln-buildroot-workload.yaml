@@ -2948,6 +2948,9 @@ data:
         - python-wheel-wheel
         - qdox
         - qemu
+        - qemu-device-display-virtio-gpu
+        - qemu-device-display-virtio-gpu-pci
+        - qemu-device-display-virtio-vga
         - qemu-system-alpha
         - qemu-system-alpha-core
         - qemu-system-arm
@@ -2956,16 +2959,12 @@ data:
         - qemu-system-avr-core
         - qemu-system-cris
         - qemu-system-cris-core
-        - qemu-system-lm32
-        - qemu-system-lm32-core
         - qemu-system-m68k
         - qemu-system-m68k-core
         - qemu-system-microblaze
         - qemu-system-microblaze-core
         - qemu-system-mips
         - qemu-system-mips-core
-        - qemu-system-moxie
-        - qemu-system-moxie-core
         - qemu-system-nios2
         - qemu-system-nios2-core
         - qemu-system-or1k
@@ -2980,10 +2979,10 @@ data:
         - qemu-system-sparc-core
         - qemu-system-tricore
         - qemu-system-tricore-core
-        - qemu-system-unicore32
-        - qemu-system-unicore32-core
         - qemu-system-xtensa
         - qemu-system-xtensa-core
+        - qemu-ui-egl-headless
+        - qemu-ui-opengl
         - qemu-user
         - qhull-devel
         - qjson
@@ -4881,12 +4880,15 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
+            - qemu-audio-spice
+            - qemu-char-spice
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
             - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
+            - qemu-ui-spice-core
             - rlottie
             - rlottie-devel
             - SLOF
@@ -5076,12 +5078,15 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
+            - qemu-audio-spice
+            - qemu-char-spice
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
             - qemu-system-s390x-core
+            - qemu-ui-spice-core
             - rlottie
             - rlottie-devel
             - SLOF
