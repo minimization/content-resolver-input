@@ -127,7 +127,6 @@ data:
         - blosc
         - blosc-devel
         - bnd-maven-plugin
-        - bodhi-client
         - breeze-icon-theme
         - breezy
         - brlapi-devel
@@ -175,7 +174,6 @@ data:
         - clutter-devel
         - clutter-gst3-devel
         - clutter-gtk-devel
-        - cmake-fedora
         - codehaus-parent
         - cogl-devel
         - coin-or-Cbc
@@ -213,7 +211,9 @@ data:
         - compat-golang-github-godbus-dbus-5-devel
         - compat-golang-github-google-32-devel
         - compat-golang-github-google-martian-3-devel
+        - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
+        - compat-golang-mvdan-xurls-2-devel
         - compat-lua-devel
         - compat-lua-libs
         - compat-readline5-devel
@@ -248,7 +248,6 @@ data:
         - dietlibc-devel
         - diffstat
         - disruptor
-        - distribution-gpg-keys
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
@@ -283,18 +282,14 @@ data:
         - extra-cmake-modules
         - f33-backgrounds-base
         - f33-backgrounds-kde
-        - fakechroot
-        - fakechroot-libs
         - fasterxml-oss-parent
         - fcgi
         - fcgi-devel
         - fcode-utils
         - fdk-aac-free-devel
         - fedora-bookmarks
-        - fedora-packager
         - fedora-release
         - fedora-release-identity-basic
-        - fedpkg
         - felix-parent
         - felix-utils
         - ffcall
@@ -897,6 +892,7 @@ data:
         - golang-github-envoyproxy-control-plane-devel
         - golang-github-envoyproxy-protoc-gen-validate-devel
         - golang-github-fatih-color-devel
+        - golang-github-fortytw2-leaktest-devel
         - golang-github-franela-goblin-devel
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
@@ -1029,13 +1025,11 @@ data:
         - golang-github-rubyist-tracerx-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
-        - golang-github-schollz-progressbar-2-devel
         - golang-github-schollz-progressbar-3-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
         - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
-        - golang-github-shopify-toxiproxy-devel
         - golang-github-shurcool-githubv4-devel
         - golang-github-shurcool-graphql-devel
         - golang-github-shurcool-sanitized-anchor-name-devel
@@ -1102,7 +1096,6 @@ data:
         - golang-gopkg-src-d-billy-4-devel
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
-        - golang-gopkg-tomb-1-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
         - golang-gopkg-yaml-2-devel
@@ -1176,6 +1169,8 @@ data:
         - guice-servlet
         - guile22-devel
         - guile-devel
+        - gumbo-parser
+        - gumbo-parser-devel
         - gupnp-devel
         - gupnp-igd-devel
         - gvnc-devel
@@ -1268,6 +1263,7 @@ data:
         - jaxb-txw2
         - jaxb-xsom
         - jaxen
+        - jbig2dec-devel
         - jbigkit-devel
         - jboss-el-2.2-api
         - jboss-jsp-2.2-api
@@ -1356,8 +1352,6 @@ data:
         - kf5-rpm-macros
         - kmod-devel
         - koji
-        - kyotocabinet-devel
-        - kyotocabinet-libs
         - kyua
         - ladspa-devel
         - lame-devel
@@ -1520,6 +1514,7 @@ data:
         - libieee1284-devel
         - libijs-devel
         - libimagequant-devel
+        - libimobiledevice-devel
         - libindicator
         - libindicator-devel
         - libindicator-gtk3-devel
@@ -1530,6 +1525,7 @@ data:
         - libiscsi-devel
         - libisofs-devel
         - libixion
+        - libixion-devel
         - libjcat-devel
         - libjpeg-turbo-devel
         - libjpeg-turbo-utils
@@ -1941,10 +1937,8 @@ data:
         - miniz
         - miniz-devel
         - minizip
+        - minizip-devel
         - mobile-broadband-provider-info-devel
-        - mock
-        - mock-core-configs
-        - mock-filesystem
         - mockito
         - modello
         - mod_perl
@@ -1963,8 +1957,6 @@ data:
         - mono-web
         - mono-winforms
         - motif-devel
-        - mozjs68
-        - mozjs68-devel
         - mozjs78-devel
         - mp
         - mp-devel
@@ -1978,6 +1970,7 @@ data:
         - MUMPS-srpm-macros
         - munge-devel
         - munge-maven-plugin
+        - mupdf
         - mutter-devel
         - mypaint-brushes-devel
         - mysql-connector-python3
@@ -2370,7 +2363,6 @@ data:
         - perl-Task-Weaken
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
-        - perl-Test2-Tools-Explain
         - perl-Test-CheckChanges
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
@@ -2516,7 +2508,6 @@ data:
         - psutils
         - pugixml-devel
         - pulseaudio-libs-devel
-        - pungi
         - pybind11-devel
         - pygobject2
         - pygobject2-codegen
@@ -2531,70 +2522,42 @@ data:
         - python2-cairo-devel
         - python2-rpm-macros
         - python2-setuptools
-        - python2-six
         - python3-aiohttp-cors
-        - python3-alembic
-        - python3-amqp
         - python3-apipkg
         - python3-appdirs
         - python3-argon2-cffi
-        - python3-arrow
         - python3-asgiref
         - python3-astroid
         - python3-atomicwrites
         - python3-Automat
         - python3-backcall
-        - python3-backoff
         - python3-bcrypt
         - python3-beautifulsoup4
         - python3-betamax
-        - python3-billiard
         - python3-bitarray
         - python3-bleach
         - python3-blinker
-        - python3-bodhi
-        - python3-bodhi-client
         - python3-boto
         - python3-bottle
         - python3-Bottleneck
         - python3-breathe
         - python3-brotli
         - python3-bson
-        - python3-bugzilla
-        - python3-CacheControl
-        - python3-CacheControl+filecache
-        - python3-cachy
         - python3-cairo-devel
-        - python3-case
-        - python3-cccolutils
-        - python3-celery
-        - python3-chai
-        - python3-cheroot
-        - python3-cherrypy
-        - python3-cleo
         - python3-click
-        - python3-click-didyoumean
-        - python3-click-repl
         - python3-cliff
-        - python3-clikit
         - python3-cmd2
-        - python3-colander
         - python3-CommonMark
         - python3-constantly
-        - python3-convertdate
-        - python3-cornice
-        - python3-cornice-sphinx
         - python3-cov-core
         - python3-coverage
         - python3-cppy
         - python3-cpuinfo
-        - python3-createrepo_c
-        - python3-crochet
         - python3-crypto
+        - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
         - python3-d2to1
-        - python3-dateparser
         - python3-dbusmock
         - python3-ddt
         - python3-debtcollector
@@ -2602,21 +2565,17 @@ data:
         - python3-dill
         - python3-distlib
         - python3-django
+        - python3-docopt
         - python3-docs
-        - python3-dogpile-cache
         - python3-dulwich
-        - python3-editor
         - python3-elementpath
         - python3-entrypoints
-        - python3-ephem
         - python3-execnet
         - python3-extras
         - python3-factory-boy
         - python3-faker
         - python3-fastimport
-        - python3-fedora
-        - python3-fedora-messaging
-        - python3-feedgen
+        - python3-fastjsonschema
         - python3-fields
         - python3-filelock
         - python3-fixtures
@@ -2636,8 +2595,6 @@ data:
         - python3-genshi
         - python3-genty
         - python3-gevent
-        - python3-gitdb
-        - python3-GitPython
         - python3-gobject-devel
         - python3-graphviz
         - python3-greenlet
@@ -2669,9 +2626,7 @@ data:
         - python3-isort
         - python3-itsdangerous
         - python3-jaraco
-        - python3-jaraco-classes
         - python3-jaraco-envs
-        - python3-jaraco-functools
         - python3-jaraco-packaging
         - python3-javapackages
         - python3-jedi
@@ -2682,24 +2637,17 @@ data:
         - python3-keyring
         - python3-keystoneauth1
         - python3-keystoneclient
-        - python3-kitchen
         - python3-kiwisolver
-        - python3-kobo
-        - python3-kobo-rpmlib
         - python3-koji
-        - python3-koji-cli-plugins
-        - python3-kombu
         - python3-latexcodec
         - python3-lazy-object-proxy
         - python3-ldap3
         - python3-ldb-devel
         - python3-lesscpy
         - python3-lexicon
-        - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
-        - python3-lockfile
         - python3-m2r
         - python3-mallard-ducktype
         - python3-marisa
@@ -2716,8 +2664,6 @@ data:
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
         - python3-msgpack
-        - python3-multilib
-        - python3-munch
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
@@ -2727,17 +2673,12 @@ data:
         - python3-nbsphinx
         - python3-nose
         - python3-nose2
-        - python3-nose-cover3
         - python3-notebook
         - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-opencensus-proto
-        - python3-openid
-        - python3-openidc-client
-        - python3-openid-cla
-        - python3-openid-teams
         - python3-openstackdocstheme
         - python3-orderedset
         - python3-oslo-config
@@ -2754,25 +2695,18 @@ data:
         - python3-parso
         - python3-paste
         - python3-paste-deploy
-        - python3-pastel
         - python3-path
         - python3-pathspec
         - python3-patiencediff
         - python3-pickleshare
-        - python3-pika
         - python3-pikepdf
-        - python3-pkginfo
         - python3-plaster
         - python3-plaster-pastedeploy
-        - python3-poetry
-        - python3-portend
         - python3-pretend
         - python3-priority
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
-        - python3-pungi
-        - python3-py3dns
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
@@ -2782,10 +2716,7 @@ data:
         - python3-pyflakes
         - python3-pygments-pytest
         - python3-pygraphviz
-        - python3-pylev
-        - python3-pylibravatar
         - python3-pylint
-        - python3-pymeeus
         - python3-pymongo
         - python3-pynacl
         - python3-pyperclip
@@ -2794,9 +2725,6 @@ data:
         - python3-pyqt4-sip
         - python3-pyrad
         - python3-pyramid
-        - python3-pyramid-fas-openid
-        - python3-pyramid-mako
-        - python3-pyroute2
         - python3-pytest-aiohttp
         - python3-pytest-asyncio
         - python3-pytest-benchmark
@@ -2812,7 +2740,6 @@ data:
         - python3-pytest-rerunfailures
         - python3-pytest-runner
         - python3-pytest-shutil
-        - python3-pytest-subtests
         - python3-pytest-timeout
         - python3-pytest-venv
         - python3-pytest-virtualenv
@@ -2836,7 +2763,6 @@ data:
         - python3-rfc3986
         - python3-rfc3986+idna2008
         - python3-rjsmin
-        - python3-rpkg
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
@@ -2851,12 +2777,9 @@ data:
         - python3-setuptools_git
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
-        - python3-shellingham
         - python3-should_dsl
         - python3-simplejson
-        - python3-simplemediawiki
         - python3-sip-devel
-        - python3-smmap
         - python3-soupsieve
         - python3-spec
         - python3-sphinx-autodoc-typehints
@@ -2880,7 +2803,6 @@ data:
         - python3-sphinx-testing
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
-        - python3-sqlalchemy_schemadisplay
         - python3-sqlparse
         - python3-stestr
         - python3-stevedore
@@ -2889,7 +2811,6 @@ data:
         - python3-tables
         - python3-talloc-devel
         - python3-tempita
-        - python3-tempora
         - python3-termcolor
         - python3-terminado
         - python3-testpath
@@ -2901,7 +2822,6 @@ data:
         - python3-text-unidecode
         - python3-thrift
         - python3-tidy
-        - python3-tomlkit
         - python3-tox
         - python3-tox-current-env
         - python3-tqdm
@@ -2910,10 +2830,8 @@ data:
         - python3-trustme
         - python3-twisted
         - python3-typed_ast
-        - python3-tzlocal
         - python3-u-msgpack-python
         - python3-venusian
-        - python3-vine
         - python3-virtualenv
         - python3-voluptuous
         - python3-vtk
@@ -2929,7 +2847,6 @@ data:
         - python3-wx-siplib
         - python3-xmlschema
         - python3-xmp-toolkit
-        - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
         - python3-zope-component
@@ -2940,7 +2857,6 @@ data:
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
-        - python-multilib-conf
         - python-oslo-i18n-lang
         - python-oslo-utils-lang
         - python-sphinx-doc
@@ -3052,7 +2968,6 @@ data:
         - rest-devel
         - rhash-devel
         - R-java-devel
-        - rpkg-common
         - rpm-ostree-devel
         - rrdtool-devel
         - R-rpm-macros
@@ -3105,7 +3020,6 @@ data:
         - rubygem-curb
         - rubygem-dalli
         - rubygem-delorean
-        - rubygem-docile
         - rubygem-domain_name
         - rubygem-ejs
         - rubygem-em-http-request
@@ -3128,12 +3042,12 @@ data:
         - rubygem-http-cookie
         - rubygem-http_parser.rb
         - rubygem-i18n
+        - rubygem-image_processing
         - rubygem-introspection
         - rubygem-io-console
         - rubygem-irb
         - rubygem-jbuilder
         - rubygem-jquery-rails
-        - rubygem-json_pure
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
         - rubygem-launchy
@@ -3147,11 +3061,9 @@ data:
         - rubygem-metaclass
         - rubygem-method_source
         - rubygem-mimemagic
-        - rubygem-mime-types
-        - rubygem-mime-types-data
+        - rubygem-mini_magick
         - rubygem-mini_mime
         - rubygem-minitest
-        - rubygem-minitest4
         - rubygem-minitest-around
         - rubygem-minitest-reporters
         - rubygem-mocha
@@ -3166,7 +3078,6 @@ data:
         - rubygem-pdf-core
         - rubygem-pdf-inspector
         - rubygem-pdf-reader
-        - rubygem-pkg-config
         - rubygem-power_assert
         - rubygem-prawn
         - rubygem-pry
@@ -3191,10 +3102,6 @@ data:
         - rubygem-ronn
         - rubygem-rouge
         - rubygem-rr
-        - rubygem-rspec2
-        - rubygem-rspec2-core
-        - rubygem-rspec2-expectations
-        - rubygem-rspec2-mocks
         - rubygem-rspec-collection_matchers
         - rubygem-rspec-its
         - rubygem-rspec-rails
@@ -3211,8 +3118,6 @@ data:
         - rubygem-shoulda
         - rubygem-shoulda-context
         - rubygem-shoulda-matchers
-        - rubygem-simplecov
-        - rubygem-simplecov-html
         - rubygem-slim
         - rubygem-spring
         - rubygem-sprockets
@@ -3237,9 +3142,7 @@ data:
         - rubygem-websocket-driver
         - rubygem-websocket-extensions
         - rubygem-xpath
-        - rubygem-yard
         - rubygem-zeitwerk
-        - rubygem-ZenTest
         - rust-ab_glyph_rasterizer+default-devel
         - rust-ab_glyph_rasterizer-devel
         - rust-ab_glyph_rasterizer+std-devel
@@ -3259,6 +3162,7 @@ data:
         - rust-adler32-devel
         - rust-adler32+std-devel
         - rust-adler-devel
+        - rust-ahash-devel
         - rust-aho-corasick+default-devel
         - rust-aho-corasick-devel
         - rust-aho-corasick+std-devel
@@ -3392,6 +3296,10 @@ data:
         - rust-colored-devel
         - rust-color_quant+default-devel
         - rust-color_quant-devel
+        - rust-const-random+default-devel
+        - rust-const-random-devel
+        - rust-const-random-macro+default-devel
+        - rust-const-random-macro-devel
         - rust-copyless+default-devel
         - rust-copyless-devel
         - rust-cpio+default-devel
@@ -3590,6 +3498,8 @@ data:
         - rust-getrandom0.1+default-devel
         - rust-getrandom0.1-devel
         - rust-getrandom0.1+std-devel
+        - rust-getrandom+default-devel
+        - rust-getrandom-devel
         - rust-gif0.10+default-devel
         - rust-gif0.10-devel
         - rust-gif0.10+raii_no_panic-devel
@@ -3598,7 +3508,9 @@ data:
         - rust-gif+raii_no_panic-devel
         - rust-gif+std-devel
         - rust-gimli-devel
+        - rust-gimli+endian-reader-devel
         - rust-gimli+read-devel
+        - rust-gimli+std-devel
         - rust-glob+default-devel
         - rust-glob-devel
         - rust-gptman-devel
@@ -3712,6 +3624,8 @@ data:
         - rust-libflate-devel
         - rust-libflate_lz77+default-devel
         - rust-libflate_lz77-devel
+        - rust-libloading+default-devel
+        - rust-libloading-devel
         - rust-libmount+default-devel
         - rust-libmount-devel
         - rust-liboverdrop+default-devel
@@ -3762,6 +3676,8 @@ data:
         - rust-memchr-devel
         - rust-memchr+std-devel
         - rust-memchr+use_std-devel
+        - rust-memmap+default-devel
+        - rust-memmap-devel
         - rust-memoffset+default-devel
         - rust-memoffset-devel
         - rust-mime+default-devel
@@ -3812,7 +3728,9 @@ data:
         - rust-nix+default-devel
         - rust-nix-devel
         - rust-nom+alloc-devel
+        - rust-nom+default-devel
         - rust-nom-devel
+        - rust-nom+lexical-devel
         - rust-nom+std-devel
         - rust-num-bigint-devel
         - rust-num-bigint+std-devel
@@ -3836,11 +3754,14 @@ data:
         - rust-num-traits+std-devel
         - rust-object+archive-devel
         - rust-object+coff-devel
+        - rust-object+compression-devel
         - rust-object-devel
         - rust-object+elf-devel
         - rust-object+macho-devel
         - rust-object+pe-devel
         - rust-object+read_core-devel
+        - rust-object+read-devel
+        - rust-object+std-devel
         - rust-object+unaligned-devel
         - rust-once_cell+default-devel
         - rust-once_cell-devel
@@ -3962,6 +3883,8 @@ data:
         - rust-protobuf+default-devel
         - rust-protobuf-devel
         - rust-pulldown-cmark-devel
+        - rust-pure-rust-locales+default-devel
+        - rust-pure-rust-locales-devel
         - rust-quickcheck0.6-devel
         - rust-quickcheck+default-devel
         - rust-quickcheck-devel
@@ -4577,7 +4500,6 @@ data:
         - texlive-framed
         - texlive-garuda-c90
         - texlive-gnu-freefont
-        - texlive-gsftopk
         - texlive-hanging
         - texlive-ifoddpage
         - texlive-import
@@ -4819,8 +4741,6 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - golang-github-nxadm-tail-devel
-            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4842,7 +4762,6 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
-            - libimobiledevice-devel
             - libknet1-devel
             - libnice-gstreamer1
             - libnozzle1-devel
@@ -4913,8 +4832,6 @@ data:
             - farstream02-devel
             - flashrom
             - flashrom-devel
-            - golang-github-nxadm-tail-devel
-            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -4936,7 +4853,6 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
-            - libimobiledevice-devel
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
@@ -4986,6 +4902,7 @@ data:
             - libbsd
             - libdv
             - libguestfs-tools-c
+            - libimobiledevice
             - libplist
             - libusbmuxd
             - libXScrnSaver
@@ -5015,7 +4932,6 @@ data:
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-aarch64
-            - edk2-tools
             - efivar-devel
             - efl
             - efl-devel
@@ -5026,8 +4942,6 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - golang-github-nxadm-tail-devel
-            - golang-github-onsi-ginkgo-devel
             - gtkmm24
             - gtkmm24-devel
             - gtkspell
@@ -5047,12 +4961,10 @@ data:
             - libgpuarray
             - libhbaapi
             - libiec61883-devel
-            - libimobiledevice-devel
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
             - libvirt-daemon-driver-storage-zfs
-            - libvmaf-devel
             - libxml++
             - libxml++-devel
             - meanwhile
@@ -5063,8 +4975,6 @@ data:
             - openni
             - openni-devel
             - openni-primesense
-            - pocl
-            - pocl-devel
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
@@ -5095,5 +5005,4 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - uthash-devel
             - zfs-fuse
