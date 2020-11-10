@@ -2864,9 +2864,6 @@ data:
         - python-wheel-wheel
         - qdox
         - qemu
-        - qemu-device-display-virtio-gpu
-        - qemu-device-display-virtio-gpu-pci
-        - qemu-device-display-virtio-vga
         - qemu-system-alpha
         - qemu-system-alpha-core
         - qemu-system-arm
@@ -2897,8 +2894,6 @@ data:
         - qemu-system-tricore-core
         - qemu-system-xtensa
         - qemu-system-xtensa-core
-        - qemu-ui-egl-headless
-        - qemu-ui-opengl
         - qemu-user
         - qhull-devel
         - qjson
@@ -3398,9 +3393,9 @@ data:
         - rust-env_logger0.5-devel
         - rust-env_logger0.5+regex-devel
         - rust-env_logger0.6-devel
-        - rust-env_logger+default-devel
-        - rust-env_logger-devel
-        - rust-env_logger+regex-devel
+        - rust-env_logger0.7+default-devel
+        - rust-env_logger0.7-devel
+        - rust-env_logger0.7+regex-devel
         - rust-envsubst+default-devel
         - rust-envsubst-devel
         - rust-err-derive+default-devel
@@ -3440,6 +3435,8 @@ data:
         - rust-foreign-types0.3-devel
         - rust-foreign-types-shared0.1+default-devel
         - rust-foreign-types-shared0.1-devel
+        - rust-form_urlencoded+default-devel
+        - rust-form_urlencoded-devel
         - rust-freetype+default-devel
         - rust-freetype-devel
         - rust-freetype-sys+default-devel
@@ -4799,15 +4796,12 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
-            - qemu-audio-spice
-            - qemu-char-spice
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
             - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
-            - qemu-ui-spice-core
             - rlottie
             - rlottie-devel
             - SLOF
@@ -4988,15 +4982,12 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
-            - qemu-audio-spice
-            - qemu-char-spice
             - qemu-system-aarch64
             - qemu-system-aarch64-core
             - qemu-system-ppc
             - qemu-system-ppc-core
             - qemu-system-s390x
             - qemu-system-s390x-core
-            - qemu-ui-spice-core
             - rlottie
             - rlottie-devel
             - SLOF
