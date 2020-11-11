@@ -228,6 +228,7 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
+        - cryptsetup-devel
         - csnappy
         - csnappy-devel
         - CUnit
@@ -1199,6 +1200,7 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
+        - http-parser-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1210,6 +1212,7 @@ data:
         - ibus-table-latin
         - ibus-table-translit
         - ibus-table-tv
+        - icoutils
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1244,6 +1247,7 @@ data:
         - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
+        - jansson-devel
         - jasper-devel
         - javacc
         - javacc-maven-plugin
@@ -1824,6 +1828,8 @@ data:
         - mathjax-vector-fonts
         - mathjax-winchrome-fonts
         - mathjax-winie6-fonts
+        - matio
+        - matio-devel
         - maven
         - maven-antrun-plugin
         - maven-archiver
@@ -1915,7 +1921,6 @@ data:
         - mesa-libGLU-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
-        - meson
         - metis
         - metis-devel
         - mftrace
@@ -1995,8 +2000,9 @@ data:
         - newt-devel
         - nftables-devel
         - nghttp2
+        - nifticlib
+        - nifticlib-devel
         - nilfs-utils
-        - ninja-build
         - nkf
         - nodejs-underscore
         - npth-devel
@@ -2011,23 +2017,33 @@ data:
         - objenesis
         - ocaml-bisect-ppx
         - ocaml-bisect-ppx-devel
+        - ocaml-calendar
         - ocaml-calendar-devel
         - ocaml-camomile
+        - ocaml-camomile-data
         - ocaml-camomile-devel
         - ocaml-cmdliner
         - ocaml-cmdliner-devel
+        - ocaml-cppo
         - ocaml-csexp
         - ocaml-csexp-devel
+        - ocaml-csv
         - ocaml-csv-devel
+        - ocaml-curses
         - ocaml-curses-devel
         - ocaml-dune
         - ocaml-dune-devel
+        - ocaml-extlib
         - ocaml-extlib-devel
+        - ocaml-fileutils
         - ocaml-fileutils-devel
+        - ocaml-findlib
         - ocaml-findlib-devel
+        - ocaml-gettext
         - ocaml-gettext-devel
         - ocaml-hivex
         - ocaml-hivex-devel
+        - ocaml-labltk
         - ocaml-labltk-devel
         - ocaml-libguestfs
         - ocaml-libguestfs-devel
@@ -2038,6 +2054,7 @@ data:
         - ocaml-migrate-parsetree-devel
         - ocaml-mmap
         - ocaml-mmap-devel
+        - ocaml-ocamlbuild
         - ocaml-ocamlbuild-devel
         - ocaml-ocamldoc
         - ocaml-ocplib-endian
@@ -2056,6 +2073,7 @@ data:
         - ocaml-seq-devel
         - ocaml-topkg
         - ocaml-topkg-devel
+        - ocaml-xml-light
         - ocaml-xml-light-devel
         - ocaml-zarith
         - ocaml-zarith-devel
@@ -2085,6 +2103,8 @@ data:
         - openldap-servers
         - openpgm
         - openpgm-devel
+        - openslide
+        - openslide-devel
         - opensp-devel
         - opentest4j
         - opus-devel
@@ -2545,8 +2565,6 @@ data:
         - python3-bson
         - python3-cairo-devel
         - python3-click
-        - python3-cliff
-        - python3-cmd2
         - python3-CommonMark
         - python3-constantly
         - python3-cov-core
@@ -2557,10 +2575,7 @@ data:
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
-        - python3-d2to1
         - python3-dbusmock
-        - python3-ddt
-        - python3-debtcollector
         - python3-defusedxml
         - python3-dill
         - python3-distlib
@@ -2589,7 +2604,6 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
-        - python3-funcsigs
         - python3-future
         - python3-gdal
         - python3-genshi
@@ -2601,7 +2615,6 @@ data:
         - python3-greenlet-devel
         - python3-h11
         - python3-h2
-        - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
@@ -2630,13 +2643,8 @@ data:
         - python3-jaraco-packaging
         - python3-javapackages
         - python3-jedi
-        - python3-jeepney
         - python3-jupyter-client
         - python3-jupyter-core
-        - python3-kerberos
-        - python3-keyring
-        - python3-keystoneauth1
-        - python3-keystoneclient
         - python3-kiwisolver
         - python3-koji
         - python3-latexcodec
@@ -2660,10 +2668,8 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
-        - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
-        - python3-msgpack
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
@@ -2674,20 +2680,12 @@ data:
         - python3-nose
         - python3-nose2
         - python3-notebook
-        - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-opencensus-proto
         - python3-openstackdocstheme
         - python3-orderedset
-        - python3-oslo-config
-        - python3-oslo-i18n
-        - python3-oslo-serialization
-        - python3-oslo-sphinx
-        - python3-oslotest
-        - python3-oslo-utils
-        - python3-os-service-types
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
@@ -2719,7 +2717,6 @@ data:
         - python3-pylint
         - python3-pymongo
         - python3-pynacl
-        - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
@@ -2754,8 +2751,6 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-kerberos
-        - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
@@ -2770,7 +2765,6 @@ data:
         - python3-scons
         - python3-scripttest
         - python3-scripttester
-        - python3-secretstorage
         - python3-selenium
         - python3-send2trash
         - python3-service-identity
@@ -2804,9 +2798,6 @@ data:
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sqlparse
-        - python3-stestr
-        - python3-stevedore
-        - python3-subunit
         - python3-sure
         - python3-tables
         - python3-talloc-devel
@@ -2814,8 +2805,6 @@ data:
         - python3-termcolor
         - python3-terminado
         - python3-testpath
-        - python3-testrepository
-        - python3-testresources
         - python3-testscenarios
         - python3-testtools
         - python3-texext
@@ -2833,7 +2822,6 @@ data:
         - python3-u-msgpack-python
         - python3-venusian
         - python3-virtualenv
-        - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
@@ -2857,8 +2845,6 @@ data:
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
-        - python-oslo-i18n-lang
-        - python-oslo-utils-lang
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
@@ -2993,7 +2979,6 @@ data:
         - rubygem-bootsnap
         - rubygem-builder
         - rubygem-bundler
-        - rubygem-byebug
         - rubygem-capybara
         - rubygem-childprocess
         - rubygem-chronic
@@ -3102,6 +3087,7 @@ data:
         - rubygem-rspec-rails
         - rubygem-ruby-progressbar
         - rubygem-ruby-rc4
+        - rubygem-ruby-vips
         - rubygem-rubyzip
         - rubygem-safe_yaml
         - rubygem-sass
@@ -3389,13 +3375,14 @@ data:
         - rust-encoding_rs-devel
         - rust-enum-as-inner+default-devel
         - rust-enum-as-inner-devel
-        - rust-env_logger0.5+default-devel
         - rust-env_logger0.5-devel
         - rust-env_logger0.5+regex-devel
         - rust-env_logger0.6-devel
         - rust-env_logger0.7+default-devel
         - rust-env_logger0.7-devel
         - rust-env_logger0.7+regex-devel
+        - rust-env_logger+default-devel
+        - rust-env_logger-devel
         - rust-envsubst+default-devel
         - rust-envsubst-devel
         - rust-err-derive+default-devel
@@ -3547,6 +3534,8 @@ data:
         - rust-humansize-devel
         - rust-humantime1+default-devel
         - rust-humantime1-devel
+        - rust-humantime+default-devel
+        - rust-humantime-devel
         - rust-hyper+default-devel
         - rust-hyper-devel
         - rust-hyper+runtime-devel
@@ -3812,6 +3801,12 @@ data:
         - rust-permutohedron+default-devel
         - rust-permutohedron-devel
         - rust-permutohedron+std-devel
+        - rust-pest+default-devel
+        - rust-pest-devel
+        - rust-pest_generator+default-devel
+        - rust-pest_generator-devel
+        - rust-pest_meta+default-devel
+        - rust-pest_meta-devel
         - rust-phf_codegen+default-devel
         - rust-phf_codegen-devel
         - rust-phf+default-devel
@@ -4032,10 +4027,14 @@ data:
         - rust-semver0.9+default-devel
         - rust-semver0.9-devel
         - rust-semver0.9+serde-devel
+        - rust-semver+default-devel
+        - rust-semver-devel
         - rust-semver-parser0.7+default-devel
         - rust-semver-parser0.7-devel
         - rust-semver-parser0.9+default-devel
         - rust-semver-parser0.9-devel
+        - rust-semver-parser+default-devel
+        - rust-semver-parser-devel
         - rust-serde_bytes+default-devel
         - rust-serde_bytes-devel
         - rust-serde_bytes+std-devel
@@ -4151,6 +4150,8 @@ data:
         - rust-termcolor-devel
         - rust-term+default-devel
         - rust-term-devel
+        - rust-termios+default-devel
+        - rust-termios-devel
         - rust-testing_logger+default-devel
         - rust-testing_logger-devel
         - rust-textwrap0.11+default-devel
@@ -4285,6 +4286,9 @@ data:
         - rust-typenum-devel
         - rust-ucd-parse+default-devel
         - rust-ucd-parse-devel
+        - rust-ucd-trie+default-devel
+        - rust-ucd-trie-devel
+        - rust-ucd-trie+std-devel
         - rust-unicase+default-devel
         - rust-unicase-devel
         - rust-unicode-bidi+default-devel
@@ -4319,7 +4323,6 @@ data:
         - rust-utf-8-devel
         - rust-uuid0.7+default-devel
         - rust-uuid0.7-devel
-        - rust-uuid0.7+serde-devel
         - rust-uuid0.7+std-devel
         - rust-uuid0.7+v4-devel
         - rust-uuid+default-devel
@@ -4625,6 +4628,7 @@ data:
         - userspace-rcu-devel
         - utf8proc-devel
         - uuid-devel
+        - vips
         - volume_key-devel
         - vte291-devel
         - vtk
