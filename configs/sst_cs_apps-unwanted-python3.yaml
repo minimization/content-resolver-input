@@ -46,5 +46,14 @@ data:
   - python3-pandas
   - python3-sympy
 
+  # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
+  - python3-coverage
+
+  # mock is in the Python standard library, use that one instead
+  - python3-mock
+
+  # breezy is only an optional test dependency of pip, with large dep tree
+  - breezy
+
   labels:
   - eln
