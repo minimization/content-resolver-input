@@ -228,7 +228,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - cryptsetup-devel
         - csnappy
         - csnappy-devel
         - CUnit
@@ -1200,7 +1199,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - http-parser-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1247,7 +1245,6 @@ data:
         - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
-        - jansson-devel
         - jasper-devel
         - javacc
         - javacc-maven-plugin
