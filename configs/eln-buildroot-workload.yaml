@@ -882,7 +882,6 @@ data:
         - golang-github-davecgh-spew-devel
         - golang-github-dgrijalva-jwt-devel
         - golang-github-docker-units-devel
-        - golang-github-dpotapov-spnego-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
@@ -897,9 +896,6 @@ data:
         - golang-github-franela-goreq-devel
         - golang-github-fsnotify-devel
         - golang-github-ghodss-yaml-devel
-        - golang-github-git-lfs-netrc-devel
-        - golang-github-git-lfs-ntlm-devel
-        - golang-github-git-lfs-wildmatch-devel
         - golang-github-glog-devel
         - golang-github-godbus-dbus-devel
         - golang-github-gogo-protobuf-devel
@@ -995,7 +991,6 @@ data:
         - golang-github-nats-io-nuid-devel
         - golang-github-nats-io-server-devel
         - golang-github-olekukonko-tablewriter-devel
-        - golang-github-olekukonko-ts-devel
         - golang-github-onsi-gomega-devel
         - golang-github-opentracing-basictracer-devel
         - golang-github-opentracing-contrib-observer-devel
@@ -1022,7 +1017,6 @@ data:
         - golang-github-rcrowley-metrics-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
-        - golang-github-rubyist-tracerx-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
         - golang-github-schollz-progressbar-3-devel
@@ -1046,7 +1040,6 @@ data:
         - golang-github-spf13-pflag-devel
         - golang-github-spf13-viper-devel
         - golang-github-src-d-gcfg-devel
-        - golang-github-ssgelm-cookiejarparser-devel
         - golang-github-stack-devel
         - golang-github-stathat-devel
         - golang-github-streadway-amqp-devel
@@ -1063,9 +1056,6 @@ data:
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
         - golang-github-xdg-stringprep-devel
-        - golang-github-xeipuuv-gojsonpointer-devel
-        - golang-github-xeipuuv-gojsonreference-devel
-        - golang-github-xeipuuv-gojsonschema-devel
         - golang-github-xiang90-probing-devel
         - golang-github-xlzd-gotp-devel
         - golang-github-xo-dburl-devel
@@ -1084,11 +1074,8 @@ data:
         - golang-gopkg-ini-1-devel
         - golang-gopkg-jcmturner-aescts-1-devel
         - golang-gopkg-jcmturner-dnsutils-1-devel
-        - golang-gopkg-jcmturner-goidentity-2-devel
         - golang-gopkg-jcmturner-goidentity-3-devel
-        - golang-gopkg-jcmturner-gokrb5-5-devel
         - golang-gopkg-jcmturner-gokrb5-7-devel
-        - golang-gopkg-jcmturner-rpc-0-devel
         - golang-gopkg-jcmturner-rpc-1-devel
         - golang-gopkg-logex-1-devel
         - golang-gopkg-readline-1-devel
@@ -2562,6 +2549,8 @@ data:
         - python3-bson
         - python3-cairo-devel
         - python3-click
+        - python3-cliff
+        - python3-cmd2
         - python3-CommonMark
         - python3-constantly
         - python3-cov-core
@@ -2572,7 +2561,10 @@ data:
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
+        - python3-d2to1
         - python3-dbusmock
+        - python3-ddt
+        - python3-debtcollector
         - python3-defusedxml
         - python3-dill
         - python3-distlib
@@ -2601,6 +2593,7 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
+        - python3-funcsigs
         - python3-future
         - python3-gdal
         - python3-genshi
@@ -2612,6 +2605,7 @@ data:
         - python3-greenlet-devel
         - python3-h11
         - python3-h2
+        - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
@@ -2640,8 +2634,13 @@ data:
         - python3-jaraco-packaging
         - python3-javapackages
         - python3-jedi
+        - python3-jeepney
         - python3-jupyter-client
         - python3-jupyter-core
+        - python3-kerberos
+        - python3-keyring
+        - python3-keystoneauth1
+        - python3-keystoneclient
         - python3-kiwisolver
         - python3-koji
         - python3-latexcodec
@@ -2665,8 +2664,10 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
+        - python3-mox3
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
+        - python3-msgpack
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
@@ -2677,12 +2678,20 @@ data:
         - python3-nose
         - python3-nose2
         - python3-notebook
+        - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-opencensus-proto
         - python3-openstackdocstheme
         - python3-orderedset
+        - python3-oslo-config
+        - python3-oslo-i18n
+        - python3-oslo-serialization
+        - python3-oslo-sphinx
+        - python3-oslotest
+        - python3-oslo-utils
+        - python3-os-service-types
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
@@ -2714,6 +2723,7 @@ data:
         - python3-pylint
         - python3-pymongo
         - python3-pynacl
+        - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
@@ -2748,6 +2758,8 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
+        - python3-requests-kerberos
+        - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
@@ -2762,6 +2774,7 @@ data:
         - python3-scons
         - python3-scripttest
         - python3-scripttester
+        - python3-secretstorage
         - python3-selenium
         - python3-send2trash
         - python3-service-identity
@@ -2795,6 +2808,9 @@ data:
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sqlparse
+        - python3-stestr
+        - python3-stevedore
+        - python3-subunit
         - python3-sure
         - python3-tables
         - python3-talloc-devel
@@ -2802,6 +2818,8 @@ data:
         - python3-termcolor
         - python3-terminado
         - python3-testpath
+        - python3-testrepository
+        - python3-testresources
         - python3-testscenarios
         - python3-testtools
         - python3-texext
@@ -2819,6 +2837,7 @@ data:
         - python3-u-msgpack-python
         - python3-venusian
         - python3-virtualenv
+        - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
@@ -2842,6 +2861,8 @@ data:
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
+        - python-oslo-i18n-lang
+        - python-oslo-utils-lang
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
@@ -3274,6 +3295,8 @@ data:
         - rust-colored-devel
         - rust-color_quant+default-devel
         - rust-color_quant-devel
+        - rust-const_fn+default-devel
+        - rust-const_fn-devel
         - rust-const-random+default-devel
         - rust-const-random-devel
         - rust-const-random-macro+default-devel
@@ -3297,8 +3320,11 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
+        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque+default-devel
         - rust-crossbeam-deque-devel
+        - rust-crossbeam-deque+std-devel
+        - rust-crossbeam-epoch+alloc-devel
         - rust-crossbeam-epoch+default-devel
         - rust-crossbeam-epoch-devel
         - rust-crossbeam-epoch+std-devel
@@ -3372,8 +3398,6 @@ data:
         - rust-encoding_rs-devel
         - rust-enum-as-inner+default-devel
         - rust-enum-as-inner-devel
-        - rust-env_logger0.5-devel
-        - rust-env_logger0.5+regex-devel
         - rust-env_logger0.6-devel
         - rust-env_logger0.7+default-devel
         - rust-env_logger0.7-devel
@@ -3593,6 +3617,7 @@ data:
         - rust-lexical-core-devel
         - rust-lexical-core+std-devel
         - rust-lexical-core+table-devel
+        - rust-libc+align-devel
         - rust-libc+default-devel
         - rust-libc-devel
         - rust-libc+extra_traits-devel
@@ -3746,6 +3771,7 @@ data:
         - rust-object+read-devel
         - rust-object+std-devel
         - rust-object+unaligned-devel
+        - rust-once_cell+alloc-devel
         - rust-once_cell+default-devel
         - rust-once_cell-devel
         - rust-once_cell+std-devel
@@ -3874,7 +3900,6 @@ data:
         - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
-        - rust-quickcheck0.6-devel
         - rust-quickcheck+default-devel
         - rust-quickcheck-devel
         - rust-quickcheck+regex-devel
@@ -4169,9 +4194,11 @@ data:
         - rust-timerfd-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
-        - rust-tinyvec0.3+alloc-devel
-        - rust-tinyvec0.3+default-devel
-        - rust-tinyvec0.3-devel
+        - rust-tinyvec+alloc-devel
+        - rust-tinyvec+default-devel
+        - rust-tinyvec-devel
+        - rust-tinyvec_macros+default-devel
+        - rust-tinyvec_macros-devel
         - rust-tokio0.1+codec-devel
         - rust-tokio0.1+default-devel
         - rust-tokio0.1-devel
