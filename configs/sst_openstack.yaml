@@ -23,12 +23,12 @@ data:
   - fence-agents
   - fence-virt
   - libkcapi-fipscheck
-  - gperftools
-  - genisoimage
+#  - gperftools
+#  - genisoimage
   - git
   - haproxy
   - hivex
-  - hostname
+#  - hostname
   - icu
   - ipa-client
   - ipmitool
@@ -69,8 +69,8 @@ data:
   - nvmetcli
   - oathtool
   - OpenIPMI
-  - openvswitch
-  - ovn
+#  - openvswitch
+#  - ovn
   - pacemaker
   - pcs
   - podman
@@ -107,11 +107,11 @@ data:
     x86_64:
     - efivar
     - dpdk
-    - spice-server
+#    - spice-server
     aarch64:
     - dpdk
     - efivar
-    - spice-server
+#    - spice-server
     ppc64le:
     - dpdk
 
