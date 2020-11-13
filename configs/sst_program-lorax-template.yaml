@@ -189,6 +189,15 @@ data:
     - libibverbs
     - rdma-core
 
+
+  package_placeholders:
+    lorax-templates-rhel:
+      description: RHEL only package
+      srpm: lorax-templates-rhel
+    redhat-release:
+      description: RHEL only package
+      srpm: redhat-release
+
   labels:
   - eln
 
