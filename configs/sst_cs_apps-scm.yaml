@@ -10,7 +10,17 @@ data:
   - git-daemon
   - git-gui
   - gitk
-  - git-lfs
 
   labels:
   - eln
+
+  package_placeholders:
+    git-lfs:
+      description: Git extension for versioning large files
+      requires:
+        - git-core
+
+      buildrequires:
+        - perl-Digest-SHA
+        - perl-Test-Harness
+        - git
