@@ -2499,7 +2499,6 @@ data:
         - pps-tools-devel
         - procps-ng-devel
         - proj
-        - proj-datumgrid
         - proj-devel
         - protobuf-c-compiler
         - protobuf-c-devel
@@ -3319,19 +3318,28 @@ data:
         - rust-criterion-devel
         - rust-criterion-plot+default-devel
         - rust-criterion-plot-devel
+        - rust-crossbeam-channel0.4+default-devel
+        - rust-crossbeam-channel0.4-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
         - rust-crossbeam-channel+std-devel
+        - rust-crossbeam-deque0.7+default-devel
+        - rust-crossbeam-deque0.7-devel
         - rust-crossbeam-deque+default-devel
         - rust-crossbeam-deque-devel
         - rust-crossbeam-deque+std-devel
+        - rust-crossbeam-epoch0.8+default-devel
+        - rust-crossbeam-epoch0.8-devel
+        - rust-crossbeam-epoch0.8+std-devel
         - rust-crossbeam-epoch+alloc-devel
-        - rust-crossbeam-epoch+default-devel
         - rust-crossbeam-epoch-devel
         - rust-crossbeam-epoch+std-devel
-        - rust-crossbeam-queue+default-devel
-        - rust-crossbeam-queue-devel
-        - rust-crossbeam-queue+std-devel
+        - rust-crossbeam-queue0.2+default-devel
+        - rust-crossbeam-queue0.2-devel
+        - rust-crossbeam-queue0.2+std-devel
+        - rust-crossbeam-utils0.7+default-devel
+        - rust-crossbeam-utils0.7-devel
+        - rust-crossbeam-utils0.7+std-devel
         - rust-crossbeam-utils+default-devel
         - rust-crossbeam-utils-devel
         - rust-crossbeam-utils+std-devel
@@ -4698,6 +4706,7 @@ data:
         - xerces-c
         - xerces-c-devel
         - xfsprogs-devel
+        - xkbcomp
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
