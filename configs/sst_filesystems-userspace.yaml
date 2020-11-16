@@ -13,7 +13,6 @@ data:
     - cifs-utils-devel
     - e2fsprogs
     - fio
-    - fio
     - fio-engine-http
     - fio-engine-libaio
     - fio-engine-nbd
@@ -68,10 +67,3 @@ data:
 
   labels:
   - eln
-
-
-
-
-
-
-
