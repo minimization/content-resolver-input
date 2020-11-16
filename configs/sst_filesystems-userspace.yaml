@@ -13,6 +13,13 @@ data:
     - cifs-utils-devel
     - e2fsprogs
     - fio
+    - fio
+    - fio-engine-http
+    - fio-engine-libaio
+    - fio-engine-nbd
+    - fio-engine-rados
+    - fio-engine-rbd
+    - fio-engine-rdma
     - fuse
     - fuse-common
     - fuse-devel
@@ -36,6 +43,7 @@ data:
     - rpcsvc-proto-devel
     - xfsdump
     - xfsprogs
+    - xfsprogs-xfs_scrub
 
   arch_packages:
     # gfs2 packages are not supported on aarch64.
@@ -52,8 +60,18 @@ data:
     - pcp-pmda-gfs2
 
     x86_64:
+    - fio-engine-dev-dax
+    - fio-engine-libpmem
+    - fio-engine-pmemblk
     - gfs2-utils
     - pcp-pmda-gfs2
 
   labels:
   - eln
+
+
+
+
+
+
+
