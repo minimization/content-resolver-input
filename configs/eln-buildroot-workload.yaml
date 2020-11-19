@@ -1209,6 +1209,7 @@ data:
         - imake
         - imaptest
         - intltool
+        - ipa-server-common
         - iptables-devel
         - iscsi-initiator-utils-devel
         - isl
