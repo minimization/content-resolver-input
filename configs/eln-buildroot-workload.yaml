@@ -1633,6 +1633,7 @@ data:
         - librhsm-devel
         - libRmath
         - librsvg2-devel
+        - librttopo
         - librx
         - librx-devel
         - libsamplerate-devel
@@ -4882,7 +4883,6 @@ data:
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
-            - librttopo
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
@@ -4931,7 +4931,6 @@ data:
             - libguestfs-tools-c
             - libimobiledevice
             - libplist
-            - librttopo
             - libusbmuxd
             - libXScrnSaver
             - libXvMC
@@ -4992,7 +4991,6 @@ data:
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
-            - librttopo
             - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
