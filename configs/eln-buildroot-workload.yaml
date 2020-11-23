@@ -1493,7 +1493,6 @@ data:
         - libgxim-devel
         - libgxps-devel
         - libhandy1-devel
-        - libhandy-devel
         - libhangul-devel
         - libhbaapi-devel
         - libICE-devel
@@ -1608,7 +1607,6 @@ data:
         - libpciaccess-devel
         - libpeas-devel
         - libpfm-static
-        - libphodav-devel
         - libphonenumber-devel
         - libpinyin-devel
         - libpinyin-tools
@@ -1704,9 +1702,7 @@ data:
         - libvirt-daemon-driver-storage-sheepdog
         - libvirt-daemon-qemu
         - libvirt-devel
-        - libvirt-gconfig-devel
         - libvirt-glib-devel
-        - libvirt-gobject-devel
         - libvisio-devel
         - libvisual-devel
         - libvncserver-devel
@@ -4452,9 +4448,6 @@ data:
         - speech-tools-libs-static
         - speex-devel
         - speexdsp-devel
-        - spice-glib-devel
-        - spice-gtk3-devel
-        - spice-gtk3-vala
         - spice-parent
         - spice-protocol
         - spirv-tools
