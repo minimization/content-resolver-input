@@ -55,7 +55,6 @@ data:
   - cogl
   - libIDL
   - redhat-menus
-  - gnome-menus
   - dbus-c++
   - libcroco
   - enca
