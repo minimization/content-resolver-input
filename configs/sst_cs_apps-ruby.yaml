@@ -11,3 +11,13 @@ data:
 
   labels:
   - eln
+
+  package_placeholders:
+    rubygem-tilt:
+      description: Generic interface to multiple Ruby template engines
+      requires:
+        - ruby(rubygems)
+
+      buildrequires:
+        - rubygem(minitest)
+        - /usr/bin/ronn
