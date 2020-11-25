@@ -13,11 +13,13 @@ data:
   - dejavu-sans-fonts
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
+  - google-carlito-fonts
   - google-noto-emoji-color-fonts
   - google-noto-sans-cjk-ttc-fonts
   - google-noto-sans-gurmukhi-fonts
   - google-noto-sans-sinhala-vf-fonts
   - google-roboto-slab-fonts
+  - ht-caladea-fonts
   - jomolhari-fonts
   - julietaula-montserrat-fonts
   - khmer-os-system-fonts
