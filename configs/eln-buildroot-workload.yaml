@@ -220,8 +220,6 @@ data:
         - DevIL-devel
         - DevIL-ILUT
         - DevIL-ILUT-devel
-        - dietlibc
-        - dietlibc-devel
         - diffstat
         - disruptor
         - djvulibre-devel
@@ -314,7 +312,6 @@ data:
         - gcab
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
-        - gcc-x86_64-linux-gnu
         - gc-devel
         - GConf2-devel
         - gdal-libs
@@ -1116,9 +1113,6 @@ data:
         - gtk3-devel-docs
         - gtk+-devel
         - gtkmm30-devel
-        - gtk-sharp2
-        - gtk-sharp2-devel
-        - gtk-sharp2-gapi
         - gtksourceview4-devel
         - gtkspell3-devel
         - gtk-vnc2-devel
@@ -1342,8 +1336,6 @@ data:
         - libaesgm-devel
         - libao-devel
         - libaom-devel
-        - libappindicator-gtk3
-        - libappindicator-gtk3-devel
         - libappstream-glib-devel
         - libarchive-devel
         - libargon2-devel
@@ -1400,8 +1392,6 @@ data:
         - libdbi
         - libdbi-devel
         - libdbusmenu-devel
-        - libdbusmenu-gtk2
-        - libdbusmenu-gtk2-devel
         - libdbusmenu-gtk3-devel
         - libdhash-devel
         - libdmx-devel
@@ -1437,8 +1427,6 @@ data:
         - libfontenc-devel
         - libfreehand-devel
         - libgcab1-devel
-        - libgdiplus
-        - libgdiplus-devel
         - libgdl-devel
         - libgee-devel
         - libgeotiff
@@ -1478,10 +1466,6 @@ data:
         - libijs-devel
         - libimagequant-devel
         - libimobiledevice-devel
-        - libindicator
-        - libindicator-devel
-        - libindicator-gtk3
-        - libindicator-gtk3-devel
         - libini_config-devel
         - libiodbc
         - libiodbc-devel
@@ -1606,6 +1590,7 @@ data:
         - librhsm-devel
         - librsvg2-devel
         - librttopo
+        - librttopo-devel
         - librx
         - librx-devel
         - libsamplerate-devel
@@ -1904,16 +1889,6 @@ data:
         - mongo-c-driver
         - mongo-c-driver-devel
         - mongo-c-driver-libs
-        - mono-core
-        - mono-data
-        - mono-data-sqlite
-        - mono-devel
-        - monodoc
-        - mono-extras
-        - mono-mvc
-        - mono-wcf
-        - mono-web
-        - mono-winforms
         - motif-devel
         - mozjs78-devel
         - mpg123-devel
@@ -1950,8 +1925,6 @@ data:
         - nss_wrapper
         - ntfs-3g-devel
         - numactl-devel
-        - nunit
-        - nunit-devel
         - objectweb-asm
         - objectweb-pom
         - objenesis
@@ -2073,7 +2046,6 @@ data:
         - parted-devel
         - patchutils
         - pcaudiolib-devel
-        - pcre-static
         - pcsc-lite-devel
         - perl-Acme-Alien-DontPanic
         - perl-Acme-Alien-DontPanic2
@@ -2553,17 +2525,14 @@ data:
         - python3-greenlet
         - python3-greenlet-devel
         - python3-h11
-        - python3-h2
         - python3-hacking
         - python3-hamcrest
-        - python3-hpack
         - python3-html5lib
         - python3-httpbin
         - python3-httpcore
         - python3-httpretty
         - python3-httpx
         - python3-hupper
-        - python3-hyperframe
         - python3-hyperlink
         - python3-impacket
         - python3-incremental
@@ -2591,6 +2560,7 @@ data:
         - python3-keystoneclient
         - python3-kiwisolver
         - python3-koji
+        - python3-lark-parser
         - python3-latexcodec
         - python3-ldap3
         - python3-ldb-devel
@@ -2689,6 +2659,7 @@ data:
         - python3-pytest-runner
         - python3-pytest-shutil
         - python3-pytest-timeout
+        - python3-pytest-trio
         - python3-pytest-venv
         - python3-pytest-virtualenv
         - python3-pytest-xdist
@@ -2924,7 +2895,6 @@ data:
         - rubygem-activesupport
         - rubygem-addressable
         - rubygem-afm
-        - rubygem-ammeter
         - rubygem-ansi
         - rubygem-aruba
         - rubygem-Ascii85
@@ -2955,7 +2925,6 @@ data:
         - rubygem-curb
         - rubygem-dalli
         - rubygem-delorean
-        - rubygem-domain_name
         - rubygem-ejs
         - rubygem-em-http-request
         - rubygem-em-socksify
@@ -2972,16 +2941,13 @@ data:
         - rubygem-hashdiff
         - rubygem-hashery
         - rubygem-hiredis
-        - rubygem-hpricot
         - rubygem-httpclient
-        - rubygem-http-cookie
         - rubygem-http_parser.rb
         - rubygem-i18n
         - rubygem-image_processing
         - rubygem-introspection
         - rubygem-io-console
         - rubygem-irb
-        - rubygem-jbuilder
         - rubygem-jquery-rails
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
@@ -3025,7 +2991,6 @@ data:
         - rubygem-rails-dom-testing
         - rubygem-rails-html-sanitizer
         - rubygem-railties
-        - rubygem-rake-compiler
         - rubygem-rb-inotify
         - rubygem-rdiscount
         - rubygem-rdoc
@@ -3034,12 +2999,11 @@ data:
         - rubygem-redis
         - rubygem-regexp_parser
         - rubygem-regexp_property_values
-        - rubygem-ronn
+        - rubygem-ronn-ng
         - rubygem-rouge
         - rubygem-rr
         - rubygem-rspec-collection_matchers
         - rubygem-rspec-its
-        - rubygem-rspec-rails
         - rubygem-ruby-progressbar
         - rubygem-ruby-rc4
         - rubygem-ruby-vips
@@ -3051,11 +3015,7 @@ data:
         - rubygem-selenium-webdriver
         - rubygem-session
         - rubygem-shindo
-        - rubygem-shoulda
-        - rubygem-shoulda-context
-        - rubygem-shoulda-matchers
         - rubygem-slim
-        - rubygem-spring
         - rubygem-sprockets
         - rubygem-sprockets-rails
         - rubygem-sqlite3
@@ -3072,8 +3032,6 @@ data:
         - rubygem-typhoeus
         - rubygem-tzinfo
         - rubygem-uglifier
-        - rubygem-unf
-        - rubygem-unf_ext
         - rubygem-webmock
         - rubygem-websocket-driver
         - rubygem-websocket-extensions
@@ -3280,9 +3238,9 @@ data:
         - rust-crossbeam-utils+default-devel
         - rust-crossbeam-utils-devel
         - rust-crossbeam-utils+std-devel
-        - rust-crypto-mac+default-devel
-        - rust-crypto-mac+dev-devel
-        - rust-crypto-mac-devel
+        - rust-crypto-mac0.8+default-devel
+        - rust-crypto-mac0.8+dev-devel
+        - rust-crypto-mac0.8-devel
         - rust-csv-core+default-devel
         - rust-csv-core-devel
         - rust-csv+default-devel
@@ -3649,6 +3607,7 @@ data:
         - rust-mio0.6+with-deprecated-devel
         - rust-mio+default-devel
         - rust-mio-devel
+        - rust-mio+os-ext-devel
         - rust-mio+os-poll-devel
         - rust-mio+os-util-devel
         - rust-mio-uds+default-devel
@@ -4071,6 +4030,7 @@ data:
         - rust-string_cache_codegen-devel
         - rust-string_cache+default-devel
         - rust-string_cache-devel
+        - rust-string_cache+serde_support-devel
         - rust-strsim+default-devel
         - rust-strsim-devel
         - rust-structopt+default-devel
@@ -4282,8 +4242,7 @@ data:
         - rust-url1-devel
         - rust-url+default-devel
         - rust-url-devel
-        - rust-url_serde+default-devel
-        - rust-url_serde-devel
+        - rust-url+serde-devel
         - rust-users+cache-devel
         - rust-users+default-devel
         - rust-users-devel
@@ -4583,6 +4542,7 @@ data:
         - usbredir-devel
         - userspace-rcu-devel
         - utf8proc-devel
+        - uthash-devel
         - uuid-devel
         - vips
         - volume_key-devel
@@ -4655,7 +4615,6 @@ data:
         - xorg-x11-server-devel
         - xorg-x11-server-source
         - xorg-x11-util-macros
-        - xorg-x11-xkb-utils
         - xorg-x11-xtrans-devel
         - xxhash-devel
         - xz-java
@@ -4691,7 +4650,6 @@ data:
             - extlinux-bootloader
             - farstream02
             - farstream02-devel
-            - firefox
             - flashrom
             - flashrom-devel
             - gnu-efi-compat
