@@ -2843,6 +2843,7 @@ data:
         - qt-mobility-sensors
         - qt-mobility-serviceframework
         - qt-mobility-systeminfo
+        - qt-settings
         - qtwebkit
         - qtwebkit-devel
         - qt-x11
