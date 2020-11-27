@@ -14,27 +14,19 @@ data:
   - hexedit
   - hivex
   - ipxe-roms-qemu
-  - libguestfs
   - libiscsi
   - libnbd
   - libosinfo
   - libvirt
   - libvirt-dbus
   - libvirt-glib
+  - libguestfs-inspect-icons
   - mdevctl
-  - meson
-  - ninja-build
   - nbdkit
-  - netcf
-  - ocaml
-  - ocaml-libvirt
   - osinfo-db
   - osinfo-db-tools
-  - po4a
   - python-augeas
   - python3-libvirt
-  - qemu-guest-agent
-  - qemu-kvm
   - seabios
   - sgabios
   - supermin
@@ -49,7 +41,6 @@ data:
   arch_packages:
     x86_64:
     - edk2-ovmf
-    - virt-v2v
     - virt-p2v
     - xorg-x11-drv-qxl
     ppc64le:
