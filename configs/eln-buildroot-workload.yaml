@@ -22,8 +22,6 @@ data:
         - afflib
         - afflib-devel
         - alex
-        - allegro
-        - allegro-devel
         - alsa-lib-devel
         - amtk-devel
         - ant
@@ -216,10 +214,6 @@ data:
         - dconf-devel
         - debootstrap
         - device-mapper-multipath-devel
-        - DevIL
-        - DevIL-devel
-        - DevIL-ILUT
-        - DevIL-ILUT-devel
         - diffstat
         - disruptor
         - djvulibre-devel
@@ -285,8 +279,6 @@ data:
         - flexiblas-openblas-openmp64
         - flite-devel
         - fltk-devel
-        - fluid-soundfont-common
-        - fluid-soundfont-lite-patches
         - fluidsynth-devel
         - fluidsynth-libs
         - fmt-devel
@@ -1163,6 +1155,7 @@ data:
         - ibus-table-latin
         - ibus-table-translit
         - ibus-table-tv
+        - icon-naming-utils
         - icoutils
         - idm-console-framework
         - ilmbase-devel
@@ -1176,9 +1169,6 @@ data:
         - intltool
         - ipa-server-common
         - iptables-devel
-        - irrlicht
-        - irrlicht-devel
-        - irrXML-devel
         - iscsi-initiator-utils-devel
         - isl
         - isl-devel
@@ -1332,8 +1322,6 @@ data:
         - libadwaita-qt5-devel
         - libaec
         - libaec-devel
-        - libaesgm
-        - libaesgm-devel
         - libao-devel
         - libaom-devel
         - libappstream-glib-devel
@@ -1879,7 +1867,6 @@ data:
         - miniz
         - miniz-devel
         - minizip
-        - minizip-compat-devel
         - minizip-devel
         - mobile-broadband-provider-info-devel
         - mockito
@@ -2411,7 +2398,6 @@ data:
         - polkit-gnome
         - polkit-qt5-1
         - polkit-qt5-1-devel
-        - poly2tri-devel
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -4332,7 +4318,6 @@ data:
         - snappy-java
         - socket_wrapper
         - sombok-devel
-        - soundfont-utils
         - soundtouch-devel
         - source-highlight-devel
         - sparsehash-devel
