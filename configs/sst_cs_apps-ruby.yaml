@@ -15,6 +15,9 @@ data:
   package_placeholders:
     rubygem-tilt:
       description: Generic interface to multiple Ruby template engines
+      provides:
+        - rubygem(tilt)
+
       requires:
         - ruby(rubygems)
 
