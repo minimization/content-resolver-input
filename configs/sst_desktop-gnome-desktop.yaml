@@ -33,6 +33,7 @@ data:
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
+  - chrome-gnome-shell
   - low-memory-monitor
   - power-profiles-daemon
   - tracker
