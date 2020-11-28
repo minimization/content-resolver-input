@@ -1995,6 +1995,7 @@ data:
         - OpenEXR-devel
         - openjpeg2-devel
         - openjpeg2-tools
+        - openldap-compat
         - openldap-servers
         - openpgm
         - openpgm-devel
@@ -4757,7 +4758,6 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ocl-icd-devel
-            - openldap-compat
             - pugixml
             - python3-fastcache
             - python3-gmpy2
@@ -4806,7 +4806,6 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - openbios
-            - openldap-compat
             - pugixml
             - python3-lldb
             - qemu-system-aarch64
@@ -4867,7 +4866,6 @@ data:
             - mesa-libxatracker-devel
             - ocl-icd-devel
             - openbios
-            - openldap-compat
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
