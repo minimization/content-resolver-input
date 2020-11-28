@@ -61,9 +61,12 @@ data:
         - assertj-core
         - atf-tests
         - atinject
+        - atk-devel
         - atkmm-devel
         - atril
         - atril-libs
+        - at-spi2-atk-devel
+        - at-spi2-core-devel
         - audiofile
         - audiofile-devel
         - augeas-devel
@@ -138,6 +141,7 @@ data:
         - byte-buddy
         - byte-buddy-agent
         - byte-buddy-maven-plugin
+        - cairo-gobject-devel
         - cairomm-devel
         - caja
         - caja-core-extensions
@@ -239,9 +243,12 @@ data:
         - egl-wayland
         - egl-wayland-devel
         - eigen3-devel
+        - enchant2-devel
+        - enchant-devel
         - epstool
         - espeak-ng-devel
         - evince-devel
+        - evolution-data-server-devel
         - exec-maven-plugin
         - execstack
         - exempi-devel
@@ -306,8 +313,10 @@ data:
         - gcc-sparc64-linux-gnu
         - gc-devel
         - GConf2-devel
+        - gcr-devel
         - gdal-libs
         - gd-devel
+        - gdk-pixbuf2-devel
         - gdk-pixbuf2-xlib
         - gdk-pixbuf2-xlib-devel
         - gdlmm
@@ -318,6 +327,7 @@ data:
         - gegl04-devel
         - gegl04-tools
         - geoclue2-devel
+        - geocode-glib-devel
         - geos
         - geos-devel
         - gettext-common-devel
@@ -783,8 +793,10 @@ data:
         - gmock-devel
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
+        - gnome-desktop3-devel
         - gnome-doc-utils
         - gnome-doc-utils-stylesheets
+        - gnome-online-accounts-devel
         - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
@@ -1090,9 +1102,11 @@ data:
         - grilo-devel
         - groff
         - groff-perl
+        - gsettings-desktop-schemas-devel
         - gsl-devel
         - gsm-devel
         - gsound-devel
+        - gspell-devel
         - gssdp-devel
         - gssntlmssp-devel
         - gstreamer1-devel
@@ -1102,6 +1116,7 @@ data:
         - gtest-devel
         - gtk+
         - gtk2-devel
+        - gtk3-devel
         - gtk3-devel-docs
         - gtk+-devel
         - gtkmm30-devel
@@ -1136,6 +1151,7 @@ data:
         - hfsplus-tools
         - hidapi
         - hidapi-devel
+        - highlight
         - hiredis
         - hiredis-devel
         - hivex-devel
@@ -1173,6 +1189,7 @@ data:
         - isl
         - isl-devel
         - isns-utils-devel
+        - iso-codes-devel
         - ivy-local
         - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
@@ -1246,6 +1263,7 @@ data:
         - js-jquery
         - js-marked
         - jsoncpp-devel
+        - json-glib-devel
         - jsoup
         - jsr-305
         - js-uglify
@@ -1397,6 +1415,7 @@ data:
         - libEMF-devel
         - libeot
         - libeot-devel
+        - libepoxy-devel
         - libepubgen-devel
         - libesmtp-devel
         - libestr-devel
@@ -1415,6 +1434,7 @@ data:
         - libfontenc-devel
         - libfreehand-devel
         - libgcab1-devel
+        - libgdata-devel
         - libgdl-devel
         - libgee-devel
         - libgeotiff
@@ -1439,12 +1459,15 @@ data:
         - libgudev-devel
         - libguestfs-devel
         - libgusb-devel
+        - libgweather-devel
         - libgxim
         - libgxim-devel
         - libgxps-devel
         - libhandy1-devel
         - libhangul-devel
         - libhbaapi-devel
+        - libical-devel
+        - libical-glib-devel
         - libICE-devel
         - libIDL
         - libIDL-devel
@@ -1487,7 +1510,6 @@ data:
         - libmatchbox-devel
         - libmbim-devel
         - libmediaart-devel
-        - libmemcached-devel
         - libmetalink-devel
         - libmicrodns-devel
         - libmicrohttpd-devel
@@ -1562,7 +1584,7 @@ data:
         - libprelude
         - libprelude-devel
         - libproxy-devel
-        - libpst-devel
+        - libpsl-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1584,6 +1606,7 @@ data:
         - libsamplerate-devel
         - libsass
         - libsass-devel
+        - libseccomp-devel
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
@@ -1595,6 +1618,7 @@ data:
         - libsmi-devel
         - libsndfile-devel
         - libsodium-devel
+        - libsoup-devel
         - libspatialite
         - libspatialite-devel
         - libspectre-devel
@@ -1665,8 +1689,14 @@ data:
         - libwpg-devel
         - libwps-devel
         - libXaw-devel
+        - libXcomposite-devel
+        - libXcursor-devel
+        - libXdamage-devel
         - libXdmcp-devel
+        - libXfixes-devel
         - libXfont2-devel
+        - libXi-devel
+        - libXinerama-devel
         - libxkbcommon-x11-devel
         - libxkbfile-devel
         - libxklavier-devel
@@ -1677,10 +1707,12 @@ data:
         - libXp-devel
         - libXpm-devel
         - libXpresent-devel
+        - libXrandr-devel
         - libXres-devel
         - libXScrnSaver-devel
         - libxshmfence-devel
         - libXt-devel
+        - libXtst-devel
         - libXv-devel
         - libXvMC-devel
         - libXxf86dga-devel
@@ -1990,7 +2022,6 @@ data:
         - openblas-threads
         - openblas-threads64
         - openblas-threads64_
-        - openchange-devel
         - opencryptoki-devel
         - OpenEXR-devel
         - openjpeg2-devel
@@ -4279,7 +4310,6 @@ data:
         - rust-yaml-rust-devel
         - samba-dc-libs
         - samba-devel
-        - samba-pidl
         - samba-winbind-clients
         - sane-backends-devel
         - sanlock-devel
@@ -4535,8 +4565,12 @@ data:
         - w3m
         - waf
         - wavpack-devel
+        - wayland-devel
+        - wayland-protocols-devel
         - wdiff
         - web-assets-devel
+        - webkit2gtk3-devel
+        - webkit2gtk3-jsc-devel
         - webrtc-audio-processing-devel
         - weld-parent
         - woff2-devel
@@ -4570,6 +4604,7 @@ data:
         - xerces-c
         - xerces-c-devel
         - xfsprogs-devel
+        - xkeyboard-config-devel
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
@@ -4626,6 +4661,7 @@ data:
             - dbus-c++-devel
             - dbus-c++-ecore
             - dbus-c++-glib
+            - dbus-devel
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - edk2-ovmf
@@ -4659,6 +4695,7 @@ data:
             - libhbaapi
             - libiec61883-devel
             - libknet1-devel
+            - libmspack
             - libnice-gstreamer1
             - libnozzle1-devel
             - libpurple
@@ -4744,6 +4781,7 @@ data:
             - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
+            - libmspack
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
@@ -4795,6 +4833,7 @@ data:
             - libdv
             - libguestfs-tools-c
             - libimobiledevice
+            - libmspack
             - libplist
             - libusbmuxd
             - libXScrnSaver
