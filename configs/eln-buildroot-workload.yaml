@@ -4827,15 +4827,18 @@ data:
             - bluez-obexd
             - compiler-rt
             - efi-filesystem
+            - glslang
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - libbsd
             - libdv
+            - libGLEW
             - libguestfs-tools-c
             - libimobiledevice
             - libmspack
             - libplist
             - libusbmuxd
+            - libvdpau
             - libXScrnSaver
             - libXvMC
             - lldb
@@ -4854,6 +4857,8 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - SLOF
+            - spirv-headers-devel
+            - spirv-tools-libs
             - xorg-x11-drv-dummy
         x86_64:
             - bullet
