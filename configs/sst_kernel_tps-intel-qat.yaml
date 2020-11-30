@@ -5,39 +5,15 @@ data:
   description: Userspace libraries and tools for Intel QAT hardware crypto device
   maintainer: sst_kernel_tps
 
-# packages:
-#  - do not exist in fedora yet
+  arch_packages:
+    x86_64:
+    - qatlib
+    - qatlib-devel
 
   labels:
   - eln
 
   package_placeholders:
-
-    qatlib:
-      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/qatlib
-#     requires:
-#     - glibc
-#     buildrequires:
-#     - systemd
-#     - gcc
-#     - make
-      requires: []
-      buildrequires: []
-      limit_arches:
-      - x86_64
-
-    qatlib-devel:
-      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/qatlib
-#     requires:
-#     - glibc
-#     buildrequires:
-#     - systemd
-#     - gcc
-#     - make
-      requires: []
-      buildrequires: []
-      limit_arches:
-      - x86_64
 
     qatengine:
       description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/QAT_Engine
@@ -51,6 +27,27 @@ data:
 #     - openssl-devel
 #     - qatlib
 #     - qatlib-devel
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    attestation-hub:
+      description: This package is not in Fedora (yet), see: https://bugzilla.redhat.com/show_bug.cgi?id=1771346
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    trustagent:
+      description: This package is not in Fedora (yet), see: https://bugzilla.redhat.com/show_bug.cgi?id=1771343
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    host-verification-service:
+      description: This package is not in Fedora (yet), see: https://bugzilla.redhat.com/show_bug.cgi?id=1771338
       requires: []
       buildrequires: []
       limit_arches:
