@@ -167,8 +167,6 @@ data:
         - classloader-leak-test-framework
         - clisp
         - clisp-devel
-        - cloog
-        - cloog-devel
         - clucene-core-devel
         - clutter-devel
         - clutter-gst3-devel
@@ -787,8 +785,6 @@ data:
         - glpk-devel
         - glslang-devel
         - glslc
-        - glusterfs
-        - glusterfs-fuse
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -1457,7 +1453,6 @@ data:
         - libgta-devel
         - libgtop2-devel
         - libgudev-devel
-        - libguestfs-devel
         - libgusb-devel
         - libgweather-devel
         - libgxim
@@ -1517,6 +1512,7 @@ data:
         - libmikmod-devel
         - libmng-devel
         - libmnl-devel
+        - libmodman
         - libmodman-devel
         - libmodplug
         - libmodplug-devel
@@ -1668,8 +1664,6 @@ data:
         - libvarlink-devel
         - libvdpau-devel
         - libvdpau-trace
-        - libvirt-daemon-driver-storage-sheepdog
-        - libvirt-daemon-qemu
         - libvirt-devel
         - libvirt-glib-devel
         - libvisio-devel
@@ -1877,24 +1871,10 @@ data:
         - mesa-libGLU-devel
         - mesa-libOSMesa
         - mesa-libOSMesa-devel
+        - meson
         - metis
         - metis-devel
         - mftrace
-        - mingw32-binutils
-        - mingw32-cpp
-        - mingw32-gcc
-        - mingw32-gcc-c++
-        - mingw32-headers
-        - mingw32-winpthreads
-        - mingw64-binutils
-        - mingw64-cpp
-        - mingw64-crt
-        - mingw64-filesystem
-        - mingw64-gcc
-        - mingw64-gcc-c++
-        - mingw64-headers
-        - mingw64-winpthreads
-        - mingw-binutils-generic
         - miniz
         - miniz-devel
         - minizip
@@ -1922,7 +1902,6 @@ data:
         - nasm
         - nautilus-devel
         - nbd
-        - nbdkit-python-plugin
         - ncompress
         - neon-devel
         - netcdf
@@ -1936,6 +1915,7 @@ data:
         - nifticlib
         - nifticlib-devel
         - nilfs-utils
+        - ninja-build
         - nkf
         - nodejs-underscore
         - npth-devel
@@ -1946,26 +1926,20 @@ data:
         - objectweb-asm
         - objectweb-pom
         - objenesis
+        - ocaml
         - ocaml-bisect-ppx
         - ocaml-bisect-ppx-devel
-        - ocaml-calendar
-        - ocaml-calendar-devel
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
         - ocaml-cmdliner
         - ocaml-cmdliner-devel
+        - ocaml-compiler-libs
         - ocaml-cppo
         - ocaml-csexp
         - ocaml-csexp-devel
-        - ocaml-csv
-        - ocaml-csv-devel
-        - ocaml-curses
-        - ocaml-curses-devel
         - ocaml-dune
         - ocaml-dune-devel
-        - ocaml-extlib
-        - ocaml-extlib-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
         - ocaml-findlib
@@ -1976,8 +1950,7 @@ data:
         - ocaml-hivex-devel
         - ocaml-labltk
         - ocaml-labltk-devel
-        - ocaml-libguestfs
-        - ocaml-libguestfs-devel
+        - ocaml-libvirt
         - ocaml-libvirt-devel
         - ocaml-lwt
         - ocaml-lwt-devel
@@ -2000,12 +1973,11 @@ data:
         - ocaml-react-devel
         - ocaml-result
         - ocaml-result-devel
+        - ocaml-runtime
         - ocaml-seq
         - ocaml-seq-devel
         - ocaml-topkg
         - ocaml-topkg-devel
-        - ocaml-xml-light
-        - ocaml-xml-light-devel
         - ocaml-zarith
         - ocaml-zarith-devel
         - octave
@@ -2206,6 +2178,7 @@ data:
         - perl-Linux-Pid
         - perl-List-Pairwise
         - perl-Locale-Codes
+        - perl-Locale-gettext
         - perl-Mail-IMAPTalk
         - perl-Mail-JMAPTalk
         - perl-Math-Int64
@@ -2302,7 +2275,6 @@ data:
         - perl-Sub-Quote
         - perl-Sub-Uplevel
         - perl-Switch
-        - perl-Sys-Guestfs
         - perl-Sys-Virt
         - perl-Taint-Runtime
         - perl-Task-Weaken
@@ -2357,11 +2329,13 @@ data:
         - perl-Test-Warnings
         - perl-Test-Without-Module
         - perl-Test-XML
+        - perl-Text-CharWidth
         - perl-Text-CSV_XS
         - perl-Text-Iconv
         - perl-Text-LevenshteinXS
         - perl-Text-VCardFast
         - perl-Text-vFile-asData
+        - perl-Text-WrapI18N
         - perl-Tie-DataUUID
         - perl-Tie-IxHash
         - perl-Tk
@@ -2390,6 +2364,7 @@ data:
         - perl-XXX
         - perl-YAML-PP
         - perl-YAML-Syck
+        - perl-YAML-Tiny
         - phonon-qt4
         - phonon-qt4-devel
         - phonon-qt5
@@ -2423,6 +2398,7 @@ data:
         - plymouth-devel
         - pmix-devel
         - pngcrush
+        - po4a
         - polkit-devel
         - polkit-docs
         - polkit-gnome
@@ -2583,7 +2559,6 @@ data:
         - python3-lesscpy
         - python3-lexicon
         - python3-libmount
-        - python3-libnbd
         - python3-libpamtest
         - python3-m2r
         - python3-mallard-ducktype
@@ -2796,38 +2771,6 @@ data:
         - python-typeshed
         - python-wheel-wheel
         - qdox
-        - qemu
-        - qemu-system-alpha
-        - qemu-system-alpha-core
-        - qemu-system-arm
-        - qemu-system-arm-core
-        - qemu-system-avr
-        - qemu-system-avr-core
-        - qemu-system-cris
-        - qemu-system-cris-core
-        - qemu-system-m68k
-        - qemu-system-m68k-core
-        - qemu-system-microblaze
-        - qemu-system-microblaze-core
-        - qemu-system-mips
-        - qemu-system-mips-core
-        - qemu-system-nios2
-        - qemu-system-nios2-core
-        - qemu-system-or1k
-        - qemu-system-or1k-core
-        - qemu-system-riscv
-        - qemu-system-riscv-core
-        - qemu-system-rx
-        - qemu-system-rx-core
-        - qemu-system-sh4
-        - qemu-system-sh4-core
-        - qemu-system-sparc
-        - qemu-system-sparc-core
-        - qemu-system-tricore
-        - qemu-system-tricore-core
-        - qemu-system-xtensa
-        - qemu-system-xtensa-core
-        - qemu-user
         - qhull-devel
         - qjson
         - qjson-devel
@@ -4329,7 +4272,6 @@ data:
         - sg3_utils-devel
         - shapelib-devel
         - sharutils
-        - sheepdog
         - ShellCheck
         - shrinkwrap
         - shrinkwrap-impl-base
@@ -4691,7 +4633,6 @@ data:
             - libgnt
             - libgnt-devel
             - libgpuarray
-            - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
             - libknet1-devel
@@ -4711,11 +4652,7 @@ data:
             - meanwhile-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
             - ocl-icd-devel
-            - openbios
             - pacemaker-libs-devel
             - pugixml
             - python3-colorama
@@ -4732,15 +4669,13 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
-            - qemu-system-ppc
-            - qemu-system-ppc-core
-            - qemu-system-s390x
-            - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
-            - SLOF
+            - seabios-bin
+            - seavgabios-bin
+            - sgabios-bin
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
@@ -4778,23 +4713,18 @@ data:
             - libgnt
             - libgnt-devel
             - libgpuarray
-            - libguestfs-tools-c
             - libhbaapi
             - libiec61883-devel
             - libmspack
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
-            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - libXScrnSaver
             - libXvMC
             - meanwhile
             - meanwhile-devel
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
             - ocl-icd-devel
             - pugixml
             - python3-fastcache
@@ -4810,14 +4740,12 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
-            - qemu-system-aarch64
-            - qemu-system-aarch64-core
-            - qemu-system-s390x
-            - qemu-system-s390x-core
             - qemu-system-x86
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
+            - seabios-bin
+            - sgabios-bin
             - tinyxml
             - tinyxml-devel
             - tslib
@@ -4827,38 +4755,27 @@ data:
             - bluez-obexd
             - compiler-rt
             - efi-filesystem
-            - glslang
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - libbsd
             - libdv
-            - libGLEW
-            - libguestfs-tools-c
             - libimobiledevice
             - libmspack
             - libplist
             - libusbmuxd
-            - libvdpau
             - libXScrnSaver
             - libXvMC
             - lldb
             - lldb-devel
             - llvm-googletest
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
-            - openbios
             - pugixml
             - python3-lldb
-            - qemu-system-aarch64
-            - qemu-system-aarch64-core
-            - qemu-system-ppc
-            - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
-            - SLOF
-            - spirv-headers-devel
-            - spirv-tools-libs
+            - seabios-bin
+            - seavgabios-bin
+            - sgabios-bin
+            - vulkan-loader-devel
             - xorg-x11-drv-dummy
         x86_64:
             - bullet
@@ -4871,7 +4788,6 @@ data:
             - dbus-c++-glib
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
-            - edk2-aarch64
             - efivar-devel
             - efl
             - efl-devel
@@ -4902,14 +4818,12 @@ data:
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
-            - libvirt-daemon-driver-storage-zfs
             - libxml++
             - libxml++-devel
             - meanwhile
             - meanwhile-devel
             - mesa-libxatracker-devel
             - ocl-icd-devel
-            - openbios
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
@@ -4923,15 +4837,8 @@ data:
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
-            - qemu-system-aarch64
-            - qemu-system-aarch64-core
-            - qemu-system-ppc
-            - qemu-system-ppc-core
-            - qemu-system-s390x
-            - qemu-system-s390x-core
             - rlottie
             - rlottie-devel
-            - SLOF
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
