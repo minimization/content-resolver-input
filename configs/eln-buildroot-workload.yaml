@@ -2733,6 +2733,7 @@ data:
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
         - python3-sphinx-removed-in
+        - python3-sphinx_selective_exclude
         - python3-sphinxtesters
         - python3-sphinx-testing
         - python3-sphinx-theme-py3doc-enhanced
@@ -3157,6 +3158,9 @@ data:
         - rust-byteorder+std-devel
         - rust-bytes0.4+default-devel
         - rust-bytes0.4-devel
+        - rust-bytes0.5+default-devel
+        - rust-bytes0.5-devel
+        - rust-bytes0.5+std-devel
         - rust-byte-unit+default-devel
         - rust-byte-unit-devel
         - rust-byte-unit+u128-devel
@@ -3993,6 +3997,8 @@ data:
         - rust-serde+std-devel
         - rust-serde_test+default-devel
         - rust-serde_test-devel
+        - rust-serde_urlencoded0.6+default-devel
+        - rust-serde_urlencoded0.6-devel
         - rust-serde-xml-rs+default-devel
         - rust-serde-xml-rs-devel
         - rust-serde_yaml+default-devel
@@ -4734,11 +4740,6 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
-            - rust-bytes+default-devel
-            - rust-bytes-devel
-            - rust-bytes+std-devel
-            - rust-serde_urlencoded+default-devel
-            - rust-serde_urlencoded-devel
             - SLOF
             - spice-server-devel
             - tinyxml
@@ -4806,7 +4807,6 @@ data:
             - python3-pygpu-devel
             - python3-pytest-doctestplus
             - python3-sphinx-math-dollar
-            - python3-sphinx_selective_exclude
             - python3-sympy
             - python3-theano
             - python3-wurlitzer
@@ -4818,11 +4818,6 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
-            - rust-bytes0.5+default-devel
-            - rust-bytes0.5-devel
-            - rust-bytes0.5+std-devel
-            - rust-serde_urlencoded0.6+default-devel
-            - rust-serde_urlencoded0.6-devel
             - tinyxml
             - tinyxml-devel
             - tslib
@@ -4861,11 +4856,6 @@ data:
             - qemu-system-ppc-core
             - qemu-system-x86
             - qemu-system-x86-core
-            - rust-bytes+default-devel
-            - rust-bytes-devel
-            - rust-bytes+std-devel
-            - rust-serde_urlencoded+default-devel
-            - rust-serde_urlencoded-devel
             - SLOF
             - spirv-headers-devel
             - spirv-tools-libs
@@ -4941,11 +4931,6 @@ data:
             - qemu-system-s390x-core
             - rlottie
             - rlottie-devel
-            - rust-bytes+default-devel
-            - rust-bytes-devel
-            - rust-bytes+std-devel
-            - rust-serde_urlencoded+default-devel
-            - rust-serde_urlencoded-devel
             - SLOF
             - spice-server-devel
             - tinyxml
