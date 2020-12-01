@@ -51,6 +51,8 @@ data:
 
   # mock is in the Python standard library, use that one instead
   - python3-mock
+  # funcsigs is a backport from the Python standard library inspect module, use that one instead
+  - python3-funcsigs
 
   # breezy is only an optional test dependency of pip, with large dep tree
   - breezy
