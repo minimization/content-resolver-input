@@ -1243,8 +1243,6 @@ data:
         - jflex
         - jFormatString
         - jfsutils
-        - jimtcl
-        - jimtcl-devel
         - jitterentropy-devel
         - jmock
         - jmock-imposters
@@ -1512,8 +1510,6 @@ data:
         - libmikmod-devel
         - libmng-devel
         - libmnl-devel
-        - libmodman
-        - libmodman-devel
         - libmodplug
         - libmodplug-devel
         - libmodulemd-devel
@@ -3130,16 +3126,16 @@ data:
         - rust-chrono+oldtime-devel
         - rust-chrono+serde-devel
         - rust-chrono+std-devel
+        - rust-clang-sys+clang_3_5-devel
+        - rust-clang-sys+clang_3_6-devel
+        - rust-clang-sys+clang_3_7-devel
+        - rust-clang-sys+clang_3_8-devel
+        - rust-clang-sys+clang_3_9-devel
+        - rust-clang-sys+clang_4_0-devel
+        - rust-clang-sys+clang_5_0-devel
         - rust-clang-sys+clang_6_0-devel
         - rust-clang-sys+default-devel
         - rust-clang-sys-devel
-        - rust-clang-sys+gte_clang_3_6-devel
-        - rust-clang-sys+gte_clang_3_7-devel
-        - rust-clang-sys+gte_clang_3_8-devel
-        - rust-clang-sys+gte_clang_3_9-devel
-        - rust-clang-sys+gte_clang_4_0-devel
-        - rust-clang-sys+gte_clang_5_0-devel
-        - rust-clang-sys+gte_clang_6_0-devel
         - rust-clap+color-devel
         - rust-clap+default-devel
         - rust-clap-devel
@@ -4757,9 +4753,13 @@ data:
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - jimtcl
+            - jimtcl-devel
             - libbsd
             - libdv
             - libimobiledevice
+            - libmodman
+            - libmodman-devel
             - libmspack
             - libplist
             - libusbmuxd
@@ -4772,6 +4772,13 @@ data:
             - python3-lldb
             - qemu-system-x86
             - qemu-system-x86-core
+            - rust-clang-sys+gte_clang_3_6-devel
+            - rust-clang-sys+gte_clang_3_7-devel
+            - rust-clang-sys+gte_clang_3_8-devel
+            - rust-clang-sys+gte_clang_3_9-devel
+            - rust-clang-sys+gte_clang_4_0-devel
+            - rust-clang-sys+gte_clang_5_0-devel
+            - rust-clang-sys+gte_clang_6_0-devel
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
@@ -4802,6 +4809,8 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
+            - jimtcl
+            - jimtcl-devel
             - libavc1394-devel
             - libconfuse
             - libconfuse-devel
@@ -4815,6 +4824,8 @@ data:
             - libgpuarray
             - libhbaapi
             - libiec61883-devel
+            - libmodman
+            - libmodman-devel
             - libnice-gstreamer1
             - libpurple
             - libraw1394-devel
@@ -4839,6 +4850,13 @@ data:
             - python3-wurlitzer
             - rlottie
             - rlottie-devel
+            - rust-clang-sys+gte_clang_3_6-devel
+            - rust-clang-sys+gte_clang_3_7-devel
+            - rust-clang-sys+gte_clang_3_8-devel
+            - rust-clang-sys+gte_clang_3_9-devel
+            - rust-clang-sys+gte_clang_4_0-devel
+            - rust-clang-sys+gte_clang_5_0-devel
+            - rust-clang-sys+gte_clang_6_0-devel
             - spice-server-devel
             - tinyxml
             - tinyxml-devel
