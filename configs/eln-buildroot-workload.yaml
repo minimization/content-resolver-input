@@ -1465,6 +1465,7 @@ data:
         - liblangtag-devel
         - liblangtag-gobject
         - libldb-devel
+        - libldm
         - libldm-devel
         - liblockfile-devel
         - liblognorm-devel
@@ -1550,6 +1551,7 @@ data:
         - libpipeline-devel
         - libpkgconf-devel
         - libplist-devel
+        - libportal
         - libportal-devel
         - libprelude
         - libprelude-devel
@@ -4732,7 +4734,6 @@ data:
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
-            - vulkan-loader-devel
             - xorg-x11-drv-dummy
         x86_64:
             - bullet
