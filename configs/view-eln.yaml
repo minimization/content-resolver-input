@@ -17,7 +17,7 @@ data:
   # To propose a new unwanted package, use the "exclusion.yml" config from: https://github.com/minimization/content-resolver/blob/master/config_specs/exclusion.yaml
   
   # Packages to be flagged as unwanted
-  #unwanted_packages:
+  unwanted_packages:
 
   # asamalik: confirming unwanted proposals
   # that are not required at the same time
