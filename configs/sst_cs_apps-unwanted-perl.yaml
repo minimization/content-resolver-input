@@ -1,8 +1,8 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Core Services Stacks - Blocked packages
-  description: Core Services Stacks - Packages which should not be in ELN
+  name: Unwanted packages for Perl
+  description: Packages we do not want to ship for Perl
   maintainer: sst_cs_stacks
 
   unwanted_packages:
@@ -39,7 +39,6 @@ data:
   - perl-Text-CSV
   - perl-Text-CSV_XS
   - perl-Tk-Pod
-  - subversion-kde
 
   labels:
   - eln

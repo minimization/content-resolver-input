@@ -3,7 +3,7 @@ version: 1
 data:
   name: Apache Subversion
   description: Apache Subversion version control
-  maintainer: sst_cs_stacks
+  maintainer: sst_cs_infra_services
 
   modules_enable:
   - subversion:1.14

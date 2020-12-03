@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: HTTP Servers - NGINX
-  description: Core Services Stacks - NGINX
-  maintainer: sst_cs_stacks
+  description: CS Infrastructure Services - NGINX
+  maintainer: sst_cs_infra_services
 
   packages:
   - nginx
