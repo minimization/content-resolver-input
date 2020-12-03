@@ -98,6 +98,8 @@ data:
   - urw-base35-fonts-legacy
   # xsane
   - xsane-gimp
+  # subversion
+  - subversion-kde
 
   labels:
   - eln
