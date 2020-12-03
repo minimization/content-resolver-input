@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: HTTP Servers - Squid Caching Proxy
-  description: Core Services Stacks - Squid
-  maintainer: sst_cs_stacks
+  description: CS Infrastructure Services - Squid
+  maintainer: sst_cs_infra_services
 
   packages:
   - squid
