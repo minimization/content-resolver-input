@@ -129,7 +129,8 @@ data:
         - libusbx-devel
         - libuuid-devel
         - libxkbcommon-devel
-        - lzo-devel snappy-devel
+        - lzo-devel
+        - snappy-devel
         - meson
         - ncurses-devel
         - ninja-build
