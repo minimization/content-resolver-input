@@ -1333,6 +1333,7 @@ data:
         - libdmx-devel
         - libdnet
         - libdnet-devel
+        - libdnf-plugin-subscription-manager
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
