@@ -19,8 +19,6 @@ data:
         - adobe-mappings-pdf-devel
         - adobe-source-sans-pro-fonts
         - adwaita-icon-theme-devel
-        - afflib
-        - afflib-devel
         - alex
         - alsa-lib-devel
         - amtk-devel
@@ -207,7 +205,6 @@ data:
         - dbus-glib-devel
         - dbus-python-devel
         - dconf-devel
-        - debootstrap
         - device-mapper-multipath-devel
         - diffstat
         - disruptor
@@ -770,6 +767,8 @@ data:
         - glpk-devel
         - glslang-devel
         - glslc
+        - glusterfs-api-devel
+        - glusterfs-devel
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -782,7 +781,6 @@ data:
         - gnuplot
         - gnuplot-common
         - go-filesystem
-        - golang-bitbucket-ww-goautoneg-devel
         - golang-cloud-google-compute-devel
         - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
@@ -1124,7 +1122,6 @@ data:
         - hdf-libs
         - hdf-static
         - help2man
-        - hfsplus-tools
         - hidapi
         - hidapi-devel
         - hiredis
@@ -1140,6 +1137,7 @@ data:
         - hwloc-gui
         - hyphen-devel
         - i3
+        - iasl
         - ibus-devel
         - ibus-table-code
         - ibus-table-devel
@@ -1220,7 +1218,6 @@ data:
         - jemalloc-devel
         - jflex
         - jFormatString
-        - jfsutils
         - jitterentropy-devel
         - jmock
         - jmock-imposters
@@ -1350,8 +1347,6 @@ data:
         - libetonyek-devel
         - libevdev-devel
         - libev-devel
-        - libewf
-        - libewf-devel
         - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
@@ -1418,8 +1413,6 @@ data:
         - liblangtag-devel
         - liblangtag-gobject
         - libldb-devel
-        - libldm
-        - libldm-devel
         - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
@@ -1658,7 +1651,6 @@ data:
         - lua-json
         - lua-lpeg
         - lua-lunitx
-        - lua-rpm-macros
         - lua-term
         - lutok
         - lutok-devel
@@ -1669,7 +1661,6 @@ data:
         - m17n-db-extras
         - m17n-lib-devel
         - m17n-lib-tools
-        - mac-robber
         - malaga
         - marisa-devel
         - mate-common
@@ -1789,6 +1780,12 @@ data:
         - metis
         - metis-devel
         - mftrace
+        - mingw-binutils
+        - mingw-crt
+        - mingw-filesystem
+        - mingw-gcc
+        - mingw-headers
+        - mingw-srvany
         - miniz
         - miniz-devel
         - minizip
@@ -1828,7 +1825,6 @@ data:
         - nghttp2
         - nifticlib
         - nifticlib-devel
-        - nilfs-utils
         - ninja-build
         - nkf
         - nodejs-underscore
@@ -1858,14 +1854,10 @@ data:
         - ocaml-fileutils-devel
         - ocaml-findlib
         - ocaml-findlib-devel
-        - ocaml-gettext
         - ocaml-gettext-devel
-        - ocaml-hivex
         - ocaml-hivex-devel
         - ocaml-labltk
         - ocaml-labltk-devel
-        - ocaml-libvirt
-        - ocaml-libvirt-devel
         - ocaml-lwt
         - ocaml-lwt-devel
         - ocaml-migrate-parsetree
@@ -1997,7 +1989,6 @@ data:
         - perl-Encode-IMAPUTF7
         - perl-Env-Sanctify
         - perl-Event
-        - perl-Expect
         - perl-ExtUtils-Config
         - perl-ExtUtils-Depends
         - perl-ExtUtils-HasCompiler
@@ -2676,7 +2667,6 @@ data:
         - redland-devel
         - reflections
         - regexp
-        - reiserfs-utils
         - replacer
         - rest-devel
         - rhash-devel
@@ -4136,8 +4126,6 @@ data:
         - sisu-mojos
         - sisu-plexus
         - slang-devel
-        - sleuthkit
-        - sleuthkit-libs
         - slf4j-ext
         - slf4j-sources
         - snakeyaml
@@ -4157,6 +4145,7 @@ data:
         - speexdsp-devel
         - spice-parent
         - spice-protocol
+        - spice-server-devel
         - spirv-tools
         - spirv-tools-devel
         - srt-devel
@@ -4168,7 +4157,6 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
-        - supermin-devel
         - symlinks
         - sysprof-devel
         - t1lib
@@ -4460,7 +4448,6 @@ data:
             - efivar-devel
             - efl
             - efl-devel
-            - extlinux-bootloader
             - farstream02
             - farstream02-devel
             - flashrom
@@ -4488,6 +4475,7 @@ data:
             - libknet1-devel
             - libnice-gstreamer1
             - libnozzle1-devel
+            - libpmem-devel
             - libpurple
             - libqb-devel
             - libraw1394-devel
@@ -4525,7 +4513,6 @@ data:
             - seabios-bin
             - seavgabios-bin
             - sgabios-bin
-            - spice-server-devel
             - tinyxml
             - tinyxml-devel
             - tslib
@@ -4598,7 +4585,6 @@ data:
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - zfs-fuse
         s390x:
             - bluez-obexd
             - compiler-rt
@@ -4609,6 +4595,7 @@ data:
             - libdv
             - libimobiledevice
             - libplist
+            - libpmem-devel
             - libusbmuxd
             - libXScrnSaver
             - libXvMC
@@ -4685,9 +4672,7 @@ data:
             - python3-wurlitzer
             - rlottie
             - rlottie-devel
-            - spice-server-devel
             - tinyxml
             - tinyxml-devel
             - tslib
             - tslib-devel
-            - zfs-fuse
