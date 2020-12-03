@@ -2806,6 +2806,7 @@ data:
         - rpm-ostree-devel
         - rrdtool-devel
         - rsh
+        - rtl-sdr
         - rtl-sdr-devel
         - ruby-default-gems
         - ruby-devel
