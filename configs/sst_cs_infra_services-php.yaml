@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: PHP scripting language
-  description: Core Services Stacks - PHP
-  maintainer: sst_cs_stacks
+  description: CS Infrastructure Services - PHP
+  maintainer: sst_cs_infra_services
 
   packages:
   - php

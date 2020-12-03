@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: HTTP Servers - Apache httpd
-  description: Core Services Stacks - Apache HTTP Server
-  maintainer: sst_cs_stacks
+  description: CS Infrastructure Services - Apache HTTP Server
+  maintainer: sst_cs_infra_services
 
   modules_enable:
   - httpd:2.4
