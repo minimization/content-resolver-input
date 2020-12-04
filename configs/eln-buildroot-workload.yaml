@@ -245,8 +245,6 @@ data:
         - fcode-utils
         - fdk-aac-free-devel
         - fedora-bookmarks
-        - fedora-release
-        - fedora-release-identity-basic
         - felix-parent
         - felix-utils
         - ffcall
@@ -1852,7 +1850,9 @@ data:
         - ocaml-fileutils-devel
         - ocaml-findlib
         - ocaml-findlib-devel
+        - ocaml-gettext
         - ocaml-gettext-devel
+        - ocaml-hivex
         - ocaml-hivex-devel
         - ocaml-labltk
         - ocaml-labltk-devel
