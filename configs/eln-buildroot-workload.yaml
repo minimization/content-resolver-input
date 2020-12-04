@@ -126,7 +126,6 @@ data:
         - blosc
         - blosc-devel
         - bnd-maven-plugin
-        - breezy
         - brlapi-devel
         - bsf
         - bsh
@@ -290,7 +289,6 @@ data:
         - ftgl-devel
         - fusesource-pom
         - fwupd-devel
-        - gamin-devel
         - gcab
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
@@ -2285,7 +2283,6 @@ data:
         - python3-appdirs
         - python3-argon2-cffi
         - python3-asgiref
-        - python3-atomicwrites
         - python3-Automat
         - python3-backcall
         - python3-bcrypt
@@ -2330,7 +2327,6 @@ data:
         - python3-extras
         - python3-factory-boy
         - python3-faker
-        - python3-fastimport
         - python3-fastjsonschema
         - python3-fields
         - python3-filelock
@@ -2341,7 +2337,6 @@ data:
         - python3-flexmock
         - python3-flit
         - python3-flit-core
-        - python3-fluidity-sm
         - python3-fonttools
         - python3-freezegun
         - python3-fs
@@ -2367,7 +2362,6 @@ data:
         - python3-hyperlink
         - python3-impacket
         - python3-incremental
-        - python3-invoke
         - python3-ipykernel
         - python3-ipython
         - python3-ipython-doc
@@ -2377,9 +2371,6 @@ data:
         - python3-ipywidgets
         - python3-iso8601
         - python3-itsdangerous
-        - python3-jaraco
-        - python3-jaraco-envs
-        - python3-jaraco-packaging
         - python3-javapackages
         - python3-jedi
         - python3-jeepney
@@ -2396,7 +2387,6 @@ data:
         - python3-ldap3
         - python3-ldb-devel
         - python3-lesscpy
-        - python3-lexicon
         - python3-libmount
         - python3-libpamtest
         - python3-m2r
@@ -2440,13 +2430,10 @@ data:
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
-        - python3-paramiko
         - python3-parso
         - python3-paste
         - python3-paste-deploy
-        - python3-path
         - python3-pathspec
-        - python3-patiencediff
         - python3-pickleshare
         - python3-pikepdf
         - python3-plaster
@@ -2466,7 +2453,6 @@ data:
         - python3-pygments-pytest
         - python3-pygraphviz
         - python3-pymongo
-        - python3-pynacl
         - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
@@ -2478,7 +2464,6 @@ data:
         - python3-pytest-benchmark
         - python3-pytest-cov
         - python3-pytest-expect
-        - python3-pytest-fixture-config
         - python3-pytest-flake8
         - python3-pytest-forked
         - python3-pytest-helpers-namespace
@@ -2487,11 +2472,9 @@ data:
         - python3-pytest-randomly
         - python3-pytest-rerunfailures
         - python3-pytest-runner
-        - python3-pytest-shutil
         - python3-pytest-timeout
         - python3-pytest-trio
         - python3-pytest-venv
-        - python3-pytest-virtualenv
         - python3-pytest-xdist
         - python3-pyxattr
         - python3-qt5-devel
@@ -2511,12 +2494,10 @@ data:
         - python3-rfc3986
         - python3-rfc3986+idna2008
         - python3-rjsmin
-        - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
         - python3-scons
-        - python3-scripttest
         - python3-scripttester
         - python3-secretstorage
         - python3-selenium
@@ -2524,11 +2505,9 @@ data:
         - python3-service-identity
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
-        - python3-should_dsl
         - python3-simplejson
         - python3-sip-devel
         - python3-soupsieve
-        - python3-spec
         - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-bibtex
@@ -2559,7 +2538,6 @@ data:
         - python3-tables
         - python3-talloc-devel
         - python3-tempita
-        - python3-termcolor
         - python3-terminado
         - python3-testpath
         - python3-testrepository
