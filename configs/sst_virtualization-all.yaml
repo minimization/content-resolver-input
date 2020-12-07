@@ -46,6 +46,7 @@ data:
     ppc64le:
     - SLOF
     - xorg-x11-drv-qxl
+    - powerpc-utils
     aarch64:
     - edk2-aarch64
     - xorg-x11-drv-qxl
@@ -56,7 +57,7 @@ data:
       requires:
         - cyrus-sasl-lib
         - device-mapper-multipath-libs
-        - edk2
+        - edk2-ovmf
         - glib2
         - glusterfs-api
         - gnutls
@@ -85,7 +86,6 @@ data:
         - mesa-libGL
         - numactl-libs
         - pixman
-        - powerpc-utils
         - python3
         - seabios-bin
         - seavgabios-bin
@@ -201,7 +201,6 @@ data:
       description: Virt-v2v converts a single guest from a foreign hypervisor to run on KVM
       requires:
         - libguestfs
-        - libguestfs-winsupport
         - mingw32-srvany
         - nbdkit-curl-plugin
         - nbdkit-python-plugin
