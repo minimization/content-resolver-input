@@ -12,7 +12,6 @@ data:
   - gdm
   - glib2
   - glib2-doc
-  - glib2-fam
   - glib2-static
   - glib2-tests
   - gnome-backgrounds
