@@ -12,6 +12,7 @@ data:
 
   package_placeholders:
     virtio-win:
+      srpm: virtio-win
       description: This package is only provided in RHEL
       buildrequires:
         - mingw32-pixman
