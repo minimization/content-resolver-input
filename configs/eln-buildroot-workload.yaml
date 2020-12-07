@@ -215,6 +215,8 @@ data:
         - docbook2X
         - docbook5-schemas
         - docbook5-style-xsl
+        - docbook-style-dsssl
+        - docbook-utils
         - docbook-utils-pdf
         - dom4j
         - dos2unix
@@ -230,6 +232,7 @@ data:
         - egl-wayland
         - egl-wayland-devel
         - eigen3-devel
+        - elinks
         - epstool
         - espeak-ng-devel
         - evince-devel
@@ -273,6 +276,7 @@ data:
         - fluidsynth-devel
         - fluidsynth-libs
         - fmt-devel
+        - fontawesome-fonts-web
         - fontforge
         - fontforge-devel
         - fontforge-doc
@@ -1094,6 +1098,7 @@ data:
         - gtk2-devel
         - gtk3-devel-docs
         - gtk+-devel
+        - gtk-doc
         - gtkmm30-devel
         - gtksourceview4-devel
         - gtkspell3-devel
@@ -1146,7 +1151,6 @@ data:
         - ibus-table-translit
         - ibus-table-tv
         - icon-naming-utils
-        - icoutils
         - idm-console-framework
         - ilmbase-devel
         - ima-evm-utils-devel
@@ -1786,8 +1790,6 @@ data:
         - mftrace
         - mingw32-binutils
         - mingw32-cpp
-        - mingw32-crt
-        - mingw32-filesystem
         - mingw32-gcc
         - mingw32-gcc-c++
         - mingw32-gettext
@@ -1832,7 +1834,6 @@ data:
         - mingw-binutils-generic
         - mingw-crt
         - mingw-filesystem
-        - mingw-filesystem-base
         - mingw-gcc
         - mingw-headers
         - mingw-libffi
@@ -1873,8 +1874,6 @@ data:
         - netcdf
         - netcdf-devel
         - netcf-devel
-        - netpbm
-        - netpbm-progs
         - newt-devel
         - nftables-devel
         - nghttp2
@@ -1894,6 +1893,8 @@ data:
         - ocaml
         - ocaml-bisect-ppx
         - ocaml-bisect-ppx-devel
+        - ocaml-calendar
+        - ocaml-calendar-devel
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
@@ -1903,8 +1904,14 @@ data:
         - ocaml-cppo
         - ocaml-csexp
         - ocaml-csexp-devel
+        - ocaml-csv
+        - ocaml-csv-devel
+        - ocaml-curses
+        - ocaml-curses-devel
         - ocaml-dune
         - ocaml-dune-devel
+        - ocaml-extlib
+        - ocaml-extlib-devel
         - ocaml-fileutils
         - ocaml-fileutils-devel
         - ocaml-findlib
@@ -1915,6 +1922,8 @@ data:
         - ocaml-hivex-devel
         - ocaml-labltk
         - ocaml-labltk-devel
+        - ocaml-libvirt
+        - ocaml-libvirt-devel
         - ocaml-lwt
         - ocaml-lwt-devel
         - ocaml-migrate-parsetree
@@ -1941,6 +1950,8 @@ data:
         - ocaml-seq-devel
         - ocaml-topkg
         - ocaml-topkg-devel
+        - ocaml-xml-light
+        - ocaml-xml-light-devel
         - ocaml-zarith
         - ocaml-zarith-devel
         - octave
@@ -1960,6 +1971,7 @@ data:
         - openchange-devel
         - opencryptoki-devel
         - OpenEXR-devel
+        - openjade
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
@@ -1967,6 +1979,7 @@ data:
         - openpgm-devel
         - openslide
         - openslide-devel
+        - opensp
         - opensp-devel
         - opentest4j
         - opus-devel
@@ -2074,7 +2087,6 @@ data:
         - perl-Glib
         - perl-Graphics-TIFF
         - perl-Guard
-        - perl-hivex
         - perl-Hook-LexWrap
         - perl-HTML-Formatter
         - perl-HTML-Tree
@@ -2170,6 +2182,7 @@ data:
         - perl-Sereal-Decoder
         - perl-Sereal-Encoder
         - perl-Set-Infinite
+        - perl-SGMLSpm
         - perl-Sort-Versions
         - perl-Spellunker
         - perl-strictures
@@ -2324,6 +2337,7 @@ data:
         - psutils
         - pugixml-devel
         - pulseaudio-libs-devel
+        - py3c-devel
         - pybind11-devel
         - pygobject2
         - pygobject2-codegen
@@ -2333,11 +2347,13 @@ data:
         - pygtk2-codegen
         - pygtk2-devel
         - pygtk2-doc
+        - pyproject-rpm-macros
         - python2-cairo
         - python2-cairo-devel
         - python2-rpm-macros
         - python2-setuptools
         - python3-aiohttp-cors
+        - python3-anytree
         - python3-apipkg
         - python3-appdirs
         - python3-argon2-cffi
@@ -2370,10 +2386,12 @@ data:
         - python3-cryptography-vectors
         - python3-curio
         - python3-cycler
+        - python3-Cython
         - python3-d2to1
         - python3-dbusmock
         - python3-ddt
         - python3-debtcollector
+        - python3-debug
         - python3-defusedxml
         - python3-distlib
         - python3-django
@@ -2419,6 +2437,7 @@ data:
         - python3-httpx
         - python3-hupper
         - python3-hyperlink
+        - python3-imagesize
         - python3-impacket
         - python3-incremental
         - python3-ipykernel
@@ -2447,6 +2466,7 @@ data:
         - python3-ldb-devel
         - python3-lesscpy
         - python3-libmount
+        - python3-libnbd
         - python3-libpamtest
         - python3-m2r
         - python3-mallard-ducktype
@@ -2489,6 +2509,7 @@ data:
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
+        - python3-parameterized
         - python3-parso
         - python3-paste
         - python3-paste-deploy
@@ -2509,6 +2530,7 @@ data:
         - python3-pycryptodomex
         - python3-pydot
         - python3-pyflakes
+        - python3-pygments
         - python3-pygments-pytest
         - python3-pygraphviz
         - python3-pymongo
@@ -2553,6 +2575,8 @@ data:
         - python3-rfc3986
         - python3-rfc3986+idna2008
         - python3-rjsmin
+        - python3-rpm-generators
+        - python3-rpm-macros
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
@@ -2566,14 +2590,22 @@ data:
         - python3-setuptools_scm_git_archive
         - python3-simplejson
         - python3-sip-devel
+        - python3-snowballstemmer
         - python3-soupsieve
+        - python3-sphinx
         - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
+        - python3-sphinxcontrib-applehelp
         - python3-sphinxcontrib-bibtex
+        - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
+        - python3-sphinxcontrib-htmlhelp
         - python3-sphinxcontrib-httpdomain
+        - python3-sphinxcontrib-jsmath
         - python3-sphinxcontrib-log-cabinet
+        - python3-sphinxcontrib-qthelp
         - python3-sphinxcontrib-rsvgconverter
+        - python3-sphinxcontrib-serializinghtml
         - python3-sphinxcontrib-svg2pdfconverter-common
         - python3-sphinxcontrib-trio
         - python3-sphinxcontrib-websupport
@@ -2584,9 +2616,11 @@ data:
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
         - python3-sphinx-removed-in
+        - python3-sphinx_rtd_theme
         - python3-sphinx_selective_exclude
         - python3-sphinxtesters
         - python3-sphinx-testing
+        - python3-sphinx-theme-alabaster
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sqlparse
@@ -2598,6 +2632,7 @@ data:
         - python3-talloc-devel
         - python3-tempita
         - python3-terminado
+        - python3-test
         - python3-testpath
         - python3-testrepository
         - python3-testresources
@@ -2642,6 +2677,7 @@ data:
         - python-ldb-devel-common
         - python-oslo-i18n-lang
         - python-oslo-utils-lang
+        - python-rpm-macros
         - python-sphinx-doc
         - python-typeshed
         - python-wheel-wheel
@@ -4495,6 +4531,7 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
+            - icoutils
             - libavc1394-devel
             - libbsd
             - libconfuse
@@ -4526,10 +4563,17 @@ data:
             - meanwhile-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - netpbm
+            - netpbm-progs
             - ocl-icd-devel
             - pacemaker-libs-devel
+            - perl-hivex
             - pugixml
             - python3-colorama
+            - python3-docutils
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
@@ -4574,6 +4618,7 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
+            - icoutils
             - libavc1394-devel
             - libbsd
             - libconfuse
@@ -4597,7 +4642,13 @@ data:
             - libXvMC
             - meanwhile
             - meanwhile-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - netpbm
+            - netpbm-progs
             - ocl-icd-devel
+            - perl-hivex
             - pugixml
             - python3-fastcache
             - python3-gmpy2
@@ -4628,6 +4679,7 @@ data:
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - icoutils
             - libbsd
             - libdv
             - libimobiledevice
@@ -4639,6 +4691,12 @@ data:
             - lldb
             - lldb-devel
             - llvm-googletest
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - netpbm
+            - netpbm-progs
+            - perl-hivex
             - pugixml
             - python3-lldb
             - qemu-system-x86
