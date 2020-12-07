@@ -16,6 +16,7 @@ data:
   - vinagre
   # buggy; glib improved to make dconf work on NFS
   - gamin
+  - glib2-fam
   # Replaced by GNOME Remote Desktop
   - vino
   # GNOME Shell has its own polkit dialog implementation
