@@ -36,7 +36,7 @@ data:
   - chrome-gnome-shell
   - low-memory-monitor
   - power-profiles-daemon
-  - tracker
+  - tracker3
   - uresourced
   - xdg-user-dirs-gtk
 
