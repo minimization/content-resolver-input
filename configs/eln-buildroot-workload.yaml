@@ -291,6 +291,7 @@ data:
         - ftgl-devel
         - fusesource-pom
         - fwupd-devel
+        - gamin
         - gcab
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
