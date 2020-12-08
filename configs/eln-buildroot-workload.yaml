@@ -4531,7 +4531,6 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
-            - icoutils
             - libavc1394-devel
             - libbsd
             - libconfuse
@@ -4566,11 +4565,8 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
-            - netpbm
-            - netpbm-progs
             - ocl-icd-devel
             - pacemaker-libs-devel
-            - perl-hivex
             - pugixml
             - python3-colorama
             - python3-docutils
@@ -4591,9 +4587,6 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
-            - seabios-bin
-            - seavgabios-bin
-            - sgabios-bin
             - tinyxml
             - tinyxml-devel
             - tslib
@@ -4618,7 +4611,6 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
-            - icoutils
             - libavc1394-devel
             - libbsd
             - libconfuse
@@ -4645,10 +4637,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
-            - netpbm
-            - netpbm-progs
             - ocl-icd-devel
-            - perl-hivex
             - pugixml
             - python3-fastcache
             - python3-gmpy2
@@ -4667,8 +4656,6 @@ data:
             - qemu-system-x86-core
             - rlottie
             - rlottie-devel
-            - seabios-bin
-            - sgabios-bin
             - tinyxml
             - tinyxml-devel
             - tslib
@@ -4679,7 +4666,6 @@ data:
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
-            - icoutils
             - libbsd
             - libdv
             - libimobiledevice
@@ -4694,16 +4680,10 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
-            - netpbm
-            - netpbm-progs
-            - perl-hivex
             - pugixml
             - python3-lldb
             - qemu-system-x86
             - qemu-system-x86-core
-            - seabios-bin
-            - seavgabios-bin
-            - sgabios-bin
             - xorg-x11-drv-dummy
         x86_64:
             - bullet
