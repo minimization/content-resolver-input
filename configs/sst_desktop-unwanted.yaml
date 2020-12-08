@@ -64,5 +64,7 @@ data:
   # Replaced by tracker3
   - tracker
   - tracker-miners
+  # Only linhandy1 will be part of RHEL 9
+  - libhandy
   labels:
   - eln
