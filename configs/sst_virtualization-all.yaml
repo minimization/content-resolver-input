@@ -41,14 +41,18 @@ data:
   arch_packages:
     x86_64:
     - edk2-ovmf
+    - libpmem
+    - spice-server
     - virt-p2v
     - xorg-x11-drv-qxl
     ppc64le:
+    - libpmem
+    - powerpc-utils
     - SLOF
     - xorg-x11-drv-qxl
-    - powerpc-utils
     aarch64:
     - edk2-aarch64
+    - spice-server
     - xorg-x11-drv-qxl
 
   package_placeholders:
@@ -57,7 +61,6 @@ data:
       requires:
         - cyrus-sasl-lib
         - device-mapper-multipath-libs
-        - edk2-ovmf
         - glib2
         - glusterfs-api
         - gnutls
@@ -70,7 +73,6 @@ data:
         - libgcrypt
         - libibverbs
         - libiscsi
-        - libpmem
         - libpng
         - librados2
         - librbd1
@@ -92,7 +94,6 @@ data:
         - sgabios-bin
         - SLOF
         - snappy
-        - spice-server
         - usbredir
         - zlib
       buildrequires:
