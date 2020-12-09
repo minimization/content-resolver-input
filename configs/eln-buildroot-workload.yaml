@@ -1117,6 +1117,7 @@ data:
         - hamcrest
         - hamcrest2
         - hamcrest-core
+        - hardlink
         - hawtjni
         - hdf5
         - hdf5-devel
@@ -1133,6 +1134,7 @@ data:
         - hiredis
         - hiredis-devel
         - hivex-devel
+        - hmaccalc
         - hscolour
         - hscolour-common
         - hsqldb-lib
@@ -1190,6 +1192,9 @@ data:
         - javacc
         - javacc-maven-plugin
         - java_cup
+        - java-latest-openjdk
+        - java-latest-openjdk-devel
+        - java-latest-openjdk-headless
         - javapackages-local
         - javaparser
         - javapoet
@@ -1411,6 +1416,7 @@ data:
         - libixion
         - libixion-devel
         - libjcat-devel
+        - libjpeg-devel
         - libjpeg-turbo-devel
         - libjpeg-turbo-utils
         - libkkc-devel
@@ -1427,8 +1433,6 @@ data:
         - liblrdf-devel
         - libmad-devel
         - libmalaga
-        - libmarkdown
-        - libmarkdown-devel
         - libmatchbox-devel
         - libmbim-devel
         - libmediaart-devel
@@ -1790,6 +1794,8 @@ data:
         - mftrace
         - mingw32-binutils
         - mingw32-cpp
+        - mingw32-crt
+        - mingw32-filesystem
         - mingw32-gcc
         - mingw32-gcc-c++
         - mingw32-gettext
@@ -1834,12 +1840,12 @@ data:
         - mingw-binutils-generic
         - mingw-crt
         - mingw-filesystem
+        - mingw-filesystem-base
         - mingw-gcc
         - mingw-headers
         - mingw-libffi
         - mingw-pcre
         - mingw-pkg-config
-        - mingw-srvany
         - mingw-w64-tools
         - mingw-zlib
         - miniz
@@ -2284,6 +2290,7 @@ data:
         - physfs
         - physfs-devel
         - pipewire-devel
+        - pkgconfig
         - plexus-archiver
         - plexus-build-api
         - plexus-cipher
@@ -2760,10 +2767,8 @@ data:
         - rubygem-activestorage
         - rubygem-activesupport
         - rubygem-addressable
-        - rubygem-afm
         - rubygem-ansi
         - rubygem-aruba
-        - rubygem-Ascii85
         - rubygem-asciidoctor
         - rubygem-bacon
         - rubygem-bcrypt
@@ -2782,7 +2787,6 @@ data:
         - rubygem-cookiejar
         - rubygem-crack
         - rubygem-crass
-        - rubygem-creole
         - rubygem-cucumber
         - rubygem-cucumber-core
         - rubygem-cucumber-expressions
@@ -2805,7 +2809,6 @@ data:
         - rubygem-globalid
         - rubygem-haml
         - rubygem-hashdiff
-        - rubygem-hashery
         - rubygem-hiredis
         - rubygem-httpclient
         - rubygem-http_parser.rb
@@ -2818,7 +2821,6 @@ data:
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
         - rubygem-launchy
-        - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
         - rubygem-mail
@@ -2830,6 +2832,7 @@ data:
         - rubygem-mimemagic
         - rubygem-mini_magick
         - rubygem-mini_mime
+        - rubygem(minitest)
         - rubygem-minitest
         - rubygem-minitest-around
         - rubygem-minitest-reporters
@@ -2842,11 +2845,7 @@ data:
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
-        - rubygem-pdf-core
-        - rubygem-pdf-inspector
-        - rubygem-pdf-reader
         - rubygem-power_assert
-        - rubygem-prawn
         - rubygem-pry
         - rubygem-public_suffix
         - rubygem-puma
@@ -2858,9 +2857,7 @@ data:
         - rubygem-rails-html-sanitizer
         - rubygem-railties
         - rubygem-rb-inotify
-        - rubygem-rdiscount
         - rubygem-rdoc
-        - rubygem-redcarpet
         - rubygem-RedCloth
         - rubygem-redis
         - rubygem-regexp_parser
@@ -2871,7 +2868,6 @@ data:
         - rubygem-rspec-collection_matchers
         - rubygem-rspec-its
         - rubygem-ruby-progressbar
-        - rubygem-ruby-rc4
         - rubygem-ruby-vips
         - rubygem-rubyzip
         - rubygem-safe_yaml
@@ -2892,7 +2888,6 @@ data:
         - rubygem-test-unit
         - rubygem-thor
         - rubygem-timecop
-        - rubygem-ttfunk
         - rubygem-turbolinks
         - rubygem-turbolinks-source
         - rubygem-typhoeus
@@ -4231,6 +4226,7 @@ data:
         - sundials
         - sundials-devel
         - symlinks
+        - syslinux-perl
         - sysprof-devel
         - t1lib
         - t1lib-devel
@@ -4414,6 +4410,7 @@ data:
         - usbguard-devel
         - usbredir-devel
         - userspace-rcu-devel
+        - /usr/bin/ronn
         - utf8proc-devel
         - uthash-devel
         - uuid-devel
@@ -4487,7 +4484,6 @@ data:
         - xorg-x11-apps
         - xorg-x11-drv-wacom-devel
         - xorg-x11-server-devel
-        - xorg-x11-server-source
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
         - xxhash-devel
@@ -4562,9 +4558,6 @@ data:
             - meanwhile-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
             - ocl-icd-devel
             - pacemaker-libs-devel
             - pugixml
@@ -4634,9 +4627,6 @@ data:
             - libXvMC
             - meanwhile
             - meanwhile-devel
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
             - ocl-icd-devel
             - pugixml
             - python3-fastcache
@@ -4677,9 +4667,6 @@ data:
             - lldb
             - lldb-devel
             - llvm-googletest
-            - mingw32-crt
-            - mingw32-filesystem
-            - mingw-filesystem-base
             - pugixml
             - python3-lldb
             - qemu-system-x86
@@ -4710,6 +4697,7 @@ data:
             - gtkmm24-devel
             - gtkspell
             - gtkspell-devel
+            - icoutils
             - libavc1394-devel
             - libconfuse
             - libconfuse-devel
@@ -4731,7 +4719,11 @@ data:
             - meanwhile
             - meanwhile-devel
             - mesa-libxatracker-devel
+            - netpbm
+            - netpbm-progs
             - ocl-icd-devel
+            - perl-Crypt-PasswdMD5
+            - perl-hivex
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
