@@ -15,7 +15,7 @@ data:
 
   arch_packages:    
     aarch64:
-    - dnf-plugin-subscription-manager
+    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - rhsm-gtk
     - subscription-manager
@@ -23,13 +23,13 @@ data:
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
-    #- dnf-plugin-subscription-manager-debuginfo
+    #- libdnf-plugin-subscription-manager-debuginfo
     #- python3-subscription-manager-rhsm-debuginfo
     #- subscription-manager-debuginfo
     #- subscription-manager-debugsource
 
     i686:
-    - dnf-plugin-subscription-manager
+    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - rhsm-gtk
     - subscription-manager
@@ -37,13 +37,13 @@ data:
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
-    #- dnf-plugin-subscription-manager-debuginfo
+    #- libdnf-plugin-subscription-manager-debuginfo
     #- python3-subscription-manager-rhsm-debuginfo
     #- subscription-manager-debuginfo
     #- subscription-manager-debugsource
 
     ppc64le:
-    - dnf-plugin-subscription-manager
+    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - rhsm-gtk
     - subscription-manager
@@ -51,13 +51,13 @@ data:
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
-    #- dnf-plugin-subscription-manager-debuginfo
+    #- libdnf-plugin-subscription-manager-debuginfo
     #- python3-subscription-manager-rhsm-debuginfo
     #- subscription-manager-debuginfo
     #- subscription-manager-debugsource
 
     s390x:
-    - dnf-plugin-subscription-manager
+    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - rhsm-gtk
     - subscription-manager
@@ -65,13 +65,13 @@ data:
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
-    #- dnf-plugin-subscription-manager-debuginfo
+    #- libdnf-plugin-subscription-manager-debuginfo
     #- python3-subscription-manager-rhsm-debuginfo
     #- subscription-manager-debuginfo
     #- subscription-manager-debugsource
 
     x86_64:
-    - dnf-plugin-subscription-manager
+    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - rhsm-gtk
     - subscription-manager
@@ -79,7 +79,7 @@ data:
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
-    #- dnf-plugin-subscription-manager-debuginfo
+    #- libdnf-plugin-subscription-manager-debuginfo
     #- python3-subscription-manager-rhsm-debuginfo
     #- subscription-manager-debuginfo
     #- subscription-manager-debugsource
