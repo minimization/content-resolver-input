@@ -134,6 +134,7 @@ data:
 
   package_placeholders:
     rhel-system-roles-sap:
+      srpm: rhel-system-roles-sap
       description: system roles for SAP
       requires: []
       limit_arches:

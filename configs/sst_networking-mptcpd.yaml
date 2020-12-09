@@ -10,6 +10,7 @@ data:
 
   package_placeholders:
     mptcpd:
+      srpm: mptcpd
       description: This package is not yet in Fedora, it's going to be added soon.
       requires:
       - libell

@@ -9,6 +9,7 @@ data:
 
   package_placeholders:
     insights-client:
+      srpm: insights-client
       description: insights
       requires:
       - coreutils

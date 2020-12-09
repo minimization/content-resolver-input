@@ -16,6 +16,7 @@ data:
 
   package_placeholders:
     git-lfs:
+      srpm: git-lfs
       description: Git extension for versioning large files
       requires:
         - git-core

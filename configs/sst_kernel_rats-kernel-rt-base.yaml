@@ -10,6 +10,7 @@ data:
 
     package_placeholders:
       kernel-rt:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -56,6 +57,7 @@ data:
           - x86_64
 
       kernel-rt-core:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -102,6 +104,7 @@ data:
           - x86_64
 
       kernel-rt-modules:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -148,6 +151,7 @@ data:
           - x86_64
 
       kernel-rt-modules-extra:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -194,6 +198,7 @@ data:
           - x86_64
 
       kernel-rt-kvm:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -240,6 +245,7 @@ data:
           - x86_64
 
       tuned-profiles-realtime:
+        srpm: tuned
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -248,6 +254,7 @@ data:
           - x86_64
 
       tuned-profiles-nfv:
+        srpm: tuned
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -256,6 +263,7 @@ data:
           - x86_64
 
       tuned-profiles-nfv-guest:
+        srpm: tuned
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -264,6 +272,7 @@ data:
           - x86_64
 
       tuned-profiles-nfv-host:
+        srpm: tuned
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash

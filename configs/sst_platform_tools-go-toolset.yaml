@@ -23,6 +23,7 @@ data:
 
   package_placeholders:
     delve:
+      srpm: delve
       description: This package is not in Fedora (yet), but we want to see it here.
       requires: []
       buildrequires:
@@ -30,6 +31,7 @@ data:
       - git
       - lsof
     go-toolset:
+      srpm: go-toolset
       description: Meta-package for go-toolset
       requires:
         - golang

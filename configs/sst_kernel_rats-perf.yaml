@@ -14,6 +14,7 @@ data:
 
   package_placeholders:
     rt-tests:
+      srpm: rt-tests
       description: This package is not in Fedora (yet), but we want it here.
       requires:
         - bash
@@ -26,6 +27,7 @@ data:
       limit_arches:
         - x86_64
     rteval:
+      srpm: rteval
       description: This package is not in Fedora (yet), but we want it here.
       requires:
         - python3-schedutils
@@ -55,6 +57,7 @@ data:
       limit_arches:
         - x86_64
     rteval-loads:
+      srpm: rteval-loads
       description: This package is not in Fedora (yet), but we want it here.
       requires:
         - gcc
@@ -74,6 +77,7 @@ data:
       limit_arches:
         - x86_64
     rteval-common:
+      srpm: rteval
       description: This package is not in Fedora (yet), but we want it here.
       limit_arches:
         - x86_64

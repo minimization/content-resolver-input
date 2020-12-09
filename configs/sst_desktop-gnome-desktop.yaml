@@ -58,6 +58,7 @@ data:
 
   package_placeholders:
     redhat-logos:
+      srpm: redhat-logos
       description: Red Hat-related icons and pictures
       requires:
         - coreutils
@@ -66,22 +67,27 @@ data:
         - netpbm-progs
         - hardlink
     redhat-logos-httpd:
+      srpm: redhat-logos
       description: Red Hat-related icons and pictures used by httpd
       requires: []
       buildrequires: []
     redhat-logos-ipa:
+      srpm: redhat-logos
       description: Red Hat-related icons and pictures used by IPA
       requires: []
       buildrequires: []
     redhat-backgrounds:
+      srpm: redhat-logos
       description: Red Hat-related desktop backgrounds
       requires: []
       buildrequires: []
     gnome-shell-extension-systemMonitor:
+      srpm: gnome-shell-extensions
       description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
       requires: []
       buildrequires: []
     gnome-shell-extension-user-theme:
+      srpm: gnome-shell-extensions
       description: Support for custom themes in GNOME Shell
       requires: []
       buildrequires: []
