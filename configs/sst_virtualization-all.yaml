@@ -6,7 +6,6 @@ data:
   maintainer: sst_virtualization
 
   packages:
-  - amtterm
   - augeas
   - dtc
   - fuse-sshfs
@@ -203,12 +202,18 @@ data:
       requires:
         - libguestfs
         - mingw32-srvany
+        - mingw-srvany
         - nbdkit-curl-plugin
         - nbdkit-python-plugin
         - nbdkit-ssh-plugin
         - nbdkit-vddk-plugin
       buildrequires:
         - libguestfs
+        - mingw-gcc
+        - mingw-binutils
+        - mingw-filesystem
+        - mingw-headers
+        - mingw-crt
         - ocaml-fileutils-devel
         - ocaml-findlib-devel
         - ocaml-gettext-devel
@@ -223,12 +228,6 @@ data:
         - libconfig
       buildrequires:
         - libconfig-devel
-        - mingw-gcc
-        - mingw-binutils
-        - mingw-filesystem
-        - mingw-headers
-        - mingw-crt
-        - mingw-srvany
       limit_arches:
       - x86_64
       srpm: libguestfs-winsupport
