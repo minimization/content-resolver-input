@@ -13,6 +13,7 @@ data:
   package_placeholders:
     # kpatch is a RHEL-only package
     kpatch:
+      srpm: kpatch
       description: Dynamic kernel patch manager
       requires: []
       buildrequires: []

@@ -10,6 +10,7 @@ data:
 
     package_placeholders:
       kernel-rt-debug:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -56,6 +57,7 @@ data:
           - x86_64
 
       kernel-rt-debug-core:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -102,6 +104,7 @@ data:
           - x86_64
 
       kernel-rt-debug-modules:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -148,6 +151,7 @@ data:
           - x86_64
 
       kernel-rt-debug-modules-extra:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -194,6 +198,7 @@ data:
           - x86_64
 
       kernel-rt-debug-kvm:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash

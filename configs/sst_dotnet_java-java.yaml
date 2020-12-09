@@ -36,6 +36,7 @@ data:
 
   package_placeholders:
     java-17-openjdk:
+      srpm: java-17-openjdk
       description: Future long-term supported release of OpenJDK
       requires:
         - fontconfig

@@ -13,6 +13,7 @@ data:
 
   package_placeholders:
     redhat-bookmarks:
+      srpm: redhat-bookmarks
       description: This package contains the default bookmarks for Red Hat Enterprise Linux
       requires: []
       buildrequires: []

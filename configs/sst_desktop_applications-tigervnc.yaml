@@ -15,6 +15,7 @@ data:
 
   package_placeholders:
     tigervnc-selinux:
+      srpm: tigervnc
       description: SELinux module for TigerVNC
       requires:
         - libselinux-utils

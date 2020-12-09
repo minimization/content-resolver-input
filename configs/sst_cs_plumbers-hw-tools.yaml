@@ -21,6 +21,7 @@ data:
 
   package_placeholders:
     prefixdevname:
+      srpm: prefixdevname
       description: This package is rhel-only NIC naming tool
       buildrequires:
       - rust-toolset
