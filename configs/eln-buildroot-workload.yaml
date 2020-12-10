@@ -2832,7 +2832,6 @@ data:
         - rubygem-mimemagic
         - rubygem-mini_magick
         - rubygem-mini_mime
-        - rubygem(minitest)
         - rubygem-minitest
         - rubygem-minitest-around
         - rubygem-minitest-reporters
@@ -4410,7 +4409,6 @@ data:
         - usbguard-devel
         - usbredir-devel
         - userspace-rcu-devel
-        - /usr/bin/ronn
         - utf8proc-devel
         - uthash-devel
         - uuid-devel
