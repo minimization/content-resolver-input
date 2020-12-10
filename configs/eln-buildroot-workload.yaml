@@ -4585,6 +4585,7 @@ data:
             - zvbi-devel
             - zziplib-devel
         ppc64le:
+        s390x:
             - 389-ds-base-devel
             - a2ps
             - accountsservice-devel
@@ -4698,13 +4699,12 @@ data:
             - blis-threads64
             - blosc
             - blosc-devel
+            - bluez-obexd
             - bnd-maven-plugin
             - brlapi-devel
             - bsf
             - bsh
             - btrfs-progs-devel
-            - bullet
-            - bullet-devel
             - byaccj
             - byte-buddy
             - byte-buddy-agent
@@ -4732,8 +4732,6 @@ data:
             - clamav-lib
             - clamav-update
             - classloader-leak-test-framework
-            - clblast
-            - clblast-devel
             - clisp
             - clisp-devel
             - cloog
@@ -4766,6 +4764,7 @@ data:
             - compat-wxGTK3-gtk2-devel
             - compat-wxGTK3-gtk2-gl
             - compat-wxGTK3-gtk2-media
+            - compiler-rt
             - cppcheck
             - cppunit
             - cppunit-devel
@@ -4780,10 +4779,6 @@ data:
             - dain-snappy
             - datefudge
             - dblatex
-            - dbus-c++
-            - dbus-c++-devel
-            - dbus-c++-ecore
-            - dbus-c++-glib
             - dbus-glib-devel
             - dbus-python-devel
             - dconf-devel
@@ -4810,8 +4805,6 @@ data:
             - e2fsprogs-devel
             - easymock
             - efi-filesystem
-            - efl
-            - efl-devel
             - eglexternalplatform-devel
             - egl-wayland
             - egl-wayland-devel
@@ -4828,8 +4821,6 @@ data:
             - extra-cmake-modules
             - f33-backgrounds-base
             - f33-backgrounds-kde
-            - farstream02
-            - farstream02-devel
             - fasterxml-oss-parent
             - fcgi
             - fcgi-devel
@@ -4853,8 +4844,6 @@ data:
             - firebird-utils
             - fish
             - flac-devel
-            - flashrom
-            - flashrom-devel
             - flatpak-devel
             - flexiblas-devel
             - flexiblas-netlib64
@@ -5365,6 +5354,8 @@ data:
             - gmock
             - gmock-devel
             - gnome-autoar-devel
+            - gnome-bluetooth
+            - gnome-bluetooth-libs
             - gnome-bluetooth-libs-devel
             - gnome-doc-utils
             - gnome-doc-utils-stylesheets
@@ -5687,13 +5678,9 @@ data:
             - gtk3-devel-docs
             - gtk+-devel
             - gtk-doc
-            - gtkmm24
-            - gtkmm24-devel
             - gtkmm30-devel
             - gtksourceview4-devel
-            - gtkspell
             - gtkspell3-devel
-            - gtkspell-devel
             - gtk-vnc2-devel
             - guava
             - guava-testlib
@@ -5887,7 +5874,6 @@ data:
             - libatomic_ops-devel
             - libatomic_ops-static
             - libattr-devel
-            - libavc1394-devel
             - libbasicobjects-devel
             - libblockdev-crypto-devel
             - libblockdev-devel
@@ -5924,8 +5910,6 @@ data:
             - libcmocka-devel
             - libcollection-devel
             - libconfig-devel
-            - libconfuse
-            - libconfuse-devel
             - libdaemon-devel
             - libdazzle-devel
             - libdbi
@@ -5937,6 +5921,7 @@ data:
             - libdnet
             - libdnet-devel
             - libdrm-devel
+            - libdv
             - libdv-devel
             - libdvdnav-devel
             - libdvdread-devel
@@ -5960,14 +5945,9 @@ data:
             - libfbclient2-devel
             - libfdisk-devel
             - libfdt-devel
-            - libffado
-            - libffado-devel
             - libfido2-devel
             - libfontenc-devel
-            - libfprint-devel
             - libfreehand-devel
-            - libftdi
-            - libftdi-devel
             - libgcab1-devel
             - libgdl-devel
             - libgee-devel
@@ -5983,10 +5963,7 @@ data:
             - libglade2-devel
             - libglusterfs-devel
             - libgnomekbd-devel
-            - libgnt
-            - libgnt-devel
             - libgphoto2-devel
-            - libgpuarray
             - libgsasl
             - libgsasl-devel
             - libgsf-devel
@@ -6000,7 +5977,6 @@ data:
             - libgxps-devel
             - libhandy1-devel
             - libhangul-devel
-            - libhbaapi
             - libhbaapi-devel
             - libib-util
             - libICE-devel
@@ -6008,10 +5984,10 @@ data:
             - libIDL-devel
             - libidn
             - libidn-devel
-            - libiec61883-devel
             - libieee1284-devel
             - libijs-devel
             - libimagequant-devel
+            - libimobiledevice
             - libimobiledevice-devel
             - libini_config-devel
             - libiodbc
@@ -6077,7 +6053,6 @@ data:
             - libnftnl-devel
             - libnghttp2-devel
             - libnice-devel
-            - libnice-gstreamer1
             - libnl3-devel
             - libnma-devel
             - libnotify-devel
@@ -6111,12 +6086,13 @@ data:
             - libpinyin-devel
             - libpinyin-tools
             - libpipeline-devel
+            - libplist
             - libplist-devel
+            - libpmem-devel
             - libprelude
             - libprelude-devel
             - libproxy-devel
             - libpst-devel
-            - libpurple
             - libqhull
             - libqhull_p
             - libqhull_r
@@ -6125,7 +6101,6 @@ data:
             - libqxp-devel
             - librabbitmq-devel
             - libraqm-devel
-            - libraw1394-devel
             - LibRaw-devel
             - libref_array-devel
             - librelp-devel
@@ -6189,6 +6164,7 @@ data:
             - libunistring-devel
             - libunwind-devel
             - libusb-devel
+            - libusbmuxd
             - libusbmuxd-devel
             - libusbx-devel
             - libuser-devel
@@ -6224,9 +6200,7 @@ data:
             - libxkbcommon-x11-devel
             - libxkbfile-devel
             - libxklavier-devel
-            - libxml++
             - libxmlb-devel
-            - libxml++-devel
             - libXmu-devel
             - libXNVCtrl
             - libXNVCtrl-devel
@@ -6259,9 +6233,12 @@ data:
             - linkchecker
             - linuxconsoletools
             - linuxdoc-tools
+            - lldb
+            - lldb-devel
             - lldpad-devel
             - llvm7.0
             - llvm7.0-libs
+            - llvm-googletest
             - lmdb
             - lmdb-devel
             - Lmod
@@ -6393,8 +6370,6 @@ data:
             - maven-wagon-http-shared
             - maven-wagon-provider-api
             - mdds-devel
-            - meanwhile
-            - meanwhile-devel
             - mecab-devel
             - mercurial-lang
             - mercurial-py2
@@ -6575,7 +6550,6 @@ data:
             - ocaml-xml-light-devel
             - ocaml-zarith
             - ocaml-zarith-devel
-            - ocl-icd-devel
             - octave
             - octave-devel
             - ogdi
@@ -7028,7 +7002,6 @@ data:
             - python3-extras
             - python3-factory-boy
             - python3-faker
-            - python3-fastcache
             - python3-fastjsonschema
             - python3-fields
             - python3-filelock
@@ -7048,7 +7021,6 @@ data:
             - python3-genshi
             - python3-genty
             - python3-gevent
-            - python3-gmpy2
             - python3-gobject-devel
             - python3-graphviz
             - python3-greenlet
@@ -7091,10 +7063,10 @@ data:
             - python3-ldap3
             - python3-ldb-devel
             - python3-lesscpy
-            - python3-libftdi
             - python3-libmount
             - python3-libnbd
             - python3-libpamtest
+            - python3-lldb
             - python3-m2r
             - python3-mallard-ducktype
             - python3-marisa
@@ -7108,7 +7080,6 @@ data:
             - python3-mimeparse
             - python3-mistune
             - python3-mox3
-            - python3-mpmath
             - python3-msgpack
             - python3-munkres
             - python3-mypy
@@ -7154,16 +7125,12 @@ data:
             - python3-pybind11
             - python3-pybtex
             - python3-pybtex-docutils
-            - python3-pycmd
             - python3-pycodestyle
             - python3-pycryptodomex
             - python3-pydot
             - python3-pyflakes
-            - python3-pyglet
             - python3-pygments
             - python3-pygments-pytest
-            - python3-pygpu
-            - python3-pygpu-devel
             - python3-pygraphviz
             - python3-pymongo
             - python3-pyperclip
@@ -7176,7 +7143,6 @@ data:
             - python3-pytest-asyncio
             - python3-pytest-benchmark
             - python3-pytest-cov
-            - python3-pytest-doctestplus
             - python3-pytest-expect
             - python3-pytest-flake8
             - python3-pytest-forked
@@ -7248,7 +7214,6 @@ data:
             - python3-sphinx-hoverxref
             - python3-sphinx-issues
             - python3-sphinx-last-updated-by-git
-            - python3-sphinx-math-dollar
             - python3-sphinx-removed-in
             - python3-sphinx_rtd_theme
             - python3-sphinx_selective_exclude
@@ -7262,7 +7227,6 @@ data:
             - python3-stevedore
             - python3-subunit
             - python3-sure
-            - python3-sympy
             - python3-tables
             - python3-talloc-devel
             - python3-tempita
@@ -7275,7 +7239,6 @@ data:
             - python3-testtools
             - python3-texext
             - python3-text-unidecode
-            - python3-theano
             - python3-thrift
             - python3-tidy
             - python3-tox
@@ -7297,7 +7260,6 @@ data:
             - python3-werkzeug
             - python3-whoosh
             - python3-widgetsnbextension
-            - python3-wurlitzer
             - python3-wxpython4
             - python3-wx-siplib
             - python3-xmlschema
@@ -7382,8 +7344,6 @@ data:
             - replacer
             - rest-devel
             - rhash-devel
-            - rlottie
-            - rlottie-devel
             - rpm-ostree-devel
             - rrdtool-devel
             - rsh
@@ -9008,10 +8968,8 @@ data:
             - thrift
             - tidy
             - tinycdb-devel
-            - tinyxml
             - tinyxml2
             - tinyxml2-devel
-            - tinyxml-devel
             - tix-devel
             - tokyocabinet-devel
             - tomcat-taglibs-parent
@@ -9021,8 +8979,6 @@ data:
             - tracker3-devel
             - tracker-devel
             - transfig
-            - tslib
-            - tslib-devel
             - ttembed
             - ttfautohint
             - ttfautohint-libs
@@ -9120,6 +9076,7 @@ data:
             - xmvn-resolve
             - xmvn-subst
             - xorg-x11-apps
+            - xorg-x11-drv-dummy
             - xorg-x11-drv-wacom-devel
             - xorg-x11-server-devel
             - xorg-x11-util-macros
@@ -9138,7 +9095,6 @@ data:
             - zvbi
             - zvbi-devel
             - zziplib-devel
-        s390x:
         x86_64:
             - 389-ds-base-devel
             - a2ps
