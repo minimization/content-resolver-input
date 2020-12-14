@@ -26,6 +26,8 @@ data:
     - fuse3
     - fuse3-devel
     - fuse3-libs
+    - inih
+    - inih-devel
     - keyutils
     - keyutils-libs
     - keyutils-libs-devel
