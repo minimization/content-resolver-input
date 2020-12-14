@@ -245,6 +245,7 @@ data:
           - x86_64
 
       kernel-rt-debuginfo-common-x86_64:
+        srpm: kernel-rt
         description: files used by kernel-rt-debuginfo
         requires:
           - bash
@@ -257,6 +258,7 @@ data:
           - x86_64
 
       kernel-rt-debuginfo:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           # asamalik: I'm removing this package as it's a placeholder
@@ -311,6 +313,7 @@ data:
           - x86_64
 
       kernel-rt-devel:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
@@ -357,6 +360,7 @@ data:
           - x86_64
 
       kernel-rt-debug-devel:
+        srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.
         requires:
           - bash
