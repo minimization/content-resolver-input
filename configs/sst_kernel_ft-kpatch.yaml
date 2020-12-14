@@ -17,3 +17,9 @@ data:
       description: Dynamic kernel patch manager
       requires: []
       buildrequires: []
+    # kpatch-dnf is a RHEL-only package
+    kpatch-dnf:
+      srpm: kpatch
+      description: kpatch-patch manager plugin for DNF
+      requires: []
+      buildrequires: []
