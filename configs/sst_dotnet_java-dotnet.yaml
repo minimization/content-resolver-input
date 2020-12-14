@@ -19,6 +19,7 @@ data:
 
   package_placeholders:
     dotnet-sdk-6.0:
+      srpm: dotnet6.0
       description: .NET 6.0 doesn't exist, yet, but it's being planned for release in Nov 2021.
       limit_arches:
       - x86_64
