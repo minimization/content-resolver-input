@@ -181,7 +181,6 @@ data:
   - texlive-realscripts
   - texlive-utopia
   - texlive-babel-english
-  - texlive-wasy2-ps
   - texlive-memoir
   - texlive-babel
   - texlive-etoolbox
@@ -340,7 +339,6 @@ data:
   - texlive-fixlatvian
   - texlive-ltxmisc
   - texlive-qstest
-  - texlive-texconfig
   - texlive-parallel
   - texlive-t2
   - texlive-rcs
