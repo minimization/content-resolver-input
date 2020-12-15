@@ -202,7 +202,6 @@ data:
       requires:
         - libguestfs
         - mingw32-srvany
-        - mingw-srvany
         - nbdkit-curl-plugin
         - nbdkit-python-plugin
         - nbdkit-ssh-plugin
