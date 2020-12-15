@@ -78,8 +78,6 @@ data:
         - beakerlib
         - beust-jcommander
         - bind-devel
-        - bind-pkcs11-devel
-        - bind-pkcs11-libs
         - binutils-aarch64-linux-gnu
         - binutils-alpha-linux-gnu
         - binutils-arc-linux-gnu
@@ -158,8 +156,6 @@ data:
         - cliquer-devel
         - clisp
         - clisp-devel
-        - cloog
-        - cloog-devel
         - clucene-core-devel
         - clutter-devel
         - clutter-gst3-devel
@@ -307,6 +303,8 @@ data:
         - freetds-libs
         - freetype-demos
         - freexl-devel
+        - fstrm
+        - fstrm-devel
         - ftgl
         - ftgl-devel
         - fusesource-pom
@@ -1081,8 +1079,6 @@ data:
         - golang-x-xerrors-devel
         - golist
         - gom-devel
-        - google-benchmark
-        - google-benchmark-devel
         - google-gson
         - google-guice
         - go-rpm-macros
@@ -1417,8 +1413,6 @@ data:
         - libiptcdata-devel
         - libiscsi-devel
         - libisofs-devel
-        - libixion
-        - libixion-devel
         - libjcat-devel
         - libjpeg-devel
         - libjpeg-turbo-utils
@@ -1490,7 +1484,6 @@ data:
         - libopendmarc-devel
         - libopenmpt-devel
         - liborcus-devel
-        - liborcus-model
         - libosinfo-devel
         - libotf-devel
         - libotr-devel
@@ -1502,7 +1495,6 @@ data:
         - libpciaccess-devel
         - libpeas-devel
         - libpfm-static
-        - libphonenumber-devel
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
@@ -1639,8 +1631,6 @@ data:
         - linkchecker
         - linuxdoc-tools
         - lldpad-devel
-        - llvm7.0
-        - llvm7.0-libs
         - lmdb
         - lmdb-devel
         - lockdev-devel
@@ -1769,7 +1759,7 @@ data:
         - mdds-devel
         - mecab-devel
         - mercurial-lang
-        - mercurial-py2
+        - mercurial-py3
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -1833,6 +1823,7 @@ data:
         - miniz
         - miniz-devel
         - minizip-devel
+        - mm-common
         - mobile-broadband-provider-info-devel
         - mockito
         - modello
@@ -1894,6 +1885,8 @@ data:
         - ocaml-camomile
         - ocaml-camomile-data
         - ocaml-camomile-devel
+        - ocaml-cinaps
+        - ocaml-cinaps-devel
         - ocaml-cmdliner
         - ocaml-cmdliner-devel
         - ocaml-compiler-libs
@@ -1937,8 +1930,10 @@ data:
         - ocaml-ppx-derivers-devel
         - ocaml-ppx-tools-versioned
         - ocaml-ppx-tools-versioned-devel
+        - ocaml-re
         - ocaml-react
         - ocaml-react-devel
+        - ocaml-re-devel
         - ocaml-result
         - ocaml-result-devel
         - ocaml-runtime
@@ -2101,7 +2096,6 @@ data:
         - perl-Math-Int64
         - perl-MCE
         - perl-Mixin-Linewise
-        - perl-Mock-Config
         - perl-Module-Build-Deprecated
         - perl-Module-Build-Tiny
         - perl-Module-CPANTS-Analyse
@@ -2123,7 +2117,6 @@ data:
         - perl-Module-Package-Au
         - perl-Module-Pluggable
         - perl-Module-ScanDeps
-        - perl-Module-Signature
         - perl-Moo
         - perl-Net-CalDAVTalk
         - perl-Net-CardDAVTalk
@@ -2140,7 +2133,6 @@ data:
         - perl-Object-Deadly
         - perl-Paper-Specs
         - perl-Parallel-ForkManager
-        - perl-PAR-Dist
         - perl-Parse-Yapp
         - perl-Path-Class
         - perl-Path-Tiny
@@ -2236,7 +2228,6 @@ data:
         - perl-Test-XML
         - perl-Text-CharWidth
         - perl-Text-CSV_XS
-        - perl-Text-Iconv
         - perl-Text-LevenshteinXS
         - perl-Text-VCardFast
         - perl-Text-vFile-asData
@@ -2246,8 +2237,6 @@ data:
         - perl-Tk
         - perl-Types-Serialiser
         - perl-Unicode-EastAsianWidth
-        - perl-Unicode-Map8
-        - perl-Unicode-String
         - perl-Unicode-UTF8
         - perl-UNIVERSAL-isa
         - perl-UNIVERSAL-require
@@ -2257,7 +2246,6 @@ data:
         - perl-XML-Fast
         - perl-XML-Filter-BufferText
         - perl-XML-Generator
-        - perl-XML-Handler-YAWriter
         - perl-XML-Parser-Lite
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
@@ -2313,6 +2301,7 @@ data:
         - potrace-devel
         - pps-tools-devel
         - procps-ng-devel
+        - proj-datumgrid
         - proj-devel
         - protobuf-c-compiler
         - protobuf-c-devel
@@ -2365,8 +2354,6 @@ data:
         - python3-bson
         - python3-cairo-devel
         - python3-click
-        - python3-cliff
-        - python3-cmd2
         - python3-CommonMark
         - python3-constantly
         - python3-cov-core
@@ -2378,10 +2365,7 @@ data:
         - python3-curio
         - python3-cycler
         - python3-Cython
-        - python3-d2to1
         - python3-dbusmock
-        - python3-ddt
-        - python3-debtcollector
         - python3-debug
         - python3-defusedxml
         - python3-dill
@@ -2392,6 +2376,7 @@ data:
         - python3-dulwich
         - python3-elementpath
         - python3-entrypoints
+        - python3-eventlet
         - python3-execnet
         - python3-extras
         - python3-factory-boy
@@ -2409,7 +2394,6 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
-        - python3-funcsigs
         - python3-future
         - python3-gdal
         - python3-genshi
@@ -2420,7 +2404,6 @@ data:
         - python3-greenlet
         - python3-greenlet-devel
         - python3-h11
-        - python3-hacking
         - python3-hamcrest
         - python3-html5lib
         - python3-httpbin
@@ -2444,13 +2427,8 @@ data:
         - python3-itsdangerous
         - python3-javapackages
         - python3-jedi
-        - python3-jeepney
         - python3-jupyter-client
         - python3-jupyter-core
-        - python3-kerberos
-        - python3-keyring
-        - python3-keystoneauth1
-        - python3-keystoneclient
         - python3-kiwisolver
         - python3-koji
         - python3-lark-parser
@@ -2474,10 +2452,9 @@ data:
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
-        - python3-mox3
+        - python3-monotonic
         - python3-mpi4py-mpich
         - python3-mpi4py-openmpi
-        - python3-msgpack
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
@@ -2488,20 +2465,12 @@ data:
         - python3-nose
         - python3-nose2
         - python3-notebook
-        - python3-novaclient
         - python3-numexpr
         - python3-numpy-doc
         - python3-numpydoc
         - python3-opencensus-proto
         - python3-openstackdocstheme
         - python3-orderedset
-        - python3-oslo-config
-        - python3-oslo-i18n
-        - python3-oslo-serialization
-        - python3-oslo-sphinx
-        - python3-oslotest
-        - python3-oslo-utils
-        - python3-os-service-types
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
@@ -2515,7 +2484,6 @@ data:
         - python3-plaster
         - python3-plaster-pastedeploy
         - python3-pretend
-        - python3-priority
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
@@ -2531,7 +2499,6 @@ data:
         - python3-pygraphviz
         - python3-pylint
         - python3-pymongo
-        - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
@@ -2551,7 +2518,6 @@ data:
         - python3-pytest-rerunfailures
         - python3-pytest-runner
         - python3-pytest-timeout
-        - python3-pytest-trio
         - python3-pytest-venv
         - python3-pytest-xdist
         - python3-pyxattr
@@ -2563,8 +2529,6 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-regex
-        - python3-requests-kerberos
-        - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
@@ -2579,7 +2543,6 @@ data:
         - python3-rust2rpm
         - python3-scons
         - python3-scripttester
-        - python3-secretstorage
         - python3-selenium
         - python3-send2trash
         - python3-service-identity
@@ -2621,9 +2584,6 @@ data:
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sqlparse
-        - python3-stestr
-        - python3-stevedore
-        - python3-subunit
         - python3-sure
         - python3-tables
         - python3-talloc-devel
@@ -2631,8 +2591,6 @@ data:
         - python3-terminado
         - python3-test
         - python3-testpath
-        - python3-testrepository
-        - python3-testresources
         - python3-testscenarios
         - python3-testtools
         - python3-texext
@@ -2650,7 +2608,6 @@ data:
         - python3-u-msgpack-python
         - python3-venusian
         - python3-virtualenv
-        - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
@@ -2674,8 +2631,6 @@ data:
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
-        - python-oslo-i18n-lang
-        - python-oslo-utils-lang
         - python-rpm-macros
         - python-sphinx-doc
         - python-typeshed
@@ -2727,7 +2682,6 @@ data:
         - qtwebkit
         - qtwebkit-devel
         - qt-x11
-        - quilt
         - quota-devel
         - ragel
         - raptor2-devel
@@ -2937,8 +2891,6 @@ data:
         - rust-arrayvec+default-devel
         - rust-arrayvec-devel
         - rust-arrayvec+std-devel
-        - rust-assert-json-diff+default-devel
-        - rust-assert-json-diff-devel
         - rust-async-trait+default-devel
         - rust-async-trait-devel
         - rust-atty+default-devel
@@ -3048,12 +3000,8 @@ data:
         - rust-clap+suggestions-devel
         - rust-cmake+default-devel
         - rust-cmake-devel
-        - rust-colored1+default-devel
-        - rust-colored1-devel
         - rust-color_quant+default-devel
         - rust-color_quant-devel
-        - rust-const_fn+default-devel
-        - rust-const_fn-devel
         - rust-const-random+default-devel
         - rust-const-random-devel
         - rust-const-random-macro+default-devel
@@ -3077,29 +3025,17 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel0.4+default-devel
         - rust-crossbeam-channel0.4-devel
-        - rust-crossbeam-channel+default-devel
-        - rust-crossbeam-channel-devel
-        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque0.7+default-devel
         - rust-crossbeam-deque0.7-devel
-        - rust-crossbeam-deque+default-devel
-        - rust-crossbeam-deque-devel
-        - rust-crossbeam-deque+std-devel
         - rust-crossbeam-epoch0.8+default-devel
         - rust-crossbeam-epoch0.8-devel
         - rust-crossbeam-epoch0.8+std-devel
-        - rust-crossbeam-epoch+alloc-devel
-        - rust-crossbeam-epoch-devel
-        - rust-crossbeam-epoch+std-devel
         - rust-crossbeam-queue0.2+default-devel
         - rust-crossbeam-queue0.2-devel
         - rust-crossbeam-queue0.2+std-devel
         - rust-crossbeam-utils0.7+default-devel
         - rust-crossbeam-utils0.7-devel
         - rust-crossbeam-utils0.7+std-devel
-        - rust-crossbeam-utils+default-devel
-        - rust-crossbeam-utils-devel
-        - rust-crossbeam-utils+std-devel
         - rust-crypto-mac+default-devel
         - rust-crypto-mac+dev-devel
         - rust-crypto-mac-devel
@@ -3107,8 +3043,8 @@ data:
         - rust-csv-core-devel
         - rust-csv+default-devel
         - rust-csv-devel
-        - rust-dbus0.8+default-devel
-        - rust-dbus0.8-devel
+        - rust-dbus+default-devel
+        - rust-dbus-devel
         - rust-deflate+default-devel
         - rust-deflate-devel
         - rust-derive_more+add_assign-devel
@@ -3138,8 +3074,6 @@ data:
         - rust-devicemapper-devel
         - rust-diff+default-devel
         - rust-diff-devel
-        - rust-difference+default-devel
-        - rust-difference-devel
         - rust-digest+alloc-devel
         - rust-digest+default-devel
         - rust-digest+dev-devel
@@ -3182,8 +3116,6 @@ data:
         - rust-error-chain+example_generated-devel
         - rust-expat-sys+default-devel
         - rust-expat-sys-devel
-        - rust-extend+default-devel
-        - rust-extend-devel
         - rust-fail+default-devel
         - rust-fail-devel
         - rust-failure+default-devel
@@ -3454,8 +3386,6 @@ data:
         - rust-memmap-devel
         - rust-memoffset0.5+default-devel
         - rust-memoffset0.5-devel
-        - rust-memoffset+default-devel
-        - rust-memoffset-devel
         - rust-mime+default-devel
         - rust-mime-devel
         - rust-mime_guess+default-devel
@@ -3476,9 +3406,6 @@ data:
         - rust-mio+os-util-devel
         - rust-mio-uds+default-devel
         - rust-mio-uds-devel
-        - rust-mockito+color-devel
-        - rust-mockito+default-devel
-        - rust-mockito-devel
         - rust-native-tls+default-devel
         - rust-native-tls-devel
         - rust-net2+default-devel
@@ -3675,8 +3602,8 @@ data:
         - rust-quickcheck-devel
         - rust-quickcheck+regex-devel
         - rust-quickcheck+use_logging-devel
-        - rust-quick-error1+default-devel
-        - rust-quick-error1-devel
+        - rust-quick-error+default-devel
+        - rust-quick-error-devel
         - rust-quote0.6-devel
         - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
@@ -3846,8 +3773,6 @@ data:
         - rust-serde+std-devel
         - rust-serde_test+default-devel
         - rust-serde_test-devel
-        - rust-serde_urlencoded0.6+default-devel
-        - rust-serde_urlencoded0.6-devel
         - rust-serde_urlencoded+default-devel
         - rust-serde_urlencoded-devel
         - rust-serde-xml-rs+default-devel
@@ -3948,8 +3873,6 @@ data:
         - rust-term-devel
         - rust-termios+default-devel
         - rust-termios-devel
-        - rust-testing_logger+default-devel
-        - rust-testing_logger-devel
         - rust-textwrap0.11+default-devel
         - rust-textwrap0.11-devel
         - rust-thiserror+default-devel
@@ -4204,8 +4127,6 @@ data:
         - soundtouch-devel
         - source-highlight-devel
         - sparsehash-devel
-        - spdlog
-        - spdlog-devel
         - spec-version-maven-plugin
         - speech-tools-libs-devel
         - speech-tools-libs-static
@@ -4396,8 +4317,6 @@ data:
         - ucpp
         - ucpp-libs
         - uglify-js
-        - uhttpmock
-        - uhttpmock-devel
         - uid_wrapper
         - umockdev
         - umockdev-devel
@@ -4553,6 +4472,8 @@ data:
             - libXScrnSaver
             - libxslt-devel
             - libXvMC
+            - llvm7.0
+            - llvm7.0-libs
             - meanwhile
             - meanwhile-devel
             - mesa-libxatracker
@@ -4562,6 +4483,8 @@ data:
             - mingw-filesystem-base
             - ocl-icd-devel
             - pacemaker-libs-devel
+            - pocl
+            - pocl-devel
             - python3-colorama
             - python3-docutils
             - python3-fastcache
@@ -4632,6 +4555,8 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ocl-icd-devel
+            - pocl
+            - pocl-devel
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
@@ -4728,6 +4653,8 @@ data:
             - openni-devel
             - openni-primesense
             - perl-Crypt-PasswdMD5
+            - pocl
+            - pocl-devel
             - python3-fastcache
             - python3-gmpy2
             - python3-libftdi
