@@ -6,23 +6,17 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-
   - libwsman-devel
   - libwsman1
   - openwsman-server
   - sblim-cmpi-base
   - sblim-cmpi-base-devel
-  - libcmpiCppImpl0
-  - sblim-cmpi-devel
   - sblim-indication_helper
   - sblim-indication_helper-devel
   - sblim-sfcb
   - sblim-sfcc
   - sblim-sfcc-devel
   - sblim-wbemcli
-  - tog-pegasus-devel
-  - tog-pegasus-libs
-  - tog-pegasus
   - wsmancli
   - Xaw3d
   - Xaw3d-devel
@@ -131,7 +125,6 @@ data:
     ppc64le:
     - setserial
 
-
   package_placeholders:
     rhel-system-roles-sap:
       srpm: rhel-system-roles-sap
@@ -140,5 +133,6 @@ data:
       limit_arches:
         - x86_64
         - ppc64le
+
   labels:
   - eln
