@@ -2945,6 +2945,7 @@ data:
         - rust-bytes0.5+std-devel
         - rust-byte-unit+default-devel
         - rust-byte-unit-devel
+        - rust-byte-unit+std-devel
         - rust-byte-unit+u128-devel
         - rust-caps+default-devel
         - rust-caps-devel
@@ -4026,6 +4027,8 @@ data:
         - rust-users0.10+mock-devel
         - rust-utf-8+default-devel
         - rust-utf-8-devel
+        - rust-utf8-width+default-devel
+        - rust-utf8-width-devel
         - rust-uuid0.7+default-devel
         - rust-uuid0.7-devel
         - rust-uuid0.7+std-devel
