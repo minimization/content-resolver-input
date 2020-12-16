@@ -27,3 +27,5 @@ data:
     - ppc64le
     - s390x
     - x86_64
+
+    composeinfo: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/metadata/composeinfo.json
