@@ -214,16 +214,20 @@ data:
         - CUnit-devel
         - dain-snappy
         - datefudge
+        - daxctl-devel
         - dbus-glib-devel
         - dbus-python-devel
         - dcmtk
         - dcmtk-devel
         - dconf-devel
+        - device-mapper-devel
+        - device-mapper-event-devel
         - device-mapper-multipath-devel
         - disruptor
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
+        - dlm-lib
         - docbook2X
         - dom4j
         - dotconf-devel
@@ -1481,6 +1485,7 @@ data:
         - libpinyin-tools
         - libpipeline-devel
         - libplist-devel
+        - libpmem-devel
         - libprelude
         - libprelude-devel
         - libproxy-devel
@@ -1525,6 +1530,7 @@ data:
         - libsss_nss_idmap-devel
         - libstaroffice-devel
         - libstemmer-devel
+        - libstoragemgmt
         - libstoragemgmt-devel
         - libsvm
         - libsvm-devel
@@ -1607,7 +1613,6 @@ data:
         - lilypond-texgyre-heros-fonts
         - lilypond-texgyre-schola-fonts
         - linkchecker
-        - lldpad-devel
         - lmdb
         - lmdb-devel
         - lockdev-devel
@@ -1620,6 +1625,7 @@ data:
         - lua-lunitx
         - lutok
         - lutok-devel
+        - lvm2-devel
         - lz4-devel
         - lzo-devel
         - lzo-minilzo
@@ -1829,6 +1835,7 @@ data:
         - nautilus-devel
         - nbd
         - ncompress
+        - ndctl-devel
         - neon-devel
         - netcdf-cxx
         - netcdf-cxx-devel
@@ -2388,6 +2395,7 @@ data:
         - python3-httpx
         - python3-hupper
         - python3-hyperlink
+        - python3-hypothesis
         - python3-imagesize
         - python3-impacket
         - python3-incremental
@@ -2416,6 +2424,7 @@ data:
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
+        - python3-libstoragemgmt
         - python3-m2r
         - python3-mallard-ducktype
         - python3-marisa
@@ -2598,6 +2607,7 @@ data:
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
+        - python3-wcwidth
         - python3-webencodings
         - python3-webob
         - python3-webtest
@@ -2900,10 +2910,6 @@ data:
         - rust-bincode0.8-devel
         - rust-bincode+default-devel
         - rust-bincode-devel
-        - rust-bindgen+default-devel
-        - rust-bindgen-devel
-        - rust-bindgen+logging-devel
-        - rust-bindgen+which-rustfmt-devel
         - rust-bitflags+default-devel
         - rust-bitflags-devel
         - rust-bit-set+default-devel
@@ -2956,8 +2962,6 @@ data:
         - rust-cast+std-devel
         - rust-cc+default-devel
         - rust-cc-devel
-        - rust-cexpr+default-devel
-        - rust-cexpr-devel
         - rust-cfg-if0.1+default-devel
         - rust-cfg-if0.1-devel
         - rust-cfg-if+default-devel
@@ -2970,16 +2974,6 @@ data:
         - rust-chrono+oldtime-devel
         - rust-chrono+serde-devel
         - rust-chrono+std-devel
-        - rust-clang-sys+clang_3_5-devel
-        - rust-clang-sys+clang_3_6-devel
-        - rust-clang-sys+clang_3_7-devel
-        - rust-clang-sys+clang_3_8-devel
-        - rust-clang-sys+clang_3_9-devel
-        - rust-clang-sys+clang_4_0-devel
-        - rust-clang-sys+clang_5_0-devel
-        - rust-clang-sys+clang_6_0-devel
-        - rust-clang-sys+default-devel
-        - rust-clang-sys-devel
         - rust-clap+color-devel
         - rust-clap+default-devel
         - rust-clap-devel
@@ -3029,8 +3023,6 @@ data:
         - rust-csv-core-devel
         - rust-csv+default-devel
         - rust-csv-devel
-        - rust-dbus+default-devel
-        - rust-dbus-devel
         - rust-deflate+default-devel
         - rust-deflate-devel
         - rust-derive_more+add_assign-devel
@@ -3056,10 +3048,6 @@ data:
         - rust-derive_more+not-devel
         - rust-derive_more+sum-devel
         - rust-derive_more+try_into-devel
-        - rust-devicemapper+default-devel
-        - rust-devicemapper-devel
-        - rust-diff+default-devel
-        - rust-diff-devel
         - rust-digest+alloc-devel
         - rust-digest+default-devel
         - rust-digest+dev-devel
@@ -3077,9 +3065,7 @@ data:
         - rust-doc-comment-devel
         - rust-dtoa+default-devel
         - rust-dtoa-devel
-        - rust-either+default-devel
         - rust-either-devel
-        - rust-either+use_std-devel
         - rust-encoding_rs+default-devel
         - rust-encoding_rs-devel
         - rust-enum-as-inner+default-devel
@@ -3097,9 +3083,7 @@ data:
         - rust-err-derive+std-devel
         - rust-errno+default-devel
         - rust-errno-devel
-        - rust-error-chain+default-devel
         - rust-error-chain-devel
-        - rust-error-chain+example_generated-devel
         - rust-expat-sys+default-devel
         - rust-expat-sys-devel
         - rust-fail+default-devel
@@ -3292,8 +3276,6 @@ data:
         - rust-itoa+std-devel
         - rust-jpeg-decoder-devel
         - rust-jpeg-decoder+rayon-devel
-        - rust-lazycell+default-devel
-        - rust-lazycell-devel
         - rust-lazy_static+default-devel
         - rust-lazy_static-devel
         - rust-lexical-core+correct-devel
@@ -3305,29 +3287,17 @@ data:
         - rust-libc+default-devel
         - rust-libc-devel
         - rust-libc+extra_traits-devel
-        - rust-libcryptsetup-rs+default-devel
-        - rust-libcryptsetup-rs-devel
-        - rust-libcryptsetup-rs-sys+default-devel
-        - rust-libcryptsetup-rs-sys-devel
         - rust-libc+std-devel
-        - rust-libdbus-sys+default-devel
-        - rust-libdbus-sys-devel
         - rust-libflate+default-devel
         - rust-libflate-devel
         - rust-libflate_lz77+default-devel
         - rust-libflate_lz77-devel
         - rust-libloading+default-devel
         - rust-libloading-devel
-        - rust-libmount+default-devel
-        - rust-libmount-devel
         - rust-liboverdrop+default-devel
         - rust-liboverdrop-devel
         - rust-libsystemd+default-devel
         - rust-libsystemd-devel
-        - rust-libudev+default-devel
-        - rust-libudev-devel
-        - rust-libudev-sys+default-devel
-        - rust-libudev-sys-devel
         - rust-linked-hash-map+default-devel
         - rust-linked-hash-map-devel
         - rust-lock_api+default-devel
@@ -3335,8 +3305,6 @@ data:
         - rust-log+default-devel
         - rust-log-devel
         - rust-log+std-devel
-        - rust-loopdev+default-devel
-        - rust-loopdev-devel
         - rust-lru-cache+default-devel
         - rust-lru-cache-devel
         - rust-lzma-sys+default-devel
@@ -3411,8 +3379,6 @@ data:
         - rust-netlink-sys+tokio_socket-devel
         - rust-new_debug_unreachable+default-devel
         - rust-new_debug_unreachable-devel
-        - rust-nix0.14+default-devel
-        - rust-nix0.14-devel
         - rust-nix0.17+default-devel
         - rust-nix0.17-devel
         - rust-nix+default-devel
@@ -3497,8 +3463,6 @@ data:
         - rust-pathfinder_geometry-devel
         - rust-pathfinder_simd+default-devel
         - rust-pathfinder_simd-devel
-        - rust-peeking_take_while+default-devel
-        - rust-peeking_take_while-devel
         - rust-percent-encoding1+default-devel
         - rust-percent-encoding1-devel
         - rust-percent-encoding+default-devel
@@ -3506,12 +3470,6 @@ data:
         - rust-permutohedron+default-devel
         - rust-permutohedron-devel
         - rust-permutohedron+std-devel
-        - rust-pest+default-devel
-        - rust-pest-devel
-        - rust-pest_generator+default-devel
-        - rust-pest_generator-devel
-        - rust-pest_meta+default-devel
-        - rust-pest_meta-devel
         - rust-phf_codegen+default-devel
         - rust-phf_codegen-devel
         - rust-phf+default-devel
@@ -3733,14 +3691,10 @@ data:
         - rust-semver0.9+default-devel
         - rust-semver0.9-devel
         - rust-semver0.9+serde-devel
-        - rust-semver+default-devel
-        - rust-semver-devel
         - rust-semver-parser0.7+default-devel
         - rust-semver-parser0.7-devel
         - rust-semver-parser0.9+default-devel
         - rust-semver-parser0.9-devel
-        - rust-semver-parser+default-devel
-        - rust-semver-parser-devel
         - rust-serde_bytes+default-devel
         - rust-serde_bytes-devel
         - rust-serde_bytes+std-devel
@@ -3772,8 +3726,6 @@ data:
         - rust-sha2+default-devel
         - rust-sha2-devel
         - rust-sha2+std-devel
-        - rust-shlex+default-devel
-        - rust-shlex-devel
         - rust-signal-hook+default-devel
         - rust-signal-hook-devel
         - rust-signal-hook-registry+default-devel
@@ -3857,8 +3809,6 @@ data:
         - rust-termcolor-devel
         - rust-term+default-devel
         - rust-term-devel
-        - rust-termios+default-devel
-        - rust-termios-devel
         - rust-textwrap0.11+default-devel
         - rust-textwrap0.11-devel
         - rust-thiserror+default-devel
@@ -3873,8 +3823,6 @@ data:
         - rust-tiff-devel
         - rust-time0.1+default-devel
         - rust-time0.1-devel
-        - rust-timerfd+default-devel
-        - rust-timerfd-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
         - rust-tinyvec+alloc-devel
@@ -3993,9 +3941,6 @@ data:
         - rust-typenum-devel
         - rust-ucd-parse+default-devel
         - rust-ucd-parse-devel
-        - rust-ucd-trie+default-devel
-        - rust-ucd-trie-devel
-        - rust-ucd-trie+std-devel
         - rust-unicase+default-devel
         - rust-unicase-devel
         - rust-unicode-bidi+default-devel
@@ -4029,10 +3974,6 @@ data:
         - rust-utf-8-devel
         - rust-utf8-width+default-devel
         - rust-utf8-width-devel
-        - rust-uuid0.7+default-devel
-        - rust-uuid0.7-devel
-        - rust-uuid0.7+std-devel
-        - rust-uuid0.7+v4-devel
         - rust-uuid+default-devel
         - rust-uuid-devel
         - rust-uuid+serde-devel
@@ -4061,7 +4002,6 @@ data:
         - rust-weezl+default-devel
         - rust-weezl-devel
         - rust-weezl+std-devel
-        - rust-which-devel
         - rust-xml5ever+default-devel
         - rust-xml5ever-devel
         - rust-xml-rs+default-devel
@@ -4076,6 +4016,7 @@ data:
         - samba-winbind-clients
         - sane-backends-devel
         - sanlock-devel
+        - sanlock-lib
         - sassc
         - satyr-devel
         - sbc-devel
@@ -4320,7 +4261,6 @@ data:
             - libknet1-devel
             - libnice-gstreamer1
             - libnozzle1-devel
-            - libpmem-devel
             - libpurple
             - libqb-devel
             - libraw1394-devel
@@ -4458,7 +4398,6 @@ data:
             - libdv
             - libimobiledevice
             - libplist
-            - libpmem-devel
             - libusbmuxd
             - libXScrnSaver
             - libXvMC
