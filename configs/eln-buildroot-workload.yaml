@@ -2982,6 +2982,8 @@ data:
         - rust-cmake-devel
         - rust-color_quant+default-devel
         - rust-color_quant-devel
+        - rust-const_fn+default-devel
+        - rust-const_fn-devel
         - rust-const-random+default-devel
         - rust-const-random-devel
         - rust-const-random-macro+default-devel
@@ -3005,17 +3007,29 @@ data:
         - rust-criterion-plot-devel
         - rust-crossbeam-channel0.4+default-devel
         - rust-crossbeam-channel0.4-devel
+        - rust-crossbeam-channel+default-devel
+        - rust-crossbeam-channel-devel
+        - rust-crossbeam-channel+std-devel
         - rust-crossbeam-deque0.7+default-devel
         - rust-crossbeam-deque0.7-devel
+        - rust-crossbeam-deque+default-devel
+        - rust-crossbeam-deque-devel
+        - rust-crossbeam-deque+std-devel
         - rust-crossbeam-epoch0.8+default-devel
         - rust-crossbeam-epoch0.8-devel
         - rust-crossbeam-epoch0.8+std-devel
+        - rust-crossbeam-epoch+alloc-devel
+        - rust-crossbeam-epoch-devel
+        - rust-crossbeam-epoch+std-devel
         - rust-crossbeam-queue0.2+default-devel
         - rust-crossbeam-queue0.2-devel
         - rust-crossbeam-queue0.2+std-devel
         - rust-crossbeam-utils0.7+default-devel
         - rust-crossbeam-utils0.7-devel
         - rust-crossbeam-utils0.7+std-devel
+        - rust-crossbeam-utils+default-devel
+        - rust-crossbeam-utils-devel
+        - rust-crossbeam-utils+std-devel
         - rust-crypto-mac+default-devel
         - rust-crypto-mac+dev-devel
         - rust-crypto-mac-devel
@@ -3340,6 +3354,8 @@ data:
         - rust-memmap-devel
         - rust-memoffset0.5+default-devel
         - rust-memoffset0.5-devel
+        - rust-memoffset+default-devel
+        - rust-memoffset-devel
         - rust-mime+default-devel
         - rust-mime-devel
         - rust-mime_guess+default-devel
@@ -3546,8 +3562,8 @@ data:
         - rust-quickcheck-devel
         - rust-quickcheck+regex-devel
         - rust-quickcheck+use_logging-devel
-        - rust-quick-error+default-devel
-        - rust-quick-error-devel
+        - rust-quick-error1+default-devel
+        - rust-quick-error1-devel
         - rust-quote0.6-devel
         - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
