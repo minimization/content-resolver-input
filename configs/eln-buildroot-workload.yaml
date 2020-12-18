@@ -4272,6 +4272,7 @@ data:
             - efl-devel
             - farstream02
             - farstream02-devel
+            - firefox
             - flashrom
             - flashrom-devel
             - gnu-efi-compat
