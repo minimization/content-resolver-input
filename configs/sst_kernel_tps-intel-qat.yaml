@@ -9,28 +9,12 @@ data:
     x86_64:
     - qatlib
     - qatlib-devel
+    - qatengine
 
   labels:
   - eln
 
   package_placeholders:
-
-    qatengine:
-      description: This package is not in Fedora (yet), waiting for Intel devels at https://github.com/intel/QAT_Engine
-#     requires:
-#     - glibc
-#     buildrequires:
-#     - gcc
-#     - make
-#     - pkg-config
-#     - openssl
-#     - openssl-devel
-#     - qatlib
-#     - qatlib-devel
-      requires: []
-      buildrequires: []
-      limit_arches:
-      - x86_64
 
     attestation-hub:
       description: This package is not in Fedora (yet), see: https://bugzilla.redhat.com/show_bug.cgi?id=1771346
