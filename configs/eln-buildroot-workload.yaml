@@ -2279,7 +2279,6 @@ data:
         - potrace-devel
         - pps-tools-devel
         - procps-ng-devel
-        - proj-datumgrid
         - proj-devel
         - protobuf-c-compiler
         - protobuf-c-devel
