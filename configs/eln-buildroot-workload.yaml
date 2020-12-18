@@ -4272,7 +4272,6 @@ data:
             - efl-devel
             - farstream02
             - farstream02-devel
-            - firefox
             - flashrom
             - flashrom-devel
             - gnu-efi-compat
@@ -4427,7 +4426,6 @@ data:
             - tslib-devel
         s390x:
             - bluez-obexd
-            - clang-resource-filesystem
             - compiler-rt
             - efi-filesystem
             - gnome-bluetooth
