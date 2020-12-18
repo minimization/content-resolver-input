@@ -307,6 +307,7 @@ data:
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
         - gc-devel
+        - GConf2
         - GConf2-devel
         - gdal-devel
         - gdcm-applications
