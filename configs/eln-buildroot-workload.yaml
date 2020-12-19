@@ -899,7 +899,7 @@ data:
             - golang-github-grpc-ecosystem-prometheus-devel
             - golang-github-harrymichal-version-devel
             - golang-github-hashicorp-cleanhttp-devel
-            - golang-github-hashicorp-consul-devel
+            - golang-github-hashicorp-consul-api-devel
             - golang-github-hashicorp-errwrap-devel
             - golang-github-hashicorp-hcl-devel
             - golang-github-hashicorp-hclog-devel
@@ -5200,7 +5200,7 @@ data:
             - golang-github-grpc-ecosystem-prometheus-devel
             - golang-github-harrymichal-version-devel
             - golang-github-hashicorp-cleanhttp-devel
-            - golang-github-hashicorp-consul-devel
+            - golang-github-hashicorp-consul-api-devel
             - golang-github-hashicorp-errwrap-devel
             - golang-github-hashicorp-hcl-devel
             - golang-github-hashicorp-hclog-devel
@@ -9478,7 +9478,7 @@ data:
             - golang-github-grpc-ecosystem-prometheus-devel
             - golang-github-harrymichal-version-devel
             - golang-github-hashicorp-cleanhttp-devel
-            - golang-github-hashicorp-consul-devel
+            - golang-github-hashicorp-consul-api-devel
             - golang-github-hashicorp-errwrap-devel
             - golang-github-hashicorp-hcl-devel
             - golang-github-hashicorp-hclog-devel
