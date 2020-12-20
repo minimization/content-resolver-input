@@ -1011,6 +1011,7 @@ data:
         - golang-github-subosito-gotenv-devel
         - golang-github-tmc-grpc-websocket-proxy-devel
         - golang-github-tv42-httpunix-devel
+        - golang-github-ugorji-devel
         - golang-github-urfave-cli-2-devel
         - golang-github-urfave-cli-devel
         - golang-github-urfave-negroni-devel
