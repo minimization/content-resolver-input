@@ -975,6 +975,7 @@ data:
         - golang-github-prometheus-client-devel
         - golang-github-prometheus-client-model-devel
         - golang-github-prometheus-common-devel
+        - golang-github-prometheus-common-promlog-devel
         - golang-github-prometheus-procfs-devel
         - golang-github-protobuf-devel
         - golang-github-puerkitobio-goquery-devel
