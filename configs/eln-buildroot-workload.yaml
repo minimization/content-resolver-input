@@ -270,7 +270,9 @@ data:
         - file-devel
         - findbugs
         - findbugs-bcel
+        - firebird
         - firebird-devel
+        - firebird-utils
         - fish
         - flac-devel
         - flatpak-devel
@@ -1354,6 +1356,7 @@ data:
         - libev-devel
         - libexttextcat-devel
         - libfastjson-devel
+        - libfbclient2
         - libfbclient2-devel
         - libfdisk-devel
         - libfdt-devel
@@ -1387,6 +1390,7 @@ data:
         - libhandy1-devel
         - libhangul-devel
         - libhbaapi-devel
+        - libib-util
         - libIDL
         - libIDL-devel
         - libidn
@@ -1549,6 +1553,7 @@ data:
         - libtimezonemap-devel
         - libtomcrypt
         - libtomcrypt-devel
+        - libtommath
         - libtommath-devel
         - libudisks2-devel
         - libuninameslist
