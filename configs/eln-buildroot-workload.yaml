@@ -991,7 +991,6 @@ data:
         - golang-github-shopify-sarama-devel
         - golang-github-shurcool-githubv4-devel
         - golang-github-shurcool-graphql-devel
-        - golang-github-shurcool-sanitized-anchor-name-devel
         - golang-github-sirupsen-logrus-devel
         - golang-github-smartystreets-assertions-devel
         - golang-github-smartystreets-goconvey-devel
