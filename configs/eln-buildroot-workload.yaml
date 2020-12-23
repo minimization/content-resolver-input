@@ -2487,7 +2487,6 @@ data:
         - python3-pytest-expect
         - python3-pytest-flake8
         - python3-pytest-forked
-        - python3-pytest-helpers-namespace
         - python3-pytest-httpbin
         - python3-pytest-mock
         - python3-pytest-randomly
