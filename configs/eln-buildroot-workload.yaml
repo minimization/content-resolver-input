@@ -265,7 +265,6 @@ data:
         - fluidsynth-devel
         - fluidsynth-libs
         - fmt-devel
-        - fontawesome-fonts-web
         - fontforge
         - fontforge-devel
         - fontforge-doc
@@ -847,7 +846,6 @@ data:
         - golang-github-google-martian-devel
         - golang-github-google-pprof-devel
         - golang-github-google-querystring-devel
-        - golang-github-google-renameio-devel
         - golang-github-google-uuid-devel
         - golang-github-gorilla-mux-devel
         - golang-github-gorilla-securecookie-devel
@@ -1219,7 +1217,6 @@ data:
         - jsoup
         - jsr-305
         - js-uglify
-        - js-underscore
         - jtidy
         - Judy-devel
         - junit
@@ -2917,9 +2914,18 @@ data:
         - rust-chrono+oldtime-devel
         - rust-chrono+serde-devel
         - rust-chrono+std-devel
+        - rust-clap2+color-devel
+        - rust-clap2+default-devel
+        - rust-clap2-devel
+        - rust-clap2+suggestions-devel
+        - rust-clap+cargo-devel
         - rust-clap+color-devel
         - rust-clap+default-devel
+        - rust-clap_derive+default-devel
+        - rust-clap+derive-devel
+        - rust-clap_derive-devel
         - rust-clap-devel
+        - rust-clap+std-devel
         - rust-clap+suggestions-devel
         - rust-cmake+default-devel
         - rust-cmake-devel
@@ -3263,6 +3269,8 @@ data:
         - rust-libsystemd-devel
         - rust-linked-hash-map+default-devel
         - rust-linked-hash-map-devel
+        - rust-lipsum+default-devel
+        - rust-lipsum-devel
         - rust-lock_api+default-devel
         - rust-lock_api-devel
         - rust-log+default-devel
@@ -3413,6 +3421,9 @@ data:
         - rust-ordered-float+std-devel
         - rust-os_pipe+default-devel
         - rust-os_pipe-devel
+        - rust-os_str_bytes+default-devel
+        - rust-os_str_bytes-devel
+        - rust-os_str_bytes+raw-devel
         - rust-owned_ttf_parser+default-devel
         - rust-owned_ttf_parser-devel
         - rust-owned_ttf_parser+std-devel
@@ -3489,6 +3500,7 @@ data:
         - rust-proc-macro2+default-devel
         - rust-proc-macro2-devel
         - rust-proc-macro2+proc-macro-devel
+        - rust-proc-macro2+span-locations-devel
         - rust-proc-macro-error-attr+default-devel
         - rust-proc-macro-error-attr-devel
         - rust-proc-macro-error+default-devel
@@ -3533,7 +3545,9 @@ data:
         - rust-rand+alloc-devel
         - rust-rand_chacha0.1+default-devel
         - rust-rand_chacha0.1-devel
+        - rust-rand_chacha+default-devel
         - rust-rand_chacha-devel
+        - rust-rand_chacha+simd-devel
         - rust-rand_chacha+std-devel
         - rust-rand_core0.3-devel
         - rust-rand_core0.4+alloc-devel
@@ -3783,6 +3797,8 @@ data:
         - rust-testing_logger-devel
         - rust-textwrap0.11+default-devel
         - rust-textwrap0.11-devel
+        - rust-textwrap+default-devel
+        - rust-textwrap-devel
         - rust-thiserror+default-devel
         - rust-thiserror-devel
         - rust-thiserror-impl+default-devel
@@ -3928,8 +3944,6 @@ data:
         - rust-unicode-xid0.1-devel
         - rust-unicode-xid+default-devel
         - rust-unicode-xid-devel
-        - rust-unindent+default-devel
-        - rust-unindent-devel
         - rust-unix_socket+default-devel
         - rust-unix_socket-devel
         - rust-url1+default-devel
@@ -3964,6 +3978,8 @@ data:
         - rust-version_check-devel
         - rust-version-sync0.8+default-devel
         - rust-version-sync0.8-devel
+        - rust-version-sync+default-devel
+        - rust-version-sync-devel
         - rust-vmw_backdoor+default-devel
         - rust-vmw_backdoor-devel
         - rust-void+default-devel
@@ -4216,6 +4232,8 @@ data:
             - libftdi-devel
             - libhbaapi
             - libiec61883-devel
+            - libjaylink
+            - libjaylink-devel
             - libknet1-devel
             - libnozzle1-devel
             - libqb-devel
@@ -4283,6 +4301,8 @@ data:
             - libftdi-devel
             - libhbaapi
             - libiec61883-devel
+            - libjaylink
+            - libjaylink-devel
             - libraw1394-devel
             - libxml++
             - libxml++-devel
@@ -4354,6 +4374,8 @@ data:
             - libftdi-devel
             - libhbaapi
             - libiec61883-devel
+            - libjaylink
+            - libjaylink-devel
             - libraw1394-devel
             - libxml++
             - libxml++-devel
