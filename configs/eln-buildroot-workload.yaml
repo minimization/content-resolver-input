@@ -170,7 +170,7 @@ data:
         - compat-golang-github-coreos-etcd-devel
         - compat-golang-github-cpuguy83-md2man-2-devel
         - compat-golang-github-godbus-dbus-5-devel
-        - compat-golang-github-google-32-devel
+        - compat-golang-github-google-33-devel
         - compat-golang-github-google-martian-3-devel
         - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
@@ -3212,6 +3212,8 @@ data:
         - rust-image+webp-devel
         - rust-indexmap+default-devel
         - rust-indexmap-devel
+        - rust-indoc+default-devel
+        - rust-indoc-devel
         - rust-instant+default-devel
         - rust-instant-devel
         - rust-intervaltree+default-devel
@@ -3346,8 +3348,8 @@ data:
         - rust-new_debug_unreachable-devel
         - rust-nix0.17+default-devel
         - rust-nix0.17-devel
-        - rust-nix+default-devel
-        - rust-nix-devel
+        - rust-nix0.18+default-devel
+        - rust-nix0.18-devel
         - rust-nom+alloc-devel
         - rust-nom+default-devel
         - rust-nom-devel
@@ -3925,6 +3927,8 @@ data:
         - rust-unicode-xid0.1-devel
         - rust-unicode-xid+default-devel
         - rust-unicode-xid-devel
+        - rust-unindent+default-devel
+        - rust-unindent-devel
         - rust-unix_socket+default-devel
         - rust-unix_socket-devel
         - rust-url1+default-devel
