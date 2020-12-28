@@ -3378,6 +3378,8 @@ data:
         - rust-num-iter-devel
         - rust-num-iter+std-devel
         - rust-num-rational-devel
+        - rust-numtoa+default-devel
+        - rust-numtoa-devel
         - rust-num-traits0.1+default-devel
         - rust-num-traits0.1-devel
         - rust-num-traits+default-devel
@@ -3793,6 +3795,8 @@ data:
         - rust-termcolor-devel
         - rust-term+default-devel
         - rust-term-devel
+        - rust-termion+default-devel
+        - rust-termion-devel
         - rust-testing_logger+default-devel
         - rust-testing_logger-devel
         - rust-textwrap0.11+default-devel
