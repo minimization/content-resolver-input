@@ -4095,6 +4095,7 @@ data:
         - univocity-output-tester
         - univocity-parsers
         - upower-devel
+        - urw-base35-fonts-legacy
         - usbguard-devel
         - usbredir-devel
         - userspace-rcu-devel
