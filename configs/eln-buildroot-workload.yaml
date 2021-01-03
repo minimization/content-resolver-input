@@ -818,7 +818,6 @@ data:
         - golang-github-cpuguy83-md2man-devel
         - golang-github-creack-pty-devel
         - golang-github-datadog-devel
-        - golang-github-datadog-zstd-devel
         - golang-github-davecgh-spew-devel
         - golang-github-dgrijalva-jwt-devel
         - golang-github-docker-units-devel
@@ -898,7 +897,6 @@ data:
         - golang-github-kisielk-gotool-devel
         - golang-github-kit-devel
         - golang-github-klauspost-compress-devel
-        - golang-github-klauspost-cpuid-devel
         - golang-github-knetic-govaluate-devel
         - golang-github-kr-fs-devel
         - golang-github-kr-pretty-devel
