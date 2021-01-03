@@ -1733,8 +1733,7 @@ data:
         - maven-wagon-provider-api
         - mdds-devel
         - mecab-devel
-        - mercurial-lang
-        - mercurial-py3
+        - mercurial
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
