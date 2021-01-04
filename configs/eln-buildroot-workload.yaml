@@ -172,6 +172,7 @@ data:
         - compat-golang-github-godbus-dbus-5-devel
         - compat-golang-github-google-33-devel
         - compat-golang-github-google-martian-3-devel
+        - compat-golang-github-masterminds-semver-3-devel
         - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-golang-mvdan-xurls-2-devel
@@ -874,9 +875,11 @@ data:
         - golang-github-hashicorp-sockaddr-devel
         - golang-github-hashicorp-syslog-devel
         - golang-github-hashicorp-uuid-devel
+        - golang-github-huandu-xstrings-devel
         - golang-github-hudl-fargo-devel
         - golang-github-iancoleman-strcase-devel
         - golang-github-ianlancetaylor-demangle-devel
+        - golang-github-imdario-mergo-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
         - golang-github-jcmturner-aescts-devel
@@ -908,6 +911,9 @@ data:
         - golang-github-logfmt-devel
         - golang-github-lyft-protoc-gen-star-devel
         - golang-github-magiconair-properties-devel
+        - golang-github-masterminds-goutils-devel
+        - golang-github-masterminds-semver-devel
+        - golang-github-masterminds-sprig-devel
         - golang-github-mattn-colorable-devel
         - golang-github-mattn-isatty-devel
         - golang-github-mattn-runewidth-devel
@@ -915,8 +921,10 @@ data:
         - golang-github-miekg-dns-devel
         - golang-github-mitchellh-cli-devel
         - golang-github-mitchellh-colorstring-devel
+        - golang-github-mitchellh-copystructure-devel
         - golang-github-mitchellh-homedir-devel
         - golang-github-mitchellh-mapstructure-devel
+        - golang-github-mitchellh-reflectwalk-devel
         - golang-github-mitchellh-wordwrap-devel
         - golang-github-mock-devel
         - golang-github-modern-concurrent-devel
@@ -962,6 +970,7 @@ data:
         - golang-github-sergi-diff-devel
         - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
+        - golang-github-shopspring-decimal-devel
         - golang-github-shurcool-githubv4-devel
         - golang-github-shurcool-graphql-devel
         - golang-github-sirupsen-logrus-devel
@@ -3130,7 +3139,6 @@ data:
         - rust-getrandom0.1+std-devel
         - rust-getrandom+default-devel
         - rust-getrandom-devel
-        - rust-getrandom+std-devel
         - rust-gif0.10+default-devel
         - rust-gif0.10-devel
         - rust-gif0.10+raii_no_panic-devel
@@ -3527,29 +3535,29 @@ data:
         - rust-rand0.6+default-devel
         - rust-rand0.6-devel
         - rust-rand0.6+std-devel
-        - rust-rand+alloc-devel
+        - rust-rand0.7+alloc-devel
+        - rust-rand0.7+default-devel
+        - rust-rand0.7-devel
+        - rust-rand0.7+getrandom-devel
+        - rust-rand0.7+getrandom_package-devel
+        - rust-rand0.7+small_rng-devel
+        - rust-rand0.7+std-devel
         - rust-rand_chacha0.1+default-devel
         - rust-rand_chacha0.1-devel
-        - rust-rand_chacha-devel
-        - rust-rand_chacha+std-devel
+        - rust-rand_chacha0.2-devel
+        - rust-rand_chacha0.2+std-devel
         - rust-rand_core0.3-devel
         - rust-rand_core0.4+alloc-devel
         - rust-rand_core0.4+default-devel
         - rust-rand_core0.4-devel
         - rust-rand_core0.4+std-devel
-        - rust-rand_core+alloc-devel
-        - rust-rand_core+default-devel
-        - rust-rand_core-devel
-        - rust-rand_core+getrandom-devel
-        - rust-rand_core+std-devel
-        - rust-rand+default-devel
-        - rust-rand-devel
-        - rust-rand+getrandom-devel
-        - rust-rand+getrandom_package-devel
+        - rust-rand_core0.5+alloc-devel
+        - rust-rand_core0.5+default-devel
+        - rust-rand_core0.5-devel
+        - rust-rand_core0.5+getrandom-devel
+        - rust-rand_core0.5+std-devel
         - rust-rand_hc0.1+default-devel
         - rust-rand_hc0.1-devel
-        - rust-rand_hc+default-devel
-        - rust-rand_hc-devel
         - rust-rand_isaac0.1+default-devel
         - rust-rand_isaac0.1-devel
         - rust-rand_jitter0.1+default-devel
@@ -3566,10 +3574,8 @@ data:
         - rust-rand_os0.1-devel
         - rust-rand_pcg0.1+default-devel
         - rust-rand_pcg0.1-devel
-        - rust-rand_pcg+default-devel
-        - rust-rand_pcg-devel
-        - rust-rand+small_rng-devel
-        - rust-rand+std-devel
+        - rust-rand_pcg0.2+default-devel
+        - rust-rand_pcg0.2-devel
         - rust-rand_xorshift0.1+default-devel
         - rust-rand_xorshift0.1-devel
         - rust-rand_xorshift+default-devel
