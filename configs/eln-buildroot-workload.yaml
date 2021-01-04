@@ -3130,6 +3130,7 @@ data:
         - rust-getrandom0.1+std-devel
         - rust-getrandom+default-devel
         - rust-getrandom-devel
+        - rust-getrandom+std-devel
         - rust-gif0.10+default-devel
         - rust-gif0.10-devel
         - rust-gif0.10+raii_no_panic-devel
