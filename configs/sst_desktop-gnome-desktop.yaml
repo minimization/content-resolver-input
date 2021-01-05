@@ -20,6 +20,7 @@ data:
   - gnome-color-manager
   - gnome-common
   - gnome-devel-docs
+  - gnome-extensions-app
   - gnome-online-miners
   - gnome-remote-desktop
   - gnome-session
