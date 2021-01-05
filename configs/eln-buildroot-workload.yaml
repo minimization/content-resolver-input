@@ -247,6 +247,7 @@ data:
         - fftw
         - fftw-devel
         - fftw-libs
+        - fftw-libs-double
         - fftw-libs-long
         - fftw-libs-single
         - file-devel
@@ -1139,8 +1140,10 @@ data:
         - ilmbase-devel
         - ima-evm-utils-devel
         - ImageMagick
+        - ImageMagick-c++
         - ImageMagick-c++-devel
         - ImageMagick-devel
+        - ImageMagick-libs
         - ImageMagick-perl
         - imake
         - imaptest
@@ -1310,7 +1313,9 @@ data:
         - libdazzle-devel
         - libdbi
         - libdbi-devel
+        - libdbusmenu
         - libdbusmenu-devel
+        - libdbusmenu-gtk3
         - libdbusmenu-gtk3-devel
         - libdhash-devel
         - libdmx-devel
@@ -1397,6 +1402,7 @@ data:
         - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
+        - liblqr-1
         - liblqr-1-devel
         - liblrdf-devel
         - libmad-devel
@@ -1567,6 +1573,7 @@ data:
         - libwinpr-devel
         - libwmf
         - libwmf-devel
+        - libwmf-lite
         - libwpd-devel
         - libwpe-devel
         - libwpg-devel
