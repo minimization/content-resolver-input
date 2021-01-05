@@ -26,6 +26,7 @@ data:
   - scotch
   - scotch-doc
   - bc
+  - tracer
 
   labels:
   - eln
