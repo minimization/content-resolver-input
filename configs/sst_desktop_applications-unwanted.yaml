@@ -36,5 +36,7 @@ data:
   # As SPICE won't be part of RHEL 9, we will ship Boxes as a Flatpak based on RHEL 8 runtime
   # See https://bugzilla.redhat.com/show_bug.cgi?id=1900581
   - gnome-boxes
+  # Wasn't part of RHEL 8 and won't be part of RHEL 9
+  - ImageMagick
   labels:
   - eln
