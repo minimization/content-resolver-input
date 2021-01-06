@@ -1597,7 +1597,6 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
-        - libzapojit-devel
         - libzip-devel
         - libzmf-devel
         - lilypond
