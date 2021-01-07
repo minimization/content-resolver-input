@@ -47,7 +47,7 @@ data:
   - libcgroup
   - liberation-fonts
   - libev
-  - libguestfs
+#  - libguestfs   # asamalik: it's a placeholder in another workload
   - libiscsi
   - librabbitmq
   - libreswan
