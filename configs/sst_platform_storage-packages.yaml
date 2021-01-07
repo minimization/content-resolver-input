@@ -112,7 +112,6 @@ data:
     - libstoragemgmt-local-plugin
     - libstoragemgmt-megaraid-plugin
     - libstoragemgmt-nfs-plugin
-    - libstoragemgmt-nstor-plugin
     - libstoragemgmt-smis-plugin
     - libstoragemgmt-targetd-plugin
     - libstoragemgmt-udev
