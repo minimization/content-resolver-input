@@ -60,7 +60,6 @@ data:
   - opencryptoki-swtok
   - opencryptoki
   - opencryptoki-libs
-  - opencryptoki-tpmtok
   - openhpi-libs
   - openhpi
   - openhpi-devel
