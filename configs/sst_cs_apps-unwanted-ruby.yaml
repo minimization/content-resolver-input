@@ -5,9 +5,10 @@ data:
   description: Packages we do not want to ship for Ruby
   maintainer: sst_cs_apps
 
-  unwanted_packages:
+  unwanted_source_packages:
   - rubygem-bundler
-  - rubygem-bundler-doc
+
+  unwanted_packages:
   - rubygem-rspec-its
   - rubygem-rspec-its-doc
   - rubypick
