@@ -8,8 +8,24 @@ data:
   packages:
   - chkconfig
   - ntsysv
-  - xinetd
   - initscripts
 
   labels:
   - eln
+
+  package_placeholders:
+    xinetd:
+      srpm: xinetd
+      description: This package is only provided in RHEL
+      requires:
+        - libselinux
+        - libtirpc
+        - setup
+        - systemd
+      buildrequires:
+        - autoconf
+        - automake
+        - gcc
+        - libselinux-devel
+        - libtirpc-devel
+        - systemd
