@@ -1372,8 +1372,6 @@ data:
         - libgtop2-devel
         - libgudev-devel
         - libgusb-devel
-        - libgxim
-        - libgxim-devel
         - libgxps-devel
         - libhandy1-devel
         - libhangul-devel
