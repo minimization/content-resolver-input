@@ -103,6 +103,7 @@ data:
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
         - black
+        - blas
         - blas64_
         - blas-devel
         - blas-static
@@ -1256,6 +1257,7 @@ data:
         - kyua
         - ladspa-devel
         - lame-devel
+        - lapack
         - lapack64_
         - lapack-devel
         - lapack-static
@@ -2935,15 +2937,6 @@ data:
         - rust-clap2+default-devel
         - rust-clap2-devel
         - rust-clap2+suggestions-devel
-        - rust-clap+cargo-devel
-        - rust-clap+color-devel
-        - rust-clap+default-devel
-        - rust-clap_derive+default-devel
-        - rust-clap+derive-devel
-        - rust-clap_derive-devel
-        - rust-clap-devel
-        - rust-clap+std-devel
-        - rust-clap+suggestions-devel
         - rust-cmake+default-devel
         - rust-cmake-devel
         - rust-colored1+default-devel
@@ -3005,8 +2998,8 @@ data:
         - rust-csv-core-devel
         - rust-csv+default-devel
         - rust-csv-devel
-        - rust-dbus+default-devel
-        - rust-dbus-devel
+        - rust-dbus0.8+default-devel
+        - rust-dbus0.8-devel
         - rust-deflate+default-devel
         - rust-deflate-devel
         - rust-derive_more+add_assign-devel
@@ -3466,9 +3459,6 @@ data:
         - rust-ordered-float+std-devel
         - rust-os_pipe+default-devel
         - rust-os_pipe-devel
-        - rust-os_str_bytes+default-devel
-        - rust-os_str_bytes-devel
-        - rust-os_str_bytes+raw-devel
         - rust-owned_ttf_parser+default-devel
         - rust-owned_ttf_parser-devel
         - rust-owned_ttf_parser+std-devel
@@ -3853,8 +3843,6 @@ data:
         - rust-testing_logger-devel
         - rust-textwrap0.11+default-devel
         - rust-textwrap0.11-devel
-        - rust-textwrap0.12+default-devel
-        - rust-textwrap0.12-devel
         - rust-thiserror+default-devel
         - rust-thiserror-devel
         - rust-thiserror-impl+default-devel
