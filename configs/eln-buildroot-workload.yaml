@@ -2761,6 +2761,7 @@ data:
         - rubygem-websocket-extensions
         - rubygem-xpath
         - rubygem-zeitwerk
+        - rubypick
         - rust-ab_glyph_rasterizer+default-devel
         - rust-ab_glyph_rasterizer-devel
         - rust-ab_glyph_rasterizer+std-devel
