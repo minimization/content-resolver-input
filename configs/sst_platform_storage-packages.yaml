@@ -136,10 +136,13 @@ data:
   placeholder_packages:
     kmod-kvdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
     pmreorder:
       description: This package is only available in RHEL.
+      srpm: pmreorder
     vdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
 
   arch_packages:
     ppc64le:
