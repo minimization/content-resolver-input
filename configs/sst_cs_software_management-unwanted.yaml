@@ -12,12 +12,6 @@ data:
   # drop drpm support from RHEL 9
   - drpm-devel
 
-  # replace with a subscription-manager plugin
-  - librhsm
-
-  # replace with a subscription-manager plugin
-  - librhsm-devel
-
   # we don't want to support LUA interpreter
   - lua
 
