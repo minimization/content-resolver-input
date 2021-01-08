@@ -871,8 +871,6 @@ data:
         - golang-github-google-querystring-devel
         - golang-github-google-uuid-devel
         - golang-github-gorilla-mux-devel
-        - golang-github-gorilla-securecookie-devel
-        - golang-github-gorilla-sessions-devel
         - golang-github-gorilla-websocket-devel
         - golang-github-graph-gophers-graphql-devel
         - golang-github-groupcache-devel
@@ -905,12 +903,7 @@ data:
         - golang-github-imdario-mergo-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
-        - golang-github-jcmturner-aescts-devel
-        - golang-github-jcmturner-dnsutils-devel
         - golang-github-jcmturner-gofork-devel
-        - golang-github-jcmturner-goidentity-devel
-        - golang-github-jcmturner-gokrb5-devel
-        - golang-github-jcmturner-rpc-devel
         - golang-github-jessevdk-flags-devel
         - golang-github-jmespath-devel
         - golang-github-jonboulle-clockwork-devel
@@ -928,7 +921,6 @@ data:
         - golang-github-kr-pretty-devel
         - golang-github-kr-pty-devel
         - golang-github-kr-text-devel
-        - golang-github-lib-pq-devel
         - golang-github-lightstep-tracer-common-devel
         - golang-github-lightstep-tracer-devel
         - golang-github-logfmt-devel
@@ -1028,7 +1020,6 @@ data:
         - golang-github-xdg-stringprep-devel
         - golang-github-xiang90-probing-devel
         - golang-github-xlzd-gotp-devel
-        - golang-github-xo-dburl-devel
         - golang-github-yuin-goldmark-devel
         - golang-google-api-devel
         - golang-google-appengine-devel
