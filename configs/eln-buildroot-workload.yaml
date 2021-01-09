@@ -2725,6 +2725,7 @@ data:
         - rubygem-redis
         - rubygem-regexp_parser
         - rubygem-regexp_property_values
+        - rubygem-rexml
         - rubygem-ronn-ng
         - rubygem-rouge
         - rubygem-rr
