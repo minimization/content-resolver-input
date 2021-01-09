@@ -103,7 +103,6 @@ data:
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
         - black
-        - blas
         - blas64_
         - blas-devel
         - blas-static
@@ -1248,7 +1247,6 @@ data:
         - kyua
         - ladspa-devel
         - lame-devel
-        - lapack
         - lapack64_
         - lapack-devel
         - lapack-static
@@ -2636,6 +2634,7 @@ data:
         - rubygem-asciidoctor
         - rubygem-bacon
         - rubygem-bcrypt
+        - rubygem-bigdecimal
         - rubygem-bootsnap
         - rubygem-builder
         - rubygem-bundler
@@ -2708,6 +2707,7 @@ data:
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
+        - rubygem-pg
         - rubygem-power_assert
         - rubygem-pry
         - rubygem-public_suffix
