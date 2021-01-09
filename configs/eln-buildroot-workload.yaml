@@ -2734,7 +2734,6 @@ data:
         - rubygem-ruby-progressbar
         - rubygem-ruby-vips
         - rubygem-rubyzip
-        - rubygem-safe_yaml
         - rubygem-sass
         - rubygem-sassc
         - rubygems-devel
@@ -2758,6 +2757,7 @@ data:
         - rubygem-tzinfo
         - rubygem-uglifier
         - rubygem-webmock
+        - rubygem-webrick
         - rubygem-websocket-driver
         - rubygem-websocket-extensions
         - rubygem-xpath
