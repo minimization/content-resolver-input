@@ -2263,6 +2263,7 @@ data:
         - python3-aiohttp-cors
         - python3-anytree
         - python3-apipkg
+        - python3-appdirs
         - python3-asgiref
         - python3-astroid
         - python3-Automat
@@ -2278,8 +2279,6 @@ data:
         - python3-brotli
         - python3-bson
         - python3-cairo-devel
-        - python3-cheroot
-        - python3-cherrypy
         - python3-click-man
         - python3-cliff
         - python3-cmd2
@@ -2299,6 +2298,7 @@ data:
         - python3-ddt
         - python3-debug
         - python3-dill
+        - python3-distlib
         - python3-django
         - python3-docopt
         - python3-docs
@@ -2311,6 +2311,7 @@ data:
         - python3-faker
         - python3-fastjsonschema
         - python3-fields
+        - python3-filelock
         - python3-fixtures
         - python3-flake8
         - python3-flaky
@@ -2331,6 +2332,7 @@ data:
         - python3-h11
         - python3-hacking
         - python3-hamcrest
+        - python3-html5lib
         - python3-httpbin
         - python3-httpcore
         - python3-httpretty
@@ -2347,16 +2349,13 @@ data:
         - python3-ipython-sphinx
         - python3-isort
         - python3-itsdangerous
-        - python3-jaraco
-        - python3-jaraco-classes
-        - python3-jaraco-functools
-        - python3-jaraco-packaging
         - python3-jedi
         - python3-jupyter-client
         - python3-jupyter-core
         - python3-kerberos
         - python3-kiwisolver
         - python3-koji
+        - python3-lark-parser
         - python3-lazy-object-proxy
         - python3-ldap3
         - python3-ldb-devel
@@ -2401,12 +2400,10 @@ data:
         - python3-paste
         - python3-paste-deploy
         - python3-pathspec
-        - python3-pep517
         - python3-pickleshare
         - python3-pikepdf
         - python3-plaster
         - python3-plaster-pastedeploy
-        - python3-portend
         - python3-pretend
         - python3-process-tests
         - python3-prometheus_client
@@ -2438,7 +2435,6 @@ data:
         - python3-pytest-rerunfailures
         - python3-pytest-runner
         - python3-pytest-timeout
-        - python3-pytest-trio
         - python3-pytest-venv
         - python3-pytest-xdist
         - python3-pyxattr
@@ -2452,6 +2448,7 @@ data:
         - python3-regex
         - python3-requests-kerberos
         - python3-requests-mock
+        - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
         - python3-retrying
@@ -2460,7 +2457,6 @@ data:
         - python3-rjsmin
         - python3-rpm-generators
         - python3-rpm-macros
-        - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
@@ -2503,7 +2499,6 @@ data:
         - python3-tables
         - python3-talloc-devel
         - python3-tempita
-        - python3-tempora
         - python3-test
         - python3-testpath
         - python3-testrepository
@@ -2522,10 +2517,12 @@ data:
         - python3-typed_ast
         - python3-u-msgpack-python
         - python3-venusian
+        - python3-virtualenv
         - python3-voluptuous
         - python3-vtk
         - python3-vtk-qt
         - python3-waitress
+        - python3-webencodings
         - python3-webob
         - python3-webtest
         - python3-werkzeug
@@ -2534,7 +2531,6 @@ data:
         - python3-wx-siplib
         - python3-xmlschema
         - python3-xmp-toolkit
-        - python3-zc-lockfile
         - python3-zmq
         - python3-zmq-tests
         - python3-zope-component
@@ -2548,6 +2544,7 @@ data:
         - python-rpm-macros
         - python-sphinx-doc
         - python-typeshed
+        - python-wheel-wheel
         - qhull-devel
         - qpdf
         - qpdf-devel
@@ -4370,6 +4367,7 @@ data:
             - python3-javapackages
             - python3-keystoneauth1
             - python3-libftdi
+            - python3-msgpack
             - python3-oslo-i18n
             - python3-oslo-serialization
             - python3-oslo-utils
