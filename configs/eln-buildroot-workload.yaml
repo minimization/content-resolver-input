@@ -3235,11 +3235,11 @@ data:
         - rust-itertools0.8+default-devel
         - rust-itertools0.8-devel
         - rust-itertools0.8+use_std-devel
-        - rust-itertools+default-devel
-        - rust-itertools-devel
+        - rust-itertools0.9+default-devel
+        - rust-itertools0.9-devel
+        - rust-itertools0.9+use_std-devel
         - rust-itertools-num+default-devel
         - rust-itertools-num-devel
-        - rust-itertools+use_std-devel
         - rust-itoa+default-devel
         - rust-itoa-devel
         - rust-itoa+std-devel
@@ -3461,9 +3461,6 @@ data:
         - rust-percent-encoding1-devel
         - rust-percent-encoding+default-devel
         - rust-percent-encoding-devel
-        - rust-permutohedron+default-devel
-        - rust-permutohedron-devel
-        - rust-permutohedron+std-devel
         - rust-pest+default-devel
         - rust-pest-devel
         - rust-pest_generator+default-devel
