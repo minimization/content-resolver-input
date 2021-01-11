@@ -21,9 +21,6 @@ data:
   # don't ship static libs
   - popt-static
 
-  # replaced with python3-libdnf
-  - python3-hawkey
-
   # SysV init related, no longer needed because we have systemd
   - rpm-plugin-prioreset
 
