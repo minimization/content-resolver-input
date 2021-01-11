@@ -3024,6 +3024,8 @@ data:
         - rust-dissimilar-devel
         - rust-doc-comment+default-devel
         - rust-doc-comment-devel
+        - rust-docmatic+default-devel
+        - rust-docmatic-devel
         - rust-dtoa+default-devel
         - rust-dtoa-devel
         - rust-either+default-devel
@@ -3708,7 +3710,6 @@ data:
         - rust-serde_json+default-devel
         - rust-serde_json-devel
         - rust-serde_json+std-devel
-        - rust-serde+serde_derive-devel
         - rust-serde+std-devel
         - rust-serde_test+default-devel
         - rust-serde_test-devel
@@ -3733,6 +3734,8 @@ data:
         - rust-signal-hook-devel
         - rust-signal-hook-registry+default-devel
         - rust-signal-hook-registry-devel
+        - rust-simple_logger+default-devel
+        - rust-simple_logger-devel
         - rust-siphasher+default-devel
         - rust-siphasher-devel
         - rust-siphasher+std-devel
@@ -4023,6 +4026,7 @@ data:
         - rust-weezl+default-devel
         - rust-weezl-devel
         - rust-weezl+std-devel
+        - rust-which+default-devel
         - rust-which-devel
         - rust-xml5ever+default-devel
         - rust-xml5ever-devel
