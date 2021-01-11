@@ -2010,6 +2010,7 @@ data:
         - perl-File-Type
         - perl-Font-AFM
         - perl-Font-TTF
+        - perl-GD
         - perl-Getopt-ArgvFile
         - perl-Glib
         - perl-Graphics-TIFF
