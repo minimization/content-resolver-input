@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for Perl
   description: Packages we do not want to ship for Perl
-  maintainer: sst_cs_stacks
+  maintainer: sst_cs_apps
 
   unwanted_packages:
   - cvs
