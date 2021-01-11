@@ -6,7 +6,6 @@ data:
   maintainer: sst_cs_apps
 
   unwanted_packages:
-  - libuv
   - js-uglify
   - web-assets-devel
 
