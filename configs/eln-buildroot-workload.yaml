@@ -1771,7 +1771,6 @@ data:
         - mobile-broadband-provider-info-devel
         - mockito
         - modello
-        - mod_perl
         - mojo-executor
         - mojo-executor-maven-plugin
         - mojo-parent
@@ -2030,7 +2029,6 @@ data:
         - perl-libxml-perl
         - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
-        - perl-Linux-Pid
         - perl-List-Pairwise
         - perl-Locale-Codes
         - perl-Locale-gettext
