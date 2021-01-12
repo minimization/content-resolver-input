@@ -21,6 +21,7 @@ data:
   - httpd-manual
   - mod_http2
   - mod_md
+  - mod_lua
   - mod_fcgid
   - mod_security
   - mlogc
