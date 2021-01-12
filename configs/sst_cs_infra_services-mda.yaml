@@ -9,6 +9,7 @@ data:
   - cyrus-imapd
   - cyrus-imapd-utils
   - cyrus-imapd-vzic
+  - xapian-core
   - procmail
 
   labels:
