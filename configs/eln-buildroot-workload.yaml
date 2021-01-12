@@ -3139,6 +3139,7 @@ data:
         - rust-getrandom0.1+std-devel
         - rust-getrandom+default-devel
         - rust-getrandom-devel
+        - rust-getrandom+std-devel
         - rust-gif0.10+default-devel
         - rust-gif0.10-devel
         - rust-gif0.10+raii_no_panic-devel
@@ -3565,10 +3566,13 @@ data:
         - rust-rand0.7+getrandom_package-devel
         - rust-rand0.7+small_rng-devel
         - rust-rand0.7+std-devel
+        - rust-rand+alloc-devel
         - rust-rand_chacha0.1+default-devel
         - rust-rand_chacha0.1-devel
         - rust-rand_chacha0.2-devel
         - rust-rand_chacha0.2+std-devel
+        - rust-rand_chacha-devel
+        - rust-rand_chacha+std-devel
         - rust-rand_core0.3-devel
         - rust-rand_core0.4+alloc-devel
         - rust-rand_core0.4+default-devel
@@ -3579,8 +3583,18 @@ data:
         - rust-rand_core0.5-devel
         - rust-rand_core0.5+getrandom-devel
         - rust-rand_core0.5+std-devel
+        - rust-rand_core+alloc-devel
+        - rust-rand_core+default-devel
+        - rust-rand_core-devel
+        - rust-rand_core+getrandom-devel
+        - rust-rand_core+std-devel
+        - rust-rand+default-devel
+        - rust-rand-devel
+        - rust-rand+getrandom-devel
         - rust-rand_hc0.1+default-devel
         - rust-rand_hc0.1-devel
+        - rust-rand_hc+default-devel
+        - rust-rand_hc-devel
         - rust-rand_isaac0.1+default-devel
         - rust-rand_isaac0.1-devel
         - rust-rand_jitter0.1+default-devel
@@ -3599,6 +3613,10 @@ data:
         - rust-rand_pcg0.1-devel
         - rust-rand_pcg0.2+default-devel
         - rust-rand_pcg0.2-devel
+        - rust-rand_pcg+default-devel
+        - rust-rand_pcg-devel
+        - rust-rand+std-devel
+        - rust-rand+std_rng-devel
         - rust-rand_xorshift0.1+default-devel
         - rust-rand_xorshift0.1-devel
         - rust-rand_xorshift+default-devel
