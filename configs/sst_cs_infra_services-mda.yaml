@@ -9,6 +9,7 @@ data:
   - cyrus-imapd
   - cyrus-timezones
   - procmail
+  - xapian-core
 
   labels:
   - eln
