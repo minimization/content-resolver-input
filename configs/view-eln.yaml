@@ -10,15 +10,6 @@ data:
   repository: repository-fedora-eln
   
 
-  ###  Unwanted packages in ELN  ###
-  #
-  # This file lists CONFIRMED unwanted packages in ELN.
-  # 
-  # To propose a new unwanted package, use the "exclusion.yml" config from: https://github.com/minimization/content-resolver/blob/master/config_specs/exclusion.yaml
-  
-  # Packages to be flagged as unwanted
-  unwanted_packages:
-
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:
   #  x86_64:
