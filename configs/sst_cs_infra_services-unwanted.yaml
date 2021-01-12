@@ -35,8 +35,6 @@ data:
   # gutenprint
   - gutenprint-extras
   - gutenprint-plugin
-  # hostname
-  - hostname
   # hplip
   - hplip-gui
   # ldns

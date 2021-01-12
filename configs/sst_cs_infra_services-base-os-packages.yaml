@@ -16,6 +16,7 @@ data:
   - ncurses-base
   - ncurses-term
   - setup
+  - hostname
 
   arch_packages:
     x86_64:
