@@ -16,7 +16,7 @@ data:
   - mod_proxy_html
   - mod_ldap
   - mod_session
-  - mod_wsgi
+  - python3-mod_wsgi
   - httpd-devel
   - httpd-manual
   - mod_http2
