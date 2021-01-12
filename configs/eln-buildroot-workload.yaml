@@ -1449,7 +1449,6 @@ data:
         - libnfs-devel
         - libnftnl-devel
         - libnghttp2-devel
-        - libnice-devel
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
@@ -2225,7 +2224,6 @@ data:
         - po4a
         - polkit-devel
         - polkit-docs
-        - polkit-gnome
         - poppler-cpp-devel
         - poppler-data-devel
         - poppler-devel
@@ -2512,7 +2510,6 @@ data:
         - python3-text-unidecode
         - python3-thrift
         - python3-tidy
-        - python3-tox
         - python3-tox-current-env
         - python3-tqdm
         - python3-traitlets
@@ -4141,6 +4138,7 @@ data:
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
+        - tox
         - trace-cmd-devel
         - tracker3-devel
         - tracker-devel
