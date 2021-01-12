@@ -115,16 +115,5 @@ data:
     ppc64le:
     - dpdk
 
-  package_placeholders:
-    libcroco:
-      srpm: libcroco
-      description: CSS2 parsing and manipulation library for GNOME
-      requires:
-      - libxml2
-      - glib2
-      buildrequires:
-      - libxml2-devel
-      - glib2-devel
-
   labels:
   - eln
