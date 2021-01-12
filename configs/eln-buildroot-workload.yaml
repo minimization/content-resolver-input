@@ -43,6 +43,7 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - appstream
+        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - argparse-manpage
@@ -136,7 +137,6 @@ data:
         - c-ares-devel
         - cbi-plugins
         - cdparanoia-devel
-        - ceres-solver
         - ceres-solver-devel
         - cfitsio-devel
         - cglib
@@ -327,8 +327,6 @@ data:
         - gettext-common-devel
         - gettext-devel
         - gfbgraph-devel
-        - gflags
-        - gflags-devel
         - ghc
         - ghc-aeson
         - ghc-aeson-devel
@@ -777,7 +775,6 @@ data:
         - glibmm24-devel
         - gl-manpages
         - glm-devel
-        - glog
         - glog-devel
         - glpk-devel
         - glslang-devel
@@ -1088,7 +1085,6 @@ data:
         - gsl-devel
         - gsm-devel
         - gsound-devel
-        - gssdp-devel
         - gssntlmssp-devel
         - gstreamer1-devel
         - gstreamer1-plugins-bad-free-devel
@@ -1111,14 +1107,11 @@ data:
         - guile-devel
         - gumbo-parser
         - gumbo-parser-devel
-        - gupnp-devel
-        - gupnp-igd-devel
         - gvnc-devel
         - hamcrest
         - hamcrest2
         - hardlink
         - hawtjni
-        - hawtjni-runtime
         - hdf5-devel
         - hdf5-mpich
         - hdf5-mpich-devel
@@ -1137,6 +1130,7 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
+        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1181,8 +1175,6 @@ data:
         - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
-        - jansi1
-        - jansi-native
         - javacc
         - javacc-maven-plugin
         - java_cup
@@ -1225,7 +1217,6 @@ data:
         - jFormatString
         - jgit
         - jitterentropy-devel
-        - jline2
         - jmock
         - jmock-imposters
         - jmock-junit4
@@ -1244,7 +1235,6 @@ data:
         - js-uglify
         - jtidy
         - Judy-devel
-        - juniversalchardet
         - jython
         - kde-filesystem
         - kf5-rpm-macros
@@ -2466,6 +2456,7 @@ data:
         - python3-scons
         - python3-selenium
         - python3-service-identity
+        - python3-setproctitle
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
         - python3-simplejson
@@ -4198,7 +4189,6 @@ data:
         - wxGTK3-i18n
         - wxGTK3-media
         - wxGTK3-webview
-        - xapian-core
         - xapian-core-devel
         - xbean
         - xcb-proto
@@ -4231,6 +4221,7 @@ data:
         - xmms-libs
         - xmvn-connector-ivy
         - xmvn-parent-pom
+        - xonsh
         - xorg-x11-apps
         - xorg-x11-drv-wacom-devel
         - xorg-x11-server-devel
