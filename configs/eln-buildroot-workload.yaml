@@ -1181,6 +1181,7 @@ data:
         - jakarta-xml-rpc
         - jakarta-xml-ws
         - janino
+        - jansi1
         - jansi-native
         - javacc
         - javacc-maven-plugin
@@ -1224,6 +1225,7 @@ data:
         - jFormatString
         - jgit
         - jitterentropy-devel
+        - jline2
         - jmock
         - jmock-imposters
         - jmock-junit4
@@ -1242,6 +1244,7 @@ data:
         - js-uglify
         - jtidy
         - Judy-devel
+        - juniversalchardet
         - jython
         - kde-filesystem
         - kf5-rpm-macros
@@ -3869,52 +3872,52 @@ data:
         - rust-tokio0.1+timer-devel
         - rust-tokio0.1+udp-devel
         - rust-tokio0.1+uds-devel
-        - rust-tokio+blocking-devel
+        - rust-tokio0.2+blocking-devel
+        - rust-tokio0.2+default-devel
+        - rust-tokio0.2-devel
+        - rust-tokio0.2+io-driver-devel
+        - rust-tokio0.2+io-std-devel
+        - rust-tokio0.2+io-util-devel
+        - rust-tokio0.2+macros-devel
+        - rust-tokio0.2+rt-core-devel
+        - rust-tokio0.2+rt-threaded-devel
+        - rust-tokio0.2+rt-util-devel
+        - rust-tokio0.2+signal-devel
+        - rust-tokio0.2+stream-devel
+        - rust-tokio0.2+sync-devel
+        - rust-tokio0.2+tcp-devel
+        - rust-tokio0.2+time-devel
+        - rust-tokio0.2+udp-devel
+        - rust-tokio0.2+uds-devel
         - rust-tokio-codec+default-devel
         - rust-tokio-codec-devel
         - rust-tokio-current-thread+default-devel
         - rust-tokio-current-thread-devel
-        - rust-tokio+default-devel
-        - rust-tokio-devel
         - rust-tokio-executor+default-devel
         - rust-tokio-executor-devel
         - rust-tokio-fs+default-devel
         - rust-tokio-fs-devel
         - rust-tokio-io+default-devel
         - rust-tokio-io-devel
-        - rust-tokio+io-driver-devel
-        - rust-tokio+io-std-devel
-        - rust-tokio+io-util-devel
-        - rust-tokio-macros+default-devel
-        - rust-tokio+macros-devel
-        - rust-tokio-macros-devel
+        - rust-tokio-macros0.2+default-devel
+        - rust-tokio-macros0.2-devel
         - rust-tokio-mock-task+default-devel
         - rust-tokio-mock-task-devel
         - rust-tokio-reactor+default-devel
         - rust-tokio-reactor-devel
-        - rust-tokio+rt-core-devel
-        - rust-tokio+rt-threaded-devel
-        - rust-tokio+rt-util-devel
-        - rust-tokio+signal-devel
-        - rust-tokio+stream-devel
         - rust-tokio-sync+default-devel
-        - rust-tokio+sync-devel
         - rust-tokio-sync-devel
         - rust-tokio-tcp+default-devel
-        - rust-tokio+tcp-devel
         - rust-tokio-tcp-devel
         - rust-tokio-threadpool+default-devel
         - rust-tokio-threadpool-devel
-        - rust-tokio+time-devel
         - rust-tokio-timer+default-devel
         - rust-tokio-timer-devel
         - rust-tokio-tls+default-devel
         - rust-tokio-tls-devel
         - rust-tokio-udp+default-devel
-        - rust-tokio+udp-devel
         - rust-tokio-udp-devel
         - rust-tokio-uds+default-devel
-        - rust-tokio+uds-devel
         - rust-tokio-uds-devel
         - rust-tokio-util0.2+codec-devel
         - rust-tokio-util0.2-devel
