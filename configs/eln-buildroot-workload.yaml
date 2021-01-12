@@ -185,6 +185,7 @@ data:
         - compat-golang-github-cespare-xxhash-2-devel
         - compat-golang-github-chzyer-logex-devel
         - compat-golang-github-chzyer-readline-devel
+        - compat-golang-github-codahale-hdrhistogram-devel
         - compat-golang-github-coreos-etcd-devel
         - compat-golang-github-cpuguy83-md2man-2-devel
         - compat-golang-github-godbus-dbus-5-devel
@@ -833,7 +834,6 @@ data:
         - golang-github-circonus-labs-gometrics-devel
         - golang-github-clbanning-x2j-devel
         - golang-github-cncf-udpa-devel
-        - golang-github-codahale-hdrhistogram-devel
         - golang-github-coreos-pkg-capnslog-devel
         - golang-github-coreos-semver-devel
         - golang-github-coreos-systemd-devel
@@ -895,6 +895,7 @@ data:
         - golang-github-hashicorp-sockaddr-devel
         - golang-github-hashicorp-syslog-devel
         - golang-github-hashicorp-uuid-devel
+        - golang-github-hdrhistogram-devel
         - golang-github-huandu-xstrings-devel
         - golang-github-hudl-fargo-devel
         - golang-github-iancoleman-strcase-devel
