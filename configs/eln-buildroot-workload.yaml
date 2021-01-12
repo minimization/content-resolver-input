@@ -4316,7 +4316,6 @@ data:
             - libjaylink
             - libjaylink-devel
             - libknet1-devel
-            - libldac
             - libldac-devel
             - libnozzle1-devel
             - libpmem-devel
@@ -4363,7 +4362,6 @@ data:
             - objectweb-asm
             - owasp-java-encoder
             - pacemaker-libs-devel
-            - pipewire-pulseaudio
             - plexus-archiver
             - plexus-build-api
             - plexus-compiler
@@ -4474,7 +4472,6 @@ data:
             - libiec61883-devel
             - libjaylink
             - libjaylink-devel
-            - libldac
             - libldac-devel
             - libraw1394-devel
             - libxml++
@@ -4511,7 +4508,6 @@ data:
             - mingw-filesystem-base
             - objectweb-asm
             - owasp-java-encoder
-            - pipewire-pulseaudio
             - plexus-archiver
             - plexus-build-api
             - plexus-compiler
@@ -4682,7 +4678,6 @@ data:
             - libiec61883-devel
             - libjaylink
             - libjaylink-devel
-            - libldac
             - libldac-devel
             - libraw1394-devel
             - libxml++
@@ -4692,7 +4687,6 @@ data:
             - openni-devel
             - openni-primesense
             - perl-Crypt-PasswdMD5
-            - pipewire-pulseaudio
             - python3-libftdi
             - rlottie
             - rlottie-devel
