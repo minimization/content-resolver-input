@@ -98,6 +98,8 @@ data:
   - xsane-gimp
   # subversion
   - subversion-kde
+  # exim
+  - exim
 
   labels:
   - eln
