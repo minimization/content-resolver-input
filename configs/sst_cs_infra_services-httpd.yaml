@@ -5,9 +5,6 @@ data:
   description: CS Infrastructure Services - Apache HTTP Server
   maintainer: sst_cs_infra_services
 
-  modules_enable:
-  - httpd:2.4
-
   packages:
   - httpd
   - httpd-tools
