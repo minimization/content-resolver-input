@@ -12,9 +12,6 @@ data:
   # drop drpm support from RHEL 9
   - drpm-devel
 
-  # we don't want to support LUA interpreter
-  - lua
-
   # don't ship static libs
   - lua-static
 
