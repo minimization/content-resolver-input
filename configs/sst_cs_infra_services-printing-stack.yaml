@@ -30,9 +30,6 @@ data:
   - pnm2ppa
   # fonts
   - urw-base35-fonts
-  # resolving .local addresses
-  - nss-mdns
-
 
   labels:
   - eln
