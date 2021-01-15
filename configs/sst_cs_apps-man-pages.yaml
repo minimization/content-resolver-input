@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Man pages
+  description: Manual pages documenting the Linux kernel and C library interfaces
+  maintainer: sst_cs_apps
+
+  packages:
+  - man-pages
+
+  labels:
+  - eln
