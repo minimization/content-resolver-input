@@ -16,9 +16,6 @@ data:
   - spice-gtk3-devel
   - spice-gtk3-vala
   - spice-protocol
-  - usbredir
-  - usbredir-devel
-  - usbredir-server
   - libcacard
   - libcacard-devel
   - spice-html5
