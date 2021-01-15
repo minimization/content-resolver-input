@@ -124,6 +124,9 @@ data:
     - setserial
     ppc64le:
     - setserial
+    - opal-prd
+    - opal-utils
+    - opal-firmware
 
   package_placeholders:
     rhel-system-roles-sap:
