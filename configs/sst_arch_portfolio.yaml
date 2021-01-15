@@ -30,6 +30,7 @@ data:
     - s390utils-base
     - s390utils-cmsfs-fuse
     - s390utils-cpacfstatsd
+    - s390utils-core
     - s390utils-cpuplugd
     - s390utils-devel
     - s390utils-hmcdrvfs
