@@ -1312,8 +1312,6 @@ data:
         - libdbi-devel
         - libdhash-devel
         - libdmx-devel
-        - libdnet
-        - libdnet-devel
         - libdrm-devel
         - libdv-devel
         - libdvdnav-devel
@@ -1524,6 +1522,8 @@ data:
         - libtomcrypt-devel
         - libtommath
         - libtommath-devel
+        - libtpms
+        - libtpms-devel
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
@@ -3522,6 +3522,8 @@ data:
         - rust-pure-rust-locales-devel
         - rust-quickcheck+default-devel
         - rust-quickcheck-devel
+        - rust-quickcheck_macros+default-devel
+        - rust-quickcheck_macros-devel
         - rust-quickcheck+regex-devel
         - rust-quickcheck+use_logging-devel
         - rust-quick-error1+default-devel
@@ -4095,6 +4097,9 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
+        - swtpm
+        - swtpm-libs
+        - swtpm-tools
         - syslinux-perl
         - sysprof-devel
         - t1lib
