@@ -1579,14 +1579,6 @@ data:
         - libyang-devel
         - libzip-devel
         - libzmf-devel
-        - lilypond
-        - lilypond-c059-fonts
-        - lilypond-emmentaler-fonts
-        - lilypond-fonts-common
-        - lilypond-nimbus-fonts
-        - lilypond-texgyre-cursor-fonts
-        - lilypond-texgyre-heros-fonts
-        - lilypond-texgyre-schola-fonts
         - linkchecker
         - lldpad-devel
         - lmdb
@@ -1697,7 +1689,6 @@ data:
         - mesa-libOSMesa-devel
         - meson
         - metis-devel
-        - mftrace
         - mingw32-binutils
         - mingw32-cpp
         - mingw32-gcc
@@ -2254,7 +2245,6 @@ data:
         - python3-bitarray
         - python3-blinker
         - python3-boto
-        - python3-bottle
         - python3-Bottleneck
         - python3-breathe
         - python3-brotli
@@ -4110,7 +4100,6 @@ data:
         - testng
         - texlive-acronym
         - texlive-gnu-freefont
-        - texlive-lh
         - texlive-relsize
         - texlive-sfmath
         - thrift
