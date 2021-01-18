@@ -1522,7 +1522,6 @@ data:
         - libtomcrypt-devel
         - libtommath
         - libtommath-devel
-        - libtpms
         - libtpms-devel
         - libudisks2-devel
         - libuninameslist
@@ -4097,9 +4096,6 @@ data:
         - suitesparse-devel
         - sundials
         - sundials-devel
-        - swtpm
-        - swtpm-libs
-        - swtpm-tools
         - syslinux-perl
         - sysprof-devel
         - t1lib
