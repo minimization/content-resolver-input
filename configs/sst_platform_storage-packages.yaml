@@ -143,6 +143,9 @@ data:
     vdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
       srpm: kmod-kvdo
+    stratisd:
+      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
+      srpm: stratisd
 
   arch_packages:
     ppc64le:
