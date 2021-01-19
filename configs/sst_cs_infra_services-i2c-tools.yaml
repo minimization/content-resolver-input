@@ -11,25 +11,21 @@ data:
     armv7hl:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
-    - i2c-tools-eepromer
     - i2c-tools-perl
     - libi2c
     aarch64:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
-    - i2c-tools-eepromer
     - i2c-tools-perl
     - libi2c
     ppc64le:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
-    - i2c-tools-eepromer
     - i2c-tools-perl
     - libi2c
     x86_64:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
-    - i2c-tools-eepromer
     - i2c-tools-perl
     - libi2c
 
