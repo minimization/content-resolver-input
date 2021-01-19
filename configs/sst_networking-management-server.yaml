@@ -51,7 +51,7 @@ data:
   - NetworkManager-cloud-setup
   - nmstate
 
-  placeholder_packages:
+  package_placeholders:
     python3-nispor:
       description: Needed by nmstate. RHEL build bundles rust, Fedora build cannot.
       srpm: nispor

@@ -133,7 +133,7 @@ data:
     # - peripety
     #
 
-  placeholder_packages:
+  package_placeholders:
     kmod-kvdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
       srpm: kmod-kvdo
