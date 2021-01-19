@@ -7,7 +7,6 @@ data:
 
   packages:
     # Stratis
-    - python-hs-dbus-signature
     - python3-dbus-client-gen
     - python3-dbus-python-client-gen
     - python3-dbus-signature-pyparsing
