@@ -6,6 +6,8 @@ data:
   maintainer: sst_cs_infra_services
 
   unwanted_packages:
+  # a2ps
+  - a2ps
   # authd
   - authd
   # bind
