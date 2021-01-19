@@ -23,9 +23,7 @@ data:
   # https://src.fedoraproject.org/rpms/gnome-shell/c/cd9369de85703b98ededeee30f9a421bbb7ebc30?branch=master
   - polkit-gnome
   # Old or deprecated or unwanted or unused stuff
-  - qrencode
   - rarian
-  - yajl
   - GConf2
   # Only Qt5 will be part of RHEL 9
   - qt
