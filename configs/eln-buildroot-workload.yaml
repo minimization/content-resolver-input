@@ -1567,10 +1567,10 @@ data:
         - libXp-devel
         - libXpresent-devel
         - libXres-devel
+        - libXScrnSaver
         - libXScrnSaver-devel
         - libxshmfence-devel
         - libXv-devel
-        - libXvMC-devel
         - libXxf86dga-devel
         - libXxf86vm-devel
         - libyaml-devel
@@ -2299,6 +2299,7 @@ data:
         - python3-httpx
         - python3-hupper
         - python3-hyperlink
+        - python3-hypothesis
         - python3-imagesize
         - python3-impacket
         - python3-incremental
@@ -4202,9 +4203,7 @@ data:
             - libtool-ltdl-devel
             - libxml++
             - libxml++-devel
-            - libXScrnSaver
             - libxslt-devel
-            - libXvMC
             - llvm7.0
             - llvm7.0-libs
             - lucene
@@ -4355,8 +4354,6 @@ data:
             - libraw1394-devel
             - libxml++
             - libxml++-devel
-            - libXScrnSaver
-            - libXvMC
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -4465,8 +4462,6 @@ data:
             - jna-contrib
             - libdv
             - libpmem-devel
-            - libXScrnSaver
-            - libXvMC
             - lldb
             - lldb-devel
             - llvm-googletest
