@@ -10,7 +10,6 @@ data:
   - mod_perl                # upstream is dead, random crashes, security threat to httpd
   - perl-Algorithm-C3       # support undesired
   - perl-Any-Moose          # useless proxy module; use Moose or Moo directly
-  - perl-Business-ISBN
   - perl-Coro               # upstream does not support contemporary perl; experimental
   - perl-Crypt-Blowfish     # cryptography
   - perl-Crypt-Blowfish_PP  # cryptography
@@ -36,8 +35,6 @@ data:
   - perl-Template-Toolkit   # a monster templating framework; support undesider
   - perl-Test-Apocalypse    # a collection of selfdom, optional test that should be disabled
   - perl-Test-Perl-Critic   # too many dependecies; used only in optional tests that should be disabled
-  - perl-Text-CSV
-  - perl-Text-CSV_XS
   - perl-Tk-Pod             # perl-Tk plugin; perl-Tk bundles very old Tk; support undesired
 
   labels:
