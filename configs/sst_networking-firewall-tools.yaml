@@ -20,5 +20,6 @@ data:
   - ipset
   - ipset-service
   - iptables
+  - iptables-nft
   - iptables-services
   - nftables
