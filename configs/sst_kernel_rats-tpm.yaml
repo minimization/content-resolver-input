@@ -6,12 +6,6 @@ data:
   maintainer: sst_kernel_rats
 
   packages:
-  - trousers
-  - trousers-lib
-  - trousers-devel
-  - tpm-tools
-  - tpm-tools-pkcs11
-  - tpm-tools-devel
   - tss2
   - tss2-devel
   - tpm2-tss
