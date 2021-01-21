@@ -16,14 +16,14 @@ data:
   - mod_proxy_html
   - mod_ldap
   - mod_session
-  - mod_wsgi
+  - python3-mod_wsgi
   - httpd-devel
   - httpd-manual
   - mod_http2
   - mod_md
   - mod_fcgid
   - mod_security
-  - mlogc
+  - mod_security-mlogc
   - mod_security_crs
   - apr
   - apr-devel
