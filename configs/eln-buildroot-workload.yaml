@@ -208,8 +208,6 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
-        - csnappy
-        - csnappy-devel
         - CUnit
         - CUnit-devel
         - datefudge
@@ -1162,6 +1160,7 @@ data:
         - jackson-parent
         - jacoco
         - jacoco-maven-plugin
+        - jakarta-commons-httpclient
         - jakarta-json-api
         - jakarta-json-impl
         - jakarta-mail
@@ -1739,8 +1738,6 @@ data:
         - mingw-pkg-config
         - mingw-w64-tools
         - mingw-zlib
-        - miniz
-        - miniz-devel
         - minizip-devel
         - mm-common
         - mobile-broadband-provider-info-devel
@@ -2004,7 +2001,6 @@ data:
         - perl-Mail-IMAPTalk
         - perl-Mail-JMAPTalk
         - perl-Math-Int64
-        - perl-MCE
         - perl-Mixin-Linewise
         - perl-Module-Build-Deprecated
         - perl-Module-Build-Tiny
@@ -2060,15 +2056,11 @@ data:
         - perl-PPIx-QuoteLike
         - perl-PPIx-Regexp
         - perl-PPIx-Utilities
-        - perl-prefork
         - perl-Probe-Perl
         - perl-Readonly
         - perl-Regexp-Trie
         - perl-Scalar-Properties
         - perl-Scope-Guard
-        - perl-Sereal
-        - perl-Sereal-Decoder
-        - perl-Sereal-Encoder
         - perl-Set-Infinite
         - perl-Sort-Versions
         - perl-Spellunker
@@ -2105,13 +2097,11 @@ data:
         - perl-Test-LongString
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
-        - perl-Test-MemoryGrowth
         - perl-Test-MinimumVersion
         - perl-Test-Most
         - perl-Test-Needs
         - perl-Test-Object
         - perl-Test-Output
-        - perl-Test-Perl-Critic
         - perl-Test-Pod
         - perl-Test-Pod-Coverage
         - perl-Test-Portability-Files
