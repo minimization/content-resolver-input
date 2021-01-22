@@ -2225,7 +2225,6 @@ data:
         - python3-brotli
         - python3-bson
         - python3-cairo-devel
-        - python3-click-man
         - python3-cliff
         - python3-cmd2
         - python3-CommonMark
@@ -2310,6 +2309,7 @@ data:
         - python3-ldap3
         - python3-ldb-devel
         - python3-lesscpy
+        - python3-libmodulemd
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
