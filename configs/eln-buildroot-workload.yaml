@@ -1538,6 +1538,7 @@ data:
         - libvarlink-devel
         - libvdpau-devel
         - libvdpau-trace
+        - libverto-libev
         - libvirt-devel
         - libvirt-glib-devel
         - libvisio-devel
