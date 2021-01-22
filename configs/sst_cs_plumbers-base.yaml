@@ -30,6 +30,8 @@ data:
   - systemd-journal-remote
   - systemd-udev
   - polkit
+  - zram-generator
+  - zram-generator-defaults
 
   labels:
   - eln
