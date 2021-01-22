@@ -2952,6 +2952,8 @@ data:
         - rust-dirs-sys-devel
         - rust-dissimilar+default-devel
         - rust-dissimilar-devel
+        - rust-dlv-list+default-devel
+        - rust-dlv-list-devel
         - rust-doc-comment+default-devel
         - rust-doc-comment-devel
         - rust-docmatic+default-devel
@@ -3012,6 +3014,8 @@ data:
         - rust-freetype-devel
         - rust-freetype-sys+default-devel
         - rust-freetype-sys-devel
+        - rust-fs_extra+default-devel
+        - rust-fs_extra-devel
         - rust-futf+default-devel
         - rust-futf-devel
         - rust-futures0.1+default-devel
@@ -3087,7 +3091,9 @@ data:
         - rust-h2-devel
         - rust-half+default-devel
         - rust-half-devel
+        - rust-hashbrown+default-devel
         - rust-hashbrown-devel
+        - rust-hashbrown+inline-more-devel
         - rust-hashbrown+raw-devel
         - rust-heck+default-devel
         - rust-heck-devel
@@ -3334,6 +3340,8 @@ data:
         - rust-ordered-float-devel
         - rust-ordered-float+serde-devel
         - rust-ordered-float+std-devel
+        - rust-ordered-multimap+default-devel
+        - rust-ordered-multimap-devel
         - rust-os_pipe+default-devel
         - rust-os_pipe-devel
         - rust-owned_ttf_parser+default-devel
@@ -3572,6 +3580,8 @@ data:
         - rust-rustc-test-devel
         - rust-rustc_version+default-devel
         - rust-rustc_version-devel
+        - rust-rust-ini+default-devel
+        - rust-rust-ini-devel
         - rust-rusttype+default-devel
         - rust-rusttype-devel
         - rust-rusttype+has-atomics-devel
