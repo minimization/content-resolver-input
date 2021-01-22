@@ -280,8 +280,6 @@ data:
         - flexiblas-openblas-openmp64
         - flite-devel
         - fltk-devel
-        - fluidsynth-devel
-        - fluidsynth-libs
         - fmt-devel
         - fontforge
         - fontforge-devel
@@ -2209,7 +2207,6 @@ data:
         - pyproject-rpm-macros
         - python2-cairo
         - python2-cairo-devel
-        - python2-rpm-macros
         - python2-setuptools
         - python3-aiohttp-cors
         - python3-apipkg
