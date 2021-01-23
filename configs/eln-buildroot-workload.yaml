@@ -974,6 +974,7 @@ data:
         - golang-github-rogpeppe-internal-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
+        - golang-github-sanity-io-litter-devel
         - golang-github-schollz-progressbar-3-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
