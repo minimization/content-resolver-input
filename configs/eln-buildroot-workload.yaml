@@ -295,7 +295,6 @@ data:
         - freetds-libs
         - freetype-demos
         - freexl-devel
-        - fstrm
         - fstrm-devel
         - ftgl
         - ftgl-devel
@@ -1538,7 +1537,6 @@ data:
         - libvarlink-devel
         - libvdpau-devel
         - libvdpau-trace
-        - libverto-libev
         - libvirt-devel
         - libvirt-glib-devel
         - libvisio-devel
