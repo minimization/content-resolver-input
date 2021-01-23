@@ -1059,6 +1059,7 @@ data:
         - golang-x-oauth2-devel
         - golang-x-sync-devel
         - golang-x-sys-devel
+        - golang-x-term-devel
         - golang-x-text-devel
         - golang-x-time-devel
         - golang-x-tools-devel
