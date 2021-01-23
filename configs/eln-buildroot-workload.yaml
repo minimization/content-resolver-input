@@ -295,6 +295,7 @@ data:
         - freetds-libs
         - freetype-demos
         - freexl-devel
+        - fstrm
         - fstrm-devel
         - ftgl
         - ftgl-devel
