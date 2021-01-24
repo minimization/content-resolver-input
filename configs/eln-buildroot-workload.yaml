@@ -2225,6 +2225,7 @@ data:
         - python3-Automat
         - python3-backcall
         - python3-bcrypt
+        - python3-beautifulsoup4
         - python3-betamax
         - python3-bitarray
         - python3-blinker
@@ -2278,6 +2279,7 @@ data:
         - python3-fonttools
         - python3-freezegun
         - python3-fs
+        - python3-future
         - python3-genshi
         - python3-genty
         - python3-gevent
@@ -2433,6 +2435,7 @@ data:
         - python3-simplejson
         - python3-sip-devel
         - python3-snowballstemmer
+        - python3-soupsieve
         - python3-sphinx
         - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
