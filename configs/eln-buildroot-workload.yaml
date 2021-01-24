@@ -1457,6 +1457,7 @@ data:
         - libpcap-devel
         - libpciaccess-devel
         - libpeas-devel
+        - libpfm-static
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
