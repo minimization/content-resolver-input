@@ -12,6 +12,7 @@ data:
   - cups-filters
   - cups-ipptool
   - cups-lpd
+  - cups-printerapp
   - enscript
   - foomatic
   - foomatic-db
