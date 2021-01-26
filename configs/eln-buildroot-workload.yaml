@@ -116,6 +116,7 @@ data:
         - blosc
         - blosc-devel
         - bnd-maven-plugin
+        - boost-json
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -209,6 +210,7 @@ data:
         - crash-devel
         - cross-binutils-common
         - cross-gcc-common
+        - ctags
         - CUnit
         - CUnit-devel
         - datefudge
@@ -2246,6 +2248,7 @@ data:
         - python3-cpuinfo
         - python3-crypto
         - python3-cryptography-vectors
+        - python3-cssselect
         - python3-curio
         - python3-cycler
         - python3-Cython
@@ -2380,11 +2383,13 @@ data:
         - python3-pygments
         - python3-pygments-pytest
         - python3-pylint
+        - python3-pylons-sphinx-themes
         - python3-pymongo
         - python3-pyperclip
         - python3-PyQt4
         - python3-PyQt4-devel
         - python3-pyqt4-sip
+        - python3-pyquery
         - python3-pyrad
         - python3-pyramid
         - python3-pytest-aiohttp
@@ -2494,6 +2499,7 @@ data:
         - python3-webtest
         - python3-werkzeug
         - python3-whoosh
+        - python3-WSGIProxy2
         - python3-wxpython4
         - python3-xmlschema
         - python3-xmp-toolkit
