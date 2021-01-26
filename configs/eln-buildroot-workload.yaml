@@ -1445,6 +1445,7 @@ data:
         - librhsm-devel
         - libRmath
         - librsvg2-devel
+        - librttopo
         - librttopo-devel
         - libsamplerate-devel
         - libsass
