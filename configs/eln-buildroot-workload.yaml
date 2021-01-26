@@ -116,7 +116,6 @@ data:
         - blosc
         - blosc-devel
         - bnd-maven-plugin
-        - boost-json
         - bouncycastle
         - bouncycastle-pg
         - bouncycastle-pkix
@@ -202,7 +201,6 @@ data:
         - compat-wxGTK3-gtk2-devel
         - compat-wxGTK3-gtk2-gl
         - compat-wxGTK3-gtk2-media
-        - corosynclib-devel
         - cppcheck
         - cppunit
         - cppunit-devel
@@ -1384,7 +1382,6 @@ data:
         - libjpeg-devel
         - libkkc-devel
         - libkml-devel
-        - libknet1-devel
         - libksba-devel
         - liblangtag-devel
         - liblangtag-gobject
@@ -1436,7 +1433,6 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
-        - libnozzle1-devel
         - libnsl2-devel
         - libntlm
         - libntlm-devel
@@ -1467,7 +1463,6 @@ data:
         - libprelude-devel
         - libproxy-devel
         - libpst-devel
-        - libqb-devel
         - libqhull
         - libqhull_p
         - libqhull_r
@@ -1526,7 +1521,6 @@ data:
         - libtomcrypt-devel
         - libtommath
         - libtommath-devel
-        - libtool-ltdl-devel
         - libtpms-devel
         - libudisks2-devel
         - libuninameslist
@@ -1576,7 +1570,6 @@ data:
         - libXScrnSaver
         - libXScrnSaver-devel
         - libxshmfence-devel
-        - libxslt-devel
         - libXv-devel
         - libXxf86dga-devel
         - libXxf86vm-devel
@@ -1901,7 +1894,6 @@ data:
         - ostree-devel
         - p7zip
         - p7zip-plugins
-        - pacemaker-libs-devel
         - PackageKit-glib-devel
         - pakchois-devel
         - pam_wrapper
@@ -2239,7 +2231,6 @@ data:
         - python3-cairo-devel
         - python3-cliff
         - python3-cmd2
-        - python3-colorama
         - python3-CommonMark
         - python3-constantly
         - python3-cov-core
@@ -2261,7 +2252,6 @@ data:
         - python3-django
         - python3-docopt
         - python3-docs
-        - python3-docutils
         - python3-dulwich
         - python3-elementpath
         - python3-eventlet
@@ -4156,6 +4146,7 @@ data:
             - bullet
             - bullet-devel
             - byte-buddy
+            - corosynclib-devel
             - dain-snappy
             - dbus-c++
             - dbus-c++-devel
@@ -4217,11 +4208,16 @@ data:
             - libiec61883-devel
             - libjaylink
             - libjaylink-devel
+            - libknet1-devel
             - libldac-devel
+            - libnozzle1-devel
             - libpmem-devel
+            - libqb-devel
             - libraw1394-devel
+            - libtool-ltdl-devel
             - libxml++
             - libxml++-devel
+            - libxslt-devel
             - llvm7.0
             - llvm7.0-libs
             - lucene
@@ -4256,12 +4252,15 @@ data:
             - mingw-filesystem-base
             - objectweb-asm
             - owasp-java-encoder
+            - pacemaker-libs-devel
             - plexus-archiver
             - plexus-build-api
             - plexus-compiler
             - plexus-io
             - plexus-languages
+            - python3-colorama
             - python3-debtcollector
+            - python3-docutils
             - python3-funcsigs
             - python3-iso8601
             - python3-javapackages
@@ -4515,20 +4514,8 @@ data:
             - plexus-compiler
             - plexus-io
             - plexus-languages
-            - python3-debtcollector
-            - python3-funcsigs
-            - python3-iso8601
             - python3-javapackages
-            - python3-keystoneauth1
             - python3-lldb
-            - python3-msgpack
-            - python3-oslo-i18n
-            - python3-oslo-serialization
-            - python3-oslo-utils
-            - python3-os-service-types
-            - python3-stevedore
-            - python-oslo-i18n-lang
-            - python-oslo-utils-lang
             - qdox
             - qemu-system-x86
             - qemu-system-x86-core
