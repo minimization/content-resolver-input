@@ -53,6 +53,8 @@ data:
   - libwvstreams-devel
   - libwvstreams
   - libwvstreams-static
+  # mailman
+  - mailman
   # memcached
   - memcached-devel
   # ncurses
