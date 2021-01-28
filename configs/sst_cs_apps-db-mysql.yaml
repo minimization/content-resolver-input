@@ -15,3 +15,13 @@ data:
 
   labels:
   - eln
+
+ package_placeholders:
+    mysql:
+      srpm: mysql
+      description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+      requires:
+        - mecab-ipadic
+        - mecab-ipadic-EUCJP
+        - perl(Getopt::Long)
+        - perl(strict)
