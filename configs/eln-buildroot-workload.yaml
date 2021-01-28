@@ -186,6 +186,7 @@ data:
         - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-golang-mvdan-xurls-2-devel
+        - compat-lua
         - compat-lua-devel
         - compat-lua-libs
         - compat-readline5-devel
@@ -1044,8 +1045,6 @@ data:
         - golang-x-xerrors-devel
         - golist
         - gom-devel
-        - google-benchmark
-        - google-benchmark-devel
         - google-gson
         - go-rpm-macros
         - gperftools-devel
@@ -1117,6 +1116,7 @@ data:
         - ibus-table-tv
         - icon-naming-utils
         - idm-console-framework
+        - ilmbase-devel
         - ima-evm-utils-devel
         - ImageMagick
         - ImageMagick-devel
@@ -1345,7 +1345,6 @@ data:
         - libiptcdata-devel
         - libiscsi-devel
         - libisofs-devel
-        - libixion
         - libjcat-devel
         - libjpeg-devel
         - libkkc-devel
@@ -1411,7 +1410,6 @@ data:
         - libopendmarc
         - libopenmpt-devel
         - liborcus-devel
-        - liborcus-model
         - libosinfo-devel
         - libotf-devel
         - libotr-devel
@@ -1819,6 +1817,7 @@ data:
         - openblas-threads64_
         - openchange-devel
         - openexr-devel
+        - OpenEXR-devel
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
@@ -1849,10 +1848,7 @@ data:
         - pcsc-lite-devel
         - perl-AnyEvent
         - perl-AnyEvent-I3
-        - perl-Archive-Any-Lite
-        - perl-Array-Diff
         - perl-B-COW
-        - perl-B-Keywords
         - perl-Canary-Stability
         - perl-Capture-Tiny
         - perl-Class-Accessor-Chained
@@ -1869,7 +1865,6 @@ data:
         - perl-Crypt-CBC
         - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
-        - perl-Data-Binary
         - perl-Data-Dumper-Names
         - perl-Data-ICal
         - perl-Data-ICal-TimeZone
@@ -1895,7 +1890,6 @@ data:
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
         - perl-ExtUtils-LibBuilder
-        - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
         - perl-File-BaseDir
         - perl-File-chdir
@@ -1903,7 +1897,6 @@ data:
         - perl-File-DesktopEntry
         - perl-File-Find-Object
         - perl-File-Find-Object-Rule
-        - perl-File-Find-Rule-Perl
         - perl-File-LibMagic
         - perl-File-MimeInfo
         - perl-File-MMagic
@@ -1924,7 +1917,6 @@ data:
         - perl-IPC-Run
         - perl-JSON-XS
         - perl-libxml-perl
-        - perl-Lingua-EN-Inflect
         - perl-Lingua-Translit
         - perl-List-Pairwise
         - perl-Locale-Codes
@@ -1933,11 +1925,8 @@ data:
         - perl-Mail-JMAPTalk
         - perl-Math-Int64
         - perl-Mixin-Linewise
-        - perl-Module-Build-Deprecated
         - perl-Module-Build-Tiny
-        - perl-Module-CPANTS-Analyse
         - perl-Module-Extract-Use
-        - perl-Module-Find
         - perl-Module-Install
         - perl-Module-Install-AuthorRequires
         - perl-Module-Install-AuthorTests
@@ -1948,7 +1937,6 @@ data:
         - perl-Module-Install-ReadmeFromPod
         - perl-Module-Install-ReadmeMarkdownFromPod
         - perl-Module-Install-Repository
-        - perl-Module-Manifest
         - perl-Module-Manifest-Skip
         - perl-Module-Package
         - perl-Module-Package-Au
@@ -1972,22 +1960,13 @@ data:
         - perl-Parse-Yapp
         - perl-Path-Class
         - perl-Path-Tiny
-        - perl-Perl-Critic
         - perl-Perl-Destruct-Level
-        - perl-Perl-MinimumVersion
-        - perl-Perl-PrereqScanner-NotQuiteLite
         - perl-Pod-Coverage
         - perl-Pod-Coverage-TrustPod
         - perl-Pod-Eventual
         - perl-Pod-Markdown
-        - perl-Pod-Spell
         - perl-PPI
-        - perl-PPIx-QuoteLike
-        - perl-PPIx-Regexp
-        - perl-PPIx-Utilities
-        - perl-Probe-Perl
         - perl-Readonly
-        - perl-Regexp-Trie
         - perl-Scalar-Properties
         - perl-Scope-Guard
         - perl-Set-Infinite
@@ -1996,7 +1975,6 @@ data:
         - perl-strictures
         - perl-String-CRC32
         - perl-String-Escape
-        - perl-String-Format
         - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
@@ -2007,44 +1985,36 @@ data:
         - perl-Task-Weaken
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
-        - perl-Test-CheckChanges
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
         - perl-Test-Differences
-        - perl-Test-DistManifest
         - perl-Test-Exception
         - perl-Test-FailWarnings
         - perl-Test-Fatal
         - perl-Test-File
         - perl-Test-File-ShareDir
-        - perl-Test-HasVersion
         - perl-Test-InDistDir
         - perl-Test-Inter
-        - perl-Test-Kwalitee
         - perl-Test-LeakTrace
         - perl-Test-LongString
         - perl-Test-Manifest
         - perl-Test-Memory-Cycle
-        - perl-Test-MinimumVersion
         - perl-Test-Most
         - perl-Test-Needs
         - perl-Test-Object
         - perl-Test-Output
         - perl-Test-Pod
         - perl-Test-Pod-Coverage
-        - perl-Test-Portability-Files
         - perl-Test-Prereq
         - perl-Test-Regexp
         - perl-Test-Requires
         - perl-Test-RequiresInternet
-        - perl-Test-Script
         - perl-Test-SubCalls
         - perl-Test-Synopsis
         - perl-Test-Taint
         - perl-Test-TrailingSpace
         - perl-Test-Unit
-        - perl-Test-UseAllModules
         - perl-Test-utf8
         - perl-Test-Valgrind
         - perl-Test-Warn
@@ -2064,7 +2034,6 @@ data:
         - perl-Unicode-UTF8
         - perl-UNIVERSAL-isa
         - perl-UNIVERSAL-require
-        - perl-URI-cpan
         - perl-utf8-all
         - perl-XML-DOM
         - perl-XML-Fast
@@ -2405,8 +2374,6 @@ data:
         - python3-venusian
         - python3-virtualenv
         - python3-voluptuous
-        - python3-vtk
-        - python3-vtk-qt
         - python3-waitress
         - python3-webencodings
         - python3-webob
@@ -3892,8 +3859,6 @@ data:
         - soundtouch-devel
         - source-highlight-devel
         - sparsehash-devel
-        - spdlog
-        - spdlog-devel
         - spec-version-maven-plugin
         - speech-tools-libs-devel
         - speech-tools-libs-static
@@ -3975,9 +3940,6 @@ data:
         - uthash-devel
         - vips
         - vte291-devel
-        - vtk-devel
-        - vtk-java
-        - vtk-qt
         - w3m
         - waf
         - wavpack-devel
