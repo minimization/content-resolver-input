@@ -1618,7 +1618,6 @@ data:
         - maven-wagon-http-lightweight
         - maven-wagon-http-shared
         - mdds-devel
-        - mecab-devel
         - mercurial
         - mesa-libgbm-devel
         - mesa-libGL-devel
