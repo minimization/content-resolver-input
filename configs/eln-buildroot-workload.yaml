@@ -233,7 +233,6 @@ data:
         - exec-maven-plugin
         - execstack
         - exempi-devel
-        - exim
         - exiv2-devel
         - extra-cmake-modules
         - f33-backgrounds-base
@@ -1327,7 +1326,6 @@ data:
         - libgit2-glib-devel
         - libglusterfs-devel
         - libgnomekbd-devel
-        - libgsasl
         - libgsf-devel
         - libgta-devel
         - libgtop2-devel
@@ -1402,15 +1400,12 @@ data:
         - libnma-devel
         - libnotify-devel
         - libnsl2-devel
-        - libntlm
-        - libntlm-devel
         - libnumbertext-devel
         - liboath-devel
         - liboauth-devel
         - libodfgen-devel
         - libomxil-bellagio
         - libomxil-bellagio-devel
-        - libopendmarc
         - libopenmpt-devel
         - liborcus-devel
         - libosinfo-devel
@@ -1460,8 +1455,6 @@ data:
         - libsodium-devel
         - libspatialite-devel
         - libspectre-devel
-        - libspf2
-        - libspf2-devel
         - libspiro-devel
         - libsrtp-devel
         - libss-devel
@@ -1971,7 +1964,6 @@ data:
         - perl-Spellunker
         - perl-strictures
         - perl-String-CRC32
-        - perl-String-Escape
         - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
