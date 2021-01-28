@@ -130,6 +130,7 @@ data:
         - c-ares-devel
         - cbi-plugins
         - cdparanoia-devel
+        - ceres-solver
         - ceres-solver-devel
         - cfitsio-devel
         - cglib
@@ -301,6 +302,8 @@ data:
         - gettext-common-devel
         - gettext-devel
         - gfbgraph-devel
+        - gflags
+        - gflags-devel
         - ghc
         - ghc-aeson
         - ghc-aeson-devel
@@ -746,6 +749,7 @@ data:
         - glibmm24-devel
         - gl-manpages
         - glm-devel
+        - glog
         - glog-devel
         - glpk-devel
         - glslang-devel
@@ -1199,6 +1203,7 @@ data:
         - jq-devel
         - js-coffee-script
         - js-jquery
+        - jsoncpp
         - jsoncpp-devel
         - jsoup
         - js-uglify
@@ -1332,8 +1337,6 @@ data:
         - libhandy1-devel
         - libhangul-devel
         - libhbaapi-devel
-        - libIDL
-        - libIDL-devel
         - libidn
         - libidn-devel
         - libieee1284-devel
@@ -1440,7 +1443,6 @@ data:
         - librelp-devel
         - librevenge-devel
         - librhsm-devel
-        - libRmath
         - librsvg2-devel
         - librttopo
         - librttopo-devel
@@ -1627,6 +1629,7 @@ data:
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
+        - mesa-libOSMesa
         - mesa-libOSMesa-devel
         - meson
         - metis-devel
@@ -1698,7 +1701,6 @@ data:
         - mozjs78-devel
         - mp-devel
         - mpg123-devel
-        - mpi4py-common
         - mtdev-devel
         - multilib-rpm-config
         - MUMPS-devel
@@ -1714,13 +1716,7 @@ data:
         - nbd
         - ncompress
         - neon-devel
-        - netcdf-cxx
-        - netcdf-cxx-devel
         - netcdf-devel
-        - netcdf-mpich
-        - netcdf-mpich-devel
-        - netcdf-openmpi
-        - netcdf-openmpi-devel
         - netcf-devel
         - netty
         - newt-devel
@@ -1818,6 +1814,7 @@ data:
         - openchange-devel
         - openexr-devel
         - OpenEXR-devel
+        - openexr-libs
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
@@ -2091,7 +2088,6 @@ data:
         - pstoedit
         - pstoedit-devel
         - psutils
-        - pugixml-devel
         - pulseaudio-libs-devel
         - py3c-devel
         - pybind11-devel
@@ -2141,7 +2137,6 @@ data:
         - python3-dbusmock
         - python3-ddt
         - python3-debug
-        - python3-dill
         - python3-distlib
         - python3-django
         - python3-docopt
@@ -2226,8 +2221,6 @@ data:
         - python3-mistune
         - python3-monotonic
         - python3-mox3
-        - python3-mpi4py-mpich
-        - python3-mpi4py-openmpi
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
@@ -2415,8 +2408,6 @@ data:
         - qt5-qtsvg-devel
         - qt5-qtwayland-devel
         - qt5-qtwebchannel-devel
-        - qt5-qtwebkit
-        - qt5-qtwebkit-devel
         - qt5-qtwebsockets-devel
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
@@ -2444,19 +2435,14 @@ data:
         - ragel
         - raptor2-devel
         - rasqal-devel
-        - R-core
-        - R-core-devel
-        - R-devel
         - re2c
         - readline-devel
         - redland-devel
         - reflections
         - replacer
         - rest-devel
-        - R-java-devel
         - rpm-ostree-devel
         - rrdtool-devel
-        - R-rpm-macros
         - rsh
         - ruby-default-gems
         - ruby-devel
@@ -3909,9 +3895,6 @@ data:
         - tracker3-devel
         - tracker-devel
         - transfig
-        - tre
-        - tre-common
-        - tre-devel
         - treelayout
         - trousers-devel
         - ttembed
