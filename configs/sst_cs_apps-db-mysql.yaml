@@ -6,17 +6,17 @@ data:
   maintainer: sst_cs_apps
 
   packages:
-  - mecab-ipadic
-  - mecab-ipadic-EUCJP
-  - mysql
-  - mysql-devel
-  - mysql-server
-  - mysql-test
+    - mecab-ipadic
+    - mecab-ipadic-EUCJP
+    - mysql
+    - mysql-devel
+    - mysql-server
+    - mysql-test
 
   labels:
-  - eln
+    - eln
 
- package_placeholders:
+  package_placeholders:
     mysql:
       srpm: mysql
       description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
