@@ -13,6 +13,7 @@ data:
   - clufter-lib-general
   - clufter-lib-pcs
   - jing-trang
+  - python3-clufter
 
   labels:
   - eln
