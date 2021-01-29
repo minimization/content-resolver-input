@@ -1613,6 +1613,7 @@ data:
         - maven-wagon-http-lightweight
         - maven-wagon-http-shared
         - mdds-devel
+        - mecab-devel
         - mercurial
         - mesa-libgbm-devel
         - mesa-libGL-devel
@@ -2059,6 +2060,7 @@ data:
         - postgresql-test-rpm-macros
         - potrace-devel
         - pps-tools-devel
+        - procps
         - procps-ng-devel
         - proj-devel
         - protobuf-c-compiler
@@ -2392,6 +2394,7 @@ data:
         - qt5-qtxmlpatterns-devel
         - quota-devel
         - ragel
+        - rapidjson-devel
         - raptor2-devel
         - rasqal-devel
         - re2c
