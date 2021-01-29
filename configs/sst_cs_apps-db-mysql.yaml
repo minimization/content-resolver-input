@@ -23,8 +23,8 @@ data:
       requires:
         - mecab-ipadic
         - mecab-ipadic-EUCJP
-        - perl(Getopt::Long)
-        - perl(strict)
+        - perl-Getopt-Long
+        - perl-libs
       buildrequires:
         - bison
         - cmake
@@ -42,46 +42,40 @@ data:
         - multilib-rpm-config
         - openssl
         - openssl-devel
-        - perl(base)
-        - perl(Carp)
-        - perl(Cwd)
-        - perl(Data::Dumper)
-        - perl(Digest::file)
-        - perl(Digest::MD5)
-        - perl(English)
-        - perl(Env)
-        - perl(Errno)
-        - perl(Exporter)
-        - perl(Fcntl)
-        - perl(File::Basename)
-        - perl(File::Copy)
-        - perl(File::Find)
-        - perl(File::Spec)
-        - perl(File::Spec::Functions)
-        - perl(File::Temp)
-        - perl(FindBin)
+        - perl-base
+        - perl-Carp
+        - perl-Data-Dumper
+        - perl-Digest
+        - perl-Digest-MD5
+        - perl-English
+        - perl-Env
+        - perl-Errno
+        - perl-Exporter
+        - perl-Fcntl
+        - perl-File-Basename
+        - perl-File-Copy
+        - perl-File-Find
+        - perl-File-Temp
+        - perl-FindBin
         - perl-generators
-        - perl(Getopt::Long)
-        - perl(if)
+        - perl-Getopt-Long
+        - perl-if
         - perl-interpreter
-        - perl(IO::File)
-        - perl(IO::Handle)
-        - perl(IO::Select)
-        - perl(IO::Socket::INET)
-        - perl(IPC::Open3)
-        - perl(JSON)
-        - perl(lib)
-        - perl(LWP::Simple)
-        - perl(Memoize)
-        - perl(Net::Ping)
-        - perl(POSIX)
-        - perl(Socket)
-        - perl(strict)
-        - perl(Sys::Hostname)
-        - perl(Test::More)
-        - perl(Time::HiRes)
-        - perl(Time::localtime)
-        - perl(warnings)
+        - perl-IO
+        - perl-IPC-Open3
+        - perl-JSON
+        - perl-lib
+        - perl-libs
+        - perl-libwww-perl
+        - perl-Memoize
+        - perl-Net-Ping
+        - perl-PathTools
+        - perl-POSIX
+        - perl-Socket
+        - perl-Sys-Hostname
+        - perl-Test-Simple
+        - perl-Time
+        - perl-Time-HiRes
         - procps
         - protobuf-lite-devel
         - rapidjson-devel
