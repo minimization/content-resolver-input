@@ -1293,6 +1293,7 @@ data:
         - libell-devel
         - libEMF
         - libEMF-devel
+        - libeot
         - libeot-devel
         - libepubgen-devel
         - libesmtp-devel
@@ -1472,6 +1473,7 @@ data:
         - libtimezonemap-devel
         - libtomcrypt
         - libtomcrypt-devel
+        - libtommath
         - libtommath-devel
         - libtpms-devel
         - libudisks2-devel
