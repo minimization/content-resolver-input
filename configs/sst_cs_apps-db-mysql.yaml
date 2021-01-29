@@ -16,7 +16,7 @@ data:
   labels:
   - eln
 
- package_placeholders:
+  package_placeholders:
     mysql:
       srpm: mysql
       description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
