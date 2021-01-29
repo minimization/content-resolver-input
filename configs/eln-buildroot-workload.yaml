@@ -62,7 +62,6 @@ data:
         - auto-common
         - autoconf213
         - autogen-libopts-devel
-        - automoc
         - auto-service
         - autotrace
         - avahi-devel
@@ -236,8 +235,6 @@ data:
         - exempi-devel
         - exiv2-devel
         - extra-cmake-modules
-        - f33-backgrounds-base
-        - f33-backgrounds-kde
         - fasterxml-oss-parent
         - fcode-utils
         - fdk-aac-free-devel
@@ -254,7 +251,6 @@ data:
         - file-devel
         - findbugs
         - findbugs-bcel
-        - firebird-devel
         - fish
         - flac-devel
         - flatpak-devel
@@ -271,9 +267,6 @@ data:
         - forge-parent
         - freeglut-devel
         - freerdp-devel
-        - freetds
-        - freetds-devel
-        - freetds-libs
         - freetype-demos
         - freexl-devel
         - fstrm
@@ -1309,7 +1302,6 @@ data:
         - libev-devel
         - libexttextcat-devel
         - libfastjson-devel
-        - libfbclient2-devel
         - libfdisk-devel
         - libfdt-devel
         - libfido2-devel
@@ -1336,6 +1328,8 @@ data:
         - libhandy1-devel
         - libhangul-devel
         - libhbaapi-devel
+        - libIDL
+        - libIDL-devel
         - libidn
         - libidn-devel
         - libieee1284-devel
@@ -2034,8 +2028,6 @@ data:
         - perl-XML-Twig
         - perl-XML-XPathEngine
         - perl-YAML-Tiny
-        - phonon-qt4
-        - phonon-qt4-devel
         - phonon-qt5
         - phonon-qt5-devel
         - physfs
@@ -2055,7 +2047,6 @@ data:
         - plotutils-devel
         - plymouth-devel
         - pmix-devel
-        - pngcrush
         - po4a
         - polkit-devel
         - polkit-docs
@@ -2253,9 +2244,6 @@ data:
         - python3-pylons-sphinx-themes
         - python3-pymongo
         - python3-pyperclip
-        - python3-PyQt4
-        - python3-PyQt4-devel
-        - python3-pyqt4-sip
         - python3-pyquery
         - python3-pyrad
         - python3-pyramid
@@ -2386,7 +2374,6 @@ data:
         - qpdf-devel
         - qpid-proton-c-devel
         - qrencode-devel
-        - qt
         - qt3
         - qt3-devel
         - qt5-qtbase-private-devel
@@ -2401,26 +2388,6 @@ data:
         - qt5-qtwebsockets-devel
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
-        - qt-common
-        - qt-devel
-        - qt-mobility
-        - qt-mobility-bearer
-        - qt-mobility-common
-        - qt-mobility-connectivity
-        - qt-mobility-devel
-        - qt-mobility-feedback
-        - qt-mobility-gallery
-        - qt-mobility-location
-        - qt-mobility-multimediakit
-        - qt-mobility-pim
-        - qt-mobility-publishsubscribe
-        - qt-mobility-sensors
-        - qt-mobility-serviceframework
-        - qt-mobility-systeminfo
-        - qt-settings
-        - qtwebkit
-        - qtwebkit-devel
-        - qt-x11
         - quota-devel
         - ragel
         - raptor2-devel
