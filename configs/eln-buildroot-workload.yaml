@@ -68,6 +68,7 @@ data:
         - avahi-glib-devel
         - avahi-gobject
         - avahi-gobject-devel
+        - batik
         - bcc-devel
         - beakerlib
         - bind-devel
@@ -99,6 +100,7 @@ data:
         - binutils-tile-linux-gnu
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
+        - bitstream-vera-sans-fonts
         - black
         - blas64_
         - blas-devel
@@ -114,6 +116,7 @@ data:
         - blosc-devel
         - bnd-maven-plugin
         - bouncycastle
+        - bouncycastle-mail
         - bouncycastle-pg
         - bouncycastle-pkix
         - brlapi-devel
@@ -259,11 +262,13 @@ data:
         - flexiblas-openblas-openmp64
         - flite-devel
         - fmt-devel
+        - fontbox
         - fontforge
         - fontforge-devel
         - fontforge-doc
         - fonts-rpm-macros
         - fonttools
+        - fop
         - forge-parent
         - freeglut-devel
         - freerdp-devel
@@ -1043,6 +1048,7 @@ data:
         - golist
         - gom-devel
         - google-gson
+        - google-noto-emoji-fonts
         - go-rpm-macros
         - gperftools-devel
         - gpgme-devel
@@ -1111,6 +1117,7 @@ data:
         - ibus-table-latin
         - ibus-table-translit
         - ibus-table-tv
+        - icc-profiles-openicc
         - icon-naming-utils
         - idm-console-framework
         - ilmbase-devel
@@ -1230,6 +1237,8 @@ data:
         - libappstream-glib-devel
         - libarchive-devel
         - libargon2-devel
+        - libart_lgpl
+        - libart_lgpl-devel
         - libassuan-devel
         - libasyncns-devel
         - libatasmart-devel
@@ -2097,6 +2106,7 @@ data:
         - python3-beautifulsoup4
         - python3-betamax
         - python3-bitarray
+        - python3-bleach
         - python3-blinker
         - python3-boto
         - python3-Bottleneck
@@ -2105,6 +2115,7 @@ data:
         - python3-bson
         - python3-cairo-devel
         - python3-cliff
+        - python3-cmarkgfm
         - python3-cmd2
         - python3-CommonMark
         - python3-constantly
@@ -2228,6 +2239,7 @@ data:
         - python3-paste
         - python3-paste-deploy
         - python3-pathspec
+        - python3-pdfrw
         - python3-pickleshare
         - python3-pikepdf
         - python3-pillow
@@ -2270,10 +2282,12 @@ data:
         - python3-raven
         - python3-raven+flask
         - python3-rdflib
+        - python3-readme-renderer
         - python3-readthedocs-sphinx-ext
         - python3-recommonmark
         - python3-redis
         - python3-regex
+        - python3-reportlab
         - python3-requests-download
         - python3-requests-kerberos
         - python3-requests-mock
@@ -2297,6 +2311,7 @@ data:
         - python3-setuptools_scm_git_archive
         - python3-simplejson
         - python3-sip-devel
+        - python3-smartypants
         - python3-snowballstemmer
         - python3-soupsieve
         - python3-sphinx
@@ -2406,6 +2421,7 @@ data:
         - rpm-ostree-devel
         - rrdtool-devel
         - rsh
+        - rst2pdf
         - ruby-default-gems
         - ruby-devel
         - rubygem-actioncable
@@ -3930,6 +3946,7 @@ data:
         - xmlsec1-openssl-devel
         - xmlstarlet
         - xmlstreambuffer
+        - xmlunit
         - xmlunit-assertj
         - xmlunit-core
         - xmlunit-legacy
