@@ -1552,6 +1552,7 @@ data:
         - luajit
         - luajit-devel
         - lua-lunitx
+        - luarocks
         - lutok
         - lutok-devel
         - lz4-devel
