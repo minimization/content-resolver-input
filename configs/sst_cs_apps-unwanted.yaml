@@ -8,6 +8,7 @@ data:
   unwanted_packages:
   - js-uglify
   - web-assets-devel
+  - mercurial                       # Hard to maintain while not the most popular choice anymore.
 
   labels:
   - eln
