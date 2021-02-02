@@ -138,8 +138,6 @@ data:
         - cfitsio-devel
         - cglib
         - CharLS-devel
-        - check
-        - check-devel
         - cheese-libs-devel
         - cjose-devel
         - clamav-data
@@ -1056,9 +1054,7 @@ data:
         - gsm-devel
         - gsound-devel
         - gssntlmssp-devel
-        - gstreamer1-devel
         - gstreamer1-plugins-bad-free-devel
-        - gstreamer1-plugins-base-devel
         - gtest
         - gtest-devel
         - gtk+
@@ -1261,7 +1257,6 @@ data:
         - libbtrfsutil
         - libburn-devel
         - libbytesize-devel
-        - libcacard-devel
         - libcanberra-devel
         - libcanberra-gtk2
         - libcbor-devel
@@ -1478,9 +1473,7 @@ data:
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
-        - libunwind-devel
         - libusb-devel
-        - libusbx-devel
         - libuser-devel
         - libutempter-devel
         - libv4l-devel
@@ -1544,7 +1537,6 @@ data:
         - luarocks
         - lutok
         - lutok-devel
-        - lz4-devel
         - lzo-devel
         - lzo-minilzo
         - m17n-db-devel
@@ -1782,10 +1774,7 @@ data:
         - openldap-servers
         - openpgm
         - openpgm-devel
-        - opus-devel
         - orangefs-devel
-        - orc-compiler
-        - orc-devel
         - osgi-annotation
         - osgi-compendium
         - osgi-core
@@ -1802,7 +1791,6 @@ data:
         - paranamer
         - parted-devel
         - pcaudiolib-devel
-        - pcsc-lite-devel
         - perl-AnyEvent
         - perl-AnyEvent-I3
         - perl-B-COW
@@ -2379,7 +2367,6 @@ data:
         - redland-devel
         - reflections
         - replacer
-        - rest-devel
         - rpm-ostree-devel
         - rrdtool-devel
         - rsh
@@ -3262,7 +3249,6 @@ data:
         - speex-devel
         - speexdsp-devel
         - spice-parent
-        - spice-protocol
         - spice-server-devel
         - spirv-tools
         - spirv-tools-devel
@@ -3272,8 +3258,6 @@ data:
         - stringtemplate
         - stringtemplate4
         - string-template-maven-plugin
-        - subunit
-        - subunit-devel
         - suitesparse-devel
         - syslinux-perl
         - sysprof-devel
@@ -3327,7 +3311,6 @@ data:
         - upower-devel
         - uriparser-devel
         - usbguard-devel
-        - usbredir-devel
         - userspace-rcu-devel
         - utf8cpp-devel
         - utf8proc-devel
@@ -3736,6 +3719,7 @@ data:
             - jna-contrib
             - libdv
             - libpmem-devel
+            - libusbx-devel
             - lldb
             - lldb-devel
             - llvm-googletest
@@ -3782,6 +3766,7 @@ data:
             - sat4j
             - takari-polyglot-common
             - tycho
+            - usbredir-devel
             - xmlgraphics-commons
             - xmvn-api
             - xmvn-connector-aether
