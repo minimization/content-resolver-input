@@ -282,7 +282,6 @@ data:
         - GConf2
         - GConf2-devel
         - gdal-devel
-        - gdb-minimal
         - gdcm-applications
         - gdcm-devel
         - gd-devel
