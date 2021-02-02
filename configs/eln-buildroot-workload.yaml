@@ -282,6 +282,7 @@ data:
         - GConf2
         - GConf2-devel
         - gdal-devel
+        - gdb-minimal
         - gdcm-applications
         - gdcm-devel
         - gd-devel
@@ -1438,7 +1439,6 @@ data:
         - librttopo
         - librttopo-devel
         - libsamplerate-devel
-        - libsass
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
@@ -2399,7 +2399,6 @@ data:
         - rubygem-ansi
         - rubygem-aruba
         - rubygem-asciidoctor
-        - rubygem-bacon
         - rubygem-bcrypt
         - rubygem-bigdecimal
         - rubygem-builder
@@ -2431,7 +2430,6 @@ data:
         - rubygem-flexmock
         - rubygem-formatador
         - rubygem-gherkin
-        - rubygem-haml
         - rubygem-hashdiff
         - rubygem-hiredis
         - rubygem-httpclient
@@ -2451,7 +2449,6 @@ data:
         - rubygem-method_source
         - rubygem-mini_mime
         - rubygem-minitest
-        - rubygem-minitest-around
         - rubygem-minitest-reporters
         - rubygem-mocha
         - rubygem-multi_json
@@ -2468,7 +2465,6 @@ data:
         - rubygem-puma
         - rubygem-racc
         - rubygem-rack-cache
-        - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
         - rubygem-rails-html-sanitizer
         - rubygem-railties
@@ -2486,16 +2482,12 @@ data:
         - rubygem-rspec-its
         - rubygem-ruby-progressbar
         - rubygem-rubyzip
-        - rubygem-sassc
         - rubygems-devel
         - rubygem-selenium-webdriver
         - rubygem-session
         - rubygem-shindo
-        - rubygem-slim
         - rubygem-sqlite3
         - rubygem-stringex
-        - rubygem-temple
-        - rubygem-test_construct
         - rubygem-test_declarative
         - rubygem-test-unit
         - rubygem-thor
@@ -3406,7 +3398,6 @@ data:
         - xorg-x11-server-devel
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
-        - xxhash-devel
         - yajl-devel
         - yasm
         - yelp-devel
