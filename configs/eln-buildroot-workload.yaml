@@ -279,8 +279,6 @@ data:
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
         - gc-devel
-        - GConf2
-        - GConf2-devel
         - gdal-devel
         - gdcm-applications
         - gdcm-devel
@@ -2336,7 +2334,6 @@ data:
         - python3-werkzeug
         - python3-whoosh
         - python3-WSGIProxy2
-        - python3-wxpython4
         - python3-xmlschema
         - python3-xmp-toolkit
         - python3-zmq
@@ -3247,7 +3244,6 @@ data:
         - shrinkwrap-impl-base
         - shrinkwrap-spi
         - sip
-        - sip5
         - sisu-mojos
         - slang-devel
         - slf4j-ext
@@ -3338,7 +3334,6 @@ data:
         - uthash-devel
         - vte291-devel
         - w3m
-        - waf
         - wavpack-devel
         - wdiff
         - web-assets-devel
@@ -3350,14 +3345,6 @@ data:
         - wordnet
         - wpebackend-fdo-devel
         - wsdl4j
-        - wxBase3
-        - wxBase3-devel
-        - wxGTK3
-        - wxGTK3-devel
-        - wxGTK3-gl
-        - wxGTK3-i18n
-        - wxGTK3-media
-        - wxGTK3-webview
         - xapian-core-devel
         - xbean
         - xcb-proto
