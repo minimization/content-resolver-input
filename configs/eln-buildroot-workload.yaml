@@ -207,8 +207,6 @@ data:
         - device-mapper-multipath-devel
         - directory-maven-plugin
         - disruptor
-        - djvulibre-devel
-        - djvulibre-libs
         - dlm-devel
         - docbook2X
         - dom4j
@@ -1110,8 +1108,6 @@ data:
         - icon-naming-utils
         - idm-console-framework
         - ima-evm-utils-devel
-        - ImageMagick
-        - ImageMagick-libs
         - imaptest
         - intltool
         - ipa-server-common
@@ -1347,8 +1343,6 @@ data:
         - liblockfile-devel
         - liblognorm-devel
         - liblouis-devel
-        - liblqr-1
-        - liblqr-1-devel
         - liblrdf-devel
         - libmad-devel
         - libmalaga
@@ -1493,9 +1487,6 @@ data:
         - libwbclient-devel
         - libwebp-devel
         - libwinpr-devel
-        - libwmf
-        - libwmf-devel
-        - libwmf-lite
         - libwpd-devel
         - libwpe-devel
         - libwpg-devel
