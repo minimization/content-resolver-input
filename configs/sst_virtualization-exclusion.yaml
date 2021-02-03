@@ -12,6 +12,7 @@ data:
   - libphodav
   - libvirt-snmp
   - libunwind
+  - netcf
   - ocaml-camlp4
   - OVMF
   - perl-Sys-Virt
