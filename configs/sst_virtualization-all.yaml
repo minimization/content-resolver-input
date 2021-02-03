@@ -32,6 +32,7 @@ data:
   - vhostmd
   - virt-install
   - virt-top
+  - virt-viewer
   - virt-what
 
   labels:
