@@ -20,6 +20,7 @@ data:
   - mariadb-test
   - mariadb-connector-c-devel
   - mariadb-connector-c-test
+  - mysql-selinux # because package mariadb-server requires (mysql-selinux if selinux-policy-targeted)
 
   labels:
   - eln
