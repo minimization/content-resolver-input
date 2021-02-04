@@ -6,102 +6,330 @@ data:
   maintainer: sst_openstack
 
   packages:
-  - augeas
-  - autogen
-  - babel
-  - babeltrace
-  - celt051
+  - aide
+  - ansible-freeipa
+  - augeas-libs
+  - bind
+  - biosdevname
+  - boost-atomic
+  - boost-chrono
+  - boost-date-time
+  - boost-filesystem
+  - boost-locale
+  - boost-log
+  - boost-program-options
+  - boost-regex
+  - boost-system
+  - boost-thread
+  - buildah
+  - bzip2
+  - ca-certificates
+  - certmonger
+  - chrony
   - cloud-init
   - cloud-utils-growpart
-  - clufter
-  - corosync
-  - dbxtool
+  - cmake-filesystem
+  - conntrack-tools
+  - container-selinux
+  - coreutils
+  - cracklib-dicts
+  - cronie
+  - cryptsetup
+  - curl
+  - cyrus-sasl-lib
+  - cyrus-sasl-plain
+  - cyrus-sasl-scram
+  - daxio
+  - device-mapper-multipath
   - dhcp-client
+  - dmidecode
+  - dnsmasq
+  - dnsmasq-utils
+  - dosfstools
+  - dpdk
   - driverctl
-  - dwz
-  - emacs
-  - fence-agents
+  - e2fsprogs
+  - edk2-ovmf
+  - efibootmgr
+  - efivar
+  - ethtool
+  - expect
+  - fence-agents-all
   - fence-virt
-  - libkcapi-fipscheck
-#  - gperftools
-#  - genisoimage
+  - findutils
+  - fio
+  - fontawesome-fonts
+  - fontpackages-filesystem
+  - galera
+  - gdisk
+  - genisoimage
+  - gettext
   - git
+  - git-core
+  - glibc
+  - glibc-langpack-en
+  - gmp
+  - grub2
+  - grub2-efi-x64
+  - grub2-efi-x64-modules
+  - gtk3
+  - gzip
   - haproxy
-  - hivex
-#  - hostname
-  - icu
+  - hdparm
+  - hostname
+  - httpd
+  - initscripts
   - ipa-client
   - ipmitool
+  - iproute
+  - iproute-tc
+  - ipset
+  - iptables
+  - iptables-ebtables
+  - iptables-libs
+  - iptables-services
+  - iputils
   - ipxe-bootimgs
-  - ipxe-roms
-  - ipxe-roms-qemu
-  - isns-utils
-  - jasper
-  - jbigkit
+  - iscsi-initiator-utils
+  - jansson
+  - jq
   - keepalived
-  - leveldb
-  - libknet1
-  - libnozzle1
-  - libknet1-plugins-all
-  - libcacard
-  - libcgroup
-  - liberation-fonts
-  - libev
-#  - libguestfs   # asamalik: it's a placeholder in another workload
-  - libiscsi
+  - kmod
+  - kpartx
+  - krb5-libs
+  - krb5-workstation
+  - libaio
+  - libatasmart
+  - libattr
+  - libblkid
+  - libcap
+  - libcgroup-tools
+  - libcom_err
+  - libcurl
+  - libgcc
+  - libgcrypt
+  - libgpg-error
+  - libguestfs
+  - libmemcached-libs
+  - libmicrohttpd
+  - libmnl
+  - libnotify
+  - libosinfo
+  - libpcap
+  - libpq
+  - libqb
   - librabbitmq
+  - librados2
+  - librdkafka
   - libreswan
-  - libwayland-client
-  - libwayland-egl
-  - libwayland-server
-  - libbasicobjects
-  - libcollection
-  - libdhash
-  - libini_config
-  - libpath_utils
-  - libref_array
+  - libseccomp
+  - libselinux-ruby
+  - libselinux-utils
+  - libstdc++
+  - libvirt-admin
+  - libvirt-client
+  - libvirt-daemon
+  - libvirt-daemon-config-nwfilter
+  - libvirt-daemon-driver-nodedev
+  - libvirt-daemon-driver-nwfilter
+  - libvirt-daemon-driver-qemu
+  - libvirt-daemon-driver-secret
+  - libvirt-daemon-driver-storage-core
+  - libvirt-libs
+  - libxml2
+  - lksctp-tools
+  - lldpad
+  - lm_sensors-libs
+  - logrotate
+  - lshw
+  - lsof
   - lsscsi
-  - mesa-filesystem
-  - mesa-dri-drivers
-  - mozjs78
-  - netcf
+  - lvm2
+  - lz4-libs
+  - mariadb
+  - mariadb-backup
+  - mariadb-connector-c
+  - mariadb-server-galera
+  - mariadb-server-utils
+  - mdadm
+  - memcached
+  - mod_auth_gssapi
+  - mod_auth_mellon
+  - mod_ssl
+  - ncurses
+  - ncurses-libs
+  - ndctl
+  - net-snmp
+  - net-snmp-agent-libs
+  - net-snmp-libs
+  - net-tools
+  - network-scripts
+  - nfs-utils
+  - nmap-ncat
+  - nodejs
+  - numactl
   - nvme-cli
   - nvmetcli
-  - oathtool
-  - OpenIPMI
-#  - openvswitch
-#  - ovn
+  - openblas-threads
+  - OpenIPMI-libs
+  - OpenIPMI-perl
+  - openldap
+  - openssh
+  - openssh-clients
+  - openssh-server
+  - openssl
+  - openssl-libs
+  - openssl-perl
   - pacemaker
+  - pacemaker-remote
+  - parted
+  - pciutils
+  - pcre
   - pcs
+  - perl-Carp
+  - perl-interpreter
+  - perl-libs
+  - pkgconf-pkg-config
+  - platform-python
+  - platform-python-setuptools
   - podman
-  - pskctool
+  - policycoreutils
+  - policycoreutils-python-utils
+  - procps-ng
+  - protobuf-c
+  - psmisc
+  - python3
+  - python3-attrs
+  - python3-babel
+  - python3-botocore
+  - python3-bson
+  - python3-cffi
+  - python3-click
+  - python3-cryptography
+  - python3-dbus
+  - python3-decorator
+  - python3-devel
+  - python3-distro
+  - python3-dns
+  - python3-docutils
+  - python3-ethtool
+  - python3-gevent
+  - python3-gobject
+  - python3-google-api-client
+  - python3-gssapi
+  - python3-httplib2
+  - python3-iniparse
+  - python3-inotify
+  - python3-ipaclient
+  - python3-ipalib
+  - python3-itsdangerous
+  - python3-jinja2
+  - python3-jmespath
+  - python3-jsonpatch
+  - python3-jsonschema
+  - python3-jwt
+  - python3-ldap
+  - python3-libguestfs
+  - python3-libs
+  - python3-libselinux
   - python3-libvirt
+  - python3-lxml
+  - python3-mako
   - python3-mod_wsgi
+  - python3-netaddr
+  - python3-networkx-core
+  - python3-numpy
+  - python3-oauth2client
+  - python3-oauthlib
+  - python3-pexpect
+  - python3-ply
+  - python3-policycoreutils
+  - python3-prettytable
+  - python3-psycopg2
+  - python3-ptyprocess
+  - python3-py
+  - python3-pyasn1
+  - python3-pyasn1-modules
+  - python3-pycurl
+  - python3-pymongo
+  - python3-PyMySQL
+  - python3-pyOpenSSL
+  - python3-pyparsing
+  - python3-pytz
+  - python3-pyudev
+  - python3-pyyaml
+  - python3-requests
+  - python3-requests-oauthlib
+  - python3-rtslib
+  - python3-s3transfer
+  - python3-scipy
+  - python3-semantic_version
+  - python3-setuptools
+  - python3-six
+  - python3-sqlalchemy
+  - python3-suds
+  - python3-systemd
+  - python3-urllib3
+  - python3-werkzeug
+  - qemu-img
   - qemu-kvm
-  - qt5
+  - qemu-kvm-block-rbd
+  - qemu-kvm-block-ssh
+  - qemu-kvm-core
+  - radvd
   - redis
   - resource-agents
+  - rng-tools
+  - rpmdevtools
+  - rsync
+  - rsyslog
+  - rsyslog-elasticsearch
+  - rsyslog-gnutls
+  - rsyslog-mmjsonparse
+  - rsyslog-mmnormalize
   - ruby
-  - runc
+  - rubygem-json
+  - rubygems
+  - ruby-libs
   - samba
-  - python3-scipy
-  - scrub
-  - setools
+  - selinux-policy
+  - selinux-policy-minimum
+  - selinux-policy-targeted
   - sg3_utils
+  - shadow-utils
+  - shim-x64
   - skopeo
+  - smartmontools
+  - snappy
   - socat
-  - sshpass
-  - sssd
+  - sos
+  - sqlite
   - stunnel
-  - supermin
+  - sudo
   - sysfsutils
+  - syslinux-tftpboot
+  - sysstat
+  - systemd
+  - systemd-libs
+  - systemd-udev
+  - tar
   - targetcli
-  - tftp
+  - target-restore
+  - tcpdump
+  - tftp-server
+  - tmpwatch
+  - traceroute
+  - trousers
+  - tuned-profiles-cpu-partitioning
+  - tzdata
   - unbound
-  - usbredir
-  - volume_key
+  - util-linux
+  - util-linux-user
+  - which
+  - xfsprogs
+  - xinetd
   - yajl
-  - zip
+  - zlib
 
   arch_packages:
     x86_64:
