@@ -104,6 +104,8 @@ data:
   - subversion-kde
   # exim
   - exim
+  # pakchois
+  - pakchois
 
   labels:
   - eln
