@@ -12,6 +12,7 @@ data:
   - mysql-devel
   - mysql-server
   - mysql-test
+  - mysql-selinux
 
   labels:
   - eln
