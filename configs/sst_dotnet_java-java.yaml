@@ -33,6 +33,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   package_placeholders:
     java-17-openjdk:

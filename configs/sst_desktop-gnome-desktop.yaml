@@ -42,6 +42,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   arch_packages:
     armv7hl:

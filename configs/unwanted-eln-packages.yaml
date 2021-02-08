@@ -6,6 +6,7 @@ data:
   maintainer: bakery
   labels:
   - eln
+  - c9s
 
   ###  Unwanted packages in ELN  ###
   #

@@ -6,6 +6,7 @@ data:
   maintainer: sst_cs_apps
   labels:
   - eln
+  - c9s
   packages:
   - perl-Test-NoWarnings
   - perl-DBD-SQLite

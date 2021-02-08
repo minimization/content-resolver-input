@@ -4,6 +4,7 @@ data:
   labels:
   - eln-candidate
   - eln
+  - c9s
   maintainer: sst_platform_tools
   name: Comps group performance for rhel-8-appstream
   packages:
