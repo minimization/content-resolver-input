@@ -16,6 +16,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   package_placeholders:
     # No longer in Fedora

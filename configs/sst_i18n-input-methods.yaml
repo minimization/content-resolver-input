@@ -8,6 +8,7 @@ data:
   labels:
   - eln-candidate
   - eln
+  - c9s
   packages:
   - gtk2-immodule-xim
   - gtk3-immodule-xim

@@ -6,6 +6,7 @@ data:
   maintainer: sst_platform_tools
   labels:
   - eln
+  - c9s
 
   unwanted_packages:
   - cloog

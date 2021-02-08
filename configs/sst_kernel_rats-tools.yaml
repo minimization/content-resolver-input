@@ -9,4 +9,5 @@ data:
   - python3-linux-procfs
   labels:
   - eln
+  - c9s
 

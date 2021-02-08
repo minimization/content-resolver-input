@@ -12,6 +12,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   package_placeholders:
     tigervnc-selinux:

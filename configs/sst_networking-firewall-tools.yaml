@@ -7,6 +7,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   packages:
   - arptables
