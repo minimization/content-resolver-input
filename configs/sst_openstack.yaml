@@ -190,8 +190,6 @@ data:
   - perl-interpreter
   - perl-libs
   - pkgconf-pkg-config
-  - platform-python
-  - platform-python-setuptools
   - podman
   - policycoreutils
   - policycoreutils-python-utils
