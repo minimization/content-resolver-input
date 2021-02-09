@@ -12,6 +12,7 @@ data:
   - gdb-headless
   - libbabeltrace
   - libbabeltrace-devel
+  - source-highlight
   # See libipt below
 
   labels:
