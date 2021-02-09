@@ -85,7 +85,6 @@ data:
   - iproute-tc
   - ipset
   - iptables
-  - iptables-ebtables
   - iptables-libs
   - iptables-services
   - iputils
@@ -235,7 +234,7 @@ data:
   - python3-mako
   - python3-mod_wsgi
   - python3-netaddr
-  - python3-networkx-core
+  - python3-networkx
   - python3-numpy
   - python3-oauth2client
   - python3-oauthlib
@@ -271,8 +270,6 @@ data:
   - python3-werkzeug
   - qemu-img
   - qemu-kvm
-  - qemu-kvm-block-rbd
-  - qemu-kvm-block-ssh
   - qemu-kvm-core
   - radvd
   - redis
@@ -325,7 +322,6 @@ data:
   - util-linux-user
   - which
   - xfsprogs
-  - xinetd
   - yajl
   - zlib
 
@@ -340,6 +336,14 @@ data:
 #    - spice-server
     ppc64le:
     - dpdk
+
+  package_placeholders:
+    qemu-kvm-block-rbd:
+      description: RHEL Only package
+      srpm: qemu-kvm
+    qemu-kvm-block-ssh:
+      description: RHEL Only package
+      srpm: qemu-kvm
 
   labels:
   - eln
