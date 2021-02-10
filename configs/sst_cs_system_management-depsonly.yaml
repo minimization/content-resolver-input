@@ -57,7 +57,7 @@ data:
   - tesseract
   - tesseract-devel
 
-arch_packages:
+  arch_packages:
     #cdrdao not supported on s390x
     aarch64:
     - cdrdao
@@ -68,5 +68,6 @@ arch_packages:
     ppc64le:
     - cdrdao
 
-labels:
+  labels:
   - eln
+  - c9s

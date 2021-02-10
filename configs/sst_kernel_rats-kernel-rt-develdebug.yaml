@@ -6,7 +6,8 @@ data:
     maintainer: sst_kernel_rats
     packages: []
     labels:
-        - eln
+        - eln 
+        - c9s
 
     package_placeholders:
       kernel-rt-debug:

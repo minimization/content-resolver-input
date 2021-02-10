@@ -11,6 +11,7 @@ data:
         - kernel-tools-libs-devel
     labels:
         - eln
+        - c9s
     arch_packages:
         s390x:
             - kernel-zfcpdump-devel

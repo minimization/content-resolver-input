@@ -9,6 +9,7 @@ data:
 
   labels:      # <-- Please leave
   - eln        #     this unchanged.
+  - c9s
 
   package_placeholders:
     # kpatch is a RHEL-only package

@@ -9,6 +9,7 @@ data:
 
   labels:      # <-- Please leave
   - eln        #     this unchanged.
+  - c9s
 
 
   # (Only include the following section if you have arch-specific packages.)
