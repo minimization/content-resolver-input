@@ -20,6 +20,7 @@ data:
         - python3-perf
     labels:
         - eln
+        - c9s
     arch_packages:
         s390x:
             - kernel-zfcpdump

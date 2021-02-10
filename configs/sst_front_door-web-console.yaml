@@ -6,6 +6,7 @@ data:
   maintainer: sst_front_door
   labels:
     - eln
+    - c9s
 
   packages:
     # meta-package for the basic stuff (web server, bridge, core pages)
