@@ -2,7 +2,7 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Platform Tools Unwanted Packages
-  description: Packages that Platform Tool maintains in RHEL 8 but won't in RHEL 9
+  description: Platform Tools recommendations for packages not to ship
   maintainer: sst_platform_tools
   labels:
   - eln
