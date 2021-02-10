@@ -19,6 +19,7 @@ data:
   - python2-pycryptodomex
   - python3-ecdsa
   - python3-pycryptodomex
+  - python3-pyOpenSSL
   
   labels:
   - eln
