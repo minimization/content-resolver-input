@@ -35,8 +35,6 @@ data:
   - libmcpp-devel
   # Remove the temporary compat package for libpthread_nonshared.a.
   - compat-libpthread-nonshared
-  # Remove nscd in favour of sssd.
-  - nscd
   # Remove jsoncpp and rhash which are not used by cmake.
   - jsoncpp
   - rhash
