@@ -38,3 +38,7 @@ data:
   # Remove jsoncpp and rhash which are not used by cmake.
   - jsoncpp
   - rhash
+  # libbsd contains functionality which is not thread-safe/incompatible
+  # with glibc (fgetln, setproctitle).  fgetln should calls be replaced
+  # with getline, arc4random* with a PRNG from a cryptograhpic library.
+  - libbsd
