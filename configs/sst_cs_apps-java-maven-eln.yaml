@@ -4,13 +4,12 @@ data:
   name: Apache Maven 3.6
   description: Java project management and project comprehension tool
   maintainer: sst_cs_apps
-  # asamalik: there are no modules yet, so commenting this part out
-  # this way we won't lose the packages from the set
-  #modules_enable:
-  #- maven:3.6
+
+  modules_enable:
+  - maven:3.6
 
   packages:
   - maven
 
   labels:
-  - c9s
+  - eln
