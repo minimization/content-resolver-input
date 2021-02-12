@@ -5,7 +5,8 @@ data:
   description: path manager daemon for multipath TCP
   maintainer: sst_networking
 
-  packages: mptcpd
+  packages: 
+  - mptcpd
 
   labels:
   - eln
