@@ -30,6 +30,7 @@ data:
   - python3-nose
   - python3-pytest4
   - python3-pytoml
+  - python3-mock
 
   # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
   - python-jupyter-filesystem
@@ -50,8 +51,6 @@ data:
   # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
   - python3-coverage
 
-  # mock is in the Python standard library, use that one instead
-  - python3-mock
   # funcsigs is a backport from the Python standard library inspect module, use that one instead
   - python3-funcsigs
 
