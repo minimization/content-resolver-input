@@ -15,6 +15,7 @@ data:
   - netcf
   - ocaml-camlp4
   - OVMF
+  - qemu
   - perl-Sys-Virt
   - rhevm-guest-agent
   - spice-html5
