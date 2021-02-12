@@ -27,6 +27,9 @@ data:
   - wireshark
   - wireshark-cli
 
+  unwanted_packages:
+  - dropwatch
+
   labels:
   - eln
   - c9s
