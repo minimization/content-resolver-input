@@ -75,7 +75,8 @@ data:
   - python3-pretend
   - python3-sure
 
-  # parsing HTML is not something we want to support just for the sake of tests
+  # The Python standard library already has html.parser;
+  # another HTML parsing library is redundant
   - python3-html5lib
 
   labels:
