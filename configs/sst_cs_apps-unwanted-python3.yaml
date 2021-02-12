@@ -57,6 +57,10 @@ data:
   # funcsigs is a backport from the Python standard library inspect module, use that one instead
   - python3-funcsigs
 
+  # hypothesis is a testing package with a fairly rapid release schedule,
+  # so it's not something we'd want to pin and support for an extended time
+  - python3-hypothesis
+
   # breezy is only an optional test dependency of pip, with large dep tree
   - breezy
 
