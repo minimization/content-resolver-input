@@ -64,6 +64,20 @@ data:
   # breezy is only an optional test dependency of pip, with large dep tree
   - breezy
 
+  # pillow is riddled with CVEs all the time, not something we want to fix
+  - python3-pillow
+  - python3-pillow-devel
+  - python3-pillow-qt
+  - python3-pillow-tk
+
+  # a test only depndencies, can be replaced by stdlib's unittest.mock if needed
+  # not "enterprise" material
+  - python3-pretend
+  - python3-sure
+
+  # parsing HTML is not something we want to support just for the sake of tests
+  - python3-html5lib
+
   labels:
   - eln
   - c9s
