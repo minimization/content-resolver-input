@@ -5,7 +5,7 @@ data:
   description: Perl 5.32
   maintainer: sst_cs_apps
   labels:
-  - c9s
+  - eln
   packages:
   - perl
   - perl-Algorithm-Diff
@@ -232,7 +232,5 @@ data:
   - perl-vars
   - perl-version
   - perl-vmsish
-  # asamalik: there are no modules yet, so commenting this part out
-  # this way we won't lose the packages from the set
-  #modules_enable:
-  #- perl:5.32
+  modules_enable:
+  - perl:5.32
