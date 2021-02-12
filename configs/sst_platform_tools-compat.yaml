@@ -13,6 +13,7 @@ data:
     # RHEL 8 bumped SONAME of libgfortran.so.  Support RHEL 7 apps.
     compat-libgfortran-48:
       description: RHEL-only compat package.
+      srpm: compat-libgfortran-48
       requires:
         - binutils
         - glibc
