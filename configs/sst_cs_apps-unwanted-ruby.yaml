@@ -6,7 +6,9 @@ data:
   maintainer: sst_cs_apps
 
   unwanted_source_packages:
+  - rubygem-bson     # A dependency of rubygem-mongo.
   - rubygem-bundler
+  - rubygem-mongo    # MongoDB is not shipped anymore.
 
   unwanted_packages:
   - rubygem-rspec-its
