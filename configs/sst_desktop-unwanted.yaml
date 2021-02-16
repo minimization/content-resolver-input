@@ -56,7 +56,6 @@ data:
   - libchamplain
   - libbluray
   - libdmapsharing
-  - libaec
   # Replaced by tracker3
   - tracker
   - tracker-miners
