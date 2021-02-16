@@ -86,6 +86,7 @@ data:
   - ipset
   - iptables
   - iptables-libs
+  - iptables-nft
   - iptables-services
   - iputils
   - ipxe-bootimgs
