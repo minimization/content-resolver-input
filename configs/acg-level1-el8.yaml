@@ -2,9 +2,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: RHEL 8 ACG lvl 1
+  name: ACG Level 1 Packages for RHEL 8
   description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
-  maintainer: asamalik
+  maintainer: bakery
   packages:
   - glibc
   - libstdc++
