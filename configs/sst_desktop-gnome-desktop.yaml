@@ -59,30 +59,6 @@ data:
       - fprintd-pam
 
   package_placeholders:
-    redhat-logos:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures
-      requires:
-        - coreutils
-      buildrequires:
-        - syslinux-perl
-        - netpbm-progs
-        - hardlink
-    redhat-logos-httpd:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures used by httpd
-      requires: []
-      buildrequires: []
-    redhat-logos-ipa:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures used by IPA
-      requires: []
-      buildrequires: []
-    redhat-backgrounds:
-      srpm: redhat-logos
-      description: Red Hat-related desktop backgrounds
-      requires: []
-      buildrequires: []
     gnome-shell-extension-systemMonitor:
       srpm: gnome-shell-extensions
       description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
