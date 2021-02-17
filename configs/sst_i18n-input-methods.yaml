@@ -13,8 +13,8 @@ data:
   - gtk2-immodule-xim
   - gtk3-immodule-xim
   - ibus
+  - ibus-anthy
   - ibus-hangul
-  - ibus-kkc
   - ibus-libpinyin
   - ibus-libzhuyin
   - ibus-m17n
