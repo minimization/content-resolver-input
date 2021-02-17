@@ -1,0 +1,43 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Desktop branding
+  description: RHEL branding
+  maintainer: sst_desktop
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    redhat-bookmarks:
+      srpm: redhat-bookmarks
+      description: This package contains the default bookmarks for Red Hat Enterprise Linux
+      requires: []
+      buildrequires: []
+    redhat-logos:
+      srpm: redhat-logos
+      description: Red Hat-related icons and pictures
+      requires:
+        - coreutils
+      buildrequires:
+        - syslinux-perl
+        - netpbm-progs
+        - hardlink
+    redhat-logos-httpd:
+      srpm: redhat-logos
+      description: Red Hat-related icons and pictures used by httpd
+      requires: []
+      buildrequires: []
+    redhat-logos-ipa:
+      srpm: redhat-logos
+      description: Red Hat-related icons and pictures used by IPA
+      requires: []
+      buildrequires: []
+    redhat-backgrounds:
+      srpm: redhat-logos
+      description: Red Hat-related desktop backgrounds
+      requires: []
+      buildrequires: []
