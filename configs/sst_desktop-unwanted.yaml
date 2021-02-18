@@ -56,6 +56,7 @@ data:
   - libchamplain
   - libbluray
   - libdmapsharing
+  - gnome-shell-extension-horizontal-workspaces
   # Replaced by tracker3
   - tracker
   - tracker-miners
