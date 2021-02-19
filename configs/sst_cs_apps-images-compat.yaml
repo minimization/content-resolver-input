@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Compatibility image libraries
+  description: Older versions of popular image processing libraries
+  maintainer: sst_cs_apps
+
+  packages:
+  - libpng15
+
+  package_placeholders:
+    compat-libtiff3:
+      description: Compatibility package for libtiff 3
+      requires:
+      - libgcc
+      - libjpeg-turbo
+      - libstdc++
+      - zlib
+      buildrequires:
+      - autoconf
+      - automake
+      - libjpeg-turbo-devel
+      - libtool
+      - zlib-devel
+
+  labels:
+  - c9s
