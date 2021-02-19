@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: rt-setup
+  name: realtime-setup
   description: Package that creates realtime group and limits
   maintainer: sst_kernel_rats
   packages: []
@@ -10,8 +10,8 @@ data:
   - c9s
 
   package_placeholders:
-    rt-setup:
-      srpm: rt-setup
+    realtime-setup:
+      srpm: realtime-setup
       description: This package is not in Fedora (yet), but we want it here.
       requires:
       - pam
