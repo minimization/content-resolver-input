@@ -14,8 +14,8 @@ data:
       - stress-ng
 
   package_placeholders:
-    rt-tests:
-      srpm: rt-tests
+    realtime-tests:
+      srpm: realtime-tests
       description: This package is not in Fedora (yet), but we want it here.
       requires:
         - bash
