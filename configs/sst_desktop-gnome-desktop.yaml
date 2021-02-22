@@ -26,7 +26,6 @@ data:
   - gnome-session
   - gnome-shell
   - gnome-shell-extension-auto-move-windows
-  - gnome-shell-extension-dash-to-dock
   - gnome-shell-extension-drive-menu
   - gnome-shell-extension-native-window-placement
   - gnome-shell-extension-screenshot-window-sizer
@@ -68,5 +67,10 @@ data:
     gnome-shell-extension-user-theme:
       srpm: gnome-shell-extensions
       description: Support for custom themes in GNOME Shell
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-dash-to-dock:
+      srpm: gnome-shell-extensions
+      description: Alternative dock for the Gnome Shell
       requires: []
       buildrequires: []
