@@ -5,8 +5,18 @@ data:
   description: Ansible roles for managing core RHEL system components
   maintainer: sst_system_roles
 
-  packages:
-  - linux-system-roles
+  packages: []
+
+  package_placeholders:
+    rhel-system-roles:
+      srpm: linux-system-roles
+      description: Has a different name when built on RHEL
+      requires:
+        - python3-jmespath
+      buildrequires:
+        - asciidoc
+        - highlight
+        - pandoc
 
   labels:
   - eln
