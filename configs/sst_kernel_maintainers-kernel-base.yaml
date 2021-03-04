@@ -14,7 +14,6 @@ data:
         - kernel-modules
         - kernel-modules-extra
         - kernel-tools
-        - kernel-tools-libs
         - linux-firmware
         - perf
         - python3-perf
@@ -27,3 +26,9 @@ data:
             - kernel-zfcpdump-core
             - kernel-zfcpdump-modules
             - kernel-zfcpdump-modules-extra
+        x86_64:
+            - kernel-tools-libs
+        aarch64:
+            - kernel-tools-libs
+        ppc64le:
+            - kernel-tools-libs
