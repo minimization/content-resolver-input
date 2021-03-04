@@ -6,7 +6,6 @@ data:
   maintainer: sst_desktop
 
   packages:
-  - file-roller
   - gvfs
   - gvfs-client
   - gvfs-fuse

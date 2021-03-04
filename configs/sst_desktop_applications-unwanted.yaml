@@ -36,6 +36,8 @@ data:
   - gnome-boxes
   # Wasn't part of RHEL 8 and won't be part of RHEL 9
   - ImageMagick
+  # Functionality moved into Nautilus, see https://pagure.io/fedora-workstation/issue/167
+  - file-roller
   labels:
   - eln
   - c9s
