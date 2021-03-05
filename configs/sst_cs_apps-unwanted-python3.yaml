@@ -79,6 +79,9 @@ data:
   # another HTML parsing library is redundant
   - python3-html5lib
 
+  # This is usually used for %check only and has a huge dep chain
+  - python3-twisted
+
   labels:
   - eln
   - c9s
