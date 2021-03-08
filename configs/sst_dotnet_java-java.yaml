@@ -4,6 +4,9 @@ data:
   name: OpenJDK
   description: OpenJDK and the Java Platform
   maintainer: sst_dotnet_java
+  labels:
+  - eln
+  - c9s
 
   packages:
   - java-1.8.0-openjdk
@@ -24,16 +27,37 @@ data:
   - java-11-openjdk-src
   - java-11-openjdk-static-libs
   - copy-jdk-configs
-  # With Nashorn gone in newer JDKs, we need a JS engine
-  - rhino
+  # Debug packages should be built but shipped in CRB
+  - java-1.8.0-openjdk-slowdebug
+  - java-1.8.0-openjdk-accessibility-slowdebug
+  - java-1.8.0-openjdk-demo-slowdebug
+  - java-1.8.0-openjdk-devel-slowdebug
+  - java-1.8.0-openjdk-headless-slowdebug
+  - java-1.8.0-openjdk-src-slowdebug
+  - java-1.8.0-openjdk-fastdebug
+  - java-1.8.0-openjdk-accessibility-fastdebug
+  - java-1.8.0-openjdk-demo-fastdebug
+  - java-1.8.0-openjdk-devel-fastdebug
+  - java-1.8.0-openjdk-headless-fastdebug
+  - java-1.8.0-openjdk-src-fastdebug
+  - java-11-openjdk-slowdebug
+  - java-11-openjdk-demo-slowdebug
+  - java-11-openjdk-devel-slowdebug
+  - java-11-openjdk-headless-slowdebug
+  - java-11-openjdk-jmods-slowdebug
+  - java-11-openjdk-src-slowdebug
+  - java-11-openjdk-static-libs-slowdebug
+  - java-11-openjdk-fastdebug
+  - java-11-openjdk-demo-fastdebug
+  - java-11-openjdk-devel-fastdebug
+  - java-11-openjdk-headless-fastdebug
+  - java-11-openjdk-jmods-fastdebug
+  - java-11-openjdk-src-fastdebug
+  - java-11-openjdk-static-libs-fastdebug
   # Core tool for JDK support work
   - byteman
   - byteman-bmunit
   - byteman-javadoc
-
-  labels:
-  - eln
-  - c9s
 
   package_placeholders:
     java-17-openjdk:
@@ -74,7 +98,6 @@ data:
         - xorg-x11-proto-devel
         - zip
         - javapackages-filesystem
-        - java-latest-openjdk-devel
         - libffi-devel
         - tzdata-java
         - gcc
