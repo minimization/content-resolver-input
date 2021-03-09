@@ -17,6 +17,7 @@ data:
   - cockpit-session-recording
   - gssproxy
   - certmonger
+  - freeipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
