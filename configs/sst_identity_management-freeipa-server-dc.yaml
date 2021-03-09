@@ -9,6 +9,7 @@ data:
   - freeipa-server
   - freeipa-server-trust-ad
   - freeipa-healthcheck
+  - freeipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln

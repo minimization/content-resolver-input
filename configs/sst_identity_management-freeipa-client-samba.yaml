@@ -8,6 +8,7 @@ data:
   packages:
   - freeipa-client
   - freeipa-client-samba
+  - freeipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
