@@ -49,9 +49,6 @@ data:
   - genwqe-zlib-devel
   - genwqe-tools
   - iprutils
-  - liboggz-doc
-  - liboggz-devel
-  - liboggz
   - librabbitmq-devel
   - librabbitmq
   - librabbitmq-tools
