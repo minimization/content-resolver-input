@@ -36,7 +36,6 @@ data:
   - bzip2
   - systemd
   - rsyslog
-  - xorg-x11-server-utils
   - xorg-x11-xauth
   - dbus-x11
   - metacity
