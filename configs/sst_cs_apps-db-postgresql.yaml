@@ -23,6 +23,7 @@ data:
   - postgresql-upgrade
   - postgresql-upgrade-devel
   - pgaudit
+  - pg_repack
   - postgres-decoderbufs
 
   labels:
