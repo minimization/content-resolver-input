@@ -50,6 +50,12 @@ data:
   - gsl
   - python3-httplib2
   - amanda-server
+  - python3-opencv
+  - opencv-devel
+  - opencv-contrib
+  - opencv
+  - opencv-core
+  - opencv-doc
 
   labels:
   - eln
