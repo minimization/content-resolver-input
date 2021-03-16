@@ -44,7 +44,6 @@ data:
   - librsvg2
   - xfsprogs
   - gfs2-utils
-  - system-storage-manager
   - device-mapper-persistent-data
   - xfsdump
   - udisks2
