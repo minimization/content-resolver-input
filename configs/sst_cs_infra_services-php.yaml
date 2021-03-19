@@ -38,7 +38,7 @@ data:
   - php-pecl-apcu
   - php-pecl-apcu-devel
   - php-pecl-rrd
-  - php-pecl-xdebug
+  - php-pecl-xdebug3
   - php-pecl-zip
 
   labels:
