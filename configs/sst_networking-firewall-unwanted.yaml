@@ -13,3 +13,5 @@ data:
   - iptstate
   - bridge-utils
   - ebtables-legacy
+  - iptables-legacy
+  - iptables-legacy-libs
