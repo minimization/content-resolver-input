@@ -26,6 +26,7 @@ data:
   - gnome-session
   - gnome-shell
   - gnome-shell-extension-auto-move-windows
+  - gnome-shell-extension-common
   - gnome-shell-extension-drive-menu
   - gnome-shell-extension-native-window-placement
   - gnome-shell-extension-screenshot-window-sizer
@@ -36,7 +37,8 @@ data:
   - low-memory-monitor
   - mozjs78
   - power-profiles-daemon
-  - tracker3
+  - tracker
+  - tracker-miners
   - uresourced
   - xdg-user-dirs-gtk
 
