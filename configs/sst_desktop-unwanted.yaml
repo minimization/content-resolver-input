@@ -57,9 +57,9 @@ data:
   - libbluray
   - libdmapsharing
   - gnome-shell-extension-horizontal-workspaces
-  # Replaced by tracker3
-  - tracker
-  - tracker-miners
+  # tracker3 renamed to tracker in F34+
+  - tracker3
+  - tracker3-miners
   # Only linhandy1 will be part of RHEL 9
   - libhandy
   labels:

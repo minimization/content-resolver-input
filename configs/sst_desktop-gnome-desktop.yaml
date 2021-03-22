@@ -37,7 +37,8 @@ data:
   - low-memory-monitor
   - mozjs78
   - power-profiles-daemon
-  - tracker3
+  - tracker
+  - tracker-miners
   - uresourced
   - xdg-user-dirs-gtk
 
