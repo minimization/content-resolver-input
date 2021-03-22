@@ -11,6 +11,7 @@ data:
   package_placeholders:
     man-pages-overrides:
       description: Complementary and updated manual pages
+      srpm: man-pages-overrides
 
   labels:
   - eln
