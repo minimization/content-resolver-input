@@ -23,6 +23,7 @@ data:
   - rsyslog-pgsql
   - rsyslog-relp
   - rsyslog-snmp
+  - rsyslog-udpspoof
   - librdkafka-devel
   - liblognorm-doc
 
