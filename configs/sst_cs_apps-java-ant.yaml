@@ -1,14 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Apache Ant 1.10
+  name: Apache Ant
   description: Java build tool
   maintainer: sst_cs_apps
-
-  # asamalik: there are no modules yet, so commenting this part out
-  # this way we won't lose the packages from the set
-  #modules_enable:
-  #- ant:1.10
 
   packages:
   - ant
@@ -33,4 +28,5 @@ data:
   - ant-xz
 
   labels:
+  - eln
   - c9s
