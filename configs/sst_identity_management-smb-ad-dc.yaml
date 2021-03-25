@@ -1,11 +1,14 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Samba FS Client
-  description: SMB/CIFS clients to complement the built-in SMB/CIFS filesystem in Linux. These clients allow access of SMB/CIFS shares and printing to SMB/CIFS printers.
+  name: Samba AD DC
+  description: Active Directory Domain Controller implementation
   maintainer: sst_identity_management
 
   packages:
+  - samba
+  - samba-dc
+  - samba-dc-bind-dlz
   - samba-client
   - cifs-utils
   - samba-winbind
@@ -14,5 +17,4 @@ data:
   - samba-krb5-printing
 
   labels:
-  - eln
-  - c9s
+  - fedora
