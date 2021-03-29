@@ -10,6 +10,8 @@ data:
   - perf
   - strace
   - trace-cmd
+  - libtracefs
+  - libtracevent
   - kernelshark
 
   arch_packages:
