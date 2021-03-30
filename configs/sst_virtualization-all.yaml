@@ -161,7 +161,7 @@ data:
         - zlib-devel
       srpm: qemu-kvm
     libguestfs:
-      description: libguestfs is a set of tools for accessing and modifying virtual machine (VM) disk images
+      description: libguestfs is a library for accessing and modifying virtual machine (VM) disk images
       requires:
         - gdisk
         - gfs2-utils
@@ -198,6 +198,19 @@ data:
         - rubygem-test-unit
         - squashfs-tools
       srpm: libguestfs
+    guestfs-tools:
+      description: tools for accessing and modifying virtual machine (VM) disk images
+      requires:
+        - libguestfs
+        - qemu-img
+      buildrequires:
+        - libguestfs-devel
+        - libguestfs-xfs
+        - ocaml-findlib-devel
+        - ocaml-gettext-devel
+        - perl-libintl-perl
+        - po4a
+      srpm: guestfs-tools
     virt-v2v:
       description: Virt-v2v converts a single guest from a foreign hypervisor to run on KVM
       requires:
