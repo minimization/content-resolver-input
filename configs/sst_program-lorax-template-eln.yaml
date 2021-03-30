@@ -36,6 +36,9 @@ data:
   - bzip2
   - systemd
   - rsyslog
+  - rgb
+  - xrandr
+  - xrdb
   - xorg-x11-xauth
   - dbus-x11
   - metacity
@@ -44,6 +47,7 @@ data:
   - librsvg2
   - xfsprogs
   - gfs2-utils
+  - system-storage-manager
   - device-mapper-persistent-data
   - xfsdump
   - udisks2
@@ -197,5 +201,5 @@ data:
       srpm: redhat-release
 
   labels:
-  - c9s
+  - eln
 
