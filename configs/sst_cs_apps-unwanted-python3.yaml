@@ -93,7 +93,7 @@ data:
   - python3-tornado
   - python3-twisted
 
-  # We don't support extra Sphinx themes in RHEL
+  # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
   - python3-Pallets-Sphinx-Themes
 
   labels:
