@@ -189,7 +189,6 @@ data:
         - ocaml-hivex-devel
         - ocaml-ocamldoc
         - parted
-        - perl-Sys-Virt
         - perl-hivex
         - perl-libintl-perl
         - po4a
