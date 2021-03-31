@@ -61,6 +61,7 @@ data:
   - python3-pylint
   - python3-pyflakes
   - python3-flake8
+  - python3-isort
 
   # funcsigs is a backport from the Python standard library inspect module, use that one instead
   - python3-funcsigs
@@ -95,6 +96,7 @@ data:
 
   # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
   - python3-Pallets-Sphinx-Themes
+  - python3-sphinx-theme-py3doc-enhanced
 
   labels:
   - eln
