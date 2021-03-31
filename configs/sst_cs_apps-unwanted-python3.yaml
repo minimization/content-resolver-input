@@ -40,6 +40,7 @@ data:
   - python3-ipykernel
   - python3-ipython
   - python3-ipywidgets
+  - python3-jedi
   - python3-jupyter-client
   - python3-jupyter-core
   - python3-matplotlib
@@ -53,6 +54,13 @@ data:
 
   # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
   - python3-coverage
+  - python3-pytest-cov
+
+  # Many  packages lint code in %check, we should not need to do that in RHEL (or even in Fedora)
+  - python3-pycodestyle
+  - python3-pylint
+  - python3-pyflakes
+  - python3-flake8
 
   # funcsigs is a backport from the Python standard library inspect module, use that one instead
   - python3-funcsigs
@@ -74,13 +82,19 @@ data:
   # not "enterprise" material
   - python3-pretend
   - python3-sure
+  - python3-freezegun
+  - python3-trustme
 
   # The Python standard library already has html.parser;
   # another HTML parsing library is redundant
   - python3-html5lib
 
-  # This is usually used for %check only and has a huge dep chain
+  # Web servers usually used for %check only, have a huge dep chain
+  - python3-tornado
   - python3-twisted
+
+  # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
+  - python3-Pallets-Sphinx-Themes
 
   labels:
   - eln
