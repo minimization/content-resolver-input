@@ -5,8 +5,7 @@ data:
   description: Utility for parsing SMBIOS information and configuring canonical BMC access
   maintainer: jsavitz
 
-  packages:
-  - redfish-finder
+  packages: []
 
   labels:
   - c9s
