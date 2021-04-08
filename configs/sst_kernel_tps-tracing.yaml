@@ -17,6 +17,8 @@ data:
   arch_packages:
     aarch64:
       - bpftrace
+      - opencsd
+      - opencsd-devel
     ppc64le:
       - bpftrace
     s390x:
