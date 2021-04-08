@@ -67,7 +67,6 @@ data:
   - pcp-pmda-news
   - pcp-pmda-nfsclient
   - pcp-pmda-nginx
-  - pcp-pmda-nutcracker
   - pcp-pmda-nvidia-gpu
   - pcp-pmda-openmetrics
   - pcp-pmda-openvswitch
