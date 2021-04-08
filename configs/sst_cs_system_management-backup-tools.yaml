@@ -8,22 +8,17 @@ data:
   packages:
   - amanda
   - amanda-client
-  - amanda-libs
-  - bacula-storage
-  - bacula-libs-sql
-  - bacula-common
-  - bacula-traymonitor
-  - bacula-devel
-  - bacula-console-bat
-  - bacula-console
   - bacula-client
-  - bacula-libs
-  - bacula-director
-  - bacula-logwatch
-  - libisoburn-devel
-  - xorriso
+  - bacula-console
+  - libburn
+  - libburn-devel
   - libisoburn
+  - libisoburn-devel
   - libisoburn-doc
+  - libisofs
+  - libisofs-devel
+  - libisofs-doc
+  - xorriso
 
   arch_packages:
     #rear not yet supported on s390x and arm
