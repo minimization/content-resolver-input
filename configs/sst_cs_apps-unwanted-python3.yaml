@@ -57,6 +57,8 @@ data:
   - python3-pytest-cov
 
   # Many  packages lint code in %check, we should not need to do that in RHEL (or even in Fedora)
+  - black
+  - python3-black
   - python3-pycodestyle
   - python3-pylint
   - python3-pyflakes
