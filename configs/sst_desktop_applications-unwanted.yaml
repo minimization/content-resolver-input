@@ -25,6 +25,9 @@ data:
   # Old or deprecated or unwanted or unused stuff
   - rarian
   - GConf2
+  # Miners are mostly broken and other problems
+  # https://bugzilla.redhat.com/show_bug.cgi?id=1913643
+  - gnome-online-miners
   # Only Qt5 will be part of RHEL 9
   - qt
   - PyQt4
