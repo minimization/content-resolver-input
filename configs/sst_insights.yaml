@@ -21,6 +21,16 @@ data:
       - systemd
       - python3-PyYAML
       - tar
+    rhc:
+      srpm: rhc
+      description: rhc
+      requires:
+      - pkgconfig
+      buildrequires:
+      - git
+      - golang
+      - dbus-devel
+      - systemd-devel
 
   labels:
   - eln
