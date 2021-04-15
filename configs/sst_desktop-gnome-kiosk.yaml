@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-kiosk
+  description: Window management and application launching for GNOME
+  maintainer: sst_desktop
+
+  packages:
+    - gnome-kiosk
+
+  labels:
+  - eln
+  - c9s
