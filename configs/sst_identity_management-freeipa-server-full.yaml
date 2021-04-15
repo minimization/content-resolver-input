@@ -6,11 +6,11 @@ data:
   maintainer: sst_identity_management
 
   packages:
-  - freeipa-server
-  - freeipa-server-trust-ad
-  - freeipa-server-dns
-  - freeipa-healthcheck
-  - freeipa-selinux # rich dependency that is otherwise unmet
+  - ipa-server
+  - ipa-server-trust-ad
+  - ipa-server-dns
+  - ipa-healthcheck
+  - ipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
