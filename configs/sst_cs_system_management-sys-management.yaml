@@ -28,33 +28,24 @@ data:
   - iprutils
   - jasper-devel
   - lcms2-devel
-  - libcxl
   - libgphoto2-devel
   - librabbitmq
   - librabbitmq-devel
   - librtas
   - librtas-devel
-  - libservicelog
-  - libservicelog-devel
   - libsmi
   - libsmi-devel
   - libsndfile
   - libsndfile-devel
   - libva
   - libva-devel
-  - libvpd
-  - libvpd-devel
-  - lsvpd
   - mksh
   - modulemd-tools
   - netpbm-devel
   - netpbm-doc
   - netpbm-progs
   - opencryptoki
-  - opencryptoki-ccatok
   - opencryptoki-devel
-  - opencryptoki-ep11tok
-  - opencryptoki-icatok
   - opencryptoki-icsftok
   - opencryptoki-libs
   - opencryptoki-swtok
@@ -67,10 +58,6 @@ data:
   - passwd
   - patch
   - patchutils
-  - powerpc-utils
-  - powerpc-utils-core
-  - ppc64-diag
-  - ppc64-diag-rtas
   - python3-volume_key
   - rootfiles
   - sblim-cmpi-base
@@ -114,6 +101,20 @@ data:
     - opal-prd
     - opal-utils
     - opal-firmware
+    - powerpc-utils
+    - powerpc-utils-core
+    - ppc64-diag
+    - ppc64-diag-rtas
+    - libvpd
+    - libvpd-devel
+    - lsvpd
+    - libservicelog
+    - libservicelog-devel
+    - libcxl
+    s390x:
+    - opencryptoki-ccatok
+    - opencryptoki-ep11tok
+    - opencryptoki-icatok
 
   package_placeholders:
     rhel-system-roles-sap:
