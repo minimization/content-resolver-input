@@ -23,6 +23,8 @@ data:
   - libphodav
   - libgovirt
   - libgovirt-devel
+  - libcacard
+  - libcacard-devel
 
   - celt051
   - celt051-devel
