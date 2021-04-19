@@ -25,13 +25,9 @@ data:
     # not armv7hl
     aarch64:
       - opensm-devel
-      - qperf
     ppc64le:
       - opensm-devel
-      - qperf
     s390x:
       - opensm-devel
-      - qperf
     x86_64:
       - opensm-devel
-      - qperf
