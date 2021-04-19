@@ -29,6 +29,7 @@ data:
   - celt051
   - celt051-devel
   - xorg-x11-drv-qxl
+  - xorg-x11-server-Xspice
 
   labels:
   - eln
