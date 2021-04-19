@@ -19,5 +19,5 @@ data:
                 - autoconf
                 - automake
                 - libtool
-                - libidn-devel
+                - libidn2-devel
             srpm: hesiod
