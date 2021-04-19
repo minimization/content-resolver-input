@@ -21,7 +21,7 @@ data:
   - mod_lua
   - mod_fcgid
   - mod_security
-  - mlogc
+  - mod_security-mlogc
   - mod_security_crs
   - apr
   - apr-devel
