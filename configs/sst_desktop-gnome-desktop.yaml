@@ -34,6 +34,7 @@ data:
   - gnome-tweaks
   - chrome-gnome-shell
   - low-memory-monitor
+  - lcms2
   - mozjs78
   - power-profiles-daemon
   - tracker
