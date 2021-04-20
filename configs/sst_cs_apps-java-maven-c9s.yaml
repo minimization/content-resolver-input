@@ -7,6 +7,13 @@ data:
 
   packages:
   - maven
+  # XXX runtime or build deps of Maven that are not automatically added
+  # to be eventually removed
+  - javapackages-bootstrap
+  - maven-verifier
+  - sonatype-oss-parent
+  - javamail
+  - log4j12
 
   labels:
-  - eln
+  - c9s
