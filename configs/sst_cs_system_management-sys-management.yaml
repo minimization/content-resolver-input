@@ -27,7 +27,6 @@ data:
   - ipmitool
   - iprutils
   - jasper-devel
-  - lcms2-devel
   - libgphoto2-devel
   - librabbitmq
   - librabbitmq-devel
