@@ -44,6 +44,10 @@ data:
   - mozjs60
   - mozjs68
   # Old or deprecated or unwanted or unused stuff
+  - clutter-gtk
+  - clutter-gst3
+  - clutter
+  - cogl
   - libIDL
   - redhat-menus
   - dbus-c++
@@ -59,4 +63,4 @@ data:
   # libhandy1 renamed to libhandy in F34+
   - libhandy1
   labels:
-  - c9s
+  - eln
