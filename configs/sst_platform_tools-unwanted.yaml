@@ -14,9 +14,10 @@ data:
   - cppcheck
   - cppcheck-gui
   - cppcheck-htmlreport
-  - cppunit
-  - cppunit-devel
-  - cppunit-doc
+  # Owned by sst_desktop
+  # - cppunit
+  # - cppunit-devel
+  # - cppunit-doc
   - tinyxml2
   - tinyxml2-devel
   - dpkg
