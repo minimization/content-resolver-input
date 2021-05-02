@@ -8,7 +8,10 @@ data:
   labels:
   - elnextras
   repository: repository-fedora-eln
-  
+
+  packages:
+  #tdawson
+  - nedit  
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:
