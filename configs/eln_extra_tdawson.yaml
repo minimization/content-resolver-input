@@ -6,7 +6,7 @@ data:
   maintainer: tdawson
 
   packages:
-  - nedit
+  - qt5-qtwebengine
 
   labels:
   - elnextras
