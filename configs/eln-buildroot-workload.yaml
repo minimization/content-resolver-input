@@ -716,6 +716,7 @@ data:
         - gmock
         - gmock-devel
         - gnome-autoar-devel
+        - gnome-bluetooth-libs-devel
         - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
@@ -1064,6 +1065,7 @@ data:
         - google-gson
         - google-noto-emoji-fonts
         - go-rpm-macros
+        - gperftools-devel
         - gpgme-devel
         - gpgmepp-devel
         - gphoto2
@@ -1288,6 +1290,7 @@ data:
         - libdhash-devel
         - libdmx-devel
         - libdrm-devel
+        - libdv-devel
         - libdvdnav-devel
         - libdvdread-devel
         - libecap-devel
@@ -1315,10 +1318,6 @@ data:
         - libgdl-devel
         - libgee-devel
         - libgexiv2-devel
-        - libgfapi-devel
-        - libgfrpc-devel
-        - libgfxdr-devel
-        - libglusterfs-devel
         - libgnomekbd-devel
         - libgovirt-devel
         - libgsf-devel
@@ -1471,6 +1470,8 @@ data:
         - libv4l-devel
         - libvala-devel
         - libvarlink-devel
+        - libvdpau-devel
+        - libvdpau-trace
         - libvirt-devel
         - libvirt-glib-devel
         - libvisio-devel
@@ -1519,6 +1520,8 @@ data:
         - lttng-ust-devel
         - lua-devel
         - lua-filesystem
+        - luajit
+        - luajit-devel
         - lua-json
         - lua-lpeg
         - lua-lunitx
@@ -3218,6 +3221,7 @@ data:
         - xmvn-connector-ivy
         - xmvn-parent-pom
         - xonsh
+        - xorg-x11-drv-wacom-devel
         - xorg-x11-font-utils
         - xorg-x11-server-devel
         - xorg-x11-server-Xwayland-devel
@@ -3285,10 +3289,8 @@ data:
             - flac-devel
             - flashrom
             - flashrom-devel
-            - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - gperftools-devel
             - gpm
             - gpm-devel
             - HdrHistogram
@@ -3316,9 +3318,6 @@ data:
             - libbsd
             - libconfuse
             - libconfuse-devel
-            - libdispatch
-            - libdispatch-devel
-            - libdv-devel
             - libesmtp
             - libexif-devel
             - libfprint-devel
@@ -3343,13 +3342,9 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
-            - libsqlite3x
-            - libsqlite3x-devel
             - libtool-ltdl-devel
             - libva
             - libva-devel
-            - libvdpau-devel
-            - libvdpau-trace
             - libvorbis-devel
             - libwsman1
             - libXmu-devel
@@ -3520,7 +3515,6 @@ data:
             - socat
             - spax
             - stunnel
-            - swift-lang
             - symlinks
             - systemtap
             - takari-polyglot-common
@@ -3540,7 +3534,6 @@ data:
             - xmvn-mojo
             - xmvn-resolve
             - xmvn-subst
-            - xorg-x11-drv-wacom-devel
         ppc64le:
             - apache-commons-compress
             - apache-commons-exec
@@ -3572,8 +3565,6 @@ data:
             - felix-scr
             - flashrom
             - flashrom-devel
-            - gnome-bluetooth-libs-devel
-            - gperftools-devel
             - gperftools-libs
             - HdrHistogram
             - icu4j
@@ -3596,8 +3587,6 @@ data:
             - libbsd
             - libconfuse
             - libconfuse-devel
-            - libcxl-devel
-            - libdv-devel
             - libfprint-devel
             - libftdi
             - libftdi-devel
@@ -3608,8 +3597,6 @@ data:
             - libpfm-devel
             - libraw1394-devel
             - libunwind
-            - libvdpau-devel
-            - libvdpau-trace
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -3659,16 +3646,10 @@ data:
             - python3-greenlet
             - python3-itsdangerous
             - python3-javapackages
-            - python3-jeepney
-            - python3-keyring
-            - python3-keystoneclient
             - python3-libftdi
             - python3-py
             - python3-pymongo
-            - python3-pytest-trio
-            - python3-secretstorage
             - python3-sqlalchemy
-            - python3-testresources
             - python3-werkzeug
             - python3-zope-event
             - python3-zope-interface
@@ -3692,7 +3673,6 @@ data:
             - xmvn-mojo
             - xmvn-resolve
             - xmvn-subst
-            - xorg-x11-drv-wacom-devel
         s390x:
             - apache-commons-compress
             - apache-commons-exec
@@ -3703,6 +3683,7 @@ data:
             - batik-css
             - batik-util
             - beust-jcommander
+            - bluez-obexd
             - cim-schema
             - compiler-rt
             - dain-snappy
@@ -3723,6 +3704,9 @@ data:
             - felix-gogo-shell
             - felix-scr
             - flac-devel
+            - gnome-bluetooth
+            - gnome-bluetooth-libs
+            - gperftools-libs
             - gpm
             - gpm-devel
             - HdrHistogram
@@ -3747,7 +3731,12 @@ data:
             - leptonica
             - leptonica-devel
             - libbsd
+            - libdv
             - libexif-devel
+            - libgfapi-devel
+            - libgfrpc-devel
+            - libgfxdr-devel
+            - libglusterfs-devel
             - libgphoto2-devel
             - libICE-devel
             - libjpeg-turbo-devel
@@ -3857,6 +3846,7 @@ data:
             - scotch
             - scotch-devel
             - socat
+            - stunnel
             - symlinks
             - takari-polyglot-common
             - tycho
@@ -3893,7 +3883,6 @@ data:
             - dotnet-templates-5.0
             - dyninst
             - dyninst-devel
-            - edk2-tools
             - efivar-devel
             - eigen3-devel
             - elfutils-debuginfod
@@ -3902,13 +3891,10 @@ data:
             - flac-devel
             - flashrom
             - flashrom-devel
-            - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - gperftools-devel
             - gpm
             - gpm-devel
-            - infinipath-psm-devel
             - jasper-devel
             - lcms2-devel
             - leptonica
@@ -3916,9 +3902,6 @@ data:
             - libavc1394-devel
             - libconfuse
             - libconfuse-devel
-            - libdispatch
-            - libdispatch-devel
-            - libdv-devel
             - libexif-devel
             - libfprint-devel
             - libftdi
@@ -3932,31 +3915,22 @@ data:
             - libldac-devel
             - libogg-devel
             - libpfm-devel
-            - libpsm2-devel
             - librabbitmq-devel
             - libraw1394-devel
-            - libsmbios-devel
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
-            - libsqlite3x
-            - libsqlite3x-devel
             - libva
             - libva-devel
-            - libvdpau-devel
-            - libvdpau-trace
             - libvorbis-devel
             - libXmu-devel
             - libXpm-devel
             - libXt-devel
             - linuxconsoletools
-            - luajit
-            - luajit-devel
             - mesa-libxatracker-devel
             - OpenIPMI
             - OpenIPMI-devel
             - OpenIPMI-lanserv
-            - open-vm-tools-devel
             - openwsman-server
             - opus-devel
             - papi
@@ -3965,22 +3939,14 @@ data:
             - patchutils
             - perl-Crypt-PasswdMD5
             - python3-createrepo_c
-            - python3-jeepney
-            - python3-keyring
-            - python3-keystoneclient
             - python3-libftdi
             - python3-libmodulemd
-            - python3-pyroute2
-            - python3-pytest-trio
-            - python3-secretstorage
-            - python3-testresources
             - sblim-indication_helper
             - sblim-sfcc
             - sblim-sfcc-devel
             - sblim-sfcCommon
             - scotch
             - scotch-devel
-            - swift-lang
             - symlinks
             - systemtap
             - uuid-devel
@@ -3988,4 +3954,3 @@ data:
             - valgrind-devel
             - volume_key-devel
             - Xaw3d-devel
-            - xorg-x11-drv-wacom-devel
