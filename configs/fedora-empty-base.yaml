@@ -53,6 +53,7 @@ data:
   # (mandatory field)
   labels:
   - eln
+  - eln-extras
   - eln-buildroot
   - eln-analyze-only
 
