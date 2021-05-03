@@ -9,5 +9,5 @@ data:
   - qt5-qtwebengine
 
   labels:
-  - elnextras
+  - eln-extras
 

@@ -6,7 +6,7 @@ data:
   description: Extra packages not in ELN, but needed to be built like ELN for testing
   maintainer: eln-sig
   labels:
-  - elnextras
+  - eln-extras
   repository: repository-fedora-eln
 
   packages:
