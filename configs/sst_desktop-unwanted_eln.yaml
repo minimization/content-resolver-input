@@ -62,5 +62,8 @@ data:
   - tracker3-miners
   # libhandy1 renamed to libhandy in F34+
   - libhandy1
+  # glew is no longer needed by mesa-demos, and the soname churns too much to be
+  # useful for a long-life product like RHEL.
+  - glew
   labels:
   - eln
