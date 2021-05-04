@@ -1443,7 +1443,6 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libss-devel
-        - libssh2
         - libsss_certmap-devel
         - libsss_idmap-devel
         - libsss_nss_idmap-devel
@@ -3340,6 +3339,7 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
+            - libssh2
             - libtool-ltdl-devel
             - libva
             - libva-devel
@@ -3551,8 +3551,6 @@ data:
             - felix-scr
             - flashrom
             - flashrom-devel
-            - glusterfs
-            - glusterfs-fuse
             - gperftools-libs
             - HdrHistogram
             - icu4j
@@ -3584,8 +3582,6 @@ data:
             - libldac-devel
             - libraw1394-devel
             - libunwind
-            - libvirt-daemon-driver-storage-sheepdog
-            - libvirt-daemon-driver-storage-zfs
             - lucene
             - lucene-analysis
             - lucene-analyzers-smartcn
@@ -3643,7 +3639,6 @@ data:
             - qemu-system-x86
             - qemu-system-x86-core
             - sat4j
-            - sheepdog
             - socat
             - stunnel
             - takari-polyglot-common
@@ -3657,7 +3652,6 @@ data:
             - xmvn-mojo
             - xmvn-resolve
             - xmvn-subst
-            - zfs-fuse
         s390x:
             - apache-commons-compress
             - apache-commons-exec
@@ -3729,6 +3723,7 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
+            - libssh2
             - libunwind
             - libva
             - libva-devel
@@ -3894,6 +3889,7 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
+            - libssh2
             - libva
             - libva-devel
             - libvorbis-devel
