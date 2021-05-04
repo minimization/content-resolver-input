@@ -6,10 +6,16 @@ data:
   maintainer: sst_kernel_maintainers
 
   unwanted_packages:
+  - iwl3945-firmware
+  - iwl4965-firmware
+  - iwl6000-firmware
   - kernel-ipaclones-internal
   - kernel-modules-internal
   - kernel-selftests-internal
   - kernel-zfcpdump-modules-internal
+  - libertas-sd8686-firmware
+  - libertas-usb8388-firmware
+  - libertas-usb8388-olpc-firmware
 
   labels:
   - eln
