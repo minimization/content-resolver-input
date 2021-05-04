@@ -1318,6 +1318,10 @@ data:
         - libgdl-devel
         - libgee-devel
         - libgexiv2-devel
+        - libgfapi-devel
+        - libgfrpc-devel
+        - libgfxdr-devel
+        - libglusterfs-devel
         - libgnomekbd-devel
         - libgovirt-devel
         - libgsf-devel
@@ -3517,6 +3521,9 @@ data:
             - stunnel
             - symlinks
             - systemtap
+            - systemtap-client
+            - systemtap-devel
+            - systemtap-runtime
             - takari-polyglot-common
             - tycho
             - util-linux-user
@@ -3660,6 +3667,9 @@ data:
             - socat
             - stunnel
             - systemtap
+            - systemtap-client
+            - systemtap-devel
+            - systemtap-runtime
             - takari-polyglot-common
             - tycho
             - valgrind
@@ -3733,10 +3743,6 @@ data:
             - libbsd
             - libdv
             - libexif-devel
-            - libgfapi-devel
-            - libgfrpc-devel
-            - libgfxdr-devel
-            - libglusterfs-devel
             - libgphoto2-devel
             - libICE-devel
             - libjpeg-turbo-devel
@@ -3949,6 +3955,9 @@ data:
             - scotch-devel
             - symlinks
             - systemtap
+            - systemtap-client
+            - systemtap-devel
+            - systemtap-runtime
             - uuid-devel
             - valgrind
             - valgrind-devel
