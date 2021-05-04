@@ -2298,7 +2298,6 @@ data:
         - rapidjson-devel
         - raptor2-devel
         - rasqal-devel
-        - re2c
         - readline-devel
         - redland-devel
         - reflections
