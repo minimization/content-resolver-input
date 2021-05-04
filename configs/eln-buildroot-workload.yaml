@@ -1465,7 +1465,6 @@ data:
         - libuninameslist-devel
         - libunistring-devel
         - libunwind-devel
-        - libusb1
         - libusb1-devel
         - libusb-devel
         - libusbx-devel
