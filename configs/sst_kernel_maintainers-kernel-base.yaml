@@ -19,6 +19,7 @@ data:
         - iwl6000g2b-firmware
         - iwl6050-firmware
         - iwl7260-firmware
+        - kernel
         - kernel-abi-whitelists
         - kernel-core
         - kernel-cross-headers
