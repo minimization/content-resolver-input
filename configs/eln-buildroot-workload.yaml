@@ -3338,7 +3338,6 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
-            - libssh2
             - libtool-ltdl-devel
             - libva
             - libva-devel
@@ -3722,7 +3721,6 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
-            - libssh2
             - libunwind
             - libva
             - libva-devel
@@ -3888,7 +3886,6 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
-            - libssh2
             - libva
             - libva-devel
             - libvorbis-devel
