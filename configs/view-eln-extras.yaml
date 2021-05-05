@@ -1,5 +1,5 @@
 ---
-document: feedback-pipeline-compose-view
+document: feedback-pipeline-view-addon
 version: 1
 data:
   name: ELN Extras Package Set
@@ -7,7 +7,7 @@ data:
   maintainer: eln-sig
   labels:
   - eln-extras
-  repository: repository-fedora-eln
+  base_view_id: view-eln
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:
