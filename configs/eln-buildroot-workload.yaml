@@ -2407,7 +2407,6 @@ data:
         - rubygem-ronn-ng
         - rubygem-rouge
         - rubygem-rr
-        - rubygem-rspec-collection_matchers
         - rubygem-rspec-its
         - rubygem-ruby-progressbar
         - rubygem-ruby-vips
