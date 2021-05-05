@@ -12,6 +12,7 @@ data:
   - ignition
   - ostree
   - rpm-ostree
+  - coreos-installer
 
   arch_packages:
     x86_64:
