@@ -94,6 +94,7 @@ data:
         - binutils-tile-linux-gnu
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
+        - bison-devel
         - bitstream-vera-sans-fonts
         - black
         - blas
@@ -121,6 +122,7 @@ data:
         - btrfs-progs
         - btrfs-progs-devel
         - buildnumber-maven-plugin
+        - byacc
         - byaccj
         - byte-buddy-agent
         - byte-buddy-maven-plugin
@@ -1311,6 +1313,7 @@ data:
         - libfdisk-devel
         - libfdt-devel
         - libfido2-devel
+        - libfl-static
         - libfoma
         - libfontenc-devel
         - libfreehand-devel
