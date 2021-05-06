@@ -43,6 +43,7 @@ data:
     x86_64:
     - edk2-ovmf
     - libpmem
+    - sevctl
     - spice-server
     - virt-p2v
     - xorg-x11-drv-qxl
