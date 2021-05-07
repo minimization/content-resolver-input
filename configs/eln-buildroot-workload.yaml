@@ -1094,8 +1094,6 @@ data:
         - gtk-vnc2-devel
         - guava-testlib
         - guice-servlet
-        - guile22
-        - guile22-devel
         - gumbo-parser
         - gumbo-parser-devel
         - gvnc-devel
