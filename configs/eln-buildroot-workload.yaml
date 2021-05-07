@@ -2109,6 +2109,7 @@ data:
         - python3-matplotlib
         - python3-matplotlib-data
         - python3-matplotlib-data-fonts
+        - python3-matplotlib-inline
         - python3-matplotlib-tk
         - python3-mccabe
         - python3-memcached
