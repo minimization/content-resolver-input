@@ -119,7 +119,6 @@ data:
         - Box2D-devel
         - brlapi-devel
         - bsh
-        - btrfs-progs
         - btrfs-progs-devel
         - buildnumber-maven-plugin
         - byacc
@@ -1692,6 +1691,7 @@ data:
         - npth-devel
         - nscd
         - nss_wrapper
+        - ntfs-3g-devel
         - numactl-devel
         - objectweb-pom
         - objenesis
@@ -1960,11 +1960,6 @@ data:
         - physfs-devel
         - pipewire-devel
         - pkgconfig
-        - pki-resteasy-atom-provider
-        - pki-resteasy-client
-        - pki-resteasy-core
-        - pki-resteasy-jackson2-provider
-        - pki-resteasy-jaxb-provider
         - plexus-component-api
         - plexus-components-pom
         - plexus-containers
@@ -3472,6 +3467,7 @@ data:
             - batik-css
             - batik-util
             - beust-jcommander
+            - btrfs-progs
             - cim-schema
             - corosynclib-devel
             - dain-snappy
@@ -3602,6 +3598,7 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ncurses-compat-libs
+            - ntfs-3g
             - openblas-threads
             - OpenIPMI
             - OpenIPMI-devel
@@ -3829,10 +3826,6 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
-            - ntfs-3g
-            - ntfs-3g-devel
-            - ntfs-3g-system-compression
-            - ntfsprogs
             - openblas-threads
             - osgi-annotation
             - osgi-compendium
@@ -3874,7 +3867,6 @@ data:
             - xmvn-mojo
             - xmvn-resolve
             - xmvn-subst
-            - zerofree
         s390x:
             - apache-commons-compress
             - apache-commons-exec
@@ -3886,6 +3878,7 @@ data:
             - batik-util
             - beust-jcommander
             - bluez-obexd
+            - btrfs-progs
             - cim-schema
             - compiler-rt
             - dain-snappy
@@ -3986,6 +3979,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
+            - ntfs-3g
             - openblas-threads
             - OpenIPMI
             - OpenIPMI-devel
@@ -4064,6 +4058,7 @@ data:
             - aspnetcore-runtime-5.0
             - aspnetcore-targeting-pack-5.0
             - babl-devel
+            - btrfs-progs
             - cim-schema
             - diffstat
             - dos2unix
@@ -4119,6 +4114,7 @@ data:
             - libXt-devel
             - linuxconsoletools
             - mesa-libxatracker-devel
+            - ntfs-3g
             - OpenIPMI
             - OpenIPMI-devel
             - OpenIPMI-lanserv
