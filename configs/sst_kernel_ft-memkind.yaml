@@ -19,6 +19,12 @@ data:
   #        - arch-specific-package1   #     goes here.
   #
   arch_packages:
+      aarch64:
+          - memkind
+          - memkind-devel
+      ppc64le:
+          - memkind
+          - memkind-devel
       x86_64:
           - memkind
           - memkind-devel
