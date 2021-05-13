@@ -2517,6 +2517,8 @@ data:
         - rust-build_const+default-devel
         - rust-build_const-devel
         - rust-build_const+std-devel
+        - rust-bumpalo+default-devel
+        - rust-bumpalo-devel
         - rust-bytecount+default-devel
         - rust-bytecount-devel
         - rust-bytemuck+default-devel
@@ -2566,6 +2568,8 @@ data:
         - rust-colorful-devel
         - rust-color_quant+default-devel
         - rust-color_quant-devel
+        - rust-console_error_panic_hook+default-devel
+        - rust-console_error_panic_hook-devel
         - rust-const-random+default-devel
         - rust-const-random-devel
         - rust-const-random-macro+default-devel
@@ -2830,9 +2834,12 @@ data:
         - rust-itertools-num-devel
         - rust-itoa+default-devel
         - rust-itoa-devel
+        - rust-itoa+i128-devel
         - rust-itoa+std-devel
         - rust-jpeg-decoder-devel
         - rust-jpeg-decoder+rayon-devel
+        - rust-js-sys+default-devel
+        - rust-js-sys-devel
         - rust-lazy_static+default-devel
         - rust-lazy_static-devel
         - rust-libc+align-devel
@@ -2872,7 +2879,6 @@ data:
         - rust-memchr+default-devel
         - rust-memchr-devel
         - rust-memchr+std-devel
-        - rust-memchr+use_std-devel
         - rust-memmap+default-devel
         - rust-memmap-devel
         - rust-memoffset0.5+default-devel
@@ -3215,6 +3221,8 @@ data:
         - rust-same-file-devel
         - rust-scoped_threadpool+default-devel
         - rust-scoped_threadpool-devel
+        - rust-scoped-tls+default-devel
+        - rust-scoped-tls-devel
         - rust-scopeguard-devel
         - rust-seahash3+default-devel
         - rust-seahash3-devel
@@ -3296,7 +3304,13 @@ data:
         - rust-structopt-devel
         - rust-sval+alloc-devel
         - rust-sval+default-devel
+        - rust-sval_derive+default-devel
+        - rust-sval+derive-devel
+        - rust-sval_derive-devel
         - rust-sval-devel
+        - rust-sval_json+default-devel
+        - rust-sval_json-devel
+        - rust-sval_json+std-devel
         - rust-sval+std-devel
         - rust-sval+test-devel
         - rust-syn0.15+clone-impls-devel
@@ -3492,6 +3506,10 @@ data:
         - rust-uuid-devel
         - rust-uuid+std-devel
         - rust-uuid+v4-devel
+        - rust-value-bag+default-devel
+        - rust-value-bag-devel
+        - rust-value-bag+std-devel
+        - rust-value-bag+test-devel
         - rust-vec_map+default-devel
         - rust-vec_map-devel
         - rust-version_check+default-devel
@@ -3507,6 +3525,33 @@ data:
         - rust-walkdir-devel
         - rust-want+default-devel
         - rust-want-devel
+        - rust-wasm-bindgen-backend+default-devel
+        - rust-wasm-bindgen-backend-devel
+        - rust-wasm-bindgen-backend+spans-devel
+        - rust-wasm-bindgen+default-devel
+        - rust-wasm-bindgen-devel
+        - rust-wasm-bindgen-futures+default-devel
+        - rust-wasm-bindgen-futures-devel
+        - rust-wasm-bindgen-macro+default-devel
+        - rust-wasm-bindgen-macro-devel
+        - rust-wasm-bindgen-macro+spans-devel
+        - rust-wasm-bindgen-macro-support+default-devel
+        - rust-wasm-bindgen-macro-support-devel
+        - rust-wasm-bindgen-macro-support+spans-devel
+        - rust-wasm-bindgen-shared+default-devel
+        - rust-wasm-bindgen-shared-devel
+        - rust-wasm-bindgen+spans-devel
+        - rust-wasm-bindgen+std-devel
+        - rust-wasm-bindgen-test+default-devel
+        - rust-wasm-bindgen-test-devel
+        - rust-wasm-bindgen-test-macro+default-devel
+        - rust-wasm-bindgen-test-macro-devel
+        - rust-web-sys+default-devel
+        - rust-web-sys-devel
+        - rust-web-sys+Event-devel
+        - rust-web-sys+EventTarget-devel
+        - rust-web-sys+MessageEvent-devel
+        - rust-web-sys+Worker-devel
         - rust-weezl+alloc-devel
         - rust-weezl+default-devel
         - rust-weezl-devel
