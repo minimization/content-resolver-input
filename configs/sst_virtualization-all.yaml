@@ -8,7 +8,6 @@ data:
   packages:
   - augeas
   - dtc
-  - fuse-sshfs
   - gtk-vnc2
   - hexedit
   - hivex
@@ -50,7 +49,6 @@ data:
     ppc64le:
     - libpmem
     - powerpc-utils
-    - SLOF
     - xorg-x11-drv-qxl
     aarch64:
     - edk2-aarch64
