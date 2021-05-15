@@ -1163,6 +1163,7 @@ data:
         - javacc-maven-plugin
         - java_cup
         - javaewah
+        - javapackages-generators
         - javaparser
         - javapoet
         - javassist
@@ -1289,7 +1290,6 @@ data:
         - libdhash-devel
         - libdmx-devel
         - libdrm-devel
-        - libdv-devel
         - libdvdnav-devel
         - libdvdread-devel
         - libecap-devel
@@ -1569,7 +1569,6 @@ data:
         - maven-install-plugin
         - maven-invoker
         - maven-invoker-plugin
-        - maven-javadoc-plugin
         - maven-mapping
         - maven-model
         - maven-parent
@@ -1968,7 +1967,6 @@ data:
         - plexus-containers-component-metadata
         - plexus-containers-container-default
         - plexus-i18n
-        - plexus-interactivity-api
         - plexus-pom
         - plexus-resources
         - plexus-velocity
@@ -2326,7 +2324,6 @@ data:
         - rubygem-activestorage
         - rubygem-activesupport
         - rubygem-addressable
-        - rubygem-ansi
         - rubygem-aruba
         - rubygem-asciidoctor
         - rubygem-bcrypt
@@ -2378,14 +2375,12 @@ data:
         - rubygem-loofah
         - rubygem-mail
         - rubygem-marcel
-        - rubygem-maruku
         - rubygem-memcache-client
         - rubygem-metaclass
         - rubygem-method_source
         - rubygem-mini_magick
         - rubygem-mini_mime
         - rubygem-minitest-around
-        - rubygem-minitest-reporters
         - rubygem-mocha
         - rubygem-msgpack
         - rubygem-multi_json
@@ -2413,7 +2408,6 @@ data:
         - rubygem-rouge
         - rubygem-rr
         - rubygem-rspec-its
-        - rubygem-ruby-progressbar
         - rubygem-ruby-vips
         - rubygem-rubyzip
         - rubygem-sass
@@ -3793,7 +3787,6 @@ data:
             - lcms2-devel
             - leptonica
             - leptonica-devel
-            - libavc1394-devel
             - libbsd
             - libconfuse
             - libconfuse-devel
@@ -3804,7 +3797,6 @@ data:
             - libftdi-devel
             - libgphoto2-devel
             - libICE-devel
-            - libiec61883-devel
             - libjaylink
             - libjaylink-devel
             - libjpeg-turbo-devel
@@ -4050,14 +4042,12 @@ data:
             - jetty-util-ajax
             - jmc-core
             - jna-contrib
-            - libavc1394-devel
             - libbsd
             - libconfuse
             - libconfuse-devel
             - libfprint-devel
             - libftdi
             - libftdi-devel
-            - libiec61883-devel
             - libjaylink
             - libjaylink-devel
             - libldac-devel
@@ -4192,7 +4182,6 @@ data:
             - leptonica
             - leptonica-devel
             - libbsd
-            - libdv
             - libexif-devel
             - libgphoto2-devel
             - libICE-devel
@@ -4352,7 +4341,6 @@ data:
             - lcms2-devel
             - leptonica
             - leptonica-devel
-            - libavc1394-devel
             - libconfuse
             - libconfuse-devel
             - libexif-devel
@@ -4361,7 +4349,6 @@ data:
             - libftdi-devel
             - libgphoto2-devel
             - libICE-devel
-            - libiec61883-devel
             - libjaylink
             - libjaylink-devel
             - libjpeg-turbo-devel
