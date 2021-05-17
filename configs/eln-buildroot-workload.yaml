@@ -702,7 +702,6 @@ data:
         - ghc-zlib
         - ghc-zlib-devel
         - ghc-zlib-prof
-        - ghostscript-core
         - giflib-devel
         - gjs-devel
         - glade-devel
