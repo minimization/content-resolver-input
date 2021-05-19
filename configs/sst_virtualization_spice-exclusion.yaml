@@ -15,9 +15,7 @@ data:
   - spice-gtk3
   - spice-gtk3-devel
   - spice-gtk3-vala
-  - spice-protocol
   - spice-html5
-  - spice-vdagent
   - spice-webdavd
   - libphodav-devel
   - libphodav

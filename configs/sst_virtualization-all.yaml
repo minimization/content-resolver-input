@@ -27,6 +27,8 @@ data:
   - python3-libvirt
   - seabios
   - sgabios
+  - spice-protocol
+  - spice-vdagent
   - supermin
   - vhostmd
   - virt-install
