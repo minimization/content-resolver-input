@@ -249,7 +249,6 @@ data:
   - python3-pyasn1
   - python3-pyasn1-modules
   - python3-pycurl
-  - python3-pymongo
   - python3-PyMySQL
   - python3-pyOpenSSL
   - python3-pyparsing
