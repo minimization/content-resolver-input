@@ -2674,6 +2674,8 @@ data:
         - rust-futures0.1-devel
         - rust-futures0.1+use_std-devel
         - rust-futures0.1+with-deprecated-devel
+        - rust-futures+alloc-devel
+        - rust-futures+async-await-devel
         - rust-futures-channel+alloc-devel
         - rust-futures-channel+default-devel
         - rust-futures-channel-devel
@@ -2686,7 +2688,9 @@ data:
         - rust-futures-cpupool+default-devel
         - rust-futures-cpupool-devel
         - rust-futures-cpupool+with-deprecated-devel
+        - rust-futures+default-devel
         - rust-futures-devel
+        - rust-futures+executor-devel
         - rust-futures-executor-devel
         - rust-futures-executor+std-devel
         - rust-futures-io+default-devel
@@ -2697,6 +2701,7 @@ data:
         - rust-futures-sink+default-devel
         - rust-futures-sink-devel
         - rust-futures-sink+std-devel
+        - rust-futures+std-devel
         - rust-futures-task+alloc-devel
         - rust-futures-task-devel
         - rust-futures-task+std-devel
@@ -2750,8 +2755,6 @@ data:
         - rust-hex+std-devel
         - rust-html5ever+default-devel
         - rust-html5ever-devel
-        - rust-http0.1+default-devel
-        - rust-http0.1-devel
         - rust-httparse+default-devel
         - rust-httparse-devel
         - rust-httparse+std-devel
@@ -3044,8 +3047,8 @@ data:
         - rust-proc-macro-hack-devel
         - rust-proc-macro-nested+default-devel
         - rust-proc-macro-nested-devel
-        - rust-proptest-devel
-        - rust-proptest+std-devel
+        - rust-proptest0.10-devel
+        - rust-proptest0.10+std-devel
         - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
@@ -3138,8 +3141,8 @@ data:
         - rust-rand+std_rng-devel
         - rust-rand_xorshift0.1+default-devel
         - rust-rand_xorshift0.1-devel
-        - rust-rand_xorshift+default-devel
-        - rust-rand_xorshift-devel
+        - rust-rand_xorshift0.2+default-devel
+        - rust-rand_xorshift0.2-devel
         - rust-rayon-core+default-devel
         - rust-rayon-core-devel
         - rust-rayon+default-devel
@@ -3445,6 +3448,8 @@ data:
         - rust-toml0.4-devel
         - rust-toml+default-devel
         - rust-toml-devel
+        - rust-tower-layer+default-devel
+        - rust-tower-layer-devel
         - rust-tower-service+default-devel
         - rust-tower-service-devel
         - rust-tracing-attributes+default-devel
