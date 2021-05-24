@@ -32,15 +32,3 @@ data:
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    rubygem-tilt:
-      srpm: rubygem-tilt
-      description: Generic interface to multiple Ruby template engines
-# asamalik: These must be package names. We need to get these fixed
-#      requires:
-#        - ruby(rubygems)
-#
-#      buildrequires:
-#        - rubygem(minitest)
-#        - /usr/bin/ronn
