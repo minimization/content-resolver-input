@@ -33,6 +33,10 @@ data:
   # Not supported in RHEL - call libkrb5 directly instead
   - golang-github-jcmturner-gokrb5
 
+  # Deprecated (see https://pypi.org/project/pytest-runner/) and vulnerable
+  # Removed dependency from IdM (https://bugzilla.redhat.com/show_bug.cgi?id=1961613)
+  - python-pytest-runner
+
   labels:
   - eln
   - c9s
