@@ -1669,6 +1669,8 @@ data:
         - mongo-c-driver-libs
         - motif-devel
         - mozjs78-devel
+        - mpdecimal
+        - mpdecimal-devel
         - mpg123-devel
         - mtdev-devel
         - mtx
