@@ -2683,10 +2683,12 @@ data:
         - rust-futures-channel-devel
         - rust-futures-channel+sink-devel
         - rust-futures-channel+std-devel
+        - rust-futures-channel+unstable-devel
         - rust-futures-core+alloc-devel
         - rust-futures-core+default-devel
         - rust-futures-core-devel
         - rust-futures-core+std-devel
+        - rust-futures-core+unstable-devel
         - rust-futures-cpupool+default-devel
         - rust-futures-cpupool-devel
         - rust-futures-cpupool+with-deprecated-devel
@@ -2695,9 +2697,12 @@ data:
         - rust-futures+executor-devel
         - rust-futures-executor-devel
         - rust-futures-executor+std-devel
+        - rust-futures-executor+thread-pool-devel
         - rust-futures-io+default-devel
         - rust-futures-io-devel
+        - rust-futures-io+read-initializer-devel
         - rust-futures-io+std-devel
+        - rust-futures-io+unstable-devel
         - rust-futures-macro-devel
         - rust-futures-sink+alloc-devel
         - rust-futures-sink+default-devel
@@ -2707,14 +2712,25 @@ data:
         - rust-futures-task+alloc-devel
         - rust-futures-task-devel
         - rust-futures-task+std-devel
+        - rust-futures-task+unstable-devel
+        - rust-futures-test+default-devel
+        - rust-futures-test-devel
+        - rust-futures-test+std-devel
         - rust-futures-util+alloc-devel
         - rust-futures-util+async-await-devel
         - rust-futures-util+async-await-macro-devel
+        - rust-futures-util+bilock-devel
         - rust-futures-util+channel-devel
+        - rust-futures-util+compat-devel
         - rust-futures-util-devel
+        - rust-futures-util+futures_01-devel
+        - rust-futures-util+io-compat-devel
         - rust-futures-util+io-devel
+        - rust-futures-util+read-initializer-devel
         - rust-futures-util+sink-devel
         - rust-futures-util+std-devel
+        - rust-futures-util+unstable-devel
+        - rust-futures-util+write-all-vectored-devel
         - rust-fxhash+default-devel
         - rust-fxhash-devel
         - rust-getopts+default-devel
@@ -4386,22 +4402,6 @@ data:
             - python3-createrepo_c
             - python3-libftdi
             - python3-libmodulemd
-            - rust-futures-channel+unstable-devel
-            - rust-futures-core+unstable-devel
-            - rust-futures-executor+thread-pool-devel
-            - rust-futures-io+read-initializer-devel
-            - rust-futures-io+unstable-devel
-            - rust-futures-task+unstable-devel
-            - rust-futures-test+default-devel
-            - rust-futures-test-devel
-            - rust-futures-test+std-devel
-            - rust-futures-util+bilock-devel
-            - rust-futures-util+compat-devel
-            - rust-futures-util+futures_01-devel
-            - rust-futures-util+io-compat-devel
-            - rust-futures-util+read-initializer-devel
-            - rust-futures-util+unstable-devel
-            - rust-futures-util+write-all-vectored-devel
             - sblim-indication_helper
             - sblim-sfcc
             - sblim-sfcc-devel
