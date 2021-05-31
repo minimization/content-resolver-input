@@ -1357,6 +1357,8 @@ data:
         - liblqr-1
         - liblqr-1-devel
         - libmad-devel
+        - libmarkdown
+        - libmarkdown-devel
         - libmatchbox-devel
         - libmbim-devel
         - libmediaart-devel
@@ -2327,8 +2329,11 @@ data:
         - rubygem-activestorage
         - rubygem-activesupport
         - rubygem-addressable
+        - rubygem-afm
         - rubygem-aruba
+        - rubygem-Ascii85
         - rubygem-asciidoctor
+        - rubygem-bacon
         - rubygem-bcrypt
         - rubygem-bootsnap
         - rubygem-builder
@@ -2344,6 +2349,7 @@ data:
         - rubygem-cookiejar
         - rubygem-crack
         - rubygem-crass
+        - rubygem-creole
         - rubygem-cucumber
         - rubygem-cucumber-core
         - rubygem-cucumber-expressions
@@ -2363,7 +2369,9 @@ data:
         - rubygem-formatador
         - rubygem-gherkin
         - rubygem-globalid
+        - rubygem-haml
         - rubygem-hashdiff
+        - rubygem-hashery
         - rubygem-hiredis
         - rubygem-httpclient
         - rubygem-http_parser.rb
@@ -2374,10 +2382,12 @@ data:
         - rubygem-kramdown
         - rubygem-kramdown-parser-gfm
         - rubygem-launchy
+        - rubygem-liquid
         - rubygem-listen
         - rubygem-loofah
         - rubygem-mail
         - rubygem-marcel
+        - rubygem-maruku
         - rubygem-memcache-client
         - rubygem-metaclass
         - rubygem-method_source
@@ -2393,6 +2403,10 @@ data:
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
+        - rubygem-pdf-core
+        - rubygem-pdf-inspector
+        - rubygem-pdf-reader
+        - rubygem-prawn
         - rubygem-pry
         - rubygem-public_suffix
         - rubygem-puma
@@ -2403,6 +2417,8 @@ data:
         - rubygem-rails-html-sanitizer
         - rubygem-railties
         - rubygem-rb-inotify
+        - rubygem-rdiscount
+        - rubygem-redcarpet
         - rubygem-RedCloth
         - rubygem-redis
         - rubygem-regexp_parser
@@ -2411,6 +2427,7 @@ data:
         - rubygem-rouge
         - rubygem-rr
         - rubygem-rspec-its
+        - rubygem-ruby-rc4
         - rubygem-ruby-vips
         - rubygem-rubyzip
         - rubygem-sass
@@ -2424,11 +2441,13 @@ data:
         - rubygem-sprockets-rails
         - rubygem-sqlite3
         - rubygem-stringex
+        - rubygem-temple
         - rubygem-test_construct
         - rubygem-test_declarative
         - rubygem-test-unit-rr
         - rubygem-thor
         - rubygem-timecop
+        - rubygem-ttfunk
         - rubygem-turbolinks
         - rubygem-turbolinks-source
         - rubygem-typhoeus
