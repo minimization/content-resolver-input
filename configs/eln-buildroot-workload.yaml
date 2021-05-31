@@ -44,6 +44,7 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - appstream-devel
+        - apr-util-openssl
         - aqute-bnd
         - argparse-manpage
         - args4j
@@ -1113,6 +1114,7 @@ data:
         - hscolour-common
         - hsqldb-lib
         - httpcomponents-project
+        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1164,7 +1166,6 @@ data:
         - javacc-maven-plugin
         - java_cup
         - javaewah
-        - javapackages-generators
         - javaparser
         - javapoet
         - javassist
@@ -1595,6 +1596,7 @@ data:
         - maven-script-interpreter
         - maven-settings
         - maven-shade-plugin
+        - maven-surefire-provider-testng
         - maven-verifier-plugin
         - maven-wagon-http-lightweight
         - mdds-devel
@@ -3816,6 +3818,7 @@ data:
             - jakarta-server-pages-api
             - jakarta-servlet
             - jasper-devel
+            - javapackages-generators
             - javapackages-local
             - jetty-continuation
             - jetty-http
@@ -3851,7 +3854,6 @@ data:
             - libqb-devel
             - librabbitmq
             - librabbitmq-devel
-            - libraw1394-devel
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
@@ -3891,7 +3893,6 @@ data:
             - maven-surefire-plugin
             - maven-surefire-provider-junit
             - maven-surefire-provider-junit5
-            - maven-surefire-provider-testng
             - maven-toolchain
             - mesa-libxatracker
             - mesa-libxatracker-devel
@@ -4015,6 +4016,7 @@ data:
             - rubygem-rack-protection
             - rubygem-rack-test
             - rubygem-sinatra
+            - rubygem-tilt
             - rubygem-webrick
             - sat4j
             - sblim-indication_helper
@@ -4074,6 +4076,7 @@ data:
             - jakarta-server-pages
             - jakarta-server-pages-api
             - jakarta-servlet
+            - javapackages-generators
             - javapackages-local
             - jetty-continuation
             - jetty-http
@@ -4094,7 +4097,6 @@ data:
             - libjaylink
             - libjaylink-devel
             - libldac-devel
-            - libraw1394-devel
             - libunwind
             - lucene
             - lucene-analysis
@@ -4120,7 +4122,6 @@ data:
             - maven-surefire-plugin
             - maven-surefire-provider-junit
             - maven-surefire-provider-junit5
-            - maven-surefire-provider-testng
             - maven-toolchain
             - mingw32-crt
             - mingw32-filesystem
@@ -4210,6 +4211,7 @@ data:
             - jakarta-server-pages-api
             - jakarta-servlet
             - jasper-devel
+            - javapackages-generators
             - javapackages-local
             - jetty-continuation
             - jetty-http
@@ -4272,7 +4274,6 @@ data:
             - maven-surefire-plugin
             - maven-surefire-provider-junit
             - maven-surefire-provider-junit5
-            - maven-surefire-provider-testng
             - maven-toolchain
             - mingw32-crt
             - mingw32-filesystem
@@ -4398,7 +4399,6 @@ data:
             - libldac-devel
             - libogg-devel
             - librabbitmq-devel
-            - libraw1394-devel
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
