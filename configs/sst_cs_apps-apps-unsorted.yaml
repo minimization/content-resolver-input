@@ -7,7 +7,6 @@ data:
 
   packages:
   - less
-  - whois
   - time
   - pcre2
   - pcre2-devel
