@@ -35,7 +35,7 @@ data:
   - virt-what
 
   labels:
-  - c9s
+  - eln
 
   arch_packages:
     x86_64:
