@@ -56,6 +56,7 @@ data:
   - opencv
   - opencv-core
   - opencv-doc
+  - gphoto2
 
   labels:
   - eln
