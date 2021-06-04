@@ -9,12 +9,9 @@ data:
   - augeas
   - dtc
   - gtk-vnc2
-  - guestfs-tools
   - hexedit
   - hivex
   - ipxe-roms-qemu
-  - libguestfs
-  - libguestfs-inspect-icons
   - libiscsi
   - libnbd
   - libosinfo
@@ -27,13 +24,8 @@ data:
   - osinfo-db-tools
   - python-augeas
   - python3-libvirt
-  - qemu-kvm
-  - seabios
-  - sgabios
-  - supermin
   - vhostmd
   - virt-install
-  - virt-top
   - virt-viewer
   - virt-what
 
@@ -43,18 +35,33 @@ data:
   arch_packages:
     x86_64:
     - edk2-ovmf
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
     - libguestfs-winsupport
     - libpmem
-    - sevctl
-    - spice-server
+    - qemu-kvm
+    - seabios
+    - sgabios
+    - supermin
     - virt-p2v
+    - virt-top
     - virt-v2v
-    - xorg-x11-drv-qxl
     ppc64le:
     - libpmem
     - powerpc-utils
-    - xorg-x11-drv-qxl
     aarch64:
     - edk2-aarch64
-    - spice-server
-    - xorg-x11-drv-qxl
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
+    - qemu-kvm
+    - supermin
+    - virt-top
+    s390x:
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
+    - qemu-kvm
+    - supermin
+    - virt-top
