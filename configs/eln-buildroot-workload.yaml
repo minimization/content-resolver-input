@@ -246,8 +246,6 @@ data:
         - fop
         - forge-parent
         - freeglut-devel
-        - freeipa-client-common
-        - freeipa-common
         - freerdp-devel
         - freetype-demos
         - fstrm
