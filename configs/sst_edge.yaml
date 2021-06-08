@@ -12,6 +12,7 @@ data:
   - ignition
   - ostree
   - rpm-ostree
+  - nss-altfiles
   - coreos-installer
 
   arch_packages:
