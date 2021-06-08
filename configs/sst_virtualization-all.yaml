@@ -18,222 +18,53 @@ data:
   - libvirt
   - libvirt-dbus
   - libvirt-glib
-  - libguestfs-inspect-icons
   - mdevctl
   - nbdkit
   - osinfo-db
   - osinfo-db-tools
   - python-augeas
   - python3-libvirt
-  - seabios
-  - sgabios
   - spice-protocol
   - spice-vdagent
-  - supermin
   - vhostmd
   - virt-install
-  - virt-top
   - virt-viewer
   - virt-what
 
   labels:
-  - eln
   - c9s
 
   arch_packages:
     x86_64:
     - edk2-ovmf
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
+    - libguestfs-winsupport
     - libpmem
+    - qemu-kvm
+    - seabios
     - sevctl
+    - sgabios
+    - supermin
     - virt-p2v
+    - virt-top
+    - virt-v2v
     ppc64le:
     - libpmem
     - powerpc-utils
     aarch64:
     - edk2-aarch64
-
-  package_placeholders:
-    qemu-kvm:
-      description: QEMU is a machine emulator and virtualizer
-      requires:
-        - cyrus-sasl-lib
-        - device-mapper-multipath-libs
-        - glib2
-        - glusterfs-api
-        - gnutls
-        - ipxe-roms-qemu
-        - libaio
-        - libcap-ng
-        - libcurl
-        - libepoxy
-        - libfdt
-        - libgcrypt
-        - libibverbs
-        - libiscsi
-        - libpng
-        - librados2
-        - librbd1
-        - librdmacm
-        - libseccomp
-        - libssh
-        - libusbx
-        - libxkbcommon
-        - lzo
-        - mesa-dri-drivers
-        - mesa-libEGL
-        - mesa-libgbm
-        - mesa-libGL
-        - numactl-libs
-        - pixman
-        - python3
-        - seabios-bin
-        - seavgabios-bin
-        - sgabios-bin
-        - SLOF
-        - snappy
-        - usbredir
-        - zlib
-      buildrequires:
-        - binutils
-        - brlapi-devel
-        - check-devel
-        - cpp
-        - cyrus-sasl-devel
-        - device-mapper-multipath-devel
-        - diffutils
-        - glib2-devel
-        - glusterfs-api-devel
-        - glusterfs-devel
-        - gnutls-devel
-        - iasl
-        - libaio-devel
-        - libattr-devel
-        - libcap-ng-devel
-        - libcap-ng-devel
-        - libcurl-devel
-        - libdrm-devel
-        - libepoxy-devel
-        - libfdt-devel
-        - libgcrypt-devel
-        - libiscsi-devel
-        - libpmem-devel
-        - libpng-devel
-        - librados-devel
-        - librbd-devel
-        - libseccomp-devel
-        - libssh-devel
-        - libtool
-        - libusbx-devel
-        - libuuid-devel
-        - libxkbcommon-devel
-        - lzo-devel
-        - snappy-devel
-        - meson
-        - ncurses-devel
-        - ninja-build
-        - nss-devel
-        - numactl-devel
-        - pciutils-devel
-        - perl-podlators
-        - perl-Test-Harness
-        - pixman-devel
-        - python3-devel
-        - python3-sphinx
-        - python3-sphinx
-        - rdma-core-devel
-        - rpm-build
-        - rsync
-        - systemd-devel
-        - systemtap
-        - systemtap-sdt-devel
-        - texinfo
-        - texinfo
-        - usbredir-devel
-        - wget
-        - which
-        - zlib-devel
-      srpm: qemu-kvm
-    libguestfs:
-      description: libguestfs is a library for accessing and modifying virtual machine (VM) disk images
-      requires:
-        - gdisk
-        - gfs2-utils
-        - hexedit
-        - hivex
-        - icoutils
-        - libconfig
-        - netpbm-progs
-        - parted
-        - perl-hivex
-        - squashfs-tools
-      buildrequires:
-        - gdisk
-        - gfs2-utils
-        - gjs
-        - gobject-introspection-devel
-        - hivex-devel
-        - icoutils
-        - libconfig-devel
-        - libvirt-daemon-kvm
-        - lua-devel
-        - netpbm-progs
-        - ocaml-findlib-devel
-        - ocaml-gettext-devel
-        - ocaml-hivex-devel
-        - ocaml-ocamldoc
-        - parted
-        - perl-hivex
-        - perl-libintl-perl
-        - po4a
-        - ruby-devel
-        - rubygem-rake
-        - rubygem-rdoc
-        - rubygem-test-unit
-        - squashfs-tools
-      srpm: libguestfs
-    guestfs-tools:
-      description: tools for accessing and modifying virtual machine (VM) disk images
-      requires:
-        - libguestfs
-        - qemu-img
-      buildrequires:
-        - libguestfs-devel
-        - libguestfs-xfs
-        - ocaml-findlib-devel
-        - ocaml-gettext-devel
-        - perl-libintl-perl
-        - po4a
-      srpm: guestfs-tools
-    virt-v2v:
-      description: Virt-v2v converts a single guest from a foreign hypervisor to run on KVM
-      requires:
-        - libguestfs
-        - mingw32-srvany
-        - nbdkit-curl-plugin
-        - nbdkit-python-plugin
-        - nbdkit-ssh-plugin
-        - nbdkit-vddk-plugin
-      buildrequires:
-        - libguestfs
-        - mingw-gcc
-        - mingw-binutils
-        - mingw-filesystem
-        - mingw-headers
-        - mingw-crt
-        - ocaml-fileutils-devel
-        - ocaml-findlib-devel
-        - ocaml-gettext-devel
-        - po4a
-      limit_arches:
-      - x86_64
-      srpm: virt-v2v
-    libguestfs-winsupport:
-      description: Add support for Windows guests to virt-v2v and virt-p2v
-      requires:
-        - libguestfs
-        - libconfig
-      buildrequires:
-        - libconfig-devel
-      limit_arches:
-      - x86_64
-      srpm: libguestfs-winsupport
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
+    - qemu-kvm
+    - supermin
+    - virt-top
+    s390x:
+    - guestfs-tools
+    - libguestfs
+    - libguestfs-inspect-icons
+    - qemu-kvm
+    - supermin
+    - virt-top
