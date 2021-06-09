@@ -10,17 +10,17 @@ data:
   - c9s
 
   packages:
-  - arptables
-  - arptables-services
   - conntrack-tools
-  - ebtables
-  - ebtables-services
   - firewall-applet
   - firewall-config
   - firewalld
   - ipset
+  - ipset-libs
   - ipset-service
-  - iptables
+  - iptables-libs
   - iptables-nft
+  - iptables-nft-services
   - iptables-services
+  - iptables-utils
   - nftables
+  - python3-nftables

@@ -10,8 +10,10 @@ data:
   - c9s
 
   unwanted_packages:
+  - arptables-legacy
   - iptstate
   - bridge-utils
   - ebtables-legacy
   - iptables-legacy
+  - iptables-legacy-devel
   - iptables-legacy-libs
