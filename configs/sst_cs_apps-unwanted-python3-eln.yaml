@@ -10,5 +10,8 @@ data:
   # zoneinfo is in the Python standard library (PEP 615), use that one instead
   - python3-pytz
 
+  # older Python versions
+  - python3.9
+
   labels:
   - eln
