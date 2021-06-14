@@ -18,9 +18,7 @@ data:
     aarch64:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
-    - rhsm-gtk
     - subscription-manager
-    - subscription-manager-initial-setup-addon
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
@@ -32,9 +30,7 @@ data:
     i686:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
-    - rhsm-gtk
     - subscription-manager
-    - subscription-manager-initial-setup-addon
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
@@ -46,9 +42,7 @@ data:
     ppc64le:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
-    - rhsm-gtk
     - subscription-manager
-    - subscription-manager-initial-setup-addon
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
@@ -60,9 +54,7 @@ data:
     s390x:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
-    - rhsm-gtk
     - subscription-manager
-    - subscription-manager-initial-setup-addon
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
@@ -74,9 +66,7 @@ data:
     x86_64:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
-    - rhsm-gtk
     - subscription-manager
-    - subscription-manager-initial-setup-addon
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     # asamalik: leaving out debuginfo packages, they're special and not in the repos
