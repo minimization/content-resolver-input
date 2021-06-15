@@ -63,3 +63,11 @@ data:
   #Jaroslav Kysela:
   # It's sound font loader for (really) old Creative hardware. The recent hardware does not require it.
   - fxload
+
+  # Brenton Leanhardt:
+  # python3-blinker was somehow associated with sst_openshift even though we
+  # never appeared to use it.  It's a builddep of python3-oauthlib which
+  # sst_openstack uses.  python3-oauthlib is a builddep of cloud-init which
+  # sst_virtualization_cloud uses.  Somewhere between those two would be better
+  # ownership.
+  - python3-blinker
