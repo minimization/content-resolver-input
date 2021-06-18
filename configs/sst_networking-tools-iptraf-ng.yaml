@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - iptraf-ng
+  description: >
+    Packages related to network configuration and troubleshooting.
+  maintainer: sst_networking
+  packages:
+  - iptraf-ng
+
+  labels:
+  - eln
+  - c9s
