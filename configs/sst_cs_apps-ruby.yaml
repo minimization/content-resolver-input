@@ -27,7 +27,6 @@ data:
   - rubygem-typeprof
   - rubygems
   - rubygems-devel
-  - rubygem-abrt
 
   labels:
   - eln
