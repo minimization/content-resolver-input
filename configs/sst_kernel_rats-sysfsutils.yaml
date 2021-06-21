@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sysfsutils
+  description: Utilities for interfacing with sysfs
+  maintainer: sst_kernel_rats
+  packages:
+  - glibc
+  - libsysfs 
+  labels:
+  - eln
+  - c9s
