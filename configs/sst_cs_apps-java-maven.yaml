@@ -9,4 +9,5 @@ data:
   - maven
 
   labels:
+  - c9s
   - eln
