@@ -6,8 +6,13 @@ data:
     maintainer: sst_kernel_maintainers
     packages:
         - kernel-cross-headers
-        - kernel-headers
+        - kernel-debug
+        - kernel-debug-core
+        - kernel-debug-devel
+        - kernel-debug-modules
+        - kernel-debug-modules-extra
         - kernel-devel
+        - kernel-headers
     labels:
         - eln
         - c9s
