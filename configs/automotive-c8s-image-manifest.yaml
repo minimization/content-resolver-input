@@ -2,8 +2,8 @@
 data:
   description: Automotive CentOS image manifest packages.
   labels:
-  - centos
-  maintainer: rajesh
+  - automotive-c8s
+  maintainer: rajeshsriva
   repositories:
   - repository-c8s
   name: Automotive CentOS image manifest packages
