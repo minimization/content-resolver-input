@@ -17,6 +17,7 @@ data:
   - mariadb-embedded-devel
   - mariadb-embedded
   - mariadb-server-utils
+  - mariadb-pam
   - mariadb-test
   - mariadb-connector-c-devel
   - mariadb-connector-c-test
