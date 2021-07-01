@@ -92,6 +92,7 @@ data:
   - imath
   - imath-devel
   - python3-imath
+  - watchdog
 
   arch_packages:
     #setserial not supported on s390x
