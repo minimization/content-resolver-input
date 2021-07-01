@@ -86,6 +86,12 @@ data:
   - Xaw3d-devel
   - mpfr
   - mpfr-devel
+  - openexr
+  - openexr-devel
+  - openexr-libs
+  - imath
+  - imath-devel
+  - python3-imath
 
   arch_packages:
     #setserial not supported on s390x
