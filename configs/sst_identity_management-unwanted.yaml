@@ -37,6 +37,9 @@ data:
   # Removed dependency from IdM (https://bugzilla.redhat.com/show_bug.cgi?id=1961613)
   - python-pytest-runner
 
+  # Custodia was merged into IPA, https://pagure.io/freeipa/issue/8882
+  - custodia
+
   labels:
   - eln
   - c9s
