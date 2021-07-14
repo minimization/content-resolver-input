@@ -8,6 +8,8 @@ data:
   packages:
   - evince
   - evince-nautilus
+  - evince-thumbnailer
 
   labels:
   - eln
+  - c9s

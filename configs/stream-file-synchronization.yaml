@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: File Synchronization
+  description: File transfer and synchronization
+  maintainer: james
+
+  packages:
+  - rsync
+  - rsync-daemon
+
+  labels:
+  - centos

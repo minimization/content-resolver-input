@@ -10,7 +10,7 @@ data:
   packages:
   # Core
   - iproute
-  - dhclient
+  - dhcp-client
   - dnsmasq
   - NetworkManager
   - NetworkManager-tui
@@ -51,6 +51,14 @@ data:
   - NetworkManager-cloud-setup
   - nmstate
 
+  package_placeholders:
+    python3-nispor:
+      description: Needed by nmstate. RHEL build bundles rust, Fedora build cannot.
+      srpm: nispor
+    nispor:
+      description: Needed by nmstate. RHEL build bundles rust, Fedora build cannot.
+      srpm: nispor
+
   unwanted_packages:
   # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since usb_modeswitch 2.6.0, the
   # package depends on /usr/bin/tclsh (tcl). We no longer want to maintain jimtcl for RHEL9.
@@ -58,3 +66,4 @@ data:
 
   labels:
   - eln
+  - c9s

@@ -6,18 +6,47 @@ data:
     A set of libraries, drivers and tools required for configuration
     and fast packet processing.
   maintainer: sst_networking
-  packages:
-  - driverctl
-  - dpdk
-  - dpdk-tools
-  - dpdk-devel
-  - dpdk-doc
-  - tuned
-  - tuned-profiles-nfv
-  - tuned-profiles-nfv-guest
-  - tuned-profiles-nfv-host
-  - tuned-profiles-realtime
-  - tuned-profiles-cpu-partitioning
+
+  packages: []
+
+  arch_packages:
+    aarch64:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
+      - driverctl
+      - dpdk-doc
+      - tuned
+      - tuned-profiles-nfv
+      - tuned-profiles-nfv-guest
+      - tuned-profiles-nfv-host
+      - tuned-profiles-realtime
+      - tuned-profiles-cpu-partitioning
+    ppc64le:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
+      - driverctl
+      - dpdk-doc
+      - tuned
+      - tuned-profiles-nfv
+      - tuned-profiles-nfv-guest
+      - tuned-profiles-nfv-host
+      - tuned-profiles-realtime
+      - tuned-profiles-cpu-partitioning
+    x86_64:
+      - dpdk
+      - dpdk-tools
+      - dpdk-devel
+      - driverctl
+      - dpdk-doc
+      - tuned
+      - tuned-profiles-nfv
+      - tuned-profiles-nfv-guest
+      - tuned-profiles-nfv-host
+      - tuned-profiles-realtime
+      - tuned-profiles-cpu-partitioning
 
   labels:
   - eln
+  - c9s

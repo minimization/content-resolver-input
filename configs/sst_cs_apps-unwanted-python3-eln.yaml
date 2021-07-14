@@ -1,0 +1,17 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Python 3 packages for ELN
+  description: Packages we do not want to ship for Python 3 in RHEL 10+
+  maintainer: sst_cs_apps
+
+  # See also sst_cs_apps-unwanted-python3.yaml, this only extends the set
+  unwanted_packages:
+  # zoneinfo is in the Python standard library (PEP 615), use that one instead
+  - python3-pytz
+
+  # older Python versions
+  - python3.9
+
+  labels:
+  - eln

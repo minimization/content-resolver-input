@@ -1,0 +1,45 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: arch-portfolio
+  description: Packages for architecture support
+  maintainer: sst_arch_portfolio
+
+  packages:
+  - openssl-ibmpkcs11
+
+  arch_packages:
+    ppc64le:
+    - librtas
+    - librtas-devel
+    - libservicelog
+    - libservicelog-devel
+    - libvpd
+    - libvpd-devel
+    - lsvpd
+    - powerpc-utils
+    - powerpc-utils-core
+    - servicelog
+    s390x:
+    - libica
+    - libica-devel
+    - libzfcphbaapi
+    - libzfcphbaapi-docs
+    - openssl-ibmca
+    - s390utils
+    - s390utils-base
+    - s390utils-cmsfs-fuse
+    - s390utils-cpacfstatsd
+    - s390utils-core
+    - s390utils-cpuplugd
+    - s390utils-devel
+    - s390utils-hmcdrvfs
+    - s390utils-iucvterm
+    - s390utils-mon_statd
+    - s390utils-osasnmpd
+    - s390utils-zdsfs
+    - s390utils-ziomon
+
+  labels:
+  - eln
+  - c9s

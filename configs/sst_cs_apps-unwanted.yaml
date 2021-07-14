@@ -6,9 +6,10 @@ data:
   maintainer: sst_cs_apps
 
   unwanted_packages:
-  - libuv
   - js-uglify
   - web-assets-devel
+  - mercurial                       # Hard to maintain while not the most popular choice anymore.
 
   labels:
   - eln
+  - c9s

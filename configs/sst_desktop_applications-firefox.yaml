@@ -5,30 +5,9 @@ data:
   description: Default web browser for Workstation
   maintainer: sst_desktop_applications
 
-  packages: []
+  packages:
+  - firefox
 
   labels:
   - eln
-
-  arch_packages:
-    aarch64:
-      - firefox
-    ppc64le:
-      - firefox
-    s390x:
-      - firefox
-    x86_64:
-      - firefox
-
-  package_placeholders:
-    redhat-bookmarks:
-      description: This package contains the default bookmarks for Red Hat Enterprise Linux
-      requires: []
-      buildrequires: []
-    # Create a separate placeholder for s390x's Firefox as it's not build in Fedora
-    firefox:
-      description: Default web browser for Workstation
-      limit_arches:
-        - s390x
-      requires: []
-      buildrequires: []
+  - c9s

@@ -6,7 +6,7 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-  - adwaita-qt
+  - adwaita-qt5
   - qgnomeplatform
   - qt5-doc
   - qt5-rpm-macros
@@ -74,3 +74,4 @@ data:
 
   labels:
   - eln
+  - c9s

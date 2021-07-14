@@ -6,122 +6,131 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-
-  - libwsman-devel
-  - libwsman1
-  - openwsman-server
-  - sblim-cmpi-base
-  - sblim-cmpi-base-devel
-  - libcmpiCppImpl0
-  - sblim-cmpi-devel
-  - sblim-indication_helper
-  - sblim-indication_helper-devel
-  - sblim-sfcb
-  - sblim-sfcc
-  - sblim-sfcc-devel
-  - sblim-wbemcli
-  - tog-pegasus-devel
-  - tog-pegasus-libs
-  - tog-pegasus
-  - wsmancli
-  - Xaw3d
-  - Xaw3d-devel
-  - gpm-devel
-  - gpm
-  - gpm-libs
-  - libva
-  - libva-devel
-  - libyami
-  - python3-opencv
-  - opencv-devel
-  - opencv-contrib
-  - opencv
-  - opencv-core
-  - opencv-doc
-  - passwd
-  - tmpwatch
-  - usermode
-  - usermode-gtk
-  - python3-volume_key
-  - volume_key
-  - volume_key-libs
-  - volume_key-devel
+  - babl-devel
+  - babl-devel-docs
+  - basesystem
+  - bc
+  - dcraw
   - diffstat
   - diffutils
   - dos2unix
+  - eigen3-devel
+  - freeipmi
+  - freeipmi-devel
+  - genwqe-tools
   - genwqe-vpd
   - genwqe-zlib
-  - genwqe-zlib-static
   - genwqe-zlib-devel
-  - genwqe-tools
+  - gpm
+  - gpm-devel
+  - gpm-libs
+  - ipmitool
   - iprutils
-  - liboggz-doc
-  - liboggz-devel
-  - liboggz
-  - librabbitmq-devel
+  - jasper-devel
+  - libgphoto2-devel
   - librabbitmq
-  - librabbitmq-tools
-  - opal-firmware
-  - opencryptoki-devel
-  - opencryptoki-icsftok
-  - opencryptoki-swtok
-  - opencryptoki
-  - opencryptoki-libs
-  - opencryptoki-tpmtok
-  - openhpi-libs
-  - openhpi
-  - openhpi-devel
-  - patch
-  - patchutils
-  - rhel-system-roles-sap
-  - setserial
-  - symlinks
-  - teckit
-  - teckit-devel
-  - which
+  - librabbitmq-devel
+  - librtas
+  - librtas-devel
+  - libsmi
+  - libsmi-devel
   - libsndfile
   - libsndfile-devel
-  - libsndfile-utils
+  - libva
+  - libva-devel
   - mksh
-  - uuid-c++
-  - uuid-devel
-  - uuid-perl
-  - uuid-dce
-  - uuid-c++-devel
-  - uuid
-  - uuid-dce-devel
-  - OpenIPMI-devel
-  - OpenIPMI-perl
-  - python3-openipmi
-  - OpenIPMI-libs
-  - OpenIPMI-lanserv
-  - OpenIPMI
-  - freeipmi
-  - freeipmi-ipmidetectd
-  - freeipmi-bmc-watchdog
-  - freeipmi-devel
-  - freeipmi-ipmiseld
-  - ipmitool
-  - ipmievd
-  - babl
-  - babl-devel
-  - babl-devel-docs
-  - dcraw
-  - gegl04
-  - gegl04-devel
-  - gegl04-devel-docs
-  - gegl04-tools
-  - jasper
-  - jasper-libs
-  - jasper-devel
-  - jasper-utils
-  - libgphoto2-devel
-  - libgphoto2
+  - modulemd-tools
+  - netpbm-devel
   - netpbm-doc
   - netpbm-progs
-  - netpbm
-  - netpbm-devel
-  - python3-jmespath
+  - opencryptoki
+  - opencryptoki-devel
+  - opencryptoki-icsftok
+  - opencryptoki-libs
+  - opencryptoki-swtok
+  - openhpi
+  - openhpi-devel
+  - openhpi-libs
+  - OpenIPMI
+  - OpenIPMI-devel
+  - openwsman-server
+  - passwd
+  - patch
+  - patchutils
+  - python3-volume_key
+  - rootfiles
+  - sblim-cmpi-base
+  - sblim-indication_helper
+  - sblim-sfcb
+  - sblim-sfcc-devel
+  - sblim-wbemcli
+  - scotch
+  - scotch-devel
+  - symlinks
+  - tesseract
+  - tesseract-devel
+  - tesseract-langpack-eng
+  - tesseract-tessdata-doc
+  - tmpwatch
+  - tracer
+  - usermode
+  - usermode-gtk
+  - uuid
+  - uuid-devel
+  - volume_key
+  - volume_key-devel
+  - volume_key-libs
+  - which
+  - wsmancli
+  - Xaw3d
+  - Xaw3d-devel
+  - mpfr
+  - mpfr-devel
+  - openexr
+  - openexr-devel
+  - openexr-libs
+  - imath
+  - imath-devel
+  - python3-imath
+  - watchdog
+
+  arch_packages:
+    #setserial not supported on s390x
+    aarch64:
+    - setserial
+    i686:
+    - setserial
+    x86_64:
+    - setserial
+    ppc64le:
+    - setserial
+    - opal-prd
+    - opal-utils
+    - opal-firmware
+    - powerpc-utils
+    - powerpc-utils-core
+    - ppc64-diag
+    - ppc64-diag-rtas
+    - libvpd
+    - libvpd-devel
+    - lsvpd
+    - libservicelog
+    - libservicelog-devel
+    - libcxl
+    s390x:
+    - opencryptoki-ccatok
+    - opencryptoki-ep11tok
+    - opencryptoki-icatok
+
+  package_placeholders:
+    rhel-system-roles-sap:
+      srpm: rhel-system-roles-sap
+      description: system roles for SAP
+      requires: []
+      limit_arches:
+        - x86_64
+        - ppc64le
 
   labels:
   - eln
+  - c9s

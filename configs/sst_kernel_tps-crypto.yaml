@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Crypto and RNG tools
+  description: Crypto and random number generator related utilities
+  maintainer: sst_kernel_tps
+
+  packages:
+  - rng-tools
+
+  labels:
+  - eln
+  - c9s

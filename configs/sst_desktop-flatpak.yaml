@@ -9,6 +9,8 @@ data:
   - flatpak
   - flatpak-builder
   - flatpak-selinux
+  - flatpak-xdg-utils
 
   labels:
   - eln
+  - c9s

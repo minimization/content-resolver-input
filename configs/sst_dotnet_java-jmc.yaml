@@ -5,8 +5,10 @@ data:
   description: JDK Mission Control application and libraries
   maintainer: sst_dotnet_java
 
-  modules_enable:
-  - jmc:latest
+  # asamalik: there are no modules yet, so commenting this part out
+  # this way we won't lose the packages from the set
+  #modules_enable:
+  #- jmc:7
   
   packages: []
 
@@ -14,5 +16,7 @@ data:
     x86_64:
     - jmc
     - jmc-core
+    - eclipse-pde
+    - tycho
   labels:
-  - eln
+  - c9s

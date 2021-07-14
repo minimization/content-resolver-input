@@ -6,10 +6,13 @@ data:
   maintainer: sst_cee_supportability
 
   packages:
-  - redhat-support-lib-python
-  - redhat-support-tool
   - sos
-  - support-tools-container
+  - rig
 
   labels:
   - eln
+  - c9s
+
+  package_placeholders:
+    support-tools-container:
+      description: This package ships in RHEL as a support tool, but does not ship in Fedora. 

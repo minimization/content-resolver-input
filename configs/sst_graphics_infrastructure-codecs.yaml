@@ -6,8 +6,7 @@ data:
   maintainer: sst_graphics_infrastructure
 
   packages:
-    - theora
-    - vorbis
+    - libtheora
     - sbc
     - lame
     - libmad
@@ -20,3 +19,4 @@ data:
 
   labels:
     - eln
+    - c9s

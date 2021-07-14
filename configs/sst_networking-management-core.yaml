@@ -7,7 +7,7 @@ data:
     NetworkManager and related tools.
   maintainer: sst_networking
   packages:
-  - dhclient
+  - dhcp-client
   - dnsmasq
   - iproute
   - NetworkManager
@@ -15,3 +15,4 @@ data:
 
   labels:
   - eln
+  - c9s

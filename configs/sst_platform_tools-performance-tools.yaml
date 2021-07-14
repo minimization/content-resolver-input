@@ -36,6 +36,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   # dyninst and papi aren't supported on s390x
   arch_packages:

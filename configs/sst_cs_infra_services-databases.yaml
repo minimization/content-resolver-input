@@ -8,8 +8,10 @@ data:
   packages:
   - libmemcached
   - memcached
+  - memcached-selinux
   - rrdtool
   - tinycdb
 
   labels:
   - eln
+  - c9s

@@ -5,26 +5,9 @@ data:
   description: Default e-mail client for Workstation
   maintainer: sst_desktop_applications
 
-  packages: []
+  packages:
+  - thunderbird
 
   labels:
   - eln
-
-  arch_packages:
-    aarch64:
-      - thunderbird
-    ppc64le:
-      - thunderbird
-    s390x:
-      - thunderbird
-    x86_64:
-      - thunderbird
-
-  package_placeholders:
-    # Create a separate placeholder for s390x's Thunderbird as it's not build in Fedora
-    thunderbird:
-      description: Default e-mail client for Workstation
-      limit_arches:
-        - s390x
-      requires: []
-      buildrequires: []
+  - c9s

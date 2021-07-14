@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SELinux devel
+  description: A development packages
+  maintainer: sst_security_selinux
+
+  packages:
+  - libsepol-static
+  - libsepol-devel
+  - libselinux-devel
+  - python3-libselinux
+  - libselinux-ruby
+  - libsemanage-devel
+  - python3-libsemanage
+  - python3-policycoreutils
+
+  labels:
+  - eln
+  - c9s

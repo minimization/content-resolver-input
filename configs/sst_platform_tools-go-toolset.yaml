@@ -10,17 +10,21 @@ data:
   - golang-bin
   - golang-docs
   - golang-misc
-  - golang-race
-  - golang-shared
   - golang-src
   - golang-tests
   - go-srpm-macros
 
+  arch_packages:
+    x86_64:
+      - golang-race
+
   labels:
   - eln
+  - c9s
 
   package_placeholders:
     delve:
+      srpm: delve
       description: This package is not in Fedora (yet), but we want to see it here.
       requires: []
       buildrequires:
@@ -28,6 +32,7 @@ data:
       - git
       - lsof
     go-toolset:
+      srpm: go-toolset
       description: Meta-package for go-toolset
       requires:
         - golang

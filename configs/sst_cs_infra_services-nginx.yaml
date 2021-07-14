@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - NGINX
+  description: CS Infrastructure Services - NGINX
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - nginx
+  - nginx-all-modules
+
+  # asamalik: there are no modules yet, so commenting this part out
+  # this way we won't lose the packages from the set
+  #modules_enable:
+  #- nginx:1.18
+  
+  labels:
+  - c9s

@@ -16,10 +16,7 @@ data:
   - dracut-tools
   - acl
   - coreutils
-  - coreutils-single
   - curl
-  - curl-minimal
-  - libcurl-minimal
   - gawk
   - sed
   - bash
@@ -33,3 +30,13 @@ data:
 
   labels:
   - eln
+  - c9s
+
+  package_placeholders:
+    zram-generator:
+      description: RHEL builds are bundled and use rust-toolset
+      srpm: rust-zram-generator
+    zram-generator-defaults:
+      description: RHEL builds are bundled and use rust-toolset
+      srpm: rust-zram-generator
+

@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenCL infrastructure
+  description: Even if we don't ship OpenCL itself, we need to ship the icd, headers and filesystem for vendor drivers
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - ocl-icd
+    - opencl-filesystem
+    - opencl-headers
+
+  labels:
+    - eln
+    - c9s

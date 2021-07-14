@@ -1,21 +1,18 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Collection of packages providing Performance Co-Pilot and Grafana
+  name: Performance Co-Pilot and Grafana
   description: Performance Co-Pilot and Grafana
   maintainer: sst_platform_tools
 
   packages:
-  - ansible-pcp
   - chan
   - chan-devel
   - grafana
   - grafana-pcp
-  - grafonnet-lib
   - HdrHistogram_c
   - HdrHistogram_c-devel
   - js-d3-flame-graph
-  - jsonnet
   - pcp
   - pcp-conf
   - pcp-devel
@@ -39,10 +36,8 @@ data:
   - pcp-pmda-activemq
   - pcp-pmda-apache
   - pcp-pmda-bash
-  - pcp-pmda-bcc
   - pcp-pmda-bind2
   - pcp-pmda-bonding
-  - pcp-pmda-bpftrace
   - pcp-pmda-cifs
   - pcp-pmda-cisco
   - pcp-pmda-dbping
@@ -56,7 +51,6 @@ data:
   - pcp-pmda-gpfs
   - pcp-pmda-gpsd
   - pcp-pmda-haproxy
-  - pcp-pmda-infiniband
   - pcp-pmda-json
   - pcp-pmda-libvirt
   - pcp-pmda-lio
@@ -68,7 +62,6 @@ data:
   - pcp-pmda-memcache
   - pcp-pmda-mic
   - pcp-pmda-mounts
-  - pcp-pmda-mssql
   - pcp-pmda-mysql
   - pcp-pmda-named
   - pcp-pmda-netcheck
@@ -76,13 +69,11 @@ data:
   - pcp-pmda-news
   - pcp-pmda-nfsclient
   - pcp-pmda-nginx
-  - pcp-pmda-nutcracker
   - pcp-pmda-nvidia-gpu
   - pcp-pmda-openmetrics
   - pcp-pmda-openvswitch
   - pcp-pmda-oracle
   - pcp-pmda-pdns
-  - pcp-pmda-perfevent
   - pcp-pmda-podman
   - pcp-pmda-postfix
   - pcp-pmda-postgresql
@@ -118,3 +109,25 @@ data:
 
   labels:
   - eln
+  - c9s
+
+  arch_packages:
+    aarch64:
+    - pcp-pmda-bcc
+    - pcp-pmda-bpftrace
+    - pcp-pmda-infiniband
+    - pcp-pmda-perfevent
+    ppc64le:
+    - pcp-pmda-bcc
+    - pcp-pmda-bpftrace
+    - pcp-pmda-infiniband
+    - pcp-pmda-perfevent
+    s390x:
+    - pcp-pmda-bcc
+    - pcp-pmda-bpftrace
+    x86_64:
+    - pcp-pmda-bcc
+    - pcp-pmda-bpftrace
+    - pcp-pmda-infiniband
+    - pcp-pmda-mssql
+    - pcp-pmda-perfevent

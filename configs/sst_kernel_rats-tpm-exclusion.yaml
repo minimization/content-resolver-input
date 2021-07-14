@@ -7,6 +7,13 @@ data:
 
   unwanted_packages:
   - tpm-quote-tools
+  - trousers
+  - trousers-lib
+  - trousers-devel
+  - tpm-tools
+  - tpm-tools-pkcs11
+  - tpm-tools-devel
 
   labels:
   - eln
+  - c9s

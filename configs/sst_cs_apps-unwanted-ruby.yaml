@@ -5,12 +5,16 @@ data:
   description: Packages we do not want to ship for Ruby
   maintainer: sst_cs_apps
 
-  unwanted_packages:
+  unwanted_source_packages:
+  - rubygem-bson     # A dependency of rubygem-mongo.
   - rubygem-bundler
-  - rubygem-bundler-doc
+  - rubygem-mongo    # MongoDB is not shipped anymore.
+
+  unwanted_packages:
   - rubygem-rspec-its
   - rubygem-rspec-its-doc
   - rubypick
 
   labels:
   - eln
+  - c9s

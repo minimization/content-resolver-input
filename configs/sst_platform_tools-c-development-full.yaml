@@ -12,9 +12,6 @@ data:
   - glibc
   - glibc-common
   - glibc-devel
-  # Noarch header packages.
-  - glibc-headers-s390
-  - glibc-headers-x86_64
   # Full development includes additional packages:
   - glibc-utils
   - glibc-static
@@ -24,3 +21,4 @@ data:
 
   labels:
   - eln
+  - c9s

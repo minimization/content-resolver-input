@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-  - connections
+  - gnome-connections
 
   labels:
   - eln
+  - c9s

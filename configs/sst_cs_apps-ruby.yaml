@@ -7,7 +7,27 @@ data:
 
   packages:
   - ruby
-  - rubygem-abrt
+  - ruby-default-gems
+  - ruby-devel
+  - ruby-libs
+  - rubygem-bigdecimal
+  - rubygem-bundler
+  - rubygem-io-console
+  - rubygem-irb
+  - rubygem-json
+  - rubygem-minitest
+  - rubygem-power_assert
+  - rubygem-psych
+  - rubygem-rake
+  - rubygem-rbs
+  - rubygem-rdoc
+  - rubygem-rexml
+  - rubygem-rss
+  - rubygem-test-unit
+  - rubygem-typeprof
+  - rubygems
+  - rubygems-devel
 
   labels:
   - eln
+  - c9s

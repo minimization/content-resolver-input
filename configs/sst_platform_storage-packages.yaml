@@ -7,7 +7,6 @@ data:
 
   packages:
     # Stratis
-    - python-hs-dbus-signature
     - python3-dbus-client-gen
     - python3-dbus-python-client-gen
     - python3-dbus-signature-pyparsing
@@ -43,8 +42,6 @@ data:
     - iscsi-initiator-utils-iscsiuio
     - isns-utils
     - isns-utils-libs
-    - libopeniscsiusr
-    - libopeniscsiusr-devel
     - python3-iscsi-initiator-utils
 
       # fcoe offload
@@ -75,8 +72,20 @@ data:
     - mdadm
     - sanlock
     - userspace-rcu
-    # sid is pending https://fedoraproject.org/wiki/Changes/SID
-    # - sid
+    # SID and its sub-packages
+    - sid                                                                                 
+    - sid-base-libs                                                                       
+    - sid-base-libs-devel                                                                 
+    - sid-iface-libs                                                                      
+    - sid-iface-libs-devel                                                                
+    - sid-log-libs                                                                        
+    - sid-log-libs-devel                                                                  
+    - sid-mod-block-blkid                                                                 
+    - sid-mod-block-dm-mpath                                                              
+    - sid-mod-dummies                                                                     
+    - sid-resource-libs                                                                   
+    - sid-resource-libs-devel                                                             
+    - sid-tools    
 
     # Storage Management
     - hdparm
@@ -92,7 +101,6 @@ data:
     - libblockdev-nvdimm
     - libblockdev-part
     - libblockdev-plugins-all
-    - libblockdev-s390 (s390x)
     - libblockdev-swap
     - libblockdev-tools
     - libblockdev-utils
@@ -103,12 +111,12 @@ data:
     - libstoragemgmt-local-plugin
     - libstoragemgmt-megaraid-plugin
     - libstoragemgmt-nfs-plugin
-    - libstoragemgmt-nstor-plugin
     - libstoragemgmt-smis-plugin
     - libstoragemgmt-targetd-plugin
     - libstoragemgmt-udev
     - libudisks2
     - lsscsi
+    - mt-st
     - python3-blivet
     - python3-blockdev
     - python3-libstoragemgmt
@@ -118,47 +126,27 @@ data:
     - udisks2-iscsi
     - udisks2-lsm
     - udisks2-lvm2
-    - udisks2-zram
 
     # Unsure packages
     # - mtx
-    # - mt-st
     # - peripety
     #
 
+  package_placeholders:
+    kmod-kvdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
+    pmreorder:
+      description: This package is only available in RHEL.
+      srpm: pmreorder
+    vdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: vdo
+    stratisd:
+      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
+      srpm: stratisd
+
   arch_packages:
-    aarch64:
-      - daxio
-      - libpmem
-      - libpmem-debug
-      - libpmem-devel
-      - libpmemblk
-      - libpmemblk-debug
-      - libpmemblk-devel
-      - libpmemlog
-      - libpmemlog-debug
-      - libpmemlog-devel
-      - libpmemobj
-      - libpmemobj++-devel
-      - libpmemobj++-doc
-      - libpmemobj-debug
-      - libpmemobj-devel
-      - libpmempool
-      - libpmempool-debug
-      - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
-      - pmdk-convert
-      - pmempool
-      - pmreorder
-      - rpmemd
     ppc64le:
       - daxio
       - libpmem
@@ -171,8 +159,6 @@ data:
       - libpmemlog-debug
       - libpmemlog-devel
       - libpmemobj
-      - libpmemobj++-devel
-      - libpmemobj++-doc
       - libpmemobj-debug
       - libpmemobj-devel
       - libpmempool
@@ -181,15 +167,7 @@ data:
       - librpmem
       - librpmem-debug
       - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
-      - pmdk-convert
       - pmempool
-      - pmreorder
       - rpmemd
     x86_64:
       - daxio
@@ -213,16 +191,13 @@ data:
       - librpmem
       - librpmem-debug
       - librpmem-devel
-      - libvmem
-      - libvmem-debug
-      - libvmem-devel
-      - libvmmalloc
-      - libvmmalloc-debug
-      - libvmmalloc-devel
       - pmdk-convert
       - pmempool
-      - pmreorder
       - rpmemd
+
+    s390x:
+      - libblockdev-s390
 
   labels:
   - eln
+  - c9s

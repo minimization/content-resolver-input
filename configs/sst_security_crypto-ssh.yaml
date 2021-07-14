@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SSH Client and Server
+  description: SSH tools needed to access systems remotely
+  maintainer: sst_security_crypto
+
+  packages:
+  - openssh-clients
+  - openssh-server
+  - openssh
+  - openssh-keycat
+  - openssh-askpass
+  - pam_ssh_agent_auth
+
+  labels:
+  - eln
+  - c9s

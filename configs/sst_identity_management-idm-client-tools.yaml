@@ -6,8 +6,8 @@ data:
   maintainer: sst_identity_management
 
   packages:
-  - freeipa-healthcheck
-  - freeipa-client-epn
+  - ipa-healthcheck
+  - ipa-client-epn
   - sssd-tools
   - realmd
   - adcli
@@ -17,6 +17,8 @@ data:
   - cockpit-session-recording
   - gssproxy
   - certmonger
+  - ipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
+  - c9s

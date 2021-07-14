@@ -6,6 +6,20 @@ data:
     maintainer: sst_kernel_maintainers
     packages:
         - bpftool
+        - iwl1000-firmware
+        - iwl100-firmware
+        - iwl105-firmware
+        - iwl135-firmware
+        - iwl2000-firmware
+        - iwl2030-firmware
+        - iwl3160-firmware
+        - iwl5000-firmware
+        - iwl5150-firmware
+        - iwl6000g2a-firmware
+        - iwl6000g2b-firmware
+        - iwl6050-firmware
+        - iwl7260-firmware
+        - kernel
         - kernel-abi-whitelists
         - kernel-core
         - kernel-cross-headers
@@ -14,15 +28,24 @@ data:
         - kernel-modules
         - kernel-modules-extra
         - kernel-tools
-        - kernel-tools-libs
         - linux-firmware
+        - linux-firmware-whence
+        - liquidio-firmware
+        - netronome-firmware
         - perf
         - python3-perf
     labels:
         - eln
+        - c9s
     arch_packages:
         s390x:
             - kernel-zfcpdump
             - kernel-zfcpdump-core
             - kernel-zfcpdump-modules
             - kernel-zfcpdump-modules-extra
+        x86_64:
+            - kernel-tools-libs
+        aarch64:
+            - kernel-tools-libs
+        ppc64le:
+            - kernel-tools-libs

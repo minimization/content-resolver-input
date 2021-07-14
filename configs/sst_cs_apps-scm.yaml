@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: SCM Git and Mercurial
-  description: Pupular source-management tools Git and Mercurial
+  name: SCM
+  description: Pupular source-management tools
   maintainer: sst_cs_apps
 
   packages:
@@ -10,7 +10,7 @@ data:
   - git-daemon
   - git-gui
   - gitk
-  - mercurial
+  - git-lfs
 
   labels:
-  - eln
+  - c9s

@@ -7,7 +7,7 @@ data:
 
   packages:
   - gtk3
-  - gtk-doc
 
   labels:
   - eln
+  - c9s

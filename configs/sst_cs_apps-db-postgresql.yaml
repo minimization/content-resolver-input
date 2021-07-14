@@ -8,6 +8,8 @@ data:
   packages:
   - libpq
   - libpq-devel
+  - libecpg
+  - libecpg-devel
   - postgresql
   - postgresql-contrib
   - postgresql-llvmjit
@@ -21,7 +23,9 @@ data:
   - postgresql-upgrade
   - postgresql-upgrade-devel
   - pgaudit
+  - pg_repack
   - postgres-decoderbufs
 
   labels:
   - eln
+  - c9s

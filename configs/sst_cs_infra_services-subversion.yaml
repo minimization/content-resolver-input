@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Apache Subversion
+  description: Apache Subversion version control
+  maintainer: sst_cs_infra_services
+
+  # asamalik: there are no modules yet, so commenting this part out
+  # this way we won't lose the packages from the set
+  #modules_enable:
+  #- subversion:1.14
+
+  packages:
+  - subversion
+  - mod_dav_svn
+  - subversion-tools
+  - python3-subversion
+  - subversion-devel
+  - subversion-gnome
+  - subversion-perl
+  
+  labels:
+  - c9s

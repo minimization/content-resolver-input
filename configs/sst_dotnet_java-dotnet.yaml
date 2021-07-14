@@ -4,17 +4,29 @@ data:
   name: .NET
   description: .NET and .NET Core SDK, tools and runtime
   maintainer: sst_dotnet_java
+
+  packages: []
   
-  packages:
-  - dotnet-sdk-3.1
-  - dotnet-runtime-3.1
-  - aspnetcore-runtime-3.1
+  arch_packages:
+    x86_64:
+    - dotnet-sdk-3.1
+    - dotnet-runtime-3.1
+    - aspnetcore-runtime-3.1
+    aarch64:
+    - dotnet-sdk-3.1
+    - dotnet-runtime-3.1
+    - aspnetcore-runtime-3.1
 
   package_placeholders:
     dotnet-sdk-6.0:
+      srpm: dotnet6.0
       description: .NET 6.0 doesn't exist, yet, but it's being planned for release in Nov 2021.
+      limit_arches:
+      - x86_64
+      - aarch64
       requires: []        # same dependencies as dotnet-sdk-3.1
       buildrequires: []   # same dependencies as dotnet-sdk-3.1
 
   labels:
   - eln
+  - c9s

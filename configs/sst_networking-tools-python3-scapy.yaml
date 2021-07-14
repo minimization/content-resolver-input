@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - scapy
+  description: >
+    Packages related to network configuration and troubleshooting.
+  maintainer: sst_networking
+  packages:
+  - python3-scapy
+
+  labels:
+  - eln
+  - c9s

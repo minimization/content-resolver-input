@@ -13,8 +13,11 @@ data:
   - libhbaapi
   - libhbalinux
   - python-di
+  - python-hs-dbus-signature
+  - udisks2-zram
   # - kernel-rt.0010.0055
   # sst_platform_storage owns this, but there isn't a package in Fedora.
 
   labels:
   - eln
+  - c9s

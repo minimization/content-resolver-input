@@ -1,0 +1,21 @@
+---
+document: feedback-pipeline-view-addon
+version: 1
+data:
+  name: ELN Extras Package Set
+  description: Extra packages not in ELN, but needed to be built like ELN for testing
+  maintainer: eln-sig
+  labels:
+  - eln-extras
+  base_view_id: view-eln
+
+  # Packages to be flagged as unwanted  on specific architectures
+  #unwanted_arch_packages:
+  #  x86_64:
+  #  - arch-specific-package
+  #  aarch64:
+  #  - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  #unwanted_source_packages:
+  # - a-source-package

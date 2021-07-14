@@ -6,10 +6,14 @@ data:
   maintainer: sst_front_door
   labels:
     - eln
+    - c9s
 
   unwanted_packages:
-    # only needed for integration tests (buildroot), never ship this
+    # mpitt: only needed for integration tests (buildroot), never ship this
     - cockpit-tests
+
+    # mpitt: Will be deprecated soon, let's not introduce it
+    - cockpit-dashboard
 
     # Radek Vykydal:
     # system-config-kickstart has been deprecated upstream, it has not

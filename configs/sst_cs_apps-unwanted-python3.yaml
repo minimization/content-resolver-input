@@ -24,11 +24,81 @@ data:
 
   # Python Maint prefers the standard library venv module
   - python3-virtualenv
+  # tox depends on virtualenv, and generally isn't something we want to support in RHEL
+  - python3-tox
+  - tox
 
-  # deprected() Python packages:
+  # deprecated() Python packages:
   - python3-nose
   - python3-pytest4
   - python3-pytoml
+  - python3-mock
+
+  # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
+  - python-jupyter-filesystem
+  - python3-ipykernel
+  - python3-ipython
+  - python3-ipywidgets
+  - python3-jedi
+  - python3-jupyter-client
+  - python3-jupyter-core
+  - python3-matplotlib
+  - python3-nb2plots
+  - python3-nbconvert
+  - python3-nbsphinx
+  - python3-notebook
+  - python3-numpydoc
+  - python3-pandas
+  - python3-sympy
+
+  # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
+  - python3-coverage
+  - python3-pytest-cov
+
+  # Many  packages lint code in %check, we should not need to do that in RHEL (or even in Fedora)
+  - black
+  - python3-black
+  - python3-pycodestyle
+  - python3-pylint
+  - python3-pyflakes
+  - python3-flake8
+  - python3-isort
+
+  # funcsigs is a backport from the Python standard library inspect module, use that one instead
+  - python3-funcsigs
+
+  # hypothesis is a testing package with a fairly rapid release schedule,
+  # so it's not something we'd want to pin and support for an extended time
+  - python3-hypothesis
+
+  # breezy is only an optional test dependency of pip, with large dep tree
+  - breezy
+
+  # pillow is riddled with CVEs all the time, not something we want to fix
+  - python3-pillow
+  - python3-pillow-devel
+  - python3-pillow-qt
+  - python3-pillow-tk
+
+  # a test only depndencies, can be replaced by stdlib's unittest.mock if needed
+  # not "enterprise" material
+  - python3-pretend
+  - python3-sure
+  - python3-freezegun
+  - python3-trustme
+
+  # The Python standard library already has html.parser;
+  # another HTML parsing library is redundant
+  - python3-html5lib
+
+  # Web servers usually used for %check only, have a huge dep chain
+  - python3-tornado
+  - python3-twisted
+
+  # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
+  - python3-Pallets-Sphinx-Themes
+  - python3-sphinx-theme-py3doc-enhanced
 
   labels:
   - eln
+  - c9s

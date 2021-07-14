@@ -1,0 +1,208 @@
+document: eln-repo-split
+version: 1
+data:
+
+  name: Initial content split
+  maintainer: jwboyer
+
+  baseos:
+    must:
+    - kernel
+    - grub2-common
+    - dracut
+    - glibc
+    - bash
+    - rpm
+    - dnf
+    - kmod
+    - linux-firmware
+    - curl
+    - openssh-clients
+    - openssh-server
+    - policycoreutils
+    - selinux-policy
+    - selinux-policy-targeted
+    - systemd
+    - yum
+    # More that should be aligned to BaseOS
+    - attr
+    - authselect
+    - autofs
+    - bash-completion
+    - base-doc
+    - bc
+    - chrony
+    - cockpit
+    - cockpit-bridge
+    - cockpit-system
+    - cockpit-ws
+    - coreutils
+    - coreutils-common
+    - coreutils-single
+    - cpio
+    - cronie
+    - dhcp-client
+    - file
+    - grep
+    - iptables
+    - iptables-arptables
+    - iptables-ebtables
+    - iptables-utils
+    - lvm2
+    - lz4
+    - lzo
+    - nftables
+    - openssl
+    - passwd
+    - procps-ng
+    - psmisc
+    - strace
+    - sudo
+    # asamalik: adding ELN packages
+    - fedora-release-eln
+    - fedora-repos-eln
+
+
+  appstream:
+    want:
+    - anaconda
+    - anaconda-core
+    - anaconda-dracut
+    - anaconda-gui
+    - anaconda-install-env-deps
+    - anaconda-tui
+    - bcc
+    - bcc-tools
+    - buildah
+    - evolution
+    - gcc
+    - gimp
+    - git
+    - git-all
+    - git-core
+    - git-daemon
+    - git-email
+    - git-bui
+    - git-instaweb
+    - git-lfs
+    - git-subtree
+    - gitweb
+    - hexchat
+    - httpd
+    - httpd-devel
+    - httpd-filesystem
+    - httpd-manual
+    - httpd-tools
+    - java-11-openjdk
+    - java-11-openjdk-headless
+    - jq
+    - libreoffice-base
+    - libreoffice-calc
+    - libreoffice-core
+    - libreoffice-data
+    - libreoffice-draw
+    - libreoffice-emailmerge
+    - libreoffice-filters
+    - libreoffice-graphicfilter
+    - libreoffice-gtk3
+    - libtool
+    - mariadb
+    - maven
+    - mesa-dri-drivers
+    - mesa-libEGL
+    - mesa-libGL
+    - mesa-libGLU
+    - mesa-libGLw
+    - mesa-libOSMesa
+    - mesa-libgdm
+    - mesa-libglapi
+    - mesa-vulkan-drivers
+    - mutt
+    - mysql
+    - nginx
+    - nodejs
+    - osbuild
+    - osbuild-composer
+    - ostree
+    - pcp
+    - perl
+    - plymouth
+    - plymouth-core-libs
+    - plymouth-graphics-libs
+    - plymouth-system-theme
+    - podman
+    - policycoreutils-gui
+    - policycoreutils-sandbox
+    - postfix
+    - postgresql
+    - qt5-qt3d
+    - qt5-qtbase
+    - qt5-qtbase-gui
+    - rpm-ostree
+    - ruby
+    - ruby-libs
+    - runc
+    - rust
+    - sendmail
+    - skopeo
+    - systemtap
+    - systemtap-client
+    - systemtap-exporter
+    - systemtap-runtime
+    - systemtap-sdt-devel
+    - systemtap-server
+    - texlive
+    - texlive-base
+    - thunderbird
+    - tog-pegasus
+    - toolbox
+    - valgrind
+    - wget
+    - wireshark
+    - zsh
+
+  addon-ha:
+    must:
+    - corosync
+    - booth
+    - clufter
+    - pacemaker
+    - pcs
+    - resource-agents
+
+  addon-rs:
+    must:
+    - dlm
+    - fence-agents-aliyun
+    - fence-agents-azure-arm
+    - fence-agents-aws
+    - fence-agents-gce
+    - pacemaker
+    - pcs
+    - resource-agents
+    - spausedd
+
+  addon-rt:
+    must:
+    - stress-ng
+    - tuned-profiles-realtime
+ 
+  addon-nfv:
+    must:
+    - stress-ng
+    - tuned-profiles-nfv
+    - tuned-profiles-nfv-guest
+    - tuned-profiles-nfv-host
+    - tuned-profiles-nfv-host-bin
+    - tuned-profiles-realtime
+
+  addon-sap:
+    must:
+    - resource-agents-sap
+    - tuned-profiles-sap
+
+  addon-saphana:
+    must:
+    - resource-agents-sap-hana
+    - resource-agents-sap-hana-scaleout
+    - tuned-profiles-sap-hana

@@ -7,6 +7,12 @@ data:
 
   packages:
   - samba-client
+  - cifs-utils
+  - samba-winbind
+  - samba-winbind-clients
+  - samba-winbind-krb5-locator
+  - samba-krb5-printing
 
   labels:
   - eln
+  - c9s

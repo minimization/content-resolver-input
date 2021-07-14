@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Wayland infrastructure
+  description: Contains tools and related infrastructure used in a Wayland environment
+  maintainer: sst_graphics_infrastructure
+
+  packages:
+    - wayland-utils
+    - waypipe
+    # Needed by the NVIDIA drivers to use Mutter's EGLStreams
+    - egl-wayland
+    - libinput-utils
+
+  labels:
+    - eln
+    - c9s

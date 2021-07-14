@@ -5,25 +5,24 @@ data:
     description: Kernel packages used for devel/debug
     maintainer: sst_kernel_maintainers
     packages:
-        - bpftool-debuginfo
         - kernel-cross-headers
-        - kernel-headers
-        - kernel-debuginfo
+        - kernel-debug
+        - kernel-debug-core
+        - kernel-debug-devel
+        - kernel-debug-modules
+        - kernel-debug-modules-extra
         - kernel-devel
-        - kernel-tools-libs-devel
-        - kernel-tools-debuginfo
-        - perf-debuginfo
-        - python3-perf-debuginfo
+        - kernel-headers
     labels:
         - eln
+        - c9s
     arch_packages:
-        aarch64:
-            - kernel-debuginfo-common-aarch64
-        ppc64le:
-            - kernel-debuginfo-common-ppc64le
-        s390x:
-            - kernel-debuginfo-common-s390x
-            - kernel-zfcpdump-debuginfo
-            - kernel-zfcpdump-devel
         x86_64:
-            - kernel-debuginfo-common-x86_64
+            - kernel-tools-libs-devel
+        aarch64:
+            - kernel-tools-libs-devel
+        ppc64le:
+            - kernel-tools-libs-devel
+        s390x:
+            - kernel-zfcpdump-devel
+

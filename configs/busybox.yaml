@@ -1,0 +1,32 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Busybox
+  description: Busybox
+  maintainer: asamalik
+
+  packages:
+  - busybox
+
+  labels:
+  - minimization
+
+
+  ### OPTIONAL FIELDS ###
+
+  # Architecture-specific packages.
+  #
+  # (optional field)
+  #arch_packages:
+  #  x86_64:
+  #  - arch-specific-package
+
+  # Extra installation options.
+  # The following are now supported:
+  # - "include-docs" - include documentation packages
+  # - "include-weak-deps" - automatically pull in "recommends" weak dependencies
+  #
+  # (optional field)
+  #options:
+  #- option

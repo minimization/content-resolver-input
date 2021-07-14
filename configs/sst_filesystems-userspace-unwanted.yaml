@@ -5,6 +5,9 @@ data:
   description: Unwanted Filesystem Packages
   maintainer: sst_filesystems
 
+  unwanted_packages:
+    - system-storage-manager
+
   unwanted_arch_packages:
     aarch64:
       - gfs2-utils
@@ -12,3 +15,4 @@ data:
 
   labels:
   - eln
+  - c9s

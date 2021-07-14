@@ -3,16 +3,25 @@ version: 1
 data:
   name: HA
   description: HA needed packages
-  maintainer: sst_ha
+  maintainer: sst_high_availability
 
   packages: []
+
+  package_placeholders:
+    fence-agents-aliyun:
+      description: This package is only provided in RHEL
+    python3-gflags:
+      description: This package is only provided in RHEL
+    resource-agents-aliyun:
+      description: This package is only provided in RHEL
+    resource-agents-gcp:
+      description: This package is only provided in RHEL
 
   arch_packages:
     # No packages from HA currently support aarch64.
     # aarch64:
 
     ppc64le:
-    - awscli
     - booth
     - booth-arbitrator
     - booth-core
@@ -21,48 +30,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
-    - fence-agents-amt-ws
-    - fence-agents-apc
-    - fence-agents-apc-snmp
-    - fence-agents-aws
-    - fence-agents-azure-arm
-    - fence-agents-bladecenter
-    - fence-agents-brocade
-    - fence-agents-cisco-mds
-    - fence-agents-cisco-ucs
-    - fence-agents-common
-    - fence-agents-compute
-    - fence-agents-drac5
-    - fence-agents-eaton-snmp
-    - fence-agents-emerson
-    - fence-agents-eps
-    - fence-agents-gce
-    - fence-agents-heuristics-ping
-    - fence-agents-hpblade
-    - fence-agents-ibmblade
-    - fence-agents-ifmib
-    - fence-agents-ilo-moonshot
-    - fence-agents-ilo-mp
-    - fence-agents-ilo-ssh
-    - fence-agents-ilo2
-    - fence-agents-intelmodular
-    - fence-agents-ipdu
-    - fence-agents-ipmilan
-    - fence-agents-kdump
-    - fence-agents-lpar
-    - fence-agents-mpath
-    - fence-agents-redfish
-    - fence-agents-rhevm
-    - fence-agents-rsa
-    - fence-agents-rsb
-    - fence-agents-sbd
-    - fence-agents-scsi
-    - fence-agents-virsh
-    - fence-agents-vmware-rest
-    - fence-agents-vmware-soap
-    - fence-agents-wti
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -93,29 +61,11 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
-    - python3-azure-sdk
-    - python3-boto3
-    - python3-botocore
-    - python3-clufter
-    - python3-fasteners
-    - python3-gflags
-    - python3-google-api-client
-    - python3-httplib2
-    - python3-jwt
-    - python3-oauth2client
-    - python3-pexpect
-    - python3-ptyprocess
-    - python3-s3transfer
-    - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
     s390x:
-    - awscli
     - booth
     - booth-arbitrator
     - booth-core
@@ -124,48 +74,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
-    - fence-agents-amt-ws
-    - fence-agents-apc
-    - fence-agents-apc-snmp
-    - fence-agents-aws
-    - fence-agents-azure-arm
-    - fence-agents-bladecenter
-    - fence-agents-brocade
-    - fence-agents-cisco-mds
-    - fence-agents-cisco-ucs
-    - fence-agents-common
-    - fence-agents-compute
-    - fence-agents-drac5
-    - fence-agents-eaton-snmp
-    - fence-agents-emerson
-    - fence-agents-eps
-    - fence-agents-gce
-    - fence-agents-heuristics-ping
-    - fence-agents-hpblade
-    - fence-agents-ibmblade
-    - fence-agents-ifmib
-    - fence-agents-ilo-moonshot
-    - fence-agents-ilo-mp
-    - fence-agents-ilo-ssh
-    - fence-agents-ilo2
-    - fence-agents-intelmodular
-    - fence-agents-ipdu
-    - fence-agents-ipmilan
-    - fence-agents-kdump
-    - fence-agents-mpath
-    - fence-agents-redfish
-    - fence-agents-rhevm
-    - fence-agents-rsa
-    - fence-agents-rsb
-    - fence-agents-sbd
-    - fence-agents-scsi
-    - fence-agents-virsh
-    - fence-agents-vmware-rest
-    - fence-agents-vmware-soap
-    - fence-agents-wti
-    - fence-agents-zvm
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -196,29 +105,11 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
-    - python3-azure-sdk
-    - python3-boto3
-    - python3-botocore
-    - python3-clufter
-    - python3-fasteners
-    - python3-gflags
-    - python3-google-api-client
-    - python3-httplib2
-    - python3-jwt
-    - python3-oauth2client
-    - python3-pexpect
-    - python3-ptyprocess
-    - python3-s3transfer
-    - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
     x86_64:
-    - awscli
     - booth
     - booth-arbitrator
     - booth-core
@@ -227,47 +118,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-aliyun
     - fence-agents-all
-    - fence-agents-amt-ws
-    - fence-agents-apc
-    - fence-agents-apc-snmp
-    - fence-agents-aws
-    - fence-agents-azure-arm
-    - fence-agents-bladecenter
-    - fence-agents-brocade
-    - fence-agents-cisco-mds
-    - fence-agents-cisco-ucs
-    - fence-agents-common
-    - fence-agents-compute
-    - fence-agents-drac5
-    - fence-agents-eaton-snmp
-    - fence-agents-emerson
-    - fence-agents-eps
-    - fence-agents-gce
-    - fence-agents-heuristics-ping
-    - fence-agents-hpblade
-    - fence-agents-ibmblade
-    - fence-agents-ifmib
-    - fence-agents-ilo-moonshot
-    - fence-agents-ilo-mp
-    - fence-agents-ilo-ssh
-    - fence-agents-ilo2
-    - fence-agents-intelmodular
-    - fence-agents-ipdu
-    - fence-agents-ipmilan
-    - fence-agents-kdump
-    - fence-agents-mpath
-    - fence-agents-redfish
-    - fence-agents-rhevm
-    - fence-agents-rsa
-    - fence-agents-rsb
-    - fence-agents-sbd
-    - fence-agents-scsi
-    - fence-agents-virsh
-    - fence-agents-vmware-rest
-    - fence-agents-vmware-soap
-    - fence-agents-wti
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -298,26 +149,10 @@ data:
     - pacemaker-remote
     - pcs
     - pcs-snmp
-    - pexpect
-    - python3-azure-sdk
-    - python3-boto3
-    - python3-botocore
-    - python3-clufter
-    - python3-fasteners
-    - python3-gflags
-    - python3-google-api-client
-    - python3-httplib2
-    - python3-jwt
-    - python3-oauth2client
-    - python3-pexpect
-    - python3-ptyprocess
-    - python3-s3transfer
-    - python3-uritemplate
     - resource-agents
-    - resource-agents-aliyun
-    - resource-agents-gcp
     - sbd
     - spausedd
 
   labels:
   - eln
+  - c9s

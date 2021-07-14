@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Extra Fonts
+  description: Coolections of extra packages providing fonts
+  maintainer: sst_i18n
+
+  packages:
+  - dejavu-lgc-sans-fonts
+  - dejavu-lgc-sans-mono-fonts
+  - dejavu-lgc-serif-fonts
+  - google-noto-serif-cjk-ttc-fonts
+  - google-noto-serif-gurmukhi-vf-fonts
+  - google-noto-serif-sinhala-vf-fonts
+  - liberation-narrow-fonts
+  - smc-rachana-fonts
+
+  labels:
+  - eln
+  - c9s
+

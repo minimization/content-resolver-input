@@ -5,11 +5,11 @@ data:
   description: Utility to receive RAS error tracings
   maintainer: sst_kernel_ft
 
-  packages:
-  - rasdaemon
+  packages: []
 
   labels:      # <-- Please leave
   - eln        #     this unchanged.
+  - c9s
 
 
   # (Only include the following section if you have arch-specific packages.)
@@ -18,3 +18,19 @@ data:
   #           - arch-specific-package1   # <-- The list of binary RPM packages
   #               - arch-specific-package1   #     goes here.
   #
+  arch_packages:
+      x86_64:
+          - rasdaemon
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource
+      aarch64:
+          - rasdaemon
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource
+      ppc64le:
+          - rasdaemon
+          # asamalik debuginfo packages are special and not in the repos. 
+          #- rasdaemon-debuginfo
+          #- rasdaemon-debugsource

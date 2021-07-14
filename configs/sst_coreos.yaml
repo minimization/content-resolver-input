@@ -5,19 +5,20 @@ data:
   description: >
     OS compontents for CoreOS based systems.
     This should be distributed via ostrees.
-  maintainer: sst_coreos
+  maintainer: sst_rhcos
 
   packages:
-   # These packages are built and releases as part of
-   # Openshift.
+   # These packages are currently built and released as part of
+   # OpenShift 4 (RHCOS).  In the future we may create ELN CoreOS,
+   # see https://github.com/coreos/fedora-coreos-config/pull/712
    - afterburn
    - afterburn-dracut
    - coreos-installer
-   - cri-o
    - ignition
    - runc
    - ssh-key-dir
    - zincati
+   - bootupd
 
    # These packages are inherited from the base
    - cloud-utils-growpart
@@ -28,8 +29,9 @@ data:
    - podman
    - rpm-ostree
    - skopeo
-   - systemd-containerd
+   - systemd-container
    - toolbox
 
-  labels:
-  - eln
+## Do not re-enable in eln without Josh Boyers permission
+#  labels:
+#  - eln

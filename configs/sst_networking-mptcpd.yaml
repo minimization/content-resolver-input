@@ -2,21 +2,12 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: mptcpd
-  description: path manager daemon for multipath TCP - package should be in ELN
+  description: path manager daemon for multipath TCP
   maintainer: sst_networking
 
-  # this field is mandatory
-  packages: []
+  packages: 
+  - mptcpd
 
-  package_placeholders:
-    mptcpd:
-      description: This package is not yet in Fedora, it's going to be added soon.
-      requires:
-      - libell
-      buildrequires:
-      - autoconf
-      - automake
-      - pandoc
-      - doxygen
   labels:
   - eln
+  - c9s
