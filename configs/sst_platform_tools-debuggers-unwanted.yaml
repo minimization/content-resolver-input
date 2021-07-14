@@ -6,6 +6,7 @@ data:
   maintainer: sst_platform_tools
 
   unwanted_packages:
+  - babeltrace
   - gdb-minimal
 
   labels:
