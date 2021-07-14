@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: arch hw unwanted packages
+  description: Unwanted packages no longer headed for hardware enablement
+  maintainer: sst_arch_hw
+
+  unwanted_packages:
+  - libdv
+  - libiec61883
+  - fxload
+
+  labels:
+  - eln
+  - c9s
+

@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: Printing Stack
-  description: Suite of software needed for priting on Linux
+  description: Suite of software needed for printing on Linux
   maintainer: sst_cs_infra_services
 
   packages:
@@ -12,6 +12,7 @@ data:
   - cups-filters
   - cups-ipptool
   - cups-lpd
+  - cups-printerapp
   - enscript
   - foomatic
   - foomatic-db
@@ -34,3 +35,4 @@ data:
 
   labels:
   - eln
+  - c9s

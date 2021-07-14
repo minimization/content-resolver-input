@@ -9,7 +9,7 @@ data:
   packages:
   # Core
   - iproute
-  - dhclient
+  - dhcp-client
   - dnsmasq
   - NetworkManager
   - NetworkManager-tui
@@ -43,3 +43,4 @@ data:
 
   labels:
   - eln
+  - c9s

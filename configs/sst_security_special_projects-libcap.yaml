@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: LIBCAP
+  description: A library for getting and setting POSIX capabilities.
+  maintainer: sst_security_special_projects
+
+  packages:
+  - libcap
+  - libcap-devel
+  - libcap-static
+  - libcap-ng
+  - libcap-ng-devel
+  - libcap-ng-python3
+  - libcap-ng-utils
+
+
+
+  labels:
+  - eln
+  - c9s

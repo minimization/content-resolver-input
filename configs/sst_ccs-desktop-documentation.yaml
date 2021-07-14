@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Desktop Documentation
+  description: Desktop documentation and branding
+  maintainer: sst_ccs
+
+  packages:
+  - gnome-user-docs
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    redhat-indexhtml:
+      srpm: redhat-indexhtml
+      description: Browser default start page for Red Hat Enterprise Linux
+      requires: []
+      buildrequires: []

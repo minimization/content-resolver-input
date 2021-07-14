@@ -9,6 +9,7 @@ data:
 
   labels:
   - eln
+  - c9s
 
   arch_packages:
     x86_64:

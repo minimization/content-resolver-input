@@ -7,6 +7,7 @@ data:
   labels:
   - eln-candidate
   - eln
+  - c9s
 
   options:
   - include-weak-deps

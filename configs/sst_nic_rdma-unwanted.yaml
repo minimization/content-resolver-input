@@ -38,5 +38,7 @@ data:
   - ibutils-devel
   - ibutils-libs
   - ibutils-static
+  - qperf
   labels:
   - eln
+  - c9s

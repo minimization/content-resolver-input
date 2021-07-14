@@ -9,17 +9,20 @@ data:
   - aajohan-comfortaa-fonts
   - abattis-cantarell-fonts
   - adobe-source-code-pro-fonts
+  - compat-paratype-pt-sans-fonts-f33-f34
   - dejavu-sans-fonts
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
+  - google-carlito-fonts
   - google-noto-emoji-color-fonts
   - google-noto-sans-cjk-ttc-fonts
   - google-noto-sans-gurmukhi-fonts
   - google-noto-sans-sinhala-vf-fonts
   - google-roboto-slab-fonts
+  - ht-caladea-fonts
   - jomolhari-fonts
   - julietaula-montserrat-fonts
-  - khmeros-base-fonts
+  - khmer-os-system-fonts
   - lato-fonts
   - liberation-mono-fonts
   - liberation-sans-fonts
@@ -35,7 +38,7 @@ data:
   - open-sans-fonts
   - overpass-fonts
   - paktype-naskh-basic-fonts
-  - paratype-pt-sans-fonts
+  - pt-sans-fonts
   - sil-abyssinica-fonts
   - sil-nuosu-fonts
   - sil-padauk-fonts
@@ -45,3 +48,4 @@ data:
 
   labels:
   - eln
+  - c9s

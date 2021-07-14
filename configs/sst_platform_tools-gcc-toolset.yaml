@@ -11,28 +11,44 @@ data:
   - cpp
   - gcc-gdb-plugin
   - gcc-gfortran
-  - gcc-offload-nvptx
   - gcc-plugin-devel
   - libasan
   - libatomic
   - libgcc
   - libgfortran
   - libgomp
-  - libgomp-offload-nvptx
   - libitm
   - libitm-devel
-  - liblsan
-  - libquadmath
-  - libquadmath-devel
   - libstdc++
   - libstdc++-devel
   - libstdc++-docs
   - libstdc++-static
-  - libtsan
   - libubsan
   - libmpc
   - dwz
   - chrpath
+
+  arch_packages:
+    aarch64:
+      - liblsan
+      - libtsan
+    i686:
+      - libquadmath
+      - libquadmath-devel
+    ppc64le:
+      - gcc-offload-nvptx
+      - libgomp-offload-nvptx
+      - liblsan
+      - libtsan
+      - libquadmath
+      - libquadmath-devel
+    x86_64:
+      - gcc-offload-nvptx
+      - libgomp-offload-nvptx
+      - liblsan
+      - libtsan
+      - libquadmath
+      - libquadmath-devel
 
   package_placeholders:
     gcc-libraries:
@@ -56,3 +72,4 @@ data:
 
   labels:
   - eln
+  - c9s

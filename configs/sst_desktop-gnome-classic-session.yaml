@@ -7,20 +7,24 @@ data:
 
   packages:
   - gnome-classic-session
-  - gnome-classic-session
+  - gnome-menus
   - gnome-shell-extension-apps-menu
-  - gnome-shell-extension-desktop-icons
-  - gnome-shell-extension-horizontal-workspaces
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-launch-new-instance
   - gnome-shell-extension-window-list
 
   labels:
   - eln
+  - c9s
 
   package_placeholders:
+    # No longer in Fedora
+    gnome-shell-extension-desktop-icons:
+      srpm: gnome-shell-extensions
+      description: This GNOME Shell extension adds desktop icons support as seen in GNOME 2
     # Only gnome-shell-extension-topicons-plus is available in Fedora
     gnome-shell-extension-top-icons:
+      srpm: gnome-shell-extensions
       description: This GNOME Shell extension moves legacy tray icons into the top bar
       requires: []
       buildrequires: []

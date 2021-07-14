@@ -1,66 +1,46 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Desktop - Blocked packages
-  description: Desktop - Packages which should not be in ELN
-  maintainer: sst_desktop
+  name: Desktop Applications - Blocked packages
+  description: Desktop Applications - Packages which should not be in ELN
+  maintainer: sst_desktop_applications
   unwanted_packages:
-  # Future candidates:
-  # - libgnomekbd
-  # quvi is disabled as a dependency of Totem in RHEL
-  - libquvi-scripts
-  - libquvi
-  - lua-expat
-  - lua-filesystem
-  - lua-json
-  - lua-lpeg
-  - lua-lunit
-  - lua-posix
-  - lua-socket
-  # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
-  - libgpod
-  - media-player-info
-  - libmtp
-  - rhythmbox
-  # Support for file access for iPhones/iPads dropped from RHEL 9
-  - libimobiledevice
-  - libplist
-  - libusbmuxd
-  - usbmuxd
-  # Replaced by fwupd
-  - fwupdate
-  # DLNA support dropped from RHEL 9
-  - gssdp
-  - gupnp-av
-  - gupnp-dlna
-  - gupnp-igd
-  - gupnp
-  - dleyna-connector-dbus
-  - dleyna-core
-  - dleyna-renderer
-  - dleyna-server
-  # Replaced by gnome-session-kiosk-session
-  - metacity
-  # Mouse a11y is now provided by gnome-shell
-  - mousetweaks
-  - gnome-themes-standard
-  # Old mozjs releases, the whole system should use only one mozjs - version 68 currently
-  - mozjs52
-  - mozjs60
+  # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
+  - libappindicator
+  - libappindicator-gtk3
+  - libdbusmenu
+  - libdbusmenu-gtk3
+  - libindicator
+  - libindicator-gtk3
+  # Replaced by GNOME Connections
+  - vinagre
+  # buggy; glib improved to make dconf work on NFS
+  - gamin
+  - glib2-fam
+  # Replaced by GNOME Remote Desktop
+  - vino
+  # GNOME Shell has its own polkit dialog implementation
+  # https://src.fedoraproject.org/rpms/gnome-shell/c/cd9369de85703b98ededeee30f9a421bbb7ebc30?branch=master
+  - polkit-gnome
   # Old or deprecated or unwanted or unused stuff
-  - clutter-gtk
-  - clutter-gst3
-  - clutter
-  - cogl
-  - libIDL
-  - redhat-menus
-  - gnome-menus
-  - dbus-c++
-  - libcroco
-  - enca
-  - libchamplain
-  - libbluray
-  - libdmapsharing
-  - libaec
+  - rarian
+  - GConf2
+  # Miners are mostly broken and other problems
+  # https://bugzilla.redhat.com/show_bug.cgi?id=1913643
+  - gnome-online-miners
+  # Only Qt5 will be part of RHEL 9
+  - qt
+  - PyQt4
+  # Don't include web engines that are basically unmaintained
+  - qtwebkit
+  - qt5-qtwebkit
+  # As SPICE won't be part of RHEL 9, we will ship Boxes as a Flatpak based on RHEL 8 runtime
+  # See https://bugzilla.redhat.com/show_bug.cgi?id=1900581
+  - gnome-boxes
+  # Wasn't part of RHEL 8 and won't be part of RHEL 9
+  - ImageMagick
+  # Functionality moved into Nautilus, see https://pagure.io/fedora-workstation/issue/167
+  - file-roller
   labels:
   - eln
+  - c9s

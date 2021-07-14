@@ -1,0 +1,205 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lorax template packages
+  description: Packages for lorax template
+  maintainer: jwboyer
+
+  packages:
+  - lorax
+  - anaconda
+  - anaconda-widgets
+  - kexec-tools-anaconda-addon
+  - anaconda-install-env-deps
+  - oscap-anaconda-addon
+  - dnf
+  - rpm-ostree
+  - ostree
+  - pigz
+  - kernel
+  - kernel-modules
+  - kernel-modules-extra
+  - grubby
+  - glibc-all-langpacks
+  - plymouth
+  - anaconda-dracut
+  - dracut-network
+  - dracut-config-generic
+  - initscripts
+  - cryptsetup
+  - rpcbind
+  - kbd
+  - kbd-misc
+  - tar
+  - xz
+  - curl
+  - bzip2
+  - systemd
+  - rsyslog
+  - rgb
+  - xrandr
+  - xrdb
+  - xorg-x11-xauth
+  - dbus-x11
+  - metacity
+  - gsettings-desktop-schemas
+  - nm-connection-editor
+  - librsvg2
+  - xfsprogs
+  - gfs2-utils
+  - system-storage-manager
+  - device-mapper-persistent-data
+  - xfsdump
+  - udisks2
+  - udisks2-iscsi
+  - hostname
+  - libblockdev-lvm-dbus
+  - volume_key
+  - nss-tools
+  - selinux-policy-targeted
+  - audit
+  - ethtool
+  - openssh-server
+  - nfs-utils
+  - openssh-clients
+  - tigervnc-server-minimal
+  - net-tools
+  - nmap-ncat
+  # asamalik: this package is not in Fedora
+  # - prefixdevname
+  - pciutils
+  - usbutils
+  - ipmitool
+  - mt-st
+  - smartmontools
+  - hdparm
+  - rng-tools
+  - bitmap-fangsongti-fonts
+  - dejavu-sans-fonts
+  - dejavu-sans-mono-fonts
+  - kacst-farsi-fonts
+  - kacst-qurn-fonts
+  - lklug-fonts
+  - lohit-assamese-fonts
+  - lohit-bengali-fonts
+  - lohit-devanagari-fonts
+  - lohit-gujarati-fonts
+  - lohit-gurmukhi-fonts
+  - lohit-kannada-fonts
+  - lohit-odia-fonts
+  - lohit-tamil-fonts
+  - lohit-telugu-fonts
+  - madan-fonts
+  - smc-meera-fonts
+  - thai-scalable-waree-fonts
+  - sil-abyssinica-fonts
+  - xorg-x11-fonts-misc
+  - aajohan-comfortaa-fonts
+  - abattis-cantarell-fonts
+  - sil-scheherazade-fonts
+  - jomolhari-fonts
+  - khmeros-base-fonts
+  - sil-padauk-fonts
+  - google-noto-sans-cjk-ttc-fonts
+  - gdb-gdbserver
+  - libreport-plugin-bugzilla
+  - libreport-plugin-reportuploader
+  - python3-pyatspi
+  - vim-minimal
+  - strace
+  - lsof
+  - dump
+  - less
+  - rsync
+  - bind-utils
+  - ftp
+  - mtr
+  - wget
+  - gdisk
+  - hexedit
+  - sg3_utils
+  - perl-interpreter
+
+  arch_packages:
+    x86_64:
+    - grub2-tools-efi
+    - efibootmgr
+    - shim-x64
+    - grub2-efi-x64-cdboot
+    - shim-ia32
+    - grub2-efi-ia32-cdboot
+    - biosdevname
+    - memtest86+
+    - syslinux
+    - grub2-tools
+    - grub2-tools-minimal
+    - grub2-tools-extra
+    - xorg-x11-drivers
+    - xorg-x11-server-Xorg
+    - tigervnc-server-module
+    - dmidecode
+    - linux-firmware
+    - iwl100-firmware
+    - iwl1000-firmware
+    - iwl105-firmware
+    - iwl135-firmware
+    - iwl2000-firmware
+    - iwl2030-firmware
+    - iwl3160-firmware
+    - iwl3945-firmware
+    - iwl4965-firmware
+    - iwl5000-firmware
+    - iwl5150-firmware
+    - iwl6000-firmware
+    - iwl6000g2a-firmware
+    - iwl6000g2b-firmware
+    - iwl6050-firmware
+    - iwl7260-firmware
+    - libibverbs
+    - rdma-core
+    ppc64le:
+    - powerpc-utils
+    - lsvpd
+    - ppc64-diag
+    - grub2-tools
+    - grub2-tools-minimal
+    - grub2-tools-extra
+    - grub2-ppc64le
+    - xorg-x11-drivers
+    - xorg-x11-server-Xorg
+    - tigervnc-server-module
+    - linux-firmware
+    - libibverbs
+    - rdma-core
+    aarch64:
+    - efibootmgr
+    - grub2-efi-aa64-cdboot
+    - grubby
+    - shim-aa64
+    - xorg-x11-drivers
+    - xorg-x11-server-Xorg
+    - tigervnc-server-module
+    - dmidecode
+    - linux-firmware
+    - libibverbs
+    - rdma-core
+    s390x:
+    - lsscsi
+    - s390utils-base
+    - s390utils-cmsfs-fuse
+    - s390utils-hmcdrvfs
+    - libibverbs
+    - rdma-core
+
+
+  package_placeholders:
+    lorax-templates-rhel:
+      description: RHEL only package
+      srpm: lorax-templates-rhel
+    redhat-release:
+      description: RHEL only package
+      srpm: redhat-release
+
+  labels:
+  - eln
+

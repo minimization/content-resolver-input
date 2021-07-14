@@ -6,25 +6,17 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-  - console-setup
-  - expect
-  - expect-devel
-  - fetchmail
-  - hwdata
-  - kbd
-  - kbd-misc
-  - kbd-legacy
-  - m4
-  - mrtg
-  - openslp-devel
-  - openslp
-  - openslp-server
-  - info
-  - dovecot-pgsql
-  - dovecot-pigeonhole
-  - dovecot-mysql
   - dovecot
   - dovecot-devel
+  - dovecot-mysql
+  - dovecot-pgsql
+  - dovecot-pigeonhole
+  - expect
+  - fetchmail
+  - kbd
+  - kbd-legacy
+  - mrtg
 
   labels:
   - eln
+  - c9s

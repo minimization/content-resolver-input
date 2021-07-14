@@ -1,17 +1,31 @@
 ---
 document: feedback-pipeline-repository
-version: 1
+version: 2
 data:
-  name: Fedora ELN + Rawhide
-  description: Fedora ELN + Fedora Rawhide repositories
+  name: Fedora ELN (backed by rawhide)
+  description: Fedora ELN with rawhide as a backup for missing packages
   maintainer: asamalik
   source:
-    # This is a combination of Fedora Rawhide and the ELN repository
-    fedora_release: rawhide
-    additional_repository: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Everything/$basearch/os/
+
+    repos:
+
+      rawhide-everything:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
+      
+      eln-everything:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Everything/$basearch/os/
+        priority: 1
+      
+      eln-appstream:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/AppStream/$basearch/os/
+        priority: 2
+
+    releasever: "rawhide"
+    
     architectures:
-    - armv7hl
     - aarch64
     - ppc64le
     - s390x
     - x86_64
+
+    composeinfo: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/metadata/composeinfo.json

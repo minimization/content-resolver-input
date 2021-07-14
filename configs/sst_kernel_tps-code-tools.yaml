@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CScope
+  description: C source code tree search and browse tool
+  maintainer: sst_kernel_tps
+
+  packages:
+  - cscope
+
+  labels:
+  - eln
+  - c9s

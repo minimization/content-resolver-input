@@ -12,11 +12,9 @@ data:
   - glibc
   - glibc-common
   - glibc-devel
-  # Noarch header packages.
-  - glibc-headers-x86
-  - glibc-headers-s390
   # We support only the C/POSIX/C.UTF-8 locales.
   - glibc-minimal-langpack
 
   labels:
   - eln
+  - c9s

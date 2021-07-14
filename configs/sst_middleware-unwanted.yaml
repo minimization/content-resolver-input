@@ -6,6 +6,7 @@ data:
   maintainer: sst_middleware
   labels:
   - eln
+  - c9s
 
   unwanted_packages:
   # Tomcat was removed in RHEL 8 and should continue to be removed in RHEL 9

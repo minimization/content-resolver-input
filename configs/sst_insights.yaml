@@ -1,0 +1,28 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: insights
+  description: Insights
+  maintainer: sst_insights
+
+  packages: []
+
+  package_placeholders:
+    insights-client:
+      srpm: insights-client
+      description: insights
+      requires:
+      - coreutils
+      - gpg
+      - pciutils
+      - python3-magic
+      - python3-six
+      - python3-requests
+      - systemd
+      - python3-PyYAML
+      - tar
+
+  labels:
+  - eln
+  - c9s
+

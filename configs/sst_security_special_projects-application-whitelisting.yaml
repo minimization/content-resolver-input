@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Application Whitelisting
+  description: Packages providing application whitelisting functionality
+  maintainer: sst_security_special_projects
+
+  packages:
+  - fapolicyd
+  - fapolicyd-selinux
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,32 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Rsyslog
+  description: Popular logging daemon
+  maintainer: sst_security_special_projects
+
+  packages:
+  - rsyslog
+  - rsyslog-crypto
+  - rsyslog-doc
+  - rsyslog-elasticsearch
+  - rsyslog-gnutls
+  - rsyslog-gssapi
+  - rsyslog-kafka
+  - rsyslog-mmaudit
+  - rsyslog-mmjsonparse
+  - rsyslog-mmkubernetes
+  - rsyslog-mmnormalize
+  - rsyslog-mmsnmptrapd
+  - rsyslog-mysql
+  - rsyslog-omamqp1
+  - rsyslog-pgsql
+  - rsyslog-relp
+  - rsyslog-snmp
+  - rsyslog-udpspoof
+  - librdkafka-devel
+  - liblognorm-doc
+
+  labels:
+  - eln
+  - c9s

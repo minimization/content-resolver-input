@@ -5,14 +5,22 @@ data:
   description: Dynamic kernel patch manager
   maintainer: sst_kernel_ft
 
-  packages:
-  - kpatch
+  packages: []
 
   labels:      # <-- Please leave
   - eln        #     this unchanged.
+  - c9s
 
-#  # (Only include the following section if you have arch-specific packages.)
-#  arch_packages:
-#    x86_64:                    # <-- Architecture
-#    - arch-specific-package1   # <-- The list of binary RPM packages
-#    - arch-specific-package1   #     goes here.
+  package_placeholders:
+    # kpatch is a RHEL-only package
+    kpatch:
+      srpm: kpatch
+      description: Dynamic kernel patch manager
+      requires: []
+      buildrequires: []
+    # kpatch-dnf is a RHEL-only package
+    kpatch-dnf:
+      srpm: kpatch
+      description: kpatch-patch manager plugin for DNF
+      requires: []
+      buildrequires: []

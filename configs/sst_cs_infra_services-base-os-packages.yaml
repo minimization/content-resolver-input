@@ -12,11 +12,16 @@ data:
   - lm_sensors
   - lm_sensors-libs
   - lm_sensors-sensord
-  - memtest86+
   - ncurses
   - ncurses-base
   - ncurses-term
   - setup
+  - hostname
+
+  arch_packages:
+    x86_64:
+    - memtest86+
 
   labels:
   - eln
+  - c9s

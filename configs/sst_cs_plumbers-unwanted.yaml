@@ -6,6 +6,25 @@ data:
   maintainer: sst_cs_plumbers
 
   unwanted_packages:
+  - atlas-corei2
+  - atlas-corei2-devel
+  - atlas-corei2-static
+  - atlas-z10
+  - atlas-z10-devel
+  - atlas-z10-static
+  - atlas-z196
+  - atlas-z196-devel
+  - atlas-z196-static
+  - ed
+  - elinks
+  - emacs-terminal
+  - libnice
+  - libnice-devel
+  - libnice-gstreamer1
+  - libtar
+  - libtar-devel
+  - network-scripts
+  - python3-bottle
   - redhat-lsb
   - redhat-lsb-core
   - redhat-lsb-cxx
@@ -17,29 +36,11 @@ data:
   - redhat-lsb-supplemental
   - redhat-lsb-trialuse
   - rtkit
-  - ed
-  - emacs-terminal
+  - systemd-tests
   - tftp
   - tftp-server
-  - elinks
-  - libnice
-  - libnice-devel
-  - libnice-gstreamer1
-  - libtar
-  - libtar-devel
-  - python3-bottle
   - vorbis-tools
-  - atlas-corei2
-  - atlas-corei2-devel
-  - atlas-corei2-static
-  - atlas-z10
-  - atlas-z10-devel
-  - atlas-z10-static
-  - atlas-z196
-  - atlas-z196-devel
-  - atlas-z196-static
-  - systemd-tests
-  - network-scripts
 
   labels:
   - eln
+  - c9s

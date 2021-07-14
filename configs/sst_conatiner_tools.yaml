@@ -18,7 +18,6 @@ data:
    - libslirp
    - oci-seccomp-bpf-hook
    - podman
-   - python-podman-api
    - runc
    - skopeo
    - slirp4netns
@@ -29,3 +28,4 @@ data:
 
   labels:
   - eln
+  - c9s

@@ -7,6 +7,18 @@ data:
 
   packages:
   - less
+  - time
+  - pcre2
+  - pcre2-devel
+  - pcre
+  - pcre-devel
+  - quota
+  - quota-nld
+  - quota-rpc
+  - quota-doc
+  - quota-nls
+  - quota-warnquota
 
   labels:
   - eln
+  - c9s

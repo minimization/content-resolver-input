@@ -18,12 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Empty installroot
+  name: ELN Environment
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: This environment contains no pre-installed packages. It's like doing 'dnf --installroot=./empty-dir/ ...' or using 'FROM scratch' in a containerfile
+  description: A base environment on top of which all ELN workloads are analyzed.
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -35,7 +35,6 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-fedora-rawhide
   - repository-fedora-eln
 
   # Packages defining this environment.
@@ -43,7 +42,9 @@ data:
   # architectures — that's the one to use by default.
   #
   # (mandatory field)
-  packages: []
+  packages:
+  - fedora-repos-eln
+  - fedora-release-eln
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -52,9 +53,9 @@ data:
   # (mandatory field)
   labels:
   - eln
+  - eln-extras
   - eln-buildroot
-  - minimization
-  - prototype-eln-buildroot
+  - eln-analyze-only
 
   ### OPTIONAL FIELDS ###
 

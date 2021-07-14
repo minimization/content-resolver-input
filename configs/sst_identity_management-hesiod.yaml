@@ -9,6 +9,7 @@ data:
 
     labels:
         - eln
+        - c9s
 
     package_placeholders:
         compat-hesiod:
@@ -18,4 +19,5 @@ data:
                 - autoconf
                 - automake
                 - libtool
-                - libidn-devel
+                - libidn2-devel
+            srpm: hesiod

@@ -6,7 +6,13 @@ data:
   maintainer: sst_desktop
 
   packages:
+  - clutter
+  - clutter-gtk
+  - clutter-gst3
+  - cogl
   - totem
+  - totem-video-thumbnailer
 
   labels:
   - eln
+  - c9s

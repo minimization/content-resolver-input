@@ -1,0 +1,37 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: glusterfs_storage-unwanted
+  description: Unwanted glusterfs_storage packages
+  maintainer: kkeithle
+
+  unwanted_packages:
+  - glusterfs
+  - glusterfs-cli
+  - glusterfs-client-xlators
+  - glusterfs-cloudsync-plugins
+  - glusterfs-events
+  - glusterfs-extra-xlators
+  - glusterfs-fuse
+  - glusterfs-ganesha
+  - glusterfs-geo-replication
+  - glusterfs-server
+  - glusterfs-thin-arbiter
+  - glusterfs-resource-agents
+  - libgfapi-devel
+  - libgfapi0
+  - libgfchangelog-devel
+  - libgfchangelog0
+  - libgfrpc-devel
+  - libgfrpc0
+  - libxdr-devel
+  - libxdr0
+  - libglusterd0
+  - libglusterfs-devel
+  - libglusterfs0
+  - python3-gluster
+
+  labels:
+  - eln
+  - c9s
+

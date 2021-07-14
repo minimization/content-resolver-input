@@ -1,7 +1,7 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  maintainer: sst_platform_security
+  maintainer: sst_security_crypto
   name: Unwanted security/cryptography packages
   description: Unwanted packages implementing cryptography
   
@@ -19,6 +19,10 @@ data:
   - python2-pycryptodomex
   - python3-ecdsa
   - python3-pycryptodomex
+  - python3-pyOpenSSL
+  - python3-crypto
+  - python2-crypto
   
   labels:
   - eln
+  - c9s

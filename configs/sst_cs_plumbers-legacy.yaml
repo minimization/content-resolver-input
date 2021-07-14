@@ -8,8 +8,9 @@ data:
   packages:
   - chkconfig
   - ntsysv
-  - xinetd
   - initscripts
 
   labels:
   - eln
+  - c9s
+

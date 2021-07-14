@@ -8,6 +8,8 @@ data:
   packages:
   - bind-utils
   - dnsmasq-utils
+  - whois
 
   labels:
   - eln
+  - c9s

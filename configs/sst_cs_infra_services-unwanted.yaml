@@ -6,6 +6,8 @@ data:
   maintainer: sst_cs_infra_services
 
   unwanted_packages:
+  # a2ps
+  - a2ps
   # authd
   - authd
   # bind
@@ -28,13 +30,13 @@ data:
   - GeoIP
   - GeoIP-data
   - GeoIP-devel
+  # geoipupdate
+  - geoipupdate
   # gsm
   - gsm-tools
   # gutenprint
   - gutenprint-extras
   - gutenprint-plugin
-  # hostname
-  - hostname
   # hplip
   - hplip-gui
   # ldns
@@ -51,6 +53,8 @@ data:
   - libwvstreams-devel
   - libwvstreams
   - libwvstreams-static
+  # mailman
+  - mailman
   # memcached
   - memcached-devel
   # ncurses
@@ -96,6 +100,15 @@ data:
   - urw-base35-fonts-legacy
   # xsane
   - xsane-gimp
+  # subversion
+  - subversion-kde
+  # exim
+  - exim
+  # pakchois
+  - pakchois
+  # replaced by xdebug3
+  - php-pecl-xdebug
 
   labels:
   - eln
+  - c9s

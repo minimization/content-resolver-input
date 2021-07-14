@@ -3,10 +3,11 @@ version: 1
 data:
   name: firewall tools
   description: tools necessary to administrate linux firewalls
-  maintainer: egarver
+  maintainer: sst_networking
 
   labels:
   - eln
+  - c9s
 
   packages:
   - arptables
@@ -20,5 +21,6 @@ data:
   - ipset
   - ipset-service
   - iptables
+  - iptables-nft
   - iptables-services
   - nftables

@@ -10,10 +10,34 @@ data:
   repository: repository-fedora-eln
   
 
-  ###  Unwanted packages in ELN  ###
-  #
-  # The list has moved to the "unwanted-eln-packages.yml" file,
-  # because that way we can have just one file included into all the
-  # various ELN views.
-  #
-  # So please use "unwanted-eln-packages.yml" instead.
+  # Packages to be flagged as unwanted  on specific architectures
+  #unwanted_arch_packages:
+  #  x86_64:
+  #  - arch-specific-package
+  #  aarch64:
+  #  - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  unwanted_source_packages:
+  
+  # jwboyer:
+  - ImageMagick
+  - bodhi
+  - btrfs-progs
+  - clufter
+  - fedora-packager
+  - fedpkg
+  - koji
+  - libsodium
+  - libssh2
+  - mercurial
+  - mono
+  - nagios-plugins
+  - pungi
+  - reiserfs-utils
+  - spice
+  - spice-gtk3
+  - spice-html5
+  - spice-vdagent
+  - tomcat
+  - xen

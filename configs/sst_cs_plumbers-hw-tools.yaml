@@ -6,12 +6,28 @@ data:
   maintainer: sst_cs_plumbers
 
   packages:
-  - biosdevname
-  - prefixdevname
+  # asamalik: Moving biosdevname to x86 architectures only as it's not available elsewhere
+  #- biosdevname
   - ledmon
   - numad
   - sgpio
   - libatasmart
+  
+  arch_packages:
+    x86_64:
+    - biosdevname
+    i686:
+    - biosdevname
+
+  package_placeholders:
+    prefixdevname:
+      srpm: prefixdevname
+      description: This package is rhel-only NIC naming tool
+      buildrequires:
+      - rust-toolset
+      - git
+      - systemd-devel
 
   labels:
   - eln
+  - c9s

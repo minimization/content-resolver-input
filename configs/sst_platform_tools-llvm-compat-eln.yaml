@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: LLVM Compat Packages
+  description: LLVM compatibility packages
+  maintainer: sst_platform_tools
+
+  packages:
+  - llvm11
+  - llvm11-devel
+  - llvm11-libs
+  - llvm11-static
+  - clang11-devel
+  - clang11-libs
+  - clang11-resource-filesystem
+
+  labels:
+  - eln

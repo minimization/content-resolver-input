@@ -18,9 +18,11 @@ data:
 
   labels:
   - eln
+  - c9s
 
   package_placeholders:
     rust-toolset:
+      srpm: rust-toolset
       description: Meta-package for rust-toolset
       requires:
         - rust

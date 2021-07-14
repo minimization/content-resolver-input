@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Langauges Pack Support
+  name: Languages Pack Support
   description: All language packs installed.
   maintainer: sst_platform_tools
 
@@ -215,3 +215,4 @@ data:
 
   labels:
   - eln
+  - c9s

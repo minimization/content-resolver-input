@@ -6,7 +6,9 @@ data:
   maintainer: sst_identity_management
 
   packages:
-  - freeipa-client
+  - ipa-client
+  - ipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
+  - c9s

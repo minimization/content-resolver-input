@@ -7,6 +7,8 @@ data:
 
   packages:
   - ansible-freeipa
+  - ipa-selinux # rich dependency that is otherwise unmet
 
   labels:
   - eln
+  - c9s

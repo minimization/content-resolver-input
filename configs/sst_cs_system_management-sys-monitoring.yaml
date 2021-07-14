@@ -7,21 +7,21 @@ data:
 
   packages:
   - iotop
-  - pciutils-devel
-  - pciutils-devel-static
-  - pciutils-libs
-  - pciutils
-  - smartmontools
-  - libdap-devel
   - libdap
-  - libdap-doc
-  - watchdog
+  - libdap-devel
+  - net-snmp
+  - net-snmp-devel
   - net-snmp-libs
   - net-snmp-utils
-  - net-snmp-agent-libs
-  - net-snmp-perl
-  - net-snmp-devel
-  - net-snmp
+  - pciutils
+  - pciutils-devel
+  - pciutils-libs
+  - smartmontools
+
+  arch_packages:
+    ppc64le:
+    - servicelog
 
   labels:
   - eln
+  - c9s

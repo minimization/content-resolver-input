@@ -8,13 +8,10 @@ data:
   packages:
   # Because of gnome-common
   - autoconf-archive
-  - fprintd
-  - fprintd-pam
   - freerdp
   - gdm
   - glib2
   - glib2-doc
-  - glib2-fam
   - glib2-static
   - glib2-tests
   - gnome-backgrounds
@@ -23,24 +20,31 @@ data:
   - gnome-color-manager
   - gnome-common
   - gnome-devel-docs
-  - gnome-online-miners
+  - gnome-extensions-app
   - gnome-remote-desktop
   - gnome-session
   - gnome-shell
   - gnome-shell-extension-auto-move-windows
-  - gnome-shell-extension-dash-to-dock
+  - gnome-shell-extension-common
   - gnome-shell-extension-drive-menu
   - gnome-shell-extension-native-window-placement
   - gnome-shell-extension-screenshot-window-sizer
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
-  - polkit-gnome
+  - chrome-gnome-shell
+  - low-memory-monitor
+  - lcms2
+  - mozjs78
+  - power-profiles-daemon
   - tracker
+  - tracker-miners
+  - uresourced
   - xdg-user-dirs-gtk
 
   labels:
   - eln
+  - c9s
 
   arch_packages:
     armv7hl:
@@ -57,31 +61,18 @@ data:
       - fprintd-pam
 
   package_placeholders:
-    redhat-logos:
-      description: Red Hat-related icons and pictures
-      requires:
-        - coreutils
-      buildrequires:
-        - syslinux-perl
-        - netpbm-progs
-        - hardlink
-    redhat-logos-httpd:
-      description: Red Hat-related icons and pictures used by httpd
-      requires: []
-      buildrequires: []
-    redhat-logos-ipa:
-      description: Red Hat-related icons and pictures used by IPA
-      requires: []
-      buildrequires: []
-    redhat-backgrounds:
-      description: Red Hat-related desktop backgrounds
-      requires: []
-      buildrequires: []
     gnome-shell-extension-systemMonitor:
+      srpm: gnome-shell-extensions
       description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
       requires: []
       buildrequires: []
     gnome-shell-extension-user-theme:
+      srpm: gnome-shell-extensions
       description: Support for custom themes in GNOME Shell
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-dash-to-dock:
+      srpm: gnome-shell-extensions
+      description: Alternative dock for the Gnome Shell
       requires: []
       buildrequires: []

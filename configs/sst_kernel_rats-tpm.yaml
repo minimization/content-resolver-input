@@ -6,14 +6,18 @@ data:
   maintainer: sst_kernel_rats
 
   packages:
-  - trousers
-  - tpm-tools
   - tss2
+  - tss2-devel
   - tpm2-tss
+  - tpm2-tss-devel
   - tpm2-tools
+  - tpm2-pkcs11
+  - tpm2-pkcs11-tools
   # needed for gating tests
   - tpm2-abrmd
+  - tpm2-abrmd-devel
   - tpm2-abrmd-selinux
 
   labels:
   - eln
+  - c9s

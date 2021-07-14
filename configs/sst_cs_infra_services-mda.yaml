@@ -7,9 +7,10 @@ data:
 
   packages:
   - cyrus-imapd
-  - cyrus-imapd-utils
-  - cyrus-imapd-vzic
+  - cyrus-timezones
   - procmail
+  - xapian-core
 
   labels:
   - eln
+  - c9s

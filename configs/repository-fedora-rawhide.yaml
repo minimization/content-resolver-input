@@ -6,7 +6,7 @@
 # Right now, they represent Fedora releases, but can be extended in the future.
 
 document: feedback-pipeline-repository
-version: 1
+version: 2
 data:
   # id is the filename — that automatically prevents collisions for free!
 
@@ -35,14 +35,17 @@ data:
   # 
   # (mandatory field)
   source:
-    # Only Fedora repos supported at this time.
-    # Fedora release.
-    # 
-    # (mandatory field)
-    fedora_release: rawhide
-    # List of architectures
-    # 
-    # (mandatory field)
+ 
+    repos:
+
+      everything:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
+      
+      modular:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Modular/$basearch/os/
+
+    releasever: "rawhide"
+
     architectures:
     - armv7hl
     - aarch64
