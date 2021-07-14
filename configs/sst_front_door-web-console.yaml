@@ -16,5 +16,14 @@ data:
     - cockpit-storaged
     - cockpit-pcp
     - cockpit-doc
+    
+  arch_packages:
+    aarch64:
+    # extensions maintained by Cockpit team
+    - cockpit-machines
+    s390x:
+    # extensions maintained by Cockpit team
+    - cockpit-machines
+    x86_64:
     # extensions maintained by Cockpit team
     - cockpit-machines
