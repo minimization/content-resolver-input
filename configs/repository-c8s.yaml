@@ -23,7 +23,7 @@ data:
     releasever: "8-stream"
     
     architectures:
-    #- aarch64
+    - aarch64
     #- ppc64le
     #- s390x
     - x86_64
