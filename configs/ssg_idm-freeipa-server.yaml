@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: FreeIPA Client - minimal
-  description: FreeIPA client
-  maintainer: sst_identity_management
+  name: FreeIPA Server - minimal
+  description: FreeIPA server
+  maintainer: ssg_idm
 
   packages:
-  - ipa-client
+  - ipa-server
   - ipa-selinux # rich dependency that is otherwise unmet
 
   labels:

@@ -3,7 +3,7 @@ version: 1
 data:
   name: Samba FS Server
   description: SMB/CIFS share server
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - samba
@@ -13,6 +13,7 @@ data:
   - samba-winbind-clients
   - samba-winbind-krb5-locator
   - samba-krb5-printing
+  - ctdb
 
   labels:
   - eln

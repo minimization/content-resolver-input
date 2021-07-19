@@ -3,7 +3,7 @@ version: 1
 data:
   name: FreeIPA Ansible collection
   description: Ansible roles and modules to install, uninstall and manage FreeIPA
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - ansible-freeipa

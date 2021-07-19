@@ -3,7 +3,7 @@ version: 1
 data:
   name: Kerberos Server
   description: Stand-alone Kerberos server
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - krb5-server
