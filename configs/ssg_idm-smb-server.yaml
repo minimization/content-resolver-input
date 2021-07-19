@@ -3,7 +3,7 @@ version: 1
 data:
   name: Samba FS Server
   description: SMB/CIFS share server
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - samba

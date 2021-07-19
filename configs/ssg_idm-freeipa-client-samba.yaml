@@ -3,7 +3,7 @@ version: 1
 data:
   name: FreeIPA Client - Samba domain member
   description: Samba domain member on FreeIPA client
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - ipa-client

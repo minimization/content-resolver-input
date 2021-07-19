@@ -3,7 +3,7 @@ version: 1
 data:
   name: IdM Web Extensions
   description: Specific Apache extensions that are required for client web server IdM experience, whether it is authentication, authorization or extended identity operation
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - mod_auth_gssapi
