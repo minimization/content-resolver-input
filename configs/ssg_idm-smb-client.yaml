@@ -3,7 +3,7 @@ version: 1
 data:
   name: Samba FS Client
   description: SMB/CIFS clients to complement the built-in SMB/CIFS filesystem in Linux. These clients allow access of SMB/CIFS shares and printing to SMB/CIFS printers.
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - samba-client

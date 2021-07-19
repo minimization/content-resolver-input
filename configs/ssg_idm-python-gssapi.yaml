@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python GSSAPI
   description: Tools for using GSSAPI in Python applications
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - python3-gssapi
