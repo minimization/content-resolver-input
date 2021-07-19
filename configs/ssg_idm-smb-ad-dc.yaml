@@ -3,7 +3,7 @@ version: 1
 data:
   name: Samba AD DC
   description: Active Directory Domain Controller implementation
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - samba

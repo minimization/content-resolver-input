@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_identity_management
+  name: Unwanted Packages - ssg_idm
   description: Packages that the Identity Management subsystem does not want to distribute in RHEL 9
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   unwanted_packages:
   # Drop support from RHEL-9 (replaced by SSSD)

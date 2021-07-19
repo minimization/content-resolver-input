@@ -3,7 +3,7 @@ version: 1
 data:
   name: IdM Smart Cards
   description: Specific packages for client-side smart card enablement on RHEL.
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - esc

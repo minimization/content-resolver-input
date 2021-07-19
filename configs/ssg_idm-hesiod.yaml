@@ -3,7 +3,7 @@ version: 1
 data:
     name: Hesiod
     description: Compat packages for the Hesiod system
-    maintainer: sst_identity_management
+    maintainer: ssg_idm
     
     packages: []
 

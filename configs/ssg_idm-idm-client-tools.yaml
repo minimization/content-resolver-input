@@ -3,7 +3,7 @@ version: 1
 data:
   name: IdM Client Tools
   description: General software for enrolling system with external Identity Management server
-  maintainer: sst_identity_management
+  maintainer: ssg_idm
 
   packages:
   - ipa-healthcheck
