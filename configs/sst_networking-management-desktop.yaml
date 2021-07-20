@@ -17,7 +17,6 @@ data:
   # Cellular Modem
   - ModemManager
   - ModemManager-glib
-  - ModemManager-vala
   - NetworkManager-ppp
   - NetworkManager-wwan
   - mobile-broadband-provider-info
