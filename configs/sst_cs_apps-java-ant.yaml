@@ -10,7 +10,6 @@ data:
   - ant-antlr
   - ant-apache-bcel
   - ant-apache-bsf
-  - ant-apache-log4j
   - ant-apache-oro
   - ant-apache-regexp
   - ant-apache-resolver
