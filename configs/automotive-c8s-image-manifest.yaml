@@ -17,7 +17,7 @@ data:
   - glib-networking
   - glibc-langpack-en
   - gnome-backgrounds
-  - gnome-bluetoot
+  - gnome-bluetooth
   - gnome-classic-session
   - gnome-control-center
   - gnome-disk-utility
