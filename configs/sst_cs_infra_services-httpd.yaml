@@ -35,7 +35,7 @@ data:
   - apr-util-odbc
   # JWS/JBCS packages
   - mod_jk
-  - mod_cluster
+  - mod_proxy_cluster
 
   labels:
   - eln
