@@ -23,3 +23,6 @@ data:
     - libtnc
     - tncfhh
     - petera
+
+    # this utility should not be included at this moment
+    - oval-graph
