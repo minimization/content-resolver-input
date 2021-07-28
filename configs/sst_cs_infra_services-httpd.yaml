@@ -34,7 +34,8 @@ data:
   - apr-util-pgsql
   - apr-util-odbc
   # JWS/JBCS packages
-  - mod_jk
+  - mod_jk-ap24
+  - mod_jk-manual
   - mod_proxy_cluster
 
   labels:
