@@ -321,7 +321,6 @@ data:
   - kf5-kross
   - kf5-kross-core
   - kf5-kross-devel
-  - kf5-kross-python2
   - kf5-kross-ruby
   - kf5-kross-ui
   - kf5-krunner
@@ -361,7 +360,6 @@ data:
   - kf5-libkdcraw
   - kf5-libkdcraw-devel
   - kf5-libkdepim
-  - kf5-libkdepim-akonadi
   - kf5-libkdepim-devel
   - kf5-libkexiv2
   - kf5-libkexiv2-devel
@@ -644,9 +642,7 @@ data:
   - poxml
   - python3-kolabformat
   - qcachegrind
-  - qca-doc
   - qca-qt5
-  - qca-qt5-botan
   - qca-qt5-cyrus-sasl
   - qca-qt5-devel
   - qca-qt5-gcrypt
@@ -663,7 +659,6 @@ data:
   - qt5-qtaccountsservice
   - qt5-qtaccountsservice-devel
   - qt5-qtbase-doc
-  - qt5-qtcanvas3d-doc
   - qt5-qtcharts
   - qt5-qtcharts-devel
   - qt5-qtcharts-doc
