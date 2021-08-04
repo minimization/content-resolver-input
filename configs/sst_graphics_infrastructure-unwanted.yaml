@@ -39,6 +39,8 @@ data:
   - libsamplerate
   # It should go
   - libxml++
+  # Only used by openal-soft examples, brings in other unwanted deps
+  - SDL_sound
   labels:
   - eln
   - c9s
