@@ -12,7 +12,6 @@ data:
   - libecpg-devel
   - postgresql
   - postgresql-contrib
-  - postgresql-llvmjit
   - postgresql-plperl
   - postgresql-plpython3
   - postgresql-pltcl
