@@ -20,7 +20,7 @@ data:
         - iwl6050-firmware
         - iwl7260-firmware
         - kernel
-        - kernel-abi-whitelists
+        - kernel-abi-stablelists
         - kernel-core
         - kernel-cross-headers
         - kernel-doc
