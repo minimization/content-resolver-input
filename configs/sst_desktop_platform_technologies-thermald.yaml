@@ -3,7 +3,7 @@ version: 1
 data:
   name: thermald
   description: Thermal Management daemon
-  maintainer: sst_desktop
+  maintainer: sst_desktop_platform_technologies
 
   packages: []
 

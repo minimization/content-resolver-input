@@ -3,7 +3,7 @@ version: 1
 data:
   name: Totem
   description: Default video player in Workstation
-  maintainer: sst_desktop
+  maintainer: sst_desktop_platform_technologies
 
   packages:
   - clutter
