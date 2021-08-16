@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: gnu-efi
-  description: Development Libraries and headers for EFI
-  maintainer: sst_desktop
+  name: efivar
+  description: Tools to manage UEFI variables
+  maintainer: sst_desktop_firmware_bootloaders
 
   packages: []
 
@@ -13,8 +13,8 @@ data:
 
   arch_packages:
     armv7hl:
-      - gnu-efi
+      - efivar
     aarch64:
-      - gnu-efi
+      - efivar
     x86_64:
-      - gnu-efi
+      - efivar
