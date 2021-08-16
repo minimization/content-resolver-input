@@ -3,7 +3,7 @@ version: 1
 data:
   name: os-prober
   description: Probes disks on the system for installed operating systems
-  maintainer: sst_desktop
+  maintainer: sst_desktop_firmware_bootloaders
 
   packages: []
 

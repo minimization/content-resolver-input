@@ -3,7 +3,7 @@ version: 1
 data:
   name: grub2
   description: Bootloader with support for Linux, Multiboot and more
-  maintainer: sst_desktop
+  maintainer: sst_desktop_firmware_bootloaders
 
   packages: []
 
