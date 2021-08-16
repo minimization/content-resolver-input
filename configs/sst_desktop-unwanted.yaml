@@ -22,8 +22,6 @@ data:
   - libplist
   - libusbmuxd
   - usbmuxd
-  # Replaced by fwupd
-  - fwupdate
   # DLNA support dropped from RHEL 9
   - gssdp
   - gupnp-av
