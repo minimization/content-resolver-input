@@ -7,6 +7,7 @@ data:
 
   packages:
   - bcc
+  - bcc-tools
   - strace
   - trace-cmd
   - libtracefs
