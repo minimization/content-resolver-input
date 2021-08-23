@@ -3,7 +3,7 @@ version: 1
 data:
   name: realtime perf
   description: Packages for testing realtime performance
-  maintainer: sst_kernel_rats
+  maintainer: sst_kernel_rts
 
   labels:
   - eln
