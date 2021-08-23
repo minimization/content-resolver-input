@@ -3,7 +3,7 @@ version: 1
 data:
   name: TPM packages
   description: Packages providing TPM1.2 and TPM2.0 support
-  maintainer: sst_kernel_rats
+  maintainer: sst_kernel_rts
 
   packages:
   - tss2

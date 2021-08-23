@@ -3,7 +3,7 @@ version: 1
 data:
   name: realtime-setup
   description: Package that creates realtime group and limits
-  maintainer: sst_kernel_rats
+  maintainer: sst_kernel_rts
   packages: []
   labels:
   - eln
