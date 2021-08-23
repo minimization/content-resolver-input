@@ -3,7 +3,7 @@ version: 1
 data:
     name: kernel-rt base
     description: Base set of kernel-rt packages and tools to ship
-    maintainer: sst_kernel_rats
+    maintainer: sst_kernel_rts
     packages: []
 
     arch_packages:
