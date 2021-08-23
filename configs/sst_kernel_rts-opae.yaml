@@ -3,7 +3,7 @@ version: 1
 data:
   name: opae
   description: User libraries for Intel FPGA's
-  maintainer: sst_kernel_rats
+  maintainer: sst_kernel_rts
 
   packages: []
 
