@@ -9,6 +9,10 @@ data:
   - babeltrace
   - gdb-minimal
 
+  unwanted_arch_packages:
+    i686:
+    - gdb-minimal
+
   labels:
   - eln
   - c9s

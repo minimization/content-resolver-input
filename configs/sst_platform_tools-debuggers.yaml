@@ -20,10 +20,18 @@ data:
   - c9s
 
   # libipt is Intel only
+  # gdb-minimal is supported on everything but i686
   arch_packages:
+    aarch64:
+    - gdb-minimal
     i686:
     - libipt
     - libipt-devel
+    ppc64le:
+    - gdb-minimal
+    s390x:
+    - gdb-minimal
     x86_64:
     - libipt
     - libipt-devel
+    - gdb-minimal
