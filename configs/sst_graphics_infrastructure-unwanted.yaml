@@ -41,6 +41,9 @@ data:
   - libxml++
   # Only used by openal-soft examples, brings in other unwanted deps
   - SDL_sound
+  # glew is no longer needed by mesa-demos, and the soname churns too much to be
+  # useful for a long-life product like RHEL.
+  - glew
   labels:
   - eln
   - c9s
