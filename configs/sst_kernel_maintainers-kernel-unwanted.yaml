@@ -16,6 +16,7 @@ data:
   - libertas-sd8686-firmware
   - libertas-usb8388-firmware
   - libertas-usb8388-olpc-firmware
+  - liquidio-firmware
 
   labels:
   - eln
