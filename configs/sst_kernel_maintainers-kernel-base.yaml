@@ -30,7 +30,6 @@ data:
         - kernel-tools
         - linux-firmware
         - linux-firmware-whence
-        - liquidio-firmware
         - netronome-firmware
         - perf
         - python3-perf
