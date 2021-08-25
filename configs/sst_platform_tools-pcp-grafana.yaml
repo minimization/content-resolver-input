@@ -6,6 +6,7 @@ data:
   maintainer: sst_platform_tools
 
   packages:
+  - ansible-pcp
   - chan
   - chan-devel
   - grafana
@@ -50,6 +51,7 @@ data:
   - pcp-pmda-gluster
   - pcp-pmda-gpfs
   - pcp-pmda-gpsd
+  - pcp-pmda-hacluster
   - pcp-pmda-haproxy
   - pcp-pmda-json
   - pcp-pmda-libvirt
@@ -88,6 +90,7 @@ data:
   - pcp-pmda-slurm
   - pcp-pmda-smart
   - pcp-pmda-snmp
+  - pcp-pmda-sockets
   - pcp-pmda-statsd
   - pcp-pmda-summary
   - pcp-pmda-systemd
