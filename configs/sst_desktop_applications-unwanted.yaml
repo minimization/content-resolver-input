@@ -25,6 +25,12 @@ data:
   # Old or deprecated or unwanted or unused stuff
   - rarian
   - GConf2
+  - gfbgraph
+  - liboauth
+  - libgdl
+  - libmusicbrainz5
+  # Vendored to mozjs78 and Firefox and Thunderbird
+  - autoconf231
   # Miners are mostly broken and other problems
   # https://bugzilla.redhat.com/show_bug.cgi?id=1913643
   - gnome-online-miners
@@ -41,6 +47,8 @@ data:
   - ImageMagick
   # Functionality moved into Nautilus, see https://pagure.io/fedora-workstation/issue/167
   - file-roller
+  # Deprecated upstream
+  - qt5-qtcanvas3d
   labels:
   - eln
   - c9s

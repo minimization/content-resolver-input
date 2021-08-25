@@ -7,6 +7,10 @@ data:
   unwanted_packages:
   # Replaced by fwupd
   - fwupdate
+  - libjaylink
+  - libconfuse
+  - libftdi
+  - dbxtool
   labels:
   - c9s
   - eln
