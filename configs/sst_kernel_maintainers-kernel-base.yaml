@@ -28,6 +28,7 @@ data:
         - kernel-modules
         - kernel-modules-extra
         - kernel-tools
+        - libertas-sd8787-firmware
         - linux-firmware
         - linux-firmware-whence
         - netronome-firmware
