@@ -9,9 +9,11 @@ data:
         - kernel-debug
         - kernel-debug-core
         - kernel-debug-devel
+        - kernel-debug-devel-matched
         - kernel-debug-modules
         - kernel-debug-modules-extra
         - kernel-devel
+        - kernel-devel-matched
         - kernel-headers
     labels:
         - eln
@@ -25,4 +27,5 @@ data:
             - kernel-tools-libs-devel
         s390x:
             - kernel-zfcpdump-devel
+            - kernel-zfcpdump-devel-matched
 
