@@ -1,0 +1,67 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: CentOS Stream 9
+  description: CentOS Stream 9
+  maintainer: asamalik
+  source:
+
+    repos:
+
+      baseos:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+
+      appstream:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+
+      crb:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+
+      ha:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
+
+      nfv:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/NFV/$basearch/os/
+        limit_arches:
+        - x86_64
+
+      rt:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/RT/$basearch/os/
+        limit_arches:
+        - x86_64
+
+      resilientstorage:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
+        limit_arches:
+        - ppc64le
+        - s390x
+        - x86_64
+
+      sap:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
+        limit_arches:
+        - ppc64le
+        - s390x
+        - x86_64
+
+      saphana:
+        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/SAPHANA/$basearch/os/
+        limit_arches:
+        - ppc64le
+        - x86_64
+
+      buildroot:
+        baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
+
+
+    releasever: "9"
+    
+    architectures:
+    - aarch64
+    - ppc64le
+    - s390x
+    - x86_64
+
+    composeinfo: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+
