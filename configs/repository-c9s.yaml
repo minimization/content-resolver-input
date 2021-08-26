@@ -10,43 +10,43 @@ data:
     repos:
 
       baseos:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
 
       appstream:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
 
       crb:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
 
       ha:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
 
       nfv:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/NFV/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/NFV/$basearch/os/
         limit_arches:
         - x86_64
 
       rt:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/RT/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/RT/$basearch/os/
         limit_arches:
         - x86_64
 
       resilientstorage:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
         limit_arches:
         - ppc64le
         - s390x
         - x86_64
 
       sap:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
         limit_arches:
         - ppc64le
         - s390x
         - x86_64
 
       saphana:
-        baseurl: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/SAPHANA/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAPHANA/$basearch/os/
         limit_arches:
         - ppc64le
         - x86_64
@@ -63,5 +63,5 @@ data:
     - s390x
     - x86_64
 
-    composeinfo: https://odcs.stream.rdu2.redhat.com/composes/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+    composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
 
