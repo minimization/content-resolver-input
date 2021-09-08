@@ -5,7 +5,7 @@ data:
   description: >
     OS compontents for CoreOS based systems.
     This should be distributed via ostrees.
-  maintainer: sst_rhcos
+  maintainer: coreos
 
   packages:
    # These packages are currently built and released as part of
