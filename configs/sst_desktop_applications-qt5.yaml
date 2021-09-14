@@ -21,8 +21,6 @@ data:
   - qt5-qtbase-odbc
   - qt5-qtbase-postgresql
   - qt5-qtbase-static
-  - qt5-qtcanvas3d
-  - qt5-qtcanvas3d-examples
   - qt5-qtconnectivity
   - qt5-qtconnectivity-examples
   - qt5-qtdeclarative
