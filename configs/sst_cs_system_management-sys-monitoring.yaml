@@ -7,8 +7,6 @@ data:
 
   packages:
   - iotop
-  - libdap
-  - libdap-devel
   - net-snmp
   - net-snmp-devel
   - net-snmp-libs
