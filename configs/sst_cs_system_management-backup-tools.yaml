@@ -6,8 +6,6 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-  - amanda
-  - amanda-client
   - bacula-client
   - bacula-console
   - libburn
