@@ -78,7 +78,6 @@ data:
   - pcp-pmda-rabbitmq
   - pcp-pmda-redis
   - pcp-pmda-roomtemp
-  - pcp-pmda-rpm
   - pcp-pmda-rsyslog
   - pcp-pmda-samba
   - pcp-pmda-sendmail
