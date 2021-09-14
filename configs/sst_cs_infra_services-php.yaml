@@ -32,7 +32,6 @@ data:
   - php-process
   - php-snmp
   - php-soap
-  - php-xmlrpc
   - php-xml
   - php-pear
   - php-pecl-apcu
