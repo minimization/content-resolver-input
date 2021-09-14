@@ -17,6 +17,7 @@ data:
   - NetworkManager-libnm-devel
   - ModemManager-devel
   - ModemManager-glib-devel
+  - libqrtr-glib-devel
 
   labels:
   - eln

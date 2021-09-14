@@ -41,6 +41,7 @@ data:
   - ModemManager-glib
   - NetworkManager-ppp
   - NetworkManager-wwan
+  - libqrtr-glib
   - mobile-broadband-provider-info
   - usb_modeswitch
   - usb_modeswitch-data
