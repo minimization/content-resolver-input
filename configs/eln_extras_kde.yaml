@@ -6,12 +6,6 @@ data:
   maintainer: tdawson
 
   packages:
-  - akonadi-calendar-tools
-  - akonadiconsole
-  - akonadi-import-wizard
-  - akonadi-import-wizard-devel
-  - akregator
-  - akregator-libs
   - analitza
   - analitza-devel
   - ark
@@ -41,8 +35,6 @@ data:
   - extra-cmake-modules
   - filelight
   - granatier
-  - grantlee-editor
-  - grantlee-editor-libs
   - gwenview
   - gwenview-libs
   - java-kolabformat
@@ -52,13 +44,7 @@ data:
   - k3b-libs
   - kaccounts-integration
   - kaccounts-integration-devel
-  - kaccounts-providers
   - kactivitymanagerd
-  - kaddressbook
-  - kaddressbook-devel
-  - kaddressbook-libs
-  - kalarm
-  - kalgebra
   - kamera
   - kamoso
   - kanagram
@@ -103,7 +89,6 @@ data:
   - kdegraphics-thumbnailers
   - kde-gtk-config
   - kde-partitionmanager
-  - kdepim-addons
   - kdepim-runtime
   - kdepim-runtime-libs
   - kdeplasma-addons
@@ -754,4 +739,38 @@ data:
 
   labels:
   - eln-extras
+
+  arch_packages:
+    x86_64:
+    - akonadi-calendar-tools
+    - akonadiconsole
+    - akonadi-import-wizard
+    - akonadi-import-wizard-devel
+    - akregator
+    - akregator-libs
+    - grantlee-editor
+    - grantlee-editor-libs
+    - kaccounts-providers
+    - kaddressbook
+    - kaddressbook-devel
+    - kaddressbook-libs
+    - kalarm
+    - kalgebra
+    - kdepim-addons
+    aarch64:
+    - akonadi-calendar-tools
+    - akonadiconsole
+    - akonadi-import-wizard
+    - akonadi-import-wizard-devel
+    - akregator
+    - akregator-libs
+    - grantlee-editor
+    - grantlee-editor-libs
+    - kaccounts-providers
+    - kaddressbook
+    - kaddressbook-devel
+    - kaddressbook-libs
+    - kalarm
+    - kalgebra
+    - kdepim-addons
 
