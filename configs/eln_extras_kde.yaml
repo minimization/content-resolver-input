@@ -537,6 +537,7 @@ data:
   - libkworkspace5
   - lokalize
   - lskat
+  - maliit-keyboard
   - marble
   - marble-astro
   - marble-astro-devel
@@ -660,6 +661,8 @@ data:
   - qt5-qtenginio-devel
   - qt5-qtenginio-doc
   - qt5-qtenginio-examples
+  - qt5-qtfeedback
+  - qt5-qtfeedback-devel
   - qt5-qtgamepad
   - qt5-qtgamepad-devel
   - qt5-qtgamepad-doc
