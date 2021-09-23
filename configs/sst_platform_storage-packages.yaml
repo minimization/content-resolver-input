@@ -169,11 +169,7 @@ data:
       - libpmempool
       - libpmempool-debug
       - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
       - pmempool
-      - rpmemd
     x86_64:
       - daxio
       - libpmem
@@ -193,12 +189,8 @@ data:
       - libpmempool
       - libpmempool-debug
       - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
       - pmdk-convert
       - pmempool
-      - rpmemd
 
     s390x:
       - libblockdev-s390
