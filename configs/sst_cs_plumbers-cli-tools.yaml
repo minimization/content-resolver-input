@@ -12,7 +12,6 @@ data:
   - mtr
   - mtr-gtk
   - environment-modules
-  - environment-modules-compat
   - gperf
   - iputils
   - iputils-ninfod
