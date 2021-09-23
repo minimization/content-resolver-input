@@ -6,7 +6,6 @@ data:
   maintainer: sst_arch_portfolio
 
   packages:
-  - openssl-ibmpkcs11
 
   arch_packages:
     ppc64le:
