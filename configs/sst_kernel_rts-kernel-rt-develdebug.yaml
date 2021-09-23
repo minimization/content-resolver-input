@@ -13,8 +13,6 @@ data:
         - kernel-rt-debug-modules
         - kernel-rt-debug-modules-extra
         - kernel-rt-debug-kvm
-        - kernel-rt-debuginfo-common-x86_64
-        - kernel-rt-debuginfo
         - kernel-rt-devel
         - kernel-rt-debug-devel
 
