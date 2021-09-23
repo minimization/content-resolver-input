@@ -26,8 +26,6 @@ data:
   - libgphoto2-devel
   - librabbitmq
   - librabbitmq-devel
-  - librtas
-  - librtas-devel
   - libsmi
   - libsmi-devel
   - libsndfile
@@ -107,6 +105,8 @@ data:
     - lsvpd
     - libservicelog
     - libservicelog-devel
+    - librtas
+    - librtas-devel
     - libcxl
     s390x:
     - opencryptoki-ccatok
