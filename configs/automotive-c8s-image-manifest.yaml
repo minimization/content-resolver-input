@@ -132,6 +132,29 @@ data:
   - greenboot-rpm-ostree-grub2
   - greenboot-reboot
   - greenboot-status
+  - NetworkManager-tui
+  - authselect
+  - c-ares
+  - cloud-utils-growpart
+  - cronie
+  - cronie-anacron
+  - dnf-plugins-core
+  - iprutils
+  - kernel-tools
+  - kexec-tools
+  - langpacks-en
+  - lshw
+  - lsscsi
+  - man-db
+  - plymouth
+  - plymouth-core-libs
+  - plymouth-scripts
+  - rng-tools
+  - rsyslog
+  - sg3_utils
+  - snappy
+  - yelp
+  - yum
   arch_packages:
     aarch64:
       - grub2-efi-aa64
