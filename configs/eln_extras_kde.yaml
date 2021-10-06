@@ -89,8 +89,6 @@ data:
   - kdegraphics-thumbnailers
   - kde-gtk-config
   - kde-partitionmanager
-  - kdepim-runtime
-  - kdepim-runtime-libs
   - kdeplasma-addons
   - kdeplasma-addons-devel
   - kde-print-manager
@@ -101,11 +99,6 @@ data:
   - kde-settings-plasma
   - kde-settings-pulseaudio
   - kdesu
-  - kdevelop
-  - kdevelop-devel
-  - kdevelop-libs
-  - kdevelop-pg-qt
-  - kdevelop-pg-qt-devel
   - kdf
   - kdiagram
   - kdiagram-devel
@@ -116,10 +109,6 @@ data:
   - keditbookmarks-libs
   - kexi
   - kexi-libs
-  - kf5-akonadi-calendar
-  - kf5-akonadi-calendar-devel
-  - kf5-akonadi-contacts
-  - kf5-akonadi-contacts-devel
   - kf5-akonadi-mime
   - kf5-akonadi-mime-devel
   - kf5-akonadi-notes
@@ -140,18 +129,12 @@ data:
   - kf5-baloo-libs
   - kf5-bluez-qt
   - kf5-bluez-qt-devel
-  - kf5-calendarsupport
-  - kf5-calendarsupport-devel
-  - kf5-eventviews
-  - kf5-eventviews-devel
   - kf5-filesystem
   - kf5-frameworkintegration
   - kf5-frameworkintegration-devel
   - kf5-frameworkintegration-libs
   - kf5-grantleetheme
   - kf5-grantleetheme-devel
-  - kf5-incidenceeditor
-  - kf5-incidenceeditor-devel
   - kf5-kactivities
   - kf5-kactivities-devel
   - kf5-kactivities-stats
@@ -270,9 +253,6 @@ data:
   - kf5-kjsembed-devel
   - kf5-kldap
   - kf5-kldap-devel
-  - kf5-kmailtransport
-  - kf5-kmailtransport-akonadi
-  - kf5-kmailtransport-devel
   - kf5-kmbox
   - kf5-kmbox-devel
   - kf5-kmediaplayer
@@ -335,8 +315,6 @@ data:
   - kf5-kxmlgui-devel
   - kf5-kxmlrpcclient
   - kf5-kxmlrpcclient-devel
-  - kf5-libgravatar
-  - kf5-libgravatar-devel
   - kf5-libkcddb
   - kf5-libkcddb-devel
   - kf5-libkcddb-doc
@@ -344,8 +322,6 @@ data:
   - kf5-libkcompactdisc-devel
   - kf5-libkdcraw
   - kf5-libkdcraw-devel
-  - kf5-libkdepim
-  - kf5-libkdepim-devel
   - kf5-libkexiv2
   - kf5-libkexiv2-devel
   - kf5-libkgeomap
@@ -356,24 +332,12 @@ data:
   - kf5-libkleo-devel
   - kf5-libksane
   - kf5-libksane-devel
-  - kf5-libksieve
-  - kf5-libksieve-devel
   - kf5-libktorrent
   - kf5-libktorrent-devel
-  - kf5-mailcommon
-  - kf5-mailcommon-devel
-  - kf5-mailimporter
-  - kf5-mailimporter-akonadi
-  - kf5-mailimporter-devel
-  - kf5-messagelib
-  - kf5-messagelib-devel
   - kf5-modemmanager-qt
   - kf5-modemmanager-qt-devel
   - kf5-networkmanager-qt
   - kf5-networkmanager-qt-devel
-  - kf5-pimcommon
-  - kf5-pimcommon-akonadi
-  - kf5-pimcommon-devel
   - kf5-plasma
   - kf5-plasma-devel
   - kf5-prison
@@ -398,7 +362,6 @@ data:
   - kfourinline
   - kgeography
   - kgoldrunner
-  - kgpg
   - khangman
   - khelpcenter
   - khotkeys
@@ -422,9 +385,6 @@ data:
   - klines
   - kmag
   - kmahjongg
-  - kmail
-  - kmail-account-wizard
-  - kmail-libs
   - kmenuedit
   - kmines
   - kmix
@@ -433,8 +393,6 @@ data:
   - kmplot
   - knavalbattle
   - knetwalk
-  - knotes
-  - knotes-libs
   - kolf
   - kollision
   - kolourpaint
@@ -448,11 +406,7 @@ data:
   - konquest
   - konsole5
   - konsole5-part
-  - kontact
-  - kontact-libs
   - konversation
-  - korganizer
-  - korganizer-libs
   - kpartloader
   - kpmcore
   - kpmcore-devel
@@ -499,7 +453,6 @@ data:
   - kwayland-integration
   - kwayland-server
   - kwayland-server-devel
-  - kwebenginepart
   - kwebkitpart
   - kwin
   - kwin-common
@@ -546,7 +499,6 @@ data:
   - marble-widget-data
   - marble-widget-qt5
   - marble-widget-qt5-devel
-  - mbox-importer
   - okteta
   - okteta-devel
   - okteta-libs
@@ -555,15 +507,11 @@ data:
   - PackageKit-Qt5
   - PackageKit-Qt5-devel
   - pam-kwallet
-  - parley
   - phonon-qt5
   - phonon-qt5-backend-gstreamer
   - phonon-qt5-devel
   - php-kolabformat
   - picmi
-  - pim-data-exporter
-  - pim-data-exporter-libs
-  - pim-sieve-editor
   - plasma-applet-redshift-control
   - plasma-applet-translator
   - plasma-applet-weather-widget
@@ -602,7 +550,6 @@ data:
   - plasma-pa
   - plasma-pass
   - plasma-pk-updates
-  - plasma-sdk
   - plasma-systemmonitor
   - plasma-systemsettings
   - plasma-systemsettings-devel
@@ -703,18 +650,10 @@ data:
   - qt5-qtvirtualkeyboard-examples
   - qt5-qtwayland-doc
   - qt5-qtwebchannel-doc
-  - qt5-qtwebengine
-  - qt5-qtwebengine-devel
-  - qt5-qtwebengine-devtools
-  - qt5-qtwebengine-doc
-  - qt5-qtwebengine-examples
   - qt5-qtwebkit
   - qt5-qtwebkit-devel
   - qt5-qtwebsockets-doc
-  - qt5-qtwebview
-  - qt5-qtwebview-devel
   - qt5-qtwebview-doc
-  - qt5-qtwebview-examples
   - qt5-qtx11extras-doc
   - qt5-qtxmlpatterns-doc
   - qt5-style-oxygen
@@ -760,6 +699,67 @@ data:
     - kalarm
     - kalgebra
     - kdepim-addons
+    - kdepim-runtime
+    - kdepim-runtime-libs
+    - kdevelop
+    - kdevelop-devel
+    - kdevelop-libs
+    - kdevelop-pg-qt
+    - kdevelop-pg-qt-devel
+    - kf5-akonadi-calendar
+    - kf5-akonadi-calendar-devel
+    - kf5-akonadi-contacts
+    - kf5-akonadi-contacts-devel
+    - kf5-calendarsupport
+    - kf5-calendarsupport-devel
+    - kf5-eventviews
+    - kf5-eventviews-devel
+    - kf5-incidenceeditor
+    - kf5-incidenceeditor-devel
+    - kf5-kmailtransport
+    - kf5-kmailtransport-akonadi
+    - kf5-kmailtransport-devel
+    - kf5-libgravatar
+    - kf5-libgravatar-devel
+    - kf5-libkdepim
+    - kf5-libkdepim-devel
+    - kf5-libksieve
+    - kf5-libksieve-devel
+    - kf5-mailcommon
+    - kf5-mailcommon-devel
+    - kf5-mailimporter
+    - kf5-mailimporter-akonadi
+    - kf5-mailimporter-devel
+    - kf5-messagelib
+    - kf5-messagelib-devel
+    - kf5-pimcommon
+    - kf5-pimcommon-akonadi
+    - kf5-pimcommon-devel
+    - kgpg
+    - kmail
+    - kmail-account-wizard
+    - kmail-libs
+    - knotes
+    - knotes-libs
+    - kontact
+    - kontact-libs
+    - korganizer
+    - korganizer-libs
+    - kwebenginepart
+    - mbox-importer
+    - parley
+    - pim-data-exporter
+    - pim-data-exporter-libs
+    - pim-sieve-editor
+    - plasma-sdk
+    - qt5-qtwebengine
+    - qt5-qtwebengine-devel
+    - qt5-qtwebengine-devtools
+    - qt5-qtwebengine-doc
+    - qt5-qtwebengine-examples
+    - qt5-qtwebview
+    - qt5-qtwebview-devel
+    - qt5-qtwebview-examples
     aarch64:
     - akonadi-calendar-tools
     - akonadiconsole
@@ -776,4 +776,64 @@ data:
     - kalarm
     - kalgebra
     - kdepim-addons
-
+    - kdepim-runtime
+    - kdepim-runtime-libs
+    - kdevelop
+    - kdevelop-devel
+    - kdevelop-libs
+    - kdevelop-pg-qt
+    - kdevelop-pg-qt-devel
+    - kf5-akonadi-calendar
+    - kf5-akonadi-calendar-devel
+    - kf5-akonadi-contacts
+    - kf5-akonadi-contacts-devel
+    - kf5-calendarsupport
+    - kf5-calendarsupport-devel
+    - kf5-eventviews
+    - kf5-eventviews-devel
+    - kf5-incidenceeditor
+    - kf5-incidenceeditor-devel
+    - kf5-kmailtransport
+    - kf5-kmailtransport-akonadi
+    - kf5-kmailtransport-devel
+    - kf5-libgravatar
+    - kf5-libgravatar-devel
+    - kf5-libkdepim
+    - kf5-libkdepim-devel
+    - kf5-libksieve
+    - kf5-libksieve-devel
+    - kf5-mailcommon
+    - kf5-mailcommon-devel
+    - kf5-mailimporter
+    - kf5-mailimporter-akonadi
+    - kf5-mailimporter-devel
+    - kf5-messagelib
+    - kf5-messagelib-devel
+    - kf5-pimcommon
+    - kf5-pimcommon-akonadi
+    - kf5-pimcommon-devel
+    - kgpg
+    - kmail
+    - kmail-account-wizard
+    - kmail-libs
+    - knotes
+    - knotes-libs
+    - kontact
+    - kontact-libs
+    - korganizer
+    - korganizer-libs
+    - kwebenginepart
+    - mbox-importer
+    - parley
+    - pim-data-exporter
+    - pim-data-exporter-libs
+    - pim-sieve-editor
+    - plasma-sdk
+    - qt5-qtwebengine
+    - qt5-qtwebengine-devel
+    - qt5-qtwebengine-devtools
+    - qt5-qtwebengine-doc
+    - qt5-qtwebengine-examples
+    - qt5-qtwebview
+    - qt5-qtwebview-devel
+    - qt5-qtwebview-examples
