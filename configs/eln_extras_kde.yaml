@@ -39,9 +39,6 @@ data:
   - gwenview-libs
   - java-kolabformat
   - juk
-  - k3b
-  - k3b-devel
-  - k3b-libs
   - kaccounts-integration
   - kaccounts-integration-devel
   - kactivitymanagerd
@@ -692,6 +689,9 @@ data:
     - akregator-libs
     - grantlee-editor
     - grantlee-editor-libs
+    - k3b
+    - k3b-devel
+    - k3b-libs
     - kaccounts-providers
     - kaddressbook
     - kaddressbook-devel
@@ -769,6 +769,9 @@ data:
     - akregator-libs
     - grantlee-editor
     - grantlee-editor-libs
+    - k3b
+    - k3b-devel
+    - k3b-libs
     - kaccounts-providers
     - kaddressbook
     - kaddressbook-devel
