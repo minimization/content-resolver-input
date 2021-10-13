@@ -8,30 +8,31 @@ data:
   maintainer: sst_rhcos
 
   packages:
-   # These packages are currently built and released as part of
-   # OpenShift 4 (RHCOS).  In the future we may create ELN CoreOS,
-   # see https://github.com/coreos/fedora-coreos-config/pull/712
-   - afterburn
-   - afterburn-dracut
-   - coreos-installer
-   - ignition
-   - runc
-   - ssh-key-dir
-   - zincati
-   - bootupd
+  - afterburn
+  - afterburn-darcut
+  - butane
+  - console-login-helper-messages-issuegen
+  - console-login-helper-messages-motdgen
+  - console-login-helper-messages-profile
+  - ignition
+  - ignition-validate
+  - ssh-key-dir
 
-   # These packages are inherited from the base
-   - cloud-utils-growpart
-   - console-login-helper-messages-issuegen
-   - console-login-helper-messages-motdgen
-   - console-login-helper-messages-profile
-   - ostree
-   - podman
-   - rpm-ostree
-   - skopeo
-   - systemd-container
-   - toolbox
+  # Packages co-maintained with the Edge SST
+  - ostree
+  - rpm-ostree
+  - nss-altfiles
+  - coreos-installer
+  - coreos-installer-bootinfra
+  - coreos-installer-dracut
 
-## Do not re-enable in eln without Josh Boyers permission
-  labels: []
-#  - eln
+  arch_packages:
+    x86_64:
+    - bootupd
+    aarch64:
+    - bootupd
+
+  # Do not re-enable in eln without Josh Boyers permission
+  labels:
+  # - eln
+  - c9s
