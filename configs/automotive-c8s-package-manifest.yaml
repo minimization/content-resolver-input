@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-c8s
+  - repository-auto-neptune-c8s
 
   # Packages defining this environment.
   # This list includes packages for all

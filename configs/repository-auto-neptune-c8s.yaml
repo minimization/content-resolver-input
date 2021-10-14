@@ -1,0 +1,33 @@
+---
+document: feedback-pipeline-repository
+version: 1
+data:
+  name: Neptune with CentOS Stream for el8
+  description: Neptune with CentOS Stream BaseOS, AppStream dna extras; for el8
+  maintainer: rajeshsriva
+  source:
+
+    repos:
+
+      stream-baseos:
+        baseurl: http://mirror.centos.org/centos/8-stream/BaseOS/$basearch/os/
+        priority: 1
+      
+      stream-appstream:
+        baseurl: http://mirror.centos.org/centos/8-stream/AppStream/$basearch/os/
+        priority: 2
+      
+      stream-extras:
+        baseurl: http://mirror.centos.org/centos/8-stream/extras/$basearch/os/
+
+      neptune:
+        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
+      
+    releasever: "8-stream"
+    
+    architectures:
+    - aarch64
+    #- ppc64le
+    #- s390x
+    - x86_64
+
