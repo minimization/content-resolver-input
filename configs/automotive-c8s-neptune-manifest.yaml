@@ -1,0 +1,15 @@
+---
+data:
+  description: Automotive Neptune image manifest packages.
+  labels:
+  - automotive-c8s
+  maintainer: rajeshsriva
+  name: Automotive Neptune image manifest packages
+  packages:
+  - neptune3-ui
+  - qt5-qtapplicationmanager
+  arch_packages:
+    aarch64:
+    x86_64:
+document: feedback-pipeline-workload
+version: 1
