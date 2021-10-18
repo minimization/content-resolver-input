@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Qemu+Podman Package View using CentOS Stream 8
+  description: A combined view of Qemu and Podman package sets
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c8s-qemu_podman
+  repository: automotive-base-c8s-repositories
