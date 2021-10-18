@@ -36,24 +36,24 @@ data:
     repos:
 
       stream-baseos:
-        baseurl: http://192.168.1.150/mirrors/centos/8-stream/BaseOS/$basearch/os/
+        baseurl: http://mirror.centos.org/centos/8-stream/BaseOS/$basearch/os/
         priority: 1
       
       stream-appstream:
-        baseurl: http://192.168.1.150/mirrors/centos/8-stream/AppStream/$basearch/os/
+        baseurl: http://mirror.centos.org/centos/8-stream/AppStream/$basearch/os/
         priority: 2
       
       stream-powertools:
-        baseurl: http://192.168.1.150/mirrors/centos/8-stream/PowerTools/$basearch/os/
+        baseurl: http://mirror.centos.org/centos/8-stream/PowerTools/$basearch/os/
       
       stream-extras:
-        baseurl: http://192.168.1.150/mirrors/centos/8-stream/extras/$basearch/os/
-      
+        baseurl: http://mirror.centos.org/centos/8-stream/extras/$basearch/os/
+
       epel8:
-        baseurl: http://192.168.1.150/mirrors/epel/8/Everything/$basearch/
+        baseurl: https://dl.fedoraproject.org/pub/epel/8/Everything/$basearch/
       
       epel8-next:
-        baseurl: http://192.168.1.150/mirrors/epel/next/8/Everything/$basearch/
+        baseurl: https://dl.fedoraproject.org/pub/epel/next/8/Everything/$basearch/
 
       neptune:
         baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
