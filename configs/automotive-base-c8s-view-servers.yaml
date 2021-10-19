@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Servers Package View using CentOS Stream 8
+  description: Packages which add services that might be only used for small usecases
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c8s-servers
+  repository: automotive-base-c8s-repositories

@@ -1,0 +1,67 @@
+---
+# This configuration file defines a "Repository" in Feedback Pipeline.
+# https://tiny.distro.builders
+#
+# Repositories are the sources of the data.
+# Right now, they represent Fedora releases, but can be extended in the future.
+
+document: feedback-pipeline-repository
+version: 2
+data:
+  # id is the filename — that automatically prevents collisions for free!
+
+
+  ### MANDATORY FIELDS ###
+  
+  # Name is an identifier for humans
+  #
+  # (mandatory field)
+  name: Automotive Base Enablement repos for CentOS Stream 8
+  # A short description, perhaps hinting the purpose
+  #
+  # (mandatory field)
+  description: C8S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras, EPEL, EPEL-Next, Neptune)
+
+  # Who maintains it? This is just a freeform string
+  # for humans to read. In Fedora, a FAS nick is recommended.
+  #
+  # (mandatory field)
+  maintainer: ssmoogen
+
+  # Where does this repository come from?  Right now, only Fedora
+  # repositories are supported, defined by their releasever.  (mandatory
+  # field)
+  source:
+
+    repos:
+
+      stream-baseos:
+        baseurl: http://mirror.centos.org/centos/8-stream/BaseOS/$basearch/os/
+        priority: 1
+      
+      stream-appstream:
+        baseurl: http://mirror.centos.org/centos/8-stream/AppStream/$basearch/os/
+        priority: 2
+      
+      stream-powertools:
+        baseurl: http://mirror.centos.org/centos/8-stream/PowerTools/$basearch/os/
+      
+      stream-extras:
+        baseurl: http://mirror.centos.org/centos/8-stream/extras/$basearch/os/
+
+      epel8:
+        baseurl: https://dl.fedoraproject.org/pub/epel/8/Everything/$basearch/
+      
+      epel8-next:
+        baseurl: https://dl.fedoraproject.org/pub/epel/next/8/Everything/$basearch/
+
+      neptune:
+        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
+        
+    releasever: "8-stream"
+    
+    # Automotive is only focusing on a subset of architectures
+    architectures:
+    - aarch64
+    - x86_64
+
