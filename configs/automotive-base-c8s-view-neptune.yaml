@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Neptune Package View for CentOS Stream 8
+  description: A view looking at just the Neptune Sample application
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c8s-neptune
+  repository: automotive-base-c8s-repositories
