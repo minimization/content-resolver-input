@@ -29,7 +29,7 @@ data:
   # for humans to read. In Fedora, a FAS nick is recommended.
   #
   # (mandatory field)
-  maintainer: rajeshsriva
+  maintainer: rajsriva
 
   # Different instances of the environment, one per repository.
   #
