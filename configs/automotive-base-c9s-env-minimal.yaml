@@ -51,7 +51,7 @@ data:
   - dracut-config-generic
   - e2fsprogs
   - efibootmgr
-  - glibc-en-langpack
+  - glibc-langpack-en
   - greenboot-reboot
   - greenboot-rpm-ostree-grub2
   - greenboot-status
