@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hostapd
+  description: IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator
+  maintainer: sst_networking
+  packages:
+  - hostapd
+
+  labels:
+  - eln
+  - c9s
