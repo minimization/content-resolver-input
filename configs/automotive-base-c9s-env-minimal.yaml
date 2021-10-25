@@ -18,7 +18,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive SIG minimal environment using CentOS Stream 8
+  name: Automotive SIG minimal environment using CentOS Stream 9
   
   # A short description, perhaps hinting the purpose
   #
@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-base-c9s-repositories
 
   # Packages defining this environment.
   # This list includes packages for all
