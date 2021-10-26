@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Podman Package View using CentOS Stream 9
+  description: Packages that get pulled in when using just podman
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c9s-podman
+  repository: automotive-base-c9s-repositories

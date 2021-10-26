@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Complete Workload using CentOS Stream 8
+  name: Automotive Server Workload using CentOS Stream 9
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: A combined neptune/qemu/podman workload
+  description: Services that CentOS 9 systems might run/need
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,35 +36,26 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
+  - automotive-base-c9s-all
+  - automotive-base-c9s-servers
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-base-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
   # architectures — that's the one to use by default.
   #
   # (mandatory field)
-  ## This is a general list generated from all the other lists
   packages:
-  - flatpak
-  - greenboot-reboot
-  - greenboot-rpm-ostree-grub2
-  - greenboot-status
-  - kamoso
-  - kwin
-  - libvirt-client
-  - microdnf
-  - neptune3-ui
-  - nss-altfiles
-  - ostree-grub2
-  - podman
-  - qemu-kvm
-  - sddm
+  - openssh-server
+  - openssh-clients
+  - dhcp-server
+  - sudo
+  - yum
 
   ### OPTIONAL FIELDS ###
 
