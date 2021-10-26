@@ -8,11 +8,9 @@ data:
   packages:
   - orca
   - festival
-  - flite
   - speech-dispatcher
-  - speech-dispatcher-doc
   - at-spi2-atk
   - at-spi2-core
 
   labels:
-  - c9s
+  - eln
