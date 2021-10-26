@@ -34,7 +34,6 @@ data:
   source:
 
     repos:
-
       stream-baseos:
         baseurl: http://mirror.centos.org/centos/8-stream/BaseOS/$basearch/os/
         priority: 1
@@ -59,6 +58,8 @@ data:
         baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
         
     releasever: "8-stream"
+
+    composeinfo: https://composes.centos.org/latest-CentOS-Stream-8/compose/metadata/composeinfo.json
     
     # Automotive is only focusing on a subset of architectures
     architectures:
