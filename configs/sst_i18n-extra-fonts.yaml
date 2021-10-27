@@ -13,6 +13,7 @@ data:
   - google-noto-serif-gurmukhi-vf-fonts
   - google-noto-serif-sinhala-vf-fonts
   - liberation-narrow-fonts
+  - redhat-fonts
   - smc-rachana-fonts
 
   labels:
