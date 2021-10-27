@@ -52,8 +52,6 @@ data:
   - e2fsprogs
   - efibootmgr
   - glibc-langpack-en
-  - grub2-tools-efi
-  - grub2-tools-extra
   - grub2-tools-minimal
   - hostname
   - kernel
