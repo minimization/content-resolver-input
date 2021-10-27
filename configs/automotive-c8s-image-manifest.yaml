@@ -51,7 +51,6 @@ data:
   - polkit
   - tracker
   - tracker-miners
-  - ostree-grub2
   - xorg-x11-server-Xwayland
   - xdg-user-dirs-gtk
   - xdg-desktop-portal
