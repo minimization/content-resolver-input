@@ -54,7 +54,6 @@ data:
   - greenboot-reboot
   - greenboot-rpm-ostree-grub2
   - greenboot-status
-  - ostree-grub2
   - nss-altfiles
 
   ### OPTIONAL FIELDS ###

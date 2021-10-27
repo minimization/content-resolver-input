@@ -61,7 +61,6 @@ data:
   - microdnf
   - neptune3-ui
   - nss-altfiles
-  - ostree-grub2
   - podman
   - qemu-kvm
   - sddm

@@ -58,7 +58,6 @@ data:
   - libvirt-client
   - microdnf
   - nss-altfiles
-  - ostree-grub2
   - podman
   - qemu-kvm
 
