@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Complete Workload using CentOS Stream 8
+  name: Automotive Complete Workload using CentOS Stream 9
   
   # A short description, perhaps hinting the purpose
   #
@@ -36,13 +36,13 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
+  - automotive-base-c9s-all
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-base-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
@@ -55,15 +55,11 @@ data:
   - greenboot-reboot
   - greenboot-rpm-ostree-grub2
   - greenboot-status
-  - kamoso
-  - kwin
   - libvirt-client
   - microdnf
-  - neptune3-ui
   - nss-altfiles
   - podman
   - qemu-kvm
-  - sddm
 
   ### OPTIONAL FIELDS ###
 

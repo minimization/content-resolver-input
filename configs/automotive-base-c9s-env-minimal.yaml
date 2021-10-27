@@ -51,23 +51,18 @@ data:
   - dracut-config-generic
   - e2fsprogs
   - efibootmgr
-  - glibc-en-langpack
-  - greenboot-reboot
-  - greenboot-rpm-ostree-grub2
-  - greenboot-status
-  - grub2-tools-efi
-  - grub2-tools-extra
+  - glibc-langpack-en
   - grub2-tools-minimal
   - hostname
   - kernel
   - kernel-tools
-  - ostree-grub2
   - passwd
   - rng-tools
   - rootfiles
   - rsyslog
-  - systemd-udev
   - selinux-policy-targeted
+  - systemd-udev
+  
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -75,13 +70,15 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
-  - automotive-base-c8s-minimal
-  - automotive-base-c8s-neptune
-  - automotive-base-c8s-podman
-  - automotive-base-c8s-qemu_podman
-  - automotive-base-c8s-repositories
-  - automotive-base-c8s-servers
+  - automotive-base-c9s-all
+  - automotive-base-c9s-dnf
+  - automotive-base-c9s-minimal
+  - automotive-base-c9s-neptune
+  - automotive-base-c9s-ostree
+  - automotive-base-c9s-podman
+  - automotive-base-c9s-qemu_podman
+  - automotive-base-c9s-repositories
+  - automotive-base-c9s-servers
 
   ### OPTIONAL FIELDS ###
 

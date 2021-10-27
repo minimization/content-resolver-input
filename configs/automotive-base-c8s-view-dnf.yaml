@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Minimal Package View using CentOS Stream 8
+  description: A view of minimal set common to all workloads
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c8s-dnf
+  repository: automotive-base-c8s-repositories

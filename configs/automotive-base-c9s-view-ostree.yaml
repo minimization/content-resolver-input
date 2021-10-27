@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Minimal Package View using CentOS Stream 9
+  description: A view of set for ostree
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c9s-dnf
+  repository: automotive-base-c9s-repositories
