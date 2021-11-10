@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive Maximal Package View using CentOS Stream 9
+  description: A view of maximal set common to all workloads
+  maintainer: ssmoogen
+  labels:
+  - automotive-base-c9s-maximal
+  repository: automotive-base-c9s-repositories
