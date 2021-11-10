@@ -42,6 +42,7 @@ data:
   - pcp-pmda-cifs
   - pcp-pmda-cisco
   - pcp-pmda-dbping
+  - pcp-pmda-denki
   - pcp-pmda-dm
   - pcp-pmda-docker
   - pcp-pmda-ds389
@@ -64,6 +65,7 @@ data:
   - pcp-pmda-memcache
   - pcp-pmda-mic
   - pcp-pmda-mounts
+  - pcp-pmda-mongodb
   - pcp-pmda-mysql
   - pcp-pmda-named
   - pcp-pmda-netcheck
@@ -95,7 +97,6 @@ data:
   - pcp-pmda-systemd
   - pcp-pmda-trace
   - pcp-pmda-unbound
-  - pcp-pmda-vmware
   - pcp-pmda-weblog
   - pcp-pmda-zimbra
   - pcp-pmda-zswap
@@ -116,19 +117,23 @@ data:
   arch_packages:
     aarch64:
     - pcp-pmda-bcc
+    - pcp-pmda-bpf
     - pcp-pmda-bpftrace
     - pcp-pmda-infiniband
     - pcp-pmda-perfevent
     ppc64le:
     - pcp-pmda-bcc
+    - pcp-pmda-bpf
     - pcp-pmda-bpftrace
     - pcp-pmda-infiniband
     - pcp-pmda-perfevent
     s390x:
     - pcp-pmda-bcc
+    - pcp-pmda-bpf
     - pcp-pmda-bpftrace
     x86_64:
     - pcp-pmda-bcc
+    - pcp-pmda-bpf
     - pcp-pmda-bpftrace
     - pcp-pmda-infiniband
     - pcp-pmda-mssql
