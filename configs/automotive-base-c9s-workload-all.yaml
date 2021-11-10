@@ -51,16 +51,30 @@ data:
   # (mandatory field)
   ## This is a general list generated from all the other lists
   packages:
-  - flatpak
-  - greenboot-reboot
-  - greenboot-rpm-ostree-grub2
-  - greenboot-status
-  - libvirt-client
+  # dnf
   - microdnf
+  # neptune (uses EPEL and copr external)
+  - sddm
+  - kwin
+  - kamoso
+  - neptune3-ui
+  # ostree
+  - greenboot-reboot
+  - greenboot-status
   - nss-altfiles
+  # podman/flatpak
   - podman
+  - flatpak
+  # qemu
   - qemu-kvm
-
+  - libvirt-client
+  # qa-test workload
+  - openssh-server
+  - openssh-clients
+  - dhcp-server
+  - sudo
+  - yum
+ 
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.

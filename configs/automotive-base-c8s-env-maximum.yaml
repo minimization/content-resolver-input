@@ -1,28 +1,28 @@
 ---
-# This configuration file defines a "Workload" in Feedback Pipeline.
+# This configuration file defines an "Environment" in Feedback Pipeline.
 # https://tiny.distro.builders
 #
-# Workload is a set of packages with a purpouse that someone cares about.
-# They might want to monitor it for the install size, dependencies that get
-# pulled in, etc.
+# Environments influence how a workload looks like when installed.
+# That's achieved by including specific packages — like coreutils-single — that
+# influence the result.
+# Environments can also act as base images when monitoring container sizes.
 
-document: feedback-pipeline-workload
+document: feedback-pipeline-environment
 version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
-
 
   ### MANDATORY FIELDS ###
   
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Complete Workload using CentOS Stream 8
+  name: Automotive SIG maximum environment using CentOS Stream 8
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: A combined neptune/qemu/podman workload
+  description: Maximum env. for CentOS Stream DNF for Automotive Env
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -30,27 +30,36 @@ data:
   # (mandatory field)
   maintainer: ssmoogen
 
-  # Labels connect things together.
-  # Workloads get installed in environments with the same label.
-  # They also get included in views with the same label.
-  # 
-  # (mandatory field)
-  labels:
-  - automotive-base-c8s-all
-
-  # Repositories tell you what ones to resolve against.
-  # 
+  # Different instances of the environment, one per repository.
+  #
   # (mandatory field)
   repositories:
   - automotive-base-c8s-repositories
 
-  # Packages defining this workload.
+  # Packages defining this environment.
   # This list includes packages for all
   # architectures — that's the one to use by default.
   #
   # (mandatory field)
-  ## This is a general list generated from all the other lists
   packages:
+  # Base leaf packages with all systems.
+  - NetworkManager
+  - audit
+  - chrony
+  - dhcp-client
+  - dracut-config-generic
+  - e2fsprogs
+  - efibootmgr
+  - glibc-langpack-en
+  - hostname
+  - kernel
+  - kernel-tools
+  - passwd
+  - rng-tools
+  - rootfiles
+  - rsyslog
+  - selinux-policy-targeted
+  - systemd-udev
   # dnf
   - microdnf
   # neptune (uses EPEL and copr external)
@@ -62,8 +71,9 @@ data:
   - greenboot-reboot
   - greenboot-status
   - nss-altfiles
-  # podman/flatpak
+  # podman
   - podman
+  # flatpak
   - flatpak
   # qemu
   - qemu-kvm
@@ -74,7 +84,15 @@ data:
   - dhcp-server
   - sudo
   - yum
- 
+
+  # Labels connect things together.
+  # Workloads get installed in environments with the same label.
+  # They also get included in views with the same label.
+  # 
+  # (mandatory field)
+  labels:
+  - automotive-base-c8s-maximum
+
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.
@@ -82,10 +100,14 @@ data:
   # (optional field)
   arch_packages:
     x86_64:
-    - grub2-efi-x64
+    - shim-x64
+    - microcode_ctl
+    - grub2-efi-x86
     - grub2-pc
     - grub2-pc-modules
     aarch64:
+    - shim-aa64
+    - tianocore-rpi4-uefi
     - grub2-efi-aa64
 
   # Extra installation options.
@@ -94,5 +116,7 @@ data:
   # - "include-weak-deps" - automatically pull in "recommends" weak dependencies
   #
   # (optional field)
-  #options:
-  #- option
+  options:
+  - exclude-docs
+  - exclude-weak-deps
+

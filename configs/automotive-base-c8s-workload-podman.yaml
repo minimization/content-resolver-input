@@ -55,6 +55,7 @@ data:
   ## podman is the minimum set for a container
   packages:
   - podman
+  - flatpak
 
 
   ### OPTIONAL FIELDS ###
