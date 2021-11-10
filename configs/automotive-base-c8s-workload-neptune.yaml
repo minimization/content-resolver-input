@@ -55,13 +55,11 @@ data:
   ## kwin is our wayland compositor
   ## kamoso is a QT app to pull in our camera
   ## neptune3-ui is our gui
-  ## flatpak would allow us to run certain 'containers'
   packages:
   - sddm
   - kwin 
   - neptune3-ui
   - kamoso
-  - flatpak
 
   ### OPTIONAL FIELDS ###
 

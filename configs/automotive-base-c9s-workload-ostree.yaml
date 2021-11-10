@@ -52,7 +52,6 @@ data:
   # (mandatory field)
   packages:
   - greenboot-reboot
-  - greenboot-rpm-ostree-grub2
   - greenboot-status
   - nss-altfiles
 
