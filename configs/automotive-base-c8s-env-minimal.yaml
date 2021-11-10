@@ -52,7 +52,6 @@ data:
   - e2fsprogs
   - efibootmgr
   - glibc-langpack-en
-  - grub2-tools-minimal
   - hostname
   - kernel
   - kernel-tools
@@ -79,6 +78,7 @@ data:
   - automotive-base-c8s-qemu_podman
   - automotive-base-c8s-repositories
   - automotive-base-c8s-servers
+  - automotive-base-c8s-bootloader-grub2
 
   ### OPTIONAL FIELDS ###
 
@@ -87,13 +87,9 @@ data:
   # (optional field)
   arch_packages:
     x86_64:
-    - grub2-efi-x64
-    - grub2-pc
-    - grub2-pc-modules
     - shim-x64
     - microcode_ctl
     aarch64:
-    - grub2-efi-aa64
     - shim-aa64
     - tianocore-rpi4-uefi
 

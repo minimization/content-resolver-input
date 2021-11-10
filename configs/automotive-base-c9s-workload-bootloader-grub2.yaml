@@ -11,18 +11,17 @@ version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
 
-
   ### MANDATORY FIELDS ###
   
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive ostree Workload using CentOS Stream 8
+  name: Automotive bootloader-grub Workload using CentOS Stream 9
 
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: ostree Workload for Automotive CentOS Stream 8 EPEL
+  description: bootloader-grub2 Workload for Automotive CentOS Stream 9 EPEL
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,14 +35,14 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
-  - automotive-base-c8s-ostree
+  - automotive-base-c9s-all
+  - automotive-base-c9s-bootloader-grub2
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-base-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
@@ -51,18 +50,21 @@ data:
   #
   # (mandatory field)
   packages:
-  - greenboot-reboot
-  - greenboot-status
-  - nss-altfiles
+  - grub2-tools-minimal
+  - greenboot-rpm-ostree-grub2
 
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.
   #
   # (optional field)
-  #arch_packages:
-  #  x86_64:
-  #  - arch-specific-package
+  arch_packages:
+    x86_64:
+    - grub2-efi-x64
+    - grub2-pc
+    - grub2-pc-modules
+    aarch64:
+    - grub2-efi-aa64
 
   # Extra installation options.
   # The following are now supported:
