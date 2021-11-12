@@ -99,6 +99,7 @@ data:
   - lorax
   - python3-iniparse
   - xorriso
+  - xfsprogs
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -130,6 +131,7 @@ data:
     - shim-aa64
     - tianocore-rpi4-uefi
     - grub2-efi-aa64
+    - grub2-efi-aa64-cdboot
 
   # Extra installation options.
   # The following are now supported:
