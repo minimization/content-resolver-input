@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive SIG maximum environment using CentOS Stream 9
+  name: Automotive SIG working environment using CentOS Stream 8 for the toolchain
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Maximum env. for CentOS Stream DNF for Automotive Env
+  description: Automotive SIG working environment using CentOS Stream 8 for the toolchain
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -34,7 +34,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - automotive-base-c9s-repositories
+  - automotive-toolchain-c8s-repositories
 
   # Packages defining this environment.
   # This list includes packages for all
@@ -62,11 +62,6 @@ data:
   - systemd-udev
   # dnf
   - microdnf
-  # neptune (uses EPEL and copr external)
-  - sddm
-  - kwin
-  - kamoso
-  - neptune3-ui
   # ostree
   - greenboot-reboot
   - greenboot-status
@@ -84,6 +79,19 @@ data:
   - dhcp-server
   - sudo
   - yum
+  # qt5 applications possibly needed for infotainment
+  - qt5-qtbase
+  - qt5-qtwayland
+  - qt5-qtx11extras
+  - qt5-qtmultimedia
+  - qt5-qtquickcontrols
+  - qt5-qtquickcontrols2
+  - qt5-qtsensors
+  - qt5-qttools
+  - qt5-qtimageformats
+  - qt5-qtgraphicaleffects
+  - libwayland-client
+  - libwayland-server
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -91,7 +99,7 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c9s-maximum
+  - automotive-toolchain-c8s
 
   ### OPTIONAL FIELDS ###
 
