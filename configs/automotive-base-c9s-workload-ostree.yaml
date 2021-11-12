@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive ostree Workload using CentOS Stream 9
+  name: Automotive B-Team ostree Workload using CentOS Stream 9
 
   # A short description, perhaps hinting the purpose
   #

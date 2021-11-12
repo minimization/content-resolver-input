@@ -17,8 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Complete Workload using CentOS Stream 9
-  
+  name: Automotive B-Team Complete Workload using CentOS Stream 9
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
@@ -54,9 +53,6 @@ data:
   # dnf
   - microdnf
   # neptune (uses EPEL and copr external)
-  - sddm
-  - kwin
-  - kamoso
   - neptune3-ui
   # ostree
   - greenboot-reboot

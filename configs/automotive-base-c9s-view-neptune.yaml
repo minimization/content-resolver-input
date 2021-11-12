@@ -2,7 +2,7 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Neptune Package View for CentOS Stream 9
+  name: Automotive B-Team Neptune Package View for CentOS Stream 9
   description: A view looking at just the Neptune Sample application
   maintainer: ssmoogen
   labels:
