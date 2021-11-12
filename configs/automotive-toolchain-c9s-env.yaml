@@ -92,6 +92,7 @@ data:
   - qt5-qttools
   - qt5-qtimageformats
   - qt5-qtgraphicaleffects
+  - qt5-qt3d
   - libwayland-client
   - libwayland-server
   # things needed for the 2021-11-12 mpp image
@@ -142,7 +143,7 @@ data:
     x86_64:
     - shim-x64
     - microcode_ctl
-    - grub2-efi-x86
+    - grub2-efi-x64
     # items needed for the x86_64 20211112 mpp image
     - grub2-efi-ia32
     - grub2-efi-x64-cdboot
