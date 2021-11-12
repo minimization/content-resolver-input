@@ -64,21 +64,33 @@ data:
   # qemu
   - qemu-kvm
   - libvirt-client
+  - libguestfs
   # qa-test workload
   - openssh-server
   - openssh-clients
   - dhcp-server
   - sudo
   - yum
+  # possible others needed
+  - grub2-tools-minimal
+  - greenboot-rpm-ostree-grub2
+  - grub2-tools
+  - lorax
+  - python3-iniparse
+  - xorriso
  
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.
   #
   # (optional field)
-  #arch_packages:
-  #  x86_64:
-  #  - arch-specific-package
+  arch_packages:
+    x86_64:
+    # these are needed in the mpp file
+    - grub2-efi-ia32
+    - grub2-efi-x64-cdboot
+    - grub2-efi-ia32-cdboot
+    - shim-ia32
 
   # Extra installation options.
   # The following are now supported:

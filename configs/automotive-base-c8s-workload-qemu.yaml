@@ -53,6 +53,7 @@ data:
   packages:
   - qemu-kvm
   - libvirt-client
+  - libguestfs
 
 
   ### OPTIONAL FIELDS ###
