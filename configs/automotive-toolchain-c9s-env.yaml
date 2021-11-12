@@ -50,6 +50,7 @@ data:
   - dracut-config-generic
   - e2fsprogs
   - efibootmgr
+  - genisoimage
   - glibc-langpack-en
   - hostname
   - kernel
@@ -61,7 +62,7 @@ data:
   - selinux-policy-targeted
   - systemd-udev
   # dnf
-  - microdnf
+  - dnf
   # ostree
   - greenboot-reboot
   - greenboot-status
@@ -94,14 +95,37 @@ data:
   - libwayland-client
   - libwayland-server
   # things needed for the 2021-11-12 mpp image
+  - dosfstools
+  - firewalld
+  - gdm
+  - gnome-control-center
+  - gnome-session-xsession
+  - gnome-shell
+  - gnome-terminal
+  - greenboot-rpm-ostree-grub2
+  - grub2-pc
+  - grub2-pc-modules
   - grub2-tools
   - grub2-tools-efi
-  - greenboot-rpm-ostree-grub2
+  - grub2-tools-extra
+  - grub2-tools-minimal
+  - langpacks-en
   - lorax
+  - plymouth
+  - policycoreutils
+  - polkit
   - python3-iniparse
-  - xorriso
-  - xfsprogs
   - python36
+  - qemu-img
+  - rpm-ostree
+  - squashfstools
+  - syslinux
+  - syslinux-nonlinux
+  - systemd
+  - tar
+  - xfsprogs
+  - xorriso
+  - xz
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -121,8 +145,6 @@ data:
     - shim-x64
     - microcode_ctl
     - grub2-efi-x86
-    - grub2-pc
-    - grub2-pc-modules
     # items needed for the x86_64 20211112 mpp image
     - grub2-efi-ia32
     - grub2-efi-x64-cdboot
@@ -134,6 +156,7 @@ data:
     - tianocore-rpi4-uefi
     - grub2-efi-aa64
     - grub2-efi-aa64-cdboot
+    - uboot-images-armv8
 
   # Extra installation options.
   # The following are now supported:
