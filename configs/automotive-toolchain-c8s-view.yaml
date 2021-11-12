@@ -1,0 +1,10 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Automotive SIG Package View using CentOS Stream 8 for Toolchain Group
+  description: A view of packages which can be used by toolchain group
+  maintainer: ssmoogen
+  labels:
+  - automotive-toolchain-c8s
+  repository: automotive-toolchain-c8s-repositories

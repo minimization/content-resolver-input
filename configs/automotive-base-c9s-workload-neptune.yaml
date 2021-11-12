@@ -56,10 +56,7 @@ data:
   ## kamoso is a QT app to pull in our camera
   ## neptune3-ui is our gui
   packages:
-  - sddm
-  - kwin 
   - neptune3-ui
-  - kamoso
 
   ### OPTIONAL FIELDS ###
 

@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Maximal Workload using CentOS Stream 9
+  name: Automotive SIG Workload using CentOS Stream 9 for ToolChain Group
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Maximal Workload for Automotive CentOS Stream 9 EPEL
+  description: This is meant to be a steady group of packages that toolchain can use for targeting their workloads.
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,13 +36,13 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c9s-maximal
+  - automotive-toolchain-c9s
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c9s-repositories
+  - automotive-toolchain-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
