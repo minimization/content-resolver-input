@@ -95,11 +95,13 @@ data:
   - libwayland-server
   # things needed for the 2021-11-12 mpp image
   - grub2-tools
+  - grub2-tools-efi
   - greenboot-rpm-ostree-grub2
   - lorax
   - python3-iniparse
   - xorriso
   - xfsprogs
+  - python36
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
@@ -132,6 +134,8 @@ data:
     - tianocore-rpi4-uefi
     - grub2-efi-aa64
     - grub2-efi-aa64-cdboot
+    - grub2-pc
+    - grub2-pc-modules
 
   # Extra installation options.
   # The following are now supported:
