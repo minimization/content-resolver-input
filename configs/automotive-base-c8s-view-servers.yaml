@@ -2,7 +2,7 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Servers Package View using CentOS Stream 8
+  name: Automotive B-Team Servers Package View using CentOS Stream 8
   description: Packages which add services that might be only used for small usecases
   maintainer: ssmoogen
   labels:

@@ -2,7 +2,7 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Combined Package View using CentOS Stream 9
+  name: Automotive B-Team Combined Package View using CentOS Stream 9
   description: A feature list trying to combine all standard workloads
   maintainer: ssmoogen
   labels:
