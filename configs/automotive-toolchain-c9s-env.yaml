@@ -127,6 +127,14 @@ data:
   - xfsprogs
   - xorriso
   - xz
+  # dracut needs things but doesn't require them
+  - biosdevname
+  - device-mapper-multipath
+  - kbd
+  - keyutils
+  - lvm2
+  - mdadm
+  - nvme-cli
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
