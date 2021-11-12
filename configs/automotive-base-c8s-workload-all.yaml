@@ -68,6 +68,7 @@ data:
   # qemu
   - qemu-kvm
   - libvirt-client
+  - libguestfs
   # qa-test workload
   - openssh-server
   - openssh-clients
