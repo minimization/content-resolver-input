@@ -63,7 +63,13 @@ data:
     - grub2-efi-x64
     - grub2-pc
     - grub2-pc-modules
+    # items needed for the x86_64 20211112 mpp image
+    - grub2-efi-ia32
+    - grub2-efi-x64-cdboot
+    - grub2-efi-ia32-cdboot
+    - shim-ia32
     aarch64:
+    - shim-aa64
     - grub2-efi-aa64
 
   # Extra installation options.
