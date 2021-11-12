@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Podman Workload using CentOS Stream 8
+  name: Automotive B-Team Podman Workload using CentOS Stream 8
   
   # A short description, perhaps hinting the purpose
   #

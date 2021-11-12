@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Minimal Workload using CentOS Stream 9
+  name: Automotive B-Team Minimal Workload using CentOS Stream 9
   
   # A short description, perhaps hinting the purpose
   #

@@ -16,11 +16,11 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive B-Team repos for CentOS Stream 8
+  name: Automotive A-Team repos for CentOS Stream 9
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: C8S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras, EPEL, EPEL-Next, Neptune)
+  description: C9S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras, )
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -35,32 +35,27 @@ data:
 
     repos:
       stream-baseos:
-        baseurl: http://mirror.centos.org/centos/8-stream/BaseOS/$basearch/os/
-        priority: 1
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
       
       stream-appstream:
-        baseurl: http://mirror.centos.org/centos/8-stream/AppStream/$basearch/os/
-        priority: 2
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
       
       stream-powertools:
-        baseurl: http://mirror.centos.org/centos/8-stream/PowerTools/$basearch/os/
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
       
-      stream-extras:
-        baseurl: http://mirror.centos.org/centos/8-stream/extras/$basearch/os/
+      # epel9-next:
+      #   baseurl: https://dl.fedoraproject.org/pub/epel/next/9/Everything/$basearch/
 
-      epel8:
-        baseurl: https://dl.fedoraproject.org/pub/epel/8/Everything/$basearch/
-      
-      epel8-next:
-        baseurl: https://dl.fedoraproject.org/pub/epel/next/8/Everything/$basearch/
+      # neptune:
+      #   baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
 
-      neptune:
-        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
-        
-    releasever: "8-stream"
+      buildroot:
+        baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
 
-    composeinfo: https://composes.centos.org/latest-CentOS-Stream-8/compose/metadata/composeinfo.json
+    releasever: "9"
     
+    composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+
     # Automotive is only focusing on a subset of architectures
     architectures:
     - aarch64

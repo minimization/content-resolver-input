@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Neptune Workload using CentOS Stream 9
+  name: Automotive B-Team Neptune Workload using CentOS Stream 9
   
   # A short description, perhaps hinting the purpose
   #
@@ -56,10 +56,7 @@ data:
   ## kamoso is a QT app to pull in our camera
   ## neptune3-ui is our gui
   packages:
-  - sddm
-  - kwin 
   - neptune3-ui
-  - kamoso
 
   ### OPTIONAL FIELDS ###
 

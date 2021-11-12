@@ -16,7 +16,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Base Enablement repos for CentOS Stream 9
+  name: Automotive B-Team repos for CentOS Stream 9
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)

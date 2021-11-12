@@ -2,8 +2,8 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Minimal Package View using CentOS Stream 9
-  description: A view of minimal set common to all workloads
+  name: Automotive B-Team dnf Package View using CentOS Stream 9
+  description: A view of dnf packages added to minimal environment
   maintainer: ssmoogen
   labels:
   - automotive-base-c9s-dnf

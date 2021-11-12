@@ -16,11 +16,11 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive B-Team repos for CentOS Stream 8
+  name: Automotive A-Team repos for CentOS Stream 8
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: C8S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras, EPEL, EPEL-Next, Neptune)
+  description: C8S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras)
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -48,14 +48,14 @@ data:
       stream-extras:
         baseurl: http://mirror.centos.org/centos/8-stream/extras/$basearch/os/
 
-      epel8:
-        baseurl: https://dl.fedoraproject.org/pub/epel/8/Everything/$basearch/
+      # epel8:
+      #   baseurl: https://dl.fedoraproject.org/pub/epel/8/Everything/$basearch/
       
-      epel8-next:
-        baseurl: https://dl.fedoraproject.org/pub/epel/next/8/Everything/$basearch/
+      # epel8-next:
+      #   baseurl: https://dl.fedoraproject.org/pub/epel/next/8/Everything/$basearch/
 
-      neptune:
-        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
+      # neptune:
+      #   baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-8-$basearch/
         
     releasever: "8-stream"
 
