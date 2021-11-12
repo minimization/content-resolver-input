@@ -112,6 +112,7 @@ data:
   - grub2-tools-minimal
   - langpacks-en
   - lorax
+  - memstrack
   - plymouth
   - policycoreutils
   - polkit
@@ -121,6 +122,7 @@ data:
   - rpm-ostree
   - squashfstools
   - systemd
+  - taglib
   - tar
   - xfsprogs
   - xorriso
