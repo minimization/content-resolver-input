@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive SIG working environment using CentOS Stream 8 for the toolchain
+  name: Automotive A-Team working environment using CentOS Stream 8
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Automotive SIG working environment using CentOS Stream 8 for the toolchain
+  description: Automotive A-Team  working environment using CentOS Stream 8
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.

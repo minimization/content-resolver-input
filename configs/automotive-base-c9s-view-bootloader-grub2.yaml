@@ -2,7 +2,7 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Minimal Package View using CentOS Stream 9
+  name: Automotive B-Team Bootloader Package View using CentOS Stream 9
   description: A view of set for grub2 boot
   maintainer: ssmoogen
   labels:

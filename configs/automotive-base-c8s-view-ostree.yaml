@@ -2,9 +2,9 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Minimal Package View using CentOS Stream 8
-  description: A view of set for ostree
+  name: Automotive B-Team OSTree Package View using CentOS Stream 8
+  description: A view of set for OSTree
   maintainer: ssmoogen
   labels:
-  - automotive-base-c8s-dnf
+  - automotive-base-c8s-ostree
   repository: automotive-base-c8s-repositories

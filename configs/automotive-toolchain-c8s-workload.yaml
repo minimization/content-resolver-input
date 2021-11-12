@@ -17,7 +17,7 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive SIG Workload using CentOS Stream 8 for ToolChain Group
+  name: Automotive A-Team Workload using CentOS Stream 8
   
   # A short description, perhaps hinting the purpose
   #

@@ -2,7 +2,7 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Automotive Podman Package View using CentOS Stream 8
+  name: Automotive B-Team Podman Package View using CentOS Stream 8
   description: Packages that get pulled in when using just podman
   maintainer: ssmoogen
   labels:
