@@ -119,8 +119,6 @@ data:
   - qemu-img
   - rpm-ostree
   - squashfstools
-  - syslinux
-  - syslinux-nonlinux
   - systemd
   - tar
   - xfsprogs
@@ -150,6 +148,8 @@ data:
     - grub2-efi-x64-cdboot
     - grub2-efi-ia32-cdboot
     - shim-ia32
+    - syslinux
+    - syslinux-nonlinux
 
     aarch64:
     - shim-aa64
