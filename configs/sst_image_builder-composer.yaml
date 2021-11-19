@@ -3,7 +3,7 @@ version: 1
 data:
   name: Composer Web Console UI
   description: Cockpit page for composer
-  maintainer: sst_front_door
+  maintainer: sst_image_builder
   labels:
     - eln
     - c9s
