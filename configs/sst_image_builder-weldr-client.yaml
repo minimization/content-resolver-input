@@ -3,7 +3,7 @@ version: 1
 data:
   name: composer-cli weldr client
   description: composer-cli command line utility to control osbuild-composer
-  maintainer: sst_front_door
+  maintainer: sst_image_builder
   labels:
     - eln
     - c9s
