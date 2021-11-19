@@ -1,20 +1,14 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages -- sst_front_door
+  name: Unwanted Packages -- sst_installer
   description: Packages that should not be distributed in RHEL 9
-  maintainer: sst_front_door
+  maintainer: sst_installer
   labels:
     - eln
     - c9s
 
   unwanted_packages:
-    # mpitt: only needed for integration tests (buildroot), never ship this
-    - cockpit-tests
-
-    # mpitt: Will be deprecated soon, let's not introduce it
-    - cockpit-dashboard
-
     # Radek Vykydal:
     # system-config-kickstart has been deprecated upstream, it has not
     # been ported to Python 3, and shouldn't have been included in RHEL 8.
