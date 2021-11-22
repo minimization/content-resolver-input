@@ -39,6 +39,7 @@ data:
   - pcp-pmda-cifs
   - pcp-pmda-cisco
   - pcp-pmda-dbping
+  - pcp-pmda-denki
   - pcp-pmda-dm
   - pcp-pmda-docker
   - pcp-pmda-ds389
@@ -59,6 +60,7 @@ data:
   - pcp-pmda-mailq
   - pcp-pmda-memcache
   - pcp-pmda-mic
+  - pcp-pmda-mongodb
   - pcp-pmda-mounts
   - pcp-pmda-mysql
   - pcp-pmda-named
@@ -90,7 +92,6 @@ data:
   - pcp-pmda-systemd
   - pcp-pmda-trace
   - pcp-pmda-unbound
-  - pcp-pmda-vmware
   - pcp-pmda-weblog
   - pcp-pmda-zimbra
   - pcp-pmda-zswap
