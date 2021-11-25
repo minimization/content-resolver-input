@@ -105,7 +105,6 @@ data:
   - gnome-terminal
   - greenboot-rpm-ostree-grub2
   - grub2-pc
-  - grub2-pc-modules
   - grub2-tools
   - grub2-tools-efi
   - grub2-tools-extra
@@ -158,6 +157,7 @@ data:
     - grub2-efi-ia32
     - grub2-efi-x64-cdboot
     - grub2-efi-ia32-cdboot
+    - grub2-pc-modules
     - shim-ia32
     - syslinux
     - syslinux-nonlinux
