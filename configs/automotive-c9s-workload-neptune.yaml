@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive B-Team Podman Workload using CentOS Stream 8
+  name: Automotive Neptune Workload
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Packages needed for a working qemu environment
+  description: Packages needed for a working Neptune application
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,27 +36,28 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
-  - automotive-base-c8s-podman
-  - automotive-base-c8s-qemu_podman
+  - automotive-c9s-neptune
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-c9s-repositories
+
 
   # Packages defining this workload.
   # This list includes packages for all
   # architectures — that's the one to use by default.
   #
   # (mandatory field)
-  ## This is a general list generated from all the other lists
-  ## podman is the minimum set for a container
+  ## sddm pulls in just enough environment for starting wayland
+  ## kwin is our wayland compositor
+  ## kamoso is a QT app to pull in our camera
+  ## neptune3-ui is our gui
   packages:
-  - podman
-  - flatpak
-
+  - neptune3-ui
+  - gdm
+  - mutter
 
   ### OPTIONAL FIELDS ###
 
