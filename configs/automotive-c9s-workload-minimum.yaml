@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive B-Team Server Workload using CentOS Stream 8
+  name: Automotive Minimum Workload
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Services that CentOS 8 systems might run/need
+  description: Minimum Workload for Automotive
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,26 +36,20 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
-  - automotive-base-c8s-servers
+  - automotive-c9s-minimum
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
   # architectures — that's the one to use by default.
   #
   # (mandatory field)
-  packages:
-  - openssh-server
-  - openssh-clients
-  - dhcp-server
-  - sudo
-  - yum
+  packages: []
 
   ### OPTIONAL FIELDS ###
 

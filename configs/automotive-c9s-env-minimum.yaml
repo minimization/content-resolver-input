@@ -18,12 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive BE-Team minimal environment using CentOS Stream 8
+  name: Automotive minimum environment
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Automotive BE-Team minimal environment using CentOS Stream 8
+  description: The minimum package set for a working environment for the Automotive project
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - automotive-base-c8s-repositories
+  - automotive-c9s-repositories
 
   # Packages defining this environment.
   # This list includes packages for all
@@ -45,7 +45,6 @@ data:
   packages:
   # leaves
   - NetworkManager
-  - audit
   - chrony
   - dhcp-client
   - dracut-config-generic
@@ -58,7 +57,6 @@ data:
   - passwd
   - rng-tools
   - rootfiles
-  - rsyslog
   - selinux-policy-targeted
   - systemd-udev
   
@@ -69,16 +67,12 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c8s-all
-  - automotive-base-c8s-dnf
-  - automotive-base-c8s-minimal
-  - automotive-base-c8s-neptune
-  - automotive-base-c8s-ostree
-  - automotive-base-c8s-podman
-  - automotive-base-c8s-qemu_podman
-  - automotive-base-c8s-repositories
-  - automotive-base-c8s-servers
-  - automotive-base-c8s-bootloader-grub2
+  - automotive-c9s-env
+  - automotive-c9s-minimum
+  - automotive-c9s-development
+  - automotive-c9s-podman
+  - automotive-c9s-ostree
+  - automotive-c9s-neptune
 
   ### OPTIONAL FIELDS ###
 
