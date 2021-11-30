@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive B-Team Server Workload using CentOS Stream 9
+  name: Automotive Development Workload
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Services that CentOS 9 systems might run/need
+  description: Applications needed for developing/compiling a kernel package
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,14 +36,13 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-base-c9s-all
-  - automotive-base-c9s-servers
+  - automotive-c9s-development
 
   # Repositories tell you what ones to resolve against.
   # 
   # (mandatory field)
   repositories:
-  - automotive-base-c9s-repositories
+  - automotive-c9s-repositories
 
   # Packages defining this workload.
   # This list includes packages for all
@@ -51,12 +50,49 @@ data:
   #
   # (mandatory field)
   packages:
-  - openssh-server
+  - bc
+  - binutils
+  - bison
+  - bzip2
+  - cmake
+  - cpio
+  - diffutils
+  - dwarves
+  - elfutils-devel
+  - findutils
+  - flex
+  - gawk
+  - gcc
+  - gcc-c++
+  - gcc-plugin-devel
+  - git
+  - hmaccalc
+  - hostname
+  - m4
+  - make
+  - ncurses-devel
+  - net-tools
   - openssh-clients
-  - dhcp-server
+  - openssh-server
+  - patch
+  - perl-Carp
+  - perl-devel
+  - perl-interpreter
+  - pkgconf
+  - python3-devel
+  - redhat-rpm-config
+  - rpm-build
+  - sed
   - sudo
+  - tar
+  - wget
+  - xz
   - yum
-
+  - zstd
+  - vim-enhanced
+  - emacs-nox
+  - nano
+  
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.
