@@ -6,6 +6,7 @@ data:
   maintainer: jwboyer
 
   packages:
+  - drpm
   - lorax
   - anaconda
   - anaconda-widgets
