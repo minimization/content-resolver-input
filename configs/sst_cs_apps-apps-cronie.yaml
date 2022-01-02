@@ -8,6 +8,8 @@ data:
   packages:
   - at
   - cronie
+  - cronie-anacron
+  - cronie-noanacron
 
   labels:
   - eln
