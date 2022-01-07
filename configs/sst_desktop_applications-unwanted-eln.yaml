@@ -34,7 +34,7 @@ data:
   - libgdl
   - libmusicbrainz5
   # Vendored to mozjs78 and Firefox and Thunderbird
-  - autoconf231
+  - autoconf213
   # Miners are mostly broken and other problems
   # https://bugzilla.redhat.com/show_bug.cgi?id=1913643
   - gnome-online-miners
