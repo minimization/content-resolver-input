@@ -92,6 +92,9 @@ data:
   - vim-enhanced
   - emacs-nox
   - nano
+  - rng-tools
+  - dhcp-client
+  - chrony
   
   ### OPTIONAL FIELDS ###
 

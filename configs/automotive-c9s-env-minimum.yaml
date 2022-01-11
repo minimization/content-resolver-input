@@ -45,8 +45,6 @@ data:
   packages:
   # leaves
   - NetworkManager
-  - chrony
-  - dhcp-client
   - dracut-config-generic
   - e2fsprogs
   - efibootmgr
@@ -55,7 +53,6 @@ data:
   - kernel
   - kernel-tools
   - passwd
-  - rng-tools
   - rootfiles
   - selinux-policy-targeted
   - systemd-udev
