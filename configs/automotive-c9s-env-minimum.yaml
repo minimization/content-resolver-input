@@ -67,6 +67,7 @@ data:
   - automotive-c9s-env
   - automotive-c9s-minimum
   - automotive-c9s-development
+  - automotive-c9s-image_clean
   - automotive-c9s-podman
   - automotive-c9s-ostree
   - automotive-c9s-neptune
