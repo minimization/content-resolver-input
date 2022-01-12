@@ -45,8 +45,6 @@ data:
   packages:
   # leaves
   - NetworkManager
-  - chrony
-  - dhcp-client
   - dracut-config-generic
   - e2fsprogs
   - efibootmgr
@@ -55,7 +53,6 @@ data:
   - kernel
   - kernel-tools
   - passwd
-  - rng-tools
   - rootfiles
   - selinux-policy-targeted
   - systemd-udev
@@ -70,6 +67,7 @@ data:
   - automotive-c9s-env
   - automotive-c9s-minimum
   - automotive-c9s-development
+  - automotive-c9s-image_clean
   - automotive-c9s-podman
   - automotive-c9s-ostree
   - automotive-c9s-neptune

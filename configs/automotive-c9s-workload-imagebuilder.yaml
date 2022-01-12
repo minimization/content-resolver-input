@@ -17,12 +17,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Automotive Development Workload
+  name: Automotive ImageBuilder
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: Applications needed for developing/compiling a kernel package
+  description: Applications which show up in an imagebuilder build of minimal
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -36,7 +36,7 @@ data:
   # 
   # (mandatory field)
   labels:
-  - automotive-c9s-development
+  - automotive-c9s-image_clean
 
   # Repositories tell you what ones to resolve against.
   # 
@@ -50,60 +50,34 @@ data:
   #
   # (mandatory field)
   packages:
-  - bc
-  - binutils
-  - bison
-  - bzip2
-  - cmake
-  - cpio
-  - diffutils
-  - dwarves
-  - elfutils-devel
-  - findutils
-  - flex
-  - gawk
-  - gcc
-  - gcc-c++
-  - gcc-plugin-devel
-  - git
-  - hmaccalc
-  - hostname
-  - m4
-  - make
-  - ncurses-devel
-  - net-tools
-  - openssh-clients
-  - openssh-server
-  - patch
-  - perl-Carp
-  - perl-devel
-  - perl-interpreter
-  - pkgconf
-  - python3-devel
-  - redhat-rpm-config
-  - rpm-build
-  - sed
-  - sudo
+  - gawk-all-langpacks
+  - glibc-gconv-extra
+  - inih
+  - kpartx
+  - libedit
+  - libxcrypt-compat
+  - libxmlb
+  - memstrack
+  - mtools
+  - openssl-pkcs11
+  - pigz
+  - python-unversioned-command
+  - python3
+  - python3-libs
+  - python3-pip-wheel
+  - python3-setuptools-wheel
   - tar
-  - wget
-  - xz
-  - yum
-  - zstd
-  - vim-enhanced
-  - emacs-nox
-  - nano
-  - rng-tools
-  - dhcp-client
-  - chrony
-  
+  - xfsprogs
+
   ### OPTIONAL FIELDS ###
 
   # Architecture-specific packages.
   #
   # (optional field)
-  #arch_packages:
-  #  x86_64:
-  #  - arch-specific-package
+  arch_packages:
+    x86_64:
+    - syslinux
+    - syslinux-nonlinux
 
   # Extra installation options.
   # The following are now supported:
