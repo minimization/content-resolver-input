@@ -71,6 +71,7 @@ data:
   - automotive-c9s-podman
   - automotive-c9s-ostree
   - automotive-c9s-neptune
+  - automotive-c9s-infotainment-minimum
 
   ### OPTIONAL FIELDS ###
 
