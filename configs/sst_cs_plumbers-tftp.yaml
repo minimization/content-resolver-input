@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: TFTP
+  description: Client and server for the Trivial File Transfer Protocol
+  maintainer: sst_cs_plumbers
+
+  packages:
+  - tftp
+  - tftp-server
+
+  labels:
+  - eln
+  - c9s
