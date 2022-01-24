@@ -509,7 +509,6 @@ data:
   - phonon-qt5-devel
   - php-kolabformat
   - picmi
-  - plasma-applet-redshift-control
   - plasma-applet-translator
   - plasma-applet-weather-widget
   - plasma-breeze
