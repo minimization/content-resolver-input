@@ -11,28 +11,42 @@ data:
 
       baseos:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
 
       appstream:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
 
       crb:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
 
       ha:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
 
       nfv:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/NFV/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - x86_64
 
       rt:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/RT/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - x86_64
 
       resilientstorage:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - ppc64le
         - s390x
@@ -40,6 +54,8 @@ data:
 
       sap:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - ppc64le
         - s390x
@@ -47,12 +63,16 @@ data:
 
       saphana:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAPHANA/$basearch/os/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - ppc64le
         - x86_64
 
       buildroot:
         baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
+        koji_api_url: https://kojihub.stream.centos.org/kojihub
+        koji_files_url: https://kojihub.stream.centos.org/kojifiles
 
 
     releasever: "9"
@@ -64,4 +84,6 @@ data:
     - x86_64
 
     composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+
+    base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']
 
