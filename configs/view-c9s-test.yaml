@@ -2,8 +2,8 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: CentOS Stream 9 Package Set
-  description: CentOS Stream 9 Package Set.
+  name: Adam's experimental c9s view
+  description: Adam's experimental c9s view
   maintainer: asamalik
   labels:
   - c9s
