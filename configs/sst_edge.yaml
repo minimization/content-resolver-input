@@ -6,25 +6,35 @@ data:
   maintainer: sst_edge
 
   packages:
-  - greenboot
-  - greenboot-reboot
-  - greenboot-status
-  - ignition
   - ostree
   - rpm-ostree
   - nss-altfiles
-  - coreos-installer
+  - rust-coreos-installer
 
   arch_packages:
     x86_64:
-    - greenboot-grub2
-    - greenboot-rpm-ostree-grub2
-    ppc64le:
-    - greenboot-grub2
+    - clevis-pin-tpm2
+    - fdo-client
+    - fdo-init
+    - fdo-manufacturing-server
+    - fdo-owner-cli
+    - fdo-owner-onboarding-server
+    - fdo-rendezvous-server
+    - greenboot
     - greenboot-rpm-ostree-grub2
     aarch64:
-    - greenboot-grub2
+    - clevis-pin-tpm2
+    - fdo-client
+    - fdo-init
+    - fdo-manufacturing-server
+    - fdo-owner-cli
+    - fdo-owner-onboarding-server
+    - fdo-rendezvous-server
+    - greenboot
     - greenboot-rpm-ostree-grub2
+    ppc64le:
+    - greenboot
+    - greenboot-default-health-checks
 
   labels:
   - eln
