@@ -14,9 +14,6 @@ data:
 
   arch_packages:
     x86_64:
-    - jmc
     - jmc-core
-    - eclipse-pde
-    - tycho
   labels:
   - c9s

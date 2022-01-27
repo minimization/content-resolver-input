@@ -1,0 +1,63 @@
+---
+# This configuration file defines a "Repository" in Feedback Pipeline.
+# https://tiny.distro.builders
+#
+# Repositories are the sources of the data.
+# Right now, they represent Fedora releases, but can be extended in the future.
+
+document: feedback-pipeline-repository
+version: 2
+data:
+  # id is the filename — that automatically prevents collisions for free!
+
+
+  ### MANDATORY FIELDS ###
+  
+  # Name is an identifier for humans
+  #
+  # (mandatory field)
+  name: Automotive A-Team repos for CentOS Stream 9
+  # A short description, perhaps hinting the purpose
+  #
+  # (mandatory field)
+  description: C9S Repositories for Base Autopackages (BaseOS, AppStream, PowerTools, Extras, )
+
+  # Who maintains it? This is just a freeform string
+  # for humans to read. In Fedora, a FAS nick is recommended.
+  #
+  # (mandatory field)
+  maintainer: ssmoogen
+
+  # Where does this repository come from?  Right now, only Fedora
+  # repositories are supported, defined by their releasever.  (mandatory
+  # field)
+  source:
+
+    repos:
+      stream-baseos:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+      
+      stream-appstream:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+      
+      stream-powertools:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+      
+      # epel9-next:
+      #   baseurl: https://dl.fedoraproject.org/pub/epel/next/9/Everything/$basearch/
+
+      # neptune:
+      #   baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
+
+      buildroot:
+        baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
+
+    releasever: "9"
+    
+    composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+
+    # Automotive is only focusing on a subset of architectures
+    architectures:
+    - aarch64
+    - x86_64
+

@@ -6,7 +6,12 @@ data:
   maintainer: sst_platform_tools
 
   unwanted_packages:
+  - babeltrace
   - gdb-minimal
+
+  unwanted_arch_packages:
+    i686:
+    - gdb-minimal
 
   labels:
   - eln

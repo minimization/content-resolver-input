@@ -6,6 +6,7 @@ data:
   maintainer: sst_graphics_infrastructure
 
   packages:
+    - libdecor
     - SDL
     - SDL2
 

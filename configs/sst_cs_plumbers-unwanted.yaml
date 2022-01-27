@@ -37,8 +37,6 @@ data:
   - redhat-lsb-trialuse
   - rtkit
   - systemd-tests
-  - tftp
-  - tftp-server
   - vorbis-tools
 
   labels:

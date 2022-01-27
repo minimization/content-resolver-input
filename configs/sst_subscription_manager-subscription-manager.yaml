@@ -8,6 +8,9 @@ data:
   packages:
     - subscription-manager-cockpit
     - rhsm-icons
+  
+  unwanted_packages:
+  - libXpresent
 
   labels:     
   - eln       

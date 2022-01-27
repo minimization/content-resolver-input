@@ -6,8 +6,6 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-  - amanda
-  - amanda-client
   - bacula-client
   - bacula-console
   - libburn
@@ -21,12 +19,15 @@ data:
   - xorriso
 
   arch_packages:
-    #rear not yet supported on s390x and arm
+    #rear not yet supported on arm
 
     x86_64:
     - rear
 
     ppc64le:
+    - rear
+
+    s390x:
     - rear
 
   labels:

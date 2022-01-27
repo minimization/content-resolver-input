@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Desktop Firmware and Bootloaders - Blocked packages
+  description: Desktop Firmware and Bootloaders - Packages which should not be in ELN
+  maintainer: sst_desktop_firmware_bootloaders
+  unwanted_packages:
+  # Replaced by fwupd
+  - fwupdate
+  - libjaylink
+  - libconfuse
+  - libftdi
+  - dbxtool
+  labels:
+  - c9s
+  - eln

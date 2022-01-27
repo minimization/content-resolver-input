@@ -35,7 +35,6 @@ data:
   - chrome-gnome-shell
   - low-memory-monitor
   - lcms2
-  - mozjs78
   - power-profiles-daemon
   - tracker
   - tracker-miners

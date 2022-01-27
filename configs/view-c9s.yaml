@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: CentOS Stream 9 Package Set
+  description: CentOS Stream 9 Package Set.
+  maintainer: asamalik
+  labels:
+  - c9s
+  repository: repository-c9s
+
+  buildroot_strategy: dep_tracker

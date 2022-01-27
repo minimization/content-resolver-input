@@ -1,0 +1,181 @@
+---
+# This configuration file defines an "Environment" in Feedback Pipeline.
+# https://tiny.distro.builders
+#
+# Environments influence how a workload looks like when installed.
+# That's achieved by including specific packages — like coreutils-single — that
+# influence the result.
+# Environments can also act as base images when monitoring container sizes.
+
+document: feedback-pipeline-environment
+version: 1
+data:
+  # id is the filename — that automatically prevents collisions for free!
+
+  ### MANDATORY FIELDS ###
+  
+  # Name is an identifier for humans
+  #
+  # (mandatory field)
+  name: Automotive A-Team working environment using CentOS Stream 9
+  
+  # A short description, perhaps hinting the purpose
+  #
+  # (mandatory field)
+  description: Automotive A-Team  working environment using CentOS Stream 9
+
+  # Who maintains it? This is just a freeform string
+  # for humans to read. In Fedora, a FAS nick is recommended.
+  #
+  # (mandatory field)
+  maintainer: ssmoogen
+
+  # Different instances of the environment, one per repository.
+  #
+  # (mandatory field)
+  repositories:
+  - automotive-toolchain-c9s-repositories
+
+  # Packages defining this environment.
+  # This list includes packages for all
+  # architectures — that's the one to use by default.
+  #
+  # (mandatory field)
+  packages:
+  # Base leaf packages with all systems.
+  - NetworkManager
+  - audit
+  - chrony
+  - dhcp-client
+  - dracut-config-generic
+  - e2fsprogs
+  - efibootmgr
+  - genisoimage
+  - glibc-langpack-en
+  - hostname
+  - kernel
+  - kernel-tools
+  - passwd
+  - rng-tools
+  - rootfiles
+  - rsyslog
+  - selinux-policy-targeted
+  - systemd-udev
+  # dnf
+  - dnf
+  # ostree
+  - greenboot-reboot
+  - greenboot-status
+  - nss-altfiles
+  # podman
+  - podman
+  # flatpak
+  - flatpak
+  # qemu
+  - qemu-kvm
+  - libvirt-client
+  - libguestfs
+  # qa-test workload
+  - openssh-server
+  - openssh-clients
+  - dhcp-server
+  - sudo
+  - yum
+  # qt5 applications possibly needed for infotainment
+  - qt5-qtbase
+  - qt5-qtwayland
+  - qt5-qtx11extras
+  - qt5-qtmultimedia
+  - qt5-qtquickcontrols
+  - qt5-qtquickcontrols2
+  - qt5-qtsensors
+  - qt5-qttools
+  - qt5-qtimageformats
+  - qt5-qtgraphicaleffects
+  - qt5-qt3d
+  - libwayland-client
+  - libwayland-server
+  # things needed for the 2021-11-12 mpp image
+  - dosfstools
+  - firewalld
+  - gdm
+  - gnome-control-center
+  - gnome-session-xsession
+  - gnome-shell
+  - gnome-terminal
+  - greenboot-rpm-ostree-grub2
+  - grub2-pc
+  - grub2-tools
+  - grub2-tools-efi
+  - grub2-tools-extra
+  - grub2-tools-minimal
+  - langpacks-en
+  - lorax
+  - memstrack
+  - plymouth
+  - policycoreutils
+  - polkit
+  - python3-iniparse
+  - python36
+  - qemu-img
+  - rpm-ostree
+  - squashfstools
+  - systemd
+  - taglib
+  - tar
+  - xfsprogs
+  - xorriso
+  - xz
+  # dracut needs things but doesn't require them
+  - biosdevname
+  - device-mapper-multipath
+  - kbd
+  - keyutils
+  - lvm2
+  - mdadm
+  - nvme-cli
+
+  # Labels connect things together.
+  # Workloads get installed in environments with the same label.
+  # They also get included in views with the same label.
+  # 
+  # (mandatory field)
+  labels:
+  - automotive-toolchain-c9s
+
+  ### OPTIONAL FIELDS ###
+
+  # Architecture-specific packages.
+  #
+  # (optional field)
+  arch_packages:
+    x86_64:
+    - shim-x64
+    - microcode_ctl
+    - grub2-efi-x64
+    # items needed for the x86_64 20211112 mpp image
+    - grub2-efi-ia32
+    - grub2-efi-x64-cdboot
+    - grub2-efi-ia32-cdboot
+    - grub2-pc-modules
+    - shim-ia32
+    - syslinux
+    - syslinux-nonlinux
+
+    aarch64:
+    - shim-aa64
+    - tianocore-rpi4-uefi
+    - grub2-efi-aa64
+    - grub2-efi-aa64-cdboot
+    - uboot-images-armv8
+
+  # Extra installation options.
+  # The following are now supported:
+  # - "include-docs" - include documentation packages
+  # - "include-weak-deps" - automatically pull in "recommends" weak dependencies
+  #
+  # (optional field)
+  options:
+  - exclude-docs
+  - exclude-weak-deps
+

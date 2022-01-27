@@ -11,8 +11,10 @@ data:
   - rsyslog-doc
   - rsyslog-elasticsearch
   - rsyslog-gnutls
+  - rsyslog-openssl
   - rsyslog-gssapi
   - rsyslog-kafka
+  - rsyslog-logrotate
   - rsyslog-mmaudit
   - rsyslog-mmjsonparse
   - rsyslog-mmkubernetes

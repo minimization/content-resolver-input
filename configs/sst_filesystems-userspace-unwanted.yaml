@@ -7,6 +7,11 @@ data:
 
   unwanted_packages:
     - system-storage-manager
+    - xmlstarlet
+    - oath-toolkit
+    - luarocks
+    - leveldb
+    - fmt
 
   unwanted_arch_packages:
     aarch64:

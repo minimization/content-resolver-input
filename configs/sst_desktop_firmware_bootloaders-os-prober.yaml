@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: os-prober
+  description: Probes disks on the system for installed operating systems
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    armv7hl:
+      - os-prober
+    aarch64:
+      - os-prober
+    ppc64le:
+      - os-prober
+    x86_64:
+      - os-prober
