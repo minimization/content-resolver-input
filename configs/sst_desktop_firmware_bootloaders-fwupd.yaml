@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fwupd
+  description: Firmware update daemon
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages:
+  - fwupd
+
+  labels:
+  - eln
+  - c9s

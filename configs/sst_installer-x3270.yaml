@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: x3270
+  description: IBM 3278/3279 terminal emulator for the X Window System
+  maintainer: sst_installer
+  labels:
+    - eln
+    - c9s
+
+  packages:
+    - x3270

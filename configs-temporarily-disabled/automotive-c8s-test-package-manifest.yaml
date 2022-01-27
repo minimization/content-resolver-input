@@ -1,0 +1,13 @@
+---
+document: feedback-pipeline-environment
+version: 1
+data:
+  name: Automotive CentOS Stream EPEL Test package manifest.
+  description: Test automotive image based on CentOS Stream with EPEL
+  maintainer: tdawson
+  repositories:
+  - repository-c8s-epel
+  labels:
+  - automotive-c8s-test
+
+  packages: []

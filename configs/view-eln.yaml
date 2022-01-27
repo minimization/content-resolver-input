@@ -8,6 +8,8 @@ data:
   labels:
   - eln
   repository: repository-fedora-eln
+
+  buildroot_strategy: dep_tracker
   
 
   # Packages to be flagged as unwanted  on specific architectures
@@ -41,3 +43,4 @@ data:
   - spice-vdagent
   - tomcat
   - xen
+  

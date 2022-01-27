@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Samba AD DC
+  description: Active Directory Domain Controller implementation
+  maintainer: ssg_idm
+
+  packages:
+  - samba
+  - samba-dc
+  - samba-dc-bind-dlz
+  - samba-client
+  - cifs-utils
+  - samba-winbind
+  - samba-winbind-clients
+  - samba-winbind-krb5-locator
+  - samba-krb5-printing
+
+  labels:
+  - fedora

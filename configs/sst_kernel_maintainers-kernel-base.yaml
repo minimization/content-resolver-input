@@ -20,7 +20,7 @@ data:
         - iwl6050-firmware
         - iwl7260-firmware
         - kernel
-        - kernel-abi-whitelists
+        - kernel-abi-stablelists
         - kernel-core
         - kernel-cross-headers
         - kernel-doc
@@ -28,9 +28,9 @@ data:
         - kernel-modules
         - kernel-modules-extra
         - kernel-tools
+        - libertas-sd8787-firmware
         - linux-firmware
         - linux-firmware-whence
-        - liquidio-firmware
         - netronome-firmware
         - perf
         - python3-perf

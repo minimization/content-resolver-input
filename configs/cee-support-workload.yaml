@@ -8,6 +8,8 @@ data:
   packages:
   - sos
   - rig
+  - python3-pexpect
+  - python-ptyprocess
 
   labels:
   - eln

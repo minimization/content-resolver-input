@@ -6,6 +6,7 @@ data:
   maintainer: jwboyer
 
   packages:
+  - drpm
   - lorax
   - anaconda
   - anaconda-widgets
@@ -119,6 +120,7 @@ data:
   - hexedit
   - sg3_utils
   - perl-interpreter
+  - restore
 
   arch_packages:
     x86_64:

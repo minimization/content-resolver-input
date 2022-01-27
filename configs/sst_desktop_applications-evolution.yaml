@@ -25,5 +25,4 @@ data:
   - evolution-spamassassin
 
   labels:
-  - eln
   - c9s

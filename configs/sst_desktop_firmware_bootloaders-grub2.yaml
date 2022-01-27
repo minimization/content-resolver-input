@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: grub2
+  description: Bootloader with support for Linux, Multiboot and more
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+   aarch64:
+   - grub2-efi-aa64
+   - grub2-efi-aa64-cdboot
+   ppc64le:
+   - grub2-ppc64le
+   x86_64:
+   - grub2-efi-x64
+   - grub2-efi-x64-cdboot
+   - grub2-pc

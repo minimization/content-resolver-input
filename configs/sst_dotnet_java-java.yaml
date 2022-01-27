@@ -10,7 +10,6 @@ data:
 
   packages:
   - java-1.8.0-openjdk
-  - java-1.8.0-openjdk-accessibility
   - java-1.8.0-openjdk-demo
   - java-1.8.0-openjdk-devel
   - java-1.8.0-openjdk-headless
@@ -29,13 +28,11 @@ data:
   - copy-jdk-configs
   # Debug packages should be built but shipped in CRB
   - java-1.8.0-openjdk-slowdebug
-  - java-1.8.0-openjdk-accessibility-slowdebug
   - java-1.8.0-openjdk-demo-slowdebug
   - java-1.8.0-openjdk-devel-slowdebug
   - java-1.8.0-openjdk-headless-slowdebug
   - java-1.8.0-openjdk-src-slowdebug
   - java-1.8.0-openjdk-fastdebug
-  - java-1.8.0-openjdk-accessibility-fastdebug
   - java-1.8.0-openjdk-demo-fastdebug
   - java-1.8.0-openjdk-devel-fastdebug
   - java-1.8.0-openjdk-headless-fastdebug

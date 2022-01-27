@@ -33,5 +33,5 @@ data:
    - toolbox
 
 ## Do not re-enable in eln without Josh Boyers permission
-#  labels:
+  labels: []
 #  - eln

@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Server - Domain Controller
+  description: FreeIPA Server - Domain Controller
+  maintainer: ssg_idm
+
+  packages:
+  - ipa-server
+  - ipa-server-trust-ad
+  - ipa-healthcheck
+  - ipa-selinux # rich dependency that is otherwise unmet
+
+  labels:
+  - eln
+  - c9s

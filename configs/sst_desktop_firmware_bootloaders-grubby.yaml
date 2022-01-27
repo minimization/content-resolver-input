@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: grubby
+  description: Command line tool for updating BootLoaderSpec files
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages:
+  - grubby
+
+  labels:
+  - eln
+  - c9s

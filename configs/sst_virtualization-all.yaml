@@ -12,6 +12,7 @@ data:
   - hexedit
   - hivex
   - ipxe-roms-qemu
+  - ksmtuned
   - libiscsi
   - libnbd
   - libosinfo

@@ -53,8 +53,13 @@ data:
     - boom-boot-conf
     - boom-boot-grub2
     - python3-boom
-    # lvm2 and its sub-packages
+    # cryptsetup and its sub-packages
     - cryptsetup
+    - cryptsetup-devel
+    - cryptsetup-libs
+    - integritysetup
+    - veritysetup
+    # lvm2 and its sub-packages
     - device-mapper
     - device-mapper-devel
     - device-mapper-event
@@ -164,11 +169,7 @@ data:
       - libpmempool
       - libpmempool-debug
       - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
       - pmempool
-      - rpmemd
     x86_64:
       - daxio
       - libpmem
@@ -188,12 +189,8 @@ data:
       - libpmempool
       - libpmempool-debug
       - libpmempool-devel
-      - librpmem
-      - librpmem-debug
-      - librpmem-devel
       - pmdk-convert
       - pmempool
-      - rpmemd
 
     s390x:
       - libblockdev-s390

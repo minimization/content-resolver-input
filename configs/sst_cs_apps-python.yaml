@@ -10,6 +10,7 @@ data:
   - python3-libs
   - python3-pip
   - python3-setuptools
+  - python3-tkinter
   - python-unversioned-command
 
   labels:

@@ -17,10 +17,6 @@ data:
   - eigen3-devel
   - freeipmi
   - freeipmi-devel
-  - genwqe-tools
-  - genwqe-vpd
-  - genwqe-zlib
-  - genwqe-zlib-devel
   - gpm
   - gpm-devel
   - gpm-libs
@@ -30,8 +26,6 @@ data:
   - libgphoto2-devel
   - librabbitmq
   - librabbitmq-devel
-  - librtas
-  - librtas-devel
   - libsmi
   - libsmi-devel
   - libsndfile
@@ -48,9 +42,6 @@ data:
   - opencryptoki-icsftok
   - opencryptoki-libs
   - opencryptoki-swtok
-  - openhpi
-  - openhpi-devel
-  - openhpi-libs
   - OpenIPMI
   - OpenIPMI-devel
   - openwsman-server
@@ -64,8 +55,6 @@ data:
   - sblim-sfcb
   - sblim-sfcc-devel
   - sblim-wbemcli
-  - scotch
-  - scotch-devel
   - symlinks
   - tesseract
   - tesseract-devel
@@ -116,7 +105,8 @@ data:
     - lsvpd
     - libservicelog
     - libservicelog-devel
-    - libcxl
+    - librtas
+    - librtas-devel
     s390x:
     - opencryptoki-ccatok
     - opencryptoki-ep11tok

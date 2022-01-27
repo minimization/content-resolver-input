@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Desktop Platform Technologies - Blocked packages
+  description: Desktop Platform Technologies - Packages which should not be in ELN
+  maintainer: sst_desktop_platform_technologies
+  unwanted_packages:
+  - atf
+  - lutok
+  - kyua
+  - re2c
+  labels:
+  - c9s
+  - eln

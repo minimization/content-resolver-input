@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: syslinux
+  description: Simple kernel loader which boots from a FAT filesystem
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    x86_64:
+      - syslinux
+      - syslinux-tftpboot

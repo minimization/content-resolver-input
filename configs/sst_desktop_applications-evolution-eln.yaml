@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Evolution
+  description: Personal information management application for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - evolution
+  - evolution-bogofilter
+  - evolution-data-server
+  - evolution-data-server-langpacks
+  - evolution-devel
+  - evolution-ews
+  - evolution-ews-langpacks
+  - evolution-help
+  - evolution-langpacks
+  - evolution-mapi
+  - evolution-mapi-langpacks
+  - evolution-pst
+  - evolution-spamassassin
+
+  labels:
+  - eln
