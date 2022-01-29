@@ -9,4 +9,4 @@ data:
   - c9s
   repository: repository-c9s
 
-  buildroot_strategy: dep_tracker
+  buildroot_strategy: root_logs
