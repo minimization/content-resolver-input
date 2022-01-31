@@ -1,0 +1,17 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Automotive Neptune package set
+  description: >
+    The set of packages required to run the Neptune sample workload in
+    the automotive environment.  This extends the basic in-vehicle set
+    and is intended as an IVI demo.
+  # Contacts: psabata, ssmoogen
+  maintainer: automotive-base-enablement
+  labels:
+    - automotive
+  packages:
+    - gdm
+    - mutter
+    - neptune3-ui

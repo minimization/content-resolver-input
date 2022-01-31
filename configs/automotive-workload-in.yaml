@@ -1,0 +1,18 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Automotive in-vehicle package set
+  description: >
+    The set of packages representing the automotive in-vehicle content.
+  # Contacts: psabata, ssmoogen
+  maintainer: automotive-base-enablement
+  labels:
+    - automotive
+  # Note: This workload diesn't include any packages itself.  All
+  # in-vehicle content is provided by the shared environment that other
+  # workloads can build on.
+  # While images targetting in-vehicle deployment should ostree, and
+  # ostree is included in the environment, other deployments don't
+  # necessarily need to be ostree-based.  Still, ostree tooling is
+  # available to them.
