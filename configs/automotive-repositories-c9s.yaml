@@ -1,0 +1,30 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: Standard Automotive repositories based on C9S
+  description: >
+    C9S Repositories for Base Autopackages (BaseOS, AppStream,
+    PowerTools, Extras, EPEL, EPEL-Next, Neptune)
+  # Contacts: psabata, ssmoogen
+  maintainer: automotive-base-enablement
+  source:
+    repos:
+      stream-baseos:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+      stream-appstream:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+      stream-powertools:
+        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+      epel9-next:
+        baseurl: https://dl.fedoraproject.org/pub/epel/next/9/Everything/$basearch/
+      neptune:
+        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
+      buildroot:
+        baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
+    releasever: "9"
+    composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+    # Automotive is only focusing on a subset of architectures
+    architectures:
+      - aarch64
+      - x86_64
