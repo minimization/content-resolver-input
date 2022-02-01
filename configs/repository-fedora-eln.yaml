@@ -14,24 +14,28 @@ data:
         priority: 1
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
 
       AppStream:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/AppStream/$basearch/os/
         priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
 
       CRB:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/CRB/$basearch/os/
         priority: 3
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
 
       Everything:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Everything/$basearch/os/
         priority: 100
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
 
     releasever: "rawhide"
     
