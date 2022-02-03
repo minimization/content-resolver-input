@@ -8,6 +8,8 @@ data:
   labels:
   - eln-extras
   base_view_id: view-eln
+  
+  buildroot_strategy: dep_tracker
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:
