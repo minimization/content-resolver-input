@@ -12,7 +12,6 @@ data:
   - byacc
   - flex
   - flex-devel
-  - flex-doc
 
   labels:
   - eln
