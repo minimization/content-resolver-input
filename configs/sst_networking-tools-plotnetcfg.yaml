@@ -5,7 +5,7 @@ data:
   description: >
     Packages related to network configuration and troubleshooting.
   maintainer: sst_networking
-  packages:
+  unwanted_packages:
   - plotnetcfg
 
   labels:
