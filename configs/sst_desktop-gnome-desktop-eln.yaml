@@ -21,6 +21,7 @@ data:
   - gnome-session
   - gnome-shell
   - gnome-shell-extension-auto-move-windows
+  - gnome-shell-extension-background-logo
   - gnome-shell-extension-common
   - gnome-shell-extension-drive-menu
   - gnome-shell-extension-native-window-placement
