@@ -11,6 +11,8 @@ data:
   maintainer: automotive-base-enablement
   labels:
     - automotive
+  options:
+    - include-docs
   packages:
     - acl
     - bc
