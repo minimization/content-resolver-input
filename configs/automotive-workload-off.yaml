@@ -73,6 +73,7 @@ data:
     - redhat-rpm-config
     - rpm-build
     - sed
+    - skopeo
     - strace
     - sudo
     - tar
