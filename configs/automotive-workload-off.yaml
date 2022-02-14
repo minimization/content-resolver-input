@@ -11,6 +11,8 @@ data:
   maintainer: automotive-base-enablement
   labels:
     - automotive
+  options:
+    - include-docs
   packages:
     - acl
     - bc
@@ -73,6 +75,7 @@ data:
     - redhat-rpm-config
     - rpm-build
     - sed
+    - skopeo
     - strace
     - sudo
     - tar
