@@ -47,7 +47,6 @@ data:
     releasever: "rawhide"
 
     architectures:
-    - armv7hl
     - aarch64
     - i686
     - ppc64le
