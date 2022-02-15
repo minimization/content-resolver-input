@@ -9,6 +9,10 @@ data:
   - c9s
 
   unwanted_packages:
+  # We do not want to ship .NET Core 3.1 which will be EOL by late 2022
+  - dotnet-sdk-3.1
+  - dotnet-runtime-3.1
+  - aspnetcore-runtime-3.1
   # We do not want to ship .NET 5.0 which will be EOL by early 2022
   - dotnet-sdk-5.0
   - dotnet-runtime-5.0
