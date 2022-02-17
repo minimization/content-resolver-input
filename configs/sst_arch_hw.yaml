@@ -34,6 +34,9 @@ data:
     - libocxl
     s390x:
     - qclib
+    - libzdnn
+    - libzdnn-devel
+    - libzdnn-static
     x86_64:
     - mcelog
     - tboot
