@@ -12,3 +12,4 @@ data:
   packages:
     - gdm
     - mutter
+    - plymouth
