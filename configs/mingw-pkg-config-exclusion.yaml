@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: MinGW pkg-config exclusion
+  description: mingw packages that should not be included.
+  maintainer: sst_virtualization
+  unwanted_packages:
+    - mingw32-pkg-config
+    - mingw64-pkg-config
+  labels:
+    - eln
+    - c9s
