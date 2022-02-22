@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Apache Log4j
+  description: Java logging library
+  maintainer: sst_cs_apps
+
+  packages:
+  - log4j
+
+  labels:
+  - c9s
+  - eln
