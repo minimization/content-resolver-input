@@ -7,7 +7,7 @@ data:
   maintainer: eln-sig
   labels:
   - eln-extras
-  base_view_id: view-eln-test
+  base_view_id: view-eln
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:

@@ -9,7 +9,7 @@ data:
   - eln
   repository: repository-fedora-eln
 
-  buildroot_strategy: dep_tracker
+  buildroot_strategy: root_logs
   
 
   # Packages to be flagged as unwanted  on specific architectures
