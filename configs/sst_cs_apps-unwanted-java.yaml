@@ -13,7 +13,6 @@ data:
   - apache-ivy
   - bsh
   - cal10n
-  - disruptor
   - dom4j
   - exec-maven-plugin
   - forge-parent
@@ -38,7 +37,6 @@ data:
   - jboss-modules
   - jmock
   - jtidy
-  - log4j
   - log4j12
   - maven-artifact-resolver
   - maven-clean-plugin
