@@ -48,7 +48,6 @@ data:
     - podman
     - procps-ng
     - rng-tools
-    - rootfiles
     - rpm-ostree
     - rsyslog
     - selinux-policy-targeted

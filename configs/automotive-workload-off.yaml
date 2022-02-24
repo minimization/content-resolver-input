@@ -73,6 +73,7 @@ data:
     - python-unversioned-command
     - qemu-img
     - redhat-rpm-config
+    - rootfiles
     - rpm-build
     - sed
     - skopeo
