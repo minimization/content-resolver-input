@@ -12,16 +12,25 @@ data:
     repos:
       stream-baseos:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+        priority: 0
       stream-appstream:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+        priority: 0
       stream-powertools:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
-      epel9-next:
-        baseurl: https://dl.fedoraproject.org/pub/epel/next/9/Everything/$basearch/
-      neptune:
-        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
+        priority: 0
       buildroot:
         baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
+        priority: 100
+      epel9-next:
+        baseurl: https://dl.fedoraproject.org/pub/epel/next/9/Everything/$basearch/
+        priority: 200
+      cbs:
+        baseurl: https://buildlogs.centos.org/9-stream/automotive/$basearch/packages-main/
+        priority: 250
+      neptune:
+        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
+        priority: 500
     releasever: "9"
     composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
     # Automotive is only focusing on a subset of architectures
