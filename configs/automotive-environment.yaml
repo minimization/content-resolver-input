@@ -36,8 +36,7 @@ data:
     - hostname
     - jose
     - jq
-    - kernel
-    - kernel-tools
+    - kernel-automotive
     - luksmeta
     - NetworkManager
     - nftables
