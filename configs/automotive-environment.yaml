@@ -46,7 +46,6 @@ data:
     - passwd
     - podman
     - procps-ng
-    - rng-tools
     - rpm-ostree
     - rsyslog
     - selinux-policy-targeted
