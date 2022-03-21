@@ -25,7 +25,6 @@ data:
   - colord-kde
   - digikam
   - digikam-devel
-  - digikam-doc
   - digikam-libs
   - dolphin
   - dolphin-devel
@@ -119,7 +118,6 @@ data:
   - kf5-attica-devel
   - kf5-audiocd-kio
   - kf5-audiocd-kio-devel
-  - kf5-audiocd-kio-doc
   - kf5-baloo
   - kf5-baloo-devel
   - kf5-baloo-file
@@ -160,7 +158,6 @@ data:
   - kf5-kconfig
   - kf5-kconfig-core
   - kf5-kconfig-devel
-  - kf5-kconfig-doc
   - kf5-kconfig-gui
   - kf5-kconfigwidgets
   - kf5-kconfigwidgets-devel
@@ -180,7 +177,6 @@ data:
   - kf5-kded-devel
   - kf5-kdelibs4support
   - kf5-kdelibs4support-devel
-  - kf5-kdelibs4support-doc
   - kf5-kdelibs4support-libs
   - kf5-kdesignerplugin
   - kf5-kdesu
@@ -221,7 +217,6 @@ data:
   - kf5-kio-core
   - kf5-kio-core-libs
   - kf5-kio-devel
-  - kf5-kio-doc
   - kf5-kio-file-widgets
   - kf5-kio-gui
   - kf5-kio-ntlm
@@ -314,7 +309,6 @@ data:
   - kf5-kxmlrpcclient-devel
   - kf5-libkcddb
   - kf5-libkcddb-devel
-  - kf5-libkcddb-doc
   - kf5-libkcompactdisc
   - kf5-libkcompactdisc-devel
   - kf5-libkdcraw
@@ -454,7 +448,6 @@ data:
   - kwin
   - kwin-common
   - kwin-devel
-  - kwin-doc
   - kwin-libs
   - kwin-wayland
   - kwin-x11
@@ -465,7 +458,6 @@ data:
   - layer-shell-qt-devel
   - libaccounts-qt5
   - libaccounts-qt5-devel
-  - libaccounts-qt-doc
   - libkdegames
   - libkdegames-devel
   - libkeduvocdocument
@@ -515,7 +507,6 @@ data:
   - plasma-breeze-common
   - plasma-browser-integration
   - plasma-desktop
-  - plasma-desktop-doc
   - plasma-discover
   - plasma-discover-flatpak
   - plasma-discover-libs
@@ -556,7 +547,6 @@ data:
   - plasma-workspace
   - plasma-workspace-common
   - plasma-workspace-devel
-  - plasma-workspace-doc
   - plasma-workspace-geolocation
   - plasma-workspace-geolocation-libs
   - plasma-workspace-libs
@@ -566,7 +556,6 @@ data:
   - polkit-kde
   - polkit-qt5-1
   - polkit-qt5-1-devel
-  - polkit-qt-doc
   - powerdevil
   - poxml
   - python3-kolabformat
@@ -754,7 +743,6 @@ data:
     - qt5-qtwebengine
     - qt5-qtwebengine-devel
     - qt5-qtwebengine-devtools
-    - qt5-qtwebengine-doc
     - qt5-qtwebengine-examples
     - qt5-qtwebview
     - qt5-qtwebview-devel
