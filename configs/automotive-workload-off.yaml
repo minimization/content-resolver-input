@@ -15,10 +15,15 @@ data:
     - include-docs
   packages:
     - acl
+    - autoconf
+    - automake
     - bc
     - binutils
     - bison
-    - bzip2
+    - boost-devel
+    - brotli
+    - brotli-devel
+    - bzip2-devel
     - chrony
     - cmake
     - cpio
@@ -32,6 +37,7 @@ data:
     - emacs-nox
     - findutils
     - flex
+    - freetype-devel
     - gawk
     - gawk-all-langpacks
     - gdb
@@ -39,14 +45,30 @@ data:
     - gcc-c++
     - gcc-plugin-devel
     - git
-    - glibc-gconv-extra
+    - glibc-devel
+    - harfbuzz
+    - harfbuzz-devel
     - hmaccalc
     - inih
     - jq
     - kpartx
+    - libcurl-devel
     - libedit
+    - libjpeg-turbo
+    - libjpeg-turbo-devel
+    - libogg
+    - libogg-devel
+    - libpng
+    - libpng-devel
+    - libstdc++-devel
+    - libtiff
+    - libtiff-devel
+    - libtool
+    - libvorbis-devel
+    - libwebp-devel
     - libxcrypt-compat
     - libxmlb
+    - libzstd-devel
     - m4
     - make
     - memstrack
@@ -56,7 +78,9 @@ data:
     - net-tools
     - openssh-clients
     - openssh-server
+    - openssl-devel
     - openssl-pkcs11
+    - opus-devel
     - patch
     - perl-Carp
     - perl-devel
@@ -78,6 +102,7 @@ data:
     - rpm-build
     - sed
     - skopeo
+    - sqlite-devel
     - strace
     - sudo
     - tar
@@ -85,5 +110,9 @@ data:
     - wget
     - xfsprogs
     - xz
+    - xz-devel
+    - yasm
+    - yasm-devel
     - yum
+    - zlib-devel
     - zstd
