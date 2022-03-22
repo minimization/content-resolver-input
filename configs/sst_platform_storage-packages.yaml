@@ -13,6 +13,7 @@ data:
     - python3-into-dbus-python
     - python3-justbases
     - python3-justbytes
+    - python3-wcwidth
     - stratis-cli
     - stratisd
 
