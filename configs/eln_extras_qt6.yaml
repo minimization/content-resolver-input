@@ -6,7 +6,8 @@ data:
   maintainer: tdawson
 
   packages:
-  - qt6
+  - qt6-rpm-macros
+  - qt6-srpm-macros
   - qt6-qt3d
   - qt6-qt5compat
   - qt6-qtbase
@@ -34,7 +35,14 @@ data:
   - qt6-qtwayland
   - qt6-qtwebchannel
   - qt6-qtwebsockets
-  - qt6ct
 
   labels:
   - eln-extras
+
+  arch_packages:
+    aarch64:
+    - qt6ct
+    ppc64le:
+    - qt6ct
+    x86_64:
+    - qt6ct
