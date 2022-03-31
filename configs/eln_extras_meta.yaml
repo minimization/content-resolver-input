@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig packages
+  description: ELN Extras packages that Meta cares about
+  maintainer: meta-sig
+
+  packages:
+  - atop
+  - ccache
+  - dbench
+  - et
+  - htop
+  - fping
+  - mosh
+  - neovim
+  - ngrep
+  - screen
+  - sdparm
+  - stress
+
+  labels:
+  - eln-extras
