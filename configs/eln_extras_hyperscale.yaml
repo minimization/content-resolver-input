@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hyperscale packages
+  description: ELN Extras packages that the CentOS Hyperscale SIG cares about
+  maintainer: sig-hyperscale
+
+  packages:
+  - btrfs-fuse
+  - centos-packager
+  - fsverity-utils
+  - mock-centos-sig-configs
+
+  labels:
+  - eln-extras
