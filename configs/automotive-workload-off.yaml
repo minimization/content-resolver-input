@@ -48,7 +48,6 @@ data:
     - glibc-devel
     - harfbuzz
     - harfbuzz-devel
-    - hmaccalc
     - inih
     - jq
     - kpartx
@@ -111,8 +110,6 @@ data:
     - xfsprogs
     - xz
     - xz-devel
-    - yasm
-    - yasm-devel
     - yum
     - zlib-devel
     - zstd

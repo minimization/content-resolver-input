@@ -32,11 +32,7 @@ data:
     - glibc
     - glibc-gconv-extra
     - glibc-langpack-en
-    - greenboot-grub2
-    - greenboot-reboot
-    - greenboot-rpm-ostree-grub2
-    - greenboot-status
-    - grub2
+    - greenboot
     - hostapd
     - hostname
     - jose
