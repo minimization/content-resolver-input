@@ -9,15 +9,22 @@ data:
   - atop
   - ccache
   - dbench
+  - dcrpm
+  - drgn
   - et
   - htop
   - fping
   - mosh
   - neovim
+  - netconsd
   - ngrep
+  - python3-pystemd
+  - python3-testslide
   - screen
   - sdparm
   - stress
+  - stressapptest
+  - strongswan
 
   labels:
   - eln-extras
