@@ -38,6 +38,7 @@ data:
     - jose
     - jq
     - kernel-automotive
+    - linux-firmware-automotive
     - libcurl
     - libstdc++
     - libvorbis
