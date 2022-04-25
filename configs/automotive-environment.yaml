@@ -45,6 +45,7 @@ data:
     - libwebp
     - libzstd
     - luksmeta
+    - lvm2
     - NetworkManager
     - nftables
     - nss-altfiles
