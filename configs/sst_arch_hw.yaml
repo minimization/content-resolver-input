@@ -34,9 +34,27 @@ data:
     - libocxl
     s390x:
     - qclib
+    - libica
+    - libica-devel
     - libzdnn
     - libzdnn-devel
     - libzdnn-static
+    - libzfcphbaapi
+    - libzfcphbaapi-docs
+    - openssl-ibmca
+    - s390utils
+    - s390utils-base
+    - s390utils-cmsfs-fuse
+    - s390utils-cpacfstatsd
+    - s390utils-core
+    - s390utils-cpuplugd
+    - s390utils-devel
+    - s390utils-hmcdrvfs
+    - s390utils-iucvterm
+    - s390utils-mon_statd
+    - s390utils-osasnmpd
+    - s390utils-zdsfs
+    - s390utils-ziomon
     x86_64:
     - mcelog
     - tboot
