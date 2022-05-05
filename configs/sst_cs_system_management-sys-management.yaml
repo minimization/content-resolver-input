@@ -107,6 +107,7 @@ data:
     - libservicelog-devel
     - librtas
     - librtas-devel
+    - servicelog
     s390x:
     - opencryptoki-ccatok
     - opencryptoki-ep11tok
