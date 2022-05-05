@@ -32,11 +32,34 @@ data:
   arch_packages:
     ppc64le:
     - libocxl
+    - libocxl-devel
     s390x:
     - qclib
+    - qclib-devel
+    - qclib-static
+    - libica
+    - libica-devel
     - libzdnn
     - libzdnn-devel
     - libzdnn-static
+    - libzfcphbaapi
+    - libzfcphbaapi-devel
+    - libzfcphbaapi-docs
+    - openssl-ibmca
+    - s390utils
+    - s390utils-base
+    - s390utils-chreipl-fcp-mpath
+    - s390utils-cmsfs-fuse
+    - s390utils-core
+    - s390utils-cpacfstatsd
+    - s390utils-cpuplugd
+    - s390utils-devel
+    - s390utils-hmcdrvfs
+    - s390utils-iucvterm
+    - s390utils-mon_statd
+    - s390utils-osasnmpd
+    - s390utils-zdsfs
+    - s390utils-ziomon
     x86_64:
     - mcelog
     - tboot
