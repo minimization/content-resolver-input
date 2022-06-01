@@ -9,47 +9,53 @@ data:
 
     repos:
 
-      baseos:
+      BaseOS:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
 
-      appstream:
+      AppStream:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
 
-      crb:
+      CRB:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
 
-      ha:
+      HighAvailability:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      nfv:
+      NFV:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/NFV/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - x86_64
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      rt:
+      RT:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/RT/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         limit_arches:
         - x86_64
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      resilientstorage:
+      ResilientStorage:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
@@ -58,8 +64,9 @@ data:
         - s390x
         - x86_64
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      sap:
+      SAP:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
@@ -67,8 +74,10 @@ data:
         - ppc64le
         - s390x
         - x86_64
+        exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      saphana:
+      SAPHANA:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/SAPHANA/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
@@ -76,12 +85,14 @@ data:
         - ppc64le
         - x86_64
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 2
 
-      buildroot:
+      c9s-build:
         baseurl: https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/$basearch/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 3
 
 
     releasever: "9"
