@@ -30,7 +30,7 @@ data:
         exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
         priority: 1
 
-      HighAvailability:
+      HA:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/HighAvailability/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
@@ -54,7 +54,7 @@ data:
         exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
         limit_arches: ["x86_64"]
 
-      ResilientStorage:
+      RS:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/ResilientStorage/$basearch/os/
         priority: 50
         koji_api_url: https://koji.fedoraproject.org/kojihub
