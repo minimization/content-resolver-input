@@ -30,7 +30,7 @@ data:
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
         priority: 1
 
-      HighAvailability:
+      HA:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/HighAvailability/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
@@ -55,7 +55,7 @@ data:
         exclude: ["exim", "qemu", "esmtp", "opensmtpd", "esmtp-local-delivery"]
         priority: 2
 
-      ResilientStorage:
+      RS:
         baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
         koji_files_url: https://kojihub.stream.centos.org/kojifiles
