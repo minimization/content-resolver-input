@@ -6,10 +6,18 @@ data:
   maintainer: sst_edge
 
   packages:
+  - can-utils
   - greenboot
   - greenboot-reboot
   - greenboot-status
   - ignition
+  - libgpiod-devel
+  - libgpiod-utils
+  - python3-libgpiod
+  - libi2cd-devel
+  - libiio-devel
+  - libiio-utils
+  - python3-iio
   - ostree
   - rpm-ostree
   - nss-altfiles
