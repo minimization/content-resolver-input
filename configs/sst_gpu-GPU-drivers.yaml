@@ -3,7 +3,7 @@ version: 1
 data:
   name: GPU drivers
   description: Contains the user space APIs and drivers for the GPUs supported in RHEL
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
 
   packages:
     - mesa-libGL
