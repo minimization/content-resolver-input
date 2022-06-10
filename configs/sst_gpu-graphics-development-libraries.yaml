@@ -3,7 +3,7 @@ version: 1
 data:
   name: Graphics development libraries
   description: Libraries used for development of graphics applications
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
 
   packages:
     - libdecor

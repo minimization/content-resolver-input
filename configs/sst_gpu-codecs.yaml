@@ -3,7 +3,7 @@ version: 1
 data:
   name: Codecs
   description: Various codecs
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
 
   packages:
     - libtheora

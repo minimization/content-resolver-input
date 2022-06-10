@@ -3,7 +3,7 @@ version: 1
 data:
   name: Multimedia libraries
   description: Libraries for managing multimedia content
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
 
   packages:
     - gstreamer1

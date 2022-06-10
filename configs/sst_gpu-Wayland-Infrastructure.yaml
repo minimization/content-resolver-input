@@ -3,7 +3,7 @@ version: 1
 data:
   name: Wayland infrastructure
   description: Contains tools and related infrastructure used in a Wayland environment
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
 
   packages:
     - wayland-utils
