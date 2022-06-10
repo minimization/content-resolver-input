@@ -3,7 +3,7 @@ version: 1
 data:
   name: Graphics Infrastructure - Blocked packages
   description: Graphics Infrastructure - Packages which should not be in ELN
-  maintainer: sst_graphics_infrastructure
+  maintainer: sst_gpu
   unwanted_packages:
   # only used by mesa-demos, but that’s likely to change, see https://gitlab.freedesktop.org/mesa/demos/-/merge_requests/23
   - glew
