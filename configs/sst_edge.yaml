@@ -10,7 +10,6 @@ data:
   - greenboot
   - greenboot-reboot
   - greenboot-status
-  - ignition
   - libgpiod-devel
   - libgpiod-utils
   - python3-libgpiod
@@ -18,10 +17,14 @@ data:
   - libiio-devel
   - libiio-utils
   - python3-iio
+
+  # Packages co-maintained with the CoreOS SST
   - ostree
   - rpm-ostree
   - nss-altfiles
   - coreos-installer
+  - coreos-installer-bootinfra
+  - coreos-installer-dracut
 
   arch_packages:
     x86_64:
@@ -37,4 +40,3 @@ data:
   labels:
   - eln
   - c9s
-
