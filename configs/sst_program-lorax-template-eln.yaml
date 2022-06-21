@@ -8,6 +8,7 @@ data:
   packages:
   - drpm
   - lorax
+  - lorax-templates-rhel
   - anaconda
   - anaconda-widgets
   - kexec-tools-anaconda-addon
@@ -195,9 +196,6 @@ data:
 
 
   package_placeholders:
-    lorax-templates-rhel:
-      description: RHEL only package
-      srpm: lorax-templates-rhel
     redhat-release:
       description: RHEL only package
       srpm: redhat-release
