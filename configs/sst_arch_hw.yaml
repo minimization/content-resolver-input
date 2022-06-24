@@ -31,6 +31,9 @@ data:
 
   arch_packages:
     ppc64le:
+    - libnxz
+    - libnxz-devel
+    - libnxz-static
     - libocxl
     - libocxl-devel
     s390x:
