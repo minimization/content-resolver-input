@@ -18,19 +18,19 @@ data:
         baseurl: https://buildlogs.centos.org/9-stream/automotive/$basearch/packages-main/
         priority: 50
       stream-baseos:
-        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
+        baseurl: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
         priority: 100
       stream-appstream:
-        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/AppStream/$basearch/os/
+        baseurl: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/AppStream/$basearch/os/
         priority: 100
       stream-powertools:
-        baseurl: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/CRB/$basearch/os/
+        baseurl: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/CRB/$basearch/os/
         priority: 100
       neptune:
         baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
         priority: 500
     releasever: "9"
-    composeinfo: https://composes.stream.centos.org/development/latest-CentOS-Stream/compose/metadata/composeinfo.json
+    composeinfo: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/metadata/composeinfo.json
     # Automotive is only focusing on a subset of architectures
     architectures:
       - aarch64
