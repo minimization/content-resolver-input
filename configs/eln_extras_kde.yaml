@@ -337,7 +337,6 @@ data:
   - libksysguard
   - libksysguard-common
   - libkworkspace5
-  - lokalize
   - lskat
   - maliit-keyboard
   - marble
@@ -433,8 +432,6 @@ data:
   - qt5-qtdatavis3d
   - qt5-qtdatavis3d-doc
   - qt5-qtdeclarative-doc
-  - qt5-qtenginio
-  - qt5-qtenginio-doc
   - qt5-qtfeedback
   - qt5-qtgamepad
   - qt5-qtgamepad-doc
