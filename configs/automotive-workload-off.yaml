@@ -27,6 +27,7 @@ data:
     - chrony
     - cmake
     - cpio
+    - cppcheck
     - curl
     - dhcp-client
     - diffutils
