@@ -10,3 +10,4 @@ data:
 
   packages:
     - anaconda
+    - anaconda-install-img-deps
