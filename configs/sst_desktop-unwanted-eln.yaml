@@ -77,5 +77,11 @@ data:
   - tracker3-miners
   # libhandy1 renamed to libhandy in F34+
   - libhandy1
+  # only GTK 3 and GTK 4 supported in ELN and RHEL 10
+  - gtk2
+  - gtk2-immodules
+  - adwaita-gtk2-theme
+  # Only GUI application stuck with GTK 2, also no interest in maintaining an IRC client
+  - hexchat
   labels:
   - eln
