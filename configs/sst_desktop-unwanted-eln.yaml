@@ -83,5 +83,7 @@ data:
   - adwaita-gtk2-theme
   # Only GUI application stuck with GTK 2, also no interest in maintaining an IRC client
   - hexchat
+  # https://wiki.gnome.org/Initiatives/GnomeGoals/GettextMigration
+  - gnome-common
   labels:
   - eln
