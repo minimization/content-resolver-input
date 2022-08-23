@@ -25,6 +25,7 @@ data:
   - osinfo-db-tools
   - python-augeas
   - python3-libvirt
+  - python3-virt-firmware
   - seabios
   - sgabios
   - spice-protocol
