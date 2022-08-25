@@ -9,9 +9,12 @@ data:
   unwanted_packages:
   # zoneinfo is in the Python standard library (PEP 615), use that one instead
   - python3-pytz
+  # tomllib is in the Python standard library (PEP 680), use that one instead
+  - python3-toml
 
   # older Python versions
   - python3.9
+  - python3.10
 
   labels:
   - eln
