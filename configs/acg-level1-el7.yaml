@@ -2,8 +2,6 @@
 data:
   description: Automatically generated.
   labels:
-  - eln-candidate
-  - eln
   - c9s
   maintainer: bakery
   name: ACG Level 1 Packages for RHEL 7
