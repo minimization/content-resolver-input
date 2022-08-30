@@ -6,7 +6,7 @@ See [config specs](https://github.com/minimization/content-resolver/tree/master/
 
 ## Locating the right file
 
-Instead of browsing this repository directly, it's easier to find the file you're looking for through [Content Resolver](https://tiny.distro.builders) directly.
+Instead of browsing this repository directly, it's easier to find the file you're looking for through [Content Resolver](https://tiny.distro.builders)'s categorized list of configuration files.
 
 Option 1: Look at the [Configuration](https://tiny.distro.builders/configs_workloads.html) space that lists all the configs. You can search through them, see their details, and use the *Edit Configuration* button on their pages to get to the right file in this repository.
 
