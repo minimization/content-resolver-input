@@ -14,9 +14,9 @@ Option 2: Almost every page under [Results](https://tiny.distro.builders/workloa
 
 In both cases, you can edit the config and send a PR right from your web browser.
 
-## History before 2022-08-30 11:35 UTC
+## History before 2022-08-30 11:25:25 UTC
 
-The history before 2022-08-30 11:35 UTC is archived in the [minimization/content-resolver-input-archive](https://github.com/minimization/content-resolver-input-archive) repository.
+The history before 2022-08-30 11:25:25 UTC is archived in the [minimization/content-resolver-input-archive](https://github.com/minimization/content-resolver-input-archive) repository.
 
 The files here are unchanged, just removed the history,
 because it contained the massive buildroot files
