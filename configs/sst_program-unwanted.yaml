@@ -1,7 +1,7 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Progam level unwanted packages
+  name: Program level unwanted packages
   description: Unwanted packages
   maintainer: jwboyer
 
@@ -26,6 +26,11 @@ data:
     - fedpkg
     - fedpkg-stage
     - ghc
+    - GraphicsMagick
+    - GraphicsMagick-c++
+    - GraphicsMagick-c++-devel
+    - GraphicsMagick-devel
+    - GraphicsMagick-perl
     - ImageMagick
     - ImageMagick-c++
     - ImageMagick-c++-devel
