@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Baobab
+  description: Disk usage analyzer for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - baobab
+
+  labels:
+  - eln
+  - c9s

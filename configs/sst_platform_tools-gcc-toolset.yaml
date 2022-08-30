@@ -1,0 +1,75 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GCC
+  description: Collection of packages providing the C, C++, and Fortran compilers.
+  maintainer: sst_platform_tools
+
+  packages:
+  - gcc
+  - gcc-c++
+  - cpp
+  - gcc-gdb-plugin
+  - gcc-gfortran
+  - gcc-plugin-devel
+  - libasan
+  - libatomic
+  - libgcc
+  - libgfortran
+  - libgomp
+  - libitm
+  - libitm-devel
+  - libstdc++
+  - libstdc++-devel
+  - libstdc++-docs
+  - libstdc++-static
+  - libubsan
+  - libmpc
+  - dwz
+  - chrpath
+
+  arch_packages:
+    aarch64:
+      - liblsan
+      - libtsan
+    i686:
+      - libquadmath
+      - libquadmath-devel
+    ppc64le:
+      - gcc-offload-nvptx
+      - libgomp-offload-nvptx
+      - liblsan
+      - libtsan
+      - libquadmath
+      - libquadmath-devel
+    x86_64:
+      - gcc-offload-nvptx
+      - libgomp-offload-nvptx
+      - liblsan
+      - libtsan
+      - libquadmath
+      - libquadmath-devel
+
+  package_placeholders:
+    gcc-libraries:
+      description: This package might be needed to support applications built with the GCC Toolset.
+      requires:
+      - binutils
+      - glibc-devel
+      - libgcc
+      - libgomp
+      buildrequires:
+      - gcc
+      - gcc-c++
+      - gcc-gfortran
+      - binutils
+      - glibc-devel
+      - libgcc
+      - libgomp
+      - gmp-devel
+      - mpfr-devel
+      - libmpc-devel
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Network debugging tools
+  description: Software used for inspection and debugging of network trafic
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - iperf3
+  - libpcap
+  - nmap
+  - nmap-ncat
+  - tcpdump
+  - telnet
+  - telnet-server
+  - wireshark
+  - wireshark-cli
+
+  labels:
+  - eln
+  - c9s

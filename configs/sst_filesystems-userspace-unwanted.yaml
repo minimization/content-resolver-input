@@ -1,0 +1,23 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Filesystem packages
+  description: Unwanted Filesystem Packages
+  maintainer: sst_filesystems
+
+  unwanted_packages:
+    - system-storage-manager
+    - xmlstarlet
+    - oath-toolkit
+    - luarocks
+    - leveldb
+    - fmt
+
+  unwanted_arch_packages:
+    aarch64:
+      - gfs2-utils
+      - pcp-pmda-gfs2
+
+  labels:
+  - eln
+  - c9s

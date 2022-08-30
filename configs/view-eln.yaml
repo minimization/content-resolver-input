@@ -1,0 +1,46 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: ELN Package Set
+  description: You can think about it as Enterprise Linux Next. More info https://fedoraproject.org/wiki/ELN
+  maintainer: bakery
+  labels:
+  - eln
+  repository: repository-fedora-eln
+
+  buildroot_strategy: root_logs
+  
+
+  # Packages to be flagged as unwanted  on specific architectures
+  #unwanted_arch_packages:
+  #  x86_64:
+  #  - arch-specific-package
+  #  aarch64:
+  #  - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  unwanted_source_packages:
+  
+  # jwboyer:
+  - ImageMagick
+  - bodhi
+  - btrfs-progs
+  - clufter
+  - fedora-packager
+  - fedpkg
+  - koji
+  - libsodium
+  - libssh2
+  - mercurial
+  - mono
+  - nagios-plugins
+  - pungi
+  - reiserfs-utils
+  - spice
+  - spice-gtk3
+  - spice-html5
+  - spice-vdagent
+  - tomcat
+  - xen
+  

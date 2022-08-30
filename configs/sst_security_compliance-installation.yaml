@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Native installation-time hardening
+  description: Anaconda addon integrating OpenSCAP hardening capabilities into the Anaconda installer itself.
+  maintainer: sst_security_compliance
+
+  packages:
+  - oscap-anaconda-addon
+  - openscap-scanner
+  - scap-security-guide
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,38 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CoreOS
+  description: >
+    OS compontents for CoreOS based systems.
+    This should be distributed via ostrees.
+  maintainer: sst_rhcos
+
+  packages:
+  - afterburn
+  - afterburn-darcut
+  - butane
+  - console-login-helper-messages-issuegen
+  - console-login-helper-messages-motdgen
+  - console-login-helper-messages-profile
+  - ignition
+  - ignition-validate
+  - ssh-key-dir
+
+  # Packages co-maintained with the Edge SST
+  - ostree
+  - rpm-ostree
+  - nss-altfiles
+  - coreos-installer
+  - coreos-installer-bootinfra
+  - coreos-installer-dracut
+
+  arch_packages:
+    x86_64:
+    - bootupd
+    aarch64:
+    - bootupd
+
+  # Do not re-enable in eln without Josh Boyers permission
+  labels:
+  # - eln
+  - c9s

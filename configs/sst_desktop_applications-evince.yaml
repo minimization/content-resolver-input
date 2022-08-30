@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Evince
+  description: Default PDF viewer for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - evince
+  - evince-nautilus
+  - evince-thumbnailer
+
+  labels:
+  - eln
+  - c9s

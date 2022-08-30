@@ -1,0 +1,27 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Misc admin tools
+  description: Tools necessary to support system admin
+  maintainer: sst_kernel_debug
+  packages:
+    - python-dmidecode
+    - lshw
+    - numactl
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    aarch64:
+      - dmidecode
+      - irqbalance
+    ppc64le:
+      - numatop
+      - irqbalance
+    s390x:
+    x86_64:
+      - dmidecode
+      - numatop
+      - irqbalance

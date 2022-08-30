@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tzdata
+  description: The latest time zone database as released by IANA.
+  maintainer: sst_platform_tools
+
+  packages:
+  - tzdata
+  - tzdata-java
+
+  labels:
+  - eln
+  - c9s

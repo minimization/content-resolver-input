@@ -1,0 +1,28 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages -- Security Compliance
+  description: Packages that Security Compliance won't distribute
+  maintainer: sst_security_compliance
+  labels:
+    - eln
+    - c9s
+
+  unwanted_packages:
+    # dependency of oscap-anaconda-addon, because it's the only user, we do not
+    # want to maintain it separately
+    - python3-cpio
+
+    # these pieces were part of Atomic Scan support in RHEL7, and we do not
+    # expect to need them moving forward
+    - openscap-daemon
+    - openscap-container
+
+    # these (stray) packages are maintained by Security Compliance only formally
+    # and should not be included without prior discussion
+    - libtnc
+    - tncfhh
+    - petera
+
+    # this utility should not be included at this moment
+    - oval-graph

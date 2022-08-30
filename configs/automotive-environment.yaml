@@ -1,0 +1,79 @@
+---
+document: feedback-pipeline-environment
+version: 1
+data:
+  name: Automotive environment
+  description: >
+    The base environment definition for the Automotive project,
+    providing the minimum in-vehicle package set, suitable to be
+    extended by additional, experimental and development workloads.
+  # Contacts: psabata, ssmoogen
+  maintainer: automotive-base-enablement
+  repositories:
+    - automotive-repositories-c9s
+  labels:
+    - automotive
+  # The environment includes the shared package set for all automotive
+  # workloads.  In essence, this is identical to the in-vehicle package
+  # set which the in-vehicle workload inherits with no additions.
+  # This is so that other workloads can easily extend the inteded
+  # in-vehicle set without duplicating the base required minimum.  It
+  # doesn't mean their reference images need to be ostree-based.
+  packages:
+    - audit
+    - boost
+    - bzip2
+    - clevis
+    - cryptsetup
+    - dracut-config-generic
+    - e2fsprogs
+    - efibootmgr
+    - freetype
+    - glibc
+    - glibc-gconv-extra
+    - glibc-langpack-en
+    - greenboot
+    - hostapd
+    - hostname
+    - jose
+    - jq
+    - kernel-automotive
+    - linux-firmware-automotive
+    - libcurl
+    - libstdc++
+    - libvorbis
+    - libwebp
+    - libzstd
+    - luksmeta
+    - lvm2
+    - NetworkManager
+    - nftables
+    - nss-altfiles
+    - oniguruma
+    - openssl-libs
+    - opus
+    - ostree
+    - passwd
+    - podman
+    - procps-ng
+    - rpm-ostree
+    - rsyslog
+    - selinux-policy-targeted
+    - sqlite-libs
+    - systemd-udev
+    - tpm2-tools
+    - usbguard
+    - wpa_supplicant
+    - xz-libs
+    - zlib
+  arch_packages:
+    aarch64:
+      - grub2-efi-aa64
+      - grub2-efi-aa64-cdboot
+      - shim-aa64
+    x86_64:
+      - grub2-efi-x64
+      - grub2-efi-x64-cdboot
+      - grub2-tools-efi
+      - microcode_ctl
+      - shim-x64

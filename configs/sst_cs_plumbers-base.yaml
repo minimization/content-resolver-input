@@ -1,0 +1,42 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Base userspace
+  description: Basic tools and daemon needed to run a server
+  maintainer: sst_cs_plumbers
+
+  packages:
+  - dracut
+  - dracut-caps
+  - dracut-config-generic
+  - dracut-config-rescue
+  - dracut-live
+  - dracut-network
+  - dracut-squash
+  - dracut-tools
+  - acl
+  - coreutils
+  - curl
+  - gawk
+  - sed
+  - bash
+  - bash-completion
+  - util-linux
+  - systemd
+  - systemd-container
+  - systemd-journal-remote
+  - systemd-udev
+  - polkit
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    zram-generator:
+      description: RHEL builds are bundled and use rust-toolset
+      srpm: rust-zram-generator
+    zram-generator-defaults:
+      description: RHEL builds are bundled and use rust-toolset
+      srpm: rust-zram-generator
+

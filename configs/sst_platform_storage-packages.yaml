@@ -1,0 +1,201 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Platform Storage
+  description: Platform Storage Supported Packages
+  maintainer: sst_platform_storage
+
+  packages:
+    # Stratis
+    - python3-dbus-client-gen
+    - python3-dbus-python-client-gen
+    - python3-dbus-signature-pyparsing
+    - python3-into-dbus-python
+    - python3-justbases
+    - python3-justbytes
+    - python3-wcwidth
+    - stratis-cli
+    - stratisd
+
+    # Block Storage
+    - daxctl
+    - daxctl-devel
+    - daxctl-libs
+    - libaio
+    - libaio-devel
+    - liburing
+    - liburing-devel
+    - ndctl
+    - ndctl-devel
+    - ndctl-libs
+
+    # target
+    - nvmetcli
+    - python3-configshell
+    - python3-kmod
+    - python3-pyparsing
+    - python3-rtslib
+    - python3-urwid
+    - targetcli
+
+    # iscsi
+    - iscsi-initiator-utils
+    - iscsi-initiator-utils-iscsiuio
+    - isns-utils
+    - isns-utils-libs
+    - python3-iscsi-initiator-utils
+
+      # fcoe offload
+    - fcoe-utils
+
+    # LVM
+    # Boom-boot and its sub-packages
+    - boom-boot
+    - boom-boot-conf
+    - boom-boot-grub2
+    - python3-boom
+    # cryptsetup and its sub-packages
+    - cryptsetup
+    - cryptsetup-devel
+    - cryptsetup-libs
+    - integritysetup
+    - veritysetup
+    # lvm2 and its sub-packages
+    - device-mapper
+    - device-mapper-devel
+    - device-mapper-event
+    - device-mapper-event-devel
+    - device-mapper-event-libs
+    - device-mapper-libs
+    - device-mapper-multipath
+    - device-mapper-persistent-data
+    - dlm
+    - lvm2
+    - lvm2-dbusd
+    - lvm2-devel
+    - lvm2-libs
+    - lvm2-lockd
+    - mdadm
+    - sanlock
+    - userspace-rcu
+    # SID and its sub-packages
+    - sid                                                                                 
+    - sid-base-libs                                                                       
+    - sid-base-libs-devel                                                                 
+    - sid-iface-libs                                                                      
+    - sid-iface-libs-devel                                                                
+    - sid-log-libs                                                                        
+    - sid-log-libs-devel                                                                  
+    - sid-mod-block-blkid                                                                 
+    - sid-mod-block-dm-mpath                                                              
+    - sid-mod-dummies                                                                     
+    - sid-resource-libs                                                                   
+    - sid-resource-libs-devel                                                             
+    - sid-tools    
+
+    # Storage Management
+    - hdparm
+    - libblockdev
+    - libblockdev-crypto
+    - libblockdev-dm
+    - libblockdev-fs
+    - libblockdev-kbd
+    - libblockdev-loop
+    - libblockdev-lvm
+    - libblockdev-mdraid
+    - libblockdev-mpath
+    - libblockdev-nvdimm
+    - libblockdev-part
+    - libblockdev-plugins-all
+    - libblockdev-swap
+    - libblockdev-tools
+    - libblockdev-utils
+    - libbytesize
+    - libstoragemgmt
+    - libstoragemgmt-arcconf-plugin
+    - libstoragemgmt-hpsa-plugin
+    - libstoragemgmt-local-plugin
+    - libstoragemgmt-megaraid-plugin
+    - libstoragemgmt-nfs-plugin
+    - libstoragemgmt-smis-plugin
+    - libstoragemgmt-targetd-plugin
+    - libstoragemgmt-udev
+    - libudisks2
+    - lsscsi
+    - mt-st
+    - python3-blivet
+    - python3-blockdev
+    - python3-libstoragemgmt
+    - python3-pywbem
+    - sg3_utils
+    - udisks2
+    - udisks2-iscsi
+    - udisks2-lsm
+    - udisks2-lvm2
+
+    # Unsure packages
+    # - mtx
+    # - peripety
+    #
+
+  package_placeholders:
+    kmod-kvdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
+    pmreorder:
+      description: This package is only available in RHEL.
+      srpm: pmreorder
+    vdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: vdo
+    stratisd:
+      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
+      srpm: stratisd
+
+  arch_packages:
+    ppc64le:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmempool
+    x86_64:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj++-devel
+      - libpmemobj++-doc
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmdk-convert
+      - pmempool
+
+    s390x:
+      - libblockdev-s390
+
+  labels:
+  - eln
+  - c9s

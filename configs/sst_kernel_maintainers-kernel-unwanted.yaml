@@ -1,0 +1,23 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - sst_kernel_maintainers
+  description: Packages that kernel maintainers sst doesn't want to distribute in RHEL 9
+  maintainer: sst_kernel_maintainers
+
+  unwanted_packages:
+  - iwl3945-firmware
+  - iwl4965-firmware
+  - iwl6000-firmware
+  - kernel-ipaclones-internal
+  - kernel-modules-internal
+  - kernel-selftests-internal
+  - kernel-zfcpdump-modules-internal
+  - libertas-sd8686-firmware
+  - libertas-usb8388-firmware
+  - libertas-usb8388-olpc-firmware
+  - liquidio-firmware
+
+  labels:
+  - eln
+  - c9s

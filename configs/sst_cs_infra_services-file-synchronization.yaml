@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: File Synchronization
+  description: File transfer and synchronization
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - rsync
+  - rsync-daemon
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: TigerVNC
+  description: VNC server and client for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - tigervnc
+  - tigervnc-server
+  - tigervnc-server-module
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    tigervnc-selinux:
+      srpm: tigervnc
+      description: SELinux module for TigerVNC
+      requires:
+        - libselinux-utils
+        - selinux-policy
+        - policycoreutils
+        - libselinux-utils
+      buildrequires:
+        - selinux-policy-devel

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Virt Who 
+  description: Reporting tool for hypervisor networks.
+  maintainer: sst_subscription_manager
+
+  packages:
+    - virt-who    
+
+  labels:     
+  - eln       
+  - c9s
+

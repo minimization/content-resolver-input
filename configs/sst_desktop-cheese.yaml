@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Cheese
+  description: Default application for handling webcams in Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - clutter
+  - clutter-gtk
+  - clutter-gst3
+  - cogl
+  - cheese
+
+  labels:
+  - eln
+  - c9s

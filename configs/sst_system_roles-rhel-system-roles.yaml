@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL System Roles
+  description: Ansible roles for managing core RHEL system components
+  maintainer: sst_system_roles
+
+  packages:
+  - rhel-system-roles
+
+  labels:
+  - c9s

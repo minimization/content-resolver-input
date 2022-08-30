@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pesign
+  description: Signing utility for UEFI binaries
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    armv7hl:
+      - pesign
+    aarch64:
+      - pesign
+    x86_64:
+      - pesign

@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Manager - development packages
+  description: Supported development packages
+  maintainer: sst_cs_software_management
+
+  packages:
+  - libdnf-devel
+  - popt-devel
+  - python3-dnf
+  - python3-libdnf
+  - python3-rpm
+  - rpm-devel
+
+  labels:
+  - eln
+  - c9s

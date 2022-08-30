@@ -1,0 +1,26 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kpatch
+  description: Dynamic kernel patch manager
+  maintainer: sst_kernel_ft
+
+  packages: []
+
+  labels:      # <-- Please leave
+  - eln        #     this unchanged.
+  - c9s
+
+  package_placeholders:
+    # kpatch is a RHEL-only package
+    kpatch:
+      srpm: kpatch
+      description: Dynamic kernel patch manager
+      requires: []
+      buildrequires: []
+    # kpatch-dnf is a RHEL-only package
+    kpatch-dnf:
+      srpm: kpatch
+      description: kpatch-patch manager plugin for DNF
+      requires: []
+      buildrequires: []

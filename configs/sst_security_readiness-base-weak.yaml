@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Standard install using @base group with weak dependencies
+  description: Standard install with Recommends dependencies included
+  maintainer: sst_security_readiness
+
+  options:
+  - include-weak-deps
+
+  groups:
+  - base
+
+  labels:
+  - fedora
+  - eln-analyze-only

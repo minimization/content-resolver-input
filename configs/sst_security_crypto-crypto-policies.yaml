@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System-wide crypto policies
+  description: Configuration and tools providing system-wide crypto policy support
+  maintainer: sst_security_crypto
+
+  packages:
+  - crypto-policies
+  - crypto-policies-scripts
+  - grubby
+
+  labels:
+  - eln
+  - c9s

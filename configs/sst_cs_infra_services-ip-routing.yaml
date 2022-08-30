@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IP routing
+  description: IP and IP routing related software
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - frr
+  - ipcalc
+  - radvd
+
+  labels:
+  - eln
+  - c9s

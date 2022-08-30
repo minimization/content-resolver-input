@@ -1,0 +1,63 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Core Services System management - Blocked packages
+  description: Core Services System management - Packages which should not be in ELN
+  maintainer: sst_cs_system_management
+
+  unwanted packages:
+  - linuxconsoletools
+  - mtools
+  - expectk
+  - openwsman-python3
+  - openwsman-perl
+  - rubygem-openwsman
+  - openwsman-winrs
+  - openwsman-client
+  - rubygem-openwsman-doc
+  - sblim-cmpi-base-test
+  - tix-doc
+  - tix
+  - tix-devel
+  - tog-pegasus-test
+  - cdparanoia-static
+  - dirsplit
+  - gpm-static
+  - lensfun-tools
+  - python3-lensfun
+  - leptonica-tools
+  - cdrskin
+  - metis64
+  - metis64-devel
+  - tesseract-osd
+  - sapconf
+  - dump
+  - screen
+  - OpenEXR
+  - OpenEXR-devel
+  - OpenEXR-libs
+  - gegl-devel
+  - gegl
+  - ilmbase-devel
+  - ilmbase
+  - net-snmp-gui
+  - gnuplot-common
+  - gnuplot-minimal
+  - gnuplot
+  - gnuplot-doc
+  - gnuplot-latex
+  - gsl-devel
+  - gsl
+  - python3-httplib2
+  - amanda-server
+  - python3-opencv
+  - opencv-devel
+  - opencv-contrib
+  - opencv
+  - opencv-core
+  - opencv-doc
+  - gphoto2
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Codecs
+  description: Various codecs
+  maintainer: sst_gpu
+
+  packages:
+    - libtheora
+    - sbc
+    - lame
+    - libmad
+    - mpg123
+    - lame
+    - a52dec
+    - libvpx
+    - libogg
+    - twolame
+
+  labels:
+    - eln
+    - c9s

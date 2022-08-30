@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SMC tools
+  description: Tools to use the SMC (Shared Memory Communication) protocol
+  maintainer: sst_kernel_tps
+
+  packages:
+  - smc-tools
+
+  labels:
+  - eln
+  - c9s

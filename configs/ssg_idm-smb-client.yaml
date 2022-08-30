@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Samba FS Client
+  description: SMB/CIFS clients to complement the built-in SMB/CIFS filesystem in Linux. These clients allow access of SMB/CIFS shares and printing to SMB/CIFS printers.
+  maintainer: ssg_idm
+
+  packages:
+  - samba-client
+  - cifs-utils
+  - samba-winbind
+  - samba-winbind-clients
+  - samba-winbind-krb5-locator
+  - samba-krb5-printing
+
+  labels:
+  - eln
+  - c9s

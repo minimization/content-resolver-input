@@ -1,0 +1,15 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Automotive infotainment package set
+  description: >
+    The set of packages for the minimum automotive infotainment
+    workload, extending the basic in-vehicle set.
+  maintainer: rmajadas
+  labels:
+    - automotive
+  packages:
+    - gdm
+    - mutter
+    - plymouth

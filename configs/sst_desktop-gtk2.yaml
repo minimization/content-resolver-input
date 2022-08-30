@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GTK 2 toolkit
+  description: Software toolkit for developing applications
+  maintainer: sst_desktop
+
+  packages:
+  - adwaita-gtk2-theme
+  - gtk2
+  - gtk2-immodules
+
+  labels:
+  - c9s

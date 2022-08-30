@@ -1,0 +1,73 @@
+---
+# This configuration file defines a list of unwanted packages
+# used in views having the same label.
+# https://tiny.distro.builders
+
+
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  # id is the filename — that automatically prevents collisions for free!
+
+
+  ### MANDATORY FIELDS ###
+
+  # Name is an identifier for humans
+  #
+  # (mandatory field)
+  name: Unwanted SELinux packages
+
+  # A short description, perhaps hinting the purpose
+  #
+  # (mandatory field)
+  description: Weak dependencies of python-networkx originally used as BuildRequires dependencies
+
+  # Who maintains it? This is just a freeform string
+  # for humans to read. In Fedora, a FAS nick is recommended.
+  #
+  # (mandatory field)
+  maintainer: plautrba
+
+  # Labels connect things together.
+  # Views with the same label will have these packages marked as unwanted.
+  #
+  # (mandatory field)
+  labels:
+  - eln
+  - c9s
+
+
+  ### OPTIONAL FIELDS ###
+
+  # Packages to be flagged as unwanted
+  #
+  # (optional field)
+  # unwanted_packages:
+  # - pkg-other-name
+
+  # Packages to be flagged as unwanted  on specific architectures
+  #
+  # (optional field)
+  # unwanted_arch_packages:
+  #   x86_64:
+  #   - arch-specific-package
+  #   aarch64:
+  #   - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  #
+  # (optional field)
+  unwanted_source_packages:
+  - gdal
+  - pydot
+  - python-nb2plots
+  - python-pygraphviz
+  - python-pytest-expect
+  - python-pytest-doctestplus
+  - python-numpydoc
+  - python-sphinx
+  - python-sphinx-gallery
+  - python-sphinx-testing
+  - python-nbsphinx
+  - python-webencodings
+  - python-texext

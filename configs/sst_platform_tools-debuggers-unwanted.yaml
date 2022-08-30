@@ -1,0 +1,18 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Debuggers packages
+  description: Unwanted Debuggers packages
+  maintainer: sst_platform_tools
+
+  unwanted_packages:
+  - babeltrace
+  - gdb-minimal
+
+  unwanted_arch_packages:
+    i686:
+    - gdb-minimal
+
+  labels:
+  - eln
+  - c9s

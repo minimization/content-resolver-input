@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: i18n tools
+  description: Various i18n related tools
+  maintainer: sst_i18n
+
+  packages:
+  - convmv
+  - gnome-characters
+  - paps
+
+  labels:
+  - eln
+  - c9s
+  - eln-candidate

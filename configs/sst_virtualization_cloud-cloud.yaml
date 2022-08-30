@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL on public and private clouds
+  description: Userspace agents and tools to assist running RHEL as a guest on public and private clouds
+  maintainer: sst_virtualization_cloud
+
+  packages:
+  - cloud-init
+  - cloud-utils-growpart
+
+  labels:
+  - eln
+  - c9s

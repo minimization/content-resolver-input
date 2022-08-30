@@ -1,0 +1,62 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: LLVM Toolset
+  description: Collection of packages providing and LLVM-based compiler toolchain.
+  maintainer: sst_platform_tools
+
+  packages:
+  - llvm
+  - llvm-devel
+  - llvm-googletest
+  - llvm-libs
+  - llvm-static
+  - llvm-test
+  - clang
+  - clang-devel
+  - clang-libs
+  - clang-tools-extra
+  - git-clang-format
+  - python3-clang
+  - lld
+  - lld-devel
+  - lld-libs
+  - lld-test
+  - compiler-rt
+  - lldb
+  - lldb-devel
+  - python3-lldb
+  - python-lit
+
+  arch_packages:
+    aarch64:
+      - libomp
+      - libomp-devel
+      - libomp-test
+    ppc64le:
+      - libomp
+      - libomp-devel
+      - libomp-test
+    x86_64:
+      - libomp
+      - libomp-devel
+      - libomp-test
+    armv7hl:
+      - libomp
+      - libomp-devel
+      - libomp-test
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    llvm-toolset:
+      srpm: llvm-toolset
+      description: Meta-package for llvm-toolset
+      requires:
+        - clang
+        - lldb
+        - llvm
+        - lld
+      buildrequires: []

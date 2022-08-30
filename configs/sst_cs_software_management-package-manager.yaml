@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Manager
+  description: Recommended installation of package manager and plugins
+  maintainer: sst_cs_software_management
+
+  packages:
+  - dnf
+  - dnf-automatic
+  - dnf-plugins-core
+  - python3-dnf-plugin-post-transaction-actions
+  - python3-dnf-plugin-versionlock
+  - rpm
+  - rpm-apidocs
+  - rpm-cron
+  - rpm-plugin-ima
+  - rpm-plugin-selinux
+  - rpm-plugin-syslog
+  - rpm-plugin-systemd-inhibit
+  - scl-utils
+  - yum
+  - yum-utils
+
+  labels:
+  - eln
+  - c9s

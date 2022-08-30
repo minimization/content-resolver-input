@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libffi
+  description: A portable foreign function interface library.
+  maintainer: sst_platform_tools
+
+  packages:
+  - libffi
+  - libffi-devel
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: BPF development tools
+  description: Tools needed for BPF developments
+  maintainer: sst_kernel_tps
+
+  packages:
+  - bpftool
+  - libbpf
+  - dwarves
+
+  labels:
+  - eln
+  - c9s

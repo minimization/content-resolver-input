@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Rust Toolset
+  description: Collection of packages providing the rust compiler toolchain.
+  maintainer: sst_platform_tools
+
+  packages:
+  - rust
+  - cargo
+  - clippy
+  - rls
+  - rust-analysis
+  - rust-doc
+  - rust-std-static
+  - rustfmt
+  - rust-srpm-macros
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+    rust-toolset:
+      srpm: rust-toolset
+      description: Meta-package for rust-toolset
+      requires:
+        - rust
+        - cargo
+      buildrequires: []

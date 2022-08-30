@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: DNS Utilities
+  description: Packages containing various useful DNS tools
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - bind-utils
+  - dnsmasq-utils
+  - whois
+
+  labels:
+  - eln
+  - c9s

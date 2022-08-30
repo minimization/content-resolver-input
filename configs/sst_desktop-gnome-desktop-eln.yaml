@@ -1,0 +1,73 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Desktop
+  description: GNOME Desktop core packages
+  maintainer: sst_desktop
+
+  packages:
+  - freerdp
+  - gdm
+  - glib2
+  - glib2-static
+  - glib2-tests
+  - gnome-backgrounds
+  - gnome-backgrounds-extras
+  - gnome-control-center
+  - gnome-color-manager
+  - gnome-devel-docs
+  - gnome-extensions-app
+  - gnome-remote-desktop
+  - gnome-session
+  - gnome-shell
+  - gnome-shell-extension-auto-move-windows
+  - gnome-shell-extension-background-logo
+  - gnome-shell-extension-common
+  - gnome-shell-extension-drive-menu
+  - gnome-shell-extension-native-window-placement
+  - gnome-shell-extension-screenshot-window-sizer
+  - gnome-shell-extension-windowsNavigator
+  - gnome-shell-extension-workspace-indicator
+  - gnome-tweaks
+  - chrome-gnome-shell
+  - low-memory-monitor
+  - lcms2
+  - power-profiles-daemon
+  - tracker
+  - tracker-miners
+  - uresourced
+  - xdg-user-dirs-gtk
+
+  labels:
+  - eln
+
+  arch_packages:
+    armv7hl:
+      - fprintd
+      - fprintd-pam
+    aarch64:
+      - fprintd
+      - fprintd-pam
+    ppc64le:
+      - fprintd
+      - fprintd-pam
+    x86_64:
+      - fprintd
+      - fprintd-pam
+
+  package_placeholders:
+    gnome-shell-extension-systemMonitor:
+      srpm: gnome-shell-extensions
+      description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-user-theme:
+      srpm: gnome-shell-extensions
+      description: Support for custom themes in GNOME Shell
+      requires: []
+      buildrequires: []
+    gnome-shell-extension-dash-to-dock:
+      srpm: gnome-shell-extensions
+      description: Alternative dock for the Gnome Shell
+      requires: []
+      buildrequires: []

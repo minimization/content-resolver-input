@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Redis persistent key-value database
+  description: CS Infrastructure Services - Redis
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - redis
+  - redis-doc
+  - redis-devel
+
+  labels:
+  - eln
+  - c9s

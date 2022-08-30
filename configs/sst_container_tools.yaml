@@ -1,0 +1,31 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Container Tools
+  description: >
+    Container runtime and related packages maintained by the Container Tools SST
+  maintainer: sst_container_tools
+
+  packages:
+   # These packages are currently part of the container-tools module
+   - buildah
+   - cockpit-podman
+   - conmon
+   - containernetworking-plugins
+   - criu
+   - crun
+   - fuse-overlayfs
+   - libslirp
+   - oci-seccomp-bpf-hook
+   - podman
+   - runc
+   - skopeo
+   - slirp4netns
+   - toolbox
+   - udica
+   # We may wish to move this out of the module but will contnue to maintain it
+   - container-selinux
+
+  labels:
+  - eln
+  - c9s

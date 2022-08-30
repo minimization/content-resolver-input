@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Mozilla Firefox
+  description: Default web browser for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - firefox
+
+  labels:
+  - eln
+  - c9s

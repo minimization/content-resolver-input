@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Hexchat
+  description: A graphical IRC client application for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - hexchat
+
+  labels:
+  - eln
+  - c9s

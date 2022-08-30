@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mptcpd
+  description: path manager daemon for multipath TCP
+  maintainer: sst_networking
+
+  packages: 
+  - mptcpd
+
+  labels:
+  - eln
+  - c9s

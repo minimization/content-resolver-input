@@ -1,0 +1,42 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: edge packages
+  description: Packages for edge usecases
+  maintainer: sst_edge
+
+  packages:
+  - can-utils
+  - greenboot
+  - greenboot-reboot
+  - greenboot-status
+  - libgpiod-devel
+  - libgpiod-utils
+  - python3-libgpiod
+  - libi2cd-devel
+  - libiio-devel
+  - libiio-utils
+  - python3-iio
+
+  # Packages co-maintained with the CoreOS SST
+  - ostree
+  - rpm-ostree
+  - nss-altfiles
+  - coreos-installer
+  - coreos-installer-bootinfra
+  - coreos-installer-dracut
+
+  arch_packages:
+    x86_64:
+    - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
+    ppc64le:
+    - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
+    aarch64:
+    - greenboot-grub2
+    - greenboot-rpm-ostree-grub2
+
+  labels:
+  - eln
+  - c9s

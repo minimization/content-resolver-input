@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Flatpak
+  description: Technology for building and distributing desktop applications
+  maintainer: sst_desktop
+
+  packages:
+  - flatpak
+  - flatpak-builder
+  - flatpak-selinux
+  - flatpak-xdg-utils
+
+  labels:
+  - eln
+  - c9s

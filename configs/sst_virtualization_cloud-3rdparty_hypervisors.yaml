@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL on 3rd party hypervisors
+  description: Userspace agents and tools to assist running RHEL as a guest on 3rd party hypervisors
+  maintainer: sst_virtualization_cloud
+
+  packages: []
+
+  arch_packages:
+    x86_64:
+    - open-vm-tools
+    - open-vm-tools-desktop
+    - open-vm-tools-sdmp
+    - open-vm-tools-test
+    - hyperv-daemons
+    - hyperv-tools
+    - hypervfcopyd
+    - hypervkvpd
+    - hypervvssd
+
+  labels:
+  - eln
+  - c9s

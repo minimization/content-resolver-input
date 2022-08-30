@@ -1,0 +1,101 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenJDK
+  description: OpenJDK and the Java Platform
+  maintainer: sst_dotnet_java
+  labels:
+  - eln
+  - c9s
+
+  packages:
+  - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-demo
+  - java-1.8.0-openjdk-devel
+  - java-1.8.0-openjdk-headless
+  - java-1.8.0-openjdk-javadoc
+  - java-1.8.0-openjdk-javadoc-zip
+  - java-1.8.0-openjdk-src
+  - java-11-openjdk
+  - java-11-openjdk-demo
+  - java-11-openjdk-devel
+  - java-11-openjdk-headless
+  - java-11-openjdk-javadoc
+  - java-11-openjdk-javadoc-zip
+  - java-11-openjdk-jmods
+  - java-11-openjdk-src
+  - java-11-openjdk-static-libs
+  - copy-jdk-configs
+  # Debug packages should be built but shipped in CRB
+  - java-1.8.0-openjdk-slowdebug
+  - java-1.8.0-openjdk-demo-slowdebug
+  - java-1.8.0-openjdk-devel-slowdebug
+  - java-1.8.0-openjdk-headless-slowdebug
+  - java-1.8.0-openjdk-src-slowdebug
+  - java-1.8.0-openjdk-fastdebug
+  - java-1.8.0-openjdk-demo-fastdebug
+  - java-1.8.0-openjdk-devel-fastdebug
+  - java-1.8.0-openjdk-headless-fastdebug
+  - java-1.8.0-openjdk-src-fastdebug
+  - java-11-openjdk-slowdebug
+  - java-11-openjdk-demo-slowdebug
+  - java-11-openjdk-devel-slowdebug
+  - java-11-openjdk-headless-slowdebug
+  - java-11-openjdk-jmods-slowdebug
+  - java-11-openjdk-src-slowdebug
+  - java-11-openjdk-static-libs-slowdebug
+  - java-11-openjdk-fastdebug
+  - java-11-openjdk-demo-fastdebug
+  - java-11-openjdk-devel-fastdebug
+  - java-11-openjdk-headless-fastdebug
+  - java-11-openjdk-jmods-fastdebug
+  - java-11-openjdk-src-fastdebug
+  - java-11-openjdk-static-libs-fastdebug
+  # Core tool for JDK support work
+  - byteman
+  - byteman-bmunit
+  - byteman-javadoc
+
+  package_placeholders:
+    java-17-openjdk:
+      srpm: java-17-openjdk
+      description: Future long-term supported release of OpenJDK
+      requires:
+        - fontconfig
+        - xorg-x11-fonts-Type1
+        - ca-certificates
+        - javapackages-filesystem
+        - tzdata-java
+        - copy-jdk-configs
+        - cups-libs
+      buildrequires:
+        - autoconf
+        - automake
+        - alsa-lib-devel
+        - binutils
+        - cups-devel
+        - desktop-file-utils
+        - elfutils-devel
+        - fontconfig-devel
+        - giflib-devel
+        - gcc-c++
+        - gdb
+        - lcms2-devel
+        - libpng-devel
+        - libjpeg-devel
+        - libX11-devel
+        - libXi-devel
+        - libXinerama-devel
+        - libXrandr-devel
+        - libXt-devel
+        - libXtst-devel
+        - libxslt
+        - nss-devel
+        - pkgconfig
+        - xorg-x11-proto-devel
+        - zip
+        - javapackages-filesystem
+        - libffi-devel
+        - tzdata-java
+        - gcc
+        - systemtap-sdt-devel

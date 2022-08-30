@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Legacy support
+  description: Support for legacy SysV services
+  maintainer: sst_cs_plumbers
+
+  packages:
+  - chkconfig
+  - ntsysv
+  - initscripts
+
+  labels:
+  - eln
+  - c9s
+

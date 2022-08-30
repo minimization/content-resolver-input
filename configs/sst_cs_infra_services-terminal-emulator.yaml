@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Terminal Emulator
+  description: Terminal emulators and fullscreen terminal applications/libraries
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - dialog
+  - minicom
+  - xterm
+
+  labels:
+  - eln
+  - c9s

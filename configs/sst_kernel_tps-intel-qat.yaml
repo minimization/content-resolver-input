@@ -1,0 +1,39 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Intel QAT Userspace
+  description: Userspace libraries and tools for Intel QAT hardware crypto device
+  maintainer: sst_kernel_tps
+
+  arch_packages:
+    x86_64:
+    - qatlib
+    - qatlib-devel
+    - qatengine
+
+  labels:
+  - eln
+  - c9s
+
+  package_placeholders:
+
+    attestation-hub:
+      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771346
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    trustagent:
+      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771343
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64
+
+    host-verification-service:
+      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771338
+      requires: []
+      buildrequires: []
+      limit_arches:
+      - x86_64

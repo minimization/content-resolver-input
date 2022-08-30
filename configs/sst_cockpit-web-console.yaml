@@ -1,0 +1,29 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Web Console (Cockpit)
+  description: Cockpit basic packages
+  maintainer: sst_cockpit
+  labels:
+    - eln
+    - c9s
+
+  packages:
+    # meta-package for the basic stuff (web server, bridge, core pages)
+    - cockpit
+    # recommended packages from cockpit metapackage
+    - cockpit-packagekit
+    - cockpit-storaged
+    - cockpit-pcp
+    - cockpit-doc
+
+  arch_packages:
+    aarch64:
+    # extensions maintained by Cockpit team
+    - cockpit-machines
+    s390x:
+    # extensions maintained by Cockpit team
+    - cockpit-machines
+    x86_64:
+    # extensions maintained by Cockpit team
+    - cockpit-machines

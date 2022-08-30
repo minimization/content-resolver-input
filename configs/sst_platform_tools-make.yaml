@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNU Make
+  description: Application build tooling.
+  maintainer: sst_platform_tools
+
+  packages:
+  - make
+  - make-devel
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: efivar
+  description: Tools to manage UEFI variables
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    armv7hl:
+      - efivar
+    aarch64:
+      - efivar
+    x86_64:
+      - efivar

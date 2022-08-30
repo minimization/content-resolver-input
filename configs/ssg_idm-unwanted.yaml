@@ -1,0 +1,45 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - ssg_idm
+  description: Packages that the Identity Management subsystem does not want to distribute in RHEL 9
+  maintainer: ssg_idm
+
+  unwanted_packages:
+  # Drop support from RHEL-9 (replaced by SSSD)
+  - nss-pam-ldapd
+
+  # Winbind is required in Samba in RHEL-8, SSSD integrates with it directly
+  - sssd-libwbclient
+
+  # Removed in RHEL-8.0, see https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/7.8_release_notes/deprecated_functionality#deprecated_packages
+  - sssd-secrets
+  - authconfig
+  - pam_pkcs11
+  - pam_krb5
+  - openldap-servers
+  - mod_auth_kerb
+  - python-kerberos
+  - python-krbV
+  - python-requests-kerberos
+  - mod_nss
+  - mod_revocator
+  - pam_radius
+  - freeradius-client
+
+  # Not supported in RHEL (https://bugzilla.redhat.com/show_bug.cgi?id=910464)
+  - samba-dc
+
+  # Not supported in RHEL - call libkrb5 directly instead
+  - golang-github-jcmturner-gokrb5
+
+  # Deprecated (see https://pypi.org/project/pytest-runner/) and vulnerable
+  # Removed dependency from IdM (https://bugzilla.redhat.com/show_bug.cgi?id=1961613)
+  - python-pytest-runner
+
+  # Custodia was merged into IPA, https://pagure.io/freeipa/issue/8882
+  - custodia
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python requests
+  description: Python HTTP library
+  maintainer: sst_cs_apps
+
+  packages:
+  - python3-requests
+
+  labels:
+  - eln
+  - c9s

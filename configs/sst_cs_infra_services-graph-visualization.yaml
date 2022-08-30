@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Graph visualization
+  description: Graph visualization software
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - graphviz
+
+  labels:
+  - eln
+  - c9s

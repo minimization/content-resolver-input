@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Dconf Editor
+  description: Viewer and editor of applications internal settings in Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - dconf-editor
+
+  labels:
+  - eln
+  - c9s

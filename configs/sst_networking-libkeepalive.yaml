@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libkeepalive
+  description: >
+    Allow enabling TCP keepalive on applications that don't allow such
+    configuration.
+  maintainer: sst_networking
+  packages:
+  - libkeepalive
+
+  labels:
+  - eln
+  - c9s

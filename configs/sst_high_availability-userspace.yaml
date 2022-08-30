@@ -1,0 +1,158 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HA
+  description: HA needed packages
+  maintainer: sst_high_availability
+
+  packages: []
+
+  package_placeholders:
+    fence-agents-aliyun:
+      description: This package is only provided in RHEL
+    python3-gflags:
+      description: This package is only provided in RHEL
+    resource-agents-aliyun:
+      description: This package is only provided in RHEL
+    resource-agents-gcp:
+      description: This package is only provided in RHEL
+
+  arch_packages:
+    # No packages from HA currently support aarch64.
+    # aarch64:
+
+    ppc64le:
+    - booth
+    - booth-arbitrator
+    - booth-core
+    - booth-site
+    - booth-test
+    - corosync-qdevice
+    - corosync-qnetd
+    - corosynclib-devel
+    - fence-agents-all
+    - fence-virt
+    - fence-virtd
+    - fence-virtd-libvirt
+    - fence-virtd-multicast
+    - fence-virtd-serial
+    - fence-virtd-tcp
+    - haproxy
+    - ipvsadm
+    - keepalived
+    - libknet1
+    - libknet1-compress-bzip2-plugin
+    - libknet1-compress-lz4-plugin
+    - libknet1-compress-lzma-plugin
+    - libknet1-compress-lzo2-plugin
+    - libknet1-compress-plugins-all
+    - libknet1-compress-zlib-plugin
+    - libknet1-crypto-openssl-plugin
+    - libknet1-crypto-plugins-all
+    - libknet1-devel
+    - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
+    - pacemaker-cts
+    - pacemaker-doc
+    - pacemaker-libs-devel
+    - pacemaker-nagios-plugins-metadata
+    - pacemaker-remote
+    - pcs
+    - pcs-snmp
+    - resource-agents
+    - sbd
+    - spausedd
+
+    s390x:
+    - booth
+    - booth-arbitrator
+    - booth-core
+    - booth-site
+    - booth-test
+    - corosync-qdevice
+    - corosync-qnetd
+    - corosynclib-devel
+    - fence-agents-all
+    - fence-virt
+    - fence-virtd
+    - fence-virtd-libvirt
+    - fence-virtd-multicast
+    - fence-virtd-serial
+    - fence-virtd-tcp
+    - haproxy
+    - ipvsadm
+    - keepalived
+    - libknet1
+    - libknet1-compress-bzip2-plugin
+    - libknet1-compress-lz4-plugin
+    - libknet1-compress-lzma-plugin
+    - libknet1-compress-lzo2-plugin
+    - libknet1-compress-plugins-all
+    - libknet1-compress-zlib-plugin
+    - libknet1-crypto-openssl-plugin
+    - libknet1-crypto-plugins-all
+    - libknet1-devel
+    - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
+    - pacemaker-cts
+    - pacemaker-doc
+    - pacemaker-libs-devel
+    - pacemaker-nagios-plugins-metadata
+    - pacemaker-remote
+    - pcs
+    - pcs-snmp
+    - resource-agents
+    - sbd
+    - spausedd
+
+    x86_64:
+    - booth
+    - booth-arbitrator
+    - booth-core
+    - booth-site
+    - booth-test
+    - corosync-qdevice
+    - corosync-qnetd
+    - corosynclib-devel
+    - fence-agents-all
+    - fence-virt
+    - fence-virtd
+    - fence-virtd-libvirt
+    - fence-virtd-multicast
+    - fence-virtd-serial
+    - fence-virtd-tcp
+    - haproxy
+    - ipvsadm
+    - keepalived
+    - libknet1
+    - libknet1-compress-bzip2-plugin
+    - libknet1-compress-lz4-plugin
+    - libknet1-compress-lzma-plugin
+    - libknet1-compress-lzo2-plugin
+    - libknet1-compress-plugins-all
+    - libknet1-compress-zlib-plugin
+    - libknet1-crypto-openssl-plugin
+    - libknet1-crypto-plugins-all
+    - libknet1-devel
+    - libknet1-plugins-all
+    - libnozzle1
+    - libnozzle1-devel
+    - omping
+    - pacemaker-cts
+    - pacemaker-doc
+    - pacemaker-libs-devel
+    - pacemaker-nagios-plugins-metadata
+    - pacemaker-remote
+    - pcs
+    - pcs-snmp
+    - resource-agents
+    - sbd
+    - spausedd
+
+  labels:
+  - eln
+  - c9s

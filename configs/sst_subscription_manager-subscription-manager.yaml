@@ -1,0 +1,79 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Subscripiton Manager
+  description: Manages subscriptions and yum repositories.
+  maintainer: sst_subscription_manager
+
+  packages:
+    - subscription-manager-cockpit
+    - rhsm-icons
+  
+  unwanted_packages:
+  - libXpresent
+
+  labels:     
+  - eln       
+  - c9s
+
+
+  arch_packages:    
+    aarch64:
+    - libdnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - subscription-manager
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    # asamalik: leaving out debuginfo packages, they're special and not in the repos
+    #- libdnf-plugin-subscription-manager-debuginfo
+    #- python3-subscription-manager-rhsm-debuginfo
+    #- subscription-manager-debuginfo
+    #- subscription-manager-debugsource
+
+    i686:
+    - libdnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - subscription-manager
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    # asamalik: leaving out debuginfo packages, they're special and not in the repos
+    #- libdnf-plugin-subscription-manager-debuginfo
+    #- python3-subscription-manager-rhsm-debuginfo
+    #- subscription-manager-debuginfo
+    #- subscription-manager-debugsource
+
+    ppc64le:
+    - libdnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - subscription-manager
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    # asamalik: leaving out debuginfo packages, they're special and not in the repos
+    #- libdnf-plugin-subscription-manager-debuginfo
+    #- python3-subscription-manager-rhsm-debuginfo
+    #- subscription-manager-debuginfo
+    #- subscription-manager-debugsource
+
+    s390x:
+    - libdnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - subscription-manager
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    # asamalik: leaving out debuginfo packages, they're special and not in the repos
+    #- libdnf-plugin-subscription-manager-debuginfo
+    #- python3-subscription-manager-rhsm-debuginfo
+    #- subscription-manager-debuginfo
+    #- subscription-manager-debugsource
+
+    x86_64:
+    - libdnf-plugin-subscription-manager
+    - python3-subscription-manager-rhsm
+    - subscription-manager
+    - subscription-manager-plugin-ostree
+    - subscription-manager-rhsm-certificates
+    # asamalik: leaving out debuginfo packages, they're special and not in the repos
+    #- libdnf-plugin-subscription-manager-debuginfo
+    #- python3-subscription-manager-rhsm-debuginfo
+    #- subscription-manager-debuginfo
+    #- subscription-manager-debugsource

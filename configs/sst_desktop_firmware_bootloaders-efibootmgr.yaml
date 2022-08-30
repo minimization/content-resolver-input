@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: efibootmgr
+  description: EFI Boot Manager
+  maintainer: sst_desktop_firmware_bootloaders
+
+  packages: []
+
+  labels:
+  - eln
+  - c9s
+
+  arch_packages:
+    armv7hl:
+      - efibootmgr
+    aarch64:
+      - efibootmgr
+    x86_64:
+      - efibootmgr

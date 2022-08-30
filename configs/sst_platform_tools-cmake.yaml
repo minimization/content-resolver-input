@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CMake
+  description: Build configuration generator.
+  maintainer: sst_platform_tools
+
+  packages:
+  - cmake
+  - cmake-filesystem
+  - cmake-gui
+  - cmake-data
+  - cmake-doc
+  - cmake-rpm-macros
+
+  labels:
+  - eln
+  - c9s

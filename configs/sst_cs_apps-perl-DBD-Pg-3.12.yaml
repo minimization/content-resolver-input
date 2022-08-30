@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-DBD-Pg:3.12 module
+  description: Perl client for PostgreSQL
+  maintainer: sst_cs_apps
+  labels:
+  - eln
+  - c9s
+  packages:
+  - perl-DBD-Pg

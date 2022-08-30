@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CS Infra Services - Testig packages
+  description: Packages needed for testing of other packages
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - imaptest
+  - net-tools
+
+  labels:
+  - eln-test

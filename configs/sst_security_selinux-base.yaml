@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SELinux - Base
+  description: A base set for SELinux policy management
+  maintainer: sst_security_selinux
+
+  packages:
+  - libsepol
+  - libselinux
+  - libselinux-utils
+  - libsemanage
+  - policycoreutils
+  - policycoreutils-python-utils
+  - policycoreutils-restorecond
+  - mcstrans
+  - selinux-policy-targeted
+  - selinux-policy-mls
+  - selinux-policy-sandbox
+  - selinux-policy-doc
+
+  labels:
+  - eln
+  - c9s

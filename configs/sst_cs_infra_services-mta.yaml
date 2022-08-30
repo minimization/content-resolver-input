@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Mail Transfer Agent (MTA)
+  description: Software for transfering electronic mail between computers
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - postfix
+  - postfix-cdb
+  - postfix-ldap
+  - postfix-mysql
+  - postfix-pcre
+  - postfix-perl-scripts
+  - postfix-pgsql
+  - postfix-sqlite
+  - sendmail
+  - sendmail-cf
+  - sendmail-doc
+  - sendmail-milter
+
+  labels:
+  - eln
+  - c9s

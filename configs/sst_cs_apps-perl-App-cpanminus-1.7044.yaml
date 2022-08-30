@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-App-cpanminus:1.7044 module
+  description: CPAN package manager
+  maintainer: sst_cs_apps
+  labels:
+  - eln
+  - c9s
+  packages:
+  - perl-App-cpanminus
+  - perl-CPAN-Meta-Check
+  - perl-File-pushd
+  - perl-Module-CPANfile
+  - perl-Parse-PMFile
+  - perl-String-ShellQuote

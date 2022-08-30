@@ -1,0 +1,105 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: Fedora ELN (backed by rawhide)
+  description: Fedora ELN with rawhide as a backup for missing packages
+  maintainer: asamalik
+  source:
+
+    repos:
+      
+      BaseOS:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/BaseOS/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
+
+      AppStream:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/AppStream/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
+
+      CRB:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/CRB/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 1
+
+      HA:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/HighAvailability/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["aarch64", "ppc64le", "s390x", "x86_64"]
+        priority: 2
+
+      NFV:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/NFV/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["x86_64"]
+        priority: 2
+
+      RT:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/RT/$basearch/os/
+        priority: 50
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["x86_64"]
+
+      RS:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/ResilientStorage/$basearch/os/
+        priority: 50
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["ppc64le", "s390x", "x86_64"]
+
+      SAP:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/SAP/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["ppc64le", "s390x", "x86_64"]
+        priority: 2
+
+      SAPHANA:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/SAPHANA/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        limit_arches: ["ppc64le", "x86_64"]
+        priority: 2
+
+      Extras:
+        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Extras/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 3
+      
+      Rawhide:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        priority: 4
+
+    releasever: "rawhide"
+    
+    architectures:
+    - aarch64
+    - ppc64le
+    - s390x
+    - x86_64
+
+    composeinfo: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/metadata/composeinfo.json
+
+    base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']

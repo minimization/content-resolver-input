@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Accessibility
+  description: Packages to support accessibility in Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - orca
+  - festival
+  - speech-dispatcher
+  - at-spi2-atk
+  - at-spi2-core
+
+  labels:
+  - eln

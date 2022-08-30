@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Logs
+  description: Viewer for the systemd journal in Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - gnome-logs
+
+  labels:
+  - eln
+  - c9s

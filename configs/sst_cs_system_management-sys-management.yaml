@@ -1,0 +1,127 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System management - CS system management
+  description: Packages for managing Linux system from CS system management SST
+  maintainer: sst_cs_system_management
+
+  packages:
+  - babl-devel
+  - babl-devel-docs
+  - basesystem
+  - bc
+  - dcraw
+  - diffstat
+  - diffutils
+  - dos2unix
+  - eigen3-devel
+  - freeipmi
+  - freeipmi-devel
+  - gpm
+  - gpm-devel
+  - gpm-libs
+  - ipmitool
+  - iprutils
+  - jasper-devel
+  - libgphoto2-devel
+  - librabbitmq
+  - librabbitmq-devel
+  - libsmi
+  - libsmi-devel
+  - libsndfile
+  - libsndfile-devel
+  - libva
+  - libva-devel
+  - mksh
+  - modulemd-tools
+  - netpbm-devel
+  - netpbm-doc
+  - netpbm-progs
+  - opencryptoki
+  - opencryptoki-devel
+  - opencryptoki-icsftok
+  - opencryptoki-libs
+  - opencryptoki-swtok
+  - OpenIPMI
+  - OpenIPMI-devel
+  - openwsman-server
+  - passwd
+  - patch
+  - patchutils
+  - python3-volume_key
+  - rootfiles
+  - sblim-cmpi-base
+  - sblim-indication_helper
+  - sblim-sfcb
+  - sblim-sfcc-devel
+  - sblim-wbemcli
+  - symlinks
+  - tesseract
+  - tesseract-devel
+  - tesseract-langpack-eng
+  - tesseract-tessdata-doc
+  - tmpwatch
+  - tracer
+  - usermode
+  - usermode-gtk
+  - uuid
+  - uuid-devel
+  - volume_key
+  - volume_key-devel
+  - volume_key-libs
+  - which
+  - wsmancli
+  - Xaw3d
+  - Xaw3d-devel
+  - mpfr
+  - mpfr-devel
+  - openexr
+  - openexr-devel
+  - openexr-libs
+  - imath
+  - imath-devel
+  - python3-imath
+  - watchdog
+
+  arch_packages:
+    #setserial not supported on s390x
+    aarch64:
+    - setserial
+    i686:
+    - setserial
+    x86_64:
+    - setserial
+    ppc64le:
+    - setserial
+    - opal-prd
+    - opal-utils
+    - opal-firmware
+    - powerpc-utils
+    - powerpc-utils-core
+    - ppc64-diag
+    - ppc64-diag-rtas
+    - libvpd
+    - libvpd-devel
+    - lsvpd
+    - libservicelog
+    - libservicelog-devel
+    - librtas
+    - librtas-devel
+    - servicelog
+    s390x:
+    - opencryptoki-ccatok
+    - opencryptoki-ep11tok
+    - opencryptoki-icatok
+
+  package_placeholders:
+    rhel-system-roles-sap:
+      srpm: rhel-system-roles-sap
+      description: system roles for SAP
+      requires: []
+      limit_arches:
+        - x86_64
+        - ppc64le
+
+  labels:
+  - eln
+  - c9s

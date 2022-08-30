@@ -1,0 +1,31 @@
+---
+data:
+  description: Automatically generated.
+  labels:
+  - c9s
+  maintainer: bakery
+  name: ACG Level 1 Packages for RHEL 7
+  packages:
+  - alsa-lib
+  - elfutils-libelf
+  - glibc
+  - glibc-utils
+  - gtk2
+  - krb5-libs
+  - libgcc
+  - libgfortran
+  - libgomp
+  - libstdc++
+  - libusb
+  - libvirt-client
+  - libxml2
+  - libxslt
+  - mesa-libGL
+  - mesa-libGLU
+  - motif
+  - nss_hesiod
+  - pam
+  - SDL
+  - tbb-devel
+document: feedback-pipeline-workload
+version: 1

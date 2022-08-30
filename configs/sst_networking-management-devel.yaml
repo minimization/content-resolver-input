@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Network Management in Development
+  description: The Network Management tools for the development environment.
+  maintainer: sst_networking
+  packages:
+  # Core
+  - iproute
+  - dhcp-client
+  - dnsmasq
+  - NetworkManager
+  - NetworkManager-tui
+
+  # Others
+  - bluez-libs-devel
+  - NetworkManager-libnm-devel
+  - ModemManager-devel
+  - ModemManager-glib-devel
+
+  labels:
+  - eln
+  - c9s

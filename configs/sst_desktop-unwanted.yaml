@@ -1,0 +1,60 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Desktop - Blocked packages
+  description: Desktop - Packages which should not be in ELN
+  maintainer: sst_desktop
+  unwanted_packages:
+  # Future candidates:
+  # - libgnomekbd
+  # quvi is disabled as a dependency of Totem in RHEL
+  - libquvi-scripts
+  - libquvi
+  - lua-expat
+  - lua-lunit
+  - lua-socket
+  # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
+  - libgpod
+  - media-player-info
+  - rhythmbox
+  # Support for file access for iPhones/iPads dropped from RHEL 9
+  - libimobiledevice
+  - libplist
+  - libusbmuxd
+  - usbmuxd
+  # DLNA support dropped from RHEL 9
+  - gssdp
+  - gupnp-av
+  - gupnp-dlna
+  - gupnp-igd
+  - gupnp
+  - dleyna-connector-dbus
+  - dleyna-core
+  - dleyna-renderer
+  - dleyna-server
+  # Replaced by gnome-session-kiosk-session
+  - metacity
+  # Mouse a11y is now provided by gnome-shell
+  - mousetweaks
+  - gnome-themes-standard
+  # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
+  - mozjs52
+  - mozjs60
+  - mozjs68
+  # Old or deprecated or unwanted or unused stuff
+  - libIDL
+  - redhat-menus
+  - dbus-c++
+  - libcroco
+  - enca
+  - libchamplain
+  - libbluray
+  - libdmapsharing
+  - gnome-shell-extension-horizontal-workspaces
+  # tracker3 renamed to tracker in F34+
+  - tracker3
+  - tracker3-miners
+  # libhandy1 renamed to libhandy in F34+
+  - libhandy1
+  labels:
+  - c9s

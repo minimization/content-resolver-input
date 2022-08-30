@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: binutils/annobin/tbb
+  description: Set of packages that GCC depends on
+  maintainer: sst_platform_tools
+
+  packages:
+  - binutils
+  - binutils-devel
+  - binutils-gold
+  - annobin
+  - annobin-annocheck
+  - python3-tbb
+  - tbb
+  - tbb-devel
+  - tbb-doc
+
+  labels:
+  - eln
+  - c9s

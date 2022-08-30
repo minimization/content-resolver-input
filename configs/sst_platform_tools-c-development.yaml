@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C Development Environment
+  description: A minimal C development environment.
+  maintainer: sst_platform_tools
+
+  packages:
+  # The minimum development environment is this:
+  - gcc
+  - binutils
+  - glibc
+  - glibc-common
+  - glibc-devel
+  # We support only the C/POSIX/C.UTF-8 locales.
+  - glibc-minimal-langpack
+
+  labels:
+  - eln
+  - c9s

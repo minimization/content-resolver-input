@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Scanning Stack
+  description: Suite of software needed for scanning on Linux
+  maintainer: sst_cs_infra_services
+
+  packages:
+  # tools
+  - sane-backends
+  - sane-backends-daemon
+  - sane-backends-doc
+  - xsane
+  # drivers, hw enablement
+  - libsane-hpaio
+  - sane-backends-drivers-cameras
+  - sane-backends-drivers-scanners
+
+  labels:
+  - eln
+  - c9s

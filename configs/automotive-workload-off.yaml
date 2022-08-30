@@ -1,0 +1,115 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Automotive off-vehicle package set
+  description: >
+    The set of packages representing the automotive extra, off-vehicle
+    content.  This workload builds on top of the in-vehicle content and
+    extends it with various development tools.
+  # Contacts: psabata, ssmoogen
+  maintainer: automotive-base-enablement
+  labels:
+    - automotive
+  options:
+    - include-docs
+  packages:
+    - acl
+    - autoconf
+    - automake
+    - bc
+    - binutils
+    - bison
+    - boost-devel
+    - brotli
+    - brotli-devel
+    - bzip2-devel
+    - chrony
+    - cmake
+    - cpio
+    - curl
+    - dhcp-client
+    - diffutils
+    - dnf
+    - dosfstools
+    - dwarves
+    - elfutils-devel
+    - emacs-nox
+    - findutils
+    - flex
+    - freetype-devel
+    - gawk
+    - gawk-all-langpacks
+    - gdb
+    - gcc
+    - gcc-c++
+    - gcc-plugin-devel
+    - git
+    - glibc-devel
+    - harfbuzz
+    - harfbuzz-devel
+    - inih
+    - jq
+    - kpartx
+    - libcurl-devel
+    - libedit
+    - libjpeg-turbo
+    - libjpeg-turbo-devel
+    - libogg
+    - libogg-devel
+    - libpng
+    - libpng-devel
+    - libstdc++-devel
+    - libtiff
+    - libtiff-devel
+    - libtool
+    - libvorbis-devel
+    - libwebp-devel
+    - libxcrypt-compat
+    - libxmlb
+    - libzstd-devel
+    - m4
+    - make
+    - memstrack
+    - mtools
+    - nano
+    - ncurses-devel
+    - net-tools
+    - openssh-clients
+    - openssh-server
+    - openssl-devel
+    - openssl-pkcs11
+    - opus-devel
+    - patch
+    - perl-Carp
+    - perl-devel
+    - perl-interpreter
+    - pigz
+    - pkgconf
+    - polkit
+    - python3
+    - python3-devel
+    - python3-iniparse
+    - python3-libs
+    - python3-pip-wheel
+    - python3-setuptools-wheel
+    - python-unversioned-command
+    - qemu-img
+    - redhat-rpm-config
+    - rng-tools
+    - rootfiles
+    - rpm-build
+    - sed
+    - skopeo
+    - sqlite-devel
+    - strace
+    - sudo
+    - tar
+    - vim-enhanced
+    - wget
+    - xfsprogs
+    - xz
+    - xz-devel
+    - yum
+    - zlib-devel
+    - zstd

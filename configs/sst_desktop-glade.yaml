@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Glade
+  description: A user interface designer for Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - glade
+
+  labels:
+  - eln
+  - c9s

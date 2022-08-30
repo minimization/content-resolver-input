@@ -1,0 +1,72 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Filesystems
+  description: Filesystems needed packages
+  maintainer: sst_filesystems
+
+  packages:
+    - autofs
+    - blktrace
+    - cachefilesd
+    - cifs-utils
+    - cifs-utils-devel
+    - e2fsprogs
+    - fio
+    - fio-engine-http
+    - fio-engine-libaio
+    - fio-engine-nbd
+    - fio-engine-rados
+    - fio-engine-rbd
+    - fio-engine-rdma
+    - fuse
+    - fuse-common
+    - fuse-devel
+    - fuse-libs
+    - fuse3
+    - fuse3-devel
+    - fuse3-libs
+    - inih
+    - inih-devel
+    - keyutils
+    - keyutils-libs
+    - keyutils-libs-devel
+    - libnfsidmap
+    - libnfsidmap-devel
+    - libtirpc
+    - libtirpc-devel
+    - nfs-utils
+    - nfs-utils-coreos
+    - nfs4-acl-tools
+    - pam_cifscreds
+    - rpcbind
+    - rpcgen
+    - rpcsvc-proto-devel
+    - xfsdump
+    - xfsprogs
+    - xfsprogs-xfs_scrub
+
+  arch_packages:
+    # gfs2 packages are not supported on aarch64.
+    # aarch64:
+    # - gfs2-utils
+    # - pcp-pmda-gfs2
+
+    ppc64le:
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+    s390x:
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+    x86_64:
+    - fio-engine-dev-dax
+    - fio-engine-libpmem
+    - fio-engine-pmemblk
+    - gfs2-utils
+    - pcp-pmda-gfs2
+
+  labels:
+  - eln
+  - c9s

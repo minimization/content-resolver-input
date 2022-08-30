@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Multimedia libraries
+  description: Libraries for managing multimedia content
+  maintainer: sst_gpu
+
+  packages:
+    - gstreamer1
+    - gstreamer1-plugins-base
+    - gstreamer1-plugins-good
+    - gstreamer1-plugins-bad-free
+    - gstreamer1-plugins-ugly-free
+    # Used for preview of camera images as plugin for pixbuf in Files
+    - libopenraw
+
+  labels:
+    - eln
+    - c9s

@@ -1,0 +1,17 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted firewalling packages
+  description: Packages we do not want to ship for firewalling because they're unmaintained or broken.
+  maintainer: sst_networking
+
+  labels:
+  - eln
+  - c9s
+
+  unwanted_packages:
+  - iptstate
+  - bridge-utils
+  - ebtables-legacy
+  - iptables-legacy
+  - iptables-legacy-libs

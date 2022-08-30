@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Devhelp
+  description: Default documentation browser for Workstation
+  maintainer: sst_desktop_applications
+
+  packages:
+  - devhelp
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Screenshot
+  description: Application for taking screenshots in Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - gnome-screenshot
+
+  labels:
+  - eln
+  - c9s

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Calculator
+  description: Calculator application for Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - gnome-calculator
+
+  labels:
+  - eln
+  - c9s

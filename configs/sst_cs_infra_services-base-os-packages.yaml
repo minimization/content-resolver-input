@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Base Operating System packages
+  description: Essential system packages
+  maintainer: sst_cs_infra_services
+
+  packages:
+  - dosfstools
+  - filesystem
+  - grep
+  - lm_sensors
+  - lm_sensors-libs
+  - lm_sensors-sensord
+  - ncurses
+  - ncurses-base
+  - ncurses-term
+  - setup
+  - hostname
+
+  arch_packages:
+    x86_64:
+    - memtest86+
+
+  labels:
+  - eln
+  - c9s
