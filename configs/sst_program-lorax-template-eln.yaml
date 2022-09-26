@@ -43,7 +43,6 @@ data:
   - xrdb
   - xorg-x11-xauth
   - dbus-x11
-  - metacity
   - gsettings-desktop-schemas
   - nm-connection-editor
   - librsvg2
@@ -110,7 +109,6 @@ data:
   - vim-minimal
   - strace
   - lsof
-  - dump
   - less
   - rsync
   - bind-utils
