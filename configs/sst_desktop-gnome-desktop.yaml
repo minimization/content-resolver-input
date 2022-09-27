@@ -43,7 +43,6 @@ data:
   - xdg-user-dirs-gtk
 
   labels:
-  - eln
   - c9s
 
   arch_packages:
