@@ -29,7 +29,7 @@ data:
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
-  - chrome-gnome-shell
+  - gnome-browser-connector
   - low-memory-monitor
   - lcms2
   - power-profiles-daemon
