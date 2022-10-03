@@ -346,5 +346,5 @@ data:
       srpm: qemu-kvm
 
   labels:
-  - eln
+  - eln-extras
   - c9s-openstack
