@@ -11,6 +11,7 @@ data:
   - python3-pytz
   # tomllib is in the Python standard library (PEP 680), use that one instead
   - python3-toml
+  - python3-tomli
 
   # older Python versions
   - python3.9
