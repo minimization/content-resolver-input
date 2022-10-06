@@ -6,7 +6,6 @@ data:
   maintainer: jwboyer
 
   packages:
-  - drpm
   - lorax
   - lorax-templates-rhel
   - anaconda
@@ -48,7 +47,6 @@ data:
   - librsvg2
   - xfsprogs
   - gfs2-utils
-  - system-storage-manager
   - device-mapper-persistent-data
   - xfsdump
   - udisks2
@@ -147,11 +145,8 @@ data:
     - iwl2000-firmware
     - iwl2030-firmware
     - iwl3160-firmware
-    - iwl3945-firmware
-    - iwl4965-firmware
     - iwl5000-firmware
     - iwl5150-firmware
-    - iwl6000-firmware
     - iwl6000g2a-firmware
     - iwl6000g2b-firmware
     - iwl6050-firmware
