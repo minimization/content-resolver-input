@@ -8,8 +8,6 @@ data:
   packages:
   - python3-lxml
   - python3-pyyaml
-  - python3-toml
 
   labels:
   - eln
-  - c9s
