@@ -85,5 +85,9 @@ data:
   - hexchat
   # https://wiki.gnome.org/Initiatives/GnomeGoals/GettextMigration
   - gnome-common
+  # Deprecated in favor of libsoup3
+  # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_One
+  # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_Two
+  - libsoup
   labels:
   - eln
