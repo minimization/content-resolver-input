@@ -40,6 +40,8 @@ data:
     - kernel-automotive
     - linux-firmware-automotive
     - libcurl
+    - libgpiod
+    - libi2c
     - libstdc++
     - libvorbis
     - libwebp
