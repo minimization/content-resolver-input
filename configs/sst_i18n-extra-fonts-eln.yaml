@@ -16,8 +16,7 @@ data:
   - redhat-display-fonts
   - redhat-mono-fonts
   - redhat-text-fonts
-  - smc-rachana-fonts
+  - rit-rachana-fonts
 
   labels:
-  - c9s
-
+  - eln
