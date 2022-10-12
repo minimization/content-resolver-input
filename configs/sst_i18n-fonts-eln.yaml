@@ -42,9 +42,9 @@ data:
   - sil-abyssinica-fonts
   - sil-nuosu-fonts
   - sil-padauk-fonts
-  - smc-meera-fonts
+  - rit-meera-new-fonts
   - stix-fonts
   - thai-scalable-waree-fonts
 
   labels:
-  - c9s
+  - eln
