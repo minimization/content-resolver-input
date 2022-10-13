@@ -48,6 +48,8 @@ data:
     - libzfcphbaapi
     - libzfcphbaapi-devel
     - libzfcphbaapi-docs
+    - libzpc
+    - libzpc-devel
     - openssl-ibmca
     - s390utils
     - s390utils-base
