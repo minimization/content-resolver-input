@@ -1,12 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: pablomh packages
-  description: Pablo Méndez Hernández ELN Extras packages
-  maintainer: pablomh
+  name: RHEL packager
+  description: ELN Extras packages for RHEL maintainers
+  maintainer: carlwgeorge
 
   packages:
   - NetworkManager-openvpn-gnome
+  - centpkg
 
   labels:
   - eln-extras
