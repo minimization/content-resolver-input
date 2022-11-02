@@ -14,11 +14,6 @@ Option 2: Almost every page under [Results](https://tiny.distro.builders/workloa
 
 In both cases, you can edit the config and send a PR right from your web browser.
 
-## History before 2022-08-30 11:25:25 UTC
+## History rewrite on 2022-11-02
 
-The history before 2022-08-30 11:25:25 UTC is archived in the [minimization/content-resolver-input-archive](https://github.com/minimization/content-resolver-input-archive) repository.
-
-The files here are unchanged, just removed the history,
-because it contained the massive buildroot files
-we no longer use. This should significantly speed up
-cloning of this repo.
+The history of the repo was rewritten to remove bulky blobs, which means that SHA1 hashes have changed. Commit references in git messages *were* updated, but external references will be wrong. Previous versions of history are archived in the [minimization/content-resolver-input-archive](https://github.com/minimization/content-resolver-input-archive) repository.
