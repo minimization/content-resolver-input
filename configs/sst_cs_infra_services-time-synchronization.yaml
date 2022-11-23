@@ -9,6 +9,7 @@ data:
   - chrony
   - linuxptp
   - ntpstat
+  - synce4l
 
   labels:
   - eln
