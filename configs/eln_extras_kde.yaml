@@ -111,7 +111,6 @@ data:
   - kf5-grantleetheme
   - kf5-kactivities
   - kf5-kactivities-stats
-  - kf5-kalarmcal
   - kf5-kapidox
   - kf5-karchive
   - kf5-kauth
@@ -237,7 +236,6 @@ data:
   - khangman
   - khelpcenter
   - khotkeys
-  - kig
   - kigo
   - kile
   - killbots
@@ -268,8 +266,6 @@ data:
   - kolourpaint-libs
   - kompare
   - kompare-libs
-  - konqueror
-  - konqueror-libs
   - konquest
   - konsole5
   - konsole5-part
@@ -533,6 +529,8 @@ data:
     - kmail-libs
     - knotes
     - knotes-libs
+    - konqueror
+    - konqueror-libs
     - kontact
     - kontact-libs
     - korganizer
@@ -590,6 +588,8 @@ data:
     - kmail-libs
     - knotes
     - knotes-libs
+    - konqueror
+    - konqueror-libs
     - kontact
     - kontact-libs
     - korganizer
