@@ -28,6 +28,7 @@ data:
   - dolphin-plugins
   - dragon
   - extra-cmake-modules
+  - ffmpegthumbs
   - filelight
   - granatier
   - gwenview
