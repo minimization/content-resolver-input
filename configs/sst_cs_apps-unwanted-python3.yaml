@@ -25,6 +25,7 @@ data:
   # Python Maint prefers the standard library venv module
   - python3-virtualenv
   # tox depends on virtualenv, and generally isn't something we want to support in RHEL
+  - python3-hatchling
   - python3-tox
   - tox
 
