@@ -54,6 +54,7 @@ data:
   # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
   - python3-coverage
   - python3-pytest-cov
+  - python3-codecov
 
   # Many  packages lint code in %check, we should not need to do that in RHEL (or even in Fedora)
   - black
