@@ -65,7 +65,6 @@ data:
   - python-pytest-expect
   - python-pytest-doctestplus
   - python-numpydoc
-  - python-sphinx
   - python-sphinx-gallery
   - python-sphinx-testing
   - python-nbsphinx
