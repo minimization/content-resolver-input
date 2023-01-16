@@ -100,6 +100,7 @@ data:
   # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
   - python3-Pallets-Sphinx-Themes
   - python3-sphinx-theme-py3doc-enhanced
+  - python3-pydata-sphinx-theme
 
   labels:
   - eln
