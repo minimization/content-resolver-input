@@ -44,6 +44,7 @@ data:
   - python3-jupyter-core
   - python3-matplotlib
   - python3-nb2plots
+  - python3-nbclient
   - python3-nbconvert
   - python3-nbsphinx
   - python3-notebook
