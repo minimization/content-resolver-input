@@ -17,7 +17,6 @@ data:
   - udisks2-zram
   # Marking these packages as unwanted to remove platform_storage from
   # consideration of ownership.
-  - python-psutil
   - rust-packaging
   # - kernel-rt.0010.0055
   # sst_platform_storage owns this, but there isn't a package in Fedora.
