@@ -7,18 +7,24 @@ data:
 
   packages:
   - atop
+  - btrfs-progs
   - ccache
   - dbench
-  - dcrpm
   - drgn
+  - duo_unix
+  - duo_unix-selinux
   - et
   - htop
   - fping
+  - libbtrfs
+  - libbtrfsutil
   - libkdumpfile-devel
   - mosh
   - neovim
   - netconsd
   - ngrep
+  - pam_duo
+  - python3-btrfsutil
   - python3-pystemd
   - python3-testslide
   - screen
