@@ -102,6 +102,58 @@ data:
   - python3-sphinx-theme-py3doc-enhanced
   - python3-pydata-sphinx-theme
 
+  # components for the above
+  unwanted_source_packages:
+  - python3.5
+  - python3.6
+  - python3.7
+  - python3.8
+  - pypy
+  - pypy2
+  - pypy3
+  - python-virtualenv
+  - python-tox
+  - python-nose
+  - python-pytest4
+  - python-pytoml
+  - python-ipykernel
+  - ipython
+  - python-ipywidgets
+  - python-jedi
+  - python-jupyter-client
+  - python-jupyter-core
+  - python-matplotlib
+  - python-nb2plots
+  - python-nbclient
+  - python-nbconvert
+  - python-nbsphinx
+  - python-notebook
+  - python-numpydoc
+  - python-pandas
+  - sympy
+  - python-coverage
+  - python-pytest-cov
+  - python-codecov
+  - python-black
+  - python-pycodestyle
+  - pylint
+  - pyflakes
+  - python-flake8
+  - python-isort
+  - python-funcsigs
+  - python-hypothesis
+  - breezy
+  - python-pillow
+  - python-pretend
+  - python-sure
+  - python-freezegun
+  - python-trustme
+  - python-html5lib
+  - python-tornado
+  - python-twisted
+  - python-Pallets-Sphinx-Themes
+  - python-sphinx-theme-py3doc-enhanced
+
   labels:
   - eln
   - c9s
