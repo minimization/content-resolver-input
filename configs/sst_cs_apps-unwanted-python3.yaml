@@ -37,6 +37,7 @@ data:
   # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
   - python-jupyter-filesystem
   - python3-ipykernel
+  - python3-ipyparallel
   - python3-ipython
   - python3-ipywidgets
   - python3-jedi
@@ -117,6 +118,7 @@ data:
   - python-pytest4
   - python-pytoml
   - python-ipykernel
+  - python-ipyparallel
   - ipython
   - python-ipywidgets
   - python-jedi
