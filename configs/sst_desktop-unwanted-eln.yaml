@@ -89,5 +89,8 @@ data:
   # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_One
   # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_Two
   - libsoup
+  # The functionality was moved into GNOME Shell itself
+  # https://pagure.io/fedora-workstation/issue/277
+  - gnome-screenshot
   labels:
   - eln
