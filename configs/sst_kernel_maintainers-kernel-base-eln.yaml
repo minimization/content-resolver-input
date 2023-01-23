@@ -19,6 +19,7 @@ data:
         - iwl6000g2b-firmware
         - iwl6050-firmware
         - iwl7260-firmware
+        - iwlax2xx-firmware
         - kernel
         - kernel-abi-stablelists
         - kernel-core
@@ -35,7 +36,7 @@ data:
         - perf
         - python3-perf
     labels:
-        - c9s
+        - eln
     arch_packages:
         s390x:
             - kernel-zfcpdump
