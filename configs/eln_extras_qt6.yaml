@@ -42,7 +42,11 @@ data:
   arch_packages:
     aarch64:
     - qt6ct
+    - qt6-qtwebengine
+    - qt6-qtwebengine-devtools
     ppc64le:
     - qt6ct
     x86_64:
     - qt6ct
+    - qt6-qtwebengine
+    - qt6-qtwebengine-devtools
