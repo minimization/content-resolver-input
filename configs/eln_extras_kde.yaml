@@ -76,6 +76,7 @@ data:
   - kdegraphics-mobipocket
   - kdegraphics-thumbnailers
   - kde-gtk-config
+  - kdenlive
   - kde-partitionmanager
   - kdeplasma-addons
   - kde-print-manager
