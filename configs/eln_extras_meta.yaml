@@ -7,31 +7,39 @@ data:
 
   packages:
   - atop
+  - btrd
   - btrfs-progs
   - ccache
+  - compsize
   - dbench
   - drgn
   - duo_unix
   - duo_unix-selinux
   - et
   - htop
+  - iotools
   - fping
   - libbtrfs
   - libbtrfsutil
   - libkdumpfile-devel
   - mosh
+  - msr-tools
   - neovim
   - netconsd
   - ngrep
+  - packetdrill
+  - packetdrill-data
   - pam_duo
   - python3-btrfsutil
   - python3-pystemd
   - python3-testslide
   - screen
   - sdparm
+  - sedutil
   - stress
   - stressapptest
   - strongswan
+  - tpm-tools
 
   labels:
   - eln-extras
