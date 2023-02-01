@@ -7,10 +7,13 @@ data:
 
   packages:
   - atop
+  - awscli
+  - azure-cli
   - btrd
   - btrfs-progs
   - ccache
   - compsize
+  - ctags
   - dbench
   - drgn
   - duo_unix
@@ -22,6 +25,7 @@ data:
   - libbtrfs
   - libbtrfsutil
   - libkdumpfile-devel
+  - mkosi
   - mosh
   - msr-tools
   - neovim
@@ -30,9 +34,12 @@ data:
   - packetdrill
   - packetdrill-data
   - pam_duo
+  - pngquant
   - python3-btrfsutil
   - python3-pystemd
   - python3-testslide
+  - qrencode-devel
+  - ripgrep
   - screen
   - sdparm
   - sedutil
