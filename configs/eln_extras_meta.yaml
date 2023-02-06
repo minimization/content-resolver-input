@@ -9,12 +9,17 @@ data:
   - atop
   - awscli
   - azure-cli
+  - b4
   - btrd
   - btrfs-progs
   - ccache
+  - colm
   - compsize
   - ctags
   - dbench
+  - debian-keyring
+  - debootstrap
+  - dpkg
   - drgn
   - duo_unix
   - duo_unix-selinux
@@ -22,23 +27,35 @@ data:
   - htop
   - iotools
   - fping
+  - keyrings-filesystem
+  - lei
   - libbtrfs
   - libbtrfsutil
+  - libdwarf
+  - libdwarf-devel
   - libkdumpfile-devel
+  - libidn
+  - libidn-devel
   - mkosi
   - mosh
   - msr-tools
+  - ncdu
   - neovim
   - netconsd
   - ngrep
   - packetdrill
   - packetdrill-data
   - pam_duo
+  - pam_krb5
+  - parallel
   - pngquant
+  - pv
   - python3-btrfsutil
   - python3-pystemd
   - python3-testslide
   - qrencode-devel
+  - ragel
+  - retsnoop
   - ripgrep
   - screen
   - sdparm
@@ -47,6 +64,7 @@ data:
   - stressapptest
   - strongswan
   - tpm-tools
+  - ubu-keyring
 
   labels:
   - eln-extras
