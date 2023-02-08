@@ -10,6 +10,7 @@ data:
   - awscli
   - azure-cli
   - b4
+  - below
   - btrd
   - btrfs-progs
   - ccache
@@ -19,10 +20,13 @@ data:
   - dbench
   - debian-keyring
   - debootstrap
+  - dnf5
   - dpkg
   - drgn
   - duo_unix
   - duo_unix-selinux
+  - ebtables-legacy
+  - ebtables-services
   - et
   - htop
   - iotools
@@ -53,6 +57,9 @@ data:
   - python3-btrfsutil
   - python3-pystemd
   - python3-testslide
+  - rpminspect
+  - rpminspect-data-centos
+  - rpminspect-data-fedora
   - qrencode-devel
   - ragel
   - retsnoop
