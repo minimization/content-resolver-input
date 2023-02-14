@@ -7,35 +7,52 @@ data:
 
   packages:
   - can-utils
-  - greenboot
-  - greenboot-reboot
-  - greenboot-status
+  - libgpiod
+  - libgpiod-c++
   - libgpiod-devel
   - libgpiod-utils
   - python3-libgpiod
+  - libi2cd
   - libi2cd-devel
+  - libiio
   - libiio-devel
   - libiio-utils
   - python3-iio
 
   # Packages co-maintained with the CoreOS SST
-  - ostree
-  - rpm-ostree
-  - nss-altfiles
   - coreos-installer
   - coreos-installer-bootinfra
   - coreos-installer-dracut
+  - ignition
+  - ignition-edge
+  - nss-altfiles
+  - ostree
+  - rpm-ostree
 
   arch_packages:
-    x86_64:
-    - greenboot-grub2
-    - greenboot-rpm-ostree-grub2
-    ppc64le:
-    - greenboot-grub2
-    - greenboot-rpm-ostree-grub2
     aarch64:
-    - greenboot-grub2
-    - greenboot-rpm-ostree-grub2
+    - clevis-pin-tpm2
+    - fdo-client
+    - fdo-init
+    - fdo-manufacturing-server
+    - fdo-owner-cli
+    - fdo-owner-onboarding-server
+    - fdo-rendezvous-server
+    - greenboot
+    - greenboot-default-health-checks
+    x86_64:
+    - clevis-pin-tpm2
+    - fdo-client
+    - fdo-init
+    - fdo-manufacturing-server
+    - fdo-owner-cli
+    - fdo-owner-onboarding-server
+    - fdo-rendezvous-server
+    - greenboot
+    - greenboot-default-health-checks
+    ppc64le:
+    - greenboot
+    - greenboot-default-health-checks
 
   labels:
   - eln
