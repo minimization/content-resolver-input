@@ -43,14 +43,19 @@ data:
   - python3-jedi
   - python3-jupyter-client
   - python3-jupyter-core
+  - python3-jupyter-server
   - python3-matplotlib
   - python3-nb2plots
+  - python3-nbclassic
   - python3-nbclient
   - python3-nbconvert
   - python3-nbsphinx
   - python3-notebook
   - python3-numpydoc
   - python3-pandas
+  - python3-pytest-jupyter
+  - python3-pytest-jupyter+client
+  - python3-pytest-jupyter+server
   - python3-sympy
 
   # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
@@ -124,14 +129,17 @@ data:
   - python-jedi
   - python-jupyter-client
   - python-jupyter-core
+  - python-jupyter-server
   - python-matplotlib
   - python-nb2plots
+  - python-nbclassic
   - python-nbclient
   - python-nbconvert
   - python-nbsphinx
   - python-notebook
   - python-numpydoc
   - python-pandas
+  - python-pytest-jupyter
   - sympy
   - python-coverage
   - python-pytest-cov
