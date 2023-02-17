@@ -11,8 +11,5 @@ data:
   - varnish-docs
   - varnish-devel
 
-  modules_enable:
-  - varnish:6.0
-  
   labels:
   - eln
