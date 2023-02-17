@@ -5,9 +5,6 @@ data:
   description: Apache Subversion version control
   maintainer: sst_cs_infra_services
 
-  modules_enable:
-  - subversion:1.14
-
   packages:
   - subversion
   - mod_dav_svn
