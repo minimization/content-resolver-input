@@ -8,9 +8,6 @@ data:
   packages:
   - nginx
   - nginx-all-modules
-
-  modules_enable:
-  - nginx:1.18
   
   labels:
   - eln
