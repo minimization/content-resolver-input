@@ -11,7 +11,9 @@ data:
         - kernel-debug-devel
         - kernel-debug-devel-matched
         - kernel-debug-modules
+        - kernel-debug-modules-core
         - kernel-debug-modules-extra
+        - kernel-debug-uki-virt
         - kernel-devel
         - kernel-devel-matched
         - kernel-headers
@@ -22,6 +24,15 @@ data:
         x86_64:
             - kernel-tools-libs-devel
         aarch64:
+            - kernel-64k-debug
+            - kernel-64k-debug-core
+            - kernel-64k-debug-devel
+            - kernel-64k-debug-devel-matched
+            - kernel-64k-debug-modules
+            - kernel-64k-debug-modules-core
+            - kernel-64k-debug-modules-extra
+            - kernel-64k-devel
+            - kernel-64k-devel-matched
             - kernel-tools-libs-devel
         ppc64le:
             - kernel-tools-libs-devel
