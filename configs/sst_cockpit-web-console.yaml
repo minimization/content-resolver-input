@@ -16,6 +16,8 @@ data:
     - cockpit-storaged
     - cockpit-pcp
     - cockpit-doc
+    # RHEL 4 Edge image management
+    - cockpit-ostree
 
   arch_packages:
     aarch64:
