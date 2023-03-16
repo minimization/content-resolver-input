@@ -55,6 +55,7 @@ data:
     - openssl-libs
     - opus
     - ostree
+    - ostree-compliance-mode
     - passwd
     - podman
     - procps-ng
