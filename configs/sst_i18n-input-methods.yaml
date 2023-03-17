@@ -10,7 +10,6 @@ data:
   - eln
   - c9s
   packages:
-  - gtk2-immodule-xim
   - gtk3-immodule-xim
   - ibus
   - ibus-anthy
@@ -31,6 +30,5 @@ data:
   - ibus-table-chinese-wu
   - ibus-table-chinese-yong
   - ibus-typing-booster
-  - ibus-gtk2
   - ibus-gtk3
   - ibus-wayland
