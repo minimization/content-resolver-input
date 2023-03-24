@@ -67,6 +67,7 @@ data:
   - screen
   - sdparm
   - sedutil
+  - sequoia-keyring-linter
   - stress
   - stressapptest
   - strongswan
