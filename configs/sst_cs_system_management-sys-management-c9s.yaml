@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System management - CS system management for C9S
+  description: Packages for managing Linux system from CS system management SST
+  maintainer: sst_cs_system_management
+
+  packages:
+  - usermode-gtk
+
+  labels:
+  - c9s
