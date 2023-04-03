@@ -20,6 +20,7 @@ data:
   # in-vehicle set without duplicating the base required minimum.  It
   # doesn't mean their reference images need to be ostree-based.
   packages:
+    - aboot-deploy
     - audit
     - boost
     - bzip2
