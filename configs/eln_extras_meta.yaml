@@ -25,6 +25,7 @@ data:
   - drgn
   - duo_unix
   - duo_unix-selinux
+  - ebranch
   - ebtables-legacy
   - ebtables-services
   - et
@@ -55,11 +56,14 @@ data:
   - pngquant
   - pv
   - python3-btrfsutil
+  - python3-dnf-plugin-flunk_dependent_remove
   - python3-pystemd
   - python3-testslide
+  - rpmdistro-repoquery
   - rpminspect
   - rpminspect-data-centos
   - rpminspect-data-fedora
+  - rpmrebuild
   - qrencode-devel
   - ragel
   - retsnoop
