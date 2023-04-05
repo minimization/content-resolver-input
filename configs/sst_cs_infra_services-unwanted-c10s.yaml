@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Core Services Infrastructure Services - Blocked packages
+  description: Core Services Infrastructure Services - Packages which should not be in ELN and C10S
+  maintainer: sst_cs_infra_services
+
+  unwanted_packages:
+  # gutenprint
+  - gutenprint-libs-ui
+
+  labels:
+  - eln
+  - c10s
