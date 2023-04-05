@@ -10,6 +10,7 @@ data:
   - sane-backends
   - sane-backends-daemon
   - sane-backends-doc
+  - xsane
   # drivers, hw enablement
   - libsane-hpaio
   - sane-backends-drivers-cameras
