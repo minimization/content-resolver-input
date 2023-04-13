@@ -70,6 +70,8 @@ data:
     - libzstd-devel
     - m4
     - make
+    - man-db
+    - man-pages
     - memstrack
     - mtools
     - nano
