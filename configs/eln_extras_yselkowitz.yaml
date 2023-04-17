@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: yselkowitz packages
+  description: Yaakov Selkowitzs ELN Extras packages
+  maintainer: yselkowitz
+
+  packages:
+  - bitstower-markets
+  - flatseal
+  - latex2rtf
+  - robodoc
+  - whatip
+  - ttfautohint
+
+  labels:
+  - eln-extras
+
