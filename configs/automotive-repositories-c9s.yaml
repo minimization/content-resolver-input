@@ -14,9 +14,6 @@ data:
       cbs-autosd:
         baseurl: https://buildlogs.centos.org/9-stream/autosd/$basearch/packages-main/
         priority: 0
-      cbs-automotive:
-        baseurl: https://buildlogs.centos.org/9-stream/automotive/$basearch/packages-main/
-        priority: 50
       stream-baseos:
         baseurl: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/BaseOS/$basearch/os/
         priority: 100

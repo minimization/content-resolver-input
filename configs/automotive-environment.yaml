@@ -20,7 +20,6 @@ data:
   # in-vehicle set without duplicating the base required minimum.  It
   # doesn't mean their reference images need to be ostree-based.
   packages:
-    - aboot-deploy
     - audit
     - boost
     - bzip2
@@ -39,7 +38,6 @@ data:
     - jose
     - jq
     - kernel-automotive
-    - linux-firmware-automotive
     - libcurl
     - libgpiod
     - libi2c
@@ -56,7 +54,6 @@ data:
     - openssl-libs
     - opus
     - ostree
-    - ostree-compliance-mode
     - passwd
     - podman
     - procps-ng
