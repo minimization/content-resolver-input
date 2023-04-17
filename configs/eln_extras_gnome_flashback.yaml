@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-flashback eln-extra packages
+  description: Gnome Flashback Desktop ELN Extras packages
+  maintainer: yselkowitz
+
+  packages:
+  - alacarte
+  - gnome-applets
+  - gnome-flashback
+  - gnome-panel
+  - metacity
+
+  labels:
+  - eln-extras
+
