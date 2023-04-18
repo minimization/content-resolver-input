@@ -7,7 +7,6 @@ data:
 
   unwanted_packages:
   - babeltrace
-  - gdb-minimal
 
   unwanted_arch_packages:
     i686:
