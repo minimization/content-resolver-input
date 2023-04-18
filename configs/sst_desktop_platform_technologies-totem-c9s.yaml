@@ -6,8 +6,12 @@ data:
   maintainer: sst_desktop_platform_technologies
 
   packages:
+  - clutter
+  - clutter-gtk
+  - clutter-gst3
+  - cogl
   - totem
   - totem-video-thumbnailer
 
   labels:
-  - eln
+  - c9s
