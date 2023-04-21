@@ -48,7 +48,6 @@ data:
   - pcp-pmda-ds389
   - pcp-pmda-ds389log
   - pcp-pmda-elasticsearch
-  - pcp-pmda-gfs2
   - pcp-pmda-gluster
   - pcp-pmda-gpfs
   - pcp-pmda-gpsd
@@ -125,16 +124,19 @@ data:
     - pcp-pmda-bcc
     - pcp-pmda-bpf
     - pcp-pmda-bpftrace
+    - pcp-pmda-gfs2
     - pcp-pmda-infiniband
     - pcp-pmda-perfevent
     s390x:
     - pcp-pmda-bcc
     - pcp-pmda-bpf
     - pcp-pmda-bpftrace
+    - pcp-pmda-gfs2
     x86_64:
     - pcp-pmda-bcc
     - pcp-pmda-bpf
     - pcp-pmda-bpftrace
+    - pcp-pmda-gfs2
     - pcp-pmda-infiniband
     - pcp-pmda-mssql
     - pcp-pmda-perfevent
