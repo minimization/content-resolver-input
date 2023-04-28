@@ -1,22 +1,14 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: .NET and OpenJDK Unwanted Packages
-  description: Packages that .NET and OpenJDK maintainers do not wish to maintain in RHEL 9
-  maintainer: sst_dotnet_java
+  name: OpenJDK Unwanted Packages
+  description: Packages that OpenJDK maintainers do not wish to maintain in RHEL 9
+  maintainer: sst_java
   labels:
   - eln
   - c9s
 
   unwanted_packages:
-  # We do not want to ship .NET Core 3.1 which will be EOL by late 2022
-  - dotnet-sdk-3.1
-  - dotnet-runtime-3.1
-  - aspnetcore-runtime-3.1
-  # We do not want to ship .NET 5.0 which will be EOL by early 2022
-  - dotnet-sdk-5.0
-  - dotnet-runtime-5.0
-  - aspnetcore-runtime-5.0
   # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
   - java-latest-openjdk
   # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
