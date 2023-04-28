@@ -3,7 +3,7 @@ version: 1
 data:
   name: .NET
   description: .NET and .NET Core SDK, tools and runtime
-  maintainer: sst_dotnet_java
+  maintainer: sst_dotnet
 
   packages: []
   
