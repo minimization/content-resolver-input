@@ -57,6 +57,8 @@ data:
   - opencv-core
   - opencv-doc
   - gphoto2
+  - librx
+  - librx-devel
 
   labels:
   - eln

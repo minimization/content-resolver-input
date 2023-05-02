@@ -15,8 +15,6 @@ data:
   - doxygen-latex
   - help2man
   - latex2html
-  - librx
-  - librx-devel
   - linuxdoc-tools
   - openjade
   - opensp
