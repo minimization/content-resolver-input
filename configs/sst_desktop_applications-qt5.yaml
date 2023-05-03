@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Qt Toolkit
+  name: Qt 5 Toolkit
   description: Software toolkit for developing applications
   maintainer: sst_desktop_applications
 
@@ -71,5 +71,4 @@ data:
   - qt5-qtxmlpatterns-examples
 
   labels:
-  - eln
   - c9s
