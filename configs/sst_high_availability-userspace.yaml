@@ -8,14 +8,34 @@ data:
   packages: []
 
   package_placeholders:
-    fence-agents-aliyun:
+  - srpm_name: fence-agents
+    build_dependencies: []
+    limit_arches:
+    - x86_64
+    - ppc64le
+    - s390x
+    rpms:
+    - rpm_name: fence-agents-aliyun
       description: This package is only provided in RHEL
-    python3-gflags:
+  - srpm_name: python-gflags
+    build_dependencies:
+    - python3-devel
+    rpms:
+    - rpm_name: python3-gflags
       description: This package is only provided in RHEL
-    resource-agents-aliyun:
+      dependencies:
+      - python3      
+  - srpm_name: resource-agents
+    build_dependencies: []
+    limit_arches: []
+    rpms:
+    - rpm_name: resource-agents-cloud
       description: This package is only provided in RHEL
-    resource-agents-gcp:
-      description: This package is only provided in RHEL
+      dependencies:
+      # ha-cloud-support (placeholder)
+      - socat
+      limit_arches:
+      - x86_64
 
   arch_packages:
     # No packages from HA currently support aarch64.
