@@ -38,12 +38,6 @@ data:
   # Miners are mostly broken and other problems
   # https://bugzilla.redhat.com/show_bug.cgi?id=1913643
   - gnome-online-miners
-  # Only Qt5 will be part of RHEL 9
-  - qt
-  - PyQt4
-  # Don't include web engines that are basically unmaintained
-  - qtwebkit
-  - qt5-qtwebkit
   # As SPICE won't be part of RHEL 9, we will ship Boxes as a Flatpak based on RHEL 8 runtime
   # See https://bugzilla.redhat.com/show_bug.cgi?id=1900581
   - gnome-boxes
@@ -51,7 +45,83 @@ data:
   - ImageMagick
   # Functionality moved into Nautilus, see https://pagure.io/fedora-workstation/issue/167
   - file-roller
-  # Deprecated upstream
+  # Only Qt 6 will be part of RHEL 10
+  # Qt 6
+  # Not needed as we have qgnomeplatform in RHEL
+  - qt6ct
+  - qt6-qtwebengine
+  - qt6-qtwebengine-devtools
+  - qt6-qtwebview
+  # Qt 5
+  - adwaita-qt5
+  - python-qt5
+  - qgnomeplatform-qt5
+  - qt5-doc
+  - qt5-rpm-macros
+  - qt5-srpm-macros
+  - qt5-qt3d
+  - qt5-qt3d-examples
+  - qt5-qtbase
+  - qt5-qtbase-common
+  - qt5-qtbase-examples
+  - qt5-qtbase-gui
+  - qt5-qtbase-mysql
+  - qt5-qtbase-odbc
+  - qt5-qtbase-postgresql
+  - qt5-qtbase-static
   - qt5-qtcanvas3d
+  - qt5-qtconnectivity
+  - qt5-qtconnectivity-examples
+  - qt5-qtdeclarative
+  - qt5-qtdeclarative-examples
+  - qt5-qtdeclarative-static
+  - qt5-qtdoc
+  - qt5-qtgraphicaleffects
+  - qt5-qtimageformats
+  - qt5-qtlocation
+  - qt5-qtlocation-examples
+  - qt5-qtmultimedia
+  - qt5-qtmultimedia-examples
+  - qt5-qtquickcontrols
+  - qt5-qtquickcontrols-examples
+  - qt5-qtquickcontrols2
+  - qt5-qtquickcontrols2-examples
+  - qt5-qtscript
+  - qt5-qtscript-examples
+  - qt5-qtsensors
+  - qt5-qtsensors-examples
+  - qt5-qtserialbus
+  - qt5-qtserialbus-examples
+  - qt5-qtserialport
+  - qt5-qtserialport-examples
+  - qt5-qtsvg
+  - qt5-qtsvg-examples
+  - qt5-assistant
+  - qt5-designer
+  - qt5-doctools
+  - qt5-linguist
+  - qt5-qdbusviewer
+  - qt5-qttools
+  - qt5-qttools-common
+  - qt5-qttools-examples
+  - qt5-qttools-libs-designer
+  - qt5-qttools-libs-designercomponents
+  - qt5-qttools-libs-help
+  - qt5-qttools-static
+  - qt5-qttranslations
+  - qt5-qtwayland
+  - qt5-qtwayland-examples
+  - qt5-qtwebkit
+  - qt5-qtwebchannel
+  - qt5-qtwebchannel-examples
+  - qt5-qtwebsockets
+  - qt5-qtwebsockets-examples
+  - qt5-qtx11extras
+  - qt5-qtxmlpatterns
+  - qt5-qtxmlpatterns-examples
+  # Qt 4
+  - qt
+  - PyQt4
+  - qtwebkit
   labels:
   - eln
