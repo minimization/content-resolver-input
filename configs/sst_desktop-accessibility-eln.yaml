@@ -6,11 +6,10 @@ data:
   maintainer: sst_desktop
 
   packages:
-  - orca
-  - festival
-  - speech-dispatcher
-  - at-spi2-atk
   - at-spi2-core
+  - liblouis
+  - orca
+  - speech-dispatcher
 
   labels:
   - eln
