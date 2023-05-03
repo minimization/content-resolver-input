@@ -15,8 +15,93 @@ data:
     - ppc64le
     - s390x
     rpms:
+    - rpm_name: fence-agents-all
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+      - fence-agents-amt-ws
+      - fence-agents-apc
+      - fence-agents-apc-snmp
+      - fence-agents-bladecenter
+      - fence-agents-brocade
+      - fence-agents-cisco-mds
+      - fence-agents-cisco-ucs
+      - fence-agents-drac5
+      - fence-agents-eaton-snmp
+      - fence-agents-emerson
+      - fence-agents-eps
+      - fence-agents-heuristics-ping
+      - fence-agents-hpblade
+      - fence-agents-ibmblade
+      - fence-agents-ifmib
+      - fence-agents-ilo-moonshot
+      - fence-agents-ilo-mp
+      - fence-agents-ilo-ssh
+      - fence-agents-ilo2
+      - fence-agents-intelmodular
+      - fence-agents-ipdu
+      - fence-agents-ipmilan
+      - fence-agents-kdump
+      - fence-agents-mpath
+      - fence-agents-redfish
+      - fence-agents-rhevm
+      - fence-agents-rsa
+      - fence-agents-rsb
+      - fence-agents-sbd
+      - fence-agents-scsi
+      - fence-agents-vmware-rest
+      - fence-agents-vmware-soap
+      - fence-agents-wti
     - rpm_name: fence-agents-aliyun
       description: This package is only provided in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+        - python3-jmespath
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-aws
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-azure-arm
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-compute
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        - python3-requests
+      limit_arches:
+        - x86_64
+        - ppc64le
+    - rpm_name: fence-agents-gce
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-kubevirt
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+      limit_arches:
+        - x86_64
+        - ppc64le
+        - s390x
+    - rpm_name: ha-cloud-support
+      description: Provides bundled dependencies for RHEL
+      dependencies:
+        - python3
+      limit_arches:
+        - x86_64
   - srpm_name: pcs
     build_dependencies:
     - booth
@@ -121,7 +206,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
+    - fence-agents-lpar
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -163,7 +248,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
+    - fence-agents-zvm
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -205,7 +290,6 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
