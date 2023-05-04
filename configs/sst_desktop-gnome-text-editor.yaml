@@ -1,13 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Gedit
+  name: GNOME Text Editor
   description: Text editor for Workstation
   maintainer: sst_desktop
 
   packages:
-  - gedit
-  - gedit-plugins
+  - gnome-text-editor
 
   labels:
   - c9s
