@@ -95,5 +95,8 @@ data:
   # Obsoleted by geocode-glib2 that is using libsoup3
   - geocode-glib
   - geocode-glib-devel
+  # Only espeak-ng is the supported speech synthetizer in RHEL 10
+  - festival
+  - flite
   labels:
   - eln
