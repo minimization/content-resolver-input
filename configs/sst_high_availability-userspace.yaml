@@ -8,14 +8,190 @@ data:
   packages: []
 
   package_placeholders:
-    fence-agents-aliyun:
+  - srpm_name: fence-agents
+    build_dependencies: []
+    limit_arches:
+    - x86_64
+    - ppc64le
+    - s390x
+    rpms:
+    - rpm_name: fence-agents-all
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+      - fence-agents-amt-ws
+      - fence-agents-apc
+      - fence-agents-apc-snmp
+      - fence-agents-bladecenter
+      - fence-agents-brocade
+      - fence-agents-cisco-mds
+      - fence-agents-cisco-ucs
+      - fence-agents-drac5
+      - fence-agents-eaton-snmp
+      - fence-agents-emerson
+      - fence-agents-eps
+      - fence-agents-heuristics-ping
+      - fence-agents-hpblade
+      - fence-agents-ibmblade
+      - fence-agents-ifmib
+      - fence-agents-ilo-moonshot
+      - fence-agents-ilo-mp
+      - fence-agents-ilo-ssh
+      - fence-agents-ilo2
+      - fence-agents-intelmodular
+      - fence-agents-ipdu
+      - fence-agents-ipmilan
+      - fence-agents-kdump
+      - fence-agents-mpath
+      - fence-agents-redfish
+      - fence-agents-rhevm
+      - fence-agents-rsa
+      - fence-agents-rsb
+      - fence-agents-sbd
+      - fence-agents-scsi
+      - fence-agents-vmware-rest
+      - fence-agents-vmware-soap
+      - fence-agents-wti
+    - rpm_name: fence-agents-aliyun
       description: This package is only provided in RHEL
-    python3-gflags:
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+        - python3-jmespath
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-aws
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-azure-arm
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-compute
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        - python3-requests
+      limit_arches:
+        - x86_64
+        - ppc64le
+    - rpm_name: fence-agents-gce
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+        # ha-cloud-support (placeholder)
+      limit_arches:
+        - x86_64
+    - rpm_name: fence-agents-kubevirt
+      description: Built with bundled dependencies in RHEL
+      dependencies:
+        - fence-agents-common
+      limit_arches:
+        - x86_64
+        - ppc64le
+        - s390x
+    - rpm_name: ha-cloud-support
+      description: Provides bundled dependencies for RHEL
+      dependencies:
+        - python3
+      limit_arches:
+        - x86_64
+  - srpm_name: pcs
+    build_dependencies:
+    - booth
+    - corosync-qdevice-devel
+    - corosynclib-devel
+    - diffstat
+    - fence-agents-common
+    - git-core
+    - make
+    - npm
+    - pacemaker-libs-devel
+    - pam
+    - python3-cryptography
+    - python3-dateutil
+    - python3-devel
+    - python3-setuptools
+    - python3-pycurl
+    - python3-pip
+    - python3-pyparsing
+    - python3-lxml
+    - python3-wheel
+    - python3-setuptools_scm
+    - redhat-logos
+    - resource-agents
+    - ruby-devel
+    - rubygems
+    - rubygem-bundler
+    - rubygem-json
+    - rubygem-rexml
+    - rubygem-test-unit
+    - sbd
+    limit_arches:
+    - x86_64
+    - ppc64le
+    - s390x
+    rpms:
+    - rpm_name: pcs
+      description: Built with bundled dependencies in RHEL
+      requires:
+        - corosync
+        - libknet1-plugins-all
+        - pacemaker-cli
+        - pam
+        - pcmk-cluster-manager
+        - psmisc
+        - python3
+        - python3-cryptography
+        - python3-dateutil
+        - python3-lxml
+        - python3-pycurl
+        - python3-pyparsing
+        - python3-setuptools
+        - redhat-logos
+        - ruby
+        - rubygem-json
+        - rubygem-rexml
+        - rubygems
+      limit_arches:
+        - x86_64
+        - ppc64le
+        - s390x
+    - rpm_name: pcs-snmp
+      description: Built with bundled dependencies in RHEL
+      requires:
+        - net-snmp
+        - pacemaker
+        # pcs (placeholder)
+      limit_arches:
+        - x86_64
+        - ppc64le
+        - s390x
+  - srpm_name: python-gflags
+    build_dependencies:
+    - python3-devel
+    rpms:
+    - rpm_name: python3-gflags
       description: This package is only provided in RHEL
-    resource-agents-aliyun:
+      dependencies:
+      - python3      
+  - srpm_name: resource-agents
+    build_dependencies: []
+    limit_arches: []
+    rpms:
+    - rpm_name: resource-agents-cloud
       description: This package is only provided in RHEL
-    resource-agents-gcp:
-      description: This package is only provided in RHEL
+      dependencies:
+      # ha-cloud-support (placeholder)
+      - socat
+      limit_arches:
+      - x86_64
 
   arch_packages:
     # No packages from HA currently support aarch64.
@@ -30,7 +206,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
+    - fence-agents-lpar
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -59,8 +235,6 @@ data:
     - pacemaker-libs-devel
     - pacemaker-nagios-plugins-metadata
     - pacemaker-remote
-    - pcs
-    - pcs-snmp
     - resource-agents
     - sbd
     - spausedd
@@ -74,7 +248,7 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
+    - fence-agents-zvm
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -103,8 +277,6 @@ data:
     - pacemaker-libs-devel
     - pacemaker-nagios-plugins-metadata
     - pacemaker-remote
-    - pcs
-    - pcs-snmp
     - resource-agents
     - sbd
     - spausedd
@@ -118,7 +290,6 @@ data:
     - corosync-qdevice
     - corosync-qnetd
     - corosynclib-devel
-    - fence-agents-all
     - fence-virt
     - fence-virtd
     - fence-virtd-libvirt
@@ -147,8 +318,6 @@ data:
     - pacemaker-libs-devel
     - pacemaker-nagios-plugins-metadata
     - pacemaker-remote
-    - pcs
-    - pcs-snmp
     - resource-agents
     - sbd
     - spausedd
