@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ffmpeg eln-extra packages
+  description: FFmpeg-based multimedia ELN Extras packages
+  maintainer: ngompa
+
+  packages:
+  - ffmpeg-free
+  - gstreamer1-plugin-libav
+  - obs-studio
+
+  labels:
+  - eln-extras
