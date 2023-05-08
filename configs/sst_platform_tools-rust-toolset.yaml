@@ -9,8 +9,7 @@ data:
   - rust
   - cargo
   - clippy
-  - rls
-  - rust-analysis
+  - rust-analyzer
   - rust-doc
   - rust-std-static
   - rustfmt
