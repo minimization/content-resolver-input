@@ -3,7 +3,7 @@ version: 1
 data:
   name: Crypto and RNG tools
   description: Crypto and random number generator related utilities
-  maintainer: sst_kernel_tps
+  maintainer: sst_kernel_security
 
   packages:
   - rng-tools
