@@ -6,7 +6,8 @@ data:
   maintainer: sst_desktop_applications
 
   packages:
-  - python-qt6
+  - python3-pyqt6
+  - python3-pyqt6-base
   - qt6-assistant
   - qt6-designer
   - qt6-doctools
