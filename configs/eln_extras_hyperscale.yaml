@@ -7,13 +7,20 @@ data:
 
   packages:
   - btrfs-fuse
+  - btrfs-progs
   - centos-packager
+  - compsize
   - fsverity-utils
+  - ebtables-legacy
+  - ebtables-services
   - iptables-legacy
   - iptables-legacy-devel
   - iptables-legacy-libs
   - iptables-services
+  - libbtrfs
+  - libbtrfsutil
   - mock-centos-sig-configs
+  - python3-btrfsutil
   - systemd-networkd
 
   labels:
