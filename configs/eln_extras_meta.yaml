@@ -12,10 +12,8 @@ data:
   - b4
   - below
   - btrd
-  - btrfs-progs
   - ccache
   - colm
-  - compsize
   - ctags
   - dbench
   - debian-keyring
@@ -26,16 +24,12 @@ data:
   - duo_unix
   - duo_unix-selinux
   - ebranch
-  - ebtables-legacy
-  - ebtables-services
   - et
   - htop
   - iotools
   - fping
   - keyrings-filesystem
   - lei
-  - libbtrfs
-  - libbtrfsutil
   - libdwarf
   - libdwarf-devel
   - libkdumpfile-devel
@@ -43,7 +37,6 @@ data:
   - libidn-devel
   - mkosi
   - mosh
-  - msr-tools
   - ncdu
   - neovim
   - netconsd
@@ -55,7 +48,6 @@ data:
   - parallel
   - pngquant
   - pv
-  - python3-btrfsutil
   - python3-dnf-plugin-flunk_dependent_remove
   - python3-pystemd
   - python3-testslide
@@ -72,11 +64,19 @@ data:
   - sdparm
   - sedutil
   - sequoia-keyring-linter
+  - sysbench
   - stress
   - stressapptest
   - strongswan
   - tpm-tools
   - ubu-keyring
+  - veristat
+
+  arch_packages:
+    i686:
+      - msr-tools
+    x86_64:
+      - msr-tools
 
   labels:
   - eln-extras
