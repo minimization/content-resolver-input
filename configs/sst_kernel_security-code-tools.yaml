@@ -3,7 +3,7 @@ version: 1
 data:
   name: CScope
   description: C source code tree search and browse tool
-  maintainer: sst_kernel_tps
+  maintainer: sst_kernel_security
 
   packages:
   - cscope
