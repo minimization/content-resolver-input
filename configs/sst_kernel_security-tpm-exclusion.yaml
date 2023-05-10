@@ -3,7 +3,7 @@ version: 1
 data:
   name: TPM Exclusion List
   description: TPM packages that are no longer needed
-  maintainer: sst_kernel_rts
+  maintainer: sst_kernel_security
 
   unwanted_packages:
   - tpm-quote-tools
