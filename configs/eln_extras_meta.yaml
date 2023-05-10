@@ -37,7 +37,6 @@ data:
   - libidn-devel
   - mkosi
   - mosh
-  - msr-tools
   - ncdu
   - neovim
   - netconsd
@@ -70,6 +69,12 @@ data:
   - strongswan
   - tpm-tools
   - ubu-keyring
+
+  arch_packages:
+    i686:
+      - msr-tools
+    x86_64:
+      - msr-tools
 
   labels:
   - eln-extras
