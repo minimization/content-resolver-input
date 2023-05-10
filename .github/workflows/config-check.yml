@@ -1,0 +1,30 @@
+name: Check of config files
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  setup_and_test:
+    runs-on: ubuntu-latest
+    container:
+      image: registry.fedoraproject.org/fedora:latest
+    steps:
+
+    - name: Checkout code repo
+      uses: actions/checkout@v3
+      with:
+        repository: minimization/content-resolver
+        path: code
+
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        path: code/input
+
+    - name: Install git and Python libraries
+      run: dnf -y install git-core python3-koji python3-yaml python3-jinja2 python3-pytest python3-flake8
+
+    - name: Run get_configs and set output
+      run: python3 test_config_files.py
+      working-directory: code
