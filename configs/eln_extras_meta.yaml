@@ -64,11 +64,13 @@ data:
   - sdparm
   - sedutil
   - sequoia-keyring-linter
+  - sysbench
   - stress
   - stressapptest
   - strongswan
   - tpm-tools
   - ubu-keyring
+  - veristat
 
   arch_packages:
     i686:
