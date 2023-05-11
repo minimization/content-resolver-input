@@ -2,7 +2,7 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Core Services System management - Blocked packages
-  description: Core Services System management - Packages which should not be in c9s
+  description: Core Services System management - Packages which should not be in ELN
   maintainer: sst_cs_system_management
 
   unwanted packages:
@@ -57,6 +57,12 @@ data:
   - opencv-core
   - opencv-doc
   - gphoto2
+  - librx
+  - librx-devel
+  - gimp
+  - gimp-libs
+  - gegl04
+  - mypaint-brushes
 
   labels:
-  - c9s
+  - eln
