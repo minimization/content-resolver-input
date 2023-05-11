@@ -25,6 +25,7 @@ data:
   - osinfo-db-tools
   - python-augeas
   - python3-libvirt
+  - python3-pefile
   - python3-virt-firmware
   - spice-protocol
   - spice-vdagent
