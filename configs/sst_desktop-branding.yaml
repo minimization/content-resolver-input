@@ -23,8 +23,6 @@ data:
       requires:
         - coreutils
       buildrequires:
-        - syslinux-perl
-        - netpbm-progs
         - hardlink
     redhat-logos-httpd:
       srpm: redhat-logos
