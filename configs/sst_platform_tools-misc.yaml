@@ -11,10 +11,6 @@ data:
   - binutils-gold
   - annobin
   - annobin-annocheck
-  - python3-tbb
-  - tbb
-  - tbb-devel
-  - tbb-doc
 
   labels:
   - eln
