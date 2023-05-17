@@ -6,23 +6,29 @@ data:
   maintainer: sst_cs_infra_services
 
   packages:
+  # Packaged from httpd:
   - httpd
+  - httpd-core
   - httpd-tools
   - httpd-filesystem
+  - httpd-devel
+  - httpd-manual
   - mod_ssl
   - mod_proxy_html
   - mod_ldap
   - mod_session
+  - mod_lua
+  # Third-party modules:
   - python3-mod_wsgi
-  - httpd-devel
-  - httpd-manual
   - mod_http2
   - mod_md
-  - mod_lua
   - mod_fcgid
   - mod_security
   - mod_security-mlogc
   - mod_security_crs
+  # JWS/JBCS packages
+  - mod_proxy_cluster
+  # Dependencies:
   - apr
   - apr-devel
   - apr-util
@@ -33,8 +39,6 @@ data:
   - apr-util-sqlite
   - apr-util-pgsql
   - apr-util-odbc
-  # JWS/JBCS packages
-  - mod_proxy_cluster
 
   labels:
   - eln
