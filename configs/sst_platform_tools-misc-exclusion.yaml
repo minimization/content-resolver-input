@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: SST Platform Tools Misc Exclusion List  
+  description: Packages from the sst_platform_tools-misc.yaml file that are not needed for ELN
+  maintainer: sst_platform_tools
+
+  unwanted_packages:
+  - python3-tbb
+  - tbb
+  - tbb-devel
+  - tbb-doc
+
+  labels:
+  - eln
+
