@@ -9,7 +9,6 @@ data:
   - gcc
   - gcc-c++
   - cpp
-  - gcc-gdb-plugin
   - gcc-gfortran
   - gcc-plugin-devel
   - libasan
