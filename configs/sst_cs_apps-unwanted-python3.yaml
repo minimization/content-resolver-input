@@ -100,7 +100,6 @@ data:
   - python3-html5lib
 
   # Web servers usually used for %check only, have a huge dep chain
-  - python3-tornado
   - python3-twisted
 
   # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
@@ -159,7 +158,6 @@ data:
   - python-freezegun
   - python-trustme
   - python-html5lib
-  - python-tornado
   - python-twisted
   - python-Pallets-Sphinx-Themes
   - python-sphinx-theme-py3doc-enhanced
