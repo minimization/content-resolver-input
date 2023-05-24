@@ -32,6 +32,30 @@ data:
   - llvm9.0-devel
   - llvm9.0-libs
   - llvm9.0-static
+  - llvm10.0
+  - llvm10.0-devel
+  - llvm10.0-libs
+  - llvm10.0-static
+  - llvm11.0
+  - llvm11.0-devel
+  - llvm11.0-libs
+  - llvm11.0-static
+  - llvm12
+  - llvm12-devel
+  - llvm12-libs
+  - llvm12-static
+  - llvm13
+  - llvm13-devel
+  - llvm13-libs
+  - llvm13-static
+  - llvm14
+  - llvm14-devel
+  - llvm14-libs
+  - llvm14-static
+  - llvm15
+  - llvm15-devel
+  - llvm15-libs
+  - llvm15-static
 
   labels:
   - eln
