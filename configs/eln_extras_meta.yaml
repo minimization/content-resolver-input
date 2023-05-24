@@ -69,6 +69,7 @@ data:
   - stressapptest
   - strongswan
   - tpm-tools
+  - trousers
   - ubu-keyring
   - veristat
 
