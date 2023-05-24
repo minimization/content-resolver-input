@@ -49,14 +49,3 @@ data:
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    llvm-toolset:
-      srpm: llvm-toolset
-      description: Meta-package for llvm-toolset
-      requires:
-        - clang
-        - lldb
-        - llvm
-        - lld
-      buildrequires: []
