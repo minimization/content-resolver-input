@@ -33,6 +33,7 @@ data:
     - glibc-gconv-extra
     - glibc-langpack-en
     - greenboot
+    - hirte
     - hostapd
     - hostname
     - jose
