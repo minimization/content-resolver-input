@@ -36,7 +36,10 @@ data:
   - qt6-qtdeclarative-devel
   - qt6-qtdeclarative-static
   - qt6-qtimageformats
-  - qt6-qtimageformats
+  - qt6-qtlanguageserver
+  - qt6-qtlanguageserver-devel
+  - qt6-qtlocation
+  - qt6-qtlocation-devel
   - qt6-qtlottie
   - qt6-qtlottie-devel
   - qt6-qtmultimedia
