@@ -49,14 +49,8 @@ data:
   - NetworkManager-dispatcher-routing-rules
   - NetworkManager-cloud-setup
   - nmstate
-
-  package_placeholders:
-    python3-nispor:
-      description: Needed by nmstate. RHEL build bundles rust, Fedora build cannot.
-      srpm: nispor
-    nispor:
-      description: Needed by nmstate. RHEL build bundles rust, Fedora build cannot.
-      srpm: nispor
+  - nispor
+  - python3-nispor
 
   unwanted_packages:
   # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since usb_modeswitch 2.6.0, the
