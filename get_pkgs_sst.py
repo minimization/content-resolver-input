@@ -60,6 +60,7 @@ def main():
                         help='input files')
     parser.add_argument('--filter-sst', dest='filter_sst', default=None,
                         help='Filter data only for a specific sst (e.g.: sst_cs_apps)')
+    parser.add_argument('--unwanted', action='store_true')
 
     args = parser.parse_args()
 
@@ -71,7 +72,13 @@ def main():
                     if args.filter_sst:
                         if data['data']['maintainer'] != args.filter_sst:
                             continue
-                    print('\n'.join(data['data']['packages']))
+                    if args.unwanted and 'unwanted_packages' in data['data']:
+                        print('\n'.join(data['data']['unwanted_packages']))
+                    elif not args.unwanted and 'packages' in data['data']:
+                        print('\n'.join(data['data']['packages']))
+                    else:
+                        # no packages nor unwanted_packages found, ignore
+                        continue
                 except KeyError as exc:
                     print('Wrong format in {}'.format(f), file=sys.stderr)
                     print(exc, file=sys.stderr)
