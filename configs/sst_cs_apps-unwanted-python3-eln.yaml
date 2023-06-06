@@ -9,6 +9,10 @@ data:
   unwanted_packages:
   # zoneinfo is in the Python standard library (PEP 615), use that one instead
   - python3-pytz
+  # python3-chardet was pulled into RHEL 9 as a dependency of python3-requests,
+  # but they switched to python3-charset-normalizer instead,
+  # no need to maintain 2 packages with the same purpose
+  - python3-chardet
   # tomllib is in the Python standard library (PEP 680), use that one instead
   - python3-toml
   - python3-tomli
@@ -20,6 +24,7 @@ data:
   # components for the above
   unwanted_source_packages:
   - pytz
+  - python-chardet
   - python-toml
   - python-tomli
   - python3.9

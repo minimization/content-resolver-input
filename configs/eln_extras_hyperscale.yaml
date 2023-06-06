@@ -23,5 +23,13 @@ data:
   - python3-btrfsutil
   - systemd-networkd
 
+  arch_packages:
+    x86_64:
+    - systemd-boot-unsigned
+    i686:
+    - systemd-boot-unsigned
+    aarch64:
+    - systemd-boot-unsigned
+
   labels:
   - eln-extras
