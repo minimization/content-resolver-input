@@ -47,7 +47,6 @@ data:
   - maven-invoker
   - maven-invoker-plugin
   - maven-javadoc-plugin
-  - maven-mapping
   - maven-reporting-api
   - maven-reporting-impl
   - maven-script-interpreter
