@@ -61,6 +61,7 @@ def main():
     parser.add_argument('--filter-sst', dest='filter_sst', default=None,
                         help='Filter data only for a specific sst (e.g.: sst_cs_apps)')
     parser.add_argument('--unwanted', action='store_true')
+    parser.add_argument('--label', default='eln', help='Filter only specific distro if label is specified in the yaml: eln[default], c9s')
 
     args = parser.parse_args()
 
@@ -72,6 +73,8 @@ def main():
                     if args.filter_sst:
                         if data['data']['maintainer'] != args.filter_sst:
                             continue
+                    if 'labels' in data['data'] and args.label not in data['data']['labels']:
+                        continue
                     if args.unwanted and 'unwanted_packages' in data['data']:
                         print('\n'.join(data['data']['unwanted_packages']))
                     elif not args.unwanted and 'packages' in data['data']:
