@@ -3,7 +3,7 @@ version: 1
 data:
   name: Standard install using @base group without weak dependencies
   description: Standard install without Recommends dependencies
-  maintainer: sst_security_readiness
+  maintainer: sst_security_compliance
 
   groups:
   - base
