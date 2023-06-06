@@ -3,7 +3,7 @@ version: 1
 data:
   name: Standard install using @base group with weak dependencies
   description: Standard install with Recommends dependencies included
-  maintainer: sst_security_readiness
+  maintainer: sst_security_compliance
 
   options:
   - include-weak-deps
