@@ -24,6 +24,11 @@ data:
   - python3-psutil-tests
   - py3c-devel
   - py3c-doc
+  # the following packages are anticipated to be used by pyproject-rpm-macros
+  # in the feature, so we want them in CRB early,
+  # rather than going trough a tad tedious process to add them after GA
+  - python3-installer
+  - python3-pyproject-hooks
 
   labels:
   - eln
