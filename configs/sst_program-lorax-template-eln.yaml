@@ -3,7 +3,7 @@ version: 1
 data:
   name: lorax template packages
   description: Packages for lorax template
-  maintainer: jwboyer
+  maintainer: bstinson
 
   packages:
   - lorax

@@ -3,7 +3,7 @@ version: 1
 data:
 
   name: Initial content split
-  maintainer: jwboyer
+  maintainer: bstinson
 
   baseos:
     must:

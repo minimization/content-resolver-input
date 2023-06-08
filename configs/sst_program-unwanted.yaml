@@ -3,7 +3,7 @@ version: 1
 data:
   name: Program level unwanted packages
   description: Unwanted packages
-  maintainer: jwboyer
+  maintainer: bstinson
 
   unwanted_packages:
     - bodhi-client
