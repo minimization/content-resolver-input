@@ -107,6 +107,12 @@ data:
   - python3-sphinx-theme-py3doc-enhanced
   - python3-pydata-sphinx-theme
 
+  # Packages should only use python3-{flit,poetry}-core for build backends
+  - python3-flit
+  - flit
+  - python3-poetry
+  - poetry
+
   # components for the above
   unwanted_source_packages:
   - python3.5
@@ -161,6 +167,8 @@ data:
   - python-twisted
   - python-Pallets-Sphinx-Themes
   - python-sphinx-theme-py3doc-enhanced
+  - python-flit
+  - poetry
 
   labels:
   - eln
