@@ -39,13 +39,6 @@ data:
   - gutenprint-plugin
   # hplip
   - hplip-gui
-  # ldns
-  - ldns
-  - ldns-utils
-  - ldns-devel
-  - python3-ldns
-  - perl-ldns
-  - ldns-doc
   # libidn
   - libidn
   - libidn-devel
