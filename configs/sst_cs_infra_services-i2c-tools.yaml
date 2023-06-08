@@ -13,21 +13,25 @@ data:
     - i2c-tools
     - i2c-tools-perl
     - libi2c
+    - python3-i2c-tools
     aarch64:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
     - i2c-tools-perl
     - libi2c
+    - python3-i2c-tools
     ppc64le:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
     - i2c-tools-perl
     - libi2c
+    - python3-i2c-tools
     x86_64:
     # i2c-tools (ExcludeArch: s390 s390x)
     - i2c-tools
     - i2c-tools-perl
     - libi2c
+    - python3-i2c-tools
 
   labels:
   - eln
