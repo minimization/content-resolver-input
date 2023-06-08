@@ -9,6 +9,14 @@ data:
   - bind-utils
   - dnsmasq-utils
   - whois
+  # ldns
+  - ldns
+  # ldns - all below in CRB:
+  - ldns-utils
+  - ldns-devel
+  - python3-ldns
+  - perl-ldns
+  - ldns-doc
 
   labels:
   - eln
