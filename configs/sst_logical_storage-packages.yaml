@@ -1,0 +1,67 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Platform Storage
+  description: Platform Storage Supported Packages
+  maintainer: sst_platform_storage
+
+  packages:
+    # Stratis
+    - python3-dbus-client-gen
+    - python3-dbus-python-client-gen
+    - python3-dbus-signature-pyparsing
+    - python3-into-dbus-python
+    - python3-justbases
+    - python3-justbytes
+    - python3-wcwidth
+    - stratis-cli
+    - stratisd
+
+    # LVM
+    # Boom-boot and its sub-packages
+    - boom-boot
+    - boom-boot-conf
+    - boom-boot-grub2
+    - python3-boom
+    # cryptsetup and its sub-packages
+    - cryptsetup
+    - cryptsetup-devel
+    - cryptsetup-libs
+    - integritysetup
+    - veritysetup
+    # lvm2 and its sub-packages
+    - device-mapper
+    - device-mapper-devel
+    - device-mapper-event
+    - device-mapper-event-devel
+    - device-mapper-event-libs
+    - device-mapper-libs
+    - device-mapper-multipath
+    - device-mapper-persistent-data
+    - dlm
+    - lvm2
+    - lvm2-dbusd
+    - lvm2-devel
+    - lvm2-libs
+    - lvm2-lockd
+    - mdadm
+    - sanlock
+    - userspace-rcu
+
+  package_placeholders:
+    kmod-kvdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
+    pmreorder:
+      description: This package is only available in RHEL.
+      srpm: pmreorder
+    vdo:
+      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: vdo
+    stratisd:
+      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
+      srpm: stratisd
+
+  labels:
+  - eln
+  - c9s

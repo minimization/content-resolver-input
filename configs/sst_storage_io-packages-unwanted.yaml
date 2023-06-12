@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted SST Storage-IO packages
+  description: Unwanted SST Storage-IO and Components
+  maintainer: sst_storage_io
+
+  unwanted_packages:
+  - libhbaapi
+  - libhbalinux
+
+  labels:
+  - eln
+  - c9s

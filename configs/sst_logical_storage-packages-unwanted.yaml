@@ -1,0 +1,19 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Logical Storage packages
+  description: Unwanted Logical Storage and Components
+  maintainer: sst_logical_storage
+
+  unwanted_packages:
+  - cmirror-standalone
+  - cryptsetup-reencrypt
+  - python-di
+  - python-hs-dbus-signature
+  # Marking these packages as unwanted to remove logical_storage from
+  # consideration of ownership.
+  - rust-packaging
+
+  labels:
+  - eln
+  - c9s

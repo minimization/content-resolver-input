@@ -1,0 +1,86 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Storage IO
+  description: SST Storage-IO Supported Packages
+  maintainer: sst_storage_io
+
+  packages:
+    # Block Storage
+    - daxctl
+    - daxctl-devel
+    - daxctl-libs
+    - libaio
+    - libaio-devel
+    - liburing
+    - liburing-devel
+    - ndctl
+    - ndctl-devel
+    - ndctl-libs
+
+    # target
+    - nvmetcli
+    - python3-configshell
+    - python3-kmod
+    - python3-pyparsing
+    - python3-rtslib
+    - python3-urwid
+    - targetcli
+
+    # iscsi
+    - iscsi-initiator-utils
+    - iscsi-initiator-utils-iscsiuio
+    - isns-utils
+    - isns-utils-libs
+    - python3-iscsi-initiator-utils
+
+      # fcoe offload
+    - fcoe-utils
+
+  arch_packages:
+    ppc64le:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmempool
+    x86_64:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj++-devel
+      - libpmemobj++-doc
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmdk-convert
+      - pmempool
+
+    s390x:
+      - libblockdev-s390
+
+  labels:
+  - eln
+  - c9s
