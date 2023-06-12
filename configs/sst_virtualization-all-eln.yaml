@@ -44,7 +44,6 @@ data:
     - libguestfs
     - libguestfs-inspect-icons
     - libguestfs-winsupport
-    - libpmem
     - qemu-kvm
     - seabios
     - sevctl
@@ -54,7 +53,6 @@ data:
     - virt-top
     - virt-v2v
     ppc64le:
-    - libpmem
     - powerpc-utils
     aarch64:
     - edk2-aarch64

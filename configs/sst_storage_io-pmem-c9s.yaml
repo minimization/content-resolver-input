@@ -1,0 +1,50 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Persistent Memory Development Kit
+  description: SST Storage-IO Supported PMDK Packages
+  maintainer: sst_storage_io
+
+  arch_packages:
+    ppc64le:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmempool
+    x86_64:
+      - daxio
+      - libpmem
+      - libpmem-debug
+      - libpmem-devel
+      - libpmemblk
+      - libpmemblk-debug
+      - libpmemblk-devel
+      - libpmemlog
+      - libpmemlog-debug
+      - libpmemlog-devel
+      - libpmemobj
+      - libpmemobj++-devel
+      - libpmemobj++-doc
+      - libpmemobj-debug
+      - libpmemobj-devel
+      - libpmempool
+      - libpmempool-debug
+      - libpmempool-devel
+      - pmdk-convert
+      - pmempool
+
+  labels:
+  - c9s
