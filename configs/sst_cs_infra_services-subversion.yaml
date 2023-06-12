@@ -5,11 +5,6 @@ data:
   description: Apache Subversion version control
   maintainer: sst_cs_infra_services
 
-  # asamalik: there are no modules yet, so commenting this part out
-  # this way we won't lose the packages from the set
-  #modules_enable:
-  #- subversion:1.14
-
   packages:
   - subversion
   - mod_dav_svn
@@ -21,3 +16,4 @@ data:
   
   labels:
   - c9s
+  - eln

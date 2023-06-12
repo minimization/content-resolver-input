@@ -8,11 +8,7 @@ data:
   packages:
   - nginx
   - nginx-all-modules
-
-  # asamalik: there are no modules yet, so commenting this part out
-  # this way we won't lose the packages from the set
-  #modules_enable:
-  #- nginx:1.18
   
   labels:
   - c9s
+  - eln
