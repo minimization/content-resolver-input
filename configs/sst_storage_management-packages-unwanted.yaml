@@ -1,0 +1,18 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted SST Storage Management packages
+  description: Unwanted SST Storage Management and Components
+  maintainer: sst_storage_management
+
+  unwanted_packages:
+  - cryptsetup-reencrypt
+  - libblockdev-vdo
+  - libblockdev-vdo-devel
+  - libhbaapi
+  - libhbalinux
+  - udisks2-zram
+
+  labels:
+  - eln
+  - c9s
