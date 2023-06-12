@@ -72,6 +72,7 @@ data:
   - texlive-charter
   - texlive-chngcntr
   - texlive-cite
+  - texlive-cjk
   - texlive-classpack
   - texlive-cm
   - texlive-cm-lgc
@@ -372,6 +373,7 @@ data:
   - texlive-wrapfig
   - texlive-xcolor
   - texlive-xdvi
+  - texlive-xecjk
   - texlive-xecolor
   - texlive-xecyr
   - texlive-xeindex
@@ -398,4 +400,4 @@ data:
   - xmltoman
 
   labels:
-  - eln
+  - c9s
