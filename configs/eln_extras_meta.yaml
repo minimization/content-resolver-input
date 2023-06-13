@@ -19,6 +19,9 @@ data:
   - debian-keyring
   - debootstrap
   - dnf5
+  - dnf5-plugins
+  - dnf5daemon-client
+  - dnf5daemon-server
   - dpkg
   - drgn
   - duo_unix
@@ -30,6 +33,9 @@ data:
   - fping
   - keyrings-filesystem
   - lei
+  - libdnf5
+  - libdnf5-cli
+  - libdnf5-plugin-actions
   - libdwarf
   - libdwarf-devel
   - libkdumpfile-devel
@@ -49,6 +55,9 @@ data:
   - pngquant
   - pv
   - python3-dnf-plugin-flunk_dependent_remove
+  - python3-libdnf5
+  - python3-libdnf5-cli
+  - python3-libdnf5-python-plugins-loader
   - python3-pystemd
   - python3-testslide
   - rpmdistro-repoquery
@@ -56,6 +65,8 @@ data:
   - rpminspect-data-centos
   - rpminspect-data-fedora
   - rpmrebuild
+  - ruby-libdnf5
+  - ruby-libdnf5-cli
   - qrencode-devel
   - ragel
   - retsnoop
