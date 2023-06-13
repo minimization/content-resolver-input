@@ -62,9 +62,7 @@ data:
   - ripgrep
   - screen
   - sdparm
-  - sedutil
   - sequoia-keyring-linter
-  - sysbench
   - stress
   - stressapptest
   - strongswan
@@ -74,10 +72,19 @@ data:
   - veristat
 
   arch_packages:
+    aarch64:
+      - sedutil
+      - sysbench
     i686:
       - msr-tools
+      - sedutil
+      - sysbench
+    ppc64le:
+      - sedutil
     x86_64:
       - msr-tools
+      - sedutil
+      - sysbench
 
   labels:
   - eln-extras
