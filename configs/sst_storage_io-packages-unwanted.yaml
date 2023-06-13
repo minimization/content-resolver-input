@@ -9,11 +9,6 @@ data:
   - libhbaapi
   - libhbalinux
 
-  unwanted_source_packages:
-  - nvml
-  - libpmemobj-cpp
-  - pmdk-convert
-
   labels:
   - eln
   - c9s
