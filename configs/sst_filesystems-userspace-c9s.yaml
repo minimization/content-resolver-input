@@ -61,8 +61,11 @@ data:
     - pcp-pmda-gfs2
 
     x86_64:
+    - fio-engine-dev-dax
+    - fio-engine-libpmem
+    - fio-engine-pmemblk
     - gfs2-utils
     - pcp-pmda-gfs2
 
   labels:
-  - eln
+  - c9s
