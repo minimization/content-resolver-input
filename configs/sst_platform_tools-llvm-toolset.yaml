@@ -16,6 +16,7 @@ data:
   - clang-devel
   - clang-libs
   - clang-tools-extra
+  - clang-resource-filesystem
   - git-clang-format
   - python3-clang
   - lld
