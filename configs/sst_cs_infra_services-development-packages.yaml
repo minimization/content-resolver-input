@@ -40,6 +40,9 @@ data:
   - ppp-devel
   # python-cups
   - python-cups-doc
+  # qpdf
+  - qpdf
+  - qpdf-devel
   # sendmail
   - sendmail-milter-devel
   # tcl

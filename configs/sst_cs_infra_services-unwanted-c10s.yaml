@@ -6,6 +6,8 @@ data:
   maintainer: sst_cs_infra_services
 
   unwanted_packages:
+  # ghostscript
+  - ghostscript-x11
   # gutenprint
   - gutenprint-libs-ui
 
