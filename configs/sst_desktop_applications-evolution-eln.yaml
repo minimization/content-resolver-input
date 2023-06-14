@@ -15,8 +15,6 @@ data:
   - evolution-ews-langpacks
   - evolution-help
   - evolution-langpacks
-  - evolution-mapi
-  - evolution-mapi-langpacks
   - evolution-pst
   - evolution-spamassassin
 
