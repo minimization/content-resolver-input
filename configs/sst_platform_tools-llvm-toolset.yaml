@@ -27,7 +27,7 @@ data:
   - lldb
   - lldb-devel
   - python3-lldb
-  - python-lit
+  - python3-lit
 
   arch_packages:
     aarch64:
