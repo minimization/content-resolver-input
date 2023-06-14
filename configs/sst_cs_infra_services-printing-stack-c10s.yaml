@@ -6,8 +6,12 @@ data:
   maintainer: sst_cs_infra_services
 
   packages:
+  - cups-browsed
   - ipp-usb
+  - libcupsfilters
+  - libppd
   - lprint
+  - pappl
 
 
   labels:
