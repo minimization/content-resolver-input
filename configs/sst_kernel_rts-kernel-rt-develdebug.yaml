@@ -11,6 +11,7 @@ data:
         - kernel-rt-debug
         - kernel-rt-debug-core
         - kernel-rt-debug-modules
+        - kernel-rt-debug-modules-core
         - kernel-rt-debug-modules-extra
         - kernel-rt-debug-kvm
         - kernel-rt-devel
