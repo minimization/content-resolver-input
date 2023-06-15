@@ -90,6 +90,9 @@ data:
   - qt5-qtwebsockets
   - qt5-qtx11extras
   - qt5-qtxmlpatterns
+  # Not ported to libsoup3, not maintained upstream and in the end no need for
+  # accessing Google Drive (why not other similar solutions?) in Nautilus
+  - libgdata
 
   labels:
   - eln
