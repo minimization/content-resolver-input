@@ -93,6 +93,8 @@ data:
   # Not ported to libsoup3, not maintained upstream and in the end no need for
   # accessing Google Drive (why not other similar solutions?) in Nautilus
   - libgdata
+  # Replaced by enchant2 and applications should be ported to it
+  - enchant
 
   labels:
   - eln
