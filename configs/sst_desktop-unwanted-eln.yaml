@@ -98,5 +98,7 @@ data:
   # Only espeak-ng is the supported speech synthetizer in RHEL 10
   - festival
   - flite
+  # Deprecated from 2010 - https://dbus.freedesktop.org/doc/dbus-glib/
+  - dbus-glib
   labels:
   - eln
