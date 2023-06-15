@@ -11,6 +11,7 @@ data:
         - kernel-rt
         - kernel-rt-core
         - kernel-rt-modules
+        - kernel-rt-modules-core
         - kernel-rt-modules-extra
         - kernel-rt-kvm
         - tuned-profiles-realtime
