@@ -13,6 +13,7 @@ data:
   - golang-src
   - golang-tests
   - go-srpm-macros
+  - go-rpm-macros
 
   arch_packages:
     x86_64:
