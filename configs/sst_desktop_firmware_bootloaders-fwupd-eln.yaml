@@ -7,7 +7,12 @@ data:
 
   packages:
   - fwupd
-  - fwupd-efi
+
+  arch_packages:
+    aarch64:
+    - fwupd-efi
+    x86_64:
+    - fwupd-efi
 
   labels:
   - eln
