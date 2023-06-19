@@ -19,10 +19,6 @@ data:
   - clang-resource-filesystem
   - git-clang-format
   - python3-clang
-  - lld
-  - lld-devel
-  - lld-libs
-  - lld-test
   - compiler-rt
   - lldb
   - lldb-devel
@@ -34,14 +30,23 @@ data:
       - libomp
       - libomp-devel
       - libomp-test
+      - lld
+      - lld-devel
+      - lld-libs
     ppc64le:
       - libomp
       - libomp-devel
       - libomp-test
+      - lld
+      - lld-devel
+      - lld-libs
     x86_64:
       - libomp
       - libomp-devel
       - libomp-test
+      - lld
+      - lld-devel
+      - lld-libs
     armv7hl:
       - libomp
       - libomp-devel
