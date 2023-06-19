@@ -328,7 +328,6 @@ data:
   - texlive-tex-ini-files
   - texlive-tex4ht
   - texlive-texlive-common-doc
-  - texlive-texlive-docindex
   - texlive-texlive-en
   - texlive-texlive-msg-translations
   - texlive-texlive-scripts
@@ -359,7 +358,6 @@ data:
   - texlive-unicode-math
   - texlive-uniquecounter
   - texlive-unisugar
-  - texlive-updmap-map
   - texlive-upquote
   - texlive-url
   - texlive-utopia
