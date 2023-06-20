@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNU Autotools
+  description: Use the GNU Autotools to configure and build the application
+  maintainer: sst_pt_libraries
+
+  packages:
+  - autoconf
+  - autoconf-archive
+  - automake
+  - libtool
+  - m4
+
+  labels:
+  - eln
+  - c9s

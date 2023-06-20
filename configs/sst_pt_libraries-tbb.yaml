@@ -3,7 +3,7 @@ version: 1
 data:
   name: tbb
   description: Threading Building Blocks library
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_libraries
 
   packages:
   - python3-tbb

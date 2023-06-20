@@ -3,7 +3,7 @@ version: 1
 data:
   name: Performance Co-Pilot and Grafana
   description: Performance Co-Pilot and Grafana
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_pcp
 
   packages:
   - ansible-pcp
