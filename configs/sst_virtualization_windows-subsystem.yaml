@@ -20,8 +20,6 @@ data:
         - mingw64-pixman
         - mingw32-gcc
         - mingw64-gcc
-        - mingw32-pkg-config
-        - mingw64-pkg-config
         - mingw32-glib2
         - mingw64-glib2
         - mingw32-glib2-static
@@ -46,7 +44,6 @@ data:
         - mingw64-win-iconv
         - mingw-binutils-generic
         - mingw-filesystem-base
-        - mingw-pkg-config
         - mingw-w64-tools
         - mingw-pcre
         - mingw-zlib
