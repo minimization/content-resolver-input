@@ -12,6 +12,28 @@ data:
   - c9s
 
   package_placeholders:
+    mingw-qemu-ga-win:
+      srpm: mingw-qemu-ga-win
+      description: Qemus Guest agent for Windows
+      buildrequires:
+        - libtool
+        - zlib-devel
+        - glib2-devel
+        - python3-devel
+        - gettext
+        - gettext-devel
+        - mingw32-pixman
+        - mingw64-pixman
+        - mingw32-gcc
+        - mingw64-gcc
+        - mingw32-glib2
+        - mingw64-glib2
+        - mingw64-headers
+        - mingw32-headers
+        - mingw-w64-tools
+        - msitools
+        - meson
+        - ninja-build
     virtio-win:
       srpm: virtio-win
       description: This package is only provided in RHEL
