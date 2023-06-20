@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Other packages from SST CS Aps
+  name: Other packages from SST CS Aps for ELN
   description: Unsorted tools owned by CS Apps SST
   maintainer: sst_cs_apps
 
@@ -10,8 +10,6 @@ data:
   - time
   - pcre2
   - pcre2-devel
-  - pcre
-  - pcre-devel
   - quota
   - quota-nld
   - quota-rpc
@@ -21,4 +19,3 @@ data:
 
   labels:
   - eln
-  - c9s
