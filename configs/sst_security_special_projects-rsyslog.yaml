@@ -16,6 +16,7 @@ data:
   - rsyslog-kafka
   - rsyslog-logrotate
   - rsyslog-mmaudit
+  - rsyslog-mmfields
   - rsyslog-mmjsonparse
   - rsyslog-mmkubernetes
   - rsyslog-mmnormalize
@@ -27,7 +28,12 @@ data:
   - rsyslog-snmp
   - rsyslog-udpspoof
   - librdkafka-devel
+  - liblognorm
   - liblognorm-doc
+  - librelp
+  - libfastjson
+  - librdkafka
+  - libestr
 
   labels:
   - eln
