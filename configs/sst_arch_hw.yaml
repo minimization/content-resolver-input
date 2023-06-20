@@ -26,7 +26,6 @@ data:
   - alsa-utils
   - speexdsp
   - hwloc
-  - pigz
   - ethtool
 
   arch_packages:

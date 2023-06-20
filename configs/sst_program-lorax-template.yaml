@@ -15,7 +15,6 @@ data:
   - dnf
   - rpm-ostree
   - ostree
-  - pigz
   - kernel
   - kernel-modules
   - kernel-modules-extra

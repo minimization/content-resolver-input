@@ -86,7 +86,6 @@ data:
     - perl-Carp
     - perl-devel
     - perl-interpreter
-    - pigz
     - pkgconf
     - polkit
     - python3
