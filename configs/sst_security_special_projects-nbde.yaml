@@ -13,10 +13,12 @@ data:
   - clevis-udisks2
   - http-parser
   - http-parser-devel
+  - jose
   - libjose
   - libjose-devel
   - libluksmeta
   - libluksmeta-devel
+  - luksmeta
   - tang
 
   labels:
