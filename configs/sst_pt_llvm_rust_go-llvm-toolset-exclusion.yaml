@@ -3,7 +3,7 @@ version: 1
 data:
   name: LLVM Toolset Exclusion List
   description: LLVM sub-projects that should not be included.
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_llvm_rust_go
 
   unwanted_packages:
   - libcxx

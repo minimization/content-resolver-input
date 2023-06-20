@@ -3,7 +3,7 @@ version: 1
 data:
   name: SST Platform Tools Misc Exclusion List  
   description: Packages from the sst_platform_tools-tbb.yaml file that are not needed for ELN
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_libraries
 
   unwanted_packages:
   - python3-tbb

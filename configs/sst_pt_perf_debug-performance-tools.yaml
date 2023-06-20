@@ -3,7 +3,7 @@ version: 1
 data:
   name: Performance Tools
   description: Performance Tools and Components
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_perf_debug
 
   packages:
   # See dyninst below

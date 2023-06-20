@@ -5,7 +5,7 @@ data:
   description: >
     Collection of packages providing compatibility packages related to
     the GNU Toolchain.
-  maintainer: sst_platform_tools
+  maintainer: ssg_platform_tools
   
   packages: []
 

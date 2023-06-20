@@ -3,7 +3,7 @@ version: 1
 data:
   name: GCC
   description: Collection of packages providing the C, C++, and Fortran compilers.
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_gcc
 
   packages:
   - gcc

@@ -3,7 +3,7 @@ version: 1
 data:
   name: C Development Environment
   description: A minimal C development environment.
-  maintainer: sst_platform_tools
+  maintainer: ssg_platform_tools
 
   packages:
   # The minimum development environment is this:

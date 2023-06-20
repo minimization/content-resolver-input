@@ -3,7 +3,7 @@ version: 1
 data:
   name: Boost
   description: Boost provides free peer-reviewed portable C++ source libraries
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_libraries
 
   packages:
   - boost

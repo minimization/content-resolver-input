@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Performance Tools packages
   description: Unwanted Performance Tools and Components
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_perf_debug
 
   unwanted_packages:
   - dyninst-static

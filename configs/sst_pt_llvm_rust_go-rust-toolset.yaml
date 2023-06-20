@@ -3,7 +3,7 @@ version: 1
 data:
   name: Rust Toolset
   description: Collection of packages providing the rust compiler toolchain.
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_llvm_rust_go
 
   packages:
   - rust

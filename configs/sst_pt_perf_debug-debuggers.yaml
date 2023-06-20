@@ -3,7 +3,7 @@ version: 1
 data:
   name: Debuggers
   description: Debuggers and components
-  maintainer: sst_platform_tools
+  maintainer: sst_pt_perf_debug
 
   packages:
   - gdb
