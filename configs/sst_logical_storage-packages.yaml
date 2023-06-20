@@ -21,7 +21,6 @@ data:
     # Boom-boot and its sub-packages
     - boom-boot
     - boom-boot-conf
-    - boom-boot-grub2
     - python3-boom
     # cryptsetup and its sub-packages
     - cryptsetup
