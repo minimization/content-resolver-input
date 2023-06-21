@@ -7,6 +7,7 @@ data:
 
   packages:
   - sudo
+  - sudo-python-plugin
 
   labels:
   - eln
