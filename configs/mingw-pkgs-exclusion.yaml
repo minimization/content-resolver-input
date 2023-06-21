@@ -310,9 +310,6 @@ data:
   - mingw32-sqlite-static
   - mingw64-sqlite-static
 
-  # mingw-w64-tools
-  - mingw-w64-tools
-
   # mingw-wavpack
   - mingw32-wavpack
   - mingw64-wavpack
