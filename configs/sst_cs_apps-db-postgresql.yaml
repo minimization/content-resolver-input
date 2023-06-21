@@ -6,10 +6,6 @@ data:
   maintainer: sst_cs_apps
 
   packages:
-  - libpq
-  - libpq-devel
-  - libecpg
-  - libecpg-devel
   - postgresql
   - postgresql-contrib
   - postgresql-plperl
