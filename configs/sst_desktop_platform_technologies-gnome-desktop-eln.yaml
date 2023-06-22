@@ -1,0 +1,31 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Desktop
+  description: GNOME Desktop core packages
+  maintainer: sst_desktop_platform_technologies
+
+  packages:
+  - gnome-color-manager
+  - gnome-remote-desktop
+  - low-memory-monitor
+  - lcms2
+  - power-profiles-daemon
+  - uresourced
+
+  labels:
+  - eln
+
+  arch_packages:
+    armv7hl:
+      - fprintd
+      - fprintd-pam
+    aarch64:
+      - fprintd
+      - fprintd-pam
+    ppc64le:
+      - fprintd
+      - fprintd-pam
+    x86_64:
+      - fprintd
+      - fprintd-pam

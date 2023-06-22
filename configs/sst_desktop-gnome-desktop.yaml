@@ -17,11 +17,9 @@ data:
   - gnome-backgrounds
   - gnome-backgrounds-extras
   - gnome-control-center
-  - gnome-color-manager
   - gnome-common
   - gnome-devel-docs
   - gnome-extensions-app
-  - gnome-remote-desktop
   - gnome-session
   - gnome-shell
   - gnome-shell-extension-auto-move-windows
@@ -34,30 +32,12 @@ data:
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
   - chrome-gnome-shell
-  - low-memory-monitor
-  - lcms2
-  - power-profiles-daemon
   - tracker
   - tracker-miners
-  - uresourced
   - xdg-user-dirs-gtk
 
   labels:
   - c9s
-
-  arch_packages:
-    armv7hl:
-      - fprintd
-      - fprintd-pam
-    aarch64:
-      - fprintd
-      - fprintd-pam
-    ppc64le:
-      - fprintd
-      - fprintd-pam
-    x86_64:
-      - fprintd
-      - fprintd-pam
 
   package_placeholders:
     gnome-shell-extension-systemMonitor:
