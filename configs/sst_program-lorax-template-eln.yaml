@@ -97,7 +97,7 @@ data:
   - jomolhari-fonts
   - khmeros-base-fonts
   - sil-padauk-fonts
-  - google-noto-sans-cjk-ttc-fonts
+  - google-noto-sans-cjk-fonts
   - gdb-gdbserver
   - libreport-plugin-bugzilla
   - libreport-plugin-reportuploader
