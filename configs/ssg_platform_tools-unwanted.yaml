@@ -23,6 +23,8 @@ data:
   - dpkg
   - dpkg-devel
   - dselect
+  # nasm and yasm are required by firefox.  If we could remove this
+  # dependency then we could probably drop them entirely.
   - nasm
   - nasm-rdoff
   - yasm
