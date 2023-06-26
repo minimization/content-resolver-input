@@ -129,7 +129,6 @@ data:
     - pcp-pmda-perfevent
     s390x:
     - pcp-pmda-bcc
-    - pcp-pmda-bpf
     - pcp-pmda-bpftrace
     - pcp-pmda-gfs2
     x86_64:
