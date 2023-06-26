@@ -43,7 +43,6 @@ data:
     - guestfs-tools
     - libguestfs
     - libguestfs-inspect-icons
-    - libguestfs-winsupport
     - qemu-kvm
     - seabios
     - sevctl
@@ -69,3 +68,24 @@ data:
     - qemu-kvm
     - supermin
     - virt-top
+
+  package_placeholders:
+  # RHEL-specific package, not in Fedora
+  - srpm_name: libguestfs-winsupport
+    build_dependencies:
+    - autoconf
+    - automake
+    - libtool
+    - fuse-devel
+    - gnutls-devel
+    - libattr-devel
+    - libconfig-devel
+    - libgcrypt-devel
+    - libuuid-devel
+    limit_arches:
+    - x86_64
+    rpms:
+    - rpm_name: libguestfs-winsupport
+      description: Add support for Windows guests to virt-v2v and virt-p2v
+      dependencies:
+      - libguestfs
