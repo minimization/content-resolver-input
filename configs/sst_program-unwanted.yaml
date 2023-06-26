@@ -130,6 +130,7 @@ data:
     - redhat-lsb-submod-security
     - reiserfs-utils
     - screen
+    - bind9-next
 
   labels:
   - eln
