@@ -9,6 +9,7 @@ data:
 
   packages:
     - openssl
+    - compat-openssl11
 
   labels:
-    - eln
+    - c9s
