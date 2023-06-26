@@ -7,7 +7,6 @@ data:
   unwanted_packages:
   # RHEL 10 additional unwanted entries:
   - gnome-common
-  - autoconf-archive
   # RHEL 9 unwanted entries:
   # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
   - libappindicator
