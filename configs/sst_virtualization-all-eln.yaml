@@ -46,7 +46,6 @@ data:
     - qemu-kvm
     - seabios
     - sevctl
-    - sgabios
     - supermin
     - virt-p2v
     - virt-top
