@@ -7,8 +7,9 @@ data:
 
   packages:
   - evince
-  - evince-nautilus
+  # Temporarily disabled until https://gitlab.gnome.org/GNOME/evince/-/merge_requests/561 is merged
+  #- evince-nautilus
   - evince-thumbnailer
 
   labels:
-  - c9s
+  - eln

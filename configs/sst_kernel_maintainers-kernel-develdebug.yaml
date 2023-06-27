@@ -13,7 +13,6 @@ data:
         - kernel-debug-modules
         - kernel-debug-modules-core
         - kernel-debug-modules-extra
-        - kernel-debug-uki-virt
         - kernel-devel
         - kernel-devel-matched
         - kernel-headers
@@ -22,6 +21,7 @@ data:
         - c9s
     arch_packages:
         x86_64:
+            - kernel-debug-uki-virt
             - kernel-tools-libs-devel
         aarch64:
             - kernel-64k-debug
