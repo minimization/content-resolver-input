@@ -4,7 +4,7 @@ data:
   name: Server Network Management
   description: >
     The Network Management tools for the server environment, including Open
-    vSwitch, ADSL, cloud, source routing supports, nmstate, IPSec VPN,
+    vSwitch, Team, ADSL, cloud, source routing supports, nmstate, IPSec VPN,
     Cellular network supports.
   maintainer: sst_networking
   packages:
@@ -18,6 +18,10 @@ data:
   # Open vSwitch
   - NetworkManager-ovs
   - nmstate-plugin-ovsdb
+
+  # Team
+  - NetworkManager-team
+  - teamd
 
   # IPSec
   - NetworkManager-libreswan
@@ -54,4 +58,4 @@ data:
   - jimtcl
 
   labels:
-  - eln
+  - c9s

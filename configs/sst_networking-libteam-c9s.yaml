@@ -9,5 +9,4 @@ data:
   packages:
   - teamd
   labels:
-  - eln
   - c9s
