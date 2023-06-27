@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHC Worker Bash
+  description: Remote Host Configuration (rhc) worker for executing bash scripts on hosts managed by Red Hat Insights.
+  maintainer: sst_conversions
+
+  packages:
+    - rhc-worker-bash
+  
+  labels:     
+  - c9s # TODO(r0x0d): Verify if this is the correct label for RHEL 7
+
+  arch_packages:    
+    x86_64:
+    - rhc-worker-bash
+
+  # Add packages to the workload that don't exist (yet) in the repositories.
+  package_placeholders:
+    - srpm_name: rhc-worker-bash  # SRPM name (mandatory)
+      build_dependencies:   # build dependencies (RPM names) of this SRPM (optional)
+        - golang
+      limit_arches:         # can be left empty for all arches (optional)
+        - x86_64
+      rpms:                 # List of the binary RPMs (mandatory)
+        - rpm_name: rhc-worker-bash   # RPM name (mandatory)
+          description: Remote Host Configuration (rhc) worker for executing bash scripts on hosts managed by Red Hat Insights.
+          dependencies:     # runtime dependencies (RPM names) of this RPM (optional)
+            - rhc
+          limit_arches: []  # can be left empty for all arches (optional)
