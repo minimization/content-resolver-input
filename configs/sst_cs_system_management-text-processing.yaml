@@ -157,7 +157,9 @@ data:
   - texlive-helvetic
   - texlive-hobsub
   - texlive-hologo
+  - texlive-hopatch
   - texlive-hycolor
+  - texlive-hypdoc
   - texlive-hyperref
   - texlive-hyph-utf8
   - texlive-hyphen-base
@@ -257,6 +259,7 @@ data:
   - texlive-parallel
   - texlive-parskip
   - texlive-passivetex
+  - texlive-pdfcol
   - texlive-pdfcolmk
   - texlive-pdfescape
   - texlive-pdflscape
