@@ -2,15 +2,14 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Misc admin tools for c9s
+  name: Misc admin tools for eln
   description: Tools necessary to support system admin
   maintainer: sst_kernel_debug
   packages:
-    - python-dmidecode
     - lshw
     - numactl
   labels:
-  - c9s
+  - eln
 
   arch_packages:
     aarch64:

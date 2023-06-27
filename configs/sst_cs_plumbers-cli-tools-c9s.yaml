@@ -14,6 +14,7 @@ data:
   - environment-modules
   - gperf
   - iputils
+  - iputils-ninfod
   - traceroute
   - lsof
   - ps_mem
@@ -31,3 +32,4 @@ data:
 
   labels:
   - eln
+  - c9s
