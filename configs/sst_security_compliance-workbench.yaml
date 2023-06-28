@@ -10,5 +10,4 @@ data:
   - openscap-scanner
 
   labels:
-  - eln
   - c9s
