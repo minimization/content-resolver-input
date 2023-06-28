@@ -11,5 +11,4 @@ data:
   - scap-security-guide
 
   labels:
-  - eln
   - c9s
