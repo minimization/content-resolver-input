@@ -7,6 +7,7 @@ data:
 
   packages:
   - gtk4
+  - gtk4-devel
 
   labels:
   - eln
