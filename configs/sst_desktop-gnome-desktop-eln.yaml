@@ -8,7 +8,9 @@ data:
   packages:
   - freerdp
   - gdm
+  - glib-networking
   - glib2
+  - glib2-devel
   - glib2-static
   - glib2-tests
   - gnome-backgrounds
@@ -28,6 +30,7 @@ data:
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
   - gnome-browser-connector
+  - libproxy
   - tracker
   - tracker-miners
   - xdg-user-dirs-gtk
