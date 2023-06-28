@@ -9,22 +9,6 @@ data:
   - c9s
 
   packages:
-  - java-1.8.0-openjdk
-  - java-1.8.0-openjdk-demo
-  - java-1.8.0-openjdk-devel
-  - java-1.8.0-openjdk-headless
-  - java-1.8.0-openjdk-javadoc
-  - java-1.8.0-openjdk-javadoc-zip
-  - java-1.8.0-openjdk-src
-  - java-11-openjdk
-  - java-11-openjdk-demo
-  - java-11-openjdk-devel
-  - java-11-openjdk-headless
-  - java-11-openjdk-javadoc
-  - java-11-openjdk-javadoc-zip
-  - java-11-openjdk-jmods
-  - java-11-openjdk-src
-  - java-11-openjdk-static-libs
   - java-17-openjdk
   - java-17-openjdk-demo
   - java-17-openjdk-devel
@@ -36,13 +20,6 @@ data:
   - java-17-openjdk-static-libs
   - copy-jdk-configs
   # Debug packages should be built but shipped in CRB
-  - java-11-openjdk-slowdebug
-  - java-11-openjdk-demo-slowdebug
-  - java-11-openjdk-devel-slowdebug
-  - java-11-openjdk-headless-slowdebug
-  - java-11-openjdk-jmods-slowdebug
-  - java-11-openjdk-src-slowdebug
-  - java-11-openjdk-static-libs-slowdebug
   - java-17-openjdk-slowdebug
   - java-17-openjdk-demo-slowdebug
   - java-17-openjdk-devel-slowdebug
@@ -55,26 +32,9 @@ data:
   - byteman-bmunit
   - byteman-javadoc
 
-  # no s390x debug for 1.8.0, slowdebug only for 11+
+  # no s390x fastdebug due to build times
   arch_packages:
     aarch64:
-    - java-1.8.0-openjdk-slowdebug
-    - java-1.8.0-openjdk-demo-slowdebug
-    - java-1.8.0-openjdk-devel-slowdebug
-    - java-1.8.0-openjdk-headless-slowdebug
-    - java-1.8.0-openjdk-src-slowdebug
-    - java-1.8.0-openjdk-fastdebug
-    - java-1.8.0-openjdk-demo-fastdebug
-    - java-1.8.0-openjdk-devel-fastdebug
-    - java-1.8.0-openjdk-headless-fastdebug
-    - java-1.8.0-openjdk-src-fastdebug
-    - java-11-openjdk-fastdebug
-    - java-11-openjdk-demo-fastdebug
-    - java-11-openjdk-devel-fastdebug
-    - java-11-openjdk-headless-fastdebug
-    - java-11-openjdk-jmods-fastdebug
-    - java-11-openjdk-src-fastdebug
-    - java-11-openjdk-static-libs-fastdebug
     - java-17-openjdk-fastdebug
     - java-17-openjdk-demo-fastdebug
     - java-17-openjdk-devel-fastdebug
@@ -83,23 +43,6 @@ data:
     - java-17-openjdk-src-fastdebug
     - java-17-openjdk-static-libs-fastdebug
     ppc64le:
-    - java-1.8.0-openjdk-slowdebug
-    - java-1.8.0-openjdk-demo-slowdebug
-    - java-1.8.0-openjdk-devel-slowdebug
-    - java-1.8.0-openjdk-headless-slowdebug
-    - java-1.8.0-openjdk-src-slowdebug
-    - java-1.8.0-openjdk-fastdebug
-    - java-1.8.0-openjdk-demo-fastdebug
-    - java-1.8.0-openjdk-devel-fastdebug
-    - java-1.8.0-openjdk-headless-fastdebug
-    - java-1.8.0-openjdk-src-fastdebug
-    - java-11-openjdk-fastdebug
-    - java-11-openjdk-demo-fastdebug
-    - java-11-openjdk-devel-fastdebug
-    - java-11-openjdk-headless-fastdebug
-    - java-11-openjdk-jmods-fastdebug
-    - java-11-openjdk-src-fastdebug
-    - java-11-openjdk-static-libs-fastdebug
     - java-17-openjdk-fastdebug
     - java-17-openjdk-demo-fastdebug
     - java-17-openjdk-devel-fastdebug
@@ -108,23 +51,6 @@ data:
     - java-17-openjdk-src-fastdebug
     - java-17-openjdk-static-libs-fastdebug
     x86_64:
-    - java-1.8.0-openjdk-slowdebug
-    - java-1.8.0-openjdk-demo-slowdebug
-    - java-1.8.0-openjdk-devel-slowdebug
-    - java-1.8.0-openjdk-headless-slowdebug
-    - java-1.8.0-openjdk-src-slowdebug
-    - java-1.8.0-openjdk-fastdebug
-    - java-1.8.0-openjdk-demo-fastdebug
-    - java-1.8.0-openjdk-devel-fastdebug
-    - java-1.8.0-openjdk-headless-fastdebug
-    - java-1.8.0-openjdk-src-fastdebug
-    - java-11-openjdk-fastdebug
-    - java-11-openjdk-demo-fastdebug
-    - java-11-openjdk-devel-fastdebug
-    - java-11-openjdk-headless-fastdebug
-    - java-11-openjdk-jmods-fastdebug
-    - java-11-openjdk-src-fastdebug
-    - java-11-openjdk-static-libs-fastdebug
     - java-17-openjdk-fastdebug
     - java-17-openjdk-demo-fastdebug
     - java-17-openjdk-devel-fastdebug
