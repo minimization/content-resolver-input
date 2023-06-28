@@ -13,18 +13,12 @@ data:
   - libtracefs
   - libtraceevent
   - kernelshark
+  - bpftrace
 
   arch_packages:
     aarch64:
-      - bpftrace
       - opencsd
       - opencsd-devel
-    ppc64le:
-      - bpftrace
-    s390x:
-      - bpftrace
-    x86_64:
-      - bpftrace
 
   labels:
   - eln
