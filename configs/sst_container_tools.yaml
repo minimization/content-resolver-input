@@ -4,29 +4,38 @@ data:
   name: Container Tools
   description: >
     Container runtime and related packages maintained by the Container Tools SST
-  maintainer: sst_container_tools
+
+  maintainer: jnovy
 
   packages:
-   # These packages are currently part of the container-tools module
+   - aardvark-dns
    - buildah
+   - catatonit
    - cockpit-podman
+   - container-tools
+   - container-selinux
+   - containers-common
    - conmon
+   - container-selinux
    - containernetworking-plugins
    - criu
    - crun
    - fuse-overlayfs
    - libslirp
+   - netavark
    - oci-seccomp-bpf-hook
    - podman
-   - python-podman-api
+   - python-podman
    - runc
    - skopeo
    - slirp4netns
    - toolbox
    - udica
-   # We may wish to move this out of the module but will contnue to maintain it
-   - container-selinux
+   - yayl
 
   labels:
-  - eln
   - c9s
+
+  unwanted_packages:
+    - python-podman-api
+

@@ -1,0 +1,37 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Container Tools ELN
+  description: >
+    Container runtime and related packages maintained by the Container Tools SST ELN
+
+  maintainer: jnovy
+
+  packages:
+   - aardvark-dns
+   - buildah
+   - catatonit
+   - cockpit-podman
+   - container-tools
+   - container-selinux
+   - containers-common
+   - conmon
+   - container-selinux
+   - criu
+   - crun
+   - fuse-overlayfs
+   - netavark
+   - oci-seccomp-bpf-hook
+   - podman
+   - python-podman
+   - skopeo
+   - toolbox
+   - udica
+   - yayl
+
+  labels:
+  - eln
+
+  unwanted_packages:
+    - python-podman-api
+
