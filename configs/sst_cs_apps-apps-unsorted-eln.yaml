@@ -10,12 +10,6 @@ data:
   - time
   - pcre2
   - pcre2-devel
-  - quota
-  - quota-nld
-  - quota-rpc
-  - quota-doc
-  - quota-nls
-  - quota-warnquota
 
   labels:
   - eln
