@@ -5,7 +5,7 @@ data:
   description: >
     Container runtime and related packages maintained by the Container Tools SST ELN
 
-  maintainer: jnovy
+  maintainer: sst_container_tools
 
   packages:
    - aardvark-dns
