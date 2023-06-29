@@ -8,7 +8,6 @@ data:
     packages: []
 
     labels:
-        - eln
         - c9s
 
     package_placeholders:
