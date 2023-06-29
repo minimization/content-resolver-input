@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Container Tools
+  name: Container Tools ELN
   description: >
-    Container runtime and related packages maintained by the Container Tools SST
+    Container runtime and related packages maintained by the Container Tools SST ELN
 
   maintainer: jnovy
 
@@ -17,25 +17,23 @@ data:
    - containers-common
    - conmon
    - container-selinux
-   - containernetworking-plugins
    - criu
    - crun
    - fuse-overlayfs
-   - libslirp
    - netavark
    - oci-seccomp-bpf-hook
    - podman
    - python-podman
-   - runc
    - skopeo
-   - slirp4netns
    - toolbox
    - udica
    - yayl
 
   labels:
-  - c9s
+  - eln
 
   unwanted_packages:
+    - containernetworking-plugins
     - python-podman-api
-
+    - runc
+    - slirp4netns
