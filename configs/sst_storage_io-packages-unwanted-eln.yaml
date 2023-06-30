@@ -8,7 +8,7 @@ data:
   unwanted_packages:
   - libhbaapi
   - libhbalinux
+  - nvme-stas
 
   labels:
   - eln
-  - c9s
