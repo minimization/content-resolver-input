@@ -11,11 +11,10 @@ data:
   - eln
   - c9s
 
+  # RHEL-specific packages, not in Fedora
   package_placeholders:
-    mingw-qemu-ga-win:
-      srpm: mingw-qemu-ga-win
-      description: Qemus Guest agent for Windows
-      buildrequires:
+    - srpm_name: mingw-qemu-ga-win
+      build_dependencies:
         - libtool
         - zlib-devel
         - glib2-devel
@@ -34,10 +33,15 @@ data:
         - msitools
         - meson
         - ninja-build
-    virtio-win:
-      srpm: virtio-win
-      description: This package is only provided in RHEL
-      buildrequires:
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: mingw-qemu-ga-win
+          description: Qemus Guest agent for Windows
+          dependencies:
+            - systemd-units
+    - srpm_name: virtio-win
+      build_dependencies:
         - mingw32-pixman
         - mingw64-pixman
         - mingw32-gcc
@@ -67,6 +71,10 @@ data:
         - mingw-binutils-generic
         - mingw-filesystem-base
         - mingw-w64-tools
-        - mingw-pcre
-        - mingw-zlib
-        - mingw-libffi
+        - xorriso
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: virtio-win
+          description: VirtIO para-virtualized drivers for Windows
+          dependencies: []
