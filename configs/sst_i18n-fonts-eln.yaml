@@ -6,24 +6,32 @@ data:
   maintainer: sst_i18n
 
   packages:
-  - aajohan-comfortaa-fonts
-  - abattis-cantarell-fonts
+  - abattis-cantarell-vf-fonts
   - adobe-source-code-pro-fonts
-  - compat-paratype-pt-sans-fonts-f33-f34
   - dejavu-sans-fonts
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
-  - google-carlito-fonts
-  - google-crosextra-caladea-fonts
-  - google-noto-emoji-color-fonts
-  - google-noto-sans-cjk-fonts
-  - google-noto-sans-gurmukhi-fonts
+  - google-noto-color-emoji-fonts
+  - google-noto-naskh-arabic-vf-fonts
+  - google-noto-sans-arabic-vf-fonts
+  - google-noto-sans-armenian-vf-fonts
+  - google-noto-sans-canadian-aboriginal-vf-fonts
+  - google-noto-sans-cherokee-vf-fonts
+  - google-noto-sans-cjk-vf-fonts
+  - google-noto-sans-ethiopic-vf-fonts
+  - google-noto-sans-georgian-vf-fonts
+  - google-noto-sans-gurmukhi-vf-fonts
+  - google-noto-sans-hebrew-vf-fonts
+  - google-noto-sans-khmer-vf-fonts
+  - google-noto-sans-lao-vf-fonts
+  - google-noto-sans-math-fonts
+  - google-noto-sans-mono-vf-fonts
   - google-noto-sans-sinhala-vf-fonts
-  - google-roboto-slab-fonts
+  - google-noto-sans-thaana-vf-fonts
+  - google-noto-sans-thai-vf-fonts
+  - google-noto-sans-vf-fonts
+  - google-noto-serif-vf-fonts
   - jomolhari-fonts
-  - julietaula-montserrat-fonts
-  - khmer-os-system-fonts
-  - lato-fonts
   - liberation-mono-fonts
   - liberation-sans-fonts
   - liberation-serif-fonts
@@ -32,19 +40,19 @@ data:
   - lohit-devanagari-fonts
   - lohit-gujarati-fonts
   - lohit-kannada-fonts
+  - lohit-marathi-fonts
   - lohit-odia-fonts
   - lohit-tamil-fonts
   - lohit-telugu-fonts
-  - open-sans-fonts
-  - overpass-fonts
+  - madan-fonts
   - paktype-naskh-basic-fonts
   - pt-sans-fonts
-  - sil-abyssinica-fonts
+  - rit-meera-new-fonts
+  - sil-mingzat-fonts
   - sil-nuosu-fonts
   - sil-padauk-fonts
-  - rit-meera-new-fonts
   - stix-fonts
-  - thai-scalable-waree-fonts
+  - vazirmatn-vf-fonts
 
   labels:
   - eln
