@@ -3,10 +3,7 @@ version: 1
 data:
   name: JMC
   description: JDK Mission Control application and libraries
-  maintainer: sst_dotnet_java
-
-  modules_enable:
-  - jmc:7
+  maintainer: sst_java
   
   packages: []
 
@@ -14,7 +11,5 @@ data:
     x86_64:
     - jmc
     - jmc-core
-    - eclipse-pde
-    - tycho
   labels:
   - eln
