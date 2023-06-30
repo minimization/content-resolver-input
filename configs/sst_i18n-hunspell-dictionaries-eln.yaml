@@ -5,12 +5,14 @@ data:
   description: A set of hunspell dictionaries
   maintainer: sst_i18n
   labels:
-  - c9s
+  - eln
 
   packages:
+  - hunspell
   - hunspell-af
   - hunspell-ak
   - hunspell-am
+  - hunspell-ar
   - hunspell-as
   - hunspell-ast
   - hunspell-az
@@ -21,6 +23,7 @@ data:
   - hunspell-br
   - hunspell-ca
   - hunspell-cop
+  - hunspell-cs
   - hunspell-csb
   - hunspell-cv
   - hunspell-cy
@@ -120,6 +123,7 @@ data:
   - hunspell-tl
   - hunspell-tn
   - hunspell-tpi
+  - hunspell-tr
   - hunspell-ts
   - hunspell-uk
   - hunspell-ur
