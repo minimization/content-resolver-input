@@ -12,7 +12,6 @@ data:
   - anaconda-widgets
   - kexec-tools-anaconda-addon
   - anaconda-install-env-deps
-  - oscap-anaconda-addon
   - dnf
   - rpm-ostree
   - ostree
