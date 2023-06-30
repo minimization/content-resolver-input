@@ -27,6 +27,8 @@ data:
   - google-noto-sans-math-fonts
   - google-noto-sans-mono-vf-fonts
   - google-noto-sans-sinhala-vf-fonts
+  - google-noto-sans-symbols-vf-fonts
+  - google-noto-sans-symbols2-fonts
   - google-noto-sans-thaana-vf-fonts
   - google-noto-sans-thai-vf-fonts
   - google-noto-sans-vf-fonts
