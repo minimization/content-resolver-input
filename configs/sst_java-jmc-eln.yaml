@@ -9,7 +9,21 @@ data:
 
   arch_packages:
     x86_64:
-    - jmc
-    - jmc-core
+    
+  package_placeholders: 
+      srpm_name: jmc
+      limit_arches: x86_64
+      rpms:
+        rpm_name: jmc
+        description: JDK Mission Control package
+        limit_arches: x86_64
+      
+      srpm_name: jmc-core
+      limit_arches: x86_64
+      rpms:
+        rpm_name: jmc-core
+        description: JDK Mission Control core library
+        limit_arches: x86_64
+     
   labels:
   - eln
