@@ -6,7 +6,6 @@ data:
   maintainer: sst_java
   labels:
   - eln
-  - c9s
 
   packages:
   - java-17-openjdk
