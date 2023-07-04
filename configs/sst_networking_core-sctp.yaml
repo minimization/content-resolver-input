@@ -4,7 +4,7 @@ data:
   name: SCTP support
   description: >
     Libs and tools necessary for proper SCTP support.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
   packages:
   - lksctp-tools
   - lksctp-tools-doc

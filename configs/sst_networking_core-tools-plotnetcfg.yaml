@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - iptraf-ng
+  name: Networking Tools - plotnetcfg
   description: >
     Packages related to network configuration and troubleshooting.
-  maintainer: sst_networking
-  packages:
-  - iptraf-ng
+  maintainer: sst_networking_core
+  unwanted_packages:
+  - plotnetcfg
 
   labels:
   - eln

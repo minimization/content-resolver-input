@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted firewalling packages
   description: Packages we do not want to ship for firewalling because they're unmaintained or broken.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
 
   labels:
   - eln

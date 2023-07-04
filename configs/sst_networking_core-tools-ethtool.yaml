@@ -1,13 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - iproute
+  name: Networking Tools - ethtool
   description: >
     Packages related to network configuration and troubleshooting.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
   packages:
-  - iproute
-  - iproute-tc
+  - ethtool
 
   labels:
   - eln

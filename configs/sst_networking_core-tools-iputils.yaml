@@ -1,12 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - scapy
+  name: Networking Tools - iputils
   description: >
     Packages related to network configuration and troubleshooting.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
   packages:
-  - python3-scapy
+  - iputils
 
   labels:
   - eln
