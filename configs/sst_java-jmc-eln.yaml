@@ -6,9 +6,6 @@ data:
   maintainer: sst_java
   
   packages: []
-
-  arch_packages:
-    x86_64:
     
   package_placeholders: 
     - srpm_name: jmc
