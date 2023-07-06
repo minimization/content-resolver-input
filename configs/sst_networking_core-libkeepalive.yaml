@@ -5,7 +5,7 @@ data:
   description: >
     Allow enabling TCP keepalive on applications that don't allow such
     configuration.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
   packages:
   - libkeepalive
 

@@ -4,7 +4,7 @@ data:
   name: Networking Tools - unwanteds
   description: >
     Unwanted packages related to network configuration and troubleshooting.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
 
   unwanted_packages:
   - dropwatch
