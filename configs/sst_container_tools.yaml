@@ -25,17 +25,17 @@ data:
    - netavark
    - oci-seccomp-bpf-hook
    - podman
-   - python-podman
+   - python3-podman
    - runc
    - skopeo
    - slirp4netns
    - toolbox
    - udica
-   - yayl
+   - yajl
 
   labels:
   - c9s
 
   unwanted_packages:
-    - python-podman-api
+    - python3-podman-api
 
