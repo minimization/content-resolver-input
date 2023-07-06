@@ -1,0 +1,51 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vfxplatform
+  description: The VFX Reference Platform https://vfxplatform.com/
+  maintainer: sst_platform_tools
+
+  packages:
+  # The minimum development environment is this:
+  - gcc
+  - gcc-c++
+  - binutils
+  - glibc
+  - glibc-common
+  - glibc-devel
+  - libstdc++
+  - libstdc++-devel
+  - libgcc
+  # Full development includes additional packages:
+  - glibc-utils
+  - glibc-static
+  - glibc-nss-devel
+  - libstdc++-static
+  # Support all locales.
+  - glibc-all-langpacks
+  # Packages used by VFX, see https://vfxplatform.com/
+  - python3
+  - python3-devel
+  - python3-numpy
+  - python3-alembic
+  - qt6-devel
+  - boost
+  - boost-devel
+  - tbb
+  - tbb-devel
+  - openexr-libs
+  - openexr-devel
+  # Additional packages required by VFX not present in RHEL:
+  # PyQt
+  # Qt for Python (PySide)
+  # Ptex
+  # OpenSubdiv
+  # OpenVDB
+  # FBX
+  # OpenColorIO
+  # ACES
+  # Intel MKL
+
+  labels:
+  - eln
+  - c9s
