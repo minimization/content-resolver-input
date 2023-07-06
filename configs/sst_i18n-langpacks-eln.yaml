@@ -5,7 +5,8 @@ data:
   description: A set of Language packs metapackages
   maintainer: sst_i18n
   labels:
-  - c9s
+  - eln-candidate
+  - eln
 
   options:
   - include-weak-deps
@@ -19,16 +20,21 @@ data:
   - langpacks-be
   - langpacks-bg
   - langpacks-bn
+  - langpacks-bo
   - langpacks-br
   - langpacks-bs
   - langpacks-ca
+  - langpacks-chr
   - langpacks-cs
   - langpacks-cy
   - langpacks-da
   - langpacks-de
+  - langpacks-dv
+  - langpacks-dz
   - langpacks-el
   - langpacks-en
   - langpacks-en_GB
+  - langpacks-eo
   - langpacks-es
   - langpacks-et
   - langpacks-eu
@@ -42,14 +48,20 @@ data:
   - langpacks-hi
   - langpacks-hr
   - langpacks-hu
+  - langpacks-hy
   - langpacks-ia
   - langpacks-id
   - langpacks-is
   - langpacks-it
+  - langpacks-iu
   - langpacks-ja
+  - langpacks-ka
   - langpacks-kk
+  - langpacks-km
   - langpacks-kn
   - langpacks-ko
+  - langpacks-ku
+  - langpacks-lo
   - langpacks-lt
   - langpacks-lv
   - langpacks-mai
@@ -57,6 +69,7 @@ data:
   - langpacks-ml
   - langpacks-mr
   - langpacks-ms
+  - langpacks-my
   - langpacks-nb
   - langpacks-ne
   - langpacks-nl
@@ -87,7 +100,9 @@ data:
   - langpacks-ur
   - langpacks-ve
   - langpacks-vi
+  - langpacks-yi
   - langpacks-xh
   - langpacks-zh_CN
+  - langpacks-zh_HK
   - langpacks-zh_TW
   - langpacks-zu

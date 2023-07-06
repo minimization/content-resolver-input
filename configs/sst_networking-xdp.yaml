@@ -3,7 +3,7 @@ version: 1
 data:
   name: XDP
   description: Tools to support XDP
-  maintainer: sst_kernel_tps
+  maintainer: sst_networking
 
   packages:
   - xdp-tools

@@ -7,7 +7,8 @@ data:
 
   packages:
   - brasero
-  - brasero-nautilus
+  # Disabled until https://gitlab.gnome.org/GNOME/brasero/-/merge_requests/21 is merged
+  # - brasero-nautilus
 
   labels:
-  - c9s
+  - eln

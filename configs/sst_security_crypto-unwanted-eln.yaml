@@ -1,0 +1,13 @@
+---
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  maintainer: sst_security_crypto
+  name: Unwanted security/cryptography packages in ELN
+  description: Unwanted cryptography packages in ELN
+
+  unwanted_packages:
+    # OpenSSL 3 deprecated engines, use the openssl pkcs11 provider instead
+    - openssl-pkcs11
+  labels:
+    - eln

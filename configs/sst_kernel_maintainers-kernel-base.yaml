@@ -29,7 +29,6 @@ data:
         - kernel-modules-core
         - kernel-modules-extra
         - kernel-tools
-        - kernel-uki-virt
         - libertas-sd8787-firmware
         - linux-firmware
         - linux-firmware-whence
@@ -48,6 +47,7 @@ data:
             - kernel-zfcpdump-modules-extra
         x86_64:
             - kernel-tools-libs
+            - kernel-uki-virt
         aarch64:
             - kernel-64k
             - kernel-64k-core

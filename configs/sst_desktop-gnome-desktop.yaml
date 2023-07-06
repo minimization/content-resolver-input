@@ -10,7 +10,9 @@ data:
   - autoconf-archive
   - freerdp
   - gdm
+  - glib-networking
   - glib2
+  - glib2-devel
   - glib2-doc
   - glib2-static
   - glib2-tests
@@ -32,6 +34,7 @@ data:
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
   - chrome-gnome-shell
+  - libproxy
   - tracker
   - tracker-miners
   - xdg-user-dirs-gtk
