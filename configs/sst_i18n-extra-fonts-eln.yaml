@@ -6,13 +6,26 @@ data:
   maintainer: sst_i18n
 
   packages:
+  - aajohan-comfortaa-fonts
   - dejavu-lgc-sans-fonts
   - dejavu-lgc-sans-mono-fonts
   - dejavu-lgc-serif-fonts
-  - google-noto-serif-cjk-ttc-fonts
-  - google-noto-serif-gurmukhi-vf-fonts
+  - google-carlito-fonts
+  - google-crosextra-caladea-fonts
+  - google-noto-serif-armenian-vf-fonts
+  - google-noto-serif-cjk-vf-fonts
+  - google-noto-serif-georgian-vf-fonts
+  - google-noto-serif-hebrew-vf-fonts
+  - google-noto-serif-khmer-vf-fonts
+  - google-noto-serif-lao-vf-fonts
   - google-noto-serif-sinhala-vf-fonts
+  - google-noto-serif-thai-vf-fonts
+  - google-roboto-slab-fonts
+  - julietaula-montserrat-fonts
+  - lato-fonts
   - liberation-narrow-fonts
+  - open-sans-fonts
+  - overpass-fonts
   - redhat-display-fonts
   - redhat-mono-fonts
   - redhat-text-fonts

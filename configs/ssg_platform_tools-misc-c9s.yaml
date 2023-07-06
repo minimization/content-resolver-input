@@ -9,8 +9,8 @@ data:
   - binutils
   - binutils-devel
   - binutils-gold
+  - annobin
   - annobin-annocheck
-  - annobin-plugin-gcc
 
   labels:
-  - eln
+  - c9s

@@ -9,20 +9,18 @@ data:
   - galera
   - mariadb
   - mariadb-backup
+  - mariadb-embedded-devel
+  - mariadb-embedded
   - mariadb-gssapi-server
   - mariadb-oqgraph-engine
   - mariadb-server
   - mariadb-server-galera
   - mariadb-devel
-  - mariadb-embedded-devel
-  - mariadb-embedded
   - mariadb-server-utils
   - mariadb-pam
   - mariadb-test
   - mariadb-connector-c-devel
-  - mariadb-connector-c-test
   - mysql-selinux # because package mariadb-server requires (mysql-selinux if selinux-policy-targeted)
 
   labels:
-  - eln
   - c9s

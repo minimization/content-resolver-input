@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: team driver support
+  description: >
+    Tools necessary to support team driver.
+    http://libteam.org/
+  maintainer: sst_networking
+  packages:
+  - teamd
+  labels:
+  - c9s

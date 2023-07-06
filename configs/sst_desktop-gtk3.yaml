@@ -6,7 +6,10 @@ data:
   maintainer: sst_desktop
 
   packages:
+  - gtk-update-icon-cache
   - gtk3
+  - gtk3-devel
+  - gtk3-immodule-xim
 
   labels:
   - eln

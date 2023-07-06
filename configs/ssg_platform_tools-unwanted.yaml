@@ -23,10 +23,17 @@ data:
   - dpkg
   - dpkg-devel
   - dselect
-  # nasm and yasm are required by firefox.  If we could remove this
-  # dependency then we could probably drop them entirely.
+  # Nasm is a build requirement for: dav1d, firefox, libavif, libjpeg-turbo,
+  # mingw-libjpeg-turbo, qatlib, rust-rav1e, syslinux, thunderbird, vmaf 
+  # Ideally one of these packages will take over the maintainership.
+  # Either that or they will all switch to using the binutils assembler
+  # and drop the nasm build requirement.
   - nasm
   - nasm-rdoff
+  # Yasm is a build requirement for: firefox, libvpx, svt-av1 and thunderbird.
+  # Ideally one of these packages will take over the maintainership.
+  # Either that or they will all switch to using the binutils assembler
+  # and drop the yasm build requirement.
   - yasm
   - yasm-devel
   # The X11 build may require mcpp. We should try hard to remove this
