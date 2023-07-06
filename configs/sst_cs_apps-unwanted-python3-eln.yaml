@@ -20,6 +20,8 @@ data:
   # older Python versions
   - python3.9
   - python3.10
+  - python3.11
+  - python3.11-libs
 
   # components for the above
   unwanted_source_packages:
@@ -29,6 +31,7 @@ data:
   - python-tomli
   - python3.9
   - python3.10
+  - python3.11
 
   labels:
   - eln
