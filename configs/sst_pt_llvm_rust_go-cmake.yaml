@@ -5,7 +5,7 @@ data:
   description: Build configuration generator.
   maintainer: sst_pt_llvm_rust_go
 
-  packages:
+  unwanted_packages:
   - cmake
   - cmake-filesystem
   - cmake-gui
