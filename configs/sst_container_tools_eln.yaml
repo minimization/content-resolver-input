@@ -12,7 +12,6 @@ data:
    - buildah
    - catatonit
    - cockpit-podman
-   - container-tools
    - container-selinux
    - containers-common
    - conmon
@@ -23,17 +22,25 @@ data:
    - netavark
    - oci-seccomp-bpf-hook
    - podman
-   - python-podman
+   - python3-podman
    - skopeo
    - toolbox
    - udica
-   - yayl
+   - yajl
+
+  package_placeholders:
+   - srpm_name: container-tools
+     build_dependencies: []
+     rpms:
+      - rpm_name: container-tools
+        description: Meta-package for container tools
+        dependencies: []
 
   labels:
   - eln
 
   unwanted_packages:
     - containernetworking-plugins
-    - python-podman-api
+    - python3-podman-api
     - runc
     - slirp4netns

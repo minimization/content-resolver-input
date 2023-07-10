@@ -4,7 +4,7 @@ data:
   name: Networking Tools - wireshark
   description: >
     Packages related to network configuration and troubleshooting.
-  maintainer: sst_networking
+  maintainer: sst_networking_core
   packages:
   - wireshark
   - wireshark-cli

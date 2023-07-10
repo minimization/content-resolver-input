@@ -7,6 +7,8 @@ data:
   packages:
   - kmod
   - ddiskit
+  - kernel-rpm-macros
+  - kernel-srpm-macros
   labels:
   - eln
   - c9s

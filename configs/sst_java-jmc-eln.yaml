@@ -3,18 +3,40 @@ version: 1
 data:
   name: JMC
   description: JDK Mission Control application and libraries
-  maintainer: sst_dotnet_java
-
-  modules_enable:
-  - jmc:7
+  maintainer: sst_java
   
   packages: []
-
-  arch_packages:
-    x86_64:
-    - jmc
-    - jmc-core
-    - eclipse-pde
-    - tycho
+    
+  package_placeholders: 
+    - srpm_name: jmc
+      build_dependencies:
+      - desktop-file-utils
+      - java-17-openjdk-devel
+      - maven-local
+      limit_arches:
+      - x86_64
+      rpms:
+      - rpm_name: jmc
+        description: JDK Mission Control package
+        dependencies:
+        - gtk3
+        - java-17-openjdk
+        - mesa-libGLU
+        - webkit2gtk4.1
+        limit_arches:
+        - x86_64
+      
+    - srpm_name: jmc-core
+      build_dependencies:
+      - maven-local
+      limit_arches:
+      - x86_64
+      rpms:
+      - rpm_name: jmc-core
+        description: JDK Mission Control core library
+        dependencies: []
+        limit_arches:
+        - x86_64
+     
   labels:
   - eln
