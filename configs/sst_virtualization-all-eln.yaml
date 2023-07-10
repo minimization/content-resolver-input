@@ -29,8 +29,6 @@ data:
   - python3-libvirt
   - python3-pefile
   - python3-virt-firmware
-  - spice-protocol
-  - spice-vdagent
   - vhostmd
   - virt-install
   - virt-viewer
@@ -48,6 +46,8 @@ data:
     - qemu-kvm
     - seabios
     - sevctl
+    - spice-protocol
+    - spice-vdagent
     - supermin
     - virt-p2v
     - virt-top
