@@ -8,6 +8,7 @@ data:
   packages:
   - atop
   - awscli
+  - awscli2
   - azure-cli
   - b4
   - below
@@ -18,6 +19,7 @@ data:
   - dbench
   - debian-keyring
   - debootstrap
+  - difftastic
   - dnf5
   - dnf5-plugins
   - dnf5daemon-client
@@ -28,9 +30,13 @@ data:
   - duo_unix-selinux
   - ebranch
   - et
+  - exa
   - htop
   - iotools
+  - fd-find
   - fping
+  - glslang
+  - hyperfine
   - keyrings-filesystem
   - lei
   - libdnf5
@@ -41,9 +47,11 @@ data:
   - libkdumpfile-devel
   - libidn
   - libidn-devel
+  - mlnx-tools
   - mkosi
   - mosh
   - ncdu
+  - ncurses-compat-libs
   - neovim
   - netconsd
   - ngrep
@@ -53,6 +61,7 @@ data:
   - pam_krb5
   - parallel
   - pngquant
+  - pore
   - pv
   - python3-dnf-plugin-flunk_dependent_remove
   - python3-libdnf5
@@ -60,6 +69,7 @@ data:
   - python3-libdnf5-python-plugins-loader
   - python3-pystemd
   - python3-testslide
+  - python3-zstd
   - rpmdistro-repoquery
   - rpminspect
   - rpminspect-data-centos
