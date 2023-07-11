@@ -2,7 +2,6 @@
 data:
   description: Automatically generated.
   labels:
-  - eln-candidate
   - eln
   - c9s
   maintainer: sst_pt_pcp
