@@ -8,5 +8,9 @@ data:
   packages:
   - usermode-gtk
 
+  arch_packages:
+    ppc64le:
+    - opal-firmware
+
   labels:
   - c9s

@@ -96,7 +96,6 @@ data:
     - setserial
     - opal-prd
     - opal-utils
-    - opal-firmware
     - powerpc-utils
     - powerpc-utils-core
     - ppc64-diag
