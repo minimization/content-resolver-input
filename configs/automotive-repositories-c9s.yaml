@@ -5,8 +5,7 @@ data:
   name: Standard Automotive repositories based on C9S
   description: >
     C9S Repositories for Base Autopackages (BaseOS, AppStream,
-    PowerTools, CBS AutoSD packages, CBS Automotive packages,
-    Neptune)
+    PowerTools, CBS AutoSD packages, CBS Automotive packages)
   # Contacts: psabata, ssmoogen
   maintainer: automotive-base-enablement
   source:
@@ -23,9 +22,6 @@ data:
       stream-powertools:
         baseurl: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/CRB/$basearch/os/
         priority: 100
-      neptune:
-        baseurl: https://download.copr.fedorainfracloud.org/results/pingou/qtappmanager-fedora/centos-stream-9-$basearch/
-        priority: 500
     releasever: "9"
     composeinfo: https://composes.stream.centos.org/production/latest-CentOS-Stream/compose/metadata/composeinfo.json
     # Automotive is only focusing on a subset of architectures
