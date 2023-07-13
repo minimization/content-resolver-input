@@ -14,6 +14,7 @@ data:
   - iproute
   - ipxe-roms-qemu
   - ksmtuned
+  - libblkio
   - libiscsi
   - libnbd
   - libosinfo
@@ -42,7 +43,6 @@ data:
     - edk2-ovmf
     - guestfs-tools
     - libguestfs
-    - libguestfs-inspect-icons
     - qemu-kvm
     - seabios
     - sevctl
