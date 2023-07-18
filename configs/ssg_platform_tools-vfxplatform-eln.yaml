@@ -28,7 +28,7 @@ data:
   - python3-devel
   - python3-numpy
   - python3-alembic
-  - qt5-devel
+  - qt6-devel
   - boost
   - boost-devel
   - tbb
@@ -47,4 +47,4 @@ data:
   # Intel MKL
 
   labels:
-  - c9s
+  - eln
