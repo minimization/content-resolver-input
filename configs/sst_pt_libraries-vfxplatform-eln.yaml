@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: vfxplatform
-  description: The VFX Reference Platform https://vfxplatform.com/
+  description: The VFX Reference Platform (CY2024 DRAFT) https://vfxplatform.com/
   maintainer: sst_pt_libraries
 
   packages:
