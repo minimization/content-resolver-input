@@ -28,6 +28,7 @@ data:
   - python3-devel
   - python3-numpy
   - python3-alembic
+  - python3-qt5
   - qt5-devel
   - boost
   - boost-devel
@@ -36,7 +37,6 @@ data:
   - openexr-libs
   - openexr-devel
   # Additional packages required by VFX not present in RHEL:
-  # PyQt
   # Qt for Python (PySide)
   # Ptex
   # OpenSubdiv
