@@ -1,16 +1,14 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: C++ Runtime
-  description: A minimal C++ runtime.
-  maintainer: ssg_platform_tools
+  name: C Runtime
+  description: A minimal C runtime.
+  maintainer: sst_pt_libraries
 
   packages:
   # Need the C runtime implementation.
   - glibc
   - glibc-common
-  # Need the C++ standard library implementation.
-  - libstdc++
   # Need compiler helper routines and unwinder.
   - libgcc
   # Support C/POSIX/C.UTF-8 locales.

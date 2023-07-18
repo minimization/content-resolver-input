@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Platform Tools Libraries Unwanted Packages (ELN)
+  description: Platform Tools Libarries recommendations for packages not to ship (future)
+  maintainer: sst_pt_libraries
+  labels:
+  - eln
+
+  unwanted_packages:
+  # Remove nscd in favour of sssd.
+  - nscd

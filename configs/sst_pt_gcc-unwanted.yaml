@@ -3,7 +3,7 @@ version: 1
 data:
   name: Platform Tools Unwanted Packages
   description: Platform Tools recommendations for packages not to ship
-  maintainer: ssg_platform_tools
+  maintainer: sst_pt_gcc
   labels:
   - eln
   - c9s
