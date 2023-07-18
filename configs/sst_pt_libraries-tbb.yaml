@@ -12,4 +12,5 @@ data:
   - tbb-doc
 
   labels:
+  - eln
   - c9s
