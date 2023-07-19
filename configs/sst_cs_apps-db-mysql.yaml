@@ -8,32 +8,21 @@ data:
   packages:
   - mecab-ipadic
   - mecab-ipadic-EUCJP
-  - mysql
-  - mysql-devel
-  - mysql-server
-  - mysql-test
-  - mysql-selinux
 
   labels:
   - eln
   - c9s
 
   package_placeholders:
-    mysql:
-      srpm: mysql
-      description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
-      requires:
-        - mecab-ipadic
-        - mecab-ipadic-EUCJP
-        - perl-Getopt-Long
-        - perl-libs
-      buildrequires:
+    - srpm_name: mysql
+      build_dependencies:
         - bison
         - cmake
         - gcc-c++
         - libaio-devel
         - libedit-devel
         - libevent-devel
+        - libfido2-devel
         - libicu-devel
         - libtirpc-devel
         - libzstd-devel
@@ -86,4 +75,47 @@ data:
         - time
         - zlib
         - zlib-devel
-
+      rpms:
+        - rpm_name: mysql
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libedit
+            - libzstd
+            - lz4-libs
+            - openssl-libs
+        - rpm_name: mysql-common
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+        - rpm_name: mysql-devel
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd-devel
+            - openssl-devel
+        - rpm_name: mysql-errmsg
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+        - rpm_name: mysql-libs
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd
+            - openssl-libs
+        - rpm_name: mysql-selinux
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+        - rpm_name: mysql-server
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libedit
+            - libzstd
+            - lz4-libs
+            - mecab-ipadic
+            - mecab-ipadic-EUCJP
+            - openssl-libs
+            - perl-Getopt-Long
+            - perl-libs
+        - rpm_name: mysql-test
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd
+            - lz4
+            - openssl
+            - perl-Getopt-Long
+            - perl-interpreter
+            - protobuf
