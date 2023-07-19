@@ -7,6 +7,7 @@ data:
 
   packages:
   - chrony
+  - gpsd-minimal
   - linuxptp
   - ntpstat
   - synce4l
