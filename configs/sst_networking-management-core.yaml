@@ -5,7 +5,7 @@ data:
   description: >
     The Core Network Management tools for the local host. This includes
     NetworkManager and related tools.
-  maintainer: sst_networking
+  maintainer: sst_network_management
   packages:
   - dhcp-client
   - dnsmasq
