@@ -12,6 +12,35 @@ data:
   - ntpstat
   - synce4l
 
+  package_placeholders:
+  # RHEL-specific build of gpsd without client libraries
+  - srpm_name: gpsd-minimal
+    build_dependencies:
+    - dbus-devel
+    - ncurses-devel
+    - xmlto
+    - python3-devel
+    - python3-setuptools
+    - gtk3-devel
+    - python3-scons
+    - python3-gobject
+    - python3-cairo
+    - python3-pyserial
+    - desktop-file-utils
+    - bluez-libs-devel
+    - pps-tools-devel
+    - systemd-rpm-macros
+    - libusb1-devel
+    rpms:
+    - rpm_name: gpsd-minimal
+      description: Service daemon for mediating access to a GPS
+      dependencies:
+      - bluez-libs
+      - dbus-libs
+      - ncurses-libs
+      - libusb1
+      - python3
+
   labels:
   - eln
   - c9s
