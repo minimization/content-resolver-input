@@ -3,7 +3,7 @@ version: 1
 data:
   name: Network Management in Development
   description: The Network Management tools for the development environment.
-  maintainer: sst_networking
+  maintainer: sst_network_management
   packages:
   # Core
   - iproute

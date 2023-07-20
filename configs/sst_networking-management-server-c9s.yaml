@@ -6,7 +6,7 @@ data:
     The Network Management tools for the server environment, including Open
     vSwitch, Team, ADSL, cloud, source routing supports, nmstate, IPSec VPN,
     Cellular network supports.
-  maintainer: sst_networking
+  maintainer: sst_network_management
   packages:
   # Core
   - iproute
