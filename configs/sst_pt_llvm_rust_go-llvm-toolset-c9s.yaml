@@ -29,24 +29,28 @@ data:
     aarch64:
       - libomp
       - libomp-devel
+      - libomp-test
       - lld
       - lld-devel
       - lld-libs
     ppc64le:
       - libomp
       - libomp-devel
+      - libomp-test
       - lld
       - lld-devel
       - lld-libs
     x86_64:
       - libomp
       - libomp-devel
+      - libomp-test
       - lld
       - lld-devel
       - lld-libs
     armv7hl:
       - libomp
       - libomp-devel
+      - libomp-test
 
   labels:
-  - eln
+  - c9s
