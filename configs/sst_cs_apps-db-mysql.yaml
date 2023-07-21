@@ -31,6 +31,7 @@ data:
         - make
         - mecab-devel
         - multilib-rpm-config
+        - mysql-selinux
         - openssl
         - openssl-devel
         - perl-base
@@ -97,8 +98,6 @@ data:
           dependencies:
             - libzstd
             - openssl-libs
-        - rpm_name: mysql-selinux
-          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
         - rpm_name: mysql-server
           description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
           dependencies:
@@ -107,6 +106,7 @@ data:
             - lz4-libs
             - mecab-ipadic
             - mecab-ipadic-EUCJP
+            - mysql-selinux
             - openssl-libs
             - perl-Getopt-Long
             - perl-libs
