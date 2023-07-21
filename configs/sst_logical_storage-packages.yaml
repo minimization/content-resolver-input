@@ -45,21 +45,38 @@ data:
     - lvm2-lockd
     - mdadm
     - sanlock
+    - stratisd
     - userspace-rcu
 
+  # RHEL-specific packages, not available in Fedora
   package_placeholders:
-    kmod-kvdo:
-      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
-      srpm: kmod-kvdo
-    pmreorder:
-      description: This package is only available in RHEL.
-      srpm: pmreorder
-    vdo:
-      description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
-      srpm: vdo
-    stratisd:
-      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
-      srpm: stratisd
+    - srpm_name: kmod-kvdo
+      build_dependencies:
+        - elfutils-libelf-devel
+        - kernel-devel
+        - libuuid-devel
+      rpms:
+        - rpm_name: kmod-kvdo
+          description: Kernel Modules for Virtual Data Optimizer
+          dependencies:
+            - kernel-core
+            - kernel-modules
+    - srpm_name: vdo
+      build_dependencies:
+        - libblkid-devel
+        - libuuid-devel
+        - device-mapper-devel
+        - device-mapper-event-devel
+        - valgrind-devel
+        - zlib-devel
+      rpms:
+        - rpm_name: vdo
+          description: Management tools for Virtual Data Optimizer
+          dependencies:
+            - libblkid
+            - libuuid
+            - device-mapper-event-libs
+            - zlib
 
   labels:
   - eln
