@@ -7,21 +7,10 @@ data:
 
   packages:
   - tigervnc
+  - tigervnc-selinux
   - tigervnc-server
   - tigervnc-server-module
 
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    tigervnc-selinux:
-      srpm: tigervnc
-      description: SELinux module for TigerVNC
-      requires:
-        - libselinux-utils
-        - selinux-policy
-        - policycoreutils
-        - libselinux-utils
-      buildrequires:
-        - selinux-policy-devel
