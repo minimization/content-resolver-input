@@ -27,16 +27,9 @@ data:
   - systemd-journal-remote
   - systemd-udev
   - polkit
+  - zram-generator
+  - zram-generator-defaults
 
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    zram-generator:
-      description: RHEL builds are bundled and use rust-toolset
-      srpm: rust-zram-generator
-    zram-generator-defaults:
-      description: RHEL builds are bundled and use rust-toolset
-      srpm: rust-zram-generator
-
