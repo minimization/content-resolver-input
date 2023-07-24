@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Intel multi buffer crypto libraries
+  description: libraries needed for acceleration of crypto and compression on Intel processors
+  maintainer: sst_security_crypto
+
+  packages:
+  - intel-ipsec-mb
+  - intel-ipp-crypto-mb
+
+  labels:
+  - eln
+  - c9s
