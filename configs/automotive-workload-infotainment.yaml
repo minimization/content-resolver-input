@@ -10,5 +10,12 @@ data:
   labels:
     - automotive
   packages:
+    - dbus-x11  # required by qemu for dbus connection
+    - kernel-automotive-kvm  # required to provide kvm module
     - mutter
     - plymouth
+    - qemu-kvm-core  # required to provide qemu-kvm binary
+    - qemu-kvm-ui-dbus
+  arch_packages:
+    x86_64:
+    - qemu-kvm-ui-opengl  # required to make dbus display available on x86_64
