@@ -5,24 +5,46 @@ data:
   description: Insights
   maintainer: sst_insights
 
-  packages: []
+  packages:
+    - yggdrasil
+    - yggdrasil-worker-package-manager
 
   package_placeholders:
-    insights-client:
-      srpm: insights-client
-      description: insights
-      requires:
-      - coreutils
-      - gpg
-      - pciutils
-      - python3-magic
-      - python3-six
-      - python3-requests
-      - systemd
-      - python3-PyYAML
-      - tar
+    - srpm_name: insights-client
+      rpms:
+        - rpm_name: insights-client
+          description: insights-client
+          dependencies:
+            - coreutils
+            - gpg
+            - pciutils
+            - policycoreutils-python-utils
+            - python3-PyYAML
+            - python3-magic
+            - python3-requests
+            - python3-setuptools
+            - python3-six
+            - systemd
+            - tar
+
+    - srpm_name: rhc
+      rpms:
+        - rpm_name: rhc
+          description: rhc
+          dependencies:
+            - policycoreutils-python-utils
+            - yggdrasil
+            - yggdrasil-worker-package-manager
+
+    - srpm_name: rhc-worker-playbook
+      rpms:
+        - rpm_name: rhc-worker-playbook
+          description: rhc-worker-playbook
+          dependencies:
+            - ansible-core
+            - python3-PyYAML
+            - python3-requests
 
   labels:
   - eln
   - c9s
-
