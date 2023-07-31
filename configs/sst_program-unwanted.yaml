@@ -6,6 +6,7 @@ data:
   maintainer: bstinson
 
   unwanted_packages:
+    - alex
     - bodhi-client
     - bodhi-composer
     - bodhi-docs
@@ -27,11 +28,14 @@ data:
     - fedpkg
     - fedpkg-stage
     - ghc
+    - ghc-bytes
+    - ghc-bytestring
     - GraphicsMagick
     - GraphicsMagick-c++
     - GraphicsMagick-c++-devel
     - GraphicsMagick-devel
     - GraphicsMagick-perl
+    - happy
     - ImageMagick
     - ImageMagick-c++
     - ImageMagick-c++-devel
