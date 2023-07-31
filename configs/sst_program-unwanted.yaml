@@ -50,6 +50,7 @@ data:
     - koji-utils
     - koji-vm
     - koji-web
+    - pandoc
     - python3-koji
     - python3-koji-cli-plugins
     - python3-koji-hub
