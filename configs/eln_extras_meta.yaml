@@ -8,7 +8,6 @@ data:
   packages:
   - atop
   - awscli
-  - awscli2
   - azure-cli
   - b4
   - below
@@ -94,15 +93,19 @@ data:
 
   arch_packages:
     aarch64:
+      - awscli2
       - sedutil
       - sysbench
     i686:
+      - awscli2
       - msr-tools
       - sedutil
       - sysbench
     ppc64le:
+      - awscli2
       - sedutil
     x86_64:
+      - awscli2
       - msr-tools
       - sedutil
       - sysbench
