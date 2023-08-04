@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Cloud Experience Integrations for RHEL
+  description: Software that makes RHEL more integrated with various clouds
+  maintainer: sst_cloud_experience
+
+  packages:
+    - efs-utils
+    - python3-botocore
+
+  labels:
+    - eln
+    - c9s
