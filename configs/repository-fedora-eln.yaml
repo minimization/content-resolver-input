@@ -99,13 +99,6 @@ data:
         exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
         priority: 5
       
-      Rawhdular:
-        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Modular/$basearch/os/
-        koji_api_url: https://koji.fedoraproject.org/kojihub
-        koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
-        priority: 6
-
     releasever: "rawhide"
     
     architectures:

@@ -44,7 +44,6 @@ data:
   # (mandatory field)
   packages:
   - rootfiles
-  - fedora-repos-modular
   - tar
   - vim-minimal
   - dnf
