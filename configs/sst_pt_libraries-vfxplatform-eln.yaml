@@ -31,8 +31,6 @@ data:
   - python3-pyqt6
   - qt6-designer
   - qt6-linguist
-  - qt6-qdoc
-  - qt6-qhelpgenerator
   - qt6-qt3d
   - qt6-qt3d-devel
   - qt6-qt5compat
