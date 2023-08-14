@@ -6,6 +6,7 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
+  - modulemd-tools
   - usermode-gtk
 
   arch_packages:

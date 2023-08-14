@@ -33,7 +33,6 @@ data:
   - libva
   - libva-devel
   - mksh
-  - modulemd-tools
   - netpbm-devel
   - netpbm-doc
   - netpbm-progs
