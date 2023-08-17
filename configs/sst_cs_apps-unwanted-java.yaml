@@ -7,7 +7,6 @@ data:
 
   unwanted_source_packages:
   - ant-contrib
-  - aopalliance
   - apache-commons-exec
   - apache-commons-lang
   - apache-ivy
@@ -36,7 +35,6 @@ data:
   - jaxen
   - jboss-modules
   - jmock
-  - jsoup
   - jtidy
   - log4j12
   - maven-artifact-resolver
