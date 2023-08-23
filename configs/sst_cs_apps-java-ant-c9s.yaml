@@ -16,7 +16,7 @@ data:
   - ant-apache-xalan2
   - ant-commons-logging
   - ant-commons-net
-  - ant-jakartamail
+  - ant-javamail
   - ant-jdepend
   - ant-jmf
   - ant-jsch
@@ -27,4 +27,4 @@ data:
   - ant-xz
 
   labels:
-  - eln
+  - c9s
