@@ -1,0 +1,74 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Network Management
+  description: >
+    Tools for Network Management around NetworkManager.
+  maintainer: sst_network_management
+  packages:
+    # Core
+    - NetworkManager
+    - NetworkManager-tui
+
+    # Cellular Modem
+    - ModemManager
+    - ModemManager-glib
+    - NetworkManager-ppp
+    - NetworkManager-wwan
+    - mobile-broadband-provider-info
+    - usb_modeswitch
+    - usb_modeswitch-data
+
+    # VPN
+    - NetworkManager-libreswan
+    - NetworkManager-libreswan-gnome
+
+    # Wifi
+    - NetworkManager-wifi
+    - wpa_supplicant
+
+    # Bluetooh
+    - NetworkManager-bluetooth
+
+    # Server
+    # Open vSwitch
+    - NetworkManager-ovs
+    - nmstate-plugin-ovsdb
+
+    # MACSec / 802.1x
+    - wpa_supplicant
+
+    # ADSL
+    - NetworkManager-adsl
+
+    # Config files
+    - NetworkManager-config-connectivity-redhat
+    - NetworkManager-config-server
+
+    # Other
+    - NetworkManager-dispatcher-routing-rules
+    - NetworkManager-cloud-setup
+    - nmstate
+    - nispor
+    - python3-nispor
+
+    # Development
+    - NetworkManager-libnm-devel
+    - ModemManager-devel
+    - ModemManager-glib-devel
+
+    # GUI
+    - network-manager-applet
+    - nm-connection-editor
+
+
+  unwanted_packages:
+    # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since
+    # usb_modeswitch 2.6.0, the package depends on /usr/bin/tclsh (tcl). We no
+    # longer want to maintain jimtcl moving forward.
+    - jimtcl
+
+
+  labels:
+    - eln
+    - c9s
