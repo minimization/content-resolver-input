@@ -21,7 +21,6 @@ data:
     - python3-devel
     - python3-setuptools
     - gtk3-devel
-    - python3-scons
     - python3-gobject
     - python3-cairo
     - python3-pyserial
