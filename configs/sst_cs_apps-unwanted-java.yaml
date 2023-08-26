@@ -28,8 +28,6 @@ data:
   - jakarta-ws-rs
   - jakarta-xml-rpc
   - jakarta-xml-ws
-  - javacc
-  - javacc-maven-plugin
   - javamail
   - javassist
   - jaxen
