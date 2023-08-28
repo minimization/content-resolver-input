@@ -4,7 +4,7 @@ data:
   name: Networking Tools - LLDP
   description: >
     Packages related to network configuration and troubleshooting.
-  maintainer: sst_networking_core
+  maintainer: sst_network_fastdatapath
   packages:
   # LLDP support
   - lldpad
