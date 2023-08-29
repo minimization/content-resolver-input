@@ -46,11 +46,13 @@ data:
   - file-roller
   # Only Qt 6 will be part of RHEL 10
   # Qt 6
-  # Not needed as we have qgnomeplatform in RHEL
   - qt6ct
   - qt6-qtwebengine
   - qt6-qtwebengine-devtools
   - qt6-qtwebview
+  # Deprecated Qt/GNOME integration
+  - qgnomeplatform-qt6
+  - adwaita-qt6
   # Qt 5
   - adwaita-qt5
   - qgnomeplatform-qt5

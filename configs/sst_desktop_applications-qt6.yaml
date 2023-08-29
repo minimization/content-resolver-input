@@ -87,7 +87,6 @@ data:
   - qt6-rpm-macros
   - qt6-srpm-macros
   # GNOME integration
-  - adwaita-qt6
-  - qgnomeplatform-qt6
+  - qadwaitadecorations-qt6
   labels:
   - eln
