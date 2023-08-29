@@ -6,7 +6,7 @@ data:
   maintainer: sst_cs_system_management
 
   packages:
-  - iotop-c
+  - iotop
   - net-snmp
   - net-snmp-devel
   - net-snmp-libs
@@ -21,4 +21,4 @@ data:
     - servicelog
 
   labels:
-  - eln
+  - c9s
