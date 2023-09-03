@@ -7,6 +7,6 @@ data:
   maintainer: sst_security_crypto
   packages:
     - liboqs
-    - oqs-provider
+    - oqsprovider
   labels:
     - eln
