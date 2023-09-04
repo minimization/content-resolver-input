@@ -47,6 +47,7 @@ data:
   - maven-reporting-api
   - maven-reporting-impl
   - maven-script-interpreter
+  - munge-maven-plugin
   - objectweb-pom
   - os-maven-plugin
   - plexus-build-api
