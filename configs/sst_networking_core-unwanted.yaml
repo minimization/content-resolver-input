@@ -1,4 +1,4 @@
-document: feedback-pipeline-workload
+document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Networking Tools - unwanteds
@@ -8,6 +8,7 @@ data:
 
   unwanted_packages:
   - dropwatch
+  - plotnetcfg
 
   labels:
   - eln
