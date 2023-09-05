@@ -36,6 +36,3 @@ data:
   labels:
   - c9s
 
-  unwanted_packages:
-    - python3-podman-api
-

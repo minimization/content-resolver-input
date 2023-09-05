@@ -38,9 +38,3 @@ data:
 
   labels:
   - eln
-
-  unwanted_packages:
-    - containernetworking-plugins
-    - python3-podman-api
-    - runc
-    - slirp4netns
