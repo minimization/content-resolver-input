@@ -19,7 +19,7 @@ data:
     ppc64le:
       - numatop
       - irqbalance
-    s390x:
+    s390x: []
     x86_64:
       - dmidecode
       - numatop
