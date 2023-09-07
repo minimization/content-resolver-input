@@ -1,12 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Eye of GNOME
+  name: Loupe
   description: Default image viewer for Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_desktop
 
   packages:
-  - eog
+  - loupe
+  - glycin-loaders
 
   labels:
-  - c9s
+  - eln
