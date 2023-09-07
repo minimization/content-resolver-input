@@ -96,6 +96,8 @@ data:
   - libgdata
   # Replaced by enchant2 and applications should be ported to it
   - enchant
+  # Replaced by Loupe
+  - eog
 
   labels:
   - eln
