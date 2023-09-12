@@ -3,7 +3,7 @@ version: 1
 data:
   name: RDMA Stack Appstream Packages
   description: RDMA Stack - Packages should be in ELN
-  maintainer: sst_nic_rdma
+  maintainer: sst_network_drivers
 
   packages:
   - libfabric-devel
