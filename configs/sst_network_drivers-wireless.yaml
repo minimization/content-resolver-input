@@ -3,7 +3,7 @@ version: 1
 data:
     name: 802.11 wireless LAN support                       # <-- Set a name
     description: Fundamental tools for wireless LAN usage.  # <-- Write a short description
-    maintainer: sst_nic_rdma                                # <-- Put the label of your SST here
+    maintainer: sst_network_drivers                         # <-- Put the label of your SST here
 
     packages:        #
     - iw             # <-- The list of binary RPM packages
