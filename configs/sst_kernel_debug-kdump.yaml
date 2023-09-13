@@ -13,6 +13,8 @@ data:
   - crash
   - snappy
   - crash-trace-command
+  - libkdumpfile
+  - drgn
     # Read ftrace data from a core dump file.
 
   arch_packages:
