@@ -54,6 +54,7 @@ data:
   - neovim
   - netconsd
   - ngrep
+  - nss-pam-ldapd
   - packetdrill
   - packetdrill-data
   - pam_duo
