@@ -34,6 +34,7 @@ data:
   - iotools
   - fd-find
   - fping
+  - git-email
   - glslang
   - hyperfine
   - keyrings-filesystem
