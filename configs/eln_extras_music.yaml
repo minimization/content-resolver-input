@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: music packages
+  description: ELN Extras packages maintained by Ben Beasley
+  maintainer: music
+
+  packages:
+  - gi-docgen
+
+  labels:
+  - eln-extras
