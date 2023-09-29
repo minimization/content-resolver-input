@@ -4,7 +4,7 @@ data:
   name: CoreOS
   description: >
     OS compontents for CoreOS based systems.
-    This should be distributed via ostrees.
+    This should be distributed via bootable container images.
   maintainer: sst_rhcos
 
   packages:
@@ -31,8 +31,9 @@ data:
     - bootupd
     aarch64:
     - bootupd
+    ppc64le:
+    - bootupd
 
-  # Do not re-enable in eln without Josh Boyers permission
   labels:
-  # - eln
+  - eln
   - c9s
