@@ -35,6 +35,7 @@ data:
     - fdo-rendezvous-server
     - greenboot
     - greenboot-default-health-checks
+    - bootupd
     x86_64:
     - clevis-pin-tpm2
     - fdo-client
@@ -45,9 +46,11 @@ data:
     - fdo-rendezvous-server
     - greenboot
     - greenboot-default-health-checks
+    - bootupd
     ppc64le:
     - greenboot
     - greenboot-default-health-checks
+    - bootupd
 
   labels:
   - eln
