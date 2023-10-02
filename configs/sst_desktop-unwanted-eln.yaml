@@ -5,11 +5,6 @@ data:
   description: Desktop - Packages which should not be in ELN
   maintainer: sst_desktop
   unwanted_packages:
-  # RHEL 10 additional unwanted entries:
-  # Future candidates:
-  # - libgnomekbd
-  # https://bugzilla.redhat.com/show_bug.cgi?id=1955025
-  - libxklavier
   # RHEL 9 unwanted entries:
   # quvi is disabled as a dependency of Totem in RHEL
   - libquvi-scripts
@@ -97,5 +92,8 @@ data:
   - flite
   # Deprecated from 2010 - https://dbus.freedesktop.org/doc/dbus-glib/
   - dbus-glib
+  # Replaced by tecla
+  - libgnomekbd
+  - libxklavier
   labels:
   - eln
