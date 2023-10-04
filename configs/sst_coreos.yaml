@@ -9,7 +9,7 @@ data:
 
   packages:
   - afterburn
-  - afterburn-darcut
+  - afterburn-dracut
   - butane
   - console-login-helper-messages-issuegen
   - console-login-helper-messages-motdgen
