@@ -16,6 +16,7 @@ data:
   - libmtp
   - nautilus
   - sushi
+  - wsdd
 
   labels:
-  - c9s
+  - eln
