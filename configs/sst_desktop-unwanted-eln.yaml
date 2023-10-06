@@ -95,5 +95,7 @@ data:
   # Replaced by tecla
   - libgnomekbd
   - libxklavier
+  # Obsoleted upstream for nearly 10 years
+  - glade
   labels:
   - eln
