@@ -31,8 +31,6 @@ data:
     - bootupd
     aarch64:
     - bootupd
-    ppc64le:
-    - bootupd
 
   labels:
   - eln
