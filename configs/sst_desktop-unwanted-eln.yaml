@@ -95,5 +95,10 @@ data:
   # Replaced by tecla
   - libgnomekbd
   - libxklavier
+
+  unwanted_source_packages:
+  # The only supported way in RHEL to render HTML content is Firefox
+  - webkitgtk
+
   labels:
   - eln
