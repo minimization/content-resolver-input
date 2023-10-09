@@ -98,6 +98,9 @@ data:
   - enchant
   # Replaced by Loupe
   - eog
+  # Thunderbird is the only shipped desktop email client in RHEL 10
+  # evolution-data-server stays as it's needed by GNOME
+  - evolution
 
   labels:
   - eln
