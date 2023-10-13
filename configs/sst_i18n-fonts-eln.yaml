@@ -6,55 +6,76 @@ data:
   maintainer: sst_i18n
 
   packages:
-  - abattis-cantarell-vf-fonts
   - adobe-source-code-pro-fonts
-  - dejavu-sans-fonts
-  - dejavu-sans-mono-fonts
-  - dejavu-serif-fonts
-  - google-noto-color-emoji-fonts
-  - google-noto-naskh-arabic-vf-fonts
-  - google-noto-sans-arabic-vf-fonts
-  - google-noto-sans-armenian-vf-fonts
-  - google-noto-sans-canadian-aboriginal-vf-fonts
-  - google-noto-sans-cherokee-vf-fonts
-  - google-noto-sans-cjk-vf-fonts
-  - google-noto-sans-ethiopic-vf-fonts
-  - google-noto-sans-georgian-vf-fonts
-  - google-noto-sans-gurmukhi-vf-fonts
-  - google-noto-sans-hebrew-vf-fonts
-  - google-noto-sans-khmer-vf-fonts
-  - google-noto-sans-lao-vf-fonts
-  - google-noto-sans-math-fonts
-  - google-noto-sans-mono-vf-fonts
-  - google-noto-sans-sinhala-vf-fonts
-  - google-noto-sans-symbols-vf-fonts
-  - google-noto-sans-symbols2-fonts
-  - google-noto-sans-thaana-vf-fonts
-  - google-noto-sans-thai-vf-fonts
-  - google-noto-sans-vf-fonts
-  - google-noto-serif-vf-fonts
-  - jomolhari-fonts
+  - default-fonts-am
+  - default-fonts-ar
+  - default-fonts-as
+  - default-fonts-ast
+  - default-fonts-be
+  - default-fonts-bg
+  - default-fonts-bn
+  - default-fonts-bo
+  - default-fonts-br
+  - default-fonts-chr
+  - default-fonts-cjk-mono
+  - default-fonts-cjk-sans
+  - default-fonts-cjk-serif
+  - default-fonts-core-emoji
+  - default-fonts-core-math
+  - default-fonts-core-mono
+  - default-fonts-core-sans
+  - default-fonts-core-serif
+  - default-fonts-dv
+  - default-fonts-dz
+  - default-fonts-el
+  - default-fonts-eo
+  - default-fonts-eu
+  - default-fonts-fa
+  - default-fonts-gu
+  - default-fonts-he
+  - default-fonts-hi
+  - default-fonts-hy
+  - default-fonts-ia
+  - default-fonts-iu
+  - default-fonts-ka
+  - default-fonts-km
+  - default-fonts-kn
+  - default-fonts-ku
+  - default-fonts-lo
+  - default-fonts-mai
+  - default-fonts-ml
+  - default-fonts-mr
+  - default-fonts-my
+  - default-fonts-nb
+  - default-fonts-ne
+  - default-fonts-nn
+  - default-fonts-nr
+  - default-fonts-nso
+  - default-fonts-or
+  - default-fonts-other-mono
+  - default-fonts-other-sans
+  - default-fonts-other-serif
+  - default-fonts-pa
+  - default-fonts-ru
+  - default-fonts-si
+  - default-fonts-ss
+  - default-fonts-ta
+  - default-fonts-te
+  - default-fonts-th
+  - default-fonts-tn
+  - default-fonts-ts
+  - default-fonts-uk
+  - default-fonts-ur
+  - default-fonts-ve
+  - default-fonts-vi
+  - default-fonts-xh
+  - default-fonts-yi
+  - default-fonts-zu
   - liberation-mono-fonts
   - liberation-sans-fonts
   - liberation-serif-fonts
-  - lohit-assamese-fonts
-  - lohit-bengali-fonts
-  - lohit-devanagari-fonts
-  - lohit-gujarati-fonts
-  - lohit-kannada-fonts
-  - lohit-marathi-fonts
-  - lohit-odia-fonts
-  - lohit-tamil-fonts
-  - lohit-telugu-fonts
-  - madan-fonts
-  - paktype-naskh-basic-fonts
   - pt-sans-fonts
-  - rit-meera-new-fonts
   - sil-mingzat-fonts
-  - sil-nuosu-fonts
-  - sil-padauk-fonts
-  - stix-fonts
-  - vazirmatn-vf-fonts
 
   labels:
   - eln
