@@ -8,6 +8,21 @@ data:
   packages:
     - efs-utils
     - python3-botocore
+    - python3-prompt-toolkit
+    - python3-ruamel-yaml
+    - python3-ruamel-yaml-clib
+    - python3-websockets
+
+  arch_packages:
+    aarch64:
+      - awscli2
+      - python3-awscrt
+    ppc64le:
+      - awscli2
+      - python3-awscrt
+    x86_64:
+      - awscli2
+      - python3-awscrt
 
   labels:
     - eln
