@@ -101,6 +101,8 @@ data:
   # Thunderbird is the only shipped desktop email client in RHEL 10
   # evolution-data-server stays as it's needed by GNOME
   - evolution
+  # Vector graphic editor isn't supposed to be a built in functionality in the OS.
+  - inkscape
 
   labels:
   - eln
