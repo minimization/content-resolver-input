@@ -25,3 +25,7 @@ data:
     # as dependencies of anaconda and pykickstart, they shouldn't be needed
     - python3-ordered-set
     - python3-ntplib
+
+    # Jiri Konecny: dropping InitialSetup from the RHEL-10 to reduce
+    # maintenance for the team
+    - initial-setup
