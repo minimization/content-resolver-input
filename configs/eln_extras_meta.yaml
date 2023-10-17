@@ -29,7 +29,7 @@ data:
   - duo_unix-selinux
   - ebranch
   - et
-  - exa
+  - eza
   - htop
   - iotools
   - fd-find
@@ -95,14 +95,11 @@ data:
 
   arch_packages:
     aarch64:
-      - awscli2
       - sedutil
       - sysbench
     ppc64le:
-      - awscli2
       - sedutil
     x86_64:
-      - awscli2
       - msr-tools
       - sedutil
       - sysbench
