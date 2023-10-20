@@ -3,11 +3,10 @@ version: 1
 data:
   name: GNOME Software
   description: Default application and updates manager for Workstation
-  maintainer: sst_desktop
+  maintainer: sst_desktop_applications
 
   packages:
   - gnome-software
-  - fwupd
 
   labels:
   - eln
