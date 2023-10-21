@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bootc
+  description: >
+    OS compontents for bootc based systems for ELN.
+  maintainer: sst_bootc
+
+  packages:
+  - bootc
+
+  labels:
+  - c10s
+  - eln
