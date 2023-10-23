@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Sysprof
+  description: System-wide profiling tool
+  maintainer: sst_desktop
+
+  packages:
+  - sysprof
+
+  labels:
+  - eln
