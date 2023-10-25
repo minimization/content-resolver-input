@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Toolbx
+  description: Tool for containerized command line environments
+  maintainer: sst_desktop_applications
+
+  packages:
+  - toolbox
+
+  labels:
+  - c9s
+  - eln
