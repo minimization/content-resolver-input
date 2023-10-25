@@ -40,5 +40,4 @@ data:
       - python3
 
   labels:
-  - eln
   - c9s
