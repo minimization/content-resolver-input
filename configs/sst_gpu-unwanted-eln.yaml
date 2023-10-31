@@ -1,8 +1,8 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Graphics Infrastructure - Blocked packages
-  description: Graphics Infrastructure - Packages which should not be in ELN
+  name: GPU - Blocked packages
+  description: GPU - Packages which should not be in ELN
   maintainer: sst_gpu
   unwanted_packages:
   # only used by mesa-demos, but that’s likely to change, see https://gitlab.freedesktop.org/mesa/demos/-/merge_requests/23
@@ -31,6 +31,8 @@ data:
   - imake
   # Only used by optional plugin of hwloc, removed for RHEL.
   - libXNVCtrl
+  # Deprecated since RHEL 9 (technically even 8.4), removed in RHEL 10
+  - motif
   # Only used for some old games and emulators
   - SFML
   # Only used by some multimedia apps we don't ship
@@ -46,4 +48,3 @@ data:
   - glew
   labels:
   - eln
-  - c9s
