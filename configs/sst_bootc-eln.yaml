@@ -8,6 +8,7 @@ data:
 
   packages:
   - bootc
+  - composefs
 
   labels:
   - c10s
