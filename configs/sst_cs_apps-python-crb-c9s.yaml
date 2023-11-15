@@ -10,6 +10,7 @@ data:
   - python3-test
   - python3-idle
   - pyproject-rpm-macros
+  - python3-flit-core
   - python3-Cython
   - python3-sphinx
   - python3-wheel
