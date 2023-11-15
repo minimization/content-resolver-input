@@ -15,6 +15,7 @@ data:
   - python-srpm-macros
   - python-rpm-macros
   - pyproject-rpm-macros
+  - python3-flit-core
   - python3-cython
   - python3-sphinx
   - python3-wheel
