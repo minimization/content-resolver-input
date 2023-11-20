@@ -11,7 +11,7 @@ data:
     - mesa-vulkan-drivers
     - mesa-libEGL
     - libglvnd
-    - vulkan-utility-libraries
+    - vulkan-utility-libraries-devel
     - vulkan-validation-layers
     - vulkan-headers
     - vulkan-tools
