@@ -29,3 +29,7 @@ data:
     # Jiri Konecny: dropping InitialSetup from the RHEL-10 to reduce
     # maintenance for the team
     - initial-setup
+
+    # Jiri Konecny: dropping build-in help content from Anaconda because of
+    # Yelp dependency removal
+    - anaconda-user-help
