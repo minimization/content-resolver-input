@@ -2,7 +2,7 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Core Services Plumbers - Blocked packages
-  description: Core Services Plumbers - Packages which should not be in ELN
+  description: Core Services Plumbers - Packages which should not be in C9S
   maintainer: sst_cs_plumbers
 
   unwanted_packages:
@@ -24,7 +24,6 @@ data:
   - libtar
   - libtar-devel
   - network-scripts
-  - numad
   - python3-bottle
   - redhat-lsb
   - redhat-lsb-core
@@ -41,4 +40,4 @@ data:
   - vorbis-tools
 
   labels:
-  - eln
+  - c9s
