@@ -28,6 +28,7 @@ data:
   - hwloc
   - pigz
   - ethtool
+  - s390utils
 
   arch_packages:
     ppc64le:
@@ -51,7 +52,6 @@ data:
     - libzpc
     - libzpc-devel
     - openssl-ibmca
-    - s390utils
     - s390utils-base
     - s390utils-chreipl-fcp-mpath
     - s390utils-cmsfs-fuse
