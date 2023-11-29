@@ -25,6 +25,7 @@ data:
   - libtar-devel
   - network-scripts
   - numad
+  - pinfo
   - python3-bottle
   - redhat-lsb
   - redhat-lsb-core
