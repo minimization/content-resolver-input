@@ -12,5 +12,4 @@ data:
   - tigervnc-server-module
 
   labels:
-  - eln
   - c9s
