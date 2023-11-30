@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Buildroot packages
+  description: Packages needed to ensure a functional build environment
+  maintainer: sgallagh
+
+  packages:
+  - rpmautospec
+
+  labels:
+  - eln
