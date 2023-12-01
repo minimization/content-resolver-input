@@ -32,7 +32,7 @@ data:
   - gnome-browser-connector
   - libgweather4
   - libproxy
-  - libsoup
+  - libsoup3
   - tecla
   - tracker
   - tracker-miners
