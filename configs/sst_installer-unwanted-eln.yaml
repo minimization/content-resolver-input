@@ -2,11 +2,10 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Unwanted Packages -- sst_installer
-  description: Packages that should not be distributed in RHEL 9
+  description: Packages that should not be distributed in ELN
   maintainer: sst_installer
   labels:
     - eln
-    - c9s
 
   unwanted_packages:
     # Radek Vykydal:
