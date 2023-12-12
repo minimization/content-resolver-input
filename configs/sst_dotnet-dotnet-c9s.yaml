@@ -5,8 +5,16 @@ data:
   description: .NET and .NET Core SDK, tools and runtime
   maintainer: sst_dotnet
 
-  packages: []
-  
+  packages:
+  # .NET 7
+  - dotnet-sdk-7.0
+  - dotnet-runtime-7.0
+  - aspnetcore-runtime-7.0
+  # .NET 8
+  - dotnet-sdk-8.0
+  - dotnet-runtime-8.0
+  - aspnetcore-runtime-8.0
+
   arch_packages:
     aarch64:
     - dotnet-sdk-6.0
@@ -22,5 +30,4 @@ data:
     - aspnetcore-runtime-6.0
 
   labels:
-  - eln
   - c9s
