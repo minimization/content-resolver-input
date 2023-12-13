@@ -32,11 +32,13 @@ data:
   - apr-util
   - apr-util-devel
   - apr-util-ldap
+  - apr-util-lmdb
   - apr-util-mysql
-  - apr-util-openssl
-  - apr-util-sqlite
-  - apr-util-pgsql
   - apr-util-odbc
+  - apr-util-openssl
+  - apr-util-pgsql
+  - apr-util-sqlite
 
   labels:
-  - c9s
+  - eln
+  - c10s
