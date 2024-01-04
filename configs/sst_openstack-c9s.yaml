@@ -323,7 +323,7 @@ data:
   - which
   - xfsprogs
   - yajl
-  - zlib-ng-compat
+  - zlib
 
   arch_packages:
     x86_64:
@@ -346,4 +346,4 @@ data:
       srpm: qemu-kvm
 
   labels:
-  - eln-extras
+  - c9s-openstack
