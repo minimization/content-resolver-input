@@ -109,7 +109,7 @@ data:
   - bind-utils
   - ftp
   - mtr
-  - wget
+  - wget2-wget
   - gdisk
   - hexedit
   - sg3_utils
