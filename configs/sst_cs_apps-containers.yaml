@@ -22,7 +22,7 @@ data:
   - rsync
   - tar
   - unzip
-  - wget
+  - wget2-wget
   - which
 
   # build tools often used for binary extensions
