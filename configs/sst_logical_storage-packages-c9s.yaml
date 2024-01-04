@@ -68,7 +68,7 @@ data:
         - device-mapper-devel
         - device-mapper-event-devel
         - valgrind-devel
-        - zlib-ng-compat-devel
+        - zlib-devel
       rpms:
         - rpm_name: vdo
           description: Management tools for Virtual Data Optimizer
@@ -76,7 +76,7 @@ data:
             - libblkid
             - libuuid
             - device-mapper-event-libs
-            - zlib-ng-compat
+            - zlib
 
   labels:
-  - eln
+  - c9s
