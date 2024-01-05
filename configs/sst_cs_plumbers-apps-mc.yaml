@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: text console file manager and visual shell
+  description: text console file manager and visual shell
+  maintainer: sst_cs_plumbers
+
+  packages:
+  - mc
+
+  labels:
+  - eln
+  - c9s

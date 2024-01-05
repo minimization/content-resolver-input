@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C Runtime
+  description: A minimal C runtime.
+  maintainer: sst_pt_libraries
+
+  packages:
+  # Need the C runtime implementation.
+  - glibc
+  - glibc-common
+  # Need compiler helper routines and unwinder.
+  - libgcc
+  # Support C/POSIX/C.UTF-8 locales.
+  - glibc-minimal-langpack
+
+  labels:
+  - eln
+  - c9s

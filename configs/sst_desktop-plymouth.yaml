@@ -16,7 +16,6 @@ data:
   - plymouth-plugin-two-step
   - plymouth-scripts
   - plymouth-system-theme
-  - plymouth-theme-charge
   - plymouth-theme-fade-in
   - plymouth-theme-script
   - plymouth-theme-solar
@@ -25,4 +24,3 @@ data:
 
   labels:
   - eln
-  - c9s

@@ -1,0 +1,31 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: firewall tools
+  description: tools necessary to administrate linux firewalls
+  maintainer: sst_networking_core
+
+  labels:
+  - eln
+  - c9s
+
+  packages:
+  - conntrack-tools
+  - firewall-applet
+  - firewall-config
+  - firewalld
+  - ipset
+  - ipset-service
+  - iptables
+  - iptables-nft
+  - iptables-services
+  - nftables
+
+  package_placeholders:
+  - srpm_name: iptables
+    build_dependencies: []
+    rpms:
+    - rpm_name: iptables-nft-services
+      description: Provides arptables-services and ebtables-services based on iptables-nft
+      dependencies:
+      - iptables-nft

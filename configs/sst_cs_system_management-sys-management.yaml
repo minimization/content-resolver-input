@@ -33,7 +33,6 @@ data:
   - libva
   - libva-devel
   - mksh
-  - modulemd-tools
   - netpbm-devel
   - netpbm-doc
   - netpbm-progs
@@ -96,7 +95,6 @@ data:
     - setserial
     - opal-prd
     - opal-utils
-    - opal-firmware
     - powerpc-utils
     - powerpc-utils-core
     - ppc64-diag

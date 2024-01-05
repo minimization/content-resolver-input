@@ -1,0 +1,40 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Container Tools ELN
+  description: >
+    Container runtime and related packages maintained by the Container Tools SST ELN
+
+  maintainer: sst_container_tools
+
+  packages:
+   - aardvark-dns
+   - buildah
+   - catatonit
+   - cockpit-podman
+   - container-selinux
+   - containers-common
+   - conmon
+   - container-selinux
+   - criu
+   - crun
+   - fuse-overlayfs
+   - netavark
+   - oci-seccomp-bpf-hook
+   - podman
+   - python3-podman
+   - skopeo
+   - toolbox
+   - udica
+   - yajl
+
+  package_placeholders:
+   - srpm_name: container-tools
+     build_dependencies: []
+     rpms:
+      - rpm_name: container-tools
+        description: Meta-package for container tools
+        dependencies: []
+
+  labels:
+  - eln

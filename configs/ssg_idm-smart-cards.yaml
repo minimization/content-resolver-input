@@ -1,13 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: IdM Smart Cards
-  description: Specific packages for client-side smart card enablement on RHEL.
+  name: IdM Smart Cards (RHCS specific)
+  description: Specific packages for client-side smart card enrollment on RHEL.
   maintainer: ssg_idm
 
   packages:
   - esc
 
   labels:
-  - eln
   - c9s

@@ -63,8 +63,3 @@ data:
   #Jaroslav Kysela:
   # It's sound font loader for (really) old Creative hardware. The recent hardware does not require it.
   - fxload
-  
-  # Michal Josef Špaček
-  # Obsolete Perl modules, which were replaced by proper ipv6 functionality
-  - perl-IO-Socket-INET6
-  - perl-Socket6

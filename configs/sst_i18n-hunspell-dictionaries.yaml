@@ -5,7 +5,6 @@ data:
   description: A set of hunspell dictionaries
   maintainer: sst_i18n
   labels:
-  - eln
   - c9s
 
   packages:

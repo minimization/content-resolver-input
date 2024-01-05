@@ -7,7 +7,6 @@ data:
 
   unwanted_source_packages:
   - ant-contrib
-  - aopalliance
   - apache-commons-exec
   - apache-commons-lang
   - apache-ivy
@@ -29,14 +28,11 @@ data:
   - jakarta-ws-rs
   - jakarta-xml-rpc
   - jakarta-xml-ws
-  - javacc
-  - javacc-maven-plugin
   - javamail
   - javassist
   - jaxen
   - jboss-modules
   - jmock
-  - jsoup
   - jtidy
   - log4j12
   - maven-artifact-resolver
@@ -51,8 +47,10 @@ data:
   - maven-reporting-api
   - maven-reporting-impl
   - maven-script-interpreter
+  - munge-maven-plugin
   - objectweb-pom
   - os-maven-plugin
+  - plexus-build-api
   - plexus-component-api
   - plexus-i18n
   - plexus-interactivity
@@ -65,4 +63,3 @@ data:
 
   labels:
   - eln
-  - c9s

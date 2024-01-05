@@ -3,7 +3,7 @@ version: 1
 data:
   name: Virtualization on RHEL - KVM Userspace
   description: Userspace agents and tools that enable virtualization capabilities on RHEL
-  maintainer: sst_virtualization
+  maintainer: ssg_virtualization
 
   packages:
   - augeas
@@ -11,8 +11,10 @@ data:
   - gtk-vnc2
   - hexedit
   - hivex
+  - iproute
   - ipxe-roms-qemu
   - ksmtuned
+  - libblkio
   - libiscsi
   - libnbd
   - libosinfo
@@ -23,12 +25,11 @@ data:
   - nbdkit
   - osinfo-db
   - osinfo-db-tools
+  - passt
   - python-augeas
   - python3-libvirt
   - python3-pefile
   - python3-virt-firmware
-  - spice-protocol
-  - spice-vdagent
   - vhostmd
   - virt-install
   - virt-viewer
@@ -42,10 +43,11 @@ data:
     - edk2-ovmf
     - guestfs-tools
     - libguestfs
-    - libguestfs-inspect-icons
     - qemu-kvm
     - seabios
     - sevctl
+    - spice-protocol
+    - spice-vdagent
     - supermin
     - virt-p2v
     - virt-top

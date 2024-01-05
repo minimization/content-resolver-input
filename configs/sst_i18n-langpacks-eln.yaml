@@ -1,0 +1,107 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Language packs
+  description: A set of Language packs metapackages
+  maintainer: sst_i18n
+  labels:
+  - eln
+
+  options:
+  - include-weak-deps
+
+  packages:
+  - langpacks-af
+  - langpacks-am
+  - langpacks-ar
+  - langpacks-as
+  - langpacks-ast
+  - langpacks-be
+  - langpacks-bg
+  - langpacks-bn
+  - langpacks-bo
+  - langpacks-br
+  - langpacks-bs
+  - langpacks-ca
+  - langpacks-chr
+  - langpacks-cs
+  - langpacks-cy
+  - langpacks-da
+  - langpacks-de
+  - langpacks-dv
+  - langpacks-dz
+  - langpacks-el
+  - langpacks-en
+  - langpacks-en_GB
+  - langpacks-eo
+  - langpacks-es
+  - langpacks-et
+  - langpacks-eu
+  - langpacks-fa
+  - langpacks-fi
+  - langpacks-fr
+  - langpacks-ga
+  - langpacks-gl
+  - langpacks-gu
+  - langpacks-he
+  - langpacks-hi
+  - langpacks-hr
+  - langpacks-hu
+  - langpacks-hy
+  - langpacks-ia
+  - langpacks-id
+  - langpacks-is
+  - langpacks-it
+  - langpacks-iu
+  - langpacks-ja
+  - langpacks-ka
+  - langpacks-kk
+  - langpacks-km
+  - langpacks-kn
+  - langpacks-ko
+  - langpacks-ku
+  - langpacks-lo
+  - langpacks-lt
+  - langpacks-lv
+  - langpacks-mai
+  - langpacks-mk
+  - langpacks-ml
+  - langpacks-mr
+  - langpacks-ms
+  - langpacks-my
+  - langpacks-nb
+  - langpacks-ne
+  - langpacks-nl
+  - langpacks-nn
+  - langpacks-nr
+  - langpacks-nso
+  - langpacks-or
+  - langpacks-pa
+  - langpacks-pl
+  - langpacks-pt
+  - langpacks-pt_BR
+  - langpacks-ro
+  - langpacks-ru
+  - langpacks-si
+  - langpacks-sk
+  - langpacks-sl
+  - langpacks-sq
+  - langpacks-sr
+  - langpacks-ss
+  - langpacks-sv
+  - langpacks-ta
+  - langpacks-te
+  - langpacks-th
+  - langpacks-tn
+  - langpacks-tr
+  - langpacks-ts
+  - langpacks-uk
+  - langpacks-ur
+  - langpacks-ve
+  - langpacks-vi
+  - langpacks-yi
+  - langpacks-xh
+  - langpacks-zh_CN
+  - langpacks-zh_HK
+  - langpacks-zh_TW
+  - langpacks-zu

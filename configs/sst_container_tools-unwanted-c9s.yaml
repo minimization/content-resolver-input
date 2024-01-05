@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Container Tools unwanted
+  description: >
+    Unwanted container runtime and related packages
+
+  maintainer: sst_container_tools
+
+  unwanted_packages:
+    - python3-podman-api
+
+  labels:
+    - c9s

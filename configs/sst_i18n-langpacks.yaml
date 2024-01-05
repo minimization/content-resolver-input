@@ -5,8 +5,6 @@ data:
   description: A set of Language packs metapackages
   maintainer: sst_i18n
   labels:
-  - eln-candidate
-  - eln
   - c9s
 
   options:

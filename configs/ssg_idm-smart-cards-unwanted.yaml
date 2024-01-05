@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: IdM Smart Cards unwanted (RHCS specific)
+  description: Specific packages for client-side smart card enrollment on RHEL.
+  maintainer: ssg_idm
+
+  unwanted_packages:
+    - esc
+
+  labels:
+    - eln

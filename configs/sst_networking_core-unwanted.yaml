@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Networking Tools - unwanteds
+  description: >
+    Unwanted packages related to network configuration and troubleshooting.
+  maintainer: sst_networking_core
+
+  unwanted_packages:
+  - dropwatch
+  - plotnetcfg
+
+  labels:
+  - eln
+  - c9s

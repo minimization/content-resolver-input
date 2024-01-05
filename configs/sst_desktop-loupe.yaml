@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Loupe
+  description: Default image viewer for Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - loupe
+  - glycin-loaders
+
+  labels:
+  - eln

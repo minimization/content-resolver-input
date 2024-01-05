@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - iperf3
+  description: >
+    Packages related to network configuration and troubleshooting.
+  maintainer: sst_networking_core
+  packages:
+  - iperf3
+
+  labels:
+  - eln
+  - c9s

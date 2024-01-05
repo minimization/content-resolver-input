@@ -9,6 +9,13 @@ data:
     # Pcre is deprecated and unsupported by upstream since Fedora 38
     - pcre
     - pcre-devel
+    - pcre-cpp
+    # There are better alternatives than aspell
+    # https://fedoraproject.org/wiki/Changes/AspellDeprecation
+    - aspell
+    - aspell-devel
+    # Seems like not much wanted
+    - python3-pyodbc
 
   labels:
   - eln

@@ -46,11 +46,13 @@ data:
   - file-roller
   # Only Qt 6 will be part of RHEL 10
   # Qt 6
-  # Not needed as we have qgnomeplatform in RHEL
   - qt6ct
   - qt6-qtwebengine
   - qt6-qtwebengine-devtools
   - qt6-qtwebview
+  # Deprecated Qt/GNOME integration
+  - qgnomeplatform-qt6
+  - adwaita-qt6
   # Qt 5
   - adwaita-qt5
   - qgnomeplatform-qt5
@@ -94,6 +96,16 @@ data:
   - libgdata
   # Replaced by enchant2 and applications should be ported to it
   - enchant
+  # Replaced by Loupe
+  - eog
+  # Thunderbird is the only shipped desktop email client in RHEL 10
+  # evolution-data-server stays as it's needed by GNOME
+  - evolution
+  # Vector graphic editor isn't supposed to be a built in functionality in the OS.
+  - inkscape
+  # RDP should be used instead, see the following for more information
+  # https://github.com/minimization/content-resolver-input/commit/0387abd
+  - tigervnc
 
   labels:
   - eln

@@ -14,27 +14,14 @@ data:
   - golang-tests
   - go-srpm-macros
   - go-rpm-macros
+  - go-toolset
 
   arch_packages:
+    aarch64:
+      - delve
     x86_64:
-      - golang-race
+      - delve
 
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    delve:
-      srpm: delve
-      description: This package is not in Fedora (yet), but we want to see it here.
-      requires: []
-      buildrequires:
-      - golang
-      - git
-      - lsof
-    go-toolset:
-      srpm: go-toolset
-      description: Meta-package for go-toolset
-      requires:
-        - golang
-      buildrequires: []

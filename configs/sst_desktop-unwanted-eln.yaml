@@ -5,11 +5,6 @@ data:
   description: Desktop - Packages which should not be in ELN
   maintainer: sst_desktop
   unwanted_packages:
-  # RHEL 10 additional unwanted entries:
-  # Future candidates:
-  # - libgnomekbd
-  # https://bugzilla.redhat.com/show_bug.cgi?id=1955025
-  - libxklavier
   # RHEL 9 unwanted entries:
   # quvi is disabled as a dependency of Totem in RHEL
   - libquvi-scripts
@@ -92,13 +87,19 @@ data:
   # The functionality was moved into GNOME Shell itself
   # https://pagure.io/fedora-workstation/issue/277
   - gnome-screenshot
-  # Obsoleted by geocode-glib2 that is using libsoup3
-  - geocode-glib
-  - geocode-glib-devel
   # Only espeak-ng is the supported speech synthetizer in RHEL 10
   - festival
   - flite
   # Deprecated from 2010 - https://dbus.freedesktop.org/doc/dbus-glib/
   - dbus-glib
+  # Replaced by tecla
+  - libgnomekbd
+  - libxklavier
+  
+  unwanted_source_packages:
+  # The only supported way in RHEL to render HTML content is Firefox
+  - webkitgtk
+  # Obsoleted upstream for nearly 10 years
+  - glade
   labels:
   - eln

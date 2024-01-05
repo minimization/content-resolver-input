@@ -5,7 +5,7 @@ data:
   description: Core Services System management - Packages which should not be in c9s
   maintainer: sst_cs_system_management
 
-  unwanted packages:
+  unwanted_packages:
   - linuxconsoletools
   - mtools
   - expectk

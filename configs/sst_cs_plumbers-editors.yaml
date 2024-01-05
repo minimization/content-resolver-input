@@ -8,7 +8,7 @@ data:
   packages:
   - emacs
   - emacs-lucid
-  - emacs-nox
+  - emacs-nw
   - emacs-auctex
   - nano
 

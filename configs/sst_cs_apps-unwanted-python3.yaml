@@ -33,6 +33,8 @@ data:
   - python3-pytest4
   - python3-pytoml
   - python3-mock
+  - python3-zombie-imp
+  - python3-cython0.29
 
   # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
   - python-jupyter-filesystem
@@ -127,6 +129,8 @@ data:
   - python-nose
   - python-pytest4
   - python-pytoml
+  - python-zombie-imp
+  - python-cython0.29
   - python-ipykernel
   - python-ipyparallel
   - ipython

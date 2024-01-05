@@ -1,0 +1,44 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RDMA Stack arch_packages
+  description: Mellanox packages do not support s390x
+  maintainer: sst_network_drivers
+
+  packages: []
+
+  arch_packages:
+    aarch64:
+      - mstflint
+      - libvma
+      - libvma-utils
+      - libvma-devel
+      - ucx
+      - ucx-cma
+      - ucx-devel
+      - ucx-ib
+      - ucx-rdmacm
+    ppc64le:
+      - mstflint
+      - libvma
+      - libvma-utils
+      - libvma-devel
+      - ucx
+      - ucx-cma
+      - ucx-devel
+      - ucx-ib
+      - ucx-rdmacm
+    x86_64:
+      - mstflint
+      - libvma
+      - libvma-utils
+      - libvma-devel
+      - ucx
+      - ucx-cma
+      - ucx-devel
+      - ucx-ib
+      - ucx-rdmacm
+
+  labels:
+  - eln
+  - c9s

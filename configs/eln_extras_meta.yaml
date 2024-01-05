@@ -18,6 +18,7 @@ data:
   - dbench
   - debian-keyring
   - debootstrap
+  - difftastic
   - dnf5
   - dnf5-plugins
   - dnf5daemon-client
@@ -28,9 +29,14 @@ data:
   - duo_unix-selinux
   - ebranch
   - et
+  - eza
   - htop
   - iotools
+  - fd-find
   - fping
+  - git-email
+  - glslang
+  - hyperfine
   - keyrings-filesystem
   - lei
   - libdnf5
@@ -41,18 +47,22 @@ data:
   - libkdumpfile-devel
   - libidn
   - libidn-devel
+  - mlnx-tools
   - mkosi
   - mosh
   - ncdu
+  - ncurses-compat-libs
   - neovim
   - netconsd
   - ngrep
+  - nss-pam-ldapd
   - packetdrill
   - packetdrill-data
   - pam_duo
   - pam_krb5
   - parallel
   - pngquant
+  - pore
   - pv
   - python3-dnf-plugin-flunk_dependent_remove
   - python3-libdnf5
@@ -60,6 +70,7 @@ data:
   - python3-libdnf5-python-plugins-loader
   - python3-pystemd
   - python3-testslide
+  - python3-zstd
   - rpmdistro-repoquery
   - rpminspect
   - rpminspect-data-centos
@@ -84,10 +95,6 @@ data:
 
   arch_packages:
     aarch64:
-      - sedutil
-      - sysbench
-    i686:
-      - msr-tools
       - sedutil
       - sysbench
     ppc64le:

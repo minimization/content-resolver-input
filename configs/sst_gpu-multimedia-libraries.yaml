@@ -11,6 +11,7 @@ data:
     - gstreamer1-plugins-good
     - gstreamer1-plugins-bad-free
     - gstreamer1-plugins-ugly-free
+    - gstreamer1-rtsp-server
     # Used for preview of camera images as plugin for pixbuf in Files
     - libopenraw
 

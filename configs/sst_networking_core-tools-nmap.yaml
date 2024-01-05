@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - nmap
+  description: >
+    Packages related to network configuration and troubleshooting.
+  maintainer: sst_networking_core
+  packages:
+  - nmap
+  - nmap-ncat
+
+  labels:
+  - eln
+  - c9s

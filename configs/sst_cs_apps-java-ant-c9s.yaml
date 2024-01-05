@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Apache Ant
+  description: Java build tool
+  maintainer: sst_cs_apps
+
+  packages:
+  - ant
+  - ant-antlr
+  - ant-apache-bcel
+  - ant-apache-bsf
+  - ant-apache-oro
+  - ant-apache-regexp
+  - ant-apache-resolver
+  - ant-apache-xalan2
+  - ant-commons-logging
+  - ant-commons-net
+  - ant-javamail
+  - ant-jdepend
+  - ant-jmf
+  - ant-jsch
+  - ant-junit
+  - ant-junit5
+  - ant-swing
+  - ant-testutil
+  - ant-xz
+
+  labels:
+  - c9s

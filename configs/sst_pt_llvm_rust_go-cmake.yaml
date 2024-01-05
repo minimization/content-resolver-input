@@ -14,5 +14,4 @@ data:
   - cmake-rpm-macros
 
   labels:
-  - eln
   - c9s

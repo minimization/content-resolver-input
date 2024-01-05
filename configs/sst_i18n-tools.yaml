@@ -7,10 +7,11 @@ data:
 
   packages:
   - convmv
+  - fontconfig
+  - gettext
   - gnome-characters
   - paps
 
   labels:
   - eln
   - c9s
-  - eln-candidate
