@@ -7,6 +7,7 @@ data:
 
   packages:
     - efs-utils
+    - efs-utils-selinux
     - python3-botocore
     - python3-prompt-toolkit
     - python3-ruamel-yaml
