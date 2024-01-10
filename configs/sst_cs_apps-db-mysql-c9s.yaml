@@ -10,7 +10,7 @@ data:
   - mecab-ipadic-EUCJP
 
   labels:
-  - eln
+  - c9s
 
   package_placeholders:
     - srpm_name: mysql
@@ -73,8 +73,8 @@ data:
         - rpcgen
         - systemd
         - time
-        - zlib-ng-compat
-        - zlib-ng-compat-devel
+        - zlib
+        - zlib-devel
       rpms:
         - rpm_name: mysql
           description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
