@@ -22,7 +22,7 @@ data:
   - rsync
   - tar
   - unzip
-  - wget
+  - wget2-wget
   - which
 
   # build tools often used for binary extensions
@@ -38,7 +38,7 @@ data:
   - mariadb-connector-c-devel
   - openssl-devel
   - sqlite-devel
-  - zlib-devel
+  - zlib-ng-compat-devel
 
   # common dependency of app containers in s2i-base
   - nodejs-npm

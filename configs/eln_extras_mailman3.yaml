@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Mailman 3 eln-extra packages
+  description: Mailman 3 ELN Extras packages
+  maintainer: ngompa
+
+  packages:
+  - mailman3
+  - hyperkitty
+  - postorius
+
+  labels:
+  - eln-extras
