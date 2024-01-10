@@ -13,5 +13,4 @@ data:
     - libinput-utils
 
   labels:
-    - eln
     - c9s
