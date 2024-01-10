@@ -21,7 +21,6 @@ data:
   - opensp-devel
   - perl-SGMLSpm
   - perl-Unicode-EastAsianWidth
-  - tex-fonts-hebrew
   - texi2html
   - texinfo
   - texinfo-tex
