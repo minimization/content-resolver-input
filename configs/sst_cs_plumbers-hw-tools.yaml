@@ -9,7 +9,6 @@ data:
   # asamalik: Moving biosdevname to x86 architectures only as it's not available elsewhere
   #- biosdevname
   - ledmon
-  - numad
   - sgpio
   - libatasmart
   
@@ -30,4 +29,3 @@ data:
 
   labels:
   - eln
-  - c9s

@@ -7,9 +7,8 @@ data:
 
   packages:
   - tar
-  - zlib-devel
-  - zlib-static
+  - zlib-ng-compat-devel
+  - zlib-ng-compat-static
 
   labels:
   - eln
-  - c9s

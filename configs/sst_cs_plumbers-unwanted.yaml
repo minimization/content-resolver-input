@@ -24,6 +24,8 @@ data:
   - libtar
   - libtar-devel
   - network-scripts
+  - numad
+  - pinfo
   - python3-bottle
   - redhat-lsb
   - redhat-lsb-core
@@ -41,4 +43,3 @@ data:
 
   labels:
   - eln
-  - c9s

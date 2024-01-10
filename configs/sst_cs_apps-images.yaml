@@ -6,7 +6,9 @@ data:
   maintainer: sst_cs_apps
 
   packages:
+  - libpng
   - libpng-devel
+  - libtiff
   - libtiff-devel
 
   labels:

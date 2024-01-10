@@ -38,24 +38,5 @@ data:
   - apr-util-pgsql
   - apr-util-odbc
 
-  package_placeholders:
-  # JWS/JBCS packages, not in Fedora
-  - srpm_name: mod_proxy_cluster
-    build_dependencies:
-    - apr-devel
-    - apr-util-devel
-    - httpd-devel
-    - selinux-policy-devel
-    rpms:
-    - rpm_name: mod_proxy_cluster
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-      - apr
-      - apr-util
-      - httpd
-      - policycoreutils-python-utils
-      - python3-policycoreutils
-
   labels:
-  - eln
   - c9s

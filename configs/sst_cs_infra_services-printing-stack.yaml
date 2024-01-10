@@ -8,8 +8,10 @@ data:
   packages:
   # tools
   - cups
+  - cups-browsed
   - cups-client
   - cups-filters
+  - cups-filters-driverless
   - cups-ipptool
   - cups-lpd
   - cups-printerapp

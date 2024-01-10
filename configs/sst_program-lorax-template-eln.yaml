@@ -71,32 +71,34 @@ data:
   - smartmontools
   - hdparm
   - rng-tools
-  - bitmap-fangsongti-fonts
-  - dejavu-sans-fonts
-  - dejavu-sans-mono-fonts
-  - paktype-naskh-basic-fonts
+  - abattis-cantarell-vf-fonts
+  - google-noto-sans-vf-fonts
+  - google-noto-sans-mono-vf-fonts
+  - google-noto-sans-arabic-vf-fonts
+  - google-noto-sans-cjk-fonts
+  - google-noto-sans-ethiopic-vf-fonts
+  - google-noto-sans-georgian-vf-fonts
+  - google-noto-sans-gurmukhi-vf-fonts
+  - google-noto-sans-hebrew-vf-fonts
+  - google-noto-sans-khmer-vf-fonts
   - google-noto-sans-sinhala-vf-fonts
+  - google-noto-sans-thai-vf-fonts
+  - jomolhari-fonts
   - lohit-assamese-fonts
   - lohit-bengali-fonts
   - lohit-devanagari-fonts
   - lohit-gujarati-fonts
-  - google-noto-sans-gurmukhi-fonts
   - lohit-kannada-fonts
+  - lohit-marathi-fonts
   - lohit-odia-fonts
   - lohit-tamil-fonts
   - lohit-telugu-fonts
-  - madan-fonts
+  - paktype-naskh-basic-fonts
+  - sil-padauk-fonts
   - rit-meera-new-fonts
-  - thai-scalable-waree-fonts
+  - vazirmatn-vf-fonts
   - sil-abyssinica-fonts
   - xorg-x11-fonts-misc
-  - aajohan-comfortaa-fonts
-  - abattis-cantarell-fonts
-  - sil-scheherazade-fonts
-  - jomolhari-fonts
-  - khmeros-base-fonts
-  - sil-padauk-fonts
-  - google-noto-sans-cjk-fonts
   - gdb-gdbserver
   - libreport-plugin-bugzilla
   - libreport-plugin-reportuploader
@@ -109,7 +111,7 @@ data:
   - bind-utils
   - ftp
   - mtr
-  - wget
+  - wget2-wget
   - gdisk
   - hexedit
   - sg3_utils

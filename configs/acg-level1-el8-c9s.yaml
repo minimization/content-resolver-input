@@ -1,0 +1,27 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ACG Level 1 Packages for RHEL 8
+  description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
+  maintainer: bakery
+  packages:
+  - glibc
+  - libstdc++
+  - libgcc
+  - libgomp
+  - libatomic
+  - elfutils-libelf
+  - krb5-libs
+  - libxml2
+  - libxslt
+  - libglvnd-glx
+  - libglvnd-egl
+  - libglvnd-gles
+  - libglvnd-opengl
+  - mesa-libGLU
+  - pam
+  - vulkan-loader
+  - zlib
+  labels:
+  - c9s

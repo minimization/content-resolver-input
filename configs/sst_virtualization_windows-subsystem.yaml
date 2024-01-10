@@ -9,14 +9,12 @@ data:
 
   labels:
   - eln
-  - c9s
 
   # RHEL-specific packages, not in Fedora
   package_placeholders:
     - srpm_name: mingw-qemu-ga-win
       build_dependencies:
         - libtool
-        - zlib-devel
         - glib2-devel
         - python3-devel
         - gettext
@@ -33,6 +31,7 @@ data:
         - msitools
         - meson
         - ninja-build
+        - zlib-ng-compat-devel
       limit_arches:
         - x86_64
       rpms:

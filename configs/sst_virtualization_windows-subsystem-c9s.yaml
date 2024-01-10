@@ -1,0 +1,79 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Windows virtio drivers and tools
+  description: Windows virtio drivers and tools to assist running Windows as a guest
+  maintainer: sst_virtualization_windows
+
+  packages: []
+
+  labels:
+  - c9s
+
+  # RHEL-specific packages, not in Fedora
+  package_placeholders:
+    - srpm_name: mingw-qemu-ga-win
+      build_dependencies:
+        - libtool
+        - zlib-devel
+        - glib2-devel
+        - python3-devel
+        - gettext
+        - gettext-devel
+        - mingw32-pixman
+        - mingw64-pixman
+        - mingw32-gcc
+        - mingw64-gcc
+        - mingw32-glib2
+        - mingw64-glib2
+        - mingw64-headers
+        - mingw32-headers
+        - mingw-w64-tools
+        - msitools
+        - meson
+        - ninja-build
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: mingw-qemu-ga-win
+          description: Qemus Guest agent for Windows
+          dependencies:
+            - systemd-units
+    - srpm_name: virtio-win
+      build_dependencies:
+        - mingw32-pixman
+        - mingw64-pixman
+        - mingw32-gcc
+        - mingw64-gcc
+        - mingw32-glib2
+        - mingw64-glib2
+        - mingw32-glib2-static
+        - mingw64-glib2-static
+        - mingw32-gettext-static
+        - mingw64-gettext-static
+        - mingw32-winpthreads-static
+        - mingw64-winpthreads-static
+        - mingw64-zlib-static
+        - mingw32-zlib-static
+        - mingw64-headers
+        - mingw32-headers
+        - mingw32-crt
+        - mingw64-crt
+        - mingw32-filesystem
+        - mingw64-filesystem
+        - mingw32-gcc-c++
+        - mingw64-gcc-c++
+        - mingw32-termcap
+        - mingw64-termcap
+        - mingw32-win-iconv
+        - mingw64-win-iconv
+        - mingw-binutils-generic
+        - mingw-filesystem-base
+        - mingw-w64-tools
+        - xorriso
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: virtio-win
+          description: VirtIO para-virtualized drivers for Windows
+          dependencies: []

@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python devel (CRB)
+  description: Python development packages, distributed in the CRB
+  maintainer: sst_cs_apps
+
+  packages:
+  - python3-debug
+  - python3-test
+  - python3-idle
+  - pyproject-rpm-macros
+  - python3-flit-core
+  - python3-Cython
+  - python3-sphinx
+  - python3-wheel
+  - python3-wheel-wheel
+  - python3-pytest
+  - python3-psutil-tests
+  - py3c-devel
+  - py3c-doc
+  - marshalparser
+
+  labels:
+  - c9s

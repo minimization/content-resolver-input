@@ -10,6 +10,8 @@ data:
   - ghostscript-x11
   # gutenprint
   - gutenprint-libs-ui
+  # xsane
+  - xsane
 
   labels:
   - eln

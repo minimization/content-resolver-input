@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Clocks
+  description: Clocks application for Workstation
+  maintainer: sst_desktop
+
+  packages:
+  - gnome-clocks
+
+  labels:
+  - eln

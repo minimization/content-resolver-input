@@ -103,6 +103,9 @@ data:
   - evolution
   # Vector graphic editor isn't supposed to be a built in functionality in the OS.
   - inkscape
+  # RDP should be used instead, see the following for more information
+  # https://github.com/minimization/content-resolver-input/commit/0387abd
+  - tigervnc
 
   labels:
   - eln

@@ -8,8 +8,7 @@ data:
   packages:
   - ftp
   - lftp
-  - wget
+  - wget2-wget
 
   labels:
   - eln
-  - c9s

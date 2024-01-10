@@ -11,7 +11,6 @@ data:
 
   labels:
   - eln
-  - c9s
 
   package_placeholders:
     - srpm_name: mysql
@@ -74,8 +73,8 @@ data:
         - rpcgen
         - systemd
         - time
-        - zlib
-        - zlib-devel
+        - zlib-ng-compat
+        - zlib-ng-compat-devel
       rpms:
         - rpm_name: mysql
           description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL

@@ -29,7 +29,7 @@ data:
   - pam
   - vulkan-headers
   - vulkan-loader
-  - zlib
+  - zlib-ng-compat
   labels:
   - eln
   - cs10

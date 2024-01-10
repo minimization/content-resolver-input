@@ -1,0 +1,120 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MySQL client and server
+  description: Client tools and a server daemon for MySQL from Oracle
+  maintainer: sst_cs_apps
+
+  packages:
+  - mecab-ipadic
+  - mecab-ipadic-EUCJP
+
+  labels:
+  - c9s
+
+  package_placeholders:
+    - srpm_name: mysql
+      build_dependencies:
+        - bison
+        - cmake
+        - gcc-c++
+        - libaio-devel
+        - libedit-devel
+        - libevent-devel
+        - libfido2-devel
+        - libicu-devel
+        - libtirpc-devel
+        - libzstd-devel
+        - lz4
+        - lz4-devel
+        - make
+        - mecab-devel
+        - multilib-rpm-config
+        - mysql-selinux
+        - openssl
+        - openssl-devel
+        - perl-base
+        - perl-Carp
+        - perl-Data-Dumper
+        - perl-Digest
+        - perl-Digest-MD5
+        - perl-English
+        - perl-Env
+        - perl-Errno
+        - perl-Exporter
+        - perl-Fcntl
+        - perl-File-Basename
+        - perl-File-Copy
+        - perl-File-Find
+        - perl-File-Temp
+        - perl-FindBin
+        - perl-generators
+        - perl-Getopt-Long
+        - perl-if
+        - perl-interpreter
+        - perl-IO
+        - perl-IPC-Open3
+        - perl-JSON
+        - perl-lib
+        - perl-libs
+        - perl-libwww-perl
+        - perl-Memoize
+        - perl-Net-Ping
+        - perl-PathTools
+        - perl-POSIX
+        - perl-Socket
+        - perl-Sys-Hostname
+        - perl-Test-Simple
+        - perl-Time
+        - perl-Time-HiRes
+        - procps
+        - protobuf-lite-devel
+        - rapidjson-devel
+        - rpcgen
+        - systemd
+        - time
+        - zlib
+        - zlib-devel
+      rpms:
+        - rpm_name: mysql
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libedit
+            - libzstd
+            - lz4-libs
+            - openssl-libs
+        - rpm_name: mysql-common
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+        - rpm_name: mysql-devel
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd-devel
+            - openssl-devel
+        - rpm_name: mysql-errmsg
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+        - rpm_name: mysql-libs
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd
+            - openssl-libs
+        - rpm_name: mysql-server
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libedit
+            - libzstd
+            - lz4-libs
+            - mecab-ipadic
+            - mecab-ipadic-EUCJP
+            - mysql-selinux
+            - openssl-libs
+            - perl-Getopt-Long
+            - perl-libs
+        - rpm_name: mysql-test
+          description: MySQL is called community-mysql in Fedora, but we want mysql name in RHEL
+          dependencies:
+            - libzstd
+            - lz4
+            - openssl
+            - perl-Getopt-Long
+            - perl-interpreter
+            - protobuf

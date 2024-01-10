@@ -5,7 +5,6 @@ data:
   description: Packages that .NET maintainers do not wish to maintain in RHEL 9
   maintainer: sst_dotnet
   labels:
-  - eln
   - c9s
 
   unwanted_packages:

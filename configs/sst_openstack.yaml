@@ -323,7 +323,7 @@ data:
   - which
   - xfsprogs
   - yajl
-  - zlib
+  - zlib-ng-compat
 
   arch_packages:
     x86_64:
@@ -347,4 +347,3 @@ data:
 
   labels:
   - eln-extras
-  - c9s-openstack

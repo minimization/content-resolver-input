@@ -15,7 +15,8 @@ data:
   - python-srpm-macros
   - python-rpm-macros
   - pyproject-rpm-macros
-  - python3-Cython
+  - python3-flit-core
+  - python3-cython
   - python3-sphinx
   - python3-wheel
   # note: the following package is called python3-wheel-wheel in RHEL proper:

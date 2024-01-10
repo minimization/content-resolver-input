@@ -2,11 +2,10 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Unwanted Packages -- sst_installer
-  description: Packages that should not be distributed in RHEL 9
+  description: Packages that should not be distributed in ELN
   maintainer: sst_installer
   labels:
     - eln
-    - c9s
 
   unwanted_packages:
     # Radek Vykydal:
@@ -26,3 +25,11 @@ data:
     # as dependencies of anaconda and pykickstart, they shouldn't be needed
     - python3-ordered-set
     - python3-ntplib
+
+    # Jiri Konecny: dropping InitialSetup from the RHEL-10 to reduce
+    # maintenance for the team
+    - initial-setup
+
+    # Jiri Konecny: dropping build-in help content from Anaconda because of
+    # Yelp dependency removal
+    - anaconda-user-help

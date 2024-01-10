@@ -1,0 +1,82 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Platform Storage
+  description: Platform Storage Supported Packages
+  maintainer: sst_platform_storage
+
+  packages:
+    # Stratis
+    - python3-dbus-client-gen
+    - python3-dbus-python-client-gen
+    - python3-dbus-signature-pyparsing
+    - python3-into-dbus-python
+    - python3-justbases
+    - python3-justbytes
+    - python3-wcwidth
+    - stratis-cli
+    - stratisd
+
+    # LVM
+    # Boom-boot and its sub-packages
+    - boom-boot
+    - boom-boot-conf
+    - python3-boom
+    # cryptsetup and its sub-packages
+    - cryptsetup
+    - cryptsetup-devel
+    - cryptsetup-libs
+    - integritysetup
+    - veritysetup
+    # lvm2 and its sub-packages
+    - device-mapper
+    - device-mapper-devel
+    - device-mapper-event
+    - device-mapper-event-devel
+    - device-mapper-event-libs
+    - device-mapper-libs
+    - device-mapper-multipath
+    - device-mapper-persistent-data
+    - dlm
+    - lvm2
+    - lvm2-dbusd
+    - lvm2-devel
+    - lvm2-libs
+    - lvm2-lockd
+    - mdadm
+    - sanlock
+    - stratisd
+    - userspace-rcu
+
+  # RHEL-specific packages, not available in Fedora
+  package_placeholders:
+    - srpm_name: kmod-kvdo
+      build_dependencies:
+        - elfutils-libelf-devel
+        - kernel-devel
+        - libuuid-devel
+      rpms:
+        - rpm_name: kmod-kvdo
+          description: Kernel Modules for Virtual Data Optimizer
+          dependencies:
+            - kernel-core
+            - kernel-modules
+    - srpm_name: vdo
+      build_dependencies:
+        - libblkid-devel
+        - libuuid-devel
+        - device-mapper-devel
+        - device-mapper-event-devel
+        - valgrind-devel
+        - zlib-devel
+      rpms:
+        - rpm_name: vdo
+          description: Management tools for Virtual Data Optimizer
+          dependencies:
+            - libblkid
+            - libuuid
+            - device-mapper-event-libs
+            - zlib
+
+  labels:
+  - c9s

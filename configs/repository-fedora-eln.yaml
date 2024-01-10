@@ -89,14 +89,14 @@ data:
         baseurl: https://kojipkgs.fedoraproject.org/repos/eln-build/latest/$basearch/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery", "java-*-openjdk-portable*"]
         priority: 4
       
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery"]
+        exclude: ["exim", "esmtp", "opensmtpd", "esmtp-local-delivery", "java-*-openjdk-portable*"]
         priority: 5
       
     releasever: "rawhide"
