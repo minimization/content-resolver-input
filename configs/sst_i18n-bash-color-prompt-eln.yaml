@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bash color prompt
+  description: Provides a color Bash prompt
+  maintainer: sst_i18n
+
+  packages:
+  - bash-color-prompt
+
+  labels:
+  - eln

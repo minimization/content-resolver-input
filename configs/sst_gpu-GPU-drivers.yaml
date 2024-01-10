@@ -13,6 +13,7 @@ data:
     - libglvnd
     - vulkan-utility-libraries-devel
     - vulkan-validation-layers
+    - vulkan-volk-devel
     - vulkan-headers
     - vulkan-tools
     - vulkan-loader
