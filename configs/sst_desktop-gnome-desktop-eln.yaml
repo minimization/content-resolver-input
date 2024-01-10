@@ -30,7 +30,7 @@ data:
   - gnome-shell-extension-workspace-indicator
   - gnome-tweaks
   - gnome-browser-connector
-  - libgweather4
+  - libgweather
   - libproxy
   - libsoup3
   - tecla
