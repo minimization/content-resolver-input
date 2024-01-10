@@ -22,6 +22,6 @@ data:
   - mesa-libGLU
   - pam
   - vulkan-loader
-  - zlib-ng-compat
+  - zlib
   labels:
-  - eln
+  - c9s
