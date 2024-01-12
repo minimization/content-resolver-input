@@ -29,6 +29,7 @@ data:
   - python3-virt-firmware
   - spice-protocol
   - spice-vdagent
+  - uki-direct
   - vhostmd
   - virt-install
   - virt-viewer
