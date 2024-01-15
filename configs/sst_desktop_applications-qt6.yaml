@@ -66,6 +66,7 @@ data:
   - qt6-qtshadertools-devel
   - qt6-qtspeech
   - qt6-qtspeech-devel
+  - qt6-qtspeech-speechd
   - qt6-qtsvg
   - qt6-qtsvg-devel
   - qt6-qttools
