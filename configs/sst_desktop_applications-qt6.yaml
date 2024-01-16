@@ -8,6 +8,7 @@ data:
   packages:
   - python3-pyqt6
   - python3-pyqt6-base
+  - python3-pyqt6-sip
   - qt6-assistant
   - qt6-designer
   - qt6-doctools
