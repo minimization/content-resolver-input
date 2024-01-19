@@ -2,12 +2,11 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: Anaconda
-  description: Graphical system installer
+  description: Graphical system installer for c9s
   maintainer: sst_installer
   labels:
-    - eln
+    - c9s
 
   packages:
     - anaconda
-    - anaconda-webui
     - anaconda-install-img-deps
