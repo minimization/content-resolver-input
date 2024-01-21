@@ -11,9 +11,10 @@ data:
   - cyrus-sasl-gs2
   - cyrus-sasl-gssapi
   - cyrus-sasl-ldap
+  - cyrus-sasl-ntlm
   - cyrus-sasl-plain
   - cyrus-sasl-scram
   - cyrus-sasl-sql
 
   labels:
-  - eln
+  - c9s
