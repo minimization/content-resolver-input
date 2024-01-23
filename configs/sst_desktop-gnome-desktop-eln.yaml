@@ -28,7 +28,6 @@ data:
   - gnome-shell-extension-screenshot-window-sizer
   - gnome-shell-extension-windowsNavigator
   - gnome-shell-extension-workspace-indicator
-  - gnome-tweaks
   - gnome-browser-connector
   - libgweather
   - libproxy
