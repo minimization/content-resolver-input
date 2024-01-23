@@ -5,21 +5,32 @@ data:
     description: Base set of kernel packages and tools to ship
     maintainer: sst_kernel_maintainers
     packages:
+        - amd-gpu-firmware
+        - amd-ucode-firmware
+        - atheros-firmware
+        - brcmfmac-firmware
+        - cirrus-audio-firmware
+        - dvb-firmware
+        - intel-audio-firmware
+        - intel-gpu-firmware
+        - intel-vsc-firmware
+        - iwlegacy-firmware
+        - iwlwifi-dvm-firmware
+        - iwlwifi-mvm-firmware
+        - libertas-firmware
+        - linux-firmware
+        - linux-firmware-whence
+        - liquidio-firmware
+        - mlxsw_spectrum-firmware
+        - mrvlprestera-firmware
+        - mt7xxx-firmware
+        - netronome-firmware
+        - nvidia-gpu-firmware
+        - nxpwireless-firmware
+        - qcom-firmware
+        - realtek-firmware
+        - tiwilink-firmware
         - bpftool
-        - iwl1000-firmware
-        - iwl100-firmware
-        - iwl105-firmware
-        - iwl135-firmware
-        - iwl2000-firmware
-        - iwl2030-firmware
-        - iwl3160-firmware
-        - iwl5000-firmware
-        - iwl5150-firmware
-        - iwl6000g2a-firmware
-        - iwl6000g2b-firmware
-        - iwl6050-firmware
-        - iwl7260-firmware
-        - iwlax2xx-firmware
         - kernel
         - kernel-abi-stablelists
         - kernel-core
@@ -30,12 +41,10 @@ data:
         - kernel-modules-core
         - kernel-modules-extra
         - kernel-tools
-        - libertas-sd8787-firmware
-        - linux-firmware
-        - linux-firmware-whence
-        - netronome-firmware
         - perf
         - python3-perf
+        - rtla
+        - rv
     labels:
         - eln
     arch_packages:
@@ -48,6 +57,13 @@ data:
             - kernel-tools-libs
             - kernel-uki-virt
         aarch64:
+            - kernel-64k
+            - kernel-64k-core
+            - kernel-64k-modules
+            - kernel-64k-modules-core
+            - kernel-64k-modules-extra
+            - kernel-64k-uki-virt
             - kernel-tools-libs
+            - kernel-uki-virt
         ppc64le:
             - kernel-tools-libs
