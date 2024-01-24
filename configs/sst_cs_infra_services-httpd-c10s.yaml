@@ -23,9 +23,6 @@ data:
   - mod_http2
   - mod_md
   - mod_fcgid
-  - mod_security
-  - mod_security-mlogc
-  - mod_security_crs
   # Dependencies:
   - apr
   - apr-devel
