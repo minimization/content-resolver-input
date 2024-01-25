@@ -3,7 +3,7 @@ version: 1
 data:
   name: bootc
   description: >
-    OS compontents for bootc based systems for ELN.
+    OS compontents for bootc based systems
   maintainer: sst_bootc
 
   packages:
@@ -12,4 +12,5 @@ data:
 
   labels:
   - c10s
+  - c9s
   - eln
