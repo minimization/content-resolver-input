@@ -13,8 +13,6 @@ data:
   - glib2-devel
   - glib2-static
   - glib2-tests
-  - gnome-backgrounds
-  - gnome-backgrounds-extras
   - gnome-control-center
   - gnome-devel-docs
   - gnome-extensions-app
