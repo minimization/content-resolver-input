@@ -6,7 +6,6 @@ data:
   maintainer: sst_i18n
 
   packages:
-  - adobe-source-code-pro-fonts
   - default-fonts-am
   - default-fonts-ar
   - default-fonts-as
@@ -75,6 +74,9 @@ data:
   - liberation-sans-fonts
   - liberation-serif-fonts
   - pt-sans-fonts
+  - redhat-display-fonts
+  - redhat-mono-fonts
+  - redhat-text-fonts
   - sil-mingzat-fonts
 
   labels:
