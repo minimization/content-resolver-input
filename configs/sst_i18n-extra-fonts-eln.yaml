@@ -7,6 +7,7 @@ data:
 
   packages:
   - aajohan-comfortaa-fonts
+  - adobe-source-code-pro-fonts
   - dejavu-lgc-sans-fonts
   - dejavu-lgc-sans-mono-fonts
   - dejavu-lgc-serif-fonts
@@ -74,9 +75,6 @@ data:
   - liberation-narrow-fonts
   - open-sans-fonts
   - overpass-fonts
-  - redhat-display-fonts
-  - redhat-mono-fonts
-  - redhat-text-fonts
 
   labels:
   - eln
