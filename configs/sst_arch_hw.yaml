@@ -23,6 +23,8 @@ data:
   - alsa-plugins-usbstream
   - alsa-plugins-vdownmix
   - alsa-tools-firmware
+  - alsa-ucm
+  - alsa-ucm-utils
   - alsa-utils
   - speexdsp
   - hwloc
