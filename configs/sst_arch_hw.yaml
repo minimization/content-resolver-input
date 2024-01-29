@@ -29,6 +29,7 @@ data:
   - pigz
   - ethtool
   - s390utils
+  - s390utils-se-data
 
   arch_packages:
     ppc64le:
