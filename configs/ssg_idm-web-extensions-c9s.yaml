@@ -7,6 +7,7 @@ data:
 
   packages:
   - mod_auth_gssapi
+  - mod_auth_mellon
   - mod_auth_openidc
   - mod_authnz_pam
   - mod_intercept_form_submit
@@ -14,4 +15,4 @@ data:
   - keycloak-httpd-client-install
 
   labels:
-  - eln
+  - c9s
