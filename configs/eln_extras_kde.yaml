@@ -232,7 +232,6 @@ data:
   - ksquares
   - ksshaskpass
   - ksudoku
-  - ksysguard
   - ksysguardd
   - ksystemlog
   - ksystemstats
