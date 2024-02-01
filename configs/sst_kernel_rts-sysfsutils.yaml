@@ -8,5 +8,4 @@ data:
   - glibc
   - libsysfs 
   labels:
-  - eln
   - c9s
