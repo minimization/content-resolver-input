@@ -237,14 +237,6 @@ data:
         - x86_64
         - ppc64le
         - s390x
-    - rpm_name: cockpit-ha-cluster
-      dependencies:
-        - cockpit-bridge
-        # pcs (placeholder)
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
   - srpm_name: python-gflags
     build_dependencies:
     - python3-devel
@@ -375,5 +367,4 @@ data:
     - spausedd
 
   labels:
-  - eln
-  - c10s
+  - c9s
