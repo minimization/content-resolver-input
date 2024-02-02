@@ -12,6 +12,7 @@ data:
     - egl-wayland
     - libinput-utils
     - xwayland-run
+    - gnome-ponytail-daemon
 
   labels:
     - eln
