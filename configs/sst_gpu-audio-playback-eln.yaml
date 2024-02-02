@@ -8,7 +8,6 @@ data:
   packages:
     - pipewire-pulseaudio
     - libcanberra
-    - openal-soft
     - pavucontrol
 
   labels:
