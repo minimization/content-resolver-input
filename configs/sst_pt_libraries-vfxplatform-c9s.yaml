@@ -7,6 +7,12 @@ data:
 
   packages:
   # The minimum development environment is this:
+  - cmake
+  - cmake-filesystem
+  - cmake-gui
+  - cmake-data
+  - cmake-doc
+  - cmake-rpm-macros
   - gcc
   - gcc-c++
   - binutils
