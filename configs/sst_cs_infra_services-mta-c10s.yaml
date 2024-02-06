@@ -14,10 +14,7 @@ data:
   - postfix-perl-scripts
   - postfix-pgsql
   - postfix-sqlite
-  - sendmail
-  - sendmail-cf
-  - sendmail-doc
-  - sendmail-milter
 
   labels:
-  - c9s
+  - eln
+  - c10s

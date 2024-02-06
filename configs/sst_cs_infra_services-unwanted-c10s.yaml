@@ -12,6 +12,20 @@ data:
   - gutenprint-libs-ui
   # xsane
   - xsane
+  # sendmail
+  - sendmail
+  - sendmail-cf
+  - sendmail-doc
+  - sendmail-milter
+  # spamassassin
+  - spamassassin
+  # libotr
+  - libotr
+  - libotr-devel
+  # mod_security
+  - mod_security
+  - mod_security-mlogc
+  - mod_security_crs
 
   labels:
   - eln
