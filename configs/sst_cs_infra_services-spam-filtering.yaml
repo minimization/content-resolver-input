@@ -9,5 +9,4 @@ data:
   - spamassassin
 
   labels:
-  - eln
   - c9s
