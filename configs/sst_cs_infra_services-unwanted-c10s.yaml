@@ -17,6 +17,7 @@ data:
   - sendmail-cf
   - sendmail-doc
   - sendmail-milter
+  - sendmail-milter-devel
   # spamassassin
   - spamassassin
   # libotr
