@@ -43,6 +43,8 @@ data:
   # qpdf
   - qpdf
   - qpdf-devel
+  # sendmail
+  - sendmail-milter-devel
   # tcl
   - tcl-devel
   # tk
@@ -65,5 +67,4 @@ data:
     - libi2c-devel
 
   labels:
-  - eln
-  - c10s
+  - c9s
