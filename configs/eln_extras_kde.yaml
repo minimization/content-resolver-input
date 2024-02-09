@@ -96,7 +96,6 @@ data:
   - keditbookmarks-libs
   - kexi
   - kexi-libs
-  - kf6
   - kf6-attica
   - kf6-baloo
   - kf6-bluez-qt
@@ -136,7 +135,6 @@ data:
   - kf6-kitemmodels
   - kf6-kitemviews
   - kf6-kjobwidgets
-  - kf6-kmoretools
   - kf6-knewstuff
   - kf6-knotifications
   - kf6-knotifyconfig
@@ -176,7 +174,6 @@ data:
   - kgoldrunner
   - khangman
   - khelpcenter
-  - khotkeys
   - kigo
   - kile
   - killbots
