@@ -7,8 +7,8 @@ data:
 
   packages:
   - coreutils-single
-  - curl
+  - curl-minimal
   - libcurl-minimal
 
   labels:
-  - eln
+  - c9s
