@@ -23,6 +23,7 @@ data:
   - alsa-plugins-usbstream
   - alsa-plugins-vdownmix
   - alsa-tools-firmware
+  - alsa-ucm
   - alsa-utils
   - speexdsp
   - hwloc
@@ -78,6 +79,5 @@ data:
       - glibc
 
   labels:
-  - eln
   - c9s
 
