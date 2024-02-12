@@ -10,7 +10,6 @@ data:
   - gnome-remote-desktop
   - low-memory-monitor
   - lcms2
-  - power-profiles-daemon
   - uresourced
 
   labels:

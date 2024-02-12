@@ -22,6 +22,9 @@ data:
   - tog-pegasus-test
   - cdparanoia-static
   - dirsplit
+  - gpm
+  - gpm-devel
+  - gpm-libs
   - gpm-static
   - lensfun-tools
   - python3-lensfun

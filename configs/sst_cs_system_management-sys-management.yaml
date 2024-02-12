@@ -17,9 +17,6 @@ data:
   - eigen3-devel
   - freeipmi
   - freeipmi-devel
-  - gpm
-  - gpm-devel
-  - gpm-libs
   - ipmitool
   - iprutils
   - jasper-devel
@@ -123,4 +120,3 @@ data:
 
   labels:
   - eln
-  - c9s

@@ -10,5 +10,4 @@ data:
   - dhcp-server
 
   labels:
-  - eln
   - c9s
