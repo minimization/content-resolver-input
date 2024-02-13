@@ -8,7 +8,6 @@ data:
   packages:
   - tuned
   - tuned-gtk
-  - tuned-ppd
   - tuned-profiles-atomic
   - tuned-profiles-cpu-partitioning
   - tuned-profiles-mssql
@@ -23,5 +22,4 @@ data:
   - tuned-utils
 
   labels:
-  - eln
-  - c10s
+  - c9s
