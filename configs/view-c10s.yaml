@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: CentOS Stream 10 Package Set
+  description: CentOS Stream 10 Package Set.
+  maintainer: asamalik
+  labels:
+  - c10s
+  repository: repository-c10s
+
+  buildroot_strategy: root_logs
