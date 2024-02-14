@@ -40,3 +40,4 @@ data:
     - perl-Tk-Pod # perl-Tk plugin; perl-Tk bundles very old Tk; support undesired
   labels:
     - eln
+    - c10s

@@ -19,3 +19,4 @@ data:
       - servicelog
   labels:
     - eln
+    - c10s

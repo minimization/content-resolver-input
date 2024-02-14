@@ -31,6 +31,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   ### OPTIONAL FIELDS ###
 
   # Packages to be flagged as unwanted

@@ -10,3 +10,4 @@ data:
     # - brasero-nautilus
   labels:
     - eln
+    - c10s

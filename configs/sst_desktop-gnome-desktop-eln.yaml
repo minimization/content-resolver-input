@@ -35,6 +35,7 @@ data:
     - xdg-user-dirs-gtk
   labels:
     - eln
+    - c10s
   package_placeholders:
     gnome-shell-extension-systemMonitor:
       srpm: gnome-shell-extensions

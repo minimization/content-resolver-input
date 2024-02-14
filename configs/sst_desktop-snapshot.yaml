@@ -8,3 +8,4 @@ data:
     - snapshot
   labels:
     - eln
+    - c10s

@@ -6,6 +6,7 @@ data:
   maintainer: sst_i18n
   labels:
     - eln
+    - c10s
   options:
     - include-weak-deps
   packages:

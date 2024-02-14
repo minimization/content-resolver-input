@@ -13,3 +13,4 @@ data:
       - fwupd-efi
   labels:
     - eln
+    - c10s

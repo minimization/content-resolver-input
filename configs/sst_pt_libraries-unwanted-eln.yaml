@@ -6,6 +6,7 @@ data:
   maintainer: sst_pt_libraries
   labels:
     - eln
+    - c10s
   unwanted_packages:
     # Remove nscd in favour of sssd.
     - nscd

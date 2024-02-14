@@ -9,3 +9,4 @@ data:
     - pkcs11-provider
   labels:
     - eln
+    - c10s

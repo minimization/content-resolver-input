@@ -36,6 +36,7 @@ data:
     - virt-what
   labels:
     - eln
+    - c10s
   arch_packages:
     x86_64:
       - edk2-ovmf

@@ -76,3 +76,4 @@ data:
             - zlib-ng-compat
   labels:
     - eln
+    - c10s

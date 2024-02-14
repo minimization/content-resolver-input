@@ -8,3 +8,4 @@ data:
     - sysfsutils
   labels:
     - eln
+    - c10s

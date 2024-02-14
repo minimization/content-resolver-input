@@ -11,3 +11,4 @@ data:
     - postgresql-odbc
   labels:
     - eln
+    - c10s

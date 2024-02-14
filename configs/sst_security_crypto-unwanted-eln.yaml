@@ -10,3 +10,4 @@ data:
     - openssl-pkcs11
   labels:
     - eln
+    - c10s

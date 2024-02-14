@@ -8,3 +8,4 @@ data:
     - http-parser
   labels:
     - eln
+    - c10s

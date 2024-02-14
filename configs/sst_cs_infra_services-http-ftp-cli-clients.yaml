@@ -10,3 +10,4 @@ data:
     - wget2-wget
   labels:
     - eln
+    - c10s

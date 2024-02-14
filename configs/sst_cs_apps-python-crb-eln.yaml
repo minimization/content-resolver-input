@@ -32,3 +32,4 @@ data:
     - python3-pyproject-hooks
   labels:
     - eln
+    - c10s

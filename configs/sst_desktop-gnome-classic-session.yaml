@@ -14,6 +14,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   package_placeholders:
     # No longer in Fedora
     gnome-shell-extension-desktop-icons:

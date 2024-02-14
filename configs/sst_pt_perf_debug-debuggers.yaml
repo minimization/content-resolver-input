@@ -16,6 +16,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   # libipt is Intel only
   # gdb-minimal is supported on everything but i686
   arch_packages:

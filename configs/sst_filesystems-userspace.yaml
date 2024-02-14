@@ -60,3 +60,4 @@ data:
       - pcp-pmda-gfs2
   labels:
     - eln
+    - c10s

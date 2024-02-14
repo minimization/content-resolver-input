@@ -10,3 +10,4 @@ data:
     - zlib-ng-compat-static
   labels:
     - eln
+    - c10s

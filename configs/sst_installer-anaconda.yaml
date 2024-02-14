@@ -6,6 +6,7 @@ data:
   maintainer: sst_installer
   labels:
     - eln
+    - c10s
   packages:
     - anaconda
     - anaconda-webui

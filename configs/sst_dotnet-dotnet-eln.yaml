@@ -11,3 +11,4 @@ data:
     - aspnetcore-runtime-8.0
   labels:
     - eln
+    - c10s

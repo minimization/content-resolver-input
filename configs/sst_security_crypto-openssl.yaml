@@ -10,3 +10,4 @@ data:
     - openssl
   labels:
     - eln
+    - c10s

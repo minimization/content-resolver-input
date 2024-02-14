@@ -28,3 +28,4 @@ data:
     - words
   labels:
     - eln
+    - c10s

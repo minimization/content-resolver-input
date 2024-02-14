@@ -8,3 +8,4 @@ data:
     - bash-color-prompt
   labels:
     - eln
+    - c10s

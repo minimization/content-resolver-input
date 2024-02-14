@@ -12,6 +12,7 @@ data:
     - uresourced
   labels:
     - eln
+    - c10s
   arch_packages:
     armv7hl:
       - fprintd

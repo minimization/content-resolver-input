@@ -10,3 +10,4 @@ data:
     - python-dmidecode
   labels:
     - eln
+    - c10s

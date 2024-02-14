@@ -7,6 +7,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   packages:
     # in container-tools stream in RHEL 8, but not in a module in Fedora
     - cockpit-podman

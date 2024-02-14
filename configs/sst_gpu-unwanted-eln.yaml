@@ -60,3 +60,4 @@ data:
     - xorg-x11-drv-wacom
   labels:
     - eln
+    - c10s

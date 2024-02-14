@@ -8,6 +8,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   package_placeholders:
     redhat-bookmarks:
       srpm: redhat-bookmarks

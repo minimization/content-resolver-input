@@ -8,3 +8,4 @@ data:
     - python3-ethtool
   labels:
     - eln
+    - c10s

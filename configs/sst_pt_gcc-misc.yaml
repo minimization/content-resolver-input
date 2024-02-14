@@ -12,3 +12,4 @@ data:
     - annobin-plugin-gcc
   labels:
     - eln
+    - c10s

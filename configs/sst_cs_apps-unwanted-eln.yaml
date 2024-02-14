@@ -17,3 +17,4 @@ data:
     - python3-pyodbc
   labels:
     - eln
+    - c10s
