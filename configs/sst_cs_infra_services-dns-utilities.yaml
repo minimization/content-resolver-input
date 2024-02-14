@@ -4,20 +4,18 @@ data:
   name: DNS Utilities
   description: Packages containing various useful DNS tools
   maintainer: sst_cs_infra_services
-
   packages:
-  - bind-utils
-  - dnsmasq-utils
-  - whois
-  # ldns
-  - ldns
-  # ldns - all below in CRB:
-  - ldns-utils
-  - ldns-devel
-  - python3-ldns
-  - perl-ldns
-  - ldns-doc
-
+    - bind-utils
+    - dnsmasq-utils
+    - whois
+    # ldns
+    - ldns
+    # ldns - all below in CRB:
+    - ldns-utils
+    - ldns-devel
+    - python3-ldns
+    - perl-ldns
+    - ldns-doc
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

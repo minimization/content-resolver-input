@@ -4,12 +4,10 @@ data:
   name: Python parsers
   description: Python packages for parsing common data formats
   maintainer: sst_cs_apps
-
   packages:
-  - python3-lxml
-  - python3-pyyaml
-  - python3-toml
-  - python3-tomli
-
+    - python3-lxml
+    - python3-pyyaml
+    - python3-toml
+    - python3-tomli
   labels:
-  - c9s
+    - c9s

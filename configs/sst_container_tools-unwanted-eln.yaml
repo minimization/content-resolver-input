@@ -6,12 +6,10 @@ data:
     Unwanted container runtime and related packages
 
   maintainer: sst_container_tools
-
   unwanted_packages:
     - containernetworking-plugins
     - python3-podman-api
     - runc
     - slirp4netns
-
   labels:
     - eln

@@ -6,22 +6,22 @@ data:
   description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
   maintainer: bakery
   packages:
-  - glibc
-  - libstdc++
-  - libgcc
-  - libgomp
-  - libatomic
-  - elfutils-libelf
-  - krb5-libs
-  - libxml2
-  - libxslt
-  - libglvnd-glx
-  - libglvnd-egl
-  - libglvnd-gles
-  - libglvnd-opengl
-  - mesa-libGLU
-  - pam
-  - vulkan-loader
-  - zlib-ng-compat
+    - glibc
+    - libstdc++
+    - libgcc
+    - libgomp
+    - libatomic
+    - elfutils-libelf
+    - krb5-libs
+    - libxml2
+    - libxslt
+    - libglvnd-glx
+    - libglvnd-egl
+    - libglvnd-gles
+    - libglvnd-opengl
+    - mesa-libGLU
+    - pam
+    - vulkan-loader
+    - zlib-ng-compat
   labels:
-  - eln
+    - eln

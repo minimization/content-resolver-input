@@ -4,14 +4,11 @@ data:
   name: RDMA Stack Core Packages
   description: RDMA Stack Packages should be in ELN BaseOS repository
   maintainer: sst_network_drivers
-
   packages:
-  - libfabric
-
+    - libfabric
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   arch_packages:
     # not armv7hl
     aarch64:

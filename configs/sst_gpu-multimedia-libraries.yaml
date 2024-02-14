@@ -4,7 +4,6 @@ data:
   name: Multimedia libraries
   description: Libraries for managing multimedia content
   maintainer: sst_gpu
-
   packages:
     - gstreamer1
     - gstreamer1-plugins-base
@@ -14,7 +13,6 @@ data:
     - gstreamer1-rtsp-server
     # Used for preview of camera images as plugin for pixbuf in Files
     - libopenraw
-
   labels:
     - eln
     - c9s

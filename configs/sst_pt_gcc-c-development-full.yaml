@@ -4,21 +4,19 @@ data:
   name: C Development Environment
   description: A C development environment.
   maintainer: sst_pt_gcc
-
   packages:
-  # The minimum development environment is this:
-  - gcc
-  - binutils
-  - glibc
-  - glibc-common
-  - glibc-devel
-  # Full development includes additional packages:
-  - glibc-utils
-  - glibc-static
-  - glibc-nss-devel
-  # Support all locales.
-  - glibc-all-langpacks
-
+    # The minimum development environment is this:
+    - gcc
+    - binutils
+    - glibc
+    - glibc-common
+    - glibc-devel
+    # Full development includes additional packages:
+    - glibc-utils
+    - glibc-static
+    - glibc-nss-devel
+    # Support all locales.
+    - glibc-all-langpacks
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

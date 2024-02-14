@@ -4,10 +4,8 @@ data:
   name: GNOME Logs
   description: Viewer for the systemd journal in Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-logs
-
+    - gnome-logs
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

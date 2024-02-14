@@ -4,13 +4,11 @@ data:
   name: CEE support tools
   description: Support tools used by customers and Support Delivery
   maintainer: sst_cee_supportability
-
   packages:
-  - sos
-  - rig
-  - python3-pexpect
-  - python-ptyprocess
-
+    - sos
+    - rig
+    - python3-pexpect
+    - python-ptyprocess
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

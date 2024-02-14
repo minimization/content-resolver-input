@@ -5,9 +5,9 @@ data:
   description: Packages of tools that are useful in a realtime environment
   maintainer: sst_kernel_rts
   packages:
-  - tuna
-  - python3-linux-procfs
-  - stalld
+    - tuna
+    - python3-linux-procfs
+    - stalld
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

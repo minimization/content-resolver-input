@@ -6,7 +6,7 @@ data:
   description: Perl database interface
   maintainer: sst_cs_apps
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
   packages:
-  - perl-DBI
+    - perl-DBI

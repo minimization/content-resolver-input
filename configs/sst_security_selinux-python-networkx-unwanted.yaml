@@ -9,34 +9,28 @@ version: 1
 data:
   # id is the filename — that automatically prevents collisions for free!
 
-
   ### MANDATORY FIELDS ###
 
   # Name is an identifier for humans
   #
   # (mandatory field)
   name: Unwanted SELinux packages
-
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
   description: Weak dependencies of python-networkx originally used as BuildRequires dependencies
-
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
   #
   # (mandatory field)
   maintainer: plautrba
-
   # Labels connect things together.
   # Views with the same label will have these packages marked as unwanted.
   #
   # (mandatory field)
   labels:
-  - eln
-  - c9s
-
-
+    - eln
+    - c9s
   ### OPTIONAL FIELDS ###
 
   # Packages to be flagged as unwanted
@@ -58,15 +52,15 @@ data:
   #
   # (optional field)
   unwanted_source_packages:
-  - gdal
-  - pydot
-  - python-nb2plots
-  - python-pygraphviz
-  - python-pytest-expect
-  - python-pytest-doctestplus
-  - python-numpydoc
-  - python-sphinx-gallery
-  - python-sphinx-testing
-  - python-nbsphinx
-  - python-webencodings
-  - python-texext
+    - gdal
+    - pydot
+    - python-nb2plots
+    - python-pygraphviz
+    - python-pytest-expect
+    - python-pytest-doctestplus
+    - python-numpydoc
+    - python-sphinx-gallery
+    - python-sphinx-testing
+    - python-nbsphinx
+    - python-webencodings
+    - python-texext

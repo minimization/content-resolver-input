@@ -4,18 +4,16 @@ data:
   name: Nautilus
   description: Default file manager in Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - gvfs
-  - gvfs-client
-  - gvfs-fuse
-  - gvfs-goa
-  - gvfs-gphoto2
-  - gvfs-mtp
-  - gvfs-smb
-  - libmtp
-  - nautilus
-  - sushi
-
+    - gvfs
+    - gvfs-client
+    - gvfs-fuse
+    - gvfs-goa
+    - gvfs-gphoto2
+    - gvfs-mtp
+    - gvfs-smb
+    - libmtp
+    - nautilus
+    - sushi
   labels:
-  - c9s
+    - c9s

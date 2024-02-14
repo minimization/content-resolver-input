@@ -4,16 +4,14 @@ data:
   name: Package Management Tools
   description: Tools for building packages and repositories
   maintainer: sst_cs_software_management
-
   packages:
-  - createrepo_c
-  - redhat-rpm-config
-  - rpm-build
-  - rpmdevtools
-  - rpmlint
-  - rpm-sign
-  - scl-utils-build
-
+    - createrepo_c
+    - redhat-rpm-config
+    - rpm-build
+    - rpmdevtools
+    - rpmlint
+    - rpm-sign
+    - scl-utils-build
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

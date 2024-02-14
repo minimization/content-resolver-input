@@ -4,11 +4,9 @@ data:
   name: Ruby DB connectors
   description: Databases connectors for Ruby
   maintainer: sst_cs_apps
-
   packages:
-  - rubygem-mysql2
-  - rubygem-pg
-
+    - rubygem-mysql2
+    - rubygem-pg
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

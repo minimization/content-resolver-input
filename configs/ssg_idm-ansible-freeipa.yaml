@@ -4,11 +4,9 @@ data:
   name: FreeIPA Ansible collection
   description: Ansible roles and modules to install, uninstall and manage FreeIPA
   maintainer: ssg_idm
-
   packages:
-  - ansible-freeipa
-  - ipa-selinux # rich dependency that is otherwise unmet
-
+    - ansible-freeipa
+    - ipa-selinux # rich dependency that is otherwise unmet
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

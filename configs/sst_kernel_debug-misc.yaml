@@ -10,8 +10,7 @@ data:
     - lshw
     - numactl
   labels:
-  - c9s
-
+    - c9s
   arch_packages:
     aarch64:
       - dmidecode

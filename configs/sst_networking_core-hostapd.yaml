@@ -5,9 +5,8 @@ data:
   description: IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticators
   maintainer: sst_networking_core
   packages:
-  - hostapd
-  - wpa_supplicant
-
+    - hostapd
+    - wpa_supplicant
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

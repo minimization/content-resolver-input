@@ -4,10 +4,8 @@ data:
   name: GNOME Software
   description: Default application and updates manager for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - gnome-software
-
+    - gnome-software
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

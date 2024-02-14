@@ -4,12 +4,10 @@ data:
   name: Shells
   description: Alternative shells
   maintainer: sst_cs_plumbers
-
   packages:
-  - zsh
-  - ksh
-  - tcsh
-
+    - zsh
+    - ksh
+    - tcsh
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

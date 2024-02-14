@@ -4,9 +4,7 @@ data:
   name: Hexchat
   description: A graphical IRC client application for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - hexchat
-
+    - hexchat
   labels:
-  - c9s
+    - c9s

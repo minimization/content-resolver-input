@@ -6,9 +6,7 @@ data:
   description: >-
     General purpose cryptographic library and toolkit for TLS and SSL protocols.
   maintainer: sst_security_crypto
-
   packages:
     - openssl
-
   labels:
     - eln

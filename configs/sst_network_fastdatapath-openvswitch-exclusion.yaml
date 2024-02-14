@@ -3,18 +3,16 @@ version: 1
 data:
   name: Open vSwitch Exclusion List
   description: >
-    The OVS packages are shipped through Fast Datapath repositories
-    and should not be included in Red Hat Enterprise Linux.
+    The OVS packages are shipped through Fast Datapath repositories and should not be included in Red Hat Enterprise Linux.
+
   maintainer: sst_network_fastdatapath
-
   unwanted_packages:
-  - openvswitch
-  - openvswitch-devel
-  - openvswitch-ipsec
-  - openvswitch-test
-  - python3-openvswitch
-  - network-scripts-openvswitch
-
+    - openvswitch
+    - openvswitch-devel
+    - openvswitch-ipsec
+    - openvswitch-test
+    - python3-openvswitch
+    - network-scripts-openvswitch
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

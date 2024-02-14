@@ -4,10 +4,8 @@ data:
   name: SCAP Workbench
   description: GUI application used for tailoring of the SCAP content, and user friendly scanning of singular systems.
   maintainer: sst_security_compliance
-
   packages:
-  - scap-workbench
-  - openscap-scanner
-
+    - scap-workbench
+    - openscap-scanner
   labels:
-  - c9s
+    - c9s

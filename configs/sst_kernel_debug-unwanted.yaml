@@ -4,10 +4,8 @@ data:
   name: Unwanted Packages for RHEL 9 - sst_kernel_debug
   description: Packages not shipping in RHEL 9
   maintainer: sst_kernel_debug
-
   unwanted_packages:
-  - netdump-server
-  - crash-ptdump-command
-
+    - netdump-server
+    - crash-ptdump-command
   labels:
-  - c9s
+    - c9s

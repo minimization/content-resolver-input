@@ -4,10 +4,8 @@ data:
   name: userland daemon required for IPsec VPNs - libreswan
   description: IKEv1 and IKEv2 daemon for IPsec VPNs
   maintainer: sst_security_crypto
-
   packages:
-  - libreswan
-
+    - libreswan
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

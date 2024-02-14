@@ -4,21 +4,19 @@ data:
   name: IdM Client Tools
   description: General software for enrolling system with external Identity Management server
   maintainer: ssg_idm
-
   packages:
-  - ipa-healthcheck
-  - ipa-client-epn
-  - sssd-tools
-  - realmd
-  - adcli
-  - krb5-workstation
-  - openldap-clients
-  - tlog
-  - cockpit-session-recording
-  - gssproxy
-  - certmonger
-  - ipa-selinux # rich dependency that is otherwise unmet
-
+    - ipa-healthcheck
+    - ipa-client-epn
+    - sssd-tools
+    - realmd
+    - adcli
+    - krb5-workstation
+    - openldap-clients
+    - tlog
+    - cockpit-session-recording
+    - gssproxy
+    - certmonger
+    - ipa-selinux # rich dependency that is otherwise unmet
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

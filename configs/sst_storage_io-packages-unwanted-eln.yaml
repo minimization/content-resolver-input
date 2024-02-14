@@ -4,11 +4,9 @@ data:
   name: Unwanted SST Storage-IO packages
   description: Unwanted SST Storage-IO and Components
   maintainer: sst_storage_io
-
   unwanted_packages:
-  - libhbaapi
-  - libhbalinux
-  - nvme-stas
-
+    - libhbaapi
+    - libhbalinux
+    - nvme-stas
   labels:
-  - eln
+    - eln

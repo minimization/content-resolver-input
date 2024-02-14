@@ -4,10 +4,8 @@ data:
   name: perl-LDAP
   description: Perl client for LDAP
   maintainer: sst_cs_apps
-
   packages:
-  - perl-LDAP
-
+    - perl-LDAP
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

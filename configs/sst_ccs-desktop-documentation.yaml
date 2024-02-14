@@ -4,14 +4,11 @@ data:
   name: Desktop Documentation
   description: Desktop documentation and branding
   maintainer: sst_ccs
-
   packages:
-  - gnome-user-docs
-
+    - gnome-user-docs
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   package_placeholders:
     redhat-indexhtml:
       srpm: redhat-indexhtml

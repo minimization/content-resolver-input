@@ -4,10 +4,8 @@ data:
   name: Python container packages (ACG4)
   description: Python packages supported for use in the s2i-python-container (ACG4)
   maintainer: sst_cs_apps
-
   packages:
-  - micropipenv
-
+    - micropipenv
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

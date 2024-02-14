@@ -5,10 +5,10 @@ data:
   description: Tools necessary to support loadable kernel modules.
   maintainer: sst_kernel_tps
   packages:
-  - kmod
-  - ddiskit
-  - kernel-rpm-macros
-  - kernel-srpm-macros
+    - kmod
+    - ddiskit
+    - kernel-rpm-macros
+    - kernel-srpm-macros
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

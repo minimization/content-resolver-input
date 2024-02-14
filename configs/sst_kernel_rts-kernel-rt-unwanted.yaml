@@ -4,11 +4,9 @@ data:
   name: Unwanted Packages - sst_kernel_rts
   description: Packages that kernel-rt rats sst doesn't want to distribute in RHEL 9
   maintainer: sst_kernel_rts
-
   unwanted_packages:
-  - kernel-rt-modules-internal
-  - kernel-rt-selftests-internal
-
+    - kernel-rt-modules-internal
+    - kernel-rt-selftests-internal
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

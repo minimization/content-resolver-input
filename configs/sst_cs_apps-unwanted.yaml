@@ -4,14 +4,12 @@ data:
   name: Unwanted packages from CS Apps SST
   description: Packages we do not want to ship for CS Apps SST
   maintainer: sst_cs_apps
-
   unwanted_packages:
-  - js-uglify
-  - web-assets-devel
-  - mercurial                       # Hard to maintain while not the most popular choice anymore.
-  - libdb-devel                     # Deprecated in RHEL9
-  - libdb
-
+    - js-uglify
+    - web-assets-devel
+    - mercurial # Hard to maintain while not the most popular choice anymore.
+    - libdb-devel # Deprecated in RHEL9
+    - libdb
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

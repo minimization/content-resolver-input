@@ -4,10 +4,8 @@ data:
   name: GNOME Font Viewer
   description: Application for viewing available fonts on Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-font-viewer
-
+    - gnome-font-viewer
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

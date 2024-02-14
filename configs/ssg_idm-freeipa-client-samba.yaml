@@ -4,12 +4,10 @@ data:
   name: FreeIPA Client - Samba domain member
   description: Samba domain member on FreeIPA client
   maintainer: ssg_idm
-
   packages:
-  - ipa-client
-  - ipa-client-samba
-  - ipa-selinux # rich dependency that is otherwise unmet
-
+    - ipa-client
+    - ipa-client-samba
+    - ipa-selinux # rich dependency that is otherwise unmet
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

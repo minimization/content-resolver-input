@@ -4,10 +4,8 @@ data:
   name: Packages for mailx functionality
   description: S-nail packages replaces functionality of mailx
   maintainer: sst_cs_infra_services
-
   packages:
-  - s-nail
-
+    - s-nail
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,14 +4,10 @@ data:
   name: memkind
   description: User Extensible Heap Manager
   maintainer: sst_kernel_ft
-
   packages: []
-
-  labels:      # <-- Please leave
-  - eln        #     this unchanged.
-  - c9s
-
-
+  labels: # <-- Please leave
+    - eln #     this unchanged.
+    - c9s
   # (Only include the following section if you have arch-specific packages.)
   #   arch_packages:
   #      x86_64:                    # <-- Architecture
@@ -19,15 +15,15 @@ data:
   #        - arch-specific-package1   #     goes here.
   #
   arch_packages:
-      aarch64:
-          - memkind
-          - memkind-devel
-      ppc64le:
-          - memkind
-          - memkind-devel
-      x86_64:
-          - memkind
-          - memkind-devel
-          # asamalik: debuginfo packages are special and are not in the repos.
-          #- memkind-debuginfo
-          #- memkind-debugsource
+    aarch64:
+      - memkind
+      - memkind-devel
+    ppc64le:
+      - memkind
+      - memkind-devel
+    x86_64:
+      - memkind
+      - memkind-devel
+      # asamalik: debuginfo packages are special and are not in the repos.
+      #- memkind-debuginfo
+      #- memkind-debugsource

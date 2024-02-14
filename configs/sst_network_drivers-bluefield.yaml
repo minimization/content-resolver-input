@@ -4,23 +4,19 @@ data:
   name: Bluefield
   description: Packages required for Mellanox Bluefield SmartNIC
   maintainer: sst_network_drivers
-
   packages: []
-
   arch_packages:
     aarch64:
-    - rshim
-
+      - rshim
   package_placeholders:
     bfscripts:
       description: Something for bluefield
       limit_arches:
-      - aarch64
+        - aarch64
     mlxbf-bootctl:
       description: Something for mellaonx bluefield
       limit_arches:
-      - aarch64
-
+        - aarch64
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

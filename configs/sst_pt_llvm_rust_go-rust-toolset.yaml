@@ -4,18 +4,16 @@ data:
   name: Rust Toolset
   description: Collection of packages providing the rust compiler toolchain.
   maintainer: sst_pt_llvm_rust_go
-
   packages:
-  - rust
-  - cargo
-  - clippy
-  - rust-analyzer
-  - rust-doc
-  - rust-std-static
-  - rustfmt
-  - rust-srpm-macros
-  - rust-toolset
-
+    - rust
+    - cargo
+    - clippy
+    - rust-analyzer
+    - rust-doc
+    - rust-std-static
+    - rustfmt
+    - rust-srpm-macros
+    - rust-toolset
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

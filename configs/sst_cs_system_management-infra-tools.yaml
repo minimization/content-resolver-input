@@ -4,19 +4,17 @@ data:
   name: Infrastructure tools from CS System management SST
   description: Packages for sysadmins/servers (e.g. mailserver) from CS System management SST
   maintainer: sst_cs_system_management
-
   packages:
-  - dovecot
-  - dovecot-devel
-  - dovecot-mysql
-  - dovecot-pgsql
-  - dovecot-pigeonhole
-  - expect
-  - fetchmail
-  - kbd
-  - kbd-legacy
-  - mrtg
-
+    - dovecot
+    - dovecot-devel
+    - dovecot-mysql
+    - dovecot-pgsql
+    - dovecot-pigeonhole
+    - expect
+    - fetchmail
+    - kbd
+    - kbd-legacy
+    - mrtg
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

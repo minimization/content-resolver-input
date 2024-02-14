@@ -4,23 +4,17 @@ data:
   name: Unwanted Packages - sst_cs_software_management
   description: Packages that the Software Management subsystem does not want to distribute in RHEL 9
   maintainer: sst_cs_software_management
-
   unwanted_packages:
-  # drop drpm support from RHEL 9
-  - drpm
-
-  # drop drpm support from RHEL 9
-  - drpm-devel
-
-  # don't ship static libs
-  - lua-static
-
-  # don't ship static libs
-  - popt-static
-
-  # SysV init related, no longer needed because we have systemd
-  - rpm-plugin-prioreset
-
+    # drop drpm support from RHEL 9
+    - drpm
+    # drop drpm support from RHEL 9
+    - drpm-devel
+    # don't ship static libs
+    - lua-static
+    # don't ship static libs
+    - popt-static
+    # SysV init related, no longer needed because we have systemd
+    - rpm-plugin-prioreset
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

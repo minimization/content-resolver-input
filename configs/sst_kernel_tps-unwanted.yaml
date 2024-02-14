@@ -4,11 +4,9 @@ data:
   name: Unwanted Packages - sst_kernel_tps
   description: Packages not shipping in RHEL 9
   maintainer: sst_kernel_tps (vdronov for rtl-sdr*)
-
   unwanted_packages:
-  - rtl-sdr
-  - rtl-sdr-devel
-
+    - rtl-sdr
+    - rtl-sdr-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

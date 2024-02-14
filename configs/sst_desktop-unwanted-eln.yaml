@@ -5,103 +5,102 @@ data:
   description: Desktop - Packages which should not be in ELN
   maintainer: sst_desktop
   unwanted_packages:
-  # RHEL 9 unwanted entries:
-  # quvi is disabled as a dependency of Totem in RHEL
-  - libquvi-scripts
-  - libquvi
-  - lua-expat
-  - lua-lunit
-  - lua-socket
-  # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
-  - libgpod
-  - media-player-info
-  - rhythmbox
-  # Support for file access for iPhones/iPads dropped from RHEL 9
-  - libimobiledevice
-  - libplist
-  - libusbmuxd
-  - usbmuxd
-  # Replaced by fwupd
-  - fwupdate
-  # DLNA support dropped from RHEL 9
-  - gssdp
-  - gupnp-av
-  - gupnp-dlna
-  - gupnp-igd
-  - gupnp
-  - dleyna-connector-dbus
-  - dleyna-core
-  - dleyna-renderer
-  - dleyna-server
-  # Replaced by gnome-session-kiosk-session
-  - metacity
-  # Mouse a11y is now provided by gnome-shell
-  - mousetweaks
-  - gnome-themes-standard
-  - gnome-doc-utils
-  # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
-  - mozjs52
-  - mozjs60
-  - mozjs68
-  - mozjs78
-  # Old or deprecated or unwanted or unused stuff
-  - clutter-gtk
-  - clutter-gst3
-  - clutter
-  - cogl
-  - libIDL
-  - redhat-menus
-  - dbus-c++
-  - libcroco
-  - enca
-  - libchamplain
-  - libbluray
-  - libdmapsharing
-  - gnome-shell-extension-horizontal-workspaces
-  - subunit
-  - lzip
-  - tepl
-  - amtk
-  - libvncserver
-  - ucpp
-  - python-tidy
-  # Replaced by gnome-kiosk
-  - metacity
-  # tracker3 renamed to tracker in F34+
-  - tracker3
-  - tracker3-miners
-  # libhandy1 renamed to libhandy in F34+
-  - libhandy1
-  # only GTK 3 and GTK 4 supported in ELN and RHEL 10
-  - gtk2
-  - gtk2-immodules
-  - adwaita-gtk2-theme
-  # Only GUI application stuck with GTK 2, also no interest in maintaining an IRC client
-  - hexchat
-  # https://wiki.gnome.org/Initiatives/GnomeGoals/GettextMigration
-  - gnome-common
-  # Deprecated in favor of libsoup3
-  # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_One
-  # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_Two
-  - libsoup
-  # The functionality was moved into GNOME Shell itself
-  # https://pagure.io/fedora-workstation/issue/277
-  - gnome-screenshot
-  # Only espeak-ng is the supported speech synthetizer in RHEL 10
-  - festival
-  - flite
-  # Deprecated from 2010 - https://dbus.freedesktop.org/doc/dbus-glib/
-  - dbus-glib
-  # Replaced by tecla
-  - libgnomekbd
-  - libxklavier
-  # Mostly obsoleted
-  - gnome-tweaks
-
+    # RHEL 9 unwanted entries:
+    # quvi is disabled as a dependency of Totem in RHEL
+    - libquvi-scripts
+    - libquvi
+    - lua-expat
+    - lua-lunit
+    - lua-socket
+    # Rhythmbox dropped from RHEL 9, Totem could be used to play music files
+    - libgpod
+    - media-player-info
+    - rhythmbox
+    # Support for file access for iPhones/iPads dropped from RHEL 9
+    - libimobiledevice
+    - libplist
+    - libusbmuxd
+    - usbmuxd
+    # Replaced by fwupd
+    - fwupdate
+    # DLNA support dropped from RHEL 9
+    - gssdp
+    - gupnp-av
+    - gupnp-dlna
+    - gupnp-igd
+    - gupnp
+    - dleyna-connector-dbus
+    - dleyna-core
+    - dleyna-renderer
+    - dleyna-server
+    # Replaced by gnome-session-kiosk-session
+    - metacity
+    # Mouse a11y is now provided by gnome-shell
+    - mousetweaks
+    - gnome-themes-standard
+    - gnome-doc-utils
+    # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
+    - mozjs52
+    - mozjs60
+    - mozjs68
+    - mozjs78
+    # Old or deprecated or unwanted or unused stuff
+    - clutter-gtk
+    - clutter-gst3
+    - clutter
+    - cogl
+    - libIDL
+    - redhat-menus
+    - dbus-c++
+    - libcroco
+    - enca
+    - libchamplain
+    - libbluray
+    - libdmapsharing
+    - gnome-shell-extension-horizontal-workspaces
+    - subunit
+    - lzip
+    - tepl
+    - amtk
+    - libvncserver
+    - ucpp
+    - python-tidy
+    # Replaced by gnome-kiosk
+    - metacity
+    # tracker3 renamed to tracker in F34+
+    - tracker3
+    - tracker3-miners
+    # libhandy1 renamed to libhandy in F34+
+    - libhandy1
+    # only GTK 3 and GTK 4 supported in ELN and RHEL 10
+    - gtk2
+    - gtk2-immodules
+    - adwaita-gtk2-theme
+    # Only GUI application stuck with GTK 2, also no interest in maintaining an IRC client
+    - hexchat
+    # https://wiki.gnome.org/Initiatives/GnomeGoals/GettextMigration
+    - gnome-common
+    # Deprecated in favor of libsoup3
+    # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_One
+    # https://fedoraproject.org/wiki/Changes/libsoup_3:_Part_Two
+    - libsoup
+    # The functionality was moved into GNOME Shell itself
+    # https://pagure.io/fedora-workstation/issue/277
+    - gnome-screenshot
+    # Only espeak-ng is the supported speech synthetizer in RHEL 10
+    - festival
+    - flite
+    # Deprecated from 2010 - https://dbus.freedesktop.org/doc/dbus-glib/
+    - dbus-glib
+    # Replaced by tecla
+    - libgnomekbd
+    - libxklavier
+    # Mostly obsoleted
+    - gnome-tweaks
   unwanted_source_packages:
-  # The only supported way in RHEL to render HTML content is Firefox
-  - webkitgtk
-  # Obsoleted upstream for nearly 10 years
-  - glade
+    # The only supported way in RHEL to render HTML content is Firefox
+    - webkitgtk
+    # Obsoleted upstream for nearly 10 years
+    - glade
   labels:
-  - eln
+    - eln

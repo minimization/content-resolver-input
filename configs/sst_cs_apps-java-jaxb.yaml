@@ -4,11 +4,9 @@ data:
   name: Jakarta XML Binding
   description: API and tools that automate the mapping between XML documents and Java objects
   maintainer: sst_cs_apps
-
   packages:
-  - jaxb-runtime
-  - jaxb-xjc
-
+    - jaxb-runtime
+    - jaxb-xjc
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

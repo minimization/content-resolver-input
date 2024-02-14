@@ -4,9 +4,7 @@ data:
   name: fwupd
   description: Firmware update daemon
   maintainer: sst_desktop_firmware_bootloaders
-
   packages:
-  - fwupd
-
+    - fwupd
   labels:
-  - c9s
+    - c9s

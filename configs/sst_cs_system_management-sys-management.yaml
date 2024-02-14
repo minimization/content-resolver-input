@@ -4,111 +4,108 @@ data:
   name: System management - CS system management
   description: Packages for managing Linux system from CS system management SST
   maintainer: sst_cs_system_management
-
   packages:
-  - babl-devel
-  - babl-devel-docs
-  - basesystem
-  - bc
-  - dcraw
-  - diffstat
-  - diffutils
-  - dos2unix
-  - eigen3-devel
-  - freeipmi
-  - freeipmi-devel
-  - ipmitool
-  - iprutils
-  - jasper-devel
-  - libgphoto2-devel
-  - librabbitmq
-  - librabbitmq-devel
-  - libsmi
-  - libsmi-devel
-  - libsndfile
-  - libsndfile-devel
-  - libva
-  - libva-devel
-  - mksh
-  - netpbm-devel
-  - netpbm-doc
-  - netpbm-progs
-  - opencryptoki
-  - opencryptoki-devel
-  - opencryptoki-icsftok
-  - opencryptoki-libs
-  - opencryptoki-swtok
-  - OpenIPMI
-  - OpenIPMI-devel
-  - openwsman-server
-  - passwd
-  - patch
-  - patchutils
-  - python3-volume_key
-  - rootfiles
-  - sblim-cmpi-base
-  - sblim-gather
-  - sblim-gather-provider
-  - sblim-indication_helper
-  - sblim-sfcb
-  - sblim-sfcc-devel
-  - sblim-wbemcli
-  - symlinks
-  - tesseract
-  - tesseract-devel
-  - tesseract-langpack-eng
-  - tesseract-tessdata-doc
-  - tmpwatch
-  - tracer
-  - usermode
-  - uuid
-  - uuid-devel
-  - volume_key
-  - volume_key-devel
-  - volume_key-libs
-  - which
-  - wsmancli
-  - Xaw3d
-  - Xaw3d-devel
-  - mpfr
-  - mpfr-devel
-  - openexr
-  - openexr-devel
-  - openexr-libs
-  - imath
-  - imath-devel
-  - python3-imath
-  - watchdog
-
+    - babl-devel
+    - babl-devel-docs
+    - basesystem
+    - bc
+    - dcraw
+    - diffstat
+    - diffutils
+    - dos2unix
+    - eigen3-devel
+    - freeipmi
+    - freeipmi-devel
+    - ipmitool
+    - iprutils
+    - jasper-devel
+    - libgphoto2-devel
+    - librabbitmq
+    - librabbitmq-devel
+    - libsmi
+    - libsmi-devel
+    - libsndfile
+    - libsndfile-devel
+    - libva
+    - libva-devel
+    - mksh
+    - netpbm-devel
+    - netpbm-doc
+    - netpbm-progs
+    - opencryptoki
+    - opencryptoki-devel
+    - opencryptoki-icsftok
+    - opencryptoki-libs
+    - opencryptoki-swtok
+    - OpenIPMI
+    - OpenIPMI-devel
+    - openwsman-server
+    - passwd
+    - patch
+    - patchutils
+    - python3-volume_key
+    - rootfiles
+    - sblim-cmpi-base
+    - sblim-gather
+    - sblim-gather-provider
+    - sblim-indication_helper
+    - sblim-sfcb
+    - sblim-sfcc-devel
+    - sblim-wbemcli
+    - symlinks
+    - tesseract
+    - tesseract-devel
+    - tesseract-langpack-eng
+    - tesseract-tessdata-doc
+    - tmpwatch
+    - tracer
+    - usermode
+    - uuid
+    - uuid-devel
+    - volume_key
+    - volume_key-devel
+    - volume_key-libs
+    - which
+    - wsmancli
+    - Xaw3d
+    - Xaw3d-devel
+    - mpfr
+    - mpfr-devel
+    - openexr
+    - openexr-devel
+    - openexr-libs
+    - imath
+    - imath-devel
+    - python3-imath
+    - watchdog
   arch_packages:
     #setserial not supported on s390x
     aarch64:
-    - setserial
+      - setserial
     i686:
-    - setserial
+      - setserial
     x86_64:
-    - setserial
+      - setserial
     ppc64le:
-    - setserial
-    - opal-prd
-    - opal-utils
-    - powerpc-utils
-    - powerpc-utils-core
-    - ppc64-diag
-    - ppc64-diag-rtas
-    - libvpd
-    - libvpd-devel
-    - lsvpd
-    - libservicelog
-    - libservicelog-devel
-    - librtas
-    - librtas-devel
-    - servicelog
+      - setserial
+      - opal-prd
+      - opal-utils
+      - powerpc-utils
+      - powerpc-utils-core
+      - ppc64-diag
+      - ppc64-diag-rtas
+      - libvpd
+      - libvpd-devel
+      - lsvpd
+      - libservicelog
+      - libservicelog-devel
+      - librtas
+      - librtas-devel
+      - servicelog
     s390x:
-    - opencryptoki-ccatok
-    - opencryptoki-ep11tok
-    - opencryptoki-icatok
-
+      - opencryptoki-ccatok
+      - opencryptoki-ep11tok
+      - opencryptoki-icatok
   package_placeholders:
     rhel-system-roles-sap:
       srpm: rhel-system-roles-sap
@@ -117,6 +114,5 @@ data:
       limit_arches:
         - x86_64
         - ppc64le
-
   labels:
-  - eln
+    - eln

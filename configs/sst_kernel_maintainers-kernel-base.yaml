@@ -1,59 +1,59 @@
-document:  feedback-pipeline-workload
+document: feedback-pipeline-workload
 version: 1
 data:
-    name: kernel base
-    description: Base set of kernel packages and tools to ship
-    maintainer: sst_kernel_maintainers
-    packages:
-        - bpftool
-        - iwl1000-firmware
-        - iwl100-firmware
-        - iwl105-firmware
-        - iwl135-firmware
-        - iwl2000-firmware
-        - iwl2030-firmware
-        - iwl3160-firmware
-        - iwl5000-firmware
-        - iwl5150-firmware
-        - iwl6000g2a-firmware
-        - iwl6000g2b-firmware
-        - iwl6050-firmware
-        - iwl7260-firmware
-        - kernel
-        - kernel-abi-stablelists
-        - kernel-core
-        - kernel-cross-headers
-        - kernel-doc
-        - kernel-headers
-        - kernel-modules
-        - kernel-modules-core
-        - kernel-modules-extra
-        - kernel-tools
-        - libertas-sd8787-firmware
-        - linux-firmware
-        - linux-firmware-whence
-        - netronome-firmware
-        - perf
-        - python3-perf
-        - rtla
-    labels:
-        - c9s
-    arch_packages:
-        s390x:
-            - kernel-zfcpdump
-            - kernel-zfcpdump-core
-            - kernel-zfcpdump-modules
-            - kernel-zfcpdump-modules-core
-            - kernel-zfcpdump-modules-extra
-        x86_64:
-            - kernel-tools-libs
-            - kernel-uki-virt
-        aarch64:
-            - kernel-64k
-            - kernel-64k-core
-            - kernel-64k-modules
-            - kernel-64k-modules-core
-            - kernel-64k-modules-extra
-            - kernel-tools-libs
-        ppc64le:
-            - kernel-tools-libs
+  name: kernel base
+  description: Base set of kernel packages and tools to ship
+  maintainer: sst_kernel_maintainers
+  packages:
+    - bpftool
+    - iwl1000-firmware
+    - iwl100-firmware
+    - iwl105-firmware
+    - iwl135-firmware
+    - iwl2000-firmware
+    - iwl2030-firmware
+    - iwl3160-firmware
+    - iwl5000-firmware
+    - iwl5150-firmware
+    - iwl6000g2a-firmware
+    - iwl6000g2b-firmware
+    - iwl6050-firmware
+    - iwl7260-firmware
+    - kernel
+    - kernel-abi-stablelists
+    - kernel-core
+    - kernel-cross-headers
+    - kernel-doc
+    - kernel-headers
+    - kernel-modules
+    - kernel-modules-core
+    - kernel-modules-extra
+    - kernel-tools
+    - libertas-sd8787-firmware
+    - linux-firmware
+    - linux-firmware-whence
+    - netronome-firmware
+    - perf
+    - python3-perf
+    - rtla
+  labels:
+    - c9s
+  arch_packages:
+    s390x:
+      - kernel-zfcpdump
+      - kernel-zfcpdump-core
+      - kernel-zfcpdump-modules
+      - kernel-zfcpdump-modules-core
+      - kernel-zfcpdump-modules-extra
+    x86_64:
+      - kernel-tools-libs
+      - kernel-uki-virt
+    aarch64:
+      - kernel-64k
+      - kernel-64k-core
+      - kernel-64k-modules
+      - kernel-64k-modules-core
+      - kernel-64k-modules-extra
+      - kernel-tools-libs
+    ppc64le:
+      - kernel-tools-libs

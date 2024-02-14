@@ -4,11 +4,9 @@ data:
   name: Mailman 3 eln-extra packages
   description: Mailman 3 ELN Extras packages
   maintainer: ngompa
-
   packages:
-  - mailman3
-  - hyperkitty
-  - postorius
-
+    - mailman3
+    - hyperkitty
+    - postorius
   labels:
-  - eln-extras
+    - eln-extras

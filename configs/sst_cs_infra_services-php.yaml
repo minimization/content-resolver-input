@@ -4,42 +4,40 @@ data:
   name: PHP scripting language
   description: CS Infrastructure Services - PHP
   maintainer: sst_cs_infra_services
-
   packages:
-  - php
-  - php-bcmath
-  - php-cli
-  - php-common
-  - php-devel
-  - php-dba
-  - php-dbg
-  - php-enchant
-  - php-fpm
-  - php-ffi
-  - php-gd
-  - php-gmp
-  - php-intl
-  - php-json
-  - php-ldap
-  - php-mbstring
-  - php-mysqlnd
-  - php-odbc
-  - php-opcache
-  - php-pdo
-  - php-pgsql
-  - php-pear
-  - php-pecl-zip
-  - php-process
-  - php-snmp
-  - php-soap
-  - php-xml
-  - php-pear
-  - php-pecl-apcu
-  - php-pecl-apcu-devel
-  - php-pecl-rrd
-  - php-pecl-xdebug3
-  - php-pecl-zip
-
+    - php
+    - php-bcmath
+    - php-cli
+    - php-common
+    - php-devel
+    - php-dba
+    - php-dbg
+    - php-enchant
+    - php-fpm
+    - php-ffi
+    - php-gd
+    - php-gmp
+    - php-intl
+    - php-json
+    - php-ldap
+    - php-mbstring
+    - php-mysqlnd
+    - php-odbc
+    - php-opcache
+    - php-pdo
+    - php-pgsql
+    - php-pear
+    - php-pecl-zip
+    - php-process
+    - php-snmp
+    - php-soap
+    - php-xml
+    - php-pear
+    - php-pecl-apcu
+    - php-pecl-apcu-devel
+    - php-pecl-rrd
+    - php-pecl-xdebug3
+    - php-pecl-zip
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

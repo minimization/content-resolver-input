@@ -4,9 +4,7 @@ data:
   name: GNOME Screenshot
   description: Application for taking screenshots in Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-screenshot
-
+    - gnome-screenshot
   labels:
-  - c9s
+    - c9s

@@ -4,10 +4,8 @@ data:
   name: gnome-kiosk
   description: Window management and application launching for GNOME
   maintainer: sst_desktop
-
   packages:
     - gnome-kiosk
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

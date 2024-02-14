@@ -4,376 +4,369 @@ data:
   name: HA
   description: HA needed packages
   maintainer: sst_high_availability
-
   packages: []
-
   package_placeholders:
-  - srpm_name: fence-agents
-    build_dependencies: []
-    limit_arches:
-    - x86_64
-    - ppc64le
-    - s390x
-    rpms:
-    - rpm_name: fence-agents-all
-      description: Built with bundled dependencies in RHEL
-      # all is a metapackage, but placeholders cannot list dependencies
-      # on other placeholders, so just list the unlisted subpackages deps
-      dependencies:
-        # fence-agents-common (placeholder)
-        - device-mapper-multipath
-        - gnutls-utils
-        - net-snmp-utils
-        - openssh-clients
-        - python3-pycurl
-    - rpm_name: fence-agents-aliyun
-      description: This package is only provided in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        # ha-cloud-support (placeholder)
-        - python3-jmespath
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-agents-amt-ws
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - openwsman-python3
-    - rpm_name: fence-agents-aws
-      description: Built with bundled dependencies in RHEL
-      dependencies: []
-        # fence-agents-common (placeholder)
-        # ha-cloud-support (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-agents-azure-arm
-      description: Built with bundled dependencies in RHEL
-      dependencies: []
-        # fence-agents-common (placeholder)
-        # ha-cloud-support (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-agents-common
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        - python3-pycurl
-    - rpm_name: fence-agents-compute
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - python3-requests
+    - srpm_name: fence-agents
+      build_dependencies: []
       limit_arches:
         - x86_64
         - ppc64le
-    - rpm_name: fence-agents-gce
-      description: Built with bundled dependencies in RHEL
-      dependencies: []
-        # fence-agents-common (placeholder)
-        # ha-cloud-support (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-agents-ipmilan
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - ipmitool
-    - rpm_name: fence-agents-kubevirt
-      description: Built with bundled dependencies in RHEL
-      dependencies: []
-        # fence-agents-common (placeholder)
-    - rpm_name: fence-agents-lpar
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - openssh-clients
-      limit_arches:
-        - ppc64le
-    - rpm_name: fence-agents-openstack
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - python3-requests
-      limit_arches:
-        - x86_64
-        - ppc64le
-    - rpm_name: fence-agents-sbd
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - sbd
-    - rpm_name: fence-agents-scsi
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - sg3_utils
-    - rpm_name: fence-agents-virsh
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        # fence-agents-common (placeholder)
-        - libvirt-client
-        - openssh-clients
-    - rpm_name: fence-agents-zvm
-      description: Built with bundled dependencies in RHEL
-      dependencies: []
-        # fence-agents-common (placeholder)
-      limit_arches:
         - s390x
-    - rpm_name: fence-virt
-      description: Provides bundled dependencies for RHEL
-      dependencies:
-        - systemd-sysv
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd
-      description: Provides bundled dependencies for RHEL
-      dependencies: []
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd-cpg
-      description: Provides bundled dependencies for RHEL
-      dependencies:
-        - corosynclib
-        # fence-virtd (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd-libvirt
-      description: Provides bundled dependencies for RHEL
-      dependencies:
-        - libvirt
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd-multicast
-      description: Provides bundled dependencies for RHEL
-      dependencies: []
-        # fence-virtd (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd-serial
-      description: Provides bundled dependencies for RHEL
-      dependencies:
-        - libvirt
-      limit_arches:
-        - x86_64
-    - rpm_name: fence-virtd-tcp
-      description: Provides bundled dependencies for RHEL
-      dependencies: []
-        # fence-virtd (placeholder)
-      limit_arches:
-        - x86_64
-    - rpm_name: ha-cloud-support
-      description: Provides bundled dependencies for RHEL
-      dependencies:
-        - python3
-      limit_arches:
-        - x86_64
-  - srpm_name: pcs
-    build_dependencies:
-    - booth
-    - corosync-qdevice-devel
-    - corosynclib-devel
-    - diffstat
-    # fence-agents-common (placeholder)
-    - git-core
-    - make
-    - npm
-    - pacemaker-libs-devel
-    - pam
-    - python3-cryptography
-    - python3-dateutil
-    - python3-devel
-    - python3-setuptools
-    - python3-pycurl
-    - python3-pip
-    - python3-pyparsing
-    - python3-lxml
-    - python3-wheel
-    - python3-setuptools_scm
-    - redhat-logos
-    - resource-agents
-    - ruby-devel
-    - rubygems
-    - rubygem-bundler
-    - rubygem-json
-    - rubygem-rexml
-    - rubygem-test-unit
-    - sbd
-    limit_arches:
-    - x86_64
-    - ppc64le
-    - s390x
-    rpms:
-    - rpm_name: pcs
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        - corosync
-        - libknet1-plugins-all
-        - pacemaker-cli
+      rpms:
+        - rpm_name: fence-agents-all
+          description: Built with bundled dependencies in RHEL
+          # all is a metapackage, but placeholders cannot list dependencies
+          # on other placeholders, so just list the unlisted subpackages deps
+          dependencies:
+            # fence-agents-common (placeholder)
+            - device-mapper-multipath
+            - gnutls-utils
+            - net-snmp-utils
+            - openssh-clients
+            - python3-pycurl
+        - rpm_name: fence-agents-aliyun
+          description: This package is only provided in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            # ha-cloud-support (placeholder)
+            - python3-jmespath
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-agents-amt-ws
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - openwsman-python3
+        - rpm_name: fence-agents-aws
+          description: Built with bundled dependencies in RHEL
+          dependencies: []
+          # fence-agents-common (placeholder)
+          # ha-cloud-support (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-agents-azure-arm
+          description: Built with bundled dependencies in RHEL
+          dependencies: []
+          # fence-agents-common (placeholder)
+          # ha-cloud-support (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-agents-common
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            - python3-pycurl
+        - rpm_name: fence-agents-compute
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - python3-requests
+          limit_arches:
+            - x86_64
+            - ppc64le
+        - rpm_name: fence-agents-gce
+          description: Built with bundled dependencies in RHEL
+          dependencies: []
+          # fence-agents-common (placeholder)
+          # ha-cloud-support (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-agents-ipmilan
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - ipmitool
+        - rpm_name: fence-agents-kubevirt
+          description: Built with bundled dependencies in RHEL
+          dependencies: []
+          # fence-agents-common (placeholder)
+        - rpm_name: fence-agents-lpar
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - openssh-clients
+          limit_arches:
+            - ppc64le
+        - rpm_name: fence-agents-openstack
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - python3-requests
+          limit_arches:
+            - x86_64
+            - ppc64le
+        - rpm_name: fence-agents-sbd
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - sbd
+        - rpm_name: fence-agents-scsi
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - sg3_utils
+        - rpm_name: fence-agents-virsh
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            # fence-agents-common (placeholder)
+            - libvirt-client
+            - openssh-clients
+        - rpm_name: fence-agents-zvm
+          description: Built with bundled dependencies in RHEL
+          dependencies: []
+          # fence-agents-common (placeholder)
+          limit_arches:
+            - s390x
+        - rpm_name: fence-virt
+          description: Provides bundled dependencies for RHEL
+          dependencies:
+            - systemd-sysv
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd
+          description: Provides bundled dependencies for RHEL
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd-cpg
+          description: Provides bundled dependencies for RHEL
+          dependencies:
+            - corosynclib
+            # fence-virtd (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd-libvirt
+          description: Provides bundled dependencies for RHEL
+          dependencies:
+            - libvirt
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd-multicast
+          description: Provides bundled dependencies for RHEL
+          dependencies: []
+          # fence-virtd (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd-serial
+          description: Provides bundled dependencies for RHEL
+          dependencies:
+            - libvirt
+          limit_arches:
+            - x86_64
+        - rpm_name: fence-virtd-tcp
+          description: Provides bundled dependencies for RHEL
+          dependencies: []
+          # fence-virtd (placeholder)
+          limit_arches:
+            - x86_64
+        - rpm_name: ha-cloud-support
+          description: Provides bundled dependencies for RHEL
+          dependencies:
+            - python3
+          limit_arches:
+            - x86_64
+    - srpm_name: pcs
+      build_dependencies:
+        - booth
+        - corosync-qdevice-devel
+        - corosynclib-devel
+        - diffstat
+        # fence-agents-common (placeholder)
+        - git-core
+        - make
+        - npm
+        - pacemaker-libs-devel
         - pam
-        - pcmk-cluster-manager
-        - psmisc
-        - python3
         - python3-cryptography
         - python3-dateutil
-        - python3-lxml
-        - python3-pycurl
-        - python3-pyparsing
+        - python3-devel
         - python3-setuptools
+        - python3-pycurl
+        - python3-pip
+        - python3-pyparsing
+        - python3-lxml
+        - python3-wheel
+        - python3-setuptools_scm
         - redhat-logos
-        - ruby
+        - resource-agents
+        - ruby-devel
+        - rubygems
+        - rubygem-bundler
         - rubygem-json
         - rubygem-rexml
-        - rubygems
+        - rubygem-test-unit
+        - sbd
       limit_arches:
         - x86_64
         - ppc64le
         - s390x
-    - rpm_name: pcs-snmp
-      description: Built with bundled dependencies in RHEL
-      dependencies:
-        - net-snmp
-        - pacemaker
-        # pcs (placeholder)
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
-    - rpm_name: cockpit-ha-cluster
-      dependencies:
-        - cockpit-bridge
-        # pcs (placeholder)
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
-  - srpm_name: python-gflags
-    build_dependencies:
-    - python3-devel
-    rpms:
-    - rpm_name: python3-gflags
-      description: This package is only provided in RHEL
-      dependencies:
-      - python3
-  - srpm_name: resource-agents
-    build_dependencies: []
-    limit_arches: []
-    rpms:
-    - rpm_name: resource-agents-cloud
-      description: This package is only provided in RHEL
-      dependencies:
-      # ha-cloud-support (placeholder)
-      - socat
-      limit_arches:
-      - x86_64
-
+      rpms:
+        - rpm_name: pcs
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            - corosync
+            - libknet1-plugins-all
+            - pacemaker-cli
+            - pam
+            - pcmk-cluster-manager
+            - psmisc
+            - python3
+            - python3-cryptography
+            - python3-dateutil
+            - python3-lxml
+            - python3-pycurl
+            - python3-pyparsing
+            - python3-setuptools
+            - redhat-logos
+            - ruby
+            - rubygem-json
+            - rubygem-rexml
+            - rubygems
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+        - rpm_name: pcs-snmp
+          description: Built with bundled dependencies in RHEL
+          dependencies:
+            - net-snmp
+            - pacemaker
+            # pcs (placeholder)
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+        - rpm_name: cockpit-ha-cluster
+          dependencies:
+            - cockpit-bridge
+            # pcs (placeholder)
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+    - srpm_name: python-gflags
+      build_dependencies:
+        - python3-devel
+      rpms:
+        - rpm_name: python3-gflags
+          description: This package is only provided in RHEL
+          dependencies:
+            - python3
+    - srpm_name: resource-agents
+      build_dependencies: []
+      limit_arches: []
+      rpms:
+        - rpm_name: resource-agents-cloud
+          description: This package is only provided in RHEL
+          dependencies:
+            # ha-cloud-support (placeholder)
+            - socat
+          limit_arches:
+            - x86_64
   arch_packages:
     # No packages from HA currently support aarch64.
     # aarch64:
-
     ppc64le:
-    - booth
-    - booth-arbitrator
-    - booth-core
-    - booth-site
-    - booth-test
-    - corosync-qdevice
-    - corosync-qnetd
-    - corosynclib-devel
-    - haproxy
-    - ipvsadm
-    - keepalived
-    - libknet1
-    - libknet1-compress-bzip2-plugin
-    - libknet1-compress-lz4-plugin
-    - libknet1-compress-lzma-plugin
-    - libknet1-compress-lzo2-plugin
-    - libknet1-compress-plugins-all
-    - libknet1-compress-zlib-plugin
-    - libknet1-crypto-openssl-plugin
-    - libknet1-crypto-plugins-all
-    - libknet1-devel
-    - libknet1-plugins-all
-    - libnozzle1
-    - libnozzle1-devel
-    - omping
-    - pacemaker-cts
-    - pacemaker-doc
-    - pacemaker-libs-devel
-    - pacemaker-nagios-plugins-metadata
-    - pacemaker-remote
-    - resource-agents
-    - sbd
-    - spausedd
-
+      - booth
+      - booth-arbitrator
+      - booth-core
+      - booth-site
+      - booth-test
+      - corosync-qdevice
+      - corosync-qnetd
+      - corosynclib-devel
+      - haproxy
+      - ipvsadm
+      - keepalived
+      - libknet1
+      - libknet1-compress-bzip2-plugin
+      - libknet1-compress-lz4-plugin
+      - libknet1-compress-lzma-plugin
+      - libknet1-compress-lzo2-plugin
+      - libknet1-compress-plugins-all
+      - libknet1-compress-zlib-plugin
+      - libknet1-crypto-openssl-plugin
+      - libknet1-crypto-plugins-all
+      - libknet1-devel
+      - libknet1-plugins-all
+      - libnozzle1
+      - libnozzle1-devel
+      - omping
+      - pacemaker-cts
+      - pacemaker-doc
+      - pacemaker-libs-devel
+      - pacemaker-nagios-plugins-metadata
+      - pacemaker-remote
+      - resource-agents
+      - sbd
+      - spausedd
     s390x:
-    - booth
-    - booth-arbitrator
-    - booth-core
-    - booth-site
-    - booth-test
-    - corosync-qdevice
-    - corosync-qnetd
-    - corosynclib-devel
-    - haproxy
-    - ipvsadm
-    - keepalived
-    - libknet1
-    - libknet1-compress-bzip2-plugin
-    - libknet1-compress-lz4-plugin
-    - libknet1-compress-lzma-plugin
-    - libknet1-compress-lzo2-plugin
-    - libknet1-compress-plugins-all
-    - libknet1-compress-zlib-plugin
-    - libknet1-crypto-openssl-plugin
-    - libknet1-crypto-plugins-all
-    - libknet1-devel
-    - libknet1-plugins-all
-    - libnozzle1
-    - libnozzle1-devel
-    - omping
-    - pacemaker-cts
-    - pacemaker-doc
-    - pacemaker-libs-devel
-    - pacemaker-nagios-plugins-metadata
-    - pacemaker-remote
-    - resource-agents
-    - sbd
-    - spausedd
-
+      - booth
+      - booth-arbitrator
+      - booth-core
+      - booth-site
+      - booth-test
+      - corosync-qdevice
+      - corosync-qnetd
+      - corosynclib-devel
+      - haproxy
+      - ipvsadm
+      - keepalived
+      - libknet1
+      - libknet1-compress-bzip2-plugin
+      - libknet1-compress-lz4-plugin
+      - libknet1-compress-lzma-plugin
+      - libknet1-compress-lzo2-plugin
+      - libknet1-compress-plugins-all
+      - libknet1-compress-zlib-plugin
+      - libknet1-crypto-openssl-plugin
+      - libknet1-crypto-plugins-all
+      - libknet1-devel
+      - libknet1-plugins-all
+      - libnozzle1
+      - libnozzle1-devel
+      - omping
+      - pacemaker-cts
+      - pacemaker-doc
+      - pacemaker-libs-devel
+      - pacemaker-nagios-plugins-metadata
+      - pacemaker-remote
+      - resource-agents
+      - sbd
+      - spausedd
     x86_64:
-    - booth
-    - booth-arbitrator
-    - booth-core
-    - booth-site
-    - booth-test
-    - corosync-qdevice
-    - corosync-qnetd
-    - corosynclib-devel
-    - haproxy
-    - ipvsadm
-    - keepalived
-    - libknet1
-    - libknet1-compress-bzip2-plugin
-    - libknet1-compress-lz4-plugin
-    - libknet1-compress-lzma-plugin
-    - libknet1-compress-lzo2-plugin
-    - libknet1-compress-plugins-all
-    - libknet1-compress-zlib-plugin
-    - libknet1-crypto-openssl-plugin
-    - libknet1-crypto-plugins-all
-    - libknet1-devel
-    - libknet1-plugins-all
-    - libnozzle1
-    - libnozzle1-devel
-    - omping
-    - pacemaker-cts
-    - pacemaker-doc
-    - pacemaker-libs-devel
-    - pacemaker-nagios-plugins-metadata
-    - pacemaker-remote
-    - resource-agents
-    - sbd
-    - spausedd
-
+      - booth
+      - booth-arbitrator
+      - booth-core
+      - booth-site
+      - booth-test
+      - corosync-qdevice
+      - corosync-qnetd
+      - corosynclib-devel
+      - haproxy
+      - ipvsadm
+      - keepalived
+      - libknet1
+      - libknet1-compress-bzip2-plugin
+      - libknet1-compress-lz4-plugin
+      - libknet1-compress-lzma-plugin
+      - libknet1-compress-lzo2-plugin
+      - libknet1-compress-plugins-all
+      - libknet1-compress-zlib-plugin
+      - libknet1-crypto-openssl-plugin
+      - libknet1-crypto-plugins-all
+      - libknet1-devel
+      - libknet1-plugins-all
+      - libnozzle1
+      - libnozzle1-devel
+      - omping
+      - pacemaker-cts
+      - pacemaker-doc
+      - pacemaker-libs-devel
+      - pacemaker-nagios-plugins-metadata
+      - pacemaker-remote
+      - resource-agents
+      - sbd
+      - spausedd
   labels:
-  - eln
-  - c10s
+    - eln
+    - c10s

@@ -9,8 +9,7 @@ data:
     - lshw
     - numactl
   labels:
-  - eln
-
+    - eln
   arch_packages:
     aarch64:
       - dmidecode

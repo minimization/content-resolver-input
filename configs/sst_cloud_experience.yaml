@@ -4,7 +4,6 @@ data:
   name: Cloud Experience Integrations for RHEL
   description: Software that makes RHEL more integrated with various clouds
   maintainer: sst_cloud_experience
-
   packages:
     - efs-utils
     - efs-utils-selinux
@@ -13,7 +12,6 @@ data:
     - python3-ruamel-yaml
     - python3-ruamel-yaml-clib
     - python3-websockets
-
   arch_packages:
     aarch64:
       - awscli2
@@ -24,18 +22,15 @@ data:
     x86_64:
       - awscli2
       - python3-awscrt
-
   package_placeholders:
     - srpm_name: opentelemetry-collector
       rpms:
         - rpm_name: opentelemetry-collector
           description: iOpenTelemetry Collector
-
     - srpm_name: opentelemetry-collector-cloudwatch-config
       rpms:
         - rpm_name: opentelemetry-collector-cloudwatch-config
           description: iOpenTelemetry Collector CloudWatch Config
-
   labels:
     - eln
     - c9s

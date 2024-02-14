@@ -7,10 +7,8 @@ data:
   labels:
     - eln
     - c9s
-
   unwanted_packages:
     # mpitt: only needed for integration tests (buildroot), never ship this
     - cockpit-tests
-
     # mpitt: Will be deprecated soon, let's not introduce it
     - cockpit-dashboard

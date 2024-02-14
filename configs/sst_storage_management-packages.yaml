@@ -4,7 +4,6 @@ data:
   name: SST Storage Management
   description: SST Storage Management Supported Packages
   maintainer: sst_storage_management
-
   packages:
     # SID and its sub-packages
     - sid
@@ -20,7 +19,6 @@ data:
     - sid-resource-libs
     - sid-resource-libs-devel
     - sid-tools
-
     # Storage Management
     - hdparm
     - libblockdev
@@ -60,7 +58,6 @@ data:
     - udisks2-iscsi
     - udisks2-lsm
     - udisks2-lvm2
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -5,8 +5,7 @@ data:
   description: Platform Tools Libarries recommendations for packages not to ship (future)
   maintainer: sst_pt_libraries
   labels:
-  - eln
-
+    - eln
   unwanted_packages:
-  # Remove nscd in favour of sssd.
-  - nscd
+    # Remove nscd in favour of sssd.
+    - nscd

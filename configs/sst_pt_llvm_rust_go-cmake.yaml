@@ -4,14 +4,12 @@ data:
   name: CMake
   description: Build configuration generator.
   maintainer: sst_pt_llvm_rust_go
-
   packages:
-  - cmake
-  - cmake-filesystem
-  - cmake-gui
-  - cmake-data
-  - cmake-doc
-  - cmake-rpm-macros
-
+    - cmake
+    - cmake-filesystem
+    - cmake-gui
+    - cmake-data
+    - cmake-doc
+    - cmake-rpm-macros
   labels:
-  - c9s
+    - c9s

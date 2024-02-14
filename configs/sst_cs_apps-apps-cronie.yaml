@@ -4,13 +4,11 @@ data:
   name: Cronie
   description: A standard UNIX daemon crond that runs specified programs at scheduled times
   maintainer: sst_cs_apps
-
   packages:
-  - at
-  - cronie
-  - cronie-anacron
-  - cronie-noanacron
-
+    - at
+    - cronie
+    - cronie-anacron
+    - cronie-noanacron
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

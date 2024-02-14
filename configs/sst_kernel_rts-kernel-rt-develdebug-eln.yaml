@@ -1,71 +1,69 @@
-document:  feedback-pipeline-workload
+document: feedback-pipeline-workload
 version: 1
 data:
-    name: kernel-rt devel/debug
-    description: Kernel RT packages used for devel/debug
-    maintainer: sst_kernel_rts
-    packages: []
-    labels:
-        - eln 
-
-    # RHEL-specific subpackages, not available in Fedora
-    package_placeholders:
-      - srpm_name: kernel
-        build_dependencies: []
-        rpms:
-          - rpm_name: kernel-rt-debug
-            dependencies:
-              - realtime-setup
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-core
-            dependencies:
-              - bash
-              - systemd-udev
-              - coreutils
-              - dracut
-              - linux-firmware
-              - systemd
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-modules
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-modules-core
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-modules-extra
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-kvm
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-debug-devel
-            dependencies:
-              - bison
-              - elfutils-libelf-devel
-              - findutils
-              - flex
-              - gcc
-              - make
-              - openssl-devel
-              - perl-interpreter
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-devel
-            dependencies:
-              - bison
-              - elfutils-libelf-devel
-              - findutils
-              - flex
-              - gcc
-              - make
-              - openssl-devel
-              - perl-interpreter
-            limit_arches:
-              - x86_64
-
+  name: kernel-rt devel/debug
+  description: Kernel RT packages used for devel/debug
+  maintainer: sst_kernel_rts
+  packages: []
+  labels:
+    - eln
+  # RHEL-specific subpackages, not available in Fedora
+  package_placeholders:
+    - srpm_name: kernel
+      build_dependencies: []
+      rpms:
+        - rpm_name: kernel-rt-debug
+          dependencies:
+            - realtime-setup
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-core
+          dependencies:
+            - bash
+            - systemd-udev
+            - coreutils
+            - dracut
+            - linux-firmware
+            - systemd
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-modules
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-modules-core
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-modules-extra
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-kvm
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-debug-devel
+          dependencies:
+            - bison
+            - elfutils-libelf-devel
+            - findutils
+            - flex
+            - gcc
+            - make
+            - openssl-devel
+            - perl-interpreter
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-devel
+          dependencies:
+            - bison
+            - elfutils-libelf-devel
+            - findutils
+            - flex
+            - gcc
+            - make
+            - openssl-devel
+            - perl-interpreter
+          limit_arches:
+            - x86_64

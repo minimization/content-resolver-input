@@ -4,13 +4,11 @@ data:
   name: tbb
   description: Threading Building Blocks library
   maintainer: sst_pt_libraries
-
   packages:
-  - python3-tbb
-  - tbb
-  - tbb-devel
-  - tbb-doc
-
+    - python3-tbb
+    - tbb
+    - tbb-devel
+    - tbb-doc
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

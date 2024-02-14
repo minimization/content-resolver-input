@@ -4,10 +4,8 @@ data:
   name: AIDE
   description: Advanced Intrusion Detection Environment.
   maintainer: sst_security_special_projects
-
   packages:
-  - aide
-
+    - aide
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

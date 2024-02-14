@@ -4,7 +4,6 @@ data:
   name: Subscripiton Manager
   description: Manages subscriptions and yum repositories.
   maintainer: sst_subscription_manager
-
   packages:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
@@ -12,7 +11,6 @@ data:
     - subscription-manager-cockpit
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
-  
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

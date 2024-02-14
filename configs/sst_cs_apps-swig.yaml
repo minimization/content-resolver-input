@@ -4,12 +4,10 @@ data:
   name: SWIG bindings generator
   description: Core Services Apps - SWIG
   maintainer: sst_cs_apps
-
   packages:
-  - swig
-  - swig-doc
-  - swig-gdb
-
+    - swig
+    - swig-doc
+    - swig-gdb
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

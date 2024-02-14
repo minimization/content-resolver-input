@@ -4,7 +4,6 @@ data:
   name: Codecs
   description: Various codecs
   maintainer: sst_gpu
-
   packages:
     - libtheora
     - sbc
@@ -16,7 +15,6 @@ data:
     - libvpx
     - libogg
     - twolame
-
   labels:
     - eln
     - c9s

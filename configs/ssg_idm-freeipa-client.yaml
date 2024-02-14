@@ -4,11 +4,9 @@ data:
   name: FreeIPA Client - minimal
   description: FreeIPA client
   maintainer: ssg_idm
-
   packages:
-  - ipa-client
-  - ipa-selinux # rich dependency that is otherwise unmet
-
+    - ipa-client
+    - ipa-selinux # rich dependency that is otherwise unmet
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

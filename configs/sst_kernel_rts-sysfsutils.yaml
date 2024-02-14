@@ -5,7 +5,7 @@ data:
   description: Utilities for interfacing with sysfs
   maintainer: sst_kernel_rts
   packages:
-  - glibc
-  - libsysfs 
+    - glibc
+    - libsysfs
   labels:
-  - c9s
+    - c9s

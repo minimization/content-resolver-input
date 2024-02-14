@@ -3,12 +3,10 @@ version: 1
 data:
   name: Toolchain compatibility packages
   description: >
-    Collection of packages providing compatibility packages related to
-    the GNU Toolchain.
-  maintainer: sst_pt_gcc
-  
-  packages: []
+    Collection of packages providing compatibility packages related to the GNU Toolchain.
 
+  maintainer: sst_pt_gcc
+  packages: []
   package_placeholders:
     # RHEL 8 bumped SONAME of libgfortran.so.  Support RHEL 7 apps.
     compat-libgfortran-48:
@@ -35,6 +33,5 @@ data:
         - gdb
         - elfutils-devel
         - elfutils-libelf-devel
-
   labels:
-  - c9s
+    - c9s

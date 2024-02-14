@@ -4,47 +4,45 @@ data:
   name: vfxplatform
   description: The VFX Reference Platform (CY2023) https://vfxplatform.com/
   maintainer: sst_pt_libraries
-
   packages:
-  # The minimum development environment is this:
-  - gcc
-  - gcc-c++
-  - binutils
-  - glibc
-  - glibc-common
-  - glibc-devel
-  - libstdc++
-  - libstdc++-devel
-  - libgcc
-  # Full development includes additional packages:
-  - glibc-utils
-  - glibc-static
-  - glibc-nss-devel
-  - libstdc++-static
-  # Support all locales.
-  - glibc-all-langpacks
-  # Packages used by VFX, see https://vfxplatform.com/
-  - python3
-  - python3-devel
-  - python3-numpy
-  - python3-alembic
-  - python3-qt5
-  - qt5-devel
-  - boost
-  - boost-devel
-  - tbb
-  - tbb-devel
-  - openexr-libs
-  - openexr-devel
-  # Additional packages required by VFX not present in RHEL:
-  # Qt for Python (PySide)
-  # Ptex
-  # OpenSubdiv
-  # OpenVDB
-  # FBX
-  # OpenColorIO
-  # ACES
-  # Intel MKL
-
+    # The minimum development environment is this:
+    - gcc
+    - gcc-c++
+    - binutils
+    - glibc
+    - glibc-common
+    - glibc-devel
+    - libstdc++
+    - libstdc++-devel
+    - libgcc
+    # Full development includes additional packages:
+    - glibc-utils
+    - glibc-static
+    - glibc-nss-devel
+    - libstdc++-static
+    # Support all locales.
+    - glibc-all-langpacks
+    # Packages used by VFX, see https://vfxplatform.com/
+    - python3
+    - python3-devel
+    - python3-numpy
+    - python3-alembic
+    - python3-qt5
+    - qt5-devel
+    - boost
+    - boost-devel
+    - tbb
+    - tbb-devel
+    - openexr-libs
+    - openexr-devel
+    # Additional packages required by VFX not present in RHEL:
+    # Qt for Python (PySide)
+    # Ptex
+    # OpenSubdiv
+    # OpenVDB
+    # FBX
+    # OpenColorIO
+    # ACES
+    # Intel MKL
   labels:
-  - c9s
+    - c9s

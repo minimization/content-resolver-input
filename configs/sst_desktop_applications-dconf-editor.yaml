@@ -4,10 +4,8 @@ data:
   name: Dconf Editor
   description: Viewer and editor of applications internal settings in Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - dconf-editor
-
+    - dconf-editor
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

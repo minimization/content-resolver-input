@@ -4,9 +4,7 @@ data:
   name: Devhelp
   description: Default documentation browser for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - devhelp
-
+    - devhelp
   labels:
-  - c9s
+    - c9s

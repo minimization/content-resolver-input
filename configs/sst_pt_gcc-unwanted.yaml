@@ -5,50 +5,49 @@ data:
   description: Platform Tools recommendations for packages not to ship
   maintainer: sst_pt_gcc
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   unwanted_packages:
-  - cloog
-  - cloog-devel
-  - cppcheck
-  - cppcheck-gui
-  - cppcheck-htmlreport
-  # Owned by sst_desktop
-  # - cppunit
-  # - cppunit-devel
-  # - cppunit-doc
-  - tinyxml2
-  - tinyxml2-devel
-  - dpkg
-  - dpkg-devel
-  - dselect
-  # Nasm is a build requirement for: dav1d, firefox, libavif, libjpeg-turbo,
-  # mingw-libjpeg-turbo, qatlib, rust-rav1e, syslinux, thunderbird, vmaf 
-  # Ideally one of these packages will take over the maintainership.
-  # Either that or they will all switch to using the binutils assembler
-  # and drop the nasm build requirement.
-  - nasm
-  - nasm-rdoff
-  # Yasm is a build requirement for: firefox, libvpx, svt-av1 and thunderbird.
-  # Ideally one of these packages will take over the maintainership.
-  # Either that or they will all switch to using the binutils assembler
-  # and drop the yasm build requirement.
-  - yasm
-  - yasm-devel
-  # The X11 build may require mcpp. We should try hard to remove this
-  # dependency because if we can then we can remove mcpp entirely
-  # because nothing else should use it.
-  - mcpp
-  - mcpp-doc
-  - libmcpp
-  - libmcpp-devel
-  # Remove the temporary compat package for libpthread_nonshared.a.
-  - compat-libpthread-nonshared
-  # Remove jsoncpp and rhash which are not used by cmake.
-  - jsoncpp
-  - rhash
-  # libbsd contains functionality which is not thread-safe/incompatible
-  # with glibc (fgetln, setproctitle).  fgetln should calls be replaced
-  # with getline, arc4random* with a PRNG from a cryptograhpic library.
-  - libbsd
+    - cloog
+    - cloog-devel
+    - cppcheck
+    - cppcheck-gui
+    - cppcheck-htmlreport
+    # Owned by sst_desktop
+    # - cppunit
+    # - cppunit-devel
+    # - cppunit-doc
+    - tinyxml2
+    - tinyxml2-devel
+    - dpkg
+    - dpkg-devel
+    - dselect
+    # Nasm is a build requirement for: dav1d, firefox, libavif, libjpeg-turbo,
+    # mingw-libjpeg-turbo, qatlib, rust-rav1e, syslinux, thunderbird, vmaf 
+    # Ideally one of these packages will take over the maintainership.
+    # Either that or they will all switch to using the binutils assembler
+    # and drop the nasm build requirement.
+    - nasm
+    - nasm-rdoff
+    # Yasm is a build requirement for: firefox, libvpx, svt-av1 and thunderbird.
+    # Ideally one of these packages will take over the maintainership.
+    # Either that or they will all switch to using the binutils assembler
+    # and drop the yasm build requirement.
+    - yasm
+    - yasm-devel
+    # The X11 build may require mcpp. We should try hard to remove this
+    # dependency because if we can then we can remove mcpp entirely
+    # because nothing else should use it.
+    - mcpp
+    - mcpp-doc
+    - libmcpp
+    - libmcpp-devel
+    # Remove the temporary compat package for libpthread_nonshared.a.
+    - compat-libpthread-nonshared
+    # Remove jsoncpp and rhash which are not used by cmake.
+    - jsoncpp
+    - rhash
+    # libbsd contains functionality which is not thread-safe/incompatible
+    # with glibc (fgetln, setproctitle).  fgetln should calls be replaced
+    # with getline, arc4random* with a PRNG from a cryptograhpic library.
+    - libbsd

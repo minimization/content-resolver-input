@@ -4,10 +4,8 @@ data:
   name: Inkscape
   description: A vector graphics editor for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - inkscape
-  - inkscape-view
-
+    - inkscape
+    - inkscape-view
   labels:
-  - c9s
+    - c9s

@@ -4,7 +4,6 @@ data:
   name: Unwanted Filesystem packages
   description: Unwanted Filesystem Packages
   maintainer: sst_filesystems
-
   unwanted_packages:
     - system-storage-manager
     - xmlstarlet
@@ -12,12 +11,10 @@ data:
     - luarocks
     - leveldb
     - fmt
-
   unwanted_arch_packages:
     aarch64:
       - gfs2-utils
       - pcp-pmda-gfs2
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

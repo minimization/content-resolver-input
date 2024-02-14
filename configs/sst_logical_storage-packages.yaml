@@ -4,7 +4,6 @@ data:
   name: Platform Storage
   description: Platform Storage Supported Packages
   maintainer: sst_platform_storage
-
   packages:
     # Stratis
     - python3-dbus-client-gen
@@ -16,7 +15,6 @@ data:
     - python3-wcwidth
     - stratis-cli
     - stratisd
-
     # LVM
     # Boom-boot and its sub-packages
     - boom-boot
@@ -47,7 +45,6 @@ data:
     - sanlock
     - stratisd
     - userspace-rcu
-
   # RHEL-specific packages, not available in Fedora
   package_placeholders:
     - srpm_name: kmod-kvdo
@@ -77,6 +74,5 @@ data:
             - libuuid
             - device-mapper-event-libs
             - zlib-ng-compat
-
   labels:
-  - eln
+    - eln

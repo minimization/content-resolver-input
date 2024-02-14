@@ -3,37 +3,33 @@ version: 1
 data:
   name: CoreOS
   description: >
-    OS compontents for CoreOS based systems.
-    This should be distributed via bootable container images.
+    OS compontents for CoreOS based systems. This should be distributed via bootable container images.
+
   maintainer: sst_rhcos
-
   packages:
-  - afterburn
-  - afterburn-dracut
-  - butane
-  - console-login-helper-messages-issuegen
-  - console-login-helper-messages-motdgen
-  - console-login-helper-messages-profile
-  - ignition
-  - ignition-validate
-  - ssh-key-dir
-
-  # Packages co-maintained with the Edge SST
-  - ostree
-  - rpm-ostree
-  - nss-altfiles
-  - coreos-installer
-  - coreos-installer-bootinfra
-  - coreos-installer-dracut
-
+    - afterburn
+    - afterburn-dracut
+    - butane
+    - console-login-helper-messages-issuegen
+    - console-login-helper-messages-motdgen
+    - console-login-helper-messages-profile
+    - ignition
+    - ignition-validate
+    - ssh-key-dir
+    # Packages co-maintained with the Edge SST
+    - ostree
+    - rpm-ostree
+    - nss-altfiles
+    - coreos-installer
+    - coreos-installer-bootinfra
+    - coreos-installer-dracut
   arch_packages:
     x86_64:
-    - bootupd
+      - bootupd
     aarch64:
-    - bootupd
+      - bootupd
     ppc64le:
-    - bootupd
-
+      - bootupd
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

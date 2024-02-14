@@ -4,13 +4,10 @@ data:
   name: Minimal install using @core group with weak dependencies
   description: Minimal install with Recommends dependencies included
   maintainer: sst_security_compliance
-
   options:
-  - include-weak-deps
-
+    - include-weak-deps
   groups:
-  - core
-
+    - core
   labels:
-  - fedora
-  - eln-analyze-only
+    - fedora
+    - eln-analyze-only

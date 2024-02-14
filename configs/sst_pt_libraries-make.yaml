@@ -4,11 +4,9 @@ data:
   name: GNU Make
   description: Application build tooling.
   maintainer: sst_pt_libraries
-
   packages:
-  - make
-  - make-devel
-
+    - make
+    - make-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

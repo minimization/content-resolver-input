@@ -4,7 +4,6 @@ data:
   name: Program level unwanted packages
   description: Unwanted packages
   maintainer: bstinson
-
   unwanted_packages:
     - alex
     - bodhi-client
@@ -137,8 +136,6 @@ data:
     - reiserfs-utils
     - screen
     - bind9-next
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s

@@ -4,14 +4,12 @@ data:
   name: Unwanted firewalling packages
   description: Packages we do not want to ship for firewalling because they're unmaintained or broken.
   maintainer: sst_networking_core
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   unwanted_packages:
-  - iptstate
-  - bridge-utils
-  - ebtables-legacy
-  - iptables-legacy
-  - iptables-legacy-libs
+    - iptstate
+    - bridge-utils
+    - ebtables-legacy
+    - iptables-legacy
+    - iptables-legacy-libs

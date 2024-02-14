@@ -4,42 +4,40 @@ data:
   name: Core Services Plumbers - Blocked packages
   description: Core Services Plumbers - Packages which should not be in ELN
   maintainer: sst_cs_plumbers
-
   unwanted_packages:
-  - atlas-corei2
-  - atlas-corei2-devel
-  - atlas-corei2-static
-  - atlas-z10
-  - atlas-z10-devel
-  - atlas-z10-static
-  - atlas-z196
-  - atlas-z196-devel
-  - atlas-z196-static
-  - ed
-  - elinks
-  - emacs-terminal
-  - libnice
-  - libnice-devel
-  - libnice-gstreamer1
-  - libtar
-  - libtar-devel
-  - network-scripts
-  - numad
-  - pinfo
-  - python3-bottle
-  - redhat-lsb
-  - redhat-lsb-core
-  - redhat-lsb-cxx
-  - redhat-lsb-desktop
-  - redhat-lsb-languages
-  - redhat-lsb-printing
-  - redhat-lsb-submod-multimedia
-  - redhat-lsb-submod-security
-  - redhat-lsb-supplemental
-  - redhat-lsb-trialuse
-  - rtkit
-  - systemd-tests
-  - vorbis-tools
-
+    - atlas-corei2
+    - atlas-corei2-devel
+    - atlas-corei2-static
+    - atlas-z10
+    - atlas-z10-devel
+    - atlas-z10-static
+    - atlas-z196
+    - atlas-z196-devel
+    - atlas-z196-static
+    - ed
+    - elinks
+    - emacs-terminal
+    - libnice
+    - libnice-devel
+    - libnice-gstreamer1
+    - libtar
+    - libtar-devel
+    - network-scripts
+    - numad
+    - pinfo
+    - python3-bottle
+    - redhat-lsb
+    - redhat-lsb-core
+    - redhat-lsb-cxx
+    - redhat-lsb-desktop
+    - redhat-lsb-languages
+    - redhat-lsb-printing
+    - redhat-lsb-submod-multimedia
+    - redhat-lsb-submod-security
+    - redhat-lsb-supplemental
+    - redhat-lsb-trialuse
+    - rtkit
+    - systemd-tests
+    - vorbis-tools
   labels:
-  - eln
+    - eln

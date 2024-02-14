@@ -4,10 +4,8 @@ data:
   name: GNOME System Monitor
   description: Default system monitor application for Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-system-monitor
-
+    - gnome-system-monitor
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

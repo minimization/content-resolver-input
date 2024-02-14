@@ -4,12 +4,10 @@ data:
   name: Audio playback
   description: Libraries and daemons for audio playback
   maintainer: sst_gpu
-
   packages:
     - pulseaudio
     - libcanberra
     - openal-soft
     - pavucontrol
-
   labels:
     - c9s

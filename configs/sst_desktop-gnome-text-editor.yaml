@@ -4,10 +4,8 @@ data:
   name: GNOME Text Editor
   description: Text editor for Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-text-editor
-  - gtksourceview5
-
+    - gnome-text-editor
+    - gtksourceview5
   labels:
-  - eln
+    - eln

@@ -4,9 +4,7 @@ data:
   name: Sysprof
   description: System-wide profiling tool
   maintainer: sst_desktop
-
   packages:
-  - sysprof
-
+    - sysprof
   labels:
-  - eln
+    - eln

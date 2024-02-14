@@ -4,10 +4,8 @@ data:
   name: FTP Server
   description: FTP server software
   maintainer: sst_cs_infra_services
-
   packages:
-  - vsftpd
-
+    - vsftpd
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,10 +4,8 @@ data:
   name: DHCP Client
   description: DHCP Client software
   maintainer: sst_cs_infra_services
-
   packages:
-  - dhcpcd
-
+    - dhcpcd
   labels:
-  - eln
-  - c10s
+    - eln
+    - c10s

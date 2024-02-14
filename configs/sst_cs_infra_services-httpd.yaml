@@ -4,39 +4,37 @@ data:
   name: HTTP Servers - Apache httpd
   description: CS Infrastructure Services - Apache HTTP Server
   maintainer: sst_cs_infra_services
-
   packages:
-  # Packaged from httpd:
-  - httpd
-  - httpd-core
-  - httpd-tools
-  - httpd-filesystem
-  - httpd-devel
-  - httpd-manual
-  - mod_ssl
-  - mod_proxy_html
-  - mod_ldap
-  - mod_session
-  - mod_lua
-  # Third-party modules:
-  - python3-mod_wsgi
-  - mod_http2
-  - mod_md
-  - mod_fcgid
-  - mod_security
-  - mod_security-mlogc
-  - mod_security_crs
-  # Dependencies:
-  - apr
-  - apr-devel
-  - apr-util
-  - apr-util-devel
-  - apr-util-ldap
-  - apr-util-mysql
-  - apr-util-openssl
-  - apr-util-sqlite
-  - apr-util-pgsql
-  - apr-util-odbc
-
+    # Packaged from httpd:
+    - httpd
+    - httpd-core
+    - httpd-tools
+    - httpd-filesystem
+    - httpd-devel
+    - httpd-manual
+    - mod_ssl
+    - mod_proxy_html
+    - mod_ldap
+    - mod_session
+    - mod_lua
+    # Third-party modules:
+    - python3-mod_wsgi
+    - mod_http2
+    - mod_md
+    - mod_fcgid
+    - mod_security
+    - mod_security-mlogc
+    - mod_security_crs
+    # Dependencies:
+    - apr
+    - apr-devel
+    - apr-util
+    - apr-util-devel
+    - apr-util-ldap
+    - apr-util-mysql
+    - apr-util-openssl
+    - apr-util-sqlite
+    - apr-util-pgsql
+    - apr-util-odbc
   labels:
-  - c9s
+    - c9s

@@ -4,11 +4,9 @@ data:
   name: Evince
   description: Default PDF viewer for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - evince
-  - evince-nautilus
-  - evince-thumbnailer
-
+    - evince
+    - evince-nautilus
+    - evince-thumbnailer
   labels:
-  - c9s
+    - c9s

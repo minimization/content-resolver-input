@@ -4,17 +4,15 @@ data:
   name: Compression
   description: Tools for file compression
   maintainer: sst_cs_plumbers
-
   packages:
-  - lzop
-  - bzip2
-  - gzip
-  - lz4
-  - unzip
-  - zip
-  - zstd
-  - zziplib-utils
-
+    - lzop
+    - bzip2
+    - gzip
+    - lz4
+    - unzip
+    - zip
+    - zstd
+    - zziplib-utils
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

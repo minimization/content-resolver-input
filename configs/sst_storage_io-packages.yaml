@@ -4,7 +4,6 @@ data:
   name: Storage IO
   description: SST Storage-IO Supported Packages
   maintainer: sst_storage_io
-
   packages:
     # Block Storage
     - daxctl
@@ -17,7 +16,6 @@ data:
     - ndctl
     - ndctl-devel
     - ndctl-libs
-
     # target
     - nvmetcli
     - python3-configshell
@@ -26,21 +24,17 @@ data:
     - python3-rtslib
     - python3-urwid
     - targetcli
-
     # iscsi
     - iscsi-initiator-utils
     - iscsi-initiator-utils-iscsiuio
     - isns-utils
     - isns-utils-libs
     - python3-iscsi-initiator-utils
-
-      # fcoe offload
+    # fcoe offload
     - fcoe-utils
-
   arch_packages:
     s390x:
       - libblockdev-s390
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

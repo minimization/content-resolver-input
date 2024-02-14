@@ -4,40 +4,37 @@ data:
   name: GNOME Desktop
   description: GNOME Desktop core packages
   maintainer: sst_desktop
-
   packages:
-  - freerdp
-  - gdm
-  - glib-networking
-  - glib2
-  - glib2-devel
-  - glib2-static
-  - glib2-tests
-  - gnome-control-center
-  - gnome-devel-docs
-  - gnome-extensions-app
-  - gnome-session
-  - gnome-shell
-  - gnome-shell-extension-auto-move-windows
-  - gnome-shell-extension-background-logo
-  - gnome-shell-extension-common
-  - gnome-shell-extension-drive-menu
-  - gnome-shell-extension-native-window-placement
-  - gnome-shell-extension-screenshot-window-sizer
-  - gnome-shell-extension-windowsNavigator
-  - gnome-shell-extension-workspace-indicator
-  - gnome-browser-connector
-  - libgweather
-  - libproxy
-  - libsoup3
-  - tecla
-  - tracker
-  - tracker-miners
-  - xdg-user-dirs-gtk
-
+    - freerdp
+    - gdm
+    - glib-networking
+    - glib2
+    - glib2-devel
+    - glib2-static
+    - glib2-tests
+    - gnome-control-center
+    - gnome-devel-docs
+    - gnome-extensions-app
+    - gnome-session
+    - gnome-shell
+    - gnome-shell-extension-auto-move-windows
+    - gnome-shell-extension-background-logo
+    - gnome-shell-extension-common
+    - gnome-shell-extension-drive-menu
+    - gnome-shell-extension-native-window-placement
+    - gnome-shell-extension-screenshot-window-sizer
+    - gnome-shell-extension-windowsNavigator
+    - gnome-shell-extension-workspace-indicator
+    - gnome-browser-connector
+    - libgweather
+    - libproxy
+    - libsoup3
+    - tecla
+    - tracker
+    - tracker-miners
+    - xdg-user-dirs-gtk
   labels:
-  - eln
-
+    - eln
   package_placeholders:
     gnome-shell-extension-systemMonitor:
       srpm: gnome-shell-extensions

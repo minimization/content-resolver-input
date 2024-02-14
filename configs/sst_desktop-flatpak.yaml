@@ -4,12 +4,10 @@ data:
   name: Flatpak
   description: Technology for building and distributing desktop applications
   maintainer: sst_desktop
-
   packages:
-  - flatpak
-  - flatpak-builder
-  - flatpak-selinux
-  - flatpak-xdg-utils
-
+    - flatpak
+    - flatpak-builder
+    - flatpak-selinux
+    - flatpak-xdg-utils
   labels:
-  - c9s
+    - c9s

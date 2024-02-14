@@ -1,21 +1,19 @@
-document:  feedback-pipeline-workload
+document: feedback-pipeline-workload
 version: 1
 data:
-    name: kernel-rt devel/debug
-    description: Kernel RT packages used for devel/debug
-    maintainer: sst_kernel_rts
-    packages: []
-
-    arch_packages:
-      x86_64:
-        - kernel-rt-debug
-        - kernel-rt-debug-core
-        - kernel-rt-debug-modules
-        - kernel-rt-debug-modules-core
-        - kernel-rt-debug-modules-extra
-        - kernel-rt-debug-kvm
-        - kernel-rt-devel
-        - kernel-rt-debug-devel
-
-    labels:
-        - c9s
+  name: kernel-rt devel/debug
+  description: Kernel RT packages used for devel/debug
+  maintainer: sst_kernel_rts
+  packages: []
+  arch_packages:
+    x86_64:
+      - kernel-rt-debug
+      - kernel-rt-debug-core
+      - kernel-rt-debug-modules
+      - kernel-rt-debug-modules-core
+      - kernel-rt-debug-modules-extra
+      - kernel-rt-debug-kvm
+      - kernel-rt-devel
+      - kernel-rt-debug-devel
+  labels:
+    - c9s

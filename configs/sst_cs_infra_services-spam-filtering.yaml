@@ -4,9 +4,7 @@ data:
   name: SPAM Filtering
   description: SPAM filtering software
   maintainer: sst_cs_infra_services
-
   packages:
-  - spamassassin
-
+    - spamassassin
   labels:
-  - c9s
+    - c9s

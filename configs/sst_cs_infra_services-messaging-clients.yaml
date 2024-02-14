@@ -4,10 +4,8 @@ data:
   name: Messaging clients
   description: Instant messaging clients, e.g. IRC, Jabber, etc.
   maintainer: sst_cs_infra_services
-
   packages:
-  - irssi
-
+    - irssi
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

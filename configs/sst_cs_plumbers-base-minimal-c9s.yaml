@@ -4,11 +4,9 @@ data:
   name: Base userspace - minimal
   description: Basic tools and daemon needed to run a server
   maintainer: sst_cs_plumbers
-
   packages:
-  - coreutils-single
-  - curl-minimal
-  - libcurl-minimal
-
+    - coreutils-single
+    - curl-minimal
+    - libcurl-minimal
   labels:
-  - c9s
+    - c9s

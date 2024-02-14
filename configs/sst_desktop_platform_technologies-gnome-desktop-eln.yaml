@@ -4,17 +4,14 @@ data:
   name: GNOME Desktop
   description: GNOME Desktop core packages
   maintainer: sst_desktop_platform_technologies
-
   packages:
-  - gnome-color-manager
-  - gnome-remote-desktop
-  - low-memory-monitor
-  - lcms2
-  - uresourced
-
+    - gnome-color-manager
+    - gnome-remote-desktop
+    - low-memory-monitor
+    - lcms2
+    - uresourced
   labels:
-  - eln
-
+    - eln
   arch_packages:
     armv7hl:
       - fprintd

@@ -4,12 +4,10 @@ data:
   name: TigerVNC
   description: VNC server and client for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - tigervnc
-  - tigervnc-selinux
-  - tigervnc-server
-  - tigervnc-server-module
-
+    - tigervnc
+    - tigervnc-selinux
+    - tigervnc-server
+    - tigervnc-server-module
   labels:
-  - c9s
+    - c9s

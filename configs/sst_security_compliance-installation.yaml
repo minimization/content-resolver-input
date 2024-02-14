@@ -4,11 +4,9 @@ data:
   name: Native installation-time hardening
   description: Anaconda addon integrating OpenSCAP hardening capabilities into the Anaconda installer itself.
   maintainer: sst_security_compliance
-
   packages:
-  - oscap-anaconda-addon
-  - openscap-scanner
-  - scap-security-guide
-
+    - oscap-anaconda-addon
+    - openscap-scanner
+    - scap-security-guide
   labels:
-  - c9s
+    - c9s

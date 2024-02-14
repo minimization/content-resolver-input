@@ -4,10 +4,8 @@ data:
   name: RHEL System Roles
   description: Ansible roles for managing core RHEL system components
   maintainer: sst_system_roles
-
   packages:
-  - rhel-system-roles
-
+    - rhel-system-roles
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

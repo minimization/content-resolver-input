@@ -4,14 +4,13 @@ data:
   name: bootc
   description: >
     OS compontents for bootc based systems for ELN.
+
   maintainer: sst_bootc
-
   packages:
-  - bootc
-  - composefs
-  - initoverlayfs
-
+    - bootc
+    - composefs
+    - initoverlayfs
   labels:
-  - c10s
-  - eln
-  - c9s
+    - c10s
+    - eln
+    - c9s

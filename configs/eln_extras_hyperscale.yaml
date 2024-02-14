@@ -4,32 +4,29 @@ data:
   name: hyperscale packages
   description: ELN Extras packages that the CentOS Hyperscale SIG cares about
   maintainer: sig-hyperscale
-
   packages:
-  - btrfs-fuse
-  - btrfs-progs
-  - centos-packager
-  - compsize
-  - fsverity-utils
-  - ebtables-legacy
-  - ebtables-services
-  - iptables-legacy
-  - iptables-legacy-devel
-  - iptables-legacy-libs
-  - iptables-services
-  - libbtrfs
-  - libbtrfsutil
-  - mock-centos-sig-configs
-  - python3-btrfsutil
-  - systemd-networkd
-
+    - btrfs-fuse
+    - btrfs-progs
+    - centos-packager
+    - compsize
+    - fsverity-utils
+    - ebtables-legacy
+    - ebtables-services
+    - iptables-legacy
+    - iptables-legacy-devel
+    - iptables-legacy-libs
+    - iptables-services
+    - libbtrfs
+    - libbtrfsutil
+    - mock-centos-sig-configs
+    - python3-btrfsutil
+    - systemd-networkd
   arch_packages:
     x86_64:
-    - systemd-boot-unsigned
+      - systemd-boot-unsigned
     i686:
-    - systemd-boot-unsigned
+      - systemd-boot-unsigned
     aarch64:
-    - systemd-boot-unsigned
-
+      - systemd-boot-unsigned
   labels:
-  - eln-extras
+    - eln-extras

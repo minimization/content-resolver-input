@@ -4,17 +4,14 @@ data:
   name: GnuPG suite
   description: Tools and libraries needed for GnuPG
   maintainer: sst_security_crypto
-
   packages:
-  - gnupg2
-  - libgpg-error
-  - libgcrypt
-  - libksba
-  - libassuan
-  - npth
-  - pinentry
-
+    - gnupg2
+    - libgpg-error
+    - libgcrypt
+    - libksba
+    - libassuan
+    - npth
+    - pinentry
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s

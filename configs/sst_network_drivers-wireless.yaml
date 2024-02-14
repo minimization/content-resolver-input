@@ -1,17 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-    name: 802.11 wireless LAN support                       # <-- Set a name
-    description: Fundamental tools for wireless LAN usage.  # <-- Write a short description
-    maintainer: sst_network_drivers                         # <-- Put the label of your SST here
-
-    packages:        #
-    - iw             # <-- The list of binary RPM packages
-    - rfkill         # goes here. See the full spec for module support.
+  name: 802.11 wireless LAN support # <-- Set a name
+  description: Fundamental tools for wireless LAN usage. # <-- Write a short description
+  maintainer: sst_network_drivers # <-- Put the label of your SST here
+  packages: #
+    - iw # <-- The list of binary RPM packages
+    - rfkill # goes here. See the full spec for module support.
     - wireless-regdb #
-
-    labels:
-    - eln       # Use 'eln' for RHEL 10
-    - c9s       # USe 'c9s' for RHEL 9  (you can use both in one workload)
-
-
+  labels:
+    - eln # Use 'eln' for RHEL 10
+    - c9s # USe 'c9s' for RHEL 9  (you can use both in one workload)

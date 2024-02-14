@@ -4,12 +4,9 @@ data:
   name: initial-setup eln-extra packages
   description: Anaconda Initial Setup ELN Extras packages
   maintainer: ngompa
-
   packages:
-  - initial-setup
-  - initial-setup-gui
-  - initial-setup-gui-wayland-generic
-
-
+    - initial-setup
+    - initial-setup-gui
+    - initial-setup-gui-wayland-generic
   labels:
-  - eln-extras
+    - eln-extras

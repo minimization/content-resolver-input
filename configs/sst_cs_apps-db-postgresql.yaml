@@ -4,23 +4,21 @@ data:
   name: PostgreSQL client and server
   description: Client tools and a server daemon for PostgreSQL, with some plugins
   maintainer: sst_cs_apps
-
   packages:
-  - postgresql
-  - postgresql-contrib
-  - postgresql-plperl
-  - postgresql-plpython3
-  - postgresql-pltcl
-  - postgresql-server
-  - postgresql-server-devel
-  - postgresql-static
-  - postgresql-test
-  - postgresql-upgrade
-  - postgresql-upgrade-devel
-  - pgaudit
-  - pg_repack
-  - postgres-decoderbufs
-
+    - postgresql
+    - postgresql-contrib
+    - postgresql-plperl
+    - postgresql-plpython3
+    - postgresql-pltcl
+    - postgresql-server
+    - postgresql-server-devel
+    - postgresql-static
+    - postgresql-test
+    - postgresql-upgrade
+    - postgresql-upgrade-devel
+    - pgaudit
+    - pg_repack
+    - postgres-decoderbufs
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
