@@ -4,10 +4,8 @@ data:
   name: SCRUB
   description: Scrub writes patterns on files or disk devices to make retrieving the data more difficult.
   maintainer: sst_security_special_projects
-
   packages:
-  - scrub
-
+    - scrub
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

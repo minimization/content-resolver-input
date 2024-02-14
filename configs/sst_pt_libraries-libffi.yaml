@@ -4,11 +4,9 @@ data:
   name: libffi
   description: A portable foreign function interface library.
   maintainer: sst_pt_libraries
-
   packages:
-  - libffi
-  - libffi-devel
-
+    - libffi
+    - libffi-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

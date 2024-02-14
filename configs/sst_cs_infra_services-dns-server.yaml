@@ -4,13 +4,11 @@ data:
   name: DNS Server
   description: Popular implementations of DNS authoritative servers and resolvers
   maintainer: sst_cs_infra_services
-
   packages:
-  - bind
-  - bind-chroot
-  - dnsmasq
-  - unbound
-
+    - bind
+    - bind-chroot
+    - dnsmasq
+    - unbound
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,10 +4,8 @@ data:
   name: Crypto and RNG tools
   description: Crypto and random number generator related utilities
   maintainer: sst_kernel_security
-
   packages:
-  - rng-tools
-
+    - rng-tools
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,21 +4,18 @@ data:
   name: Power Management
   description: Power Management related software
   maintainer: sst_cs_infra_services
-
   packages:
-  - powertop
-
+    - powertop
   arch_packages:
     armv7hl:
-    # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
-    - acpid
+      # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
+      - acpid
     aarch64:
-    # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
-    - acpid
+      # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
+      - acpid
     x86_64:
-    # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
-    - acpid
-
+      # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
+      - acpid
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

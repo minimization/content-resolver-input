@@ -4,7 +4,6 @@ data:
   name: Wayland infrastructure
   description: Contains tools and related infrastructure used in a Wayland environment
   maintainer: sst_gpu
-
   packages:
     - wayland-utils
     - waypipe
@@ -13,6 +12,5 @@ data:
     - libinput-utils
     - xwayland-run
     - gnome-ponytail-daemon
-
   labels:
     - eln

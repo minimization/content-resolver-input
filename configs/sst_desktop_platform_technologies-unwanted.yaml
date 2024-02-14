@@ -5,10 +5,10 @@ data:
   description: Desktop Platform Technologies - Packages which should not be in ELN
   maintainer: sst_desktop_platform_technologies
   unwanted_packages:
-  - atf
-  - lutok
-  - kyua
-  - re2c
+    - atf
+    - lutok
+    - kyua
+    - re2c
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

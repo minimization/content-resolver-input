@@ -4,10 +4,8 @@ data:
   name: Unwanted packages for PostgreSQL
   description: Packages we do not want to ship for PostgreSQL
   maintainer: sst_cs_apps
-
   unwanted_packages:
-  - postgresql-llvmjit
-
+    - postgresql-llvmjit
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,13 +4,10 @@ data:
   name: Legacy support
   description: Support for legacy SysV services
   maintainer: sst_cs_plumbers
-
   packages:
-  - chkconfig
-  - ntsysv
-  - initscripts
-
+    - chkconfig
+    - ntsysv
+    - initscripts
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s

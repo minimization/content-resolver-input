@@ -4,10 +4,8 @@ data:
   name: efi-srpm-macros
   description: Common RPM Macros for building EFI-related packages
   maintainer: sst_desktop_firmware_bootloaders
-
   packages:
-  - efi-srpm-macros
-
+    - efi-srpm-macros
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

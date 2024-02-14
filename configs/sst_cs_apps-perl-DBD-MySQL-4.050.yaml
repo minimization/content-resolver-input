@@ -5,7 +5,7 @@ data:
   description: Perl client for MySQL
   maintainer: sst_cs_apps
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
   packages:
-  - perl-DBD-MySQL
+    - perl-DBD-MySQL

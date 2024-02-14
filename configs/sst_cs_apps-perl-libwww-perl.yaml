@@ -4,11 +4,9 @@ data:
   name: libwww-perl
   description: Perl HTTP library with TLS support
   maintainer: sst_cs_apps
-
   packages:
-  - perl-libwww-perl
-  - perl-LWP-Protocol-https
-
+    - perl-libwww-perl
+    - perl-LWP-Protocol-https
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

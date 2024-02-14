@@ -4,23 +4,21 @@ data:
   name: Flatpak
   description: Technology for building and distributing desktop applications
   maintainer: sst_desktop
-
   packages:
-  - bubblewrap
-  - flatpak
-  - flatpak-libs
-  - flatpak-builder
-  - flatpak-selinux
-  - flatpak-session-helper
-  - flatpak-spawn
-  - flatpak-xdg-utils
-  - libportal
-  - libportal-gtk3
-  - libportal-gtk4
-  - xdg-dbus-proxy
-  - xdg-desktop-portal
-  - xdg-desktop-portal-gnome
-  - xdg-desktop-portal-gtk
-
+    - bubblewrap
+    - flatpak
+    - flatpak-libs
+    - flatpak-builder
+    - flatpak-selinux
+    - flatpak-session-helper
+    - flatpak-spawn
+    - flatpak-xdg-utils
+    - libportal
+    - libportal-gtk3
+    - libportal-gtk4
+    - xdg-dbus-proxy
+    - xdg-desktop-portal
+    - xdg-desktop-portal-gnome
+    - xdg-desktop-portal-gtk
   labels:
-  - eln
+    - eln

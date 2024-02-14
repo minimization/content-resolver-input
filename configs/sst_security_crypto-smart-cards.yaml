@@ -4,12 +4,10 @@ data:
   name: Basic smart card enablement
   description: Tools needed to supply smart card enablement
   maintainer: sst_security_crypto
-
   packages:
-  - opensc
-  - pcsc-lite
-  - pcsc-lite-ccid
-
+    - opensc
+    - pcsc-lite
+    - pcsc-lite-ccid
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,11 +4,9 @@ data:
   name: Package Manager - Minimal
   description: Minimal installation of a package manager for containers
   maintainer: sst_cs_software_management
-
   packages:
-  - microdnf
-  - rpm
-
+    - microdnf
+    - rpm
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

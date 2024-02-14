@@ -4,14 +4,11 @@ data:
   name: MySQL client and server
   description: Client tools and a server daemon for MySQL from Oracle
   maintainer: sst_cs_apps
-
   packages:
-  - mecab-ipadic
-  - mecab-ipadic-EUCJP
-
+    - mecab-ipadic
+    - mecab-ipadic-EUCJP
   labels:
-  - c9s
-
+    - c9s
   package_placeholders:
     - srpm_name: mysql
       build_dependencies:

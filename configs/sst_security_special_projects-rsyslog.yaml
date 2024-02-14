@@ -4,37 +4,35 @@ data:
   name: Rsyslog
   description: Popular logging daemon
   maintainer: sst_security_special_projects
-
   packages:
-  - rsyslog
-  - rsyslog-crypto
-  - rsyslog-doc
-  - rsyslog-elasticsearch
-  - rsyslog-gnutls
-  - rsyslog-openssl
-  - rsyslog-gssapi
-  - rsyslog-kafka
-  - rsyslog-logrotate
-  - rsyslog-mmaudit
-  - rsyslog-mmfields
-  - rsyslog-mmjsonparse
-  - rsyslog-mmkubernetes
-  - rsyslog-mmnormalize
-  - rsyslog-mmsnmptrapd
-  - rsyslog-mysql
-  - rsyslog-omamqp1
-  - rsyslog-pgsql
-  - rsyslog-relp
-  - rsyslog-snmp
-  - rsyslog-udpspoof
-  - librdkafka-devel
-  - liblognorm
-  - liblognorm-doc
-  - librelp
-  - libfastjson
-  - librdkafka
-  - libestr
-
+    - rsyslog
+    - rsyslog-crypto
+    - rsyslog-doc
+    - rsyslog-elasticsearch
+    - rsyslog-gnutls
+    - rsyslog-openssl
+    - rsyslog-gssapi
+    - rsyslog-kafka
+    - rsyslog-logrotate
+    - rsyslog-mmaudit
+    - rsyslog-mmfields
+    - rsyslog-mmjsonparse
+    - rsyslog-mmkubernetes
+    - rsyslog-mmnormalize
+    - rsyslog-mmsnmptrapd
+    - rsyslog-mysql
+    - rsyslog-omamqp1
+    - rsyslog-pgsql
+    - rsyslog-relp
+    - rsyslog-snmp
+    - rsyslog-udpspoof
+    - librdkafka-devel
+    - liblognorm
+    - liblognorm-doc
+    - librelp
+    - libfastjson
+    - librdkafka
+    - libestr
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

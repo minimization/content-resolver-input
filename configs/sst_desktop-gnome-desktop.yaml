@@ -4,44 +4,41 @@ data:
   name: GNOME Desktop
   description: GNOME Desktop core packages
   maintainer: sst_desktop
-
   packages:
-  # Because of gnome-common
-  - autoconf-archive
-  - freerdp
-  - gdm
-  - glib-networking
-  - glib2
-  - glib2-devel
-  - glib2-doc
-  - glib2-static
-  - glib2-tests
-  - gnome-backgrounds
-  - gnome-backgrounds-extras
-  - gnome-control-center
-  - gnome-common
-  - gnome-devel-docs
-  - gnome-extensions-app
-  - gnome-session
-  - gnome-shell
-  - gnome-shell-extension-auto-move-windows
-  - gnome-shell-extension-background-logo
-  - gnome-shell-extension-common
-  - gnome-shell-extension-drive-menu
-  - gnome-shell-extension-native-window-placement
-  - gnome-shell-extension-screenshot-window-sizer
-  - gnome-shell-extension-windowsNavigator
-  - gnome-shell-extension-workspace-indicator
-  - gnome-tweaks
-  - chrome-gnome-shell
-  - libproxy
-  - tracker
-  - tracker-miners
-  - xdg-user-dirs-gtk
-
+    # Because of gnome-common
+    - autoconf-archive
+    - freerdp
+    - gdm
+    - glib-networking
+    - glib2
+    - glib2-devel
+    - glib2-doc
+    - glib2-static
+    - glib2-tests
+    - gnome-backgrounds
+    - gnome-backgrounds-extras
+    - gnome-control-center
+    - gnome-common
+    - gnome-devel-docs
+    - gnome-extensions-app
+    - gnome-session
+    - gnome-shell
+    - gnome-shell-extension-auto-move-windows
+    - gnome-shell-extension-background-logo
+    - gnome-shell-extension-common
+    - gnome-shell-extension-drive-menu
+    - gnome-shell-extension-native-window-placement
+    - gnome-shell-extension-screenshot-window-sizer
+    - gnome-shell-extension-windowsNavigator
+    - gnome-shell-extension-workspace-indicator
+    - gnome-tweaks
+    - chrome-gnome-shell
+    - libproxy
+    - tracker
+    - tracker-miners
+    - xdg-user-dirs-gtk
   labels:
-  - c9s
-
+    - c9s
   package_placeholders:
     gnome-shell-extension-systemMonitor:
       srpm: gnome-shell-extensions

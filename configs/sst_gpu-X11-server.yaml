@@ -2,12 +2,10 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: X11 Server
-  description:  Provide the server side for the X window system
+  description: Provide the server side for the X window system
   maintainer: sst_gpu
-
   packages:
     # x11 server
     - xorg-x11-server-Xwayland
-
   labels:
     - eln

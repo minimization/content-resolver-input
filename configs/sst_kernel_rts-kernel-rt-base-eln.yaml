@@ -1,54 +1,51 @@
-document:  feedback-pipeline-workload
+document: feedback-pipeline-workload
 version: 1
 data:
-    name: kernel-rt base
-    description: Base set of kernel-rt packages and tools to ship
-    maintainer: sst_kernel_rts
-    packages: []
-    labels:
-        - eln
-
-    arch_packages:
-      x86_64:
-        - tuned-profiles-realtime
-        - tuned-profiles-nfv
-        - tuned-profiles-nfv-guest
-        - tuned-profiles-nfv-host
-
-    # RHEL-specific subpackages, not available in Fedora
-    package_placeholders:
-      - srpm_name: kernel
-        build_dependencies: []
-        rpms:
-          - rpm_name: kernel-rt
-            dependencies:
-              - realtime-setup
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-core
-            dependencies:
-              - bash
-              - systemd-udev
-              - coreutils
-              - dracut
-              - linux-firmware
-              - systemd
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-modules
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-modules-core
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-modules-extra
-            dependencies: []
-            limit_arches:
-              - x86_64
-          - rpm_name: kernel-rt-kvm
-            dependencies: []
-            limit_arches:
-              - x86_64
-
+  name: kernel-rt base
+  description: Base set of kernel-rt packages and tools to ship
+  maintainer: sst_kernel_rts
+  packages: []
+  labels:
+    - eln
+  arch_packages:
+    x86_64:
+      - tuned-profiles-realtime
+      - tuned-profiles-nfv
+      - tuned-profiles-nfv-guest
+      - tuned-profiles-nfv-host
+  # RHEL-specific subpackages, not available in Fedora
+  package_placeholders:
+    - srpm_name: kernel
+      build_dependencies: []
+      rpms:
+        - rpm_name: kernel-rt
+          dependencies:
+            - realtime-setup
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-core
+          dependencies:
+            - bash
+            - systemd-udev
+            - coreutils
+            - dracut
+            - linux-firmware
+            - systemd
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-modules
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-modules-core
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-modules-extra
+          dependencies: []
+          limit_arches:
+            - x86_64
+        - rpm_name: kernel-rt-kvm
+          dependencies: []
+          limit_arches:
+            - x86_64

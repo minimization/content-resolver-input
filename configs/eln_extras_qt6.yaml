@@ -4,25 +4,22 @@ data:
   name: qt6 eln-extra packages
   description: QT6 ELN Extras packages
   maintainer: tdawson
-
   packages:
-  - python3-pyqt6-charts
-
+    - python3-pyqt6-charts
   labels:
-  - eln-extras
-
+    - eln-extras
   arch_packages:
     aarch64:
-    - python3-pyqt6-webengine
-    - qt6ct
-    - qt6-qtwebengine
-    - qt6-qtwebengine-devtools
-    - qt6-qtwebview
+      - python3-pyqt6-webengine
+      - qt6ct
+      - qt6-qtwebengine
+      - qt6-qtwebengine-devtools
+      - qt6-qtwebview
     ppc64le:
-    - qt6ct
+      - qt6ct
     x86_64:
-    - python3-pyqt6-webengine
-    - qt6ct
-    - qt6-qtwebengine
-    - qt6-qtwebengine-devtools
-    - qt6-qtwebview
+      - python3-pyqt6-webengine
+      - qt6ct
+      - qt6-qtwebengine
+      - qt6-qtwebengine-devtools
+      - qt6-qtwebview

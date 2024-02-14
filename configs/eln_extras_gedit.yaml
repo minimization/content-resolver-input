@@ -4,10 +4,8 @@ data:
   name: Gedit
   description: Text editor for Workstation
   maintainer: yselkowitz
-
   packages:
-  - gedit
-  - gedit-plugins
-
+    - gedit
+    - gedit-plugins
   labels:
-  - eln-extras
+    - eln-extras

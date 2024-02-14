@@ -4,17 +4,15 @@ data:
   name: Math
   description: Various math related libraries
   maintainer: sst_cs_plumbers
-
   packages:
-  - atlas
-  - atlas-devel
+    - atlas
+    - atlas-devel
   arch_packages:
     s390x:
-    - atlas-z14
-    - atlas-z14-devel
-    - atlas-z15
-    - atlas-z15-devel
-
+      - atlas-z14
+      - atlas-z14-devel
+      - atlas-z15
+      - atlas-z15-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

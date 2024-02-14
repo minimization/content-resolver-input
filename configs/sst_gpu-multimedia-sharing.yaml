@@ -4,11 +4,9 @@ data:
   name: Multimedia sharing
   description: For screen sharing and camera access
   maintainer: sst_gpu
-
   packages:
     - pipewire
     - wireplumber
-
   labels:
     - eln
     - c9s

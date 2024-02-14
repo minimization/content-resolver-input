@@ -4,11 +4,9 @@ data:
   name: realtime perf
   description: Packages for testing realtime performance
   maintainer: sst_kernel_rts
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   arch_packages:
     x86_64:
       - realtime-tests

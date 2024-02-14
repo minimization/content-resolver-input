@@ -6,30 +6,24 @@ data:
   maintainer: sst_installer
   labels:
     - eln
-
   unwanted_packages:
     # Radek Vykydal:
     # system-config-kickstart has been deprecated upstream, it has not
     # been ported to Python 3, and shouldn't have been included in RHEL 8.
     - system-config-kickstart
-
     # Vendula Poncova: python3-pydbus has been replaced by python3-dasbus
     - python3-pydbus
-
     # Vendula Poncova: python3-nose-testconfig and python3-rpmfluff were
     # pulled in as test dependencies of anaconda, they shouldn't be needed
     - python3-nose-testconfig
     - python3-rpmfluff
-
     # Vendula Poncova: python3-ordered-set and python3-ntplib were pulled in
     # as dependencies of anaconda and pykickstart, they shouldn't be needed
     - python3-ordered-set
     - python3-ntplib
-
     # Jiri Konecny: dropping InitialSetup from the RHEL-10 to reduce
     # maintenance for the team
     - initial-setup
-
     # Jiri Konecny: dropping build-in help content from Anaconda because of
     # Yelp dependency removal
     - anaconda-user-help

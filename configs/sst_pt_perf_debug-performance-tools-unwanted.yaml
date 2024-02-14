@@ -4,20 +4,18 @@ data:
   name: Unwanted Performance Tools packages
   description: Unwanted Performance Tools and Components
   maintainer: sst_pt_perf_debug
-
   unwanted_packages:
-  - dyninst-static
-  - elfutils-devel-static
-  - elfutils-libelf-devel-static
-  - libdwarf
-  - libdwarf-devel
-  - libdwarf-static
-  - libpfm-static
-  - oprofile
-  - rr
-  - valgrind-openmpi
-  - valgrind-tools-devel
-
+    - dyninst-static
+    - elfutils-devel-static
+    - elfutils-libelf-devel-static
+    - libdwarf
+    - libdwarf-devel
+    - libdwarf-static
+    - libpfm-static
+    - oprofile
+    - rr
+    - valgrind-openmpi
+    - valgrind-tools-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

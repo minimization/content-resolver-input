@@ -5,8 +5,8 @@ data:
   description: Tool necessary to support checkpoint/restore.
   maintainer: sst_kernel_tps
   packages:
-  - criu
-  - crit
+    - criu
+    - crit
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

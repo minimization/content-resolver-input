@@ -4,11 +4,9 @@ data:
   name: Archiving tools
   description: Archiving and compression tools owned by CS Apps SST
   maintainer: sst_cs_apps
-
   packages:
-  - tar
-  - zlib-ng-compat-devel
-  - zlib-ng-compat-static
-
+    - tar
+    - zlib-ng-compat-devel
+    - zlib-ng-compat-static
   labels:
-  - eln
+    - eln

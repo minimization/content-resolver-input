@@ -4,9 +4,7 @@ data:
   name: Buildroot packages
   description: Packages needed to ensure a functional build environment
   maintainer: sgallagh
-
   packages:
-  - rpmautospec
-
+    - rpmautospec
   labels:
-  - eln
+    - eln

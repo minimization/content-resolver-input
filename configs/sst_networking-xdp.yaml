@@ -4,12 +4,11 @@ data:
   name: XDP
   description: Tools to support XDP
   maintainer: sst_networking
-
   packages:
-  - xdp-tools
-  - libxdp
-  - libxdp-devel
-  - libxdp-static
+    - xdp-tools
+    - libxdp
+    - libxdp-devel
+    - libxdp-static
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

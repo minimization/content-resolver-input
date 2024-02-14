@@ -4,22 +4,19 @@ data:
   name: System tracing
   description: A collection of common system tracing tools
   maintainer: sst_kernel_tps
-
   packages:
-  - bcc
-  - bcc-tools
-  - strace
-  - trace-cmd
-  - libtracefs
-  - libtraceevent
-  - kernelshark
-  - bpftrace
-
+    - bcc
+    - bcc-tools
+    - strace
+    - trace-cmd
+    - libtracefs
+    - libtraceevent
+    - kernelshark
+    - bpftrace
   arch_packages:
     aarch64:
       - opencsd
       - opencsd-devel
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

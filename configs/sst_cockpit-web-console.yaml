@@ -7,7 +7,6 @@ data:
   labels:
     - eln
     - c9s
-
   packages:
     # meta-package for the basic stuff (web server, bridge, core pages)
     - cockpit
@@ -18,14 +17,13 @@ data:
     - cockpit-doc
     # RHEL 4 Edge image management
     - cockpit-ostree
-
   arch_packages:
     aarch64:
-    # extensions maintained by Cockpit team
-    - cockpit-machines
+      # extensions maintained by Cockpit team
+      - cockpit-machines
     s390x:
-    # extensions maintained by Cockpit team
-    - cockpit-machines
+      # extensions maintained by Cockpit team
+      - cockpit-machines
     x86_64:
-    # extensions maintained by Cockpit team
-    - cockpit-machines
+      # extensions maintained by Cockpit team
+      - cockpit-machines

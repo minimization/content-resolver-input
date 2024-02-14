@@ -4,13 +4,10 @@ data:
   name: kpatch
   description: Dynamic kernel patch manager
   maintainer: sst_kernel_security
-
   packages: []
-
-  labels:      # <-- Please leave
-  - eln        #     this unchanged.
-  - c9s
-
+  labels: # <-- Please leave
+    - eln #     this unchanged.
+    - c9s
   package_placeholders:
     # kpatch is a RHEL-only package
     kpatch:

@@ -4,13 +4,10 @@ data:
   name: gnu-efi
   description: Development Libraries and headers for EFI
   maintainer: sst_desktop_firmware_bootloaders
-
   packages: []
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   arch_packages:
     armv7hl:
       - gnu-efi

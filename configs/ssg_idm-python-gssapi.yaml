@@ -4,12 +4,10 @@ data:
   name: Python GSSAPI
   description: Tools for using GSSAPI in Python applications
   maintainer: ssg_idm
-
   packages:
-  - python3-gssapi
-  - python3-requests-gssapi
-  - python3-urllib-gssapi
-
+    - python3-gssapi
+    - python3-requests-gssapi
+    - python3-urllib-gssapi
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

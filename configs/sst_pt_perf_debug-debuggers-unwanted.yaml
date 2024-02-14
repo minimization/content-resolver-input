@@ -4,14 +4,11 @@ data:
   name: Unwanted Debuggers packages
   description: Unwanted Debuggers packages
   maintainer: sst_pt_perf_debug
-
   unwanted_packages:
-  - babeltrace
-
+    - babeltrace
   unwanted_arch_packages:
     i686:
-    - gdb-minimal
-
+      - gdb-minimal
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,32 +4,26 @@ data:
   name: Backup tools from CS system management SST
   description: Packages for backup and restoration of the operating system from CS system management SST
   maintainer: sst_cs_system_management
-
   packages:
-  - bacula-client
-  - bacula-console
-  - libburn
-  - libburn-devel
-  - libisoburn
-  - libisoburn-devel
-  - libisoburn-doc
-  - libisofs
-  - libisofs-devel
-  - libisofs-doc
-  - xorriso
-
+    - bacula-client
+    - bacula-console
+    - libburn
+    - libburn-devel
+    - libisoburn
+    - libisoburn-devel
+    - libisoburn-doc
+    - libisofs
+    - libisofs-devel
+    - libisofs-doc
+    - xorriso
   arch_packages:
     #rear not yet supported on arm
-
     x86_64:
-    - rear
-
+      - rear
     ppc64le:
-    - rear
-
+      - rear
     s390x:
-    - rear
-
+      - rear
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

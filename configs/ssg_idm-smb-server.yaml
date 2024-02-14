@@ -4,17 +4,15 @@ data:
   name: Samba FS Server
   description: SMB/CIFS share server
   maintainer: ssg_idm
-
   packages:
-  - samba
-  - samba-client
-  - cifs-utils
-  - samba-winbind
-  - samba-winbind-clients
-  - samba-winbind-krb5-locator
-  - samba-krb5-printing
-  - ctdb
-
+    - samba
+    - samba-client
+    - cifs-utils
+    - samba-winbind
+    - samba-winbind-clients
+    - samba-winbind-krb5-locator
+    - samba-krb5-printing
+    - ctdb
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

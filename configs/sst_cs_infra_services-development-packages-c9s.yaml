@@ -4,67 +4,64 @@ data:
   name: Development packages
   description: Packages wich are relevant for Developer (CRB)
   maintainer: sst_cs_infra_services
-
   packages:
-  # cups
-  - cups-devel
-  # cups-filters
-  - cups-filters-devel
-  # ghostscript
-  - ghostscript-doc
-  - ghostscript-tools-dvipdf
-  - ghostscript-tools-fonts
-  - ghostscript-tools-printing
-  - libgs-devel
-  # graphviz
-  - graphviz-devel
-  - graphviz-doc
-  - graphviz-gd
-  - graphviz-python3
-  # libidn2
-  - idn2
-  - libidn2-devel
-  # iperf3
-  - iperf3-devel
-  # libevent
-  - libevent
-  - libevent-devel
-  - libevent-doc
-  # libmaxminddb
-  - libmaxminddb-devel
-  # lm_sensors
-  - lm_sensors-devel
-  # ncurses
-  - ncurses-devel
-  # ppp
-  - ppp-devel
-  # python-cups
-  - python-cups-doc
-  # qpdf
-  - qpdf
-  - qpdf-devel
-  # sendmail
-  - sendmail-milter-devel
-  # tcl
-  - tcl-devel
-  # tk
-  - tk-devel
-  # urw-base35-fonts
-  - urw-base35-fonts-devel
-
+    # cups
+    - cups-devel
+    # cups-filters
+    - cups-filters-devel
+    # ghostscript
+    - ghostscript-doc
+    - ghostscript-tools-dvipdf
+    - ghostscript-tools-fonts
+    - ghostscript-tools-printing
+    - libgs-devel
+    # graphviz
+    - graphviz-devel
+    - graphviz-doc
+    - graphviz-gd
+    - graphviz-python3
+    # libidn2
+    - idn2
+    - libidn2-devel
+    # iperf3
+    - iperf3-devel
+    # libevent
+    - libevent
+    - libevent-devel
+    - libevent-doc
+    # libmaxminddb
+    - libmaxminddb-devel
+    # lm_sensors
+    - lm_sensors-devel
+    # ncurses
+    - ncurses-devel
+    # ppp
+    - ppp-devel
+    # python-cups
+    - python-cups-doc
+    # qpdf
+    - qpdf
+    - qpdf-devel
+    # sendmail
+    - sendmail-milter-devel
+    # tcl
+    - tcl-devel
+    # tk
+    - tk-devel
+    # urw-base35-fonts
+    - urw-base35-fonts-devel
   arch_packages:
     armv7hl:
-    # i2c-tools (ExcludeArch: s390 s390x)
-    - libi2c-devel
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
     aarch64:
-    # i2c-tools (ExcludeArch: s390 s390x)
-    - libi2c-devel
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
     ppc64le:
-    # i2c-tools (ExcludeArch: s390 s390x)
-    - libi2c-devel
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
     x86_64:
-    # i2c-tools (ExcludeArch: s390 s390x)
-    - libi2c-devel
-
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
   labels:
-  - c9s
+    - c9s

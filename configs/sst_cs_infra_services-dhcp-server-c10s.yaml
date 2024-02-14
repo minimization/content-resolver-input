@@ -4,13 +4,11 @@ data:
   name: DHCP Server
   description: DHCP Server software
   maintainer: sst_cs_infra_services
-
   packages:
-  - kea
-  - kea-libs
-  - kea-hooks
-  - kea-doc
-
+    - kea
+    - kea-libs
+    - kea-hooks
+    - kea-doc
   labels:
-  - eln
-  - c10s
+    - eln
+    - c10s

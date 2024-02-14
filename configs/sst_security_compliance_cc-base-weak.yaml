@@ -4,13 +4,10 @@ data:
   name: Standard install using @base group with weak dependencies
   description: Standard install with Recommends dependencies included
   maintainer: sst_security_compliance
-
   options:
-  - include-weak-deps
-
+    - include-weak-deps
   groups:
-  - base
-
+    - base
   labels:
-  - fedora
-  - eln-analyze-only
+    - fedora
+    - eln-analyze-only

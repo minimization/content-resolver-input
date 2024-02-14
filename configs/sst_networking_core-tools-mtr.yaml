@@ -4,10 +4,10 @@ data:
   name: Networking Tools - mtr
   description: >
     Packages related to network configuration and troubleshooting.
+
   maintainer: sst_networking_core
   packages:
-  - mtr
-
+    - mtr
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -2,9 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: X11 Server
-  description:  Provide the server side for the X window system
+  description: Provide the server side for the X window system
   maintainer: sst_gpu
-
   packages:
     # x11 server
     - xorg-x11-server-common
@@ -14,36 +13,34 @@ data:
     - xorg-x11-server-Xvfb
     - xorg-x11-server-Xephyr
     - xorg-x11-server-Xwayland
-
   arch_packages:
     aarch64:
-    # xorg-x11-drivers
-    - xorg-x11-drv-dummy
-    - xorg-x11-drv-evdev
-    - xorg-x11-drv-fbdev
-    - xorg-x11-drv-libinput
-    - xorg-x11-drv-modesetting
-    - xorg-x11-drv-v4l
-    - xorg-x11-drv-wacom
+      # xorg-x11-drivers
+      - xorg-x11-drv-dummy
+      - xorg-x11-drv-evdev
+      - xorg-x11-drv-fbdev
+      - xorg-x11-drv-libinput
+      - xorg-x11-drv-modesetting
+      - xorg-x11-drv-v4l
+      - xorg-x11-drv-wacom
     ppc64le:
-    # xorg-x11-drivers
-    - xorg-x11-drv-dummy
-    - xorg-x11-drv-evdev
-    - xorg-x11-drv-fbdev
-    - xorg-x11-drv-libinput
-    - xorg-x11-drv-modesetting
-    - xorg-x11-drv-v4l
-    - xorg-x11-drv-wacom
+      # xorg-x11-drivers
+      - xorg-x11-drv-dummy
+      - xorg-x11-drv-evdev
+      - xorg-x11-drv-fbdev
+      - xorg-x11-drv-libinput
+      - xorg-x11-drv-modesetting
+      - xorg-x11-drv-v4l
+      - xorg-x11-drv-wacom
     x86_64:
-    # xorg-x11-drivers
-    - xorg-x11-drv-dummy
-    - xorg-x11-drv-evdev
-    - xorg-x11-drv-fbdev
-    - xorg-x11-drv-libinput
-    - xorg-x11-drv-modesetting
-    - xorg-x11-drv-v4l
-    - xorg-x11-drv-vmware
-    - xorg-x11-drv-wacom
-
+      # xorg-x11-drivers
+      - xorg-x11-drv-dummy
+      - xorg-x11-drv-evdev
+      - xorg-x11-drv-fbdev
+      - xorg-x11-drv-libinput
+      - xorg-x11-drv-modesetting
+      - xorg-x11-drv-v4l
+      - xorg-x11-drv-vmware
+      - xorg-x11-drv-wacom
   labels:
     - c9s

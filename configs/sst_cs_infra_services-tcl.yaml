@@ -4,11 +4,9 @@ data:
   name: Tcl
   description: Tcl interpreter
   maintainer: sst_cs_infra_services
-
   packages:
-  - tcl
-  - tcl-doc
-
+    - tcl
+    - tcl-doc
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

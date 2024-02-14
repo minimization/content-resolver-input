@@ -6,30 +6,30 @@ data:
   description: "More info: https://access.redhat.com/articles/rhel9-abi-compatibility"
   maintainer: bakery
   packages:
-  - elfutils-libelf
-  - glibc
-  - libatomic
-  - libgcc
-  - libglvnd-core-devel
-  - libglvnd-devel
-  - libglvnd-glx
-  - libglvnd-egl
-  - libglvnd-gles
-  - libglvnd-opengl
-  - libgomp
-  - libstdc++
-  - libxml2-devel
-  - libxml2-static
-  - libxml2
-  - libxslt-devel
-  - libxslt
-  - mesa-libGLU
-  - ocl-icd
-  - opencl-headers
-  - pam
-  - vulkan-headers
-  - vulkan-loader
-  - zlib-ng-compat
+    - elfutils-libelf
+    - glibc
+    - libatomic
+    - libgcc
+    - libglvnd-core-devel
+    - libglvnd-devel
+    - libglvnd-glx
+    - libglvnd-egl
+    - libglvnd-gles
+    - libglvnd-opengl
+    - libgomp
+    - libstdc++
+    - libxml2-devel
+    - libxml2-static
+    - libxml2
+    - libxslt-devel
+    - libxslt
+    - mesa-libGLU
+    - ocl-icd
+    - opencl-headers
+    - pam
+    - vulkan-headers
+    - vulkan-loader
+    - zlib-ng-compat
   labels:
-  - eln
-  - cs10
+    - eln
+    - cs10

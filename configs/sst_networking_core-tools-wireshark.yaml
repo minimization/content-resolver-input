@@ -4,11 +4,11 @@ data:
   name: Networking Tools - wireshark
   description: >
     Packages related to network configuration and troubleshooting.
+
   maintainer: sst_networking_core
   packages:
-  - wireshark
-  - wireshark-cli
-
+    - wireshark
+    - wireshark-cli
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

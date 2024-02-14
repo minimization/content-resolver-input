@@ -4,11 +4,9 @@ data:
   name: GNOME Photos
   description: Application for managing photos on Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - gnome-photos
-  - gnome-photos-tests
-  - exiv2
-
+    - gnome-photos
+    - gnome-photos-tests
+    - exiv2
   labels:
-  - c9s
+    - c9s

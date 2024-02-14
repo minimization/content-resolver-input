@@ -4,15 +4,13 @@ data:
   name: bison/byacc/flex
   description: Parser and scanner generators (bison, byacc, flex).
   maintainer: sst_pt_libraries
-
   packages:
-  - bison
-  - bison-devel
-  - bison-runtime
-  - byacc
-  - flex
-  - flex-devel
-
+    - bison
+    - bison-devel
+    - bison-runtime
+    - byacc
+    - flex
+    - flex-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

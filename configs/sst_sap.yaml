@@ -1,22 +1,19 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: tree juice packages 
+  name: tree juice packages
   description: Packages for tree juice
   maintainer: jwboyer
-
   packages: []
-
   arch_packages:
     x86_64:
-    - tuned-profiles-sap
-    - tuned-profiles-sap-hana
+      - tuned-profiles-sap
+      - tuned-profiles-sap-hana
     ppc64le:
-    - tuned-profiles-sap
-    - tuned-profiles-sap-hana
+      - tuned-profiles-sap
+      - tuned-profiles-sap-hana
     s390x:
-    - tuned-profiles-sap
-
+      - tuned-profiles-sap
   package_placeholders:
     sap-cluster-connector:
       srpm: sap-cluster-connector
@@ -90,8 +87,6 @@ data:
         - x86_64
         - ppc64le
         - s390x
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s

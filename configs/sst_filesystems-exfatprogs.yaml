@@ -4,10 +4,8 @@ data:
   name: exfatprogs
   description: Utilities for formatting and repairing exFAT filesystems.
   maintainer: sst_filesystems
-
   packages:
-  - exfatprogs
-
+    - exfatprogs
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

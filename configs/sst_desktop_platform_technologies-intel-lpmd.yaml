@@ -4,13 +4,10 @@ data:
   name: intel-lpmd
   description: Intel Low Power Mode Daemon
   maintainer: sst_desktop_platform_technologies
-
   packages: []
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   arch_packages:
-   x86_64:
-   - intel-lpmd
+    x86_64:
+      - intel-lpmd

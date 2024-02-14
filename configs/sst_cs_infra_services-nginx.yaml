@@ -4,11 +4,9 @@ data:
   name: HTTP Servers - NGINX
   description: CS Infrastructure Services - NGINX
   maintainer: sst_cs_infra_services
-
   packages:
-  - nginx
-  - nginx-all-modules
-  
+    - nginx
+    - nginx-all-modules
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

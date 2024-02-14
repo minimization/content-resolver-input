@@ -4,25 +4,23 @@ data:
   name: RDMA Stack RHEL Only
   description: RDMA Stack RHEL Only - Packages should be in ELN
   maintainer: sst_network_drivers
-
   # this field is mandatory
   packages: []
-
   package_placeholders:
     mvapich2:
       srpm: mvapich2
       description: This package is not in Fedora (yet), but we want to see it here.
       requires:
-      - environment-modules
-      - hwloc-libs
-      - python3
-      - perl-interpreter
+        - environment-modules
+        - hwloc-libs
+        - python3
+        - perl-interpreter
       buildrequires:
-      - perl-Digest-MD5
-      - hwloc-devel
-      - bison
-      - flex
-      - rpm-mpi-hooks
+        - perl-Digest-MD5
+        - hwloc-devel
+        - bison
+        - flex
+        - rpm-mpi-hooks
     mvapich2-devel:
       srpm: mvapich2
       description: This package is not in Fedora (yet), but we want to see it here.
@@ -40,7 +38,7 @@ data:
       srpm: mpitests
       description: This package is not in Fedora (yet), but we want to see it here.
       requires:
-      - mpich
+        - mpich
     mpitests-mvapich2:
       srpm: mpitests
       description: This package is not in Fedora (yet), but we want to see it here.
@@ -50,7 +48,7 @@ data:
       srpm: mpitests
       description: This package is not in Fedora (yet), but we want to see it here.
       requires:
-      - openmpi
+        - openmpi
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

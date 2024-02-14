@@ -4,11 +4,9 @@ data:
   name: Tunneling
   description: Software for establishing communication tunnels (e.g. IP over IP)
   maintainer: sst_cs_infra_services
-
   packages:
-  - ppp
-  - pptp
-
+    - ppp
+    - pptp
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

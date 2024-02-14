@@ -4,10 +4,8 @@ data:
   name: Toolbx
   description: Tool for containerized command line environments
   maintainer: sst_desktop_applications
-
   packages:
-  - toolbox
-
+    - toolbox
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

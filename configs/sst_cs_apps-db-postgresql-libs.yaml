@@ -4,13 +4,11 @@ data:
   name: PostgreSQL libraries
   description: Client libraries for PostgreSQL
   maintainer: sst_cs_apps
-
   packages:
-  - libpq
-  - libpq-devel
-  - libecpg
-  - libecpg-devel
-
+    - libpq
+    - libpq-devel
+    - libecpg
+    - libecpg-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

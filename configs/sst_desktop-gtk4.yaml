@@ -4,11 +4,9 @@ data:
   name: GTK 4 toolkit
   description: Software toolkit for developing applications
   maintainer: sst_desktop
-
   packages:
-  - gtk4
-  - gtk4-devel
-
+    - gtk4
+    - gtk4-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

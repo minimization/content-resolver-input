@@ -4,10 +4,8 @@ data:
   name: GNOME Disks
   description: Default application for managing disks in Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-disk-utility
-
+    - gnome-disk-utility
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

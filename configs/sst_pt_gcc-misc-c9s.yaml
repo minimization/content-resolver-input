@@ -4,13 +4,11 @@ data:
   name: binutils/annobin
   description: Set of packages that GCC depends on
   maintainer: sst_pt_gcc
-
   packages:
-  - binutils
-  - binutils-devel
-  - binutils-gold
-  - annobin
-  - annobin-annocheck
-
+    - binutils
+    - binutils-devel
+    - binutils-gold
+    - annobin
+    - annobin-annocheck
   labels:
-  - c9s
+    - c9s

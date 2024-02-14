@@ -4,10 +4,8 @@ data:
   name: RHEL packager
   description: ELN Extras packages for RHEL maintainers
   maintainer: carlwgeorge
-
   packages:
-  - NetworkManager-openvpn-gnome
-  - centpkg
-
+    - NetworkManager-openvpn-gnome
+    - centpkg
   labels:
-  - eln-extras
+    - eln-extras

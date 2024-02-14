@@ -4,13 +4,11 @@ data:
   name: ODBC library
   description: unixODBC interface for unified databases access, including connectors for MySQL, MariaDB and PostgreSQL
   maintainer: sst_cs_apps
-
   packages:
-  - mariadb-connector-odbc
-  - unixODBC-devel
-  - unixODBC
-  - postgresql-odbc
-  - python3-pyodbc
-
+    - mariadb-connector-odbc
+    - unixODBC-devel
+    - unixODBC
+    - postgresql-odbc
+    - python3-pyodbc
   labels:
-  - c9s
+    - c9s

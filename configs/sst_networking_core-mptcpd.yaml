@@ -4,10 +4,8 @@ data:
   name: mptcpd
   description: path manager daemon for multipath TCP
   maintainer: sst_networking_core
-
-  packages: 
-  - mptcpd
-
+  packages:
+    - mptcpd
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

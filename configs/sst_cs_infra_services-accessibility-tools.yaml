@@ -4,16 +4,14 @@ data:
   name: Accessibility tools
   description: Tools which enhance accessibility for impaired people
   maintainer: sst_cs_infra_services
-
   packages:
-  - brltty
-  - brltty-at-spi2
-  - brltty-docs
-  - brltty-dracut
-  - brltty-espeak-ng
-  - brltty-xw
-  - espeak-ng
-
+    - brltty
+    - brltty-at-spi2
+    - brltty-docs
+    - brltty-dracut
+    - brltty-espeak-ng
+    - brltty-xw
+    - espeak-ng
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

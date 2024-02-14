@@ -4,29 +4,25 @@ data:
   name: HW tools
   description: Various tools related to a specific hardware
   maintainer: sst_cs_plumbers
-
   packages:
-  # asamalik: Moving biosdevname to x86 architectures only as it's not available elsewhere
-  #- biosdevname
-  - ledmon
-  - numad
-  - sgpio
-  - libatasmart
-  
+    # asamalik: Moving biosdevname to x86 architectures only as it's not available elsewhere
+    #- biosdevname
+    - ledmon
+    - numad
+    - sgpio
+    - libatasmart
   arch_packages:
     x86_64:
-    - biosdevname
+      - biosdevname
     i686:
-    - biosdevname
-
+      - biosdevname
   package_placeholders:
     prefixdevname:
       srpm: prefixdevname
       description: This package is rhel-only NIC naming tool
       buildrequires:
-      - rust-toolset
-      - git
-      - systemd-devel
-
+        - rust-toolset
+        - git
+        - systemd-devel
   labels:
-  - c9s
+    - c9s

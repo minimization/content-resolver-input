@@ -4,10 +4,8 @@ data:
   name: Scanning Stack - scanning GUI
   description: Graphical application for scanning
   maintainer: sst_cs_infra_services
-
   packages:
-  # tools
-  - xsane
-
+    # tools
+    - xsane
   labels:
-  - c9s
+    - c9s

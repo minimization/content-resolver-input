@@ -4,12 +4,10 @@ data:
   name: Miscellaneous packages
   description: CS Infrastructure Services - miscellaneous packages
   maintainer: sst_cs_infra_services
-
   packages:
-  - expat
-  - expat-devel
-  - sscg
-
+    - expat
+    - expat-devel
+    - sscg
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

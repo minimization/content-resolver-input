@@ -4,13 +4,10 @@ data:
   name: Desktop branding
   description: RHEL branding
   maintainer: sst_desktop
-
   packages: []
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   package_placeholders:
     redhat-bookmarks:
       srpm: redhat-bookmarks

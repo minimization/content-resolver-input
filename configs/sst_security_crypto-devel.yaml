@@ -4,16 +4,14 @@ data:
   name: Packages for crypto-development
   description: Packages needed to build against crypto libraries
   maintainer: sst_security_crypto
-
   packages:
-  - openssl-devel
-  - gnutls-devel
-  - nss-devel
-  - libgcrypt-devel
-  - libpwquality-devel
-  - libssh-devel
-  - cyrus-sasl-devel
-
+    - openssl-devel
+    - gnutls-devel
+    - nss-devel
+    - libgcrypt-devel
+    - libpwquality-devel
+    - libssh-devel
+    - cyrus-sasl-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

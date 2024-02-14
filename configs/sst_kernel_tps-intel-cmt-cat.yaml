@@ -4,11 +4,9 @@ data:
   name: Intel(R) Resource Director Technology
   description: Provides command line interface to CMT, MBM, CAT, CDP and MBA technologies
   maintainer: sst_kernel_tps
-
   arch_packages:
     x86_64:
-    - intel-cmt-cat
-
+      - intel-cmt-cat
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

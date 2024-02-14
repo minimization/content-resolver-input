@@ -4,10 +4,7 @@ data:
   name: Unwanted Packages - sst_kernel_rts-perf
   description: The package python3-ethtool will be deprecated in RHEL 10+ and ELN
   maintainer: sst_kernel_rts
-
   unwanted_packages:
-  - python3-ethtool
-
+    - python3-ethtool
   labels:
-  - eln
-
+    - eln

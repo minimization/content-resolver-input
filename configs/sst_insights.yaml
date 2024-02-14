@@ -4,11 +4,9 @@ data:
   name: insights
   description: Insights
   maintainer: sst_insights
-
   packages:
     - yggdrasil
     - yggdrasil-worker-package-manager
-
   package_placeholders:
     - srpm_name: insights-client
       rpms:
@@ -26,7 +24,6 @@ data:
             - python3-six
             - systemd
             - tar
-
     - srpm_name: rhc
       rpms:
         - rpm_name: rhc
@@ -35,7 +32,6 @@ data:
             - policycoreutils-python-utils
             - yggdrasil
             - yggdrasil-worker-package-manager
-
     - srpm_name: rhc-worker-playbook
       rpms:
         - rpm_name: rhc-worker-playbook
@@ -44,7 +40,6 @@ data:
             - ansible-core
             - python3-PyYAML
             - python3-requests
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

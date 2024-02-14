@@ -4,9 +4,7 @@ data:
   name: Compatibility image libraries
   description: Older versions of popular image processing libraries
   maintainer: sst_cs_apps
-
   packages:
-  - libpng15
-
+    - libpng15
   labels:
-  - c9s
+    - c9s

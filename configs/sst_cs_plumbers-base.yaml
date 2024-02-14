@@ -4,32 +4,30 @@ data:
   name: Base userspace
   description: Basic tools and daemon needed to run a server
   maintainer: sst_cs_plumbers
-
   packages:
-  - dracut
-  - dracut-caps
-  - dracut-config-generic
-  - dracut-config-rescue
-  - dracut-live
-  - dracut-network
-  - dracut-squash
-  - dracut-tools
-  - acl
-  - coreutils
-  - curl
-  - gawk
-  - sed
-  - bash
-  - bash-completion
-  - util-linux
-  - systemd
-  - systemd-container
-  - systemd-journal-remote
-  - systemd-udev
-  - polkit
-  - zram-generator
-  - zram-generator-defaults
-
+    - dracut
+    - dracut-caps
+    - dracut-config-generic
+    - dracut-config-rescue
+    - dracut-live
+    - dracut-network
+    - dracut-squash
+    - dracut-tools
+    - acl
+    - coreutils
+    - curl
+    - gawk
+    - sed
+    - bash
+    - bash-completion
+    - util-linux
+    - systemd
+    - systemd-container
+    - systemd-journal-remote
+    - systemd-udev
+    - polkit
+    - zram-generator
+    - zram-generator-defaults
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

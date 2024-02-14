@@ -4,11 +4,9 @@ data:
   name: GNOME Terminal
   description: Default terminal application in Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - gnome-terminal
-  - gnome-terminal-nautilus
-
+    - gnome-terminal
+    - gnome-terminal-nautilus
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

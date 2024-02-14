@@ -4,12 +4,9 @@ data:
   name: Windows virtio drivers and tools
   description: Windows virtio drivers and tools to assist running Windows as a guest
   maintainer: sst_virtualization_windows
-
   packages: []
-
   labels:
-  - eln
-
+    - eln
   # RHEL-specific packages, not in Fedora
   package_placeholders:
     - srpm_name: mingw-qemu-ga-win

@@ -4,17 +4,15 @@ data:
   name: Evolution Data Server
   description: Unified backend for programs that work with contacts, tasks, and calendar information
   maintainer: sst_desktop_applications
-
   packages:
-  - evolution-data-server
-  - evolution-data-server-langpacks
-  # Temporarily disable EWS as it pulls in the whole Evolution (and
-  # thus WebKitGTK that will be removed from RHEL 10). We will look
-  # whether EWS could be reworked so it doesn't require it and then
-  # we will reenable this or if we fail, then we will remove it
-  # altogether.
-  # - evolution-ews
-  # - evolution-ews-langpacks
-
+    - evolution-data-server
+    - evolution-data-server-langpacks
+    # Temporarily disable EWS as it pulls in the whole Evolution (and
+    # thus WebKitGTK that will be removed from RHEL 10). We will look
+    # whether EWS could be reworked so it doesn't require it and then
+    # we will reenable this or if we fail, then we will remove it
+    # altogether.
+    # - evolution-ews
+    # - evolution-ews-langpacks
   labels:
-  - eln
+    - eln

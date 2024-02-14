@@ -4,11 +4,9 @@ data:
   name: sblim-cmpi-devel
   description: SBLIM CMPI Provider Development Support
   maintainer: sst_cs_system_management
-
   packages:
-  - libcmpiCppImpl0
-  - sblim-cmpi-devel
-
+    - libcmpiCppImpl0
+    - sblim-cmpi-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

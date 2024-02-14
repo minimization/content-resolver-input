@@ -4,16 +4,14 @@ data:
   name: Apache Subversion
   description: Apache Subversion version control
   maintainer: sst_cs_infra_services
-
   packages:
-  - subversion
-  - mod_dav_svn
-  - subversion-tools
-  - python3-subversion
-  - subversion-devel
-  - subversion-gnome
-  - subversion-perl
-  
+    - subversion
+    - mod_dav_svn
+    - subversion-tools
+    - python3-subversion
+    - subversion-devel
+    - subversion-gnome
+    - subversion-perl
   labels:
-  - c9s
-  - eln
+    - c9s
+    - eln

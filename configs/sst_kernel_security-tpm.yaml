@@ -4,20 +4,18 @@ data:
   name: TPM packages
   description: Packages providing TPM1.2 and TPM2.0 support
   maintainer: sst_kernel_security
-
   packages:
-  - tss2
-  - tss2-devel
-  - tpm2-tss
-  - tpm2-tss-devel
-  - tpm2-tools
-  - tpm2-pkcs11
-  - tpm2-pkcs11-tools
-  # needed for gating tests
-  - tpm2-abrmd
-  - tpm2-abrmd-devel
-  - tpm2-abrmd-selinux
-
+    - tss2
+    - tss2-devel
+    - tpm2-tss
+    - tpm2-tss-devel
+    - tpm2-tools
+    - tpm2-pkcs11
+    - tpm2-pkcs11-tools
+    # needed for gating tests
+    - tpm2-abrmd
+    - tpm2-abrmd-devel
+    - tpm2-abrmd-selinux
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

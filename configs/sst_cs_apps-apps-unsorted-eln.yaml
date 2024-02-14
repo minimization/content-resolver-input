@@ -4,12 +4,10 @@ data:
   name: Other packages from SST CS Aps for ELN
   description: Unsorted tools owned by CS Apps SST
   maintainer: sst_cs_apps
-
   packages:
-  - less
-  - time
-  - pcre2
-  - pcre2-devel
-
+    - less
+    - time
+    - pcre2
+    - pcre2-devel
   labels:
-  - eln
+    - eln

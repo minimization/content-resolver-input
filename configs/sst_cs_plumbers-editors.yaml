@@ -4,14 +4,12 @@ data:
   name: Editors
   description: Editors
   maintainer: sst_cs_plumbers
-
   packages:
-  - emacs
-  - emacs-lucid
-  - emacs-nw
-  - emacs-auctex
-  - nano
-
+    - emacs
+    - emacs-lucid
+    - emacs-nw
+    - emacs-auctex
+    - nano
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

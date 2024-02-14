@@ -4,13 +4,10 @@ data:
   name: mokutil
   description: Tool to manage UEFI Secure Boot MoK Keys
   maintainer: sst_desktop_firmware_bootloaders
-
   packages: []
-
   labels:
-  - eln
-  - c9s
-
+    - eln
+    - c9s
   arch_packages:
     aarch64:
       - mokutil

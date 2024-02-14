@@ -4,10 +4,8 @@ data:
   name: ltrace
   description: Developer tooling to track runtime library calls.
   maintainer: sst_pt_libraries
-
   packages:
-  - ltrace
-
+    - ltrace
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

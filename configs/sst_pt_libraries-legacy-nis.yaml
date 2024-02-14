@@ -4,11 +4,9 @@ data:
   name: Legacy NIS Services
   description: A legacy version of libnsl for accessing NIS services.
   maintainer: sst_pt_libraries
-
   packages:
-  # All modern packages should use libnsl2 to gain IPv6 support.
-  - libnsl
-
+    # All modern packages should use libnsl2 to gain IPv6 support.
+    - libnsl
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

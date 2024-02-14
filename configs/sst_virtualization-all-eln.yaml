@@ -4,90 +4,86 @@ data:
   name: Virtualization on RHEL - KVM Userspace
   description: Userspace agents and tools that enable virtualization capabilities on RHEL
   maintainer: ssg_virtualization
-
   packages:
-  - augeas
-  - dtc
-  - gtk-vnc2
-  - hexedit
-  - hivex
-  - iproute
-  - ipxe-roms-qemu
-  - ksmtuned
-  - libblkio
-  - libiscsi
-  - libnbd
-  - libosinfo
-  - libvirt
-  - libvirt-dbus
-  - libvirt-glib
-  - mdevctl
-  - nbdkit
-  - osinfo-db
-  - osinfo-db-tools
-  - passt
-  - python-augeas
-  - python3-libvirt
-  - python3-pefile
-  - python3-virt-firmware
-  - uki-direct
-  - vhostmd
-  - virt-install
-  - virt-viewer
-  - virt-what
-
+    - augeas
+    - dtc
+    - gtk-vnc2
+    - hexedit
+    - hivex
+    - iproute
+    - ipxe-roms-qemu
+    - ksmtuned
+    - libblkio
+    - libiscsi
+    - libnbd
+    - libosinfo
+    - libvirt
+    - libvirt-dbus
+    - libvirt-glib
+    - mdevctl
+    - nbdkit
+    - osinfo-db
+    - osinfo-db-tools
+    - passt
+    - python-augeas
+    - python3-libvirt
+    - python3-pefile
+    - python3-virt-firmware
+    - uki-direct
+    - vhostmd
+    - virt-install
+    - virt-viewer
+    - virt-what
   labels:
-  - eln
-
+    - eln
   arch_packages:
     x86_64:
-    - edk2-ovmf
-    - guestfs-tools
-    - libguestfs
-    - qemu-kvm
-    - seabios
-    - sevctl
-    - spice-protocol
-    - spice-vdagent
-    - supermin
-    - virt-p2v
-    - virt-top
-    - virt-v2v
-    ppc64le:
-    - powerpc-utils
-    aarch64:
-    - edk2-aarch64
-    - guestfs-tools
-    - libguestfs
-    - libguestfs-inspect-icons
-    - qemu-kvm
-    - supermin
-    - virt-top
-    s390x:
-    - guestfs-tools
-    - libguestfs
-    - libguestfs-inspect-icons
-    - qemu-kvm
-    - supermin
-    - virt-top
-
-  package_placeholders:
-  # RHEL-specific package, not in Fedora
-  - srpm_name: libguestfs-winsupport
-    build_dependencies:
-    - autoconf
-    - automake
-    - libtool
-    - fuse-devel
-    - gnutls-devel
-    - libattr-devel
-    - libconfig-devel
-    - libgcrypt-devel
-    - libuuid-devel
-    limit_arches:
-    - x86_64
-    rpms:
-    - rpm_name: libguestfs-winsupport
-      description: Add support for Windows guests to virt-v2v and virt-p2v
-      dependencies:
+      - edk2-ovmf
+      - guestfs-tools
       - libguestfs
+      - qemu-kvm
+      - seabios
+      - sevctl
+      - spice-protocol
+      - spice-vdagent
+      - supermin
+      - virt-p2v
+      - virt-top
+      - virt-v2v
+    ppc64le:
+      - powerpc-utils
+    aarch64:
+      - edk2-aarch64
+      - guestfs-tools
+      - libguestfs
+      - libguestfs-inspect-icons
+      - qemu-kvm
+      - supermin
+      - virt-top
+    s390x:
+      - guestfs-tools
+      - libguestfs
+      - libguestfs-inspect-icons
+      - qemu-kvm
+      - supermin
+      - virt-top
+  package_placeholders:
+    # RHEL-specific package, not in Fedora
+    - srpm_name: libguestfs-winsupport
+      build_dependencies:
+        - autoconf
+        - automake
+        - libtool
+        - fuse-devel
+        - gnutls-devel
+        - libattr-devel
+        - libconfig-devel
+        - libgcrypt-devel
+        - libuuid-devel
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: libguestfs-winsupport
+          description: Add support for Windows guests to virt-v2v and virt-p2v
+          dependencies:
+            - libguestfs

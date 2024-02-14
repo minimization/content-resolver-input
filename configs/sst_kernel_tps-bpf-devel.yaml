@@ -4,12 +4,10 @@ data:
   name: BPF development tools
   description: Tools needed for BPF developments
   maintainer: sst_kernel_tps
-
   packages:
-  - bpftool
-  - libbpf
-  - dwarves
-
+    - bpftool
+    - libbpf
+    - dwarves
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,24 +4,22 @@ data:
   name: Plymouth
   description: Graphical boot animation and logger
   maintainer: sst_desktop
-
   packages:
-  - plymouth
-  - plymouth-core-libs
-  - plymouth-graphics-libs
-  - plymouth-plugin-fade-throbber
-  - plymouth-plugin-label
-  - plymouth-plugin-script
-  - plymouth-plugin-space-flares
-  - plymouth-plugin-two-step
-  - plymouth-scripts
-  - plymouth-system-theme
-  - plymouth-theme-charge
-  - plymouth-theme-fade-in
-  - plymouth-theme-script
-  - plymouth-theme-solar
-  - plymouth-theme-spinfinity
-  - plymouth-theme-spinner
-
+    - plymouth
+    - plymouth-core-libs
+    - plymouth-graphics-libs
+    - plymouth-plugin-fade-throbber
+    - plymouth-plugin-label
+    - plymouth-plugin-script
+    - plymouth-plugin-space-flares
+    - plymouth-plugin-two-step
+    - plymouth-scripts
+    - plymouth-system-theme
+    - plymouth-theme-charge
+    - plymouth-theme-fade-in
+    - plymouth-theme-script
+    - plymouth-theme-solar
+    - plymouth-theme-spinfinity
+    - plymouth-theme-spinner
   labels:
-  - c9s
+    - c9s

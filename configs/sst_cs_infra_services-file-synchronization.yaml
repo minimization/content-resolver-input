@@ -4,11 +4,9 @@ data:
   name: File Synchronization
   description: File transfer and synchronization
   maintainer: sst_cs_infra_services
-
   packages:
-  - rsync
-  - rsync-daemon
-
+    - rsync
+    - rsync-daemon
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,23 +4,22 @@ data:
   name: RDMA Stack Appstream Packages
   description: RDMA Stack - Packages should be in ELN
   maintainer: sst_network_drivers
-
   packages:
-  - libfabric-devel
-  - fabtests
-  - openmpi
-  - openmpi-devel
-  - openmpi-java
-  - openmpi-java-devel
-  - python3-openmpi
-  - mpich
-  - mpich-autoload
-  - mpich-devel
-  - mpich-doc
-  - python3-mpich
+    - libfabric-devel
+    - fabtests
+    - openmpi
+    - openmpi-devel
+    - openmpi-java
+    - openmpi-java-devel
+    - python3-openmpi
+    - mpich
+    - mpich-autoload
+    - mpich-devel
+    - mpich-doc
+    - python3-mpich
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
   arch_packages:
     # not armv7hl
     aarch64:

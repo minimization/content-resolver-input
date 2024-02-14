@@ -5,7 +5,6 @@ data:
   name: keylime
   description: Keylime Remote Attestation and Integrity Measurement
   maintainer: sst_security_special_projects
-
   packages:
     - keylime
     - keylime-agent-rust
@@ -26,9 +25,7 @@ data:
     - python3-typing-extensions
     - tpm2-tools
     - tpm2-tss
-
   labels:
     - eln
     - c9s
-
 # vim:set ts=2 sw=2 et:

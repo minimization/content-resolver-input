@@ -4,10 +4,8 @@ data:
   name: Gedit
   description: Text editor for Workstation
   maintainer: sst_desktop
-
   packages:
-  - gedit
-  - gedit-plugins
-
+    - gedit
+    - gedit-plugins
   labels:
-  - c9s
+    - c9s

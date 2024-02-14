@@ -4,10 +4,8 @@ data:
   name: GNOME Calculator
   description: Calculator application for Workstation
   maintainer: sst_desktop
-
   packages:
-  - gnome-calculator
-
+    - gnome-calculator
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

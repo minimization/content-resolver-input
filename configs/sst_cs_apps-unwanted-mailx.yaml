@@ -4,10 +4,8 @@ data:
   name: Unwanted packages for mailx
   description: S-nail packages replaces functionality of mailx
   maintainer: sst_cs_apps
-
   unwanted_packages:
-  - mailx
-
+    - mailx
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

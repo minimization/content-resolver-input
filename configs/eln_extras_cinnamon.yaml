@@ -4,38 +4,35 @@ data:
   name: cinnamon eln-extra packages
   description: Cinnamon Desktop ELN Extras packages
   maintainer: yselkowitz
-
   packages:
-  - cinnamon
-  - cinnamon-control-center
-  - cinnamon-desktop
-  - cinnamon-menus
-  - cinnamon-screensaver
-  - cinnamon-session
-  - cinnamon-settings-daemon
-  - cinnamon-translations
-  - cjs
-  - gnome-icon-theme
-  - mintlocale
-  - mint-themes
-  - mint-x-icons
-  - mint-y-icons
-  - muffin
-  - nemo
-  - nemo-audio-tab
-  - nemo-compare
-  - nemo-emblems
-  - nemo-fileroller
-  - nemo-image-converter
-  - nemo-pastebin
-  - nemo-preview
-  - nemo-seahorse
-  - nemo-search-helpers
-  - nemo-terminal
-  - xapps
-  - xed
-  - xreader
-
+    - cinnamon
+    - cinnamon-control-center
+    - cinnamon-desktop
+    - cinnamon-menus
+    - cinnamon-screensaver
+    - cinnamon-session
+    - cinnamon-settings-daemon
+    - cinnamon-translations
+    - cjs
+    - gnome-icon-theme
+    - mintlocale
+    - mint-themes
+    - mint-x-icons
+    - mint-y-icons
+    - muffin
+    - nemo
+    - nemo-audio-tab
+    - nemo-compare
+    - nemo-emblems
+    - nemo-fileroller
+    - nemo-image-converter
+    - nemo-pastebin
+    - nemo-preview
+    - nemo-seahorse
+    - nemo-search-helpers
+    - nemo-terminal
+    - xapps
+    - xed
+    - xreader
   labels:
-  - eln-extras
-
+    - eln-extras

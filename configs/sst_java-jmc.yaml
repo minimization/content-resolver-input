@@ -4,16 +4,13 @@ data:
   name: JMC
   description: JDK Mission Control application and libraries
   maintainer: sst_java
-
   # asamalik: there are no modules yet, so commenting this part out
   # this way we won't lose the packages from the set
   #modules_enable:
   #- jmc:7
-  
   packages: []
-
   arch_packages:
     x86_64:
-    - jmc-core
+      - jmc-core
   labels:
-  - c9s
+    - c9s

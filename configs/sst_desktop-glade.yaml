@@ -4,9 +4,7 @@ data:
   name: Glade
   description: A user interface designer for Workstation
   maintainer: sst_desktop
-
   packages:
-  - glade
-
+    - glade
   labels:
-  - c9s
+    - c9s

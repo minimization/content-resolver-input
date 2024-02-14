@@ -4,9 +4,7 @@ data:
   name: OpenSCAP Reporting
   description: Wrappers and utilities for reporting results created by OpenSCAP.
   maintainer: sst_security_compliance
-
   packages:
-  - openscap-report
-
+    - openscap-report
   labels:
-  - eln
+    - eln

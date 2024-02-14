@@ -4,27 +4,25 @@ data:
   name: LLVM Toolset
   description: Collection of packages providing and LLVM-based compiler toolchain.
   maintainer: sst_pt_llvm_rust_go
-
   packages:
-  - llvm
-  - llvm-devel
-  - llvm-googletest
-  - llvm-libs
-  - llvm-static
-  - llvm-test
-  - clang
-  - clang-devel
-  - clang-libs
-  - clang-tools-extra
-  - clang-resource-filesystem
-  - git-clang-format
-  - python3-clang
-  - compiler-rt
-  - lldb
-  - lldb-devel
-  - python3-lldb
-  - python3-lit
-
+    - llvm
+    - llvm-devel
+    - llvm-googletest
+    - llvm-libs
+    - llvm-static
+    - llvm-test
+    - clang
+    - clang-devel
+    - clang-libs
+    - clang-tools-extra
+    - clang-resource-filesystem
+    - git-clang-format
+    - python3-clang
+    - compiler-rt
+    - lldb
+    - lldb-devel
+    - python3-lldb
+    - python3-lit
   arch_packages:
     aarch64:
       - libomp
@@ -47,6 +45,5 @@ data:
     armv7hl:
       - libomp
       - libomp-devel
-
   labels:
-  - eln
+    - eln

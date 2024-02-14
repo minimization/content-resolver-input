@@ -4,13 +4,11 @@ data:
   name: SCM
   description: Pupular source-management tools
   maintainer: sst_cs_apps
-
   packages:
-  - git
-  - git-daemon
-  - git-gui
-  - gitk
-  - git-lfs
-
+    - git
+    - git-daemon
+    - git-gui
+    - gitk
+    - git-lfs
   labels:
-  - c9s
+    - c9s

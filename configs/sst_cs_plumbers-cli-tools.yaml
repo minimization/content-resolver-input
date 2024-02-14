@@ -4,29 +4,27 @@ data:
   name: CLI tools
   description: Various cli tools that makes administrator life easier
   maintainer: sst_cs_plumbers
-
   packages:
-  - usbutils
-  - mlocate
-  - mtr
-  - mtr-gtk
-  - environment-modules
-  - gperf
-  - iputils
-  - traceroute
-  - lsof
-  - ps_mem
-  - psacct
-  - psmisc
-  - attr
-  - file
-  - findutils
-  - lynx
-  - tree
-  - units
-  - hardlink
-  - uuidd
-  - words
-
+    - usbutils
+    - mlocate
+    - mtr
+    - mtr-gtk
+    - environment-modules
+    - gperf
+    - iputils
+    - traceroute
+    - lsof
+    - ps_mem
+    - psacct
+    - psmisc
+    - attr
+    - file
+    - findutils
+    - lynx
+    - tree
+    - units
+    - hardlink
+    - uuidd
+    - words
   labels:
-  - eln
+    - eln

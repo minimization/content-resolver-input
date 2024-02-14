@@ -4,14 +4,13 @@ data:
   name: Network Management unwanted
   description: >
     Unwanted packages from Network Management
-  maintainer: sst_network_management
 
+  maintainer: sst_network_management
   unwanted_packages:
     # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since
     # usb_modeswitch 2.6.0, the package depends on /usr/bin/tclsh (tcl). We no
     # longer want to maintain jimtcl moving forward.
     - jimtcl
-
   labels:
     - eln
     - c9s

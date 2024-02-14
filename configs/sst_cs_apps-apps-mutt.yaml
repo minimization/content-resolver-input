@@ -4,10 +4,8 @@ data:
   name: mutt mail client
   description: A popular command-line e-mail client
   maintainer: sst_cs_apps
-
   packages:
-  - mutt
-
+    - mutt
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

@@ -4,51 +4,47 @@ data:
   name: edge packages
   description: Packages for edge usecases
   maintainer: sst_edge
-
   packages:
-  - libgpiod
-  - libgpiod-c++
-  - libgpiod-devel
-  - libgpiod-utils
-  - python3-libgpiod
-  - libi2cd
-  - libi2cd-devel
-
-  # Packages co-maintained with the CoreOS SST
-  - coreos-installer
-  - coreos-installer-bootinfra
-  - coreos-installer-dracut
-  - ignition
-  - ignition-edge
-  - nss-altfiles
-  - ostree
-  - rpm-ostree
-
+    - libgpiod
+    - libgpiod-c++
+    - libgpiod-devel
+    - libgpiod-utils
+    - python3-libgpiod
+    - libi2cd
+    - libi2cd-devel
+    # Packages co-maintained with the CoreOS SST
+    - coreos-installer
+    - coreos-installer-bootinfra
+    - coreos-installer-dracut
+    - ignition
+    - ignition-edge
+    - nss-altfiles
+    - ostree
+    - rpm-ostree
   arch_packages:
     aarch64:
-    - clevis-pin-tpm2
-    - fdo-client
-    - fdo-init
-    - fdo-manufacturing-server
-    - fdo-owner-cli
-    - fdo-owner-onboarding-server
-    - fdo-rendezvous-server
-    - greenboot
-    - greenboot-default-health-checks
+      - clevis-pin-tpm2
+      - fdo-client
+      - fdo-init
+      - fdo-manufacturing-server
+      - fdo-owner-cli
+      - fdo-owner-onboarding-server
+      - fdo-rendezvous-server
+      - greenboot
+      - greenboot-default-health-checks
     x86_64:
-    - clevis-pin-tpm2
-    - fdo-client
-    - fdo-init
-    - fdo-manufacturing-server
-    - fdo-owner-cli
-    - fdo-owner-onboarding-server
-    - fdo-rendezvous-server
-    - greenboot
-    - greenboot-default-health-checks
+      - clevis-pin-tpm2
+      - fdo-client
+      - fdo-init
+      - fdo-manufacturing-server
+      - fdo-owner-cli
+      - fdo-owner-onboarding-server
+      - fdo-rendezvous-server
+      - greenboot
+      - greenboot-default-health-checks
     ppc64le:
-    - greenboot
-    - greenboot-default-health-checks
-
+      - greenboot
+      - greenboot-default-health-checks
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

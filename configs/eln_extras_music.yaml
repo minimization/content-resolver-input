@@ -4,9 +4,7 @@ data:
   name: music packages
   description: ELN Extras packages maintained by Ben Beasley
   maintainer: music
-
   packages:
-  - gi-docgen
-
+    - gi-docgen
   labels:
-  - eln-extras
+    - eln-extras

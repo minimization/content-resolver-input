@@ -4,7 +4,6 @@ data:
   name: Persistent Memory Development Kit
   description: SST Storage-IO Supported PMDK Packages
   maintainer: sst_storage_io
-
   arch_packages:
     ppc64le:
       - daxio
@@ -45,6 +44,5 @@ data:
       - libpmempool-devel
       - pmdk-convert
       - pmempool
-
   labels:
-  - c9s
+    - c9s

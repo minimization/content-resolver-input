@@ -4,7 +4,6 @@ data:
   name: Unwanted packages from CS Apps SST
   description: Packages we do not want to ship for CS Apps SST
   maintainer: sst_cs_apps
-
   unwanted_packages:
     # Pcre is deprecated and unsupported by upstream since Fedora 38
     - pcre
@@ -16,6 +15,5 @@ data:
     - aspell-devel
     # Seems like not much wanted
     - python3-pyodbc
-
   labels:
-  - eln
+    - eln

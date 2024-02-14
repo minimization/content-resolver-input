@@ -6,9 +6,7 @@ data:
     Unwanted container runtime and related packages
 
   maintainer: sst_container_tools
-
   unwanted_packages:
     - python3-podman-api
-
   labels:
     - c9s

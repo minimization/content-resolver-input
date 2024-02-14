@@ -4,9 +4,7 @@ data:
   name: Unwanted SST Security Special Projects packages
   description: SST Security Special Projects unwanted packages
   maintainer: sst_security_special_projects
-
   unwanted_source_packages:
-  - http-parser
-
+    - http-parser
   labels:
-  - eln
+    - eln

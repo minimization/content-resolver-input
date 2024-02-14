@@ -5,44 +5,44 @@ data:
   description: GPU - Packages which should not be in RHEL 9
   maintainer: sst_gpu
   unwanted_packages:
-  # only used by mesa-demos, but that’s likely to change, see https://gitlab.freedesktop.org/mesa/demos/-/merge_requests/23
-  - glew
-  # HFS+ is not supported in RHEL - not currently packaged in RHEL 8, just adding in case dependencies try to pull it in
-  - hfsplus-tools
-  # Seems to only be used by hwloc in an optional plugin
-  - libXNVCtrl
-  # Not very used and the only consumer of xorg-sgml-doctools
-  - xorg-x11-docs
-  # Remove in favor of the modessting drivers for ati, intel and nouveau
-  - xorg-x11-drv-intel
-  - xorg-x11-drv-nouveau
-  - xorg-x11-drv-ati
-  # Remove as its provides quite a bad user experience and we can avoid to maintain vesa
-  - xorg-x11-drv-vesa
-  # Replaced by tools in libinput
-  - evemu
-  # Not maintained upstream, very ancient tool, and don't have resoures to maintain an extra GUI toolkit and window manager
-  # - motif asamalik: it's ACG 1, so we need to keep it now
-  # BR for rubygem-clutter-gstreamer. Said rubygem shouldn't be in EL9. Also, superseeded by clutter-gst3.
-  - clutter-gst2
-  # Virtually unused even in Fedora, might have been used by spice once upon a time. Also, superseeded by opus.
-  - celt051
-  # Ancient build system, with low upstream maintenance.
-  - imake
-  # Only used by optional plugin of hwloc, removed for RHEL.
-  - libXNVCtrl
-  # Only used for some old games and emulators
-  - SFML
-  # Only used by some multimedia apps we don't ship
-  - libmpcdec
-  # Seems unused
-  - libsamplerate
-  # It should go
-  - libxml++
-  # Only used by openal-soft examples, brings in other unwanted deps
-  - SDL_sound
-  # glew is no longer needed by mesa-demos, and the soname churns too much to be
-  # useful for a long-life product like RHEL.
-  - glew
+    # only used by mesa-demos, but that’s likely to change, see https://gitlab.freedesktop.org/mesa/demos/-/merge_requests/23
+    - glew
+    # HFS+ is not supported in RHEL - not currently packaged in RHEL 8, just adding in case dependencies try to pull it in
+    - hfsplus-tools
+    # Seems to only be used by hwloc in an optional plugin
+    - libXNVCtrl
+    # Not very used and the only consumer of xorg-sgml-doctools
+    - xorg-x11-docs
+    # Remove in favor of the modessting drivers for ati, intel and nouveau
+    - xorg-x11-drv-intel
+    - xorg-x11-drv-nouveau
+    - xorg-x11-drv-ati
+    # Remove as its provides quite a bad user experience and we can avoid to maintain vesa
+    - xorg-x11-drv-vesa
+    # Replaced by tools in libinput
+    - evemu
+    # Not maintained upstream, very ancient tool, and don't have resoures to maintain an extra GUI toolkit and window manager
+    # - motif asamalik: it's ACG 1, so we need to keep it now
+    # BR for rubygem-clutter-gstreamer. Said rubygem shouldn't be in EL9. Also, superseeded by clutter-gst3.
+    - clutter-gst2
+    # Virtually unused even in Fedora, might have been used by spice once upon a time. Also, superseeded by opus.
+    - celt051
+    # Ancient build system, with low upstream maintenance.
+    - imake
+    # Only used by optional plugin of hwloc, removed for RHEL.
+    - libXNVCtrl
+    # Only used for some old games and emulators
+    - SFML
+    # Only used by some multimedia apps we don't ship
+    - libmpcdec
+    # Seems unused
+    - libsamplerate
+    # It should go
+    - libxml++
+    # Only used by openal-soft examples, brings in other unwanted deps
+    - SDL_sound
+    # glew is no longer needed by mesa-demos, and the soname churns too much to be
+    # useful for a long-life product like RHEL.
+    - glew
   labels:
-  - c9s
+    - c9s

@@ -4,10 +4,8 @@ data:
   name: GNOME Tour
   description: GNOME Tour and Greeter
   maintainer: sst_desktop
-
   packages:
-  - gnome-tour
-
+    - gnome-tour
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

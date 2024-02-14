@@ -4,13 +4,11 @@ data:
   name: Image libraries
   description: Popular libraries for image processing (JPEG, TIFF, PNG)
   maintainer: sst_cs_apps
-
   packages:
-  - libpng
-  - libpng-devel
-  - libtiff
-  - libtiff-devel
-
+    - libpng
+    - libpng-devel
+    - libtiff
+    - libtiff-devel
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

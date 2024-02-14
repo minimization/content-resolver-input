@@ -5,12 +5,12 @@ data:
   description: CPAN package manager
   maintainer: sst_cs_apps
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
   packages:
-  - perl-App-cpanminus
-  - perl-CPAN-Meta-Check
-  - perl-File-pushd
-  - perl-Module-CPANfile
-  - perl-Parse-PMFile
-  - perl-String-ShellQuote
+    - perl-App-cpanminus
+    - perl-CPAN-Meta-Check
+    - perl-File-pushd
+    - perl-Module-CPANfile
+    - perl-Parse-PMFile
+    - perl-String-ShellQuote

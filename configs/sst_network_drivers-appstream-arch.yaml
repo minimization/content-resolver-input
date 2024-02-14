@@ -4,9 +4,7 @@ data:
   name: RDMA Stack arch_packages
   description: Mellanox packages do not support s390x
   maintainer: sst_network_drivers
-
   packages: []
-
   arch_packages:
     aarch64:
       - mstflint
@@ -38,7 +36,6 @@ data:
       - ucx-devel
       - ucx-ib
       - ucx-rdmacm
-
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

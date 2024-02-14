@@ -5,7 +5,6 @@ data:
   name: Samba FS Client
   description: SMB/CIFS clients to complement the built-in SMB/CIFS filesystem in Linux. These clients allow access of SMB/CIFS shares and printing to SMB/CIFS printers.
   maintainer: ssg_idm
-
   packages:
     - samba-client
     - cifs-utils
@@ -14,7 +13,6 @@ data:
     - samba-winbind-krb5-locator
     - samba-krb5-printing
     - cepces
-
   labels:
     - eln
     - c9s

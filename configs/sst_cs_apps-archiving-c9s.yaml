@@ -4,11 +4,9 @@ data:
   name: Archiving tools
   description: Archiving and compression tools owned by CS Apps SST
   maintainer: sst_cs_apps
-
   packages:
-  - tar
-  - zlib-devel
-  - zlib-static
-
+    - tar
+    - zlib-devel
+    - zlib-static
   labels:
-  - c9s
+    - c9s

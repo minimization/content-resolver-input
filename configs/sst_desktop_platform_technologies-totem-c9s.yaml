@@ -4,14 +4,12 @@ data:
   name: Totem
   description: Default video player in Workstation
   maintainer: sst_desktop_platform_technologies
-
   packages:
-  - clutter
-  - clutter-gtk
-  - clutter-gst3
-  - cogl
-  - totem
-  - totem-video-thumbnailer
-
+    - clutter
+    - clutter-gtk
+    - clutter-gst3
+    - cogl
+    - totem
+    - totem-video-thumbnailer
   labels:
-  - c9s
+    - c9s

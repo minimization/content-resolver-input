@@ -4,13 +4,11 @@ data:
   name: GTK 3 toolkit
   description: Software toolkit for developing applications
   maintainer: sst_desktop
-
   packages:
-  - gtk-update-icon-cache
-  - gtk3
-  - gtk3-devel
-  - gtk3-immodule-xim
-
+    - gtk-update-icon-cache
+    - gtk3
+    - gtk3-devel
+    - gtk3-immodule-xim
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s

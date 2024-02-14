@@ -5,8 +5,8 @@ data:
   description: Perl library for SQLite database
   maintainer: sst_cs_apps
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
   packages:
-  - perl-Test-NoWarnings
-  - perl-DBD-SQLite
+    - perl-Test-NoWarnings
+    - perl-DBD-SQLite

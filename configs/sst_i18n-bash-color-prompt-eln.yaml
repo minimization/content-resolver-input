@@ -4,9 +4,7 @@ data:
   name: bash color prompt
   description: Provides a color Bash prompt
   maintainer: sst_i18n
-
   packages:
-  - bash-color-prompt
-
+    - bash-color-prompt
   labels:
-  - eln
+    - eln

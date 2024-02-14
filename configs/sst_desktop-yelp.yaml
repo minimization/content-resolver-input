@@ -4,9 +4,7 @@ data:
   name: Yelp
   description: Default help application in Workstation
   maintainer: sst_desktop
-
   packages:
-  - yelp
-
+    - yelp
   labels:
-  - c9s
+    - c9s

@@ -4,15 +4,12 @@ data:
   name: fwupd
   description: Firmware update daemon
   maintainer: sst_desktop_firmware_bootloaders
-
   packages:
-  - fwupd
-
+    - fwupd
   arch_packages:
     aarch64:
-    - fwupd-efi
+      - fwupd-efi
     x86_64:
-    - fwupd-efi
-
+      - fwupd-efi
   labels:
-  - eln
+    - eln

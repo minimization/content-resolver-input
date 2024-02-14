@@ -4,9 +4,7 @@ data:
   name: Eye of GNOME
   description: Default image viewer for Workstation
   maintainer: sst_desktop_applications
-
   packages:
-  - eog
-
+    - eog
   labels:
-  - c9s
+    - c9s

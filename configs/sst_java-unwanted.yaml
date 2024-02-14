@@ -5,82 +5,81 @@ data:
   description: Packages that OpenJDK maintainers do not wish to maintain in RHEL 9
   maintainer: sst_java
   labels:
-  - eln
-
+    - eln
   unwanted_packages:
-  # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
-  - java-latest-openjdk
-  - java-latest-openjdk-portable
-  # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
-  - icedtea-web
-  # Our position changed on Rhino. We only intend to support a JavaScript engine if there is customer demand.
-  - rhino
-  # Older JDKs are due to reach end of life in the next few years
-  - java-1.8.0-openjdk
-  - java-1.8.0-openjdk-demo
-  - java-1.8.0-openjdk-devel
-  - java-1.8.0-openjdk-headless
-  - java-1.8.0-openjdk-javadoc
-  - java-1.8.0-openjdk-javadoc-zip
-  - java-1.8.0-openjdk-src
-  - java-11-openjdk
-  - java-11-openjdk-demo
-  - java-11-openjdk-devel
-  - java-11-openjdk-headless
-  - java-11-openjdk-javadoc
-  - java-11-openjdk-javadoc-zip
-  - java-11-openjdk-jmods
-  - java-11-openjdk-src
-  - java-11-openjdk-static-libs
-  - java-17-openjdk
-  - java-17-openjdk-demo
-  - java-17-openjdk-devel
-  - java-17-openjdk-headless
-  - java-17-openjdk-javadoc
-  - java-17-openjdk-javadoc-zip
-  - java-17-openjdk-jmods
-  - java-17-openjdk-src
-  - java-17-openjdk-static-libs
-  - java-11-openjdk-slowdebug
-  - java-11-openjdk-demo-slowdebug
-  - java-11-openjdk-devel-slowdebug
-  - java-11-openjdk-headless-slowdebug
-  - java-11-openjdk-jmods-slowdebug
-  - java-11-openjdk-src-slowdebug
-  - java-11-openjdk-static-libs-slowdebug
-  - java-17-openjdk-slowdebug
-  - java-17-openjdk-demo-slowdebug
-  - java-17-openjdk-devel-slowdebug
-  - java-17-openjdk-headless-slowdebug
-  - java-17-openjdk-jmods-slowdebug
-  - java-17-openjdk-src-slowdebug
-  - java-17-openjdk-static-libs-slowdebug
-  - java-1.8.0-openjdk-slowdebug
-  - java-1.8.0-openjdk-demo-slowdebug
-  - java-1.8.0-openjdk-devel-slowdebug
-  - java-1.8.0-openjdk-headless-slowdebug
-  - java-1.8.0-openjdk-src-slowdebug
-  - java-1.8.0-openjdk-fastdebug
-  - java-1.8.0-openjdk-demo-fastdebug
-  - java-1.8.0-openjdk-devel-fastdebug
-  - java-1.8.0-openjdk-headless-fastdebug
-  - java-1.8.0-openjdk-src-fastdebug
-  - java-11-openjdk-fastdebug
-  - java-11-openjdk-demo-fastdebug
-  - java-11-openjdk-devel-fastdebug
-  - java-11-openjdk-headless-fastdebug
-  - java-11-openjdk-jmods-fastdebug
-  - java-11-openjdk-src-fastdebug
-  - java-11-openjdk-static-libs-fastdebug
-  - java-17-openjdk-fastdebug
-  - java-17-openjdk-demo-fastdebug
-  - java-17-openjdk-devel-fastdebug
-  - java-17-openjdk-headless-fastdebug
-  - java-17-openjdk-jmods-fastdebug
-  - java-17-openjdk-src-fastdebug
-  - java-17-openjdk-static-libs-fastdebug
-  # RHEL has its own portable/single build setup which uses a branch (openjdk-portable-rhel-8) rather than a separate package
-  - java-1.8.0-openjdk-portable
-  - java-11-openjdk-portable
-  - java-17-openjdk-portable
-  - java-21-openjdk-portable
+    # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
+    - java-latest-openjdk
+    - java-latest-openjdk-portable
+    # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
+    - icedtea-web
+    # Our position changed on Rhino. We only intend to support a JavaScript engine if there is customer demand.
+    - rhino
+    # Older JDKs are due to reach end of life in the next few years
+    - java-1.8.0-openjdk
+    - java-1.8.0-openjdk-demo
+    - java-1.8.0-openjdk-devel
+    - java-1.8.0-openjdk-headless
+    - java-1.8.0-openjdk-javadoc
+    - java-1.8.0-openjdk-javadoc-zip
+    - java-1.8.0-openjdk-src
+    - java-11-openjdk
+    - java-11-openjdk-demo
+    - java-11-openjdk-devel
+    - java-11-openjdk-headless
+    - java-11-openjdk-javadoc
+    - java-11-openjdk-javadoc-zip
+    - java-11-openjdk-jmods
+    - java-11-openjdk-src
+    - java-11-openjdk-static-libs
+    - java-17-openjdk
+    - java-17-openjdk-demo
+    - java-17-openjdk-devel
+    - java-17-openjdk-headless
+    - java-17-openjdk-javadoc
+    - java-17-openjdk-javadoc-zip
+    - java-17-openjdk-jmods
+    - java-17-openjdk-src
+    - java-17-openjdk-static-libs
+    - java-11-openjdk-slowdebug
+    - java-11-openjdk-demo-slowdebug
+    - java-11-openjdk-devel-slowdebug
+    - java-11-openjdk-headless-slowdebug
+    - java-11-openjdk-jmods-slowdebug
+    - java-11-openjdk-src-slowdebug
+    - java-11-openjdk-static-libs-slowdebug
+    - java-17-openjdk-slowdebug
+    - java-17-openjdk-demo-slowdebug
+    - java-17-openjdk-devel-slowdebug
+    - java-17-openjdk-headless-slowdebug
+    - java-17-openjdk-jmods-slowdebug
+    - java-17-openjdk-src-slowdebug
+    - java-17-openjdk-static-libs-slowdebug
+    - java-1.8.0-openjdk-slowdebug
+    - java-1.8.0-openjdk-demo-slowdebug
+    - java-1.8.0-openjdk-devel-slowdebug
+    - java-1.8.0-openjdk-headless-slowdebug
+    - java-1.8.0-openjdk-src-slowdebug
+    - java-1.8.0-openjdk-fastdebug
+    - java-1.8.0-openjdk-demo-fastdebug
+    - java-1.8.0-openjdk-devel-fastdebug
+    - java-1.8.0-openjdk-headless-fastdebug
+    - java-1.8.0-openjdk-src-fastdebug
+    - java-11-openjdk-fastdebug
+    - java-11-openjdk-demo-fastdebug
+    - java-11-openjdk-devel-fastdebug
+    - java-11-openjdk-headless-fastdebug
+    - java-11-openjdk-jmods-fastdebug
+    - java-11-openjdk-src-fastdebug
+    - java-11-openjdk-static-libs-fastdebug
+    - java-17-openjdk-fastdebug
+    - java-17-openjdk-demo-fastdebug
+    - java-17-openjdk-devel-fastdebug
+    - java-17-openjdk-headless-fastdebug
+    - java-17-openjdk-jmods-fastdebug
+    - java-17-openjdk-src-fastdebug
+    - java-17-openjdk-static-libs-fastdebug
+    # RHEL has its own portable/single build setup which uses a branch (openjdk-portable-rhel-8) rather than a separate package
+    - java-1.8.0-openjdk-portable
+    - java-11-openjdk-portable
+    - java-17-openjdk-portable
+    - java-21-openjdk-portable

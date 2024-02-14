@@ -4,47 +4,45 @@ data:
   name: Fonts
   description: Collections of packages providing fonts
   maintainer: sst_i18n
-
   packages:
-  - aajohan-comfortaa-fonts
-  - abattis-cantarell-fonts
-  - adobe-source-code-pro-fonts
-  - compat-paratype-pt-sans-fonts-f33-f34
-  - dejavu-sans-fonts
-  - dejavu-sans-mono-fonts
-  - dejavu-serif-fonts
-  - google-carlito-fonts
-  - google-noto-emoji-color-fonts
-  - google-noto-sans-cjk-ttc-fonts
-  - google-noto-sans-gurmukhi-fonts
-  - google-noto-sans-sinhala-vf-fonts
-  - google-roboto-slab-fonts
-  - ht-caladea-fonts
-  - jomolhari-fonts
-  - julietaula-montserrat-fonts
-  - khmer-os-system-fonts
-  - lato-fonts
-  - liberation-mono-fonts
-  - liberation-sans-fonts
-  - liberation-serif-fonts
-  - lohit-assamese-fonts
-  - lohit-bengali-fonts
-  - lohit-devanagari-fonts
-  - lohit-gujarati-fonts
-  - lohit-kannada-fonts
-  - lohit-odia-fonts
-  - lohit-tamil-fonts
-  - lohit-telugu-fonts
-  - open-sans-fonts
-  - overpass-fonts
-  - paktype-naskh-basic-fonts
-  - pt-sans-fonts
-  - sil-abyssinica-fonts
-  - sil-nuosu-fonts
-  - sil-padauk-fonts
-  - smc-meera-fonts
-  - stix-fonts
-  - thai-scalable-waree-fonts
-
+    - aajohan-comfortaa-fonts
+    - abattis-cantarell-fonts
+    - adobe-source-code-pro-fonts
+    - compat-paratype-pt-sans-fonts-f33-f34
+    - dejavu-sans-fonts
+    - dejavu-sans-mono-fonts
+    - dejavu-serif-fonts
+    - google-carlito-fonts
+    - google-noto-emoji-color-fonts
+    - google-noto-sans-cjk-ttc-fonts
+    - google-noto-sans-gurmukhi-fonts
+    - google-noto-sans-sinhala-vf-fonts
+    - google-roboto-slab-fonts
+    - ht-caladea-fonts
+    - jomolhari-fonts
+    - julietaula-montserrat-fonts
+    - khmer-os-system-fonts
+    - lato-fonts
+    - liberation-mono-fonts
+    - liberation-sans-fonts
+    - liberation-serif-fonts
+    - lohit-assamese-fonts
+    - lohit-bengali-fonts
+    - lohit-devanagari-fonts
+    - lohit-gujarati-fonts
+    - lohit-kannada-fonts
+    - lohit-odia-fonts
+    - lohit-tamil-fonts
+    - lohit-telugu-fonts
+    - open-sans-fonts
+    - overpass-fonts
+    - paktype-naskh-basic-fonts
+    - pt-sans-fonts
+    - sil-abyssinica-fonts
+    - sil-nuosu-fonts
+    - sil-padauk-fonts
+    - smc-meera-fonts
+    - stix-fonts
+    - thai-scalable-waree-fonts
   labels:
-  - c9s
+    - c9s

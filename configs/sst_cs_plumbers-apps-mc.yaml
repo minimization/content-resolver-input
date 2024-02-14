@@ -4,10 +4,8 @@ data:
   name: text console file manager and visual shell
   description: text console file manager and visual shell
   maintainer: sst_cs_plumbers
-
   packages:
-  - mc
-
+    - mc
   labels:
-  - eln
-  - c9s
+    - eln
+    - c9s
