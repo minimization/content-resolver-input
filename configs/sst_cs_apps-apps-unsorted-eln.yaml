@@ -11,3 +11,4 @@ data:
     - pcre2-devel
   labels:
     - eln
+    - c10s

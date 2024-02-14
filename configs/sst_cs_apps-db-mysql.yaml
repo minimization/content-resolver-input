@@ -13,3 +13,4 @@ data:
     - mecab-ipadic-EUCJP
   labels:
     - eln
+    - c10s

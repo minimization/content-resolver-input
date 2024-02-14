@@ -9,3 +9,4 @@ data:
     - xorg-x11-server-Xwayland
   labels:
     - eln
+    - c10s

@@ -8,6 +8,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   arch_packages:
     aarch64:
       - grub2-efi-aa64

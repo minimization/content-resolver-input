@@ -13,3 +13,4 @@ data:
     - slirp4netns
   labels:
     - eln
+    - c10s

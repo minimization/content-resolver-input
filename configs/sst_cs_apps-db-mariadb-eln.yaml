@@ -21,3 +21,4 @@ data:
     - mysql-selinux # because package mariadb-server requires (mysql-selinux if selinux-policy-targeted)
   labels:
     - eln
+    - c10s

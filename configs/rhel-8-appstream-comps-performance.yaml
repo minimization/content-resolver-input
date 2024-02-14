@@ -4,6 +4,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   maintainer: sst_pt_pcp
   name: Comps group performance for rhel-8-appstream
   packages:

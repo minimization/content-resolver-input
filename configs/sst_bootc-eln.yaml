@@ -11,6 +11,6 @@ data:
     - composefs
     - initoverlayfs
   labels:
-    - c10s
     - eln
     - c9s
+    - c10s

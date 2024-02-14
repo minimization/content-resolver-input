@@ -10,3 +10,4 @@ data:
     - nvme-stas
   labels:
     - eln
+    - c10s

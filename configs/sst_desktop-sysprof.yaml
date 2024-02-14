@@ -8,3 +8,4 @@ data:
     - sysprof
   labels:
     - eln
+    - c10s

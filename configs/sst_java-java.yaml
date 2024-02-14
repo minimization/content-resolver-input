@@ -6,6 +6,7 @@ data:
   maintainer: sst_java
   labels:
     - eln
+    - c10s
   packages:
     - java-21-openjdk
     - java-21-openjdk-demo

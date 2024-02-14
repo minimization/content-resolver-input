@@ -108,3 +108,4 @@ data:
     - tigervnc
   labels:
     - eln
+    - c10s

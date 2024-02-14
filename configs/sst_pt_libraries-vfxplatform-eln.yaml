@@ -120,3 +120,4 @@ data:
     # Intel MKL
   labels:
     - eln
+    - c10s

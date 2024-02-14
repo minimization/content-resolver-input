@@ -35,3 +35,4 @@ data:
     - python3.11
   labels:
     - eln
+    - c10s

@@ -7,6 +7,7 @@ data:
   packages: []
   labels:
     - eln
+    - c10s
   # RHEL-specific packages, not in Fedora
   package_placeholders:
     - srpm_name: mingw-qemu-ga-win

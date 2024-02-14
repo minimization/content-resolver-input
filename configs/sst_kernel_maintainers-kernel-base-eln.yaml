@@ -47,6 +47,7 @@ data:
     - rv
   labels:
     - eln
+    - c10s
   arch_packages:
     s390x:
       - kernel-zfcpdump

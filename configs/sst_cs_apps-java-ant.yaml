@@ -26,3 +26,4 @@ data:
     - ant-xz
   labels:
     - eln
+    - c10s

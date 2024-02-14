@@ -22,3 +22,4 @@ data:
     - plymouth-theme-spinner
   labels:
     - eln
+    - c10s

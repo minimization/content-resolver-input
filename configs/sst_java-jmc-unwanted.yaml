@@ -10,3 +10,4 @@ data:
     - owasp-java-encoder
   labels:
     - eln
+    - c10s

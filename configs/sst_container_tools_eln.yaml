@@ -35,3 +35,4 @@ data:
           dependencies: []
   labels:
     - eln
+    - c10s

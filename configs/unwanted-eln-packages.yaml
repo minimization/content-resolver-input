@@ -7,6 +7,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   ###  Unwanted packages in ELN  ###
   #
   # Before using this list, please consider your own exclusion list

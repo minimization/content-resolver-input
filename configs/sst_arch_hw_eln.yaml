@@ -77,3 +77,4 @@ data:
         - glibc
   labels:
     - eln
+    - c10s

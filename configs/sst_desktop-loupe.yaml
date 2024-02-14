@@ -9,3 +9,4 @@ data:
     - glycin-loaders
   labels:
     - eln
+    - c10s

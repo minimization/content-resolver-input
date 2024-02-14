@@ -25,3 +25,4 @@ data:
         - systemd-devel
   labels:
     - eln
+    - c10s

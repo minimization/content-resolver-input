@@ -192,3 +192,4 @@ data:
       srpm: redhat-release
   labels:
     - eln
+    - c10s

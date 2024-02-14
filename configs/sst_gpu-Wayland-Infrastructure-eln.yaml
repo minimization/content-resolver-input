@@ -14,3 +14,4 @@ data:
     - gnome-ponytail-daemon
   labels:
     - eln
+    - c10s

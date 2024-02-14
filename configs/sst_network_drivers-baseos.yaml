@@ -9,6 +9,7 @@ data:
   labels:
     - eln
     - c9s
+    - c10s
   arch_packages:
     # not armv7hl
     aarch64:

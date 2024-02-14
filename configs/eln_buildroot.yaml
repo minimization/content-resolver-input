@@ -8,3 +8,4 @@ data:
     - rpmautospec
   labels:
     - eln
+    - c10s

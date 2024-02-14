@@ -7,6 +7,7 @@ data:
   packages: []
   labels:
     - eln
+    - c10s
   # RHEL-specific subpackages, not available in Fedora
   package_placeholders:
     - srpm_name: kernel

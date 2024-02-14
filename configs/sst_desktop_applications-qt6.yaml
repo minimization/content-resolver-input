@@ -91,3 +91,4 @@ data:
     - qadwaitadecorations-qt6
   labels:
     - eln
+    - c10s

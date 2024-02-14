@@ -6,6 +6,7 @@ data:
   maintainer: sst_installer
   labels:
     - eln
+    - c10s
   unwanted_packages:
     # Radek Vykydal:
     # system-config-kickstart has been deprecated upstream, it has not

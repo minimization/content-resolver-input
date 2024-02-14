@@ -9,3 +9,4 @@ data:
     - gtksourceview5
   labels:
     - eln
+    - c10s

@@ -41,3 +41,4 @@ data:
     - nodejs-npm
   labels:
     - eln
+    - c10s

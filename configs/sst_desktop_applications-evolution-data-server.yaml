@@ -16,3 +16,4 @@ data:
     # - evolution-ews-langpacks
   labels:
     - eln
+    - c10s

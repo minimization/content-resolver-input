@@ -11,3 +11,4 @@ data:
     - speech-dispatcher
   labels:
     - eln
+    - c10s

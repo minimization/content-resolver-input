@@ -10,3 +10,4 @@ data:
     - oqsprovider
   labels:
     - eln
+    - c10s

@@ -10,3 +10,4 @@ data:
     - libcurl-minimal
   labels:
     - eln
+    - c10s

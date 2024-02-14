@@ -10,3 +10,4 @@ data:
     - xrestop
   labels:
     - eln
+    - c10s

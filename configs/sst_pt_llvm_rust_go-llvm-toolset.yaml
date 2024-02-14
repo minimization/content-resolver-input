@@ -47,3 +47,4 @@ data:
       - libomp-devel
   labels:
     - eln
+    - c10s

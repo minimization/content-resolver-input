@@ -13,3 +13,4 @@ data:
     - keycloak-httpd-client-install
   labels:
     - eln
+    - c10s

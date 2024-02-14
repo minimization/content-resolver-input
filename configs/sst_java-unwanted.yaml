@@ -6,6 +6,7 @@ data:
   maintainer: sst_java
   labels:
     - eln
+    - c10s
   unwanted_packages:
     # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
     - java-latest-openjdk

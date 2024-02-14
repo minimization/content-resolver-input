@@ -116,3 +116,4 @@ data:
         - ppc64le
   labels:
     - eln
+    - c10s

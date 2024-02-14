@@ -9,3 +9,4 @@ data:
     - python3-pyyaml
   labels:
     - eln
+    - c10s

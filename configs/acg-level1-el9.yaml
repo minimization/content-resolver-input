@@ -32,4 +32,4 @@ data:
     - zlib-ng-compat
   labels:
     - eln
-    - cs10
+    - c10s
