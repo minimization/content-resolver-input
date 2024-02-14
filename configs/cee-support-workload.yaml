@@ -14,7 +14,3 @@ data:
   labels:
   - eln
   - c9s
-
-  package_placeholders:
-    support-tools-container:
-      description: This package ships in RHEL as a support tool, but does not ship in Fedora. 
