@@ -9,6 +9,7 @@ data:
     - time
     - pcre2
     - pcre2-devel
+    - pcre2-tools
     - pcre
     - pcre-devel
   labels:
