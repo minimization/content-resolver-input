@@ -12,5 +12,6 @@ data:
     - pcre2-tools
     - pcre
     - pcre-devel
+    - libzip-tools
   labels:
     - c9s
