@@ -10,6 +10,7 @@ data:
     - pcre2
     - pcre2-devel
     - pcre2-tools
+    - libzip-tools
   labels:
     - eln
     - c10s
