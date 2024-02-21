@@ -4,9 +4,27 @@ data:
   name: Configuration Compliance content
   description: Set of Configuration Compliance recommendations in SCAP, Ansible and other formats.
   maintainer: sst_security_compliance
-  packages:
-    - scap-security-guide
-    - scap-security-guide-doc
+  package_placeholders:
+    - srpm_name: scap-security-guide
+      build_dependencies:
+        - cmake
+        - expat
+        - libxslt
+        - openscap-scanner
+        - python3
+        - python3-jinja
+        - python3-pyyaml
+        - python3-setuptools
+      rpms:
+        - rpm_name: scap-security-guide
+          description: Security guidance and baselines in SCAP formats
+          dependencies:
+            - openscap-scanner
+            - xml-common
+        - rpm_name: scap-security-guide-doc
+          description: HTML formatted security guides generated from XCCDF benchmarks
+        - rpm_name: scap-security-guide-rule-playbooks
+          description: Ansible playbooks per each security rule
   labels:
     - eln
     - c9s
