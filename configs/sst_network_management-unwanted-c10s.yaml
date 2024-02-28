@@ -1,0 +1,13 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Network Management unwanted
+  description: >
+    Unwanted packages from Network Management
+
+  maintainer: sst_network_management
+  unwanted_packages:
+    - NetworkManager-team
+  labels:
+    - eln
+    - c10s
