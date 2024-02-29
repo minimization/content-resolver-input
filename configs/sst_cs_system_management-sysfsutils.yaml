@@ -3,9 +3,12 @@ version: 1
 data:
   name: sysfsutils
   description: Utilities for interfacing with sysfs
-  maintainer: sst_kernel_rts
+  maintainer: sst_cs_system_management
   packages:
     - glibc
     - libsysfs
   labels:
+    - eln
+    - c10s
     - c9s
+
