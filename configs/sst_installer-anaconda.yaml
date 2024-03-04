@@ -9,5 +9,4 @@ data:
     - c10s
   packages:
     - anaconda
-    - anaconda-webui
     - anaconda-install-img-deps
