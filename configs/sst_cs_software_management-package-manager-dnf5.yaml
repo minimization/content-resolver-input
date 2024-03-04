@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Manager
+  description: Recommended installation of package manager and plugins
+  maintainer: sst_cs_software_management
+  packages:
+    - dnf5
+    - dnf5-plugins
+    - rpm
+    - rpm-apidocs
+    - rpm-cron
+    - rpm-plugin-ima
+    - rpm-plugin-selinux
+    - rpm-plugin-syslog
+    - rpm-plugin-systemd-inhibit
+    - scl-utils
+  labels:
+    - eln
