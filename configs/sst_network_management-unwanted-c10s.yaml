@@ -8,6 +8,9 @@ data:
   maintainer: sst_network_management
   unwanted_packages:
     - NetworkManager-team
+    - libteam
+    - teamd
+    - teamd-devel
   labels:
     - eln
     - c10s
