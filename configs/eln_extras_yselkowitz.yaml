@@ -5,7 +5,6 @@ data:
   description: Yaakov Selkowitzs ELN Extras packages
   maintainer: yselkowitz
   packages:
-    - bitstower-markets
     - flatseal
     - latex2rtf
     - robodoc
