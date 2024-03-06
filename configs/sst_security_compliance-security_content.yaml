@@ -12,7 +12,7 @@ data:
         - libxslt
         - openscap-scanner
         - python3
-        - python3-jinja
+        - python3-jinja2
         - python3-pyyaml
         - python3-setuptools
       rpms:
