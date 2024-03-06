@@ -19,32 +19,15 @@ data:
     - git-clang-format
     - python3-clang
     - compiler-rt
+    - libomp
+    - libomp-devel
+    - lld
+    - lld-devel
+    - lld-libs
     - lldb
     - lldb-devel
     - python3-lldb
     - python3-lit
-  arch_packages:
-    aarch64:
-      - libomp
-      - libomp-devel
-      - lld
-      - lld-devel
-      - lld-libs
-    ppc64le:
-      - libomp
-      - libomp-devel
-      - lld
-      - lld-devel
-      - lld-libs
-    x86_64:
-      - libomp
-      - libomp-devel
-      - lld
-      - lld-devel
-      - lld-libs
-    armv7hl:
-      - libomp
-      - libomp-devel
   labels:
     - eln
     - c10s

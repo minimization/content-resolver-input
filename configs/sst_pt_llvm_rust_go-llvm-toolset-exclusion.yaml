@@ -55,6 +55,14 @@ data:
     - llvm15-devel
     - llvm15-libs
     - llvm15-static
+    - llvm16
+    - llvm16-devel
+    - llvm16-libs
+    - llvm16-static
+    - llvm17
+    - llvm17-devel
+    - llvm17-libs
+    - llvm17-static
   labels:
     - eln
     - c9s
