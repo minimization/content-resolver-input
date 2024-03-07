@@ -18,8 +18,8 @@ data:
     - python3-cython
     - python3-sphinx
     - python3-wheel
-    # note: the following package is called python3-wheel-wheel in RHEL proper:
-    - python-wheel-wheel
+    # note: the following package is called python-wheel-wheel in ELN:
+    - python3-wheel-wheel
     - python3-pytest
     - python3-psutil-tests
     - py3c-devel
@@ -31,4 +31,4 @@ data:
     - python3-installer
     - python3-pyproject-hooks
   labels:
-    - eln
+    - c10s
