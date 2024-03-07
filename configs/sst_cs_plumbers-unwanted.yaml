@@ -5,12 +5,18 @@ data:
   description: Core Services Plumbers - Packages which should not be in ELN
   maintainer: sst_cs_plumbers
   unwanted_packages:
+    - atlas
     - atlas-corei2
     - atlas-corei2-devel
     - atlas-corei2-static
+    - atlas-devel
     - atlas-z10
     - atlas-z10-devel
     - atlas-z10-static
+    - atlas-z14
+    - atlas-z14-devel
+    - atlas-z15
+    - atlas-z15-devel
     - atlas-z196
     - atlas-z196-devel
     - atlas-z196-static
