@@ -11,19 +11,12 @@ data:
     - numad
     - sgpio
     - libatasmart
+    - prefixdevname
   arch_packages:
     x86_64:
       - biosdevname
     i686:
       - biosdevname
-  package_placeholders:
-    prefixdevname:
-      srpm: prefixdevname
-      description: This package is rhel-only NIC naming tool
-      buildrequires:
-        - rust-toolset
-        - git
-        - systemd-devel
   labels:
     - eln
     - c10s
