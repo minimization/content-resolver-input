@@ -14,7 +14,6 @@ data:
     - gvfs-smb
     - libmtp
     - nautilus
-    - sushi
     - wsdd
   labels:
     - eln
