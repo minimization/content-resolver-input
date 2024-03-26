@@ -172,7 +172,6 @@ data:
     - kgeography
     - kgoldrunner
     - khangman
-    - khelpcenter
     - kigo
     - kile
     - killbots
@@ -228,7 +227,6 @@ data:
     - ksquares
     - ksshaskpass
     - ksudoku
-    - ksysguardd
     - ksystemlog
     - ksystemstats
     - kteatime
@@ -303,8 +301,6 @@ data:
     - plasma-nm-fortisslvpn
     - plasma-nm-iodine
     - plasma-nm-l2tp
-    - plasma-nm-mobile
-    - plasma-nm-openconnect
     - plasma-nm-openswan
     - plasma-nm-openvpn
     - plasma-nm-pptp
@@ -380,6 +376,7 @@ data:
       - kdevelop-libs
       - kdevelop-pg-qt
       - kgpg
+      - khelpcenter
       - kmail
       - kmail-account-wizard
       - kmail-libs
@@ -397,6 +394,7 @@ data:
       - pim-data-exporter
       - pim-data-exporter-libs
       - pim-sieve-editor
+      - plasma-nm-openconnect
       - plasma-sdk
     aarch64:
       - akonadi-calendar-tools
@@ -420,6 +418,7 @@ data:
       - kdevelop-libs
       - kdevelop-pg-qt
       - kgpg
+      - khelpcenter
       - kmail
       - kmail-account-wizard
       - kmail-libs
@@ -437,4 +436,5 @@ data:
       - pim-data-exporter
       - pim-data-exporter-libs
       - pim-sieve-editor
+      - plasma-nm-openconnect
       - plasma-sdk
