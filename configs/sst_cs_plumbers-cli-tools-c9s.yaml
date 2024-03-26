@@ -7,6 +7,7 @@ data:
   packages:
     - pinfo
     - usbutils
+    - procps-ng
     - mlocate
     - mtr
     - mtr-gtk

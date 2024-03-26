@@ -6,6 +6,7 @@ data:
   maintainer: sst_cs_plumbers
   packages:
     - usbutils
+    - procps-ng
     - mlocate
     - mtr
     - mtr-gtk
