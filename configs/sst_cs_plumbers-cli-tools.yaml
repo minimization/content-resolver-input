@@ -7,6 +7,7 @@ data:
   packages:
     - usbutils
     - procps-ng
+    - sysstat
     - mlocate
     - mtr
     - mtr-gtk
