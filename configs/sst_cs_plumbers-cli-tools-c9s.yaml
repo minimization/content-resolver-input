@@ -8,6 +8,7 @@ data:
     - pinfo
     - usbutils
     - procps-ng
+    - sysstat
     - mlocate
     - mtr
     - mtr-gtk
