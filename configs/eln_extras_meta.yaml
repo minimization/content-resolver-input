@@ -46,6 +46,7 @@ data:
     - libkdumpfile-devel
     - libidn
     - libidn-devel
+    - linux-sysinfo-snapshot
     - mlnx-tools
     - mkosi
     - mosh
