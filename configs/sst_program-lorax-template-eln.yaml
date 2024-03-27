@@ -96,8 +96,6 @@ data:
       - efibootmgr
       - shim-x64
       - grub2-efi-x64-cdboot
-      - shim-ia32
-      - grub2-efi-ia32-cdboot
       - biosdevname
       - memtest86+
       - syslinux
