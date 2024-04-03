@@ -6,6 +6,12 @@ data:
   maintainer: ssg_idm
   packages:
     - freeradius
+    - freeradius-devel
+    - freeradius-doc
+    - freeradius-ldap
+    - freeradius-krb5
+    - freeradius-utils
+    - python3-freeradius
   labels:
     - eln
     - c9s
