@@ -6,7 +6,6 @@ data:
   maintainer: meta-sig
   packages:
     - atop
-    - awscli
     - azure-cli
     - b4
     - below
