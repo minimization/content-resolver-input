@@ -45,6 +45,7 @@ data:
     - libkdumpfile-devel
     - libidn
     - libidn-devel
+    - libxcrypt-compat
     - linux-sysinfo-snapshot
     - mlnx-tools
     - mkosi
