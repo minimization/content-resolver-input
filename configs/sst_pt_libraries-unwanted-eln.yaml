@@ -10,3 +10,5 @@ data:
   unwanted_packages:
     # Remove nscd in favour of sssd.
     - nscd
+    # Removed from libxcrypt
+    - libxcrypt-compat
