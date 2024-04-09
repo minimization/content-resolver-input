@@ -8,5 +8,6 @@ data:
     - openscap-report
   labels:
     - eln
+    - c8s
     - c9s
     - c10s
