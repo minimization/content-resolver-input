@@ -33,6 +33,7 @@ data:
     - tracker
     - tracker-miners
     - xdg-user-dirs-gtk
+    - zenity
   labels:
     - eln
     - c10s
