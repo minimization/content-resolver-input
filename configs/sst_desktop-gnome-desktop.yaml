@@ -37,6 +37,7 @@ data:
     - tracker
     - tracker-miners
     - xdg-user-dirs-gtk
+    - zenity
   labels:
     - c9s
   package_placeholders:
