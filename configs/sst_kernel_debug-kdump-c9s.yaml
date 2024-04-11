@@ -14,7 +14,6 @@ data:
     - crash-trace-command
     - libkdumpfile
     - drgn
-    - makedumpfile
     # Read ftrace data from a core dump file.
   arch_packages:
     aarch64:
@@ -25,5 +24,4 @@ data:
     x86_64:
       - crash-gcore-command
   labels:
-    - eln
-    - c10s
+    - c9s
