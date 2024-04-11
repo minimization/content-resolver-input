@@ -87,8 +87,6 @@ data:
     - qt6-qtwebsockets-devel
     - qt6-rpm-macros
     - qt6-srpm-macros
-    # GNOME integration
-    - qadwaitadecorations-qt6
   labels:
     - eln
     - c10s
