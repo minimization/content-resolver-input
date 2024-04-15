@@ -278,7 +278,6 @@ data:
     - php-kolabformat
     - picmi
     - plasma-applet-translator
-    - plasma-applet-weather-widget
     - plasma-breeze
     - plasma-breeze-common
     - plasma-browser-integration
