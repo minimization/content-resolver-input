@@ -11,6 +11,8 @@ data:
     - libteam
     - teamd
     - teamd-devel
+    - nispor
+    - python3-nispor
   labels:
     - eln
     - c10s
