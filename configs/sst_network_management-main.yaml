@@ -41,8 +41,6 @@ data:
     - NetworkManager-dispatcher-routing-rules
     - NetworkManager-cloud-setup
     - nmstate
-    - nispor
-    - python3-nispor
     # Development
     - NetworkManager-libnm-devel
     - ModemManager-devel

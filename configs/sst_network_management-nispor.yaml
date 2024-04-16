@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Network Management nispor
+  description: >
+    Tools for Network Management around nispor.
+
+  maintainer: sst_network_management
+  packages:
+    - nispor
+    - python3-nispor
+  labels:
+    - c9s
