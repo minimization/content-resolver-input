@@ -15,6 +15,7 @@ data:
     - libkdumpfile
     - drgn
     - makedumpfile
+    - kdump-utils
     # Read ftrace data from a core dump file.
   arch_packages:
     aarch64:
