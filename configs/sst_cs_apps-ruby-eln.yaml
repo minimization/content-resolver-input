@@ -17,6 +17,7 @@ data:
     - rubygem-minitest
     - rubygem-power_assert
     - rubygem-psych
+    - rubygem-racc
     - rubygem-rake
     - rubygem-rbs
     - rubygem-rdoc
