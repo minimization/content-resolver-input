@@ -17,6 +17,7 @@ data:
     - rubygem-minitest
     - rubygem-power_assert
     - rubygem-psych
+    - rubygem-racc
     - rubygem-rake
     - rubygem-rbs
     - rubygem-rdoc
@@ -28,5 +29,4 @@ data:
     - rubygems-devel
   labels:
     - eln
-    - c9s
     - c10s
