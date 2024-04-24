@@ -7,6 +7,8 @@ data:
   packages:
     - chrony
     - gpsd
+    - gpsd-clients
+    - python3-gpsd
     - linuxptp
     - ntpstat
     - synce4l
