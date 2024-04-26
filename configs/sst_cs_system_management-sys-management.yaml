@@ -43,6 +43,7 @@ data:
     - passwd
     - patch
     - patchutils
+    - python3-pyghmi
     - python3-volume_key
     - rootfiles
     - sblim-cmpi-base
@@ -59,6 +60,7 @@ data:
     - tesseract-tessdata-doc
     - tmpwatch
     - tracer
+    - udftools
     - usermode
     - uuid
     - uuid-devel
