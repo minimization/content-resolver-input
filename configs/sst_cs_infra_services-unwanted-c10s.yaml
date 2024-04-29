@@ -26,6 +26,10 @@ data:
     - mod_security
     - mod_security-mlogc
     - mod_security_crs
+    # libmemcached
+    - libmemcached-awesome
+    - libmemcached-awesome-devel
+    - libmemcached-awesome-tools
   labels:
     - eln
     - c10s
