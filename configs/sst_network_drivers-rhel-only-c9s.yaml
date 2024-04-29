@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: RDMA Stack RHEL Only
-  description: RDMA Stack RHEL Only - Packages should be in ELN
+  description: RDMA Stack RHEL Only - Packages should be in c9s
   maintainer: sst_network_drivers
   # this field is mandatory
   packages: []
@@ -50,5 +50,4 @@ data:
       requires:
         - openmpi
   labels:
-    - eln
-    - c10s
+    - c9s
