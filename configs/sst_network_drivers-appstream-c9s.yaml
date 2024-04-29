@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: RDMA Stack Appstream Packages
-  description: RDMA Stack - Packages should be in ELN
+  description: RDMA Stack - Packages should be in c9s
   maintainer: sst_network_drivers
   packages:
     - libfabric-devel
@@ -18,8 +18,7 @@ data:
     - mpich-doc
     - python3-mpich
   labels:
-    - eln
-    - c10s
+    - c9s
   arch_packages:
     # not armv7hl
     aarch64:
