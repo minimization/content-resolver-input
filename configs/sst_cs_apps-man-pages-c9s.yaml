@@ -6,6 +6,9 @@ data:
   maintainer: sst_cs_apps
   packages:
     - man-pages
+  package_placeholders:
+    man-pages-overrides:
+      description: Complementary and updated manual pages
+      srpm: man-pages-overrides
   labels:
-    - eln
-    - c10s
+    - c9s
