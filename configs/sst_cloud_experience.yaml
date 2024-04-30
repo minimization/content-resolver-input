@@ -5,8 +5,6 @@ data:
   description: Software that makes RHEL more integrated with various clouds
   maintainer: sst_cloud_experience
   packages:
-    - efs-utils
-    - efs-utils-selinux
     - python3-botocore
     - python3-prompt-toolkit
     - python3-ruamel-yaml
