@@ -243,14 +243,6 @@ data:
             - x86_64
             - ppc64le
             - s390x
-    - srpm_name: python-gflags
-      build_dependencies:
-        - python3-devel
-      rpms:
-        - rpm_name: python3-gflags
-          description: This package is only provided in RHEL
-          dependencies:
-            - python3
     - srpm_name: resource-agents
       build_dependencies: []
       limit_arches: []
