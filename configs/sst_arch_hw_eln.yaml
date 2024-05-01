@@ -5,7 +5,6 @@ data:
   description: Packages for hardware enablement
   maintainer: sst_arch_hw
   packages:
-    - nvme-cli
     - acpica-tools
     - bluez
     - alsa-firmware
