@@ -67,8 +67,6 @@ data:
     - volume_key-libs
     - which
     - wsmancli
-    - Xaw3d
-    - Xaw3d-devel
     - mpfr
     - mpfr-devel
     - openexr
