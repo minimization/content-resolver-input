@@ -49,6 +49,7 @@ data:
     - libudisks2
     - lsscsi
     - mt-st
+    - mtx
     - python3-blivet
     - python3-blockdev
     - python3-libstoragemgmt
