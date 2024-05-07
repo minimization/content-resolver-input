@@ -25,12 +25,11 @@ data:
     - libblockdev-crypto
     - libblockdev-dm
     - libblockdev-fs
-    - libblockdev-kbd
     - libblockdev-loop
     - libblockdev-lvm
     - libblockdev-mdraid
     - libblockdev-mpath
-    - libblockdev-nvdimm
+    - libblockdev-nvme
     - libblockdev-part
     - libblockdev-plugins-all
     - libblockdev-swap
