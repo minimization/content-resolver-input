@@ -8,6 +8,7 @@ data:
   labels: # <-- Please leave
     - eln #     this unchanged.
     - c9s
+    - c10s
   # (Only include the following section if you have arch-specific packages.)
   #   arch_packages:
   #       x86_64:                    # <-- Architecture
