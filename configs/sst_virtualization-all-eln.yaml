@@ -14,7 +14,6 @@ data:
     - ipxe-roms-qemu
     - ksmtuned
     - libblkio
-    - libiscsi
     - libnbd
     - libosinfo
     - libvirt
