@@ -8,23 +8,10 @@ data:
   packages:
     - keylime
     - keylime-agent-rust
-    - libarchive
-    - openssl
     - python3-alembic
-    - python3-cryptography
-    - python3-gpg
-    - python3-jinja2
-    - python3-lark-parser
-    - python3-packaging
-    - python3-pyasn1
-    - python3-pyasn1-modules
-    - python3-pyyaml
-    - python3-requests
+    - python3-lark
     - python3-sqlalchemy
     - python3-tornado
-    - python3-typing-extensions
-    - tpm2-tools
-    - tpm2-tss
   labels:
     - eln
     - c9s
