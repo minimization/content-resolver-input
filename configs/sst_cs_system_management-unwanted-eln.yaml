@@ -65,6 +65,7 @@ data:
     - gimp-libs
     - gegl04
     - mypaint-brushes
+    - openslp-server
   labels:
     - eln
     - c10s
