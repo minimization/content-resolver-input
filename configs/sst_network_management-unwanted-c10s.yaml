@@ -13,7 +13,6 @@ data:
     - teamd-devel
     - nispor
     - python3-nispor
-    - NetworkManager-dispatcher-routing-rules
   labels:
     - eln
     - c10s
