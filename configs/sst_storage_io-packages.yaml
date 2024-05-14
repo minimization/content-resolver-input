@@ -17,7 +17,6 @@ data:
     - ndctl-devel
     - ndctl-libs
     # target
-    - nvmetcli
     - python3-configshell
     - python3-kmod
     - python3-pyparsing
@@ -32,6 +31,10 @@ data:
     - python3-iscsi-initiator-utils
     # fcoe offload
     - fcoe-utils
+    # nvme
+    - nvmetcli
+    - nvme-cli
+    - libnvme
   arch_packages:
     s390x:
       - libblockdev-s390
