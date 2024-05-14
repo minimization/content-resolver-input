@@ -38,7 +38,6 @@ data:
     - NetworkManager-config-connectivity-redhat
     - NetworkManager-config-server
     # Other
-    - NetworkManager-dispatcher-routing-rules
     - NetworkManager-cloud-setup
     - nmstate
     # Development
