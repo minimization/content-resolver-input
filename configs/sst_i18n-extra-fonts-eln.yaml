@@ -6,7 +6,6 @@ data:
   maintainer: sst_i18n
   packages:
     - aajohan-comfortaa-fonts
-    - adobe-source-code-pro-fonts
     - dejavu-lgc-sans-fonts
     - dejavu-lgc-sans-mono-fonts
     - dejavu-lgc-serif-fonts
