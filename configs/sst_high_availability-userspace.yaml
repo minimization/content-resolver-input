@@ -23,7 +23,6 @@ data:
             - gnutls-utils
             - net-snmp-utils
             - openssh-clients
-            - python3-pycurl
         - rpm_name: fence-agents-aliyun
           description: This package is only provided in RHEL
           dependencies:
@@ -53,8 +52,7 @@ data:
             - x86_64
         - rpm_name: fence-agents-common
           description: Built with bundled dependencies in RHEL
-          dependencies:
-            - python3-pycurl
+          dependencies: []
         - rpm_name: fence-agents-compute
           description: Built with bundled dependencies in RHEL
           dependencies:
@@ -180,7 +178,6 @@ data:
         - python3-dateutil
         - python3-devel
         - python3-setuptools
-        - python3-pycurl
         - python3-pip
         - python3-pyparsing
         - python3-lxml
@@ -213,7 +210,6 @@ data:
             - python3-cryptography
             - python3-dateutil
             - python3-lxml
-            - python3-pycurl
             - python3-pyparsing
             - python3-setuptools
             - redhat-logos

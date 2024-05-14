@@ -31,6 +31,7 @@ data:
     - network-scripts
     - pinfo
     - python3-bottle
+    - python3-pycurl
     - redhat-lsb
     - redhat-lsb-core
     - redhat-lsb-cxx
