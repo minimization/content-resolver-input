@@ -60,6 +60,9 @@ data:
     - xorg-x11-drv-modesetting
     - xorg-x11-drv-vmware
     - xorg-x11-drv-wacom
+    # Removed in favor of pipewire(-pulse). Note that the SRPM with the same
+    # name should still be built for some packages, like pulseaudio-libs
+    - pulseaudio
   labels:
     - eln
     - c10s
