@@ -20,9 +20,13 @@ data:
     - gnome-shell-extension-auto-move-windows
     - gnome-shell-extension-background-logo
     - gnome-shell-extension-common
+    - gnome-shell-extension-dash-to-dock
+    - gnome-shell-extension-dash-to-panel
     - gnome-shell-extension-drive-menu
     - gnome-shell-extension-native-window-placement
     - gnome-shell-extension-screenshot-window-sizer
+    - gnome-shell-extension-system-monitor
+    - gnome-shell-extension-user-theme
     - gnome-shell-extension-windowsNavigator
     - gnome-shell-extension-workspace-indicator
     - gnome-browser-connector
@@ -37,19 +41,3 @@ data:
   labels:
     - eln
     - c10s
-  package_placeholders:
-    gnome-shell-extension-systemMonitor:
-      srpm: gnome-shell-extensions
-      description: This GNOME Shell extension is a message tray indicator for CPU and memory usage
-      requires: []
-      buildrequires: []
-    gnome-shell-extension-user-theme:
-      srpm: gnome-shell-extensions
-      description: Support for custom themes in GNOME Shell
-      requires: []
-      buildrequires: []
-    gnome-shell-extension-dash-to-dock:
-      srpm: gnome-shell-extensions
-      description: Alternative dock for the Gnome Shell
-      requires: []
-      buildrequires: []
