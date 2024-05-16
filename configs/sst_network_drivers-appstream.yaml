@@ -6,6 +6,7 @@ data:
   maintainer: sst_network_drivers
   packages:
     - libfabric-devel
+    - fabtests
     - openmpi
     - openmpi-devel
     - openmpi-java
