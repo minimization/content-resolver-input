@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Subscripiton Manager
-  description: Manages subscriptions and yum repositories.
-  maintainer: sst_subscription_manager
+  name: CSI Client Tools
+  description: Red Hat tools for Content, Subscriptions and Insights.
+  maintainer: sst_csi_client_tools
   packages:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
@@ -11,6 +11,7 @@ data:
     - subscription-manager-cockpit
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
+    - virt-who
   labels:
     - eln
     - c9s
