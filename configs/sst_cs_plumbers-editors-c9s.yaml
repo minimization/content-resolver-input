@@ -7,9 +7,8 @@ data:
   packages:
     - emacs
     - emacs-lucid
-    - emacs-nw
+    - emacs-nox
     - emacs-auctex
     - nano
   labels:
-    - eln
-    - c10s
+    - c9s
