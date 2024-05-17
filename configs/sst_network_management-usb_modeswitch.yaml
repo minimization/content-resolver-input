@@ -1,0 +1,14 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Network Management USB Mode Switching
+  description: >
+    Support for switching mode of legacy (3G) USB modem dongles
+
+  maintainer: sst_network_management
+  packages:
+    - usb_modeswitch
+    - usb_modeswitch_data
+  labels:
+    - c9s
