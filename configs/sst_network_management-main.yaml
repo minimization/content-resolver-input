@@ -16,8 +16,6 @@ data:
     - NetworkManager-ppp
     - NetworkManager-wwan
     - mobile-broadband-provider-info
-    - usb_modeswitch
-    - usb_modeswitch-data
     # VPN
     - NetworkManager-libreswan
     - NetworkManager-libreswan-gnome

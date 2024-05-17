@@ -13,6 +13,8 @@ data:
     - teamd-devel
     - nispor
     - python3-nispor
+    - usb_modeswitch
+    - usb_modeswitch-data
   labels:
     - eln
     - c10s
