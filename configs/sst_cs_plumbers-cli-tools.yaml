@@ -8,7 +8,7 @@ data:
     - usbutils
     - procps-ng
     - sysstat
-    - mlocate
+    - plocate
     - mtr
     - mtr-gtk
     - environment-modules
