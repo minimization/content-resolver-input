@@ -47,17 +47,6 @@ data:
     - userspace-rcu
   # RHEL-specific packages, not available in Fedora
   package_placeholders:
-    - srpm_name: kmod-kvdo
-      build_dependencies:
-        - elfutils-libelf-devel
-        - kernel-devel
-        - libuuid-devel
-      rpms:
-        - rpm_name: kmod-kvdo
-          description: Kernel Modules for Virtual Data Optimizer
-          dependencies:
-            - kernel-core
-            - kernel-modules
     - srpm_name: vdo
       build_dependencies:
         - libblkid-devel
