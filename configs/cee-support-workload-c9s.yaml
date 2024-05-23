@@ -6,8 +6,8 @@ data:
   maintainer: sst_cee_supportability
   packages:
     - sos
+    - rig
     - python3-pexpect
     - python3-ptyprocess
   labels:
-    - eln
-    - c10s
+    - c9s
