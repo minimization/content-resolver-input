@@ -9,7 +9,6 @@ data:
   packages:
     - bootc
     - composefs
-    - initoverlayfs
   labels:
     - eln
     - c9s
