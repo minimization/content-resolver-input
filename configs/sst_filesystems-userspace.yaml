@@ -30,6 +30,7 @@ data:
     - keyutils
     - keyutils-libs
     - keyutils-libs-devel
+    - ktls-utils
     - libnfsidmap
     - libnfsidmap-devel
     - libtirpc
