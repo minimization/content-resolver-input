@@ -94,6 +94,12 @@ data:
         - tox
         # prefer grubby
         - sdubby
+        # ffmpeg is unwanted
+        - ffmpeg-free-devel
+        - libav*-free*
+        - libpostproc-free*
+        - libswresample-free*
+        - libswscale-free*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
