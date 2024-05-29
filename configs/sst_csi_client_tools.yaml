@@ -47,6 +47,13 @@ data:
             - ansible-core
             - python3-PyYAML
             - python3-requests
+    - srpm_name: redhat-cloud-client-configuration
+      rpms:
+        - rpm_name: redhat-cloud-client-configuration
+          description: redhat-cloud-client-configuration
+          dependencies:
+            - subscription-manager
+            - systemd
   labels:
     - eln
     - c9s
