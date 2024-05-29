@@ -11,16 +11,27 @@ data:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/BaseOS/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: &eln_excludes
+        # ffmpeg is unwanted
+        - libav*-free
+        - libpostproc-free
+        - libswresample-free
+        - libswscale-free
+        # qtwebengine is unwanted
+        - qt6-qtpdf
+        - qt6-qtwebengine
         priority: 1
       AppStream:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/AppStream/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: *eln_excludes
         priority: 1
       CRB:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/CRB/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: *eln_excludes
         priority: 1
       HA:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/HighAvailability/$basearch/os/
@@ -62,12 +73,13 @@ data:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Extras/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: *eln_excludes
         priority: 3
       buildroot:
         baseurl: https://kojipkgs.fedoraproject.org/repos/eln-build/latest/$basearch/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: &eln_excludes
+        exclude: &eln_build_excludes
         # prefer bind
         - bind9-next*
         # prefer postfix and sendmail
@@ -100,12 +112,26 @@ data:
         - libpostproc-free*
         - libswresample-free*
         - libswscale-free*
+        # only qt6 in ELN
+        - qt5-*
+        # qtwebengine is unwanted
+        - qt6-qtpdf
+        - qt6-qtpdf-devel
+        - qt6-qtwebengine
+        - qt6-qtwebengine-devel
+        # xen is unwanted
+        - xen-libs
+        - xen-devel
+        # rust lib crates are unwanted; dependencies must be vendored
+        - rust-*-devel
+        # ELN has only a subset of texlive; avoid components only in Fedora
+        - texlive-xindy
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: *eln_excludes
+        exclude: *eln_build_excludes
         priority: 5
     releasever: "rawhide"
     architectures:
