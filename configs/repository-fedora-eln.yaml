@@ -99,7 +99,10 @@ data:
         - python3-docs
         - python3-hypothesis
         - python3-ipython
+        - python3-pillow
         - python3-pytest-cov
+        - python3-pytest-flakes
+        - python3-pytest-mock
         - python3-pytest-xdist
         - python3-recommonmark
         - python3-tox-current-env
