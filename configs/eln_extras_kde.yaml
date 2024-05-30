@@ -98,6 +98,7 @@ data:
     - kf6-attica
     - kf6-baloo
     - kf6-bluez-qt
+    - kf6-filesystem
     - kf6-frameworkintegration
     - kf6-kapidox
     - kf6-karchive
@@ -161,6 +162,7 @@ data:
     - kf6-prison
     - kf6-purpose
     - kf6-qqc2-desktop-style
+    - kf6-rpm-macros
     - kf6-solid
     - kf6-sonnet
     - kf6-syndication
