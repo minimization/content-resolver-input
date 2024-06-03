@@ -66,6 +66,7 @@ data:
     x86_64:
       - mcelog
       - tboot
+      - pcm
   package_placeholders:
     dptfxtract:
       srpm: dptfxtract
