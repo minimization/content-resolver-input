@@ -5,7 +5,6 @@ data:
   description: Even if we don't ship OpenCL itself, we need to ship the icd, headers and filesystem for vendor drivers
   maintainer: sst_gpu
   packages:
-    - libclc
     - ocl-icd
     - opencl-filesystem
     - opencl-headers
