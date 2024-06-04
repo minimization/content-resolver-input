@@ -88,8 +88,6 @@ data:
       - setserial
     ppc64le:
       - setserial
-      - opal-prd
-      - opal-utils
       - powerpc-utils
       - powerpc-utils-core
       - ppc64-diag
