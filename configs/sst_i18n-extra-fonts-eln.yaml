@@ -5,7 +5,6 @@ data:
   description: Collections of extra packages providing fonts
   maintainer: sst_i18n
   packages:
-    - aajohan-comfortaa-fonts
     - dejavu-lgc-sans-fonts
     - dejavu-lgc-sans-mono-fonts
     - dejavu-lgc-serif-fonts
@@ -15,7 +14,6 @@ data:
     - google-carlito-fonts
     - google-crosextra-caladea-fonts
     - google-roboto-slab-fonts
-    - julietaula-montserrat-fonts
     - langpacks-fonts-am
     - langpacks-fonts-ar
     - langpacks-fonts-as
@@ -72,7 +70,6 @@ data:
     - lato-fonts
     - liberation-narrow-fonts
     - open-sans-fonts
-    - overpass-fonts
   labels:
     - eln
     - c10s
