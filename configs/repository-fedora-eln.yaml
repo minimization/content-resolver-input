@@ -73,7 +73,6 @@ data:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Extras/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        exclude: *eln_excludes
         priority: 3
       buildroot:
         baseurl: https://kojipkgs.fedoraproject.org/repos/eln-build/latest/$basearch/
