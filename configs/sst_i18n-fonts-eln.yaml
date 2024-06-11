@@ -76,7 +76,6 @@ data:
     - redhat-display-fonts
     - redhat-mono-fonts
     - redhat-text-fonts
-    - sil-mingzat-fonts
   labels:
     - eln
     - c10s
