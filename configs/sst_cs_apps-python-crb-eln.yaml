@@ -25,6 +25,7 @@ data:
     - py3c-devel
     - py3c-doc
     - marshalparser
+    - python3-hatchling
     # the following packages are anticipated to be used by pyproject-rpm-macros
     # in the feature, so we want them in CRB early,
     # rather than going trough a tad tedious process to add them after GA
