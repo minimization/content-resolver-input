@@ -47,15 +47,6 @@ data:
       - papi-devel
       - papi-libs
       - papi-testsuite
-    i686:
-      - dyninst
-      - dyninst-devel
-      - dyninst-doc
-      - dyninst-testsuite
-      - papi
-      - papi-devel
-      - papi-libs
-      - papi-testsuite
     ppc64le:
       - dyninst
       - dyninst-devel

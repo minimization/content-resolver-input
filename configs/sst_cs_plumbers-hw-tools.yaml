@@ -15,8 +15,6 @@ data:
   arch_packages:
     x86_64:
       - biosdevname
-    i686:
-      - biosdevname
   labels:
     - eln
     - c10s

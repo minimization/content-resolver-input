@@ -29,9 +29,6 @@ data:
     aarch64:
       - liblsan
       - libtsan
-    i686:
-      - libquadmath
-      - libquadmath-devel
     ppc64le:
       - gcc-offload-nvptx
       - libgomp-offload-nvptx
