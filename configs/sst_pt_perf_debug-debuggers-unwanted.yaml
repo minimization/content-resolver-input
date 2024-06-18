@@ -6,9 +6,6 @@ data:
   maintainer: sst_pt_perf_debug
   unwanted_packages:
     - babeltrace
-  unwanted_arch_packages:
-    i686:
-      - gdb-minimal
   labels:
     - eln
     - c9s
