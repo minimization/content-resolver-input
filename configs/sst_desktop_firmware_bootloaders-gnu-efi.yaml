@@ -10,8 +10,6 @@ data:
     - c9s
     - c10s
   arch_packages:
-    armv7hl:
-      - gnu-efi
     aarch64:
       - gnu-efi
     x86_64:

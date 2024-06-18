@@ -51,9 +51,6 @@ data:
     # urw-base35-fonts
     - urw-base35-fonts-devel
   arch_packages:
-    armv7hl:
-      # i2c-tools (ExcludeArch: s390 s390x)
-      - libi2c-devel
     aarch64:
       # i2c-tools (ExcludeArch: s390 s390x)
       - libi2c-devel

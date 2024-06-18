@@ -10,8 +10,6 @@ data:
     - c9s
     - c10s
   arch_packages:
-    armv7hl:
-      - os-prober
     aarch64:
       - os-prober
     ppc64le:

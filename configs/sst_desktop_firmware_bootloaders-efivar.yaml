@@ -10,8 +10,6 @@ data:
     - c9s
     - c10s
   arch_packages:
-    armv7hl:
-      - efivar
     aarch64:
       - efivar
     x86_64:
