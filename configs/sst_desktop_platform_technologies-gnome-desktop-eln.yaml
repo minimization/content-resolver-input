@@ -14,9 +14,6 @@ data:
     - eln
     - c10s
   arch_packages:
-    armv7hl:
-      - fprintd
-      - fprintd-pam
     aarch64:
       - fprintd
       - fprintd-pam

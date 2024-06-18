@@ -7,9 +7,6 @@ data:
   packages:
     - powertop
   arch_packages:
-    armv7hl:
-      # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
-      - acpid
     aarch64:
       # acpid (ExclusiveArch: ia64 x86_64 %{ix86} %{arm} aarch64)
       - acpid

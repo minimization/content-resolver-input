@@ -10,8 +10,6 @@ data:
     - c9s
     - c10s
   arch_packages:
-    armv7hl:
-      - efibootmgr
     aarch64:
       - efibootmgr
     x86_64:

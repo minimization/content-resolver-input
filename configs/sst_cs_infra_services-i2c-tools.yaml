@@ -6,12 +6,6 @@ data:
   maintainer: sst_cs_infra_services
   packages: []
   arch_packages:
-    armv7hl:
-      # i2c-tools (ExcludeArch: s390 s390x)
-      - i2c-tools
-      - i2c-tools-perl
-      - libi2c
-      - python3-i2c-tools
     aarch64:
       # i2c-tools (ExcludeArch: s390 s390x)
       - i2c-tools

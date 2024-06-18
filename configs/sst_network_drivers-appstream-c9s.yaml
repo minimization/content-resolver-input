@@ -17,15 +17,6 @@ data:
     - mpich-devel
     - mpich-doc
     - python3-mpich
+    - opensm-devel
   labels:
     - c9s
-  arch_packages:
-    # not armv7hl
-    aarch64:
-      - opensm-devel
-    ppc64le:
-      - opensm-devel
-    s390x:
-      - opensm-devel
-    x86_64:
-      - opensm-devel
