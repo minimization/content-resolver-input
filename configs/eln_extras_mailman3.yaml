@@ -5,8 +5,10 @@ data:
   description: Mailman 3 ELN Extras packages
   maintainer: ngompa
   packages:
-    - mailman3
-    - hyperkitty
-    - postorius
+  - hyperkitty
+  - mailman3
+  - postorius
+  - python3-mailman-hyperkitty
+  - python3-mailman-web
   labels:
-    - eln-extras
+  - eln-extras
