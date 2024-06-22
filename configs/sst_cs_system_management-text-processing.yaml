@@ -207,6 +207,7 @@ data:
     - texlive-ltxcmds
     - texlive-ltxmisc
     - texlive-lua-alt-getopt
+    - texlive-lua-uni-algos
     - texlive-luahbtex
     - texlive-lualatex-math
     - texlive-lualibs
