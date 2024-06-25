@@ -12,8 +12,7 @@ data:
     - rust-doc
     - rust-std-static
     - rustfmt
-    - rust-toolset-srpm-macros
+    - rust-srpm-macros
     - rust-toolset
   labels:
-    - eln
-    - c10s
+    - c9s
