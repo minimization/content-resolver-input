@@ -16,7 +16,6 @@ data:
     # See libipt below
   labels:
     - eln
-    - c9s
     - c10s
   # libipt is Intel only
   arch_packages:

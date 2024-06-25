@@ -7,6 +7,5 @@ data:
   packages:
     - rhel-system-roles
   labels:
-    - c9s
     - eln
     - c10s

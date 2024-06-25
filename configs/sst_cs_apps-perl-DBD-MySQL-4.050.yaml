@@ -6,7 +6,6 @@ data:
   maintainer: sst_cs_apps
   labels:
     - eln
-    - c9s
     - c10s
   packages:
     - perl-DBD-MySQL

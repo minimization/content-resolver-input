@@ -6,7 +6,6 @@ data:
   maintainer: sst_security_compliance
   labels:
     - eln
-    - c9s
     - c10s
   unwanted_packages:
     # dependency of oscap-anaconda-addon, because it's the only user, we do not

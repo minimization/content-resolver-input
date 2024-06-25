@@ -14,5 +14,4 @@ data:
     - scl-utils-build
   labels:
     - eln
-    - c9s
     - c10s

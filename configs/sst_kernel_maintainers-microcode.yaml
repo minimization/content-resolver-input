@@ -9,5 +9,4 @@ data:
       - microcode_ctl
   labels:
     - eln
-    - c9s
     - c10s

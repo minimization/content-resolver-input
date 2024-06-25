@@ -9,5 +9,4 @@ data:
     - rpm
   labels:
     - eln
-    - c9s
     - c10s

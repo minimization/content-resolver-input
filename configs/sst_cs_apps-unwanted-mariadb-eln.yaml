@@ -14,5 +14,4 @@ data:
     - mariadb-tokudb-engine
   labels:
     - eln
-    - c9s
     - c10s

@@ -9,5 +9,4 @@ data:
       - intel-cmt-cat
   labels:
     - eln
-    - c9s
     - c10s

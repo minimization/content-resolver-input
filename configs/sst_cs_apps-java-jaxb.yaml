@@ -8,6 +8,5 @@ data:
     - jaxb-runtime
     - jaxb-xjc
   labels:
-    - c9s
     - eln
     - c10s

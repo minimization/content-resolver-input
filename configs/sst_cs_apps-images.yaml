@@ -11,5 +11,4 @@ data:
     - libtiff-devel
   labels:
     - eln
-    - c9s
     - c10s

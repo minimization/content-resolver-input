@@ -9,5 +9,4 @@ data:
     - python3-psycopg2
   labels:
     - eln
-    - c9s
     - c10s

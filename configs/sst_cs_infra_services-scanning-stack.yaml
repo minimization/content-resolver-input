@@ -15,5 +15,4 @@ data:
     - sane-backends-drivers-scanners
   labels:
     - eln
-    - c9s
     - c10s

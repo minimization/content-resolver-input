@@ -19,5 +19,4 @@ data:
     - ipa-selinux # rich dependency that is otherwise unmet
   labels:
     - eln
-    - c9s
     - c10s

@@ -36,5 +36,4 @@ data:
     - qperf
   labels:
     - eln
-    - c9s
     - c10s

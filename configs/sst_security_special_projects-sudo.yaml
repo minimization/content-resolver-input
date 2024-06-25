@@ -9,5 +9,4 @@ data:
     - sudo-python-plugin
   labels:
     - eln
-    - c9s
     - c10s

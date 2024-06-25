@@ -9,5 +9,4 @@ data:
     - postgresql-jdbc
   labels:
     - eln
-    - c9s
     - c10s

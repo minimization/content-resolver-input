@@ -30,5 +30,4 @@ data:
       - librbd1
   labels:
     - eln
-    - c9s
     - c10s

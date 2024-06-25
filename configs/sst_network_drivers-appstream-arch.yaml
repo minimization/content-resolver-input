@@ -38,5 +38,4 @@ data:
       - ucx-rdmacm
   labels:
     - eln
-    - c9s
     - c10s

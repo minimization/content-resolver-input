@@ -7,6 +7,5 @@ data:
   packages:
     - toolbox
   labels:
-    - c9s
     - eln
     - c10s

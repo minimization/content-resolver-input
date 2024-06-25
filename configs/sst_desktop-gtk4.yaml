@@ -9,5 +9,4 @@ data:
     - gtk4-devel
   labels:
     - eln
-    - c9s
     - c10s

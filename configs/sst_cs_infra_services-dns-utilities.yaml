@@ -18,5 +18,4 @@ data:
     - ldns-doc
   labels:
     - eln
-    - c9s
     - c10s

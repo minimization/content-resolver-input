@@ -89,5 +89,4 @@ data:
         - s390x
   labels:
     - eln
-    - c9s
     - c10s

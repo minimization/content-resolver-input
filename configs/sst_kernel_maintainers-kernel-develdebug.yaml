@@ -18,7 +18,6 @@ data:
     - kernel-headers
   labels:
     - eln
-    - c9s
     - c10s
   arch_packages:
     x86_64:

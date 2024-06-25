@@ -8,5 +8,4 @@ data:
     - perl-LDAP
   labels:
     - eln
-    - c9s
     - c10s

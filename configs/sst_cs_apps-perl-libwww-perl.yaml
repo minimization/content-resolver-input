@@ -9,5 +9,4 @@ data:
     - perl-LWP-Protocol-https
   labels:
     - eln
-    - c9s
     - c10s

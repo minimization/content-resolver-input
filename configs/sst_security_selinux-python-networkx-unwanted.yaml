@@ -30,7 +30,6 @@ data:
   # (mandatory field)
   labels:
     - eln
-    - c9s
     - c10s
   ### OPTIONAL FIELDS ###
 

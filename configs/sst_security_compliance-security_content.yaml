@@ -27,5 +27,4 @@ data:
           description: Ansible playbooks per each security rule
   labels:
     - eln
-    - c9s
     - c10s

@@ -8,5 +8,4 @@ data:
     - krb5-server
   labels:
     - eln
-    - c9s
     - c10s

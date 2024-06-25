@@ -13,5 +13,4 @@ data:
     - python-unversioned-command
   labels:
     - eln
-    - c9s
     - c10s

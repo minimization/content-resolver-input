@@ -6,7 +6,6 @@ data:
   maintainer: sst_networking_core
   labels:
     - eln
-    - c9s
     - c10s
   unwanted_packages:
     - iptstate

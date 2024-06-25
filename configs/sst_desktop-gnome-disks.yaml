@@ -8,5 +8,4 @@ data:
     - gnome-disk-utility
   labels:
     - eln
-    - c9s
     - c10s

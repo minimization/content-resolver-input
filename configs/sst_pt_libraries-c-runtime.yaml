@@ -14,5 +14,4 @@ data:
     - glibc-minimal-langpack
   labels:
     - eln
-    - c9s
     - c10s

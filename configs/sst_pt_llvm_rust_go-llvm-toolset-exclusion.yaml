@@ -65,5 +65,4 @@ data:
     - llvm17-static
   labels:
     - eln
-    - c9s
     - c10s

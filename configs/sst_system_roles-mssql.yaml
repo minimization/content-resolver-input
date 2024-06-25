@@ -8,5 +8,4 @@ data:
     - ansible-collection-microsoft-sql
   labels:
     - eln
-    - c9s
     - c10s

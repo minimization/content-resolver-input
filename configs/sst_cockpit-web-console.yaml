@@ -6,7 +6,6 @@ data:
   maintainer: sst_cockpit
   labels:
     - eln
-    - c9s
     - c10s
   packages:
     # meta-package for the basic stuff (web server, bridge, core pages)

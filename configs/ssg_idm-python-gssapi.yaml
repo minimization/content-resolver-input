@@ -10,5 +10,4 @@ data:
     - python3-urllib-gssapi
   labels:
     - eln
-    - c9s
     - c10s

@@ -102,5 +102,4 @@ data:
     - php-pecl-xdebug
   labels:
     - eln
-    - c9s
     - c10s

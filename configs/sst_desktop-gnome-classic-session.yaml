@@ -13,7 +13,6 @@ data:
     - gnome-shell-extension-window-list
   labels:
     - eln
-    - c9s
     - c10s
   package_placeholders:
     # No longer in Fedora

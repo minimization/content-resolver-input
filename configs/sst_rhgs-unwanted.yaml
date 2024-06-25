@@ -31,5 +31,4 @@ data:
     - python3-gluster
   labels:
     - eln
-    - c9s
     - c10s

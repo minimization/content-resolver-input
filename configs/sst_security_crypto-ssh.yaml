@@ -13,5 +13,4 @@ data:
     - pam_ssh_agent_auth
   labels:
     - eln
-    - c9s
     - c10s

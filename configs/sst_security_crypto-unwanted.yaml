@@ -22,5 +22,4 @@ data:
     - python2-crypto
   labels:
     - eln
-    - c9s
     - c10s

@@ -8,5 +8,4 @@ data:
     - gnome-initial-setup
   labels:
     - eln
-    - c9s
     - c10s

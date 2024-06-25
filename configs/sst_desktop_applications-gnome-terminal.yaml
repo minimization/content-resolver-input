@@ -9,5 +9,4 @@ data:
     - gnome-terminal-nautilus
   labels:
     - eln
-    - c9s
     - c10s

@@ -17,5 +17,4 @@ data:
     - mod_proxy_cluster
   labels:
     - eln
-    - c9s
     - c10s
