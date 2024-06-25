@@ -2,37 +2,15 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: Unwanted Python 3 packages for ELN
-  description: Packages we do not want to ship for Python 3 in RHEL 10+
+  description: Packages we do not want to ship for Python 3 in RHEL 11+
   maintainer: sst_cs_apps
   # See also sst_cs_apps-unwanted-python3.yaml, this only extends the set
   unwanted_packages:
-    # zoneinfo is in the Python standard library (PEP 615), use that one instead
-    - python3-pytz
-    # python3-chardet was pulled into RHEL 9 as a dependency of python3-requests,
-    # but they switched to python3-charset-normalizer instead,
-    # no need to maintain 2 packages with the same purpose
-    - python3-chardet
-    # tomllib is in the Python standard library (PEP 680), use that one instead
-    - python3-toml
-    - python3-tomli
-    # python3-py is in maintenance mode upstream, pretty much dead
-    # it used to be in RHEL as a dependency of pytest which bundled the necessary parts
-    - python3-py
     # older Python versions
-    - python3.9
-    - python3.10
-    - python3.11
-    - python3.11-libs
+    - python3.12
+    - python3.12-libs
   # components for the above
   unwanted_source_packages:
-    - pytz
-    - python-chardet
-    - python-toml
-    - python-tomli
-    - python-py
-    - python3.9
-    - python3.10
-    - python3.11
+    - python3.12
   labels:
     - eln
-    - c10s

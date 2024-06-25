@@ -11,6 +11,10 @@ data:
     - python3.6
     - python3.7
     - python3.8
+    - python3.9
+    - python3.10
+    - python3.11
+    - python3.11-libs
     - pypy
     - pypy-devel
     - pypy-libs
@@ -99,12 +103,27 @@ data:
     - flit
     - python3-poetry
     - poetry
+    # zoneinfo is in the Python standard library (PEP 615), use that one instead
+    - python3-pytz
+    # python3-chardet was pulled into RHEL 9 as a dependency of python3-requests,
+    # but they switched to python3-charset-normalizer instead,
+    # no need to maintain 2 packages with the same purpose
+    - python3-chardet
+    # tomllib is in the Python standard library (PEP 680), use that one instead
+    - python3-toml
+    - python3-tomli
+    # python3-py is in maintenance mode upstream, pretty much dead
+    # it used to be in RHEL as a dependency of pytest which bundled the necessary parts
+    - python3-py
   # components for the above
   unwanted_source_packages:
     - python3.5
     - python3.6
     - python3.7
     - python3.8
+    - python3.9
+    - python3.10
+    - python3.11
     - pypy
     - pypy2
     - pypy3
@@ -157,6 +176,11 @@ data:
     - python-sphinx-theme-py3doc-enhanced
     - python-flit
     - poetry
+    - pytz
+    - python-chardet
+    - python-toml
+    - python-tomli
+    - python-py
   labels:
     - eln
     - c10s

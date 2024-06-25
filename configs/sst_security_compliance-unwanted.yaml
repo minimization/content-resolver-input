@@ -22,3 +22,7 @@ data:
     - petera
     # this utility should not be included at this moment
     - oval-graph
+    # Hardening during installation is no longer supplied through Anaconda plugin
+    - oscap-anaconda-addon
+    # Tailoring of profiles is no longer supplied through SCAP Workbench GUI app
+    - scap-workbench
