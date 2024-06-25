@@ -81,5 +81,4 @@ data:
     - python2-wheel-wheel
   labels:
     - eln
-    - c9s
     - c10s

@@ -8,5 +8,4 @@ data:
     - grubby
   labels:
     - eln
-    - c9s
     - c10s

@@ -24,5 +24,4 @@ data:
     - glibc-all-langpacks
   labels:
     - eln
-    - c9s
     - c10s

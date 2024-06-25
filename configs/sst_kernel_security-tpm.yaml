@@ -18,5 +18,4 @@ data:
     - tpm2-abrmd-selinux
   labels:
     - eln
-    - c9s
     - c10s

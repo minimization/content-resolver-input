@@ -10,5 +10,4 @@ data:
     - ethtool
   labels:
     - eln
-    - c9s
     - c10s

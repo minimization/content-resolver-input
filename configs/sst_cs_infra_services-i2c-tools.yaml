@@ -26,5 +26,4 @@ data:
       - python3-i2c-tools
   labels:
     - eln
-    - c9s
     - c10s

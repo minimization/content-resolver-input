@@ -14,5 +14,4 @@ data:
     - rubygem-thread_order
   labels:
     - eln
-    - c9s
     - c10s

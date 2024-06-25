@@ -13,7 +13,6 @@ data:
       - qatzip-devel
   labels:
     - eln
-    - c9s
     - c10s
   package_placeholders:
     attestation-hub:

@@ -28,5 +28,4 @@ data:
     - xorg-x11-server-Xspice
   labels:
     - eln
-    - c9s
     - c10s

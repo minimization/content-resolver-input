@@ -6,7 +6,6 @@ data:
   maintainer: sst_image_builder
   labels:
     - eln
-    - c9s
     - c10s
   packages:
     - cockpit-composer

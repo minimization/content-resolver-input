@@ -35,5 +35,4 @@ data:
     - libestr
   labels:
     - eln
-    - c9s
     - c10s

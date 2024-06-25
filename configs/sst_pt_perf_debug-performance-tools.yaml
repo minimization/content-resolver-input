@@ -34,7 +34,6 @@ data:
     - valgrind-devel
   labels:
     - eln
-    - c9s
     - c10s
   # dyninst and papi aren't supported on s390x
   arch_packages:

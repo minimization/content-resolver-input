@@ -8,5 +8,4 @@ data:
     - python3-requests
   labels:
     - eln
-    - c9s
     - c10s

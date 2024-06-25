@@ -47,5 +47,4 @@ data:
       - greenboot-default-health-checks
   labels:
     - eln
-    - c9s
     - c10s

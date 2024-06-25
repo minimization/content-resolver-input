@@ -56,5 +56,4 @@ data:
             - systemd
   labels:
     - eln
-    - c9s
     - c10s

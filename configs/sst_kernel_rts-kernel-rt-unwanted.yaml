@@ -9,5 +9,4 @@ data:
     - kernel-rt-selftests-internal
   labels:
     - eln
-    - c9s
     - c10s

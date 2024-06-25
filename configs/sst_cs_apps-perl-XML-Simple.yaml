@@ -8,5 +8,4 @@ data:
     - perl-XML-Simple
   labels:
     - eln
-    - c9s
     - c10s

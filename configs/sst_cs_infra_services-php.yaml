@@ -40,5 +40,4 @@ data:
     - php-pecl-zip
   labels:
     - eln
-    - c9s
     - c10s

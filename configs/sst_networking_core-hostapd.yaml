@@ -9,5 +9,4 @@ data:
     - wpa_supplicant
   labels:
     - eln
-    - c9s
     - c10s

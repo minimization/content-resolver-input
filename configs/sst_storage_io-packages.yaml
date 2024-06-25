@@ -40,5 +40,4 @@ data:
       - libblockdev-s390
   labels:
     - eln
-    - c9s
     - c10s

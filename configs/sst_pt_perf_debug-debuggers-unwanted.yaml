@@ -8,5 +8,4 @@ data:
     - babeltrace
   labels:
     - eln
-    - c9s
     - c10s

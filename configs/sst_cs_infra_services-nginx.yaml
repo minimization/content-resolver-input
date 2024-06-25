@@ -8,6 +8,5 @@ data:
     - nginx
     - nginx-all-modules
   labels:
-    - c9s
     - eln
     - c10s

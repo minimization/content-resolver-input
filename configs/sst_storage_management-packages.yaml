@@ -64,5 +64,4 @@ data:
     - udisks2-lvm2
   labels:
     - eln
-    - c9s
     - c10s

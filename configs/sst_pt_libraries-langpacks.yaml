@@ -213,5 +213,4 @@ data:
     - glibc-langpack-zu
   labels:
     - eln
-    - c9s
     - c10s

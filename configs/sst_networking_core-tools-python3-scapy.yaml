@@ -10,5 +10,4 @@ data:
     - python3-scapy
   labels:
     - eln
-    - c9s
     - c10s

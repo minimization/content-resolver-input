@@ -138,5 +138,4 @@ data:
     - bind9-next
   labels:
     - eln
-    - c9s
     - c10s

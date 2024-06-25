@@ -11,5 +11,4 @@ data:
     - WALinuxAgent-udev
   labels:
     - eln
-    - c9s
     - c10s

@@ -11,5 +11,4 @@ data:
       - accel-config-libs
   labels:
     - eln
-    - c9s
     - c10s

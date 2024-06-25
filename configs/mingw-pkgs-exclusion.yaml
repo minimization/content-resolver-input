@@ -258,5 +258,4 @@ data:
     - mingw64-wavpack-tools
   labels:
     - eln
-    - c9s
     - c10s

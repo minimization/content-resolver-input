@@ -10,6 +10,5 @@ data:
     - varnish-docs
     - varnish-devel
   labels:
-    - c9s
     - eln
     - c10s

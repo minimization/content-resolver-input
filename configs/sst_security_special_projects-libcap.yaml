@@ -14,5 +14,4 @@ data:
     - libcap-ng-utils
   labels:
     - eln
-    - c9s
     - c10s

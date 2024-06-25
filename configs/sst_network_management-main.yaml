@@ -47,5 +47,4 @@ data:
     - nm-connection-editor
   labels:
     - eln
-    - c9s
     - c10s

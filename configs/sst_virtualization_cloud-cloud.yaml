@@ -9,5 +9,4 @@ data:
     - cloud-utils-growpart
   labels:
     - eln
-    - c9s
     - c10s

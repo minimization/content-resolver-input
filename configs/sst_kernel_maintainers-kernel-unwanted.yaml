@@ -26,5 +26,4 @@ data:
     - liquidio-firmware
   labels:
     - eln
-    - c9s
     - c10s

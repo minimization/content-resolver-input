@@ -17,5 +17,4 @@ data:
     - rpm-plugin-prioreset
   labels:
     - eln
-    - c9s
     - c10s

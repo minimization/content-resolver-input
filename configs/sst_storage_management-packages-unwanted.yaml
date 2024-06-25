@@ -13,5 +13,4 @@ data:
     - udisks2-zram
   labels:
     - eln
-    - c9s
     - c10s

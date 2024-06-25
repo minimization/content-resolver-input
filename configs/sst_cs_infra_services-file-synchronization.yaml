@@ -9,5 +9,4 @@ data:
     - rsync-daemon
   labels:
     - eln
-    - c9s
     - c10s

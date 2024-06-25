@@ -19,5 +19,4 @@ data:
     - selinux-policy-doc
   labels:
     - eln
-    - c9s
     - c10s

@@ -11,5 +11,4 @@ data:
     - kernel-srpm-macros
   labels:
     - eln
-    - c9s
     - c10s

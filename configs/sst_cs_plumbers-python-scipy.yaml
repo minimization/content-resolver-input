@@ -8,5 +8,4 @@ data:
     - python3-scipy
   labels:
     - eln
-    - c9s
     - c10s

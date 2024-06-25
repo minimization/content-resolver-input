@@ -7,6 +7,5 @@ data:
   packages:
     - maven
   labels:
-    - c9s
     - eln
     - c10s

@@ -51,5 +51,4 @@ data:
     - ceph-prometheus-alerts
   labels:
     - eln
-    - c9s
     - c10s

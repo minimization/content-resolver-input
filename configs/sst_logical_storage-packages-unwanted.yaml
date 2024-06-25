@@ -14,5 +14,4 @@ data:
     - rust-packaging
   labels:
     - eln
-    - c9s
     - c10s

@@ -9,6 +9,5 @@ data:
     - log4j-jcl
     - log4j-slf4j
   labels:
-    - c9s
     - eln
     - c10s

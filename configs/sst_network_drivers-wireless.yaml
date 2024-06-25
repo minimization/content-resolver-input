@@ -9,5 +9,5 @@ data:
     - rfkill # goes here. See the full spec for module support.
     - wireless-regdb #
   labels:
-    - eln # Use 'eln' for RHEL 10
-    - c9s # USe 'c9s' for RHEL 9  (you can use both in one workload)
+    - eln
+    - c10s

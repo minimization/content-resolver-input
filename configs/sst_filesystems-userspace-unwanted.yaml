@@ -17,5 +17,4 @@ data:
       - pcp-pmda-gfs2
   labels:
     - eln
-    - c9s
     - c10s

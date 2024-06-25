@@ -11,5 +11,4 @@ data:
     - nodejs-nodemon
   labels:
     - eln
-    - c9s
     - c10s

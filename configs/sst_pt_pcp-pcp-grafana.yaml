@@ -109,7 +109,6 @@ data:
     - python3-pcp
   labels:
     - eln
-    - c9s
     - c10s
   arch_packages:
     aarch64:
