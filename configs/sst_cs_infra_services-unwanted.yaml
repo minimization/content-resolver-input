@@ -33,14 +33,24 @@ data:
     - geoipupdate
     # gsm
     - gsm-tools
+    # ghostscript
+    - ghostscript-x11
     # gutenprint
     - gutenprint-extras
     - gutenprint-plugin
+    - gutenprint-libs-ui
     # hplip
     - hplip-gui
     # libidn
     - libidn
     - libidn-devel
+    # libmemcached
+    - libmemcached-awesome
+    - libmemcached-awesome-devel
+    - libmemcached-awesome-tools
+    # libotr
+    - libotr
+    - libotr-devel
     # libwvstreams
     - libwvstreams-devel
     - libwvstreams
@@ -49,6 +59,10 @@ data:
     - mailman
     # memcached
     - memcached-devel
+    # mod_security
+    - mod_security
+    - mod_security-mlogc
+    - mod_security_crs
     # ncurses
     - ncurses-compat-libs
     - ncurses-static
@@ -75,8 +89,16 @@ data:
     - rsh-server
     # sane-frontends
     - sane-frontends
+    # sendmail
+    - sendmail
+    - sendmail-cf
+    - sendmail-doc
+    - sendmail-milter
+    - sendmail-milter-devel
     # slang
     - slang-slsh
+    # spamassassin
+    - spamassassin
     # speex
     - speex-tools
     # system-config-printer
@@ -91,6 +113,7 @@ data:
     # urw-base35-fonts
     - urw-base35-fonts-legacy
     # xsane
+    - xsane
     - xsane-gimp
     # subversion
     - subversion-kde

@@ -21,6 +21,11 @@ data:
     - ghostscript-x11
     - gutenprint
     - gutenprint-doc
+    - ipp-usb
+    - libcupsfilters
+    - libppd
+    - lprint
+    - pappl
     - python3-cups
     - system-config-printer-udev
     # drivers, hw enablement

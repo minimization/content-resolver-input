@@ -20,6 +20,8 @@ data:
     - python3-pyOpenSSL
     - python3-crypto
     - python2-crypto
+    # OpenSSL 3 deprecated engines, use the openssl pkcs11 provider instead
+    - openssl-pkcs11
   labels:
     - eln
     - c10s
