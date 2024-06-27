@@ -164,27 +164,34 @@ data:
             - x86_64
     - srpm_name: pcs
       build_dependencies:
+        - autoconf
+        - automake
         - booth
+        - coreutils
         - corosync-qdevice-devel
         - corosynclib-devel
         - diffstat
-        # fence-agents-common (placeholder)
+        - gcc
+        - gcc-c++
         - git-core
+        - libappstream-glib
+        - libcurl-devel
         - make
-        - npm
+        - nodejs-npm
+        - nss-tools
+        - openssl-devel
         - pacemaker-libs-devel
         - pam
+        - python3
         - python3-cryptography
         - python3-dateutil
         - python3-devel
-        - python3-setuptools
+        - python3-lxml
         - python3-pip
         - python3-pyparsing
-        - python3-lxml
+        - python3-setuptools
         - python3-wheel
-        - python3-setuptools_scm
-        - redhat-logos
-        - resource-agents
+        - ruby
         - ruby-devel
         - rubygems
         - rubygem-bundler
@@ -192,6 +199,7 @@ data:
         - rubygem-rexml
         - rubygem-test-unit
         - sbd
+        - systemd
       limit_arches:
         - x86_64
         - ppc64le
@@ -201,7 +209,10 @@ data:
           description: Built with bundled dependencies in RHEL
           dependencies:
             - corosync
+            - libcurl
             - libknet1-plugins-all
+            - logrotate
+            - nss-tools
             - pacemaker-cli
             - pam
             - pcmk-cluster-manager
@@ -212,7 +223,6 @@ data:
             - python3-lxml
             - python3-pyparsing
             - python3-setuptools
-            - redhat-logos
             - ruby
             - rubygem-json
             - rubygem-rexml
