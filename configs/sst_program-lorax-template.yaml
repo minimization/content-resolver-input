@@ -38,8 +38,6 @@ data:
     - rgb
     - xrandr
     - xrdb
-    - xorg-x11-xauth
-    - dbus-x11
     - gsettings-desktop-schemas
     - nm-connection-editor
     - librsvg2
@@ -58,7 +56,6 @@ data:
     - openssh-server
     - nfs-utils
     - openssh-clients
-    - tigervnc-server-minimal
     - net-tools
     - nmap-ncat
     - prefixdevname
@@ -85,7 +82,6 @@ data:
     - ftp
     - mtr
     - wget2-wget
-    - gdisk
     - hexedit
     - sg3_utils
     - perl-interpreter
@@ -102,9 +98,6 @@ data:
       - grub2-tools
       - grub2-tools-minimal
       - grub2-tools-extra
-      - xorg-x11-drivers
-      - xorg-x11-server-Xorg
-      - tigervnc-server-module
       - dmidecode
       - linux-firmware
       - iwl100-firmware
@@ -131,9 +124,6 @@ data:
       - grub2-tools-minimal
       - grub2-tools-extra
       - grub2-ppc64le
-      - xorg-x11-drivers
-      - xorg-x11-server-Xorg
-      - tigervnc-server-module
       - linux-firmware
       - libibverbs
       - rdma-core
@@ -143,9 +133,6 @@ data:
       - grub2-efi-aa64-cdboot
       - grubby
       - shim-aa64
-      - xorg-x11-drivers
-      - xorg-x11-server-Xorg
-      - tigervnc-server-module
       - dmidecode
       - linux-firmware
       - libibverbs
