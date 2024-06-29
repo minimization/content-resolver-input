@@ -66,6 +66,8 @@ data:
     - gegl04
     - mypaint-brushes
     - openslp-server
+    - bacula-client
+    - bacula-console
   labels:
     - eln
     - c10s
