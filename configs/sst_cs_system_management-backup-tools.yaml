@@ -5,8 +5,6 @@ data:
   description: Packages for backup and restoration of the operating system from CS system management SST
   maintainer: sst_cs_system_management
   packages:
-    - bacula-client
-    - bacula-console
     - libburn
     - libburn-devel
     - libisoburn
