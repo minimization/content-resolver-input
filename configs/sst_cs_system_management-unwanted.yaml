@@ -68,6 +68,7 @@ data:
     - openslp-server
     - bacula-client
     - bacula-console
+    - udftools
   labels:
     - eln
     - c10s

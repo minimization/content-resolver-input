@@ -60,7 +60,6 @@ data:
     - tesseract-tessdata-doc
     - tmpwatch
     - tracer
-    - udftools
     - usermode
     - uuid
     - uuid-devel
