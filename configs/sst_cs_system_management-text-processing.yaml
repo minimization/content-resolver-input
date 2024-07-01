@@ -9,7 +9,6 @@ data:
     - asciidoc-doc
     - docbook-style-dsssl
     - docbook-utils
-    - docbook5-schemas
     - doxygen
     - doxygen-latex
     - help2man
