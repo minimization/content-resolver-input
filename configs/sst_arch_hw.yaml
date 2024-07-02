@@ -67,12 +67,6 @@ data:
       - mcelog
       - tboot
       - pcm
-  package_placeholders:
-    dptfxtract:
-      srpm: dptfxtract
-      description: dptfxtract utility
-      requires:
-        - glibc
   labels:
     - eln
     - c10s
