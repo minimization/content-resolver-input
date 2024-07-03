@@ -13,12 +13,16 @@ data:
     - eln
     - c10s
   package_placeholders:
-    git-lfs:
-      srpm: git-lfs
-      description: Git extension for versioning large files
-      requires:
-        - git-core
-      buildrequires:
+    # Uses vendored dependencies in RHEL
+    - srpm_name: git-lfs
+      build_dependencies:
+        - git
+        - go-rpm-macros
         - perl-Digest-SHA
         - perl-Test-Harness
-        - git
+        - rubygem-asciidoctor
+      rpms:
+        - rpm_name: git-lfs
+          description: Git extension for versioning large files
+          dependencies:
+            - git-core

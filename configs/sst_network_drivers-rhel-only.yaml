@@ -7,16 +7,16 @@ data:
   # this field is mandatory
   packages: []
   package_placeholders:
-    mpitests-mpich:
-      srpm: mpitests
-      description: This package is not in Fedora (yet), but we want to see it here.
-      requires:
-        - mpich
-    mpitests-openmpi:
-      srpm: mpitests
-      description: This package is not in Fedora (yet), but we want to see it here.
-      requires:
-        - openmpi
+    - srpm_name: mpitests
+      rpms:
+        - rpm_name: mpitests-mpich
+          description: This package is not in Fedora (yet), but we want to see it here.
+          dependencies:
+            - mpich
+        - rpm_name: mpitests-openmpi
+          description: This package is not in Fedora (yet), but we want to see it here.
+          dependencies:
+            - openmpi
   labels:
     - eln
     - c10s

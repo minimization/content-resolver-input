@@ -15,21 +15,27 @@ data:
     - eln
     - c10s
   package_placeholders:
-    attestation-hub:
-      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771346
-      requires: []
-      buildrequires: []
-      limit_arches:
-        - x86_64
-    trustagent:
-      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771343
-      requires: []
-      buildrequires: []
-      limit_arches:
-        - x86_64
-    host-verification-service:
-      description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771338
-      requires: []
-      buildrequires: []
-      limit_arches:
-        - x86_64
+    - srpm_name: attestation-hub
+      build_dependencies: []
+      rpms:
+        - rpm_name: attestation-hub
+          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771346
+          dependencies: []
+          limit_arches:
+            - x86_64
+    - srpm_name: trustagent
+      build_dependencies: []
+      rpms:
+        - rpm_name: trustagent
+          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771343
+          dependencies: []
+          limit_arches:
+            - x86_64
+    - srpm_name: host-verification-service
+      build_dependencies: []
+      rpms:
+        - rpm_name: host-verification-service
+          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771338
+          dependencies: []
+          limit_arches:
+            - x86_64

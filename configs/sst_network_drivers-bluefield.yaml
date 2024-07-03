@@ -9,14 +9,18 @@ data:
     aarch64:
       - rshim
   package_placeholders:
-    bfscripts:
-      description: Something for bluefield
-      limit_arches:
-        - aarch64
-    mlxbf-bootctl:
-      description: Something for mellaonx bluefield
-      limit_arches:
-        - aarch64
+    - srpm_name: bfscripts
+      rpms:
+        - rpm_name: bfscripts
+          description: Something for bluefield
+          limit_arches:
+            - aarch64
+    - srpm_name: mlxbf-bootctl
+      rpms:
+        - rpm_name: mlxbf-bootctl
+          description: Something for mellaonx bluefield
+          limit_arches:
+            - aarch64
   labels:
     - eln
     - c10s

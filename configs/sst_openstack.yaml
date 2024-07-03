@@ -334,12 +334,5 @@ data:
     #    - spice-server
     ppc64le:
       - dpdk
-  package_placeholders:
-    qemu-kvm-block-rbd:
-      description: RHEL Only package
-      srpm: qemu-kvm
-    qemu-kvm-block-ssh:
-      description: RHEL Only package
-      srpm: qemu-kvm
   labels:
     - eln-extras

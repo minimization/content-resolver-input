@@ -102,13 +102,14 @@ data:
       - opencryptoki-ep11tok
       - opencryptoki-icatok
   package_placeholders:
-    rhel-system-roles-sap:
-      srpm: rhel-system-roles-sap
-      description: system roles for SAP
-      requires: []
-      limit_arches:
-        - x86_64
-        - ppc64le
+    - srpm_name: rhel-system-roles-sap
+      rpms:
+        - rpm_name: rhel-system-roles-sap
+          description: system roles for SAP
+          dependencies: []
+          limit_arches:
+            - x86_64
+            - ppc64le
   labels:
     - eln
     - c10s
