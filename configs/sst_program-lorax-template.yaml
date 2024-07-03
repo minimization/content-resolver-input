@@ -159,9 +159,11 @@ data:
       - rdma-core
       - gfs2-utils
   package_placeholders:
-    redhat-release:
-      description: RHEL only package
-      srpm: redhat-release
+    - srpm_name: redhat-release
+      rpms:
+        - rpm_name: redhat-release
+          description: RHEL only package
+          dependencies: []
   labels:
     - eln
     - c10s

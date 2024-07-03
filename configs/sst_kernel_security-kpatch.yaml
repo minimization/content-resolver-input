@@ -10,14 +10,12 @@ data:
     - c10s
   package_placeholders:
     # kpatch is a RHEL-only package
-    kpatch:
-      srpm: kpatch
-      description: Dynamic kernel patch manager
-      requires: []
-      buildrequires: []
-    # kpatch-dnf is a RHEL-only package
-    kpatch-dnf:
-      srpm: kpatch
-      description: kpatch-patch manager plugin for DNF
-      requires: []
-      buildrequires: []
+    - srpm_name: kpatch
+      build_dependencies: []
+      rpms:
+        - rpm_name: kpatch
+          description: Dynamic kernel patch manager
+          dependencies: []
+        - rpm_name: kpatch-dnf
+          description: kpatch-patch manager plugin for DNF
+          dependencies: []

@@ -15,78 +15,83 @@ data:
     s390x:
       - tuned-profiles-sap
   package_placeholders:
-    sap-cluster-connector:
-      srpm: sap-cluster-connector
-      description: something cluster related
-      requires:
-        - perl
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
-    resource-agents-sap:
-      srpm: resource-agents-sap
-      description: Resource agent for SAP
-      requires:
-        - perl
-        - resource-agents
-        - bash
-        - grep
-        - gawk
-        - sed
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
-    resource-agents-sap-hana:
-      srpm: resource-agents-sap-hana
-      description: Resource agent for SAP HANA
-      requires:
-        - perl
-        - resource-agents
-        - bash
-        - grep
-        - sed
-        - gawk
-      limit_arches:
-        - x86_64
-        - ppc64le
-    resource-agents-sap-hana-scaleout:
-      srpm: resource-agents-sap-hana-scaleout
-      description: Resource agent for SAP HANA scaleout
-      requires:
-        - perl
-        - resource-agents
-        - bash
-        - grep
-        - sed
-        - gawk
-      limit_arches:
-        - x86_64
-        - ppc64le
-    rhel-system-roles-sap:
-      srpm: rhel-system-roles-sap
-      description: system roles for SAP
-      requires: []
-      limit_arches:
-        - x86_64
-        - ppc64le
-    compat-locales-sap-common:
-      srpm: compat-locales-sap
-      description: locales for SAP
-      requires: []
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
-    compat-locales-sap:
-      srpm: compat-locales-sap
-      description: locales for SAP
-      requires: []
-      limit_arches:
-        - x86_64
-        - ppc64le
-        - s390x
+    - srpm_name: sap-cluster-connector
+      rpms:
+        - rpm_name: sap-cluster-connector
+          description: something cluster related
+          dependencies:
+            - perl
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+    - srpm_name: resource-agents-sap
+      rpms:
+        - rpm_name: resource-agents-sap
+          description: Resource agent for SAP
+          dependencies:
+            - perl
+            - resource-agents
+            - bash
+            - grep
+            - gawk
+            - sed
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+    - srpm_name: resource-agents-sap-hana
+      rpms:
+        - rpm_name: resource-agents-sap-hana
+          description: Resource agent for SAP HANA
+          dependencies:
+            - perl
+            - resource-agents
+            - bash
+            - grep
+            - sed
+            - gawk
+          limit_arches:
+            - x86_64
+            - ppc64le
+    - srpm_name: resource-agents-sap-hana-scaleout
+      rpms:
+        - rpm_name: resource-agents-sap-hana-scaleout
+          description: Resource agent for SAP HANA scaleout
+          dependencies:
+            - perl
+            - resource-agents
+            - bash
+            - grep
+            - sed
+            - gawk
+          limit_arches:
+            - x86_64
+            - ppc64le
+    - srpm_name: rhel-system-roles-sap
+      rpms:
+        - rpm_name: rhel-system-roles-sap
+          description: system roles for SAP
+          dependencies: []
+          limit_arches:
+            - x86_64
+            - ppc64le
+    - srpm_name: compat-locales-sap
+      rpms:
+        - rpm_name: compat-locales-sap-common
+          description: locales for SAP
+          dependencies: []
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+        - rpm_name: compat-locales-sap
+          description: locales for SAP
+          dependencies: []
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
   labels:
     - eln
     - c10s

@@ -15,13 +15,14 @@ data:
     - eln
     - c10s
   package_placeholders:
-    # No longer in Fedora
-    gnome-shell-extension-desktop-icons:
-      srpm: gnome-shell-extensions
-      description: This GNOME Shell extension adds desktop icons support as seen in GNOME 2
-    # Only gnome-shell-extension-topicons-plus is available in Fedora
-    gnome-shell-extension-top-icons:
-      srpm: gnome-shell-extensions
-      description: This GNOME Shell extension moves legacy tray icons into the top bar
-      requires: []
-      buildrequires: []
+    # Extensions no longer packaged in Fedora
+    - srpm_name: gnome-shell-extensions
+      rpms:
+        - rpm_name: gnome-shell-extension-desktop-icons
+          description: This GNOME Shell extension adds desktop icons support as seen in GNOME 2
+          dependencies:
+            - gnome-shell-extension-common
+        - rpm_name: gnome-shell-extension-top-icons
+          description: This GNOME Shell extension moves legacy tray icons into the top bar
+          dependencies:
+            - gnome-shell-extension-common

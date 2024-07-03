@@ -9,30 +9,26 @@ data:
     - eln
     - c10s
   package_placeholders:
-    redhat-bookmarks:
-      srpm: redhat-bookmarks
-      description: This package contains the default bookmarks for Red Hat Enterprise Linux
-      requires: []
-      buildrequires: []
-    redhat-logos:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures
-      requires:
-        - coreutils
-      buildrequires:
+    - srpm_name: redhat-bookmarks
+      build_dependencies: []
+      rpms:
+        - rpm_name: redhat-bookmarks
+          description: This package contains the default bookmarks for Red Hat Enterprise Linux
+          dependencies: []
+    - srpm_name: redhat-logos
+      build_dependencies:
         - hardlink
-    redhat-logos-httpd:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures used by httpd
-      requires: []
-      buildrequires: []
-    redhat-logos-ipa:
-      srpm: redhat-logos
-      description: Red Hat-related icons and pictures used by IPA
-      requires: []
-      buildrequires: []
-    redhat-backgrounds:
-      srpm: redhat-logos
-      description: Red Hat-related desktop backgrounds
-      requires: []
-      buildrequires: []
+      rpms:
+        - rpm_name: redhat-logos
+          description: Red Hat-related icons and pictures
+          dependencies:
+            - coreutils
+        - rpm_name: redhat-logos-httpd
+          description: Red Hat-related icons and pictures used by httpd
+          dependencies: []
+        - rpm_name: redhat-logos-ipa
+          description: Red Hat-related icons and pictures used by IPA
+          dependencies: []
+        - rpm_name: redhat-backgrounds
+          description: Red Hat-related desktop backgrounds
+          dependencies: []
