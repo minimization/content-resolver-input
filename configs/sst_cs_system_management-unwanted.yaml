@@ -69,6 +69,7 @@ data:
     - bacula-client
     - bacula-console
     - udftools
+    - docbook5-schemas
   labels:
     - eln
     - c10s
