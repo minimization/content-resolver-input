@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lorax template X11 packages
+  description: X11 Packages for ELN lorax template until switched to Wayland
+  maintainer: bstinson
+  packages:
+    - xorg-x11-xauth
+    - dbus-x11
+    - tigervnc-server-minimal
+  arch_packages:
+    x86_64:
+      - xorg-x11-drivers
+      - xorg-x11-server-Xorg
+      - tigervnc-server-module
+    ppc64le:
+      - xorg-x11-drivers
+      - xorg-x11-server-Xorg
+      - tigervnc-server-module
+    aarch64:
+      - xorg-x11-drivers
+      - xorg-x11-server-Xorg
+      - tigervnc-server-module
+  labels:
+    - eln
