@@ -70,8 +70,6 @@ data:
     - default-fonts-other-sans
     - google-noto-sans-cjk-fonts
     - gdb-gdbserver
-    - libreport-plugin-bugzilla
-    - libreport-plugin-reportuploader
     - python3-pyatspi
     - vim-minimal
     - strace
