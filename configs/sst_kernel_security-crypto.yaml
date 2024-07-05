@@ -6,6 +6,8 @@ data:
   maintainer: sst_kernel_security
   packages:
     - rng-tools
+    - jitterentropy
+    - jitterentropy-devel
   labels:
     - eln
     - c10s

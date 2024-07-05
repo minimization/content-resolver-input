@@ -8,34 +8,16 @@ data:
     x86_64:
       - qatlib
       - qatlib-devel
+      - qatlib-service
+      - qatlib-tests
       - qatengine
       - qatzip
       - qatzip-devel
+      - qatzip-libs
+      - xxhash
+      - xxhash-devel
+      - xxhash-doc
+      - xxhash-libs
   labels:
     - eln
     - c10s
-  package_placeholders:
-    - srpm_name: attestation-hub
-      build_dependencies: []
-      rpms:
-        - rpm_name: attestation-hub
-          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771346
-          dependencies: []
-          limit_arches:
-            - x86_64
-    - srpm_name: trustagent
-      build_dependencies: []
-      rpms:
-        - rpm_name: trustagent
-          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771343
-          dependencies: []
-          limit_arches:
-            - x86_64
-    - srpm_name: host-verification-service
-      build_dependencies: []
-      rpms:
-        - rpm_name: host-verification-service
-          description: This package is not in Fedora (yet), see https://bugzilla.redhat.com/show_bug.cgi?id=1771338
-          dependencies: []
-          limit_arches:
-            - x86_64
