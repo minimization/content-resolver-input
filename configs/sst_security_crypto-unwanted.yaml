@@ -22,6 +22,8 @@ data:
     - python2-crypto
     # OpenSSL 3 deprecated engines, use the openssl pkcs11 provider instead
     - openssl-pkcs11
+    # Deprecated OpenSSL components
+    - openssl-devel-engine
   labels:
     - eln
     - c10s
