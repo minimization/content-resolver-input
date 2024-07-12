@@ -1,12 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: GNOME Terminal
+  name: Ptyxis
   description: Default terminal application in Workstation
   maintainer: sst_desktop_applications
   packages:
-    - gnome-terminal
-    - gnome-terminal-nautilus
+    - ptyxis
   labels:
     - eln
     - c10s
