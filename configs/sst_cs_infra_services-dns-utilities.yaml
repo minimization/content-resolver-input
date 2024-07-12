@@ -6,6 +6,7 @@ data:
   maintainer: sst_cs_infra_services
   packages:
     - bind-utils
+    - dnsconfd
     - dnsmasq-utils
     - whois
     # ldns
