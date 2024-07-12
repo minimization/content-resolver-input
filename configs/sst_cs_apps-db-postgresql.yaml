@@ -18,6 +18,7 @@ data:
     - postgresql-upgrade-devel
     - pgaudit
     - pg_repack
+    - pgvector
     - postgres-decoderbufs
   labels:
     - eln
