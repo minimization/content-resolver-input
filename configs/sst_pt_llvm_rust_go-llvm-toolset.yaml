@@ -11,6 +11,7 @@ data:
     - llvm-libs
     - llvm-static
     - llvm-test
+    - llvm-toolset
     - clang
     - clang-devel
     - clang-libs
