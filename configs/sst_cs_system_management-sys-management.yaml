@@ -17,7 +17,6 @@ data:
     - freeipmi
     - freeipmi-devel
     - ipmitool
-    - iprutils
     - jasper-devel
     - libgphoto2-devel
     - librabbitmq
@@ -84,6 +83,7 @@ data:
     x86_64:
       - setserial
     ppc64le:
+      - iprutils
       - setserial
       - powerpc-utils
       - powerpc-utils-core
