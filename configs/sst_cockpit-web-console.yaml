@@ -17,6 +17,8 @@ data:
     - cockpit-doc
     # RHEL 4 Edge image management
     - cockpit-ostree
+    # extensions maintained by Cockpit team
+    - cockpit-files
   arch_packages:
     aarch64:
       # extensions maintained by Cockpit team
