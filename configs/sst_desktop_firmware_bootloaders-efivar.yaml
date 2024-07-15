@@ -4,7 +4,8 @@ data:
   name: efivar
   description: Tools to manage UEFI variables
   maintainer: sst_desktop_firmware_bootloaders
-  packages: []
+  packages: 
+  - mandoc
   labels:
     - eln
     - c10s
