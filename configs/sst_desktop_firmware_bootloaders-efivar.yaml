@@ -5,7 +5,7 @@ data:
   description: Tools to manage UEFI variables
   maintainer: sst_desktop_firmware_bootloaders
   packages: 
-  - mandoc
+    - mandoc
   labels:
     - eln
     - c10s
