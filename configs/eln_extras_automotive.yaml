@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Automotive packages
+  description: ELN Extras packages that the CentOS Automotive SIG cares about
+  maintainer: sig-automotive
+  packages:
+    - qm
+  arch_packages:
+    x86_64:
+      - vhost-device-sound
+    aarch64:
+      - vhost-device-sound
+  labels:
+    - eln-extras
