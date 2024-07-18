@@ -6,6 +6,14 @@ data:
   maintainer: sst_virtualization_cloud
   packages: []
   arch_packages:
+    aarch64:
+      - open-vm-tools
+      - open-vm-tools-desktop
+      - open-vm-tools-test
+      - hyperv-daemons
+      - hyperv-tools
+      - hypervkvpd
+      - hypervvssd
     x86_64:
       - open-vm-tools
       - open-vm-tools-desktop
