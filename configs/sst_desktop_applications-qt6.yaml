@@ -24,7 +24,6 @@ data:
     - qt6-qtbase-mysql
     - qt6-qtbase-odbc
     - qt6-qtbase-postgresql
-    - qt6-qtbase-private-devel
     - qt6-qtbase-static
     - qt6-qtcharts
     - qt6-qtcharts-devel
