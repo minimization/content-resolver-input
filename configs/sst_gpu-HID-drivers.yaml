@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HID drivers
+  description: Contains the user space eBPF drivers for the HID subsystem
+  maintainer: sst_gpu
+  packages:
+    - udev-hid-bpf
+  labels:
+    - eln
+    - c10s
