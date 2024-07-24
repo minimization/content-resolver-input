@@ -10,7 +10,6 @@ data:
     - openssh
     - openssh-keycat
     - openssh-askpass
-    - pam_ssh_agent_auth
   labels:
     - eln
     - c10s
