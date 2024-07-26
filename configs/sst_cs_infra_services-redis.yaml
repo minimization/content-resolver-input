@@ -9,5 +9,4 @@ data:
     - redis-doc
     - redis-devel
   labels:
-    - eln
     - c10s
