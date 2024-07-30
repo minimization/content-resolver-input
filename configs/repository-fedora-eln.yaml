@@ -69,11 +69,6 @@ data:
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["ppc64le", "x86_64"]
         priority: 2
-      Extras:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Extras/$basearch/os/
-        koji_api_url: https://koji.fedoraproject.org/kojihub
-        koji_files_url: https://kojipkgs.fedoraproject.org
-        priority: 3
       buildroot:
         baseurl: https://kojipkgs.fedoraproject.org/repos/eln-build/latest/$basearch/
         koji_api_url: https://koji.fedoraproject.org/kojihub

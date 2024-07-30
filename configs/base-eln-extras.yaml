@@ -18,12 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: ELN Environment
+  name: ELN Extras Environment
   
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: A base environment on top of which all ELN workloads are analyzed.
+  description: An environment on top of which all ELN Extras workloads are analyzed.
 
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
@@ -35,7 +35,7 @@ data:
   #
   # (mandatory field)
   repositories:
-  - repository-fedora-eln
+  - repository-fedora-eln-extras
 
   # Packages defining this environment.
   # This list includes packages for all
@@ -52,9 +52,7 @@ data:
   # 
   # (mandatory field)
   labels:
-  - eln
-  - eln-buildroot
-  - eln-analyze-only
+  - eln-extras
 
   ### OPTIONAL FIELDS ###
 
