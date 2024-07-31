@@ -20,8 +20,6 @@ data:
     - breeze-icon-theme-rcc
     - cervisia
     - colord-kde
-    - digikam
-    - digikam-libs
     - dolphin
     - dolphin-libs
     - dolphin-plugins
@@ -250,7 +248,6 @@ data:
     - kwin-common
     - kwin-libs
     - kwin-wayland
-    - kwin-x11
     - kwordquiz
     - kwrite
     - kwrited
@@ -264,7 +261,7 @@ data:
     - libkomparediff2
     - libksysguard
     - libksysguard-common
-    - libkworkspace5
+    - libkworkspace6
     - lskat
     - maliit-keyboard
     - marble
@@ -324,7 +321,6 @@ data:
     - plasma-workspace-libs
     - plasma-workspace-wallpapers
     - plasma-workspace-wayland
-    - plasma-workspace-x11
     - polkit-kde
     - polkit-qt6-1
     - powerdevil
@@ -361,6 +357,8 @@ data:
       - akonadi-import-wizard
       - akregator
       - akregator-libs
+      - digikam
+      - digikam-libs
       - grantlee-editor
       - grantlee-editor-libs
       - k3b
@@ -403,6 +401,8 @@ data:
       - akonadi-import-wizard
       - akregator
       - akregator-libs
+      - digikam
+      - digikam-libs
       - grantlee-editor
       - grantlee-editor-libs
       - k3b
