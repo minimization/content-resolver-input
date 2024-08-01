@@ -5,8 +5,6 @@ data:
   description: Packages for managing Linux system from CS system management SST
   maintainer: sst_cs_system_management
   packages:
-    - babl-devel
-    - babl-devel-docs
     - basesystem
     - bc
     - dcraw
