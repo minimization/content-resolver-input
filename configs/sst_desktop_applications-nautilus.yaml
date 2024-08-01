@@ -9,12 +9,21 @@ data:
     - gvfs-client
     - gvfs-fuse
     - gvfs-goa
-    - gvfs-gphoto2
-    - gvfs-mtp
     - gvfs-smb
     - libmtp
     - nautilus
     - wsdd
+  arch_packages:
+    aarch64:
+      - gvfs-gphoto2
+      - gvfs-mtp
+    ppc64le:
+      - gvfs-gphoto2
+      - gvfs-mtp
+    # not built on s390x
+    x86_64:
+      - gvfs-gphoto2
+      - gvfs-mtp
   labels:
     - eln
     - c10s
