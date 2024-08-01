@@ -5,11 +5,16 @@ data:
   description: KDE Plasma Desktop ELN Extras packages
   maintainer: tdawson
   packages:
+    - alligator
+    - amarok
     - analitza
     - ark
     - ark-libs
     - artikulate
     - artikulate-libs
+    - atlantik
+    - audex
+    - audiotube
     - baloo-widgets
     - blinken
     - bluedevil
@@ -18,27 +23,40 @@ data:
     - breeze-cursor-theme
     - breeze-icon-theme
     - breeze-icon-theme-rcc
+    - calindori
     - cervisia
     - colord-kde
     - dolphin
     - dolphin-libs
     - dolphin-plugins
     - dragon
+    - elisa-player
     - extra-cmake-modules
     - ffmpegthumbs
     - filelight
+    - francis
+    - gcompris-qt
     - granatier
     - gwenview
     - gwenview-libs
+    - haruna
+    - isoimagewriter
+    - itinerary
     - java-kolabformat
     - juk
-    - kaccounts-integration
+    - kaccounts-integration-qt6
     - kactivitymanagerd
+    - kaidan
+    - kajongg
+    - kalk
+    - kalm
+    - kalzium
     - kamera
     - kamoso
     - kanagram
     - kapman
     - kapptemplate
+    - kasts
     - kate
     - kate-plugins
     - katomic
@@ -46,12 +64,13 @@ data:
     - kblackbox
     - kblocks
     - kbounce
+    - kbrickbuster
     - kbruch
     - kcachegrind
     - kcachegrind-converters
     - kcalc
     - kcharselect
-    - kcm_systemd
+    - kclock
     - kcolorchooser
     - kcolorpicker
     - kcron
@@ -93,9 +112,11 @@ data:
     - keditbookmarks-libs
     - kexi
     - kexi-libs
+    - keysmith
     - kf6-attica
     - kf6-baloo
     - kf6-bluez-qt
+    - kf6-breeze-icons
     - kf6-filesystem
     - kf6-frameworkintegration
     - kf6-kapidox
@@ -167,19 +188,23 @@ data:
     - kf6-syntax-highlighting
     - kf6-threadweaver
     - kfind
-    - kfloppy
     - kfourinline
     - kgeography
+    - kget
     - kgoldrunner
+    - kgraphviewer
     - khangman
+    - kig
     - kigo
     - kile
     - killbots
-    - kimageannotator
+    - kimageannotator-qt6
     - kinfocenter
+    - kirigami-gallery
     - kiriki
     - kiten
     - kiten-libs
+    - kjournald
     - kjumpingcube
     - kleopatra
     - kleopatra-libs
@@ -196,15 +221,20 @@ data:
     - kmplot
     - knavalbattle
     - knetwalk
+    - knights
+    - koko
     - kolf
     - kollision
     - kolourpaint
     - kolourpaint-libs
+    - kommit
     - kompare
     - kompare-libs
+    - kongress
     - konquest
-    - konsole5
-    - konsole5-part
+    - konsole
+    - konsole-part
+    - kontrast
     - konversation
     - kpartloader
     - kpmcore
@@ -234,6 +264,7 @@ data:
     - ktorrent
     - ktorrent-libs
     - ktouch
+    - ktrip
     - ktuberling
     - kturtle
     - kubrick
@@ -241,9 +272,9 @@ data:
     - kuserfeedback
     - kuserfeedback-console
     - kwalletmanager5
+    - kwave
     - kwayland-integration
-    - kwayland-server
-    - kwebkitpart
+    - kweather
     - kwin
     - kwin-common
     - kwin-libs
@@ -262,6 +293,7 @@ data:
     - libksysguard
     - libksysguard-common
     - libkworkspace6
+    - lokalize
     - lskat
     - maliit-keyboard
     - marble
@@ -269,11 +301,19 @@ data:
     - marble-common
     - marble-qt
     - marble-widget-data
+    - markdownpart
+    - massif-visualizer
+    - minuet
+    - neochat
+    - nheko
     - okteta
     - okteta-libs
     - oxygen-icon-theme
     - oxygen-sound-theme
+    - palapeli
     - pam-kwallet
+    - phonon-qt6
+    - phonon-qt6-backend-vlc
     - php-kolabformat
     - picmi
     - plasma-applet-translator
@@ -293,7 +333,6 @@ data:
     - plasma-firewall
     - plasma-firewall-firewalld
     - plasma-integration
-    - plasma-mediacenter
     - plasma-milou
     - plasma-nm
     - plasma-nm-fortisslvpn
@@ -308,7 +347,6 @@ data:
     - plasma-nm-vpnc
     - plasma-pa
     - plasma-pass
-    - plasma-pk-updates
     - plasma-systemmonitor
     - plasma-systemsettings
     - plasma-thunderbolt
@@ -327,7 +365,8 @@ data:
     - poxml
     - python3-kolabformat
     - qcachegrind
-    - qqc2-desktop-style
+    - qmlkonsole
+    - qqc2-breeze-style
     - qt-creator
     - qt-creator-data
     - qt-creator-doc
@@ -335,12 +374,14 @@ data:
     - qt-settings
     - rocs
     - rocs-libs
+    - ruqola
     - sddm
     - sddm-breeze
     - sddm-kcm
     - sddm-themes
     - signon-kwallet-extension
     - skanlite
+    - skladnik
     - spectacle
     - step
     - svgpart
@@ -357,8 +398,13 @@ data:
       - akonadi-import-wizard
       - akregator
       - akregator-libs
+      - angelfish
+      - arianna
+      - cantor
       - digikam
       - digikam-libs
+      - falkon
+      - ghostwriter
       - grantlee-editor
       - grantlee-editor-libs
       - k3b
@@ -395,14 +441,21 @@ data:
       - pim-sieve-editor
       - plasma-nm-openconnect
       - plasma-sdk
+      - skanpage
+      - tokodon
     aarch64:
       - akonadi-calendar-tools
       - akonadiconsole
       - akonadi-import-wizard
       - akregator
       - akregator-libs
+      - angelfish
+      - arianna
+      - cantor
       - digikam
       - digikam-libs
+      - falkon
+      - ghostwriter
       - grantlee-editor
       - grantlee-editor-libs
       - k3b
@@ -439,3 +492,5 @@ data:
       - pim-sieve-editor
       - plasma-nm-openconnect
       - plasma-sdk
+      - skanpage
+      - tokodon
