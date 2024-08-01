@@ -9,6 +9,7 @@ data:
   packages:
     - afterburn
     - afterburn-dracut
+    - bootupd
     - butane
     - console-login-helper-messages-issuegen
     - console-login-helper-messages-motdgen
@@ -23,13 +24,6 @@ data:
     - coreos-installer
     - coreos-installer-bootinfra
     - coreos-installer-dracut
-  arch_packages:
-    x86_64:
-      - bootupd
-    aarch64:
-      - bootupd
-    ppc64le:
-      - bootupd
   labels:
     - eln
     - c10s
