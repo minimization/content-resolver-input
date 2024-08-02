@@ -42,7 +42,6 @@ data:
     - dnsmasq
     - dnsmasq-utils
     - dosfstools
-    - driverctl
     - e2fsprogs
     - edk2-ovmf
     - ethtool
@@ -256,7 +255,6 @@ data:
     - python3-werkzeug
     - qemu-img
     - radvd
-    - redis
     - resource-agents
     - rng-tools
     - rpmdevtools
@@ -302,6 +300,7 @@ data:
     - tzdata
     - unbound
     - util-linux
+    - valkey
     - which
     - xfsprogs
     - yajl
@@ -312,6 +311,7 @@ data:
       - daxio
       - dmidecode
       - dpdk
+      - driverctl
       - efibootmgr
       - efivar
       - grub2
@@ -327,6 +327,7 @@ data:
     aarch64:
       - dpdk
       - dmidecode
+      - driverctl
       - efibootmgr
       - efivar
       - grub2
@@ -340,6 +341,7 @@ data:
     ppc64le:
       - daxio
       - dpdk
+      - driverctl
       - grub2
       - grub2-efi-x64-modules
     s390x:
