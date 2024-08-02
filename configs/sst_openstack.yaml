@@ -62,7 +62,6 @@ data:
     - glibc
     - glibc-langpack-en
     - gmp
-    - grub2-efi-x64-modules
     - gtk3
     - gzip
     - haproxy
@@ -317,6 +316,7 @@ data:
       - efivar
       - grub2
       - grub2-efi-x64
+      - grub2-efi-x64-modules
       - libguestfs
       - libvirt-daemon-driver-qemu
       - python3-libguestfs
@@ -330,6 +330,7 @@ data:
       - efibootmgr
       - efivar
       - grub2
+      - grub2-efi-x64-modules
       - libguestfs
       - libvirt-daemon-driver-qemu
       - python3-libguestfs
@@ -340,6 +341,7 @@ data:
       - daxio
       - dpdk
       - grub2
+      - grub2-efi-x64-modules
     s390x:
       - libguestfs
       - libvirt-daemon-driver-qemu
