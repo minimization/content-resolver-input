@@ -46,7 +46,6 @@ data:
     - juk
     - kaccounts-integration-qt6
     - kactivitymanagerd
-    - kaidan
     - kajongg
     - kalk
     - kalm
@@ -337,7 +336,6 @@ data:
     - plasma-nm
     - plasma-nm-fortisslvpn
     - plasma-nm-iodine
-    - plasma-nm-l2tp
     - plasma-nm-openswan
     - plasma-nm-openvpn
     - plasma-nm-pptp
@@ -412,6 +410,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
@@ -439,6 +438,7 @@ data:
       - pim-data-exporter
       - pim-data-exporter-libs
       - pim-sieve-editor
+      - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
       - skanpage
@@ -463,6 +463,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
@@ -490,7 +491,10 @@ data:
       - pim-data-exporter
       - pim-data-exporter-libs
       - pim-sieve-editor
+      - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
       - skanpage
       - tokodon
+    ppc64le:
+      - plasma-nm-l2tp
