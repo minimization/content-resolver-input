@@ -17,7 +17,6 @@ data:
     - audiotube
     - baloo-widgets
     - blinken
-    - bluedevil
     - bomber
     - bovo
     - breeze-cursor-theme
@@ -398,6 +397,7 @@ data:
       - akregator-libs
       - angelfish
       - arianna
+      - bluedevil
       - cantor
       - digikam
       - digikam-libs
@@ -451,6 +451,7 @@ data:
       - akregator-libs
       - angelfish
       - arianna
+      - bluedevil
       - cantor
       - digikam
       - digikam-libs
@@ -497,4 +498,5 @@ data:
       - skanpage
       - tokodon
     ppc64le:
+      - bluedevil
       - plasma-nm-l2tp
