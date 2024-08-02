@@ -9,7 +9,6 @@ data:
     - ansible-freeipa
     - augeas-libs
     - bind
-    - biosdevname
     - boost-atomic
     - boost-chrono
     - boost-date-time
@@ -38,19 +37,14 @@ data:
     - cyrus-sasl-lib
     - cyrus-sasl-plain
     - cyrus-sasl-scram
-    - daxio
     - device-mapper-multipath
     - dhcp-client
-    - dmidecode
     - dnsmasq
     - dnsmasq-utils
     - dosfstools
-    - dpdk
     - driverctl
     - e2fsprogs
     - edk2-ovmf
-    - efibootmgr
-    - efivar
     - ethtool
     - expect
     - fence-agents-all
@@ -68,8 +62,6 @@ data:
     - glibc
     - glibc-langpack-en
     - gmp
-    - grub2
-    - grub2-efi-x64
     - grub2-efi-x64-modules
     - gtk3
     - gzip
@@ -108,7 +100,6 @@ data:
     - libgcc
     - libgcrypt
     - libgpg-error
-    - libguestfs
     - libmemcached-libs
     - libmicrohttpd
     - libmnl
@@ -131,7 +122,6 @@ data:
     - libvirt-daemon-config-nwfilter
     - libvirt-daemon-driver-nodedev
     - libvirt-daemon-driver-nwfilter
-    - libvirt-daemon-driver-qemu
     - libvirt-daemon-driver-secret
     - libvirt-daemon-driver-storage-core
     - libvirt-libs
@@ -162,7 +152,6 @@ data:
     - net-snmp-agent-libs
     - net-snmp-libs
     - net-tools
-    - network-scripts
     - nfs-utils
     - nmap-ncat
     - nodejs
@@ -171,7 +160,7 @@ data:
     - nvmetcli
     - openblas-threads
     - OpenIPMI-libs
-    - OpenIPMI-perl
+#    - OpenIPMI-perl
     - openldap
     - openssh
     - openssh-clients
@@ -226,7 +215,6 @@ data:
     - python3-jsonschema
     - python3-jwt
     - python3-ldap
-    - python3-libguestfs
     - python3-libs
     - python3-libselinux
     - python3-libvirt
@@ -268,8 +256,6 @@ data:
     - python3-urllib3
     - python3-werkzeug
     - qemu-img
-    - qemu-kvm
-    - qemu-kvm-core
     - radvd
     - redis
     - resource-agents
@@ -291,7 +277,6 @@ data:
     - selinux-policy-targeted
     - sg3_utils
     - shadow-utils
-    - shim-x64
     - skopeo
     - smartmontools
     - snappy
@@ -318,21 +303,48 @@ data:
     - tzdata
     - unbound
     - util-linux
-    - util-linux-user
     - which
     - xfsprogs
     - yajl
     - zlib-ng-compat
   arch_packages:
     x86_64:
-      - efivar
+      - biosdevname
+      - daxio
+      - dmidecode
       - dpdk
+      - efibootmgr
+      - efivar
+      - grub2
+      - grub2-efi-x64
+      - libguestfs
+      - libvirt-daemon-driver-qemu
+      - python3-libguestfs
+      - qemu-kvm
+      - qemu-kvm-core
+      - shim-x64
     #    - spice-server
     aarch64:
       - dpdk
+      - dmidecode
+      - efibootmgr
       - efivar
+      - grub2
+      - libguestfs
+      - libvirt-daemon-driver-qemu
+      - python3-libguestfs
+      - qemu-kvm
+      - qemu-kvm-core
     #    - spice-server
     ppc64le:
+      - daxio
       - dpdk
+      - grub2
+    s390x:
+      - libguestfs
+      - libvirt-daemon-driver-qemu
+      - python3-libguestfs
+      - qemu-kvm
+      - qemu-kvm-core
   labels:
     - eln-extras
