@@ -14,7 +14,9 @@ data:
     - cinnamon-settings-daemon
     - cinnamon-translations
     - cjs
+    - folder-color-switcher
     - gnome-icon-theme
+    - gnome-online-accounts-gtk
     - mintlocale
     - mint-themes
     - mint-x-icons
@@ -31,7 +33,9 @@ data:
     - nemo-seahorse
     - nemo-search-helpers
     - nemo-terminal
+    - python3-xapp
     - xapps
+    - xdg-desktop-portal-xapp
     - xed
     - xreader
   labels:
