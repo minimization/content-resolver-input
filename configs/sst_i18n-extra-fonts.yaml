@@ -69,6 +69,7 @@ data:
     - langpacks-fonts-zu
     - lato-fonts
     - liberation-narrow-fonts
+    - sil-nuosu-fonts
   labels:
     - eln
     - c10s
