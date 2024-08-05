@@ -7,6 +7,8 @@ data:
   packages:
     - augeas
     - dtc
+    - edk2-aarch64
+    - edk2-ovmf
     - gtk-vnc2
     - hexedit
     - hivex
@@ -38,7 +40,6 @@ data:
     - c10s
   arch_packages:
     x86_64:
-      - edk2-ovmf
       - guestfs-tools
       - libguestfs
       - qemu-kvm
@@ -53,7 +54,6 @@ data:
     ppc64le:
       - powerpc-utils
     aarch64:
-      - edk2-aarch64
       - guestfs-tools
       - libguestfs
       - libguestfs-inspect-icons
