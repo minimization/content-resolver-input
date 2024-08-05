@@ -27,7 +27,6 @@ data:
     - systemd-udev
     - polkit
     - zram-generator
-    - zram-generator-defaults
   labels:
     - eln
     - c10s
