@@ -21,10 +21,12 @@ data:
     - pcp-export-pcp2graphite
     - pcp-export-pcp2influxdb
     - pcp-export-pcp2json
+    - pcp-export-pcp2openmetrics
     - pcp-export-pcp2spark
     - pcp-export-pcp2xml
     - pcp-export-pcp2zabbix
     - pcp-export-zabbix-agent
+    - pcp-geolocate
     - pcp-gui
     - pcp-import-collectl2pcp
     - pcp-import-ganglia2pcp
@@ -34,6 +36,7 @@ data:
     - pcp-libs
     - pcp-libs-devel
     - pcp-pmda-activemq
+    - pcp-pmda-amdgpu
     - pcp-pmda-apache
     - pcp-pmda-bash
     - pcp-pmda-bind2
@@ -47,6 +50,7 @@ data:
     - pcp-pmda-ds389
     - pcp-pmda-ds389log
     - pcp-pmda-elasticsearch
+    - pcp-pmda-farm
     - pcp-pmda-gluster
     - pcp-pmda-gpfs
     - pcp-pmda-gpsd
@@ -132,3 +136,4 @@ data:
       - pcp-pmda-infiniband
       - pcp-pmda-mssql
       - pcp-pmda-perfevent
+      - pcp-pmda-resctrl
