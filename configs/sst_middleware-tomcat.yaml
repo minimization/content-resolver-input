@@ -10,6 +10,7 @@ data:
     - tomcat-admin-webapps
     - tomcat-docs-webapp
     - tomcat-el-3.0-api
+    - tomcat-jakartaee-migration
     - tomcat-jsp-2.3-api
     - tomcat-lib
     - tomcat-servlet-4.0-api
