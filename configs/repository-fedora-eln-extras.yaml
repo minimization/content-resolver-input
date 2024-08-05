@@ -36,13 +36,13 @@ data:
         priority: 2
       RT:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/RT/$basearch/os/
-        priority: 50
+        priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["x86_64"]
       RS:
         baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/ResilientStorage/$basearch/os/
-        priority: 50
+        priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["ppc64le", "s390x", "x86_64"]
