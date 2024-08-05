@@ -95,7 +95,6 @@ data:
     - pcp-pmda-zswap
     - pcp-selinux
     - pcp-system-tools
-    - pcp-testsuite
     - pcp-zeroconf
     - perl-PCP-LogImport
     - perl-PCP-LogSummary
