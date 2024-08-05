@@ -7,11 +7,9 @@ data:
   packages:
     - ansible-pcp
     - chan
-    - chan-devel
     - grafana
     - grafana-pcp
     - HdrHistogram_c
-    - HdrHistogram_c-devel
     - js-d3-flame-graph
     - pcp
     - pcp-conf
