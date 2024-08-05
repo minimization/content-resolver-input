@@ -50,16 +50,12 @@ data:
     # gfs2 packages are not supported on aarch64.
     # aarch64:
     # - gfs2-utils
-    # - pcp-pmda-gfs2
     ppc64le:
       - gfs2-utils
-      - pcp-pmda-gfs2
     s390x:
       - gfs2-utils
-      - pcp-pmda-gfs2
     x86_64:
       - gfs2-utils
-      - pcp-pmda-gfs2
   labels:
     - eln
     - c10s
