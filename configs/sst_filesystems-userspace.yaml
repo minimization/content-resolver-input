@@ -46,16 +46,6 @@ data:
     - xfsdump
     - xfsprogs
     - xfsprogs-xfs_scrub
-  arch_packages:
-    # gfs2 packages are not supported on aarch64.
-    # aarch64:
-    # - gfs2-utils
-    ppc64le:
-      - gfs2-utils
-    s390x:
-      - gfs2-utils
-    x86_64:
-      - gfs2-utils
   labels:
     - eln
     - c10s
