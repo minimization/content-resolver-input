@@ -5,7 +5,6 @@ data:
   description: Enforcing USB security policy
   maintainer: sst_security_special_projects
   packages:
-    - catch1-devel
     - usbguard
     - usbguard-dbus
     - usbguard-notifier
