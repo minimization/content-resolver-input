@@ -4,10 +4,16 @@ data:
   name: Brasero
   description: Default physical media burner application in Workstation
   maintainer: sst_desktop
-  packages:
-    - brasero
-    # Disabled until https://gitlab.gnome.org/GNOME/brasero/-/merge_requests/21 is merged
-    # - brasero-nautilus
+  packages: []
+  arch_packages:
+    ppc64le:
+      - brasero
+      # Disabled until https://gitlab.gnome.org/GNOME/brasero/-/merge_requests/21 is merged
+      # - brasero-nautilus
+    x86_64:
+      - brasero
+      # Disabled until https://gitlab.gnome.org/GNOME/brasero/-/merge_requests/21 is merged
+      # - brasero-nautilus
   labels:
     - eln
     - c10s

@@ -4,8 +4,12 @@ data:
   name: Snapshot
   description: Default application for handling webcams in Workstation
   maintainer: sst_desktop
-  packages:
-    - snapshot
+  packages: []
+  arch_packages:
+    ppc64le:
+      - snapshot
+    x86_64:
+      - snapshot
   labels:
     - eln
     - c10s
