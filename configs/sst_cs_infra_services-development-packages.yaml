@@ -23,8 +23,6 @@ data:
     # libidn2
     - idn2
     - libidn2-devel
-    # iperf3
-    - iperf3-devel
     # libevent
     - libevent
     - libevent-devel
