@@ -76,22 +76,6 @@ data:
           limit_arches:
             - x86_64
             - ppc64le
-    - srpm_name: compat-locales-sap
-      rpms:
-        - rpm_name: compat-locales-sap-common
-          description: locales for SAP
-          dependencies: []
-          limit_arches:
-            - x86_64
-            - ppc64le
-            - s390x
-        - rpm_name: compat-locales-sap
-          description: locales for SAP
-          dependencies: []
-          limit_arches:
-            - x86_64
-            - ppc64le
-            - s390x
   labels:
     - eln
     - c10s
