@@ -11,10 +11,8 @@ data:
     - luarocks
     - leveldb
     - fmt
-  unwanted_arch_packages:
-    aarch64:
-      - gfs2-utils
-      - pcp-pmda-gfs2
+    - gfs2-utils
+    - pcp-pmda-gfs2
   labels:
     - eln
     - c10s

@@ -113,7 +113,6 @@ data:
       - iwl7260-firmware
       - libibverbs
       - rdma-core
-      - gfs2-utils
     ppc64le:
       - powerpc-utils
       - lsvpd
@@ -125,7 +124,6 @@ data:
       - linux-firmware
       - libibverbs
       - rdma-core
-      - gfs2-utils
     aarch64:
       - efibootmgr
       - grub2-efi-aa64-cdboot
@@ -142,7 +140,6 @@ data:
       - s390utils-hmcdrvfs
       - libibverbs
       - rdma-core
-      - gfs2-utils
   package_placeholders:
     - srpm_name: redhat-release
       rpms:
