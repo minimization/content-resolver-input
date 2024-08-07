@@ -10,6 +10,8 @@ data:
     - libblockdev-vdo-devel
     - libhbaapi
     - libhbalinux
+    - libstoragemgmt-smis-plugin
+    - python3-pywbem
     - udisks2-zram
   labels:
     - eln

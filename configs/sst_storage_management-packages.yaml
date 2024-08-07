@@ -46,7 +46,6 @@ data:
     - libstoragemgmt-local-plugin
     - libstoragemgmt-megaraid-plugin
     - libstoragemgmt-nfs-plugin
-    - libstoragemgmt-smis-plugin
     - libstoragemgmt-targetd-plugin
     - libstoragemgmt-udev
     - libudisks2
@@ -56,7 +55,6 @@ data:
     - python3-blivet
     - python3-blockdev
     - python3-libstoragemgmt
-    - python3-pywbem
     - sg3_utils
     - udisks2
     - udisks2-iscsi
