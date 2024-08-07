@@ -5,24 +5,6 @@ data:
   description: SST Storage Management Supported Packages
   maintainer: sst_storage_management
   packages:
-    # SID and its sub-packages
-    - sid
-    - sid-base-libs
-    - sid-base-libs-devel
-    - sid-iface-libs
-    - sid-iface-libs-devel
-    - sid-internal-libs
-    - sid-internal-libs-devel
-    - sid-log-libs
-    - sid-log-libs-devel
-    - sid-mod-block-blkid
-    - sid-mod-block-dm-mpath
-    - sid-mod-type-dm
-    - sid-mod-type-dm-lvm
-    - sid-mod-dummies
-    - sid-resource-libs
-    - sid-resource-libs-devel
-    - sid-tools
     # Storage Management
     - hdparm
     - libblockdev
