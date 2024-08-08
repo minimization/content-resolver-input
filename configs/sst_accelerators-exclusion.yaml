@@ -1,0 +1,18 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Accelerators Exclusion List
+  description: Accelerators packages not required in RHEL-9
+  maintainer: sst_accelerators
+  unwanted_packages:
+    - opae
+    - opae-devel
+    - spdlog
+    - spdlog-devel
+    - catch
+    - catch-devel
+    - cli11
+    - cli11-devel
+  labels:
+    - eln
+    - c10s
