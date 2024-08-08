@@ -79,7 +79,7 @@ data:
     - bind-utils
     - ftp
     - mtr
-    - wget2-wget
+    - wget
     - hexedit
     - sg3_utils
     - perl-interpreter
