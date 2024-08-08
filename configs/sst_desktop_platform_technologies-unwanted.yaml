@@ -9,6 +9,8 @@ data:
     - lutok
     - kyua
     - re2c
+    # Totem is removed from RHEL 10, avoid usage in other components
+    - totem-pl-parser
   labels:
     - eln
     - c10s
