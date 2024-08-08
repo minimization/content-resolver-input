@@ -21,7 +21,7 @@ data:
     - rsync
     - tar
     - unzip
-    - wget2-wget
+    - wget
     - which
     # build tools often used for binary extensions
     - autoconf
