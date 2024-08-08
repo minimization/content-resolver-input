@@ -4,7 +4,7 @@ data:
   name: Desktop - Blocked packages
   description: Desktop - Packages which should not be in ELN
   maintainer: sst_desktop
-  unwanted_packages:
+  unwanted_source_packages:
     # RHEL 9 unwanted entries:
     # quvi is disabled as a dependency of Totem in RHEL
     - libquvi-scripts
@@ -29,10 +29,7 @@ data:
     - gupnp-dlna
     - gupnp-igd
     - gupnp
-    - dleyna-connector-dbus
-    - dleyna-core
-    - dleyna-renderer
-    - dleyna-server
+    - dleyna
     # Replaced by gnome-session-kiosk-session
     - metacity
     # Mouse a11y is now provided by gnome-shell
@@ -44,6 +41,8 @@ data:
     - mozjs60
     - mozjs68
     - mozjs78
+    - mozjs91
+    - mozjs102
     # Old or deprecated or unwanted or unused stuff
     - clutter-gtk
     - clutter-gst3
@@ -74,8 +73,7 @@ data:
     - libhandy1
     # only GTK 3 and GTK 4 supported in ELN and RHEL 10
     - gtk2
-    - gtk2-immodules
-    - adwaita-gtk2-theme
+    - gnome-themes-extra
     # Only GUI application stuck with GTK 2, also no interest in maintaining an IRC client
     - hexchat
     # https://wiki.gnome.org/Initiatives/GnomeGoals/GettextMigration
@@ -97,7 +95,6 @@ data:
     - libxklavier
     # Mostly obsoleted
     - gnome-tweaks
-  unwanted_source_packages:
     # The only supported way in RHEL to render HTML content is Firefox
     - webkitgtk
     # Obsoleted upstream for nearly 10 years

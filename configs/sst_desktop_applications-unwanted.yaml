@@ -4,22 +4,21 @@ data:
   name: Desktop Applications - Blocked packages
   description: Desktop Applications - Packages which should not be in ELN
   maintainer: sst_desktop_applications
-  unwanted_packages:
+  unwanted_source_packages:
     # RHEL 10 additional unwanted entries:
     - gnome-common
     # RHEL 9 unwanted entries:
     # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
     - libappindicator
-    - libappindicator-gtk3
     - libdbusmenu
-    - libdbusmenu-gtk3
     - libindicator
-    - libindicator-gtk3
+    - libayatana-appindicator
+    - libayatana-ido
+    - libayatana-indicator
     # Replaced by GNOME Connections
     - vinagre
     # buggy; glib improved to make dconf work on NFS
     - gamin
-    - glib2-fam
     # Replaced by GNOME Remote Desktop
     - vino
     # GNOME Shell has its own polkit dialog implementation
@@ -48,19 +47,14 @@ data:
     # Qt 6
     - qt6ct
     - qt6-qtwebengine
-    - qt6-qtwebengine-devtools
     - qt6-qtwebview
     # Deprecated Qt/GNOME integration
-    - qgnomeplatform-qt6
-    - adwaita-qt6
-    # Qt 5
-    - adwaita-qt5
-    - qgnomeplatform-qt5
+    - qgnomeplatform
+    - adwaita-qt
     # Qt 4
     - qt
     - PyQt4
     - qtwebkit
-  unwanted_source_packages:
     # Qt 5
     - python-qt5
     - qt5

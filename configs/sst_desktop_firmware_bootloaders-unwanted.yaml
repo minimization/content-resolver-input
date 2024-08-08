@@ -4,7 +4,7 @@ data:
   name: Desktop Firmware and Bootloaders - Blocked packages
   description: Desktop Firmware and Bootloaders - Packages which should not be in ELN
   maintainer: sst_desktop_firmware_bootloaders
-  unwanted_packages:
+  unwanted_source_packages:
     # Replaced by fwupd
     - fwupdate
     - libjaylink
