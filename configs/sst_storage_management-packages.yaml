@@ -18,6 +18,8 @@ data:
     - libblockdev-nvme
     - libblockdev-part
     - libblockdev-plugins-all
+    - libblockdev-smart
+    - libblockdev-smartmontools
     - libblockdev-swap
     - libblockdev-tools
     - libblockdev-utils
