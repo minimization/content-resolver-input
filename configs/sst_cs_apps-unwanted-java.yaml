@@ -6,13 +6,11 @@ data:
   maintainer: sst_cs_apps
   unwanted_source_packages:
     - ant-contrib
-    - apache-commons-exec
     - apache-commons-lang
     - apache-ivy
     - bsh
     - cal10n
     - dom4j
-    - exec-maven-plugin
     - forge-parent
     - hamcrest2
     - hsqldb
