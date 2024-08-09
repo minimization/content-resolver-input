@@ -1,0 +1,42 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: VLC
+  description: VLC media player
+  maintainer: yselkowitz
+  packages:
+    - vlc
+    - vlc-cli
+    - vlc-gui-ncurses
+    - vlc-gui-qt
+    - vlc-gui-skins2
+    - vlc-plugins-base
+    - vlc-plugins-video-out
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-fluidsynth
+    - vlc-plugin-gnome
+    - vlc-plugin-gstreamer
+    - vlc-plugin-jack
+    - vlc-plugin-kde
+    - vlc-plugin-lua
+    - vlc-plugin-notify
+    - vlc-plugin-pulseaudio
+    - vlc-plugin-rdp
+    - vlc-plugin-samba
+    - vlc-plugin-svg
+    - vlc-plugin-visualization
+    - vlc-plugin-vnc
+    # additional plugin packages
+    - vlc-plugin-bittorrent
+    - vlc-plugin-pause-click
+    - vlc-plugin-pipewire
+  arch_packages:
+    aarch64:
+      - vlc-plugin-ieee1394
+    ppc64le:
+      - vlc-plugin-ieee1394
+    #s390x: []
+    x86_64:
+      - vlc-plugin-ieee1394
+  labels:
+    - eln-extras
