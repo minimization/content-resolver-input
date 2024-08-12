@@ -5,6 +5,7 @@ data:
   description: Yaakov Selkowitzs ELN Extras packages
   maintainer: yselkowitz
   packages:
+    - cargo-vendor-filterer
     - flatseal
     - latex2rtf
     - robodoc
