@@ -65,6 +65,7 @@ data:
     - langpacks-mai
     - langpacks-mk
     - langpacks-ml
+    - langpacks-mni
     - langpacks-mr
     - langpacks-ms
     - langpacks-my
@@ -81,6 +82,7 @@ data:
     - langpacks-pt_BR
     - langpacks-ro
     - langpacks-ru
+    - langpacks-sat
     - langpacks-si
     - langpacks-sk
     - langpacks-sl
