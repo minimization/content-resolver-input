@@ -10,7 +10,12 @@ data:
     - clippy
     - rust-analyzer
     - rust-doc
+    - rust-gdb
+    - rust-lldb
     - rust-std-static
+    - rust-std-static-wasm32-unknown-unknown
+    - rust-std-static-wasm32-wasi
+    - rust-std-static-wasm32-wasip1
     - rustfmt
     - rust-toolset-srpm-macros
     - rust-toolset
