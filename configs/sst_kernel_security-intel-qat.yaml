@@ -14,10 +14,6 @@ data:
       - qatzip
       - qatzip-devel
       - qatzip-libs
-      - xxhash
-      - xxhash-devel
-      - xxhash-doc
-      - xxhash-libs
   labels:
     - eln
     - c10s
