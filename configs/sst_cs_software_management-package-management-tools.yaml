@@ -9,7 +9,6 @@ data:
     - redhat-rpm-config
     - rpm-build
     - rpmdevtools
-    - rpmlint
     - rpm-sign
     - scl-utils-build
   labels:
