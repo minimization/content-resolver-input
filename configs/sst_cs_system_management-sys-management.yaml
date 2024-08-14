@@ -56,7 +56,6 @@ data:
     - tesseract-langpack-eng
     - tesseract-tessdata-doc
     - tmpwatch
-    - tracer
     - usermode
     - uuid
     - uuid-devel
