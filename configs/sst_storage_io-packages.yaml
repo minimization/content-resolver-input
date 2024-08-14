@@ -6,6 +6,9 @@ data:
   maintainer: sst_storage_io
   packages:
     # Block Storage
+    - cxl-cli
+    - cxl-devel
+    - cxl-libs
     - daxctl
     - daxctl-devel
     - daxctl-libs
