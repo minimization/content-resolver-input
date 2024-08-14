@@ -10,7 +10,6 @@ data:
     # RHEL 9 unwanted entries:
     # Was in RHEL only because of Google Chrome, not needed anymore as they use dbus api for tray icon
     - libappindicator
-    - libdbusmenu
     - libindicator
     - libayatana-appindicator
     - libayatana-ido
