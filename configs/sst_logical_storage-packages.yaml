@@ -35,7 +35,6 @@ data:
     - device-mapper-libs
     - device-mapper-multipath
     - device-mapper-persistent-data
-    - dlm
     - lvm2
     - lvm2-dbusd
     - lvm2-devel

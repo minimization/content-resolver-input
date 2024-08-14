@@ -172,7 +172,6 @@ data:
 
   addon-rs:
     must:
-    - dlm
     - fence-agents-aliyun
     - fence-agents-azure-arm
     - fence-agents-aws
