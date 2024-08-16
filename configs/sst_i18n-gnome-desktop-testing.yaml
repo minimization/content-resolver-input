@@ -6,6 +6,7 @@ data:
   maintainer: sst_i18n
   packages:
     - gnome-desktop-testing
+    - gnome-shell-extension-no-overview
   labels:
     - eln
     - c10s
