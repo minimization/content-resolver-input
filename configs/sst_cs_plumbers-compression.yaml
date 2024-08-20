@@ -5,10 +5,10 @@ data:
   description: Tools for file compression
   maintainer: sst_cs_plumbers
   packages:
-    - lzop
     - bzip2
     - gzip
     - lz4
+    - lzop
     - unzip
     - zip
     - zstd
