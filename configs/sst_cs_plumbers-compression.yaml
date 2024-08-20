@@ -2,15 +2,19 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: Compression
-  description: Tools for file compression
+  description: Tools for file archiving and compression
   maintainer: sst_cs_plumbers
   packages:
     - bzip2
     - gzip
+    - libzip-tools
     - lz4
     - lzop
+    - tar
     - unzip
     - zip
+    - zlib-ng-compat-devel
+    - zlib-ng-compat-static
     - zstd
     - zziplib-utils
   labels:
