@@ -5,7 +5,6 @@ data:
   description: Packages for hardware enablement
   maintainer: sst_arch_hw
   packages:
-    - acpica-tools
     - bluez
     - alsa-firmware
     - alsa-sof-firmware
@@ -29,7 +28,10 @@ data:
     - s390utils
     - s390utils-se-data
   arch_packages:
+    aarch64:
+      - acpica-tools
     ppc64le:
+      - acpica-tools
       - libnxz
       - libnxz-devel
       - libnxz-static
@@ -64,6 +66,7 @@ data:
       - s390utils-zdsfs
       - s390utils-ziomon
     x86_64:
+      - acpica-tools
       - mcelog
       - tboot
       - pcm
