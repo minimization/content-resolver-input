@@ -5,6 +5,8 @@ data:
   description: Packages that the Identity Management subsystem does not want to distribute in RHEL 9
   maintainer: ssg_idm
   unwanted_packages:
+    # Removed in RHEL 10
+    - python3-netifaces
     # Drop support from RHEL-9 (replaced by SSSD)
     - nss-pam-ldapd
     # Winbind is required in Samba in RHEL-8, SSSD integrates with it directly
