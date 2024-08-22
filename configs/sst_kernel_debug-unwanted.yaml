@@ -8,6 +8,7 @@ data:
     - netdump-server
     - crash-ptdump-command
     - python-dmidecode
+    - google-benchmark
   labels:
     - eln
     - c10s
