@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Lutris
+  description: Gaming platform
+  maintainer: farchord
+  options:
+    - include-weak-deps
+  packages:
+    - lutris
+  labels:
+    - eln-extras
