@@ -5,6 +5,7 @@ data:
   description: Sequoia implementation of OpenPGP
   maintainer: sst_security_crypto
   packages:
+    - rpm-sequoia
     - sequoia-sq
     - sequoia-sqv
   labels:
