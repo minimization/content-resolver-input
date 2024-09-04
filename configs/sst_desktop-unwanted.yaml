@@ -36,13 +36,14 @@ data:
     - mousetweaks
     - gnome-themes-standard
     - gnome-doc-utils
-    # Old mozjs releases, the whole system should use only one mozjs - version 78 currently
+    # Old mozjs releases, the whole system should use only one mozjs - version 128 currently
     - mozjs52
     - mozjs60
     - mozjs68
     - mozjs78
     - mozjs91
     - mozjs102
+    - mozjs115
     # Old or deprecated or unwanted or unused stuff
     - clutter-gtk
     - clutter-gst3
