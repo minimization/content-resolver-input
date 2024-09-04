@@ -27,6 +27,7 @@ data:
     - pigz
     - s390utils
     - s390utils-se-data
+    - x3270
   arch_packages:
     aarch64:
       - acpica-tools
