@@ -4,9 +4,9 @@ data:
   name: Unwanted Packages for ELN - sst_kernel_debug
   description: Packages not shipping in ELN
   maintainer: sst_kernel_debug
-  unwanted_packages:
+  unwanted_source_packages:
+    - google-benchmark
     - netdump-server
-    - crash-ptdump-command
     - python-dmidecode
   labels:
     - eln
