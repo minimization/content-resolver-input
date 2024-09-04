@@ -300,6 +300,7 @@ data:
     - marble-qt
     - marble-widget-data
     - markdownpart
+    - marknote
     - massif-visualizer
     - minuet
     - neochat
@@ -424,8 +425,6 @@ data:
       - kmail
       - kmail-account-wizard
       - kmail-libs
-      - knotes
-      - knotes-libs
       - konqueror
       - konqueror-libs
       - kontact
@@ -478,8 +477,6 @@ data:
       - kmail
       - kmail-account-wizard
       - kmail-libs
-      - knotes
-      - knotes-libs
       - konqueror
       - konqueror-libs
       - kontact
