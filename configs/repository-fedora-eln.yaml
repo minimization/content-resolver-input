@@ -121,6 +121,7 @@ data:
         - xen-devel
         # rust lib crates are unwanted; dependencies must be vendored
         - cargo-rpm-macros
+        - rust-srpm-macros
         - rust-*-devel
         # ELN has only a subset of texlive; avoid components only in Fedora
         - texlive-xindy
