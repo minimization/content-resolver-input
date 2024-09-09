@@ -8,58 +8,58 @@ data:
   source:
     repos:
       BaseOS:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/BaseOS/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/BaseOS/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         priority: 1
       AppStream:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/AppStream/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/AppStream/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         priority: 1
       CRB:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/CRB/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/CRB/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         priority: 1
       HA:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/HighAvailability/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/HighAvailability/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["aarch64", "ppc64le", "s390x", "x86_64"]
         priority: 2
       NFV:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/NFV/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/NFV/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["x86_64"]
         priority: 2
       RT:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/RT/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/RT/$basearch/os/
         priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["x86_64"]
       RS:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/ResilientStorage/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/ResilientStorage/$basearch/os/
         priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["ppc64le", "s390x", "x86_64"]
       SAP:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/SAP/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/SAP/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["ppc64le", "s390x", "x86_64"]
         priority: 2
       SAPHANA:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/SAPHANA/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/SAPHANA/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         limit_arches: ["ppc64le", "x86_64"]
         priority: 2
       Extras:
-        baseurl: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/Extras/$basearch/os/
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/Extras/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         priority: 3
@@ -90,5 +90,5 @@ data:
       - ppc64le
       - s390x
       - x86_64
-    composeinfo: https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose/metadata/composeinfo.json
+    composeinfo: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/metadata/composeinfo.json
     base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']
