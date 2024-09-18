@@ -8,11 +8,13 @@ data:
     - bodhi-client
     - fedora-easy-karma
     - fedora-packager
-    - fedrepo-req
+    - fedora-repoquery
+    - fedpkg
     - git
     - koji
     - mock
     - rpm-build
     - rpmdevtools
+    - rpmdistro-repoquery
   labels:
     - eln-extras
