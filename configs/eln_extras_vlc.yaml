@@ -10,22 +10,13 @@ data:
     - vlc-gui-ncurses
     - vlc-gui-qt
     - vlc-gui-skins2
-    - vlc-plugins-base
-    - vlc-plugins-video-out
-    - vlc-plugin-ffmpeg
-    - vlc-plugin-fluidsynth
+    - vlc-plugins-all
+    # conditional dependencies
     - vlc-plugin-gnome
-    - vlc-plugin-gstreamer
     - vlc-plugin-jack
     - vlc-plugin-kde
-    - vlc-plugin-lua
     - vlc-plugin-notify
     - vlc-plugin-pulseaudio
-    - vlc-plugin-rdp
-    - vlc-plugin-samba
-    - vlc-plugin-svg
-    - vlc-plugin-visualization
-    - vlc-plugin-vnc
     # additional plugin packages
     - vlc-plugin-bittorrent
     - vlc-plugin-pause-click
