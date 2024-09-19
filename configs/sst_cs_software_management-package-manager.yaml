@@ -9,6 +9,7 @@ data:
     - dnf-automatic
     - dnf-plugins-core
     - python3-dnf-plugin-post-transaction-actions
+    - python3-dnf-plugin-pre-transaction-actions
     - python3-dnf-plugin-versionlock
     - rpm
     - rpm-apidocs
