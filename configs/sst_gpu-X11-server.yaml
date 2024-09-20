@@ -7,6 +7,8 @@ data:
   packages:
     # x11 server
     - xorg-x11-server-Xwayland
+    # needed for e.g. allowing to listen over a TCP socket
+    - xhost
   labels:
     - eln
     - c10s
