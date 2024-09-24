@@ -51,3 +51,5 @@ data:
     # with glibc (fgetln, setproctitle).  fgetln should calls be replaced
     # with getline, arc4random* with a PRNG from a cryptograhpic library.
     - libbsd
+    # Only supported linkers are ld.bfd (binutils) or lld
+    - mold
