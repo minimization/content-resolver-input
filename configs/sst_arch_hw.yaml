@@ -31,8 +31,10 @@ data:
   arch_packages:
     aarch64:
       - acpica-tools
+      - bluez-obexd
     ppc64le:
       - acpica-tools
+      - bluez-obexd
       - libnxz
       - libnxz-devel
       - libnxz-static
@@ -68,6 +70,7 @@ data:
       - s390utils-ziomon
     x86_64:
       - acpica-tools
+      - bluez-obexd
       - mcelog
       - tboot
       - pcm
