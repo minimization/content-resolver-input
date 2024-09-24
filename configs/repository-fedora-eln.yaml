@@ -91,6 +91,7 @@ data:
         # unwanted python deps
         - python3-build
         - python3-docs
+        - python3-etcd
         - python3-hypothesis
         - python3-ipython
         - python3-pillow

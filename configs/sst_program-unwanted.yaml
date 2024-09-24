@@ -22,6 +22,7 @@ data:
     - compat-golang-github-coreos-etcd-devel
     - golang-etcd-devel
     - golang-etcd-etcdserver-api-3rpc-devel
+    - python3-etcd
     - fedora-packager
     - fedora-packager-yubikey
     - fedpkg
