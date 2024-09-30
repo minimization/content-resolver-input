@@ -25,7 +25,7 @@ data:
     - libreoffice-gtk3
     - libreoffice-kf6
     - libreoffice-x11
-    # langpacks
+    # langpacks (those with missing deps are commented out)
     - libreoffice-langpack-af
     - libreoffice-langpack-ar
     - libreoffice-langpack-as
@@ -62,13 +62,13 @@ data:
     - libreoffice-langpack-kn
     - libreoffice-langpack-ko
     - libreoffice-langpack-lt
-    - libreoffice-langpack-lv
+#    - libreoffice-langpack-lv
     - libreoffice-langpack-mai
     - libreoffice-langpack-ml
     - libreoffice-langpack-mr
-    - libreoffice-langpack-nb
+#    - libreoffice-langpack-nb
     - libreoffice-langpack-nl
-    - libreoffice-langpack-nn
+#    - libreoffice-langpack-nn
     - libreoffice-langpack-nr
     - libreoffice-langpack-nso
     - libreoffice-langpack-or
