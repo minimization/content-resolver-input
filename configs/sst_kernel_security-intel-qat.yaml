@@ -14,6 +14,7 @@ data:
       - qatzip
       - qatzip-devel
       - qatzip-libs
+      - qat-zstd-plugin
   labels:
     - eln
     - c10s
