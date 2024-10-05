@@ -86,6 +86,7 @@ data:
     - texlive-colortbl
     - texlive-context
     - texlive-courier
+    - texlive-count1to
     - texlive-crop
     - texlive-csquotes
     - texlive-ctable
@@ -112,6 +113,7 @@ data:
     - texlive-etexcmds
     - texlive-etoc
     - texlive-etoolbox
+    - texlive-everyshi
     - texlive-euenc
     - texlive-euler
     - texlive-euro
@@ -241,6 +243,7 @@ data:
     - texlive-ms
     - texlive-multido
     - texlive-multirow
+    - texlive-multitoc
     - texlive-natbib
     - texlive-ncctools
     - texlive-ncntrsbk
@@ -383,7 +386,6 @@ data:
     - texlive-xkeyval
     - texlive-xltxtra
     - texlive-xmltex
-    - texlive-xmltexconfig
     - texlive-xstring
     - texlive-xtab
     - texlive-xunicode
