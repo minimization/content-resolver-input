@@ -114,6 +114,7 @@ data:
     - texlive-etoc
     - texlive-etoolbox
     - texlive-everyshi
+    - texlive-everysel
     - texlive-euenc
     - texlive-euler
     - texlive-euro
@@ -261,9 +262,11 @@ data:
     - texlive-parskip
     - texlive-passivetex
     - texlive-pdfcol
+    - texlive-pdfcolfoot
     - texlive-pdfcolmk
     - texlive-pdfescape
     - texlive-pdflscape
+    - texlive-pdfmanagement-testphase
     - texlive-pdfpages
     - texlive-pdftex
     - texlive-pdftexcmds
@@ -383,6 +386,7 @@ data:
     - texlive-xetexconfig
     - texlive-xetexfontinfo
     - texlive-xifthen
+    - texlive-xfrac
     - texlive-xkeyval
     - texlive-xltxtra
     - texlive-xmltex
