@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ELN Extras Python
+  description: Python packages, crucial for EPEL packaging
+  maintainer: churchyard
+  packages:
+    - python3-hatch-vcs
+    - python3-poetry-core
+    - python3-pytest-mock
+    - python3-pytest-xdist
+    - python3-tox-current-env
+    - python3-virtualenv
+    - tox
+    - uv
+  labels:
+    - eln-extras
