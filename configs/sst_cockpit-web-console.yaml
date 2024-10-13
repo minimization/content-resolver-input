@@ -13,7 +13,6 @@ data:
     # recommended packages from cockpit metapackage
     - cockpit-packagekit
     - cockpit-storaged
-    - cockpit-pcp
     - cockpit-doc
     # RHEL 4 Edge image management
     - cockpit-ostree
