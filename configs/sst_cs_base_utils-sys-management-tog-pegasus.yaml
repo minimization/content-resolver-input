@@ -3,7 +3,7 @@ version: 1
 data:
   name: tog-pegasus
   description: OpenPegasus WBEM Services for Linux
-  maintainer: sst_cs_system_management
+  maintainer: sst_cs_base_utils
   packages:
     - tog-pegasus-devel
     - tog-pegasus-libs

@@ -3,7 +3,7 @@ version: 1
 data:
   name: sblim-cmpi-devel
   description: SBLIM CMPI Provider Development Support
-  maintainer: sst_cs_system_management
+  maintainer: sst_cs_base_utils
   packages:
     - libcmpiCppImpl0
     - sblim-cmpi-devel

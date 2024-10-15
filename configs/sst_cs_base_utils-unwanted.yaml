@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Core Services System management - Blocked packages
-  description: Core Services System management - Packages which should not be in ELN
-  maintainer: sst_cs_system_management
+  name: sst_cs_base_utils - Blocked packages
+  description: sst_cs_base_utils - Packages which should not be in ELN
+  maintainer: sst_cs_base_utils
   unwanted_packages:
     - linuxconsoletools
     - mtools
