@@ -9,6 +9,10 @@ data:
     - nodejs-devel
     - nodejs-npm
     - nodejs-nodemon
+    # requirements for rebuilding WASM artifacts
+    - nodejs-cjs-module-lexer
+    - nodejs-undici
+    - wasi-libc
   labels:
     - eln
     - c10s
