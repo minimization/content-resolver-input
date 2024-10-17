@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for Java
   description: Packages we do not want to ship for Java
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   unwanted_source_packages:
     - ant-contrib
     - apache-commons-lang
