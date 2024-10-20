@@ -41,15 +41,6 @@ data:
         limit_arches:
           - x86_64
         priority: 2
-      RS:
-        baseurl: https://composes.stream.centos.org/stream-10/development/latest-CentOS-Stream/compose/ResilientStorage/$basearch/os/
-        koji_api_url: https://kojihub.stream.centos.org/kojihub
-        koji_files_url: https://kojihub.stream.centos.org/kojifiles
-        limit_arches:
-          - ppc64le
-          - s390x
-          - x86_64
-        priority: 2
       SAP:
         baseurl: https://composes.stream.centos.org/stream-10/development/latest-CentOS-Stream/compose/SAP/$basearch/os/
         koji_api_url: https://kojihub.stream.centos.org/kojihub
