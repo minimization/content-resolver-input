@@ -26,7 +26,6 @@ data:
     - skopeo
     - toolbox
     - udica
-    - yajl
   package_placeholders:
     - srpm_name: container-tools
       build_dependencies: []
