@@ -3,7 +3,7 @@ version: 1
 data:
   name: Apache Log4j
   description: Java logging library
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   packages:
     - log4j
     - log4j-jcl
