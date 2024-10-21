@@ -9,6 +9,10 @@ data:
     - dotnet-sdk-8.0
     - dotnet-runtime-8.0
     - aspnetcore-runtime-8.0
+    # EOL in May, 2026
+    - dotnet-sdk-9.0
+    - dotnet-runtime-9.0
+    - aspnetcore-runtime-9.0
   labels:
     - eln
     - c10s
