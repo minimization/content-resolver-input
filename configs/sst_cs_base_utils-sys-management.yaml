@@ -79,6 +79,7 @@ data:
       - setserial
     x86_64:
       - setserial
+      - opencryptoki-ccatok
     ppc64le:
       - iprutils
       - setserial
@@ -94,6 +95,7 @@ data:
       - librtas
       - librtas-devel
       - servicelog
+      - opencryptoki-ccatok
     s390x:
       - opencryptoki-ccatok
       - opencryptoki-ep11tok
