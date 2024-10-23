@@ -241,7 +241,6 @@ data:
     - texlive-modes
     - texlive-mparhack
     - texlive-mptopdf
-    - texlive-ms
     - texlive-multido
     - texlive-multirow
     - texlive-multitoc
