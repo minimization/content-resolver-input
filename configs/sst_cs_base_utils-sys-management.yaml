@@ -16,6 +16,7 @@ data:
     - freeipmi-devel
     - ipmitool
     - jasper-devel
+    - less
     - libgphoto2-devel
     - librabbitmq
     - librabbitmq-devel
@@ -55,6 +56,7 @@ data:
     - tesseract-devel
     - tesseract-langpack-eng
     - tesseract-tessdata-doc
+    - time
     - tmpwatch
     - usermode
     - uuid
