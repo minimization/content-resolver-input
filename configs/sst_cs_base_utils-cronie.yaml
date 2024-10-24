@@ -3,7 +3,7 @@ version: 1
 data:
   name: Cronie
   description: A standard UNIX daemon crond that runs specified programs at scheduled times
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   packages:
     - at
     - cronie

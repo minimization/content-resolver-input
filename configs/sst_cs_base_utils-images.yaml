@@ -3,7 +3,7 @@ version: 1
 data:
   name: Image libraries
   description: Popular libraries for image processing (JPEG, TIFF, PNG)
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   packages:
     - libpng
     - libpng-devel

@@ -5,7 +5,6 @@ data:
   description: Basic tools and daemon needed to run a server
   maintainer: sst_cs_plumbers
   packages:
-    - coreutils-single
     - curl
     - libcurl-minimal
   labels:

@@ -3,7 +3,7 @@ version: 1
 data:
   name: mutt mail client
   description: A popular command-line e-mail client
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   packages:
     - mutt
   labels:

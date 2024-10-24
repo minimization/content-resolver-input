@@ -9,7 +9,6 @@ data:
     #- biosdevname
     - ledmon
     - numad
-    - sgpio
     - libatasmart
     - prefixdevname
   arch_packages:

@@ -13,8 +13,6 @@ data:
     - dracut-network
     - dracut-squash
     - dracut-tools
-    - acl
-    - coreutils
     - curl
     - gawk
     - sed

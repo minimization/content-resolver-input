@@ -70,6 +70,11 @@ data:
     - bacula-console
     - udftools
     - docbook5-schemas
+    - pinfo
+    - elinks
+    - python3-bottle
+    - python3-pycurl
+    - vorbis-tools
   labels:
     - eln
     - c10s

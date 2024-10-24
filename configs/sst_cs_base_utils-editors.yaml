@@ -3,12 +3,9 @@ version: 1
 data:
   name: Editors
   description: Editors
-  maintainer: sst_cs_plumbers
+  maintainer: sst_cs_base_utils
   packages:
-    - emacs
-    - emacs-lucid
-    - emacs-nw
-    - emacs-auctex
+    - nano
   labels:
     - eln
     - c10s
