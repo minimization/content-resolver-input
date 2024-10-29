@@ -19,6 +19,7 @@ data:
     - criu
     - crun
     - fuse-overlayfs
+    - gvisor-tap-vsock
     - netavark
     - oci-seccomp-bpf-hook
     - podman
