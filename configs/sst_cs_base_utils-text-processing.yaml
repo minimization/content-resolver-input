@@ -23,6 +23,7 @@ data:
     - texinfo
     - texinfo-tex
     - texlive
+    - texlive-acronym
     - texlive-adjustbox
     - texlive-ae
     - texlive-algorithms
@@ -85,8 +86,8 @@ data:
     - texlive-colorprofiles
     - texlive-colortbl
     - texlive-context
-    - texlive-courier
     - texlive-count1to
+    - texlive-courier
     - texlive-crop
     - texlive-csquotes
     - texlive-ctable
@@ -113,12 +114,12 @@ data:
     - texlive-etexcmds
     - texlive-etoc
     - texlive-etoolbox
-    - texlive-everyshi
-    - texlive-everysel
     - texlive-euenc
     - texlive-euler
     - texlive-euro
     - texlive-eurosym
+    - texlive-everysel
+    - texlive-everyshi
     - texlive-extsizes
     - texlive-fancybox
     - texlive-fancyhdr
@@ -169,7 +170,6 @@ data:
     - texlive-ifoddpage
     - texlive-ifplatform
     - texlive-iftex
-    - texlive-ifxetex
     - texlive-import
     - texlive-index
     - texlive-infwarerr
@@ -276,7 +276,6 @@ data:
     - texlive-polyglossia
     - texlive-powerdot
     - texlive-preprint
-    - texlive-preview
     - texlive-psfrag
     - texlive-pslatex
     - texlive-psnfss
@@ -304,6 +303,7 @@ data:
     - texlive-rcs
     - texlive-realscripts
     - texlive-refcount
+    - texlive-relsize
     - texlive-rerunfilecheck
     - texlive-rsfs
     - texlive-sansmath
@@ -315,6 +315,7 @@ data:
     - texlive-seminar
     - texlive-sepnum
     - texlive-setspace
+    - texlive-sfmath
     - texlive-showexpl
     - texlive-soul
     - texlive-stackengine
@@ -380,15 +381,17 @@ data:
     - texlive-xeindex
     - texlive-xepersian
     - texlive-xesearch
+    - texlive-xetex
     - texlive-xetex-itrans
     - texlive-xetex-pstricks
     - texlive-xetexconfig
     - texlive-xetexfontinfo
-    - texlive-xifthen
     - texlive-xfrac
+    - texlive-xifthen
     - texlive-xkeyval
     - texlive-xltxtra
     - texlive-xmltex
+    - texlive-xpatch
     - texlive-xstring
     - texlive-xtab
     - texlive-xunicode
