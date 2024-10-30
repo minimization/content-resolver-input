@@ -23,7 +23,7 @@ jobs:
         path: code/input
 
     - name: Install git and Python libraries
-      run: dnf -y install git-core python3-koji python3-yaml python3-jinja2 python3-pytest python3-flake8
+      run: dnf -y install git-core python3-dnf python3-koji python3-yaml python3-jinja2 python3-pytest python3-flake8
 
     - name: Run get_configs and set output
       run: python3 test_config_files.py
