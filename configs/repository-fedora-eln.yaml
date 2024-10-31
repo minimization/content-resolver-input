@@ -80,6 +80,8 @@ data:
         # openjdk-portable packages are built against the oldest supported
         # RHEL version, will not be imported into next RHEL version
         - java-*-openjdk-portable*
+        # doc generation tools with unwanted dependencies
+        - fop
         # pulls in GHC stack
         - pandoc
         # unwanted python deps
@@ -117,7 +119,9 @@ data:
         - xen-libs
         - xen-devel
         # rust lib crates are unwanted; dependencies must be vendored
+        - cargo-c
         - cargo-rpm-macros
+        - cbindgen
         - rust-srpm-macros
         - rust-*-devel
         # ELN has only a subset of texlive; avoid components only in Fedora
