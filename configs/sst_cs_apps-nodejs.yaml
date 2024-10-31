@@ -12,7 +12,7 @@ data:
     # requirements for rebuilding WASM artifacts
     - nodejs-cjs-module-lexer
     - nodejs-undici
-    - wasi-libc
+    - wasi-libc-devel
   labels:
     - eln
     - c10s
