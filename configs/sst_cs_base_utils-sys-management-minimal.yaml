@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System management
+  description: Packages for managing Linux system - minimal
+  maintainer: sst_cs_base_utils
+  packages:
+    - coreutils-single
+  labels:
+    - eln
+    - c10s

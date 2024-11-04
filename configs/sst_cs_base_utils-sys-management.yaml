@@ -5,15 +5,21 @@ data:
   description: Packages for managing Linux system
   maintainer: sst_cs_base_utils
   packages:
+    - acl
+    - attr
     - basesystem
     - bc
+    - coreutils
+    - environment-modules
     - dcraw
     - diffstat
     - diffutils
     - dos2unix
     - eigen3-devel
+    - findutils
     - freeipmi
     - freeipmi-devel
+    - gperf
     - ipmitool
     - jasper-devel
     - less
@@ -26,6 +32,7 @@ data:
     - libsndfile-devel
     - libva
     - libva-devel
+    - lynx
     - mksh
     - netpbm-devel
     - netpbm-doc
@@ -51,7 +58,9 @@ data:
     - sblim-sfcb
     - sblim-sfcc-devel
     - sblim-wbemcli
+    - sgpio
     - symlinks
+    - sysstat
     - tesseract
     - tesseract-devel
     - tesseract-langpack-eng
@@ -66,6 +75,7 @@ data:
     - volume_key-libs
     - which
     - wsmancli
+    - zsh
     - mpfr
     - mpfr-devel
     - openexr
