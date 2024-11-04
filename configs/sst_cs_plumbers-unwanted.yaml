@@ -21,7 +21,6 @@ data:
     - atlas-z196-devel
     - atlas-z196-static
     - ed
-    - elinks
     - emacs-terminal
     - libnice
     - libnice-devel
@@ -29,9 +28,6 @@ data:
     - libtar
     - libtar-devel
     - network-scripts
-    - pinfo
-    - python3-bottle
-    - python3-pycurl
     - redhat-lsb
     - redhat-lsb-core
     - redhat-lsb-cxx
@@ -44,7 +40,6 @@ data:
     - redhat-lsb-trialuse
     - rtkit
     - systemd-tests
-    - vorbis-tools
   labels:
     - eln
     - c10s

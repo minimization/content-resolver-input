@@ -5,7 +5,6 @@ data:
   description: Alternative shells
   maintainer: sst_cs_plumbers
   packages:
-    - zsh
     - ksh
     - tcsh
   labels:
