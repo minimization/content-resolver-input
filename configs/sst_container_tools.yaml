@@ -25,6 +25,7 @@ data:
     - podman
     - python3-podman
     - skopeo
+    - slirp4netns
     - toolbox
     - udica
   package_placeholders:
