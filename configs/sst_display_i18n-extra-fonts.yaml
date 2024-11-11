@@ -3,7 +3,7 @@ version: 1
 data:
   name: Extra Fonts
   description: Collections of extra packages providing fonts
-  maintainer: sst_i18n
+  maintainer: sst_display_i18n
   packages:
     - dejavu-lgc-sans-fonts
     - dejavu-lgc-sans-mono-fonts

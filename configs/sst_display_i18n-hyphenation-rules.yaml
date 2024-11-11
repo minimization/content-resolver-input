@@ -3,7 +3,7 @@ version: 1
 data:
   name: Hyphenation Rules
   description: A set of hyphenation rules
-  maintainer: sst_i18n
+  maintainer: sst_display_i18n
   labels:
     - eln
     - c10s
