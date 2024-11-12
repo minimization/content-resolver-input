@@ -1,14 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Evince
+  name: GNOME Papers
   description: Default PDF viewer for Workstation
   maintainer: sst_desktop_applications
   packages:
-    - evince
-    # Temporarily disabled until https://gitlab.gnome.org/GNOME/evince/-/merge_requests/561 is merged
-    #- evince-nautilus
-    - evince-thumbnailer
+    - papers
+    - papers-nautilus
+    - papers-thumbnailer
   labels:
     - eln
     - c10s
