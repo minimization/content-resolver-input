@@ -4,7 +4,7 @@ version: 1
 data:
   name: perl-DBI:1.643 module
   description: Perl database interface
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_stacks
   labels:
     - eln
     - c10s
