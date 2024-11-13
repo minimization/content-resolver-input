@@ -3,7 +3,7 @@ version: 1
 data:
   name: perl-LDAP
   description: Perl client for LDAP
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_stacks
   packages:
     - perl-LDAP
   labels:
