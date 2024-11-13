@@ -3,7 +3,7 @@ version: 1
 data:
   name: perl-FCGI:0.79 module
   description: Perl client for FCGI web server interface
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_stacks
   labels:
     - eln
     - c10s
