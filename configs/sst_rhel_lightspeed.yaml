@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL Lightspeed
+  description: Command Line Assistant powered by RHEL Lightspeed.
+  maintainer: sst_rhel_lightspeed
+  packages:
+    - command-line-asssitant
+  package_placeholders:
+    - srpm_name: command-line-assistant
+      rpms:
+        - rpm_name: command-line-assistant
+          description: Command Line Assistant
+          dependencies:
+            - tomli
+  labels:
+    - c9s
+    - c10s
+
+  arch_packages:
+    x86_64:
+    - command-line-assistant
+    aarch64:
+    - command-line-assistant
