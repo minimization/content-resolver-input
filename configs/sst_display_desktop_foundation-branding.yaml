@@ -3,7 +3,7 @@ version: 1
 data:
   name: Desktop branding
   description: RHEL branding
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages: []
   labels:
     - eln
