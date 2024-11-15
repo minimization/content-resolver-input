@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Papers
   description: Default PDF viewer for Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages:
     - papers
     - papers-nautilus

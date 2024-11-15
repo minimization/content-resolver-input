@@ -3,7 +3,7 @@ version: 1
 data:
   name: Connections
   description: Application for managing remote connections in Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages:
     - gnome-connections
   labels:

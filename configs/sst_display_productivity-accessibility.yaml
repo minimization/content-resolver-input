@@ -3,7 +3,7 @@ version: 1
 data:
   name: Accessibility
   description: Packages to support accessibility in Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages:
     - at-spi2-core
     - liblouis

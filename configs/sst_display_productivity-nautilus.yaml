@@ -3,7 +3,7 @@ version: 1
 data:
   name: Nautilus
   description: Default file manager in Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages:
     - gvfs
     - gvfs-client
