@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Disks
   description: Default application for managing disks in Workstation
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages:
     - gnome-disk-utility
   labels:

@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Calculator
   description: Calculator application for Workstation
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages:
     - gnome-calculator
   labels:

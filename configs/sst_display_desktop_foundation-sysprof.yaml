@@ -3,7 +3,7 @@ version: 1
 data:
   name: Sysprof
   description: System-wide profiling tool
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages:
     - sysprof
   labels:

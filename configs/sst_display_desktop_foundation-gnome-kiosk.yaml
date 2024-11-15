@@ -3,7 +3,7 @@ version: 1
 data:
   name: gnome-kiosk
   description: Window management and application launching for GNOME
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages:
     - gnome-kiosk
   labels:

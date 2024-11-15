@@ -3,7 +3,7 @@ version: 1
 data:
   name: Plymouth
   description: Graphical boot animation and logger
-  maintainer: sst_desktop
+  maintainer: sst_display_desktop_foundation
   packages:
     - plymouth
     - plymouth-core-libs
