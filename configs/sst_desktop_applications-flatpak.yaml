@@ -3,7 +3,7 @@ version: 1
 data:
   name: Flatpak
   description: Technology for building and distributing desktop applications
-  maintainer: sst_desktop
+  maintainer: sst_desktop_applications
   packages:
     - bubblewrap
     - flatpak

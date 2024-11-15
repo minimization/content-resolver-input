@@ -3,7 +3,7 @@ version: 1
 data:
   name: Ptyxis
   description: Default terminal application in Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_desktop
   packages:
     - ptyxis
   labels:
