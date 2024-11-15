@@ -3,7 +3,7 @@ version: 1
 data:
   name: Loupe
   description: Default image viewer for Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages: []
   arch_packages:
     ppc64le:

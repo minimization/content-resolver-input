@@ -3,7 +3,7 @@ version: 1
 data:
   name: Baobab
   description: Disk usage analyzer for Workstation
-  maintainer: sst_desktop_applications
+  maintainer: sst_display_productivity
   packages:
     - baobab
   labels:
