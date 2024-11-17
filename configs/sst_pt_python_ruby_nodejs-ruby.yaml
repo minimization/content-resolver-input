@@ -3,7 +3,7 @@ version: 1
 data:
   name: Ruby runtime
   description: Ruby interpretter and the most basic libraries
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - ruby
     - ruby-default-gems

@@ -3,7 +3,7 @@ version: 1
 data:
   name: Node.js runtime – default stream
   description: Node.js (Javascript) runtime and NPM installer for application development
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - nodejs
     - nodejs-devel

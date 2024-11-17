@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python devel (CRB)
   description: Python development packages, distributed in the CRB
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - python3-devel
     - python3-debug

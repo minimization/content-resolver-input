@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python parsers
   description: Python packages for parsing common data formats
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - python3-lxml
     - python3-pyyaml
