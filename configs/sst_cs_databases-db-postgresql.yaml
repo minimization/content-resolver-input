@@ -3,7 +3,7 @@ version: 1
 data:
   name: PostgreSQL client and server
   description: Client tools and a server daemon for PostgreSQL, with some plugins
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_databases
   packages:
     - postgresql
     - postgresql-contrib
