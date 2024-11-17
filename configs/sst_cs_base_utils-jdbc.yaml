@@ -3,7 +3,7 @@ version: 1
 data:
   name: JDBC connectors
   description: Java Connectors for MySQL, MariaDB and PostgreSQL databases
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_base_utils
   packages:
     - mariadb-java-client
     - postgresql-jdbc
