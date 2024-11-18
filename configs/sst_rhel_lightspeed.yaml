@@ -4,21 +4,18 @@ data:
   name: RHEL Lightspeed
   description: Command Line Assistant powered by RHEL Lightspeed.
   maintainer: sst_rhel_lightspeed
-  packages:
-    - command-line-asssitant
+  packages: []
   package_placeholders:
     - srpm_name: command-line-assistant
+      limit_arches:
+        - aarch64
+        - x86_64
       rpms:
         - rpm_name: command-line-assistant
           description: Command Line Assistant
           dependencies:
-            - tomli
-  labels:
-    - c9s
-    - c10s
+            - python3
 
-  arch_packages:
-    x86_64:
-    - command-line-assistant
-    aarch64:
-    - command-line-assistant
+  labels:
+    - eln
+    - c10s
