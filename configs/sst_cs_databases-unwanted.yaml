@@ -5,7 +5,6 @@ data:
   description: Packages we do not want to ship for CS Databases SST
   maintainer: sst_cs_databases
   unwanted_packages:
-    - mercurial # Hard to maintain while not the most popular choice anymore.
     - libdb-devel # Deprecated in RHEL9
     - libdb
     # Pcre is deprecated and unsupported by upstream since Fedora 38
