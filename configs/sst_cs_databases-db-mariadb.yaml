@@ -3,7 +3,7 @@ version: 1
 data:
   name: MariaDB client and server
   description: Client tools and a server daemon for MariaDB, with Galera repliechoion
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_databases
   packages:
     - galera
     - mariadb

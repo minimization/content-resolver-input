@@ -3,7 +3,7 @@ version: 1
 data:
   name: MySQL client and server
   description: Client tools and a server daemon for MySQL from Oracle
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_databases
   packages:
     - mysql
     - mysql-devel

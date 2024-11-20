@@ -3,7 +3,7 @@ version: 1
 data:
   name: PostgreSQL libraries
   description: Client libraries for PostgreSQL
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_databases
   packages:
     - libpq
     - libpq-devel

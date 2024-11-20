@@ -1,13 +1,10 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted packages from CS Apps SST
-  description: Packages we do not want to ship for CS Apps SST
-  maintainer: sst_cs_apps
+  name: Unwanted packages from CS Databases SST
+  description: Packages we do not want to ship for CS Databases SST
+  maintainer: sst_cs_databases
   unwanted_packages:
-    - js-uglify
-    - web-assets-devel
-    - mercurial # Hard to maintain while not the most popular choice anymore.
     - libdb-devel # Deprecated in RHEL9
     - libdb
     # Pcre is deprecated and unsupported by upstream since Fedora 38

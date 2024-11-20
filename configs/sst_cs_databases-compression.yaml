@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Compression
+  description: Tools for file compression
+  maintainer: sst_cs_databases
+  packages:
+    - zlib-ng-compat-devel
+    - zlib-ng-compat-static
+  labels:
+    - eln
+    - c10s
