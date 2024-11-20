@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Python 2 packages
   description: Python 2 won't be shipped at all
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   unwanted_packages:
     # Python 2.7 not maintained upstream, and marked as deprecated()
     # in Fedora.

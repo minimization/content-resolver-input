@@ -3,7 +3,7 @@ version: 1
 data:
   name: Ruby RSpec
   description: Popular behaviour-driven testing tool for Ruby packages
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - rubygem-diff-lcs
     - rubygem-rspec

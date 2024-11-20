@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python devel (CRB)
   description: Python development packages, distributed in the CRB
-  maintainer: sst_cs_apps
+  maintainer: sst_pt_python_ruby_nodejs
   packages:
     - python3-devel
     - python3-debug
@@ -18,8 +18,8 @@ data:
     - python3-cython
     - python3-sphinx
     - python3-wheel
-    # note: the following package is called python-wheel-wheel in ELN:
-    - python3-wheel-wheel
+    # note: the following package is called python3-wheel-wheel in RHEL proper:
+    - python-wheel-wheel
     - python3-pytest
     - python3-psutil-tests
     - py3c-devel
@@ -31,11 +31,5 @@ data:
     # rather than going trough a tad tedious process to add them after GA
     - python3-installer
     - python3-pyproject-hooks
-    # extras from packages in other Python workflows
-    - micropipenv+toml
-    - python3-jinja2+i18n
-    # packages we need as build dependencies only and are willingly maintaining them in CRB
-    - python3-testpath
-    - python-testpath-doc
   labels:
-    - c10s
+    - eln
