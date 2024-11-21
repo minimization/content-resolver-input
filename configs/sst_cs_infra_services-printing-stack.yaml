@@ -26,6 +26,7 @@ data:
     - libppd
     - lprint
     - pappl
+    - pappl-retrofit
     - python3-cups
     - system-config-printer-udev
     # drivers, hw enablement
