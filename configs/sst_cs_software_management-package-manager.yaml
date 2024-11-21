@@ -23,5 +23,4 @@ data:
     - yum
     - yum-utils
   labels:
-    - eln
     - c10s

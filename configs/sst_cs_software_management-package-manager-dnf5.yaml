@@ -6,8 +6,15 @@ data:
   maintainer: sst_cs_software_management
   packages:
     - dnf5
+    - dnf5-plugin-automatic
     - dnf5-plugins
+    - dnf5daemon-client
+    - dnf5daemon-server
+    - libdnf5-plugin-actions
     - librhsm
+    - python3-libdnf5
+    - python3-libdnf5-cli
+    - python3-libdnf5-python-plugins-loader
     - rpm
     - rpm-apidocs
     - rpm-cron
@@ -15,6 +22,8 @@ data:
     - rpm-plugin-selinux
     - rpm-plugin-syslog
     - rpm-plugin-systemd-inhibit
+    - ruby-libdnf5
+    - ruby-libdnf5-cli
     - scl-utils
   labels:
     - eln
