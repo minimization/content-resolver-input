@@ -292,7 +292,6 @@ data:
       - pacemaker-cts
       - pacemaker-doc
       - pacemaker-libs-devel
-      - pacemaker-nagios-plugins-metadata
       - pacemaker-remote
       - resource-agents
       - sbd
@@ -326,7 +325,6 @@ data:
       - pacemaker-cts
       - pacemaker-doc
       - pacemaker-libs-devel
-      - pacemaker-nagios-plugins-metadata
       - pacemaker-remote
       - resource-agents
       - sbd
@@ -360,7 +358,6 @@ data:
       - pacemaker-cts
       - pacemaker-doc
       - pacemaker-libs-devel
-      - pacemaker-nagios-plugins-metadata
       - pacemaker-remote
       - resource-agents
       - sbd
