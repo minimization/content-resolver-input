@@ -10,6 +10,10 @@ data:
     - binutils-gold
     - annobin-annocheck
     - annobin-plugin-gcc
+    # used by several sst_pt tools (libabigail, dwz, binutils, debugedit)
+    - xxhash
+    - xxhash-libs
+    - xxhash-devel
   labels:
     - eln
     - c10s
