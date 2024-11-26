@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Classic session
   description: GNOME Classic session
-  maintainer: sst_desktop_platform_technologies
+  maintainer: sst_display_window_management
   packages:
     - gnome-classic-session
     - gnome-shell-extension-apps-menu

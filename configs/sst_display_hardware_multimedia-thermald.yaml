@@ -1,13 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: intel-lpmd
-  description: Intel Low Power Mode Daemon
-  maintainer: sst_desktop_platform_technologies
+  name: thermald
+  description: Thermal Management daemon
+  maintainer: sst_display_hardware_multimedia 
   packages: []
   labels:
     - eln
     - c10s
   arch_packages:
     x86_64:
-      - intel-lpmd
+      - thermald
