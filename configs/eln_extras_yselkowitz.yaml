@@ -11,5 +11,8 @@ data:
     - robodoc
     - whatip
     - ttfautohint
+  unwanted_packages:
+    foo:
+      - bar
   labels:
     - eln-extras
