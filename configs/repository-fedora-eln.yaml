@@ -82,6 +82,7 @@ data:
         - java-*-openjdk-portable*
         # doc generation tools with unwanted dependencies
         - fop
+        - ImageMagick
         # pulls in GHC stack
         - pandoc
         # unwanted python deps
