@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Desktop Platform Technologies - Blocked packages
+  description: Desktop Platform Technologies - Packages which should not be in ELN
+  maintainer: sst_display_hardware_multimedia 
+  unwanted_source_packages:
+    - atf
+    - lutok
+    - kyua
+    - re2c
+    # Totem is removed from RHEL 10, avoid usage in other components
+    - totem-pl-parser
+  labels:
+    - eln
+    - c10s

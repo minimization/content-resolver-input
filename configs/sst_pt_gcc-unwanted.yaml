@@ -13,7 +13,7 @@ data:
     - cppcheck
     - cppcheck-gui
     - cppcheck-htmlreport
-    # Owned by sst_desktop
+    # Owned by sst_cs_software_management
     # - cppunit
     # - cppunit-devel
     # - cppunit-doc

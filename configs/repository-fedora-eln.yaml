@@ -86,6 +86,7 @@ data:
         - pandoc
         # unwanted python deps
         - python3-build
+        - python3-coverage
         - python3-docs
         - python3-etcd
         - python3-hypothesis

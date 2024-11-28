@@ -8,7 +8,6 @@ data:
     - tpm-quote-tools
     - tpm-tools
     - trousers
-    - xxhash
   labels:
     - eln
     - c10s

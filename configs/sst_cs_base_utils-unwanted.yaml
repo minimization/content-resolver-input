@@ -75,6 +75,7 @@ data:
     - python3-bottle
     - python3-pycurl
     - vorbis-tools
+    - mercurial # Hard to maintain while not the most popular choice anymore.
   labels:
     - eln
     - c10s

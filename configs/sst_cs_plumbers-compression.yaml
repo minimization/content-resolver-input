@@ -13,8 +13,6 @@ data:
     - tar
     - unzip
     - zip
-    - zlib-ng-compat-devel
-    - zlib-ng-compat-static
     - zstd
     - zziplib-utils
   labels:

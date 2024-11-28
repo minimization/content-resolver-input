@@ -213,7 +213,7 @@ data:
     - kmahjongg
     - kmenuedit
     - kmines
-    #- kmix
+    - kmix
     - kmousetool
     - kmouth
     - kmplot
@@ -270,8 +270,7 @@ data:
     - kuserfeedback
     - kuserfeedback-console
     - kwalletmanager5
-    #- kwave
-    #- kwayland-integration
+    - kwave
     - kweather
     - kwin
     - kwin-common
@@ -294,11 +293,12 @@ data:
     - lokalize
     - lskat
     - maliit-keyboard
-    #- marble
-    #- marble-astro
-    #- marble-common
-    #- marble-qt
-    #- marble-widget-data
+    - marble
+    - marble-astro
+    - marble-common
+    - marble-plasma
+    - marble-qt
+    - marble-widget-data
     - markdownpart
     - marknote
     - massif-visualizer
