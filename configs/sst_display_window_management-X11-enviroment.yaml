@@ -3,7 +3,7 @@ version: 1
 data:
   name: Traditional X11 environment
   description: Libraries and sample applications historically provided with an X11 installation
-  maintainer: sst_gpu
+  maintainer: sst_display_window_management
   packages:
     - libXaw
     - mesa-libGLU
