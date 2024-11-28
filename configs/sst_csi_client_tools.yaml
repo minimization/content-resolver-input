@@ -26,7 +26,6 @@ data:
             - pciutils
             - policycoreutils-python-utils
             - python3-PyYAML
-            - python3-magic
             - python3-requests
             - python3-setuptools
             - python3-six
