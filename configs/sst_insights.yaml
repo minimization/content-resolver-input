@@ -4,7 +4,8 @@ data:
   name: insights
   description: Insights
   maintainer: sst_insights
-  packages: []
+  packages:
+    - yara
   labels:
     - eln
     - c10s
