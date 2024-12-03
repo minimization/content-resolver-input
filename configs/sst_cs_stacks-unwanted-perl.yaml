@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for Perl
   description: Packages we do not want to ship for Perl
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_stacks
   unwanted_packages:
     - cvs # upstream and the technology is dead
     - mod_perl # upstream is dead, random crashes, security threat to httpd

@@ -3,7 +3,7 @@ version: 1
 data:
   name: perl-XML-Simple
   description: Easy API to maintain XML in Perl
-  maintainer: sst_cs_apps
+  maintainer: sst_cs_stacks
   packages:
     - perl-XML-Simple
   labels:
