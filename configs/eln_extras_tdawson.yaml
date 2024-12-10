@@ -5,6 +5,6 @@ data:
   description: Troy Dawsons ELN Extras packages
   maintainer: tdawson
   packages:
-    - nedit
+    - leafpad
   labels:
     - eln-extras
