@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP/FTP CLI Clients
+  description: Commandline HTTP and FTP client tools
+  maintainer: sst_cs_net_perf_services
+  packages:
+    - ftp
+    - lftp
+    - wget
+  labels:
+    - eln
+    - c10s
