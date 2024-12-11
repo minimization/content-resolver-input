@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: SWIG bindings generator
-  description: Core Services Apps - SWIG
-  maintainer: sst_cs_apps
+  description: Core Services Stacks - SWIG
+  maintainer: sst_cs_stacks
   packages:
     - swig
     - swig-doc
