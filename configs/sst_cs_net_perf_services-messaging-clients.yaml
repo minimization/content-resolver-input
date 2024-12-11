@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Messaging clients
+  description: Instant messaging clients, e.g. IRC, Jabber, etc.
+  maintainer: sst_cs_net_perf_services
+  packages:
+    - irssi
+  labels:
+    - eln
+    - c10s

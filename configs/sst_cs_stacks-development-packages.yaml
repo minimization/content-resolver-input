@@ -1,0 +1,32 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Development packages
+  description: Packages wich are relevant for Developer (CRB)
+  maintainer: sst_cs_infra_services
+  packages:
+    # cups
+    - cups-devel
+    # cups-filters
+    - cups-filters-devel
+    # ghostscript
+    - ghostscript-doc
+    - ghostscript-tools-dvipdf
+    - ghostscript-tools-fonts
+    - ghostscript-tools-printing
+    - libgs-devel
+    # libidn2
+    - idn2
+    - libidn2-devel
+    # ncurses
+    - ncurses-devel
+    # python-cups
+    - python-cups-doc
+    # qpdf
+    - qpdf
+    - qpdf-devel
+    # urw-base35-fonts
+    - urw-base35-fonts-devel
+  labels:
+    - eln
+    - c10s

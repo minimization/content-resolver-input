@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Miscellaneous packages
+  description: CS Stacks - miscellaneous packages
+  maintainer: sst_cs_infra_services
+  packages:
+    - sscg
+    - hostname
+    - dialog
+    - filesystem
+    - setup
+    - ncurses
+    - ncurses-base
+    - ncurses-term
+  labels:
+    - eln
+    - c10s
