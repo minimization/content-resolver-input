@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Miscellaneous packages
+  description: CS Network and Performance Services - miscellaneous packages
+  maintainer: sst_cs_net_perf_services
+  packages:
+    - expat
+    - expat-devel
+    - minicom
+    - xterm
+    - dosfstools
+    - grep
+    - lm_sensors
+    - lm_sensors-libs
+    - lm_sensors-sensord
+  arch_packages:
+    x86_64:
+      - memtest86+
+  labels:
+    - eln
+    - c10s

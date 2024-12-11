@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Packages for mailx functionality
+  description: S-nail packages replaces functionality of mailx
+  maintainer: sst_cs_net_perf_services
+  packages:
+    - s-nail
+  labels:
+    - eln
+    - c10s

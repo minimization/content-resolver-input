@@ -1,0 +1,39 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - Apache httpd
+  description: CS Stacks - Apache HTTP Server
+  maintainer: sst_cs_stacks
+  packages:
+    # Packaged from httpd:
+    - httpd
+    - httpd-core
+    - httpd-tools
+    - httpd-filesystem
+    - httpd-devel
+    - httpd-manual
+    - mod_ssl
+    - mod_proxy_html
+    - mod_ldap
+    - mod_session
+    - mod_lua
+    # Third-party modules:
+    - python3-mod_wsgi
+    - mod_http2
+    - mod_md
+    - mod_fcgid
+    # Dependencies:
+    - apr
+    - apr-devel
+    - apr-util
+    - apr-util-devel
+    - apr-util-ldap
+    - apr-util-lmdb
+    - apr-util-mysql
+    - apr-util-odbc
+    - apr-util-openssl
+    - apr-util-pgsql
+    - apr-util-sqlite
+  labels:
+    - eln
+    - c10s

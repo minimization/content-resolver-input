@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Performance tuning
+  description: Tuned software and related profiles
+  maintainer: sst_cs_net_perf_services
+  packages:
+    - tuned
+    - tuned-gtk
+    - tuned-ppd
+    - tuned-profiles-atomic
+    - tuned-profiles-cpu-partitioning
+    - tuned-profiles-mssql
+    - tuned-profiles-nfv
+    - tuned-profiles-nfv-guest
+    - tuned-profiles-nfv-host
+    - tuned-profiles-oracle
+    - tuned-profiles-realtime
+    - tuned-profiles-sap
+    - tuned-profiles-sap-hana
+    - tuned-profiles-spectrumscale
+    - tuned-utils
+  labels:
+    - eln
+    - c10s

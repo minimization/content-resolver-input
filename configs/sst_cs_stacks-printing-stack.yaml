@@ -1,0 +1,43 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Printing Stack
+  description: Suite of software needed for printing on Linux
+  maintainer: sst_cs_stacks
+  packages:
+    # tools
+    - cups
+    - cups-browsed
+    - cups-client
+    - cups-filters
+    - cups-filters-driverless
+    - cups-ipptool
+    - cups-lpd
+    - cups-printerapp
+    - enscript
+    - foomatic
+    - foomatic-db
+    - ghostscript
+    - ghostscript-x11
+    - gutenprint
+    - gutenprint-doc
+    - ipp-usb
+    - libcupsfilters
+    - libppd
+    - lprint
+    - pappl
+    - pappl-retrofit
+    - python3-cups
+    - system-config-printer-udev
+    # drivers, hw enablement
+    - c2esp
+    - foomatic-db-ppds
+    - gutenprint-cups
+    - hplip
+    - splix
+    - pnm2ppa
+    # fonts
+    - urw-base35-fonts
+  labels:
+    - eln
+    - c10s
