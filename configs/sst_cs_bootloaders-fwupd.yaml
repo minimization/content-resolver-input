@@ -3,7 +3,7 @@ version: 1
 data:
   name: fwupd
   description: Firmware update daemon
-  maintainer: sst_desktop_firmware_bootloaders
+  maintainer: sst_cs_bootloaders
   packages:
     - fwupd
   arch_packages:

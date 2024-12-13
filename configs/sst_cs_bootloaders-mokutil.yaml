@@ -1,15 +1,15 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: pesign
-  description: Signing utility for UEFI binaries
-  maintainer: sst_desktop_firmware_bootloaders
+  name: mokutil
+  description: Tool to manage UEFI Secure Boot MoK Keys
+  maintainer: sst_cs_bootloaders
   packages: []
   labels:
     - eln
     - c10s
   arch_packages:
     aarch64:
-      - pesign
+      - mokutil
     x86_64:
-      - pesign
+      - mokutil
