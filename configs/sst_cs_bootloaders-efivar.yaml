@@ -3,7 +3,7 @@ version: 1
 data:
   name: efivar
   description: Tools to manage UEFI variables
-  maintainer: sst_desktop_firmware_bootloaders
+  maintainer: sst_cs_bootloaders
   packages: []
   labels:
     - eln
