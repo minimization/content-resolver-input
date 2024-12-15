@@ -377,7 +377,6 @@ data:
     - texlive-wasysym
     - texlive-wrapfig
     - texlive-xcolor
-    - texlive-xdvi
     - texlive-xecolor
     - texlive-xecyr
     - texlive-xeindex
