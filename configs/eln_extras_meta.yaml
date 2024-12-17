@@ -23,7 +23,6 @@ data:
     - duo_unix-selinux
     - ebranch
     - et
-    - eza
     - htop
     - iotools
     - fd-find
