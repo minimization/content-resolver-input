@@ -3,7 +3,7 @@ version: 1
 data:
   name: kpatch
   description: Dynamic kernel patch manager
-  maintainer: sst_kernel_security
+  maintainer: sst_kernel_livepatching
   packages: []
   labels: # <-- Please leave
     - eln #     this unchanged.
