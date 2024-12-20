@@ -59,7 +59,7 @@ data:
     - python3-pystemd
     - python3-testslide
     - python3-zstd
-    - rpmdistro-repoquery
+#    - rpmdistro-repoquery
     - rpminspect
     - rpminspect-data-centos
     - rpminspect-data-fedora
