@@ -40,6 +40,8 @@ data:
       - libguestfs
       - qemu-kvm
       - sevctl
+      - snpguest
+      - snphost
       - spice-protocol
       - spice-vdagent
       - supermin
