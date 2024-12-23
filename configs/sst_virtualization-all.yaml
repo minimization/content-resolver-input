@@ -45,6 +45,8 @@ data:
       - qemu-kvm
       - seabios
       - sevctl
+      - snpguest
+      - snphost
       - spice-protocol
       - spice-vdagent
       - supermin
