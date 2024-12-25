@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: MariaDB client and server
-  description: Client tools and a server daemon for MariaDB, with Galera repliechoion
+  description: Client tools and a server daemon for MariaDB, with Galera replication
   maintainer: sst_cs_databases
   packages:
     - galera
