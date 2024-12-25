@@ -7,8 +7,6 @@ data:
   packages:
     - augeas
     - dtc
-    - edk2-aarch64
-    - edk2-ovmf
     - gtk-vnc2
     - hexedit
     - hivex
@@ -28,8 +26,6 @@ data:
     - passt
     - python-augeas
     - python3-libvirt
-    - python3-pefile
-    - python3-virt-firmware
     - uki-direct
     - vhostmd
     - virt-install
@@ -43,7 +39,6 @@ data:
       - guestfs-tools
       - libguestfs
       - qemu-kvm
-      - seabios
       - sevctl
       - spice-protocol
       - spice-vdagent
