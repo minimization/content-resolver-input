@@ -6,7 +6,7 @@ data:
   maintainer: ngompa
   packages:
     - mailman3
-    - hyperkitty
-    - postorius
+    - python3-mailman-hyperkitty
+    - python3-mailman-web
   labels:
     - eln-extras
