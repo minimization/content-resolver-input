@@ -23,24 +23,24 @@ data:
     - duo_unix-selinux
     - ebranch
     - et
-    - htop
-    - iotools
     - fd-find
     - fping
     - git-email
     - glslang
+    - htop
     - hyperfine
+    - iotools
     - keyrings-filesystem
     - lei
     - libdwarf
     - libdwarf-devel
-    - libkdumpfile-devel
     - libidn
     - libidn-devel
+    - libkdumpfile-devel
     - libxcrypt-compat
     - linux-sysinfo-snapshot
-    - mlnx-tools
     - mkosi
+    - mlnx-tools
     - mosh
     - ncdu
     - ncurses-compat-libs
@@ -54,20 +54,20 @@ data:
     - pam_krb5
     - parallel
     - pngquant
+    - poi-tracker
     - pore
     - pv
     - python3-pystemd
     - python3-testslide
     - python3-zstd
-#    - rpmdistro-repoquery
-    - rpminspect
-    - rpminspect-data-centos
-    - rpminspect-data-fedora
-    - rpmrebuild
     - qrencode-devel
     - ragel
     - retsnoop
     - ripgrep
+    - rpminspect
+    - rpminspect-data-centos
+    - rpminspect-data-fedora
+    - rpmrebuild
     - screen
     - sdparm
     - sequoia-keyring-linter
