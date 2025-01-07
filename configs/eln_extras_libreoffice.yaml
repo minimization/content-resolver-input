@@ -99,7 +99,6 @@ data:
     - libreoffice-langpack-zu
     # third-party extensions
     - libreoffice-gallery-vrt-network-equipment
-    - libreoffice-grammalecte
     - openoffice.org-diafilter
   labels:
     - eln-extras
