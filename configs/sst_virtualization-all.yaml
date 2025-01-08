@@ -43,6 +43,7 @@ data:
       - spice-protocol
       - spice-vdagent
       - supermin
+      - trustee-guest-components
       - virt-p2v
       - virt-top
       - virt-v2v
