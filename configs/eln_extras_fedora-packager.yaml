@@ -6,7 +6,7 @@ data:
   maintainer: epel-sig
   packages:
     - bodhi-client
-    - fedora-easy-karma
+#    - fedora-easy-karma
     - fedora-packager
     - fedora-repoquery
     - fedpkg
