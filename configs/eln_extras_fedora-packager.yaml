@@ -15,6 +15,6 @@ data:
     - mock
     - rpm-build
     - rpmdevtools
-#    - rpmdistro-repoquery
+    - rpmdistro-repoquery
   labels:
     - eln-extras
