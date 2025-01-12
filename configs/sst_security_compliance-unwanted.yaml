@@ -26,3 +26,5 @@ data:
     - oscap-anaconda-addon
     # Tailoring of profiles is no longer supplied through SCAP Workbench GUI app
     - scap-workbench
+    # Explicitly rejecting openscap-report, as we wanted it before
+    - openscap-report
