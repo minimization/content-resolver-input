@@ -17,7 +17,6 @@ data:
     - java-21-openjdk-jmods
     - java-21-openjdk-src
     - java-21-openjdk-static-libs
-    - copy-jdk-configs
     # Debug packages should be built but shipped in CRB
     - java-21-openjdk-slowdebug
     - java-21-openjdk-demo-slowdebug
