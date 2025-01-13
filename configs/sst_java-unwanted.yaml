@@ -84,3 +84,5 @@ data:
     - java-11-openjdk-portable
     - java-17-openjdk-portable
     - java-21-openjdk-portable
+    # Parallel installations of the same JDK are no longer supported in RHEL 10 and so no dependency on copy-jdk-configs
+    - copy-jdk-configs
