@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MySQL 8.4 client and server
+  description: Client tools and a server daemon for MySQL 8.4 from Oracle
+  maintainer: sst_cs_databases
+  packages:
+    - mysql8.4
+    - mysql8.4-server
+    - mysql8.4-test
+    - mysql8.4-devel
+    - mysql-selinux # Because RPM mysql8.4-server Requires: (mysql-selinux if selinux-policy-targeted)
+    - mecab-ipadic
+    - mecab-ipadic-EUCJP
+  labels:
+    - c10s
