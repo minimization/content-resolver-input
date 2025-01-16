@@ -3,7 +3,7 @@ version: 1
 data:
   name: firewall tools
   description: tools necessary to administrate linux firewalls
-  maintainer: sst_networking_core
+  maintainer: sst_network_firewall
   labels:
     - eln
     - c10s
