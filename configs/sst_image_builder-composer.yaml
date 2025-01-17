@@ -8,4 +8,4 @@ data:
     - eln
     - c10s
   packages:
-    - cockpit-composer
+    - cockpit-image-builder
