@@ -7,17 +7,9 @@ data:
   packages:
     - asciidoc
     - asciidoc-doc
-    - docbook-style-dsssl
-    - docbook-utils
     - doxygen
     - doxygen-latex
-    - help2man
     - latex2html
-    - linuxdoc-tools
-    - openjade
-    - opensp
-    - opensp-devel
-    - perl-SGMLSpm
     - perl-Unicode-EastAsianWidth
     - texi2html
     - texinfo
@@ -399,9 +391,6 @@ data:
     - texlive-zapfchan
     - texlive-zapfding
     - texlive-zref
-    - xhtml1-dtds
-    - xhtml2fo-style-xsl
-    - xmltoman
   labels:
     - eln
     - c10s

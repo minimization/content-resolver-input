@@ -69,7 +69,6 @@ data:
     - bacula-client
     - bacula-console
     - udftools
-    - docbook5-schemas
     - pinfo
     - elinks
     - python3-bottle
