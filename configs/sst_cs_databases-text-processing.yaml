@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Text processing tools from SST CS Databases for ELN
+  description: Text processing tools owned by CS Databases SST
+  maintainer: sst_cs_databases
+  packages:
+    - docbook5-schemas
+    - docbook-style-dsssl
+    - docbook-utils
+    - help2man
+    - linuxdoc-tools
+    - openjade
+    - opensp
+    - opensp-devel
+    - perl-SGMLSpm
+    - xhtml1-dtds
+    - xhtml2fo-style-xsl
+    - xmltoman
+  labels:
+    - eln
+    - c10s
