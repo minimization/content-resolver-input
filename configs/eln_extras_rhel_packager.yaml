@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL packager
   description: ELN Extras packages for RHEL maintainers
-  maintainer: carlwgeorge
+  maintainer: rhel-sst-cpe
   packages:
     - NetworkManager-openvpn-gnome
     - centpkg
