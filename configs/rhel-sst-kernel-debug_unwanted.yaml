@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages for ELN - sst_kernel_debug
+  name: Unwanted Packages for ELN - rhel-sst-kernel-debug
   description: Packages not shipping in ELN
-  maintainer: sst_kernel_debug
+  maintainer: rhel-sst-kernel-debug
   unwanted_source_packages:
     - google-benchmark
     - netdump-server

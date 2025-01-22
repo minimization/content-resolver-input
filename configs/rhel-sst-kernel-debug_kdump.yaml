@@ -4,7 +4,7 @@ version: 1
 data:
   name: Kdump support
   description: Tools necessary to support vmcore dumping and analyzing
-  maintainer: sst_kernel_debug
+  maintainer: rhel-sst-kernel-debug
   packages:
     - kexec-tools
     - kdump-anaconda-addon
