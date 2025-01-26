@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig cloud packages
+  description: Packages needed by Cloud teams
+  maintainer: meta-sig
+  packages:
+    - azure-cli
+  labels:
+    - eln-extras
