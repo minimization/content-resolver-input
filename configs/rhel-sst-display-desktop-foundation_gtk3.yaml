@@ -3,7 +3,7 @@ version: 1
 data:
   name: GTK 3 toolkit
   description: Software toolkit for developing applications
-  maintainer: sst_display_desktop_foundation
+  maintainer: rhel-sst-display-desktop-foundation
   packages:
     - gtk-update-icon-cache
     - gtk3
