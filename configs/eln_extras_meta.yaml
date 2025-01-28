@@ -81,8 +81,6 @@ data:
     aarch64:
       - sedutil
       - sysbench
-    ppc64le:
-      - sedutil
     x86_64:
       - msr-tools
       - sedutil
