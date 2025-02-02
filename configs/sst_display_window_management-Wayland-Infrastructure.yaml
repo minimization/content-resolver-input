@@ -7,8 +7,6 @@ data:
   packages:
     - wayland-utils
     - waypipe
-    # Needed by the NVIDIA drivers to use Mutter's EGLStreams
-    - egl-wayland
     - libinput-utils
     - xwayland-run
     - gnome-ponytail-daemon
