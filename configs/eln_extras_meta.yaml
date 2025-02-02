@@ -41,7 +41,6 @@ data:
     - mlnx-tools
     - mkosi
     - mosh
-    - ncdu
     - ncurses-compat-libs
     - neovim
     - netconsd
