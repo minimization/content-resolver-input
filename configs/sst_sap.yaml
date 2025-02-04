@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: tree juice packages
-  description: Packages for tree juice
-  maintainer: jwboyer
+  name: SAP Solutions
+  description: Packages for SAP Solutions
+  maintainer: sst_sap
   packages: []
   arch_packages:
     x86_64:
@@ -15,27 +15,25 @@ data:
     s390x:
       - tuned-profiles-sap
   package_placeholders:
-    - srpm_name: sap-cluster-connector
-      rpms:
-        - rpm_name: sap-cluster-connector
-          description: something cluster related
-          dependencies:
-            - perl
-          limit_arches:
-            - x86_64
-            - ppc64le
-            - s390x
+    # RHEL specific packages, not in Fedora
     - srpm_name: resource-agents-sap
       rpms:
         - rpm_name: resource-agents-sap
-          description: Resource agent for SAP
+          description: Resource agents for SAP applications
+          build_dependencies:
+            - python3-devel
+            - python3-psutil
+            - systemd
+            - which
           dependencies:
-            - perl
-            - resource-agents
             - bash
             - grep
             - gawk
+            - python3
+            - python3-psutil
+            - resource-agents
             - sed
+            - systemd
           limit_arches:
             - x86_64
             - ppc64le
@@ -43,36 +41,73 @@ data:
     - srpm_name: resource-agents-sap-hana
       rpms:
         - rpm_name: resource-agents-sap-hana
-          description: Resource agent for SAP HANA
+          description: Resource agents for SAP HANA scale-up
+          build_dependencies:
+            - python3-devel
           dependencies:
-            - perl
-            - resource-agents
             - bash
             - grep
             - sed
             - gawk
+            - resource-agents
           limit_arches:
             - x86_64
             - ppc64le
     - srpm_name: resource-agents-sap-hana-scaleout
       rpms:
         - rpm_name: resource-agents-sap-hana-scaleout
-          description: Resource agent for SAP HANA scaleout
+          description: Resource agents for SAP HANA scale-out
+          build_dependencies:
+            - perl-interpreter
+            - python3-devel
           dependencies:
-            - perl
-            - resource-agents
             - bash
-            - grep
-            - sed
             - gawk
+            - grep
+            - perl-interpreter
+            - resource-agents
+            - sed
           limit_arches:
             - x86_64
             - ppc64le
     - srpm_name: rhel-system-roles-sap
       rpms:
         - rpm_name: rhel-system-roles-sap
-          description: system roles for SAP
-          dependencies: []
+          description: Ansible collection of system roles for SAP
+          build_dependencies:
+            - ansible-core
+            - python3-ruamel-yaml
+            - tar
+          dependencies:
+            - python3-jmespath
+            - python3-netaddr
+            - rhel-system-roles
+          limit_arches:
+            - x86_64
+            - ppc64le
+    - srpm_name: sap-cluster-connector
+      rpms:
+        - rpm_name: sap-cluster-connector
+          description: SAP instances interface to connect with Pacemaker cluster
+          dependencies:
+            - perl-interpreter
+          limit_arches:
+            - x86_64
+            - ppc64le
+            - s390x
+    - srpm_name: sap-hana-ha
+      rpms:
+        - rpm_name: sap-hana-ha
+          description: Resource agents for SAP HANA scale-up and scale-out combined
+          build_dependencies:
+            - python3-devel
+          dependencies:
+            - bash
+            - gawk
+            - grep
+            - python3
+            - resource-agents
+            - sed
           limit_arches:
             - x86_64
             - ppc64le
