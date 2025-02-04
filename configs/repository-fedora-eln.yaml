@@ -80,6 +80,8 @@ data:
         # openjdk-portable packages are built against the oldest supported
         # RHEL version, will not be imported into next RHEL version
         - java-*-openjdk-portable*
+        # prefer pipewire-jack
+        - jack-audio-connection-kit
         # doc generation tools with unwanted dependencies
         - fop
         - ImageMagick
