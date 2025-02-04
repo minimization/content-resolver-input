@@ -87,6 +87,8 @@ data:
         - ImageMagick
         # pulls in GHC stack
         - pandoc
+        # unwanted ocaml deps
+        - ocaml-ounit*
         # unwanted python deps
         - python3-build
         - python3-coverage
