@@ -8,6 +8,7 @@ data:
     - libdecor
     - SDL
     - SDL2
+    - SDL3
   labels:
     - eln
     - c10s
