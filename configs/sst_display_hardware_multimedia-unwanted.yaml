@@ -25,9 +25,17 @@ data:
     - libsamplerate
     # Only used by openal-soft examples, brings in other unwanted deps
     - SDL_sound
+  unwanted_packages:
     # Removed in favor of pipewire(-pulse). Note that the SRPM with the same
     # name should still be built for some packages, like pulseaudio-libs
     - pulseaudio
+    - pulseaudio-module-bluetooth
+    - pulseaudio-module-gsettings
+    - pulseaudio-module-jack
+    - pulseaudio-module-lirc
+    - pulseaudio-module-x11
+    - pulseaudio-module-zerconf
+    - pulseaudio-qpaeq
   labels:
     - eln
     - c10s
