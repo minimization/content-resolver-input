@@ -3,7 +3,7 @@ version: 1
 data:
   name: Virtualization Exclusion List
   description: Virtualization packages not required in RHEL-9
-  maintainer: sst_virtualization
+  maintainer: rhel-sst-virtualization
   unwanted_packages:
     - fakechroot
     - fakeroot
