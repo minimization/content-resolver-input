@@ -3,7 +3,7 @@ version: 1
 data:
   name: C Development Environment
   description: A C development environment.
-  maintainer: sst_pt_gcc
+  maintainer: rhel-sst-pt-gcc
   packages:
     # The minimum development environment is this:
     - gcc
