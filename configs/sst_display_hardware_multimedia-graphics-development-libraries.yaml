@@ -8,6 +8,7 @@ data:
     - libdecor
     - SDL
     - SDL2
+    - sdl2-compat
     - SDL3
   labels:
     - eln
