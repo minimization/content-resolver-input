@@ -70,6 +70,9 @@ data:
     # tracker3 renamed to tracker in F34+
     - tracker3
     - tracker3-miners
+    # ...and tracker renamed to tinysparql and miners to localsearch in F43+
+    - tracker
+    - tracker-miners
     # libhandy1 renamed to libhandy in F34+
     - libhandy1
     # only GTK 3 and GTK 4 supported in ELN and RHEL 10

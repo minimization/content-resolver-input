@@ -19,9 +19,9 @@ data:
     - libgweather
     - libproxy
     - libsoup3
+    - localsearch
     - tecla
-    - tracker
-    - tracker-miners
+    - tinysparql
     - xdg-user-dirs-gtk
     - zenity
   labels:
