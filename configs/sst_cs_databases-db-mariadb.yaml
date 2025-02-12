@@ -7,6 +7,7 @@ data:
   packages:
     - galera
     - mariadb
+    - mariadb-client-utils
     - mariadb-backup
     - mariadb-gssapi-server
     - mariadb-oqgraph-engine
