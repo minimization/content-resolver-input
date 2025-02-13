@@ -315,7 +315,6 @@ data:
     - phonon-qt6-backend-vlc
     - php-kolabformat
     - picmi
-    - plasma-applet-translator
     - plasma-breeze
     - plasma-breeze-common
     - plasma-browser-integration
