@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ICU
+  description: International Components for Unicode
+  maintainer: sst_display_i18n
+  packages:
+    - icu
+    - libicu
+    - libicu-devel
+  labels:
+    - eln
+    - c10s
