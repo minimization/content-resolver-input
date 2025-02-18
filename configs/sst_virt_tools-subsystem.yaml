@@ -1,0 +1,60 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Virtualization Tools
+  description: Libvirt and virt-tools that enable virtualization capabilities on RHEL
+  maintainer: sst_virt_tools
+  packages:
+    - augeas
+    - hexedit
+    - hivex
+    - libosinfo
+    - libvirt
+    - libvirt-dbus
+    - libvirt-glib
+    - mdevctl
+    - osinfo-db
+    - osinfo-db-tools
+    - virt-install
+    - virt-viewer
+    - virt-what
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    x86_64:
+      - guestfs-tools
+      - libguestfs
+      - virt-p2v
+      - virt-top
+      - virt-v2v
+    aarch64:
+      - guestfs-tools
+      - libguestfs
+      - supermin
+      - virt-top
+    s390x:
+      - guestfs-tools
+      - libguestfs
+      - supermin
+      - virt-top
+  package_placeholders:
+    # RHEL-specific package, not in Fedora
+    - srpm_name: libguestfs-winsupport
+      build_dependencies:
+        - autoconf
+        - automake
+        - libtool
+        - fuse-devel
+        - gnutls-devel
+        - libattr-devel
+        - libconfig-devel
+        - libgcrypt-devel
+        - libuuid-devel
+      limit_arches:
+        - x86_64
+      rpms:
+        - rpm_name: libguestfs-winsupport
+          description: Add support for Windows guests to virt-v2v and virt-p2v
+          dependencies:
+            - libguestfs
