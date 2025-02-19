@@ -15,6 +15,7 @@ data:
     - mdevctl
     - osinfo-db
     - osinfo-db-tools
+    - python3-libvirt
     - virt-install
     - virt-viewer
     - virt-what
@@ -25,15 +26,18 @@ data:
     x86_64:
       - guestfs-tools
       - libguestfs
+      - supermin
       - virt-p2v
       - virt-top
       - virt-v2v
     aarch64:
       - guestfs-tools
       - libguestfs
+      - libguestfs-inspect-icons
       - supermin
       - virt-top
     s390x:
+      - libguestfs-inspect-icons
       - guestfs-tools
       - libguestfs
       - supermin

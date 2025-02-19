@@ -15,7 +15,6 @@ data:
     - nbdkit
     - passt
     - python-augeas
-    - python3-libvirt
     - uki-direct
     - vhostmd
   labels:
@@ -29,13 +28,10 @@ data:
       - snphost
       - spice-protocol
       - spice-vdagent
-      - supermin
       - trustee-guest-components
     ppc64le:
       - powerpc-utils
     aarch64:
-      - libguestfs-inspect-icons
       - qemu-kvm
     s390x:
-      - libguestfs-inspect-icons
       - qemu-kvm
