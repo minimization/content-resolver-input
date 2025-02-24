@@ -5,9 +5,6 @@ data:
   description: Packages that kernel maintainers sst doesn't want to distribute in RHEL 9
   maintainer: sst_kernel_maintainers
   unwanted_packages:
-    - iwl3945-firmware
-    - iwl4965-firmware
-    - iwl6000-firmware
     - kernel-64k-debug-modules-internal
     - kernel-64k-debug-modules-partner
     - kernel-64k-modules-internal
@@ -20,9 +17,6 @@ data:
     - kernel-selftests-internal
     - kernel-zfcpdump-modules-internal
     - kernel-zfcpdump-modules-partner
-    - libertas-sd8686-firmware
-    - libertas-usb8388-firmware
-    - libertas-usb8388-olpc-firmware
     - liquidio-firmware
   labels:
     - eln
