@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig hardware packages
+  description: ELN Extras packages for hardware support and diagnostics
+  maintainer: meta-sig
+  packages:
+    - aer-inject
+    - linux-sysinfo-snapshot
+    - mce-inject
+    - mlnx-tools
+  arch_packages:
+    x86_64:
+      - msr-tools
+  labels:
+    - eln-extras
