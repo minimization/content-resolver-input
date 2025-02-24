@@ -37,9 +37,7 @@ data:
     - libidn-devel
     - libkdumpfile-devel
     - libxcrypt-compat
-    - linux-sysinfo-snapshot
     - mkosi
-    - mlnx-tools
     - mosh
     - ncurses-compat-libs
     - neovim
@@ -82,7 +80,6 @@ data:
       - sedutil
       - sysbench
     x86_64:
-      - msr-tools
       - sedutil
       - sysbench
   labels:
