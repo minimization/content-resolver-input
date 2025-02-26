@@ -6,6 +6,5 @@ data:
   maintainer: sst_cs_base_utils
   packages:
     - maven
-    - maven4
   labels:
-    - eln
+    - c10s
