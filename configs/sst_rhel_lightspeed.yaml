@@ -15,7 +15,19 @@ data:
           description: Command Line Assistant
           dependencies:
             - python3
-
+            - python3-dasbus
+            - python3-requests
+            - python3-sqlalchemy
+            - systemd
+    - srpm_name: command-line-assistant-selinux
+      limit_arches:
+        - aarch64
+        - x86_64
+      rpms:
+        - rpm_name: command-line-assistant-selinux
+          description: Command Line Assistant SELinux Policy
+          dependencies:
+            - selinux-policy-targeted
   labels:
     - eln
     - c10s
