@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig tracing/profiling packages
+  description: ELN Extras packages for tracing and profiling tools
+  maintainer: meta-sig
+  packages:
+    - retsnoop
+  arch_packages:
+    aarch64:
+      - perfetto
+    x86_64:
+      - perfetto
+  labels:
+    - eln-extras
