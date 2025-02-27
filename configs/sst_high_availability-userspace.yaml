@@ -171,6 +171,7 @@ data:
         - corosync-qdevice-devel
         - corosynclib-devel
         - diffstat
+        - findutils
         - gcc
         - gcc-c++
         - git-core
@@ -183,6 +184,7 @@ data:
         - pacemaker-libs-devel
         - pam
         - python3
+        - pkgconfig
         - python3-cryptography
         - python3-dateutil
         - python3-devel
@@ -190,16 +192,18 @@ data:
         - python3-pip
         - python3-pyparsing
         - python3-setuptools
+        - python3-tornado
         - python3-wheel
         - ruby
         - ruby-devel
-        - rubygems
         - rubygem-bundler
         - rubygem-json
         - rubygem-rexml
         - rubygem-test-unit
+        - rubygems
         - sbd
-        - systemd
+        - systemd-rpm-macros
+        - tar
       limit_arches:
         - x86_64
         - ppc64le
@@ -222,7 +226,7 @@ data:
             - python3-dateutil
             - python3-lxml
             - python3-pyparsing
-            - python3-setuptools
+            - python3-tornado
             - ruby
             - rubygem-json
             - rubygem-rexml
