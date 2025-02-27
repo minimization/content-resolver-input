@@ -58,7 +58,6 @@ data:
     - python3-zstd
     - qrencode-devel
     - ragel
-    - retsnoop
     - ripgrep
     - rpmdistro-repoquery
     - rpminspect
