@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: GeoIP
-  description: GeoIP tools and libraries
+  name: GeoLite2
+  description: GeoIP databases
   maintainer: sst_cs_net_perf_services
   packages:
-    - libmaxminddb
+    - geolite2-city
+    - geolite2-country
   labels:
-    - eln
     - c10s
