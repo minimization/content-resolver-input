@@ -4,14 +4,8 @@ data:
   name: Mozilla Thunderbird
   description: Default e-mail client for Workstation
   maintainer: sst_display_productivity
-  packages: []
-  arch_packages:
-    aarch64:
-      - thunderbird
-    ppc64le:
-      - thunderbird
-    x86_64:
-      - thunderbird
+  packages:
+    - thunderbird
   labels:
     # This package is only in ELN Extras because in RHEL we're using a different
     # packaging than in Fedora (and in fact in RHEL 10 this will be shipped in
