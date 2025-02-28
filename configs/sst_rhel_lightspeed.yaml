@@ -20,7 +20,7 @@ data:
             - python3-sqlalchemy
             - systemd
         - rpm_name: command-line-assistant-selinux
-          description: Command Line Assistant SELinux Policy
+          description: Command Line Assistant Selinux Policy
           dependencies:
             - selinux-policy-targeted
   labels:
