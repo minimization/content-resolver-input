@@ -19,11 +19,6 @@ data:
             - python3-requests
             - python3-sqlalchemy
             - systemd
-    - srpm_name: command-line-assistant-selinux
-      limit_arches:
-        - aarch64
-        - x86_64
-      rpms:
         - rpm_name: command-line-assistant-selinux
           description: Command Line Assistant SELinux Policy
           dependencies:
