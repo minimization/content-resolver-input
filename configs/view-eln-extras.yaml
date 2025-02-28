@@ -9,6 +9,7 @@ data:
   - eln-extras
   base_view_id: view-eln
   repository: repository-fedora-eln-extras
+  buildroot_strategy: root_logs
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:
