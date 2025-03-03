@@ -3,7 +3,7 @@ version: 1
 data:
   name: Storage IO
   description: SST Storage-IO Supported Packages
-  maintainer: sst_storage_io
+  maintainer: rhel-sst-storage-io
   packages:
     # Block Storage
     - cxl-cli

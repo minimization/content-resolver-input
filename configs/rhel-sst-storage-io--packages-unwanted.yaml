@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted SST Storage-IO packages
   description: Unwanted SST Storage-IO and Components
-  maintainer: sst_storage_io
+  maintainer: rhel-sst-storage-io
   unwanted_packages:
     - libhbaapi
     - libhbalinux
