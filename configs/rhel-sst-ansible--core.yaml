@@ -8,4 +8,5 @@ data:
     - ansible-core
     - sshpass
   labels:
+    - eln
     - c10s
