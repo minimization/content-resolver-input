@@ -3,7 +3,7 @@ version: 1
 data:
   name: TFTP
   description: Client and server for the Trivial File Transfer Protocol
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - tftp
     - tftp-server
