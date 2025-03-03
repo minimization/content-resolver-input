@@ -9,6 +9,8 @@ data:
     - flatpak
     - flatpak-libs
     - flatpak-builder
+    - flatpak-rpm-macros
+    - flatpak-runtime-config
     - flatpak-selinux
     - flatpak-session-helper
     - flatpak-spawn

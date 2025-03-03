@@ -7,6 +7,7 @@ data:
   packages:
     - gnome-text-editor
     - gtksourceview5
+    - libspelling
   labels:
     - eln
     - c10s
