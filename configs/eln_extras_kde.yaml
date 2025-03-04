@@ -395,7 +395,7 @@ data:
       - angelfish
       - arianna
       - bluedevil
-      #- cantor
+      - cantor
       - digikam
       - digikam-libs
       - falkon
@@ -407,7 +407,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
-      #- kaidan
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
@@ -447,7 +447,7 @@ data:
       - angelfish
       - arianna
       - bluedevil
-      #- cantor
+      - cantor
       - digikam
       - digikam-libs
       - falkon
@@ -459,7 +459,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
-      #- kaidan
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
@@ -491,5 +491,54 @@ data:
       - skanpage
       - tokodon
     ppc64le:
+      - akonadi-calendar-tools
+      - akonadiconsole
+      - akonadi-import-wizard
+      - akregator
+      - akregator-libs
+      - angelfish
+      - arianna
       - bluedevil
+      - cantor
+      - digikam
+      - digikam-libs
+      - falkon
+      - ghostwriter
+      - grantlee-editor
+      - grantlee-editor-libs
+      - k3b
+      - k3b-libs
+      - kaccounts-providers
+      - kaddressbook
+      - kaddressbook-libs
+      - kaidan
+      - kalarm
+      - kalgebra
+      - kdepim-addons
+      - kdepim-runtime
+      - kdepim-runtime-libs
+      - kdevelop
+      - kdevelop-libs
+      - kdevelop-pg-qt
+      - kgpg
+      - khelpcenter
+      - kmail
+      - kmail-account-wizard
+      - kmail-libs
+      - konqueror
+      - konqueror-libs
+      - kontact
+      - kontact-libs
+      - korganizer
+      - korganizer-libs
+      - kwebenginepart
+      - mbox-importer
+      - parley
+      - pim-data-exporter
+      - pim-data-exporter-libs
+      - pim-sieve-editor
       - plasma-nm-l2tp
+      - plasma-nm-openconnect
+      - plasma-sdk
+      - skanpage
+      - tokodon
