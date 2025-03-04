@@ -3,7 +3,7 @@ version: 1
 data:
   name: Apache Ant
   description: Java build tool
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - ant
     - ant-antlr

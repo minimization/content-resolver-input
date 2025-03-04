@@ -3,7 +3,7 @@ version: 1
 data:
   name: SCM
   description: Pupular source-management tools
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - git
     - git-daemon

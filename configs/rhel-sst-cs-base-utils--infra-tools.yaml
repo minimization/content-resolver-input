@@ -3,7 +3,7 @@ version: 1
 data:
   name: Infrastructure tools
   description: Packages for sysadmins/servers (e.g. mailserver)
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - dovecot
     - dovecot-devel

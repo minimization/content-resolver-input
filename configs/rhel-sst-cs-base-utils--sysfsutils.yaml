@@ -3,7 +3,7 @@ version: 1
 data:
   name: sysfsutils
   description: Utilities for interfacing with sysfs
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - glibc
     - libsysfs

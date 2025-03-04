@@ -3,7 +3,7 @@ version: 1
 data:
   name: System management
   description: Packages for managing Linux system
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - acl
     - attr

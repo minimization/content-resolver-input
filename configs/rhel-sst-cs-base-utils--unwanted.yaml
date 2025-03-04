@@ -3,7 +3,7 @@ version: 1
 data:
   name: sst_cs_base_utils - Blocked packages
   description: sst_cs_base_utils - Packages which should not be in ELN
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   unwanted_packages:
     - linuxconsoletools
     - mtools

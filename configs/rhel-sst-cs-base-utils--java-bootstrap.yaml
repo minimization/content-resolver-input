@@ -7,7 +7,7 @@ data:
     bootstrap mode.  Not pulled-in via dependency resolution because
     in normal conditions bootstrapping is disabled, so RPM
     dependencies on bootstrap packages are absent.
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - javapackages-bootstrap
   labels:

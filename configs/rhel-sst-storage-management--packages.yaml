@@ -3,7 +3,7 @@ version: 1
 data:
   name: SST Storage Management
   description: SST Storage Management Supported Packages
-  maintainer: sst_storage_management
+  maintainer: rhel-sst-storage-management
   packages:
     # Storage Management
     - hdparm
