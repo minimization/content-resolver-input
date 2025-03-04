@@ -395,7 +395,7 @@ data:
       - angelfish
       - arianna
       - bluedevil
-      #- cantor
+      - cantor
       - digikam
       - digikam-libs
       - falkon
@@ -407,7 +407,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
-      #- kaidan
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
@@ -447,7 +447,7 @@ data:
       - angelfish
       - arianna
       - bluedevil
-      #- cantor
+      - cantor
       - digikam
       - digikam-libs
       - falkon
@@ -459,7 +459,7 @@ data:
       - kaccounts-providers
       - kaddressbook
       - kaddressbook-libs
-      #- kaidan
+      - kaidan
       - kalarm
       - kalgebra
       - kdepim-addons
