@@ -24,7 +24,11 @@ data:
       - qt6-qtwebengine-devtools
       - qt6-qtwebview
     ppc64le:
+      - python3-pyqt6-webengine
       - qt6ct
+      - qt6-qtwebengine
+      - qt6-qtwebengine-devtools
+      - qt6-qtwebview
     x86_64:
       - python3-pyqt6-webengine
       - qt6ct
