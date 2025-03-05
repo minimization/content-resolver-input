@@ -115,6 +115,9 @@ data:
     # python3-py is in maintenance mode upstream, pretty much dead
     # it used to be in RHEL as a dependency of pytest which bundled the necessary parts
     - python3-py
+    # lxml-html-clean is the CVE-magnet part of lxml we split upstream to get rid of it
+    # nothing in ELN really ever used it, but let's not risk it
+    - python3-lxml-html-clean
   # components for the above
   unwanted_source_packages:
     - python3.5
@@ -181,6 +184,7 @@ data:
     - python-toml
     - python-tomli
     - python-py
+    - python-lxml-html-clean
   labels:
     - eln
     - c10s
