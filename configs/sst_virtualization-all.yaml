@@ -28,6 +28,7 @@ data:
       - snphost
       - spice-protocol
       - spice-vdagent
+      - tdx-qgs
       - trustee-guest-components
     ppc64le:
       - powerpc-utils
