@@ -5,7 +5,7 @@ data:
   description: >
     Packages related to network configuration and troubleshooting.
 
-  maintainer: sst_network_fastdatapath_ovsdpdk
+  maintainer: rhel-sst-network-fastdatapath-ovsdpdk
   packages:
     # LLDP support
     - lldpad
