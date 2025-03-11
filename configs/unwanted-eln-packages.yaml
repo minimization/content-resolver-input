@@ -10,7 +10,7 @@ data:
   ###  Unwanted packages in ELN  ###
   #
   # Before using this list, please consider your own exclusion list
-  # such as "sst_cs_software_management-unwanted.yaml" as an example.
+  # such as "rhel-sst-cs-software-management--unwanted.yaml" as an example.
   # This helps track ownership better, as you can set the maintainer
   # field to represent you or your team.
   #

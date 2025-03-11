@@ -3,7 +3,7 @@ version: 1
 data:
   name: Package Manager - development packages
   description: Supported development packages
-  maintainer: sst_cs_software_management
+  maintainer: rhel-sst-cs-software-management
   packages:
     - libdnf-devel
     - popt-devel

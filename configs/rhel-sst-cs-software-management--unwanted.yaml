@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_cs_software_management
+  name: Unwanted Packages - rhel-sst-cs-software-management
   description: Packages that the Software Management subsystem does not want to distribute in RHEL 9
-  maintainer: sst_cs_software_management
+  maintainer: rhel-sst-cs-software-management
   unwanted_packages:
     # drop drpm support from RHEL 9
     - drpm
