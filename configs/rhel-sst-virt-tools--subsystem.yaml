@@ -3,7 +3,7 @@ version: 1
 data:
   name: Virtualization Tools
   description: Libvirt and virt-tools that enable virtualization capabilities on RHEL
-  maintainer: sst_virt_tools
+  maintainer: rhel-sst-virt-tools
   packages:
     - augeas
     - hexedit
