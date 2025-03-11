@@ -6,6 +6,8 @@ data:
   maintainer: sst_display_window_management
   packages:
     - gnome-kiosk
+    - gnome-kiosk-script-session
+    - gnome-kiosk-search-appliance
   labels:
     - eln
     - c10s
