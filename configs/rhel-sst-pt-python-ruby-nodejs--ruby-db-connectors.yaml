@@ -3,7 +3,7 @@ version: 1
 data:
   name: Ruby DB connectors
   description: Databases connectors for Ruby
-  maintainer: sst_pt_python_ruby_nodejs
+  maintainer: rhel-sst-pt-python-ruby-nodejs
   packages:
     - rubygem-mysql2
     - rubygem-pg
