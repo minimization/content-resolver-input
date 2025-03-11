@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages -- sst_installer
+  name: Unwanted Packages -- rhel-sst-installer
   description: Packages that should not be distributed in ELN
-  maintainer: sst_installer
+  maintainer: rhel-sst-installer
   labels:
     - eln
     - c10s
