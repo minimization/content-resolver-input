@@ -3,7 +3,7 @@ version: 1
 data:
   name: System tracing
   description: A collection of common system tracing tools
-  maintainer: sst_kernel_tps
+  maintainer: rhel-sst-kernel-tps
   packages:
     - bcc
     - bcc-tools

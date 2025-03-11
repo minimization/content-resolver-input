@@ -3,7 +3,7 @@ version: 1
 data:
   name: CRIU support
   description: Tool necessary to support checkpoint/restore.
-  maintainer: sst_kernel_tps
+  maintainer: rhel-sst-kernel-tps
   packages:
     - criu
     - crit

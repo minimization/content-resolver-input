@@ -3,7 +3,7 @@ version: 1
 data:
   name: Perf
   description: Performance analysis tools for Linux
-  maintainer: sst_kernel_tps
+  maintainer: rhel-sst-kernel-tps
   packages:
     - perf
     - libperf

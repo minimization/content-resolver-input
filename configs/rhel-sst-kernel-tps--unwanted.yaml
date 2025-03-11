@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_kernel_tps
+  name: Unwanted Packages - rhel-sst-kernel-tps
   description: Packages not shipping in RHEL 9
-  maintainer: sst_kernel_tps (vdronov for rtl-sdr*)
+  maintainer: rhel-sst-kernel-tps
   unwanted_packages:
     - rtl-sdr
     - rtl-sdr-devel
