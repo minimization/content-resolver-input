@@ -3,7 +3,7 @@ version: 1
 data:
   name: Tomcat packages
   description: Middleware SST - Tomcat packages
-  maintainer: sst_middleware
+  maintainer: rhel-sst-middleware
   packages:
     - ecj
     - tomcat
