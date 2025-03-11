@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted PMDK packages
   description: Unwanted Persistent Memory Development Kit components
-  maintainer: sst_storage_io
+  maintainer: rhel-sst-storage-io
   unwanted_source_packages:
     - nvml
     - libpmemobj-cpp
