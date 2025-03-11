@@ -3,7 +3,7 @@ version: 1
 data:
   name: HA
   description: HA needed packages
-  maintainer: sst_high_availability
+  maintainer: rhel-sst-high-availability
   packages: []
   package_placeholders:
     - srpm_name: fence-agents
