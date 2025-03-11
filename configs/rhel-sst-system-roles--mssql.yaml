@@ -3,7 +3,7 @@ version: 1
 data:
   name: Microsoft SQL Server management
   description: Ansible collection for Microsoft SQL Server management
-  maintainer: sst_system_roles
+  maintainer: rhel-sst-system-roles
   packages:
     - ansible-collection-microsoft-sql
   labels:
