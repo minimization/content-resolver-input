@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for CEE Support
   description: Packages not shipping in RHEL 9
-  maintainer: sst_cee_supportability
+  maintainer: rhel-sst-cee-supportability
   unwanted_packages:
     - rhel-tools-container
     - sos-collector
