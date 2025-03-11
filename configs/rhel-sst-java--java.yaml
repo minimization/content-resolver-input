@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenJDK
   description: OpenJDK and the Java Platform
-  maintainer: sst_java
+  maintainer: rhel-sst-java
   labels:
     - eln
     - c10s
