@@ -1,14 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - iproute
+  name: Networking Tools - iptraf-ng
   description: >
     Packages related to network configuration and troubleshooting.
 
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
-    - iproute
-    - iproute-tc
+    - iptraf-ng
   labels:
     - eln
     - c10s

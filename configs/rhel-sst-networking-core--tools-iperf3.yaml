@@ -1,13 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - iptraf-ng
+  name: Networking Tools - iperf3
   description: >
     Packages related to network configuration and troubleshooting.
 
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
-    - iptraf-ng
+    - iperf3
   labels:
     - eln
     - c10s

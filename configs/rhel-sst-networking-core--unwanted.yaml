@@ -5,7 +5,7 @@ data:
   description: >
     Unwanted packages related to network configuration and troubleshooting.
 
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   unwanted_packages:
     - dropwatch
     - plotnetcfg

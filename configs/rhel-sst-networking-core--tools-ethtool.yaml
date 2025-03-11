@@ -1,14 +1,13 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - libndp
+  name: Networking Tools - ethtool
   description: >
     Packages related to network configuration and troubleshooting.
 
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
-    # ndptool, sends Unsolicited NA
-    - libndp
+    - ethtool
   labels:
     - eln
     - c10s

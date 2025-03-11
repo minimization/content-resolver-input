@@ -3,7 +3,7 @@ version: 1
 data:
   name: wireguard-tools
   description: Fast, modern, secure VPN tunnel
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
     - wireguard-tools
   labels:
