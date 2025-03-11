@@ -3,7 +3,7 @@ version: 1
 data:
   name: Mingw Exclusion List
   description: mingw packages that should not be included.
-  maintainer: sst_virtualization_spice
+  maintainer: rhel-sst-virtualization
   unwanted_packages:
     # mingw-spice-gtk
     - mingw32-spice-gtk3

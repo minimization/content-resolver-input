@@ -3,7 +3,7 @@ version: 1
 data:
   name: Virtualization on RHEL - KVM Userspace
   description: Userspace agents and tools that enable virtualization capabilities on RHEL
-  maintainer: ssg_virtualization
+  maintainer: rhel-sst-virtualization
   packages:
     - dtc
     - gtk-vnc2
