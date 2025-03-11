@@ -3,7 +3,7 @@ version: 1
 data:
   name: ODBC library
   description: unixODBC interface for unified databases access, including connectors for MySQL, MariaDB and PostgreSQL
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   packages:
     - mariadb-connector-odbc
     - unixODBC-devel

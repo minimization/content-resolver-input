@@ -3,7 +3,7 @@ version: 1
 data:
   name: Compression
   description: Tools for file compression
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   packages:
     - zlib-ng-compat-devel
     - zlib-ng-compat-static

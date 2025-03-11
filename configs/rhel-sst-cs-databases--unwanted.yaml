@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages from CS Databases SST
   description: Packages we do not want to ship for CS Databases SST
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   unwanted_packages:
     - libdb-devel # Deprecated in RHEL9
     - libdb

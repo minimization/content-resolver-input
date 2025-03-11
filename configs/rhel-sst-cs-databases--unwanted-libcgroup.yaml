@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for libcgroup
   description: libcgroup doesn't support cgroupv2 and has been effectively dead for a long time
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   unwanted_packages:
     - libcgroup
   labels:
