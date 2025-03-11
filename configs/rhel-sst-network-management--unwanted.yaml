@@ -5,7 +5,7 @@ data:
   description: >
     Unwanted packages from Network Management
 
-  maintainer: sst_network_management
+  maintainer: rhel-sst-network-management
   unwanted_packages:
     - NetworkManager-team
     - libteam
