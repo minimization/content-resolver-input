@@ -3,7 +3,7 @@ version: 1
 data:
   name: Base userspace
   description: Basic tools and daemon needed to run a server
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - dracut
     - dracut-caps

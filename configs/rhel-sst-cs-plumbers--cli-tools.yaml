@@ -3,7 +3,7 @@ version: 1
 data:
   name: CLI tools
   description: Various cli tools that makes administrator life easier
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - usbutils
     - procps-ng

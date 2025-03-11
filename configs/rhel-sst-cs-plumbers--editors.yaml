@@ -3,7 +3,7 @@ version: 1
 data:
   name: Editors
   description: Editors
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - emacs
     - emacs-lucid

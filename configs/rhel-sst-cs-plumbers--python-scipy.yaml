@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python scipy
   description: SciPy is a Python-based ecosystem of open-source software for mathematics, science, and engineering. Support level is to be determined.
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - python3-scipy
   labels:

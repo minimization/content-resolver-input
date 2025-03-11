@@ -3,7 +3,7 @@ version: 1
 data:
   name: Core Services Plumbers - Blocked packages
   description: Core Services Plumbers - Packages which should not be in ELN
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   unwanted_packages:
     - atlas
     - atlas-corei2

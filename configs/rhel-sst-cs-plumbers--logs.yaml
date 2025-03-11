@@ -3,7 +3,7 @@ version: 1
 data:
   name: Logfile tools
   description: Tools for analising and maintaining log files
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - logwatch
     - logrotate

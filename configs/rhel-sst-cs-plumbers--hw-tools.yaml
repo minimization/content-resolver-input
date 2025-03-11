@@ -3,7 +3,7 @@ version: 1
 data:
   name: HW tools
   description: Various tools related to a specific hardware
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     # asamalik: Moving biosdevname to x86 architectures only as it's not available elsewhere
     #- biosdevname
