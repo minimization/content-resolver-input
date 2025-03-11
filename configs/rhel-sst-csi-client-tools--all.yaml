@@ -3,7 +3,7 @@ version: 1
 data:
   name: CSI Client Tools
   description: Red Hat tools for Content, Subscriptions and Insights.
-  maintainer: sst_csi_client_tools
+  maintainer: rhel-sst-csi-client-tools
   packages:
     - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
