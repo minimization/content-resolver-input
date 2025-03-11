@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL on public and private clouds
   description: Userspace agents and tools to assist running RHEL as a guest on public and private clouds
-  maintainer: sst_virtualization_cloud
+  maintainer: rhel-sst-virtualization-cloud
   packages:
     - cloud-init
     - cloud-utils-growpart
