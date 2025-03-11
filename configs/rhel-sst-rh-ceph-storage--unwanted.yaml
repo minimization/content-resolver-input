@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: samba_storage-unwanted
-  description: Unwanted samba_storage packages
-  maintainer: jwboyer
+  name: Ceph storage unwanted
+  description: Unwanted Ceph storage packages
+  maintainer: rhel-sst-rh-ceph-storage
   unwanted_packages:
     - ceph
     - ceph-base

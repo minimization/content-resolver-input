@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: glusterfs_storage-unwanted
-  description: Unwanted glusterfs_storage packages
-  maintainer: kkeithle
+  name: GlusterFS storage unwanted
+  description: Unwanted GlusterFS storage packages
+  maintainer: rhel-sst-rh-ceph-storage
   unwanted_packages:
     - glusterfs
     - glusterfs-cli
