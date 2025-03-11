@@ -3,7 +3,7 @@ version: 1
 data:
   name: Window Management - Blocked packages
   description: Window Management - Packages which should not be in ELN
-  maintainer: sst_window_management
+  maintainer: rhel-sst-display-window-management
   unwanted_packages:
     # Seems to only be used by hwloc in an optional plugin
     - libXNVCtrl

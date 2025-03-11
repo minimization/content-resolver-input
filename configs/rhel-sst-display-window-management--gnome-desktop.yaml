@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Desktop
   description: GNOME Desktop core packages
-  maintainer: sst_display_window_management
+  maintainer: rhel-sst-display-window-management
   packages:
     - gnome-browser-connector
     - gnome-color-manager

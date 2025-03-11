@@ -3,7 +3,7 @@ version: 1
 data:
   name: X11 Server
   description: Provide the server side for the X window system
-  maintainer: sst_display_window_management
+  maintainer: rhel-sst-display-window-management
   packages:
     # x11 server
     - xorg-x11-server-Xwayland
