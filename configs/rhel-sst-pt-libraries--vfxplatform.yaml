@@ -3,7 +3,7 @@ version: 1
 data:
   name: vfxplatform
   description: The VFX Reference Platform (CY2024 DRAFT) https://vfxplatform.com/
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     # The minimum development environment is this:
     - gcc

@@ -3,7 +3,7 @@ version: 1
 data:
   name: tzdata
   description: The latest time zone database as released by IANA.
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     - tzdata
     - tzdata-java
