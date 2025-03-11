@@ -3,7 +3,7 @@ version: 1
 data:
   name: Kernel Security Exclusion List
   description: Kernel Security packages that are no longer needed
-  maintainer: sst_kernel_security
+  maintainer: rhel-sst-kernel-security
   unwanted_source_packages:
     - tpm-quote-tools
     - tpm-tools
