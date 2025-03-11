@@ -3,7 +3,7 @@ version: 1
 data:
   name: Spice Exclusion List
   description: Spice packages that should not be included.
-  maintainer: sst_virtualization_spice
+  maintainer: rhel-sst-virtualization
   unwanted_packages:
     - spice-server
     - spice-server-devel
