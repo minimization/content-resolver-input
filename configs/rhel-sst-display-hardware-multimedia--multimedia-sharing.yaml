@@ -3,7 +3,7 @@ version: 1
 data:
   name: Multimedia sharing
   description: For screen sharing and camera access
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages:
     - pipewire
     - wireplumber

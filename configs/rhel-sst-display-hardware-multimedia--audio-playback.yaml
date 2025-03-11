@@ -3,7 +3,7 @@ version: 1
 data:
   name: Audio playback
   description: Libraries and daemons for audio playback
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages:
     - pipewire-pulseaudio
     - libcanberra

@@ -3,7 +3,7 @@ version: 1
 data:
   name: Desktop Platform Technologies - Blocked packages
   description: Desktop Platform Technologies - Packages which should not be in ELN
-  maintainer: sst_display_hardware_multimedia 
+  maintainer: rhel-sst-display-hardware-multimedia
   unwanted_source_packages:
     - atf
     - lutok
