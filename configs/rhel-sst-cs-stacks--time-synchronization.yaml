@@ -3,7 +3,7 @@ version: 1
 data:
   name: Time Synchronization
   description: Software needed for time synchronization on Linux
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - chrony
     - gpsd

@@ -3,7 +3,7 @@ version: 1
 data:
   name: DHCP Client
   description: DHCP Client software
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - dhcpcd
   labels:

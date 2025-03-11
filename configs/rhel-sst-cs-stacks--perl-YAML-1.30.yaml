@@ -3,7 +3,7 @@ version: 1
 data:
   name: perl-YAML:1.30 module
   description: Perl library for YAML
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   labels:
     - eln
     - c10s

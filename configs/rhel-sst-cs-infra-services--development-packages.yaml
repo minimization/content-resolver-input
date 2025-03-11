@@ -3,7 +3,7 @@ version: 1
 data:
   name: Development packages
   description: Packages wich are relevant for Developer (CRB)
-  maintainer: sst_cs_infra_services
+  maintainer: rhel-sst-cs-infra-services
   packages:
     # cups
     - cups-devel

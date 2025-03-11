@@ -3,7 +3,7 @@ version: 1
 data:
   name: Text editors
   description: Applications for text editing
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - vim-enhanced
     - vim-minimal

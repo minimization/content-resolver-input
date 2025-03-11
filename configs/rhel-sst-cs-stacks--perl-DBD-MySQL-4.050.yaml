@@ -3,7 +3,7 @@ version: 1
 data:
   name: perl-DBD-MySQL:4.050 module
   description: Perl client for MySQL
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   labels:
     - eln
     - c10s

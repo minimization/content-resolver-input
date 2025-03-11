@@ -3,7 +3,7 @@ version: 1
 data:
   name: HTTP Servers - Squid Caching Proxy
   description: CS Stacks - Squid
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - squid
   labels:

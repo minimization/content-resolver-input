@@ -3,7 +3,7 @@ version: 1
 data:
   name: Scanning Stack
   description: Suite of software needed for scanning on Linux
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     # tools
     - sane-backends
