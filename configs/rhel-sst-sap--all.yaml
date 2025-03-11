@@ -3,7 +3,7 @@ version: 1
 data:
   name: SAP Solutions
   description: Packages for SAP Solutions
-  maintainer: sst_sap
+  maintainer: rhel-sst-sap
   packages: []
   arch_packages:
     x86_64:
