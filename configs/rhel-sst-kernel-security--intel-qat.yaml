@@ -3,7 +3,7 @@ version: 1
 data:
   name: Intel QAT Userspace
   description: Userspace libraries and tools for Intel QAT hardware crypto device
-  maintainer: sst_kernel_security
+  maintainer: rhel-sst-kernel-security
   arch_packages:
     x86_64:
       - qatlib
