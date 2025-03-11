@@ -3,7 +3,7 @@ version: 1
 data:
   name: Wayland infrastructure
   description: Contains tools and related infrastructure used in a Wayland environment
-  maintainer: sst_display_window_management
+  maintainer: rhel-sst-display-window-management
   packages:
     - wayland-utils
     - waypipe
