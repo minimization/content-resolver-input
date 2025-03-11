@@ -3,7 +3,7 @@ version: 1
 data:
   name: Qt 6 Toolkit
   description: Software toolkit for developing applications
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - python3-pyqt6
     - python3-pyqt6-base

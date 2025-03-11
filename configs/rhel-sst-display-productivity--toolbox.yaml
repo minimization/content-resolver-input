@@ -3,7 +3,7 @@ version: 1
 data:
   name: Toolbx
   description: Tool for containerized command line environments
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - toolbox
   labels:

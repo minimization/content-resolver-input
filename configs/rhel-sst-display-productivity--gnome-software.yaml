@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Software
   description: Default application and updates manager for Workstation
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - gnome-software
   labels:

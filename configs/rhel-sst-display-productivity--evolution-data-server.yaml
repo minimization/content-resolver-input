@@ -3,7 +3,7 @@ version: 1
 data:
   name: Evolution Data Server
   description: Unified backend for programs that work with contacts, tasks, and calendar information
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - evolution-data-server
     - evolution-data-server-langpacks

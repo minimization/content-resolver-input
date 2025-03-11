@@ -3,7 +3,7 @@ version: 1
 data:
   name: Baobab
   description: Disk usage analyzer for Workstation
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - baobab
   labels:
