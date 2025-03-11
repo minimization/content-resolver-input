@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted High Availability packages
   description: Unwanted High Availability Components
-  maintainer: sst_high_availability
+  maintainer: rhel-sst-high-availability
   unwanted_packages:
     - clufter-bin
     - clufter-cli
