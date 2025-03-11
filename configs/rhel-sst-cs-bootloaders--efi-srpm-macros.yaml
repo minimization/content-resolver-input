@@ -3,7 +3,7 @@ version: 1
 data:
   name: efi-srpm-macros
   description: Common RPM Macros for building EFI-related packages
-  maintainer: sst_cs_bootloaders
+  maintainer: rhel-sst-cs-bootloaders
   packages:
     - efi-srpm-macros
   labels:

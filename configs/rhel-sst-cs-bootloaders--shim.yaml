@@ -3,7 +3,7 @@ version: 1
 data:
   name: shim
   description: First-stage UEFI bootloader
-  maintainer: sst_cs_bootloaders
+  maintainer: rhel-sst-cs-bootloaders
   packages: []
   labels:
     - eln

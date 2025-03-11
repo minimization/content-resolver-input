@@ -1,15 +1,15 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: mokutil
-  description: Tool to manage UEFI Secure Boot MoK Keys
-  maintainer: sst_cs_bootloaders
+  name: efibootmgr
+  description: EFI Boot Manager
+  maintainer: rhel-sst-cs-bootloaders
   packages: []
   labels:
     - eln
     - c10s
   arch_packages:
     aarch64:
-      - mokutil
+      - efibootmgr
     x86_64:
-      - mokutil
+      - efibootmgr
