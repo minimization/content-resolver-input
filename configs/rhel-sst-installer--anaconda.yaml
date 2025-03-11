@@ -3,7 +3,7 @@ version: 1
 data:
   name: Anaconda
   description: Graphical system installer
-  maintainer: sst_installer
+  maintainer: rhel-sst-installer
   labels:
     - eln
     - c10s
