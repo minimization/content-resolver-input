@@ -3,7 +3,7 @@ version: 1
 data:
   name: C++ Runtime
   description: A minimal C++ runtime.
-  maintainer: sst_pt_gcc
+  maintainer: rhel-sst-pt-gcc
   packages:
     # Need the C runtime implementation.
     - glibc

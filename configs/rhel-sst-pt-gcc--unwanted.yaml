@@ -3,7 +3,7 @@ version: 1
 data:
   name: Platform Tools Unwanted Packages
   description: Platform Tools recommendations for packages not to ship
-  maintainer: sst_pt_gcc
+  maintainer: rhel-sst-pt-gcc
   labels:
     - eln
     - c10s
@@ -13,7 +13,7 @@ data:
     - cppcheck
     - cppcheck-gui
     - cppcheck-htmlreport
-    # Owned by sst_cs_software_management
+    # Owned by rhel-sst-cs-software-management
     # - cppunit
     # - cppunit-devel
     # - cppunit-doc
