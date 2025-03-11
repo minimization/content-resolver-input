@@ -3,7 +3,7 @@ version: 1
 data:
   name: libicu-compat
   description: ICU (API compatibility)
-  maintainer: sst_display_i18n
+  maintainer: rhel-sst-display-i18n
   packages:
     # Each ICU major version is incompatible with the previous.  When icu 
     # is bumped, a libicuNN compat package is created, but dependent packages

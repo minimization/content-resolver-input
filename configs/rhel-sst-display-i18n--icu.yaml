@@ -3,7 +3,7 @@ version: 1
 data:
   name: ICU
   description: International Components for Unicode
-  maintainer: sst_display_i18n
+  maintainer: rhel-sst-display-i18n
   packages:
     - icu
     - libicu
