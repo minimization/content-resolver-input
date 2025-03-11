@@ -3,7 +3,7 @@ version: 1
 data:
   name: Kernel ABI support
   description: Tools necessary to support Kernel ABI.
-  maintainer: sst_kernel_tps
+  maintainer: rhel-sst-kernel-tps
   packages:
     - kabi-dw
     - ksc

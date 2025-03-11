@@ -3,7 +3,7 @@ version: 1
 data:
   name: BPF development tools
   description: Tools needed for BPF developments
-  maintainer: sst_kernel_tps
+  maintainer: rhel-sst-kernel-tps
   packages:
     - bpftool
     - libbpf
