@@ -5,7 +5,7 @@ data:
   description: >
     The OVS packages are shipped through Fast Datapath repositories and should not be included in Red Hat Enterprise Linux.
 
-  maintainer: sst_network_fastdatapath
+  maintainer: sst_network_fastdatapath_ovsdpdk
   unwanted_packages:
     - openvswitch
     - openvswitch-devel
