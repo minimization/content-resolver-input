@@ -3,7 +3,7 @@ version: 1
 data:
   name: Package Manager - Minimal
   description: Minimal installation of a package manager for containers
-  maintainer: sst_cs_software_management
+  maintainer: rhel-sst-cs-software-management
   packages:
     - microdnf
     - rpm

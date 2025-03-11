@@ -3,7 +3,7 @@ version: 1
 data:
   name: Package Manager
   description: Recommended installation of package manager and plugins
-  maintainer: sst_cs_software_management
+  maintainer: rhel-sst-cs-software-management
   packages:
     - dnf
     - dnf-automatic

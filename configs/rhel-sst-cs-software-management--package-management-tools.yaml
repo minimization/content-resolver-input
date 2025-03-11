@@ -3,7 +3,7 @@ version: 1
 data:
   name: Package Management Tools
   description: Tools for building packages and repositories
-  maintainer: sst_cs_software_management
+  maintainer: rhel-sst-cs-software-management
   packages:
     - createrepo_c
     - redhat-rpm-config
