@@ -3,7 +3,7 @@ version: 1
 data:
   name: exfatprogs
   description: Utilities for formatting and repairing exFAT filesystems.
-  maintainer: sst_filesystems
+  maintainer: rhel-sst-filesystems
   packages:
     - exfatprogs
   labels:

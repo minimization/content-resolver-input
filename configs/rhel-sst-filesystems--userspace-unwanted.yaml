@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Filesystem packages
   description: Unwanted Filesystem Packages
-  maintainer: sst_filesystems
+  maintainer: rhel-sst-filesystems
   unwanted_packages:
     - system-storage-manager
     - xmlstarlet

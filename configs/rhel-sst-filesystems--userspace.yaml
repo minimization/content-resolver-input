@@ -3,7 +3,7 @@ version: 1
 data:
   name: Filesystems
   description: Filesystems needed packages
-  maintainer: sst_filesystems
+  maintainer: rhel-sst-filesystems
   packages:
     - autofs
     - blktrace
