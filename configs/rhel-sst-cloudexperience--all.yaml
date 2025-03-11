@@ -3,7 +3,7 @@ version: 1
 data:
   name: Cloud Experience Integrations for RHEL
   description: Software that makes RHEL more integrated with various clouds
-  maintainer: sst_cloud_experience
+  maintainer: rhel-sst-cloudexperience
   packages:
     - python3-prompt-toolkit
     - python3-ruamel-yaml
