@@ -3,7 +3,7 @@ version: 1
 data:
   name: Platform Storage
   description: Platform Storage Supported Packages
-  maintainer: sst_platform_storage
+  maintainer: rhel-sst-logical-storage
   packages:
     # Stratis
     - python3-dbus-client-gen
