@@ -3,7 +3,7 @@ version: 1
 data:
   name: SELinux tools
   description: A development tools for SELinux
-  maintainer: sst_security_selinux
+  maintainer: rhel-sst-security-selinux
   packages:
     - policycoreutils-devel
     - policycoreutils-gui

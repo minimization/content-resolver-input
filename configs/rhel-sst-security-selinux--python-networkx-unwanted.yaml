@@ -23,7 +23,7 @@ data:
   # for humans to read. In Fedora, a FAS nick is recommended.
   #
   # (mandatory field)
-  maintainer: plautrba
+  maintainer: rhel-sst-security-selinux
   # Labels connect things together.
   # Views with the same label will have these packages marked as unwanted.
   #
