@@ -5,7 +5,7 @@ data:
   description: >
     Container runtime and related packages maintained by the Container Tools SST ELN
 
-  maintainer: sst_container_tools
+  maintainer: rhel-sst-container-tools
   packages:
     - aardvark-dns
     - buildah
