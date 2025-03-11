@@ -3,7 +3,7 @@ version: 1
 data:
   name: Desktop Documentation
   description: Desktop documentation and branding
-  maintainer: sst_ccs
+  maintainer: rhel-sst-ccs
   packages:
     - gnome-user-docs
   labels:
