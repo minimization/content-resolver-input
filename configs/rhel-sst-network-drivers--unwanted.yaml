@@ -3,7 +3,7 @@ version: 1
 data:
   name: RDMA Stack - Blocked packages
   description: RDMA Stack - Packages which should not be in ELN
-  maintainer: sst_network_drivers
+  maintainer: rhel-sst-network-drivers
   unwanted_packages:
     # infiniband-diags provides libibmad library
     - libibmad
