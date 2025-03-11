@@ -3,7 +3,7 @@ version: 1
 data:
   name: Backup tools
   description: Packages for backup and restoration of the operating system
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - libburn
     - libburn-devel
