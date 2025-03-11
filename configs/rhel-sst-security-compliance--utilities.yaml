@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenSCAP utilities
   description: Wrappers and utilities to extend the usability of OpenSCAP scanner
-  maintainer: sst_security_compliance
+  maintainer: rhel-sst-security-compliance
   packages:
     - openscap-scanner
     - openscap-utils
