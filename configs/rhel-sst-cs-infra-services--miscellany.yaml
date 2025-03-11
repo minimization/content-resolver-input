@@ -3,7 +3,7 @@ version: 1
 data:
   name: Miscellaneous packages
   description: CS Stacks - miscellaneous packages
-  maintainer: sst_cs_infra_services
+  maintainer: rhel-sst-cs-infra-services
   packages:
     - sscg
     - hostname

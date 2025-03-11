@@ -3,7 +3,7 @@ version: 1
 data:
   name: Printing Stack
   description: Suite of software needed for printing on Linux
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     # tools
     - cups

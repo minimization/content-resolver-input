@@ -3,7 +3,7 @@ version: 1
 data:
   name: HTTP Servers - Apache httpd
   description: CS Stacks - Apache HTTP Server
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     # Packaged from httpd:
     - httpd

@@ -3,7 +3,7 @@ version: 1
 data:
   name: Valkey persistent key-value database
   description: CS Stacks - Valkey
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - valkey
     - valkey-devel

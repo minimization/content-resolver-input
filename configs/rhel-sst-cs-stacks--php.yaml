@@ -3,7 +3,7 @@ version: 1
 data:
   name: PHP scripting language
   description: CS Stacks - PHP
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - php
     - php-bcmath

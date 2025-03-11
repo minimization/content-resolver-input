@@ -3,7 +3,7 @@ version: 1
 data:
   name: SWIG bindings generator
   description: Core Services Stacks - SWIG
-  maintainer: sst_cs_stacks
+  maintainer: rhel-sst-cs-stacks
   packages:
     - swig
     - swig-doc
