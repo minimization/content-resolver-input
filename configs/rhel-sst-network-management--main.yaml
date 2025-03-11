@@ -5,7 +5,7 @@ data:
   description: >
     Tools for Network Management around NetworkManager.
 
-  maintainer: sst_network_management
+  maintainer: rhel-sst-network-management
   packages:
     # Core
     - NetworkManager
