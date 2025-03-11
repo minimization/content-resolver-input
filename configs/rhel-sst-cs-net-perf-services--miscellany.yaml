@@ -3,7 +3,7 @@ version: 1
 data:
   name: Miscellaneous packages
   description: CS Network and Performance Services - miscellaneous packages
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - expat
     - expat-devel

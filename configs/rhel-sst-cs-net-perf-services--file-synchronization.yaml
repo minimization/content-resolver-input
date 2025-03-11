@@ -3,7 +3,7 @@ version: 1
 data:
   name: File Synchronization
   description: File transfer and synchronization
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - rsync
     - rsync-daemon

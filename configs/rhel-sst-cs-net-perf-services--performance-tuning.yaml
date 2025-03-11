@@ -3,7 +3,7 @@ version: 1
 data:
   name: Performance tuning
   description: Tuned software and related profiles
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - tuned
     - tuned-gtk

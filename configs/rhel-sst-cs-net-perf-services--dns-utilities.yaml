@@ -3,7 +3,7 @@ version: 1
 data:
   name: DNS Utilities
   description: Packages containing various useful DNS tools
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - bind-utils
     - dnsconfd

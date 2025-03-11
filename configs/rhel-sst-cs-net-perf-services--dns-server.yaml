@@ -3,7 +3,7 @@ version: 1
 data:
   name: DNS Server
   description: Popular implementations of DNS authoritative servers and resolvers
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - bind
     - bind-chroot

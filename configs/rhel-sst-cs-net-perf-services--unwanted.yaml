@@ -3,7 +3,7 @@ version: 1
 data:
   name: Core Services Network and Performance Services - Blocked packages
   description: Core Services Network and Performance Services - Packages which should not be in ELN
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   unwanted_packages:
     # a2ps
     - a2ps

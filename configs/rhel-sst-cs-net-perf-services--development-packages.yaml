@@ -3,7 +3,7 @@ version: 1
 data:
   name: Development packages
   description: Packages wich are relevant for Developer (CRB)
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     # graphviz
     - graphviz-devel

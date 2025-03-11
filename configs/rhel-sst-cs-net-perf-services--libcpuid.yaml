@@ -3,7 +3,7 @@ version: 1
 data:
   name: libcpuid
   description: x86 CPU identification library
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages: []
   arch_packages:
     x86_64:

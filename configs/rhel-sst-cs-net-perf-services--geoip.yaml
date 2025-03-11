@@ -3,7 +3,7 @@ version: 1
 data:
   name: GeoIP
   description: GeoIP tools and libraries
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - libmaxminddb
   labels:
