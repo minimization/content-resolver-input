@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted SST Storage Management packages
   description: Unwanted SST Storage Management and Components
-  maintainer: sst_storage_management
+  maintainer: rhel-sst-storage-management
   unwanted_packages:
     - cryptsetup-reencrypt
     - libblockdev-vdo
