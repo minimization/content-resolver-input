@@ -1,13 +1,14 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Networking Tools - scapy
+  name: Networking Tools - wireshark
   description: >
     Packages related to network configuration and troubleshooting.
 
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
-    - python3-scapy
+    - wireshark
+    - wireshark-cli
   labels:
     - eln
     - c10s

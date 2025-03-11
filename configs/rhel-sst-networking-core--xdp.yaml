@@ -3,7 +3,7 @@ version: 1
 data:
   name: XDP
   description: Tools to support XDP
-  maintainer: sst_networking_core
+  maintainer: rhel-sst-networking-core
   packages:
     - xdp-tools
     - libxdp
