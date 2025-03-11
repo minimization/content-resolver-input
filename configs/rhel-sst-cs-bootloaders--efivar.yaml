@@ -1,15 +1,15 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: efibootmgr
-  description: EFI Boot Manager
-  maintainer: sst_cs_bootloaders
+  name: efivar
+  description: Tools to manage UEFI variables
+  maintainer: rhel-sst-cs-bootloaders
   packages: []
   labels:
     - eln
     - c10s
   arch_packages:
     aarch64:
-      - efibootmgr
+      - efivar
     x86_64:
-      - efibootmgr
+      - efivar

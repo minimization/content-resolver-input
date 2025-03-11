@@ -1,15 +1,15 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: efivar
-  description: Tools to manage UEFI variables
-  maintainer: sst_cs_bootloaders
+  name: pesign
+  description: Signing utility for UEFI binaries
+  maintainer: rhel-sst-cs-bootloaders
   packages: []
   labels:
     - eln
     - c10s
   arch_packages:
     aarch64:
-      - efivar
+      - pesign
     x86_64:
-      - efivar
+      - pesign
