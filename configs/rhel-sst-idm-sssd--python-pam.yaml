@@ -3,7 +3,7 @@ version: 1
 data:
   name: python-pam
   description: Python bindings for libpam.
-  maintainer: sst_idm_sssd
+  maintainer: rhel-sst-idm-sssd
   packages:
     - python3-pam
   labels:
