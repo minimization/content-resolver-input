@@ -3,7 +3,7 @@ version: 1
 data:
   name: edge packages
   description: Packages for edge usecases
-  maintainer: sst_edge
+  maintainer: rhel-sst-edge
   packages:
     - libgpiod
     - libgpiod-c++
