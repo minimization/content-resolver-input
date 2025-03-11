@@ -3,7 +3,7 @@ version: 1
 data:
   name: Fonts
   description: Collections of packages providing fonts
-  maintainer: sst_display_i18n
+  maintainer: rhel-sst-display-i18n
   packages:
     - default-fonts-am
     - default-fonts-ar
