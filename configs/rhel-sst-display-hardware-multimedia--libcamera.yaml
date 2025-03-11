@@ -3,7 +3,7 @@ version: 1
 data:
   name: libcamera
   description: A library to support complex camera ISPs
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages: []
   arch_packages:
     aarch64:

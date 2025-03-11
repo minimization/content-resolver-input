@@ -3,7 +3,7 @@ version: 1
 data:
   name: Codecs
   description: Various codecs
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages:
     - libtheora
     - sbc

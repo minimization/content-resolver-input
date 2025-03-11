@@ -3,7 +3,7 @@ version: 1
 data:
   name: bolt
   description: System daemon to manage Thunderbolt devices
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages:
     - bolt
     - python3-dbusmock

@@ -3,7 +3,7 @@ version: 1
 data:
   name: HID drivers
   description: Contains the user space eBPF drivers for the HID subsystem
-  maintainer: sst_display_hardware_multimedia
+  maintainer: rhel-sst-display-hardware-multimedia
   packages:
     - udev-hid-bpf
   labels:
