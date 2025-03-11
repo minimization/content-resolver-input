@@ -3,7 +3,7 @@ version: 1
 data:
   name: CEE support tools
   description: Support tools used by customers and Support Delivery
-  maintainer: sst_cee_supportability
+  maintainer: rhel-sst-cee-supportability
   packages:
     - sos
     - python3-pexpect
