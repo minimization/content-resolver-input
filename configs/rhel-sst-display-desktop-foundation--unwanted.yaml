@@ -3,7 +3,7 @@ version: 1
 data:
   name: Desktop - Blocked packages
   description: Desktop - Packages which should not be in ELN
-  maintainer: sst_display_desktop_foundation
+  maintainer: rhel-sst-display-desktop-foundation
   unwanted_source_packages:
     # RHEL 9 unwanted entries:
     # quvi is disabled as a dependency of Totem in RHEL

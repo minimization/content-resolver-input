@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Desktop
   description: GNOME Desktop core packages
-  maintainer: sst_display_desktop_foundation
+  maintainer: rhel-sst-display-desktop-foundation
   packages:
     - freerdp
     - gdm
