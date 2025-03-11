@@ -1,11 +1,12 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Ansible-Core
+  name: Ansible Core
   description: Common packages for ansible-core
-  maintainer: rhel_sst_ansible
+  maintainer: rhel-sst-ansible
   packages:
     - ansible-core
     - sshpass
   labels:
+    - eln
     - c10s
