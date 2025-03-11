@@ -4,7 +4,7 @@ version: 1
 data:
   name: ACG Level 1 Packages for RHEL 9
   description: "More info: https://access.redhat.com/articles/rhel9-abi-compatibility"
-  maintainer: bakery
+  maintainer: bstinson
   packages:
     - elfutils-libelf
     - glibc

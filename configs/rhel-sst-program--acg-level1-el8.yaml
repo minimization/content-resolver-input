@@ -4,7 +4,7 @@ version: 1
 data:
   name: ACG Level 1 Packages for RHEL 8
   description: "More info: https://access.redhat.com/articles/rhel8-abi-compatibility"
-  maintainer: bakery
+  maintainer: bstinson
   packages:
     - glibc
     - libstdc++
