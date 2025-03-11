@@ -3,7 +3,7 @@ version: 1
 data:
   name: Accelerators Exclusion List
   description: Accelerators packages not required in RHEL-9
-  maintainer: sst_accelerators
+  maintainer: rhel-sst-accelerators
   unwanted_packages:
     - opae
     - opae-devel
