@@ -2,8 +2,8 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: C++ Development Environment
-  description: A C++ development environment.
-  maintainer: sst_pt_gcc
+  description: A minimal C++ development environment.
+  maintainer: rhel-sst-pt-gcc
   packages:
     # The minimum development environment is this:
     - gcc
@@ -15,13 +15,8 @@ data:
     - libstdc++
     - libstdc++-devel
     - libgcc
-    # Full development includes additional packages:
-    - glibc-utils
-    - glibc-static
-    - glibc-nss-devel
-    - libstdc++-static
-    # Support all locales.
-    - glibc-all-langpacks
+    # We support only the C/POSIX/C.UTF-8 locales.
+    - glibc-minimal-langpack
   labels:
     - eln
     - c10s

@@ -3,7 +3,7 @@ version: 1
 data:
   name: binutils/annobin
   description: Set of packages that GCC depends on
-  maintainer: sst_pt_gcc
+  maintainer: rhel-sst-pt-gcc
   packages:
     - binutils
     - binutils-devel
