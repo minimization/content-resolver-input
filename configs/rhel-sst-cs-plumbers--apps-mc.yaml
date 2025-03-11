@@ -3,7 +3,7 @@ version: 1
 data:
   name: text console file manager and visual shell
   description: text console file manager and visual shell
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - mc
   labels:

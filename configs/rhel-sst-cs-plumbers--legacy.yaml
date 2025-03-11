@@ -3,7 +3,7 @@ version: 1
 data:
   name: Legacy support
   description: Support for legacy SysV services
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - chkconfig
     - ntsysv

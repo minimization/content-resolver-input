@@ -3,7 +3,7 @@ version: 1
 data:
   name: Compression
   description: Tools for file archiving and compression
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - bzip2
     - gzip

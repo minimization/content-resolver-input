@@ -3,7 +3,7 @@ version: 1
 data:
   name: Shells
   description: Alternative shells
-  maintainer: sst_cs_plumbers
+  maintainer: rhel-sst-cs-plumbers
   packages:
     - ksh
     - tcsh
