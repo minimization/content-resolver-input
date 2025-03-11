@@ -3,7 +3,7 @@ version: 1
 data:
   name: Packages for crypto-development
   description: Packages needed to build against crypto libraries
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   packages:
     - openssl-devel
     - gnutls-devel

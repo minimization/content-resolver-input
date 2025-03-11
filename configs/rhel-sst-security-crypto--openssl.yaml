@@ -5,7 +5,7 @@ data:
   name: openssl
   description: >-
     General purpose cryptographic library and toolkit for TLS and SSL protocols.
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   packages:
     - openssl
   package_placeholders:
