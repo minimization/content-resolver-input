@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_kernel_rts
+  name: Unwanted Packages - rhel-sst-kernel-rts
   description: Packages that kernel-rt rats sst doesn't want to distribute in RHEL 9
-  maintainer: sst_kernel_rts
+  maintainer: rhel-sst-kernel-rts
   unwanted_packages:
     - kernel-rt-modules-internal
     - kernel-rt-selftests-internal

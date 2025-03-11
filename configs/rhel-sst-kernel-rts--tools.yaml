@@ -3,7 +3,7 @@ version: 1
 data:
   name: realtime tools
   description: Packages of tools that are useful in a realtime environment
-  maintainer: sst_kernel_rts
+  maintainer: rhel-sst-kernel-rts
   packages:
     - tuna
     - python3-linux-procfs

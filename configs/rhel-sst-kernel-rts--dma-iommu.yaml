@@ -3,7 +3,7 @@ version: 1
 data:
   name: Data Stream Accelerator Tools
   description: Package providing userspace support for Intel's Data Stream Accelerator
-  maintainer: sst_kernel_rts
+  maintainer: rhel-sst-kernel-rts
   arch_packages:
     x86_64:
       - accel-config

@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_kernel_rts-perf
+  name: Unwanted Perf Packages - rhel-sst-kernel
   description: The package python3-ethtool will be deprecated in RHEL 10+ and ELN
-  maintainer: sst_kernel_rts
+  maintainer: rhel-sst-kernel-rts
   unwanted_packages:
     - python3-ethtool
   labels:
