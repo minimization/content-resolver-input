@@ -3,7 +3,7 @@ version: 1
 data:
   name: GeoLite2
   description: GeoIP databases
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - geolite2-city
     - geolite2-country

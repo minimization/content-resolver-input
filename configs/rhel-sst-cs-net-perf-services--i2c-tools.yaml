@@ -3,7 +3,7 @@ version: 1
 data:
   name: I2C tools
   description: Communication with I2C devices. This may include reading data from sensors, communication with EEPROMS, uses in robotics, embedded, IoT devices, industrial automation.
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages: []
   arch_packages:
     aarch64:

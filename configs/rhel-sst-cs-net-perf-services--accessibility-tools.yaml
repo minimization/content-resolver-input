@@ -3,7 +3,7 @@ version: 1
 data:
   name: Accessibility tools
   description: Tools which enhance accessibility for impaired people
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - brltty
     - brltty-at-spi2

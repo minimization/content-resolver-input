@@ -3,7 +3,7 @@ version: 1
 data:
   name: Apache Subversion
   description: Apache Subversion version control
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - subversion
     - mod_dav_svn

@@ -3,7 +3,7 @@ version: 1
 data:
   name: Packages for mailx functionality
   description: S-nail packages replaces functionality of mailx
-  maintainer: sst_cs_net_perf_services
+  maintainer: rhel-sst-cs-net-perf-services
   packages:
     - s-nail
   labels:
