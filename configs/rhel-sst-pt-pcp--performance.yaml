@@ -1,16 +1,15 @@
-document: feedback-pipeline-workload
-version: 1
+---
 data:
-  name: Performance Co-Pilot and Grafana
-  description: Performance Co-Pilot and Grafana
-  maintainer: sst_pt_pcp
+  description: Automatically generated.
+  labels:
+    - eln
+    - c10s
+  maintainer: rhel-sst-pt-pcp
+  name: Comps group performance for AppStream
   packages:
-    - ansible-pcp
-    - chan
     - grafana
     - grafana-pcp
-    - HdrHistogram_c
-    - js-d3-flame-graph
+    - iowatcher
     - pcp
     - pcp-conf
     - pcp-devel
@@ -52,7 +51,6 @@ data:
     - pcp-pmda-gluster
     - pcp-pmda-gpfs
     - pcp-pmda-gpsd
-    - pcp-pmda-hacluster
     - pcp-pmda-haproxy
     - pcp-pmda-json
     - pcp-pmda-libvirt
@@ -64,8 +62,8 @@ data:
     - pcp-pmda-mailq
     - pcp-pmda-memcache
     - pcp-pmda-mic
-    - pcp-pmda-mounts
     - pcp-pmda-mongodb
+    - pcp-pmda-mounts
     - pcp-pmda-mysql
     - pcp-pmda-named
     - pcp-pmda-netcheck
@@ -91,7 +89,6 @@ data:
     - pcp-pmda-slurm
     - pcp-pmda-smart
     - pcp-pmda-snmp
-    - pcp-pmda-sockets
     - pcp-pmda-statsd
     - pcp-pmda-summary
     - pcp-pmda-systemd
@@ -107,20 +104,17 @@ data:
     - perl-PCP-LogSummary
     - perl-PCP-MMV
     - perl-PCP-PMDA
+    - powertop
     - python3-pcp
-  labels:
-    - eln
-    - c10s
+    - sysstat
   arch_packages:
     aarch64:
       - pcp-pmda-bcc
-      - pcp-pmda-bpf
       - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-perfevent
     ppc64le:
       - pcp-pmda-bcc
-      - pcp-pmda-bpf
       - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-perfevent
@@ -129,9 +123,10 @@ data:
       - pcp-pmda-bpftrace
     x86_64:
       - pcp-pmda-bcc
-      - pcp-pmda-bpf
       - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-mssql
       - pcp-pmda-perfevent
       - pcp-pmda-resctrl
+document: feedback-pipeline-workload
+version: 1

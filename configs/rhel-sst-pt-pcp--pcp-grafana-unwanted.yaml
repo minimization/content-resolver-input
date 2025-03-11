@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Performance Co-Pilot and Grafana components
   description: Unwanted Performance Co-Pilot and Grafana components
-  maintainer: sst_pt_pcp
+  maintainer: rhel-sst-pt-pcp
   unwanted_packages:
     - chan-devel
     - HdrHistogram_c-devel
