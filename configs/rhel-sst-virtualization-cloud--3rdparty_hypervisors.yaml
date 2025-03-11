@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL on 3rd party hypervisors
   description: Userspace agents and tools to assist running RHEL as a guest on 3rd party hypervisors
-  maintainer: sst_virtualization_cloud
+  maintainer: rhel-sst-virtualization-cloud
   packages: []
   arch_packages:
     aarch64:
