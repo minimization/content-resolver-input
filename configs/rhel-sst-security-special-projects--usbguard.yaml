@@ -3,7 +3,7 @@ version: 1
 data:
   name: USBGuard
   description: Enforcing USB security policy
-  maintainer: sst_security_special_projects
+  maintainer: rhel-sst-security-special-projects
   packages:
     - usbguard
     - usbguard-dbus

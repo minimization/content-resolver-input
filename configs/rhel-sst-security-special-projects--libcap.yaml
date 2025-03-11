@@ -3,7 +3,7 @@ version: 1
 data:
   name: LIBCAP
   description: A library for getting and setting POSIX capabilities.
-  maintainer: sst_security_special_projects
+  maintainer: rhel-sst-security-special-projects
   packages:
     - libcap
     - libcap-devel

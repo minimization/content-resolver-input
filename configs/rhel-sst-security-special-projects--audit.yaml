@@ -3,7 +3,7 @@ version: 1
 data:
   name: AUDIT
   description: The user space utilities for storing and searching of audit events.
-  maintainer: sst_security_special_projects
+  maintainer: rhel-sst-security-special-projects
   packages:
     - audit
     - audit-libs

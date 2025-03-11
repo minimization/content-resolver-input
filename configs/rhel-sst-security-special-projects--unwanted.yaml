@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted SST Security Special Projects packages
   description: SST Security Special Projects unwanted packages
-  maintainer: sst_security_special_projects
+  maintainer: rhel-sst-security-special-projects
   unwanted_source_packages:
     - http-parser
   labels:

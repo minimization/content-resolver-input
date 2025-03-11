@@ -3,7 +3,7 @@ version: 1
 data:
   name: AIDE
   description: Advanced Intrusion Detection Environment.
-  maintainer: sst_security_special_projects
+  maintainer: rhel-sst-security-special-projects
   packages:
     - aide
   labels:
