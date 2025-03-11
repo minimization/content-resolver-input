@@ -3,7 +3,7 @@ version: 1
 data:
   name: Editors
   description: Editors
-  maintainer: sst_cs_base_utils
+  maintainer: rhel-sst-cs-base-utils
   packages:
     - nano
   labels:
