@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Debuggers packages
   description: Unwanted Debuggers packages
-  maintainer: sst_pt_perf_debug
+  maintainer: rhel-sst-pt-perf-debug
   unwanted_packages:
     - babeltrace
   labels:
