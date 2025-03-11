@@ -3,7 +3,7 @@ version: 1
 data:
   name: SELinux devel
   description: A development packages
-  maintainer: sst_security_selinux
+  maintainer: rhel-sst-security-selinux
   packages:
     - libsepol-static
     - libsepol-devel
