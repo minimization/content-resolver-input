@@ -3,7 +3,7 @@ version: 1
 data:
   name: insights
   description: Insights
-  maintainer: sst_insights
+  maintainer: rhel-sst-idm-insights
   packages:
     - yara
   labels:
