@@ -3,7 +3,7 @@ version: 1
 data:
   name: Languages Pack Support
   description: All language packs installed.
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     # The all, minimal, and source binary packages are designed to
     # be used when you want all languages, the minimum (C/POSIX/C.UTF-8)

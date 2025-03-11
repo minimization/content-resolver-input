@@ -3,7 +3,7 @@ version: 1
 data:
   name: bison/byacc/flex
   description: Parser and scanner generators (bison, byacc, flex).
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     - bison
     - bison-devel

@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNU Autotools Unwanted Packages
   description: GNU Autotools packages that we should not ship
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   unwanted_packages:
     # These are all legacy packages that we should not need in the distribution.
     - autoconf213

@@ -3,7 +3,7 @@ version: 1
 data:
   name: C Runtime
   description: A minimal C runtime.
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     # Need the C runtime implementation.
     - glibc

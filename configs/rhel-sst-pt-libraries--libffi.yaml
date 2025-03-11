@@ -3,7 +3,7 @@ version: 1
 data:
   name: libffi
   description: A portable foreign function interface library.
-  maintainer: sst_pt_libraries
+  maintainer: rhel-sst-pt-libraries
   packages:
     - libffi
     - libffi-devel
