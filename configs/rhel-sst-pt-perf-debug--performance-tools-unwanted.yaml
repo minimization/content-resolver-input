@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Performance Tools packages
   description: Unwanted Performance Tools and Components
-  maintainer: sst_pt_perf_debug
+  maintainer: rhel-sst-pt-perf-debug
   unwanted_packages:
     - dyninst-static
     - elfutils-devel-static

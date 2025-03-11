@@ -3,7 +3,7 @@ version: 1
 data:
   name: Performance Tools
   description: Performance Tools and Components
-  maintainer: sst_pt_perf_debug
+  maintainer: rhel-sst-pt-perf-debug
   packages:
     # See dyninst below
     - elfutils
