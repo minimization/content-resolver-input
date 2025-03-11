@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Sequoia PGP
+  description: Sequoia implementation of OpenPGP
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - rpm-sequoia
+    - sequoia-sq
+    - sequoia-sqv
+  labels:
+    - eln
+    - c10s
+

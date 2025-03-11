@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Graphics development libraries
+  description: Libraries used for development of graphics applications
+  maintainer: rhel-sst-display-hardware-multimedia
+  packages:
+    - libdecor
+    - SDL
+    - SDL2
+    - SDL3
+  labels:
+    - eln
+    - c10s

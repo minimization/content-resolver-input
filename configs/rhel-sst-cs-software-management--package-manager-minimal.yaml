@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Manager - Minimal
+  description: Minimal installation of a package manager for containers
+  maintainer: rhel-sst-cs-software-management
+  packages:
+    - microdnf
+    - rpm
+  labels:
+    - eln
+    - c10s

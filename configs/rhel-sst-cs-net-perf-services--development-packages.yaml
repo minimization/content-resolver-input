@@ -1,0 +1,39 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Development packages
+  description: Packages wich are relevant for Developer (CRB)
+  maintainer: rhel-sst-cs-net-perf-services
+  packages:
+    # graphviz
+    - graphviz-devel
+    - graphviz-doc
+    - graphviz-gd
+    - graphviz-python3
+    # libevent
+    - libevent
+    - libevent-devel
+    - libevent-doc
+    # libmaxminddb
+    - libmaxminddb-devel
+    # lm_sensors
+    - lm_sensors-devel
+    # ppp
+    - ppp-devel
+    # tcl
+    - tcl-devel
+    # tk
+    - tk-devel
+  arch_packages:
+    aarch64:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
+    ppc64le:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
+    x86_64:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - libi2c-devel
+  labels:
+    - eln
+    - c10s

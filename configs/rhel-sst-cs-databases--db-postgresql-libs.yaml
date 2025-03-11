@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL libraries
+  description: Client libraries for PostgreSQL
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - libpq
+    - libpq-devel
+    - libecpg
+    - libecpg-devel
+  labels:
+    - eln
+    - c10s

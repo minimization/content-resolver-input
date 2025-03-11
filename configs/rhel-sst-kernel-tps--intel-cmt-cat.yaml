@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Intel(R) Resource Director Technology
+  description: Provides command line interface to CMT, MBM, CAT, CDP and MBA technologies
+  maintainer: rhel-sst-kernel-tps
+  arch_packages:
+    x86_64:
+      - intel-cmt-cat
+  labels:
+    - eln
+    - c10s

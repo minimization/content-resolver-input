@@ -1,0 +1,43 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for Perl
+  description: Packages we do not want to ship for Perl
+  maintainer: rhel-sst-cs-stacks
+  unwanted_packages:
+    - cvs # upstream and the technology is dead
+    - mod_perl # upstream is dead, random crashes, security threat to httpd
+    - perl-Algorithm-C3 # support undesired
+    - perl-Any-Moose # useless proxy module; use Moose or Moo directly
+    - perl-Coro # upstream does not support contemporary perl; experimental
+    - perl-Crypt-Blowfish # cryptography
+    - perl-Crypt-Blowfish_PP # cryptography
+    - perl-Crypt-RC4 # weak cryptography
+    - perl-DBIx-Class # a monster code for database abstractions
+    - perl-Digest-SHA1 # duplicate to perl-Digest-SHA
+    - perl-IO-Socket-INET6 # obsolete Perl module, which were replaced by proper ipv6 functionality
+    - perl-Mojolicious # a web framewok, support undesired
+    - perl-Moose # a monster OOP framework
+    - perl-Mouse # inferior implementatinon of Moose OOP framework
+    - perl-PAR-Dist # Perl code bundler; support undesired
+    - perl-PDF-API2 # PDF language implementation, bad license
+    - perl-Pegex # Raku regular expressions implementation; support undesired
+    - perl-Perl-Critic # too many dependecies; used only in optional tests that should be disabled
+    - perl-PHP-Serialization # support undesired
+    - perl-POE # event-loop library, compatibility issues; support undesired
+    - perl-pod2pdf # expensive dependency on perl-PDF-API2
+    - perl-PPI # Perl language parse; support undesired
+    - perl-Sereal # yet another serialization language, security bugs in miniz dependency
+    - perl-Sereal-Decoder # yet another serialization language, security bugs in miniz dependency
+    - perl-Sereal-Encoder # yet another serialization language, security bugs in miniz dependency
+    - perl-Socket6 # obsolete Perl module, which were replaced by proper ipv6 functionality
+    - perl-Spiffy # yet another OOP framwork; support undesired
+    - perl-SQL-Statement # incomplete SQL engine implementation; support undesired
+    - perl-Syntax-Keyword-Junction # Raku syntax; support undesired
+    - perl-Template-Toolkit # a monster templating framework; support undesider
+    - perl-Test-Apocalypse # a collection of selfdom, optional test that should be disabled
+    - perl-Test-Perl-Critic # too many dependecies; used only in optional tests that should be disabled
+    - perl-Tk-Pod # perl-Tk plugin; perl-Tk bundles very old Tk; support undesired
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python GSSAPI
+  description: Tools for using GSSAPI in Python applications
+  maintainer: rhel-ssg-idm
+  packages:
+    - python3-gssapi
+    - python3-requests-gssapi
+    - python3-urllib-gssapi
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: AUDIT
+  description: The user space utilities for storing and searching of audit events.
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - audit
+    - audit-libs
+    - audit-libs-devel
+    - python3-audit
+    - audispd-plugins
+    - audispd-plugins-zos
+  labels:
+    - eln
+    - c10s

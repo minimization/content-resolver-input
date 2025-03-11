@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Loupe
+  description: Default image viewer for Workstation
+  maintainer: rhel-sst-display-productivity
+  packages: []
+  arch_packages:
+    ppc64le:
+      - loupe
+      - glycin-loaders
+    x86_64:
+      - loupe
+      - glycin-loaders
+  labels:
+    - eln
+    - c10s

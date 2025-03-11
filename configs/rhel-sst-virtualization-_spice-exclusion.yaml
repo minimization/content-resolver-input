@@ -1,0 +1,31 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Spice Exclusion List
+  description: Spice packages that should not be included.
+  maintainer: rhel-sst-virtualization_spice
+  unwanted_packages:
+    - spice-server
+    - spice-server-devel
+    - spice-glib
+    - spice-glib-devel
+    - spice-gtk
+    - spice-gtk-tools
+    - spice-gtk3
+    - spice-gtk3-devel
+    - spice-gtk3-vala
+    - spice-html5
+    - spice-webdavd
+    - libphodav-devel
+    - libphodav
+    - libgovirt
+    - libgovirt-devel
+    - libcacard
+    - libcacard-devel
+    - celt051
+    - celt051-devel
+    - xorg-x11-drv-qxl
+    - xorg-x11-server-Xspice
+  labels:
+    - eln
+    - c10s

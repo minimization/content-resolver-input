@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Kerberos Server
+  description: Stand-alone Kerberos server
+  maintainer: rhel-ssg-idm
+  packages:
+    - krb5-server
+  labels:
+    - eln
+    - c10s

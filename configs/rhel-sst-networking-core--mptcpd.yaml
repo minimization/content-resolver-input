@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mptcpd
+  description: path manager daemon for multipath TCP
+  maintainer: rhel-sst-networking-core
+  packages:
+    - mptcpd
+  labels:
+    - eln
+    - c10s

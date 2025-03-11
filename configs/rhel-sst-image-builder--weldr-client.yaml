@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: composer-cli weldr client
+  description: composer-cli command line utility to control osbuild-composer
+  maintainer: rhel-sst-image-builder
+  labels:
+    - eln
+    - c10s
+  packages:
+    - weldr-client

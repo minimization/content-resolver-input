@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Web Console (Cockpit)
+  description: Cockpit basic packages
+  maintainer: rhel-sst-cockpit
+  labels:
+    - eln
+    - c10s
+  packages:
+    # meta-package for the basic stuff (web server, bridge, core pages)
+    - cockpit
+    # recommended packages from cockpit metapackage
+    - cockpit-packagekit
+    - cockpit-storaged
+    - cockpit-doc
+    # RHEL 4 Edge image management
+    - cockpit-ostree
+    # extensions maintained by Cockpit team
+    - cockpit-files
+  arch_packages:
+    aarch64:
+      # extensions maintained by Cockpit team
+      - cockpit-machines
+    s390x:
+      # extensions maintained by Cockpit team
+      - cockpit-machines
+    x86_64:
+      # extensions maintained by Cockpit team
+      - cockpit-machines

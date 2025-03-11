@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Samba FS Server
+  description: SMB/CIFS share server
+  maintainer: rhel-ssg-idm
+  packages:
+    - samba
+    - samba-client
+    - cifs-utils
+    - samba-winbind
+    - samba-winbind-clients
+    - samba-winbind-krb5-locator
+    - samba-krb5-printing
+    - ctdb
+  labels:
+    - eln
+    - c10s

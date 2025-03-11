@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: USBGuard
+  description: Enforcing USB security policy
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - usbguard
+    - usbguard-dbus
+    - usbguard-notifier
+    - usbguard-tools
+    - usbguard-selinux
+    - PEGTL
+  labels:
+    - eln
+    - c10s

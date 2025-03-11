@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Plymouth
+  description: Graphical boot animation and logger
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - plymouth
+    - plymouth-core-libs
+    - plymouth-graphics-libs
+    - plymouth-plugin-fade-throbber
+    - plymouth-plugin-label
+    - plymouth-plugin-script
+    - plymouth-plugin-space-flares
+    - plymouth-plugin-two-step
+    - plymouth-scripts
+    - plymouth-system-theme
+    - plymouth-theme-fade-in
+    - plymouth-theme-script
+    - plymouth-theme-solar
+    - plymouth-theme-spinfinity
+    - plymouth-theme-spinner
+  labels:
+    - eln
+    - c10s

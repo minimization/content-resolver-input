@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Font Viewer
+  description: Application for viewing available fonts on Workstation
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gnome-font-viewer
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Baobab
+  description: Disk usage analyzer for Workstation
+  maintainer: rhel-sst-display-productivity
+  packages:
+    - baobab
+  labels:
+    - eln
+    - c10s

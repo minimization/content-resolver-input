@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Crypto and RNG tools
+  description: Crypto and random number generator related utilities
+  maintainer: rhel-sst-kernel-security
+  packages:
+    - rng-tools
+    - jitterentropy
+    - jitterentropy-devel
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Legacy NIS Services
+  description: A legacy version of libnsl for accessing NIS services.
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    # All modern packages should use libnsl2 to gain IPv6 support.
+    - libnsl
+  labels:
+    - eln
+    - c10s

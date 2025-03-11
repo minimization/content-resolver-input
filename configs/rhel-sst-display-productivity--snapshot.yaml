@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Snapshot
+  description: Default application for handling webcams in Workstation
+  maintainer: rhel-sst-display-productivity
+  packages: []
+  arch_packages:
+    ppc64le:
+      - snapshot
+    x86_64:
+      - snapshot
+  labels:
+    - eln
+    - c10s

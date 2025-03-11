@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: intel-lpmd
+  description: Intel Low Power Mode Daemon
+  maintainer: rhel-sst-display-hardware-multimedia 
+  packages: []
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    x86_64:
+      - intel-lpmd

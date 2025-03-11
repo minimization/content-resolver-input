@@ -1,0 +1,13 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: TPM OpenSSL Provider
+  description: >-
+    Provider for integration of TPM 2.0 to OpenSSL 3.0
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - tpm2-openssl
+  labels:
+    - eln
+    - c10s

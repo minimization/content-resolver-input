@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Node.js runtime – default stream
+  description: Node.js (Javascript) runtime and NPM installer for application development
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  packages:
+    - nodejs
+    - nodejs-devel
+    - nodejs-npm
+    - nodejs-nodemon
+    # requirements for rebuilding WASM artifacts
+    - nodejs-cjs-module-lexer
+    - nodejs-undici
+    - wasi-libc-devel
+  labels:
+    - eln
+    - c10s

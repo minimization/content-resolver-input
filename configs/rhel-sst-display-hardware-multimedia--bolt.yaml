@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bolt
+  description: System daemon to manage Thunderbolt devices
+  maintainer: rhel-sst-display-hardware-multimedia
+  packages:
+    - bolt
+    - python3-dbusmock
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,13 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Kernel Fundamental Technologies unwanted
+  description: >
+    Unwanted packages from Core-Kernel FT group
+
+  maintainer: rhel-sst-kernel-ft
+  unwanted_packages:
+    - memkind
+  labels:
+    - eln
+    - c10s

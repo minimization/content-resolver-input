@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Accessibility
+  description: Packages to support accessibility in Workstation
+  maintainer: rhel-sst-display-productivity
+  packages:
+    - at-spi2-core
+    - liblouis
+    - orca
+    - speech-dispatcher
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,25 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MariaDB client and server
+  description: Client tools and a server daemon for MariaDB, with Galera replication
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - galera
+    - mariadb
+    - mariadb-client-utils
+    - mariadb-backup
+    - mariadb-gssapi-server
+    - mariadb-oqgraph-engine
+    - mariadb-server
+    - mariadb-server-galera
+    - mariadb-devel
+    - mariadb-server-utils
+    - mariadb-pam
+    - mariadb-test
+    - mariadb-connector-c-devel
+    - mariadb-connector-c-test
+    - mysql-selinux # because package mariadb-server requires (mysql-selinux if selinux-policy-targeted)
+  labels:
+    - eln
+    - c10s

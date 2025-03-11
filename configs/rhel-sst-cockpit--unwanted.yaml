@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages -- sst_cockpit
+  description: Packages that should not be distributed in RHEL 9
+  maintainer: rhel-sst-cockpit
+  labels:
+    - eln
+    - c10s
+  unwanted_packages:
+    # mpitt: only needed for integration tests (buildroot), never ship this
+    - cockpit-tests
+    # mpitt: Will be deprecated soon, let's not introduce it
+    - cockpit-dashboard

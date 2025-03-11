@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: userland daemon required for IPsec VPNs - libreswan
+  description: IKEv1 and IKEv2 daemon for IPsec VPNs
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - libreswan
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Virtualization Firmware
+  description: Virtual firmware packages like EDK2, seabios which support virtualization capabilities
+  maintainer: rhel-sst-virt-firmware
+  packages:
+    - edk2-aarch64
+    - edk2-ovmf
+    - python3-pefile
+    - python3-virt-firmware
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    x86_64:
+      - seabios

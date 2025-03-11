@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - NGINX
+  description: CS Stacks - NGINX
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - nginx
+    - nginx-all-modules
+  labels:
+    - eln
+    - c10s

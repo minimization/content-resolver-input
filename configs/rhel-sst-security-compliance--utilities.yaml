@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenSCAP utilities
+  description: Wrappers and utilities to extend the usability of OpenSCAP scanner
+  maintainer: rhel-sst-security-compliance
+  packages:
+    - openscap-scanner
+    - openscap-utils
+  labels:
+    - eln
+    - c10s

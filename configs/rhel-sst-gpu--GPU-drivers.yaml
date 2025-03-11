@@ -1,0 +1,26 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GPU drivers
+  description: Contains the user space APIs and drivers for the GPUs supported in RHEL
+  maintainer: rhel-sst-gpu
+  packages:
+    - mesa-libGL
+    - mesa-dri-drivers
+    - mesa-vulkan-drivers
+    - mesa-libEGL
+    - libglvnd
+    - vulkan-utility-libraries-devel
+    - vulkan-validation-layers
+    - vulkan-volk-devel
+    - vulkan-headers
+    - vulkan-tools
+    - vulkan-loader
+    - mesa-demos
+    - glslang
+    - spirv-headers-devel
+    # Video decoding hw accel (currently only used by the NVIDIA driver)
+    - libvdpau
+  labels:
+    - eln
+    - c10s

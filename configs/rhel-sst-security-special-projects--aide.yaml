@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: AIDE
+  description: Advanced Intrusion Detection Environment.
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - aide
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,23 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - sst_kernel_maintainers
+  description: Packages that kernel maintainers sst doesn't want to distribute in RHEL 9
+  maintainer: rhel-sst-kernel-maintainers
+  unwanted_packages:
+    - kernel-64k-debug-modules-internal
+    - kernel-64k-debug-modules-partner
+    - kernel-64k-modules-internal
+    - kernel-64k-modules-partner
+    - kernel-debug-modules-internal
+    - kernel-debug-modules-partner
+    - kernel-ipaclones-internal
+    - kernel-modules-internal
+    - kernel-modules-partner
+    - kernel-selftests-internal
+    - kernel-zfcpdump-modules-internal
+    - kernel-zfcpdump-modules-partner
+    - liquidio-firmware
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C++ Runtime
+  description: A minimal C++ runtime.
+  maintainer: rhel-sst-pt-gcc
+  packages:
+    # Need the C runtime implementation.
+    - glibc
+    - glibc-common
+    # Need the C++ standard library implementation.
+    - libstdc++
+    # Need compiler helper routines and unwinder.
+    - libgcc
+    # Support C/POSIX/C.UTF-8 locales.
+    - glibc-minimal-langpack
+  labels:
+    - eln
+    - c10s

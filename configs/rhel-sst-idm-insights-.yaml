@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: insights
+  description: Insights
+  maintainer: rhel-sst-idm-insights
+  packages:
+    - yara
+  labels:
+    - eln
+    - c10s

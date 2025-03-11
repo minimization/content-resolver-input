@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: shim
+  description: First-stage UEFI bootloader
+  maintainer: rhel-sst-cs-bootloaders
+  packages: []
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    aarch64:
+      - shim-unsigned-aarch64
+    x86_64:
+      - shim-unsigned-x64

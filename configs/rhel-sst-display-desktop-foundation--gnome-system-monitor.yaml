@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME System Monitor
+  description: Default system monitor application for Workstation
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gnome-system-monitor
+  labels:
+    - eln
+    - c10s

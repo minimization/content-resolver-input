@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Compression
+  description: Tools for file archiving and compression
+  maintainer: rhel-sst-cs-plumbers
+  packages:
+    - bzip2
+    - gzip
+    - libzip-tools
+    - lz4
+    - lzop
+    - tar
+    - unzip
+    - zip
+    - zstd
+    - zziplib-utils
+  labels:
+    - eln
+    - c10s

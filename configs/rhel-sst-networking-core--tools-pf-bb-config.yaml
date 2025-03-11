@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - pf-bb-config
+  description: >
+    Packages related to network configuration and troubleshooting.
+
+  maintainer: rhel-sst-networking-core
+  packages: []
+  arch_packages:
+    # not supported on s390x
+    aarch64:
+      - pf-bb-config
+    ppc64le:
+      - pf-bb-config
+    x86_64:
+      - pf-bb-config
+  labels:
+    - eln
+    - c10s

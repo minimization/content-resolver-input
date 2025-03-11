@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: XDP
+  description: Tools to support XDP
+  maintainer: rhel-sst-networking-core
+  packages:
+    - xdp-tools
+    - libxdp
+    - libxdp-devel
+    - libxdp-static
+  labels:
+    - eln
+    - c10s

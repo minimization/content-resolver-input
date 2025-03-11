@@ -1,0 +1,35 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IBus input methods
+  description: Archive default i18n metapackages.
+  maintainer: rhel-sst-display-i18n
+  labels:
+    - eln-candidate
+    - eln
+    - c10s
+  packages:
+    - gtk3-immodule-xim
+    - ibus
+    - ibus-anthy
+    - ibus-hangul
+    - ibus-libpinyin
+    - ibus-libzhuyin
+    - ibus-m17n
+    - ibus-table-chinese-array
+    - ibus-table-chinese-cangjie
+    - ibus-table-chinese-cantonese
+    - ibus-table-chinese-easy
+    - ibus-table-chinese-erbi
+    - ibus-table-chinese-quick
+    - ibus-table-chinese-scj
+    - ibus-table-chinese-stroke5
+    - ibus-table-chinese-wubi-haifeng
+    - ibus-table-chinese-wubi-jidian
+    - ibus-table-chinese-wu
+    - ibus-table-chinese-yong
+    - ibus-typing-booster
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-wayland

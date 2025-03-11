@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PKCS#11 support
+  description: Components providing access to PKCS#11 cryptographic tokens.
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - pkcs11-provider
+  labels:
+    - eln
+    - c10s

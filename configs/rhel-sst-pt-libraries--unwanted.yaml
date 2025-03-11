@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Platform Tools Libraries Unwanted Packages (ELN)
+  description: Platform Tools Libarries recommendations for packages not to ship (future)
+  maintainer: rhel-sst-pt-libraries
+  labels:
+    - eln
+    - c10s
+  unwanted_packages:
+    # Remove nscd in favour of sssd.
+    - nscd
+    # Removed from libxcrypt
+    - libxcrypt-compat

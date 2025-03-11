@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ruby DB connectors
+  description: Databases connectors for Ruby
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  packages:
+    - rubygem-mysql2
+    - rubygem-pg
+  labels:
+    - eln
+    - c10s

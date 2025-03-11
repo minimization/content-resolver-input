@@ -1,0 +1,39 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: RDMA Stack - Blocked packages
+  description: RDMA Stack - Packages which should not be in ELN
+  maintainer: rhel-sst-network-drivers
+  unwanted_packages:
+    # infiniband-diags provides libibmad library
+    - libibmad
+    # Intel abandoned next generation OPA hardware development
+    - libpsm2
+    - libpsm2-devel
+    - libpsm2-compat
+    - opa-fm
+    - opa-address-resolution
+    - opa-basic-tools
+    - opa-fastfabric
+    - opa-libopamgt
+    - opa-libopamgt-devel
+    # Intel/QLogic QIB/PSM hardware had been disabled since RHEL-8.0
+    - infinipath-psm
+    - infinipath-psm-devel
+    # unwanted static library
+    - opensm-static
+    # RHEL-9 will not support glusterfs
+    - glusterfs-rdma
+    # Abandoned upstream packages
+    - dapl
+    - dapl-devel
+    - dapl-static
+    - dapl-utils
+    - ibutils
+    - ibutils-devel
+    - ibutils-libs
+    - ibutils-static
+    - qperf
+  labels:
+    - eln
+    - c10s

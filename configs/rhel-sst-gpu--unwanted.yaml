@@ -1,0 +1,15 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: GPU - Blocked packages
+  description: GPU - Packages which should not be in ELN
+  maintainer: rhel-sst-gpu
+  unwanted_packages:
+    # glew is no longer needed by mesa-demos, and the soname churns too much to be
+    # useful for a long-life product like RHEL.
+    - glew
+    # HFS+ is not supported in RHEL - not currently packaged in RHEL 8, just adding in case dependencies try to pull it in
+    - hfsplus-tools
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: python-pam
+  description: Python bindings for libpam.
+  maintainer: rhel-sst-idm-sssd
+  packages:
+    - python3-pam
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - Varnish Cache
+  description: CS Stacks - Varnish Cache
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - varnish
+    - varnish-modules
+    - varnish-docs
+    - varnish-devel
+  labels:
+    - eln
+    - c10s

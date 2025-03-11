@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bison/byacc/flex
+  description: Parser and scanner generators (bison, byacc, flex).
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    - bison
+    - bison-devel
+    - bison-runtime
+    - byacc
+    - flex
+    - flex-devel
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Disks
+  description: Default application for managing disks in Workstation
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gnome-disk-utility
+  labels:
+    - eln
+    - c10s

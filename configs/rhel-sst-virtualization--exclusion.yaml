@@ -1,0 +1,25 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Virtualization Exclusion List
+  description: Virtualization packages not required in RHEL-9
+  maintainer: rhel-sst-virtualization
+  unwanted_packages:
+    - fakechroot
+    - fakeroot
+    - gperftools
+    - libphodav
+    - libvirt-snmp
+    - libunwind
+    - netcf
+    - ocaml-camlp4
+    - OVMF
+    - qemu
+    - perl-Sys-Virt
+    - rhevm-guest-agent
+    - spice-html5
+    - spice-xpi
+    - virt-rhel-module
+  labels:
+    - eln
+    - c10s

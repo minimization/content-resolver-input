@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Podman Web Console UI
+  description: Cockpit page for podman administration
+  maintainer: rhel-sst-cockpit
+  labels:
+    - eln
+    - c10s
+  packages:
+    # in container-tools stream in RHEL 8, but not in a module in Fedora
+    - cockpit-podman

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GeoIP
+  description: GeoIP tools and libraries
+  maintainer: rhel-sst-cs-net-perf-services
+  packages:
+    - libmaxminddb
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,16 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Container Tools ELN unwanted
+  description: >
+    Unwanted container runtime and related packages
+
+  maintainer: rhel-sst-container-tools
+  unwanted_packages:
+    - containernetworking-plugins
+    - python3-podman-api
+    - runc
+    - yajl
+  labels:
+    - eln
+    - c10s

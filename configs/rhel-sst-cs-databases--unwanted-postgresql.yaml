@@ -1,0 +1,11 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for PostgreSQL
+  description: Packages we do not want to ship for PostgreSQL
+  maintainer: rhel-sst-cs-databases
+  unwanted_packages:
+    - postgresql-llvmjit
+  labels:
+    - eln
+    - c10s

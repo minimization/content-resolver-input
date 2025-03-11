@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SCRUB
+  description: Scrub writes patterns on files or disk devices to make retrieving the data more difficult.
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - scrub
+  labels:
+    - eln
+    - c10s

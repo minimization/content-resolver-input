@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Go Toolset
+  description: Collection of packages providing the golang compiler toolchain.
+  maintainer: rhel-sst-pt-llvm-rust-go
+  packages:
+    - golang
+    - golang-bin
+    - golang-docs
+    - golang-misc
+    - golang-src
+    - golang-tests
+    - go-srpm-macros
+    - go-rpm-macros
+    - go-toolset
+  arch_packages:
+    aarch64:
+      - delve
+    x86_64:
+      - delve
+  labels:
+    - eln
+    - c10s

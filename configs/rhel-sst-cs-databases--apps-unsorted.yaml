@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Other packages from SST CS Aps for ELN
+  description: Unsorted tools owned by CS Databases SST
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - pcre2
+    - pcre2-devel
+    - pcre2-tools
+  labels:
+    - eln
+    - c10s

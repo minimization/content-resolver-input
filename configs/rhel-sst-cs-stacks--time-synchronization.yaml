@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Time Synchronization
+  description: Software needed for time synchronization on Linux
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - chrony
+    - gpsd
+    - gpsd-clients
+    - python3-gpsd
+    - linuxptp
+    - ntpstat
+    - synce4l
+  labels:
+    - eln
+    - c10s

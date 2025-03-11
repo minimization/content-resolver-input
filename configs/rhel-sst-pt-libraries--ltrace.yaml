@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ltrace
+  description: Developer tooling to track runtime library calls.
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    - ltrace
+  labels:
+    - eln
+    - c10s

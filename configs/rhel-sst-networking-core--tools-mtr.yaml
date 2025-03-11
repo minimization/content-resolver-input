@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Networking Tools - mtr
+  description: >
+    Packages related to network configuration and troubleshooting.
+
+  maintainer: rhel-sst-networking-core
+  packages:
+    - mtr
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,29 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Desktop
+  description: GNOME Desktop core packages
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - freerdp
+    - gdm
+    - glib-networking
+    - glib2
+    - glib2-devel
+    - glib2-static
+    - glib2-tests
+    - gnome-control-center
+    - gnome-devel-docs
+    - gnome-menus
+    - gnome-session
+    - libgweather
+    - libproxy
+    - libsoup3
+    - tecla
+    - tracker
+    - tracker-miners
+    - xdg-user-dirs-gtk
+    - zenity
+  labels:
+    - eln
+    - c10s

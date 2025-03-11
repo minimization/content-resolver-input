@@ -1,0 +1,26 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RDMA Stack Core Packages
+  description: RDMA Stack Packages should be in ELN BaseOS repository
+  maintainer: rhel-sst-network-drivers
+  packages:
+    - libfabric
+    - libibverbs
+    - libibverbs-utils
+    - librdmacm
+    - librdmacm-utils
+    - rdma-core
+    - ibacm
+    - infiniband-diags
+    - iwpmd
+    - libibumad
+    - srp_daemon
+    - rdma-core-devel
+    - python3-pyverbs
+    - opensm
+    - opensm-libs
+    - perftest
+  labels:
+    - eln
+    - c10s

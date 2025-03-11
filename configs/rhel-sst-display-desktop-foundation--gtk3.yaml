@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GTK 3 toolkit
+  description: Software toolkit for developing applications
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gtk-update-icon-cache
+    - gtk3
+    - gtk3-devel
+    - gtk3-immodule-xim
+  labels:
+    - eln
+    - c10s

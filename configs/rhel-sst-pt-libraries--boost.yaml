@@ -1,0 +1,55 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Boost
+  description: Boost provides free peer-reviewed portable C++ source libraries
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    - boost
+    - boost-atomic
+    - boost-b2
+    - boost-chrono
+    - boost-container
+    - boost-context
+    - boost-contract
+    - boost-coroutine
+    - boost-date-time
+    - boost-devel
+    - boost-doc
+    - boost-doctools
+    - boost-examples
+    - boost-fiber
+    - boost-filesystem
+    - boost-graph
+    - boost-graph-mpich
+    - boost-graph-openmpi
+    - boost-iostreams
+    - boost-locale
+    - boost-log
+    - boost-math
+    - boost-mpich
+    - boost-mpich-devel
+    - boost-mpich-python3
+    - boost-mpich-python3
+    - boost-nowide
+    - boost-numpy3
+    - boost-openmpi
+    - boost-openmpi-devel
+    - boost-openmpi-python3
+    - boost-openmpi-python3
+    - boost-program-options
+    - boost-python3
+    - boost-random
+    - boost-regex
+    - boost-serialization
+    - boost-stacktrace
+    - boost-static
+    - boost-system
+    - boost-test
+    - boost-thread
+    - boost-timer
+    - boost-type_erasure
+    - boost-wave
+  labels:
+    - eln
+    - c10s
