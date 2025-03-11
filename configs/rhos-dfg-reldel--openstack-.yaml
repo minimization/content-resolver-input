@@ -3,7 +3,7 @@ version: 1
 data:
   name: Openstack
   description: Package dependencies needed by Openstack
-  maintainer: rhel-sst-openstack
+  maintainer: rhos-dfg-reldel
   packages:
     - aide
     - ansible-freeipa
