@@ -3,7 +3,7 @@ version: 1
 data:
   name: Desktop Applications - Blocked packages
   description: Desktop Applications - Packages which should not be in ELN
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   unwanted_source_packages:
     # RHEL 10 additional unwanted entries:
     - gnome-common

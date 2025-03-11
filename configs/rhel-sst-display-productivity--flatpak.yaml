@@ -3,7 +3,7 @@ version: 1
 data:
   name: Flatpak
   description: Technology for building and distributing desktop applications
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - bubblewrap
     - flatpak

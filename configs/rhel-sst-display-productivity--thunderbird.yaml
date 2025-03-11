@@ -3,7 +3,7 @@ version: 1
 data:
   name: Mozilla Thunderbird
   description: Default e-mail client for Workstation
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - thunderbird
   labels:

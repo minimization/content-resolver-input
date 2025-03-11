@@ -3,7 +3,7 @@ version: 1
 data:
   name: Mozilla Firefox
   description: Default web browser for Workstation
-  maintainer: sst_display_productivity
+  maintainer: rhel-sst-display-productivity
   packages:
     - firefox
   labels:
