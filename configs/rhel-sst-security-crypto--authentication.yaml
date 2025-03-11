@@ -3,7 +3,7 @@ version: 1
 data:
   name: SASL Authentication plugins
   description: Plugins loaded at runtime by the SASL framework
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   packages:
     - cyrus-sasl
     - cyrus-sasl-lib

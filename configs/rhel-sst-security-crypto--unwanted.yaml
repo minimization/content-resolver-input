@@ -1,7 +1,7 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   name: Unwanted security/cryptography packages
   description: Unwanted packages implementing cryptography
   # Simo Sorce: The packages are unwanted either because they are

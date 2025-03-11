@@ -3,7 +3,7 @@ version: 1
 data:
   name: GnuPG suite
   description: Tools and libraries needed for GnuPG
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   packages:
     - gnupg2
     - libgpg-error

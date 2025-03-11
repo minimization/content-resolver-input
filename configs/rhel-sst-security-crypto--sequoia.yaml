@@ -3,7 +3,7 @@ version: 1
 data:
   name: Sequoia PGP
   description: Sequoia implementation of OpenPGP
-  maintainer: sst_security_crypto
+  maintainer: rhel-sst-security-crypto
   packages:
     - rpm-sequoia
     - sequoia-sq
@@ -11,4 +11,3 @@ data:
   labels:
     - eln
     - c10s
-
