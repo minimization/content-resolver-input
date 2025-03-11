@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL system management
   description: Ansible collection for RHEL system management
-  maintainer: sst_system_roles
+  maintainer: rhel-sst-system-roles
   packages: []
   package_placeholders:
     - srpm_name: ansible-collection-redhat-rhel_mgmt
