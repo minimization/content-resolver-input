@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL Lightspeed
   description: Command Line Assistant powered by RHEL Lightspeed.
-  maintainer: sst_rhel_lightspeed
+  maintainer: rhel-sst-lightspeed
   packages: []
   package_placeholders:
     - srpm_name: command-line-assistant
