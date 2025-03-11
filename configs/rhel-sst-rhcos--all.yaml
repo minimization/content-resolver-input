@@ -5,7 +5,7 @@ data:
   description: >
     OS compontents for CoreOS based systems. This should be distributed via bootable container images.
 
-  maintainer: sst_rhcos
+  maintainer: rhel-sst-rhcos
   packages:
     - afterburn
     - afterburn-dracut
