@@ -3,7 +3,7 @@ version: 1
 data:
   name: Podman Web Console UI
   description: Cockpit page for podman administration
-  maintainer: sst_cockpit
+  maintainer: rhel-sst-cockpit
   labels:
     - eln
     - c10s

@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages -- sst_cockpit
+  name: Unwanted Packages -- rhel-sst-cockpit
   description: Packages that should not be distributed in RHEL 9
-  maintainer: sst_cockpit
+  maintainer: rhel-sst-cockpit
   labels:
     - eln
     - c10s

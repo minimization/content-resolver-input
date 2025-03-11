@@ -3,7 +3,7 @@ version: 1
 data:
   name: Web Console (Cockpit)
   description: Cockpit basic packages
-  maintainer: sst_cockpit
+  maintainer: rhel-sst-cockpit
   labels:
     - eln
     - c10s
