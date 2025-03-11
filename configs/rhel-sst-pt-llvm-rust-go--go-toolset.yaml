@@ -3,7 +3,7 @@ version: 1
 data:
   name: Go Toolset
   description: Collection of packages providing the golang compiler toolchain.
-  maintainer: sst_pt_llvm_rust_go
+  maintainer: rhel-sst-pt-llvm-rust-go
   packages:
     - golang
     - golang-bin
