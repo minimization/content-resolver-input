@@ -3,7 +3,7 @@ version: 1
 data:
   name: Bluefield
   description: Packages required for Mellanox Bluefield SmartNIC
-  maintainer: sst_network_drivers
+  maintainer: rhel-sst-network-drivers
   packages: []
   arch_packages:
     aarch64:

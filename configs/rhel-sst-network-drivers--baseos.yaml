@@ -3,7 +3,7 @@ version: 1
 data:
   name: RDMA Stack Core Packages
   description: RDMA Stack Packages should be in ELN BaseOS repository
-  maintainer: sst_network_drivers
+  maintainer: rhel-sst-network-drivers
   packages:
     - libfabric
     - libibverbs
