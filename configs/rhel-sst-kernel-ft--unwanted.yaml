@@ -5,7 +5,7 @@ data:
   description: >
     Unwanted packages from Core-Kernel FT group
 
-  maintainer: sst_kernel_ft
+  maintainer: rhel-sst-kernel-ft
   unwanted_packages:
     - memkind
   labels:

@@ -3,7 +3,7 @@ version: 1
 data:
   name: rasdaemon
   description: Utility to receive RAS error tracings
-  maintainer: sst_kernel_ft
+  maintainer: rhel-sst-kernel-ft
   packages: []
   labels: # <-- Please leave
     - eln #     this unchanged.
