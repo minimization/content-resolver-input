@@ -3,7 +3,7 @@ version: 1
 data:
   name: Quota
   description: System administration tools for monitoring and limiting user and or group disk usage
-  maintainer: sst_filesystems
+  maintainer: rhel-sst-filesystems
   packages:
     - quota
     - quota-nld
