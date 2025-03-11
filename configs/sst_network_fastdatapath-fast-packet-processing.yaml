@@ -5,7 +5,7 @@ data:
   description: >
     A set of libraries, drivers and tools required for configuration and fast packet processing.
 
-  maintainer: sst_network_fastdatapath
+  maintainer: sst_network_fastdatapath_ovsdpdk
   packages: []
   arch_packages:
     aarch64:
