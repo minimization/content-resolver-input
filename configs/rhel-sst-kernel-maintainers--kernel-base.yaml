@@ -3,7 +3,7 @@ version: 1
 data:
   name: kernel base
   description: Base set of kernel packages and tools to ship
-  maintainer: sst_kernel_maintainers
+  maintainer: rhel-sst-kernel-maintainers
   packages:
     - amd-gpu-firmware
     - amd-ucode-firmware

@@ -3,7 +3,7 @@ version: 1
 data:
   name: kernel devel/debug
   description: Kernel packages used for devel/debug
-  maintainer: sst_kernel_maintainers
+  maintainer: rhel-sst-kernel-maintainers
   packages:
     - kernel-cross-headers
     - kernel-debug

@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - sst_kernel_maintainers
+  name: Unwanted Packages - rhel-sst-kernel-maintainers
   description: Packages that kernel maintainers sst doesn't want to distribute in RHEL 9
-  maintainer: sst_kernel_maintainers
+  maintainer: rhel-sst-kernel-maintainers
   unwanted_packages:
     - kernel-64k-debug-modules-internal
     - kernel-64k-debug-modules-partner
