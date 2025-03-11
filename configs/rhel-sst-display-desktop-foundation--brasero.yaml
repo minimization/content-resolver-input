@@ -3,7 +3,7 @@ version: 1
 data:
   name: Brasero
   description: Default physical media burner application in Workstation
-  maintainer: sst_display_desktop_foundation
+  maintainer: rhel-sst-display-desktop-foundation
   packages: []
   arch_packages:
     ppc64le:

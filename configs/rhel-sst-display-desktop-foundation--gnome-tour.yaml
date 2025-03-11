@@ -3,7 +3,7 @@ version: 1
 data:
   name: GNOME Tour
   description: GNOME Tour and Greeter
-  maintainer: sst_display_desktop_foundation
+  maintainer: rhel-sst-display-desktop-foundation
   packages:
     - gnome-tour
   labels:
