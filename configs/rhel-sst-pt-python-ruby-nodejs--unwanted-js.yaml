@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages from PT Python Ruby Node.js SST
   description: Packages we do not want to ship for PT Python Ruby Node.js SST
-  maintainer: sst_pt_python_ruby_nodejs
+  maintainer: rhel-sst-pt-python-ruby-nodejs
   unwanted_packages:
     - js-uglify
     - web-assets-devel

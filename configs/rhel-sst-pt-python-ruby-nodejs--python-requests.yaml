@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python requests
   description: Python HTTP library
-  maintainer: sst_pt_python_ruby_nodejs
+  maintainer: rhel-sst-pt-python-ruby-nodejs
   packages:
     - python3-requests
   labels:
