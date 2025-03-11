@@ -3,7 +3,7 @@ version: 1
 data:
   name: MySQL 8.0 client and server
   description: Client tools and a server daemon for MySQL 8.0 from Oracle
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   packages:
     - mysql8.0
     - mysql8.0-server

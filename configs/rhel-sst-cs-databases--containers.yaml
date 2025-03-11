@@ -3,7 +3,7 @@ version: 1
 data:
   name: Application Streams Container Components
   description: Components required by RHEL Application Streams container images
-  maintainer: sst_cs_databases
+  maintainer: rhel-sst-cs-databases
   packages:
     # common tools used in container scripts and OpenShift tools
     - bsdtar
