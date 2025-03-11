@@ -5,7 +5,7 @@ data:
   description: >
     Unwanted container runtime and related packages
 
-  maintainer: sst_container_tools
+  maintainer: rhel-sst-container-tools
   unwanted_packages:
     - containernetworking-plugins
     - python3-podman-api
