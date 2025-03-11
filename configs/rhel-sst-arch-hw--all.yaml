@@ -3,7 +3,7 @@ version: 1
 data:
   name: arch hw packages
   description: Packages for hardware enablement
-  maintainer: sst_arch_hw
+  maintainer: rhel-sst-arch-hw
   packages:
     - bluez
     - alsa-firmware

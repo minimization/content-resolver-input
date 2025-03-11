@@ -3,7 +3,7 @@ version: 1
 data:
   name: arch hw unwanted packages
   description: Unwanted packages no longer headed for hardware enablement
-  maintainer: sst_arch_hw
+  maintainer: rhel-sst-arch-hw
   unwanted_packages:
     - libdv
     - libiec61883
