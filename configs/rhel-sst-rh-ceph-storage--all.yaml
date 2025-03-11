@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: samba_storage OS packages
-  description: Packages from samba_storgae we want to include in the OS
-  maintainer: jwboyer
+  name: Ceph storage OS packages
+  description: Packages from Ceph storage we want to include in the OS
+  maintainer: rhel-sst-rh-ceph-storage
   packages:
     - libedit
     - plotutils
