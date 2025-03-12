@@ -3,7 +3,7 @@ version: 1
 data:
   name: FreeIPA Server - Full
   description: FreeIPA Server - all modules
-  maintainer: ssg_idm
+  maintainer: rhel-ssg-idm
   packages:
     - ipa-server
     - ipa-server-trust-ad

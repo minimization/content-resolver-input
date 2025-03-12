@@ -1,9 +1,9 @@
 document: feedback-pipeline-unwanted
 version: 1
 data:
-  name: Unwanted Packages - ssg_idm
+  name: Unwanted Packages - rhel-ssg-idm
   description: Packages that the Identity Management subsystem does not want to distribute in RHEL 9
-  maintainer: ssg_idm
+  maintainer: rhel-ssg-idm
   unwanted_packages:
     # Removed in RHEL 10
     - python3-netifaces

@@ -3,7 +3,7 @@ version: 1
 data:
   name: FreeRADIUS Server
   description: An open source implementation of RADIUS, the IETF protocol for AAA (Authorisation, Authentication, and Accounting).
-  maintainer: ssg_idm
+  maintainer: rhel-ssg-idm
   packages:
     - freeradius
     - freeradius-devel
