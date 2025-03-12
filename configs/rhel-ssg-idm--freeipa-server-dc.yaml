@@ -3,7 +3,7 @@ version: 1
 data:
   name: FreeIPA Server - Domain Controller
   description: FreeIPA Server - Domain Controller
-  maintainer: ssg_idm
+  maintainer: rhel-ssg-idm
   packages:
     - ipa-server
     - ipa-server-trust-ad
