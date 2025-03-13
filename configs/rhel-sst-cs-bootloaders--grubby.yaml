@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: grubby
+  description: Command line tool for updating BootLoaderSpec files
+  maintainer: rhel-sst-cs-bootloaders
+  packages:
+    - grubby
+  labels:
+    - eln
+    - c10s

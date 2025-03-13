@@ -1,0 +1,13 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: post-quantum cryptography
+  description: Components providing post-quantum cryptography primitives.
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - liboqs
+    - oqsprovider
+  labels:
+    - eln
+    - c10s

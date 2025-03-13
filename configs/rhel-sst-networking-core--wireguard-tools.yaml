@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wireguard-tools
+  description: Fast, modern, secure VPN tunnel
+  maintainer: rhel-sst-networking-core
+  packages:
+    - wireguard-tools
+  labels:
+    - eln
+    - c10s

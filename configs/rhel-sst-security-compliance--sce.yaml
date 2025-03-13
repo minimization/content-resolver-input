@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenSCAP SCE
+  description: OpenSCAP Script Check Engine addon.
+  maintainer: rhel-sst-security-compliance
+  packages:
+    - openscap
+    - openscap-engine-sce
+  labels:
+    - eln
+    - c10s

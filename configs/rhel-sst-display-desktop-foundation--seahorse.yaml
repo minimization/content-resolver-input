@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Seahorse
+  description: A password and encryption key manager for Workstation
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - seahorse
+  labels:
+    - eln
+    - c10s

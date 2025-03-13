@@ -1,0 +1,41 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kernel devel/debug
+  description: Kernel packages used for devel/debug
+  maintainer: rhel-sst-kernel-maintainers
+  packages:
+    - kernel-cross-headers
+    - kernel-debug
+    - kernel-debug-core
+    - kernel-debug-devel
+    - kernel-debug-devel-matched
+    - kernel-debug-modules
+    - kernel-debug-modules-core
+    - kernel-debug-modules-extra
+    - kernel-devel
+    - kernel-devel-matched
+    - kernel-headers
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    x86_64:
+      - kernel-debug-uki-virt
+      - kernel-tools-libs-devel
+    aarch64:
+      - kernel-64k-debug
+      - kernel-64k-debug-core
+      - kernel-64k-debug-devel
+      - kernel-64k-debug-devel-matched
+      - kernel-64k-debug-modules
+      - kernel-64k-debug-modules-core
+      - kernel-64k-debug-modules-extra
+      - kernel-64k-devel
+      - kernel-64k-devel-matched
+      - kernel-tools-libs-devel
+    ppc64le:
+      - kernel-tools-libs-devel
+    s390x:
+      - kernel-zfcpdump-devel
+      - kernel-zfcpdump-devel-matched

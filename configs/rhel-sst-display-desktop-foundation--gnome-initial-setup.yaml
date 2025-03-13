@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Initial Setup
+  description: Application to prepare a new system
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gnome-initial-setup
+  labels:
+    - eln
+    - c10s

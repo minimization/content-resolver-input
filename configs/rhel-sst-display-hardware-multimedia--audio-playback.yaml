@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Audio playback
+  description: Libraries and daemons for audio playback
+  maintainer: rhel-sst-display-hardware-multimedia
+  packages:
+    - pipewire-pulseaudio
+    - libcanberra
+    - pavucontrol
+  labels:
+    - eln
+    - c10s

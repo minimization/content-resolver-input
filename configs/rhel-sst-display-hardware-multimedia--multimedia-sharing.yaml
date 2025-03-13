@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Multimedia sharing
+  description: For screen sharing and camera access
+  maintainer: rhel-sst-display-hardware-multimedia
+  packages:
+    - pipewire
+    - wireplumber
+  labels:
+    - eln
+    - c10s

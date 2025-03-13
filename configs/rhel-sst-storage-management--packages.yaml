@@ -1,0 +1,49 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SST Storage Management
+  description: SST Storage Management Supported Packages
+  maintainer: rhel-sst-storage-management
+  packages:
+    # Storage Management
+    - hdparm
+    - libblockdev
+    - libblockdev-crypto
+    - libblockdev-dm
+    - libblockdev-fs
+    - libblockdev-loop
+    - libblockdev-lvm
+    - libblockdev-mdraid
+    - libblockdev-mpath
+    - libblockdev-nvme
+    - libblockdev-part
+    - libblockdev-plugins-all
+    - libblockdev-smart
+    - libblockdev-smartmontools
+    - libblockdev-swap
+    - libblockdev-tools
+    - libblockdev-utils
+    - libbytesize
+    - libstoragemgmt
+    - libstoragemgmt-arcconf-plugin
+    - libstoragemgmt-hpsa-plugin
+    - libstoragemgmt-local-plugin
+    - libstoragemgmt-megaraid-plugin
+    - libstoragemgmt-nfs-plugin
+    - libstoragemgmt-targetd-plugin
+    - libstoragemgmt-udev
+    - libudisks2
+    - lsscsi
+    - mt-st
+    - mtx
+    - python3-blivet
+    - python3-blockdev
+    - python3-libstoragemgmt
+    - sg3_utils
+    - udisks2
+    - udisks2-iscsi
+    - udisks2-lsm
+    - udisks2-lvm2
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Microsoft SQL Server management
+  description: Ansible collection for Microsoft SQL Server management
+  maintainer: rhel-sst-system-roles
+  packages:
+    - ansible-collection-microsoft-sql
+  labels:
+    - eln
+    - c10s

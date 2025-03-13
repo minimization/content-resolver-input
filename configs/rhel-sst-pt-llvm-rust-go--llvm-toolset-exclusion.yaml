@@ -1,0 +1,68 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: LLVM Toolset Exclusion List
+  description: LLVM sub-projects that should not be included.
+  maintainer: rhel-sst-pt-llvm-rust-go
+  unwanted_packages:
+    - libcxx
+    - libcxx-devel
+    - libcxx-static
+    - libcxxabi
+    - libcxxabi-devel
+    - libcxxabi-static
+    - llvm5.0
+    - llvm5.0-devel
+    - llvm5.0-libs
+    - llvm5.0-static
+    - llvm6.0
+    - llvm6.0-devel
+    - llvm6.0-libs
+    - llvm6.0-static
+    - llvm7.0
+    - llvm7.0-devel
+    - llvm7.0-libs
+    - llvm7.0-static
+    - llvm8.0
+    - llvm8.0-devel
+    - llvm8.0-libs
+    - llvm8.0-static
+    - llvm9.0
+    - llvm9.0-devel
+    - llvm9.0-libs
+    - llvm9.0-static
+    - llvm10.0
+    - llvm10.0-devel
+    - llvm10.0-libs
+    - llvm10.0-static
+    - llvm11.0
+    - llvm11.0-devel
+    - llvm11.0-libs
+    - llvm11.0-static
+    - llvm12
+    - llvm12-devel
+    - llvm12-libs
+    - llvm12-static
+    - llvm13
+    - llvm13-devel
+    - llvm13-libs
+    - llvm13-static
+    - llvm14
+    - llvm14-devel
+    - llvm14-libs
+    - llvm14-static
+    - llvm15
+    - llvm15-devel
+    - llvm15-libs
+    - llvm15-static
+    - llvm16
+    - llvm16-devel
+    - llvm16-libs
+    - llvm16-static
+    - llvm17
+    - llvm17-devel
+    - llvm17-libs
+    - llvm17-static
+  labels:
+    - eln
+    - c10s

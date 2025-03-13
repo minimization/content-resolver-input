@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ptyxis
+  description: Default terminal application in Workstation
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - ptyxis
+  labels:
+    - eln
+    - c10s

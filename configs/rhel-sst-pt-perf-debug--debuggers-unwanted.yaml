@@ -1,0 +1,11 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Debuggers packages
+  description: Unwanted Debuggers packages
+  maintainer: rhel-sst-pt-perf-debug
+  unwanted_packages:
+    - babeltrace
+  labels:
+    - eln
+    - c10s

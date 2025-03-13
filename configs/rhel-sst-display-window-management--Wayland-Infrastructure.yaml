@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Wayland infrastructure
+  description: Contains tools and related infrastructure used in a Wayland environment
+  maintainer: rhel-sst-display-window-management
+  packages:
+    - wayland-utils
+    - waypipe
+    - libinput-utils
+    - xwayland-run
+    - gnome-ponytail-daemon
+  labels:
+    - eln
+    - c10s

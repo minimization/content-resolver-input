@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python DB connectors
+  description: Databases connectors for Python
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - python3-PyMySQL
+    - python3-psycopg2
+  labels:
+    - eln
+    - c10s

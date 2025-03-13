@@ -1,0 +1,23 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: openssl
+  description: >-
+    General purpose cryptographic library and toolkit for TLS and SSL protocols.
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - openssl
+  package_placeholders:
+    - srpm_name: openssl-fips-provider
+      rpms:
+        - rpm_name: openssl-fips-provider
+          description: FIPS module for OpenSSL
+          dependencies: []
+        - rpm_name: openssl-fips-provider-so
+          description: FIPS module for OpenSSL
+          dependencies:
+            - coreutils
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Data Stream Accelerator Tools
+  description: Package providing userspace support for Intel's Data Stream Accelerator
+  maintainer: rhel-sst-kernel-rts
+  arch_packages:
+    x86_64:
+      - accel-config
+      - accel-config-devel
+      - accel-config-libs
+  labels:
+    - eln
+    - c10s

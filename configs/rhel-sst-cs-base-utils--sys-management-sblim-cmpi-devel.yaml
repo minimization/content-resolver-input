@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sblim-cmpi-devel
+  description: SBLIM CMPI Provider Development Support
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - libcmpiCppImpl0
+    - sblim-cmpi-devel
+  labels:
+    - eln
+    - c10s

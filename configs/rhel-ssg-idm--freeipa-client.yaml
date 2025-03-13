@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FreeIPA Client - minimal
+  description: FreeIPA client
+  maintainer: rhel-ssg-idm
+  packages:
+    - ipa-client
+    - ipa-selinux # rich dependency that is otherwise unmet
+  labels:
+    - eln
+    - c10s

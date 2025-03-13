@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: exfatprogs
+  description: Utilities for formatting and repairing exFAT filesystems.
+  maintainer: rhel-sst-filesystems
+  packages:
+    - exfatprogs
+  labels:
+    - eln
+    - c10s

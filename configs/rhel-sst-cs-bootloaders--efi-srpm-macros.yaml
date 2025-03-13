@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: efi-srpm-macros
+  description: Common RPM Macros for building EFI-related packages
+  maintainer: rhel-sst-cs-bootloaders
+  packages:
+    - efi-srpm-macros
+  labels:
+    - eln
+    - c10s

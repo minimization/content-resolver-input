@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Man pages
+  description: Manual pages documenting the Linux kernel and C library interfaces
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - man-pages
+  labels:
+    - eln
+    - c10s

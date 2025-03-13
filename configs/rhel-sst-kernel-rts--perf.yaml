@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: realtime perf
+  description: Packages for testing realtime performance
+  maintainer: rhel-sst-kernel-rts
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    x86_64:
+      - realtime-tests
+      - rteval
+      - rteval-loads
+      - stress-ng

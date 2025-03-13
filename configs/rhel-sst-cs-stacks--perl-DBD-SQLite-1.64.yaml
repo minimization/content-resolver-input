@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-DBD-SQLite:1.64 module
+  description: Perl library for SQLite database
+  maintainer: rhel-sst-cs-stacks
+  labels:
+    - eln
+    - c10s
+  packages:
+    - perl-Test-NoWarnings
+    - perl-DBD-SQLite

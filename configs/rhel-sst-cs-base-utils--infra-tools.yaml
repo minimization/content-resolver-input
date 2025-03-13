@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Infrastructure tools
+  description: Packages for sysadmins/servers (e.g. mailserver)
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - dovecot
+    - dovecot-devel
+    - dovecot-mysql
+    - dovecot-pgsql
+    - dovecot-pigeonhole
+    - expect
+    - fetchmail
+    - kbd
+    - kbd-legacy
+    - mrtg
+  labels:
+    - eln
+    - c10s

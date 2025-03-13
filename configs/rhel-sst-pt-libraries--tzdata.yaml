@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tzdata
+  description: The latest time zone database as released by IANA.
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    - tzdata
+    - tzdata-java
+  labels:
+    - eln
+    - c10s

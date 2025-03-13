@@ -1,0 +1,18 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: keylime
+  description: Keylime Remote Attestation and Integrity Measurement
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - keylime
+    - keylime-agent-rust
+    - python3-alembic
+    - python3-lark
+    - python3-sqlalchemy
+    - python3-tornado
+  labels:
+    - eln
+    - c10s
+# vim:set ts=2 sw=2 et:

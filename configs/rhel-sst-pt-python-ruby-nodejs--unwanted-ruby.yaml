@@ -1,0 +1,17 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for Ruby
+  description: Packages we do not want to ship for Ruby
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  unwanted_source_packages:
+    - rubygem-bson # A dependency of rubygem-mongo.
+    - rubygem-bundler
+    - rubygem-mongo # MongoDB is not shipped anymore.
+  unwanted_packages:
+    - rubygem-rspec-its
+    - rubygem-rspec-its-doc
+    - rubypick
+  labels:
+    - eln
+    - c10s

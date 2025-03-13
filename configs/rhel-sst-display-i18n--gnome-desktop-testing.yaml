@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IBus Testing
+  description: GNOME Desktop Testing for testing IBus and input methods
+  maintainer: rhel-sst-display-i18n
+  packages:
+    - gnome-desktop-testing
+    - gnome-shell-extension-no-overview
+  labels:
+    - eln
+    - c10s

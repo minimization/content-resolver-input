@@ -1,0 +1,26 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Bluefield
+  description: Packages required for Mellanox Bluefield SmartNIC
+  maintainer: rhel-sst-network-drivers
+  packages: []
+  arch_packages:
+    aarch64:
+      - rshim
+  package_placeholders:
+    - srpm_name: bfscripts
+      rpms:
+        - rpm_name: bfscripts
+          description: Something for bluefield
+          limit_arches:
+            - aarch64
+    - srpm_name: mlxbf-bootctl
+      rpms:
+        - rpm_name: mlxbf-bootctl
+          description: Something for mellaonx bluefield
+          limit_arches:
+            - aarch64
+  labels:
+    - eln
+    - c10s

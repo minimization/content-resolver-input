@@ -1,0 +1,11 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for mailx
+  description: S-nail packages replaces functionality of mailx
+  maintainer: rhel-sst-cs-databases
+  unwanted_packages:
+    - mailx
+  labels:
+    - eln
+    - c10s

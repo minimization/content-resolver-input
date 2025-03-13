@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tbb
+  description: Threading Building Blocks library
+  maintainer: rhel-sst-pt-libraries
+  packages:
+    - python3-tbb
+    - tbb
+    - tbb-devel
+    - tbb-doc
+  labels:
+    - eln
+    - c10s

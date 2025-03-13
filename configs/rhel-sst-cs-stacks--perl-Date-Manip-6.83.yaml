@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-Date-Manip:6.83 module
+  description: Date manipulation routines
+  maintainer: rhel-sst-cs-stacks
+  labels:
+    - eln
+    - c10s
+  packages:
+    - perl-Date-Manip

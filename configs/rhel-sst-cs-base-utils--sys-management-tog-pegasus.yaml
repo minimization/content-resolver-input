@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tog-pegasus
+  description: OpenPegasus WBEM Services for Linux
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - tog-pegasus-devel
+    - tog-pegasus-libs
+    - tog-pegasus
+  labels:
+    - eln
+    - c10s

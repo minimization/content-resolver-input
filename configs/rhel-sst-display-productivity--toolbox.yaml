@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Toolbx
+  description: Tool for containerized command line environments
+  maintainer: rhel-sst-display-productivity
+  packages:
+    - toolbox
+  labels:
+    - eln
+    - c10s

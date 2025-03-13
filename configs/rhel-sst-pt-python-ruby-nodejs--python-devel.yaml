@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python development packages
+  description: Packages needed to build Python RPM packages
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  packages:
+    - python3-devel
+    - python3-rpm-generators
+    - python3-rpm-macros
+    - python-srpm-macros
+    - python-rpm-macros
+    - pyproject-srpm-macros
+  labels:
+    - eln
+    - c10s

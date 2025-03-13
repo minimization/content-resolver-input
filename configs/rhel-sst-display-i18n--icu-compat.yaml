@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libicu-compat
+  description: ICU (API compatibility)
+  maintainer: rhel-sst-display-i18n
+  packages:
+    # Each ICU major version is incompatible with the previous.  When icu 
+    # is bumped, a libicuNN compat package is created, but dependent packages
+    # are not immediately rebuilt.  The new icu build gets triggered in ELN,
+    # but CR doesn't know to trigger a build of the compat package, and
+    # everything breaks as a result.
+    #
+    # Generally, this resolves to libicu already listed in the icu 
+    # workload, but this should assure that the next compat package gets 
+    # rebuilt immediately. Once the compat has been rebuilt for ELN and is 
+    # listed by CR, this should then be updated to the new major version in 
+    # libicu.  At that point, CR will continue to handle the compat package 
+    # normally until all dependents have been updated for the new libicu 
+    # version, at which point the compat package will drop out of ELN.
+    - 'libicudata.so.76()(64bit)'
+  labels:
+    - eln
+    # cNs stays on a single ICU version once branched

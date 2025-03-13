@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-LDAP
+  description: Perl client for LDAP
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - perl-LDAP
+  labels:
+    - eln
+    - c10s

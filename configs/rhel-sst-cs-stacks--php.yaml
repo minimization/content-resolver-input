@@ -1,0 +1,44 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PHP scripting language
+  description: CS Stacks - PHP
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - php
+    - php-bcmath
+    - php-cli
+    - php-common
+    - php-devel
+    - php-dba
+    - php-dbg
+    - php-enchant
+    - php-fpm
+    - php-ffi
+    - php-gd
+    - php-gmp
+    - php-intl
+    - php-json
+    - php-ldap
+    - php-mbstring
+    - php-mysqlnd
+    - php-odbc
+    - php-opcache
+    - php-pdo
+    - php-pgsql
+    - php-pear
+    - php-pecl-zip
+    - php-process
+    - php-snmp
+    - php-soap
+    - php-xml
+    - php-pear
+    - php-pecl-apcu
+    - php-pecl-apcu-devel
+    - php-pecl-rrd
+    - php-pecl-xdebug3
+    - php-pecl-zip
+    - php-pecl-redis6
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FTP Server
+  description: FTP server software
+  maintainer: rhel-sst-cs-net-perf-services
+  packages:
+    - vsftpd
+  labels:
+    - eln
+    - c10s

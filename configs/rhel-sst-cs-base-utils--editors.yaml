@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Editors
+  description: Editors
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - nano
+  labels:
+    - eln
+    - c10s

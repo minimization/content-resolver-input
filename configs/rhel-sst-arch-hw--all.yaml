@@ -1,0 +1,79 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: arch hw packages
+  description: Packages for hardware enablement
+  maintainer: rhel-sst-arch-hw
+  packages:
+    - bluez
+    - alsa-firmware
+    - alsa-sof-firmware
+    - alsa-lib
+    - alsa-plugins-arcamav
+    - alsa-plugins-maemo
+    - alsa-plugins-oss
+    - alsa-plugins-pulseaudio
+    - alsa-plugins-samplerate
+    - alsa-plugins-speex
+    - alsa-plugins-upmix
+    - alsa-plugins-usbstream
+    - alsa-plugins-vdownmix
+    - alsa-tools-firmware
+    - alsa-ucm
+    - alsa-ucm-utils
+    - alsa-utils
+    - speexdsp
+    - hwloc
+    - pigz
+    - s390utils
+    - s390utils-se-data
+    - x3270
+  arch_packages:
+    aarch64:
+      - acpica-tools
+      - bluez-obexd
+    ppc64le:
+      - acpica-tools
+      - bluez-obexd
+      - libnxz
+      - libnxz-devel
+      - libnxz-static
+      - libocxl
+      - libocxl-devel
+    s390x:
+      - qclib
+      - qclib-devel
+      - qclib-static
+      - libica
+      - libica-devel
+      - libzdnn
+      - libzdnn-devel
+      - libzdnn-static
+      - libzfcphbaapi
+      - libzfcphbaapi-devel
+      - libzfcphbaapi-docs
+      - libzpc
+      - libzpc-devel
+      - openssl-ibmca
+      - s390utils-base
+      - s390utils-chreipl-fcp-mpath
+      - s390utils-cmsfs-fuse
+      - s390utils-core
+      - s390utils-cpacfstatsd
+      - s390utils-cpuplugd
+      - s390utils-devel
+      - s390utils-hmcdrvfs
+      - s390utils-iucvterm
+      - s390utils-mon_statd
+      - s390utils-osasnmpd
+      - s390utils-zdsfs
+      - s390utils-ziomon
+    x86_64:
+      - acpica-tools
+      - bluez-obexd
+      - mcelog
+      - tboot
+      - pcm
+  labels:
+    - eln
+    - c10s

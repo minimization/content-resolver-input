@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: NBDE
+  description: Network-Bound Disc Encryption
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - clevis
+    - clevis-dracut
+    - clevis-luks
+    - clevis-systemd
+    - clevis-udisks2
+    - llhttp
+    - llhttp-devel
+    - jose
+    - libjose
+    - libjose-devel
+    - libluksmeta
+    - libluksmeta-devel
+    - luksmeta
+    - tang
+  labels:
+    - eln
+    - c10s

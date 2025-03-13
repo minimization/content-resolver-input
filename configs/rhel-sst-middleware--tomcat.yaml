@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Tomcat packages
+  description: Middleware SST - Tomcat packages
+  maintainer: rhel-sst-middleware
+  packages:
+    - ecj
+    - tomcat
+    - tomcat-admin-webapps
+    - tomcat-docs-webapp
+    - tomcat-el-3.0-api
+    - tomcat-jakartaee-migration
+    - tomcat-jsp-2.3-api
+    - tomcat-lib
+    - tomcat-servlet-4.0-api
+    - tomcat-webapps
+    - mod_proxy_cluster
+  labels:
+    - eln
+    - c10s

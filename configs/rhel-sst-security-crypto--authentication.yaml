@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SASL Authentication plugins
+  description: Plugins loaded at runtime by the SASL framework
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - cyrus-sasl
+    - cyrus-sasl-lib
+    - cyrus-sasl-gs2
+    - cyrus-sasl-gssapi
+    - cyrus-sasl-ldap
+    - cyrus-sasl-plain
+    - cyrus-sasl-scram
+    - cyrus-sasl-sql
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: DHCP Client
+  description: DHCP Client software
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - dhcpcd
+  labels:
+    - eln
+    - c10s

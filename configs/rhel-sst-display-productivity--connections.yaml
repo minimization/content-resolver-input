@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Connections
+  description: Application for managing remote connections in Workstation
+  maintainer: rhel-sst-display-productivity
+  packages:
+    - gnome-connections
+  labels:
+    - eln
+    - c10s

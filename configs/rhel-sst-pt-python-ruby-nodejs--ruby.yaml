@@ -1,0 +1,32 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ruby runtime
+  description: Ruby interpretter and the most basic libraries
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  packages:
+    - ruby
+    - ruby-default-gems
+    - ruby-devel
+    - ruby-libs
+    - rubygem-bigdecimal
+    - rubygem-bundler
+    - rubygem-io-console
+    - rubygem-irb
+    - rubygem-json
+    - rubygem-minitest
+    - rubygem-power_assert
+    - rubygem-psych
+    - rubygem-racc
+    - rubygem-rake
+    - rubygem-rbs
+    - rubygem-rdoc
+    - rubygem-rexml
+    - rubygem-rss
+    - rubygem-test-unit
+    - rubygem-typeprof
+    - rubygems
+    - rubygems-devel
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: HTTP Servers - Squid Caching Proxy
+  description: CS Stacks - Squid
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - squid
+  labels:
+    - eln
+    - c10s

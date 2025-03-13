@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: realtime tools
+  description: Packages of tools that are useful in a realtime environment
+  maintainer: rhel-sst-kernel-rts
+  packages:
+    - tuna
+    - python3-linux-procfs
+    - stalld
+  labels:
+    - eln
+    - c10s

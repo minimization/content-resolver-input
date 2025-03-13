@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: File Synchronization
+  description: File transfer and synchronization
+  maintainer: rhel-sst-cs-net-perf-services
+  packages:
+    - rsync
+    - rsync-daemon
+  labels:
+    - eln
+    - c10s

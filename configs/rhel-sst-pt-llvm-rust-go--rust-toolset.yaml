@@ -1,0 +1,28 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Rust Toolset
+  description: Collection of packages providing the rust compiler toolchain.
+  maintainer: rhel-sst-pt-llvm-rust-go
+  packages:
+    - rust
+    - cargo
+    - clippy
+    - rust-analyzer
+    - rust-doc
+    - rust-gdb
+    - rust-lldb
+    - rust-std-static
+    - rust-std-static-wasm32-unknown-unknown
+    - rust-std-static-wasm32-wasip1
+    - rustfmt
+    - rust-toolset-srpm-macros
+    - rust-toolset
+  arch_packages:
+    aarch64:
+      - rust-std-static-aarch64-unknown-none-softfloat
+    x86_64:
+      - rust-std-static-x86_64-unknown-none
+  labels:
+    - eln
+    - c10s

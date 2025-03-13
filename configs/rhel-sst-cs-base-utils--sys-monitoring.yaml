@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System monitoring
+  description: Packages for system monitoring
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - iotop-c
+    - net-snmp
+    - net-snmp-devel
+    - net-snmp-libs
+    - net-snmp-utils
+    - pciutils
+    - pciutils-devel
+    - pciutils-libs
+    - smartmontools
+  arch_packages:
+    ppc64le:
+      - servicelog
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: perl-XML-Simple
+  description: Easy API to maintain XML in Perl
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - perl-XML-Simple
+  labels:
+    - eln
+    - c10s

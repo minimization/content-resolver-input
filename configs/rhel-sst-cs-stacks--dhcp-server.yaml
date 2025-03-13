@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: DHCP Server
+  description: DHCP Server software
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - kea
+    - kea-libs
+    - kea-hooks
+    - kea-doc
+    - radvd
+  labels:
+    - eln
+    - c10s

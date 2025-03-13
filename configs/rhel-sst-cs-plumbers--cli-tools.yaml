@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CLI tools
+  description: Various cli tools that makes administrator life easier
+  maintainer: rhel-sst-cs-plumbers
+  packages:
+    - usbutils
+    - procps-ng
+    - plocate
+    - mtr
+    - mtr-gtk
+    - iputils
+    - traceroute
+    - lsof
+    - ps_mem
+    - psacct
+    - psmisc
+    - file
+    - tree
+    - units
+    - hardlink
+    - uuidd
+    - words
+  labels:
+    - eln
+    - c10s

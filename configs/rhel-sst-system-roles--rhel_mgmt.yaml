@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL system management
+  description: Ansible collection for RHEL system management
+  maintainer: rhel-sst-system-roles
+  packages: []
+  package_placeholders:
+    - srpm_name: ansible-collection-redhat-rhel_mgmt
+      build_dependencies:
+        - python3-ruamel-yaml
+      rpms:
+        - rpm_name: ansible-collection-redhat-rhel_mgmt
+          description: Ansible Collection of general system management and utility modules and other plugins
+          dependencies:
+            - ansible-core
+            - rhel-system-roles
+  labels:
+    - eln
+    - c10s

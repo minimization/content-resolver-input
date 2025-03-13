@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Base userspace - minimal
+  description: Basic tools and daemon needed to run a server
+  maintainer: rhel-sst-cs-plumbers
+  packages:
+    - curl
+    - libcurl-minimal
+  labels:
+    - eln
+    - c10s

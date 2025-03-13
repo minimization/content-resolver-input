@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Shells
+  description: Alternative shells
+  maintainer: rhel-sst-cs-plumbers
+  packages:
+    - ksh
+    - tcsh
+  labels:
+    - eln
+    - c10s

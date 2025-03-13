@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Sudo
+  description: Sudo allows a system administrator to give certain users/groups well defined set of priviledges.
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - sudo
+    - sudo-python-plugin
+  labels:
+    - eln
+    - c10s

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenSCAP scanner
+  description: OpenSCAP scanner, an open source SCAP scanning utility
+  maintainer: rhel-sst-security-compliance
+  packages:
+    - openscap
+    - openscap-scanner
+  labels:
+    - eln
+    - c10s

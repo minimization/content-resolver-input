@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fwupd
+  description: Firmware update daemon
+  maintainer: rhel-sst-cs-bootloaders
+  packages:
+    - fwupd
+  arch_packages:
+    aarch64:
+      - fwupd-efi
+    x86_64:
+      - fwupd-efi
+  labels:
+    - eln
+    - c10s

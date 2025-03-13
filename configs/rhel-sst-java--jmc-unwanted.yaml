@@ -1,0 +1,13 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages for JMC
+  description: Packages we do not want to ship for JMC
+  maintainer: rhel-sst-java
+  unwanted_source_packages:
+    - jmc-core
+    - jmc
+    - owasp-java-encoder
+  labels:
+    - eln
+    - c10s

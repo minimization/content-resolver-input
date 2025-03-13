@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: i18n tools
+  description: Various i18n related tools
+  maintainer: rhel-sst-display-i18n
+  packages:
+    - convmv
+    - fontconfig
+    - gettext
+    - gnome-characters
+    - paps
+  labels:
+    - eln
+    - c10s

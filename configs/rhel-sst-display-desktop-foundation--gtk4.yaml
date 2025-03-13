@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GTK 4 toolkit
+  description: Software toolkit for developing applications
+  maintainer: rhel-sst-display-desktop-foundation
+  packages:
+    - gtk4
+    - gtk4-devel
+  labels:
+    - eln
+    - c10s

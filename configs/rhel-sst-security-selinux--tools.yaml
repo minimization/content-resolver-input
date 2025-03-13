@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: SELinux tools
+  description: A development tools for SELinux
+  maintainer: rhel-sst-security-selinux
+  packages:
+    - policycoreutils-devel
+    - policycoreutils-gui
+    - policycoreutils-sandbox
+    - checkpolicy
+    - setools
+    - setools-console
+    - setools-console-analyses
+    - setools-gui
+    - selinux-policy-devel
+    - udica
+    - setroubleshoot
+    - netlabel_tools
+  labels:
+    - eln
+    - c10s

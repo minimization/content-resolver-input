@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Apache Maven
+  description: Java project management and project comprehension tool
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - maven
+    - maven4
+  labels:
+    - eln

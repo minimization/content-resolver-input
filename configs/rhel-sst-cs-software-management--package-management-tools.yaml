@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Management Tools
+  description: Tools for building packages and repositories
+  maintainer: rhel-sst-cs-software-management
+  packages:
+    - createrepo_c
+    - redhat-rpm-config
+    - rpm-build
+    - rpmdevtools
+    - rpm-sign
+    - scl-utils-build
+  labels:
+    - eln
+    - c10s

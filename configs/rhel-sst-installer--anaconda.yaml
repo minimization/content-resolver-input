@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Anaconda
+  description: Graphical system installer
+  maintainer: rhel-sst-installer
+  labels:
+    - eln
+    - c10s
+  packages:
+    - anaconda
+    - anaconda-install-img-deps

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Perf
+  description: Performance analysis tools for Linux
+  maintainer: rhel-sst-kernel-tps
+  packages:
+    - perf
+    - libperf
+    - libperf-devel
+  labels:
+    - eln
+    - c10s

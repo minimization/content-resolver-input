@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libwww-perl
+  description: Perl HTTP library with TLS support
+  maintainer: rhel-sst-cs-stacks
+  packages:
+    - perl-libwww-perl
+    - perl-LWP-Protocol-https
+  labels:
+    - eln
+    - c10s

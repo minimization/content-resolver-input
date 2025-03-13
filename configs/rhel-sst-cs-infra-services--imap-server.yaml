@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Mail Delivery Agent (MDA)
+  description: Software for local delivery and accessing of electronic mail
+  maintainer: rhel-sst-cs-infra-services
+  packages:
+    - cyrus-imapd
+    - xapian-core
+  labels:
+    - eln
+    - c10s

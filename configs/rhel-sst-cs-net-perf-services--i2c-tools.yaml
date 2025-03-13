@@ -1,0 +1,29 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: I2C tools
+  description: Communication with I2C devices. This may include reading data from sensors, communication with EEPROMS, uses in robotics, embedded, IoT devices, industrial automation.
+  maintainer: rhel-sst-cs-net-perf-services
+  packages: []
+  arch_packages:
+    aarch64:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - i2c-tools
+      - i2c-tools-perl
+      - libi2c
+      - python3-i2c-tools
+    ppc64le:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - i2c-tools
+      - i2c-tools-perl
+      - libi2c
+      - python3-i2c-tools
+    x86_64:
+      # i2c-tools (ExcludeArch: s390 s390x)
+      - i2c-tools
+      - i2c-tools-perl
+      - libi2c
+      - python3-i2c-tools
+  labels:
+    - eln
+    - c10s
