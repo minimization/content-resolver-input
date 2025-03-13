@@ -3,7 +3,7 @@ version: 1
 data:
   name: Buildroot packages
   description: Packages needed to ensure a functional build environment
-  maintainer: sgallagh
+  maintainer: rhel-sst-centos-stream
   packages:
     - rpmautospec
   labels:
