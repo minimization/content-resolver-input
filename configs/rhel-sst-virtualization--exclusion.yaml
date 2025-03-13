@@ -20,6 +20,15 @@ data:
     - spice-html5
     - spice-xpi
     - virt-rhel-module
+    - xen
+    - xen-devel
+    - xen-hypervisor
+    - xen-libs
+    - xen-licenses
+    - xen-ocaml
+    - xen-ocaml-devel
+    - xen-runtime
+    - xen-doc
   labels:
     - eln
     - c10s
