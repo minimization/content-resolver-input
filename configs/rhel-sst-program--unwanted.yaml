@@ -6,6 +6,8 @@ data:
   maintainer: bstinson
   unwanted_packages:
     - alex
+    - beakerlib
+    - bind9-next
     - bodhi-client
     - bodhi-composer
     - bodhi-docs
@@ -136,7 +138,6 @@ data:
     - redhat-lsb-submod-security
     - reiserfs-utils
     - screen
-    - bind9-next
   labels:
     - eln
     - c10s
