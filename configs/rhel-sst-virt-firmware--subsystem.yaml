@@ -9,6 +9,7 @@ data:
     - edk2-ovmf
     - python3-pefile
     - python3-virt-firmware
+    - uki-direct
   labels:
     - eln
     - c10s

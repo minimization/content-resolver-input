@@ -15,7 +15,6 @@ data:
     - nbdkit
     - passt
     - python-augeas
-    - uki-direct
     - vhostmd
   labels:
     - eln
