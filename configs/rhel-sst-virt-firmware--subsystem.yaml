@@ -10,6 +10,7 @@ data:
     - python3-pefile
     - python3-virt-firmware
     - uki-direct
+    - virt-sb-certs
   labels:
     - eln
     - c10s
