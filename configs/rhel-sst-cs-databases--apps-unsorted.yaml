@@ -8,6 +8,9 @@ data:
     - pcre2
     - pcre2-devel
     - pcre2-tools
+    - proj
+    - geos
+    - gdal
   labels:
     - eln
     - c10s
