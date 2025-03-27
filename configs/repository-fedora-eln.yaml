@@ -12,6 +12,8 @@ data:
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         exclude: &eln_excludes
+        # java-latest is EPEL only
+        - java-latest-openjdk*
         # ffmpeg is unwanted
         - libav*-free
         - libpostproc-free
@@ -80,6 +82,8 @@ data:
         # openjdk-portable packages are built against the oldest supported
         # RHEL version, will not be imported into next RHEL version
         - java-*-openjdk-portable*
+        # java-latest is EPEL only
+        - java-latest-openjdk*
         # prefer pipewire-jack
         - jack-audio-connection-kit
         # doc generation tools with unwanted dependencies
