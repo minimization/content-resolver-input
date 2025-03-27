@@ -5,7 +5,7 @@ data:
   description: Cockpit basic packages
   maintainer: rhel-sst-cockpit
   labels:
-    - eln
+    - c10s
   packages:
     # meta-package for the basic stuff (web server, bridge, core pages)
     - cockpit
@@ -13,6 +13,8 @@ data:
     - cockpit-packagekit
     - cockpit-storaged
     - cockpit-doc
+    # RHEL 4 Edge image management
+    - cockpit-ostree
     # extensions maintained by Cockpit team
     - cockpit-files
   arch_packages:
