@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig data science packages
+  description: ELN Extras packages for data science
+  maintainer: meta-sig
+  packages:
+    - conda
+  labels:
+    - eln-extras
