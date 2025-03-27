@@ -1,0 +1,51 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OpenJDK Latest
+  description: OpenJDK and the Java Platform
+  maintainer: rhel-sst-java
+  labels:
+    - eln-extras
+  packages:
+    - java-latest-openjdk
+    - java-latest-openjdk-demo
+    - java-latest-openjdk-devel
+    - java-latest-openjdk-headless
+    - java-latest-openjdk-javadoc
+    - java-latest-openjdk-javadoc-zip
+    - java-latest-openjdk-jmods
+    - java-latest-openjdk-src
+    - java-latest-openjdk-static-libs
+    - java-latest-openjdk-slowdebug
+    - java-latest-openjdk-demo-slowdebug
+    - java-latest-openjdk-devel-slowdebug
+    - java-latest-openjdk-headless-slowdebug
+    - java-latest-openjdk-jmods-slowdebug
+    - java-latest-openjdk-src-slowdebug
+    - java-latest-openjdk-static-libs-slowdebug
+  # no s390x fastdebug due to build times
+  arch_packages:
+    aarch64:
+      - java-latest-openjdk-fastdebug
+      - java-latest-openjdk-demo-fastdebug
+      - java-latest-openjdk-devel-fastdebug
+      - java-latest-openjdk-headless-fastdebug
+      - java-latest-openjdk-jmods-fastdebug
+      - java-latest-openjdk-src-fastdebug
+      - java-latest-openjdk-static-libs-fastdebug
+    ppc64le:
+      - java-latest-openjdk-fastdebug
+      - java-latest-openjdk-demo-fastdebug
+      - java-latest-openjdk-devel-fastdebug
+      - java-latest-openjdk-headless-fastdebug
+      - java-latest-openjdk-jmods-fastdebug
+      - java-latest-openjdk-src-fastdebug
+      - java-latest-openjdk-static-libs-fastdebug
+    x86_64:
+      - java-latest-openjdk-fastdebug
+      - java-latest-openjdk-demo-fastdebug
+      - java-latest-openjdk-devel-fastdebug
+      - java-latest-openjdk-headless-fastdebug
+      - java-latest-openjdk-jmods-fastdebug
+      - java-latest-openjdk-src-fastdebug
+      - java-latest-openjdk-static-libs-fastdebug
