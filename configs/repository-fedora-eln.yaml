@@ -138,6 +138,12 @@ data:
         - texlive-xindy
         # unwanted toolchain
         - mold
+        # dogtag-pki build deps which are vendored in RHEL
+        - fasterxml-oss-parent
+        - jackson-*
+        - jboss-jaxrs-2.0-api
+        - jboss-logging*
+        - pki-resteasy-*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
