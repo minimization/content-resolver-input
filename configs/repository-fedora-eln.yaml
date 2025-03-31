@@ -22,6 +22,8 @@ data:
         # qtwebengine is unwanted
         - qt6-qtpdf
         - qt6-qtwebengine
+        # unwanted weak dependency of ibus-table, ibus-typing-booster
+        - python3-simpleaudio
         priority: 1
       AppStream:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/AppStream/$basearch/os/
@@ -144,6 +146,8 @@ data:
         - jboss-jaxrs-2.0-api
         - jboss-logging*
         - pki-resteasy-*
+        # unwanted weak dependency of ibus-table, ibus-typing-booster
+        - python3-simpleaudio
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
