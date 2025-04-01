@@ -26,7 +26,6 @@ data:
             - policycoreutils-python-utils
             - python3-pyyaml
             - python3-requests
-            - python3-setuptools
             - python3-six
             - systemd
             - tar
