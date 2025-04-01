@@ -5,12 +5,12 @@ data:
   description: ELN Extras packages that Meta cares about
   maintainer: meta-sig
   packages:
-    - atop
     - b4
     - below
     - btrd
     - ccache
     - colm
+    - colorized-logs
     - ctags
     - dbench
     - debian-keyring
