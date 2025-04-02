@@ -9,5 +9,4 @@ data:
     - liboqs
     - oqsprovider
   labels:
-    - eln
     - c10s
