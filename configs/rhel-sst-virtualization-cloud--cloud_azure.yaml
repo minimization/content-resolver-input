@@ -12,3 +12,8 @@ data:
   labels:
     - eln
     - c10s
+  arch_packages:    
+    x86_64:
+      - azure-vm-utils
+    aarch64:
+      - azure-vm-utils
