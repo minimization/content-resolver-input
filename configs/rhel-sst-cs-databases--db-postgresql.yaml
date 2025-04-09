@@ -20,6 +20,7 @@ data:
     - pg_repack
     - pgvector
     - postgres-decoderbufs
+    - postgis
   labels:
     - eln
     - c10s
