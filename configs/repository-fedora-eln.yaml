@@ -110,6 +110,7 @@ data:
         - python3-pytest-randomly
         - python3-pytest-xdist
         - python3-recommonmark
+        - python3-scikit-build-core
         - python3-tox-current-env
         - tox
         # prefer grubby
