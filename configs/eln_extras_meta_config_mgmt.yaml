@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meta-sig configuration management packages
+  description: ELN Extras packages for configuration management
+  maintainer: meta-sig
+  packages:
+    - dummy-package-canary
+  labels:
+    - eln-extras
