@@ -6,7 +6,6 @@ data:
   maintainer: rhel-sst-security-crypto
   packages:
     - crypto-policies
-    - crypto-policies-pq-preview
     - crypto-policies-scripts
     - grubby
   labels:
