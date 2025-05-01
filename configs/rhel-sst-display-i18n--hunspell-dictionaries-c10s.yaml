@@ -5,7 +5,7 @@ data:
   description: A set of hunspell dictionaries
   maintainer: rhel-sst-display-i18n
   labels:
-    - eln
+    - c10s
   packages:
     - hunspell
     - hunspell-af
@@ -60,7 +60,6 @@ data:
     - hunspell-id
     - hunspell-is
     - hunspell-it
-    - hunspell-ka
     - hunspell-kk
     - hunspell-km
     - hunspell-kn
