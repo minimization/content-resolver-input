@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: eln only packages
+  description: Packages that are for ELN Only
+  maintainer: tdawson
+  packages:
+    - fedora-eln-backgrounds
+  labels:
+    - eln
