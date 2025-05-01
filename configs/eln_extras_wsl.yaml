@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wsl packages
+  description: WSL ELN Extras packages
+  maintainer: tdawson
+  packages:
+    - wsl-setup
+  labels:
+    - eln-extras
