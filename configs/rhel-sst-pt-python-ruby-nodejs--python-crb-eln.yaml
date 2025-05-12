@@ -19,8 +19,6 @@ data:
     - python3-cython
     - python3-sphinx
     - python3-wheel
-    # note: the following package is called python3-wheel-wheel in RHEL proper:
-    - python-wheel-wheel
     - python3-pytest
     - python3-psutil-tests
     - py3c-devel
