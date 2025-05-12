@@ -20,6 +20,10 @@ data:
     - boom-boot
     - boom-boot-conf
     - python3-boom
+    # Snapshot manager and its sub-packages
+    - snapm
+    - python3-snapm
+    - python3-snapm-doc
     # cryptsetup and its sub-packages
     - cryptsetup
     - cryptsetup-devel
