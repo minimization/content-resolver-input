@@ -44,6 +44,45 @@ data:
       - virt-top
   package_placeholders:
     # RHEL-specific package, not in Fedora
+    - srpm_name: libguestfs-fssupport
+      build_dependencies:
+        - autoconf
+        - automake
+        - e2fsprogs-devel
+        - elfutils-libelf-devel
+        - gcc
+        - gnupg2
+        - kernel-abi-stablelists
+        - kernel-devel-uname-r
+        - kernel-rpm-macros
+        - kmod
+        - libacl-devel
+        - libblkid-devel
+        - libgcrypt-devel
+        - libuuid-devel
+        - libzstd-devel
+        - lzo-devel
+        - make
+        - python3-devel
+        - python3-setuptools
+        - python3-sphinx
+        - python3-sphinx_rtd_theme
+        - redhat-rpm-config
+        - systemd
+        - systemd-devel
+        - xz
+        - zlib-ng-compat-devel
+      limit_arches:
+        - x86_64
+        - s390x
+        - aarch64
+      rpms:
+        - rpm_name: libguestfs-fssupport
+          description: Btrfs filesystem support for virt-v2v
+          dependencies:
+            - kernel-uname-r
+            - libguestfs
+    # RHEL-specific package, not in Fedora
     - srpm_name: libguestfs-winsupport
       build_dependencies:
         - autoconf
