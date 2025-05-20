@@ -2,8 +2,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: ACG Level 1 Packages for RHEL 9
-  description: "More info: https://access.redhat.com/articles/rhel9-abi-compatibility"
+  name: ACG Level 1 Packages for RHEL 10
+  description: "More info: https://access.redhat.com/articles/rhel10-abi-compatibility"
   maintainer: bstinson
   packages:
     - elfutils-libelf
@@ -16,10 +16,7 @@ data:
     - libglvnd-opengl
     - libgomp
     - libstdc++
-    - libxml2
-    - libxslt
     - mesa-libGLU
-    - ocl-icd
     - pam-libs
     - vulkan-loader
     - zlib-ng-compat
