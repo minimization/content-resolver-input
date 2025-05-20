@@ -149,6 +149,8 @@ data:
         - pki-resteasy-*
         # unwanted weak dependency of ibus-table, ibus-typing-booster
         - python3-simpleaudio
+        # unwanted (and rarely used) build dep, pulls in hundreds of Perl deps
+        - licensecheck
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
