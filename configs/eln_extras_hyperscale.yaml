@@ -9,7 +9,6 @@ data:
     - btrfs-progs
     - centos-packager
     - compsize
-    - fsverity-utils
     - ebtables-legacy
     - ebtables-services
     - iptables-legacy
