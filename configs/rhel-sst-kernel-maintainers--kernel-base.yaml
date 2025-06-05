@@ -39,6 +39,7 @@ data:
     - kernel-modules
     - kernel-modules-core
     - kernel-modules-extra
+    - kernel-modules-extra-matched
     - kernel-tools
     - perf
     - python3-perf
