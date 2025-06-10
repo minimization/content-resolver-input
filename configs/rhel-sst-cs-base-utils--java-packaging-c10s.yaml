@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Java RPM Packaging Tools
+  description: |
+    Provides the necessary tools for packaging Java software as RPMs,
+    supporting the traditional imperative approach.
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - javapackages-bootstrap
+    - javapackages-local-openjdk21
+    - jurand
+    - maven-local-openjdk21
+  labels:
+    - c10s
