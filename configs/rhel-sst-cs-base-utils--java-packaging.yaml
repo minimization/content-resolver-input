@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Java RPM Packaging Tools
+  description: |
+    Provides the necessary tools for packaging Java software as RPMs,
+    supporting both the new declarative syntax and the traditional
+    imperative approach.
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - dola
+    - dola-gleaner
+    - dola-transformer
+    - java-rpm-macros
+    - javapackages-bootstrap
+    - javapackages-local-openjdk21
+    - javapackages-local-openjdk25
+    - jurand
+    - maven-local-openjdk21
+    - maven-local-openjdk25
+  labels:
+    - eln
