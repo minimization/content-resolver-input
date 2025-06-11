@@ -9,8 +9,11 @@ data:
     # older Python versions
     - python3.12
     - python3.12-libs
+    - python3.13
+    - python3.13-libs
   # components for the above
   unwanted_source_packages:
     - python3.12
+    - python3.13
   labels:
     - eln
