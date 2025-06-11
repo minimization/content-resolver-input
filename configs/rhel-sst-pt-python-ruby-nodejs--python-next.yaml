@@ -1,0 +1,29 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python next version
+  description: Next version of Python interpreter
+  maintainer: rhel-sst-pt-python-ruby-nodejs
+  packages:
+    # Each 3.Y version of Python is built as its own source package, with 
+    # the default version providing python3- rather than python3.Y- 
+    # packages. When the default version is changed, both the previous and 
+    # new version are rebuilt in a side tag, along with Python-dependent 
+    # packages to use the new version. When that side-tag is merged, the 
+    # previous version build gets triggered in ELN, but CR doesn't know to 
+    # trigger a build of the new default version, and composes break as a 
+    # result.
+    #
+    # Generally, this resolves to python3 already listed in the python 
+    # workload, but this should assure that the next future package gets 
+    # rebuilt immediately. Once the next new (alpha) version is available 
+    # in Fedora, this should then be updated to that new version of Python. 
+    # At that point, CR will continue to handle both the current/previous 
+    # and future/new versions normally until all dependents have been 
+    # updated for the new python version, at which point the previous 
+    # package will drop out of ELN.
+    - python3.14
+  labels:
+    # Before becoming the default, the new version does not belong in ELN,
+    # but may be added to CS as a non-default version (AppStream).
+    - eln-extras
