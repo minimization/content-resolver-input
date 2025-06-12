@@ -11,7 +11,7 @@ data:
     - dola
     - dola-gleaner
     - dola-transformer
-    - java-rpm-macros
+    - java-srpm-macros
     - javapackages-bootstrap
     - javapackages-local-openjdk21
     - javapackages-local-openjdk25
