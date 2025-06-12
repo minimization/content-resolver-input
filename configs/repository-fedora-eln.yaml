@@ -96,22 +96,43 @@ data:
         # unwanted ocaml deps
         - ocaml-ounit*
         # unwanted python deps
+        - python3-anyio
         - python3-build
         - python3-coverage
         - python3-docs
         - python3-etcd
+        - python3-etcd
+        - python3-flask
+        - python3-furo
+        - python3-freezegun
+        - python3-hypercorn
         - python3-hypothesis
+        - python3-iso8601
         - python3-ipython
         - python3-myst-parser
         - python3-pillow
+        - python3-pretend
+        - python3-pyOpenSSL
+        - python3-pysocks
+        - python3-pytest-benchmark
         - python3-pytest-cov
         - python3-pytest-flakes
         - python3-pytest-mock
         - python3-pytest-randomly
+        - python3-pytest-timeout
         - python3-pytest-xdist
+        - python3-pywbem
+        - python3-quart
+        - python3-quart-trio
         - python3-recommonmark
         - python3-scikit-build-core
+        - python3-subunit
+        - python3-tomlkit
         - python3-tox-current-env
+        - python3-trio
+        - python3-trustme
+        - python3-twisted
+        - python3-werkzeug
         - tox
         # prefer grubby
         - sdubby
