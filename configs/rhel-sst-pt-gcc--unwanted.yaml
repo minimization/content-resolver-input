@@ -53,3 +53,8 @@ data:
     - libbsd
     # Only supported linkers are ld.bfd (binutils) or lld
     - mold
+    # Only the default GCC is supported in ELN, and newer versions in CS
+    # as part of gcc-toolset-NN
+    - gcc14
+    - gcc14-c++
+    - gcc14-gfortran
