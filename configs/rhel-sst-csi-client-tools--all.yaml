@@ -53,6 +53,13 @@ data:
           dependencies:
             - subscription-manager
             - systemd
+    - srpm_name: insights-core-selinux
+      rpms:
+        - rpm_name: insights-core-selinux
+          description: insights-core-selinux
+          dependencies:
+            - selinux-policy
+            - selinux-policy-targeted
   labels:
     - eln
     - c10s
