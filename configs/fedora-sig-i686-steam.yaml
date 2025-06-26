@@ -1,0 +1,43 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C Development Environment for i686
+  description: A C development environment for i686
+  maintainer: ssmoogen
+  packages:
+    # The minimum development environment is this:
+    - desktop-file-utils
+    - libappstream-glib
+    - make
+    - systemd
+    - tar
+    - zenity
+    # Requirements from https://github.com/rpmfusion/steam/blob/master/steam.spec
+    - NetworkManager-libnm
+    - SDL2
+    - alsa-lib
+    - alsa-plugins-pulseaudio
+    - firewalld-filesystem
+    - fontconfig
+    - gtk2
+    - libICE
+    - libXScrnSaver
+    - libXext
+    - libXinerama
+    - libXtst
+    - libatomic
+    - libcurl
+    - libnsl
+    - libpng
+    - libva
+    - libvdpau
+    - mesa-dri-drivers
+    - mesa-libEGL
+    - mesa-libGL
+    - mesa-vulkan-drivers
+    - nss
+    - pipewire-alsa
+    - pulseaudio-libs
+    - systemd-libs
+    - vulkan-loader
+    - xdg-desktop-portal

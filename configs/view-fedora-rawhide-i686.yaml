@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Fedora Rawhide Package Set for i686
+  description: Fedora Rawhide Package Set for i686
+  maintainer: ssmoogen
+  labels:
+  - fedora-i686
+  repository: repository-fedora-rawhide-i686
+
+  buildroot_strategy: root_logs

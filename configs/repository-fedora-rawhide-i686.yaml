@@ -1,0 +1,19 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: Fedora Rawhide
+  description: Fedora Rawhide
+  maintainer: ssmoogen
+  source:
+    repos:
+      Rawhide:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 1
+    releasever: "rawhide"
+    architectures:
+      - x86_64
+    composeinfo: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/metadata/composeinfo.json
+    base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']

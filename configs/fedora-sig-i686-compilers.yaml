@@ -1,0 +1,63 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: C Development Environment for i686
+  description: A C development environment for i686
+  maintainer: ssmoogen
+  packages:
+    # The minimum development environment is this:
+    - gcc
+    - binutils
+    - glibc
+    - glibc-common
+    - glibc-devel
+    # Full development includes additional packages:
+    - glibc-utils
+    - glibc-static
+    - glibc-nss-devel
+    # Support all locales.
+    - glibc-all-langpacks
+    # parser and scanners
+    - bison
+    - bison-devel
+    - bison-runtime
+    - byacc
+    - flex
+    - flex-devel
+    # LLVM environment
+    - llvm
+    - llvm-devel
+    - llvm-googletest
+    - llvm-libs
+    - llvm-static
+    - llvm-test
+    - llvm-toolset
+    - clang
+    - clang-devel
+    - clang-libs
+    - clang-tools-extra
+    - clang-resource-filesystem
+    - git-clang-format
+    - python3-clang
+    - compiler-rt
+    - libomp
+    - libomp-devel
+    - lld
+    - lld-devel
+    - lld-libs
+    - lldb
+    - lldb-devel
+    - python3-lldb
+    - python3-lit
+    # make
+    - make
+    - make-devel
+    # autotools
+    - autoconf
+    - autoconf-archive
+    - automake
+    - libtool
+    - m4
+
+  labels:
+    - fedora-rawhide-i686
