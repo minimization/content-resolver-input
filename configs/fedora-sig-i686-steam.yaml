@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: C Development Environment for i686
-  description: A C development environment for i686
+  name: Packages Required By Steam Spec File
+  description: Packages Required By Steam
   maintainer: ssmoogen
   packages:
     # The minimum development environment is this:
@@ -41,3 +41,6 @@ data:
     - systemd-libs
     - vulkan-loader
     - xdg-desktop-portal
+
+  labels:
+    - fedora-rawhide-i686
