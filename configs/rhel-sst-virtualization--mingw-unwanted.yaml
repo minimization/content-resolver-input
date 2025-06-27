@@ -231,6 +231,9 @@ data:
     # mingw-pdcurses
     - mingw32-pdcurses
     - mingw64-pdcurses
+    # mingw-pixman
+    - mingw32-pixman
+    - mingw64-pixman
     # mingw-readline
     - mingw32-readline
     - mingw64-readline
