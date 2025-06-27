@@ -13,12 +13,15 @@ data:
     - srpm_name: mingw-qemu-ga-win
       build_dependencies:
         - libtool
+        - zlib-devel
         - glib2-devel
         - python3-devel
         - gettext
         - gettext-devel
         - mingw32-gcc
+        - mingw32-gcc-c++
         - mingw64-gcc
+        - mingw64-gcc-c++
         - mingw32-glib2
         - mingw64-glib2
         - mingw64-headers
@@ -27,7 +30,6 @@ data:
         - msitools
         - meson
         - ninja-build
-        - zlib-ng-compat-devel
       limit_arches:
         - x86_64
       rpms:
