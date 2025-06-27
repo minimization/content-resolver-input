@@ -17,8 +17,6 @@ data:
         - python3-devel
         - gettext
         - gettext-devel
-        - mingw32-pixman
-        - mingw64-pixman
         - mingw32-gcc
         - mingw64-gcc
         - mingw32-glib2
@@ -39,8 +37,6 @@ data:
             - systemd-units
     - srpm_name: virtio-win
       build_dependencies:
-        - mingw32-pixman
-        - mingw64-pixman
         - mingw32-gcc
         - mingw64-gcc
         - mingw32-glib2
