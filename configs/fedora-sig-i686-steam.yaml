@@ -1,23 +1,19 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Packages Required By Steam Spec File
-  description: Packages Required By Steam
+  name: Fedora Rawhide Packages Required By Steam Spec File
+  description: Fedora Rawhide Packages Required By Steam Spec to be used by the Fedora i686 minimization effort.
   maintainer: ssmoogen
   packages:
-    # The minimum development environment is this:
+    # Requirements from https://github.com/rpmfusion/steam/blob/master/steam.spec
     - desktop-file-utils
     - libappstream-glib
     - make
     - systemd
-    - tar
-    - zenity
-    # Requirements from https://github.com/rpmfusion/steam/blob/master/steam.spec
     - NetworkManager-libnm
-    - SDL2
+    - sdl2-compat
     - alsa-lib
     - alsa-plugins-pulseaudio
-    - firewalld-filesystem
     - fontconfig
     - gtk2
     - libICE
@@ -41,6 +37,7 @@ data:
     - systemd-libs
     - vulkan-loader
     - xdg-desktop-portal
+    - gamemode
 
   labels:
-    - fedora-rawhide-i686
+    - fedora-rawhide-minimal-i686

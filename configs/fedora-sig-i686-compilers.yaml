@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: C Development Environment for i686
-  description: A C development environment for i686
+  name: Development Environment for Fedora Rawhide minimal i686
+  description: Packages which are used either for direct or cross compilation of i686 packages in Fedora.
   maintainer: ssmoogen
   packages:
     # The minimum development environment is this:
@@ -60,4 +60,4 @@ data:
     - m4
 
   labels:
-    - fedora-rawhide-i686
+    - fedora-rawhide-minimal-i686

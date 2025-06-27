@@ -18,13 +18,12 @@ data:
   # Name is an identifier for humans
   #
   # (mandatory field)
-  name: Fedora Rawhide i686
+  name: Fedora Rawhide Special i686 Workload
 
   # A short description, perhaps hinting the purpose
   #
   # (mandatory field)
-  description: A base environment for working out what i686 packages are needed in i686
-
+  description: A base environment for working out what rawhide packages may be needed to build out a minimal i686 environment.
   # Who maintains it? This is just a freeform string
   # for humans to read. In Fedora, a FAS nick is recommended.
   #
@@ -53,7 +52,7 @@ data:
   #
   # (mandatory field)
   labels:
-  - fedora-rawhide-i686
+  - fedora-rawhide-minimal-i686
 
   ### OPTIONAL FIELDS ###
 

@@ -2,11 +2,11 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Fedora Rawhide Package Set for i686
-  description: Fedora Rawhide Package Set for i686
+  name: Fedora Rawhide Package Set for Minimal i686 SIG
+  description: Fedora Rawhide Package Set for Minimal i686 SIG. Which x86_64 would need to retain i686.
   maintainer: ssmoogen
   labels:
-  - fedora-i686
+  - fedora-rawhide-minimal-i686
   repository: repository-fedora-rawhide-i686
 
   buildroot_strategy: root_logs
