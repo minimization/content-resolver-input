@@ -13,6 +13,7 @@ data:
     - atlantik
     - audex
     - audiotube
+    - aurorae
     - baloo-widgets
     - blinken
     - bomber
@@ -257,7 +258,6 @@ data:
     - kwave
     - kweather
     - kwin
-    - kwin-wayland
     - kwordquiz
     - kwrite
     - kwrited
@@ -326,7 +326,6 @@ data:
     - plasma-workspace
     - plasma-workspace-geolocation
     - plasma-workspace-wallpapers
-    - plasma-workspace-wayland
     - polkit-kde
     - polkit-qt6-1
     - powerdevil
