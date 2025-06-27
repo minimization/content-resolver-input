@@ -6,37 +6,32 @@ data:
   maintainer: ssmoogen
   packages:
     # Requirements from https://github.com/rpmfusion/steam/blob/master/steam.spec
-    - desktop-file-utils
-    - libappstream-glib
-    - make
-    - systemd
-    - NetworkManager-libnm
-    - sdl2-compat
+    - mesa-dri-drivers
+    - mesa-vulkan-drivers
+    - vulkan-loader
     - alsa-lib
-    - alsa-plugins-pulseaudio
     - fontconfig
     - gtk2
     - libICE
-    - libXScrnSaver
+    - libnsl
+    - libpng
     - libXext
     - libXinerama
     - libXtst
-    - libatomic
+    - libXScrnSaver
+    - mesa-libGL
+    - mesa-libEGL
+    - NetworkManager-libnm
+    - nss
+    - pulseaudio-libs
     - libcurl
-    - libnsl
-    - libpng
+    - systemd-libs
     - libva
     - libvdpau
-    - mesa-dri-drivers
-    - mesa-libEGL
-    - mesa-libGL
-    - mesa-vulkan-drivers
-    - nss
+    - libatomic
+    - alsa-plugins-pulseaudio
     - pipewire-alsa
-    - pulseaudio-libs
-    - systemd-libs
-    - vulkan-loader
-    - xdg-desktop-portal
+    - SDL2
     - gamemode
 
   labels:
