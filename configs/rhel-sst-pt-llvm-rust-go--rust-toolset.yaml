@@ -18,6 +18,8 @@ data:
     - rustfmt
     - rust-toolset-srpm-macros
     - rust-toolset
+    - bindgen-cli
+    - cbindgen
   arch_packages:
     aarch64:
       - rust-std-static-aarch64-unknown-none-softfloat
