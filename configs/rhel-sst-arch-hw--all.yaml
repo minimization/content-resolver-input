@@ -41,9 +41,6 @@ data:
       - libocxl
       - libocxl-devel
     s390x:
-      - qclib
-      - qclib-devel
-      - qclib-static
       - libica
       - libica-devel
       - libzdnn
@@ -55,6 +52,9 @@ data:
       - libzpc
       - libzpc-devel
       - openssl-ibmca
+      - qclib
+      - qclib-devel
+      - qclib-static
       - s390utils-base
       - s390utils-chreipl-fcp-mpath
       - s390utils-cmsfs-fuse
@@ -73,8 +73,8 @@ data:
       - bluez-obexd
       - intel-cmt-cat
       - mcelog
-      - tboot
       - pcm
+      - tboot
   labels:
     - eln
     - c10s
