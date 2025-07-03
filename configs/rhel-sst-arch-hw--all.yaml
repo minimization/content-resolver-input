@@ -71,6 +71,7 @@ data:
     x86_64:
       - acpica-tools
       - bluez-obexd
+      - intel-cmt-cat
       - mcelog
       - tboot
       - pcm
