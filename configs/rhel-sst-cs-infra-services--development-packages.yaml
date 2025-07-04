@@ -12,7 +12,7 @@ data:
     # ghostscript
     - ghostscript-doc
     - ghostscript-tools-dvipdf
-    - ghostscript-tools-fonts
+    - ghostscript-tools-fontutils
     - ghostscript-tools-printing
     - libgs-devel
     # libidn2
