@@ -24,7 +24,6 @@ data:
     - python3-kmod
     - python3-pyparsing
     - python3-rtslib
-    - python3-urwid
     - targetcli
     # iscsi
     - iscsi-initiator-utils
