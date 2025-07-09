@@ -12,6 +12,7 @@ data:
     #- artikulate
     - atlantik
     - audex
+    - audiocd-kio
     - audiotube
     - aurorae
     - baloo-widgets
@@ -85,6 +86,8 @@ data:
     - kdegraphics-mobipocket
     - kdegraphics-thumbnailers
     - kde-gtk-config
+    - kde-inotify-survey
+    - kdenetwork-filesharing
     - kdenlive
     - kde-partitionmanager
     - kdeplasma-addons
@@ -190,6 +193,7 @@ data:
     - killbots
     - kimageannotator-qt6
     - kinfocenter
+    - kio-admin
     - kirigami-gallery
     - kiriki
     - kiten
@@ -227,6 +231,8 @@ data:
     #- kproperty
     #- kqtquickcharts
     - krdc
+    - krdp
+    - krecorder
     #- kreport
     - kreversi
     - krfb
@@ -285,6 +291,8 @@ data:
     - minuet
     - neochat
     - nheko
+    - okular
+    - okular-mobile
     #- okteta
     - oxygen-icon-theme
     - oxygen-sound-theme
@@ -309,6 +317,8 @@ data:
     - plasma-firewall-firewalld
     - plasma-integration
     - plasma-milou
+    - plasma-mobile
+    - plasma-mobile-sounds
     - plasma-nm
     - plasma-nm-fortisslvpn
     - plasma-nm-openswan
@@ -318,11 +328,14 @@ data:
     - plasma-nm-strongswan
     - plasma-pa
     - plasma-pass
+    - plasma-settings
     - plasma-systemmonitor
     - plasma-systemsettings
     - plasma-thunderbolt
+    - plasmatube
     - plasma-vault
     - plasma-wayland-protocols
+    - plasma-welcome
     - plasma-workspace
     - plasma-workspace-geolocation
     - plasma-workspace-wallpapers
@@ -334,6 +347,7 @@ data:
     - qcachegrind
     - qmlkonsole
     - qqc2-breeze-style
+    - qrca
     - qt-creator
     - qt-creator-data
     - qt-creator-doc
@@ -348,12 +362,14 @@ data:
     - signon-kwallet-extension
     - skanlite
     - skladnik
+    - spacebar
     - spectacle
     - step
     - svgpart
     - sweeper
     #- umbrello
     - xdg-desktop-portal-kde
+    - xwaylandvideobridge
     - yakuake
   labels:
     - eln-extras
@@ -383,6 +399,7 @@ data:
       - kdevelop-pg-qt
       - kgpg
       - khelpcenter
+      - kio-gdrive
       - kmail
       - kmail-account-wizard
       - konqueror
@@ -390,6 +407,7 @@ data:
       - korganizer
       - kwebenginepart
       - mbox-importer
+      - merkuro
       - parley
       - pim-data-exporter
       - pim-sieve-editor
@@ -423,6 +441,7 @@ data:
       - kdevelop-pg-qt
       - kgpg
       - khelpcenter
+      - kio-gdrive
       - kmail
       - kmail-account-wizard
       - konqueror
@@ -430,6 +449,7 @@ data:
       - korganizer
       - kwebenginepart
       - mbox-importer
+      - merkuro
       - parley
       - pim-data-exporter
       - pim-sieve-editor
@@ -463,6 +483,7 @@ data:
       - kdevelop-pg-qt
       - kgpg
       - khelpcenter
+      - kio-gdrive
       - kmail
       - kmail-account-wizard
       - konqueror
@@ -470,6 +491,7 @@ data:
       - korganizer
       - kwebenginepart
       - mbox-importer
+      - merkuro
       - parley
       - pim-data-exporter
       - pim-sieve-editor
