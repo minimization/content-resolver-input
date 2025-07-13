@@ -6,25 +6,24 @@ data:
   maintainer: rhel-sst-java
   labels:
     - eln
-    - c10s
   packages:
-    - java-21-openjdk
-    - java-21-openjdk-demo
-    - java-21-openjdk-devel
-    - java-21-openjdk-headless
-    - java-21-openjdk-javadoc
-    - java-21-openjdk-javadoc-zip
-    - java-21-openjdk-jmods
-    - java-21-openjdk-src
-    - java-21-openjdk-static-libs
+    - java-25-openjdk
+    - java-25-openjdk-demo
+    - java-25-openjdk-devel
+    - java-25-openjdk-headless
+    - java-25-openjdk-javadoc
+    - java-25-openjdk-javadoc-zip
+    - java-25-openjdk-jmods
+    - java-25-openjdk-src
+    - java-25-openjdk-static-libs
     # Debug packages should be built but shipped in CRB
-    - java-21-openjdk-slowdebug
-    - java-21-openjdk-demo-slowdebug
-    - java-21-openjdk-devel-slowdebug
-    - java-21-openjdk-headless-slowdebug
-    - java-21-openjdk-jmods-slowdebug
-    - java-21-openjdk-src-slowdebug
-    - java-21-openjdk-static-libs-slowdebug
+    - java-25-openjdk-slowdebug
+    - java-25-openjdk-demo-slowdebug
+    - java-25-openjdk-devel-slowdebug
+    - java-25-openjdk-headless-slowdebug
+    - java-25-openjdk-jmods-slowdebug
+    - java-25-openjdk-src-slowdebug
+    - java-25-openjdk-static-libs-slowdebug
     # Core tool for JDK support work
     - byteman
     - byteman-bmunit
@@ -32,26 +31,26 @@ data:
   # no s390x fastdebug due to build times
   arch_packages:
     aarch64:
-      - java-21-openjdk-fastdebug
-      - java-21-openjdk-demo-fastdebug
-      - java-21-openjdk-devel-fastdebug
-      - java-21-openjdk-headless-fastdebug
-      - java-21-openjdk-jmods-fastdebug
-      - java-21-openjdk-src-fastdebug
-      - java-21-openjdk-static-libs-fastdebug
+      - java-25-openjdk-fastdebug
+      - java-25-openjdk-demo-fastdebug
+      - java-25-openjdk-devel-fastdebug
+      - java-25-openjdk-headless-fastdebug
+      - java-25-openjdk-jmods-fastdebug
+      - java-25-openjdk-src-fastdebug
+      - java-25-openjdk-static-libs-fastdebug
     ppc64le:
-      - java-21-openjdk-fastdebug
-      - java-21-openjdk-demo-fastdebug
-      - java-21-openjdk-devel-fastdebug
-      - java-21-openjdk-headless-fastdebug
-      - java-21-openjdk-jmods-fastdebug
-      - java-21-openjdk-src-fastdebug
-      - java-21-openjdk-static-libs-fastdebug
+      - java-25-openjdk-fastdebug
+      - java-25-openjdk-demo-fastdebug
+      - java-25-openjdk-devel-fastdebug
+      - java-25-openjdk-headless-fastdebug
+      - java-25-openjdk-jmods-fastdebug
+      - java-25-openjdk-src-fastdebug
+      - java-25-openjdk-static-libs-fastdebug
     x86_64:
-      - java-21-openjdk-fastdebug
-      - java-21-openjdk-demo-fastdebug
-      - java-21-openjdk-devel-fastdebug
-      - java-21-openjdk-headless-fastdebug
-      - java-21-openjdk-jmods-fastdebug
-      - java-21-openjdk-src-fastdebug
-      - java-21-openjdk-static-libs-fastdebug
+      - java-25-openjdk-fastdebug
+      - java-25-openjdk-demo-fastdebug
+      - java-25-openjdk-devel-fastdebug
+      - java-25-openjdk-headless-fastdebug
+      - java-25-openjdk-jmods-fastdebug
+      - java-25-openjdk-src-fastdebug
+      - java-25-openjdk-static-libs-fastdebug
