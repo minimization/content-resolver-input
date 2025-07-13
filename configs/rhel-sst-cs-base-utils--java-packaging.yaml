@@ -13,10 +13,8 @@ data:
     - dola-transformer
     - java-srpm-macros
     - javapackages-bootstrap
-    - javapackages-local-openjdk21
     - javapackages-local-openjdk25
     - jurand
-    - maven-local-openjdk21
     - maven-local-openjdk25
   labels:
     - eln
