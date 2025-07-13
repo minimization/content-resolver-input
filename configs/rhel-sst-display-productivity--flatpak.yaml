@@ -9,6 +9,7 @@ data:
     - flatpak
     - flatpak-libs
     - flatpak-builder
+    - flatpak-rpm-macros
     - flatpak-selinux
     - flatpak-session-helper
     - flatpak-spawn
@@ -20,6 +21,18 @@ data:
     - xdg-desktop-portal
     - xdg-desktop-portal-gnome
     - xdg-desktop-portal-gtk
+  # this package contains branding
+  package_placeholders:
+    - srpm_name: flatpak-runtime-config
+      build_dependencies:
+        - python3
+        - python3-rpm-macros
+      rpms:
+        - rpm_name: flatpak-runtime-config
+          description: Configuration files that live inside the flatpak runtime
+          dependencies:
+            - findutils
+            - fontpackages-filesystem
   labels:
     - eln
     - c10s
