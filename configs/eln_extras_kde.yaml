@@ -242,7 +242,6 @@ data:
     - kshisen
     - ksirk
     - ksnakeduel
-    - ksnip
     - kspaceduel
     - ksquares
     - ksshaskpass
@@ -258,8 +257,6 @@ data:
     - kturtle
     - kubrick
     - kuiviewer
-    - kuserfeedback
-    - kuserfeedback-console
     - kwalletmanager5
     - kwave
     - kweather
