@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: secvarctl
+  description: Tool to manage Secure Boot variables on POWER
+  maintainer: rhel-sst-cs-bootloaders
+  packages: []
+  labels:
+    - eln
+    - c10s
+  arch_packages:
+    ppc64le:
+      - secvarctl
