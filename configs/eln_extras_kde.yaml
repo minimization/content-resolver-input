@@ -9,7 +9,7 @@ data:
     #- amarok
     - analitza
     - ark
-    #- artikulate
+    - artikulate
     - atlantik
     - audex
     - audiocd-kio
@@ -23,7 +23,6 @@ data:
     - breeze-icon-theme
     - breeze-icon-theme-rcc
     - calindori
-    #- cervisia
     - colord-kde
     - dolphin
     - dolphin-plugins
@@ -48,7 +47,7 @@ data:
     - kalm
     - kalzium
     - kamera
-    #- kamoso
+    - kamoso
     - kanagram
     - kapman
     - kapptemplate
@@ -187,7 +186,7 @@ data:
     - kgoldrunner
     - kgraphviewer
     - khangman
-    #- kig
+    - kig
     - kigo
     - kile
     - killbots
@@ -229,7 +228,7 @@ data:
     - kpartloader
     - kpmcore
     #- kproperty
-    #- kqtquickcharts
+    - kqtquickcharts
     - krdc
     - krdp
     - krecorder
@@ -251,7 +250,7 @@ data:
     - kteatime
     - ktimer
     - ktorrent
-    #- ktouch
+    - ktouch
     - ktrip
     - ktuberling
     - kturtle
