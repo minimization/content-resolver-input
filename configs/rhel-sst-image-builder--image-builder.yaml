@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Image Builder CLI
+  description: OS image builder leveraging osbuild
+  maintainer: rhel-sst-image-builder
+  labels:
+    - eln
+    - c10s
+  packages:
+    - image-builder
