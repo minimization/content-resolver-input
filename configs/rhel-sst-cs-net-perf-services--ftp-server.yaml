@@ -7,5 +7,4 @@ data:
   packages:
     - vsftpd
   labels:
-    - eln
     - c10s

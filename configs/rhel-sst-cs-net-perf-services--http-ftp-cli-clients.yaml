@@ -5,8 +5,6 @@ data:
   description: Commandline HTTP and FTP client tools
   maintainer: rhel-sst-cs-net-perf-services
   packages:
-    - ftp
-    - lftp
     - wget1
     - wget1-wget
   labels:
