@@ -18,6 +18,8 @@ data:
           description: FIPS module for OpenSSL
           dependencies:
             - coreutils
+    - srpm_name: fips-provider-next
+      rpms:
         - rpm_name: fips-provider-next
           description: Next FIPS module, before it is validated
           dependencies: []
