@@ -18,6 +18,9 @@ data:
           description: FIPS module for OpenSSL
           dependencies:
             - coreutils
+        - rpm_name: fips-provider-next
+          description: Next FIPS module, before it is validated
+          dependencies: []
   labels:
     - eln
     - c10s
