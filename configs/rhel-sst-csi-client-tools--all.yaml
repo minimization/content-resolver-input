@@ -24,7 +24,7 @@ data:
             - gpg
             - pciutils
             - policycoreutils-python-utils
-            - python3-PyYAML
+            - python3-pyyaml
             - python3-requests
             - python3-setuptools
             - python3-six
@@ -44,7 +44,7 @@ data:
           description: rhc-worker-playbook
           dependencies:
             - ansible-core
-            - python3-PyYAML
+            - python3-pyyaml
             - python3-requests
     - srpm_name: redhat-cloud-client-configuration
       rpms:
@@ -53,6 +53,15 @@ data:
           dependencies:
             - subscription-manager
             - systemd
+    - srpm_name: insights-core
+      rpms:
+        - rpm_name: insights-core
+          description: insights-core
+          dependencies:
+            - python3
+            - python3-pyyaml
+            - python3-requests
+            - python3-six
     - srpm_name: insights-core-selinux
       rpms:
         - rpm_name: insights-core-selinux
