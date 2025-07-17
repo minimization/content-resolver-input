@@ -10,43 +10,27 @@ data:
     - c10s
   arch_packages:
     x86_64:
+      - kernel-rt
+      - kernel-rt-core
+      - kernel-rt-modules
+      - kernel-rt-modules-core
+      - kernel-rt-modules-extra
       - tuned-profiles-realtime
       - tuned-profiles-nfv
       - tuned-profiles-nfv-guest
       - tuned-profiles-nfv-host
-  # RHEL-specific subpackages, not available in Fedora
-  package_placeholders:
-    - srpm_name: kernel
-      build_dependencies: []
-      rpms:
-        - rpm_name: kernel-rt
-          dependencies:
-            - realtime-setup
-          limit_arches:
-            - x86_64
-        - rpm_name: kernel-rt-core
-          dependencies:
-            - bash
-            - systemd-udev
-            - coreutils
-            - dracut
-            - linux-firmware
-            - systemd
-          limit_arches:
-            - x86_64
-        - rpm_name: kernel-rt-modules
-          dependencies: []
-          limit_arches:
-            - x86_64
-        - rpm_name: kernel-rt-modules-core
-          dependencies: []
-          limit_arches:
-            - x86_64
-        - rpm_name: kernel-rt-modules-extra
-          dependencies: []
-          limit_arches:
-            - x86_64
-        - rpm_name: kernel-rt-kvm
-          dependencies: []
-          limit_arches:
-            - x86_64
+    aarch64:
+      - kernel-rt-64k
+      - kernel-rt-64k-core
+      - kernel-rt-64k-modules
+      - kernel-rt-64k-modules-core
+      - kernel-rt-64k-modules-extra
+      - kernel-rt
+      - kernel-rt-core
+      - kernel-rt-modules
+      - kernel-rt-modules-core
+      - kernel-rt-modules-extra
+      - tuned-profiles-realtime
+      - tuned-profiles-nfv
+      - tuned-profiles-nfv-guest
+      - tuned-profiles-nfv-host
