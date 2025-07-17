@@ -53,6 +53,14 @@ data:
           dependencies:
             - subscription-manager
             - systemd
+    - srpm_name: insights-core
+      rpms:
+        - rpm_name: insights-core
+          description: insights-core
+            - python3
+            - python3-pyyaml
+            - python3-requests
+            - python3-six
     - srpm_name: insights-core-selinux
       rpms:
         - rpm_name: insights-core-selinux
