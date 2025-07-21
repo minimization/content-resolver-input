@@ -7,6 +7,6 @@ data:
   packages:
     - mailman3
     - python3-mailman-hyperkitty
-    - python3-mailman-web
+    #- python3-mailman-web
   labels:
     - eln-extras
