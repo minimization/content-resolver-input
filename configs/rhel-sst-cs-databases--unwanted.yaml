@@ -15,8 +15,6 @@ data:
     # https://fedoraproject.org/wiki/Changes/AspellDeprecation
     - aspell
     - aspell-devel
-    # Seems like not much wanted
-    - python3-pyodbc
   labels:
     - eln
     - c10s
