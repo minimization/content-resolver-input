@@ -50,7 +50,6 @@ data:
     - plexus-build-api
     - plexus-component-api
     - plexus-i18n
-    - plexus-interactivity
     - plexus-velocity
     - sonatype-oss-parent
     - spec-version-maven-plugin
