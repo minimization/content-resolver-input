@@ -6,13 +6,10 @@ data:
   maintainer: rhel-sst-cs-base-utils
   unwanted_packages:
     - linuxconsoletools
-    - mtools
     - expectk
-    - openwsman-python3
     - openwsman-perl
     - rubygem-openwsman
     - openwsman-winrs
-    - openwsman-client
     - rubygem-openwsman-doc
     - sblim-cmpi-base-test
     - tix-doc
