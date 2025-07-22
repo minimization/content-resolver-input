@@ -97,10 +97,8 @@ data:
         - ocaml-ounit*
         # unwanted python deps
         - python3-anyio
-        - python3-build
         - python3-coverage
         - python3-docs
-        - python3-etcd
         - python3-etcd
         - python3-flask
         - python3-furo
