@@ -21,8 +21,6 @@ data:
     - SFML
     # Only used by some multimedia apps we don't ship
     - libmpcdec
-    # Seems unused
-    - libsamplerate
     # Only used by openal-soft examples, brings in other unwanted deps
     - SDL_sound
   unwanted_packages:
