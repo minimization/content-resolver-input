@@ -20,7 +20,6 @@ data:
     - atlas-z196
     - atlas-z196-devel
     - atlas-z196-static
-    - ed
     - emacs-terminal
     - libnice
     - libnice-devel
