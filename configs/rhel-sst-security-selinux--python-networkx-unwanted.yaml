@@ -52,7 +52,6 @@ data:
   #
   # (optional field)
   unwanted_source_packages:
-    - gdal
     - pydot
     - python-nb2plots
     - python-pygraphviz
