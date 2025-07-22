@@ -25,7 +25,6 @@ data:
     - libcephfs2
     - libcephfs_jni-devel
     - libcephfs_jni1
-    - libradospp-devel
     - libradosstriper-devel
     - libradosstriper1
     - librgw-devel
