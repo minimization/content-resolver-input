@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL extensions
+  description: Server extensions for PostgreSQL
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - pgaudit
+    - pg_repack
+    - pgvector
+    - postgres-decoderbufs
+    - postgis
+  labels:
+    - eln
+    - c10s
