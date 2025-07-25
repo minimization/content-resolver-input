@@ -77,7 +77,6 @@ data:
     - less
     - rsync
     - bind-utils
-    - ftp
     - mtr
     - wget
     - hexedit
