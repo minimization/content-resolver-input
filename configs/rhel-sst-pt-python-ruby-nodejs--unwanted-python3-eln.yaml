@@ -11,9 +11,12 @@ data:
     - python3.12-libs
     - python3.13
     - python3.13-libs
+    # other packages
+    - python3-wheel
   # components for the above
   unwanted_source_packages:
     - python3.12
     - python3.13
+    - python-wheel
   labels:
     - eln
