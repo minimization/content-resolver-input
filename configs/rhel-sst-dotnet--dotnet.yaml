@@ -16,3 +16,38 @@ data:
   labels:
     - eln
     - c10s
+  package_placeholders:
+    # .NET 10 upstream GA is estimated around 2025-11-15
+    - srpm_name: dotnet10.0
+      build_dependencies:
+        - brotli-devel
+        - clang
+        - cmake
+        - git
+        - glibc-langpack-en
+        - hostname
+        - krb5-devel
+        - libicu-devel
+        - lld
+        - lldb
+        - llvm
+        - make
+        - openssl-devel
+        - python3
+        - rapidjson-devel
+        - zlib-ng-compat-devel
+      rpms:
+        - rpm_name: dotnet-targeting-pack-10.0
+        - rpm_name: dotnet-sdk-dbg-10.0
+        - rpm_name: aspnetcore-runtime-10.0
+        - rpm_name: dotnet-host
+        - rpm_name: dotnet-sdk-10.0-source-built-artifacts
+        - rpm_name: dotnet-hostfxr-10.0
+        - rpm_name: aspnetcore-targeting-pack-10.0
+        - rpm_name: netstandard-targeting-pack-2.1
+        - rpm_name: dotnet-runtime-dbg-10.0
+        - rpm_name: dotnet-templates-10.0
+        - rpm_name: aspnetcore-runtime-dbg-10.0
+        - rpm_name: dotnet-runtime-10.0
+        - rpm_name: dotnet-apphost-pack-10.0
+        - rpm_name: dotnet-sdk-10.0
