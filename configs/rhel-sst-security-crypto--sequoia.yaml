@@ -5,6 +5,7 @@ data:
   description: Sequoia implementation of OpenPGP
   maintainer: rhel-sst-security-crypto
   packages:
+    - podman-sequoia
     - rpm-sequoia
     - sequoia-sq
     - sequoia-sqv
