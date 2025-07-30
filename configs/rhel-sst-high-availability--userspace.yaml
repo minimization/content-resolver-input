@@ -193,7 +193,6 @@ data:
         - python3-pyparsing
         - python3-setuptools
         - python3-tornado
-        - python3-wheel
         - ruby
         - ruby-devel
         - rubygem-bundler
