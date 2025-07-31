@@ -96,6 +96,7 @@ data:
         # unwanted ocaml deps
         - ocaml-ounit*
         # unwanted python deps
+        - black
         - python3-anyio
         - python3-coverage
         - python3-docs
