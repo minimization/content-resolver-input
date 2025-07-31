@@ -62,6 +62,7 @@ data:
             - python3-pyyaml
             - python3-requests
             - python3-six
+            - insights-core-selinux
     - srpm_name: insights-core-selinux
       rpms:
         - rpm_name: insights-core-selinux
