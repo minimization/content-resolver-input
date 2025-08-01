@@ -8,6 +8,7 @@ data:
   maintainer: rhel-sst-networking-core
   unwanted_packages:
     - dropwatch
+    - netcat
     - plotnetcfg
   labels:
     - eln
