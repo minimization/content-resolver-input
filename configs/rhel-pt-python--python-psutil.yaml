@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python psutil
   description: A process and system utilities module for Python, included because it's useful both for customers and internal needs, if similar functionality ever gets into the Python standard library, we will reconsider this workload
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   packages:
     - python3-psutil
   labels:

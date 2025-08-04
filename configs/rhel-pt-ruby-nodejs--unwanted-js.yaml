@@ -1,0 +1,12 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted packages from PT Ruby Node.js
+  description: Packages we do not want to ship for PT Ruby Node.js
+  maintainer: rhel-pt-ruby-nodejs
+  unwanted_packages:
+    - js-uglify
+    - web-assets-devel
+  labels:
+    - eln
+    - c10s

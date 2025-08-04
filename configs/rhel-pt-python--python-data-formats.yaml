@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python parsers
   description: Python packages for parsing common data formats
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   packages:
     - python3-lxml
     - python3-pyyaml

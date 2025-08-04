@@ -3,7 +3,7 @@ version: 1
 data:
   name: Node.js runtime – default stream
   description: Node.js (Javascript) runtime and NPM installer for application development
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-ruby-nodejs
   packages:
     - nodejs
     - nodejs-devel

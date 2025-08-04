@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python next version
   description: Next version of Python interpreter
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   packages:
     # Each 3.Y version of Python is built as its own source package, with 
     # the default version providing python3- rather than python3.Y- 
