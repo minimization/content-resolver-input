@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted Python 3 packages
   description: Packages we do not want to ship for Python 3
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   unwanted_packages:
     # The "other" Python versions might accidentally be pulled in by not yet rebuilt packages
     # They are also Recommended by tox and hence pulled in as weak dependencies

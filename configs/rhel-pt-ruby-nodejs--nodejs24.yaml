@@ -3,7 +3,7 @@ version: 1
 data:
   name: Node.js 24 runtime – alternative stream
   description: Node.js 24 (Javascript) runtime and NPM installer for application development
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-ruby-nodejs
   packages:
     - nodejs24
     - nodejs24-npm

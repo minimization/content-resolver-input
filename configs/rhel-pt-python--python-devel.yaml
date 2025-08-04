@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python development packages
   description: Packages needed to build Python RPM packages
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   packages:
     - python3-devel
     - python3-rpm-generators

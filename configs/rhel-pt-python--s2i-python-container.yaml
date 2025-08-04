@@ -3,7 +3,7 @@ version: 1
 data:
   name: Python container packages (ACG4)
   description: Python packages supported for use in the s2i-python-container (ACG4)
-  maintainer: rhel-sst-pt-python-ruby-nodejs
+  maintainer: rhel-pt-python
   packages:
     - micropipenv
   labels:
