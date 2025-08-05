@@ -1,0 +1,96 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL Image Azure CVM
+  description: Packages in the RHEL Image Azure CVM
+  maintainer: tdawson@redhat.com
+  architectures:
+    - x86_64
+  packages:
+    - NetworkManager
+    - NetworkManager-tui
+    - amd-gpu-firmware
+    - audit
+    - authselect
+    - basesystem
+    - bash
+    - coreutils
+    - cronie
+    - crypto-policies
+    - crypto-policies-scripts
+    - curl
+    - dnf
+    - dnf-plugins-core
+    - e2fsprogs
+    - filesystem
+    - firewalld
+    - glibc
+    - hostname
+    - initscripts-rename-device
+    - insights-client
+    - intel-gpu-firmware
+    - iproute
+    - iproute-tc
+    - iputils
+    - irqbalance
+    - kbd
+    - kernel-tools
+    - kexec-tools
+    - less
+    - libsysfs
+    - logrotate
+    - lshw
+    - lsscsi
+    - man-db
+    - microcode_ctl
+    - ncurses
+    - nvidia-gpu-firmware
+    - openssh-clients
+    - openssh-server
+    - p11-kit
+    - parted
+    - policycoreutils
+    - prefixdevname
+    - procps-ng
+    - python3-libselinux
+    - rhc
+    - rootfiles
+    - rpm
+    - rpm-plugin-audit
+    - rsyslog
+    - selinux-policy-targeted
+    - setup
+    - sg3_utils
+    - sg3_utils-libs
+    - shadow-utils
+    - sssd-common
+    - sssd-kcm
+    - sudo
+    - systemd
+    - util-linux
+    - vim-minimal
+    - xfsprogs
+    - yum
+    - NetworkManager-cloud-setup
+    - WALinuxAgent
+    - chrony
+    - cloud-init
+    - cloud-utils-growpart
+    - cryptsetup
+    - dnf
+    - dosfstools
+    - e2fsprogs
+    - efibootmgr
+    - kernel-uki-virt
+    - kernel-uki-virt-addons
+    - openssh-server
+    - python3-dnf-plugin-versionlock
+    - redhat-cloud-client-configuration
+    - redhat-release
+    - selinux-policy-targeted
+    - shim-x64
+    - tpm2-tools
+    - uki-direct
+  labels:
+    - eln
+    - c10s
