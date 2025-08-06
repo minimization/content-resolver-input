@@ -6,6 +6,9 @@ data:
   maintainer: tdawson@redhat.com
   architectures:
     - x86_64
+  labels:
+    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-tui
@@ -91,6 +94,3 @@ data:
     - shim-x64
     - tpm2-tools
     - uki-direct
-  labels:
-    - eln
-    - c10s

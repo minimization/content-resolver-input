@@ -7,6 +7,9 @@ data:
   architectures:
     - aarch64
     - x86_64
+  labels:
+    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-tui
@@ -34,8 +37,6 @@ data:
     - iproute-tc
     - iputils
     - irqbalance
-    - iwlwifi-dvm-firmware
-    - iwlwifi-mvm-firmware
     - kbd
     - kernel-tools
     - kexec-tools
@@ -46,7 +47,6 @@ data:
     - lshw
     - lsscsi
     - man-db
-    - microcode_ctl
     - ncurses
     - nvidia-gpu-firmware
     - openssh-clients
@@ -84,8 +84,6 @@ data:
     - dracut-config-generic
     - efibootmgr
     - grub2
-    - grub2-efi-x64
-    - grub2-pc
     - insights-client
     - kernel
     - langpacks-en
@@ -93,12 +91,20 @@ data:
     - redhat-release-eula
     - rsync
     - selinux-policy-targeted
-    - shim-x64
     - system-reinstall-bootc
     - tar
     - tuned
     - xfsprogs
     - yum-utils
-  labels:
-    - eln
-    - c10s
+  arch_packages:
+    aarch64:
+      - grub2-efi-aa64
+      - grub2-tools
+      - shim-aa64
+    x86_64:
+      - grub2-efi-x64
+      - grub2-pc
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
+      - microcode_ctl
+      - shim-x64

@@ -7,6 +7,9 @@ data:
   architectures:
     - aarch64
     - x86_64
+  labels:
+    - eln
+    - c10s
   packages:
     - alternatives
     - audit-libs
@@ -52,6 +55,3 @@ data:
     - util-linux
     - vim-minimal
     - yum
-  labels:
-    - eln
-    - c10s
