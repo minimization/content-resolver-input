@@ -6,6 +6,9 @@ data:
   maintainer: tdawson@redhat.com
   architectures:
     - x86_64
+  labels:
+    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-tui
@@ -101,6 +104,3 @@ data:
     - tuned
     - xfsprogs
     - yum-utils
-  labels:
-    - eln
-    - c10s

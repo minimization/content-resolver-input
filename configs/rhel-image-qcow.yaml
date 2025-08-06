@@ -4,6 +4,9 @@ data:
   name: RHEL Image qcow2
   description: Packages in the RHEL Image qcow2
   maintainer: tdawson@redhat.com
+  labels:
+    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-tui
@@ -30,9 +33,6 @@ data:
     - iproute
     - iproute-tc
     - iputils
-    - irqbalance
-    - iwlwifi-dvm-firmware
-    - iwlwifi-mvm-firmware
     - kbd
     - kernel-tools
     - kexec-tools
@@ -43,7 +43,6 @@ data:
     - lshw
     - lsscsi
     - man-db
-    - microcode_ctl
     - ncurses
     - nvidia-gpu-firmware
     - openssh-clients
@@ -78,11 +77,8 @@ data:
     - cockpit-system
     - cockpit-ws
     - dnf-utils
-    - dosfstools
     - dracut-config-generic
     - efibootmgr
-    - grub2-efi-x64
-    - grub2-pc
     - insights-client
     - kernel
     - nfs-utils
@@ -95,12 +91,38 @@ data:
     - redhat-release-eula
     - rsync
     - selinux-policy-targeted
-    - shim-x64
     - subscription-manager-cockpit
     - tar
     - tcpdump
     - tuned
     - xfsprogs
-  labels:
-    - eln
-    - c10s
+  arch_packages:
+    aarch64:
+      - dosfstools
+      - efibootmgr
+      - grub2-efi-aa64
+      - grub2-tools
+      - irqbalance
+      - shim-aa64
+    ppc64le:
+      - dosfstools
+      - grub2-ppc64le
+      - grub2-ppc64le-modules
+      - irqbalance
+      - lsvpd
+      - powerpc-utils
+      - powerpc-utils-core
+      - ppc64-diag-rtas
+    s390x:
+      - s390utils-base
+      - s390utils-core
+    x86_64:
+      - dosfstools
+      - efibootmgr
+      - grub2-efi-x64
+      - grub2-pc
+      - irqbalance
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
+      - microcode_ctl
+      - shim-x64

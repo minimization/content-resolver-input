@@ -7,6 +7,9 @@ data:
   architectures:
     - aarch64
     - x86_64
+  labels:
+    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-cloud-setup
@@ -58,11 +61,8 @@ data:
     - ethtool
     - file
     - filesystem
-    - fprintd-pam
     - glibc
     - gnupg2
-    - grub2-efi-x64
-    - grub2-pc
     - grubby
     - hostname
     - hyperv-daemons
@@ -73,8 +73,6 @@ data:
     - iproute-tc
     - iputils
     - irqbalance
-    - iwlwifi-dvm-firmware
-    - iwlwifi-mvm-firmware
     - kbd
     - kernel
     - kernel-core
@@ -98,9 +96,7 @@ data:
     - mailcap
     - man-db
     - man-pages
-    - mcelog
     - mdadm
-    - microcode_ctl
     - mtr
     - nano
     - ncurses
@@ -141,7 +137,6 @@ data:
     - sg3_utils
     - sg3_utils-libs
     - shadow-utils
-    - shim-x64
     - smartmontools
     - sos
     - sscg
@@ -174,6 +169,17 @@ data:
     - yum
     - yum-utils
     - zip
-  labels:
-    - eln
-    - c10s
+  arch_packages:
+    aarch64:
+      - grub2-efi-aa64
+      - grub2-tools
+      - shim-aa64
+    x86_64:
+      - fprintd-pam
+      - grub2-efi-x64
+      - grub2-pc
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
+      - mcelog
+      - microcode_ctl
+      - shim-x64
