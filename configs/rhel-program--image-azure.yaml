@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL Image Azure
   description: Packages in the RHEL Image Azure
-  maintainer: tdawson@redhat.com
+  maintainer: bstinson
   labels:
     - eln
     - c10s

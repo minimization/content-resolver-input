@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL Image WSL
   description: Packages in the RHEL Image WSL
-  maintainer: tdawson@redhat.com
+  maintainer: bstinson
   labels:
     - eln
     - c10s

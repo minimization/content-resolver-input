@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL Image EC2 HA
   description: Packages in the RHEL Image EC2 HA
-  maintainer: tdawson@redhat.com
+  maintainer: bstinson
   labels:
     - eln
     - c10s

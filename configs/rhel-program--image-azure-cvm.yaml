@@ -3,7 +3,7 @@ version: 1
 data:
   name: RHEL Image Azure CVM
   description: Packages in the RHEL Image Azure CVM
-  maintainer: tdawson@redhat.com
+  maintainer: bstinson
   labels:
     - eln
     - c10s
