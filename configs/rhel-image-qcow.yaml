@@ -92,6 +92,7 @@ data:
     - rsync
     - selinux-policy-targeted
     - subscription-manager-cockpit
+    - system-reinstall-bootc
     - tar
     - tcpdump
     - tuned

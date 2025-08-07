@@ -28,10 +28,8 @@ data:
       - cryptsetup
       - curl
       - dnf
-      - dnf
       - dnf-plugins-core
       - dosfstools
-      - e2fsprogs
       - e2fsprogs
       - efibootmgr
       - filesystem
@@ -61,7 +59,6 @@ data:
       - nvidia-gpu-firmware
       - openssh-clients
       - openssh-server
-      - openssh-server
       - p11-kit
       - parted
       - policycoreutils
@@ -77,7 +74,6 @@ data:
       - rpm-plugin-audit
       - rsyslog
       - selinux-policy-targeted
-      - selinux-policy-targeted
       - setup
       - sg3_utils
       - sg3_utils-libs
@@ -86,6 +82,7 @@ data:
       - sssd-common
       - sssd-kcm
       - sudo
+      - system-reinstall-bootc
       - systemd
       - tpm2-tools
       - uki-direct
