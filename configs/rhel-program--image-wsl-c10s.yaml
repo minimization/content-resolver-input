@@ -5,7 +5,7 @@ data:
   description: Packages in the RHEL Image WSL
   maintainer: bstinson
   labels:
-    - eln
+    - c10s
   arch_packages:
     aarch64:
         - alternatives
@@ -18,7 +18,7 @@ data:
         - crypto-policies-scripts
         - curl-minimal
         - dejavu-sans-fonts
-        - dnf5
+        - dnf
         - filesystem
         - findutils
         - gdb-gdbserver
@@ -51,6 +51,7 @@ data:
         - tzdata
         - util-linux
         - vim-minimal
+        - yum
     x86_64:
         - alternatives
         - audit-libs
@@ -62,7 +63,7 @@ data:
         - crypto-policies-scripts
         - curl-minimal
         - dejavu-sans-fonts
-        - dnf5
+        - dnf
         - filesystem
         - findutils
         - gdb-gdbserver
@@ -95,3 +96,4 @@ data:
         - tzdata
         - util-linux
         - vim-minimal
+        - yum

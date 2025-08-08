@@ -6,7 +6,6 @@ data:
   maintainer: bstinson
   labels:
     - eln
-    - c10s
   arch_packages:
     x86_64:
       - NetworkManager
@@ -26,8 +25,9 @@ data:
       - crypto-policies-scripts
       - curl
       - dhcpcd
-      - dnf
-      - dnf-plugins-core
+      - dnf5
+      - dnf5-plugins
+      - dnf-utils
       - dosfstools
       - dracut-config-generic
       - e2fsprogs
@@ -99,5 +99,3 @@ data:
       - vim-minimal
       - xfsprogs
       - xfsprogs
-      - yum
-      - yum-utils

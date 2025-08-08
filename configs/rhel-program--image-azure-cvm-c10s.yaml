@@ -5,7 +5,7 @@ data:
   description: Packages in the RHEL Image Azure CVM
   maintainer: bstinson
   labels:
-    - eln
+    - c10s
   arch_packages:
     x86_64:
       - NetworkManager
@@ -26,8 +26,8 @@ data:
       - crypto-policies-scripts
       - cryptsetup
       - curl
-      - dnf5
-      - dnf5-plugins
+      - dnf
+      - dnf-plugins-core
       - dosfstools
       - e2fsprogs
       - efibootmgr
@@ -88,3 +88,4 @@ data:
       - util-linux
       - vim-minimal
       - xfsprogs
+      - yum

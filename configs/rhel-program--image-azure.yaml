@@ -6,7 +6,6 @@ data:
   maintainer: bstinson
   labels:
     - eln
-    - c10s
   arch_packages:
     aarch64:
       - NetworkManager
@@ -48,8 +47,9 @@ data:
       - curl
       - cyrus-sasl-plain
       - dbus
-      - dnf
-      - dnf-plugins-core
+      - dnf5
+      - dnf5-plugins
+      - dnf-utils
       - dos2unix
       - dosfstools
       - dracut-config-generic
@@ -167,11 +167,8 @@ data:
       - words
       - xfsdump
       - xfsprogs
-      - yum
-      - yum-utils
       - zip
     x86_64:
-
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
@@ -211,8 +208,9 @@ data:
       - curl
       - cyrus-sasl-plain
       - dbus
-      - dnf
-      - dnf-plugins-core
+      - dnf5
+      - dnf5-plugins
+      - dnf-utils
       - dos2unix
       - dosfstools
       - dracut-config-generic
@@ -335,6 +333,4 @@ data:
       - words
       - xfsdump
       - xfsprogs
-      - yum
-      - yum-utils
       - zip
