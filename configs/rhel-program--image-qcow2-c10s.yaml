@@ -5,7 +5,7 @@ data:
   description: Packages in the RHEL Image qcow2
   maintainer: bstinson
   labels:
-    - eln
+    - c10s
   packages:
     - NetworkManager
     - NetworkManager-tui
@@ -24,8 +24,8 @@ data:
     - crypto-policies
     - crypto-policies-scripts
     - curl
-    - dnf5
-    - dnf5-plugins
+    - dnf
+    - dnf-plugins-core
     - dnf-utils
     - dracut-config-generic
     - e2fsprogs

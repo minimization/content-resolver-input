@@ -1,17 +1,16 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: RHEL Image Azure CVM
-  description: Packages in the RHEL Image Azure CVM
+  name: RHEL Image EC2 HA
+  description: Packages in the RHEL Image EC2 HA
   maintainer: bstinson
   labels:
-    - eln
+    - c10s
   arch_packages:
     x86_64:
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
-      - WALinuxAgent
       - amd-gpu-firmware
       - audit
       - authselect
@@ -24,16 +23,21 @@ data:
       - cronie
       - crypto-policies
       - crypto-policies-scripts
-      - cryptsetup
       - curl
-      - dnf5
-      - dnf5-plugins
+      - dhcpcd
+      - dnf
+      - dnf-plugins-core
       - dosfstools
+      - dracut-config-generic
       - e2fsprogs
       - efibootmgr
+      - fence-agents-all
       - filesystem
-      - firewalld
       - glibc
+      - grub2
+      - grub2-efi-x64
+      - grub2-pc
+      - grubby
       - hostname
       - initscripts-rename-device
       - insights-client
@@ -42,13 +46,16 @@ data:
       - iproute-tc
       - iputils
       - irqbalance
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
       - kbd
+      - kernel
       - kernel-tools
-      - kernel-uki-virt
-      - kernel-uki-virt-addons
       - kexec-tools
+      - langpacks-en
       - less
       - libsysfs
+      - linux-firmware
       - logrotate
       - lshw
       - lsscsi
@@ -59,18 +66,20 @@ data:
       - openssh-clients
       - openssh-server
       - p11-kit
+      - pacemaker
       - parted
+      - pcs
       - policycoreutils
       - prefixdevname
       - procps-ng
-      - python3-dnf-plugin-versionlock
       - python3-libselinux
-      - redhat-cloud-client-configuration
       - redhat-release
+      - redhat-release-eula
       - rhc
       - rootfiles
       - rpm
       - rpm-plugin-audit
+      - rsync
       - rsyslog
       - selinux-policy-targeted
       - setup
@@ -83,8 +92,11 @@ data:
       - sudo
       - system-reinstall-bootc
       - systemd
-      - tpm2-tools
-      - uki-direct
+      - tar
+      - tuned
       - util-linux
       - vim-minimal
       - xfsprogs
+      - xfsprogs
+      - yum
+      - yum-utils
