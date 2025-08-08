@@ -3,7 +3,7 @@ version: 1
 data:
   name: Unwanted packages for JMC
   description: Packages we do not want to ship for JMC
-  maintainer: rhel-sst-java
+  maintainer: rhel-java
   unwanted_source_packages:
     - jmc-core
     - jmc

@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: OpenJDK
+  name: OpenJDK 21
   description: OpenJDK and the Java Platform
-  maintainer: rhel-sst-java
+  maintainer: rhel-java
   labels:
     - c10s
   packages:
@@ -24,10 +24,6 @@ data:
     - java-21-openjdk-jmods-slowdebug
     - java-21-openjdk-src-slowdebug
     - java-21-openjdk-static-libs-slowdebug
-    # Core tool for JDK support work
-    - byteman
-    - byteman-bmunit
-    - byteman-javadoc
   # no s390x fastdebug due to build times
   arch_packages:
     aarch64:

@@ -3,7 +3,7 @@ version: 1
 data:
   name: OpenJDK Unwanted Packages
   description: Packages that OpenJDK maintainers do not wish to maintain in RHEL 9
-  maintainer: rhel-sst-java
+  maintainer: rhel-java
   labels:
     - eln
     - c10s
