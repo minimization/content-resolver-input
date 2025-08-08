@@ -6,6 +6,7 @@ data:
   maintainer: rhel-java
   labels:
     - eln
+    - c10s
   packages:
     - java-25-openjdk
     - java-25-openjdk-demo
