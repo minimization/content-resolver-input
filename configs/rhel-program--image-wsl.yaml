@@ -1,0 +1,97 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL Image WSL
+  description: Packages in the RHEL Image WSL
+  maintainer: bstinson
+  labels:
+    - eln
+  arch_packages:
+    aarch64:
+        - alternatives
+        - audit-libs
+        - basesystem
+        - bash
+        - ca-certificates
+        - cloud-init
+        - coreutils-single
+        - crypto-policies-scripts
+        - curl-minimal
+        - dejavu-sans-fonts
+        - dnf5
+        - filesystem
+        - findutils
+        - gdb-gdbserver
+        - glibc-minimal-langpack
+        - gmp
+        - gnupg2
+        - gobject-introspection
+        - hostname
+        - langpacks-en
+        - libcurl-minimal
+        - openssh-server
+        - openssl
+        - pam
+        - passwd
+        - procps-ng
+        - python3
+        - python3-inotify
+        - redhat-logos
+        - redhat-release
+        - rootfiles
+        - rpm
+        - sed
+        - setup
+        - shadow-utils
+        - subscription-manager
+        - sudo
+        - systemd
+        - tar
+        - tpm2-tss
+        - tzdata
+        - util-linux
+        - vim-minimal
+    x86_64:
+        - alternatives
+        - audit-libs
+        - basesystem
+        - bash
+        - ca-certificates
+        - cloud-init
+        - coreutils-single
+        - crypto-policies-scripts
+        - curl-minimal
+        - dejavu-sans-fonts
+        - dnf5
+        - filesystem
+        - findutils
+        - gdb-gdbserver
+        - glibc-minimal-langpack
+        - gmp
+        - gnupg2
+        - gobject-introspection
+        - hostname
+        - langpacks-en
+        - libcurl-minimal
+        - openssh-server
+        - openssl
+        - pam
+        - passwd
+        - procps-ng
+        - python3
+        - python3-inotify
+        - redhat-logos
+        - redhat-release
+        - rootfiles
+        - rpm
+        - sed
+        - setup
+        - shadow-utils
+        - subscription-manager
+        - sudo
+        - systemd
+        - tar
+        - tpm2-tss
+        - tzdata
+        - util-linux
+        - vim-minimal
