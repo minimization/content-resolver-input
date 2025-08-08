@@ -1,9 +1,9 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: OpenJDK
+  name: OpenJDK 25
   description: OpenJDK and the Java Platform
-  maintainer: rhel-sst-java
+  maintainer: rhel-java
   labels:
     - eln
   packages:
@@ -24,10 +24,6 @@ data:
     - java-25-openjdk-jmods-slowdebug
     - java-25-openjdk-src-slowdebug
     - java-25-openjdk-static-libs-slowdebug
-    # Core tool for JDK support work
-    - byteman
-    - byteman-bmunit
-    - byteman-javadoc
   # no s390x fastdebug due to build times
   arch_packages:
     aarch64:

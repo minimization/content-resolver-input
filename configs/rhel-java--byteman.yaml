@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Byteman
+  description: Java debugging tools
+  maintainer: rhel-java
+  labels:
+    - eln
+    - c10s
+  packages:
+    - byteman
+    - byteman-bmunit
+    - byteman-javadoc
