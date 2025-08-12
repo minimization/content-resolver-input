@@ -1,0 +1,126 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL Image qcow2
+  description: Packages in the RHEL Image qcow2
+  maintainer: bstinson
+  labels:
+    - c10s
+  packages:
+    - NetworkManager
+    - NetworkManager-tui
+    - amd-gpu-firmware
+    - audit
+    - authselect
+    - basesystem
+    - bash
+    - chrony
+    - cloud-init
+    - cloud-utils-growpart
+    - cockpit-system
+    - cockpit-ws
+    - coreutils
+    - cronie
+    - crypto-policies
+    - crypto-policies-scripts
+    - curl
+    - dnf
+    - dnf-plugins-core
+    - dnf-utils
+    - dracut-config-generic
+    - e2fsprogs
+    - efibootmgr
+    - filesystem
+    - glibc
+    - grubby
+    - hostname
+    - initscripts-rename-device
+    - insights-client
+    - intel-gpu-firmware
+    - iproute
+    - iproute-tc
+    - iputils
+    - kbd
+    - kernel
+    - kernel-tools
+    - kexec-tools
+    - less
+    - libsysfs
+    - linux-firmware
+    - logrotate
+    - lshw
+    - lsscsi
+    - man-db
+    - ncurses
+    - nfs-utils
+    - nvidia-gpu-firmware
+    - oddjob
+    - oddjob-mkhomedir
+    - openssh-clients
+    - openssh-server
+    - p11-kit
+    - parted
+    - policycoreutils
+    - prefixdevname
+    - procps-ng
+    - psmisc
+    - python3-jsonschema
+    - python3-libselinux
+    - qemu-guest-agent
+    - redhat-release
+    - redhat-release-eula
+    - rhc
+    - rootfiles
+    - rpm
+    - rpm-plugin-audit
+    - rsync
+    - rsyslog
+    - selinux-policy-targeted
+    - setup
+    - sg3_utils
+    - sg3_utils-libs
+    - shadow-utils
+    - sssd-common
+    - sssd-kcm
+    - subscription-manager-cockpit
+    - sudo
+    - system-reinstall-bootc
+    - systemd
+    - tar
+    - tcpdump
+    - tuned
+    - util-linux
+    - vim-minimal
+    - xfsprogs
+    - xfsprogs
+    - yum
+  arch_packages:
+    aarch64:
+      - dosfstools
+      - efibootmgr
+      - grub2-efi-aa64
+      - grub2-tools
+      - irqbalance
+      - shim-aa64
+    ppc64le:
+      - dosfstools
+      - grub2-ppc64le
+      - grub2-ppc64le-modules
+      - irqbalance
+      - lsvpd
+      - powerpc-utils
+      - powerpc-utils-core
+      - ppc64-diag-rtas
+    s390x:
+      - s390utils-base
+      - s390utils-core
+    x86_64:
+      - dosfstools
+      - efibootmgr
+      - grub2-efi-x64
+      - grub2-pc
+      - irqbalance
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
+      - microcode_ctl
+      - shim-x64

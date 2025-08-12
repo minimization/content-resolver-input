@@ -1,0 +1,91 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL Image Azure CVM
+  description: Packages in the RHEL Image Azure CVM
+  maintainer: bstinson
+  labels:
+    - c10s
+  arch_packages:
+    x86_64:
+      - NetworkManager
+      - NetworkManager-cloud-setup
+      - NetworkManager-tui
+      - WALinuxAgent
+      - amd-gpu-firmware
+      - audit
+      - authselect
+      - basesystem
+      - bash
+      - chrony
+      - cloud-init
+      - cloud-utils-growpart
+      - coreutils
+      - cronie
+      - crypto-policies
+      - crypto-policies-scripts
+      - cryptsetup
+      - curl
+      - dnf
+      - dnf-plugins-core
+      - dosfstools
+      - e2fsprogs
+      - efibootmgr
+      - filesystem
+      - firewalld
+      - glibc
+      - hostname
+      - initscripts-rename-device
+      - insights-client
+      - intel-gpu-firmware
+      - iproute
+      - iproute-tc
+      - iputils
+      - irqbalance
+      - kbd
+      - kernel-tools
+      - kernel-uki-virt
+      - kernel-uki-virt-addons
+      - kexec-tools
+      - less
+      - libsysfs
+      - logrotate
+      - lshw
+      - lsscsi
+      - man-db
+      - microcode_ctl
+      - ncurses
+      - nvidia-gpu-firmware
+      - openssh-clients
+      - openssh-server
+      - p11-kit
+      - parted
+      - policycoreutils
+      - prefixdevname
+      - procps-ng
+      - python3-dnf-plugin-versionlock
+      - python3-libselinux
+      # redhat-cloud-client-configuration
+      - redhat-release
+      - rhc
+      - rootfiles
+      - rpm
+      - rpm-plugin-audit
+      - rsyslog
+      - selinux-policy-targeted
+      - setup
+      - sg3_utils
+      - sg3_utils-libs
+      - shadow-utils
+      - shim-x64
+      - sssd-common
+      - sssd-kcm
+      - sudo
+      - system-reinstall-bootc
+      - systemd
+      - tpm2-tools
+      - uki-direct
+      - util-linux
+      - vim-minimal
+      - xfsprogs
+      - yum
