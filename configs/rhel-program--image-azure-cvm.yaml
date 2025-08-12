@@ -36,7 +36,7 @@ data:
       - glibc
       - hostname
       - initscripts-rename-device
-      - insights-client
+      # insights-client
       - intel-gpu-firmware
       - iproute
       - iproute-tc
@@ -65,7 +65,7 @@ data:
       - procps-ng
       - python3-dnf-plugin-versionlock
       - python3-libselinux
-      - redhat-cloud-client-configuration
+      # redhat-cloud-client-configuration
       - redhat-release
       - rhc
       - rootfiles

@@ -67,7 +67,7 @@ data:
       - hostname
       - hyperv-daemons
       - initscripts-rename-device
-      - insights-client
+      # insights-client
       - intel-gpu-firmware
       - iproute
       - iproute-tc
@@ -229,7 +229,7 @@ data:
       - hostname
       - hyperv-daemons
       - initscripts-rename-device
-      - insights-client
+      # insights-client
       - intel-gpu-firmware
       - iproute
       - iproute-tc

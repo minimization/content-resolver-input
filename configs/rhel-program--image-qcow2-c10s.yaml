@@ -36,7 +36,6 @@ data:
     - hostname
     - initscripts-rename-device
     - insights-client
-    - insights-client
     - intel-gpu-firmware
     - iproute
     - iproute-tc
@@ -76,7 +75,6 @@ data:
     - rpm-plugin-audit
     - rsync
     - rsyslog
-    - selinux-policy-targeted
     - selinux-policy-targeted
     - setup
     - sg3_utils

@@ -41,7 +41,7 @@ data:
       - grubby
       - hostname
       - initscripts-rename-device
-      - insights-client
+      # insights-client
       - intel-gpu-firmware
       - iproute
       - iproute-tc
