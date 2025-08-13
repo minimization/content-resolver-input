@@ -67,7 +67,7 @@ data:
       - python3-libselinux
       # redhat-cloud-client-configuration
       - redhat-release
-      - rhc
+      # rhc
       - rootfiles
       - rpm
       - rpm-plugin-audit

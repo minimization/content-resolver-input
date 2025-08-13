@@ -70,8 +70,8 @@ data:
       - procps-ng
       - python3-libselinux
       - redhat-release
-      - redhat-release-eula
-      - rhc
+      # redhat-release-eula
+      # rhc
       - rootfiles
       - rpm
       - rpm-plugin-audit
@@ -158,8 +158,8 @@ data:
       - procps-ng
       - python3-libselinux
       - redhat-release
-      - redhat-release-eula
-      - rhc
+      # redhat-release-eula
+      # rhc
       - rootfiles
       - rpm
       - rpm-plugin-audit

@@ -79,8 +79,8 @@ data:
       - kernel-modules
       - kernel-tools
       - kexec-tools
-      - kpatch
-      - kpatch-dnf
+      # kpatch
+      # kpatch-dnf
       - langpacks-en
       - ledmon
       - less
@@ -121,8 +121,8 @@ data:
       - quota
       - realmd
       - redhat-release
-      - redhat-release-eula
-      - rhc
+      # redhat-release-eula
+      # rhc
       - rng-tools
       - rootfiles
       - rpm
@@ -243,8 +243,8 @@ data:
       - kernel-modules
       - kernel-tools
       - kexec-tools
-      - kpatch
-      - kpatch-dnf
+      # kpatch
+      # kpatch-dnf
       - langpacks-en
       - ledmon
       - less
@@ -287,8 +287,8 @@ data:
       - quota
       - realmd
       - redhat-release
-      - redhat-release-eula
-      - rhc
+      # redhat-release-eula
+      # rhc
       - rng-tools
       - rootfiles
       - rpm

@@ -29,7 +29,6 @@ data:
     - dnf-utils
     - dracut-config-generic
     - e2fsprogs
-    - efibootmgr
     - filesystem
     - glibc
     - grubby
@@ -68,8 +67,8 @@ data:
     - python3-libselinux
     - qemu-guest-agent
     - redhat-release
-    - redhat-release-eula
-    - rhc
+    # redhat-release-eula
+    # rhc
     - rootfiles
     - rpm
     - rpm-plugin-audit
