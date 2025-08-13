@@ -29,7 +29,6 @@ data:
     - dnf-utils
     - dracut-config-generic
     - e2fsprogs
-    - efibootmgr
     - filesystem
     - glibc
     - grubby
