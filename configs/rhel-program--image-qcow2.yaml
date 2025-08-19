@@ -26,7 +26,6 @@ data:
     - curl
     - dnf5
     - dnf5-plugins
-    - dnf-utils
     - dracut-config-generic
     - e2fsprogs
     - filesystem

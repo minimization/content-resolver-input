@@ -28,6 +28,7 @@ data:
       - dhcpcd
       - dnf
       - dnf-plugins-core
+      - dnf-utils
       - dosfstools
       - dracut-config-generic
       - e2fsprogs
@@ -114,6 +115,7 @@ data:
       - dhcpcd
       - dnf
       - dnf-plugins-core
+      - dnf-utils
       - dosfstools
       - dracut-config-generic
       - e2fsprogs

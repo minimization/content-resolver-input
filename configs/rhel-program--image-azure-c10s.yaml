@@ -49,6 +49,7 @@ data:
       - dbus
       - dnf
       - dnf-plugins-core
+      - dnf-utils
       - dos2unix
       - dosfstools
       - dracut-config-generic
@@ -211,6 +212,7 @@ data:
       - dbus
       - dnf
       - dnf-plugins-core
+      - dnf-utils
       - dos2unix
       - dosfstools
       - dracut-config-generic
