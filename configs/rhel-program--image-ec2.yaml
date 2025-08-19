@@ -6,7 +6,7 @@ data:
   maintainer: bstinson
   labels:
     - eln
-  packages:
+  packages: []
   arch_packages:
     aarch64:
       - NetworkManager
