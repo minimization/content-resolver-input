@@ -28,6 +28,7 @@ data:
       - curl
       - dnf
       - dnf-plugins-core
+      - dnf-utils
       - dosfstools
       - e2fsprogs
       - efibootmgr

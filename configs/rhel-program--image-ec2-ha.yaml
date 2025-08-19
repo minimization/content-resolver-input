@@ -27,7 +27,6 @@ data:
       - dhcpcd
       - dnf5
       - dnf5-plugins
-      - dnf-utils
       - dosfstools
       - dracut-config-generic
       - e2fsprogs
