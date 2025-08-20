@@ -18,7 +18,7 @@ data:
     # libicu.  At that point, CR will continue to handle the compat package 
     # normally until all dependents have been updated for the new libicu 
     # version, at which point the compat package will drop out of ELN.
-    - 'libicudata.so.76()(64bit)'
+    - 'libicudata.so.77()(64bit)'
   labels:
     - eln
     # cNs stays on a single ICU version once branched
