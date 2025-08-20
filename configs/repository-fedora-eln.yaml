@@ -170,6 +170,10 @@ data:
         - python3-simpleaudio
         # unwanted (and rarely used) build dep, pulls in hundreds of Perl deps
         - licensecheck
+        # golang module packages are obsolete and unwanted
+        - golang-*-devel
+        # needs further pruning before inclusion in RHEL
+        - go-vendor-tools*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
