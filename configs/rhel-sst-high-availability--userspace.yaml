@@ -15,6 +15,9 @@ data:
     - corosync-qnetd
     - corosynclib-devel
     - fence-agents-all
+    - fence-agents-ibm-powervs
+    - fence-agents-ibm-vpc
+    - fence-agents-virsh
     - haproxy
     - ipvsadm
     - keepalived
@@ -43,12 +46,25 @@ data:
     - spausedd
   arch_packages:
     aarch64:
+      - fence-agents-aliyun
+      - fence-agents-aws
+      - fence-agents-azure-arm
+      - fence-agents-gce
       - fence-virtd-cpg
       - fence-virtd-libvirt
       - fence-virtd-multicast
       - fence-virtd-serial
       - fence-virtd-tcp
+    ppc64le:
+      - fence-agents-lpar
+    s390x:
+      - fence-agents-zvm
     x86_64:
+      - fence-agents-aliyun
+      - fence-agents-aws
+      - fence-agents-azure-arm
+      - fence-agents-gce
+      - fence-agents-openstack
       - fence-virtd-cpg
       - fence-virtd-libvirt
       - fence-virtd-multicast
