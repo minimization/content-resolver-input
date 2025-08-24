@@ -8,7 +8,6 @@ data:
     - python3-tbb
     - tbb
     - tbb-devel
-    - tbb-doc
   labels:
     - eln
     - c10s
