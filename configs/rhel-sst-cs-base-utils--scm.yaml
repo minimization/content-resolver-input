@@ -8,21 +8,8 @@ data:
     - git
     - git-daemon
     - git-gui
+    - git-lfs
     - gitk
   labels:
     - eln
     - c10s
-  package_placeholders:
-    # Uses vendored dependencies in RHEL
-    - srpm_name: git-lfs
-      build_dependencies:
-        - git
-        - go-rpm-macros
-        - perl-Digest-SHA
-        - perl-Test-Harness
-        - rubygem-asciidoctor
-      rpms:
-        - rpm_name: git-lfs
-          description: Git extension for versioning large files
-          dependencies:
-            - git-core
