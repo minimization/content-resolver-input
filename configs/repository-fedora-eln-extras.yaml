@@ -73,6 +73,8 @@ data:
         - jack-audio-connection-kit
         # prefer grubby
         - sdubby
+        # rust lib crates pull in too much stuff.  It overwhelms CR
+        - rust-*-devel
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
