@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL packager
+  description: ELN Extras packages for Fedora CI
+  maintainer: fedora-ci
+  packages:
+    - beakerlib
+  labels:
+    - eln-extras
