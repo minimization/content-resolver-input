@@ -3,7 +3,7 @@ version: 1
 data:
   name: Performance Co-Pilot and Grafana
   description: Performance Co-Pilot and Grafana
-  maintainer: rhel-sst-pt-pcp
+  maintainer: rhel-pt-pcp
   packages:
     - ansible-pcp
     - chan
@@ -64,8 +64,8 @@ data:
     - pcp-pmda-mailq
     - pcp-pmda-memcache
     - pcp-pmda-mic
-    - pcp-pmda-mounts
     - pcp-pmda-mongodb
+    - pcp-pmda-mounts
     - pcp-pmda-mysql
     - pcp-pmda-named
     - pcp-pmda-netcheck
