@@ -18,7 +18,6 @@ data:
     - pcp-export-pcp2influxdb
     - pcp-export-pcp2json
     - pcp-export-pcp2openmetrics
-    - pcp-export-pcp2opentelemetry
     - pcp-export-pcp2spark
     - pcp-export-pcp2xml
     - pcp-export-pcp2zabbix
@@ -29,7 +28,6 @@ data:
     - pcp-import-ganglia2pcp
     - pcp-import-iostat2pcp
     - pcp-import-mrtg2pcp
-    - pcp-import-pmseries
     - pcp-import-sar2pcp
     - pcp-libs
     - pcp-libs-devel
@@ -54,7 +52,7 @@ data:
     - pcp-pmda-gpsd
     - pcp-pmda-hacluster
     - pcp-pmda-haproxy
-    - pcp-pmda-hdb
+    - pcp-pmda-json
     - pcp-pmda-libvirt
     - pcp-pmda-lio
     - pcp-pmda-lmsensors
@@ -75,7 +73,6 @@ data:
     - pcp-pmda-nginx
     - pcp-pmda-nvidia-gpu
     - pcp-pmda-openmetrics
-    - pcp-pmda-opentelemetry
     - pcp-pmda-openvswitch
     - pcp-pmda-oracle
     - pcp-pmda-pdns
@@ -84,7 +81,6 @@ data:
     - pcp-pmda-postgresql
     - pcp-pmda-rabbitmq
     - pcp-pmda-redis
-    - pcp-pmda-rocestat
     - pcp-pmda-roomtemp
     - pcp-pmda-rsyslog
     - pcp-pmda-samba
@@ -111,7 +107,7 @@ data:
     - perl-PCP-PMDA
     - python3-pcp
   labels:
-    - eln
+    - c10s
   arch_packages:
     aarch64:
       - pcp-pmda-bcc
