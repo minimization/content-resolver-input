@@ -275,7 +275,6 @@ data:
     - libkworkspace6
     - lokalize
     - lskat
-    - maliit-keyboard
     - marble
     - marble-astro
     - marble-plasma
@@ -312,6 +311,7 @@ data:
     - plasma-firewall
     - plasma-firewall-firewalld
     - plasma-integration
+    - plasma-keyboard
     - plasma-milou
     - plasma-mobile
     - plasma-mobile-sounds
