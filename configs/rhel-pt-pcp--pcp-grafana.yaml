@@ -6,10 +6,8 @@ data:
   maintainer: rhel-pt-pcp
   packages:
     - ansible-pcp
-    - chan
     - grafana
     - grafana-pcp
-    - HdrHistogram_c
     - js-d3-flame-graph
     - pcp
     - pcp-conf
