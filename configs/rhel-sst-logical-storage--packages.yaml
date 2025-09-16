@@ -48,24 +48,7 @@ data:
     - sanlock
     - stratisd
     - userspace-rcu
-  # RHEL-specific packages, not available in Fedora
-  package_placeholders:
-    - srpm_name: vdo
-      build_dependencies:
-        - libblkid-devel
-        - libuuid-devel
-        - device-mapper-devel
-        - device-mapper-event-devel
-        - valgrind-devel
-        - zlib-ng-compat-devel
-      rpms:
-        - rpm_name: vdo
-          description: Management tools for Virtual Data Optimizer
-          dependencies:
-            - libblkid
-            - libuuid
-            - device-mapper-event-libs
-            - zlib-ng-compat
+    - vdo
   labels:
     - eln
     - c10s
