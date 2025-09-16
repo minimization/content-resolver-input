@@ -25,7 +25,6 @@ data:
         - glibc-minimal-langpack
         - gmp
         - gnupg2
-        - gobject-introspection
         - hostname
         - langpacks-en
         - libcurl-minimal
@@ -69,7 +68,6 @@ data:
         - glibc-minimal-langpack
         - gmp
         - gnupg2
-        - gobject-introspection
         - hostname
         - langpacks-en
         - libcurl-minimal
