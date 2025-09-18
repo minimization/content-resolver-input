@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: liveinstall packages
+  description: LiveInstall packages not in RHEL
+  maintainer: tdawson
+  packages:
+    - anaconda-live
+    - livesys-scripts
+    - slitherer
+  labels:
+    - eln-extras
