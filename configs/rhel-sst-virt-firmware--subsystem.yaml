@@ -17,3 +17,6 @@ data:
   arch_packages:
     x86_64:
       - seabios
+      - virt-firmware-rs
+    aarch64:
+      - virt-firmware-rs
