@@ -4,9 +4,15 @@ data:
   name: liveinstall packages
   description: LiveInstall packages not in RHEL
   maintainer: tdawson
-  packages:
-    - anaconda-live
-    - livesys-scripts
-    - slitherer
+  packages: []
+  arch_packages:
+    aarch64:
+      - anaconda-live
+      - livesys-scripts
+      - slitherer
+    x86_64:
+      - anaconda-live
+      - livesys-scripts
+      - slitherer
   labels:
     - eln-extras
