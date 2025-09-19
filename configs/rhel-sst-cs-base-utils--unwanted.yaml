@@ -28,7 +28,6 @@ data:
     - cdrskin
     - metis64
     - metis64-devel
-    - tesseract-osd
     - sapconf
     - dump
     - screen
