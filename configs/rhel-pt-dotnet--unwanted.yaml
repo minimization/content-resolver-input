@@ -3,7 +3,7 @@ version: 1
 data:
   name: .NET Unwanted Packages
   description: Packages that .NET maintainers do not wish to maintain in RHEL 10
-  maintainer: rhel-sst-dotnet
+  maintainer: rhel-pt-dotnet
   labels:
     - eln
     - c10s
