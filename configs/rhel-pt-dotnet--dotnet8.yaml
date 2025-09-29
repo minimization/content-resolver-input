@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: .NET 8
+  description: .NET 8 SDK, tools and runtime
+  maintainer: rhel-pt-dotnet
+  packages:
+    # EOL in Nov, 2026
+    - dotnet-sdk-8.0
+    - dotnet-runtime-8.0
+    - aspnetcore-runtime-8.0
+  labels:
+    - eln
+    - c10s
