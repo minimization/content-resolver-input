@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: .NET 10
+  description: .NET 10 SDK, tools and runtime
+  maintainer: rhel-pt-dotnet
+  packages:
+    # EOL in Nov, 2028
+    - dotnet-sdk-10.0
+    - dotnet-runtime-10.0
+    - aspnetcore-runtime-10.0
+  labels:
+    - c10s
