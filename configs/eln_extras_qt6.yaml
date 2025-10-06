@@ -6,6 +6,7 @@ data:
   maintainer: tdawson
   packages:
     - python3-pyqt6-charts
+    - python3-pyside6
     - qt6-doc
     - qt6-qtcoap
     - qt6-qtgraphs
