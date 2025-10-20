@@ -24,6 +24,7 @@ data:
     - systemd-journal-remote
     - systemd-udev
     - polkit
+    - python3-zstandard
     - zram-generator
   labels:
     - eln
