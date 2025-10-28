@@ -10,5 +10,4 @@ data:
     - dotnet-runtime-8.0
     - aspnetcore-runtime-8.0
   labels:
-    - eln
     - c10s
