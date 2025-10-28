@@ -116,9 +116,11 @@ data:
         - python3-pytest-benchmark
         - python3-pytest-cov
         - python3-pytest-flakes
+        - python3-pytest-freezer
         - python3-pytest-mock
         - python3-pytest-randomly
         - python3-pytest-timeout
+        - python3-pytest-trio
         - python3-pytest-xdist
         - python3-pywbem
         - python3-quart
