@@ -1,0 +1,107 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: KDE Plasma Desktop
+  description: KDE Plasma Desktop ELN Extras packages
+  maintainer: tdawson
+  packages:
+    - aurorae
+    - breeze-cursor-theme
+    - breeze-gtk
+    - flatpak-kcm
+    - kactivitymanagerd
+    - kde-cli-tools
+    - kde-gtk-config
+    - kdecoration
+    - kdeplasma-addons
+    - kde-settings-plasma
+    - kdesu
+    - kglobalacceld
+    - kinfocenter
+    - kmenuedit
+    - knighttime
+    - kpipewire
+    - krdp
+    - kscreen
+    - kscreenlocker
+    - ksshaskpass
+    - ksystemstats
+    - kwayland
+    - kwin
+    - kwrited
+    - layer-shell-qt
+    - libksysguard
+    - ocean-sound-theme
+    - oxygen-icon-theme
+    - oxygen-sounds
+    - pam-kwallet
+    - plasma-activities
+    - plasma-activities-stats
+    - plasma-breeze
+    - plasma-browser-integration
+    - plasma-desktop
+    - plasma-discover
+    - plasma-discover-flatpak
+    - plasma-discover-notifier
+    - plasma-discover-offline-updates
+    - plasma-discover-packagekit
+    - plasma-discover-snap
+    - plasma-disks
+    - plasma-drkonqi
+    - plasma-firewall
+    - plasma-firewall-firewalld
+    - plasma-integration
+    - plasma-keyboard
+    - plasma-milou
+    - plasma-mobile
+    - plasma-mobile-sounds
+    - plasma-nano
+    - plasma-nm
+    - plasma-nm-fortisslvpn
+    - plasma-nm-openswan
+    - plasma-nm-openvpn
+    - plasma-nm-pptp
+    - plasma-nm-sstp
+    - plasma-nm-strongswan
+    - plasma-pa
+    - plasma-pass
+    - plasma-print-manager
+    - plasma-settings
+    - plasma-systemmonitor
+    - plasma-systemsettings
+    - plasma-thunderbolt
+    - plasma-vault
+    - plasma-wayland-protocols
+    - plasma-welcome
+    - plasma-workspace
+    - plasma-workspace-geolocation
+    - plasma-workspace-wallpapers
+    - polkit-kde
+    - powerdevil
+    - qqc2-breeze-style
+    - sddm
+    - sddm-breeze
+    - sddm-kcm
+    - sddm-themes
+    - spacebar
+    - spectacle
+    - xdg-desktop-portal-kde
+    - xwaylandvideobridge
+  arch_packages:
+    x86_64:
+      - bluedevil
+      - plasma-nm-l2tp
+      - plasma-nm-openconnect
+      - plasma-sdk
+    aarch64:
+      - bluedevil
+      - plasma-nm-l2tp
+      - plasma-nm-openconnect
+      - plasma-sdk
+    ppc64le:
+      - bluedevil
+      - plasma-nm-l2tp
+      - plasma-nm-openconnect
+      - plasma-sdk
+  labels:
+    - eln-extras

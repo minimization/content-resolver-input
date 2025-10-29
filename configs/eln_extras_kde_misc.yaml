@@ -1,0 +1,47 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: KDE Miscellaneous
+  description: KDE Miscellaneous ELN Extras packages
+  maintainer: tdawson
+  packages:
+    - atlantik
+    - gcompris-qt
+    - haruna
+    - java-kolabformat
+    - kcolorpicker-qt6
+    - kde-settings
+    - kde-settings-pulseaudio
+    - kdiagram
+    #- kexi
+    - kile
+    - kimageannotator-qt6
+    - kommit
+    - libkgapi
+    - libkolabxml
+    - marknote
+    - nheko
+    #- okteta
+    - phonon-qt6
+    - phonon-qt6-backend-vlc
+    - php-kolabformat
+    - polkit-qt6-1
+    - python3-kolabformat
+    - qt-creator
+    - qt-creator-data
+    - qt-creator-doc
+    - qt-creator-translations
+    - qt-settings
+    - ruqola
+  arch_packages:
+    x86_64:
+      - digikam
+      - kaidan
+    aarch64:
+      - digikam
+      - kaidan
+    ppc64le:
+      - digikam
+      - kaidan
+  labels:
+    - eln-extras
