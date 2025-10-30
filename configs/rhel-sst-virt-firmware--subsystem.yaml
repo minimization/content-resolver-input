@@ -18,5 +18,6 @@ data:
     x86_64:
       - seabios
       - virt-firmware-rs
+      - coconut-svsm
     aarch64:
       - virt-firmware-rs
