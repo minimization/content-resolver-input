@@ -30,5 +30,14 @@ data:
     - python3-build
     - python3-installer
     - python3-pyproject-hooks
+    # update the following to the main Python version when it changes
+    # (for c11s we want this to be 3.15)
+    - python3.14-freethreading
+    - python3.14-freethreading-debug
+    - python3.14-freethreading-devel
+    - python3.14-freethreading-idle
+    - python3.14-freethreading-libs
+    - python3.14-freethreading-test
+    - python3.14-freethreading-tkinter
   labels:
     - eln
