@@ -22,7 +22,7 @@ data:
     # and future/new versions normally until all dependents have been 
     # updated for the new python version, at which point the previous 
     # package will drop out of ELN.
-    - python3.14
+    - python3.15
   labels:
     # Before becoming the default, the new version does not belong in ELN,
     # but may be added to CS as a non-default version (AppStream).
