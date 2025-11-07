@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL 11 dropped packages
+  description: Packages in RHEL 10 which are being dropped from RHEL 11 but might be wanted in EPEL 11
+  maintainer: eln-sig
+  packages:
+    # ftp-server
+    # https://github.com/minimization/content-resolver-input/pull/1455
+    - ftp
+    - lftp
+    - vsftpd
+    # requires gtkmm-3.0
+    # https://github.com/fedora-eln/eln/issues/331
+    - fontforge
+    # RHEL 10 switched back to wget1
+    # https://github.com/minimization/content-resolver-input/pull/1219
+    - wget2
+    - wget2-wget
+  labels:
+    - eln-extras
