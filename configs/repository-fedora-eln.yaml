@@ -47,14 +47,14 @@ data:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/NFV/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        limit_arches: ["x86_64"]
+        limit_arches: ["aarch64", "x86_64"]
         priority: 2
       RT:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/RT/$basearch/os/
         priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        limit_arches: ["x86_64"]
+        limit_arches: ["aarch64", "x86_64"]
       SAP:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/SAP/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
