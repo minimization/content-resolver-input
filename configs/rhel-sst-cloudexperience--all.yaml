@@ -24,10 +24,6 @@ data:
       rpms:
         - rpm_name: opentelemetry-collector
           description: iOpenTelemetry Collector
-    - srpm_name: opentelemetry-collector-cloudwatch-config
-      rpms:
-        - rpm_name: opentelemetry-collector-cloudwatch-config
-          description: iOpenTelemetry Collector CloudWatch Config
   labels:
     - eln
     - c10s
