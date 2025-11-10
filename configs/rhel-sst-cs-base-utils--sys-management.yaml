@@ -48,7 +48,6 @@ data:
     - passwd
     - patch
     - patchutils
-    - python3-pyghmi
     - python3-volume_key
     - rootfiles
     - sblim-cmpi-base
