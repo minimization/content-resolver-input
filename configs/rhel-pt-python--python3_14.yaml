@@ -1,0 +1,61 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python 3.14
+  description: Python 3.14 interpreter and packages
+  maintainer: rhel-pt-python
+  packages:
+    # Main packages (AppStream)
+    - python3.14
+    - python3.14-cffi
+    - python3.14-charset-normalizer
+    - python3.14-cryptography
+    - python3.14-devel
+    - python3.14-idna
+    - python3.14-libs
+    - python3.14-lxml
+    - python3.14-mod_wsgi
+    - python3.14-numpy
+    - python3.14-numpy-f2py
+    - python3.14-pip
+    - python3.14-pip-wheel
+    - python3.14-ply
+    - python3.14-psycopg2
+    - python3.14-pycparser
+    - python3.14-PyMySQL
+    - python3.14-PyMySQL+rsa
+    - python3.14-pyyaml
+    - python3.14-requests
+    - python3.14-scipy
+    - python3.14-tkinter
+    - python3.14-urllib3
+    # CRB packages
+    - python3.14-Cython
+    - python3.14-debug
+    - python3.14-flit-core
+    - python3.14-freethreading
+    - python3.14-freethreading-debug
+    - python3.14-freethreading-devel
+    - python3.14-freethreading-idle
+    - python3.14-freethreading-libs
+    - python3.14-freethreading-test
+    - python3.14-freethreading-tkinter
+    - python3.14-idle
+    - python3.14-iniconfig
+    - python3.14-meson-python
+    - python3.14-packaging
+    - python3.14-pluggy
+    - python3.14-psycopg2-tests
+    - python3.14-pybind11
+    - python3.14-pybind11-devel
+    - python3.14-pyproject-metadata
+    - python3.14-pytest
+    - python3.14-semantic_version
+    - python3.14-setuptools
+    - python3.14-setuptools_scm
+    - python3.14-setuptools_scm+toml
+    - python3.14-setuptools-rust
+    - python3.14-setuptools-wheel
+    - python3.14-test
+  labels:
+    - c10s
