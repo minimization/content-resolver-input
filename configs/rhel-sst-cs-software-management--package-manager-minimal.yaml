@@ -8,5 +8,4 @@ data:
     - microdnf
     - rpm
   labels:
-    - eln
     - c10s

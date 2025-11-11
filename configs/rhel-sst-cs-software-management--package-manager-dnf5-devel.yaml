@@ -5,11 +5,11 @@ data:
   description: Supported development packages
   maintainer: rhel-sst-cs-software-management
   packages:
-    - libdnf-devel
+    - dnf5-devel
+    - libdnf5-devel
+    - libdnf5-cli-devel
     - popt-devel
-    - python3-dnf
-    - python3-libdnf
     - python3-rpm
     - rpm-devel
   labels:
-    - c10s
+    - eln
