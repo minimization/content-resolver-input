@@ -63,7 +63,6 @@ data:
       - policycoreutils
       - prefixdevname
       - procps-ng
-      - python3-dnf-plugin-versionlock
       - python3-libselinux
       # redhat-cloud-client-configuration
       - redhat-release
