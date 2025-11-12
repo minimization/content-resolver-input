@@ -30,6 +30,7 @@ data:
     - langpacks-fonts-eo
     - langpacks-fonts-eu
     - langpacks-fonts-fa
+    - langpacks-fonts-got
     - langpacks-fonts-gu
     - langpacks-fonts-he
     - langpacks-fonts-hi
@@ -37,6 +38,7 @@ data:
     - langpacks-fonts-ia
     - langpacks-fonts-iu
     - langpacks-fonts-ka
+    - langpacks-fonts-kab
     - langpacks-fonts-km
     - langpacks-fonts-kn
     - langpacks-fonts-ku
@@ -48,6 +50,7 @@ data:
     - langpacks-fonts-nb
     - langpacks-fonts-ne
     - langpacks-fonts-nn
+    - langpacks-fonts-nqo
     - langpacks-fonts-nr
     - langpacks-fonts-nso
     - langpacks-fonts-or
@@ -55,6 +58,7 @@ data:
     - langpacks-fonts-ru
     - langpacks-fonts-si
     - langpacks-fonts-ss
+    - langpacks-fonts-syr
     - langpacks-fonts-ta
     - langpacks-fonts-te
     - langpacks-fonts-th

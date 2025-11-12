@@ -41,6 +41,7 @@ data:
     - langpacks-fr
     - langpacks-ga
     - langpacks-gl
+    - langpacks-got
     - langpacks-gu
     - langpacks-he
     - langpacks-hi
@@ -54,6 +55,7 @@ data:
     - langpacks-iu
     - langpacks-ja
     - langpacks-ka
+    - langpacks-kab
     - langpacks-kk
     - langpacks-km
     - langpacks-kn
@@ -73,6 +75,7 @@ data:
     - langpacks-ne
     - langpacks-nl
     - langpacks-nn
+    - langpacks-nqo
     - langpacks-nr
     - langpacks-nso
     - langpacks-or
@@ -90,6 +93,7 @@ data:
     - langpacks-sr
     - langpacks-ss
     - langpacks-sv
+    - langpacks-syr
     - langpacks-ta
     - langpacks-te
     - langpacks-th
