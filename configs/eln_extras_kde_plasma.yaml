@@ -10,6 +10,7 @@ data:
     - breeze-gtk
     - flatpak-kcm
     - kactivitymanagerd
+    - kate-krunner-plugin
     - kde-cli-tools
     - kde-gtk-config
     - kdecoration
@@ -42,6 +43,7 @@ data:
     - plasma-desktop
     - plasma-discover
     - plasma-discover-flatpak
+    - plasma-discover-kns
     - plasma-discover-notifier
     - plasma-discover-offline-updates
     - plasma-discover-packagekit

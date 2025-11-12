@@ -55,6 +55,7 @@ data:
     - kcalc
     - kcharselect
     - kclock
+    - kclock-plasma-applet
     - kcolorchooser
     - kcron
     - kdebugsettings
@@ -89,6 +90,8 @@ data:
     - kigo
     - killbots
     - kio-admin
+    - kio-extras
+    - kio-extras-info
     - kirigami-gallery
     - kiriki
     - kiten
@@ -146,6 +149,7 @@ data:
     - kwalletmanager5
     - kwave
     - kweather
+    - kweather-plasma-applet
     - kwordquiz
     - kwrite
     - libkdegames
@@ -195,6 +199,8 @@ data:
       - arianna
       - cantor
       - falkon
+      - falkon-gnome-keyring
+      - falkon-kde
       - ghostwriter
       - grantlee-editor
       - k3b
@@ -202,6 +208,7 @@ data:
       - kaddressbook
       - kalarm
       - kalgebra
+      - kalgebra-plasma-applet
       - kdepim-addons
       - kdepim-runtime
       - kdevelop
@@ -231,6 +238,8 @@ data:
       - arianna
       - cantor
       - falkon
+      - falkon-gnome-keyring
+      - falkon-kde
       - ghostwriter
       - grantlee-editor
       - k3b
@@ -238,6 +247,7 @@ data:
       - kaddressbook
       - kalarm
       - kalgebra
+      - kalgebra-plasma-applet
       - kdepim-addons
       - kdepim-runtime
       - kdevelop
@@ -267,6 +277,8 @@ data:
       - arianna
       - cantor
       - falkon
+      - falkon-gnome-keyring
+      - falkon-kde
       - ghostwriter
       - grantlee-editor
       - k3b
@@ -274,6 +286,7 @@ data:
       - kaddressbook
       - kalarm
       - kalgebra
+      - kalgebra-plasma-applet
       - kdepim-addons
       - kdepim-runtime
       - kdevelop

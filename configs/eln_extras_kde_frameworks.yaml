@@ -46,7 +46,7 @@ data:
     - kf6-kimageformats-devel
     - kf6-kio-devel
     - kf6-kirigami-devel
-    - kf6-kirigami-addons
+    - kf6-kirigami-addons-devel
     - kf6-kitemmodels-devel
     - kf6-kitemviews-devel
     - kf6-kjobwidgets-devel

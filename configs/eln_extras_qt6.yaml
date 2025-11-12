@@ -8,32 +8,53 @@ data:
     - python3-pyqt6-charts
     - python3-pyside6
     - qt6-doc
-    - qt6-qtcoap
-    - qt6-qtgraphs
-    - qt6-qtgrpc
-    - qt6-qthttpserver
-    - qt6-qtmqtt
-    - qt6-qtopcua
+    - qt6-doc-html
+    - qt6-qtcoap-devel
+    - qt6-qtcoap-examples
+    - qt6-qtgraphs-devel
+    - qt6-qtgraphs-examples
+    - qt6-qtgrpc-devel
+    - qt6-qtgrpc-examples
+    - qt6-qthttpserver-devel
+    - qt6-qthttpserver-examples
+    - qt6-qtmqtt-devel
+    - qt6-qtmqtt-examples
+    - qt6-qtopcua-devel
+    - qt6-qtopcua-examples
   labels:
     - eln-extras
   arch_packages:
     aarch64:
       - python3-pyqt6-webengine
       - qt6ct
-      - qt6-qtquick3dphysics
-      - qt6-qtwebengine
+      - qt6-qtpdf-devel
+      - qt6-qtpdf-examples
+      - qt6-qtquick3dphysics-devel
+      - qt6-qtquick3dphysics-examples
+      - qt6-qtwebengine-devel
       - qt6-qtwebengine-devtools
-      - qt6-qtwebview
+      - qt6-qtwebengine-examples
+      - qt6-qtwebview-devel
+      - qt6-qtwebview-examples
     ppc64le:
       - python3-pyqt6-webengine
       - qt6ct
-      - qt6-qtwebengine
+      - qt6-qtpdf-devel
+      - qt6-qtpdf-examples
+      - qt6-qtwebengine-devel
       - qt6-qtwebengine-devtools
-      - qt6-qtwebview
+      - qt6-qtwebengine-examples
+      - qt6-qtwebview-devel
+      - qt6-qtwebview-examples
     x86_64:
       - python3-pyqt6-webengine
       - qt6ct
-      - qt6-qtquick3dphysics
-      - qt6-qtwebengine
+      - qt6-qtpdf-devel
+      - qt6-qtpdf-examples
+      - qt6-qtquick3dphysics-devel
+      - qt6-qtquick3dphysics-examples
+      - qt6-qtwebengine-devel
       - qt6-qtwebengine-devtools
-      - qt6-qtwebview
+      - qt6-qtwebengine-examples
+      - qt6-qtwebview-devel
+      - qt6-qtwebview-examples
