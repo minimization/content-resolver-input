@@ -12,7 +12,7 @@ data:
     - gstreamer1-plugins-ugly-free
     - gstreamer1-rtsp-server
     # Used for preview of camera images as plugin for pixbuf in Files
-    - libopenraw
+    - libopenraw-pixbuf-loader
   labels:
     - eln
     - c10s
