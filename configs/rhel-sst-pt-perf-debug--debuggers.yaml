@@ -21,4 +21,3 @@ data:
   arch_packages:
     x86_64:
       - libipt
-      - libipt-devel
