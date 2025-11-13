@@ -29,6 +29,7 @@ data:
     - libreoffice-langpack-af
     - libreoffice-langpack-ar
     - libreoffice-langpack-as
+    - libreoffice-langpack-be
     - libreoffice-langpack-bg
     - libreoffice-langpack-bn
     - libreoffice-langpack-br
@@ -58,6 +59,7 @@ data:
     - libreoffice-langpack-id
     - libreoffice-langpack-it
     - libreoffice-langpack-ja
+    - libreoffice-langpack-ka
     - libreoffice-langpack-kk
     - libreoffice-langpack-kn
     - libreoffice-langpack-ko

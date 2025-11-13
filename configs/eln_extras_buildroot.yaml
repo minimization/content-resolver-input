@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ELN Extras buildroot
+  description: ELN Extras buildroot packages
+  maintainer: eln-sig
+  packages:
+    # aka rust-packaging, for Fedora-style rust crates
+    - cargo-rpm-macros
+    - cargo-c
+    - tomcli
+    # new Golang packaging macros and tools
+    # a minimal subset of this may be added to ELN for RHEL packages
+    - go-vendor-tools+all
+    - askalono-cli
+    # for kalzium
+    - ocaml-facile-devel
+  labels:
+    - eln-extras

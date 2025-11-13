@@ -6,6 +6,7 @@ data:
   maintainer: yselkowitz
   packages:
     - cinnamon
+    - cinnamon-calendar-server
     - cinnamon-control-center
     - cinnamon-desktop
     - cinnamon-menus
@@ -14,7 +15,7 @@ data:
     - cinnamon-settings-daemon
     - cinnamon-translations
     - cjs
-    - folder-color-switcher
+    - folder-color-switcher-nemo
     - gnome-icon-theme
     - gnome-online-accounts-gtk
     - mintlocale
@@ -38,5 +39,6 @@ data:
     - xdg-desktop-portal-xapp
     - xed
     - xreader
+    - xreader-thumbnailer
   labels:
     - eln-extras

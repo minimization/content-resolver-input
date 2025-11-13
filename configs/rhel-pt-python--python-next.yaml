@@ -23,6 +23,17 @@ data:
     # updated for the new python version, at which point the previous 
     # package will drop out of ELN.
     - python3.15
+    - python3.15-debug
+    - python3.15-devel
+    - python3.15-freethreading
+    - python3.15-freethreading-debug
+    - python3.15-freethreading-devel
+    - python3.15-freethreading-idle
+    - python3.15-freethreading-test
+    - python3.15-freethreading-tkinter
+    - python3.15-idle
+    - python3.15-test
+    - python3.15-tkinter
   labels:
     # Before becoming the default, the new version does not belong in ELN,
     # but may be added to CS as a non-default version (AppStream).
