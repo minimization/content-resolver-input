@@ -27,7 +27,6 @@ data:
     - librabbitmq
     - librabbitmq-devel
     - libsmi
-    - libsmi-devel
     - libsndfile
     - libsndfile-devel
     - libva
