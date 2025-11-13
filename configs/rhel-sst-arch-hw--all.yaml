@@ -37,7 +37,6 @@ data:
       - bluez-obexd
       - libnxz
       - libnxz-devel
-      - libnxz-static
       - libocxl
       - libocxl-devel
     s390x:
