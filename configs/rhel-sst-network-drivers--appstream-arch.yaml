@@ -10,7 +10,6 @@ data:
       - mstflint
       - libvma
       - libvma-utils
-      - libvma-devel
       - ucx
       - ucx-cma
       - ucx-devel
@@ -20,7 +19,6 @@ data:
       - mstflint
       - libvma
       - libvma-utils
-      - libvma-devel
       - ucx
       - ucx-cma
       - ucx-devel
@@ -30,7 +28,6 @@ data:
       - mstflint
       - libvma
       - libvma-utils
-      - libvma-devel
       - ucx
       - ucx-cma
       - ucx-devel
