@@ -9,7 +9,6 @@ data:
   packages:
     # LLDP support
     - lldpad
-    - lldpad-devel
     - lldpd
     - lldpd-devel
   labels:
