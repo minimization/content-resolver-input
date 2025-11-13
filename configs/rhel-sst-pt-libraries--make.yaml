@@ -6,7 +6,6 @@ data:
   maintainer: rhel-sst-pt-libraries
   packages:
     - make
-    - make-devel
   labels:
     - eln
     - c10s
