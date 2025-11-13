@@ -7,7 +7,6 @@ data:
   packages:
     - libcap
     - libcap-devel
-    - libcap-static
     - libcap-ng
     - libcap-ng-devel
     - libcap-ng-python3
