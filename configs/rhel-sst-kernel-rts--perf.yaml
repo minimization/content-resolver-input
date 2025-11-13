@@ -13,3 +13,4 @@ data:
       - rteval
       - rteval-loads
       - stress-ng
+      - samestack
