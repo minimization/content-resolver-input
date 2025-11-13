@@ -33,7 +33,6 @@ data:
     - libknet1-devel
     - libknet1-plugins-all
     - libnozzle1
-    - libnozzle1-devel
     - omping
     - pacemaker-cts
     - pacemaker-doc
