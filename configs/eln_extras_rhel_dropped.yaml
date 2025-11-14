@@ -9,6 +9,7 @@ data:
     # https://github.com/minimization/content-resolver-input/pull/1455
     - ftp
     - lftp
+    - lftp-scripts
     - vsftpd
     # requires gtkmm-3.0
     # https://github.com/fedora-eln/eln/issues/331
