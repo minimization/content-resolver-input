@@ -8,6 +8,7 @@ data:
     - eln
     - c10s
   unwanted_packages:
+    - binutils-gold
     - cloog
     - cloog-devel
     - cppcheck
