@@ -12,7 +12,6 @@ data:
     - samba-winbind-clients
     - samba-winbind-krb5-locator
     - samba-krb5-printing
-    - ctdb
   labels:
     - eln
     - c10s
