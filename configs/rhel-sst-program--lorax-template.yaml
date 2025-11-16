@@ -8,7 +8,6 @@ data:
     - lorax
     - lorax-templates-rhel
     - anaconda
-    - anaconda-widgets
     - kexec-tools-anaconda-addon
     - anaconda-install-env-deps
     - dnf
@@ -35,9 +34,6 @@ data:
     - bzip2
     - systemd
     - rsyslog
-    - rgb
-    - xrandr
-    - xrdb
     - gsettings-desktop-schemas
     - nm-connection-editor
     - librsvg2
