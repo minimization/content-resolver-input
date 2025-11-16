@@ -29,7 +29,6 @@ data:
     - systemtap-runtime-virthost
     - systemtap-sdt-devel
     - systemtap-server
-    - systemtap-testsuite
     - valgrind
     - valgrind-devel
   labels:
