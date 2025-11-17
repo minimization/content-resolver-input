@@ -50,8 +50,6 @@ data:
     - python3-volume_key
     - rootfiles
     - sblim-cmpi-base
-    - sblim-gather
-    - sblim-gather-provider
     - sblim-indication_helper
     - sblim-sfcb
     - sblim-sfcc-devel
