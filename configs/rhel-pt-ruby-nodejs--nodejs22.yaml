@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Node.js 22 runtime
+  description: Node.js 22 (Javascript) runtime and NPM installer for application development
+  maintainer: rhel-pt-ruby-nodejs
+  packages:
+    - nodejs22
+    - nodejs22-devel
+    - nodejs22-full-i18n
+    - nodejs22-npm
+  labels:
+    - c10s
