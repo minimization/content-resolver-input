@@ -8,7 +8,6 @@ data:
     - nodejs
     - nodejs-devel
     - nodejs-npm
-    - nodejs-nodemon
   labels:
     - eln
     - c10s

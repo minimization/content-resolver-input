@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Node.js Development Tools
+  description: Node.js (Javascript) tools for application development
+  maintainer: rhel-pt-ruby-nodejs
+  packages:
+    - nodejs-nodemon
+  labels:
+    - eln
+    - c10s

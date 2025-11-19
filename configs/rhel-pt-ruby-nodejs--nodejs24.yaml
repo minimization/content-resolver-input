@@ -1,11 +1,14 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Node.js 24 runtime – alternative stream
+  name: Node.js 24 runtime
   description: Node.js 24 (Javascript) runtime and NPM installer for application development
   maintainer: rhel-pt-ruby-nodejs
   packages:
     - nodejs24
+    - nodejs24-devel
+    - nodejs24-full-i18n
     - nodejs24-npm
   labels:
+    - eln
     - c10s
