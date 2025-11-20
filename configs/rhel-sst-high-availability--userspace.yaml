@@ -17,6 +17,7 @@ data:
     - fence-agents-all
     - fence-agents-ibm-powervs
     - fence-agents-ibm-vpc
+    - fence-agents-nutanix-ahv
     - fence-agents-virsh
     - haproxy
     - ipvsadm
