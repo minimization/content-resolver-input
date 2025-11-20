@@ -2,11 +2,10 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   name: .NET Unwanted Packages
-  description: Packages that .NET maintainers do not wish to maintain in RHEL 10
+  description: Packages that .NET maintainers do not wish to maintain in RHEL 11
   maintainer: rhel-pt-dotnet
   labels:
     - eln
-    - c10s
   unwanted_packages:
     # We do not want to ship .NET Core 3.1 which will be EOL by late 2022
     - dotnet-sdk-3.1
@@ -24,3 +23,11 @@ data:
     - dotnet-sdk-7.0
     - dotnet-runtime-7.0
     - aspnetcore-runtime-7.0
+    # We do not want to ship .NET 8.0 which will be EOL by late 2026
+    - dotnet-sdk-8.0
+    - dotnet-runtime-8.0
+    - aspnetcore-runtime-8.0
+    # We do not want to ship .NET 9.0 which will be EOL by late 2026
+    - dotnet-sdk-9.0
+    - dotnet-runtime-9.0
+    - aspnetcore-runtime-9.0
