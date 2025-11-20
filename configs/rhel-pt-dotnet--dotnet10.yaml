@@ -10,4 +10,5 @@ data:
     - dotnet-runtime-10.0
     - aspnetcore-runtime-10.0
   labels:
+    - eln
     - c10s
