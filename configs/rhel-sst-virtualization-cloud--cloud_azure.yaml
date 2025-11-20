@@ -7,13 +7,15 @@ data:
   packages:
     - cloud-init
     - cloud-utils-growpart
-    - WALinuxAgent
-    - WALinuxAgent-udev
   labels:
     - eln
     - c10s
-  arch_packages:    
+  arch_packages:
     x86_64:
       - azure-vm-utils
+      - WALinuxAgent
+      - WALinuxAgent-udev
     aarch64:
       - azure-vm-utils
+      - WALinuxAgent
+      - WALinuxAgent-udev
