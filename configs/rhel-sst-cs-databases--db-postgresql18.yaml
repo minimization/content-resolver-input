@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL 18 client and server
+  description: Client tools and a server daemon for PostgreSQL 18
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - postgresql18
+    - postgresql18-contrib
+    - postgresql18-plperl
+    - postgresql18-plpython3
+    #- postgresq18l-pltcl
+    - postgresql18-server
+    - postgresql18-server-devel
+    - postgresql18-static
+    - postgresql18-test
+    - postgresql18-upgrade
+    - postgresql18-upgrade-devel
+  labels:
+    - c10s

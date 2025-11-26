@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL 18 extensions
+  description: Server extensions for PostgreSQL 18
+  maintainer: rhel-sst-cs-databases
+  packages:
+    - postgresql18-pgaudit
+    - postgresql18-pg_repack
+    - postgresql18-pgvector
+    - postgresql18-decoderbufs
+    - postgresql18-postgis
+  labels:
+    - c10s
