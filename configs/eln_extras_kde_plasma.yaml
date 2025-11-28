@@ -69,6 +69,7 @@ data:
     - plasma-pass
     - plasma-print-manager
     - plasma-settings
+    - plasma-setup
     - plasma-systemmonitor
     - plasma-systemsettings
     - plasma-thunderbolt
