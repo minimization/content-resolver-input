@@ -95,6 +95,14 @@ data:
         - pandoc
         # unwanted ocaml deps
         - ocaml-ounit*
+        # unwanted perl deps
+        - perl-Any-Moose
+        - perl-DateTime*
+        - perl-Moose
+        - perl-Mouse
+        - perl-Net-DNS
+        - perl-Perl-Critic
+        - perl-Test-Perl-Critic
         # unwanted python deps
         - black
         - python3-anyio
