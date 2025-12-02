@@ -69,6 +69,7 @@ data:
     - plasma-pass
     - plasma-print-manager
     - plasma-settings
+    - plasma-setup
     - plasma-systemmonitor
     - plasma-systemsettings
     - plasma-thunderbolt
@@ -92,17 +93,17 @@ data:
   arch_packages:
     x86_64:
       - bluedevil
-      - plasma-nm-l2tp
+      #- plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     aarch64:
       - bluedevil
-      - plasma-nm-l2tp
+      #- plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     ppc64le:
       - bluedevil
-      - plasma-nm-l2tp
+      #- plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
   labels:
