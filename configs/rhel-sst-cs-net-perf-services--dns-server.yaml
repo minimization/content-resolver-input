@@ -9,6 +9,7 @@ data:
     - bind-chroot
     - dnsmasq
     - unbound
+    - unbound-utils
   labels:
     - eln
     - c10s
