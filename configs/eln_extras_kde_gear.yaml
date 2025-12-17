@@ -178,14 +178,14 @@ data:
     - qcachegrind
     - qmlkonsole
     - qrca
-    #- rocs
+    - rocs
     - signon-kwallet-extension
     - skanlite
     - skladnik
     - step
     - svgpart
     - sweeper
-    #- umbrello
+    - umbrello
     - yakuake
   labels:
     - eln-extras
