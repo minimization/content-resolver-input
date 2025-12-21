@@ -5,8 +5,6 @@ data:
   description: Unwanted Performance Co-Pilot and Grafana components
   maintainer: rhel-pt-pcp
   unwanted_packages:
-    - chan-devel
-    - HdrHistogram_c-devel
     - parfait
     - pcp-manager
     - pcp-testsuite
