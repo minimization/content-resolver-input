@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: System Administration
+  description: System Administration packages in the RHEL Extensions repository
+  maintainer: bstinson
+  packages:
+    - collectl
+    - htop
+    - iftop
+    - nmon
+  labels:
+    - eln-extras
