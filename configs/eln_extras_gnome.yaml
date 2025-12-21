@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Extras
+  description: GNOME packages for ELN Extras
+  maintainer: gnome-sig
+  packages:
+    - devhelp
+    - evolution
+    - gnome-tweaks
+    - gucharmap
+    - meld
+    - simple-scan
+    - yelp
+  labels:
+    - eln-extras
