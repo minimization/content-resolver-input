@@ -13,5 +13,7 @@ data:
     - cosmic-player
     - cosmic-store
     - cosmic-term
+    # additional components
+    - cutecosmic-qt6
   labels:
     - eln-extras
