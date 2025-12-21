@@ -13,6 +13,7 @@ data:
     - kde-settings
     - kde-settings-pulseaudio
     - kdiagram
+    - kdiff3
     #- kexi
     - kile
     - kimageannotator-qt6
