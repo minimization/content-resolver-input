@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ROCm
+  description: ROCm packages in the RHEL Extensions repository
+  maintainer: rhel-sst-gpu
+  packages: []
+  arch_packages:
+    x86_64:
+      # meta-packages
+      - rocm
+      - rocm-devel
+  labels:
+    - eln-extras
