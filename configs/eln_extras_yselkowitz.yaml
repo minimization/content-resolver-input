@@ -8,6 +8,7 @@ data:
     - cargo-vendor-filterer
     - flatseal
     - latex2rtf
+    - qmplay2
     - robodoc
     - whatip
     - ttfautohint
