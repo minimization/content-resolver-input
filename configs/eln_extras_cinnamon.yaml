@@ -40,5 +40,12 @@ data:
     - xed
     - xreader
     - xreader-thumbnailer
+    # external apps
+    - blueman
+    - gnome-screenshot
+    - gnome-terminal
+    - simple-scan
   labels:
     - eln-extras
+  options:
+    - include-weak-deps
