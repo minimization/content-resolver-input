@@ -22,6 +22,7 @@ data:
     - mint-themes
     - mint-x-icons
     - mint-y-icons
+    - mint-y-theme
     - muffin
     - nemo
     - nemo-audio-tab
@@ -34,6 +35,7 @@ data:
     - nemo-seahorse
     - nemo-search-helpers
     - nemo-terminal
+    - paper-icon-theme
     - python3-xapp
     - xapps
     - xdg-desktop-portal-xapp
@@ -44,8 +46,6 @@ data:
     - blueman
     - gnome-screenshot
     - gnome-terminal
-    - simple-scan
+    - touchegg
   labels:
     - eln-extras
-  options:
-    - include-weak-deps
