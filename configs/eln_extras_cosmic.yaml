@@ -15,5 +15,6 @@ data:
     - cosmic-term
     # additional components
     - cutecosmic-qt6
+    - initial-setup-gui-wayland-cosmic
   labels:
     - eln-extras
