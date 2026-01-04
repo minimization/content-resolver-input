@@ -8,6 +8,6 @@ data:
     - egl-gbm
     - egl-wayland
     - egl-x11
-    - eglexternalplatform
+    - eglexternalplatform-devel
   labels:
     - eln-extras
