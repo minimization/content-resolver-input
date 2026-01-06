@@ -10,6 +10,10 @@ data:
     - pgvector
     - postgres-decoderbufs
     - postgis
+    - postgis-client
+    - postgis-docs
+    - postgis-upgrade
+    - postgis-utils
   labels:
     - eln
     - c10s
