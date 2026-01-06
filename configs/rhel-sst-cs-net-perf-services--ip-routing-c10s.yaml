@@ -6,7 +6,6 @@ data:
   maintainer: rhel-sst-cs-net-perf-services
   packages:
     - frr
-    - frr-rpki
     - ipcalc
   labels:
-    - eln
+    - c10s
