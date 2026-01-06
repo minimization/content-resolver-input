@@ -23,6 +23,10 @@ data:
     x86_64:
       - qemu-kvm
       - sevctl
+      - sgx-mpa
+      - sgx-pckid-tool
+      - sgx-pccs
+      - sgx-pccs-admin
       - snpguest
       - snphost
       - spice-protocol
