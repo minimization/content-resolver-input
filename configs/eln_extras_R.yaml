@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ELN Extras R
+  description: Statistical computing and graphics environment
+  maintainer: r-maint-sig
+  packages:
+    - R
+    - root-r-tools
+  labels:
+    - eln-extras
