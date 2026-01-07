@@ -9,7 +9,6 @@ data:
     - breeze-cursor-theme
     - breeze-gtk
     - flatpak-kcm
-    - grub2-breeze-theme
     - kactivitymanagerd
     - kate-krunner-plugin
     - kde-cli-tools
@@ -99,16 +98,19 @@ data:
   arch_packages:
     x86_64:
       - bluedevil
+      - grub2-breeze-theme
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     aarch64:
       - bluedevil
+      - grub2-breeze-theme
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     ppc64le:
       - bluedevil
+      - grub2-breeze-theme
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
