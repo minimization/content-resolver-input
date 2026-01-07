@@ -5,6 +5,7 @@ data:
   description: KDE Gear ELN Extras packages
   maintainer: tdawson
   packages:
+    - accessibility-inspector
     - alligator
     - analitza
     - ark
@@ -229,6 +230,7 @@ data:
       - pim-sieve-editor
       - skanpage
       - tokodon
+      - zanshin
     aarch64:
       - akonadi-calendar-tools
       - akonadiconsole
@@ -268,6 +270,7 @@ data:
       - pim-sieve-editor
       - skanpage
       - tokodon
+      - zanshin
     ppc64le:
       - akonadi-calendar-tools
       - akonadiconsole
@@ -307,3 +310,4 @@ data:
       - pim-sieve-editor
       - skanpage
       - tokodon
+      - zanshin
