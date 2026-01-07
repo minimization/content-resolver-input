@@ -6,5 +6,7 @@ data:
   maintainer: meta-sig
   packages:
     - conda
+    # has several header-only dependencies
+    - libmamba-devel
   labels:
     - eln-extras
