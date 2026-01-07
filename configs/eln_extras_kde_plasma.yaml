@@ -9,6 +9,7 @@ data:
     - breeze-cursor-theme
     - breeze-gtk
     - flatpak-kcm
+    - grub2-breeze-theme
     - kactivitymanagerd
     - kate-krunner-plugin
     - kde-cli-tools
@@ -17,6 +18,7 @@ data:
     - kdeplasma-addons
     - kde-settings-plasma
     - kdesu
+    - kgamma
     - kglobalacceld
     - kinfocenter
     - kmenuedit
@@ -54,6 +56,7 @@ data:
     - plasma-firewall-firewalld
     - plasma-integration
     - plasma-keyboard
+    - plasma-login-manager
     - plasma-milou
     - plasma-mobile
     - plasma-mobile-sounds
@@ -65,6 +68,7 @@ data:
     - plasma-nm-pptp
     - plasma-nm-sstp
     - plasma-nm-strongswan
+    - plasma-oxygen
     - plasma-pa
     - plasma-pass
     - plasma-print-manager
@@ -79,6 +83,8 @@ data:
     - plasma-workspace
     - plasma-workspace-geolocation
     - plasma-workspace-wallpapers
+    - plymouth-kcm
+    - plymouth-theme-breeze
     - polkit-kde
     - powerdevil
     - qqc2-breeze-style
