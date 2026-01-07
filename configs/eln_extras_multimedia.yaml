@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ELN Extras Multimedia
+  description: Multimedia ELN Extras packages
+  maintainer: multimedia-sig
+  packages:
+    - ffmpeg-free
+    - ffmpeg-free-devel
+    - ffmpegthumbnailer
+    - glad2
+    - gstreamer1-plugin-libav
+    - ladspa-devel
+    - lv2-devel
+    - minidlna
+    - mpv
+    - obs-studio
+    - uxplay
+    - vamp-plugin-sdk-devel
+    - xine-lib-devel
+    - xine-ui
+    - xine-ui-aaxine
+    - xine-ui-skins
+  arch_packages:
+    aarch64:
+      - libva-nvidia-driver
+    x86_64:
+      - libva-nvidia-driver
+  labels:
+    - eln-extras
