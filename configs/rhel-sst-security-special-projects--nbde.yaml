@@ -8,6 +8,7 @@ data:
     - clevis
     - clevis-dracut
     - clevis-luks
+    - clevis-pin-trustee
     - clevis-systemd
     - clevis-udisks2
     - llhttp
