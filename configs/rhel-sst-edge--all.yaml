@@ -30,6 +30,11 @@ data:
       - fdo-owner-cli
       - fdo-owner-onboarding-server
       - fdo-rendezvous-server
+      - go-fdo-client
+      - go-fdo-server
+      - go-fdo-server-manufacturer
+      - go-fdo-server-owner
+      - go-fdo-server-rendezvous
       - greenboot
       - greenboot-default-health-checks
     x86_64:
@@ -40,6 +45,11 @@ data:
       - fdo-owner-cli
       - fdo-owner-onboarding-server
       - fdo-rendezvous-server
+      - go-fdo-client
+      - go-fdo-server
+      - go-fdo-server-manufacturer
+      - go-fdo-server-owner
+      - go-fdo-server-rendezvous
       - greenboot
       - greenboot-default-health-checks
     ppc64le:
