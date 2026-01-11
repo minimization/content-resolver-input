@@ -186,6 +186,10 @@ data:
         - compat-golang-*-devel
         # needs further pruning before inclusion in RHEL
         - go-vendor-tools*
+        # built with bundled dependencies in RHEL, maintained in ELN branch
+        - fence-*
+        - pcs
+        - pcs-snmp
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
