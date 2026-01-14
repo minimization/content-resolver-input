@@ -18,5 +18,7 @@ data:
     x86_64:
       - seabios
       - virt-firmware-rs
+      - igvm
     aarch64:
       - virt-firmware-rs
+      - igvm
