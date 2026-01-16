@@ -11,7 +11,6 @@ data:
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
-      - PackageKit
       - WALinuxAgent
       - acl
       - amd-gpu-firmware
@@ -33,7 +32,6 @@ data:
       - cloud-utils-growpart
       - cockpit
       - cockpit-bridge
-      - cockpit-packagekit
       - cockpit-storaged
       - cockpit-system
       - cockpit-ws
@@ -49,6 +47,7 @@ data:
       - dbus
       - dnf5
       - dnf5-plugins
+      - dnf5daemon-server
       - dos2unix
       - dosfstools
       - dracut-config-generic
@@ -171,7 +170,6 @@ data:
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
-      - PackageKit
       - WALinuxAgent
       - acl
       - amd-gpu-firmware
@@ -193,7 +191,6 @@ data:
       - cloud-utils-growpart
       - cockpit
       - cockpit-bridge
-      - cockpit-packagekit
       - cockpit-storaged
       - cockpit-system
       - cockpit-ws
@@ -209,6 +206,7 @@ data:
       - dbus
       - dnf5
       - dnf5-plugins
+      - dnf5daemon-server
       - dos2unix
       - dosfstools
       - dracut-config-generic

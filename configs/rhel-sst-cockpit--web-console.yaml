@@ -10,7 +10,6 @@ data:
     # meta-package for the basic stuff (web server, bridge, core pages)
     - cockpit
     # recommended packages from cockpit metapackage
-    - cockpit-packagekit
     - cockpit-storaged
     - cockpit-doc
     # extensions maintained by Cockpit team
