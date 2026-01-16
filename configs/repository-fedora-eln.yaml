@@ -116,6 +116,8 @@ data:
         - python3-hypothesis
         - python3-iso8601
         - python3-ipython
+        - python3-jaraco-packaging
+        - python3-jaraco-test
         - python3-myst-parser
         - python3-pillow
         - python3-pretend
