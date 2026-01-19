@@ -15,5 +15,7 @@ data:
     - askalono-cli
     # for kalzium
     - ocaml-facile-devel
+    # for docs of various packages
+    - rubygem-asciidoctor
   labels:
     - eln-extras
