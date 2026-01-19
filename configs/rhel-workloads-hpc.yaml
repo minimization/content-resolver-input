@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL workloads for HPC on clouds
+  description: Userspace packages and configurations to setup HPC environments on clouds, like Azure, AWS
+  maintainer: rhel-workloads-hpc
+  labels:
+    - eln
+    - c10s
+  package_placeholders:
+    - srpm_name: rhel-hpc
+      limit_arches:        
+        - x86_64
+      build_dependencies: []
+      rpms:
+        - rpm_name: rhel-hpc
+          description: Meta-package for RHEL HPC, for installing packages for HPC on all platforms
+          dependencies: []
+        - rpm_name: rhel-hpc-azure
+          description: sub package for RHEL HPC on Azure, for installing additional packages for HPC on Azure
+          dependencies: []
+
+
