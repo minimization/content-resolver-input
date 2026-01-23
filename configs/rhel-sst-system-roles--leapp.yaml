@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Ansible collection for RHEL upgrades
+  description: redhat.leapp Ansible collection that handles RHEL upgrades
+  maintainer: rhel-sst-system-roles
+  packages: []
+  labels:
+    - eln
+    - c10s
+
+  package_placeholders:
+
+    - srpm_name: ansible-collection-redhat-leapp 
+      build_dependencies:
+        - ansible-core
+      rpms:
+        - rpm_name: ansible-collection-redhat-leapp
+          description: redhat.leapp Ansible collection that handles RHEL upgrades
+          dependencies:
+            - ansible-core
+ 
