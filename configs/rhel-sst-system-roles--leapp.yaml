@@ -4,22 +4,19 @@ data:
   name: Ansible collection for RHEL upgrades
   description: redhat.leapp Ansible collection that handles RHEL upgrades
   maintainer: rhel-sst-system-roles
-  packages:
-    - ansible-collection-redhat-leapp
+  packages: []
   labels:
+    - eln
     - c10s
 
-  # Adding a package to the workload that doesn't exist (yet) in the repositories.
   package_placeholders:
 
-    - srpm_name: ansible-collection-redhat-leapp  # SRPM name (mandatory)
-      build_dependencies:   # build dependencies (RPM names) of this SRPM (optional)
+    - srpm_name: ansible-collection-redhat-leapp 
+      build_dependencies:
         - ansible-core
-      limit_arches: []         # can be left empty for all arches (optional)
-      rpms:                 # List of the binary RPMs (mandatory)
-        - rpm_name: ansible-collection-redhat-leapp   # RPM name (mandatory)
-          description: redhat.leapp Ansible collection that handles RHEL upgrades  # Description (optional)
-          dependencies:     # runtime dependencies (RPM names) of this RPM (optional)
+      rpms:
+        - rpm_name: ansible-collection-redhat-leapp
+          description: redhat.leapp Ansible collection that handles RHEL upgrades
+          dependencies:
             - ansible-core
-          limit_arches: []  # can be left empty for all arches (optional)
  
