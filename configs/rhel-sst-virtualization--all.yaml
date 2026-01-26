@@ -21,6 +21,7 @@ data:
     - c10s
   arch_packages:
     x86_64:
+      - libkrun
       - qemu-kvm
       - sevctl
       - sgx-mpa
@@ -36,6 +37,7 @@ data:
     ppc64le:
       - powerpc-utils
     aarch64:
+      - libkrun
       - qemu-kvm
     s390x:
       - qemu-kvm
