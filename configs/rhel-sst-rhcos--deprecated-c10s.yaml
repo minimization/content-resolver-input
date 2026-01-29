@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CoreOS Deprecated
+  description: >
+    Deprecated components for CoreOS based systems. This should be distributed via bootable container images.
+
+  maintainer: rhel-sst-rhcos
+  packages:
+    - ssh-key-dir
+  labels:
+    - c10s
