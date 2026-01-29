@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: netdev naming compatibility
+  description: Packages for network interface naming compatibility
+  maintainer: rhel-sst-network-drivers
+  packages:
+    - net-naming-sysattrs
+  labels:
+    - eln
+    - c10s
