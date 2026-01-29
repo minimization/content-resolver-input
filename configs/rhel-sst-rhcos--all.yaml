@@ -3,7 +3,7 @@ version: 1
 data:
   name: CoreOS
   description: >
-    OS compontents for CoreOS based systems. This should be distributed via bootable container images.
+    OS components for CoreOS based systems. This should be distributed via bootable container images.
 
   maintainer: rhel-sst-rhcos
   packages:
@@ -16,7 +16,6 @@ data:
     - console-login-helper-messages-profile
     - ignition
     - ignition-validate
-    - ssh-key-dir
     # Packages co-maintained with the Edge SST
     - ostree
     - rpm-ostree
