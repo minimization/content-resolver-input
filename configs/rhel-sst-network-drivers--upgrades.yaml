@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Distribution upgrade supporting packages for networking
+  description: Packages for network interface naming compatibility
+  maintainer: rhel-sst-network-drivers
+  packages:
+    - net-naming-sysattrs
+  labels:
+    - eln
+    - c10s
