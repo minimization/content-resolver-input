@@ -92,7 +92,7 @@ data:
         - fop
         - ImageMagick
         # pulls in GHC stack
-        - pandoc
+        - pandoc-cli
         # unwanted ocaml deps
         - ocaml-ounit*
         # unwanted perl deps
