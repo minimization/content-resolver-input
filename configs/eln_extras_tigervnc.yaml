@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: TigerVNC
+  description: VNC client and server
+  maintainer: jgrulich
+  packages:
+    - tigervnc
+    - tigervnc-wayland-server
+  labels:
+    - eln-extras
