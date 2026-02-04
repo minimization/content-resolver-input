@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GHC
+  description: GNU Haskell Compiler
+  maintainer: petersen
+  packages:
+    - ghc
+  labels:
+    - eln-extras
