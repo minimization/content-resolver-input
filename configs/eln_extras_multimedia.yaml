@@ -15,6 +15,7 @@ data:
     - minidlna
     - mpv
     - obs-studio
+    - obs-studio-devel
     - uxplay
     - vamp-plugin-sdk-devel
     - xine-lib-devel
