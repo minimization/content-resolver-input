@@ -26,22 +26,26 @@ data:
     x86_64:
       - guestfs-tools
       - libguestfs
+      - libguestfs-inspect-icons
       - supermin
       - virt-p2v
       - virt-top
       - virt-v2v
+      - virt-win-reg
     aarch64:
       - guestfs-tools
       - libguestfs
       - libguestfs-inspect-icons
       - supermin
       - virt-top
+      - virt-win-reg
     s390x:
-      - libguestfs-inspect-icons
       - guestfs-tools
       - libguestfs
+      - libguestfs-inspect-icons
       - supermin
       - virt-top
+      - virt-win-reg
   package_placeholders:
     # RHEL-specific package, not in Fedora
     - srpm_name: libguestfs-fssupport
