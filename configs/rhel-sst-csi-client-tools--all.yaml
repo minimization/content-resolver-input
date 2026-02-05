@@ -26,7 +26,6 @@ data:
             - policycoreutils-python-utils
             - python3-pyyaml
             - python3-requests
-            - python3-six
             - systemd
             - tar
     - srpm_name: rhc
@@ -67,7 +66,6 @@ data:
             - python3-pyyaml
             - python3-requests
             - python3-rpm
-            - python3-six
         - rpm_name: insights-core-selinux
           description: insights-core-selinux
           dependencies:
