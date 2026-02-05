@@ -6,6 +6,6 @@ data:
   maintainer: r-maint-sig
   packages:
     - R
-    - root-r-tools
+#    - root-r-tools
   labels:
     - eln-extras
