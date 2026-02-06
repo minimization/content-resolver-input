@@ -1,0 +1,12 @@
+---
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: trustee
+  description: Tools for attesting confidential guests and providing secrets
+  maintainer: rhel-sst-security-special-projects
+  packages:
+    - trustee-kbs
+  labels:
+    - eln
+    - c10s
