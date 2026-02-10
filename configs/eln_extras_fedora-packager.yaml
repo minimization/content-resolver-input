@@ -6,14 +6,19 @@ data:
   maintainer: epel-sig
   packages:
     - bodhi-client
-#    - fedora-easy-karma
+    - fbrnch
+    - fedora-easy-karma
     - fedora-packager
     - fedora-repoquery
     - fedpkg
     - git
     - koji
+    - koji-tool
     - mock
+    - pkgtreediff
+    - rhbzquery
     - rpm-build
+    - rpmbuild-order
     - rpmdevtools
     - rpmdistro-repoquery
   labels:

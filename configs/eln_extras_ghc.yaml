@@ -6,6 +6,22 @@ data:
   maintainer: petersen
   packages:
     - ghc
+    - ghc-rpm-macros-extra
+    - ghc-rpm-macros-quick
+    - ghc-srpm-macros
+    # development tools
+    - alex
+    - c2hs
+    - cabal-install
     - cabal-rpm
+    - cpphs
+    - happy
+    - hasktags
+    - hlint
+    - hscolour
+    - hwk
+    - ormolu
+    - shake
+    - stack
   labels:
     - eln-extras
