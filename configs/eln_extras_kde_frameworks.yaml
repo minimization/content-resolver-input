@@ -35,7 +35,7 @@ data:
     - kf6-kded-devel
     - kf6-kdesu-devel
     - kf6-kdnssd-devel
-    - kf6-kdoctools
+    - kf6-kdoctools-devel
     - kf6-kfilemetadata-devel
     - kf6-kglobalaccel-devel
     - kf6-kguiaddons-devel
