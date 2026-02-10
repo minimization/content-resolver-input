@@ -5,18 +5,11 @@ data:
   description: Packages we do not want to ship for Python 3 in RHEL 11+
   maintainer: rhel-pt-python
   # See also rhel-pt-python--unwanted-python3.yaml, this only extends the set
-  unwanted_packages:
+  unwanted_source_packages:
     # older Python versions
     - python3.12
-    - python3.12-libs
     - python3.13
-    - python3.13-libs
     # other packages
-    - python3-wheel
-  # components for the above
-  unwanted_source_packages:
-    - python3.12
-    - python3.13
     - python-wheel
   labels:
     - eln
