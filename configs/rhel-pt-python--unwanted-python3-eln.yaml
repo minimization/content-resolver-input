@@ -9,7 +9,14 @@ data:
     # older Python versions
     - python3.12
     - python3.13
-    # other packages
+    # setuptools no longer needs this to build wheels
+    # https://github.com/fedora-eln/eln/issues/284
     - python-wheel
+    # no further need for Python2 code compatibility
+    # https://github.com/fedora-eln/eln/issues/255
+    - python-six
+    # unmaintained upstream, to be deprecated in Fedora
+    # https://github.com/fedora-eln/eln/issues/431
+    - python-dateutil
   labels:
     - eln
