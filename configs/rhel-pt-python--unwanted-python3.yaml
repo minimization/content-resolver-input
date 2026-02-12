@@ -15,8 +15,10 @@ data:
     - python3.10
     - python3.11
     - pypy
-    - pypy2
-    - pypy3
+    - pypy2.7
+    - pypy3.10
+    - pypy3.11
+    - pypy3.12
     # Python Maint prefers the standard library venv module
     - python-virtualenv
     # tox depends on virtualenv, and generally isn't something we want to support in RHEL
