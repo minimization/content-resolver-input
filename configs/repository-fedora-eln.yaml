@@ -72,15 +72,25 @@ data:
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         exclude: &eln_build_excludes
+        # prefer environment-modules
+        - Lmod
+        # prefer lynx for text-www-browser
+        - elinks
+        - w3m
         # prefer bind
         - bind9-next*
-        # prefer postfix and sendmail
+        # RHEL packages are named ipa*
+        - freeipa*
+        # prefer postfix for MT/smtpd/smtpdaemon
         - esmtp
         - esmtp-local-delivery
         - exim
         - opensmtpd
-        # RHEL packages are named ipa*
-        - freeipa*
+        - sendmail
+        # prefer libisoburn/xorriso for mkisofs
+        - cdrkit
+        # prefer grubby
+        - sdubby
         # openjdk-portable packages are built against the oldest supported
         # RHEL version, will not be imported into next RHEL version
         - java-*-openjdk-portable*
@@ -146,8 +156,6 @@ data:
         - python3-twisted
         - python3-werkzeug
         - tox
-        # prefer grubby
-        - sdubby
         # ffmpeg is unwanted
         - ffmpeg-free-devel
         - libav*-free*
