@@ -51,7 +51,6 @@ data:
     - parallel
     - pngquant
     - poi-tracker
-    - pore
     - pv
     - python3-pystemd
     - python3-testslide
