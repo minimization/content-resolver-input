@@ -8,6 +8,7 @@ data:
   packages:
     - keylime
     - keylime-agent-rust
+    - keylime-agent-rust-push
     - python3-alembic
     - python3-lark
     - python3-sqlalchemy
