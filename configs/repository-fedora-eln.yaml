@@ -200,6 +200,11 @@ data:
         - fence-*
         - pcs
         - pcs-snmp
+        # Fedora-only BuildRequires of mesa
+        - DirectX-Headers*
+        - flatbuffers-*
+        - mingw*-python3*
+        - xtensor-*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
