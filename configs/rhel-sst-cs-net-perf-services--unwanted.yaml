@@ -73,7 +73,9 @@ data:
     - sane-frontends
     - sendmail
     - spamassassin
+    - tcl8
     - timedatex
+    - tk8
     - xsane
   labels:
     - eln
