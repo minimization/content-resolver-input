@@ -7,10 +7,13 @@ data:
   packages:
     - dnf5
     - dnf5-plugin-automatic
+    - dnf5-plugin-manifest
     - dnf5-plugins
     - dnf5daemon-client
     - dnf5daemon-server
     - libdnf5-plugin-actions
+    - libdnf5-plugin-appstream
+    - libdnf5-plugin-rhsm
     - librhsm
     - python3-libdnf5
     - python3-libdnf5-cli
