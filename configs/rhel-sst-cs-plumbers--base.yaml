@@ -19,6 +19,8 @@ data:
     - bash
     - bash-completion
     - util-linux
+    - util-linux-i18n
+    - util-linux-script
     - systemd
     - systemd-container
     - systemd-journal-remote
