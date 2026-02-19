@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Voikko
+  description: Finnish spellchecking support
+  maintainer: rhel-sst-display-i18n
+  labels:
+    - eln
+    - c10s
+  packages:
+    - enchant2-voikko
