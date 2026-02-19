@@ -8,6 +8,9 @@ data:
     - samba
     - samba-client
     - cifs-utils
+    - samba-gpupdate
+    - samba-tools
+    - samba-usershares
     - samba-winbind
     - samba-winbind-clients
     - samba-winbind-krb5-locator
