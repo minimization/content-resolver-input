@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IMA packages
+  description: Packages providing Integrity Measurement Architecture support
+  maintainer: rhel-sst-kernel-livepatching
+  packages:
+    - ima-evm-utils
+  labels:
+    - eln
+    - c10s
