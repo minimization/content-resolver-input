@@ -116,6 +116,7 @@ data:
         # unwanted python deps
         - black
         - python3-anyio
+        - python3-cattrs
         - python3-coverage
         - python3-docs
         - python3-etcd
@@ -140,6 +141,7 @@ data:
         - python3-pytest-freezer
         - python3-pytest-mock
         - python3-pytest-randomly
+        - python3-pytest-subprocess
         - python3-pytest-timeout
         - python3-pytest-trio
         - python3-pytest-xdist
@@ -147,13 +149,13 @@ data:
         - python3-quart
         - python3-quart-trio
         - python3-recommonmark
-        - python3-scikit-build-core
         - python3-subunit
         - python3-tomlkit
         - python3-tox-current-env
         - python3-trio
         - python3-trustme
         - python3-twisted
+        - python3-virtualenv
         - python3-werkzeug
         - tox
         # ffmpeg is unwanted
