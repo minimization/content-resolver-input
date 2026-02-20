@@ -75,7 +75,7 @@ data:
         # prefer environment-modules
         - Lmod
         # prefer lynx for text-www-browser
-        - elinks
+        #- elinks
         - w3m
         # prefer bind
         - bind9-next*
