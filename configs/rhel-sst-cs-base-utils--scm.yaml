@@ -6,6 +6,7 @@ data:
   maintainer: rhel-sst-cs-base-utils
   packages:
     - git
+    - git-all
     - git-daemon
     - git-gui
     - git-lfs
