@@ -5,7 +5,6 @@ data:
   description: Red Hat tools for Content, Subscriptions and Insights.
   maintainer: rhel-sst-csi-client-tools
   packages:
-    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
     - subscription-manager
     - subscription-manager-cockpit
