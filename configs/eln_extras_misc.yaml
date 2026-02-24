@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Assorted EPEL packages
+  description: Assorted ELN Extras packages
+  maintainer: epel-packagers-sig
+  packages:
+    - cups-pdf
+    - GraphicsMagick
+    - impressive
+    - inotify-tools
+    - netcat
+  labels:
+    - eln-extras
