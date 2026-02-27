@@ -19,7 +19,6 @@ data:
     - python3-cython
     - python3-sphinx
     - python3-pytest
-    - python3-psutil-tests
     - py3c-devel
     - py3c-doc
     - marshalparser
