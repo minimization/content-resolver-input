@@ -13,6 +13,7 @@ data:
     - dnf5daemon-server
     - libdnf5-plugin-actions
     - libdnf5-plugin-appstream
+    - libdnf5-plugin-expired-pgp-keys
     - libdnf5-plugin-rhsm
     - librhsm
     - python3-libdnf5
