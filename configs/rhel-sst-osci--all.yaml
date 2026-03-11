@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Red Hat test packages
+  description: Used for testing Fedora/CS/RHEL CI
+  maintainer: rhel-arr-osci
+  packages:
+    - redhat-internal-test-package
+  labels:
+    - eln
+    - c10s
