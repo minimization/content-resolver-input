@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: glibc plugin for .local name resolution
+  description: glibc plugin for .local name resolution
+  maintainer: rhel-sst-cs-plumbers
+  packages:
+    - nss-mdns
+  labels:
+    - eln
+    - c10s
