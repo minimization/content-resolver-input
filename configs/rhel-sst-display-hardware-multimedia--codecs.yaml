@@ -7,8 +7,6 @@ data:
   packages:
     - libtheora
     - sbc
-    - lame
-    - libmad
     - mpg123
     - lame
     - a52dec
