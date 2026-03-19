@@ -7,6 +7,7 @@ data:
   packages:
     - egl-gbm
     - egl-wayland
+    - egl-wayland2
     - egl-x11
     - eglexternalplatform-devel
   labels:
