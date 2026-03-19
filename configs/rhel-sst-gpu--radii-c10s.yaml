@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: radii
+  description: Hardware driver manager
+  maintainer: rhel-sst-gpu
+  packages:
+    - radii
+  labels:
+    - c10s
