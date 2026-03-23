@@ -1,8 +1,8 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: Intel QAT Userspace
-  description: Userspace libraries and tools for Intel QAT hardware crypto device
+  name: Intel Accelerators Userspace
+  description: Userspace libraries and tools for Intel hardware accelerator devices, QAT and IAA.
   maintainer: rhel-sst-kernel-security
   arch_packages:
     x86_64:
@@ -17,6 +17,8 @@ data:
       - qat-zstd-plugin
       - qat-zstd-plugin-devel
       - qat-zstd-plugin-static
+      - intel-qpl
+      - intel-qpl-devel
   labels:
     - eln
     - c10s
