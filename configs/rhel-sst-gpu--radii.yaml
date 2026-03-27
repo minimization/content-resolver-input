@@ -11,9 +11,6 @@ data:
       rpms:
         - rpm_name: radii
           description: Hardware driver manager for Linux
-          dependencies:
-            - glibc
-            - radii-hwdata-nv
     - srpm_name: radii-hwdata-nv
       build_dependencies:
         - jq
