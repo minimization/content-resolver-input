@@ -39,6 +39,7 @@ data:
     - pcp-pmda-bash
     - pcp-pmda-bind2
     - pcp-pmda-bonding
+    - pcp-pmda-bpftrace
     - pcp-pmda-cifs
     - pcp-pmda-cisco
     - pcp-pmda-dbping
@@ -83,6 +84,7 @@ data:
     - pcp-pmda-postfix
     - pcp-pmda-postgresql
     - pcp-pmda-rabbitmq
+    - pcp-pmda-rds
     - pcp-pmda-redis
     - pcp-pmda-rocestat
     - pcp-pmda-roomtemp
@@ -114,24 +116,16 @@ data:
     - eln
   arch_packages:
     aarch64:
-      - pcp-pmda-bcc
       - pcp-pmda-bpf
-      - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-perfevent
     ppc64le:
-      - pcp-pmda-bcc
       - pcp-pmda-bpf
-      - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-perfevent
-    s390x:
-      - pcp-pmda-bcc
-      - pcp-pmda-bpftrace
+    s390x: []
     x86_64:
-      - pcp-pmda-bcc
       - pcp-pmda-bpf
-      - pcp-pmda-bpftrace
       - pcp-pmda-infiniband
       - pcp-pmda-mssql
       - pcp-pmda-perfevent
