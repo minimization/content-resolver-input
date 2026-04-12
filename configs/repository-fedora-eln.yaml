@@ -165,7 +165,11 @@ data:
         - libswresample-free*
         - libswscale-free*
         # only qt6 in ELN
+        - kf5-*
         - qt5-*
+        # KDE is unwanted
+        - extra-cmake-modules
+        - kf6-*
         # qtwebengine is unwanted
         - qt6-qtpdf
         - qt6-qtpdf-devel
