@@ -29,6 +29,8 @@ data:
     - lldb-devel
     - python3-lldb
     - python3-lit
+    - annobin-plugin-clang
+    - annobin-plugin-llvm
   labels:
     - eln
     - c10s
