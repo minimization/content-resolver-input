@@ -39,7 +39,11 @@ data:
     - snapper
     - snapper-backup
     - pam_snapper
-    - vaultwarden
     - wp-cli
+  arch_packages:
+    aarch64:
+      - vaultwarden
+    x86_64:
+      - vaultwarden
   labels:
     - eln-extras
