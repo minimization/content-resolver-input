@@ -8,7 +8,7 @@ data:
     - lemonldap-ng
     - mhonarc
     - openarc
-    - sympa
-    - sympa-httpd
+#    - sympa
+#    - sympa-httpd
   labels:
     - eln-extras

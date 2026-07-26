@@ -27,7 +27,6 @@ data:
     - dehydrated
     - dislocker
     - fuse-dislocker
-    - efifs
     - eggdrop
     - elinks
     - freeze
@@ -73,5 +72,10 @@ data:
     - w3m-img
     - x509viewer
     - zerofree
+  arch_packages:
+    aarch64:
+      - efifs
+    x86_64:
+      - efifs
   labels:
     - eln-extras
