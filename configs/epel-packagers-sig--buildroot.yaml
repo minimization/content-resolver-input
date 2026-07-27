@@ -18,5 +18,8 @@ data:
     # for docs of various packages
     - rubygem-asciidoctor
     - scdoc
+    # for koji
+    - centpkg-minimal
+    - fedpkg-minimal
   labels:
     - eln-extras
