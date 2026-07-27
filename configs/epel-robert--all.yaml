@@ -21,6 +21,7 @@ data:
     - bgpq4
     - bird
     - bridge-utils
+    - cabextract
     - calamaris
     - coturn
     - coturn-utils

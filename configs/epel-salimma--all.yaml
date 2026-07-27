@@ -5,6 +5,10 @@ data:
   description: salimma EPEL packages
   maintainer: salimma
   packages:
+    - 7zip
+    - 7zip-reduced
+    - 7zip-standalone
+    - 7zip-standalone-all
     - archlinux-keyring
     - autojump
     - fennel
