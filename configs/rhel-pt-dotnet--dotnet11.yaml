@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: .NET 11
+  description: .NET 11 SDK, tools and runtime
+  maintainer: rhel-pt-dotnet
+  packages:
+    # EOL in Nov, 2028
+    - dotnet-sdk-aot-11.0
+    - dotnet-sdk-11.0
+    - dotnet-runtime-11.0
+    - aspnetcore-runtime-11.0
+  labels:
+    - c10s
