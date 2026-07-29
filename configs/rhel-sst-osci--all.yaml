@@ -6,6 +6,17 @@ data:
   maintainer: rhel-arr-osci
   packages:
     - redhat-internal-test-package
+  package_placeholders:
+    - srpm_name: osci-internal-test-package
+      build_dependencies:
+        - python3-devel
+      rpms:
+        - rpm_name: osci-internal-test-package
+          description: Dummy package for testing and onboarding purposes
+          dependencies:
+            - python3
+        - rpm_name: osci-internal-test-package-noarch
+          description: Architecture-independent files for dummy test package
   labels:
     - eln
     - c10s
