@@ -6,19 +6,16 @@ data:
     Unwanted packages from Network Management
 
   maintainer: rhel-sst-network-management
-  unwanted_packages:
-    - NetworkManager-team
+  unwanted_source_packages:
     - libteam
-    - teamd
-    - teamd-devel
     - nispor
-    - python3-nispor
     - usb_modeswitch
-    - usb_modeswitch-data
     # On RHEL-8, jimtcl was a dependency of usb_modeswitch. Since
     # usb_modeswitch 2.6.0, the package depends on /usr/bin/tclsh (tcl). We no
     # longer want to maintain jimtcl moving forward.
     - jimtcl
+  unwanted_packages:
+    - NetworkManager-team
   labels:
     - eln
     - c10s

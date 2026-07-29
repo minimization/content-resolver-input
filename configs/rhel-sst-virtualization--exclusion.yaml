@@ -4,7 +4,7 @@ data:
   name: Virtualization Exclusion List
   description: Virtualization packages not required in RHEL-9
   maintainer: rhel-sst-virtualization
-  unwanted_packages:
+  unwanted_source_packages:
     - fakechroot
     - fakeroot
     - gperftools
@@ -21,14 +21,6 @@ data:
     - spice-xpi
     - virt-rhel-module
     - xen
-    - xen-devel
-    - xen-hypervisor
-    - xen-libs
-    - xen-licenses
-    - xen-ocaml
-    - xen-ocaml-devel
-    - xen-runtime
-    - xen-doc
   labels:
     - eln
     - c10s
