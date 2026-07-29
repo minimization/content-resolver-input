@@ -8,9 +8,7 @@ data:
     - rubygem-bson # A dependency of rubygem-mongo.
     - rubygem-bundler
     - rubygem-mongo # MongoDB is not shipped anymore.
-  unwanted_packages:
     - rubygem-rspec-its
-    - rubygem-rspec-its-doc
     - rubypick
   labels:
     - eln

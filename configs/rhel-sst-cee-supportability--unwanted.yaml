@@ -4,7 +4,7 @@ data:
   name: Unwanted packages for CEE Support
   description: Packages not shipping in RHEL 9
   maintainer: rhel-sst-cee-supportability
-  unwanted_packages:
+  unwanted_source_packages:
     - rhel-tools-container
     - sos-collector
     - redhat-support-lib-python
