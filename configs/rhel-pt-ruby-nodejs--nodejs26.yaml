@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Node.js 26 runtime
+  description: Node.js 26 (Javascript) runtime and NPM installer for application development
+  maintainer: rhel-pt-ruby-nodejs
+  packages:
+    - nodejs26
+    - nodejs26-devel
+    - nodejs26-full-i18n
+    - nodejs26-npm
+  labels:
+    - eln

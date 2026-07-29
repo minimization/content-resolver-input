@@ -10,5 +10,4 @@ data:
     - nodejs24-full-i18n
     - nodejs24-npm
   labels:
-    - eln
     - c10s
