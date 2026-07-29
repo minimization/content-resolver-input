@@ -24,6 +24,7 @@ data:
     - alsa-utils
     - speexdsp
     - hwloc
+    - libzpc2-tools
     - pigz
     - s390utils
     - s390utils-se-data
@@ -50,6 +51,7 @@ data:
       - libzfcphbaapi-docs
       - libzpc
       - libzpc-devel
+      - libzpc2-provider
       - openssl-ibmca
       - qclib
       - qclib-devel
