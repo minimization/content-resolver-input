@@ -8,7 +8,7 @@ data:
     - bzip3
     - bzip3-tools
     - cvs
-#    - gscan2pdf
+    - gscan2pdf
     - indent
     - shigofumi
     - unpaper
