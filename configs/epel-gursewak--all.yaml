@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gursewak packages
+  description: gursewak EPEL packages
+  maintainer: gursewak
+  packages:
+    - bcvk
+  labels:
+    - eln-extras
