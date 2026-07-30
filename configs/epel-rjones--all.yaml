@@ -4,7 +4,13 @@ data:
   name: rjones packages
   description: rjones EPEL packages
   maintainer: rjones
-  packages:
-    - qemu-sanity-check
+  packages: []
+  arch_packages:
+    aarch64:
+      - qemu-sanity-check
+    s390x:
+      - qemu-sanity-check
+    x86_64:
+      - qemu-sanity-check
   labels:
     - eln-extras
