@@ -10,9 +10,11 @@ data:
     - grafana-pcp
     - js-d3-flame-graph
     - pcp
+    - pcp-atop
     - pcp-conf
     - pcp-devel
     - pcp-doc
+    - pcp-dstat
     - pcp-export-pcp2elasticsearch
     - pcp-export-pcp2graphite
     - pcp-export-pcp2influxdb
@@ -25,6 +27,7 @@ data:
     - pcp-export-zabbix-agent
     - pcp-geolocate
     - pcp-gui
+    - pcp-htop
     - pcp-import-collectl2pcp
     - pcp-import-ganglia2pcp
     - pcp-import-iostat2pcp
@@ -40,8 +43,9 @@ data:
     - pcp-pmda-bind2
     - pcp-pmda-bonding
     - pcp-pmda-bpftrace
-    - pcp-pmda-cifs
+    - pcp-pmda-chrony
     - pcp-pmda-cisco
+    - pcp-pmda-db2
     - pcp-pmda-dbping
     - pcp-pmda-denki
     - pcp-pmda-dm
@@ -64,7 +68,6 @@ data:
     - pcp-pmda-lustrecomm
     - pcp-pmda-mailq
     - pcp-pmda-memcache
-    - pcp-pmda-mic
     - pcp-pmda-mongodb
     - pcp-pmda-mounts
     - pcp-pmda-mysql
@@ -87,7 +90,6 @@ data:
     - pcp-pmda-rds
     - pcp-pmda-redis
     - pcp-pmda-rocestat
-    - pcp-pmda-roomtemp
     - pcp-pmda-rsyslog
     - pcp-pmda-samba
     - pcp-pmda-sendmail
@@ -119,6 +121,7 @@ data:
       - pcp-pmda-bpf
       - pcp-pmda-infiniband
       - pcp-pmda-perfevent
+      - pcp-pmda-resctrl
     ppc64le:
       - pcp-pmda-bpf
       - pcp-pmda-infiniband
