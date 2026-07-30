@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GIMP
+  description: GIMP packages in the RHEL Extensions repository
+  maintainer: rhel-sst-cs-base-utils
+  packages:
+    - gimp
+  labels:
+    - eln-extras
