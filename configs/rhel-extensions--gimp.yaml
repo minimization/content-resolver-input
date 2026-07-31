@@ -13,4 +13,4 @@ data:
     x86_64:
       - gimp
   labels:
-    - eln-extras
+    - eln-extensions
