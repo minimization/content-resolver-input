@@ -4,7 +4,13 @@ data:
   name: GIMP
   description: GIMP packages in the RHEL Extensions repository
   maintainer: rhel-sst-cs-base-utils
-  packages:
-    - gimp
+  packages: []
+  arch_packages:
+    aarch64:
+      - gimp
+    ppc64le:
+      - gimp
+    x86_64:
+      - gimp
   labels:
     - eln-extras
