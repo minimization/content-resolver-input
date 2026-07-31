@@ -7,7 +7,6 @@ data:
   packages:
     - alpine
     - cadaver
-    - diskimage-builder
     - edg-gridftp-client
     - edg-mkgridmap
     - fetch-crl
@@ -15,5 +14,12 @@ data:
     - tig
     - uberftp
     - xfig
+  arch_packages:
+    aarch64:
+      - diskimage-builder
+    s390x:
+      - diskimage-builder
+    x86_64:
+      - diskimage-builder
   labels:
     - eln-extras
