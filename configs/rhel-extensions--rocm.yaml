@@ -11,4 +11,4 @@ data:
       - rocm
       - rocm-devel
   labels:
-    - eln-extras
+    - eln-extensions

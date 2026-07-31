@@ -10,4 +10,4 @@ data:
     - iftop
     - nmon
   labels:
-    - eln-extras
+    - eln-extensions

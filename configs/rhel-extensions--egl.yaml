@@ -11,4 +11,4 @@ data:
     - egl-x11
     - eglexternalplatform-devel
   labels:
-    - eln-extras
+    - eln-extensions
