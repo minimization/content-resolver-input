@@ -4,7 +4,11 @@ data:
   name: gursewak packages
   description: gursewak EPEL packages
   maintainer: gursewak
-  packages:
-    - bcvk
+  packages: []
+  arch_packages:
+    aarch64:
+      - bcvk
+    x86_64:
+      - bcvk
   labels:
     - eln-extras
