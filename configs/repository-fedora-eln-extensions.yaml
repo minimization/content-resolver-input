@@ -1,0 +1,62 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: Fedora ELN Extensions (backed by rawhide)
+  description: Fedora ELN Extensions, based on Fedora ELN with rawhide as a backup for missing packages
+  maintainer: eln-sig
+  source:
+    repos:
+      BaseOS:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/BaseOS/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 1
+      AppStream:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/AppStream/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 1
+      CRB:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/CRB/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 1
+      Extensions:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/Extensions/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 3
+      buildroot:
+        baseurl: https://kojipkgs.fedoraproject.org/repos/eln-build/latest/$basearch/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: &eln_build_excludes
+        # prefer bind
+        - bind9-next*
+        # RHEL packages are named ipa*
+        - freeipa*
+        # openjdk-portable packages are built against the oldest supported
+        # RHEL version, will not be imported into next RHEL version
+        - java-*-openjdk-portable*
+        # prefer pipewire-jack
+        - jack-audio-connection-kit
+        # prefer grubby
+        - sdubby
+        # rust lib crates pull in too much stuff.  It overwhelms CR
+        - rust-*-devel
+        priority: 4
+      Rawhide:
+        baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        exclude: *eln_build_excludes
+        priority: 5
+    releasever: "rawhide"
+    architectures:
+      - aarch64
+      - ppc64le
+      - s390x
+      - x86_64
+    composeinfo: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/metadata/composeinfo.json
+    base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']
