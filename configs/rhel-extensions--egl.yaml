@@ -10,5 +10,6 @@ data:
     - egl-wayland2
     - egl-x11
     - eglexternalplatform-devel
+    - libXNVCtrl-devel
   labels:
     - eln-extensions
