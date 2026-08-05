@@ -11,3 +11,4 @@ data:
     - nodejs26-npm
   labels:
     - eln
+    - c10s
