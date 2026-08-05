@@ -201,8 +201,6 @@ data:
         # golang module packages are obsolete and unwanted
         - golang-*-devel
         - compat-golang-*-devel
-        # needs further pruning before inclusion in RHEL
-        - go-vendor-tools*
         # built with bundled dependencies in RHEL, maintained in ELN branch
         - fence-*
         - pcs
