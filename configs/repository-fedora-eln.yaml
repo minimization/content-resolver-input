@@ -188,6 +188,12 @@ data:
         - texlive-xindy
         # unwanted toolchain
         - mold
+        # dogtag-pki build deps which are vendored in RHEL
+        - fasterxml-oss-parent
+        - jackson-*
+        - jboss-jaxrs-2.0-api
+        - jboss-logging*
+        - pki-resteasy*
         # unwanted weak dependency of ibus-table, ibus-typing-booster
         - python3-simpleaudio
         # unwanted (and rarely used) build dep, pulls in hundreds of Perl deps
