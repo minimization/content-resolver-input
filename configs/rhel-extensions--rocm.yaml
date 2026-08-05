@@ -10,5 +10,6 @@ data:
       # meta-packages
       - rocm
       - rocm-devel
+      - rocm-test
   labels:
     - eln-extensions
