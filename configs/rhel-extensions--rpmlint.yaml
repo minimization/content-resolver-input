@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RPMLint
+  description: Development packages in the RHEL Extensions repository
+  maintainer: bstinson
+  packages:
+    - rpmlint
+  labels:
+    - eln-extensions
