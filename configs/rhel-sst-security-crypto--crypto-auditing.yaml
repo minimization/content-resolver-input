@@ -6,6 +6,7 @@ data:
   maintainer: rhel-sst-security-crypto
   packages:
     - crypto-auditing-agent
+    - crypto-auditing-log-parser
   labels:
     - eln
     - c10s
