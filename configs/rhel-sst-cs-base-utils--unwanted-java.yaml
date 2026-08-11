@@ -47,7 +47,6 @@ data:
     - munge-maven-plugin
     - objectweb-pom
     - os-maven-plugin
-    - plexus-build-api
     - plexus-component-api
     - plexus-i18n
     - plexus-velocity
