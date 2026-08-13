@@ -9,7 +9,6 @@ data:
     - oath-toolkit
     - luarocks
     - leveldb
-    - fmt
     - gfs2-utils
     - pcp-pmda-gfs2
   labels:
