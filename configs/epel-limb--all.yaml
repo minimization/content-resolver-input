@@ -12,7 +12,7 @@ data:
     - distcc-gnome
     - distcc-server
     - easy-rsa
-#    - filezilla
+    - filezilla
     - firebird
     - gftp
     - gitolite3
