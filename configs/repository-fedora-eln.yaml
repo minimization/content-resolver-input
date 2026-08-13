@@ -137,10 +137,12 @@ data:
         - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
+        - python3-pytest-datadir
         - python3-pytest-flakes
         - python3-pytest-freezer
         - python3-pytest-mock
         - python3-pytest-randomly
+        - python3-pytest-regressions
         - python3-pytest-socket
         - python3-pytest-subprocess
         - python3-pytest-timeout
