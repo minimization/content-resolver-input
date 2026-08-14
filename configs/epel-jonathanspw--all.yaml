@@ -12,6 +12,7 @@ data:
     - cinfo
     - clifm
     - collectd
+    - collectd-*
     - davfs2
     - dhcpdump
     - dnstracer
