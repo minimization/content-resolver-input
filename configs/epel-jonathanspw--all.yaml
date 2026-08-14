@@ -8,7 +8,7 @@ data:
     - afetch
     - basez
     - btop
-#    - certbot
+    - certbot
     - cinfo
     - clifm
     - collectd
