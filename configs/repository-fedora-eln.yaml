@@ -182,7 +182,6 @@ data:
         - xen-libs
         - xen-devel
         # rust lib crates are unwanted; dependencies must be vendored
-        - cargo-c
         - cargo-rpm-macros
         - rust-srpm-macros
         - rust-*-devel
