@@ -78,7 +78,9 @@ data:
     - kdialog
     - kdiamond
     - kdnssd
+    - kdominate
     - keditbookmarks
+    - keepsecret
     - keysmith
     - kfind
     - kfourinline
