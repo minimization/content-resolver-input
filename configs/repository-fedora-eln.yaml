@@ -24,6 +24,10 @@ data:
         - qt6-qtwebengine
         # unwanted weak dependency of ibus-table, ibus-typing-booster
         - python3-simpleaudio
+        # unused and conflicting compat version
+        - protobuf3-c
+        - protobuf3-c-compiler
+        - protobuf3-c-devel
         priority: 1
       AppStream:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/AppStream/$basearch/os/
@@ -211,6 +215,10 @@ data:
         - flatbuffers-*
         - mingw*-python3*
         - xtensor-*
+        # unused and conflicting compat version
+        - protobuf3-c
+        - protobuf3-c-compiler
+        - protobuf3-c-devel
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
