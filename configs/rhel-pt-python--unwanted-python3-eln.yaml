@@ -19,7 +19,8 @@ data:
     # unmaintained upstream, to be deprecated in Fedora
     # https://github.com/fedora-eln/eln/issues/431
     - python-dateutil
-    # deprecated() compat package
+    # deprecated() compat packages
     - python-setuptools80
+    - python-flit-core3
   labels:
     - eln
