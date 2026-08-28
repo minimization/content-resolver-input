@@ -35,6 +35,7 @@ data:
     - glibc-langpack-bn
     - glibc-langpack-bo
     - glibc-langpack-br
+    - glibc-langpack-brh
     - glibc-langpack-brx
     - glibc-langpack-bs
     - glibc-langpack-byn
@@ -180,6 +181,7 @@ data:
     - glibc-langpack-st
     - glibc-langpack-sv
     - glibc-langpack-sw
+    - glibc-langpack-syr
     - glibc-langpack-szl
     - glibc-langpack-ta
     - glibc-langpack-tcy
