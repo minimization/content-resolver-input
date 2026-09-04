@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Intel Compute
+  description: Intel Compute packages in the RHEL Extensions repository
+  maintainer: rhel-sst-gpu
+  packages: []
+  arch_packages:
+    x86_64:
+      # meta-package
+      - intel-compute-runtime
+  labels:
+    - eln-extensions
