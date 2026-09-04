@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL on Microsoft Azure Confidential VMs
+  description: Tools to assist running RHEL as a guest on Microsoft Azure CVMs
+  maintainer: rhel-sst-virtualization-cloud
+  packages:
+    - cvm-encrypt-image
+    - cvm-reseal
+  labels:
+    - eln
