@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: NVIDIA packages
+  description: NVIDIA packages in the RHEL Extensions repository
+  maintainer: rhel-gpuaccelerators-nvidia-rm
+  packages:
+    - dnf-plugin-nvidia
+    - egl-gbm
+    - egl-wayland
+    - egl-wayland-devel
+    - egl-wayland2
+    - egl-x11
+    - eglexternalplatform-devel
+    - nvidia-libXNVCtrl
+    - nvidia-libXNVCtrl-devel
+    - nvidia-modprobe
+    - nvidia-persistenced
+    - nvidia-settings
+  labels:
+    - eln-extensions
