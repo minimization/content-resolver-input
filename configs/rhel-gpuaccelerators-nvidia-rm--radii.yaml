@@ -3,7 +3,7 @@ version: 1
 data:
   name: radii
   description: Hardware driver manager
-  maintainer: rhel-sst-gpu
+  maintainer: rhel-gpuaccelerators-nvidia-rm
   package_placeholders:
     - srpm_name: radii
       build_dependencies:
