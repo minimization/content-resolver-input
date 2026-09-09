@@ -1,0 +1,86 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: NVIDIA packages
+  description: NVIDIA packages in the RHEL Extensions repository
+  maintainer: rhel-gpuaccelerators-nvidia-rm
+  packages:
+    - egl-gbm
+    - egl-wayland
+    - egl-wayland-devel
+    - egl-wayland2
+    - egl-x11
+    - eglexternalplatform-devel
+    - nvidia-libXNVCtrl
+    - nvidia-libXNVCtrl-devel
+  package_placeholders:
+    - srpm_name: dnf-plugin-nvidia
+      build_dependencies:
+        - python3-devel
+      rpms:
+        - rpm_name: dnf-plugin-nvidia
+          description: DNF plugin needed to remove old kernel modules
+          dependencies:
+            - python3
+            - python3-dnf
+
+    - srpm_name: nvidia-settings
+      build_dependencies:
+        - dbus-devel
+        - desktop-file-utils
+        - gcc
+        - gtk3-devel
+        - jansson-devel
+        - libXext-devel
+        - libXrandr-devel
+        - libXv-devel
+        - libXxf86vm-devel
+        - libappstream-glib
+        - libvdpau-devel
+        - m4
+        - mesa-libEGL-devel
+        - mesa-libGL-devel
+        - vulkan-headers
+        - wayland-devel
+      rpms:
+        - rpm_name: nvidia-settings
+          description: Configure the NVIDIA graphics driver
+          dependencies:
+            - cairo
+            - gdk-pixbuf2
+            - glib2
+            - glibc
+            - gtk3
+            - jansson
+            - libX11
+            - libXxf86vm
+            - libvdpau
+            - libwayland-client
+            - nvidia-libXNVCtrl
+            - pango
+    - srpm_name: nvidia-persistenced
+      build_dependencies:
+        - gcc
+        - libtirpc-devel
+        - m4
+        - systemd-rpm-macros
+      rpms:
+        - rpm_name: nvidia-persistenced
+          description: A daemon to maintain persistent software state in the NVIDIA driver
+          dependencies:
+            - bash
+            - glibc
+            - libtirpc
+            - shadow-utils
+            - systemd
+    - srpm_name: nvidia-modprobe
+      build_dependencies:
+        - gcc
+        - m4
+      rpms:
+        - rpm_name: nvidia-modprobe
+          description: NVIDIA kernel module loader
+          dependencies:
+            - glibc
+  labels:
+    - eln-extensions
